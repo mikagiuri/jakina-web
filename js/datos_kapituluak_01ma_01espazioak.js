@@ -616,8 +616,49 @@ KAPITULUAK["01ma_01espazioak"] = {
      "mota": "zentratua",
      "blokeak": [
       {
-       "mota": "testua",
-       "html": "table( columns: 2, stroke: 0.5pt +grisa, align: center + horizon, inset: 6pt, table.header([<strong>Sinboloak</strong>], [<strong>Esanahia</strong>]), <math display=\"inline\"><mo>∀</mo></math>, [edozein], <math display=\"inline\"><mo>∃</mo></math>, [existitzen da], <math display=\"inline\"><mrow><mo>∃</mo><mi>!</mi></mrow></math>, [bakar bat existitzen da], <math display=\"inline\"><mi>/</mi></math>, [non], <math display=\"inline\"><mo stretchy=\"false\" form=\"prefix\">|</mo></math>, [non], <math display=\"inline\"><mi>∧</mi></math>, [eta], <math display=\"inline\"><mi>∨</mi></math>, [edo], <math display=\"inline\"><mo>⇒</mo></math>, [halabeharrez (inplikatzen du)], <math display=\"inline\"><mo>⇔</mo></math>, [baldin eta soilik baldin], )"
+       "mota": "taula",
+       "goiburua": [
+        "<strong>Sinboloak</strong>",
+        "<strong>Esanahia</strong>"
+       ],
+       "lerroak": [
+        [
+         "<math display=\"inline\"><mo>∀</mo></math>",
+         "edozein"
+        ],
+        [
+         "<math display=\"inline\"><mo>∃</mo></math>",
+         "existitzen da"
+        ],
+        [
+         "<math display=\"inline\"><mrow><mo>∃</mo><mi>!</mi></mrow></math>",
+         "bakar bat existitzen da"
+        ],
+        [
+         "<math display=\"inline\"><mi>/</mi></math>",
+         "non"
+        ],
+        [
+         "<math display=\"inline\"><mo stretchy=\"false\" form=\"prefix\">|</mo></math>",
+         "non"
+        ],
+        [
+         "<math display=\"inline\"><mi>∧</mi></math>",
+         "eta"
+        ],
+        [
+         "<math display=\"inline\"><mi>∨</mi></math>",
+         "edo"
+        ],
+        [
+         "<math display=\"inline\"><mo>⇒</mo></math>",
+         "halabeharrez (inplikatzen du)"
+        ],
+        [
+         "<math display=\"inline\"><mo>⇔</mo></math>",
+         "baldin eta soilik baldin"
+        ]
+       ]
       }
      ]
     },
@@ -834,8 +875,30 @@ KAPITULUAK["01ma_01espazioak"] = {
        "mota": "zentratua",
        "blokeak": [
         {
-         "mota": "testua",
-         "html": "table( columns: 3, stroke: none, align: center, column-gutter: 1.2em, row-gutter: 0.5em, <math display=\"inline\"><mrow><mn>0</mn><mo>*</mo><mn>0</mn><mo>=</mo><mn>0</mn></mrow></math>, [], <math display=\"inline\"><mrow><mn>0</mn><mo>∘</mo><mn>0</mn><mo>=</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mn>0</mn><mo>*</mo><mn>1</mn><mo>=</mo><mn>0</mn></mrow></math>, [], <math display=\"inline\"><mrow><mn>0</mn><mo>∘</mo><mn>1</mn><mo>=</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><mn>1</mn><mo>*</mo><mn>0</mn><mo>=</mo><mn>0</mn></mrow></math>, [], <math display=\"inline\"><mrow><mn>1</mn><mo>∘</mo><mn>0</mn><mo>=</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><mn>1</mn><mo>*</mo><mn>1</mn><mo>=</mo><mn>1</mn></mrow></math>, [], <math display=\"inline\"><mrow><mn>1</mn><mo>∘</mo><mn>1</mn><mo>=</mo><mn>0</mn></mrow></math>, )"
+         "mota": "taula",
+         "goiburua": [],
+         "lerroak": [
+          [
+           "<math display=\"inline\"><mrow><mn>0</mn><mo>*</mo><mn>0</mn><mo>=</mo><mn>0</mn></mrow></math>",
+           "",
+           "<math display=\"inline\"><mrow><mn>0</mn><mo>∘</mo><mn>0</mn><mo>=</mo><mn>0</mn></mrow></math>"
+          ],
+          [
+           "<math display=\"inline\"><mrow><mn>0</mn><mo>*</mo><mn>1</mn><mo>=</mo><mn>0</mn></mrow></math>",
+           "",
+           "<math display=\"inline\"><mrow><mn>0</mn><mo>∘</mo><mn>1</mn><mo>=</mo><mn>1</mn></mrow></math>"
+          ],
+          [
+           "<math display=\"inline\"><mrow><mn>1</mn><mo>*</mo><mn>0</mn><mo>=</mo><mn>0</mn></mrow></math>",
+           "",
+           "<math display=\"inline\"><mrow><mn>1</mn><mo>∘</mo><mn>0</mn><mo>=</mo><mn>1</mn></mrow></math>"
+          ],
+          [
+           "<math display=\"inline\"><mrow><mn>1</mn><mo>*</mo><mn>1</mn><mo>=</mo><mn>1</mn></mrow></math>",
+           "",
+           "<math display=\"inline\"><mrow><mn>1</mn><mo>∘</mo><mn>1</mn><mo>=</mo><mn>0</mn></mrow></math>"
+          ]
+         ]
         }
        ]
       },
@@ -892,8 +955,45 @@ KAPITULUAK["01ma_01espazioak"] = {
        "mota": "zentratua",
        "blokeak": [
         {
-         "mota": "testua",
-         "html": "table( columns: 5, stroke: 0.5pt +grisa, align: center + horizon, inset: 6pt, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>,</mo><mi>*</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><msub><mi>a</mi><mn>1</mn></msub></math>, <math display=\"inline\"><msub><mi>a</mi><mn>2</mn></msub></math>, <math display=\"inline\"><mi>⋯</mi></math>, <math display=\"inline\"><msub><mi>a</mi><mi>n</mi></msub></math>, <math display=\"inline\"><msub><mi>a</mi><mn>1</mn></msub></math>, <math display=\"inline\"><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>*</mo><msub><mi>a</mi><mn>1</mn></msub></mrow></math>, <math display=\"inline\"><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>*</mo><msub><mi>a</mi><mn>2</mn></msub></mrow></math>, <math display=\"inline\"><mi>⋯</mi></math>, <math display=\"inline\"><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>*</mo><msub><mi>a</mi><mi>n</mi></msub></mrow></math>, <math display=\"inline\"><msub><mi>a</mi><mn>2</mn></msub></math>, <math display=\"inline\"><mrow><msub><mi>a</mi><mn>2</mn></msub><mo>*</mo><msub><mi>a</mi><mn>1</mn></msub></mrow></math>, <math display=\"inline\"><mrow><msub><mi>a</mi><mn>2</mn></msub><mo>*</mo><msub><mi>a</mi><mn>2</mn></msub></mrow></math>, <math display=\"inline\"><mi>⋯</mi></math>, <math display=\"inline\"><mrow><msub><mi>a</mi><mn>2</mn></msub><mo>*</mo><msub><mi>a</mi><mi>n</mi></msub></mrow></math>, <math display=\"inline\"><mi>⋮</mi></math>, <math display=\"inline\"><mi>⋮</mi></math>, <math display=\"inline\"><mi>⋮</mi></math>, <math display=\"inline\"><mo>⋱</mo></math>, <math display=\"inline\"><mi>⋮</mi></math>, <math display=\"inline\"><msub><mi>a</mi><mi>n</mi></msub></math>, <math display=\"inline\"><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>*</mo><msub><mi>a</mi><mn>1</mn></msub></mrow></math>, <math display=\"inline\"><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>*</mo><msub><mi>a</mi><mn>2</mn></msub></mrow></math>, <math display=\"inline\"><mi>⋯</mi></math>, <math display=\"inline\"><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>*</mo><msub><mi>a</mi><mi>n</mi></msub></mrow></math>, )"
+         "mota": "taula",
+         "goiburua": [],
+         "lerroak": [
+          [
+           "<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>,</mo><mi>*</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>",
+           "<math display=\"inline\"><msub><mi>a</mi><mn>1</mn></msub></math>",
+           "<math display=\"inline\"><msub><mi>a</mi><mn>2</mn></msub></math>",
+           "<math display=\"inline\"><mi>⋯</mi></math>",
+           "<math display=\"inline\"><msub><mi>a</mi><mi>n</mi></msub></math>"
+          ],
+          [
+           "<math display=\"inline\"><msub><mi>a</mi><mn>1</mn></msub></math>",
+           "<math display=\"inline\"><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>*</mo><msub><mi>a</mi><mn>1</mn></msub></mrow></math>",
+           "<math display=\"inline\"><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>*</mo><msub><mi>a</mi><mn>2</mn></msub></mrow></math>",
+           "<math display=\"inline\"><mi>⋯</mi></math>",
+           "<math display=\"inline\"><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>*</mo><msub><mi>a</mi><mi>n</mi></msub></mrow></math>"
+          ],
+          [
+           "<math display=\"inline\"><msub><mi>a</mi><mn>2</mn></msub></math>",
+           "<math display=\"inline\"><mrow><msub><mi>a</mi><mn>2</mn></msub><mo>*</mo><msub><mi>a</mi><mn>1</mn></msub></mrow></math>",
+           "<math display=\"inline\"><mrow><msub><mi>a</mi><mn>2</mn></msub><mo>*</mo><msub><mi>a</mi><mn>2</mn></msub></mrow></math>",
+           "<math display=\"inline\"><mi>⋯</mi></math>",
+           "<math display=\"inline\"><mrow><msub><mi>a</mi><mn>2</mn></msub><mo>*</mo><msub><mi>a</mi><mi>n</mi></msub></mrow></math>"
+          ],
+          [
+           "<math display=\"inline\"><mi>⋮</mi></math>",
+           "<math display=\"inline\"><mi>⋮</mi></math>",
+           "<math display=\"inline\"><mi>⋮</mi></math>",
+           "<math display=\"inline\"><mo>⋱</mo></math>",
+           "<math display=\"inline\"><mi>⋮</mi></math>"
+          ],
+          [
+           "<math display=\"inline\"><msub><mi>a</mi><mi>n</mi></msub></math>",
+           "<math display=\"inline\"><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>*</mo><msub><mi>a</mi><mn>1</mn></msub></mrow></math>",
+           "<math display=\"inline\"><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>*</mo><msub><mi>a</mi><mn>2</mn></msub></mrow></math>",
+           "<math display=\"inline\"><mi>⋯</mi></math>",
+           "<math display=\"inline\"><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>*</mo><msub><mi>a</mi><mi>n</mi></msub></mrow></math>"
+          ]
+         ]
         }
        ]
       }
@@ -4117,8 +4217,101 @@ KAPITULUAK["01ma_01espazioak"] = {
      "mota": "zentratua",
      "blokeak": [
       {
-       "mota": "testua",
-       "html": "grid( columns: (auto, auto, auto), column-gutter: 18pt, row-gutter: 9pt, align: center + horizon, [<strong>transformazio-taldeak</strong>], [], [<strong>matrize-taldeak</strong>], [<math display=\"inline\"><mrow><mtext mathvariant=\"normal\">GL</mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>V</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>], [<math display=\"block\"><mo>↔</mo></math>], [<math display=\"inline\"><mrow><mtext mathvariant=\"normal\">GL</mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>,</mo><mi mathvariant=\"double-struck\">ℝ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>], [<math display=\"inline\"><mrow><mi>O</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>V</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"1.0em\"></mspace><msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> GL</mtext></mrow><mo>+</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>V</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>], [<math display=\"block\"><mo>↔</mo></math>], [<math display=\"inline\"><mrow><mi>O</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>,</mo><mi mathvariant=\"double-struck\">ℝ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"1.0em\"></mspace><msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> GL</mtext></mrow><mo>+</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>,</mo><mi mathvariant=\"double-struck\">ℝ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>], [<math display=\"inline\"><mrow><mtext mathvariant=\"normal\">SO</mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>V</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>→</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> SL</mtext></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>V</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>], [<math display=\"block\"><mo>↔</mo></math>], [<math display=\"inline\"><mrow><mtext mathvariant=\"normal\">SO</mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>,</mo><mi mathvariant=\"double-struck\">ℝ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>→</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> SL</mtext></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>,</mo><mi mathvariant=\"double-struck\">ℝ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>], )"
+       "mota": "sarea",
+       "zutabeak": "auto auto auto",
+       "zelulak": [
+        {
+         "blokeak": [
+          {
+           "mota": "testua",
+           "html": "<strong>transformazio-taldeak</strong>"
+          }
+         ]
+        },
+        {
+         "blokeak": []
+        },
+        {
+         "blokeak": [
+          {
+           "mota": "testua",
+           "html": "<strong>matrize-taldeak</strong>"
+          }
+         ]
+        },
+        {
+         "blokeak": [
+          {
+           "mota": "testua",
+           "html": "<math display=\"inline\"><mrow><mtext mathvariant=\"normal\">GL</mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>V</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+          }
+         ]
+        },
+        {
+         "blokeak": [
+          {
+           "mota": "testua",
+           "html": "<math display=\"block\"><mo>↔</mo></math>"
+          }
+         ]
+        },
+        {
+         "blokeak": [
+          {
+           "mota": "testua",
+           "html": "<math display=\"inline\"><mrow><mtext mathvariant=\"normal\">GL</mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>,</mo><mi mathvariant=\"double-struck\">ℝ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+          }
+         ]
+        },
+        {
+         "blokeak": [
+          {
+           "mota": "testua",
+           "html": "<math display=\"inline\"><mrow><mi>O</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>V</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"1.0em\"></mspace><msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> GL</mtext></mrow><mo>+</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>V</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+          }
+         ]
+        },
+        {
+         "blokeak": [
+          {
+           "mota": "testua",
+           "html": "<math display=\"block\"><mo>↔</mo></math>"
+          }
+         ]
+        },
+        {
+         "blokeak": [
+          {
+           "mota": "testua",
+           "html": "<math display=\"inline\"><mrow><mi>O</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>,</mo><mi mathvariant=\"double-struck\">ℝ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"1.0em\"></mspace><msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> GL</mtext></mrow><mo>+</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>,</mo><mi mathvariant=\"double-struck\">ℝ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+          }
+         ]
+        },
+        {
+         "blokeak": [
+          {
+           "mota": "testua",
+           "html": "<math display=\"inline\"><mrow><mtext mathvariant=\"normal\">SO</mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>V</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>→</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> SL</mtext></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>V</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+          }
+         ]
+        },
+        {
+         "blokeak": [
+          {
+           "mota": "testua",
+           "html": "<math display=\"block\"><mo>↔</mo></math>"
+          }
+         ]
+        },
+        {
+         "blokeak": [
+          {
+           "mota": "testua",
+           "html": "<math display=\"inline\"><mrow><mtext mathvariant=\"normal\">SO</mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>,</mo><mi mathvariant=\"double-struck\">ℝ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>→</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> SL</mtext></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>,</mo><mi mathvariant=\"double-struck\">ℝ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+          }
+         ]
+        }
+       ]
       }
      ]
     },

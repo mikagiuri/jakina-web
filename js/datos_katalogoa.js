@@ -31,7 +31,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "01ma_03diagonalizazioa": {
   "titulua": "JAKINA - B2 - Aplikazio linealak eta diagonalizazioa - I",

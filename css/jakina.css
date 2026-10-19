@@ -122,3 +122,34 @@ img.formula-d{display:block;margin:.7em auto;height:auto}
 /* fórmulas en MathML (texto: heredan el color, sirven en modo noche y se pueden copiar) */
 .theory math{font-size:1.08em;font-family:"Cambria Math","STIX Two Math","Latin Modern Math","Noto Sans Math",math}   /* fuente con tabla MATH: estira paréntesis y raíces */
 .theory math[display="block"]{margin:.7em 0;overflow-x:auto;overflow-y:hidden;max-width:100%}   /* sin display:block: el «block math» del navegador ya las centra */
+
+/* ---- bloques añadidos con 01ma_02matrizeak (19-10): azpitituluas, kutxas temáticas, rejillas,
+       geziak entre pasos de Gauss, sistemas etiquetados y círculos de las propiedades ---- */
+.j-azpititulua{font-family:var(--sans);font-weight:700;font-size:1.02rem;color:var(--j-urdina);margin:1.4em 0 .5em}
+.j-azpititulua::after{content:"";display:block;width:18%;border-bottom:2px solid var(--j-laranja);opacity:.6;margin-top:.25em}
+.j-gai{margin:1.1em 0}
+.j-gai > .j-gai-tit{font-family:var(--sans);font-weight:700;font-size:.95rem;color:var(--j-c);margin-bottom:.35em}
+.j-sarea{display:grid;gap:.55em 1.3em;align-items:center;margin:.7em 0}
+.j-gelaxka > p{margin:.15em 0}
+.j-gelaxka .j-irudia{margin:.3em 0}
+.j-gelaxka .j-taula{margin:.3em 0}
+.j-bihur{margin:.7em 0;display:flex;flex-direction:column;align-items:center}
+.j-bihur-erdia{font-family:var(--sans);font-size:.92rem;color:var(--muted);display:flex;gap:.7em;align-items:baseline}
+.j-gezia{font-size:1.25rem;color:var(--j-grisa)}
+.j-gezi{display:flex;justify-content:center;align-items:center;gap:.8em;margin:.5em 0;font-family:var(--sans);font-size:.92rem;color:var(--j-grisa)}
+.j-gezi-ops{display:flex;gap:1em;flex-wrap:wrap;justify-content:center}
+.j-gezi-bert .j-gezi-ops{flex-direction:column;gap:.1em;align-items:flex-start}
+.j-sistemak{margin:1em 0}
+.j-sis{display:flex;gap:.8em;align-items:baseline;margin:.9em 0}
+.j-sis-et{color:var(--j-urdina);font-family:var(--sans)}
+.j-sis-edu{flex:1;min-width:0}
+.j-sis-edu > p{margin:0}
+.j-pila{display:flex;flex-direction:column;align-items:center;gap:.15em;margin:.4em 0}
+.j-pila-lerro > p{margin:.1em 0}
+.j-zirk{color:var(--j-urdina)}
+.j-egiazt{color:var(--j-urdina)}
+.j-etiketatua{list-style:none;padding-inline-start:0}
+.j-etiketatua > li{display:flex;gap:.8em;margin:.35em 0}
+.j-etiketatua .j-marka{font-family:var(--sans);font-weight:600;min-width:2.4em;text-align:end;flex-shrink:0}
+.j-etiketatua .j-elte{min-width:0}
+img.irudi-l{display:block;max-width:100%;height:auto;margin:.2em auto;background:#fff;border-radius:8px;padding:6px;border:1px solid var(--line)}

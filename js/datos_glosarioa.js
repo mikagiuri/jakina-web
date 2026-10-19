@@ -952,5 +952,27 @@ const GLOSARIOA = [
   ],
   "kapitulua": "00aa_02logika",
   "atala": "a49"
+ },
+ {
+  "t": "Matrizea",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>m</mi><mo>×</mo><mi>n</mi></mrow></math> <strong>matrize</strong> bat zenbaki-taula bat da: <math display=\"block\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>a</mi><mn>11</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>a</mi><mn>12</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋯</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>a</mi><mrow><mn>1</mn><mi>n</mi></mrow></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>a</mi><mn>21</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>a</mi><mn>22</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋯</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>a</mi><mrow><mn>2</mn><mi>n</mi></mrow></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋮</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋮</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋮</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>a</mi><mrow><mi>m</mi><mn>1</mn></mrow></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>a</mi><mrow><mi>m</mi><mn>2</mn></mrow></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋯</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>a</mi><mrow><mi>m</mi><mi>n</mi></mrow></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∈</mo><msub><mi>M</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>m</mi><mo>,</mo><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mi>.</mi></mrow></math> <math display=\"inline\"><mrow><mi>m</mi><mo>=</mo><mi>n</mi></mrow></math> bada, <strong>matrize karratua</strong> da, eta <strong>determinantea</strong> (<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math>) izan dezake."
+   }
+  ],
+  "kapitulua": "01ma_02matrizeak",
+  "atala": "a24"
+ },
+ {
+  "t": "Matrize erregularra/singularra",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Matrize batek alderantzizkoa badu, <strong>erregularra</strong> da (eta <strong>singularra</strong> bestela). Matrize erregular baten determinantea beti <math display=\"inline\"><mrow><mo>≠</mo><mn>0</mn></mrow></math> da (bere zutabe/errenkadak linealki independenteak direla adierazten du)."
+   }
+  ],
+  "kapitulua": "01ma_02matrizeak",
+  "atala": "a25"
  }
 ];

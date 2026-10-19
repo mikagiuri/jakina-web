@@ -26,7 +26,10 @@ function blokeaHtml(b, k){
   switch (b.mota){
     case "testua": return "<p>" + b.html + "</p>";
     case "izenburua": return "<h3>" + b.testua + "</h3>";
-    case "zerrenda": { const t = b.ordenatua ? "ol" : "ul"; return "<" + t + ">" + b.elementuak.map(e => "<li>" + e + "</li>").join("") + "</" + t + ">"; }
+    case "azpititulua": return '<h4 class="j-azpititulua">' + b.testua + "</h4>";
+    case "zerrenda": { if (b.etiketak) return '<ul class="j-etiketatua">' + b.elementuak.map((e, i) =>
+      '<li><span class="j-marka">' + esc(b.etiketak[i] || "") + '</span><span class="j-elte">' + e + "</span></li>").join("") + "</ul>";
+      const t = b.ordenatua ? "ol" : "ul"; return "<" + t + ">" + b.elementuak.map(e => "<li>" + e + "</li>").join("") + "</" + t + ">"; }
     case "oharra": case "abisua":
       return '<div class="j-' + b.mota + '"><span class="j-et">' + esc(b.titulua) + '.</span> ' + azpi(b.blokeak).replace(/^<p>|<\/p>$/g, "") + "</div>";
     case "iturria":
@@ -64,6 +67,28 @@ function blokeaHtml(b, k){
         (b.edukia.length ? "<ul>" + b.edukia.map(e => "<li>" + e + "</li>").join("") + "</ul>" : "") + "</div>";
     case "etiketa":
       return '<div class="j-etiketa"><strong class="j-et">' + b.etiketa + "</strong> " + azpi(b.blokeak) + "</div>";
+    case "gai-kutxa":
+      return '<div class="j-gai j-k-' + esc(b.kolorea) + '"><div class="j-gai-tit">' + esc(b.izenburua) + "</div>" + azpi(b.blokeak) + "</div>";
+    case "sarea":
+      return '<div class="j-sarea" style="grid-template-columns:' + esc(b.zutabeak) + '">' +
+        (b.zelulak || []).map(z => {
+          const zel = Array.isArray(z) ? { blokeak: z } : z;
+          const estilo = (zel.zutabeak > 1 ? "grid-column:span " + zel.zutabeak + ";" : "") +
+            (zel.errenkadak > 1 ? "grid-row:span " + zel.errenkadak + ";" : "");
+          return '<div class="j-gelaxka"' + (estilo ? ' style="' + estilo + '"' : "") + ">" + azpi(zel.blokeak || []) + "</div>";
+        }).join("") + "</div>";
+    case "pila":
+      return '<div class="j-pila">' + (b.lerroak || []).map(l => '<div class="j-pila-lerro">' + azpi(l) + "</div>").join("") + "</div>";
+    case "bihur":
+      return '<div class="j-bihur">' + azpi(b.a) + '<div class="j-bihur-erdia"><span class="j-bihur-lab">' + (b.lab || "") +
+        '</span> <span class="j-gezia">' + (b.bidi ? "↔" : "→") + "</span></div>" + azpi(b.b) + "</div>";
+    case "gezi":
+      return '<div class="j-gezi' + (b.bertikala ? " j-gezi-bert" : "") + '"><span class="j-gezia">↓</span>' +
+        '<span class="j-gezi-ops">' + b.elementuak.map(e => '<span class="j-gezi-op">' + e + "</span>").join("") + "</span></div>";
+    case "sistemak":
+      return '<div class="j-sistemak">' + b.elementuak.map(e =>
+        '<div class="j-sis">' + (e.et ? '<strong class="j-sis-et">' + esc(e.et) + ")</strong>" : "") +
+        '<div class="j-sis-edu">' + azpi(e.blokeak) + "</div></div>").join("") + "</div>";
     case "taula-kutxa":
       return '<figure class="j-taula-kutxa">' + azpi(b.blokeak) + (b.oina ? "<figcaption>" + b.oina + "</figcaption>" : "") + "</figure>";
     case "taula":
