@@ -116,3 +116,5 @@ img.formula-d{display:block;margin:.7em auto;height:auto}
 .j-glos{border-bottom:1px solid var(--line-soft);padding:.4em 0 .8em}
 .j-glos h3{font-size:1.2rem;margin-top:.6em}
 .j-glos-kap{font-family:var(--sans);font-size:.85rem}
+.j-etiketa{margin:1em 0}
+.j-etiketa > p:first-of-type{display:inline}

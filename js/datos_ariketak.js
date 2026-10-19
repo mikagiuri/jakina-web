@@ -1521,5 +1521,128 @@ const ARIKETAK = {
     "html": "<strong><img class=\"formula\" src=\"media/formulak/00aa_02logika/f0745.svg\" alt=\"alpha_4\" style=\"width:1.478em;height:1.001em\" loading=\"lazy\">-ren kontraeredua.</strong> Har dezagun <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1293.svg\" alt=\"cal(U)={0}\" style=\"width:4.353em;height:1.001em\" loading=\"lazy\">, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1433.svg\" alt=\"cal(J)_4(r)=cal(J)_4(p)=0\" style=\"width:9.138em;height:1.001em\" loading=\"lazy\">, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1434.svg\" alt=\"cal(J)_4(S)=cal(J)_4(G)={0}\" style=\"width:10.848em;height:1.001em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1435.svg\" alt=\"cal(J)_4(A)={(0,0)}\" style=\"width:8.416em;height:1.001em\" loading=\"lazy\">. Lehen formula egiazkoa da; bigarrena hutsean betetzen da; eta hirugarrenak <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0124.svg\" alt=\"0\" style=\"width:0.789em;height:1.001em\" loading=\"lazy\"> lekukoa du. Aldiz, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1436.svg\" alt=\"A(0,0)\" style=\"width:3.653em;height:1.001em\" loading=\"lazy\"> egiazkoa izanik, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1437.svg\" alt=\"not A(0,0)\" style=\"width:4.425em;height:1.001em\" loading=\"lazy\"> faltsua da; hortaz, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0045.svg\" alt=\"A\" style=\"width:1.079em;height:1.001em\" loading=\"lazy\"> ez da asimetrikoa eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0745.svg\" alt=\"alpha_4\" style=\"width:1.478em;height:1.001em\" loading=\"lazy\"> faltsua da."
    }
   ]
+ },
+ "01ma_01espazioak#1": {
+  "mota": "ariketa",
+  "kapitulua": "01ma_01espazioak",
+  "atala": "a8",
+  "atalaIzena": "Eulerren formula eta De Moivre",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Ebatzi <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0061.svg\" alt=\"z^3 - 1 = 0\" style=\"width:5.427em;height:1.001em\" loading=\"lazy\"> eta kokatu hiru erroak plano konplexuan. Ondoren, azaldu zergatik dauden <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0062.svg\" alt=\"120 degree\" style=\"width:2.382em;height:1.001em\" loading=\"lazy\">-ko angeluz bereizita."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01ma_01espazioak#2": {
+  "mota": "ariketa",
+  "kapitulua": "01ma_01espazioak",
+  "atala": "a8",
+  "atalaIzena": "Eulerren formula eta De Moivre",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Idatzi <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0063.svg\" alt=\"cos(theta)\" style=\"width:3.220em;height:1.001em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0064.svg\" alt=\"sin(theta)\" style=\"width:3.093em;height:1.001em\" loading=\"lazy\">  <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0065.svg\" alt=\"e^(i theta)\" style=\"width:1.583em;height:1.001em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0066.svg\" alt=\"e^(-i theta)\" style=\"width:2.214em;height:1.001em\" loading=\"lazy\"> erabiliz. Emaitza hori erabiliko da gero Fourier-en serieetan eta uhin harmonikoetan."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01ma_01espazioak#3": {
+  "mota": "ariketa",
+  "kapitulua": "01ma_01espazioak",
+  "atala": "a19",
+  "atalaIzena": "Ariketa (azterketa): sistema sortzailea, oinarria eta koordenatuak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Izan bedi <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0591.svg\" alt=\"T = {(1, 1, 0), (0, 1, 1), (1, 1, -1), (2, 3, 1)}\" style=\"width:20.875em;height:1.001em\" loading=\"lazy\">. <strong>a)</strong> Frogatu <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0400.svg\" alt=\"T\" style=\"width:1.058em;height:1.001em\" loading=\"lazy\"> <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0344.svg\" alt=\"RR^3\" style=\"width:1.754em;height:1.001em\" loading=\"lazy\">-ren <strong>sistema sortzailea</strong> dela. <strong>b)</strong> Atera <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0592.svg\" alt=\"S subset T\" style=\"width:3.381em;height:1.001em\" loading=\"lazy\"> bat <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0344.svg\" alt=\"RR^3\" style=\"width:1.754em;height:1.001em\" loading=\"lazy\">-ren <strong>oinarri</strong> izan dadin. <strong>c)</strong> Kalkulatu <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0593.svg\" alt=\"(1, 2, 1)\" style=\"width:3.878em;height:1.001em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0594.svg\" alt=\"(1, 1, -1)\" style=\"width:4.779em;height:1.001em\" loading=\"lazy\"> bektoreen koordenatuak <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0334.svg\" alt=\"S\" style=\"width:1.108em;height:1.001em\" loading=\"lazy\">-rekiko."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "<strong>a) Sistema sortzailea.</strong> <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0400.svg\" alt=\"T\" style=\"width:1.058em;height:1.001em\" loading=\"lazy\">-ko bektoreak <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0595.svg\" alt=\"4 times 3\" style=\"width:2.784em;height:1.001em\" loading=\"lazy\"> matrize baten errenkadak dira; <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0596.svg\" alt=\"1 &lt;= &quot;errango&quot; &lt;= 3\" style=\"width:8.259em;height:1.001em\" loading=\"lazy\">, eta errangoa <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0597.svg\" alt=\"3\" style=\"width:0.789em;height:1.001em\" loading=\"lazy\"> bada, <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0400.svg\" alt=\"T\" style=\"width:1.058em;height:1.001em\" loading=\"lazy\"> sistema sortzailea da. Lehen hiru bektoreen <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0598.svg\" alt=\"3 times 3\" style=\"width:2.784em;height:1.001em\" loading=\"lazy\"> minorea, lehen errenkadatik garatuz: <img class=\"formula formula-d\" src=\"media/formulak/01ma_01espazioak/f0599.svg\" alt=\"mat(delim: &quot;|&quot;, 1, 1, 0; 0, 1, 1; 1, 1, -1) &amp;= 1(1 dot (-1) - 1 dot 1) - 1(0 dot (-1) - 1 dot 1) + 0 \\ &amp;= 1(-2) - 1(-1) = -1 != 0.\" style=\"width:27.103em;height:6.432em\" loading=\"lazy\"> Beraz errangoa <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0597.svg\" alt=\"3\" style=\"width:0.789em;height:1.001em\" loading=\"lazy\"> da eta <strong><img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0400.svg\" alt=\"T\" style=\"width:1.058em;height:1.001em\" loading=\"lazy\"> <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0344.svg\" alt=\"RR^3\" style=\"width:1.754em;height:1.001em\" loading=\"lazy\">-ren sistema sortzailea da</strong>. (2. metodoa: <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0600.svg\" alt=\"(x, y, z) = lambda(1,1,0) + mu(0,1,1) + delta(1,1,-1) + epsilon(2,3,1)\" style=\"width:27.806em;height:1.001em\" loading=\"lazy\">-n koefizienteak askatuz; denak existitzen badira, <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0344.svg\" alt=\"RR^3\" style=\"width:1.754em;height:1.001em\" loading=\"lazy\"> sortzen dute.)"
+   },
+   {
+    "mota": "testua",
+    "html": "<strong>b) Oinarria.</strong> <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0601.svg\" alt=\"S = {(1, 1, 0), (0, 1, 1), (1, 1, -1)}\" style=\"width:16.625em;height:1.001em\" loading=\"lazy\">; haren determinantea <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0602.svg\" alt=\"-1 != 0\" style=\"width:3.813em;height:1.001em\" loading=\"lazy\"> denez (a atalekoa), <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0334.svg\" alt=\"S\" style=\"width:1.108em;height:1.001em\" loading=\"lazy\"> <strong><img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0344.svg\" alt=\"RR^3\" style=\"width:1.754em;height:1.001em\" loading=\"lazy\">-ren oinarria da</strong>."
+   },
+   {
+    "mota": "testua",
+    "html": "<strong>c) Koordenatuak.</strong> <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0603.svg\" alt=\"(1, 2, 1) = lambda(1,1,0) + mu(0,1,1) + delta(1,1,-1)\" style=\"width:22.085em;height:1.001em\" loading=\"lazy\">: <img class=\"formula formula-d\" src=\"media/formulak/01ma_01espazioak/f0604.svg\" alt=\"cases(lambda + delta = 1, lambda + mu + delta = 2, mu - delta = 1).\" style=\"width:8.460em;height:4.526em\" loading=\"lazy\"> (2.)<img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0605.svg\" alt=\"-\" style=\"width:1.111em;height:1.001em\" loading=\"lazy\">(1.): <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0606.svg\" alt=\"mu = 1\" style=\"width:3.032em;height:1.001em\" loading=\"lazy\">. (3.): <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0607.svg\" alt=\"1 - delta = 1 ==&gt; delta = 0\" style=\"width:9.893em;height:1.001em\" loading=\"lazy\">. (1.): <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0608.svg\" alt=\"lambda = 1\" style=\"width:3.009em;height:1.001em\" loading=\"lazy\">. Egiaztapena: <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0609.svg\" alt=\"1(1,1,0) + 1(0,1,1) + 0(1,1,-1) = (1,2,1)\" style=\"width:21.893em;height:1.001em\" loading=\"lazy\"> ✓."
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<img class=\"formula formula-d\" src=\"media/formulak/01ma_01espazioak/f0610.svg\" alt=\"(1, 2, 1)_S = (1, 1, 0).\" style=\"width:10.074em;height:1.379em\" loading=\"lazy\">"
+     }
+    ]
+   },
+   {
+    "mota": "testua",
+    "html": "<img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0611.svg\" alt=\"(1, 1, -1) = lambda(1,1,0) + mu(0,1,1) + delta(1,1,-1)\" style=\"width:22.986em;height:1.001em\" loading=\"lazy\">: <img class=\"formula formula-d\" src=\"media/formulak/01ma_01espazioak/f0612.svg\" alt=\"cases(lambda + delta = 1, lambda + mu + delta = 1, mu - delta = -1).\" style=\"width:8.460em;height:4.526em\" loading=\"lazy\"> (2.)<img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0605.svg\" alt=\"-\" style=\"width:1.111em;height:1.001em\" loading=\"lazy\">(1.): <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0613.svg\" alt=\"mu = 0\" style=\"width:3.032em;height:1.001em\" loading=\"lazy\">. (3.): <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0614.svg\" alt=\"-delta = -1 ==&gt; delta = 1\" style=\"width:9.700em;height:1.001em\" loading=\"lazy\">. (1.): <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0615.svg\" alt=\"lambda = 0\" style=\"width:3.009em;height:1.001em\" loading=\"lazy\">."
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<img class=\"formula formula-d\" src=\"media/formulak/01ma_01espazioak/f0616.svg\" alt=\"(1, 1, -1)_S = (0, 0, 1)\" style=\"width:10.653em;height:1.379em\" loading=\"lazy\">"
+     }
+    ]
+   },
+   {
+    "mota": "testua",
+    "html": "(koherentea: <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0617.svg\" alt=\"(1,1,-1)\" style=\"width:4.779em;height:1.001em\" loading=\"lazy\"> <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0334.svg\" alt=\"S\" style=\"width:1.108em;height:1.001em\" loading=\"lazy\">-ren hirugarren bektorea da)."
+   }
+  ]
+ },
+ "01ma_01espazioak#4": {
+  "mota": "problema",
+  "kapitulua": "01ma_01espazioak",
+  "atala": "a25",
+  "atalaIzena": "(13) <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0664.svg\" alt=\"ker f != &quot;Im&quot; f\" style=\"width:6.637em;height:1.001em\" loading=\"lazy\"> (<img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0059.svg\" alt=\"n\" style=\"width:0.905em;height:1.001em\" loading=\"lazy\"> bakoitia denean)",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Izan bedi <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0267.svg\" alt=\"V\" style=\"width:1.243em;height:1.001em\" loading=\"lazy\"> dimentsio finituko espazio bektoriala, <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0665.svg\" alt=\"dim V = n\" style=\"width:5.495em;height:1.001em\" loading=\"lazy\"> <strong>bakoitia</strong>, eta <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0666.svg\" alt=\"f: V -&gt; V\" style=\"width:5.494em;height:1.001em\" loading=\"lazy\"> aplikazio lineala. Frogatu <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0664.svg\" alt=\"ker f != &quot;Im&quot; f\" style=\"width:6.637em;height:1.001em\" loading=\"lazy\">."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01ma_01espazioak#5": {
+  "mota": "problema",
+  "kapitulua": "01ma_01espazioak",
+  "atala": "a26",
+  "atalaIzena": "(14) <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0671.svg\" alt=\"f\" style=\"width:0.882em;height:1.001em\" loading=\"lazy\"> ongi definitua <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0313.svg\" alt=\"W\" style=\"width:1.629em;height:1.001em\" loading=\"lazy\"> azpiespazioan",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Izan bedi <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0672.svg\" alt=\"W = chevron.l (0,1,0,0), (3,1,0,0) chevron.r\" style=\"width:13.939em;height:1.001em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0673.svg\" alt=\"f: W -&gt; W\" style=\"width:6.140em;height:1.001em\" loading=\"lazy\">, <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0674.svg\" alt=\"f(x,y,z,t) = (x, -x-2y, -3z-t, 2t)\" style=\"width:19.273em;height:1.001em\" loading=\"lazy\">. (i) Frogatu <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0671.svg\" alt=\"f\" style=\"width:0.882em;height:1.001em\" loading=\"lazy\"> ongi definitua dagoela."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "<img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0675.svg\" alt=\"u = (0,1,0,0)\" style=\"width:7.178em;height:1.001em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0676.svg\" alt=\"v = (3,1,0,0)\" style=\"width:7.090em;height:1.001em\" loading=\"lazy\"> sortzaileak linealki independenteak dira, lehen bi koordenatuen determinantea <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0677.svg\" alt=\"!= 0\" style=\"width:2.012em;height:1.001em\" loading=\"lazy\"> baita: <img class=\"formula formula-d\" src=\"media/formulak/01ma_01espazioak/f0678.svg\" alt=\"mat(delim: &quot;|&quot;, 0, 3; 1, 1) = -3 != 0, quad ==&gt; quad W = { (x,y,0,0) : x,y in RR }.\" style=\"width:26.319em;height:3.110em\" loading=\"lazy\"> <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0671.svg\" alt=\"f\" style=\"width:0.882em;height:1.001em\" loading=\"lazy\"> ongi definitua dago <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0313.svg\" alt=\"W\" style=\"width:1.629em;height:1.001em\" loading=\"lazy\">-tik <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0313.svg\" alt=\"W\" style=\"width:1.629em;height:1.001em\" loading=\"lazy\">-ra irudikatzen badu (irudi bakarra elementu bakoitzeko). Sortzaileen irudiak: <img class=\"formula formula-d\" src=\"media/formulak/01ma_01espazioak/f0679.svg\" alt=\"f(u) = (0,-2,0,0) = -2u, quad quad f(v) = (3,-5,0,0) = -6u + v,\" style=\"width:31.326em;height:1.364em\" loading=\"lazy\"> biak <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0313.svg\" alt=\"W\" style=\"width:1.629em;height:1.001em\" loading=\"lazy\">-koak. Beraz <img class=\"formula\" src=\"media/formulak/01ma_01espazioak/f0673.svg\" alt=\"f: W -&gt; W\" style=\"width:6.140em;height:1.001em\" loading=\"lazy\"> ongi definitua dago."
+   }
+  ]
  }
 };

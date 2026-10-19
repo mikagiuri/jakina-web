@@ -62,6 +62,8 @@ function blokeaHtml(b, k){
     case "atala":
       return '<div class="j-atala"><div class="j-et">ATALA</div><div class="j-atala-tit">' + b.izenburua + "</div>" + azpi(b.deskribapena) +
         (b.edukia.length ? "<ul>" + b.edukia.map(e => "<li>" + e + "</li>").join("") + "</ul>" : "") + "</div>";
+    case "etiketa":
+      return '<div class="j-etiketa"><strong class="j-et">' + b.etiketa + "</strong> " + azpi(b.blokeak) + "</div>";
     case "taula-kutxa":
       return '<figure class="j-taula-kutxa">' + azpi(b.blokeak) + (b.oina ? "<figcaption>" + b.oina + "</figcaption>" : "") + "</figure>";
     case "taula":

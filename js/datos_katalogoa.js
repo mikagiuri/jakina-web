@@ -23,7 +23,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "01ma_02matrizeak": {
   "titulua": "JAKINA - B2 - Matrizeak, sistemak eta determinanteak (II)",
