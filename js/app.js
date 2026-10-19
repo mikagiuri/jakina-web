@@ -73,6 +73,10 @@ themeBtn.addEventListener("click", () => {
   themeBtn.textContent = themeIcon(theme);
 });
 
+/* botón de lengua (EU | ES): lleva a la misma vista y capítulo en la otra versión */
+const hizk = document.getElementById("hizk");
+if (hizk) hizk.addEventListener("click", () => { hizk.href = hizk.getAttribute("href").split("#")[0] + location.hash; });
+
 /* utilidades comunes de las vistas */
 function esc(s){ return String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]); }
 window.esc = esc;

@@ -15,7 +15,7 @@ const GLOSARIOA = [
      "argumentu bakarra hartzen badu, funtore unarioa da;",
      "bi hartzen baditu, bitarra;",
      "hiru hartzen baditu, hirutarra;",
-     "oro har, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0016.svg\" alt=\"n\" style=\"width:0.905em;height:1.001em\" loading=\"lazy\"> argumentu hartzen baditu, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0016.svg\" alt=\"n\" style=\"width:0.905em;height:1.001em\" loading=\"lazy\">-adikoa."
+     "oro har, <math display=\"inline\"><mi>n</mi></math> argumentu hartzen baditu, <math display=\"inline\"><mi>n</mi></math>-adikoa."
     ]
    }
   ],
@@ -27,7 +27,7 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "Sententzia egiazkoa edo faltsua izan daitekeen hizkuntza-adierazpena da, unean unean haren egia-balioa zein den ez badakigu ere. “Paris Frantziako hiriburua da” eta “<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0028.svg\" alt=\"5 + 5 = 12\" style=\"width:5.486em;height:1.001em\" loading=\"lazy\">” biak sententziak dira: lehenengoa egiazkoa da eta bigarrena faltsua."
+    "html": "Sententzia egiazkoa edo faltsua izan daitekeen hizkuntza-adierazpena da, unean unean haren egia-balioa zein den ez badakigu ere. “Paris Frantziako hiriburua da” eta “<math display=\"inline\"><mrow><mn>5</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>12</mn></mrow></math>” biak sententziak dira: lehenengoa egiazkoa da eta bigarrena faltsua."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -38,11 +38,11 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "Erlatzaile baten aritatea sententzia osatzeko behar dituen izendatzaileen kopurua da. “... gaixo dago” unarioa da; “...-k ... maite du” bitarra; eta “... ... eta ... artean dago” hirutarra. Oro har, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0016.svg\" alt=\"n\" style=\"width:0.905em;height:1.001em\" loading=\"lazy\"> izendatzaile behar dituen erlatzailea <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0016.svg\" alt=\"n\" style=\"width:0.905em;height:1.001em\" loading=\"lazy\">-adikoa da."
+    "html": "Erlatzaile baten aritatea sententzia osatzeko behar dituen izendatzaileen kopurua da. “... gaixo dago” unarioa da; “...-k ... maite du” bitarra; eta “... ... eta ... artean dago” hirutarra. Oro har, <math display=\"inline\"><mi>n</mi></math> izendatzaile behar dituen erlatzailea <math display=\"inline\"><mi>n</mi></math>-adikoa da."
    },
    {
     "mota": "testua",
-    "html": "Erlatzaileak <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0029.svg\" alt=\"P\" style=\"width:1.116em;height:1.001em\" loading=\"lazy\">, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0030.svg\" alt=\"Q\" style=\"width:1.126em;height:1.001em\" loading=\"lazy\">, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0031.svg\" alt=\"R\" style=\"width:1.117em;height:1.001em\" loading=\"lazy\">, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0032.svg\" alt=\"S\" style=\"width:0.990em;height:1.001em\" loading=\"lazy\">, … letra larriz adieraziko ditugu, eta aritatea behar denean goi-indizez: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0033.svg\" alt=\"P^1\" style=\"width:1.642em;height:1.001em\" loading=\"lazy\">, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0034.svg\" alt=\"R^2\" style=\"width:1.643em;height:1.001em\" loading=\"lazy\">, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0035.svg\" alt=\"S^3\" style=\"width:1.516em;height:1.001em\" loading=\"lazy\">. Erlatzailearen argumentuen ordena datu logikoa da: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0036.svg\" alt=\"R(a,b)\" style=\"width:3.658em;height:1.001em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0037.svg\" alt=\"R(b,a)\" style=\"width:3.658em;height:1.001em\" loading=\"lazy\"> ez dira, oro har, sententzia bera."
+    "html": "Erlatzaileak <math display=\"inline\"><mi>P</mi></math>, <math display=\"inline\"><mi>Q</mi></math>, <math display=\"inline\"><mi>R</mi></math>, <math display=\"inline\"><mi>S</mi></math>, … letra larriz adieraziko ditugu, eta aritatea behar denean goi-indizez: <math display=\"inline\"><msup><mi>P</mi><mn>1</mn></msup></math>, <math display=\"inline\"><msup><mi>R</mi><mn>2</mn></msup></math>, <math display=\"inline\"><msup><mi>S</mi><mn>3</mn></msup></math>. Erlatzailearen argumentuen ordena datu logikoa da: <math display=\"inline\"><mrow><mi>R</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mi>R</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo>,</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> ez dira, oro har, sententzia bera."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -55,11 +55,11 @@ const GLOSARIOA = [
     "mota": "zerrenda",
     "ordenatua": false,
     "elementuak": [
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0044.svg\" alt=\"not A\" style=\"width:1.851em;height:1.001em\" loading=\"lazy\"> egiazkoa da <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0045.svg\" alt=\"A\" style=\"width:1.079em;height:1.001em\" loading=\"lazy\"> faltsua denean, eta faltsua <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0045.svg\" alt=\"A\" style=\"width:1.079em;height:1.001em\" loading=\"lazy\"> egiazkoa denean.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0046.svg\" alt=\"A and B\" style=\"width:3.274em;height:1.001em\" loading=\"lazy\"> egiazkoa da bi osagaiak egiazkoak direnean bakarrik.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0047.svg\" alt=\"A or B\" style=\"width:3.274em;height:1.001em\" loading=\"lazy\">-n “edo” inklusiboa da: faltsua da bi osagaiak faltsuak direnean bakarrik.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0048.svg\" alt=\"A -&gt; B\" style=\"width:3.788em;height:1.001em\" loading=\"lazy\"> faltsua da <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0045.svg\" alt=\"A\" style=\"width:1.079em;height:1.001em\" loading=\"lazy\"> egiazkoa eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0049.svg\" alt=\"B\" style=\"width:1.118em;height:1.001em\" loading=\"lazy\"> faltsua den kasuan bakarrik.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0050.svg\" alt=\"A &lt;-&gt; B\" style=\"width:3.788em;height:1.001em\" loading=\"lazy\"> egiazkoa da bi osagaiek egia-balio bera dutenean."
+     "<math display=\"inline\"><mrow><mo>¬</mo><mi>A</mi></mrow></math> egiazkoa da <math display=\"inline\"><mi>A</mi></math> faltsua denean, eta faltsua <math display=\"inline\"><mi>A</mi></math> egiazkoa denean.",
+     "<math display=\"inline\"><mrow><mi>A</mi><mo>∧</mo><mi>B</mi></mrow></math> egiazkoa da bi osagaiak egiazkoak direnean bakarrik.",
+     "<math display=\"inline\"><mrow><mi>A</mi><mo>∨</mo><mi>B</mi></mrow></math>-n “edo” inklusiboa da: faltsua da bi osagaiak faltsuak direnean bakarrik.",
+     "<math display=\"inline\"><mrow><mi>A</mi><mo>→</mo><mi>B</mi></mrow></math> faltsua da <math display=\"inline\"><mi>A</mi></math> egiazkoa eta <math display=\"inline\"><mi>B</mi></math> faltsua den kasuan bakarrik.",
+     "<math display=\"inline\"><mrow><mi>A</mi><mo>↔</mo><mi>B</mi></mrow></math> egiazkoa da bi osagaiek egia-balio bera dutenean."
     ]
    }
   ],
@@ -88,7 +88,7 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0063.svg\" alt=\"forall x phi\" style=\"width:2.401em;height:1.001em\" loading=\"lazy\"> formulak dio dagokion eremuko <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> guztiek <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0064.svg\" alt=\"phi\" style=\"width:0.968em;height:1.001em\" loading=\"lazy\"> betetzen dutela. <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0065.svg\" alt=\"exists x phi\" style=\"width:2.274em;height:1.001em\" loading=\"lazy\"> formulak dio eremuan badela gutxienez <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> bat <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0064.svg\" alt=\"phi\" style=\"width:0.968em;height:1.001em\" loading=\"lazy\"> betetzen duena. Kuantifikatzailearen ondoko aldagaia <strong>kuantifikatutako aldagaia</strong> da."
+    "html": "<math display=\"inline\"><mrow><mo>∀</mo><mi>x</mi><mi>φ</mi></mrow></math> formulak dio dagokion eremuko <math display=\"inline\"><mi>x</mi></math> guztiek <math display=\"inline\"><mi>φ</mi></math> betetzen dutela. <math display=\"inline\"><mrow><mo>∃</mo><mi>x</mi><mi>φ</mi></mrow></math> formulak dio eremuan badela gutxienez <math display=\"inline\"><mi>x</mi></math> bat <math display=\"inline\"><mi>φ</mi></math> betetzen duena. Kuantifikatzailearen ondoko aldagaia <strong>kuantifikatutako aldagaia</strong> da."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -99,7 +99,7 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0074.svg\" alt=\"iota x phi\" style=\"width:2.040em;height:1.001em\" loading=\"lazy\"> terminoak “<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0064.svg\" alt=\"phi\" style=\"width:0.968em;height:1.001em\" loading=\"lazy\"> betetzen duen <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\">” adierazten du, baldintza hori betetzen duen banakoa bakarra denean. Mosterínek iota grekoa erabiltzen du eta kuantifikatzaile baten antzera aldagai baten aurrean jartzen du, baina emaitza ez da formula bat: <strong>termino bat</strong> da."
+    "html": "<math display=\"inline\"><mrow><mi>ι</mi><mi>x</mi><mi>φ</mi></mrow></math> terminoak “<math display=\"inline\"><mi>φ</mi></math> betetzen duen <math display=\"inline\"><mi>x</mi></math>” adierazten du, baldintza hori betetzen duen banakoa bakarra denean. Mosterínek iota grekoa erabiltzen du eta kuantifikatzaile baten antzera aldagai baten aurrean jartzen du, baina emaitza ez da formula bat: <strong>termino bat</strong> da."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -132,7 +132,7 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "Aldagaiek zeinu desberdinen multzo infinitu baina errekurtsiboki zenbakigarri bat osatzen dute. Horrek esan nahi du aldagai bakoitzari zenbaki arrunt bana eslei dakiokeela, haren <strong>indizea</strong>, eta zenbaki arrunt bakoitzari aldagai bana. Metahizkuntzan <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0112.svg\" alt=\"u, v, w, x, y, z\" style=\"width:6.689em;height:1.001em\" loading=\"lazy\"> eta, behar denean, azpiindizeak erabiliko ditugu aldagai arbitrarioak aipatzeko."
+    "html": "Aldagaiek zeinu desberdinen multzo infinitu baina errekurtsiboki zenbakigarri bat osatzen dute. Horrek esan nahi du aldagai bakoitzari zenbaki arrunt bana eslei dakiokeela, haren <strong>indizea</strong>, eta zenbaki arrunt bakoitzari aldagai bana. Metahizkuntzan <math display=\"inline\"><mrow><mi>u</mi><mo>,</mo><mi>v</mi><mo>,</mo><mi>w</mi><mo>,</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mi>z</mi></mrow></math> eta, behar denean, azpiindizeak erabiliko ditugu aldagai arbitrarioak aipatzeko."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -149,15 +149,15 @@ const GLOSARIOA = [
     "mota": "zerrenda",
     "ordenatua": false,
     "elementuak": [
-     "ezeztapena: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0114.svg\" alt=\"not\" style=\"width:0.983em;height:1.001em\" loading=\"lazy\">;",
-     "konjuntzioa, disjuntzioa, baldintza eta baliokidetasuna: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0115.svg\" alt=\"and\" style=\"width:0.983em;height:1.001em\" loading=\"lazy\">, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0052.svg\" alt=\"or\" style=\"width:0.983em;height:1.001em\" loading=\"lazy\">, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0116.svg\" alt=\"-&gt;\" style=\"width:1.368em;height:1.001em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0117.svg\" alt=\"&lt;-&gt;\" style=\"width:1.368em;height:1.001em\" loading=\"lazy\">;",
-     "kuantifikatzaile unibertsala eta existentziala: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0003.svg\" alt=\"forall\" style=\"width:0.982em;height:1.001em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0004.svg\" alt=\"exists\" style=\"width:0.854em;height:1.001em\" loading=\"lazy\">;",
-     "deskriptorea: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0118.svg\" alt=\"iota\" style=\"width:0.620em;height:1.001em\" loading=\"lazy\">."
+     "ezeztapena: <math display=\"inline\"><mo>¬</mo></math>;",
+     "konjuntzioa, disjuntzioa, baldintza eta baliokidetasuna: <math display=\"inline\"><mi>∧</mi></math>, <math display=\"inline\"><mi>∨</mi></math>, <math display=\"inline\"><mo>→</mo></math> eta <math display=\"block\"><mo>↔</mo></math>;",
+     "kuantifikatzaile unibertsala eta existentziala: <math display=\"inline\"><mo>∀</mo></math> eta <math display=\"inline\"><mo>∃</mo></math>;",
+     "deskriptorea: <math display=\"inline\"><mi>ι</mi></math>."
     ]
    },
    {
     "mota": "testua",
-    "html": "Horiez gain, berdintza dago, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0113.svg\" alt=\"=\" style=\"width:1.111em;height:1.001em\" loading=\"lazy\">, formalismo guztietan agertzen den predikatu bitar berezia. Familia horiek eta aldagaien familia elkarrengandik disjuntuak dira: zeinu batek ezin ditu bi eginkizun sintaktiko izan aldi berean."
+    "html": "Horiez gain, berdintza dago, <math display=\"inline\"><mo>=</mo></math>, formalismo guztietan agertzen den predikatu bitar berezia. Familia horiek eta aldagaien familia elkarrengandik disjuntuak dira: zeinu batek ezin ditu bi eginkizun sintaktiko izan aldi berean."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -174,14 +174,14 @@ const GLOSARIOA = [
     "mota": "zerrenda",
     "ordenatua": true,
     "elementuak": [
-     "<strong>Konstante indibidualak</strong>: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0119.svg\" alt=\"a, b, c, dots\" style=\"width:4.380em;height:1.001em\" loading=\"lazy\">; objektu bakar bat izendatzeko gai diren oinarrizko zeinuak.",
-     "<strong>Funtzio-sinboloak</strong>: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0120.svg\" alt=\"f^n, g^n, h^n, dots\" style=\"width:6.555em;height:1.001em\" loading=\"lazy\">; <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0016.svg\" alt=\"n\" style=\"width:0.905em;height:1.001em\" loading=\"lazy\"> argumentu hartzen dituzten eraikitzaileak, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0121.svg\" alt=\"n &gt;= 1\" style=\"width:3.028em;height:1.001em\" loading=\"lazy\">.",
-     "<strong>Predikatu-sinboloak</strong>: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0122.svg\" alt=\"P^n, Q^n, R^n, dots\" style=\"width:7.364em;height:1.001em\" loading=\"lazy\">; <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0016.svg\" alt=\"n\" style=\"width:0.905em;height:1.001em\" loading=\"lazy\"> argumentuko formula atomikoak eratzen dituzten zeinuak, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0121.svg\" alt=\"n &gt;= 1\" style=\"width:3.028em;height:1.001em\" loading=\"lazy\">."
+     "<strong>Konstante indibidualak</strong>: <math display=\"inline\"><mrow><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo>,</mo><mi>…</mi></mrow></math>; objektu bakar bat izendatzeko gai diren oinarrizko zeinuak.",
+     "<strong>Funtzio-sinboloak</strong>: <math display=\"inline\"><mrow><msup><mi>f</mi><mi>n</mi></msup><mo>,</mo><msup><mi>g</mi><mi>n</mi></msup><mo>,</mo><msup><mi>h</mi><mi>n</mi></msup><mo>,</mo><mi>…</mi></mrow></math>; <math display=\"inline\"><mi>n</mi></math> argumentu hartzen dituzten eraikitzaileak, <math display=\"inline\"><mrow><mi>n</mi><mo>≥</mo><mn>1</mn></mrow></math>.",
+     "<strong>Predikatu-sinboloak</strong>: <math display=\"inline\"><mrow><msup><mi>P</mi><mi>n</mi></msup><mo>,</mo><msup><mi>Q</mi><mi>n</mi></msup><mo>,</mo><msup><mi>R</mi><mi>n</mi></msup><mo>,</mo><mi>…</mi></mrow></math>; <math display=\"inline\"><mi>n</mi></math> argumentuko formula atomikoak eratzen dituzten zeinuak, <math display=\"inline\"><mrow><mi>n</mi><mo>≥</mo><mn>1</mn></mrow></math>."
     ]
    },
    {
     "mota": "testua",
-    "html": "Goiko <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0016.svg\" alt=\"n\" style=\"width:0.905em;height:1.001em\" loading=\"lazy\">-k aritatea adierazten du; beheko indize batek, berriz, aritate bereko zeinuen zerrendan zein tokitan dagoen. Familia guztiak elkarren artean eta zeinu komunen familiekin disjuntuak dira."
+    "html": "Goiko <math display=\"inline\"><mi>n</mi></math>-k aritatea adierazten du; beheko indize batek, berriz, aritate bereko zeinuen zerrendan zein tokitan dagoen. Familia guztiak elkarren artean eta zeinu komunen familiekin disjuntuak dira."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -203,15 +203,15 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<strong>Zeinu-katea</strong> alfabeto bateko zeinuen segida finitu eta ez-hutsa da. <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0128.svg\" alt=\"xi\" style=\"width:0.759em;height:1.001em\" loading=\"lazy\"> katearen luzera, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0129.svg\" alt=\"&quot;long&quot;(xi)\" style=\"width:3.784em;height:1.001em\" loading=\"lazy\">, haren zeinu kopurua da."
+    "html": "<strong>Zeinu-katea</strong> alfabeto bateko zeinuen segida finitu eta ez-hutsa da. <math display=\"inline\"><mi>ξ</mi></math> katearen luzera, <math display=\"inline\"><mrow><mtext mathvariant=\"normal\">long</mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ξ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, haren zeinu kopurua da."
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0130.svg\" alt=\"xi_1 xi_2\" style=\"width:2.277em;height:1.001em\" loading=\"lazy\"> kateatzea <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0131.svg\" alt=\"xi_1\" style=\"width:1.244em;height:1.001em\" loading=\"lazy\">-en ondoren <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0132.svg\" alt=\"xi_2\" style=\"width:1.244em;height:1.001em\" loading=\"lazy\"> idatziz lortzen da, eta"
+    "html": "<math display=\"inline\"><mrow><msub><mi>ξ</mi><mn>1</mn></msub><msub><mi>ξ</mi><mn>2</mn></msub></mrow></math> kateatzea <math display=\"inline\"><msub><mi>ξ</mi><mn>1</mn></msub></math>-en ondoren <math display=\"inline\"><msub><mi>ξ</mi><mn>2</mn></msub></math> idatziz lortzen da, eta"
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula formula-d\" src=\"media/formulak/00aa_02logika/f0133.svg\" alt=\"&quot;long&quot;(xi_1 xi_2) = &quot;long&quot;(xi_1) + &quot;long&quot;(xi_2).\" style=\"width:16.698em;height:1.364em\" loading=\"lazy\">"
+    "html": "<math display=\"block\"><mrow><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> long</mtext></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>ξ</mi><mn>1</mn></msub><msub><mi>ξ</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> long</mtext></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>ξ</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> long</mtext></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>ξ</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
    },
    {
     "mota": "testua",
@@ -234,12 +234,12 @@ const GLOSARIOA = [
     "elementuak": [
      "Aldagai oro terminoa da.",
      "Konstante indibidual oro terminoa da.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0136.svg\" alt=\"f^n\" style=\"width:1.519em;height:1.001em\" loading=\"lazy\"> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0016.svg\" alt=\"n\" style=\"width:0.905em;height:1.001em\" loading=\"lazy\">-adiko funtzio-sinboloa bada eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0137.svg\" alt=\"t_1, dots, t_n\" style=\"width:4.209em;height:1.001em\" loading=\"lazy\"> terminoak badira, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0138.svg\" alt=\"f^n(t_1, dots, t_n)\" style=\"width:5.073em;height:1.001em\" loading=\"lazy\"> terminoa da.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0139.svg\" alt=\"P^n\" style=\"width:1.753em;height:1.001em\" loading=\"lazy\"> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0016.svg\" alt=\"n\" style=\"width:0.905em;height:1.001em\" loading=\"lazy\">-adiko predikatu-sinboloa bada eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0137.svg\" alt=\"t_1, dots, t_n\" style=\"width:4.209em;height:1.001em\" loading=\"lazy\"> terminoak badira, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0140.svg\" alt=\"P^n(t_1, dots, t_n)\" style=\"width:5.307em;height:1.001em\" loading=\"lazy\"> formula da. Bereziki, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0141.svg\" alt=\"t_1 = t_2\" style=\"width:3.643em;height:1.001em\" loading=\"lazy\"> formula atomikoa da.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0064.svg\" alt=\"phi\" style=\"width:0.968em;height:1.001em\" loading=\"lazy\"> formula bada, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0142.svg\" alt=\"not phi\" style=\"width:1.740em;height:1.001em\" loading=\"lazy\"> formula da.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0064.svg\" alt=\"phi\" style=\"width:0.968em;height:1.001em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0143.svg\" alt=\"psi\" style=\"width:0.978em;height:1.001em\" loading=\"lazy\"> formulak badira, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0144.svg\" alt=\"(phi and psi)\" style=\"width:3.923em;height:1.001em\" loading=\"lazy\">, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0145.svg\" alt=\"(phi or psi)\" style=\"width:3.923em;height:1.001em\" loading=\"lazy\">, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0146.svg\" alt=\"(phi -&gt; psi)\" style=\"width:4.437em;height:1.001em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0147.svg\" alt=\"(phi &lt;-&gt; psi)\" style=\"width:4.437em;height:1.001em\" loading=\"lazy\"> formulak dira.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0064.svg\" alt=\"phi\" style=\"width:0.968em;height:1.001em\" loading=\"lazy\"> formula bada eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> aldagaia bada, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0063.svg\" alt=\"forall x phi\" style=\"width:2.401em;height:1.001em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0065.svg\" alt=\"exists x phi\" style=\"width:2.274em;height:1.001em\" loading=\"lazy\"> formulak dira.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0064.svg\" alt=\"phi\" style=\"width:0.968em;height:1.001em\" loading=\"lazy\"> formula bada eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> aldagaia bada, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0074.svg\" alt=\"iota x phi\" style=\"width:2.040em;height:1.001em\" loading=\"lazy\"> terminoa da."
+     "<math display=\"inline\"><msup><mi>f</mi><mi>n</mi></msup></math> <math display=\"inline\"><mi>n</mi></math>-adiko funtzio-sinboloa bada eta <math display=\"inline\"><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub></mrow></math> terminoak badira, <math display=\"inline\"><msup><mi>f</mi><mrow><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup></math> terminoa da.",
+     "<math display=\"inline\"><msup><mi>P</mi><mi>n</mi></msup></math> <math display=\"inline\"><mi>n</mi></math>-adiko predikatu-sinboloa bada eta <math display=\"inline\"><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub></mrow></math> terminoak badira, <math display=\"inline\"><msup><mi>P</mi><mrow><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup></math> formula da. Bereziki, <math display=\"inline\"><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><msub><mi>t</mi><mn>2</mn></msub></mrow></math> formula atomikoa da.",
+     "<math display=\"inline\"><mi>φ</mi></math> formula bada, <math display=\"inline\"><mrow><mo>¬</mo><mi>φ</mi></mrow></math> formula da.",
+     "<math display=\"inline\"><mi>φ</mi></math> eta <math display=\"inline\"><mi>ψ</mi></math> formulak badira, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>φ</mi><mo>∧</mo><mi>ψ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>φ</mi><mo>∨</mo><mi>ψ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>φ</mi><mo>→</mo><mi>ψ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>φ</mi><mo>↔</mo><mi>ψ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> formulak dira.",
+     "<math display=\"inline\"><mi>φ</mi></math> formula bada eta <math display=\"inline\"><mi>x</mi></math> aldagaia bada, <math display=\"inline\"><mrow><mo>∀</mo><mi>x</mi><mi>φ</mi></mrow></math> eta <math display=\"inline\"><mrow><mo>∃</mo><mi>x</mi><mi>φ</mi></mrow></math> formulak dira.",
+     "<math display=\"inline\"><mi>φ</mi></math> formula bada eta <math display=\"inline\"><mi>x</mi></math> aldagaia bada, <math display=\"inline\"><mrow><mi>ι</mi><mi>x</mi><mi>φ</mi></mrow></math> terminoa da."
     ]
    },
    {
@@ -255,25 +255,25 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> aldagaia <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0161.svg\" alt=\"E\" style=\"width:1.128em;height:1.001em\" loading=\"lazy\"> adierazpenean aske dagoen honela erabakitzen da:"
+    "html": "<math display=\"inline\"><mi>x</mi></math> aldagaia <math display=\"inline\"><mi>E</mi></math> adierazpenean aske dagoen honela erabakitzen da:"
    },
    {
     "mota": "zerrenda",
     "ordenatua": true,
     "elementuak": [
-     "Aldagai batean: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> aske dago <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0057.svg\" alt=\"z\" style=\"width:0.784em;height:1.001em\" loading=\"lazy\">-n baldin eta soilik baldin <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0182.svg\" alt=\"x=z\" style=\"width:2.990em;height:1.001em\" loading=\"lazy\">.",
-     "Konstante batean: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> ez dago inoiz aske <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0010.svg\" alt=\"a\" style=\"width:0.823em;height:1.001em\" loading=\"lazy\">-n.",
-     "Termino funtzionalean: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> aske dago <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0183.svg\" alt=\"f^n(t_1,dots,t_n)\" style=\"width:5.073em;height:1.001em\" loading=\"lazy\">-n baldin eta argumentuetako batean, gutxienez, aske badago.",
-     "Atomo batean: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> aske dago <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0184.svg\" alt=\"P^n(t_1,dots,t_n)\" style=\"width:5.307em;height:1.001em\" loading=\"lazy\">-n baldin eta argumentuetako batean aske badago. Berdintzarako, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0185.svg\" alt=\"t_1=t_2\" style=\"width:3.643em;height:1.001em\" loading=\"lazy\">-n aske dago baldin eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0186.svg\" alt=\"t_1\" style=\"width:1.155em;height:1.001em\" loading=\"lazy\">-en edo <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0187.svg\" alt=\"t_2\" style=\"width:1.155em;height:1.001em\" loading=\"lazy\">-n aske badago.",
-     "Ezeztapenean: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> aske dago <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0142.svg\" alt=\"not phi\" style=\"width:1.740em;height:1.001em\" loading=\"lazy\">-n baldin eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0064.svg\" alt=\"phi\" style=\"width:0.968em;height:1.001em\" loading=\"lazy\">-n aske badago.",
-     "Konektibo bitarrean: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> aske dago <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0188.svg\" alt=\"phi circle psi\" style=\"width:3.172em;height:1.001em\" loading=\"lazy\">-n baldin eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0064.svg\" alt=\"phi\" style=\"width:0.968em;height:1.001em\" loading=\"lazy\">-n edo <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0143.svg\" alt=\"psi\" style=\"width:0.978em;height:1.001em\" loading=\"lazy\">-n aske badago.",
-     "Kuantifikazioan: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> aske dago <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0189.svg\" alt=\"forall z phi\" style=\"width:2.312em;height:1.001em\" loading=\"lazy\">-n edo <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0190.svg\" alt=\"exists z phi\" style=\"width:2.185em;height:1.001em\" loading=\"lazy\">-n baldin eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0064.svg\" alt=\"phi\" style=\"width:0.968em;height:1.001em\" loading=\"lazy\">-n aske badago eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0191.svg\" alt=\"x != z\" style=\"width:2.990em;height:1.001em\" loading=\"lazy\"> bada.",
-     "Deskribapenean: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> aske dago <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0192.svg\" alt=\"iota z phi\" style=\"width:1.951em;height:1.001em\" loading=\"lazy\">-n baldin eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0064.svg\" alt=\"phi\" style=\"width:0.968em;height:1.001em\" loading=\"lazy\">-n aske badago eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0191.svg\" alt=\"x != z\" style=\"width:2.990em;height:1.001em\" loading=\"lazy\"> bada."
+     "Aldagai batean: <math display=\"inline\"><mi>x</mi></math> aske dago <math display=\"inline\"><mi>z</mi></math>-n baldin eta soilik baldin <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>z</mi></mrow></math>.",
+     "Konstante batean: <math display=\"inline\"><mi>x</mi></math> ez dago inoiz aske <math display=\"inline\"><mi>a</mi></math>-n.",
+     "Termino funtzionalean: <math display=\"inline\"><mi>x</mi></math> aske dago <math display=\"inline\"><msup><mi>f</mi><mrow><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup></math>-n baldin eta argumentuetako batean, gutxienez, aske badago.",
+     "Atomo batean: <math display=\"inline\"><mi>x</mi></math> aske dago <math display=\"inline\"><msup><mi>P</mi><mrow><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup></math>-n baldin eta argumentuetako batean aske badago. Berdintzarako, <math display=\"inline\"><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><msub><mi>t</mi><mn>2</mn></msub></mrow></math>-n aske dago baldin eta <math display=\"inline\"><msub><mi>t</mi><mn>1</mn></msub></math>-en edo <math display=\"inline\"><msub><mi>t</mi><mn>2</mn></msub></math>-n aske badago.",
+     "Ezeztapenean: <math display=\"inline\"><mi>x</mi></math> aske dago <math display=\"inline\"><mrow><mo>¬</mo><mi>φ</mi></mrow></math>-n baldin eta <math display=\"inline\"><mi>φ</mi></math>-n aske badago.",
+     "Konektibo bitarrean: <math display=\"inline\"><mi>x</mi></math> aske dago <math display=\"inline\"><mrow><mi>φ</mi><mo>○</mo><mi>ψ</mi></mrow></math>-n baldin eta <math display=\"inline\"><mi>φ</mi></math>-n edo <math display=\"inline\"><mi>ψ</mi></math>-n aske badago.",
+     "Kuantifikazioan: <math display=\"inline\"><mi>x</mi></math> aske dago <math display=\"inline\"><mrow><mo>∀</mo><mi>z</mi><mi>φ</mi></mrow></math>-n edo <math display=\"inline\"><mrow><mo>∃</mo><mi>z</mi><mi>φ</mi></mrow></math>-n baldin eta <math display=\"inline\"><mi>φ</mi></math>-n aske badago eta <math display=\"inline\"><mrow><mi>x</mi><mo>≠</mo><mi>z</mi></mrow></math> bada.",
+     "Deskribapenean: <math display=\"inline\"><mi>x</mi></math> aske dago <math display=\"inline\"><mrow><mi>ι</mi><mi>z</mi><mi>φ</mi></mrow></math>-n baldin eta <math display=\"inline\"><mi>φ</mi></math>-n aske badago eta <math display=\"inline\"><mrow><mi>x</mi><mo>≠</mo><mi>z</mi></mrow></math> bada."
     ]
    },
    {
     "mota": "testua",
-    "html": "Hemen <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0177.svg\" alt=\"circle\" style=\"width:1.132em;height:1.001em\" loading=\"lazy\"> ikurrak lau konektibo bitarretako edozein ordezkatzen du."
+    "html": "Hemen <math display=\"inline\"><mi>○</mi></math> ikurrak lau konektibo bitarretako edozein ordezkatzen du."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -284,24 +284,24 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> aldagaia <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0161.svg\" alt=\"E\" style=\"width:1.128em;height:1.001em\" loading=\"lazy\"> adierazpenean lotuta dagoen honela erabakitzen da:"
+    "html": "<math display=\"inline\"><mi>x</mi></math> aldagaia <math display=\"inline\"><mi>E</mi></math> adierazpenean lotuta dagoen honela erabakitzen da:"
    },
    {
     "mota": "zerrenda",
     "ordenatua": true,
     "elementuak": [
-     "Aldagai bakarrean eta konstante bakarrean, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> ez dago inoiz lotuta.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0183.svg\" alt=\"f^n(t_1,dots,t_n)\" style=\"width:5.073em;height:1.001em\" loading=\"lazy\"> terminoan, argumentuetako batean lotuta badago eta soilik orduan dago lotuta.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0184.svg\" alt=\"P^n(t_1,dots,t_n)\" style=\"width:5.307em;height:1.001em\" loading=\"lazy\"> atomoan, argumentuetako batean lotuta badago eta soilik orduan dago lotuta; berdintzarako gauza bera bi terminoekin.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0142.svg\" alt=\"not phi\" style=\"width:1.740em;height:1.001em\" loading=\"lazy\">-n, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0064.svg\" alt=\"phi\" style=\"width:0.968em;height:1.001em\" loading=\"lazy\">-n lotuta badago eta soilik orduan.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0188.svg\" alt=\"phi circle psi\" style=\"width:3.172em;height:1.001em\" loading=\"lazy\">-n, osagaietako batean lotuta badago eta soilik orduan.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0189.svg\" alt=\"forall z phi\" style=\"width:2.312em;height:1.001em\" loading=\"lazy\">-n eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0190.svg\" alt=\"exists z phi\" style=\"width:2.185em;height:1.001em\" loading=\"lazy\">-n, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0064.svg\" alt=\"phi\" style=\"width:0.968em;height:1.001em\" loading=\"lazy\">-n lotuta badago <strong>edo</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0182.svg\" alt=\"x=z\" style=\"width:2.990em;height:1.001em\" loading=\"lazy\"> bada.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0192.svg\" alt=\"iota z phi\" style=\"width:1.951em;height:1.001em\" loading=\"lazy\">-n, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0064.svg\" alt=\"phi\" style=\"width:0.968em;height:1.001em\" loading=\"lazy\">-n lotuta badago <strong>edo</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0182.svg\" alt=\"x=z\" style=\"width:2.990em;height:1.001em\" loading=\"lazy\"> bada."
+     "Aldagai bakarrean eta konstante bakarrean, <math display=\"inline\"><mi>x</mi></math> ez dago inoiz lotuta.",
+     "<math display=\"inline\"><msup><mi>f</mi><mrow><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup></math> terminoan, argumentuetako batean lotuta badago eta soilik orduan dago lotuta.",
+     "<math display=\"inline\"><msup><mi>P</mi><mrow><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup></math> atomoan, argumentuetako batean lotuta badago eta soilik orduan dago lotuta; berdintzarako gauza bera bi terminoekin.",
+     "<math display=\"inline\"><mrow><mo>¬</mo><mi>φ</mi></mrow></math>-n, <math display=\"inline\"><mi>φ</mi></math>-n lotuta badago eta soilik orduan.",
+     "<math display=\"inline\"><mrow><mi>φ</mi><mo>○</mo><mi>ψ</mi></mrow></math>-n, osagaietako batean lotuta badago eta soilik orduan.",
+     "<math display=\"inline\"><mrow><mo>∀</mo><mi>z</mi><mi>φ</mi></mrow></math>-n eta <math display=\"inline\"><mrow><mo>∃</mo><mi>z</mi><mi>φ</mi></mrow></math>-n, <math display=\"inline\"><mi>φ</mi></math>-n lotuta badago <strong>edo</strong> <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>z</mi></mrow></math> bada.",
+     "<math display=\"inline\"><mrow><mi>ι</mi><mi>z</mi><mi>φ</mi></mrow></math>-n, <math display=\"inline\"><mi>φ</mi></math>-n lotuta badago <strong>edo</strong> <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>z</mi></mrow></math> bada."
     ]
    },
    {
     "mota": "testua",
-    "html": "Lotzailearen indizeko aldagaia bera ere lotura-egituraren parte da; horregatik agertzen da <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0182.svg\" alt=\"x=z\" style=\"width:2.990em;height:1.001em\" loading=\"lazy\"> aukera azken bi kasuetan."
+    "html": "Lotzailearen indizeko aldagaia bera ere lotura-egituraren parte da; horregatik agertzen da <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>z</mi></mrow></math> aukera azken bi kasuetan."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -333,18 +333,18 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0204.svg\" alt=\"S_x^t E\" style=\"width:2.427em;height:1.001em\" loading=\"lazy\"> egituraren gainean definitzen da:"
+    "html": "<math display=\"inline\"><mrow><msubsup><mi>S</mi><mi>x</mi><mi>t</mi></msubsup><mi>E</mi></mrow></math> egituraren gainean definitzen da:"
    },
    {
     "mota": "zerrenda",
     "ordenatua": true,
     "elementuak": [
-     "Aldagaia: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0211.svg\" alt=\"S_x^t z = t\" style=\"width:4.046em;height:1.001em\" loading=\"lazy\"> baldin <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0182.svg\" alt=\"x=z\" style=\"width:2.990em;height:1.001em\" loading=\"lazy\">, eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0212.svg\" alt=\"S_x^t z=z\" style=\"width:4.201em;height:1.001em\" loading=\"lazy\"> baldin <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0191.svg\" alt=\"x != z\" style=\"width:2.990em;height:1.001em\" loading=\"lazy\">.",
-     "Konstantea: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0213.svg\" alt=\"S_x^t a=a\" style=\"width:4.280em;height:1.001em\" loading=\"lazy\">.",
-     "Funtzioa: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0214.svg\" alt=\"S_x^t f^n(t_1,dots,t_n)=f^n(S_x^t t_1,dots,S_x^t t_n)\" style=\"width:14.979em;height:1.001em\" loading=\"lazy\">.",
-     "Predikatua: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0215.svg\" alt=\"S_x^t P^n(t_1,dots,t_n)=P^n(S_x^t t_1,dots,S_x^t t_n)\" style=\"width:15.447em;height:1.001em\" loading=\"lazy\">. Bereziki, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0216.svg\" alt=\"S_x^t(t_1=t_2)=(S_x^t t_1 = S_x^t t_2)\" style=\"width:12.799em;height:1.001em\" loading=\"lazy\">.",
-     "Ezeztapena: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0217.svg\" alt=\"S_x^t(not phi)=not(S_x^t phi)\" style=\"width:8.536em;height:1.001em\" loading=\"lazy\">.",
-     "Konektibo bitarrak: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0218.svg\" alt=\"S_x^t(phi circle psi)=(S_x^t phi) circle (S_x^t psi)\" style=\"width:12.962em;height:1.001em\" loading=\"lazy\">."
+     "Aldagaia: <math display=\"inline\"><mrow><msubsup><mi>S</mi><mi>x</mi><mi>t</mi></msubsup><mi>z</mi><mo>=</mo><mi>t</mi></mrow></math> baldin <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>z</mi></mrow></math>, eta <math display=\"inline\"><mrow><msubsup><mi>S</mi><mi>x</mi><mi>t</mi></msubsup><mi>z</mi><mo>=</mo><mi>z</mi></mrow></math> baldin <math display=\"inline\"><mrow><mi>x</mi><mo>≠</mo><mi>z</mi></mrow></math>.",
+     "Konstantea: <math display=\"inline\"><mrow><msubsup><mi>S</mi><mi>x</mi><mi>t</mi></msubsup><mi>a</mi><mo>=</mo><mi>a</mi></mrow></math>.",
+     "Funtzioa: <math display=\"inline\"><mrow><msubsup><mi>S</mi><mi>x</mi><mi>t</mi></msubsup><msup><mi>f</mi><mrow><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup><mo>=</mo><msup><mi>f</mi><mrow><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>S</mi><mi>x</mi><mi>t</mi></msubsup><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msubsup><mi>S</mi><mi>x</mi><mi>t</mi></msubsup><msub><mi>t</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup></mrow></math>.",
+     "Predikatua: <math display=\"inline\"><mrow><msubsup><mi>S</mi><mi>x</mi><mi>t</mi></msubsup><msup><mi>P</mi><mrow><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup><mo>=</mo><msup><mi>P</mi><mrow><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>S</mi><mi>x</mi><mi>t</mi></msubsup><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msubsup><mi>S</mi><mi>x</mi><mi>t</mi></msubsup><msub><mi>t</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup></mrow></math>. Bereziki, <math display=\"inline\"><mrow><msubsup><mi>S</mi><mi>x</mi><mrow><mi>t</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><msub><mi>t</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msubsup><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>S</mi><mi>x</mi><mi>t</mi></msubsup><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><msubsup><mi>S</mi><mi>x</mi><mi>t</mi></msubsup><msub><mi>t</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>.",
+     "Ezeztapena: <math display=\"inline\"><mrow><msubsup><mi>S</mi><mi>x</mi><mrow><mi>t</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mo>¬</mo><mi>φ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msubsup><mo>=</mo><mo>¬</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><msubsup><mi>S</mi><mi>x</mi><mi>t</mi></msubsup><mi>φ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>.",
+     "Konektibo bitarrak: <math display=\"inline\"><mrow><msubsup><mi>S</mi><mi>x</mi><mrow><mi>t</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>φ</mi><mo>○</mo><mi>ψ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msubsup><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>S</mi><mi>x</mi><mi>t</mi></msubsup><mi>φ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>○</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>S</mi><mi>x</mi><mi>t</mi></msubsup><mi>ψ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>."
     ]
    }
   ],
@@ -356,24 +356,24 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0220.svg\" alt=\"S_x^t(Q z phi)\" style=\"width:3.819em;height:1.001em\" loading=\"lazy\"> honela definitzen da:"
+    "html": "<math display=\"inline\"><msubsup><mi>S</mi><mi>x</mi><mrow><mi>t</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>Q</mi><mi>z</mi><mi>φ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msubsup></math> honela definitzen da:"
    },
    {
     "mota": "zerrenda",
     "ordenatua": true,
     "elementuak": [
-     "<strong>Ez dago zer ordeztu.</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> ez badago aske <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0219.svg\" alt=\"Q z phi\" style=\"width:2.457em;height:1.001em\" loading=\"lazy\">-n, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0222.svg\" alt=\"S_x^t(Q z phi)=Q z phi\" style=\"width:7.609em;height:1.001em\" loading=\"lazy\">.",
-     "<strong>Ez dago harrapaketa-arriskurik.</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> aske badago <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0219.svg\" alt=\"Q z phi\" style=\"width:2.457em;height:1.001em\" loading=\"lazy\">-n baina <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0057.svg\" alt=\"z\" style=\"width:0.784em;height:1.001em\" loading=\"lazy\"> ez badago aske <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0203.svg\" alt=\"t\" style=\"width:0.629em;height:1.001em\" loading=\"lazy\">-n, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0223.svg\" alt=\"S_x^t(Q z phi)=Q z (S_x^t phi)\" style=\"width:9.886em;height:1.001em\" loading=\"lazy\">.",
-     "<strong>Harrapaketa-arriskua dago.</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> aske badago <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0219.svg\" alt=\"Q z phi\" style=\"width:2.457em;height:1.001em\" loading=\"lazy\">-n eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0057.svg\" alt=\"z\" style=\"width:0.784em;height:1.001em\" loading=\"lazy\"> aske badago <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0203.svg\" alt=\"t\" style=\"width:0.629em;height:1.001em\" loading=\"lazy\">-n, aukeratu <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0055.svg\" alt=\"v\" style=\"width:0.785em;height:1.001em\" loading=\"lazy\"> aldagai freskoa, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0219.svg\" alt=\"Q z phi\" style=\"width:2.457em;height:1.001em\" loading=\"lazy\">-n eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0203.svg\" alt=\"t\" style=\"width:0.629em;height:1.001em\" loading=\"lazy\">-n inon agertzen ez den indize txikieneko aldagaia. Orduan"
+     "<strong>Ez dago zer ordeztu.</strong> <math display=\"inline\"><mi>x</mi></math> ez badago aske <math display=\"inline\"><mrow><mi>Q</mi><mi>z</mi><mi>φ</mi></mrow></math>-n, <math display=\"inline\"><mrow><msubsup><mi>S</mi><mi>x</mi><mrow><mi>t</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>Q</mi><mi>z</mi><mi>φ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msubsup><mo>=</mo><mi>Q</mi><mi>z</mi><mi>φ</mi></mrow></math>.",
+     "<strong>Ez dago harrapaketa-arriskurik.</strong> <math display=\"inline\"><mi>x</mi></math> aske badago <math display=\"inline\"><mrow><mi>Q</mi><mi>z</mi><mi>φ</mi></mrow></math>-n baina <math display=\"inline\"><mi>z</mi></math> ez badago aske <math display=\"inline\"><mi>t</mi></math>-n, <math display=\"inline\"><mrow><msubsup><mi>S</mi><mi>x</mi><mrow><mi>t</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>Q</mi><mi>z</mi><mi>φ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msubsup><mo>=</mo><mi>Q</mi><mi>z</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>S</mi><mi>x</mi><mi>t</mi></msubsup><mi>φ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>.",
+     "<strong>Harrapaketa-arriskua dago.</strong> <math display=\"inline\"><mi>x</mi></math> aske badago <math display=\"inline\"><mrow><mi>Q</mi><mi>z</mi><mi>φ</mi></mrow></math>-n eta <math display=\"inline\"><mi>z</mi></math> aske badago <math display=\"inline\"><mi>t</mi></math>-n, aukeratu <math display=\"inline\"><mi>v</mi></math> aldagai freskoa, <math display=\"inline\"><mrow><mi>Q</mi><mi>z</mi><mi>φ</mi></mrow></math>-n eta <math display=\"inline\"><mi>t</mi></math>-n inon agertzen ez den indize txikieneko aldagaia. Orduan"
     ]
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula formula-d\" src=\"media/formulak/00aa_02logika/f0221.svg\" alt=\"S_x^t(Q z phi) = Q v (S_x^t(S_z^v phi)).\" style=\"width:11.881em;height:1.883em\" loading=\"lazy\">"
+    "html": "<math display=\"block\"><mrow><msubsup><mi>S</mi><mi>x</mi><mrow><mi>t</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>Q</mi><mi>z</mi><mi>φ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msubsup><mo>=</mo><mi>Q</mi><mi>v</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>S</mi><mi>x</mi><mrow><mi>t</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>S</mi><mi>z</mi><mi>v</mi></msubsup><mi>φ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
    },
    {
     "mota": "testua",
-    "html": "Hau da: lehenik <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0057.svg\" alt=\"z\" style=\"width:0.784em;height:1.001em\" loading=\"lazy\"> lotua <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0055.svg\" alt=\"v\" style=\"width:0.785em;height:1.001em\" loading=\"lazy\">-z berrizendatzen da, eta gero <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\">-ren ordez <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0203.svg\" alt=\"t\" style=\"width:0.629em;height:1.001em\" loading=\"lazy\"> sartzen da."
+    "html": "Hau da: lehenik <math display=\"inline\"><mi>z</mi></math> lotua <math display=\"inline\"><mi>v</mi></math>-z berrizendatzen da, eta gero <math display=\"inline\"><mi>x</mi></math>-ren ordez <math display=\"inline\"><mi>t</mi></math> sartzen da."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -390,9 +390,9 @@ const GLOSARIOA = [
     "mota": "zerrenda",
     "ordenatua": false,
     "elementuak": [
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0185.svg\" alt=\"t_1=t_2\" style=\"width:3.643em;height:1.001em\" loading=\"lazy\"> aurrizkiko berdintza-predikatuaren ordez;",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0144.svg\" alt=\"(phi and psi)\" style=\"width:3.923em;height:1.001em\" loading=\"lazy\">, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0145.svg\" alt=\"(phi or psi)\" style=\"width:3.923em;height:1.001em\" loading=\"lazy\">, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0146.svg\" alt=\"(phi -&gt; psi)\" style=\"width:4.437em;height:1.001em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0147.svg\" alt=\"(phi &lt;-&gt; psi)\" style=\"width:4.437em;height:1.001em\" loading=\"lazy\">, eraikitzailea bi formulen artean idatzita;",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0238.svg\" alt=\"f(t_1,t_2)\" style=\"width:4.186em;height:1.001em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0239.svg\" alt=\"R(t_1,t_2)\" style=\"width:4.421em;height:1.001em\" loading=\"lazy\">, erabilerak finkatutako funtzio eta predikatu bitarren notaziorako."
+     "<math display=\"inline\"><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><msub><mi>t</mi><mn>2</mn></msub></mrow></math> aurrizkiko berdintza-predikatuaren ordez;",
+     "<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>φ</mi><mo>∧</mo><mi>ψ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>φ</mi><mo>∨</mo><mi>ψ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>φ</mi><mo>→</mo><mi>ψ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>φ</mi><mo>↔</mo><mi>ψ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, eraikitzailea bi formulen artean idatzita;",
+     "<math display=\"inline\"><mrow><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><msub><mi>t</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> eta <math display=\"inline\"><mrow><mi>R</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><msub><mi>t</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, erabilerak finkatutako funtzio eta predikatu bitarren notaziorako."
     ]
    },
    {
@@ -410,10 +410,10 @@ const GLOSARIOA = [
     "mota": "zerrenda",
     "ordenatua": false,
     "elementuak": [
-     "<strong>Errepikapena (R):</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0314.svg\" alt=\"frac(alpha, alpha)\" style=\"width:1.044em;height:1.001em\" loading=\"lazy\">.",
-     "<strong>Modus ponens (MP):</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0315.svg\" alt=\"frac(alpha -&gt; beta quad alpha, beta)\" style=\"width:3.803em;height:1.031em\" loading=\"lazy\">.",
-     "<strong>Modus tollens (MT):</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0316.svg\" alt=\"frac(alpha -&gt; beta quad not beta, not alpha)\" style=\"width:4.276em;height:1.001em\" loading=\"lazy\">.",
-     "<strong>Ezeztapen bikoitza (DN):</strong> bi noranzkoak baimentzen dira, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0317.svg\" alt=\"frac(not not alpha, alpha)\" style=\"width:2.126em;height:1.001em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0318.svg\" alt=\"frac(alpha, not not alpha)\" style=\"width:2.126em;height:1.001em\" loading=\"lazy\">."
+     "<strong>Errepikapena (R):</strong> <math display=\"inline\"><mfrac><mi>α</mi><mi>α</mi></mfrac></math>.",
+     "<strong>Modus ponens (MP):</strong> <math display=\"inline\"><mfrac><mrow><mi>α</mi><mo>→</mo><mi>β</mi><mspace width=\"1.0em\"></mspace><mi>α</mi></mrow><mi>β</mi></mfrac></math>.",
+     "<strong>Modus tollens (MT):</strong> <math display=\"inline\"><mfrac><mrow><mi>α</mi><mo>→</mo><mi>β</mi><mspace width=\"1.0em\"></mspace><mo>¬</mo><mi>β</mi></mrow><mrow><mo>¬</mo><mi>α</mi></mrow></mfrac></math>.",
+     "<strong>Ezeztapen bikoitza (DN):</strong> bi noranzkoak baimentzen dira, <math display=\"inline\"><mfrac><mrow><mo>¬</mo><mo>¬</mo><mi>α</mi></mrow><mi>α</mi></mfrac></math> eta <math display=\"inline\"><mfrac><mi>α</mi><mrow><mo>¬</mo><mo>¬</mo><mi>α</mi></mrow></mfrac></math>."
     ]
    }
   ],
@@ -427,12 +427,12 @@ const GLOSARIOA = [
     "mota": "zerrenda",
     "ordenatua": false,
     "elementuak": [
-     "<strong>Konjuntorearen sarrera (IC):</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0319.svg\" alt=\"frac(alpha quad beta, alpha and beta)\" style=\"width:2.390em;height:1.031em\" loading=\"lazy\">.",
-     "<strong>Konjuntorearen ezabapena (EC):</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0320.svg\" alt=\"frac(alpha and beta, alpha)\" style=\"width:2.120em;height:1.001em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0321.svg\" alt=\"frac(alpha and beta, beta)\" style=\"width:2.120em;height:1.031em\" loading=\"lazy\">.",
-     "<strong>Disjuntorearen sarrera (ID):</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0322.svg\" alt=\"frac(alpha, alpha or beta)\" style=\"width:2.120em;height:1.031em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0323.svg\" alt=\"frac(alpha, beta or alpha)\" style=\"width:2.120em;height:1.031em\" loading=\"lazy\">.",
-     "<strong>Disjuntorearen ezabapena (ED):</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0324.svg\" alt=\"frac(alpha or beta quad not alpha, beta)\" style=\"width:4.073em;height:1.031em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0325.svg\" alt=\"frac(alpha or beta quad not beta, alpha)\" style=\"width:4.006em;height:1.001em\" loading=\"lazy\">.",
-     "<strong>Bikondizionalaren sarrera (IB):</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0326.svg\" alt=\"frac(alpha -&gt; beta quad beta -&gt; alpha, alpha &lt;-&gt; beta)\" style=\"width:5.148em;height:1.031em\" loading=\"lazy\">.",
-     "<strong>Bikondizionalaren ezabapena (EB):</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0327.svg\" alt=\"frac(alpha &lt;-&gt; beta, alpha -&gt; beta)\" style=\"width:2.390em;height:1.031em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0328.svg\" alt=\"frac(alpha &lt;-&gt; beta, beta -&gt; alpha)\" style=\"width:2.390em;height:1.031em\" loading=\"lazy\">."
+     "<strong>Konjuntorearen sarrera (IC):</strong> <math display=\"inline\"><mfrac><mrow><mi>α</mi><mspace width=\"1.0em\"></mspace><mi>β</mi></mrow><mrow><mi>α</mi><mo>∧</mo><mi>β</mi></mrow></mfrac></math>.",
+     "<strong>Konjuntorearen ezabapena (EC):</strong> <math display=\"inline\"><mfrac><mrow><mi>α</mi><mo>∧</mo><mi>β</mi></mrow><mi>α</mi></mfrac></math> eta <math display=\"inline\"><mfrac><mrow><mi>α</mi><mo>∧</mo><mi>β</mi></mrow><mi>β</mi></mfrac></math>.",
+     "<strong>Disjuntorearen sarrera (ID):</strong> <math display=\"inline\"><mfrac><mi>α</mi><mrow><mi>α</mi><mo>∨</mo><mi>β</mi></mrow></mfrac></math> eta <math display=\"inline\"><mfrac><mi>α</mi><mrow><mi>β</mi><mo>∨</mo><mi>α</mi></mrow></mfrac></math>.",
+     "<strong>Disjuntorearen ezabapena (ED):</strong> <math display=\"inline\"><mfrac><mrow><mi>α</mi><mo>∨</mo><mi>β</mi><mspace width=\"1.0em\"></mspace><mo>¬</mo><mi>α</mi></mrow><mi>β</mi></mfrac></math> eta <math display=\"inline\"><mfrac><mrow><mi>α</mi><mo>∨</mo><mi>β</mi><mspace width=\"1.0em\"></mspace><mo>¬</mo><mi>β</mi></mrow><mi>α</mi></mfrac></math>.",
+     "<strong>Bikondizionalaren sarrera (IB):</strong> <math display=\"inline\"><mfrac><mrow><mi>α</mi><mo>→</mo><mi>β</mi><mspace width=\"1.0em\"></mspace><mi>β</mi><mo>→</mo><mi>α</mi></mrow><mrow><mi>α</mi><mo>↔</mo><mi>β</mi></mrow></mfrac></math>.",
+     "<strong>Bikondizionalaren ezabapena (EB):</strong> <math display=\"inline\"><mfrac><mrow><mi>α</mi><mo>↔</mo><mi>β</mi></mrow><mrow><mi>α</mi><mo>→</mo><mi>β</mi></mrow></mfrac></math> eta <math display=\"inline\"><mfrac><mrow><mi>α</mi><mo>↔</mo><mi>β</mi></mrow><mrow><mi>β</mi><mo>→</mo><mi>α</mi></mrow></mfrac></math>."
     ]
    }
   ],
@@ -446,14 +446,14 @@ const GLOSARIOA = [
     "mota": "zerrenda",
     "ordenatua": false,
     "elementuak": [
-     "<strong>Partikularizatzailearen sarrera (IP):</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0329.svg\" alt=\"frac(alpha[t/x], exists x alpha)\" style=\"width:2.341em;height:1.031em\" loading=\"lazy\">.",
-     "<strong>Orokortzailearen ezabapena (EG):</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0330.svg\" alt=\"frac(forall x alpha, alpha[t/x])\" style=\"width:2.341em;height:1.243em\" loading=\"lazy\">.",
-     "<strong>Partikularizatzailearen ezabapen kritikoa (EP):</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0331.svg\" alt=\"frac(exists x alpha, alpha[u/x])\" style=\"width:2.372em;height:1.243em\" loading=\"lazy\">, non <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0054.svg\" alt=\"u\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> aldagai bat den."
+     "<strong>Partikularizatzailearen sarrera (IP):</strong> <math display=\"inline\"><mfrac><mrow><mi>α</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mi>t</mi><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow><mrow><mo>∃</mo><mi>x</mi><mi>α</mi></mrow></mfrac></math>.",
+     "<strong>Orokortzailearen ezabapena (EG):</strong> <math display=\"inline\"><mfrac><mrow><mo>∀</mo><mi>x</mi><mi>α</mi></mrow><mrow><mi>α</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mi>t</mi><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></mfrac></math>.",
+     "<strong>Partikularizatzailearen ezabapen kritikoa (EP):</strong> <math display=\"inline\"><mfrac><mrow><mo>∃</mo><mi>x</mi><mi>α</mi></mrow><mrow><mi>α</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mi>u</mi><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></mfrac></math>, non <math display=\"inline\"><mi>u</mi></math> aldagai bat den."
     ]
    },
    {
     "mota": "testua",
-    "html": "EGn <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0203.svg\" alt=\"t\" style=\"width:0.629em;height:1.001em\" loading=\"lazy\"> edozein termino izan daiteke. EPn, aldiz, ordezkoa aldagai hutsa da; dedukzio batean erabili ahal izateko, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0054.svg\" alt=\"u\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> <strong>aldagai kritikoa</strong> berria izan behar da, aurreko lerroetan agertu gabea. EP ez beste inferentzia-erregela guztiak <strong>normalak</strong> dira; EP da erregela kritikoa."
+    "html": "EGn <math display=\"inline\"><mi>t</mi></math> edozein termino izan daiteke. EPn, aldiz, ordezkoa aldagai hutsa da; dedukzio batean erabili ahal izateko, <math display=\"inline\"><mi>u</mi></math> <strong>aldagai kritikoa</strong> berria izan behar da, aurreko lerroetan agertu gabea. EP ez beste inferentzia-erregela guztiak <strong>normalak</strong> dira; EP da erregela kritikoa."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -466,10 +466,10 @@ const GLOSARIOA = [
     "mota": "zerrenda",
     "ordenatua": false,
     "elementuak": [
-     "<strong>Berdintzailearen sarrera (II):</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0332.svg\" alt=\"frac(alpha[t/x], forall x (x = t -&gt; alpha))\" style=\"width:5.056em;height:1.106em\" loading=\"lazy\">, betiere <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> ez bada libre <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0203.svg\" alt=\"t\" style=\"width:0.629em;height:1.001em\" loading=\"lazy\">-n.",
-     "<strong>Berdintzailearen ezabapena (EI):</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0333.svg\" alt=\"frac(forall x (x = t -&gt; alpha), alpha[t/x])\" style=\"width:5.056em;height:1.243em\" loading=\"lazy\">, baldintza berarekin.",
-     "<strong>Deskribapen propioa (DP):</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0334.svg\" alt=\"frac(exists y forall x (alpha &lt;-&gt; x = y), alpha[(iota x alpha)/x])\" style=\"width:6.110em;height:1.243em\" loading=\"lazy\">, non <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0040.svg\" alt=\"y\" style=\"width:0.810em;height:1.001em\" loading=\"lazy\"> ez den libre <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\">-n.",
-     "<strong>Deskribapen inpropioa (DI):</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0335.svg\" alt=\"frac(not exists y forall x (alpha &lt;-&gt; x = y), iota x alpha = iota z (z = z))\" style=\"width:6.651em;height:1.076em\" loading=\"lazy\">, non <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0040.svg\" alt=\"y\" style=\"width:0.810em;height:1.001em\" loading=\"lazy\"> ez den libre <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\">-n."
+     "<strong>Berdintzailearen sarrera (II):</strong> <math display=\"inline\"><mfrac><mrow><mi>α</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mi>t</mi><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow><mrow><mo>∀</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>=</mo><mi>t</mi><mo>→</mo><mi>α</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac></math>, betiere <math display=\"inline\"><mi>x</mi></math> ez bada libre <math display=\"inline\"><mi>t</mi></math>-n.",
+     "<strong>Berdintzailearen ezabapena (EI):</strong> <math display=\"inline\"><mfrac><mrow><mo>∀</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>=</mo><mi>t</mi><mo>→</mo><mi>α</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>α</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mi>t</mi><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></mfrac></math>, baldintza berarekin.",
+     "<strong>Deskribapen propioa (DP):</strong> <math display=\"inline\"><mfrac><mrow><mo>∃</mo><mi>y</mi><mo>∀</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>α</mi><mo>↔</mo><mi>x</mi><mo>=</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>α</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mrow><mi>ι</mi><mi>x</mi><mi>α</mi></mrow><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></mfrac></math>, non <math display=\"inline\"><mi>y</mi></math> ez den libre <math display=\"inline\"><mi>α</mi></math>-n.",
+     "<strong>Deskribapen inpropioa (DI):</strong> <math display=\"inline\"><mfrac><mrow><mo>¬</mo><mo>∃</mo><mi>y</mi><mo>∀</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>α</mi><mo>↔</mo><mi>x</mi><mo>=</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>ι</mi><mi>x</mi><mi>α</mi><mo>=</mo><mi>ι</mi><mi>z</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>z</mi><mo>=</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac></math>, non <math display=\"inline\"><mi>y</mi></math> ez den libre <math display=\"inline\"><mi>α</mi></math>-n."
     ]
    }
   ],
@@ -485,12 +485,12 @@ const GLOSARIOA = [
     "elementuak": [
      "<strong>Lerro erabilgarria:</strong> formula hutsa, edo jada itxitako helburu bati dagokion galdera-ikur ezabatua daraman formula.",
      "<strong>Lerro markatua:</strong> lerro erabilgarri baten aurrean gutxienez irismen-marka bat duen lerroa; markek zein helburu edo hipotesiren barruan dagoen erakusten dute.",
-     "<strong>Lerro galdetua:</strong> ezabatu gabeko <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0299.svg\" alt=\"? alpha\" style=\"width:1.691em;height:1.001em\" loading=\"lazy\"> helburua."
+     "<strong>Lerro galdetua:</strong> ezabatu gabeko <math display=\"inline\"><mrow><mi>?</mi><mi>α</mi></mrow></math> helburua."
     ]
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0352.svg\" alt=\"lambda\" style=\"width:0.886em;height:1.001em\" loading=\"lazy\"> metaalda-gaia edozein motatako lerroa izendatzeko erabil daiteke."
+    "html": "<math display=\"inline\"><mi>λ</mi></math> metaalda-gaia edozein motatako lerroa izendatzeko erabil daiteke."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -501,19 +501,19 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "Izan bedi <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\"> formalismoko sententzien multzo bat. <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\">-tik abiatutako erdidedukzioa honako erregelen bidez lortutako lerro-segida finitua da:"
+    "html": "Izan bedi <math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math> formalismoko sententzien multzo bat. <math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math>-tik abiatutako erdidedukzioa honako erregelen bidez lortutako lerro-segida finitua da:"
    },
    {
     "mota": "zerrenda",
     "ordenatua": true,
     "elementuak": [
-     "Edozein <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\"> formularentzat <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0299.svg\" alt=\"? alpha\" style=\"width:1.691em;height:1.001em\" loading=\"lazy\"> helburu-lerroa ireki daiteke.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0353.svg\" alt=\"alpha in Gamma\" style=\"width:3.091em;height:1.001em\" loading=\"lazy\"> bada, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\"> premisa gisa idatz daiteke.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0299.svg\" alt=\"? alpha\" style=\"width:1.691em;height:1.001em\" loading=\"lazy\"> idatzita badago, haren hurrengo lerroan <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0311.svg\" alt=\"not alpha\" style=\"width:1.724em;height:1.001em\" loading=\"lazy\"> idatz daiteke: helburua kontraesanez frogatzeko aldi baterako hipotesia da.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0354.svg\" alt=\"? (alpha -&gt; beta)\" style=\"width:5.090em;height:1.001em\" loading=\"lazy\"> idatzita badago, haren hurrengo lerroan <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\"> idatz daiteke: baldintzazko frogaren aurrekari-hipotesia da.",
-     "Aurreko lerro erabilgarrietatik erregela normal baten bidez <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\"> inferitzen bada, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\"> lerro berria idatz daiteke.",
-     "EPren bidez <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\"> inferitzen bada, lerro berria idatz daiteke soilik aldagai kritikoa aurreko lerro bakar batean ere agertzen ez bada.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0299.svg\" alt=\"? alpha\" style=\"width:1.691em;height:1.001em\" loading=\"lazy\"> irekitako azken helburua itxi, haren galdera-ikurra ezabatu eta ondoko lerro guztiak maila horretan marka daitezke lau egoeretako batean: (i) ondoko lerro erabilgarrietako bat <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\"> bera da; (ii) ondoko bi lerro erabilgarri elkarren ezeztapenak dira; (iii) <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0355.svg\" alt=\"alpha = (beta -&gt; gamma)\" style=\"width:6.556em;height:1.001em\" loading=\"lazy\"> eta ondoko lerro erabilgarrietako bat <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0356.svg\" alt=\"gamma\" style=\"width:0.872em;height:1.001em\" loading=\"lazy\"> da; edo (iv) <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0357.svg\" alt=\"alpha = forall x_1 dots x_n beta\" style=\"width:7.421em;height:1.001em\" loading=\"lazy\">, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0358.svg\" alt=\"x_1, dots, x_n\" style=\"width:4.697em;height:1.001em\" loading=\"lazy\"> ez dira libre helburua baino lehenagoko lerro erabilgarrietan, eta ondoko lerro erabilgarrietako bat <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0302.svg\" alt=\"beta\" style=\"width:0.908em;height:1.001em\" loading=\"lazy\"> da."
+     "Edozein <math display=\"inline\"><mi>α</mi></math> formularentzat <math display=\"inline\"><mrow><mi>?</mi><mi>α</mi></mrow></math> helburu-lerroa ireki daiteke.",
+     "<math display=\"inline\"><mrow><mi>α</mi><mo>∈</mo><mi mathvariant=\"normal\">Γ</mi></mrow></math> bada, <math display=\"inline\"><mi>α</mi></math> premisa gisa idatz daiteke.",
+     "<math display=\"inline\"><mrow><mi>?</mi><mi>α</mi></mrow></math> idatzita badago, haren hurrengo lerroan <math display=\"inline\"><mrow><mo>¬</mo><mi>α</mi></mrow></math> idatz daiteke: helburua kontraesanez frogatzeko aldi baterako hipotesia da.",
+     "<math display=\"inline\"><mrow><mi>?</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>α</mi><mo>→</mo><mi>β</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> idatzita badago, haren hurrengo lerroan <math display=\"inline\"><mi>α</mi></math> idatz daiteke: baldintzazko frogaren aurrekari-hipotesia da.",
+     "Aurreko lerro erabilgarrietatik erregela normal baten bidez <math display=\"inline\"><mi>α</mi></math> inferitzen bada, <math display=\"inline\"><mi>α</mi></math> lerro berria idatz daiteke.",
+     "EPren bidez <math display=\"inline\"><mi>α</mi></math> inferitzen bada, lerro berria idatz daiteke soilik aldagai kritikoa aurreko lerro bakar batean ere agertzen ez bada.",
+     "<math display=\"inline\"><mrow><mi>?</mi><mi>α</mi></mrow></math> irekitako azken helburua itxi, haren galdera-ikurra ezabatu eta ondoko lerro guztiak maila horretan marka daitezke lau egoeretako batean: (i) ondoko lerro erabilgarrietako bat <math display=\"inline\"><mi>α</mi></math> bera da; (ii) ondoko bi lerro erabilgarri elkarren ezeztapenak dira; (iii) <math display=\"inline\"><mrow><mi>α</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>β</mi><mo>→</mo><mi>γ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta ondoko lerro erabilgarrietako bat <math display=\"inline\"><mi>γ</mi></math> da; edo (iv) <math display=\"inline\"><mrow><mi>α</mi><mo>=</mo><mo>∀</mo><msub><mi>x</mi><mn>1</mn></msub><mi>…</mi><msub><mi>x</mi><mi>n</mi></msub><mi>β</mi></mrow></math>, <math display=\"inline\"><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>x</mi><mi>n</mi></msub></mrow></math> ez dira libre helburua baino lehenagoko lerro erabilgarrietan, eta ondoko lerro erabilgarrietako bat <math display=\"inline\"><mi>β</mi></math> da."
     ]
    }
   ],
@@ -525,11 +525,11 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\">-tik <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\">-ren <strong>dedukzioa</strong> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\">-tik abiatutako erdidedukzio bat da, lehen lerroa <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0299.svg\" alt=\"? alpha\" style=\"width:1.691em;height:1.001em\" loading=\"lazy\"> duena eta gainerako lerro guztiak markatuta dituena. Horrelako dedukzio bat badago, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\"> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\">-tik deduzigarria da: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0291.svg\" alt=\"Gamma tack alpha\" style=\"width:3.026em;height:1.001em\" loading=\"lazy\">."
+    "html": "<math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math>-tik <math display=\"inline\"><mi>α</mi></math>-ren <strong>dedukzioa</strong> <math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math>-tik abiatutako erdidedukzio bat da, lehen lerroa <math display=\"inline\"><mrow><mi>?</mi><mi>α</mi></mrow></math> duena eta gainerako lerro guztiak markatuta dituena. Horrelako dedukzio bat badago, <math display=\"inline\"><mi>α</mi></math> <math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math>-tik deduzigarria da: <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Γ</mi><mo>⊢</mo><mi>α</mi></mrow></math>."
    },
    {
     "mota": "testua",
-    "html": "Premisarik gabeko dedukzioa duen formula <strong>teorema logikoa</strong> da; hori <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0359.svg\" alt=\"tack alpha\" style=\"width:1.981em;height:1.001em\" loading=\"lazy\"> bidez adierazten da. Zeinu hau erlazio sintaktikoa da: atal honetan ez da oraindik egia semantikorik edo eredu guztietako ondoriorik baieztatzen."
+    "html": "Premisarik gabeko dedukzioa duen formula <strong>teorema logikoa</strong> da; hori <math display=\"inline\"><mrow><mo>⊢</mo><mi>α</mi></mrow></math> bidez adierazten da. Zeinu hau erlazio sintaktikoa da: atal honetan ez da oraindik egia semantikorik edo eredu guztietako ondoriorik baieztatzen."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -540,7 +540,7 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0370.svg\" alt=\"frac(not(alpha -&gt; beta), alpha and not beta) quad &quot;(NCC)&quot;\" style=\"width:8.160em;height:1.031em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mfrac><mrow><mo>¬</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>α</mi><mo>→</mo><mi>β</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>α</mi><mo>∧</mo><mo>¬</mo><mi>β</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (NCC)</mtext></mrow></mrow></math>"
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -551,7 +551,7 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0376.svg\" alt=\"alpha or not alpha quad &quot;(TND; premisarik gabe)&quot;\" style=\"width:17.127em;height:1.001em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mi>α</mi><mo>∨</mo><mo>¬</mo><mi>α</mi><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (TND; premisarik gabe)</mtext></mrow></mrow></math>"
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -562,7 +562,7 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0377.svg\" alt=\"frac(alpha -&gt; beta quad gamma -&gt; beta, (alpha or gamma) -&gt; beta) quad &quot;(IDA)&quot;\" style=\"width:9.294em;height:1.076em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mfrac><mrow><mi>α</mi><mo>→</mo><mi>β</mi><mspace width=\"1.0em\"></mspace><mi>γ</mi><mo>→</mo><mi>β</mi></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>α</mi><mo>∨</mo><mi>γ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>→</mo><mi>β</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (IDA)</mtext></mrow></mrow></math>"
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -573,7 +573,7 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0382.svg\" alt=\"t = t quad &quot;(I; premisarik gabe)&quot;\" style=\"width:13.794em;height:1.001em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mi>t</mi><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (I; premisarik gabe)</mtext></mrow></mrow></math>"
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -584,7 +584,7 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0387.svg\" alt=\"frac(t_1 = t_2, t_2 = t_1) quad &quot;(SI)&quot;\" style=\"width:5.773em;height:1.074em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mfrac><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><msub><mi>t</mi><mn>2</mn></msub></mrow><mrow><msub><mi>t</mi><mn>2</mn></msub><mo>=</mo><msub><mi>t</mi><mn>1</mn></msub></mrow></mfrac><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (SI)</mtext></mrow></mrow></math>"
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -595,7 +595,7 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "Oinarrizko eskema <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0392.svg\" alt=\"frac(t_1=t_2 quad t_2=t_3, t_1=t_3)\" style=\"width:5.673em;height:1.087em\" loading=\"lazy\"> da. Simetria esplizituki erabili gabe idatzitako beste hiru orientazioak ere TI izenpean hartzen dira: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0393.svg\" alt=\"frac(t_1=t_2 quad t_3=t_2, t_1=t_3)\" style=\"width:5.673em;height:1.087em\" loading=\"lazy\">, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0394.svg\" alt=\"frac(t_2=t_1 quad t_2=t_3, t_1=t_3)\" style=\"width:5.673em;height:1.087em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0395.svg\" alt=\"frac(t_2=t_1 quad t_3=t_2, t_1=t_3)\" style=\"width:5.673em;height:1.087em\" loading=\"lazy\">."
+    "html": "Oinarrizko eskema <math display=\"inline\"><mfrac><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><msub><mi>t</mi><mn>2</mn></msub><mspace width=\"1.0em\"></mspace><msub><mi>t</mi><mn>2</mn></msub><mo>=</mo><msub><mi>t</mi><mn>3</mn></msub></mrow><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><msub><mi>t</mi><mn>3</mn></msub></mrow></mfrac></math> da. Simetria esplizituki erabili gabe idatzitako beste hiru orientazioak ere TI izenpean hartzen dira: <math display=\"inline\"><mfrac><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><msub><mi>t</mi><mn>2</mn></msub><mspace width=\"1.0em\"></mspace><msub><mi>t</mi><mn>3</mn></msub><mo>=</mo><msub><mi>t</mi><mn>2</mn></msub></mrow><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><msub><mi>t</mi><mn>3</mn></msub></mrow></mfrac></math>, <math display=\"inline\"><mfrac><mrow><msub><mi>t</mi><mn>2</mn></msub><mo>=</mo><msub><mi>t</mi><mn>1</mn></msub><mspace width=\"1.0em\"></mspace><msub><mi>t</mi><mn>2</mn></msub><mo>=</mo><msub><mi>t</mi><mn>3</mn></msub></mrow><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><msub><mi>t</mi><mn>3</mn></msub></mrow></mfrac></math> eta <math display=\"inline\"><mfrac><mrow><msub><mi>t</mi><mn>2</mn></msub><mo>=</mo><msub><mi>t</mi><mn>1</mn></msub><mspace width=\"1.0em\"></mspace><msub><mi>t</mi><mn>3</mn></msub><mo>=</mo><msub><mi>t</mi><mn>2</mn></msub></mrow><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><msub><mi>t</mi><mn>3</mn></msub></mrow></mfrac></math>."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -606,7 +606,7 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "Bi noranzkoetako erregela eratorriak dira: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0400.svg\" alt=\"frac(not forall x alpha, exists x not alpha)\" style=\"width:2.650em;height:1.001em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0401.svg\" alt=\"frac(exists x not alpha, not forall x alpha)\" style=\"width:2.650em;height:1.001em\" loading=\"lazy\">."
+    "html": "Bi noranzkoetako erregela eratorriak dira: <math display=\"inline\"><mfrac><mrow><mo>¬</mo><mo>∀</mo><mi>x</mi><mi>α</mi></mrow><mrow><mo>∃</mo><mi>x</mi><mo>¬</mo><mi>α</mi></mrow></mfrac></math> eta <math display=\"inline\"><mfrac><mrow><mo>∃</mo><mi>x</mi><mo>¬</mo><mi>α</mi></mrow><mrow><mo>¬</mo><mo>∀</mo><mi>x</mi><mi>α</mi></mrow></mfrac></math>."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -617,7 +617,7 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "Bi noranzkoetako erregela eratorriak dira: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0407.svg\" alt=\"frac(not exists x alpha, forall x not alpha)\" style=\"width:2.650em;height:1.001em\" loading=\"lazy\"> eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0408.svg\" alt=\"frac(forall x not alpha, not exists x alpha)\" style=\"width:2.650em;height:1.001em\" loading=\"lazy\">."
+    "html": "Bi noranzkoetako erregela eratorriak dira: <math display=\"inline\"><mfrac><mrow><mo>¬</mo><mo>∃</mo><mi>x</mi><mi>α</mi></mrow><mrow><mo>∀</mo><mi>x</mi><mo>¬</mo><mi>α</mi></mrow></mfrac></math> eta <math display=\"inline\"><mfrac><mrow><mo>∀</mo><mi>x</mi><mo>¬</mo><mi>α</mi></mrow><mrow><mo>¬</mo><mo>∃</mo><mi>x</mi><mi>α</mi></mrow></mfrac></math>."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -628,11 +628,11 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0414.svg\" alt=\"frac(alpha_1 quad dots quad alpha_n, alpha_1 and dots and alpha_n) quad &quot;(GIC)&quot;\" style=\"width:9.163em;height:1.081em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mfrac><mrow><msub><mi>α</mi><mn>1</mn></msub><mspace width=\"1.0em\"></mspace><mi>…</mi><mspace width=\"1.0em\"></mspace><msub><mi>α</mi><mi>n</mi></msub></mrow><mrow><msub><mi>α</mi><mn>1</mn></msub><mo>∧</mo><mi>…</mi><mo>∧</mo><msub><mi>α</mi><mi>n</mi></msub></mrow></mfrac><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (GIC)</mtext></mrow></mrow></math>"
    },
    {
     "mota": "testua",
-    "html": "Aurretik erabilgarri dauden <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0415.svg\" alt=\"alpha_1, dots, alpha_n\" style=\"width:4.855em;height:1.001em\" loading=\"lazy\"> formulak konjuntzio bakarrean biltzen ditu."
+    "html": "Aurretik erabilgarri dauden <math display=\"inline\"><mrow><msub><mi>α</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>α</mi><mi>n</mi></msub></mrow></math> formulak konjuntzio bakarrean biltzen ditu."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -643,11 +643,11 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0416.svg\" alt=\"frac(forall x_1 dots x_n alpha, alpha[t_1/x_1, dots, t_n/x_n]) quad &quot;(GEG)&quot;\" style=\"width:9.913em;height:1.727em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mfrac><mrow><mo>∀</mo><msub><mi>x</mi><mn>1</mn></msub><mi>…</mi><msub><mi>x</mi><mi>n</mi></msub><mi>α</mi></mrow><mrow><mi>α</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><msub><mi>t</mi><mn>1</mn></msub><msub><mi>x</mi><mn>1</mn></msub></mfrac><mo>,</mo><mi>…</mi><mo>,</mo><mfrac><msub><mi>t</mi><mi>n</mi></msub><msub><mi>x</mi><mi>n</mi></msub></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></mfrac><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (GEG)</mtext></mrow></mrow></math>"
    },
    {
     "mota": "testua",
-    "html": "Orokortzaile sorta aldi berean instantziatzen da, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0417.svg\" alt=\"x_i\" style=\"width:1.265em;height:1.001em\" loading=\"lazy\"> bakoitzaren ordez dagokion <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0418.svg\" alt=\"t_i\" style=\"width:1.021em;height:1.001em\" loading=\"lazy\"> terminoa jarriz."
+    "html": "Orokortzaile sorta aldi berean instantziatzen da, <math display=\"inline\"><msub><mi>x</mi><mi>i</mi></msub></math> bakoitzaren ordez dagokion <math display=\"inline\"><msub><mi>t</mi><mi>i</mi></msub></math> terminoa jarriz."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -658,7 +658,7 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0419.svg\" alt=\"frac(alpha[t_1/x_1, dots, t_n/x_n], exists x_1 dots x_n alpha) quad &quot;(GIP)&quot;\" style=\"width:9.422em;height:1.595em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mfrac><mrow><mi>α</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><msub><mi>t</mi><mn>1</mn></msub><msub><mi>x</mi><mn>1</mn></msub></mfrac><mo>,</mo><mi>…</mi><mo>,</mo><mfrac><msub><mi>t</mi><mi>n</mi></msub><msub><mi>x</mi><mi>n</mi></msub></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow><mrow><mo>∃</mo><msub><mi>x</mi><mn>1</mn></msub><mi>…</mi><msub><mi>x</mi><mi>n</mi></msub><mi>α</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (GIP)</mtext></mrow></mrow></math>"
    },
    {
     "mota": "testua",
@@ -673,11 +673,11 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0420.svg\" alt=\"frac(exists x_1 dots x_n alpha, alpha[u_1/x_1, dots, u_n/x_n]) quad &quot;(GEP)&quot;\" style=\"width:9.855em;height:1.727em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mfrac><mrow><mo>∃</mo><msub><mi>x</mi><mn>1</mn></msub><mi>…</mi><msub><mi>x</mi><mi>n</mi></msub><mi>α</mi></mrow><mrow><mi>α</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><msub><mi>u</mi><mn>1</mn></msub><msub><mi>x</mi><mn>1</mn></msub></mfrac><mo>,</mo><mi>…</mi><mo>,</mo><mfrac><msub><mi>u</mi><mi>n</mi></msub><msub><mi>x</mi><mi>n</mi></msub></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></mfrac><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (GEP)</mtext></mrow></mrow></math>"
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0413.svg\" alt=\"u_1, dots, u_n\" style=\"width:4.697em;height:1.001em\" loading=\"lazy\"> aldagai kritiko berriak eta elkarren artean desberdinak dira. Baldintza horrek existentzialen lekukoak ez identifikatzea eta aurreko informaziorik ez eranstea bermatzen du."
+    "html": "<math display=\"inline\"><mrow><msub><mi>u</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>u</mi><mi>n</mi></msub></mrow></math> aldagai kritiko berriak eta elkarren artean desberdinak dira. Baldintza horrek existentzialen lekukoak ez identifikatzea eta aurreko informaziorik ez eranstea bermatzen du."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -692,11 +692,11 @@ const GLOSARIOA = [
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0421.svg\" alt=\"frac(not exists x_1 dots x_n alpha, forall x_1 dots x_n not alpha) quad &quot;(GNP)&quot;\" style=\"width:9.473em;height:1.081em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mfrac><mrow><mo>¬</mo><mo>∃</mo><msub><mi>x</mi><mn>1</mn></msub><mi>…</mi><msub><mi>x</mi><mi>n</mi></msub><mi>α</mi></mrow><mrow><mo>∀</mo><msub><mi>x</mi><mn>1</mn></msub><mi>…</mi><msub><mi>x</mi><mi>n</mi></msub><mo>¬</mo><mi>α</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (GNP)</mtext></mrow></mrow></math>"
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0422.svg\" alt=\"frac(forall x_1 dots x_n not alpha, not exists x_1 dots x_n alpha) quad &quot;(GNP)&quot;\" style=\"width:9.473em;height:1.081em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mfrac><mrow><mo>∀</mo><msub><mi>x</mi><mn>1</mn></msub><mi>…</mi><msub><mi>x</mi><mi>n</mi></msub><mo>¬</mo><mi>α</mi></mrow><mrow><mo>¬</mo><mo>∃</mo><msub><mi>x</mi><mn>1</mn></msub><mi>…</mi><msub><mi>x</mi><mi>n</mi></msub><mi>α</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (GNP)</mtext></mrow></mrow></math>"
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -707,7 +707,7 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\"> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1041.svg\" alt=\"cal(L)\" style=\"width:1.102em;height:1.001em\" loading=\"lazy\">-ko formula multzoa <strong>kontraesankorra</strong> da baldin eta soilik baldin <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1041.svg\" alt=\"cal(L)\" style=\"width:1.102em;height:1.001em\" loading=\"lazy\">-ko formula oro <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\">-tik deduzigarria bada. <strong>Konsistentea</strong> da kontraesankorra ez bada; baliokidetasunez, badago gutxienez formula bat <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\">-tik deduzigarria ez dena. Formula bakar bat kontraesankorra edo konsistentea dela esateak haren singleton multzoaz hitz egitea da."
+    "html": "<math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math> <math display=\"inline\"><mi mathvariant=\"script\">ℒ</mi></math>-ko formula multzoa <strong>kontraesankorra</strong> da baldin eta soilik baldin <math display=\"inline\"><mi mathvariant=\"script\">ℒ</mi></math>-ko formula oro <math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math>-tik deduzigarria bada. <strong>Konsistentea</strong> da kontraesankorra ez bada; baliokidetasunez, badago gutxienez formula bat <math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math>-tik deduzigarria ez dena. Formula bakar bat kontraesankorra edo konsistentea dela esateak haren singleton multzoaz hitz egitea da."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -718,11 +718,11 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\"> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1041.svg\" alt=\"cal(L)\" style=\"width:1.102em;height:1.001em\" loading=\"lazy\">-ko sententzia multzoa <strong>maximalki konsistentea</strong> da baldin eta konsistentea bada eta, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1041.svg\" alt=\"cal(L)\" style=\"width:1.102em;height:1.001em\" loading=\"lazy\">-ko edozein <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\"> sententziarentzat, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\"> ez badago <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\">-n, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1051.svg\" alt=\"Gamma union {alpha}\" style=\"width:4.120em;height:1.001em\" loading=\"lazy\"> kontraesankorra bada."
+    "html": "<math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math> <math display=\"inline\"><mi mathvariant=\"script\">ℒ</mi></math>-ko sententzia multzoa <strong>maximalki konsistentea</strong> da baldin eta konsistentea bada eta, <math display=\"inline\"><mi mathvariant=\"script\">ℒ</mi></math>-ko edozein <math display=\"inline\"><mi>α</mi></math> sententziarentzat, <math display=\"inline\"><mi>α</mi></math> ez badago <math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math>-n, <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Γ</mi><mo>∪</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>α</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> kontraesankorra bada."
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\"> <strong>exenplifikatua</strong> da baldin eta, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0277.svg\" alt=\"exists x alpha\" style=\"width:2.258em;height:1.001em\" loading=\"lazy\"> sententzia <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\">-n dagoen bakoitzean, badago <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1041.svg\" alt=\"cal(L)\" style=\"width:1.102em;height:1.001em\" loading=\"lazy\">-ko <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0203.svg\" alt=\"t\" style=\"width:0.629em;height:1.001em\" loading=\"lazy\"> designatzaile bat halakoa non <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0279.svg\" alt=\"alpha[t/x]\" style=\"width:2.674em;height:1.001em\" loading=\"lazy\"> ere <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\">-n dagoen."
+    "html": "<math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math> <strong>exenplifikatua</strong> da baldin eta, <math display=\"inline\"><mrow><mo>∃</mo><mi>x</mi><mi>α</mi></mrow></math> sententzia <math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math>-n dagoen bakoitzean, badago <math display=\"inline\"><mi mathvariant=\"script\">ℒ</mi></math>-ko <math display=\"inline\"><mi>t</mi></math> designatzaile bat halakoa non <math display=\"inline\"><mrow><mi>α</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mi>t</mi><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math> ere <math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math>-n dagoen."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -733,15 +733,15 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1041.svg\" alt=\"cal(L)\" style=\"width:1.102em;height:1.001em\" loading=\"lazy\"> formalismoaren interpretazioa hiruko bat da: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1178.svg\" alt=\"cal(J)=chevron.l cal(U),cal(H),a_0 chevron.r\" style=\"width:7.727em;height:1.001em\" loading=\"lazy\">, non:"
+    "html": "<math display=\"inline\"><mi mathvariant=\"script\">ℒ</mi></math> formalismoaren interpretazioa hiruko bat da: <math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi mathvariant=\"script\">𝒰</mi><mo>,</mo><mi mathvariant=\"script\">ℋ</mi><mo>,</mo><msub><mi>a</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></math>, non:"
    },
    {
     "mota": "zerrenda",
     "ordenatua": true,
     "elementuak": [
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1179.svg\" alt=\"cal(U) != emptyset\" style=\"width:3.195em;height:1.001em\" loading=\"lazy\"> interpretazioaren unibertsoa den.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1180.svg\" alt=\"cal(H)\" style=\"width:1.444em;height:1.001em\" loading=\"lazy\"> esleipenak konstante indibidual bakoitzari <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1181.svg\" alt=\"cal(U)\" style=\"width:1.072em;height:1.001em\" loading=\"lazy\">-ko objektu bat, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0016.svg\" alt=\"n\" style=\"width:0.905em;height:1.001em\" loading=\"lazy\">-adiko funtore bakoitzari <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1182.svg\" alt=\"cal(U)^n -&gt; cal(U)\" style=\"width:4.372em;height:1.001em\" loading=\"lazy\"> funtzio bat, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0016.svg\" alt=\"n\" style=\"width:0.905em;height:1.001em\" loading=\"lazy\">-adiko erlatzaile bakoitzari <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1183.svg\" alt=\"cal(U)^n\" style=\"width:1.709em;height:1.001em\" loading=\"lazy\">-ren azpimultzo bat eta aldagai bakoitzari <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1181.svg\" alt=\"cal(U)\" style=\"width:1.072em;height:1.001em\" loading=\"lazy\">-ko objektu bat esleitzen dizkion.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1184.svg\" alt=\"a_0 in cal(U)\" style=\"width:3.626em;height:1.001em\" loading=\"lazy\"> deskribapen inpropioen erreferentzia komuna den."
+     "<math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒰</mi><mo>≠</mo><mi>∅</mi></mrow></math> interpretazioaren unibertsoa den.",
+     "<math display=\"inline\"><mi mathvariant=\"script\">ℋ</mi></math> esleipenak konstante indibidual bakoitzari <math display=\"inline\"><mi mathvariant=\"script\">𝒰</mi></math>-ko objektu bat, <math display=\"inline\"><mi>n</mi></math>-adiko funtore bakoitzari <math display=\"inline\"><mrow><msup><mi mathvariant=\"script\">𝒰</mi><mi>n</mi></msup><mo>→</mo><mi mathvariant=\"script\">𝒰</mi></mrow></math> funtzio bat, <math display=\"inline\"><mi>n</mi></math>-adiko erlatzaile bakoitzari <math display=\"inline\"><msup><mi mathvariant=\"script\">𝒰</mi><mi>n</mi></msup></math>-ren azpimultzo bat eta aldagai bakoitzari <math display=\"inline\"><mi mathvariant=\"script\">𝒰</mi></math>-ko objektu bat esleitzen dizkion.",
+     "<math display=\"inline\"><mrow><msub><mi>a</mi><mn>0</mn></msub><mo>∈</mo><mi mathvariant=\"script\">𝒰</mi></mrow></math> deskribapen inpropioen erreferentzia komuna den."
     ]
    }
   ],
@@ -753,15 +753,15 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1191.svg\" alt=\"u in cal(U)\" style=\"width:3.150em;height:1.001em\" loading=\"lazy\"> bada, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1192.svg\" alt=\"cal(J)[x := u]\" style=\"width:4.686em;height:1.001em\" loading=\"lazy\"> interpretazioak <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1193.svg\" alt=\"cal(J)\" style=\"width:1.019em;height:1.001em\" loading=\"lazy\">-rekin bat egiten du osagai guztietan, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> aldagaiari emandako balioan izan ezik:"
+    "html": "<math display=\"inline\"><mrow><mi>u</mi><mo>∈</mo><mi mathvariant=\"script\">𝒰</mi></mrow></math> bada, <math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>x</mi><mo>≔</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> interpretazioak <math display=\"inline\"><mi mathvariant=\"script\">𝒥</mi></math>-rekin bat egiten du osagai guztietan, <math display=\"inline\"><mi>x</mi></math> aldagaiari emandako balioan izan ezik:"
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1194.svg\" alt=\"cal(J)[x := u](z) = cases( cal(J)(z) &amp; &quot;baldin &quot; z != x, u &amp; &quot;baldin &quot; z = x. )\" style=\"width:15.054em;height:1.241em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>x</mi><mo>≔</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi mathvariant=\"script\">𝒥</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> baldin </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>z</mi><mo>≠</mo><mi>x</mi></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>u</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> baldin </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>z</mi><mo>=</mo><mi>x</mi><mi>.</mi></mtd></mtr></mtable></mrow></mrow></math>"
    },
    {
     "mota": "testua",
-    "html": "Aldaketak segidan idatz daitezke: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1195.svg\" alt=\"cal(J)[x:=u][y:=v]\" style=\"width:8.204em;height:1.001em\" loading=\"lazy\"> lehenik <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0039.svg\" alt=\"x\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\">-en balioa <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0054.svg\" alt=\"u\" style=\"width:0.873em;height:1.001em\" loading=\"lazy\"> bihurtu eta gero <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0040.svg\" alt=\"y\" style=\"width:0.810em;height:1.001em\" loading=\"lazy\">-rena <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0055.svg\" alt=\"v\" style=\"width:0.785em;height:1.001em\" loading=\"lazy\"> bihurtzen duen interpretazioa da."
+    "html": "Aldaketak segidan idatz daitezke: <math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>x</mi><mo>≔</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>y</mi><mo>≔</mo><mi>v</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> lehenik <math display=\"inline\"><mi>x</mi></math>-en balioa <math display=\"inline\"><mi>u</mi></math> bihurtu eta gero <math display=\"inline\"><mi>y</mi></math>-rena <math display=\"inline\"><mi>v</mi></math> bihurtzen duen interpretazioa da."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -772,27 +772,27 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "Izan bedi <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1178.svg\" alt=\"cal(J)=chevron.l cal(U),cal(H),a_0 chevron.r\" style=\"width:7.727em;height:1.001em\" loading=\"lazy\"> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1041.svg\" alt=\"cal(L)\" style=\"width:1.102em;height:1.001em\" loading=\"lazy\">-ren interpretazioa. Terminoen denotazioa eta formulen asetasuna egitura sintaktikoaren gaineko aldi bereko indukzioz definitzen dira:"
+    "html": "Izan bedi <math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi mathvariant=\"script\">𝒰</mi><mo>,</mo><mi mathvariant=\"script\">ℋ</mi><mo>,</mo><msub><mi>a</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></math> <math display=\"inline\"><mi mathvariant=\"script\">ℒ</mi></math>-ren interpretazioa. Terminoen denotazioa eta formulen asetasuna egitura sintaktikoaren gaineko aldi bereko indukzioz definitzen dira:"
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1202.svg\" alt=\"cal(J)(x) = cal(H)(x)\" style=\"width:6.922em;height:1.001em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi mathvariant=\"script\">ℋ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1203.svg\" alt=\"cal(J)(a) = cal(H)(a)\" style=\"width:6.823em;height:1.001em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi mathvariant=\"script\">ℋ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1204.svg\" alt=\"cal(J)(f(t_1,dots,t_n)) = cal(J)(f)(cal(J)(t_1),dots,cal(J)(t_n))\" style=\"width:19.732em;height:1.001em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi mathvariant=\"script\">𝒥</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi mathvariant=\"script\">𝒥</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mi>…</mi><mo>,</mo><mi mathvariant=\"script\">𝒥</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>t</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1205.svg\" alt=\"cal(J) models P(t_1,dots,t_n) &lt;-&gt; (cal(J)(t_1),dots,cal(J)(t_n)) in cal(J)(P)\" style=\"width:22.130em;height:1.001em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mi>P</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>↔</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"script\">𝒥</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mi>…</mi><mo>,</mo><mi mathvariant=\"script\">𝒥</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>t</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∈</mo><mi mathvariant=\"script\">𝒥</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
    },
    {
     "mota": "testua",
-    "html": "Bereziki, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1206.svg\" alt=\"cal(J) models t_1=t_2 &lt;-&gt; cal(J)(t_1)=cal(J)(t_2)\" style=\"width:14.261em;height:1.001em\" loading=\"lazy\">."
+    "html": "Bereziki, <math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><msub><mi>t</mi><mn>2</mn></msub><mo>↔</mo><mi mathvariant=\"script\">𝒥</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi mathvariant=\"script\">𝒥</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
    },
    {
     "mota": "testua",
@@ -800,23 +800,23 @@ const GLOSARIOA = [
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1207.svg\" alt=\"cal(J) models not alpha &lt;-&gt; not (cal(J) models alpha)\" style=\"width:9.873em;height:1.001em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mo>¬</mo><mi>α</mi><mo>↔</mo><mo>¬</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mi>α</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1208.svg\" alt=\"cal(J) models (alpha and beta) &lt;-&gt; cal(J) models alpha &quot; eta &quot; cal(J) models beta\" style=\"width:16.057em;height:1.001em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>α</mi><mo>∧</mo><mi>β</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>↔</mo><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mi>α</mi><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> eta </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mi>β</mi></mrow></math>"
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1209.svg\" alt=\"cal(J) models (alpha or beta) &lt;-&gt; cal(J) models alpha &quot; edo &quot; cal(J) models beta\" style=\"width:16.250em;height:1.001em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>α</mi><mo>∨</mo><mi>β</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>↔</mo><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mi>α</mi><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> edo </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mi>β</mi></mrow></math>"
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1210.svg\" alt=\"cal(J) models (alpha -&gt; beta) &lt;-&gt; (cal(J) models alpha &quot; bada, &quot; cal(J) models beta)\" style=\"width:18.696em;height:1.001em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>α</mi><mo>→</mo><mi>β</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>↔</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mi>α</mi><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada, </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mi>β</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1211.svg\" alt=\"cal(J) models (alpha &lt;-&gt; beta) &lt;-&gt; (cal(J) models alpha &lt;-&gt; cal(J) models beta)\" style=\"width:16.192em;height:1.001em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>α</mi><mo>↔</mo><mi>β</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>↔</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mi>α</mi><mo>↔</mo><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mi>β</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
    },
    {
     "mota": "testua",
@@ -824,11 +824,11 @@ const GLOSARIOA = [
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1212.svg\" alt=\"cal(J) models forall x alpha &lt;-&gt; &quot;u guztietarako &quot; u in cal(U): cal(J)[x:=u] models alpha\" style=\"width:24.506em;height:1.001em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mo>∀</mo><mi>x</mi><mi>α</mi><mo>↔</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> u guztietarako </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>u</mi><mo>∈</mo><mi mathvariant=\"script\">𝒰</mi><mo>:</mo><mi mathvariant=\"script\">𝒥</mi><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>x</mi><mo>≔</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>⊨</mo><mi>α</mi></mrow></math>"
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1213.svg\" alt=\"cal(J) models exists x alpha &lt;-&gt; &quot;u baterako &quot; u in cal(U): cal(J)[x:=u] models alpha\" style=\"width:22.513em;height:1.001em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mo>∃</mo><mi>x</mi><mi>α</mi><mo>↔</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> u baterako </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>u</mi><mo>∈</mo><mi mathvariant=\"script\">𝒰</mi><mo>:</mo><mi mathvariant=\"script\">𝒥</mi><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>x</mi><mo>≔</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>⊨</mo><mi>α</mi></mrow></math>"
    },
    {
     "mota": "testua",
@@ -836,7 +836,7 @@ const GLOSARIOA = [
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1214.svg\" alt=\"cal(J)(iota x alpha) = cases( u &amp; &quot;baldin u bakarra badago, &quot; u in cal(U), &quot; non &quot; cal(J)[x:=u] models alpha, a_0 &amp; &quot;halako u bakarra ez badago.&quot; )\" style=\"width:23.509em;height:2.631em\" loading=\"lazy\">"
+    "html": "<math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ι</mi><mi>x</mi><mi>α</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>u</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> baldin u bakarra badago, </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>u</mi><mo>∈</mo><mi mathvariant=\"script\">𝒰</mi></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> non </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"script\">𝒥</mi><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>x</mi><mo>≔</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>⊨</mo><mi>α</mi></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><msub><mi>a</mi><mn>0</mn></msub></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> halako u bakarra ez badago. </mtext><mspace width=\"0.333em\"></mspace></mrow></mtd></mtr></mtable></mrow></mrow></math>"
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -847,7 +847,7 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\"> sententzia bada, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\"> egiazkoa da <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1193.svg\" alt=\"cal(J)\" style=\"width:1.019em;height:1.001em\" loading=\"lazy\"> interpretazioan baldin eta soilik baldin <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1201.svg\" alt=\"cal(J) models alpha\" style=\"width:2.918em;height:1.001em\" loading=\"lazy\">. Sententzia batean ez dago aldagai askerik; beraz, egia-balioa ez dago aldagaiei hasieran emandako balioen mende."
+    "html": "<math display=\"inline\"><mi>α</mi></math> sententzia bada, <math display=\"inline\"><mi>α</mi></math> egiazkoa da <math display=\"inline\"><mi mathvariant=\"script\">𝒥</mi></math> interpretazioan baldin eta soilik baldin <math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mi>α</mi></mrow></math>. Sententzia batean ez dago aldagai askerik; beraz, egia-balioa ez dago aldagaiei hasieran emandako balioen mende."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -858,11 +858,11 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1193.svg\" alt=\"cal(J)\" style=\"width:1.019em;height:1.001em\" loading=\"lazy\">-k <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\"> formula multzoa asetzen du baldin eta soilik baldin <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0353.svg\" alt=\"alpha in Gamma\" style=\"width:3.091em;height:1.001em\" loading=\"lazy\"> guztietarako <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1201.svg\" alt=\"cal(J) models alpha\" style=\"width:2.918em;height:1.001em\" loading=\"lazy\">."
+    "html": "<math display=\"inline\"><mi mathvariant=\"script\">𝒥</mi></math>-k <math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math> formula multzoa asetzen du baldin eta soilik baldin <math display=\"inline\"><mrow><mi>α</mi><mo>∈</mo><mi mathvariant=\"normal\">Γ</mi></mrow></math> guztietarako <math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mi>α</mi></mrow></math>."
    },
    {
     "mota": "testua",
-    "html": "Interpretazio orok multzo hutsa asetzen du. Izan ere, &quot;<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1260.svg\" alt=\"alpha in emptyset\" style=\"width:2.946em;height:1.001em\" loading=\"lazy\"> bada, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1201.svg\" alt=\"cal(J) models alpha\" style=\"width:2.918em;height:1.001em\" loading=\"lazy\">&quot; baldintzak ez du aurrekaria betetzen duen <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\">-rik; hortaz, hutsean egiazkoa da."
+    "html": "Interpretazio orok multzo hutsa asetzen du. Izan ere, &quot;<math display=\"inline\"><mrow><mi>α</mi><mo>∈</mo><mi>∅</mi></mrow></math> bada, <math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mi>α</mi></mrow></math>&quot; baldintzak ez du aurrekaria betetzen duen <math display=\"inline\"><mi>α</mi></math>-rik; hortaz, hutsean egiazkoa da."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -875,10 +875,10 @@ const GLOSARIOA = [
     "mota": "zerrenda",
     "ordenatua": true,
     "elementuak": [
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\"> formula <strong>asegarria</strong> da interpretazioren batek asetzen badu; <strong>aseezina</strong>, interpretaziorik batek ere asetzen ez badu.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\"> formula multzoa <strong>asegarria</strong> da interpretazio berak haren formula guztiak asetzen baditu; <strong>aseezina</strong>, halako interpretaziorik ez badago.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\"> <strong>logikoki baliozkoa</strong> da formalismoaren interpretazio guztiek asetzen badute.",
-     "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\"> <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\">-ren <strong>ondorio semantikoa</strong> da baldin eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\"> asetzen duen interpretazio orok <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\"> ere asetzen badu."
+     "<math display=\"inline\"><mi>α</mi></math> formula <strong>asegarria</strong> da interpretazioren batek asetzen badu; <strong>aseezina</strong>, interpretaziorik batek ere asetzen ez badu.",
+     "<math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math> formula multzoa <strong>asegarria</strong> da interpretazio berak haren formula guztiak asetzen baditu; <strong>aseezina</strong>, halako interpretaziorik ez badago.",
+     "<math display=\"inline\"><mi>α</mi></math> <strong>logikoki baliozkoa</strong> da formalismoaren interpretazio guztiek asetzen badute.",
+     "<math display=\"inline\"><mi>α</mi></math> <math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math>-ren <strong>ondorio semantikoa</strong> da baldin eta <math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math> asetzen duen interpretazio orok <math display=\"inline\"><mi>α</mi></math> ere asetzen badu."
     ]
    }
   ],
@@ -890,11 +890,11 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\"> sententzia <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\"> sententzia multzoarekiko independentea da baldin eta soilik baldin <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\"> ez den <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\">-ren ondorio semantikoa: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1282.svg\" alt=\"not (Gamma models alpha)\" style=\"width:4.507em;height:1.001em\" loading=\"lazy\">."
+    "html": "<math display=\"inline\"><mi>α</mi></math> sententzia <math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math> sententzia multzoarekiko independentea da baldin eta soilik baldin <math display=\"inline\"><mi>α</mi></math> ez den <math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math>-ren ondorio semantikoa: <math display=\"inline\"><mrow><mo>¬</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">Γ</mi><mo>⊨</mo><mi>α</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
    },
    {
     "mota": "testua",
-    "html": "Baliokideki, bada <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1193.svg\" alt=\"cal(J)\" style=\"width:1.019em;height:1.001em\" loading=\"lazy\"> interpretazio bat halakoa non <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1283.svg\" alt=\"cal(J) models Gamma\" style=\"width:2.901em;height:1.001em\" loading=\"lazy\"> baina <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1284.svg\" alt=\"not (cal(J) models alpha)\" style=\"width:4.591em;height:1.001em\" loading=\"lazy\">. Interpretazio hori <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\">-ren independentziaren <strong>kontraeredua</strong> edo <strong>independentzia-froga</strong> da."
+    "html": "Baliokideki, bada <math display=\"inline\"><mi mathvariant=\"script\">𝒥</mi></math> interpretazio bat halakoa non <math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mi mathvariant=\"normal\">Γ</mi></mrow></math> baina <math display=\"inline\"><mrow><mo>¬</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"script\">𝒥</mi><mo>⊨</mo><mi>α</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>. Interpretazio hori <math display=\"inline\"><mi>α</mi></math>-ren independentziaren <strong>kontraeredua</strong> edo <strong>independentzia-froga</strong> da."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -905,15 +905,15 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\"> sententzia multzoa independentea da baldin eta soilik baldin haren elementu bakoitza gainerakoekiko independentea den:"
+    "html": "<math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math> sententzia multzoa independentea da baldin eta soilik baldin haren elementu bakoitza gainerakoekiko independentea den:"
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1285.svg\" alt=\"forall alpha in Gamma: not ((Gamma - {alpha}) models alpha)\" style=\"width:13.339em;height:1.001em\" loading=\"lazy\">."
+    "html": "<math display=\"inline\"><mrow><mo>∀</mo><mi>α</mi><mo>∈</mo><mi mathvariant=\"normal\">Γ</mi><mo>:</mo><mo>¬</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">Γ</mi><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>α</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⊨</mo><mi>α</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>."
    },
    {
     "mota": "testua",
-    "html": "Beraz, ez dago <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\">-ko sententziarik beste guztien ondorio semantikoa denik."
+    "html": "Beraz, ez dago <math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math>-ko sententziarik beste guztien ondorio semantikoa denik."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -924,15 +924,15 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "Kalkulu deduktibo bat <strong>semantikoki zuzena</strong> da baldin eta soilik baldin, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\"> sententzien edozein multzo eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\"> edozein sententzia izanik,"
+    "html": "Kalkulu deduktibo bat <strong>semantikoki zuzena</strong> da baldin eta soilik baldin, <math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math> sententzien edozein multzo eta <math display=\"inline\"><mi>α</mi></math> edozein sententzia izanik,"
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1438.svg\" alt=\"Gamma tack alpha quad =&gt; quad Gamma models alpha\" style=\"width:9.123em;height:1.001em\" loading=\"lazy\">."
+    "html": "<math display=\"inline\"><mrow><mi mathvariant=\"normal\">Γ</mi><mo>⊢</mo><mi>α</mi><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mi mathvariant=\"normal\">Γ</mi><mo>⊨</mo><mi>α</mi></mrow></math>."
    },
    {
     "mota": "testua",
-    "html": "Formalismoa adierazi behar denean: <img class=\"formula\" src=\"media/formulak/00aa_02logika/f1439.svg\" alt=\"Gamma tack_(cal(L)) alpha =&gt; Gamma models_(cal(L)) alpha\" style=\"width:7.616em;height:1.230em\" loading=\"lazy\">."
+    "html": "Formalismoa adierazi behar denean: <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Γ</mi><munder><mo>⊢</mo><mi mathvariant=\"script\">ℒ</mi></munder><mi>α</mi><mo>⇒</mo><mi mathvariant=\"normal\">Γ</mi><munder><mo>⊨</mo><mi mathvariant=\"script\">ℒ</mi></munder><mi>α</mi></mrow></math>."
    }
   ],
   "kapitulua": "00aa_02logika",
@@ -943,11 +943,11 @@ const GLOSARIOA = [
   "blokeak": [
    {
     "mota": "testua",
-    "html": "Kalkulu deduktibo bat <strong>semantikoki osoa</strong> da baldin eta soilik baldin, <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0292.svg\" alt=\"Gamma\" style=\"width:0.934em;height:1.001em\" loading=\"lazy\"> sententzien edozein multzo eta <img class=\"formula\" src=\"media/formulak/00aa_02logika/f0275.svg\" alt=\"alpha\" style=\"width:0.952em;height:1.001em\" loading=\"lazy\"> edozein sententzia izanik,"
+    "html": "Kalkulu deduktibo bat <strong>semantikoki osoa</strong> da baldin eta soilik baldin, <math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math> sententzien edozein multzo eta <math display=\"inline\"><mi>α</mi></math> edozein sententzia izanik,"
    },
    {
     "mota": "testua",
-    "html": "<img class=\"formula\" src=\"media/formulak/00aa_02logika/f1508.svg\" alt=\"Gamma models alpha quad =&gt; quad Gamma tack alpha\" style=\"width:9.123em;height:1.001em\" loading=\"lazy\">."
+    "html": "<math display=\"inline\"><mrow><mi mathvariant=\"normal\">Γ</mi><mo>⊨</mo><mi>α</mi><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mi mathvariant=\"normal\">Γ</mi><mo>⊢</mo><mi>α</mi></mrow></math>."
    }
   ],
   "kapitulua": "00aa_02logika",

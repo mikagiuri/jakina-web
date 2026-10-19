@@ -118,3 +118,7 @@ img.formula-d{display:block;margin:.7em auto;height:auto}
 .j-glos-kap{font-family:var(--sans);font-size:.85rem}
 .j-etiketa{margin:1em 0}
 .j-etiketa > p:first-of-type{display:inline}
+.hizk{display:inline-flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:700;font-size:.78rem;text-decoration:none;color:var(--ink)}
+/* fórmulas en MathML (texto: heredan el color, sirven en modo noche y se pueden copiar) */
+.theory math{font-size:1.08em;font-family:"Cambria Math","STIX Two Math","Latin Modern Math","Noto Sans Math",math}   /* fuente con tabla MATH: estira paréntesis y raíces */
+.theory math[display="block"]{margin:.7em 0;overflow-x:auto;overflow-y:hidden;max-width:100%}   /* sin display:block: el «block math» del navegador ya las centra */
