@@ -13,6 +13,8 @@
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/mobile.css">
 <link rel="stylesheet" href="css/jakina.css">
+<!-- (dsh-2, 19-10) Logika-txokoa: Venn/Euler, ateak, karratua, legeak… (port aldakiñoa lab_iesmdb css/logica.css-tik) -->
+<link rel="stylesheet" href="css/logikatxokoa.css">
 <script>/* tema guardado antes de pintar (evita el destello claro en modo noche) */
 (function(){try{var t=JSON.parse(localStorage.getItem("jakina-theme"));if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t);}catch(e){}})();</script>
 </head>
@@ -26,13 +28,15 @@
       <button data-view="hasiera" aria-current="true">Hasiera</button>
       <button data-view="kapituluak">Kapituluak</button>
       <button data-view="ariketak">Ariketak</button>
+      <button data-view="txokoa">Logika-txokoa</button>
       <button data-view="glosarioa">Glosarioa</button>
       <button data-view="gida">Gida</button>
     </nav>
     <button class="navtoggle" id="navtoggle" aria-label="Atalen menua ireki" aria-expanded="false">☰</button>
-    <!-- (19-10) botón de lengua, en espera: la versión en castellano está parada por orden del profesor;
-         se activa cuando exista web/es/ (tools/itzuli_jakina.py eraiki)
-    <a class="theme hizk" id="hizk" href="es/" hreflang="es" lang="es" title="Versión en castellano">ES</a> -->
+    <!-- (19-10, dsh-4) botón de lengua EU|ES ACTIVO pero `hidden` de fábrica: no puede salir publicado un ES
+         que dé 404 (nota de coordinación 22:40). app.js lo muestra solo si esta lengua existe de verdad
+         (en eu: sondea es/; en es: siempre). misma ruta y #hash en la otra lengua. -->
+    <a class="theme hizk" id="hizk" href="es/" hreflang="es" lang="es" title="Versión en castellano" hidden>ES</a>
     <button class="theme" id="theme" title="Gaia aldatu (argia / iluna)" aria-label="Gaia aldatu">◐</button>
   </div>
 </header>
@@ -70,6 +74,14 @@
     <div id="ariketazerrenda"></div>
   </section>
 
+  <!-- LOGIKA-TXOKOA (dsh-2, 19-10): Filosofia 1eko logika (lab_iesmdb) kantaia bihurtuta, dena euskaraz.
+       Datuak logikatxokoa_datos.js-en; vista logikatxokoaview.js-en; zubiak B1ekin zubiak_logika.js-en. -->
+  <section class="view" id="txokoa">
+    <div class="sec-head"><h1>Logika-txokoa</h1><p class="lead">Egia-taulak eta zirkuituak, silogismoak Vennen eta Eulerren diagramekin, formalizazioa, inferentzia-arauak, kuantifikatzaileak, paradoxak eta argudio klasikoak — landu eta egiaztatu zeu.</p></div>
+    <div id="logicabox"></div>
+    <p class="kap-iturburua">Iturburua: lab_iesmdb (Filosofia 1. maila) — <code>logicaview.js</code> + <code>logicamoderna.js</code> + <code>paradojas.js</code>-ren egokitzapena, euskaratua. Ikus «<a href="#gida">Nola erabili · Iturriak</a>».</p>
+  </section>
+
   <!-- GLOSARIOA -->
   <section class="view" id="glosarioa">
     <div class="sec-head"><h1>Glosarioa</h1><p class="lead">Kapituluetako definizioak, euskaraz.</p></div>
@@ -85,6 +97,18 @@
       <p>Goiko <strong>◐</strong> botoiak gai argia eta iluna txandakatzen ditu; aukera gorde egiten da.</p>
       <p>Kapituluak pixkanaka ekartzen ari dira webera; oraindik bihurtu ez direnak katalogoan ikusten dira, «laster» etiketarekin.</p>
       <p><strong>Ariketak</strong> atalean daude kapituluetako ariketa guztiak; ebazpena tolestuta dago: sakatu «Ebazpena» ikusteko. <strong>Glosarioa</strong>k definizioak biltzen ditu, bilatzailearekin.</p>
+      <p><strong>Logika-txokoa</strong> atalean Filosofia 1eko logika dago landu-hanbituan: egia-taulak, silogismoak, oposizio-karratua, multzoen legeak, formalizazioa, inferentzia-arauak, lege logikoak, kuantifikatzaileak, ate logikoak, paradoxak, ariketak eta argudio klasikoak. B1eko zenbait ataletan «Txokoan probatu» zubiak daude.</p>
+      <!-- (dsh-2, 19-10) iturriak: encargo §2 — dsh-4: kate berriak horretarako -->
+      <h2>Iturriak</h2>
+      <p><strong>Logika-txokoa</strong>: lab_iesmdb (Filosofia 1. maila); <code>docs/28a_cotejo_logica_2026-10-10.md</code> kotejoaren araberakoa (✘ markatutakoak ez dira erabili). Egiaztatutako jatorriak:</p>
+      <ul>
+        <li>Aristóteles, <em>Sobre la interpretación</em> eta <em>Analíticos primeros</em> (<em>Tratados de lógica (Órganon)</em>, Gredos).</li>
+        <li>G. Boole, <em>An Investigation of the Laws of Thought</em> (1854), <a href="https://www.gutenberg.org/ebooks/15114" rel="noopener">Project Gutenberg 15114</a>.</li>
+        <li>J. Venn, «On the Diagrammatic and Mechanical Representation of Propositions and Reasonings», <em>Philosophical Magazine</em> (1880), <a href="https://doi.org/10.1080/14786448008626877" rel="noopener">doi:10.1080/14786448008626877</a>.</li>
+        <li>L. Euler, <em>Lettres à une princesse d'Allemagne</em> (1768), 102–108. gutunak.</li>
+        <li>SEP: <a href="https://plato.stanford.edu/entries/square/" rel="noopener">«The Traditional Square of Opposition»</a> · <a href="https://plato.stanford.edu/entries/diagrams/" rel="noopener">«Diagrams and Diagrammatical Reasoning»</a> · <a href="https://plato.stanford.edu/entries/russell-paradox/" rel="noopener">«Russell's Paradox»</a>.</li>
+        <li>J. Ferrater Mora, <em>Diccionario de Filosofía</em>: «Proposición», «Clase» eta «Venn, diagramas de» sarrerak.</li>
+      </ul>
     </article>
   </section>
 
@@ -97,7 +121,12 @@
 <script src="js/store.js"></script>
 <script src="js/datos_katalogoa.js"></script>
 <script src="js/datos_ariketak.js"></script>
+<script src="js/datos_ariketak_filosofia1.js"></script>
 <script src="js/datos_glosarioa.js"></script>
+<script src="js/datos_glosarioa_filosofia1.js"></script>
+<script src="js/zubiak_logika.js"></script>
+<script src="js/logikatxokoa_datos.js"></script>
+<script src="js/logikatxokoaview.js"></script>
 <script src="js/hasieraview.js"></script>
 <script src="js/kapituluakview.js"></script>
 <script src="js/kapituluaview.js"></script>

@@ -199,8 +199,8 @@ KAPITULUAK["01ma_01espazioak"] = {
     {
      "mota": "irudia",
      "oina": "<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math> (urdina) eta <math display=\"inline\"><msup><mi>e</mi><mi>x</mi></msup></math> (gorria) <strong>alderantzizko funtzioak</strong> dira: <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>x</mi></mrow></math> zuzenarekiko <strong>simetrikoak</strong>. <math display=\"inline\"><mi mathvariant=\"normal\">ln</mi></math>-ren <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mi mathvariant=\"normal\">exp</mi></math>-en <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntuak elkarren <strong>islak</strong> dira.",
-     "src": "media/irudiak/3ae52892826fa025.svg",
-     "zabalera": 6400
+     "src": "media/irudiak/20c056cfa89d0d22.svg",
+     "zabalera": 245
     },
     {
      "mota": "testua",
@@ -359,8 +359,8 @@ KAPITULUAK["01ma_01espazioak"] = {
     {
      "mota": "irudia",
      "oina": "Zenbaki konplexuaren interpretazio geometrikoa: puntu bat planoan,\n  edo modulu eta fase bat.",
-     "src": "media/irudiak/2448585362feaa40.svg",
-     "zabalera": 4065
+     "src": "media/irudiak/98ecabc51dfee09e.svg",
+     "zabalera": 269
     }
    ]
   },
@@ -535,8 +535,8 @@ KAPITULUAK["01ma_01espazioak"] = {
     {
      "mota": "irudia",
      "oina": null,
-     "src": "media/irudiak/7b55c44f486f9cb2.svg",
-     "zabalera": 5224
+     "src": "media/irudiak/e2e89ae7aba89e4d.svg",
+     "zabalera": 220
     },
     {
      "mota": "oharra",
@@ -1790,8 +1790,8 @@ KAPITULUAK["01ma_01espazioak"] = {
     {
      "mota": "irudia",
      "oina": "Konbinazio lineala <math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>2</mn></msup></math>-n, geometrikoki: <math display=\"inline\"><msub><mi>v</mi><mn>1</mn></msub></math> luzatu\n      (<math display=\"inline\"><mrow><mn>2</mn><msub><mi>v</mi><mn>1</mn></msub></mrow></math>) eta <math display=\"inline\"><msub><mi>v</mi><mn>2</mn></msub></math> gehitzeak (paralelogramoaren araua)  <math display=\"inline\"><mi>v</mi></math> ematen\n   du. <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><msub><mi>v</mi><mn>1</mn></msub><mo>,</mo><msub><mi>v</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></math> azpiespazioa plano osoa da,\n      <math display=\"inline\"><msub><mi>v</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>v</mi><mn>2</mn></msub></math> ez direlako paraleloak.",
-     "src": "media/irudiak/f26d61dfb75f47b2.svg",
-     "zabalera": 5552
+     "src": "media/irudiak/052642632bb0292e.svg",
+     "zabalera": 299
     },
     {
      "mota": "izenburua",
@@ -1873,8 +1873,8 @@ KAPITULUAK["01ma_01espazioak"] = {
     {
      "mota": "irudia",
      "oina": "Sistema askea vs lotua <math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>2</mn></msup></math>-n: ezkerrean bi bektore ez-paralelok\n   plano osoa sortzen dute; eskuinean bata bestearen multiploa da\n      (koefiziente ez-nuluko konbinazio batek <math display=\"inline\"><mn>0</mn></math> ematen du) eta biek\n   zuzen bera baino ez dute sortzen.",
-     "src": "media/irudiak/1472d875c6c7b931.svg",
-     "zabalera": 5750
+     "src": "media/irudiak/f654cf62b4e43bdb.svg",
+     "zabalera": 357
     },
     {
      "mota": "ingurunea",
@@ -2499,8 +2499,8 @@ KAPITULUAK["01ma_01espazioak"] = {
     {
      "mota": "irudia",
      "oina": "Bektore bera bi oinarritan: koordenatuak <strong>oinarriaren araberakoak</strong>\n   dira — ezkerreko sare kanonikoan <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>,</mo><mn>2.5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> dira; eskuineko sare\n   okerrean (<math display=\"inline\"><mrow><mi>β</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mi>v</mi><mn>1</mn></msub><mo>,</mo><msub><mi>v</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math>), <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Oinarri-aldaketaren\n   matrizeak batetik bestera itzultzen ditu.",
-     "src": "media/irudiak/ee96083161fb2ba5.svg",
-     "zabalera": 10139
+     "src": "media/irudiak/64bace5c8ebf44c5.svg",
+     "zabalera": 435
     },
     {
      "mota": "testua",

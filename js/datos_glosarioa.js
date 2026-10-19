@@ -974,5 +974,307 @@ const GLOSARIOA = [
   ],
   "kapitulua": "01ma_02matrizeak",
   "atala": "a25"
+ },
+ {
+  "t": "Aplikazio lineala",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Izan bitez <math display=\"inline\"><mi>V</mi></math> eta <math display=\"inline\"><mi>W</mi></math> IK gorputz beraren gaineko espazio bektorialak. <math display=\"inline\"><mrow><mi>T</mi><mo>:</mo><mi>V</mi><mo>→</mo><mi>W</mi></mrow></math> aplikazioa <strong>lineala</strong> da baldin eta, edozein <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝒖</mi><mo>,</mo><mi mathvariant=\"bold-italic\">𝒗</mi><mo>∈</mo><mi>V</mi></mrow></math> eta <math display=\"inline\"><mrow><mi>k</mi><mo>∈</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> IK</mtext></mrow></mrow></math> izanik,"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>T</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"bold-italic\">𝒖</mi><mo>+</mo><mi mathvariant=\"bold-italic\">𝒗</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>T</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"bold-italic\">𝒖</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mi>T</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"bold-italic\">𝒗</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>T</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>k</mi><mi mathvariant=\"bold-italic\">𝒖</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>k</mi><mspace width=\"0.167em\"></mspace><mi>T</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"bold-italic\">𝒖</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01ma_03diagonalizazioa",
+  "atala": "a2"
+ },
+ {
+  "t": "Aplikazioaren matrizea",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>T</mi><mo>:</mo><mi>V</mi><mo>→</mo><mi>V</mi></mrow></math> lineala eta <math display=\"inline\"><mrow><mi>B</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mi mathvariant=\"bold-italic\">𝒆</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi mathvariant=\"bold-italic\">𝒆</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> oinarria izanik, <math display=\"inline\"><mi>T</mi></math>-ren matrizea <math display=\"inline\"><mi>B</mi></math> oinarrian <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>a</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> da, non <math display=\"inline\"><mi>j</mi></math>-garren <strong>zutabea</strong>  <math display=\"inline\"><mrow><mi>T</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi mathvariant=\"bold-italic\">𝒆</mi><mi>j</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>-ren koordenatuak diren:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>T</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi mathvariant=\"bold-italic\">𝒆</mi><mi>j</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msub><mi>a</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mspace width=\"0.167em\"></mspace><msub><mi mathvariant=\"bold-italic\">𝒆</mi><mi>i</mi></msub><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Orduan <math display=\"inline\"><mrow><mi>T</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"bold-italic\">𝒗</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>-ren koordenatuak <math display=\"inline\"><mrow><mi>A</mi><mi mathvariant=\"bold-italic\">𝒙</mi></mrow></math> dira, <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝒙</mi></math> <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝒗</mi></math>-renak badira: aplikazioa aplikatzea matrizeaz biderkatzea da."
+   }
+  ],
+  "kapitulua": "01ma_03diagonalizazioa",
+  "atala": "a2"
+ },
+ {
+  "t": "Nukleoa eta irudia",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>T</mi><mo>:</mo><mi>V</mi><mo>→</mo><mi>W</mi></mrow></math> lineala izanik:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">ker</mi><mo>&#8289;</mo></mrow><mi>T</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi mathvariant=\"bold-italic\">𝒗</mi><mo>∈</mo><mi>V</mi><mo>:</mo><mi>T</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"bold-italic\">𝒗</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn mathvariant=\"bold\">𝟎</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> im </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"0.167em\"></mspace><mi>T</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>T</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"bold-italic\">𝒗</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>:</mo><mi mathvariant=\"bold-italic\">𝒗</mi><mo>∈</mo><mi>V</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ker</mi><mo>&#8289;</mo></mrow><mi>T</mi></mrow></math>  <math display=\"inline\"><mi>V</mi></math>-ren azpiespazioa da, eta <math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">im </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"0.167em\"></mspace><mi>T</mi></mrow></math>  <math display=\"inline\"><mi>W</mi></math>-rena. <math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">im </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"0.167em\"></mspace><mi>T</mi></mrow></math>-ren dimentsioari <math display=\"inline\"><mi>T</mi></math>-ren <strong>heina</strong>  deritzo: <math display=\"inline\"><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>T</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+   }
+  ],
+  "kapitulua": "01ma_03diagonalizazioa",
+  "atala": "a2"
+ },
+ {
+  "t": "Balio eta bektore propioak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>A</mi></math> ordena <math display=\"inline\"><mi>n</mi></math>-ko matrize karratua izanik, <math display=\"inline\"><mrow><mi>λ</mi><mo>∈</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> IK</mtext></mrow></mrow></math>  <strong>balio propioa</strong> da baldin eta badago <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝒖</mi><mo>≠</mo><mn mathvariant=\"bold\">𝟎</mn></mrow></math> bektore bat non"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>A</mi><mi mathvariant=\"bold-italic\">𝒖</mi><mo>=</mo><mi>λ</mi><mi mathvariant=\"bold-italic\">𝒖</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "den. Halako <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝒖</mi></math> bakoitza <math display=\"inline\"><mi>λ</mi></math>-ri dagokion <strong>bektore propioa</strong> da."
+   }
+  ],
+  "kapitulua": "01ma_03diagonalizazioa",
+  "atala": "a3"
+ },
+ {
+  "t": "Matrize diagonalizagarria",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>A</mi></math>  <strong>diagonalizagarria</strong> da baldin eta badago <math display=\"inline\"><mi>P</mi></math> matrize alderanzgarri bat non"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>D</mi><mo>=</mo><msup><mi>P</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup><mi>A</mi><mi>P</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "diagonala den. Orduan <math display=\"inline\"><mi>D</mi></math>-ren diagonala balio propioek osatzen dute, eta <math display=\"inline\"><mi>P</mi></math>-ren zutabeak dagozkien bektore propioak dira."
+   }
+  ],
+  "kapitulua": "01ma_03diagonalizazioa",
+  "atala": "a4"
+ },
+ {
+  "t": "Azpiespazio f-aldaezina",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>W</mi><mo>⊆</mo><mi>V</mi></mrow></math> azpiespazioa <math display=\"inline\"><mrow><mi>f</mi><mo>∈</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> End</mtext></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>V</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-rekiko <strong><math display=\"inline\"><mi>f</mi></math>-aldaezina</strong> da baldin eta <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>W</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⊆</mo><mi>W</mi></mrow></math> bada."
+   }
+  ],
+  "kapitulua": "01ma_03diagonalizazioa",
+  "atala": "a23"
+ },
+ {
+  "t": "Matrize elkartua",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo>:</mo><mi>E</mi><mo>→</mo><mi>F</mi></mrow></math> eta <math display=\"inline\"><mrow><msub><mi>β</mi><mn>1</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mover><mi>u</mi><mo accent=\"true\">→</mo></mover><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><msub><mi>β</mi><mn>2</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><msup><mn>1</mn><mo>′</mo></msup></msub><mo>,</mo><mi>…</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> oinarriak izanik, <math display=\"inline\"><mrow><msub><mi>M</mi><mrow><msub><mi>β</mi><mn>1</mn></msub><msub><mi>β</mi><mn>2</mn></msub></mrow></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-ren <strong>zutabeak</strong> <math display=\"inline\"><msub><mi>β</mi><mn>1</mn></msub></math>-ko bektoreen irudien koordenatuak dira <math display=\"inline\"><msub><mi>β</mi><mn>2</mn></msub></math>-n: <math display=\"block\"><mrow><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mover><mi>u</mi><mo accent=\"true\">→</mo></mover><mi>j</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><munder><mo>∑</mo><mi>i</mi></munder><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>M</mi><mrow><msub><mi>β</mi><mn>1</mn></msub><msub><mi>β</mi><mn>2</mn></msub></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>i</mi><mi>j</mi></mrow></msub><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><msup><mi>i</mi><mo>′</mo></msup></msub><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01ma_03diagonalizazioa",
+  "atala": "a36"
+ },
+ {
+  "t": "Matrize baliokideak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Bi matrize <strong>baliokideak</strong> dira aplikazio lineal beraren matrize elkartuak badira, oinarri desberdinekiko. Hori gertatzen da <strong>heina bera</strong> dutenean, hau da, <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>I</mi><mi>r</mi></msub><mi>/</mi><mn>0</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> forma kanoniko bera dutenean. <math display=\"inline\"><mrow><mtext mathvariant=\"normal\">heina</mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mtext mathvariant=\"normal\">Im </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> izanik, <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><msup><mi>n</mi><mo>′</mo></msup></mrow></math> bada, <math display=\"inline\"><mi>f</mi></math> eta <math display=\"inline\"><msup><mi>f</mi><mo>′</mo></msup></math>-k matrize elkartuaren forma bera dute, eta <math display=\"inline\"><mi>A</mi></math> eta <math display=\"inline\"><mi>B</mi></math> baliokideak dira."
+   }
+  ],
+  "kapitulua": "01ma_03diagonalizazioa",
+  "atala": "a54"
+ },
+ {
+  "t": "Azpiespazioen batura",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>U</mi><mo>+</mo><mi>W</mi></mrow></math> da <math display=\"inline\"><mrow><mi>U</mi><mo>∪</mo><mi>W</mi></mrow></math> barne hartzen duen <math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>4</mn></msup></math>-ren azpiespazio bektorial <strong>txikiena</strong>. Definizio hau beharrezkoa da, oro har bi azpiespazioren <strong>bilketa</strong> (<math display=\"inline\"><mrow><mi>U</mi><mo>∪</mo><mi>W</mi></mrow></math>) ez baita espazio bektoriala (ez da batuketarekiko itxia)."
+   }
+  ],
+  "kapitulua": "01ma_03diagonalizazioa",
+  "atala": "a57"
+ },
+ {
+  "t": "Biderkadura eskalarra",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Izan bedi <math display=\"inline\"><mi>E</mi></math>, <math display=\"inline\"><mi mathvariant=\"double-struck\">ℝ</mi></math> gaineko espazio bektoriala. <strong>Biderkadura eskalarra</strong> ondoko funtzioa da: <math display=\"block\"><mrow><mi>φ</mi><mo>:</mo><mi>E</mi><mo>×</mo><mi>E</mi><mo>→</mo><mi mathvariant=\"double-struck\">ℝ</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>u</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>↦</mo><mi>φ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mover><mi>u</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>u</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<em class=\"j-nab\">Osagai baliokideak biderkatu eta biderkadura horiek batzen dira:</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mover><mi>u</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>u</mi><mn>1</mn></msub><mo>,</mo><msub><mi>u</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>v</mi><mn>1</mn></msub><mo>,</mo><msub><mi>v</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>u</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msub><mi>u</mi><mn>1</mn></msub><msub><mi>v</mi><mn>1</mn></msub><mo>+</mo><msub><mi>u</mi><mn>2</mn></msub><msub><mi>v</mi><mrow><mn>2</mn><mi>.</mi></mrow></msub></mrow></math>"
+   }
+  ],
+  "kapitulua": "01ma_04algebra2013",
+  "atala": "a3"
+ },
+ {
+  "t": "Espazio euklidearra",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Izan bedi <math display=\"inline\"><mi>E</mi></math>, <math display=\"inline\"><mi mathvariant=\"double-struck\">ℝ</mi></math> gaineko espazio bektoriala biderkadura eskalar batekin hornitua (<strong>espazio euklidearra</strong>). Orduan ondoko propietateak betetzen dira, <math display=\"inline\"><mrow><mo>∀</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>z</mi><mo accent=\"true\">→</mo></mover><mo>∈</mo><mi>E</mi></mrow></math> eta <math display=\"inline\"><mrow><mo>∀</mo><mi>λ</mi><mo>∈</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math>: <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mtd><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (simetria) </mtext><mspace width=\"0.333em\"></mspace></mrow></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mo>+</mo><mover><mi>z</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>z</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mtd><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (batu-linealtasuna) </mtext><mspace width=\"0.333em\"></mspace></mrow></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>λ</mi><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>λ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mtd><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (homogeneotasuna) </mtext><mspace width=\"0.333em\"></mspace></mrow></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&gt;</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>≠</mo><mover><mn>0</mn><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mtd><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (positiboki definitua) </mtext><mspace width=\"0.333em\"></mspace></mrow></mtd></mtr></mtable></math>"
+   }
+  ],
+  "kapitulua": "01ma_04algebra2013",
+  "atala": "a4"
+ },
+ {
+  "t": "Forma bilineala",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Izan bedi <math display=\"inline\"><mi>E</mi></math>, <math display=\"inline\"><mi>K</mi></math> gaineko espazio bektoriala (<math display=\"inline\"><mi>K</mi></math> = eskalarren gorputza). <strong>Forma bilineala</strong> ondoko funtzioa da, argumentu bakoitzean <strong>lineala</strong>: <math display=\"block\"><mrow><mi>b</mi><mo>:</mo><mi>E</mi><mo>×</mo><mi>E</mi><mo>→</mo><mi>K</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>↦</mo><mi>b</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mi>b</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>λ</mi><mn>1</mn></msub><msub><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mn>1</mn></msub><mo>+</mo><msub><mi>λ</mi><mn>2</mn></msub><msub><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mn>2</mn></msub><mo>,</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><msub><mi>λ</mi><mn>1</mn></msub><mi>b</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mn>1</mn></msub><mo>,</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><msub><mi>λ</mi><mn>2</mn></msub><mi>b</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mn>2</mn></msub><mo>,</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mi>b</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><msub><mi>λ</mi><mn>1</mn></msub><msub><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mn>1</mn></msub><mo>+</mo><msub><mi>λ</mi><mn>2</mn></msub><msub><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><msub><mi>λ</mi><mn>1</mn></msub><mi>b</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><msub><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><msub><mi>λ</mi><mn>2</mn></msub><mi>b</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><msub><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mtd></mtr></mtable></math>"
+   }
+  ],
+  "kapitulua": "01ma_04algebra2013",
+  "atala": "a6"
+ },
+ {
+  "t": "Forma koadratikoa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Forma bilineal <math display=\"inline\"><mi>b</mi></math> bati <strong>forma koadratiko</strong> bat elkartzen zaio: <math display=\"block\"><mrow><msub><mi>Q</mi><mi>b</mi></msub><mo>:</mo><mi>E</mi><mo>→</mo><mi>K</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>↦</mo><msub><mi>Q</mi><mi>b</mi></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>b</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01ma_04algebra2013",
+  "atala": "a7"
+ },
+ {
+  "t": "Forma bilineal simetrikoa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>b</mi></math> forma bilineala <strong>simetrikoa</strong> da baldin <math display=\"inline\"><mrow><mi>b</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>b</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>. Kasu horretan <math display=\"inline\"><msub><mi>Q</mi><mi>b</mi></msub></math>-ri elkartutako <strong>forma polarra</strong> da, eta polarizazioz berreskuratzen da: <math display=\"block\"><mrow><mi>b</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>Q</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>+</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>Q</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>Q</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01ma_04algebra2013",
+  "atala": "a9"
+ },
+ {
+  "t": "b-ortogonaltasuna eta b-isotropia",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Izan bedi <math display=\"inline\"><mi>b</mi></math> forma bilineal simetrikoa <math display=\"inline\"><mi>E</mi></math>-n."
+   },
+   {
+    "mota": "zerrenda",
+    "ordenatua": false,
+    "elementuak": [
+     "<math display=\"inline\"><mover><mi>x</mi><mo accent=\"true\">→</mo></mover></math> eta <math display=\"inline\"><mover><mi>y</mi><mo accent=\"true\">→</mo></mover></math> <strong>b-ortogonalak</strong> dira <math display=\"inline\"><mrow><mo>⇔</mo><mi>b</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math>.",
+     "<math display=\"inline\"><mover><mi>x</mi><mo accent=\"true\">→</mo></mover></math> <strong>b-isotropoa</strong> da <math display=\"inline\"><mrow><mo>⇔</mo><mi>b</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math>."
+    ]
+   }
+  ],
+  "kapitulua": "01ma_04algebra2013",
+  "atala": "a9"
+ },
+ {
+  "t": "Prozedura (b-ortogonalizazioa)",
+  "blokeak": [
+   {
+    "mota": "zerrenda",
+    "ordenatua": true,
+    "elementuak": [
+     "Hartu <math display=\"inline\"><mi>E</mi></math>-ko bektore <strong>ez-isotropo</strong> bat.",
+     "Aukeratu hurrengoa aurrekoekin <strong>b-ortogonala</strong> eta, ahal bada, ez-isotropoa (aurrekoen osagarri ortogonala ebatziz)."
+    ]
+   }
+  ],
+  "kapitulua": "01ma_04algebra2013",
+  "atala": "a12"
+ },
+ {
+  "t": "Normalizazioa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mi>i</mi><mo>=</mo><mn>1</mn><mo>,</mo><mi>…</mi><mo>,</mo><mi>s</mi><mo>:</mo><mspace width=\"1.0em\"></mspace></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><msub><mover><mi>w</mi><mo accent=\"true\">→</mo></mover><mi>i</mi></msub><mo>=</mo><mfrac><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mi>i</mi></msub><msqrt><mrow><mi>b</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mi>i</mi></msub><mo>,</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mi>i</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msqrt></mfrac></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mi>i</mi><mo>=</mo><mi>s</mi><mo>+</mo><mn>1</mn><mo>,</mo><mi>…</mi><mo>,</mo><mi>r</mi><mo>:</mo><mspace width=\"1.0em\"></mspace></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><msub><mover><mi>w</mi><mo accent=\"true\">→</mo></mover><mi>i</mi></msub><mo>=</mo><mfrac><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mi>i</mi></msub><msqrt><mrow><mi>−</mi><mi>b</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mi>i</mi></msub><mo>,</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mi>i</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msqrt></mfrac></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mi>i</mi><mo>=</mo><mi>r</mi><mo>+</mo><mn>1</mn><mo>,</mo><mi>…</mi><mo>,</mo><mi>n</mi><mo>:</mo><mspace width=\"1.0em\"></mspace></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><msub><mover><mi>w</mi><mo accent=\"true\">→</mo></mover><mi>i</mi></msub><mo>=</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mi>i</mi></msub></mtd></mtr></mtable></math>"
+   }
+  ],
+  "kapitulua": "01ma_04algebra2013",
+  "atala": "a14"
+ },
+ {
+  "t": "Biderkadura eskalarra eta norma euklidearra",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<strong>Biderkadura eskalarra</strong> <math display=\"inline\"><mi>E</mi></math> (<math display=\"inline\"><mi mathvariant=\"double-struck\">ℝ</mi></math> gaineko espazio bektoriala) gaineko forma bilineal simetriko <strong>definitu positiboa</strong> da. <math display=\"inline\"><mrow><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&gt;</mo><mn>0</mn></mrow></math> (<math display=\"inline\"><mrow><mo>∀</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>≠</mo><mover><mn>0</mn><mo accent=\"true\">→</mo></mover></mrow></math>) denez, <strong>norma euklidearra</strong> honela definitzen da: <math display=\"block\"><mrow><mo stretchy=\"false\" form=\"postfix\">∥</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"false\" form=\"postfix\">∥</mo><mo>=</mo><msqrt><mrow><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msqrt><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtext mathvariant=\"normal\">bektoreak neurtzeko modu bat</mtext><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01ma_04algebra2013",
+  "atala": "a31"
+ },
+ {
+  "t": "Gram–Schmidt",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right\"><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>1</mn></msub></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mo>=</mo><msub><mover><mi>e</mi><mo accent=\"true\">→</mo></mover><mn>1</mn></msub><mo>,</mo></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right\"><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>2</mn></msub></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mo>=</mo><msub><mover><mi>e</mi><mo accent=\"true\">→</mo></mover><mn>2</mn></msub><mo>+</mo><msub><mi>λ</mi><mn>21</mn></msub><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>1</mn></msub><mo>,</mo><mspace width=\"1.0em\"></mspace></mtd><mtd columnalign=\"right\" style=\"text-align: right\"><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>1</mn></msub><mo>,</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn><mo>→</mo><msub><mi>λ</mi><mn>21</mn></msub><mo>,</mo></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right\"><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>3</mn></msub></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mo>=</mo><msub><mover><mi>e</mi><mo accent=\"true\">→</mo></mover><mn>3</mn></msub><mo>+</mo><msub><mi>λ</mi><mn>31</mn></msub><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>1</mn></msub><mo>+</mo><msub><mi>λ</mi><mn>32</mn></msub><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>2</mn></msub><mo>,</mo><mspace width=\"1.0em\"></mspace></mtd><mtd columnalign=\"right\" style=\"text-align: right\"><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>1</mn></msub><mo>,</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>3</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn><mo>→</mo><msub><mi>λ</mi><mn>31</mn></msub></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>2</mn></msub><mo>,</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>3</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn><mo>→</mo><msub><mi>λ</mi><mn>32</mn></msub></mtd></mtr></mtable></mrow><mo>,</mo></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right\"></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mi>⋮</mi></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right\"><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mi>n</mi></msub></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mo>=</mo><msub><mover><mi>e</mi><mo accent=\"true\">→</mo></mover><mi>n</mi></msub><mo>+</mo><munderover><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></munderover><msub><mi>λ</mi><mrow><mi>n</mi><mi>j</mi></mrow></msub><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mi>j</mi></msub><mo>,</mo><mspace width=\"1.0em\"></mspace></mtd><mtd columnalign=\"right\" style=\"text-align: right\"><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mi>j</mi></msub><mo>,</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>j</mi><mo>=</mo><mn>1</mn><mo>,</mo><mi>…</mi><mo>,</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mtd></mtr></mtable></math>"
+   }
+  ],
+  "kapitulua": "01ma_04algebra2013",
+  "atala": "a34"
+ },
+ {
+  "t": "Autoadjuntuak eta isometriak",
+  "blokeak": [
+   {
+    "mota": "zerrenda",
+    "ordenatua": false,
+    "elementuak": [
+     "I) <strong>Autoadjuntuak</strong> (simetrikoak): <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><msup><mi>f</mi><mo>*</mo></msup></mrow></math>.",
+     "II) <strong>Isometriak</strong> (ortogonalak): <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"postfix\">∥</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"false\" form=\"postfix\">∥</mo><mo>=</mo><mo stretchy=\"false\" form=\"postfix\">∥</mo><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"false\" form=\"postfix\">∥</mo></mrow></math> <math display=\"inline\"><mrow><mo>∀</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>∈</mo><mi>E</mi></mrow></math>, hots <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></math>. Oinarri ortonormalean: <math display=\"inline\"><mrow><msup><mi>x</mi><mi>T</mi></msup><mi>I</mi><mi>x</mi><mo>=</mo><msup><mi>x</mi><mi>T</mi></msup><msup><mi>A</mi><mi>T</mi></msup><mi>I</mi><mi>A</mi><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>⇒</mo><mi>I</mi><mo>=</mo><msup><mi>A</mi><mi>T</mi></msup><mi>A</mi></mrow></math> (matrize ortogonala)."
+    ]
+   }
+  ],
+  "kapitulua": "01ma_04algebra2013",
+  "atala": "a37"
+ },
+ {
+  "t": "Isometria",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo>:</mo><msub><mi>V</mi><mn>1</mn></msub><mo>→</mo><msub><mi>V</mi><mn>2</mn></msub></mrow></math> <strong>isometria</strong> da baldin biderkadura eskalarra gordetzen badu: <math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mn>1</mn></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mn>2</mn></msub><mspace width=\"1.0em\"></mspace><mo>∀</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>y</mi><mo accent=\"true\">→</mo></mover><mo>∈</mo><msub><mi>V</mi><mrow><mn>1</mn><mi>.</mi></mrow></msub></mrow></math>"
+   }
+  ],
+  "kapitulua": "01ma_04algebra2013",
+  "atala": "a40"
+ },
+ {
+  "t": "Osagarri ortogonala (S⊥)",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>S</mi><mo>⊆</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>E</mi><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>⋅</mi><mo>,</mo><mi>⋅</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> azpiespazioaren <strong>osagarri ortogonala</strong>: <math display=\"block\"><mrow><msup><mi>S</mi><mo>⟂</mo></msup><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>∈</mo><mi>E</mi><mo>:</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mover><mi>x</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>∀</mo><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mo>∈</mo><mi>S</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mi>.</mi></mrow></math> Betetzen da <math display=\"inline\"><mrow><mi>S</mi><mo>⨁</mo><msup><mi>S</mi><mo>⟂</mo></msup><mo>=</mo><mi>E</mi></mrow></math>, eta <math display=\"inline\"><mrow><mo>∀</mo><mover><mi>u</mi><mo accent=\"true\">→</mo></mover><mo>∈</mo><mi>S</mi></mrow></math>, <math display=\"inline\"><mrow><mo>∀</mo><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mo>∈</mo><msup><mi>S</mi><mo>⟂</mo></msup><mo>:</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mover><mi>u</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>=</mo><mn>0</mn></mrow></math>."
+   }
+  ],
+  "kapitulua": "01ma_04algebra2013",
+  "atala": "a50"
  }
 ];

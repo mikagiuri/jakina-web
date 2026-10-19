@@ -33,7 +33,7 @@ tabs.addEventListener("click", e => {
 /* Registro vista → cargador (como en lab_iesmdb). */
 window.VIEW_LOADERS = {
   hasiera: "loadHasiera", kapituluak: "loadKapituluak", kapitulua: "loadKapitulua",
-  ariketak: "loadAriketak", glosarioa: "loadGlosarioa"
+  ariketak: "loadAriketak", txokoa: "loadTxokoa", glosarioa: "loadGlosarioa"   /* (dsh-2) + txokoa */
 };
 
 function parseHash(){
@@ -73,9 +73,46 @@ themeBtn.addEventListener("click", () => {
   themeBtn.textContent = themeIcon(theme);
 });
 
-/* botón de lengua (EU | ES): lleva a la misma vista y capítulo en la otra versión */
+/* ----- botón de lengua (EU | ES): misma vista y #hash en la otra versión; elección recordada ----- */
+/* (19-10, dsh-4) La web vasca cuelga de la raíz y la castellana de es/. El enlace llega `hidden` en el HTML
+   (nota de coordinación: ninguna publicación puede sacar un botón ES que dé 404) y aquí solo se revela si
+   la otra lengua existe de verdad: en eu se sondea es/ y en es basta con mostrar el retorno a eu. El propio
+   enlace se reconfigura según dónde estemos, así la copia que genera `eraiki` no necesita cambiar nada.
+   La elección se guarda con "jakina-hizk" (store ya envuelve localStorage en try/catch) y una visita nueva
+   va directa a la lengua elegida conservando el #hash. */
 const hizk = document.getElementById("hizk");
-if (hizk) hizk.addEventListener("click", () => { hizk.href = hizk.getAttribute("href").split("#")[0] + location.hash; });
+const HIZK_A_ES = { href: "es/", text: "ES", lang: "es", title: "Versión en castellano" };
+const HIZK_A_EU = { href: "../", text: "EU", lang: "eu", title: "Euskarazko bertsioa" };
+const enEs = /\/es(\/|$)/.test(location.pathname.replace(/\\/g, "/"));
+function hizkEzarri(hdest){
+  hizk.setAttribute("href", hdest.href);
+  hizk.setAttribute("hreflang", hdest.lang);
+  hizk.setAttribute("lang", hdest.lang);
+  hizk.setAttribute("title", hdest.title);
+  hizk.setAttribute("aria-label", hdest.title);
+  hizk.textContent = hdest.text;
+  hizk.hidden = false;
+  hizk.addEventListener("click", () => {
+    store.set("jakina-hizk", hdest.lang);   // la elegida es la de destino
+    hizk.href = hizk.getAttribute("href").split("#")[0] + location.hash;
+  }, { once: false });
+}
+function hizkEsDago(){                       // sondeo barato, sin caché: 404 si aún no está construida
+  return fetch("es/", { cache: "no-store" }).then(r => r.ok).catch(() => false);
+}
+if (hizk){
+  if (enEs){ hizkEzarri(HIZK_A_EU); }
+  else {
+    hizkEsDago().then(bada => {
+      if (!bada) return;
+      hizkEzarri(HIZK_A_ES);
+      /* si la última elección guardada es el castellano, ir allí conservando el #hash */
+      if (store.get("jakina-hizk", null) === "es") location.replace("es/" + location.hash);
+    });
+  }
+}
+/* en la copia ES la elección «euskera» siempre puede atenderse: la vasca cuelga de la raíz */
+if (enEs && store.get("jakina-hizk", null) === "eu") location.replace("../" + location.hash);
 
 /* utilidades comunes de las vistas */
 function esc(s){ return String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]); }

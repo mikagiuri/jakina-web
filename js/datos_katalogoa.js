@@ -39,7 +39,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "01ma_04algebra2013": {
   "titulua": "JAKINA - B2 - Aljebra lineala eta geometria (algebra2013) - II",
@@ -47,7 +47,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "01ma_05geometria1": {
   "titulua": "JAKINA - B2 - Geometria eta koadernoak - III",

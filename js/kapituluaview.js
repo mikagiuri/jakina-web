@@ -89,6 +89,8 @@ function blokeaHtml(b, k){
       return '<div class="j-sistemak">' + b.elementuak.map(e =>
         '<div class="j-sis">' + (e.et ? '<strong class="j-sis-et">' + esc(e.et) + ")</strong>" : "") +
         '<div class="j-sis-edu">' + azpi(e.blokeak) + "</div></div>").join("") + "</div>";
+    case "problema-gaia":
+      return '<div class="j-gaia">' + b.testua + "</div>";
     case "taula-kutxa":
       return '<figure class="j-taula-kutxa">' + azpi(b.blokeak) + (b.oina ? "<figcaption>" + b.oina + "</figcaption>" : "") + "</figure>";
     case "taula":
@@ -127,6 +129,13 @@ function loadKapitulua(g){
     formulakJarri(body, k);
     toc.innerHTML = '<div class="toc-title">Kapituluaren atalak</div><ol>' +
       k.atalak.map(a => '<li><a href="#kapitulua/' + gakoa + "/" + a.id + '" data-atala="' + a.id + '">' + a.izenburua.replace(/<[^>]+>/g, "") + "</a></li>").join("") + "</ol>";
+    /* (dsh-2, 19-10) zubiak B1 → Logika-txokoa: «Txokoan probatu» kaxa atal horien azpian.
+       Aditiboa eta atzeraezina; ez du datuik aldatzen. Taula zubiak_logika.js-en (dagoela konprobatuta). */
+    if (typeof ZUBIAK_LOGIKA !== "undefined" && typeof ZUBIAK_GAKOA !== "undefined" && gakoa === ZUBIAK_GAKOA) ZUBIAK_LOGIKA.forEach(z => {
+      const h = body.querySelector('h2[id="' + z.b1 + '"]'); if (!h) return;
+      if (h.nextElementSibling && h.nextElementSibling.classList && h.nextElementSibling.classList.contains("zubia")) return;
+      h.insertAdjacentHTML("afterend", '<p class="zubia"><span class="zubia-et">' + ZUBIAK_TXT.txokoan + '</span> <a href="#txokoa/' + esc(z.pieza) + '">' + esc(z.etiketa) + " →</a></p>");
+    });
     if (atala) kapAtalera(atala);
   }).catch(e => { console.error(e); body.innerHTML = '<p class="hutsik">Ezin izan da kapitulua kargatu.</p>'; });
 }
