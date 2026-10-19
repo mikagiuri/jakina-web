@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JAKINA</title>
+<meta name="description" content="JAKINA: matematika, fisika eta kimikako apunteak euskaraz, ibilbide bakar batean.">
+<meta name="theme-color" content="#f0ece3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141519" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<!-- Armadura copiada de lab_iesmdb (editables_lab_iesmdb/web/index.html): barra, pestañas, vistas .view, pie con versión.
+     Sin fuentes de red: css/jakina.css cambia las tipografías por las del sistema. -->
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/mobile.css">
+<link rel="stylesheet" href="css/jakina.css">
+<script>/* tema guardado antes de pintar (evita el destello claro en modo noche) */
+(function(){try{var t=JSON.parse(localStorage.getItem("jakina-theme"));if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t);}catch(e){}})();</script>
+</head>
+<body>
+
+<a class="skiplink" href="#contenido">Edukira joan</a>
+<header class="bar">
+  <div class="wrap bar-in">
+    <div class="brand"><span class="owl" aria-hidden="true">∑</span> JAKINA</div>
+    <nav class="tabs" id="tabs" aria-label="Atalak">
+      <button data-view="hasiera" aria-current="true">Hasiera</button>
+      <button data-view="kapituluak">Kapituluak</button>
+      <button data-view="ariketak">Ariketak</button>
+      <button data-view="glosarioa">Glosarioa</button>
+      <button data-view="gida">Gida</button>
+    </nav>
+    <button class="navtoggle" id="navtoggle" aria-label="Atalen menua ireki" aria-expanded="false">☰</button>
+    <button class="theme" id="theme" title="Gaia aldatu (argia / iluna)" aria-label="Gaia aldatu">◐</button>
+  </div>
+</header>
+
+<main class="wrap" id="contenido">
+
+  <!-- HASIERA -->
+  <section class="view active" id="hasiera">
+    <div class="hero">
+      <span class="kick">Matematika · Fisika · Kimika</span>
+      <h1>JAKINA</h1>
+      <p class="lead">Ez da liburu bat: ibilbide bat da. Logikatik Maxwellen ekuazioetara, ezer aurresuposatu gabe.</p>
+    </div>
+    <div class="courses" id="aroak"></div>
+  </section>
+
+  <!-- KAPITULUAK: aurkibidea, aroka -->
+  <section class="view" id="kapituluak">
+    <div class="sec-head"><h1>Kapituluak</h1><p class="lead">Katalogoaren ordena da ibilbidearena.</p></div>
+    <div class="chips" id="arochips" role="group" aria-label="Aroa aukeratu"></div>
+    <div id="kapzerrenda"></div>
+  </section>
+
+  <!-- KAPITULUA: lab_iesmdb-ren «teoria» bista bezala (aurkibidea + testua) -->
+  <section class="view" id="kapitulua">
+    <div class="theory-layout">
+      <nav class="toc" id="kaptoc" aria-label="Kapituluaren atalak"></nav>
+      <article class="theory" id="kapbody"></article>
+    </div>
+  </section>
+
+  <!-- ARIKETAK -->
+  <section class="view" id="ariketak">
+    <div class="sec-head"><h1>Ariketak</h1><p class="lead">Enuntziatua eta ebazpena, ebazpena tolestuta.</p></div>
+    <div id="ariketazerrenda"></div>
+  </section>
+
+  <!-- GLOSARIOA -->
+  <section class="view" id="glosarioa">
+    <div class="sec-head"><h1>Glosarioa</h1><p class="lead">Kapituluetako definizioak, euskaraz.</p></div>
+    <div id="glosariozerrenda"></div>
+  </section>
+
+  <!-- GIDA -->
+  <section class="view" id="gida">
+    <div class="sec-head"><h1>Nola erabili</h1></div>
+    <article class="theory">
+      <p><strong>Kapituluak</strong> atalean dago ibilbide osoa, aroka: lehenengo tresnak (logika, multzoak, aljebra, analisia), gero fisika.</p>
+      <p>Kapitulu bat irekitzean, ezkerrean ditu bere atalak; sakatu batean, hara joateko.</p>
+      <p>Goiko <strong>◐</strong> botoiak gai argia eta iluna txandakatzen ditu; aukera gorde egiten da.</p>
+      <p>Lagin bat da: oraingoz kapitulu bakarra dago bihurtuta (<em>Sarrera eta ibilbidea</em>); besteak katalogoan ikusten dira, «laster» etiketarekin.</p>
+    </article>
+  </section>
+
+</main>
+
+<footer class="wrap sitefoot">JAKINA · lagina<span class="sitefoot-ver" translate="no"></span></footer>
+<script>/* Bertsioa oinean, sw.js-tik irakurrita (lab_iesmdb-ren berbera) */
+(function(){var s=document.querySelector(".sitefoot-ver");if(!s||!window.fetch)return;fetch("sw.js",{cache:"no-cache"}).then(function(r){return r.ok?r.text():"";}).then(function(t){var m=/VERSION\s*=\s*"(v\d+)/.exec(t);if(m)s.textContent=" · "+m[1];}).catch(function(){});})();</script>
+
+<script src="js/store.js"></script>
+<script src="js/datos_katalogoa.js"></script>
+<script src="js/datos_ariketak.js"></script>
+<script src="js/datos_glosarioa.js"></script>
+<script src="js/hasieraview.js"></script>
+<script src="js/kapituluakview.js"></script>
+<script src="js/kapituluaview.js"></script>
+<script src="js/ariketakview.js"></script>
+<script src="js/glosarioaview.js"></script>
+<script src="js/app.js"></script>
+<script src="js/mobile.js"></script>
+<script>if ("serviceWorker" in navigator && location.protocol !== "file:") navigator.serviceWorker.register("sw.js").catch(function(){});</script>
+</body>
+</html>
