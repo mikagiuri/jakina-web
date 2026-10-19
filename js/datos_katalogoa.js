@@ -15,7 +15,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "01ma_01espazioak": {
   "titulua": "JAKINA - B2 - Aljebra oinarriak eta espazio bektorialak (I)",

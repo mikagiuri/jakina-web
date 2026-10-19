@@ -38,8 +38,32 @@ function blokeaHtml(b, k){
     case "hutsunea":
       return '<div class="j-erreg j-hutsunea"><span class="j-et">HUTSUNEA</span> <strong>' + esc(b.izenburua) + "</strong>" + azpi(b.blokeak) + "</div>";
     case "irudia":
-      return '<figure class="j-irudia"><img src="' + esc(b.src) + '" alt="' + esc((b.oina || "").replace(/<[^>]+>/g, "") || "Irudia") + '" loading="lazy">' +
+      return '<figure class="j-irudia"><img src="' + esc(b.src) + '" alt="' + esc((b.oina || "").replace(/<[^>]+>/g, "") || "Irudia") + '"' +
+        (b.zabalera ? ' width="' + b.zabalera + '"' : "") + ' loading="lazy">' +
         (b.oina ? "<figcaption>" + b.oina + "</figcaption>" : "") + "</figure>";
+    case "ingurunea":
+      return '<div class="j-ing j-k-' + b.kolorea + (b.etzana ? " j-etzana" : "") + '"><span class="j-et">' + esc(b.izena) + "</span>" +
+        (b.titulua ? ' <strong class="j-ing-tit">(' + b.titulua + ")</strong>" : "") + azpi(b.blokeak) + "</div>";
+    case "frogapena":
+      return '<div class="j-frog"><em class="j-et-frog">Frogapena.</em> ' + azpi(b.blokeak) + '<span class="j-qed" aria-hidden="true">∎</span></div>';
+    case "ebazpena":
+      return '<details class="j-ebaz"><summary>Ebazpena</summary>' + azpi(b.blokeak) + "</details>";
+    case "ariketa": case "problema":
+      return '<div class="j-ariketa"><span class="j-et">' + (b.mota === "ariketa" ? "Ariketa" : "Problema") + "</span>" +
+        (b.izena ? " <strong>" + b.izena + "</strong>" : "") + (b.izar ? ' <span class="j-izar">' + "★".repeat(b.izar) + "</span>" : "") +
+        azpi(b.blokeak) + (b.ebazpena ? '<details class="j-ebaz"><summary>Ebazpena</summary>' + azpi(b.ebazpena) + "</details>" : "") + "</div>";
+    case "kutxa":
+      return '<div class="j-kutxa j-k-' + b.kolorea + '">' + (b.titulua ? '<div class="j-kutxa-tit">' + b.titulua + "</div>" : "") + azpi(b.blokeak) + "</div>";
+    case "helburuak": case "aurrebaldintzak":
+      return '<div class="j-zerr-kutxa j-' + b.mota + '"><div class="j-et">' + (b.mota === "helburuak" ? "IKASKUNTZA-HELBURUAK" : "AURREBALDINTZAK") +
+        "</div><ul>" + b.elementuak.map(e => "<li>" + e + "</li>").join("") + "</ul></div>";
+    case "modulua":
+      return '<div class="j-modulua"><span class="j-mod-kodea">' + esc(b.kodea) + "</span> " + b.izenburua + (b.maila ? ' <span class="j-mod-maila">' + esc(b.maila) + "</span>" : "") + "</div>";
+    case "atala":
+      return '<div class="j-atala"><div class="j-et">ATALA</div><div class="j-atala-tit">' + b.izenburua + "</div>" + azpi(b.deskribapena) +
+        (b.edukia.length ? "<ul>" + b.edukia.map(e => "<li>" + e + "</li>").join("") + "</ul>" : "") + "</div>";
+    case "taula-kutxa":
+      return '<figure class="j-taula-kutxa">' + azpi(b.blokeak) + (b.oina ? "<figcaption>" + b.oina + "</figcaption>" : "") + "</figure>";
     case "taula":
       return '<div class="j-taula"><table>' + (b.goiburua.length ? "<thead><tr>" + b.goiburua.map(c => "<th>" + c + "</th>").join("") + "</tr></thead>" : "") +
         "<tbody>" + b.lerroak.map(r => "<tr>" + r.map(c => "<td>" + c + "</td>").join("") + "</tr>").join("") + "</tbody></table></div>";

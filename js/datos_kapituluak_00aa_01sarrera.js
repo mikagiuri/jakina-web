@@ -46,7 +46,8 @@ KAPITULUAK["00aa_01sarrera"] = {
     {
      "mota": "irudia",
      "src": "media/irudiak/00aa_01sarrera/i001.svg",
-     "oina": "Menpekotasun-grafoa. Gorriz, idatzi beharreko moduluak."
+     "oina": "Menpekotasun-grafoa. Gorriz, idatzi beharreko moduluak.",
+     "zabalera": 550
     }
    ]
   },
@@ -268,6 +269,5 @@ KAPITULUAK["00aa_01sarrera"] = {
     }
    ]
   }
- ],
- "formulak": {}
+ ]
 };

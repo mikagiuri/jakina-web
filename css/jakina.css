@@ -71,3 +71,48 @@
 .toc a[aria-current="true"]{color:var(--ink);border-inline-start-color:var(--accent)}
 /* la tarjeta de lab_iesmdb dice «Abrir la materia →»: aquí, en euskera */
 .course[role="button"]::after{content:"Ireki →"}
+
+/* ---- bloques del motor añadidos con el capítulo de lógica (19-10) ---- */
+.j-ing{border-inline-start:3px solid var(--j-c,var(--j-urdina));padding:.15em 0 .15em 1em;margin:1.1em 0}
+.j-ing > .j-et{color:var(--j-c,var(--j-urdina))}
+.j-k-urdina{--j-c:var(--j-urdina)} .j-k-berdea{--j-c:var(--j-berdea)} .j-k-laranja{--j-c:var(--j-laranja)} .j-k-grisa{--j-c:var(--j-grisa)}
+.j-ing-tit{font-family:var(--sans);font-size:.95em}
+.j-etzana > p,.j-etzana > ul,.j-etzana > ol{font-style:italic}
+.j-ing > p:first-of-type{margin-top:.3em}
+.j-frog{margin:.6em 0 1em}
+.j-frog > p:first-of-type{display:inline}
+.j-et-frog{font-family:var(--sans)}
+.j-qed{float:inline-end;color:var(--muted)}
+.j-frog::after{content:"";display:block;clear:both}
+.j-ariketa{border:1.5px solid var(--j-urdina);border-radius:8px;padding:.6em 1em;margin:1.1em 0}
+.j-ariketa > .j-et{color:var(--j-urdina)}
+.j-izar{color:var(--j-laranja);font-size:.85em}
+.j-ebaz{margin:.6em 0 .2em;border-top:1px dashed var(--line);padding-top:.4em}
+.j-ebaz > summary{cursor:pointer;font-family:var(--sans);font-weight:700;font-style:italic;color:var(--j-urdina)}
+.j-kutxa{border:1px solid var(--j-c);border-radius:4px;padding:.7em 1.1em;margin:1em 0;background:color-mix(in srgb,var(--j-c) 8%,var(--surface))}
+.j-kutxa-tit{font-family:var(--sans);font-weight:700;font-size:.9rem;color:var(--j-c)}
+.j-zerr-kutxa{margin:1em 0;font-family:var(--sans);font-size:.95rem}
+.j-helburuak .j-et{color:var(--j-urdina)} .j-aurrebaldintzak .j-et{color:var(--j-grisa)}
+.j-zerr-kutxa ul{margin:.3em 0}
+.j-modulua{font-family:var(--sans);margin:1.6em 0 .6em;display:flex;gap:.6em;align-items:baseline;flex-wrap:wrap}
+.j-mod-kodea{font-family:var(--mono);background:var(--j-urdina);color:var(--surface);border-radius:6px;padding:0 .5em;font-size:.85rem}
+.j-mod-maila{font-size:.72rem;letter-spacing:.08em;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:0 .6em}
+.j-atala{border-top:2px solid var(--j-laranja);margin:1.5em 0;padding-top:.8em}
+.j-atala > .j-et{color:var(--j-laranja);font-size:.8rem;letter-spacing:.1em}
+.j-atala-tit{font-family:var(--serif);font-size:1.6rem;font-weight:700;color:var(--j-urdina)}
+.j-taula-kutxa{margin:1.2em 0}
+.j-taula-kutxa figcaption{font-family:var(--sans);font-size:.88rem;color:var(--muted)}
+.j-nab{color:var(--j-gorria)}
+.j-oin{font-size:.85em;color:var(--muted)}
+.j-irudia img{width:auto;max-width:100%}
+/* fórmulas: SVG de Typst (texto negro); en modo noche se invierten */
+img.formula{vertical-align:middle;display:inline-block;max-width:100%}
+img.formula-d{display:block;margin:.7em auto;height:auto}
+.formula-ez{font-size:.85em}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]) img.formula{filter:invert(1) hue-rotate(180deg)} }
+:root[data-theme="dark"] img.formula{filter:invert(1) hue-rotate(180deg)}
+.j-ar-atala{font-size:1.05rem;margin:1.2em 0 .2em}
+.j-bilatu{width:100%;max-width:420px;padding:9px 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;margin:8px 0}
+.j-glos{border-bottom:1px solid var(--line-soft);padding:.4em 0 .8em}
+.j-glos h3{font-size:1.2rem;margin-top:.6em}
+.j-glos-kap{font-family:var(--sans);font-size:.85rem}
