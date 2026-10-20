@@ -1,0 +1,11 @@
+<svg class="typst-doc" viewBox="0 0 57.105511811023625 65.26929133858269" width="57.105511811023625pt" height="65.26929133858269pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:h5="http://www.w3.org/1999/xhtml">
+    <g>
+        <g class="typst-group" transform="matrix(1 0 0 1 1 1)">
+            <g>
+                <path class="typst-shape" fill="#b3362a" fill-rule="nonzero" stroke="#1d2733" stroke-width="0.8" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 27.552755905511813 0)" d="M 0 0l 27.552755 23.470865 v 16.327559 l -27.552755 -23.470865 v -16.327559 Z "/>
+                <path class="typst-shape" fill="#96be98" fill-rule="nonzero" stroke="#1d2733" stroke-width="0.8" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 27.552755905511813 23.470866141732284)" d="M 0 0m 27.552755 0 l -27.552755 23.470865 v 16.327559 l 27.552755 -23.470865 v -16.327559 Z "/>
+                <path class="typst-shape" fill="#96be98" fill-rule="nonzero" stroke="#1d2733" stroke-width="0.8" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" d="M 0 0m 27.552755 0 l -27.552755 23.470865 v 16.327559 l 27.552755 -23.470865 v -16.327559 Z "/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,40 @@
+<svg class="typst-doc" viewBox="0 0 60.63803149606299 112.55118110236221" width="60.63803149606299pt" height="112.55118110236221pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:h5="http://www.w3.org/1999/xhtml">
+    <g>
+        <g class="typst-group" transform="matrix(1 0 0 1 1 1)">
+            <g>
+                <path class="typst-shape" fill="none" stroke="#1d2733" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dashoffset="0" stroke-dasharray="3 3" transform="matrix(1 0 0 1 16.11834645669291 102.04724409448819)" d="M 0 0h 42.519684 "/>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 0 98.63224409448819)" d="M 0 0h 17.78 v 6.83 h -17.78 v -6.83 Z "/>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 -0.000000015748031456303034 98.63224408346457)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 6.830000000000001)">
+                                    <use xlink:href="#g6405C7F44605FD477EB09E164BA2648" x="0" y="0" fill="#000000" fill-rule="nonzero"/>
+                                </g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 7.78 6.830000000000001)">
+                                    <use xlink:href="#gB5D036178CAF8FC039A380C69BE65990" x="0" y="0" fill="#000000" fill-rule="nonzero"/>
+                                </g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 12.78 6.830000000000001)">
+                                    <use xlink:href="#gB5D036178CAF8FC039A380C69BE65990" x="0" y="0" fill="#000000" fill-rule="nonzero"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" stroke="#1d2733" stroke-width="0.7" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 16.11834645669291 0)" d="M 0 0m 0 110.55118 v -110.55118 "/>
+                <path class="typst-shape" fill="none" stroke="#1d2733" stroke-width="0.7" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 13.99236220472441 8.503937007874017)" d="M 0 0h 41.314617 "/>
+                <path class="typst-shape" fill="none" stroke="#1d2733" stroke-width="0.7" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 55.65697907086614 7.75984251968504)" d="M 0 0m 1.984252 0.7440945 l -1.984252 -0.7440945 v 1.488189 l 1.984252 -0.7440945 Z "/>
+                <path class="typst-shape" fill="none" stroke="#b3362a" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 17.81913385826772 11.539457796422354)" d="M 0 0l 1.2755905 7.789898 l 1.2755905 7.1194305 l 1.2755907 6.50667 l 1.2755904 5.9466476 l 1.2755904 5.434828 l 1.2755909 4.9670563 l 1.27559 4.539551 l 1.2755909 4.148838 l 1.2755909 3.791748 l 1.27559 3.4654007 l 1.2755909 3.1671333 l 1.2755909 2.8945465 l 1.2755909 2.6454124 l 1.275589 2.4177246 l 1.2755909 2.2096405 l 1.2755909 2.019455 l 1.2755909 1.8456421 l 1.2755909 1.6867905 l 1.2755909 1.5416107 l 1.275589 1.4089279 l 1.2755909 1.2876587 l 1.2755909 1.1768341 l 1.2755909 1.0755463 l 1.2755909 0.9829712 l 1.275589 0.89837646 l 1.2755928 0.8210449 l 1.275589 0.75038147 l 1.275589 0.68579865 l 0.8833847 0.43405914 "/>
+                <path class="typst-shape" fill="#b3362a" fill-rule="nonzero" stroke="#b3362a" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 54.64177863433071 94.6457145807874)" d="M 0 0m 2.4201775 1.6606038 l -1.7629813 -1.6606038 l -0.65719616 1.5686845 l 2.4201775 0.0919193 Z "/>
+            </g>
+        </g>
+    </g>
+    <defs id="glyph">
+        <symbol id="g6405C7F44605FD477EB09E164BA2648" overflow="visible">
+            <path d="M 0 0m 6.98 2.7 h -6.1800003 c -0.15999997 0 -0.23999995 -0.07000017 -0.23999995 -0.20000005 c 0 -0.13000011 0.07999998 -0.20000005 0.23999995 -0.20000005 h 6.1800003 c 0.15999985 0 0.23999977 0.06999993 0.23999977 0.20000005 c 0 0.119999886 -0.119999886 0.20000005 -0.23999977 0.20000005 Z "/>
+        </symbol>
+        <symbol id="gB5D036178CAF8FC039A380C69BE65990" overflow="visible">
+            <path d="M 0 0m 2.69 6.66 c -0.4100001 -0.42000008 -1.0100001 -0.6300001 -1.8000001 -0.6300001 v -0.38999987 c 0.52 0 0.9499999 0.07999992 1.2799999 0.23999977 v -5.0599995 c 0 -0.18 -0.03999996 -0.3 -0.12999988 -0.35 c -0.09000003 -0.050000012 -0.34000003 -0.08000001 -0.74 -0.08000001 h -0.34999996 v -0.39 c 0.24999994 0.02 0.79 0.03 1.6199999 0.03 c 0.8299999 0 1.3699999 -0.01 1.6200001 -0.03 v 0.39 h -0.35000014 c -0.4100001 0 -0.6600001 0.030000001 -0.74 0.08000001 c -0.07999992 0.049999982 -0.12999988 0.16999999 -0.12999988 0.35 v 5.5399995 c 0 0.24000025 -0.01999998 0.3000002 -0.27999997 0.3000002 Z "/>
+        </symbol>
+    </defs>
+</svg>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JAKINA</title>
+<meta name="description" content="JAKINA: apuntes de matemáticas, física y química en castellano, en un solo itinerario.">
+<meta name="theme-color" content="#f0ece3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141519" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<!-- Armadura copiada de lab_iesmdb (editables_lab_iesmdb/web/index.html): barra, pestañas, vistas .view, pie con versión.
+     Sin fuentes de red: css/jakina.css cambia las tipografías por las del sistema. -->
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/mobile.css">
+<link rel="stylesheet" href="css/jakina.css">
+<!-- (dsh-2, 19-10) Logika-txokoa: Venn/Euler, ateak, karratua, legeak… (port aldakiñoa lab_iesmdb css/logica.css-tik) -->
+<link rel="stylesheet" href="css/logikatxokoa.css">
+<script>/* tema guardado antes de pintar (evita el destello claro en modo noche) */
+(function(){try{var t=JSON.parse(localStorage.getItem("jakina-theme"));if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t);}catch(e){}})();</script>
+</head>
+<body>
+
+<a class="skiplink" href="#contenido">Ir al contenido</a>
+<header class="bar">
+  <div class="wrap bar-in">
+    <div class="brand"><span class="owl" aria-hidden="true">∑</span> JAKINA</div>
+    <nav class="tabs" id="tabs" aria-label="Secciones">
+      <button data-view="hasiera" aria-current="true">Inicio</button>
+      <button data-view="kapituluak">Capítulos</button>
+      <button data-view="ariketak">Ejercicios</button>
+      <button data-view="glosarioa">Glosario</button>
+      <button data-view="gida">Guía</button>
+    </nav>
+    <button class="navtoggle" id="navtoggle" aria-label="Abrir el menú de secciones" aria-expanded="false">☰</button>
+    <!-- (19-10, dsh-4) botón de lengua EU|ES ACTIVO pero `hidden` de fábrica: no puede salir publicado un ES
+         que dé 404 (nota de coordinación 22:40). app.js lo muestra solo si esta lengua existe de verdad
+         (en eu: sondea es/; en es: siempre). misma ruta y #hash en la otra lengua. -->
+    <a class="theme hizk" id="hizk" href="es/" hreflang="es" lang="es" title="Versión en castellano" hidden>ES</a>
+    <button class="theme" id="theme" title="Cambiar el tema (claro / oscuro)" aria-label="Cambiar el tema">◐</button>
+  </div>
+</header>
+
+<main class="wrap" id="contenido">
+
+  <!-- HASIERA -->
+  <section class="view active" id="hasiera">
+    <div class="hero">
+      <span class="kick">Matemáticas · Física · Química</span>
+      <h1>JAKINA</h1>
+      <p class="lead">No es un libro: es un itinerario. De la lógica a las ecuaciones de Maxwell, sin presuponer nada.</p>
+    </div>
+    <div class="courses" id="aroak"></div>
+  </section>
+
+  <!-- KAPITULUAK: aurkibidea, aroka -->
+  <section class="view" id="kapituluak">
+    <div class="sec-head"><h1>Capítulos</h1><p class="lead">El orden del catálogo es el del itinerario.</p></div>
+    <div class="chips" id="arochips" role="group" aria-label="Elegir la etapa"></div>
+    <div id="kapzerrenda"></div>
+  </section>
+
+  <!-- KAPITULUA: lab_iesmdb-ren «teoria» bista bezala (aurkibidea + testua) -->
+  <section class="view" id="kapitulua">
+    <div class="theory-layout">
+      <nav class="toc" id="kaptoc" aria-label="Secciones del capítulo"></nav>
+      <article class="theory" id="kapbody"></article>
+    </div>
+  </section>
+
+  <!-- ARIKETAK -->
+  <section class="view" id="ariketak">
+    <div class="sec-head"><h1>Ejercicios</h1><p class="lead">Enunciado y solución, la solución plegada.</p></div>
+    <div id="ariketazerrenda"></div>
+  </section>
+
+
+  <!-- GLOSARIOA -->
+  <section class="view" id="glosarioa">
+    <div class="sec-head"><h1>Glosario</h1><p class="lead">Definiciones de los capítulos, en castellano.</p></div>
+    <div id="glosariozerrenda"></div>
+  </section>
+
+  <!-- GIDA -->
+  <section class="view" id="gida">
+    <div class="sec-head"><h1>Cómo usarla</h1></div>
+    <article class="theory">
+      <p>En <strong>Capítulos</strong> está el itinerario completo, por etapas: primero las herramientas (lógica, conjuntos, álgebra, análisis), después la física.</p>
+      <p>Al abrir un capítulo, sus secciones están a la izquierda; pulsa una para ir hasta ella.</p>
+      <p>El botón <strong>◐</strong> de arriba alterna el tema claro y el oscuro; la elección se guarda.</p>
+      <p>Los capítulos van llegando a la web poco a poco; los que aún no se han convertido se ven en el catálogo con la etiqueta «pronto».</p>
+      <p>En <strong>Ejercicios</strong> están todos los ejercicios de los capítulos; la solución está plegada: pulsa «Solución» para verla. <strong>Glosario</strong> recoge las definiciones, con buscador.</p>
+      
+    </article>
+  </section>
+
+</main>
+
+<footer class="wrap sitefoot">JAKINA · muestra<span class="sitefoot-ver" translate="no"></span></footer>
+<script>/* Bertsioa oinean, sw.js-tik irakurrita (lab_iesmdb-ren berbera) */
+(function(){var s=document.querySelector(".sitefoot-ver");if(!s||!window.fetch)return;fetch("sw.js",{cache:"no-cache"}).then(function(r){return r.ok?r.text():"";}).then(function(t){var m=/VERSION\s*=\s*"(v\d+)/.exec(t);if(m)s.textContent=" · "+m[1];}).catch(function(){});})();</script>
+
+<script src="js/store.js"></script>
+<script src="js/datos_katalogoa.js"></script>
+<script src="js/datos_ariketak.js"></script>
+<script src="js/datos_ariketak_filosofia1.js"></script>
+<script src="js/datos_glosarioa.js"></script>
+<script src="js/datos_glosarioa_filosofia1.js"></script>
+<script src="js/hasieraview.js"></script>
+<script src="js/kapituluakview.js"></script>
+<script src="js/kapituluaview.js"></script>
+<script src="js/ariketakview.js"></script>
+<script src="js/glosarioaview.js"></script>
+<script src="js/app.js"></script>
+<script src="js/mobile.js"></script>
+<script>if ("serviceWorker" in navigator && location.protocol !== "file:") navigator.serviceWorker.register("sw.js").catch(function(){});</script>
+</body>
+</html>

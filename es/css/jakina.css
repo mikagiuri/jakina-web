@@ -1,0 +1,158 @@
+/* JAKINA: retoques sobre styles.css de lab_iesmdb (copiado sin cambios).
+   - Tipografías del sistema: sin red (la referencia usa Google Fonts).
+   - Acento: el «urdina» del motor de JAKINA (motor/paleta.typ), con su versión clara en modo noche.
+   - Bloques del motor (oharra, iturria, itzulgai, hutsunea, irudia, taula) como llamadas de la teoría de lab_iesmdb. */
+:root{
+  --serif:Georgia,"Times New Roman",serif;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:ui-monospace,Consolas,Menlo,monospace;
+  --accent:#1a4f8a; --accent-2:#2a63a3;
+  --j-urdina:#1a4f8a; --j-berdea:#2e7d32; --j-laranja:#a65a06; --j-gorria:#b3362a; --j-grisa:#6e6e78;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --accent:#7fb0e6; --accent-2:#9cc3ee; --on-accent:#0d1520;
+    --j-urdina:#7fb0e6; --j-berdea:#7bc98f; --j-laranja:#e3a35c; --j-gorria:#ee9387; --j-grisa:#a3a3b0;
+  }
+}
+:root[data-theme="dark"]{
+  --accent:#7fb0e6; --accent-2:#9cc3ee; --on-accent:#0d1520;
+  --j-urdina:#7fb0e6; --j-berdea:#7bc98f; --j-laranja:#e3a35c; --j-gorria:#ee9387; --j-grisa:#a3a3b0;
+}
+
+.hero{margin:44px 0 6px}
+.hero .kick{font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:var(--accent)}
+.hero h1{font-size:clamp(2rem,6vw,3rem);margin-top:4px}
+
+/* aroak (Hasiera) y lista de capítulos */
+.course{--c:var(--accent)}
+.kapzer-aroa{margin:26px 0 8px;font-size:1.25rem}
+.kapzer{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.kapzer li{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px;display:flex;gap:12px;align-items:baseline;justify-content:space-between}
+.kapzer a{font-weight:600}
+.kapzer .gakoa{font-family:var(--mono);font-size:.78rem;color:var(--muted)}
+.laster{font-size:.74rem;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:1px 8px;white-space:nowrap}
+.kapzer li.eskuragarri{border-inline-start:3px solid var(--accent)}
+
+/* capítulo */
+.theory h2{font-size:1.5rem;margin:1.6em 0 .5em}
+.theory h2.maila1{font-size:1.75rem;border-top:1px solid var(--line);padding-top:1em}
+.theory p{margin:.7em 0}
+.theory ol,.theory ul{margin:.6em 0;padding-inline-start:1.4em}
+.theory li{margin:.25em 0}
+.theory code{font-family:var(--mono);font-size:.86em;background:var(--surface-2);padding:0 .25em;border-radius:4px}
+.j-oharra{border-inline-start:3px solid var(--j-laranja);padding:.2em 0 .2em 1em;margin:1em 0}
+.j-oharra > .j-et{color:var(--j-laranja)}
+.j-abisua{border-inline-start:3px solid var(--j-gorria);padding:.2em 0 .2em 1em;margin:1em 0}
+.j-abisua > .j-et{color:var(--j-gorria)}
+.j-et{font-family:var(--sans);font-weight:700}
+.j-erreg{font-family:var(--sans);font-size:.9rem;margin:.8em 0;display:flex;gap:.6em;flex-wrap:wrap;align-items:baseline}
+.j-erreg .j-et{font-size:.78rem;letter-spacing:.06em}
+.j-iturria .j-et{color:var(--j-berdea)}
+.j-itzulgai .j-et{color:var(--j-laranja)}
+.j-hutsunea{display:block}
+.j-hutsunea .j-et{color:var(--j-gorria)}
+.j-hizk{color:var(--muted);margin-inline-start:auto}
+.j-irudia{margin:1.4em 0;text-align:center}
+.j-irudia img{width:min(100%,680px);height:auto;background:#fff;border-radius:10px;padding:10px;border:1px solid var(--line)}
+.j-irudia figcaption{font-family:var(--sans);font-size:.88rem;color:var(--muted);margin-top:.5em}
+.j-taula{overflow-x:auto;margin:1em 0}
+.j-taula table{border-collapse:collapse;font-family:var(--sans);font-size:.9rem;width:100%}
+.j-taula th,.j-taula td{border:1px solid var(--line);padding:6px 10px;text-align:start;vertical-align:top}
+.j-taula th{background:var(--surface-2)}
+.j-ezezaguna{font-family:var(--sans);font-size:.85rem;color:var(--muted);border:1px dashed var(--line);padding:.4em .8em;border-radius:8px}
+.formula{display:inline-block;vertical-align:middle}
+.formula svg{height:1.2em;width:auto}
+.formula-d{display:block;text-align:center;margin:.8em 0}
+.formula-d svg{height:auto;max-width:100%}
+.kap-iturburua{font-family:var(--sans);font-size:.82rem;color:var(--muted);margin-top:2.5em;border-top:1px solid var(--line);padding-top:.8em}
+.kap-nav{display:flex;justify-content:space-between;gap:12px;margin-top:1.2em;font-family:var(--sans)}
+.hutsik{color:var(--muted);font-family:var(--sans)}
+.toc a[aria-current="true"]{color:var(--ink);border-inline-start-color:var(--accent)}
+/* la tarjeta de lab_iesmdb dice «Abrir la materia →»: aquí, en euskera */
+.course[role="button"]::after{content:"Ireki →"}
+
+/* ---- bloques del motor añadidos con el capítulo de lógica (19-10) ---- */
+.j-ing{border-inline-start:3px solid var(--j-c,var(--j-urdina));padding:.15em 0 .15em 1em;margin:1.1em 0}
+.j-ing > .j-et{color:var(--j-c,var(--j-urdina))}
+.j-k-urdina{--j-c:var(--j-urdina)} .j-k-berdea{--j-c:var(--j-berdea)} .j-k-laranja{--j-c:var(--j-laranja)} .j-k-grisa{--j-c:var(--j-grisa)}
+.j-ing-tit{font-family:var(--sans);font-size:.95em}
+.j-etzana > p,.j-etzana > ul,.j-etzana > ol{font-style:italic}
+.j-ing > p:first-of-type{margin-top:.3em}
+.j-frog{margin:.6em 0 1em}
+.j-frog > p:first-of-type{display:inline}
+.j-et-frog{font-family:var(--sans)}
+.j-qed{float:inline-end;color:var(--muted)}
+.j-frog::after{content:"";display:block;clear:both}
+.j-ariketa{border:1.5px solid var(--j-urdina);border-radius:8px;padding:.6em 1em;margin:1.1em 0}
+.j-ariketa > .j-et{color:var(--j-urdina)}
+.j-izar{color:var(--j-laranja);font-size:.85em}
+.j-ebaz{margin:.6em 0 .2em;border-top:1px dashed var(--line);padding-top:.4em}
+.j-ebaz > summary{cursor:pointer;font-family:var(--sans);font-weight:700;font-style:italic;color:var(--j-urdina)}
+.j-kutxa{border:1px solid var(--j-c);border-radius:4px;padding:.7em 1.1em;margin:1em 0;background:color-mix(in srgb,var(--j-c) 8%,var(--surface))}
+.j-kutxa-tit{font-family:var(--sans);font-weight:700;font-size:.9rem;color:var(--j-c)}
+.j-zerr-kutxa{margin:1em 0;font-family:var(--sans);font-size:.95rem}
+.j-helburuak .j-et{color:var(--j-urdina)} .j-aurrebaldintzak .j-et{color:var(--j-grisa)}
+.j-zerr-kutxa ul{margin:.3em 0}
+.j-modulua{font-family:var(--sans);margin:1.6em 0 .6em;display:flex;gap:.6em;align-items:baseline;flex-wrap:wrap}
+.j-mod-kodea{font-family:var(--mono);background:var(--j-urdina);color:var(--surface);border-radius:6px;padding:0 .5em;font-size:.85rem}
+.j-mod-maila{font-size:.72rem;letter-spacing:.08em;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:0 .6em}
+.j-atala{border-top:2px solid var(--j-laranja);margin:1.5em 0;padding-top:.8em}
+.j-atala > .j-et{color:var(--j-laranja);font-size:.8rem;letter-spacing:.1em}
+.j-atala-tit{font-family:var(--serif);font-size:1.6rem;font-weight:700;color:var(--j-urdina)}
+.j-taula-kutxa{margin:1.2em 0}
+.j-taula-kutxa figcaption{font-family:var(--sans);font-size:.88rem;color:var(--muted)}
+.j-nab{color:var(--j-gorria)}
+.j-oin{font-size:.85em;color:var(--muted)}
+.j-irudia img{width:auto;max-width:100%}
+/* fórmulas: SVG de Typst (texto negro); en modo noche se invierten */
+img.formula{vertical-align:middle;display:inline-block;max-width:100%}
+img.formula-d{display:block;margin:.7em auto;height:auto}
+.formula-ez{font-size:.85em}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]) img.formula{filter:invert(1) hue-rotate(180deg)} }
+:root[data-theme="dark"] img.formula{filter:invert(1) hue-rotate(180deg)}
+.j-ar-atala{font-size:1.05rem;margin:1.2em 0 .2em}
+.j-bilatu{width:100%;max-width:420px;padding:9px 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;margin:8px 0}
+.j-glos{border-bottom:1px solid var(--line-soft);padding:.4em 0 .8em}
+.j-glos h3{font-size:1.2rem;margin-top:.6em}
+.j-glos-kap{font-family:var(--sans);font-size:.85rem}
+.j-etiketa{margin:1em 0}
+.j-etiketa > p:first-of-type{display:inline}
+.hizk{display:inline-flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:700;font-size:.78rem;text-decoration:none;color:var(--ink)}
+.hizk[hidden]{display:none}   /* el atributo hidden se impone: sin web/es/ construido, el selector ES ni se ve ni puede 404 */
+/* fórmulas en MathML (texto: heredan el color, sirven en modo noche y se pueden copiar) */
+.theory math{font-size:1.08em;font-family:"Cambria Math","STIX Two Math","Latin Modern Math","Noto Sans Math",math}   /* fuente con tabla MATH: estira paréntesis y raíces */
+.theory math[display="block"]{margin:.7em 0;overflow-x:auto;overflow-y:hidden;max-width:100%}   /* sin display:block: el «block math» del navegador ya las centra */
+
+/* ---- bloques añadidos con 01ma_02matrizeak (19-10): azpitituluas, kutxas temáticas, rejillas,
+       geziak entre pasos de Gauss, sistemas etiquetados y círculos de las propiedades ---- */
+.j-azpititulua{font-family:var(--sans);font-weight:700;font-size:1.02rem;color:var(--j-urdina);margin:1.4em 0 .5em}
+.j-azpititulua::after{content:"";display:block;width:18%;border-bottom:2px solid var(--j-laranja);opacity:.6;margin-top:.25em}
+.j-gai{margin:1.1em 0}
+.j-gai > .j-gai-tit{font-family:var(--sans);font-weight:700;font-size:.95rem;color:var(--j-c);margin-bottom:.35em}
+.j-sarea{display:grid;gap:.55em 1.3em;align-items:center;margin:.7em 0}
+.j-gelaxka > p{margin:.15em 0}
+.j-gelaxka .j-irudia{margin:.3em 0}
+.j-gelaxka .j-taula{margin:.3em 0}
+.j-bihur{margin:.7em 0;display:flex;flex-direction:column;align-items:center}
+.j-bihur-erdia{font-family:var(--sans);font-size:.92rem;color:var(--muted);display:flex;gap:.7em;align-items:baseline}
+.j-gezia{font-size:1.25rem;color:var(--j-grisa)}
+.j-gezi{display:flex;justify-content:center;align-items:center;gap:.8em;margin:.5em 0;font-family:var(--sans);font-size:.92rem;color:var(--j-grisa)}
+.j-gezi-ops{display:flex;gap:1em;flex-wrap:wrap;justify-content:center}
+.j-gezi-bert .j-gezi-ops{flex-direction:column;gap:.1em;align-items:flex-start}
+.j-sistemak{margin:1em 0}
+.j-sis{display:flex;gap:.8em;align-items:baseline;margin:.9em 0}
+.j-sis-et{color:var(--j-urdina);font-family:var(--sans)}
+.j-sis-edu{flex:1;min-width:0}
+.j-sis-edu > p{margin:0}
+.j-pila{display:flex;flex-direction:column;align-items:center;gap:.15em;margin:.4em 0}
+.j-pila-lerro > p{margin:.1em 0}
+.j-edoh{font-style:italic;color:var(--muted);font-size:.92em}
+.j-gaia{font-family:var(--sans);font-weight:700;color:var(--j-berdea);margin:1.2em 0 .4em;font-variant:small-caps;letter-spacing:.04em}
+.j-zirk{color:var(--j-urdina)}
+.j-egiazt{color:var(--j-urdina)}
+.j-etiketatua{list-style:none;padding-inline-start:0}
+.j-etiketatua > li{display:flex;gap:.8em;margin:.35em 0}
+.j-etiketatua .j-marka{font-family:var(--sans);font-weight:600;min-width:2.4em;text-align:end;flex-shrink:0}
+.j-etiketatua .j-elte{min-width:0}
+img.irudi-l{display:block;max-width:100%;height:auto;margin:.2em auto;background:#fff;border-radius:8px;padding:6px;border:1px solid var(--line)}

@@ -1276,5 +1276,252 @@ const GLOSARIOA = [
   ],
   "kapitulua": "01ma_04algebra2013",
   "atala": "a50"
+ },
+ {
+  "t": "Azpiespazio afina",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>S</mi><mo>⊆</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></mrow></math> (hutsa ez dena) <strong>azpiespazio afina</strong> da baldin badago <math display=\"inline\"><mrow><mi>p</mi><mo>∈</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></mrow></math> eta <math display=\"inline\"><mrow><mi>W</mi><mo>⊆</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></mrow></math> azpiespazio bektoriala non <math display=\"block\"><mrow><mi>S</mi><mo>=</mo><mi>p</mi><mo>+</mo><mi>W</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>p</mi><mo>+</mo><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mo>:</mo><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mo>∈</mo><mi>W</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>q</mi><mo>∈</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup><mo>:</mo><mover><mrow><mi>p</mi><mi>q</mi></mrow><mo accent=\"true\">→</mo></mover><mo>∈</mo><mi>W</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a8"
+ },
+ {
+  "t": "Norabidea eta dimentsioa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>S</mi><mo>=</mo><mi>p</mi><mo>+</mo><mi>W</mi><mo>⊆</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></mrow></math> azpiespazio afinean, <math display=\"inline\"><mi>W</mi></math> azpiespazio bektoriala <strong><math display=\"inline\"><mi>S</mi></math>-ren norabidea</strong> da (<math display=\"inline\"><mi>S</mi></math>-ren edozein deskribapenek norabide bera du). <math display=\"inline\"><mrow><mi>p</mi><mo>∈</mo><mi>S</mi></mrow></math> da (<math display=\"inline\"><mrow><mover><mrow><mi>p</mi><mi>p</mi></mrow><mo accent=\"true\">→</mo></mover><mo>=</mo><mover><mn>0</mn><mo accent=\"true\">→</mo></mover><mo>∈</mo><mi>W</mi></mrow></math>). <strong>Dimentsioa:</strong> <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mi>S</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mi>W</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a9"
+ },
+ {
+  "t": "Motak dimentsioaren arabera",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>S</mi><mo>=</mo><mi>p</mi><mo>+</mo><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover></mrow></math> azpiespazio afinaren dimentsioa <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mi>S</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover></mrow></math>:"
+   },
+   {
+    "mota": "zerrenda",
+    "ordenatua": false,
+    "elementuak": [
+     "<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mi>S</mi><mo>=</mo><mn>0</mn></mrow></math>: <math display=\"inline\"><mrow><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mover><mn>0</mn><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mi>S</mi><mo>=</mo><mi>p</mi><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mover><mn>0</mn><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>p</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> — <strong>puntua</strong> (elementu bakarreko multzoa).",
+     "<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mi>S</mi><mo>=</mo><mn>1</mn></mrow></math>: <math display=\"inline\"><mrow><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></math>, <math display=\"inline\"><mrow><mi>S</mi><mo>=</mo><mi>p</mi><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></math> — <strong>zuzen afina</strong> (zuzen bektorial baten kopia).",
+     "<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mi>S</mi><mo>=</mo><mn>2</mn></mrow></math>: <math display=\"inline\"><mrow><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>1</mn></msub><mo>,</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>2</mn></msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></math>, <math display=\"inline\"><mrow><mi>S</mi><mo>=</mo><mi>p</mi><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>1</mn></msub><mo>,</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>2</mn></msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></math> — <strong>plano afina</strong> (plano bektorial baten kopia).",
+     "<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mi>S</mi><mo>=</mo><mi>n</mi><mo>−</mo><mn>1</mn></mrow></math>: <strong>hiperplano afina</strong> (hiperplano bektorial baten kopia).",
+     "<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mi>S</mi><mo>=</mo><mi>n</mi></mrow></math>: <math display=\"inline\"><mrow><mi>S</mi><mo>=</mo><mi>p</mi><mo>+</mo><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mo>=</mo><mi>n</mi></mrow></math> — <strong>espazio osoa</strong> (<math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></math>)."
+    ]
+   }
+  ],
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a10"
+ },
+ {
+  "t": "Paralelismoa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msub><mi>S</mi><mn>1</mn></msub><mo>,</mo><msub><mi>S</mi><mn>2</mn></msub><mo>⊆</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></mrow></math> azpiespazio afinak <strong>paraleloak</strong> dira baldin haietako baten norabidea bestearenean badago: <math display=\"block\"><mrow><msub><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover><mn>1</mn></msub><mo>⊆</mo><msub><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover><mn>2</mn></msub><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> edo </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"1.0em\"></mspace><msub><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover><mn>2</mn></msub><mo>⊆</mo><msub><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover><mrow><mn>1</mn><mi>.</mi></mrow></msub></mrow></math>"
+   },
+   {
+    "mota": "zerrenda",
+    "ordenatua": false,
+    "elementuak": [
+     "<math display=\"inline\"><mrow><msub><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover><mn>1</mn></msub><mo>=</mo><msub><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover><mn>2</mn></msub></mrow></math> (dimentsio bera): <strong>paralelo puruak</strong>.",
+     "Inklusio hertsia (bata bestean): <strong>paraleloak (ez hertsiak)</strong>; mozten badira, <math display=\"inline\"><mrow><msub><mi>S</mi><mn>1</mn></msub><mo>⊆</mo><msub><mi>S</mi><mn>2</mn></msub></mrow></math>."
+    ]
+   }
+  ],
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a14"
+ },
+ {
+  "t": "Estalki afina",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>A</mi><mo>⊆</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></mrow></math> azpimultzo baten <strong>estalki afina</strong>: <math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>A</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>=</mo><msub><mi>p</mi><mn>0</mn></msub><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mover><mrow><msub><mi>p</mi><mn>0</mn></msub><mi>q</mi></mrow><mo accent=\"true\">→</mo></mover><mo>:</mo><mi>q</mi><mo>∈</mo><mi>A</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>,</mo></mrow></math> <math display=\"inline\"><mrow><msub><mi>p</mi><mn>0</mn></msub><mo>∈</mo><mi>A</mi></mrow></math> edozein punturekin."
+   }
+  ],
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a21"
+ },
+ {
+  "t": "Inguratzaile afina",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Izan bedi <math display=\"inline\"><mrow><mi>A</mi><mo>⊆</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></mrow></math> edozein azpimultzo. <math display=\"inline\"><mi>A</mi></math>-ren <strong>inguratzaile afina</strong> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>A</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></math> da <math display=\"inline\"><mi>A</mi></math> barnean duen <strong>azpiespazio afinik txikiena</strong>, eta honela adieraz daiteke (<math display=\"inline\"><mrow><mi>p</mi><mo>∈</mo><mi>A</mi></mrow></math> edozein izanik): <math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>A</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>=</mo><mi>p</mi><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mover><mrow><mi>p</mi><mi>q</mi></mrow><mo accent=\"true\">→</mo></mover><mo>:</mo><mi>q</mi><mo>∈</mo><mi>A</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mi>.</mi></mrow></math> Norabidea <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mover><mrow><mi>p</mi><mi>q</mi></mrow><mo accent=\"true\">→</mo></mover><mo>:</mo><mi>q</mi><mo>∈</mo><mi>A</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></math> da, eta ez dago aukeratutako <math display=\"inline\"><mi>p</mi></math>-ren mende."
+   }
+  ],
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a38"
+ },
+ {
+  "t": "Batura afina",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Izan bitez <math display=\"inline\"><msub><mi>S</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>S</mi><mn>2</mn></msub></math> <math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></math>-ko azpiespazio afinak. Haien <strong>batura afina</strong> beren bildura barnean duen azpiespazio afinik <strong>txikiena</strong> da: <math display=\"block\"><mrow><msub><mi>S</mi><mn>1</mn></msub><mo>+</mo><msub><mi>S</mi><mn>2</mn></msub><mo>≔</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><msub><mi>S</mi><mn>1</mn></msub><mo>∪</mo><msub><mi>S</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a39"
+ },
+ {
+  "t": "Erreferentzi sistema afina",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Izan bitez <math display=\"inline\"><mrow><msub><mi>p</mi><mn>0</mn></msub><mo>∈</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></mrow></math> puntua eta <math display=\"inline\"><mrow><mi>β</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mover><msub><mi>v</mi><mn>1</mn></msub><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><msub><mi>v</mi><mn>2</mn></msub><mo accent=\"true\">→</mo></mover><mo>,</mo><mi>…</mi><mo>,</mo><mover><msub><mi>v</mi><mi>n</mi></msub><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> norabidearen oinarria. <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>p</mi><mn>0</mn></msub><mo>,</mo><mi>β</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> bikoteari <math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></math>-ren <strong>erreferentzi sistema afina</strong> deritzo, eta <math display=\"inline\"><msub><mi>p</mi><mn>0</mn></msub></math> puntuari sistemaren <strong>jatorria</strong>. Puntu bakoitzaren <strong>koordenatu afinak</strong> <math display=\"inline\"><mrow><mover><mrow><msub><mi>p</mi><mn>0</mn></msub><mi>x</mi></mrow><mo accent=\"true\">→</mo></mover><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></msubsup><msub><mi>x</mi><mi>i</mi></msub><mover><msub><mi>v</mi><mi>i</mi></msub><mo accent=\"true\">→</mo></mover></mrow></math> deskonposiziotik datoz."
+   }
+  ],
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a43"
+ },
+ {
+  "t": "Independentzia afina",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msub><mi>p</mi><mn>0</mn></msub><mo>,</mo><msub><mi>p</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>p</mi><mi>n</mi></msub><mo>∈</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></mrow></math> puntuak <strong>afinki independenteak</strong> dira baldin eta <math display=\"inline\"><mrow><mover><mrow><msub><mi>p</mi><mn>0</mn></msub><msub><mi>p</mi><mn>1</mn></msub></mrow><mo accent=\"true\">→</mo></mover><mo>,</mo><mover><mrow><msub><mi>p</mi><mn>0</mn></msub><msub><mi>p</mi><mn>2</mn></msub></mrow><mo accent=\"true\">→</mo></mover><mo>,</mo><mi>…</mi><mo>,</mo><mover><mrow><msub><mi>p</mi><mn>0</mn></msub><msub><mi>p</mi><mi>n</mi></msub></mrow><mo accent=\"true\">→</mo></mover></mrow></math> bektoreak <strong>linealki independenteak</strong> badira."
+   }
+  ],
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a44"
+ },
+ {
+  "t": "Koordenatu afinak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Izan bedi <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>p</mi><mn>0</mn></msub><mo>,</mo><mi>β</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> <math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></math>-ko erreferentzi sistema afina eta <math display=\"inline\"><mrow><mi>p</mi><mo>∈</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></mrow></math> puntua. <math display=\"inline\"><mi>p</mi></math>-ren <strong>koordenatuak <math display=\"inline\"><mi>E</mi></math>-rekiko</strong> <math display=\"inline\"><mover><mrow><msub><mi>p</mi><mn>0</mn></msub><mi>p</mi></mrow><mo accent=\"true\">→</mo></mover></math> bektorearen <math display=\"inline\"><mi>β</mi></math>-rekiko koordenatuak dira: <math display=\"block\"><mrow><mi>p</mi><mo>=</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>x</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>E</mi></msub><mspace width=\"1.0em\"></mspace><mo>⇔</mo><mspace width=\"1.0em\"></mspace><mover><mrow><msub><mi>p</mi><mn>0</mn></msub><mi>p</mi></mrow><mo accent=\"true\">→</mo></mover><mo>=</mo><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msub><mi>x</mi><mi>i</mi></msub><mover><msub><mi>v</mi><mi>i</mi></msub><mo accent=\"true\">→</mo></mover><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a47"
+ },
+ {
+  "t": "Koordenatu-aldaketaren osagaiak",
+  "blokeak": [
+   {
+    "mota": "zerrenda",
+    "ordenatua": false,
+    "elementuak": [
+     "<math display=\"inline\"><mrow><mi>P</mi><mo>=</mo><msubsup><mi>M</mi><mover><mi>β</mi><mo accent=\"true\">¯</mo></mover><mi>β</mi></msubsup></mrow></math> <strong>oinarri-aldaketaren matrizea</strong> da: bere zutabeak <math display=\"inline\"><mi>β</mi></math>-ko bektoreak dira, <math display=\"inline\"><mover><mi>β</mi><mo accent=\"true\">¯</mo></mover></math>-ren koordenatuetan adierazita.",
+     "<math display=\"inline\"><mi>Q</mi></math> = <math display=\"inline\"><msub><mi>p</mi><mn>0</mn></msub></math>-ren (<math display=\"inline\"><mi>E</mi></math>-ren jatorriaren) koordenatuak <math display=\"inline\"><msup><mi>E</mi><mo>′</mo></msup></math> sisteman."
+    ]
+   }
+  ],
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a48"
+ },
+ {
+  "t": "Aplikazio afina (9.1)",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Izan bitez <math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></math> eta <math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>m</mi></msup></math> espazio afinak, eta <math display=\"inline\"><mrow><mi>f</mi><mo>:</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup><mo>→</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>m</mi></msup></mrow></math> aplikazioa. <math display=\"inline\"><mrow><mi>X</mi><mo>∈</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></mrow></math> (<math display=\"inline\"><mi>x</mi></math>-ren zutabe-matrizea) eta <math display=\"inline\"><mrow><mi>Y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>X</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> izanik, <math display=\"inline\"><mi>f</mi></math> <strong>aplikazio afina</strong> da existitzen badira <math display=\"inline\"><mrow><mi>A</mi><mo>∈</mo><msub><mi>M</mi><mrow><mi>m</mi><mo>×</mo><mi>n</mi></mrow></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi mathvariant=\"double-struck\">ℝ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mi>B</mi><mo>∈</mo><msub><mi>M</mi><mrow><mi>m</mi><mo>×</mo><mn>1</mn></mrow></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi mathvariant=\"double-struck\">ℝ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> non, <math display=\"inline\"><mrow><mi>X</mi><mo>∈</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></mrow></math> ororako, <math display=\"block\"><mrow><mi>Y</mi><mo>=</mo><mi>A</mi><mi>X</mi><mo>+</mo><mi>B</mi><mi>.</mi></mrow></math> (<math display=\"inline\"><mi>A</mi></math> zati lineala, <math display=\"inline\"><mi>B</mi></math> translazioa.)"
+   }
+  ],
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a65"
+ },
+ {
+  "t": "Transformazio afina",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo>:</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup><mo>→</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></mrow></math> aplikazio afin <strong>bijektiboa</strong> bada, <strong>transformazio afin</strong> deitzen zaio. <math display=\"inline\"><mrow><mtext mathvariant=\"normal\">TA</mtext><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>f</mi><mo>:</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup><mo>→</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup><mo>:</mo><mi>f</mi><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> transformazio afina </mtext><mspace width=\"0.333em\"></mspace></mrow><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math>."
+   }
+  ],
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a72"
+ },
+ {
+  "t": "Distantzia euklidearra",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>d</mi><mo>:</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup><mo>×</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup><mo>→</mo><mi mathvariant=\"double-struck\">ℝ</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>d</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>,</mo><mi>q</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">∥</mo><mover><mrow><mi>p</mi><mi>q</mi></mrow><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">∥</mo></mrow><mo>,</mo></mrow></math> hots, bi puntu lotzen dituen bektorearen norma (modulua). Propietateak (<math display=\"inline\"><mrow><mi>p</mi><mo>,</mo><mi>q</mi><mo>,</mo><mi>r</mi><mo>∈</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></mrow></math>): <math display=\"block\"><mrow><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (i) </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>d</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>,</mo><mi>q</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≥</mo><mn>0</mn><mo>;</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (ii) </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>d</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>,</mo><mi>q</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>⇔</mo><mi>p</mi><mo>=</mo><mi>q</mi><mo>;</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (iii) </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>d</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>,</mo><mi>q</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>d</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>q</mi><mo>,</mo><mi>p</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>;</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (iv) </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>d</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>,</mo><mi>q</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><mi>d</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>,</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>d</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo>,</mo><mi>q</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01ma_06geometria2",
+  "atala": "a2"
+ },
+ {
+  "t": "Perpendikulartasuna",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>S</mi></math> eta <math display=\"inline\"><mi>T</mi></math> <math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></math>-ren azpiespazio afinak <strong>perpendikularrak (elkarzutak)</strong> dira baldin haien norabideak <math display=\"inline\"><mrow><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover><mo>,</mo><mover><mi>T</mi><mo accent=\"true\">¯</mo></mover></mrow></math> ortogonalak badira (<math display=\"inline\"><mrow><mo>∀</mo><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mo>∈</mo><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover><mo>,</mo><mspace width=\"0.167em\"></mspace><mo>∀</mo><mover><mi>w</mi><mo accent=\"true\">→</mo></mover><mo>∈</mo><mover><mi>T</mi><mo accent=\"true\">¯</mo></mover><mo>:</mo><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mo>⋅</mo><mover><mi>w</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mn>0</mn></mrow></math>) eta elkar ebakitzen badute."
+   }
+  ],
+  "kapitulua": "01ma_06geometria2",
+  "atala": "a4"
+ },
+ {
+  "t": "Distantzia (def. 9.6)",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>A</mi><mo>,</mo><mi>B</mi><mo>⊆</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mi>n</mi></msup></mrow></math> bi azpimultzoren arteko distantzia: <math display=\"block\"><mrow><mi>d</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>,</mo><mi>B</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≔</mo><mrow><mi mathvariant=\"normal\">inf</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>d</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>:</mo><mi>a</mi><mo>∈</mo><mi>A</mi><mo>,</mo><mspace width=\"0.222em\"></mspace><mi>b</mi><mo>∈</mo><mi>B</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mi>.</mi></mrow></math> Bereziki, <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>p</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> denean, <math display=\"inline\"><mrow><mi>d</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>,</mo><mi>B</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≔</mo><mrow><mi mathvariant=\"normal\">inf</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>d</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>:</mo><mi>b</mi><mo>∈</mo><mi>B</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math>."
+   }
+  ],
+  "kapitulua": "01ma_06geometria2",
+  "atala": "a10"
+ },
+ {
+  "t": "Baldintzapeko konbergentea",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Balio absolutuen seriea <strong>dibergentea</strong> bada eta emandakoa <strong>konbergentea</strong>, emandako seriea <strong>baldintzapeko konbergentea</strong> dela esaten da."
+   }
+  ],
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a20"
+ },
+ {
+  "t": "Bikoitia eta bakoitia",
+  "blokeak": [
+   {
+    "mota": "zerrenda",
+    "ordenatua": false,
+    "elementuak": [
+     "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>: <strong>bikoitia</strong> (<math display=\"inline\"><mrow><mi>O</mi><mi>Y</mi></mrow></math>-rekiko simetrikoa). Adib. <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>.",
+     "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>: <strong>bakoitia</strong> (jatorriarekiko simetrikoa). Adib. <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>."
+    ]
+   }
+  ],
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a48"
+ },
+ {
+  "t": "Rolleren teorema",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>f</mi></math> <strong>jarraitua</strong> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-n, <strong>deribagarria</strong> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-n, eta <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> bada, orduan <math display=\"inline\"><mrow><mo>∃</mo><mi>c</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> non <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>."
+   }
+  ],
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a55"
+ },
+ {
+  "t": "Eremua",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Dom </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>f</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>x</mi><mo>∈</mo><mi mathvariant=\"double-struck\">ℝ</mi><mo>:</mo><mi>x</mi><mo>&gt;</mo><mn>0</mn><mo>,</mo><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>≠</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∪</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mi>+</mi><mi>∞</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a57"
  }
 ];

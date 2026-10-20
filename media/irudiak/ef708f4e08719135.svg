@@ -1,0 +1,14 @@
+<svg class="typst-doc" viewBox="0 0 42.818897637795274 46.22047244094488" width="42.818897637795274pt" height="46.22047244094488pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:h5="http://www.w3.org/1999/xhtml">
+    <g>
+        <g class="typst-group" transform="matrix(1 0 0 1 1 1)">
+            <g>
+                <path class="typst-shape" fill="none" stroke="#1d2733" stroke-width="0.6" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 0 26.07874015748031)" d="M 0 0h 40.818897 "/>
+                <path class="typst-shape" fill="none" stroke="#1d2733" stroke-width="0.6" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 5.669291338582677 0)" d="M 0 0m 0 44.220474 v -44.220474 "/>
+                <path class="typst-shape" fill="none" stroke="#1d2733" stroke-width="0.6" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dashoffset="0" stroke-dasharray="3 3" transform="matrix(1 0 0 1 5.669291338582677 4.262514040281156)" d="M 0 0m 0 39.95796 l 26.63864 -39.95796 "/>
+                <path class="typst-shape" fill="none" stroke="#1d2733" stroke-width="0.6" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 31.236092214094494 0.7109040755905471)" d="M 0 0m 3.439578 0 l -3.439578 2.4764962 l 2.4764962 1.6509972 l 0.96308184 -4.1274934 Z "/>
+                <path class="typst-shape" fill="none" stroke="#b3362a" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 15.874015748031495 13.681517160152419)" d="M 0 0m 0 15.798798 c 3.0108368 -3.763546 6.0216737 -10.025513 8.368461 -15.798798 "/>
+                <path class="typst-shape" fill="#b3362a" fill-rule="nonzero" stroke="#b3362a" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 22.25825908440945 7.271545662992124)" d="M 0 0m 4.360386 0 l -4.360386 5.034526 l 4.3855367 1.6257129 l -0.025150776 -6.6602387 Z "/>
+            </g>
+        </g>
+    </g>
+</svg>

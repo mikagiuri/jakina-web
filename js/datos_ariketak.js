@@ -8047,5 +8047,5471 @@ const ARIKETAK = {
     "html": "Eta <math display=\"inline\"><msup><mi>f</mi><mn>2011</mn></msup></math>-ren matrizea oinarri kanonikoan <math display=\"inline\"><mrow><msup><mi>A</mi><mn>2011</mn></msup><mo>=</mo><msup><mi>P</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup><msup><mi>J</mi><mn>2011</mn></msup><mi>P</mi></mrow></math> da (<math display=\"inline\"><mi>P</mi></math> = <math display=\"inline\"><mi>B</mi></math>-ren pasabidea) — Jordanen formaren <strong>baliagarritasun praktikoa</strong>: <math display=\"inline\"><mi>A</mi></math> bere buruaz <math display=\"inline\"><mn>2011</mn></math> aldiz biderkatzea saihesten da."
    }
   ]
+ },
+ "01ma_05geometria1#1": {
+  "mota": "problema",
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a23",
+  "atalaIzena": "Ariketa: <math display=\"inline\"><msub><mi>S</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>S</mi><mn>2</mn></msub></math> planoen kokapena",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>4</mn></msup></math>-n, izan bitez:"
+   },
+   {
+    "mota": "zerrenda",
+    "ordenatua": false,
+    "elementuak": [
+     "<math display=\"inline\"><msub><mi>S</mi><mn>1</mn></msub></math>: ekuazioz emana (jatorrizkoan irakurketa zalantzazkoa; ikus behean parametrizazio argia).",
+     "<math display=\"inline\"><msub><mi>S</mi><mn>2</mn></msub></math>: <math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntutik igarotzen da, <math display=\"inline\"><mrow><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>1</mn></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>2</mn></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> norabideekin."
+    ]
+   },
+   {
+    "mota": "testua",
+    "html": "Kalkulatu: (a) <math display=\"inline\"><msub><mi>S</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>S</mi><mn>2</mn></msub></math>-ren kokapen erlatiboa; (b) <math display=\"inline\"><mrow><msub><mi>S</mi><mn>1</mn></msub><mo>∪</mo><msub><mi>S</mi><mn>2</mn></msub></mrow></math>-k sortutako azpiespazio afina; (c) aurkitu, existitzen bada, <math display=\"inline\"><mrow><mi>q</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntutik igaro eta <math display=\"inline\"><msub><mi>S</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>S</mi><mn>2</mn></msub></math>-ri paralelo den zuzen bat."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01ma_05geometria1#2": {
+  "mota": "problema",
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a25",
+  "atalaIzena": "Bi hiperplanori paraleloa den planoa",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aurkitu <math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntutik igaro eta <math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>4</mn></msup></math>-ko bi hiperplanori paraleloa den planoa; hiperplanoen ekuazioak: <math display=\"block\"><mrow><msub><mi>H</mi><mn>1</mn></msub><mo>:</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>5</mn><mi>z</mi><mo>+</mo><mi>t</mi><mo>=</mo><mn>2</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><msub><mi>H</mi><mn>2</mn></msub><mo>:</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><mi>y</mi><mo>+</mo><mi>z</mi><mo>−</mo><mi>t</mi><mo>=</mo><mn>1</mn><mi>.</mi></mrow></math>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01ma_05geometria1#3": {
+  "mota": "problema",
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a26",
+  "atalaIzena": "<math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>7</mn></msup></math>-ko zuzena bi hiperplanori paraleloa",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>7</mn></msup></math> espazio afinean, aurkitu (existitzen bada) <math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntutik igaro eta ekuazio hauetako bi hiperplanori paraleloa den zuzena: <math display=\"block\"><mrow><msub><mi>H</mi><mn>1</mn></msub><mo>:</mo><msub><mi>x</mi><mn>1</mn></msub><mo>−</mo><mn>2</mn><msub><mi>x</mi><mn>3</mn></msub><mo>+</mo><msub><mi>x</mi><mn>5</mn></msub><mo>−</mo><mn>2</mn><msub><mi>x</mi><mn>7</mn></msub><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><msub><mi>H</mi><mn>2</mn></msub><mo>:</mo><mn>3</mn><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><mn>2</mn><msub><mi>x</mi><mn>4</mn></msub><mo>+</mo><msub><mi>x</mi><mn>6</mn></msub><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01ma_05geometria1#4": {
+  "mota": "problema",
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a26",
+  "atalaIzena": "<math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>7</mn></msup></math>-ko zuzena bi hiperplanori paraleloa",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aurkitu <math display=\"inline\"><mrow><mi>q</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntutik igaro eta hiru azpiespazio afin <math display=\"inline\"><mrow><msub><mi>S</mi><mn>1</mn></msub><mo>,</mo><msub><mi>S</mi><mn>2</mn></msub><mo>,</mo><msub><mi>S</mi><mn>3</mn></msub></mrow></math> (<math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>3</mn></msup></math>-n, ekuazio inplizituz emanak) ebakitzen dituen zuzena."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01ma_05geometria1#5": {
+  "mota": "problema",
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a29",
+  "atalaIzena": "<math display=\"inline\"><mrow><mi>a</mi><mo>≠</mo><mn>2</mn></mrow></math> kasua; ariketa berria <math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>5</mn></msup></math>-n",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>5</mn></msup></math>-n, <math display=\"inline\"><mrow><mi>S</mi><mo>:</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><msub><mi>x</mi><mn>3</mn></msub><mo>+</mo><msub><mi>x</mi><mn>4</mn></msub><mo>+</mo><msub><mi>x</mi><mn>5</mn></msub><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>x</mi><mn>1</mn></msub><mo>−</mo><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><msub><mi>x</mi><mn>3</mn></msub><mo>−</mo><msub><mi>x</mi><mn>4</mn></msub><mo>+</mo><msub><mi>x</mi><mn>5</mn></msub><mo>=</mo><mn>0</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> azpiespazioa, eta <math display=\"inline\"><mi>R</mi></math> zuzena <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntutik <math display=\"inline\"><mrow><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> norabidearekin. Izan bitez <math display=\"inline\"><mrow><msub><mi>T</mi><mn>1</mn></msub><mo>=</mo><mi>A</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>R</mi><mo>∪</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> eta <math display=\"inline\"><msub><mi>S</mi><mrow><mi>a</mi><mo>,</mo><mi>b</mi></mrow></msub></math>, <math display=\"inline\"><mi>S</mi></math>-ri paralelo eta <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntutik igarotzen den azpiespazioa. Aurkitu <math display=\"inline\"><msub><mi>T</mi><mn>1</mn></msub></math>-ren eta <math display=\"inline\"><mrow><msub><mi>S</mi><mrow><mi>a</mi><mo>,</mo><mi>b</mi></mrow></msub><mo>∩</mo><msub><mi>T</mi><mn>1</mn></msub></mrow></math>-ren ekuazio inplizituak, eta <math display=\"inline\"><mrow><msub><mi>T</mi><mn>1</mn></msub><mo>,</mo><msub><mi>S</mi><mrow><mi>a</mi><mo>,</mo><mi>b</mi></mrow></msub></mrow></math>-ren kokapen erlatiboa."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01ma_05geometria1#6": {
+  "mota": "problema",
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a35",
+  "atalaIzena": "<math display=\"inline\"><mrow><mi>S</mi><mo>∩</mo><mi>T</mi></mrow></math>-ren itxiera; <math display=\"inline\"><mrow><msub><mi>R</mi><mn>1</mn></msub><mo>∩</mo><mi>S</mi><mo>∩</mo><mi>T</mi></mrow></math> ariketa",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>4</mn></msup></math>-n, izan bitez:"
+   },
+   {
+    "mota": "zerrenda",
+    "ordenatua": false,
+    "elementuak": [
+     "<math display=\"inline\"><msub><mi>R</mi><mn>1</mn></msub></math> zuzena: <math display=\"inline\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntutik igarotzen da, <math display=\"inline\"><mrow><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><msub><mi>R</mi><mn>1</mn></msub></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> norabidearekin.",
+     "<math display=\"inline\"><mi>S</mi></math> planoa: <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntuetatik igarotzen da.",
+     "<math display=\"inline\"><mi>T</mi></math> azpiespazio afina: <math display=\"inline\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntutik igarotzen da, <math display=\"inline\"><msub><mi>R</mi><mn>1</mn></msub></math>-ek finkatutako norabidearekin.",
+     "<math display=\"inline\"><mrow><mi>f</mi><mo>:</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>4</mn></msup><mo>→</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math>, <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>−</mo><mi>z</mi></mrow></math>."
+    ]
+   },
+   {
+    "mota": "testua",
+    "html": "Aurkitu <math display=\"inline\"><mrow><msub><mi>R</mi><mn>1</mn></msub><mo>∩</mo><mi>S</mi><mo>∩</mo><mi>T</mi></mrow></math>."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01ma_05geometria1#7": {
+  "mota": "ariketa",
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a46",
+  "atalaIzena": "Azpiespazio afinak: Grassmann eta kokapen erlatiboa",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>4</mn></msup></math>-ko bi <strong>plano</strong> afin <math display=\"inline\"><mrow><mi>S</mi><mo>,</mo><mi>T</mi></mrow></math> (biak <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover><mo>=</mo><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mover><mi>T</mi><mo accent=\"true\">¯</mo></mover><mo>=</mo><mn>2</mn></mrow></math>) <strong>gurutzatu</strong> egiten dira (paraleloak ez, <math display=\"inline\"><mrow><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover><mo>≠</mo><mover><mi>T</mi><mo accent=\"true\">¯</mo></mover></mrow></math>; eta <math display=\"inline\"><mrow><mi>S</mi><mo>∩</mo><mi>T</mi><mo>=</mo><mi>∅</mi></mrow></math>). Zenbatekoa da <math display=\"inline\"><mrow><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover><mo>∩</mo><mover><mi>T</mi><mo accent=\"true\">¯</mo></mover></mrow></math>-ren dimentsioa?"
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "Paraleloak ez direnez eta <math display=\"inline\"><mrow><mi>S</mi><mo>∩</mo><mi>T</mi><mo>=</mo><mi>∅</mi></mrow></math> denez, Grassmann-ek <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>S</mi><mo>+</mo><mi>T</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>−</mo><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover><mo>∩</mo><mover><mi>T</mi><mo accent=\"true\">¯</mo></mover><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mn>1</mn></mrow></math> ematen du. <math display=\"inline\"><mrow><mi>S</mi><mo>+</mo><mi>T</mi><mo>⊆</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>4</mn></msup></mrow></math> denez, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>S</mi><mo>+</mo><mi>T</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><mn>4</mn></mrow></math>, beraz: <math display=\"block\"><mrow><mn>4</mn><mo>−</mo><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover><mo>∩</mo><mover><mi>T</mi><mo accent=\"true\">¯</mo></mover><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mn>1</mn><mo>≤</mo><mn>4</mn><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover><mo>∩</mo><mover><mi>T</mi><mo accent=\"true\">¯</mo></mover><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≥</mo><mn>1</mn><mi>.</mi></mrow></math> Gainera <math display=\"inline\"><mrow><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover><mo>≠</mo><mover><mi>T</mi><mo accent=\"true\">¯</mo></mover></mrow></math> denez, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover><mo>∩</mo><mover><mi>T</mi><mo accent=\"true\">¯</mo></mover><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&lt;</mo><mn>2</mn></mrow></math>. Bi baldintzak bateratuz: <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mover><mi>S</mi><mo accent=\"true\">¯</mo></mover><mo>∩</mo><mover><mi>T</mi><mo accent=\"true\">¯</mo></mover><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn><mi>.</mi></mrow></math>"
+   }
+  ]
+ },
+ "01ma_05geometria1#8": {
+  "mota": "problema",
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a56",
+  "atalaIzena": "13. ariketa: koordenatu-aldaketa eta <math display=\"inline\"><mi>T</mi></math> azpiespazioa",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msub><mi>p</mi><mn>0</mn></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>1</mn></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>2</mn></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>3</mn></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>4</mn></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> emanik: (i) kalkulatu <math display=\"inline\"><mi>E</mi></math> erreferentzia-sistema berrirako koordenatu-aldaketa; (ii) <math display=\"inline\"><msub><mi>q</mi><mn>0</mn></msub></math>-ren koordenatuak <math display=\"inline\"><mi>E</mi></math>-n; (iii) <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">dim</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>1</mn></msub><mo>,</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>2</mn></msub><mo>,</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>3</mn></msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></math>; (iv) <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><msub><mi>q</mi><mn>0</mn></msub><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>1</mn></msub><mo>,</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>2</mn></msub><mo>,</mo><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mn>3</mn></msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></math>-ren ekuazio parametriko eta inplizituak."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01ma_05geometria1#9": {
+  "mota": "problema",
+  "kapitulua": "01ma_05geometria1",
+  "atala": "a69",
+  "atalaIzena": "Erronboaren diagonalak; aplikazio afinen errepasoa",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>a</mi><mi>b</mi><mi>c</mi><mi>d</mi></mrow></math> paralelogramoa da (<math display=\"inline\"><mrow><mover><mrow><mi>a</mi><mi>b</mi></mrow><mo accent=\"true\">→</mo></mover><mo>=</mo><mover><mrow><mi>c</mi><mi>d</mi></mrow><mo accent=\"true\">→</mo></mover></mrow></math>). Frogatu <math display=\"inline\"><mrow><mi>a</mi><mi>b</mi><mi>c</mi><mi>d</mi></mrow></math> <strong>erronboa</strong> dela baldin eta soilik baldin haren diagonalak (<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>a</mi><mo>,</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></math> eta <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></math>) perpendikularrak badira."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01ma_06geometria2#1": {
+  "mota": "problema",
+  "kapitulua": "01ma_06geometria2",
+  "atala": "a15",
+  "atalaIzena": "Kasu orokorraren froga; 7. ariketa",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>4</mn></msup></math>-n, <math display=\"inline\"><mrow><mi>S</mi><mo>:</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mi>x</mi><mn>1</mn></msub><mo>−</mo><msub><mi>x</mi><mn>4</mn></msub><mo>=</mo><mn>1</mn><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><msub><mi>x</mi><mn>3</mn></msub><mo>=</mo><mi>−</mi><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> eta <math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Kalkulatu <math display=\"inline\"><mrow><mi>d</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>,</mo><mi>S</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01ma_06geometria2#2": {
+  "mota": "problema",
+  "kapitulua": "01ma_06geometria2",
+  "atala": "a17",
+  "atalaIzena": "11. ariketa: <math display=\"inline\"><mrow><mi>d</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>S</mi><mo>,</mo><msub><mi>T</mi><mi>a</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> (<math display=\"inline\"><mi>a</mi></math> parametroarekin)",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>3</mn></msup></math>-n, <math display=\"inline\"><mrow><mi>S</mi><mo>:</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>−</mo><mn>6</mn><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>+</mo><mi>z</mi><mo>−</mo><mn>7</mn><mo>=</mo><mn>0</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> eta <math display=\"inline\"><mrow><msub><mi>T</mi><mi>a</mi></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>,</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></math>. Kalkulatu <math display=\"inline\"><mrow><mi>d</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>S</mi><mo>,</mo><msub><mi>T</mi><mi>a</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> <math display=\"inline\"><mi>a</mi></math>-ren arabera."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01ma_06geometria2#3": {
+  "mota": "problema",
+  "kapitulua": "01ma_06geometria2",
+  "atala": "a18",
+  "atalaIzena": "6. ariketa: <math display=\"inline\"><mi>S</mi></math>-ri perpendikularra den zuzena",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>3</mn></msup></math>-n, <math display=\"inline\"><mrow><mi>S</mi><mo>:</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mn>2</mn><msub><mi>x</mi><mn>2</mn></msub><mo>=</mo><mn>1</mn><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>x</mi><mn>3</mn></msub><mo>=</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math>. Kalkulatu <math display=\"inline\"><mrow><mi>O</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntutik igaro eta <math display=\"inline\"><mi>S</mi></math>-ri perpendikularra den zuzenaren ekuazioa."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01ma_06geometria2#4": {
+  "mota": "problema",
+  "kapitulua": "01ma_06geometria2",
+  "atala": "a19",
+  "atalaIzena": "6. ariketaren 2. era; 12. ariketa",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>4</mn></msup></math>-n, <math display=\"inline\"><mrow><mi>P</mi><mo>:</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>−</mo><mn>1</mn><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"0.222em\"></mspace><mi>z</mi><mo>=</mo><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> eta <math display=\"inline\"><mrow><mi>T</mi><mo>:</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>x</mi><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"0.222em\"></mspace><mi>t</mi><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"0.222em\"></mspace><mi>y</mi><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> askea</mtext></mrow><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math>. Kalkulatu <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntutik igaro eta <math display=\"inline\"><mi>P</mi></math> zein <math display=\"inline\"><mi>T</mi></math>-ri perpendikularra den zuzena."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01ma_06geometria2#5": {
+  "mota": "problema",
+  "kapitulua": "01ma_06geometria2",
+  "atala": "a25",
+  "atalaIzena": "<math display=\"inline\"><mi>W</mi></math>-ren ebakidura; <math display=\"inline\"><mi>S</mi></math> eta <math display=\"inline\"><mi>T</mi></math>-ren kokapena (<math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>4</mn></msup></math>)",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>4</mn></msup></math>-ko bi azpiespazio afin: <math display=\"block\"><mrow><mi>S</mi><mo>:</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>3</mn><mi>x</mi><mo>+</mo><mi>t</mi><mo>=</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>−</mi><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>+</mo><mi>t</mi><mo>=</mo><mn>3</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>2</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>t</mi><mo>=</mo><mi>−</mi><mn>1</mn></mtd></mtr></mtable></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>T</mi><mo>:</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mn>2</mn><mi>t</mi><mo>=</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>−</mo><mn>3</mn><mi>y</mi><mo>=</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn><mi>y</mi><mo>=</mo><mn>0</mn></mtd></mtr></mtable></mrow><mi>.</mi></mrow></math> (a) <math display=\"inline\"><mrow><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>S</mi><mo>∪</mo><mi>T</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-ren ekuazioak eta norabidea; (b) <math display=\"inline\"><mi>S</mi></math> eta <math display=\"inline\"><mi>T</mi></math>-ren perpendikular komun bat; (c) <math display=\"inline\"><mrow><mi>d</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>S</mi><mo>,</mo><mi>T</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01ma_06geometria2#6": {
+  "mota": "problema",
+  "kapitulua": "01ma_06geometria2",
+  "atala": "a26",
+  "atalaIzena": "<math display=\"inline\"><mrow><mi>d</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>S</mi><mo>,</mo><mi>T</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn></mrow></math>; bi zuzenei perpendikularra den planoa",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>3</mn></msup></math>-n, <math display=\"inline\"><mrow><msub><mi>S</mi><mn>1</mn></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo>,</mo><mn>1</mn><mo>,</mo><mi>−</mi><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></math> eta <math display=\"inline\"><mrow><msub><mi>S</mi><mn>2</mn></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></math> planoak. Zehaztu <math display=\"inline\"><msub><mi>S</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>S</mi><mn>2</mn></msub></math>-ri perpendikularra den planoa, haien ebakiduraren <math display=\"inline\"><mrow><mi>z</mi><mo>=</mo><mn>0</mn></mrow></math> koordenatuko puntu batetik igarotzen dena."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01ma_06geometria2#7": {
+  "mota": "problema",
+  "kapitulua": "01ma_06geometria2",
+  "atala": "a27",
+  "atalaIzena": "Plano perpendikularra osatzea; zuzen-familia <math display=\"inline\"><msub><mi>R</mi><mi>λ</mi></msub></math>",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Plano afin euklidearrean, izan bedi zuzen-familia <math display=\"block\"><mrow><msub><mi>R</mi><mi>λ</mi></msub><mo>:</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>λ</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>x</mi><mo>+</mo><mn>2</mn><mi>λ</mi><mi>y</mi><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mi>λ</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>λ</mi><mo>∈</mo><mi mathvariant=\"double-struck\">ℝ</mi><mi>.</mi></mrow></math> Frogatu <math display=\"inline\"><mi>P</mi></math> punturen bat existitzen den, non <math display=\"inline\"><mrow><mi>d</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>P</mi><mo>,</mo><msub><mi>R</mi><mi>λ</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> konstantea den (<math display=\"inline\"><mi>λ</mi></math>-ren mende ez dagoena)."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#1": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a12",
+  "atalaIzena": "Ebazpen-liburutik (KDI): Segiden limiteak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Zerrenda bereko 62.a.) Kalkula ezazu <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>n</mi><mi>!</mi></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>!</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><mi>n</mi><mi>!</mi></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>!</mi><mo>+</mo><mn>2</mn></mrow></mfrac><mo>+</mo><mi>⋯</mi><mo>+</mo><mfrac><mrow><mi>n</mi><mi>!</mi></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>!</mi><mo>+</mo><mi>n</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "oharra",
+    "titulua": "Oharra",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "Orriaren azken lerroa da: enuntziatua idatzita geratzen da eta ebazpena EZ dago argazki-tartean (hurrengo orria ez da fotografiatu edo beste nonbait dago). Ez da hemen osatu (transkripzio-araua). (Bide estandarra sandwich-a litzateke: batugai bakoitza <math display=\"inline\"><mfrac><mrow><mi>n</mi><mi>!</mi></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>!</mi><mo>+</mo><mi>n</mi></mrow></mfrac></math> eta <math display=\"inline\"><mfrac><mrow><mi>n</mi><mi>!</mi></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>!</mi><mo>+</mo><mn>1</mn></mrow></mfrac></math> artean dago, eta bi bornek <math display=\"inline\"><mrow><mi>n</mi><mo>⋅</mo><mfrac><mrow><mi>n</mi><mi>!</mi></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>!</mi></mrow></mfrac><mo>=</mo><mfrac><mi>n</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>→</mo><mn>1</mn></mrow></math> ematen dute.)"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_01deribatuak#2": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a12",
+  "atalaIzena": "Ebazpen-liburutik (KDI): Segiden limiteak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Azterketa, 2012-01-13, G3; &quot;KALKULATU, <math display=\"inline\"><mi>a</mi></math>-ren balioen arabera, <math display=\"inline\"><mrow><mi>a</mi><mo>&gt;</mo><mn>0</mn></mrow></math> izanik&quot;.) Kalkula ezazu <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><msup><mi>a</mi><mi>n</mi></msup><mo>+</mo><mi>n</mi></mrow><mrow><msup><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>+</mo><mn>2</mn><mi>n</mi></mrow></mfrac></mrow></math>."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>a</mi><mo>&lt;</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow><mo>:</mo><mspace width=\"1.0em\"></mspace><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mi>n</mi><mrow><mn>2</mn><mi>n</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>a</mi><mi>n</mi></msup><mo>,</mo><msup><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>→</mo><mn>0</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> <math display=\"block\"><mrow><mi>a</mi><mo>=</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow><mo>:</mo><mspace width=\"1.0em\"></mspace><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mn>1</mn><mo>+</mo><mi>n</mi></mrow><mrow><mn>1</mn><mo>+</mo><mn>2</mn><mi>n</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math> <math display=\"block\"><mrow><mi>a</mi><mo>&gt;</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow><mo>:</mo><mspace width=\"1.0em\"></mspace><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><msup><mi>a</mi><mi>n</mi></msup><mo>+</mo><mi>n</mi></mrow><mrow><msup><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>+</mo><mn>2</mn><mi>n</mi></mrow></mfrac><mo>=</mo><mi>a</mi><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>a</mi><mi>n</mi></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> nagusi; </mtext><mspace width=\"0.333em\"></mspace></mrow><mfrac><msup><mi>a</mi><mi>n</mi></msup><msup><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></mfrac><mo>=</mo><mi>a</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>a</mi><mo>≤</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>a</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>a</mi><mo>&gt;</mo><mn>1</mn></mtd></mtr></mtable></mrow></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_01deribatuak#3": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a12",
+  "atalaIzena": "Ebazpen-liburutik (KDI): Segiden limiteak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Azterketa, 2014-05-28, G1.) Kalkula ezazu <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mroot><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><mn>5</mn></mroot><mspace width=\"0.167em\"></mspace><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mroot><mi>n</mi><mn>4</mn></mroot><mrow><mroot><mi>n</mi><mn>6</mn></mroot><mo>+</mo><mn>1</mn></mrow></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"0.167em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mo>−</mo><msqrt><mi>n</mi></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "Bi zatitan banatuta (I eta II markatuta): <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mroot><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><mn>5</mn></mroot><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mo>−</mo><msqrt><mi>n</mi></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mroot><mi>n</mi><mn>4</mn></mroot><mrow><mroot><mi>n</mi><mn>6</mn></mroot><mo>+</mo><mn>1</mn></mrow></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<strong>I.</strong> Konjokatuaz biderkatuta: <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mroot><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><mn>5</mn></mroot><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mo>−</mo><msqrt><mi>n</mi></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mrow><msqrt><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mo>+</mo><msqrt><mi>n</mi></msqrt></mrow><mrow><msqrt><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mo>+</mo><msqrt><mi>n</mi></msqrt></mrow></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mroot><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><mn>5</mn></mroot><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>−</mo><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><msqrt><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mo>+</mo><msqrt><mi>n</mi></msqrt></mrow></mfrac><mo>≈</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mroot><msup><mi>n</mi><mn>2</mn></msup><mn>5</mn></mroot><mrow><mn>2</mn><msqrt><mi>n</mi></msqrt></mrow></mfrac></mrow></math> <math display=\"inline\"><mrow><msup><mi>n</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mo>≫</mo><msup><mi>n</mi><mfrac><mn>2</mn><mn>5</mn></mfrac></msup></mrow></math> denez <math display=\"inline\"><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></math>-n, &quot;beraz&quot; <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mroot><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><mn>5</mn></mroot><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mo>−</mo><msqrt><mi>n</mi></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<strong>II.</strong>  &quot;Funtzioa NAHI BORNATUA da&quot;  (sic; <math display=\"inline\"><mi mathvariant=\"normal\">sin</mi></math> bornatua)."
+   },
+   {
+    "mota": "testua",
+    "html": "Ondorioa (hitzez): <em>&quot;limitea zero da: funtzio bornatu bat bider <math display=\"inline\"><mn>0</mn></math>-ra doan bat&quot;</em>."
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mroot><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><mn>5</mn></mroot><mspace width=\"0.167em\"></mspace><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mroot><mi>n</mi><mn>4</mn></mroot><mrow><mroot><mi>n</mi><mn>6</mn></mroot><mo>+</mo><mn>1</mn></mrow></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mo>−</mo><msqrt><mi>n</mi></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_01deribatuak#4": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a12",
+  "atalaIzena": "Ebazpen-liburutik (KDI): Segiden limiteak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(2013-05-29ko azterketa-ariketa.) Kalkula ezazu <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><msqrt><mrow><msup><mi>n</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mrow></msqrt><mo>−</mo><msqrt><mrow><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></mrow></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "Gorriz goian: <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>b</mi><mn>2</mn></msup></mrow></math> eta &quot;<math display=\"inline\"><mrow><mi>∞</mi><mo>−</mo><mi>∞</mi></mrow></math> INDETERMINAZIOA&quot;."
+   },
+   {
+    "mota": "testua",
+    "html": "Konjokatuaz bider eta zati (bi aldiz): <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><msqrt><mrow><msup><mi>n</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mrow></msqrt><mo>−</mo><msqrt><mrow><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></mrow></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><mfrac><mrow><msqrt><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><msqrt><mrow><msup><mi>n</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mrow></msqrt><mo>+</mo><msqrt><mrow><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></mrow></msqrt></mrow><mrow><msqrt><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><msqrt><mrow><msup><mi>n</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mrow></msqrt><mo>+</mo><msqrt><mrow><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></mrow></msqrt></mrow></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><msqrt><mrow><msup><mi>n</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt><mo>−</mo><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></mrow><mrow><msqrt><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><msqrt><mrow><msup><mi>n</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mrow></msqrt><mo>+</mo><msqrt><mrow><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></mrow></msqrt></mrow></mfrac></mrow></math> <math display=\"block\"><mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><msqrt><mrow><msup><mi>n</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt><mo>−</mo><msup><mi>n</mi><mn>2</mn></msup></mrow><mrow><msqrt><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><msqrt><mrow><msup><mi>n</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mrow></msqrt><mo>+</mo><msqrt><mrow><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></mrow></msqrt></mrow></mfrac><mo>⋅</mo><mfrac><mrow><msqrt><mrow><msup><mi>n</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt><mo>+</mo><msup><mi>n</mi><mn>2</mn></msup></mrow><mrow><msqrt><mrow><msup><mi>n</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt><mo>+</mo><msup><mi>n</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><msup><mi>n</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn><mo>−</mo><msup><mi>n</mi><mn>4</mn></msup></mrow><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><msqrt><mrow><msup><mi>n</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mrow></msqrt><mo>+</mo><msqrt><mrow><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></mrow></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><msup><mi>n</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt><mo>+</mo><msup><mi>n</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo>=</mo><mn>0</mn></mrow></math> (zenbakitzailea <math display=\"inline\"><mn>1</mn></math> konstantea, izendatzailea <math display=\"inline\"><mrow><mo>→</mo><mi>∞</mi></mrow></math>)."
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><msqrt><mrow><msup><mi>n</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mrow></msqrt><mo>−</mo><msqrt><mrow><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></mrow></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_01deribatuak#5": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a12",
+  "atalaIzena": "Ebazpen-liburutik (KDI): Segiden limiteak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Azterketa-zerrenda bateko 61.a; &quot;KALKULATU&quot;.) Kalkula ezazu <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><msqrt><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mi>n</mi></mrow></msqrt><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>n</mi><mo>+</mo><msqrt><mi>n</mi></msqrt></mrow></msup></mrow></math>."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><msqrt><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mi>n</mi></mrow></msqrt><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>n</mi><mo>+</mo><msqrt><mi>n</mi></msqrt></mrow></msup><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mn>1</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>∞</mi></msup><mo>=</mo><msup><mn>1</mn><mi>∞</mi></msup></mrow></math> Eskema bera (<math display=\"inline\"><msup><mi>e</mi><mi>C</mi></msup></math>): <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mo>=</mo><msup><mi>e</mi><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><msqrt><mi>n</mi></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mfrac><msqrt><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mi>n</mi></mrow></msqrt><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></mfrac></mrow></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> &quot;llamamos a este límite&quot; </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>C</mi></mrow></math> Gorriz: <em>&quot;Baliokidetasuna aplikatu <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mn>1</mn></mrow></math>: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>≃</mo><mi>x</mi><mo>−</mo><mn>1</mn></mrow></math>&quot;</em>: <math display=\"block\"><mrow><mi>C</mi><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><msqrt><mi>n</mi></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><msqrt><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mi>n</mi></mrow></msqrt><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></mfrac><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><msqrt><mi>n</mi></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><msqrt><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mi>n</mi></mrow></msqrt><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> <em>&quot;Ahora conjugamos (hay ⊖)&quot;</em>: <math display=\"block\"><mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><msqrt><mi>n</mi></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mi>n</mi></mrow></msqrt><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mi>n</mi></mrow></msqrt><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mi>n</mi></mrow></msqrt><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><msqrt><mi>n</mi></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><mfrac><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mi>n</mi><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mi>n</mi></mrow></msqrt><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac></mrow></math> <math display=\"block\"><mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><msqrt><mi>n</mi></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><mfrac><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mi>n</mi><mo>−</mo><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>n</mi><mo>−</mo><mn>4</mn></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mi>n</mi></mrow></msqrt><mo>+</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><msqrt><mi>n</mi></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><mfrac><mrow><mi>−</mi><mn>3</mn><mi>n</mi><mo>−</mo><mn>4</mn></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mi>n</mi></mrow></msqrt><mo>+</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac></mrow></math> Arrosaz eskuinean: <em>&quot;emaitza begi-bistara <math display=\"inline\"><mrow><mi>−</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></math>, baina zuzenena goian eta behean zatitzea da adierazgarririk handienaren artean. (<math display=\"inline\"><msup><mi>n</mi><mn>2</mn></msup></math>); egin daiteke <math display=\"inline\"><mrow><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>⋅</mo><mfrac><mn>1</mn><mi>n</mi></mfrac></mrow></math> también&quot;</em>: <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>n</mi><mi>n</mi></mfrac><mo>+</mo><mfrac><msqrt><mi>n</mi></msqrt><mi>n</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><mfrac><mrow><mfrac><mrow><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mi>n</mi></mfrac><mo>−</mo><mfrac><mn>4</mn><mi>n</mi></mfrac></mrow><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>n</mi><mi>n</mi></mfrac><mo>+</mo><mfrac><mn>2</mn><mi>n</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><mfrac><msup><mi>n</mi><mn>2</mn></msup><msup><mi>n</mi><mn>2</mn></msup></mfrac><mo>+</mo><mfrac><mi>n</mi><msup><mi>n</mi><mn>2</mn></msup></mfrac></mrow></msqrt><mo>+</mo><mfrac><mi>n</mi><mi>n</mi></mfrac><mo>+</mo><mfrac><mn>2</mn><mi>n</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><mfrac><mrow><mi>−</mi><mn>3</mn></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mn>1</mn></msqrt><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></math> (arrosaz behean: <em>&quot;barrurantz doan hori <math display=\"inline\"><mrow></mrow></math> bihurtzen da <math display=\"inline\"><msup><mi>n</mi><mn>2</mn></msup></math>&quot;</em> — erroa <math display=\"inline\"><mi>n</mi></math>-z zatitzean barruan <math display=\"inline\"><msup><mi>n</mi><mn>2</mn></msup></math>-z zatitu behar dela.)"
+   },
+   {
+    "mota": "testua",
+    "html": "Beraz <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><msup><mi>e</mi><mrow><mi>−</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></msup></mrow></math>."
+   },
+   {
+    "mota": "testua",
+    "html": "Behean errezeta zenbakituta: ① <em>&quot;mostramos la indeterminación&quot;</em> ② <em>&quot;Muga honela lantzen dugu <math display=\"inline\"><msup><mi>e</mi><mi>C</mi></msup></math>&quot;</em> ③ <em>&quot;baliokidetasuna aplikatzen dugu <math display=\"inline\"><mi mathvariant=\"normal\">ln</mi></math>&quot;</em> ④ <em>&quot;conjugamos el límite&quot;</em> ⑤ <em>&quot;reducimos las potencias&quot;</em>."
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><msqrt><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mi>n</mi></mrow></msqrt><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>n</mi><mo>+</mo><msqrt><mi>n</mi></msqrt></mrow></msup><mo>=</mo><msup><mi>e</mi><mrow><mi>−</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></msup></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_01deribatuak#6": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a30",
+  "atalaIzena": "Ebazpen-liburutik (KDI): Zenbaki-serieak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Azterketa, 2014-05-28; &quot;serien izaera&quot;.) Azter ezazu <math display=\"inline\"><mrow><msubsup><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mi>∞</mi></msubsup><mfrac><mrow><mi>n</mi><mi>!</mi></mrow><mrow><msup><mi>e</mi><mrow><mi>b</mi><mi>n</mi></mrow></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>⋯</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>+</mo><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac></mrow></math> seriearen izaera, <math display=\"inline\"><mrow><mi>b</mi><mo>∈</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math>, <math display=\"inline\"><mrow><mi>a</mi><mo>&gt;</mo><mn>0</mn></mrow></math> parametroak izanik."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "<strong>D&#x27;Alembert</strong>  (gorriz: <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><msub><mi>a</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><msub><mi>a</mi><mi>n</mi></msub></mfrac><mo>&lt;</mo><mn>1</mn></mrow></math> konbergentzia): <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mi>n</mi><mi>!</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><msup><mi>e</mi><mrow><mi>b</mi><mi>n</mi></mrow></msup><msup><mi>e</mi><mi>b</mi></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>⋯</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>+</mo><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>+</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mo>⋅</mo><mfrac><mrow><msup><mi>e</mi><mrow><mi>b</mi><mi>n</mi></mrow></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>⋯</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>+</mo><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>n</mi><mi>!</mi></mrow></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mrow><msup><mi>e</mi><mi>b</mi></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>+</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><msup><mi>e</mi><mi>b</mi></msup></mfrac></mrow></math> Kasuak: <math display=\"block\"><mrow><mfrac><mn>1</mn><msup><mi>e</mi><mi>b</mi></msup></mfrac><mo>&lt;</mo><mn>1</mn><mo>→</mo><mn>1</mn><mo>&lt;</mo><msup><mi>e</mi><mi>b</mi></msup><mo>→</mo><mn>0</mn><mo>&lt;</mo><mi>b</mi><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> KONBERGENTEA </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math> <math display=\"block\"><mrow><mfrac><mn>1</mn><msup><mi>e</mi><mi>b</mi></msup></mfrac><mo>&gt;</mo><mn>1</mn><mo>→</mo><mn>1</mn><mo>&gt;</mo><msup><mi>e</mi><mi>b</mi></msup><mo>→</mo><mn>0</mn><mo>&gt;</mo><mi>b</mi><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> DIBERGENTEA </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math> <math display=\"block\"><mrow><mfrac><mn>1</mn><msup><mi>e</mi><mi>b</mi></msup></mfrac><mo>=</mo><mn>1</mn><mo>→</mo><mi>b</mi><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> ZALANTZA </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<strong><math display=\"inline\"><mrow><mi>b</mi><mo>=</mo><mn>0</mn></mrow></math>: Raabe</strong>  (gorriz: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><msub><mi>a</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><msub><mi>a</mi><mi>n</mi></msub></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&lt;</mo><mn>1</mn></mrow></math> dibergentzia): <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>a</mi><mo>+</mo><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>−</mo><mi>n</mi><mo>−</mo><mn>1</mn></mrow><mrow><mi>a</mi><mo>+</mo><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mi>a</mi><mi>n</mi></mrow><mrow><mi>a</mi><mo>+</mo><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mi>a</mi></mrow></math> <math display=\"block\"><mrow><mi>a</mi><mo>&lt;</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> DIBERGENTEA</mtext></mrow><mo>;</mo><mspace width=\"1.0em\"></mspace><mi>a</mi><mo>&gt;</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> KONBERGENTEA</mtext></mrow><mo>;</mo><mspace width=\"1.0em\"></mspace><mi>a</mi><mo>=</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> ZALANTZA </mtext><mspace width=\"0.333em\"></mspace></mrow><mo>−</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> a-ren balioa serieari bertan ordezkatuko dugu </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<strong><math display=\"inline\"><mrow><mi>b</mi><mo>=</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mn>1</mn></mrow></math>:</strong> <math display=\"block\"><mrow><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mo accent=\"false\">∞</mo></munderover><mfrac><mrow><mi>n</mi><mi>!</mi></mrow><mrow><mn>2</mn><mo>⋅</mo><mn>3</mn><mi>⋯</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mo>=</mo><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mo accent=\"false\">∞</mo></munderover><mfrac><mrow><mi>n</mi><mi>!</mi></mrow><mrow><mi>n</mi><mi>!</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mo>=</mo><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mo accent=\"false\">∞</mo></munderover><mfrac><mn>1</mn><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> DIBERGENTEA </mtext><mspace width=\"0.333em\"></mspace></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtext mathvariant=\"normal\">serie harmonikoa</mtext><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Laburpena (giltzekin): <math display=\"block\"><mrow><mi>b</mi><mo>&gt;</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> konb.</mtext></mrow><mo>;</mo><mspace width=\"1.0em\"></mspace><mi>b</mi><mo>&lt;</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> dib.</mtext></mrow><mo>;</mo><mspace width=\"1.0em\"></mspace><mi>b</mi><mo>=</mo><mn>0</mn><mo>:</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mn>0</mn><mo>&lt;</mo><mi>a</mi><mo>&lt;</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> dib.</mtext></mrow><mo>,</mo><mspace width=\"0.167em\"></mspace><mi>a</mi><mo>&gt;</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> konb.</mtext></mrow><mo>,</mo><mspace width=\"0.167em\"></mspace><mi>a</mi><mo>=</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> dib.</mtext></mrow><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math>"
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Konbergentea </mtext><mspace width=\"0.333em\"></mspace></mrow><mo>⇔</mo><mi>b</mi><mo>&gt;</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> edo </mtext><mspace width=\"0.333em\"></mspace></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>b</mi><mo>=</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> eta </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>a</mi><mo>&gt;</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_01deribatuak#7": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a30",
+  "atalaIzena": "Ebazpen-liburutik (KDI): Zenbaki-serieak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Azterketa, 2013-01-17.) Azter ezazu <math display=\"inline\"><mrow><msubsup><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mi>∞</mi></msubsup><mfrac><mrow><mn>2</mn><mo>⋅</mo><mn>5</mn><mo>⋅</mo><mn>10</mn><mo>⋅</mo><mn>17</mn><mi>⋯</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>!</mi><mspace width=\"0.167em\"></mspace><msup><mi>a</mi><mrow><mn>2</mn><mi>n</mi></mrow></msup></mrow></mfrac></mrow></math> seriearen izaera <math display=\"inline\"><mi>a</mi></math>-ren arabera."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "<strong>D&#x27;Alembert:</strong> <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mn>2</mn><mo>⋅</mo><mn>5</mn><mo>⋅</mo><mn>10</mn><mo>⋅</mo><mn>17</mn><mi>⋯</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>!</mi><mspace width=\"0.167em\"></mspace><msup><mi>a</mi><mrow><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></mrow></mfrac><mo>⋅</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>!</mi><mspace width=\"0.167em\"></mspace><msup><mi>a</mi><mrow><mn>2</mn><mi>n</mi></mrow></msup></mrow><mrow><mn>2</mn><mo>⋅</mo><mn>5</mn><mo>⋅</mo><mn>10</mn><mo>⋅</mo><mn>17</mn><mi>⋯</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>!</mi><mspace width=\"0.167em\"></mspace><msup><mi>a</mi><mrow><mn>2</mn><mi>n</mi></mrow></msup></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>!</mi><mspace width=\"0.167em\"></mspace><msup><mi>a</mi><mrow><mn>2</mn><mi>n</mi></mrow></msup><msup><mi>a</mi><mn>2</mn></msup></mrow></mfrac></mrow></math> <math display=\"block\"><mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>2</mn></mrow><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>n</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>a</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></mfrac></mrow></math> Kasuak: <math display=\"block\"><mrow><mfrac><mn>1</mn><mrow><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></mfrac><mo>&lt;</mo><mn>1</mn><mo>→</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>&lt;</mo><msup><mi>a</mi><mn>2</mn></msup><mspace width=\"1.0em\"></mspace><mo>→</mo><mi>a</mi><mo>∈</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mi>∞</mi><mo>,</mo><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∪</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>,</mo><mi>∞</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> KONBERGENTEA </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math> <math display=\"block\"><mrow><mfrac><mn>1</mn><mrow><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></mfrac><mo>&gt;</mo><mn>1</mn><mo>→</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>&gt;</mo><msup><mi>a</mi><mn>2</mn></msup><mspace width=\"1.0em\"></mspace><mo>→</mo><mi>a</mi><mo>∈</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>,</mo><mn>0</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∪</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> DIBERGENTEA </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math> <math display=\"block\"><mrow><mfrac><mn>1</mn><mrow><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mn>1</mn><mo>→</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> ZALANTZA </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<strong>Raabe</strong>  (<math display=\"inline\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math>): <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>2</mn></mrow><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>n</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><mrow><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>8</mn><mi>n</mi><mo>+</mo><mn>8</mn></mrow><mrow><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>n</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>n</mi><mo>−</mo><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>8</mn><mi>n</mi><mo>−</mo><mn>8</mn></mrow><mrow><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>n</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>−</mi><mn>6</mn><mi>n</mi><mo>−</mo><mn>8</mn></mrow><mrow><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>n</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> <math display=\"block\"><mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mi>−</mi><mn>6</mn><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>8</mn><mi>n</mi></mrow><mrow><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>n</mi></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>&lt;</mo><mn>1</mn><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> DIBERGENTEA DA </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>a</mi><mo>∈</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mi>∞</mi><mo>,</mo><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∪</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>,</mo><mi>∞</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> KONBERGENTEA</mtext></mrow><mo>;</mo><mspace width=\"1.0em\"></mspace><mi>a</mi><mo>∈</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>,</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>≠</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> DIBERGENTEA </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>"
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Konb. </mtext><mspace width=\"0.333em\"></mspace></mrow><mo>⇔</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&gt;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_01deribatuak#8": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a30",
+  "atalaIzena": "Ebazpen-liburutik (KDI): Zenbaki-serieak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Azterketa, 2012-06-28.) Kalkula ezazu <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mi>x</mi></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac></mrow></math> eta azter ezazu <math display=\"inline\"><mrow><msubsup><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mi>∞</mi></msubsup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mn>1</mn><mi>n</mi></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> seriearen izaera."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "<strong>Limitea.</strong>  <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mi>x</mi></mfrac><mo>→</mo><mn>1</mn></mrow></math> denez, <em>&quot;logaritmoaren infinitesimoa aplikatuz&quot;</em>  (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>u</mi><mo>∼</mo><mi>u</mi><mo>−</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>u</mi><mo>→</mo><mn>1</mn></mrow></math>): <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mi>x</mi></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mi>x</mi></mfrac><mo>−</mo><mn>1</mn></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mi>x</mi></mrow><msup><mi>x</mi><mn>3</mn></msup></mfrac></mrow></math> <math display=\"inline\"><mfrac><mn>0</mn><mn>0</mn></mfrac></math> denez <em>&quot;L&#x27;Hôpital aplikatu daiteke&quot;</em>: <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mrow><mtext mathvariant=\"normal\">eta </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo>−</mo><mn>1</mn><mo>∼</mo><mi>−</mi><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> erabilita</mtext></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mspace width=\"1.0em\"></mspace><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>−</mi><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac></mrow><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<strong>Seriea.</strong>  <em>&quot;<math display=\"inline\"><mrow><mo>∑</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mn>1</mn><mi>n</mi></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> seriearen izaera aztertzeko aurreko limitea erabil daiteke&quot;</em>: <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mi>n</mi></mfrac></mrow></math> bada, <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mfrac><mn>1</mn><mi>n</mi></mfrac></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mfrac><mn>1</mn><msup><mi>n</mi><mn>2</mn></msup></mfrac></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mn>1</mn><mi>n</mi></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mfrac><mn>1</mn><msup><mi>n</mi><mn>2</mn></msup></mfrac></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></math> Hitzez (euskaraz): <em>&quot;<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mn>1</mn><mi>n</mi></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>  <math display=\"inline\"><msub><mi>a</mi><mi>n</mi></msub></math> seriea bada eta <math display=\"inline\"><mfrac><mn>1</mn><msup><mi>n</mi><mn>2</mn></msup></mfrac></math>  <math display=\"inline\"><msub><mi>b</mi><mi>n</mi></msub></math> seriea esan dezakegu beren zatiketa <math display=\"inline\"><mn>0</mn></math> eta <math display=\"inline\"><mi>∞</mi></math>-ren desberdina denez biek izaera berbera daukatela; eta <math display=\"inline\"><msub><mi>b</mi><mi>n</mi></msub></math> konbergentea da (<math display=\"inline\"><mrow><mo>∑</mo><mfrac><mn>1</mn><msup><mi>n</mi><mi>q</mi></msup></mfrac></mrow></math>, <math display=\"inline\"><mrow><mi>q</mi><mo>&gt;</mo><mn>1</mn></mrow></math>), beraz <math display=\"inline\"><msub><mi>a</mi><mi>n</mi></msub></math> konbergentea da ere&quot;</em>  (konparazio-irizpidea limitearen bidez; zeinu negatiboak ez du izaera aldatzen)."
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mi>x</mi></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>;</mo><mspace width=\"1.0em\"></mspace><mo>∑</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mn>1</mn><mi>n</mi></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> KONBERGENTEA </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_01deribatuak#9": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a30",
+  "atalaIzena": "Ebazpen-liburutik (KDI): Zenbaki-serieak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Azterketa, 2013-07-04.) Azter ezazu <math display=\"inline\"><mrow><msubsup><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mi>∞</mi></msubsup><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mi>!</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mspace width=\"0.167em\"></mspace><msup><mi>a</mi><mrow><mn>2</mn><mi>n</mi></mrow></msup></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>!</mi></mrow></mfrac></mrow></math> seriearen izaera <math display=\"inline\"><mi>a</mi></math>-ren arabera."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "<strong>D&#x27;Alembert:</strong> <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>!</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>⋅</mo><msup><mi>a</mi><mrow><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></mrow><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>!</mi></mrow></mfrac><mo>⋅</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>!</mi></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mi>!</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>⋅</mo><msup><mi>a</mi><mrow><mn>2</mn><mi>n</mi></mrow></msup></mrow></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mi>!</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>⋅</mo><msup><mi>a</mi><mrow><mn>2</mn><mi>n</mi></mrow></msup><mo>⋅</mo><msup><mi>a</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>!</mi></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>!</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mi>!</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><msup><mi>a</mi><mrow><mn>2</mn><mi>n</mi></mrow></msup></mrow></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>⋅</mo><msup><mi>a</mi><mn>2</mn></msup></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mo>=</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>4</mn></mfrac></mrow></math> Kasuak: <math display=\"block\"><mrow><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>4</mn></mfrac><mo>&lt;</mo><mn>1</mn><mo>→</mo><msup><mi>a</mi><mn>2</mn></msup><mo>&lt;</mo><mn>4</mn><mo>→</mo><mi>−</mi><mn>2</mn><mo>&lt;</mo><mi>a</mi><mo>&lt;</mo><mn>2</mn><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> KONBERGENTEA </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math> <math display=\"block\"><mrow><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>4</mn></mfrac><mo>&gt;</mo><mn>1</mn><mo>→</mo><msup><mi>a</mi><mn>2</mn></msup><mo>&gt;</mo><mn>4</mn><mo>→</mo><mi>a</mi><mo>&lt;</mo><mi>−</mi><mn>2</mn><mo>∪</mo><mi>a</mi><mo>&gt;</mo><mn>2</mn><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> DIBERGENTEA </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math> <math display=\"block\"><mrow><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>4</mn></mfrac><mo>=</mo><mn>1</mn><mo>→</mo><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> ZALANTZA </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<strong>Raabe</strong>  (<math display=\"inline\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn></mrow></math>): <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><mrow><mn>4</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>n</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>10</mn><mi>n</mi><mo>+</mo><mn>6</mn><mo>−</mo><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mo>−</mo><mn>8</mn><mi>n</mi></mrow><mrow><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>10</mn><mi>n</mi><mo>+</mo><mn>6</mn></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>n</mi></mrow><mrow><mn>2</mn><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>n</mi><mo>+</mo><mn>3</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math> <math display=\"block\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&lt;</mo><mn>1</mn><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> beraz DIBERGENTEA </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Ondorioa: <math display=\"block\"><mrow><mi>a</mi><mo>∈</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>−</mi><mn>2</mn><mo>&lt;</mo><mi>a</mi><mo>&lt;</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> KONBERGENTEA</mtext></mrow><mo>;</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>a</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">{</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>∞</mi><mo>,</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>∪</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>2</mn><mo>,</mo><mi>∞</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"postfix\">}</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> DIBERGENTEA </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>"
+   },
+   {
+    "mota": "oharra",
+    "titulua": "Zuzenketa",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "Koadernoko azken lerroan &quot;<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>∞</mi><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>&quot; irakurtzen da dibergentzia-tartearen ezkerreko muturrean; <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>∞</mi><mo>,</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> behar du (goiko kasu-banaketarekin eta simetriarekin bat) — minus zeinuaren lapsusa."
+     }
+    ]
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Konb. </mtext><mspace width=\"0.333em\"></mspace></mrow><mo>⇔</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&lt;</mo><mn>2</mn><mo>;</mo><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>≥</mo><mn>2</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> dib. </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_01deribatuak#10": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a30",
+  "atalaIzena": "Ebazpen-liburutik (KDI): Zenbaki-serieak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Iturri ofizialik gabe; &quot;2. SERIES ARITMETICO-GEOMETRICAS&quot; orria, <math display=\"inline\"><mrow><mo>∑</mo><msub><mi>P</mi><mi>m</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>n</mi></msup></mrow></math> ereduarena.)  <em>&quot;Halla carácter y suma&quot;</em>: <math display=\"inline\"><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mfrac><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow><msup><mn>7</mn><mi>n</mi></msup></mfrac></mrow></math>, hots <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>n</mi></msup></mrow></math>, non <math display=\"inline\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>r</mi><mo>=</mo><mfrac><mn>1</mn><mn>7</mn></mfrac></mrow></math>."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "Batura idatzi eta <math display=\"inline\"><mfrac><mn>1</mn><mn>7</mn></mfrac></math>-z biderkatu (bata bestearen azpian, lerrokatuta): <math display=\"block\"><mrow><mi>S</mi><mo>=</mo><mn>3</mn><mo>⋅</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>+</mo><mn>5</mn><mo>⋅</mo><mfrac><mn>1</mn><msup><mn>7</mn><mn>2</mn></msup></mfrac><mo>+</mo><mn>7</mn><mo>⋅</mo><mfrac><mn>1</mn><msup><mn>7</mn><mn>3</mn></msup></mfrac><mo>+</mo><mi>…</mi><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>n</mi></msup><mo>+</mo><mi>…</mi></mrow></math> <math display=\"block\"><mrow><mi>S</mi><mo>⋅</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>=</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mn>3</mn><mo>⋅</mo><mfrac><mn>1</mn><msup><mn>7</mn><mn>2</mn></msup></mfrac><mo>+</mo><mn>5</mn><mo>⋅</mo><mfrac><mn>1</mn><msup><mn>7</mn><mn>3</mn></msup></mfrac><mo>+</mo><mi>…</mi><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>n</mi></msup><mo>+</mo><mi>…</mi></mrow></math> Kendu (marra luzearen azpian): <math display=\"block\"><mrow><mi>S</mi><mo>−</mo><mi>S</mi><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>=</mo><mi>S</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>3</mn><mo>⋅</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>+</mo><mn>2</mn><mo>⋅</mo><mfrac><mn>1</mn><msup><mn>7</mn><mn>2</mn></msup></mfrac><mo>+</mo><mn>2</mn><mo>⋅</mo><mfrac><mn>1</mn><msup><mn>7</mn><mn>3</mn></msup></mfrac><mo>+</mo><mi>…</mi><mo>+</mo><mn>2</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>n</mi></msup><mo>+</mo><mi>…</mi></mrow></math> (eskuinean izartxo bat ⊛). Beraz: <math display=\"block\"><mrow><mi>S</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>3</mn><mo>⋅</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>+</mo><mn>2</mn><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><msup><mn>7</mn><mn>2</mn></msup></mfrac><mo>+</mo><mfrac><mn>1</mn><msup><mn>7</mn><mn>3</mn></msup></mfrac><mo>+</mo><mi>…</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mi>S</mi><mfrac><mn>6</mn><mn>7</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>7</mn></mfrac><mo>+</mo><mn>2</mn><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><msup><mn>7</mn><mn>2</mn></msup></mfrac><mo>+</mo><mfrac><mn>1</mn><msup><mn>7</mn><mn>3</mn></msup></mfrac><mo>+</mo><mi>…</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> Geratzen den serie geometrikoa (<math display=\"inline\"><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mfrac><mn>1</mn><msup><mn>7</mn><mn>2</mn></msup></mfrac></mrow></math>, <math display=\"inline\"><mrow><mi>r</mi><mo>=</mo><mfrac><mn>1</mn><mn>7</mn></mfrac></mrow></math>; formula gorriz borobilduta <math display=\"inline\"><mrow><mi>S</mi><mo>=</mo><mfrac><msub><mi>a</mi><mn>1</mn></msub><mrow><mn>1</mn><mo>−</mo><mi>r</mi></mrow></mfrac></mrow></math>): <math display=\"block\"><mrow><mfrac><mfrac><mn>1</mn><msup><mn>7</mn><mn>2</mn></msup></mfrac><mrow><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mn>7</mn></mfrac></mrow></mfrac><mo>=</mo><mfrac><mfrac><mn>1</mn><msup><mn>7</mn><mn>2</mn></msup></mfrac><mfrac><mn>6</mn><mn>7</mn></mfrac></mfrac><mo>=</mo><mfrac><mn>7</mn><mrow><mn>6</mn><mo>⋅</mo><msup><mn>7</mn><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>42</mn></mfrac></mrow></math> Eta bukatzeko: <math display=\"block\"><mrow><mi>S</mi><mo>⋅</mo><mfrac><mn>6</mn><mn>7</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>7</mn></mfrac><mo>+</mo><mn>2</mn><mo>⋅</mo><mfrac><mn>1</mn><mn>42</mn></mfrac><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mi>S</mi><mo>=</mo><mfrac><mn>7</mn><mn>6</mn></mfrac><mo>⋅</mo><mfrac><mn>10</mn><mn>21</mn></mfrac><mo>=</mo><mfrac><mn>10</mn><mn>18</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>9</mn></mfrac></mrow></math>"
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mo accent=\"false\">∞</mo></munderover><mfrac><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow><msup><mn>7</mn><mi>n</mi></msup></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>9</mn></mfrac><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (konbergentea; aritmetiko-geometrikoa) </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_01deribatuak#11": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a30",
+  "atalaIzena": "Ebazpen-liburutik (KDI): Zenbaki-serieak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Orri bera, marra gorri baten azpian; ezkerrean gorriz &quot;EXCURSO&quot;.)  <math display=\"inline\"><mrow><msubsup><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mi>∞</mi></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>2</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>10</mn><mo>+</mo><mn>17</mn><mo>+</mo><mn>26</mn><mo>+</mo><mn>37</mn><mo>+</mo><mi>…</mi></mrow></math> — gai orokorra berreraiki diferentzia-taulaz eta zenbaki konbinatorioz."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "Diferentzia-taula (orriko zutabeak): <math display=\"block\"><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>:</mo><mspace width=\"1.0em\"></mspace><mn>2</mn><mspace width=\"1.0em\"></mspace><mn>5</mn><mspace width=\"1.0em\"></mspace><mn>10</mn><mspace width=\"1.0em\"></mspace><mn>17</mn><mspace width=\"1.0em\"></mspace><mn>26</mn><mspace width=\"1.0em\"></mspace><mn>37</mn></mrow></math> <math display=\"block\"><mrow><msub><mi mathvariant=\"normal\">Δ</mi><mn>1</mn></msub><mo>:</mo><mspace width=\"1.0em\"></mspace><mn>3</mn><mspace width=\"1.0em\"></mspace><mn>5</mn><mspace width=\"1.0em\"></mspace><mn>7</mn><mspace width=\"1.0em\"></mspace><mn>9</mn><mspace width=\"1.0em\"></mspace><mn>11</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><msub><mi mathvariant=\"normal\">Δ</mi><mn>2</mn></msub><mo>:</mo><mspace width=\"1.0em\"></mspace><mn>2</mn><mspace width=\"1.0em\"></mspace><mn>2</mn><mspace width=\"1.0em\"></mspace><mn>2</mn><mspace width=\"1.0em\"></mspace><mn>2</mn></mrow></math> Eskuinean, berdez laukituta, zenbaki konbinatorioen bilduma: <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac linethickness=\"0\"><mi>n</mi><mn>0</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac linethickness=\"0\"><mi>n</mi><mi>n</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac linethickness=\"0\"><mi>n</mi><mn>1</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac linethickness=\"0\"><mi>n</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>n</mi></mrow></math>, <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac linethickness=\"0\"><mi>n</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mrow><mi>n</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mn>2</mn><mi>!</mi></mrow></mfrac></mrow></math>, eta <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac linethickness=\"0\"><mi>m</mi><mi>n</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mrow><mi>m</mi><mi>!</mi></mrow><mrow><mi>n</mi><mi>!</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>m</mi><mo>−</mo><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>!</mi></mrow></mfrac></mrow></math>."
+   },
+   {
+    "mota": "testua",
+    "html": "Gai orokorra: <math display=\"block\"><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac linethickness=\"0\"><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow><mn>0</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac linethickness=\"0\"><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow><mn>1</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msub><mi mathvariant=\"normal\">Δ</mi><mn>1</mn></msub><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac linethickness=\"0\"><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msub><mi mathvariant=\"normal\">Δ</mi><mn>2</mn></msub></mrow></math> <math display=\"block\"><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mn>2</mn><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><mn>3</mn><mo>+</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mn>2</mn><mi>!</mi></mrow></mfrac><mo>⋅</mo><mn>2</mn></mrow></math> <math display=\"block\"><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mn>2</mn><mo>+</mo><mn>3</mn><mi>n</mi><mo>−</mo><mn>3</mn><mo>+</mo><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>n</mi><mo>+</mo><mn>2</mn><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mn>1</mn><mo>+</mo><msup><mi>n</mi><mn>2</mn></msup><mspace width=\"1.0em\"></mspace><mi>✓</mi></mrow></math>"
+   },
+   {
+    "mota": "oharra",
+    "titulua": "Ondorioa (orrian inplizitua)",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "Orriak gai orokorra berreraikitzea baino ez du egiten (horregatik &quot;EXCURSO&quot;). Izaeraz: <math display=\"inline\"><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>→</mo><mi>∞</mi><mo>≠</mo><mn>0</mn></mrow></math>, beraz seriea dibergentea da (aurreko orriko &quot;limitea zero ez bada, ez da konbergentzia&quot; baldintza beharrezkoaz)."
+     }
+    ]
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtext mathvariant=\"normal\">diferentzia-taula + binomialak</mtext><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_01deribatuak#12": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a30",
+  "atalaIzena": "Ebazpen-liburutik (KDI): Zenbaki-serieak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Orri bera, marra gorriaren azpiko azken blokea.) Azter ezazu izaera: <math display=\"inline\"><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mfrac><mrow><mroot><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>n</mi><mo>+</mo><mn>5</mn></mrow><mn>3</mn></mroot><mo>⋅</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>n</mi></mrow><mrow><msup><mi>n</mi><mn>2</mn></msup><msqrt><mrow><msup><mi>n</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn><mi>n</mi></mrow></msqrt><mo>+</mo><mroot><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><mn>3</mn></mroot></mrow></mfrac></mrow></math>."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "Baliokidetzaz (orriko &quot;<math display=\"inline\"><mo>∼</mo></math>&quot; ikurra): <math display=\"block\"><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>∼</mo><mfrac><mrow><mroot><msup><mi>n</mi><mn>2</mn></msup><mn>3</mn></mroot><mspace width=\"0.167em\"></mspace><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>n</mi></mrow><mrow><msup><mi>n</mi><mn>2</mn></msup><msqrt><msup><mi>n</mi><mn>3</mn></msup></msqrt></mrow></mfrac><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> carácter convergente </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math> Konparazioaren limitea (orriaren behealdeko lerroa): <math display=\"block\"><mrow><mfrac><mrow><mroot><msup><mi>n</mi><mn>2</mn></msup><mn>3</mn></mroot><mspace width=\"0.167em\"></mspace><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>n</mi></mrow><mrow><msup><mi>n</mi><mn>2</mn></msup><msqrt><msup><mi>n</mi><mn>3</mn></msup></msqrt></mrow></mfrac><mo>:</mo><mspace width=\"1.0em\"></mspace><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><msub><mi>a</mi><mi>n</mi></msub><mfrac><mrow><mroot><msup><mi>n</mi><mn>2</mn></msup><mn>3</mn></mroot><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>n</mi></mrow><mrow><msup><mi>n</mi><mn>2</mn></msup><msqrt><msup><mi>n</mi><mn>3</mn></msup></msqrt></mrow></mfrac></mfrac><mo>=</mo><mn>1</mn></mrow></math>"
+   },
+   {
+    "mota": "oharra",
+    "titulua": "Iruzkin analitikoa",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "Maiorantea: <math display=\"inline\"><mrow><mroot><msup><mi>n</mi><mn>2</mn></msup><mn>3</mn></mroot><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>n</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>n</mi><mn>2</mn></msup><msqrt><msup><mi>n</mi><mn>3</mn></msup></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>n</mi><mi>/</mi><msup><mi>n</mi><mrow><mn>2</mn><mo>+</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></msup><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>n</mi><mi>/</mi><msup><mi>n</mi><mfrac><mn>17</mn><mn>6</mn></mfrac></msup></mrow></math>, eta <math display=\"inline\"><mrow><mo>∑</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>n</mi><mi>/</mi><msup><mi>n</mi><mfrac><mn>17</mn><mn>6</mn></mfrac></msup></mrow></math> konbergentea da (<math display=\"inline\"><mrow><mi>p</mi><mo>&gt;</mo><mn>1</mn></mrow></math>); orriak &quot;carácter convergente&quot; idazten du zuzenean, kalkulua garatu gabe. Orriaren azken lerroa moztuta dago argazkian (zatiduraren limitea <math display=\"inline\"><mrow><mo>=</mo><mn>1</mn></mrow></math> dela adierazten duena)."
+     }
+    ]
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><mo>∑</mo><mfrac><mrow><mroot><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>n</mi><mo>+</mo><mn>5</mn></mrow><mn>3</mn></mroot><mspace width=\"0.167em\"></mspace><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>n</mi></mrow><mrow><msup><mi>n</mi><mn>2</mn></msup><msqrt><mrow><msup><mi>n</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn><mi>n</mi></mrow></msqrt><mo>+</mo><mroot><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><mn>3</mn></mroot></mrow></mfrac><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> konbergentea </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo>∼</mo><mi mathvariant=\"normal\">ln</mi><mfrac><mi>n</mi><msup><mi>n</mi><mfrac><mn>17</mn><mn>6</mn></mfrac></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_01deribatuak#13": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a30",
+  "atalaIzena": "Ebazpen-liburutik (KDI): Zenbaki-serieak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Apunte-orria, &quot;3. ARMONICAS&quot;: <math display=\"inline\"><mrow><mo>∑</mo><mfrac><mn>1</mn><msup><mi>n</mi><mi>q</mi></msup></mfrac></mrow></math>  <em>&quot;si <math display=\"inline\"><mrow><mi>q</mi><mo>&gt;</mo><mn>1</mn></mrow></math> convergente, si <math display=\"inline\"><mrow><mi>q</mi><mo>≤</mo><mn>1</mn></mrow></math> divergente&quot;</em>; adibide gorria: <math display=\"inline\"><mrow><mo>∑</mo><mfrac><mn>1</mn><mi>n</mi></mfrac></mrow></math> dibergentea <em>&quot;aunque <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>=</mo><mn>0</mn></mrow></math>&quot;</em>. Ondoren konparazio-irizpideak: 1.a <math display=\"inline\"><mrow><mn>0</mn><mo>≤</mo><msub><mi>a</mi><mi>n</mi></msub><mo>≤</mo><msub><mi>b</mi><mi>n</mi></msub><mo>⇒</mo><mo>∑</mo><msub><mi>a</mi><mi>n</mi></msub><mo>≤</mo><mo>∑</mo><msub><mi>b</mi><mi>n</mi></msub></mrow></math>, &quot;<math display=\"inline\"><msub><mi>a</mi><mi>n</mi></msub></math> div <math display=\"inline\"><mrow><mo>→</mo><msub><mi>b</mi><mi>n</mi></msub></mrow></math> div; <math display=\"inline\"><msub><mi>b</mi><mi>n</mi></msub></math> conv <math display=\"inline\"><mrow><mo>→</mo><msub><mi>a</mi><mi>n</mi></msub></mrow></math> conv&quot;; 2.a <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mfrac><msub><mi>a</mi><mi>n</mi></msub><msub><mi>b</mi><mi>n</mi></msub></mfrac><mo>=</mo><mi>A</mi><mo>≠</mo><mn>0</mn><mo>,</mo><mo>≠</mo><mi>∞</mi></mrow></math>  &quot;bi sumatorioek izaera bera dute&quot;, ohar gorriekin: <em>&quot;no confundir término general con sumatorio&quot;</em>, <em>&quot;si <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>0</mn></mrow></math> y <math display=\"inline\"><mrow><mo>∑</mo><msub><mi>b</mi><mi>n</mi></msub></mrow></math> es convergente <math display=\"inline\"><mrow><mo>⇒</mo><mo>∑</mo><msub><mi>a</mi><mi>n</mi></msub></mrow></math> es convergente&quot;</em>, <em>&quot;si <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mi>∞</mi></mrow></math> eta behekoa (<math display=\"inline\"><msub><mi>b</mi><mi>n</mi></msub></math>) orduan goikoa dibergentea da (<math display=\"inline\"><msub><mi>a</mi><mi>n</mi></msub></math>) es divergente&quot;</em>.) Azter ezazu (gorriz: <em>&quot;¡paso una expresión superior!&quot;</em>): <math display=\"inline\"><mrow><msubsup><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mi>∞</mi></msubsup><mfrac><mrow><mn>1</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mi>!</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><msup><mi>n</mi><mn>2</mn></msup></mfrac></mrow></math>."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "Bornatzea (orriko kate osoa): <math display=\"block\"><mrow><mn>0</mn><mo>≤</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mi>!</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><mn>1</mn><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mn>1</mn><mo>≤</mo><mn>1</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mi>!</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><mn>2</mn><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mfrac><mn>1</mn><msup><mi>n</mi><mn>2</mn></msup></mfrac><mo>≤</mo><mfrac><mrow><mn>1</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mi>!</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><msup><mi>n</mi><mn>2</mn></msup></mfrac><mo>≤</mo><mfrac><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></mfrac></mrow></math> <math display=\"block\"><mrow><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mo accent=\"false\">∞</mo></munderover><mfrac><mrow><mn>1</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mi>!</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><msup><mi>n</mi><mn>2</mn></msup></mfrac><mo>≤</mo><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mo accent=\"false\">∞</mo></munderover><mfrac><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></mfrac></mrow></math> <em>&quot;Harmonikarekin alderatzen dugu&quot;</em>  (<math display=\"inline\"><mn>2</mn></math> paso armónico, gorriz): <math display=\"inline\"><mfrac><mn>1</mn><msup><mi>n</mi><mi>q</mi></msup></mfrac></math> non <em>&quot;<math display=\"inline\"><mrow><mi>q</mi><mo>&gt;</mo><mn>1</mn></mrow></math> convergente / <math display=\"inline\"><mrow><mi>q</mi><mo>≤</mo><mn>1</mn></mrow></math> divergente&quot;</em>; hemen <math display=\"inline\"><mrow><mi>q</mi><mo>=</mo><mn>2</mn><mo>&gt;</mo><mn>1</mn></mrow></math>  <math display=\"inline\"><mo>→</mo></math>  <em>&quot;por tanto convergente&quot;</em>."
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mo accent=\"false\">∞</mo></munderover><mfrac><mrow><mn>1</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mi>!</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><msup><mi>n</mi><mn>2</mn></msup></mfrac><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> konbergentea </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mrow><mtext mathvariant=\"normal\">konparazioa </mtext><mspace width=\"0.333em\"></mspace></mrow><mfrac><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></mfrac><mtext mathvariant=\"normal\">-rekin</mtext><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_01deribatuak#14": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a30",
+  "atalaIzena": "Ebazpen-liburutik (KDI): Zenbaki-serieak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Orri bera, behealdea.) Azter ezazu izaera: <math display=\"inline\"><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mfrac><mrow><msup><mn>5</mn><mi>n</mi></msup><mo>+</mo><mn>3</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>n</mi><mo>−</mo><mn>5</mn></mrow><mrow><msup><mn>7</mn><mi>n</mi></msup><mo>+</mo><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>n</mi></mrow></mfrac></mrow></math>."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "Baliokidetza (orriko &quot;<math display=\"inline\"><mo>∼</mo></math>&quot;): <math display=\"block\"><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>∼</mo><mfrac><msup><mn>5</mn><mi>n</mi></msup><msup><mn>7</mn><mi>n</mi></msup></mfrac><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>5</mn><mn>7</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>n</mi></msup></mrow></math> Eskuinean, gorriz: <em>&quot;GEOMETRICA&quot;</em>, <math display=\"inline\"><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub><mo>⋅</mo><msup><mi>r</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow></math>, <math display=\"inline\"><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><mn>1</mn><mo>⋅</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>5</mn><mn>7</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>n</mi></msup></mrow></math>, eta borobilduta <math display=\"inline\"><mrow><mfrac><mn>5</mn><mn>7</mn></mfrac><mo>&lt;</mo><mn>1</mn></mrow></math>, <em>&quot;RAZON <math display=\"inline\"><mrow><mo>&lt;</mo><mn>1</mn></mrow></math>  <math display=\"inline\"><mo>→</mo></math> CONVERGENTE&quot;</em>."
+   },
+   {
+    "mota": "testua",
+    "html": "Konparazioaren limitea (2. irizpidea, orriko azken lerro luzea): <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mfrac><mrow><msup><mn>5</mn><mi>n</mi></msup><mo>+</mo><mn>3</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>n</mi><mo>−</mo><mn>5</mn></mrow><mrow><msup><mn>7</mn><mi>n</mi></msup><mo>+</mo><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>n</mi></mrow></mfrac><mfrac><msup><mn>5</mn><mi>n</mi></msup><msup><mn>7</mn><mi>n</mi></msup></mfrac></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><msup><mn>7</mn><mi>n</mi></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mn>5</mn><mi>n</mi></msup><mo>+</mo><mn>3</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>n</mi><mo>−</mo><mn>5</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><msup><mn>5</mn><mi>n</mi></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mn>7</mn><mi>n</mi></msup><mo>+</mo><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>n</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><msup><mn>5</mn><mi>n</mi></msup><mo>+</mo><mn>3</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>n</mi><mo>−</mo><mn>5</mn></mrow><mrow><msup><mn>5</mn><mi>n</mi></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mfrac><msup><mi>n</mi><mn>2</mn></msup><msup><mn>7</mn><mi>n</mi></msup></mfrac><mo>−</mo><mfrac><mrow><mn>3</mn><mi>n</mi></mrow><msup><mn>7</mn><mi>n</mi></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mn>1</mn><mo>+</mo><mfrac><mrow><mn>3</mn><msup><mi>n</mi><mn>2</mn></msup></mrow><msup><mn>5</mn><mi>n</mi></msup></mfrac><mo>+</mo><mfrac><mrow><mn>4</mn><mi>n</mi></mrow><msup><mn>5</mn><mi>n</mi></msup></mfrac><mo>−</mo><mfrac><mn>5</mn><msup><mn>5</mn><mi>n</mi></msup></mfrac></mrow><mrow><mn>1</mn><mo>+</mo><mfrac><msup><mi>n</mi><mn>2</mn></msup><msup><mn>7</mn><mi>n</mi></msup></mfrac><mo>−</mo><mfrac><mrow><mn>3</mn><mi>n</mi></mrow><msup><mn>7</mn><mi>n</mi></msup></mfrac></mrow></mfrac><mo>=</mo><mn>1</mn></mrow></math> (<math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>1</mn></mrow></math>). Azken lerroa: <em>&quot;ambos tienen mismo carácter: son convergentes&quot;</em>."
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><mo>∑</mo><mfrac><mrow><msup><mn>5</mn><mi>n</mi></msup><mo>+</mo><mn>3</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>n</mi><mo>−</mo><mn>5</mn></mrow><mrow><msup><mn>7</mn><mi>n</mi></msup><mo>+</mo><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>n</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> konbergentea </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo>∼</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>5</mn><mn>7</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>n</mi></msup><mo>,</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> geometrikoa, </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>r</mi><mo>&lt;</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_01deribatuak#15": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a32",
+  "atalaIzena": "Gaian trebatzeko, pentsatu eta ebatzi",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Lupa on bat izanez gero, honako esperimentu hau egin daiteke:"
+   },
+   {
+    "mota": "zerrenda",
+    "ordenatua": false,
+    "elementuak": [
+     "Aztertu gauza txikiren bat (adibidez, boligrafo gorriaren tapoia) lupa 10 bat cm-ra jarrita. Gauza hori oso handituta ikusiko dugu. Distantzia aldatuko dugu orain.",
+     "Lupa gauza horren ondo-ondoan jarriz gero, tamaina berekoa ikusiko dugu.",
+     "Apurka-apurka urruntzen hasten bagara, handituz joango da eta behin distantzia batera iristen garenean, lupa osoa gorri ikusiko dugu.",
+     "Distantzia horretatik harago joanez gero, gauza hori oso handia eta alderantziz ikusiko dugu. Eta urruntzen jarraitzen badugu, txikitzen hasten dela ikusiko dugu."
+    ]
+   },
+   {
+    "mota": "sarea",
+    "zutabeak": "auto minmax(0,1fr)",
+    "zelulak": [
+     {
+      "blokeak": [
+       {
+        "mota": "irudia",
+        "oina": null,
+        "src": "media/irudiak/d8bacbbd9041d16a.svg",
+        "zabalera": 171
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "Luparentzako ekuazioa hau da:"
+       },
+       {
+        "mota": "zentratua",
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "<math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mfrac><mn>2</mn><mrow><mn>2</mn><mo>−</mo><mi>d</mi></mrow></mfrac></mrow></math>"
+         }
+        ]
+       },
+       {
+        "mota": "testua",
+        "html": "Ekuazio horretan:"
+       },
+       {
+        "mota": "testua",
+        "html": "<math display=\"inline\"><mrow><mi>d</mi><mo>=</mo></mrow></math> lupatik gauzara dagoen distantzia (dm-tan)"
+       },
+       {
+        "mota": "testua",
+        "html": "<math display=\"inline\"><mrow><mi>A</mi><mo>=</mo></mrow></math> handitzea (tamaina zein zenbakirekin biderkatzen den)"
+       },
+       {
+        "mota": "testua",
+        "html": "<em>(Lupa gauzaren eta gure begiaren erdi bidean egoteko moduan\n      jarriko da aztertzailea.)</em>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "mota": "testua",
+    "html": "<span>■</span>"
+   },
+   {
+    "mota": "testua",
+    "html": "  Kalkulatu zein den gauza baten itxurazko tamaina <math display=\"inline\"><mi>d</mi></math>-ren balio hauen kasuan:"
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "0,1   0,5   1   1,5   1,9   1,99   2,01   3   10"
+     }
+    ]
+   },
+   {
+    "mota": "testua",
+    "html": "<span>■</span>"
+   },
+   {
+    "mota": "testua",
+    "html": "  Estimatu limite hauen balioa:"
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "sarea",
+      "zutabeak": "repeat(1, minmax(0,1fr))",
+      "zelulak": [
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>d</mi><mo>→</mo><mn>0</mn></mrow></munder><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>d</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>d</mi><mo>→</mo><msup><mn>2</mn><mo>−</mo></msup></mrow></munder><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>   "
+         },
+         {
+          "mota": "testua",
+          "html": "<span>(<math display=\"inline\"><mi>d</mi></math> 2ra hurbiltzen da 2tik beherako balioak hartuz)</span>"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>d</mi><mo>→</mo><msup><mn>2</mn><mo>+</mo></msup></mrow></munder><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>   "
+     },
+     {
+      "mota": "testua",
+      "html": "<span>(<math display=\"inline\"><mi>d</mi></math> 2ra hurbiltzen da 2tik gorako balioak hartuz)</span>"
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#16": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a32",
+  "atalaIzena": "Gaian trebatzeko, pentsatu eta ebatzi",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "sarea",
+    "zutabeak": "repeat(1, minmax(0,1fr))",
+    "zelulak": [
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "Esfera baten bolumena bere erradioaren funtziopean <math display=\"inline\"><mrow><mi>V</mi><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>π</mi><msup><mi>r</mi><mn>3</mn></msup></mrow></math> da."
+       },
+       {
+        "mota": "testua",
+        "html": "Zenbat uste duzu balio dutela limite hauek?"
+       },
+       {
+        "mota": "zentratua",
+        "blokeak": [
+         {
+          "mota": "sarea",
+          "zutabeak": "repeat(1, minmax(0,1fr))",
+          "zelulak": [
+           {
+            "blokeak": [
+             {
+              "mota": "testua",
+              "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>r</mi><mo>→</mo><mn>0</mn></mrow></munder><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+             }
+            ]
+           },
+           {
+            "blokeak": [
+             {
+              "mota": "testua",
+              "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>r</mi><mo>→</mo><mn>5</mn></mrow></munder><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+             }
+            ]
+           },
+           {
+            "blokeak": [
+             {
+              "mota": "testua",
+              "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>r</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "irudia",
+        "oina": null,
+        "src": "media/irudiak/df8b098f96ac71e1.svg",
+        "zabalera": 202
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#17": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a32",
+  "atalaIzena": "Gaian trebatzeko, pentsatu eta ebatzi",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "sarea",
+    "zutabeak": "repeat(1, minmax(0,1fr))",
+    "zelulak": [
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "Irakiten dagoen urez beteriko lapikoa sutatik kendu eta hozten uzten dugu. Giroko tenperatura 20 °C-koa da. Lapikoan dagoen uraren tenperatura aldatuz doa."
+       },
+       {
+        "mota": "testua",
+        "html": "Denborak aurrera egin ahala, tenperatura 20 °C-ra hurbiltzen da."
+       },
+       {
+        "mota": "testua",
+        "html": "Tenperatura 21 °C-tik behera jaistea lortu ahal dugu. Horretarako, itxarotea baino ez dugu."
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "irudia",
+        "oina": null,
+        "src": "media/irudiak/8dfcd1b64f511d96.svg",
+        "zabalera": 211
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#18": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a44",
+  "atalaIzena": "Ebatzitako ariketak eta problemak",
+  "izena": "Limiteak infinituan",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu funtzio hauen limitea <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></math> denean eta <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></math> denean, eta interpretatu grafikoetan:"
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "sarea",
+      "zutabeak": "repeat(1, minmax(0,1fr))",
+      "zelulak": [
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><msup><mi>x</mi><mn>4</mn></msup></mrow></math>"
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "<math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>10</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mn>3</mn></mfrac></mrow></math>"
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "<math display=\"inline\"><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mroot><mrow><mn>5</mn><mo>−</mo><mi>x</mi></mrow><mn>3</mn></mroot></mrow></math>"
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "<math display=\"inline\"><mrow><mi>j</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi></mrow></msqrt></mrow></math>"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#19": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a44",
+  "atalaIzena": "Ebatzitako ariketak eta problemak",
+  "izena": "Limiteak infinituan",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu funtzio hauen limitea <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></math> eta <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></math> denean eta interpretatu grafikoan:  "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<img class=\"formula\" src=\"media/formulak/fb683da13d2d423e.svg\" alt=\"f(x) = #[1,2]^x\" style=\"width:6.059em;height:1.001em\" loading=\"lazy\">     <em>b)</em>  <img class=\"formula\" src=\"media/formulak/a1631fad61bbf7f5.svg\" alt=\"g(x) = 9 dot #[0,8]^x\" style=\"width:7.384em;height:1.001em\" loading=\"lazy\">"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#20": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a44",
+  "atalaIzena": "Ebatzitako ariketak eta problemak",
+  "izena": "Polinomioen zatidura",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Egiaztatu modu arrazoituan limite hauentzat ematen den emaitza:"
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "sarea",
+      "zutabeak": "repeat(1, minmax(0,1fr))",
+      "zelulak": [
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>1</mn><mo>−</mo><mn>5</mn><mi>x</mi></mrow></mfrac><mo>=</mo><mi>∞</mi></mrow></math>"
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mn>72</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>13</mn></mrow><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mn>0</mn></mrow></math>"
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>−</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math>"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#21": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a44",
+  "atalaIzena": "Ebatzitako ariketak eta problemak",
+  "izena": "Zatidura erroekin",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu limite hauek:  "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><msqrt><mrow><mn>3</mn><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt><mrow><mn>7</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>5</mn><mi>x</mi></mrow></mfrac></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": " "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow><msqrt><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></msqrt></mfrac></mrow></math>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#22": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a44",
+  "atalaIzena": "Ebatzitako ariketak eta problemak",
+  "izena": "Limitea puntu batean",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu limitea <math display=\"inline\"><mi>x</mi></math>-ek 1era jotzen duenean honako funtzio hauetako bakoitzean:"
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "sarea",
+      "zutabeak": "repeat(1, minmax(0,1fr))",
+      "zelulak": [
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "a)  <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> baldin </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>x</mi><mo>≠</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>1</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> baldin </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>x</mi><mo>=</mo><mn>1</mn></mtd></mtr></mtable></mrow></mrow></math>"
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "b)  <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>5</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> baldin </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>x</mi><mo>≤</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mfrac><mn>1</mn><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> baldin </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>x</mi><mo>&gt;</mo><mn>1</mn></mtd></mtr></mtable></mrow></mrow></math>"
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "c)  <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>1</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> baldin </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>x</mi><mo>&lt;</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> baldin </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>x</mi><mo>&gt;</mo><mn>1</mn></mtd></mtr></mtable></mrow></mrow></math>"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#23": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a44",
+  "atalaIzena": "Ebatzitako ariketak eta problemak",
+  "izena": "Eragiketak limiteekin",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></math> denean, <math display=\"inline\"><mi>f</mi></math>, <math display=\"inline\"><mi>g</mi></math>, <math display=\"inline\"><mi>h</mi></math>, <math display=\"inline\"><mi>j</mi></math> eta <math display=\"inline\"><mi>k</mi></math> funtzioen limiteak taulan adierazita daudenak dira. Esan zein diren adierazpen hauen limiteak:"
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "taula",
+      "goiburua": [],
+      "lerroak": [
+       [
+        "<math display=\"inline\"><mi>f</mi></math>",
+        "<math display=\"inline\"><mi>g</mi></math>",
+        "<math display=\"inline\"><mi>h</mi></math>",
+        "<math display=\"inline\"><mi>j</mi></math>",
+        "<math display=\"inline\"><mi>k</mi></math>"
+       ],
+       [
+        "<math display=\"inline\"><mrow><mi>−</mi><mn>2</mn></mrow></math>",
+        "<math display=\"inline\"><mi>∞</mi></math>",
+        "<math display=\"inline\"><mn>0</mn></math>",
+        "<math display=\"inline\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>",
+        "<math display=\"inline\"><mrow><mi>−</mi><mi>∞</mi></mrow></math>"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "mota": "sarea",
+    "zutabeak": "repeat(1, minmax(0,1fr))",
+    "zelulak": [
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "a)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "b)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>j</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "c)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "d)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>j</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "e)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "f)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "g)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>"
+       }
+      ],
+      "zutabeak": 1,
+      "errenkadak": 1
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#24": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a44",
+  "atalaIzena": "Ebatzitako ariketak eta problemak",
+  "izena": "Limitearen definizioa",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Azaldu bi adierazpen hauen esanahia:  "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow><mi>x</mi></mfrac><mo>=</mo><mi>∞</mi></mrow></math>   "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mi>x</mi></mfrac><mo>=</mo><mn>2</mn></mrow></math>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#25": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a44",
+  "atalaIzena": "Ebatzitako ariketak eta problemak",
+  "izena": "Infinituen konparazioa",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mn>2</mn><mi>x</mi></msup></mrow></math>, <math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>10</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>5</mn></mrow></math>, <math display=\"inline\"><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msqrt><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></math> eta <math display=\"inline\"><mrow><mi>j</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> log</mtext></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> funtzioek <math display=\"inline\"><mi>∞</mi></math>-ra jotzen dute <math display=\"inline\"><mi>x</mi></math>-ek <math display=\"inline\"><mi>∞</mi></math>-ra jotzen duenean. Konparatu infinitu horien ordena eta eman adierazpen hauen limitea:  "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac></mrow></math>   "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac></mrow></math>   "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>c)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mi>j</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac></mrow></math>   "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>d)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>j</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac></mrow></math>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#26": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a44",
+  "atalaIzena": "Ebatzitako ariketak eta problemak",
+  "izena": "Infinituen kenketa",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aurreko problemako funtzio berdinak erabiliz eta infinituen ordena konparatuz, esan zein den adierazpen hauen limitea:  "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>   "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>   "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>c)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>j</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#27": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a44",
+  "atalaIzena": "Ebatzitako ariketak eta problemak",
+  "izena": "Indeterminazioak",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Badakigu <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>∞</mi></mrow></math>, <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mi>∞</mi></mrow></math>, <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>j</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn></mrow></math> direla. Esan honako adierazpen hauetatik zeintzuk diren indeterminazioak eta, indeterminazio ez direnetan, eman euren limitea:"
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "sarea",
+      "zutabeak": "repeat(1, minmax(0,1fr))",
+      "zelulak": [
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "a)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac></mrow></math>"
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "b)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mi>j</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac></mrow></math>"
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "c)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>"
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "d)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>"
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "e)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac></mrow></math>"
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "f)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac></mrow></math>"
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "g)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>j</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></mrow></math>"
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "h)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></mrow></math>"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#28": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a44",
+  "atalaIzena": "Ebatzitako ariketak eta problemak",
+  "izena": "Berredura baten limitea",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu limite hauek:  "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>4</mn><mi>x</mi><mo>−</mo><mn>2</mn></mrow><mrow><mn>3</mn><mi>x</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": " "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mn>3</mn><mi>x</mi></mrow></msup></mrow></math>   "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>c)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>x</mi></msup></mrow></math>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#29": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a44",
+  "atalaIzena": "Ebatzitako ariketak eta problemak",
+  "izena": "Funtzio jarraia",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu funtzio honen jarraitasuna <math display=\"inline\"><mi>a</mi></math>-ren balioen arabera.   <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>2</mn><mi>x</mi><mo>+</mo><mi>a</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> baldin </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>x</mi><mo>≤</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>a</mi><mi>x</mi><mo>+</mo><mn>2</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> baldin </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>x</mi><mo>&gt;</mo><mn>1</mn></mtd></mtr></mtable></mrow></mrow></math>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#30": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a44",
+  "atalaIzena": "Ebatzitako ariketak eta problemak",
+  "izena": "Etenak",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu    <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mfrac><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>−</mo><mn>2</mn></mrow></mfrac></mrow></math>    funtzioaren jarraitasuna."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#31": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a44",
+  "atalaIzena": "Ebatzitako ariketak eta problemak",
+  "izena": "Jarraitasuna puntu batean",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu <math display=\"inline\"><mi>a</mi></math> eta <math display=\"inline\"><mi>b</mi></math> funtzio hau jarraia izateko:   <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>a</mi><mi>x</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> baldin </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>x</mi><mo>≤</mo><mi>−</mi><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>b</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> baldin </mtext><mspace width=\"0.333em\"></mspace></mrow><mo>−</mo><mn>1</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>3</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>4</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> baldin </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>x</mi><mo>≥</mo><mn>3</mn></mtd></mtr></mtable></mrow></mrow></math>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#32": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>∞</mi></mrow></math>, <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mi>∞</mi></mrow></math>, <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>3</mn></mrow></math> direla jakinda, esan honako kasuetako zeinetan dagoen indeterminazioa. Indeterminaziorik ez dagoen kasuetan, esan zein den limitea <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></math> denean."
+   },
+   {
+    "mota": "sarea",
+    "zutabeak": "repeat(1, minmax(0,1fr))",
+    "zelulak": [
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "a)  <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "b)  <math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "c)  <math display=\"inline\"><mfrac><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "d)  <math display=\"inline\"><mfrac><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "e)  <math display=\"inline\"><msup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "f)  <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>3</mn><mo>−</mo><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>⋅</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "g)  <math display=\"inline\"><mfrac><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mn>3</mn><mo>−</mo><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "h)  <math display=\"inline\"><msup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mn>3</mn><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></math>"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#33": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu funtzio hauen limitea <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></math>  denean:"
+   },
+   {
+    "mota": "sarea",
+    "zutabeak": "repeat(1, minmax(0,1fr))",
+    "zelulak": [
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "a)  <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow><mrow><mn>2</mn><mo>−</mo><mi>x</mi></mrow></mfrac></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "b)  <math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mn>10</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "c)  <math display=\"inline\"><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn></mrow><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow></mfrac></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "d)  <math display=\"inline\"><mrow><mi>i</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi></mrow><mrow><mn>7</mn><mo>+</mo><mn>5</mn><msup><mi>x</mi><mn>3</mn></msup></mrow></mfrac></mrow></math>"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#34": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu limite hauek zenbakitzaile eta izendatzaileko berretzaileak konparatuz:"
+   },
+   {
+    "mota": "sarea",
+    "zutabeak": "repeat(1, minmax(0,1fr))",
+    "zelulak": [
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "a)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><msqrt><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn><mi>x</mi></mrow></msqrt><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "b)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><msqrt><mfrac><mrow><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac></msqrt></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "c)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mn>1</mn><mo>+</mo><msqrt><mi>x</mi></msqrt></mrow><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn></mrow></mfrac></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "d)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mn>3</mn><mi>x</mi></mrow><msqrt><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>2</mn></mrow></msqrt></mfrac></mrow></math>"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#35": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu limite hauek maila gorengo infinitua zein den begiratuz:"
+   },
+   {
+    "mota": "sarea",
+    "zutabeak": "repeat(1, minmax(0,1fr))",
+    "zelulak": [
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "a)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>e</mi><mi>x</mi></msup><mo>−</mo><msup><mi>x</mi><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "b)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><msup><mi>e</mi><mi>x</mi></msup></mfrac></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "c)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi></mrow></msqrt><mo>−</mo><msqrt><mi>x</mi></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "d)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> ln</mtext></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mi>x</mi></mfrac></mrow></math>"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#36": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu limite hauek eta adierazi grafiko batean lortu dituzun emaitzak:  "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<img class=\"formula\" src=\"media/formulak/25466c6ec0a15ed4.svg\" alt=\"limits(lim)_(x arrow.r -oo) (#[0,5]^x + 1)\" style=\"width:8.065em;height:1.177em\" loading=\"lazy\">   "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></munder><msup><mn>2</mn><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msup></mrow></math>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#37": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>2</mn></mrow></munder><mi>p</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>∞</mi></mrow></math>, <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>2</mn></mrow></munder><mi>q</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mi>∞</mi></mrow></math>, <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>2</mn></mrow></munder><mi>r</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>3</mn></mrow></math>, <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>2</mn></mrow></munder><mi>s</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> badira, eman limite hauen balioa, posible den kasuetan:"
+   },
+   {
+    "mota": "sarea",
+    "zutabeak": "repeat(1, minmax(0,1fr))",
+    "zelulak": [
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "a)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>2</mn></mrow></munder><mfrac><mrow><mi>s</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>p</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "b)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>2</mn></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>s</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><mi>q</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "c)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>2</mn></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>s</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi>p</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "d)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>2</mn></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>p</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mn>2</mn><mi>q</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#38": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu:  "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn></mrow><msup><mi>x</mi><mn>3</mn></msup></mfrac><mo>−</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>   "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>1</mn></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mn>2</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></mfrac><mo>−</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#39": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu funtzio hauen limitea <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></math>  denean:"
+   },
+   {
+    "mota": "sarea",
+    "zutabeak": "repeat(1, minmax(0,1fr))",
+    "zelulak": [
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "a)  <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></mfrac></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "b)  <math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mrow><mrow><mtext mathvariant=\"normal\">log </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>x</mi></mrow></mfrac></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "c)  <math display=\"inline\"><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mn>3</mn><mo>+</mo><mn>2</mn><msqrt><mi>x</mi></msqrt></mrow><msqrt><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "d)  <math display=\"inline\"><mrow><mi>i</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><msup><mn>3</mn><mi>x</mi></msup><mrow><msup><mn>2</mn><mi>x</mi></msup><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math>"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#40": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu limite hauek:"
+   },
+   {
+    "mota": "sarea",
+    "zutabeak": "repeat(1, minmax(0,1fr))",
+    "zelulak": [
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "a)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>5</mn><mi>x</mi></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>−</mo><mfrac><mrow><mn>3</mn><mi>x</mi></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "b)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>3</mn></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow></msup></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "c)  <img class=\"formula\" src=\"media/formulak/5a2fb2e3cd98c8bc.svg\" alt=\"limits(lim)_(x arrow.r oo) (#[1,2]^x - (3 x^2) / (x + 1))\" style=\"width:9.015em;height:1.177em\" loading=\"lazy\">"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "d)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>4</mn></mrow><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow></math>"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#41": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu:"
+   },
+   {
+    "mota": "sarea",
+    "zutabeak": "repeat(1, minmax(0,1fr))",
+    "zelulak": [
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "a)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>1</mn></mrow></munder><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow><mrow><mi>x</mi><mo>−</mo><mn>5</mn></mrow></mfrac></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "b)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>1</mn></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn><mi>x</mi><mo>+</mo><mn>6</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "c)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>1</mn></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>−</mo><mn>2</mn></mrow><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi></mrow></mfrac></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "d)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi></mrow></mfrac></mrow></math>"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#42": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aurkitu funtzio hauek jarraiak diren <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>  puntuan:  "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>&lt;</mo><mn>2</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>6</mn><mo>−</mo><mi>x</mi><mrow><mtext mathvariant=\"normal\">, </mtext><mspace width=\"0.333em\"></mspace></mrow></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>≥</mo><mn>2</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>   "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>≤</mo><mn>2</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>&gt;</mo><mn>2</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#43": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu funtzio hauen jarraitasuna:  "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><msup><mn>2</mn><mi>x</mi></msup></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>&lt;</mo><mn>2</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>4</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>≥</mo><mn>2</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": " "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mfrac><mn>1</mn><mi>x</mi></mfrac></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>&lt;</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>≥</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#44": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "Kalkulatu <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzioaren limitea <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mn>2</mn></mrow></math>, <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mn>3</mn></mrow></math>, <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></math>, <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></math> denean."
+   },
+   {
+    "mota": "testua",
+    "html": " "
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mi>x</mi><mo>−</mo><mn>3</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>6</mn></mrow></mfrac></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "Adierazi grafiko batean lortu dituzun emaitzak."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#45": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "Kalkulatu <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>9</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi></mrow></mfrac></mrow></math> funtzioaren limitea definituta ez dagoen puntuetan."
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "Aurkitu bere limitea <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></math> denean eta <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></math> denean eta adierazi funtzioa lortzen duzun informazioarekin."
+   },
+   {
+    "mota": "testua",
+    "html": "<em>c)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "Zein dira funtzio horren eten puntuak?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#46": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi></mrow></mfrac></mrow></math> funtzioa izanda,"
+   },
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "kalkulatu:   <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>;   <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>1</mn></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>;   <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>;   <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "zein da <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzioarekin bat datorrena <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math> puntuetan izan ezik?"
+   },
+   {
+    "mota": "testua",
+    "html": "<em>c)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "zein puntutan ez da jarraia <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#47": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu <math display=\"inline\"><mi>k</mi></math>-k zein balio izan behar duen funtzio hauek jarraiak izateko:  "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>+</mo><mn>1</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>≤</mo><mn>2</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>k</mi><mo>−</mo><mi>x</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>&gt;</mo><mn>2</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>   "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>+</mo><mi>k</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>≤</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>&gt;</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#48": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aurkitu <math display=\"inline\"><mi>k</mi></math>-ren balioa honako funtzio bakoitza jarraia izateko:  "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mfrac><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>≠</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>k</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>=</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>   "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>&lt;</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>k</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>≥</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#49": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu funtzio hauen jarraitasuna <math display=\"inline\"><mi>a</mi></math> parametroaren balio desberdinetarako:  "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>a</mi><mi>x</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>≤</mo><mn>2</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>a</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>&gt;</mo><mn>2</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>   "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><msup><mi>e</mi><mrow><mi>a</mi><mi>x</mi></mrow></msup></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>≤</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>+</mo><mn>2</mn><mi>a</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>&gt;</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#50": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzioa daukagu honela definituta:"
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">|</mo></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>&lt;</mo><mi>−</mi><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><msup><mi>x</mi><mn>2</mn></msup></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mo>−</mo><mn>1</mn><mo>≤</mo><mi>x</mi><mo>&lt;</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>&gt;</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>"
+     }
+    ]
+   },
+   {
+    "mota": "testua",
+    "html": "Puntu guztietan jarraia ote den edo punturen batean etenik duen jakin nahi dugu."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#51": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu funtzio hauen jarraitasuna, irudikatu era grafikoan eta esan zein diren euren limiteak <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></math> eta <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></math> denean."
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "sarea",
+      "zutabeak": "repeat(1, minmax(0,1fr))",
+      "zelulak": [
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "a)  <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>1</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>&lt;</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>+</mo><mn>1</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mn>1</mn><mo>≤</mo><mi>x</mi><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>"
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "testua",
+          "html": "b)  <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>3</mn><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>≤</mo><mn>3</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>−</mo><mn>3</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mn>3</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>6</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>0</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>&gt;</mo><mn>6</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#52": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Enpresa baten galtzeak eta irabaziak <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>4</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac></mrow></math> funtzioaren bitartez eman daitezkeela egiaztatu izan da. Funtzio horretan <math display=\"inline\"><mi>x</mi></math> enpresaren urteak dira (<math display=\"inline\"><mrow><mi>x</mi><mo>≥</mo><mn>0</mn></mrow></math>) eta <math display=\"inline\"><mi>y</mi></math> milioi pezetak."
+   },
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "Adierazi funtzioa.  "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "Zein urtetan utziko dio galtzeak izateari?  "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>c)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "Irabaziak mugatuta daude? Horrela bada, zein da euren limitea?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#53": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Familia multzo batek astialdian gastatzen duen dirua adierazpen honek ematen du:"
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>0</mn><mo>,</mo><mn>02</mn><mi>x</mi><mo>−</mo><mn>1</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mn>0</mn><mo>≤</mo><mi>x</mi><mo>≤</mo><mn>100</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>30</mn><mi>x</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2300</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>&gt;</mo><mn>100</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>"
+     }
+    ]
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>x</mi></math> da hilean irabazten dutena mila pezetatan. <math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> ere mila pezetatan dago adierazita."
+   },
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "Aztertu gastuen etenak. Familia batek astialdian gastatzen duena oso desberdina da irabazitako dirua ehun mila pezetatik gorakoa edo beherakoa denean?"
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "Justifikatu multzo horretako familia batek ere ez duela 15 000 PTAtik gora gastatzen astialdian."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#54": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi></mrow><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>8</mn></mrow></mfrac></mrow></math> funtzioaren limitea <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mn>2</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mn>2</mn></mrow></math> denean."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#55": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn><mo>+</mo><mfrac><mi>x</mi><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math> funtzioaren limitea <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></math>, <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></math> eta <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mn>1</mn></mrow></math> denean."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#56": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Saltzaile batek gai jakin bat saltzen du. Gai horren unitate bakoitzeko 5 PTA irabazten ditu. Baina 10 gaitik gora eskatzen badizkiogu, unitateko prezioa jaitsi egiten du eta <math display=\"inline\"><mi>x</mi></math> unitateko hauxe irabazten du:"
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"inline\"><mrow><mi>C</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>5</mn><mi>x</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>≤</mo><mn>10</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> baldin</mtext></mrow></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><msqrt><mrow><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>500</mn></mrow></msqrt></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>&gt;</mo><mn>10</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> baldin</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>"
+     }
+    ]
+   },
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "Aurkitu <math display=\"inline\"><mi>a</mi></math>-ren balioa, prezioa modu jarraian alda dadin erosten den unitate kopurua aldatzen den neurrian."
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "Zenbatera jotzen du unitate baten prezioak unitate &quot;asko eta asko&quot; erosten direnean?    <em>(↪ Unitatearen prezioa <math display=\"inline\"><mrow><mi>C</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mi>x</mi></mrow></math> da.)</em>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#57": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow></mfrac></mrow></math> funtzioa daukagu. Berdintasun horretako bigarren atalak ez dauka zentzurik <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math> kasuan. Zelan aukeratu <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-ren balioa <math display=\"inline\"><mi>f</mi></math> funtzioa jarraia izan dadin puntu horretan?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#58": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Adierazi modu sinbolikoan beheko esaldi horietako bakoitza eta adierazi grafikoan kasu bakoitza:"
+   },
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> edozein <math display=\"inline\"><mi>K</mi></math> zenbaki baino handiagoa izatea lor dezakegu, <math display=\"inline\"><mi>K</mi></math> hori oso handia izanda ere; nahikoa da <math display=\"inline\"><mi>x</mi></math>-i guk behar bezain balio handiak ematea."
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzioaren balioak 1etik guk nahi bezain hurbil egon daitezen nahi badugu, <math display=\"inline\"><mi>x</mi></math>-i oso balio handiak eman beharko dizkiogu."
+   },
+   {
+    "mota": "testua",
+    "html": "<em>c)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> edozein <math display=\"inline\"><mi>K</mi></math> zenbaki baino handiagoa izatea lor dezakegu, <math display=\"inline\"><mi>K</mi></math> hori oso handia izanda ere; nahikoa da <math display=\"inline\"><mi>x</mi></math>-i 2tik oso hurbil dauden balioak ematea."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#59": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>g</mi></math> funtzio bati buruz badakigu jarraia dela <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> bitarte itxian eta <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>≤</mo><mn>1</mn></mrow></math> kasurako <math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi></mrow><mi>x</mi></mfrac></mrow></math> dela. Zenbat balio du <math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-k?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#60": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Idatzi definizio bat ondoko adierazpen bakoitzarentzat eta adierazi <math display=\"inline\"><mi>f</mi></math>:"
+   },
+   {
+    "mota": "sarea",
+    "zutabeak": "repeat(1, minmax(0,1fr))",
+    "zelulak": [
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "a)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>3</mn></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "b)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mi>∞</mi></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "c)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>2</mn><mo>−</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>∞</mi></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "d)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>2</mn><mo>+</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mi>∞</mi></mrow></math>"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#61": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Funtzio bat <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>3</mn></mrow></math> puntuan definituta ez badago, gerta daiteke <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>3</mn></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>5</mn></mrow></math>? Funtzioa, jarraia izan daiteke <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>3</mn></mrow></math>-n?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#62": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>f</mi></math> funtzio jarrai bati buruz badakigu <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&lt;</mo><mn>0</mn></mrow></math> dela <math display=\"inline\"><mrow><mi>x</mi><mo>&lt;</mo><mn>2</mn></mrow></math> denean eta <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&gt;</mo><mn>0</mn></mrow></math> dela <math display=\"inline\"><mrow><mi>x</mi><mo>&gt;</mo><mn>2</mn></mrow></math> denean. Jakin dezakegu <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>2</mn></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> limitearen balioa?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#63": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Irudikatu <math display=\"inline\"><mrow><mi>x</mi><mo>&lt;</mo><mn>2</mn></mrow></math> izanda negatiboa den, <math display=\"inline\"><mrow><mi>x</mi><mo>&gt;</mo><mn>2</mn></mrow></math> izanda positiboa den eta <math display=\"inline\"><mi>x</mi></math>-ek 2ra jotzen duenean limiterik ez duen funtzio baten grafikoa."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#64": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>P</mi></math> polinomioa daukagu:   <math display=\"inline\"><mrow><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>Q</mi><mi>n</mi></msub><msup><mi>x</mi><mi>n</mi></msup><mo>+</mo><msub><mi>Q</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><msup><mi>x</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>+</mo><mi>…</mi><mo>+</mo><msub><mi>Q</mi><mn>1</mn></msub><mi>x</mi><mo>+</mo><msub><mi>Q</mi><mn>0</mn></msub></mrow></math>."
+   },
+   {
+    "mota": "testua",
+    "html": "Egiaztatu <math display=\"inline\"><mfrac><mrow><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mi>x</mi></mfrac></math> funtzioak limitea duela 0 puntuan eta kalkulatu bere balioa."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#65": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu funtzio honen grafikoan:"
+   },
+   {
+    "mota": "sarea",
+    "zutabeak": "auto minmax(0,1fr)",
+    "zelulak": [
+     {
+      "blokeak": [
+       {
+        "mota": "irudia",
+        "oina": null,
+        "src": "media/irudiak/a8e9917de5f23af2.svg",
+        "zabalera": 154
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "a)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>±</mi><mi>∞</mi></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>    b)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mn>1</mn></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       },
+       {
+        "mota": "testua",
+        "html": "c)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>2</mn><mo>−</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>    d)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>2</mn><mo>+</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#66": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aurkitu, funtzio honen grafikoa oinarritzat hartuta, limiteok:"
+   },
+   {
+    "mota": "sarea",
+    "zutabeak": "auto minmax(0,1fr)",
+    "zelulak": [
+     {
+      "blokeak": [
+       {
+        "mota": "irudia",
+        "oina": null,
+        "src": "media/irudiak/7250a537fbb88ec4.svg",
+        "zabalera": 143
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "a)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>    b)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       },
+       {
+        "mota": "testua",
+        "html": "c)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>2</mn><mo>−</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>    d)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>2</mn><mo>+</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       },
+       {
+        "mota": "testua",
+        "html": "e)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>−</mi><msup><mn>2</mn><mo>−</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>    f)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>−</mi><msup><mn>2</mn><mo>+</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#67": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu funtzio hauetako bakoitzaren jarraitasuna, lehenengo bitarteetan adieraziz, eta gero, irudikatu funtzioak."
+   },
+   {
+    "mota": "sarea",
+    "zutabeak": "repeat(1, minmax(0,1fr))",
+    "zelulak": [
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "a)  <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>1</mn><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "b)  <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo>−</mo><mn>3</mn><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>−</mi><mi>x</mi></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "c)  <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></mfrac></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "d)  <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "e)  <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "f)  <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>+</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math>"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#68": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Adierazi eta aztertu funtzio honen jarraitasuna:"
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><msup><mi>e</mi><mi>x</mi></msup></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mi>x</mi><mo>≤</mo><mi>−</mi><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mo stretchy=\"false\" form=\"prefix\">|</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">|</mo></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.222em\"></mspace><mo>−</mo><mn>1</mn><mo>&lt;</mo><mi>x</mi><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow></mtd></mtr></mtable></mrow></mrow></math>"
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#69": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu funtzio honen jarraitasuna <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow><mi>x</mi></mfrac></mrow></math> funtzioarena <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> puntuan. Zein eten mota da?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#70": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math> funtzioa izanda, justifikatu <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn></mrow></math> eta <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math> direla."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#71": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi></mrow></msqrt><mo>−</mo><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>."
+   },
+   {
+    "mota": "testua",
+    "html": " "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>(↪ Bider eta egin zati <math display=\"inline\"><mrow><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi></mrow></msqrt><mo>+</mo><mi>x</mi></mrow></math>.)</em>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#72": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu:  "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn></mrow></msqrt><mo>−</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn></mrow></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": " "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mn>1</mn><mrow><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi></mrow></msqrt><mo>−</mo><mi>x</mi></mrow></mfrac></mrow></math>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#73": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu:   <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><msqrt><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></msqrt><mo>−</mo><msqrt><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow></msqrt></mrow><mrow><mn>3</mn><mi>x</mi></mrow></mfrac></mrow></math>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_01deribatuak#74": {
+  "mota": "problema",
+  "kapitulua": "01mc_01deribatuak",
+  "atala": "a45",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu limite hauek:  "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>2</mn></mrow></munder><mfrac><mrow><mn>1</mn><mo>−</mo><msqrt><mrow><mn>3</mn><mo>−</mo><mi>x</mi></mrow></msqrt></mrow><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow></mfrac></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": " "
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><msqrt><mrow><mi>x</mi><mo>+</mo><mn>9</mn></mrow></msqrt><mo>−</mo><mn>3</mn></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac></mrow></math>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#1": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a17",
+  "atalaIzena": "Gaian trebatzeko, pentsatu eta ebatzi",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Gogoratu <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzio baten deribatua <math display=\"inline\"><msub><mi>x</mi><mn>0</mn></msub></math> abzisa puntu batean <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> moduan adierazten dela eta funtzioaren grafikoak duen tangentearen malda dela <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></math> puntuan."
+   },
+   {
+    "mota": "irudia",
+    "oina": null,
+    "src": "media/irudiak/4de7a9688c997aec.svg",
+    "zabalera": 361
+   },
+   {
+    "mota": "testua",
+    "html": "Grafiko horren tangentearen malda <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>5</mn></mrow></math> puntuan <math display=\"inline\"><mfrac><mn>5</mn><mn>3</mn></mfrac></math> da. Beraz, <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>5</mn><mn>3</mn></mfrac></mrow></math>."
+   },
+   {
+    "mota": "testua",
+    "html": "<span>■</span>"
+   },
+   {
+    "mota": "testua",
+    "html": "  Grafikoari eta irudikatuta dauden zuzenei begiratuta, aurkitu <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>9</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>14</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+   },
+   {
+    "mota": "testua",
+    "html": "<span>■</span>"
+   },
+   {
+    "mota": "testua",
+    "html": "  Esan deribatua positiboa den beste hiru puntu."
+   },
+   {
+    "mota": "testua",
+    "html": "<span>■</span>"
+   },
+   {
+    "mota": "testua",
+    "html": "  Esan deribatua zero den beste puntu bat."
+   },
+   {
+    "mota": "testua",
+    "html": "<span>■</span>"
+   },
+   {
+    "mota": "testua",
+    "html": "  Esan deribatua negatiboa den beste bi puntu."
+   },
+   {
+    "mota": "testua",
+    "html": "<span>■</span>"
+   },
+   {
+    "mota": "testua",
+    "html": "  Adierazi &quot;<math display=\"inline\"><mrow><mi>x</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> bada, orduan <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&gt;</mo><mn>0</mn></mrow></math>&quot; betetzen duen <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> bitarte bat."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#2": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a17",
+  "atalaIzena": "Gaian trebatzeko, pentsatu eta ebatzi",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Beheko grafiko hori (berdea) goikoaren funtzio deribatua da. Hau da: <math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+   },
+   {
+    "mota": "sarea",
+    "zutabeak": "auto minmax(0,1fr)",
+    "zelulak": [
+     {
+      "blokeak": [
+       {
+        "mota": "sarea",
+        "zutabeak": "repeat(1, minmax(0,1fr))",
+        "zelulak": [
+         {
+          "blokeak": [
+           {
+            "mota": "irudia",
+            "oina": null,
+            "src": "media/irudiak/4bb0f42fa1ef2b9e.svg",
+            "zabalera": 262
+           }
+          ]
+         },
+         {
+          "blokeak": [
+           {
+            "mota": "irudia",
+            "oina": null,
+            "src": "media/irudiak/76628a698aebf855.svg",
+            "zabalera": 262
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "Zergatik ikusiko dugu:"
+       },
+       {
+        "mota": "zerrenda",
+        "ordenatua": false,
+        "elementuak": [
+         "<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>∞</mi><mo>,</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> zatian, <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> goranzkoa da. Beraz, bere deribatua positiboa da. Hori gertatzen zaio <math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzioari.",
+         "<math display=\"inline\"><mi>f</mi></math>-ren deribatua <math display=\"inline\"><mi>a</mi></math> puntuan 0 da: <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>. Baita <math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> ere."
+        ]
+       },
+       {
+        "mota": "testua",
+        "html": "<span>■</span>"
+       },
+       {
+        "mota": "testua",
+        "html": "  Jarraitu idazten <math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzioaren zein jokabidek erakusten duten <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzioaren deribatua dela."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#3": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a17",
+  "atalaIzena": "Gaian trebatzeko, pentsatu eta ebatzi",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Beheko hiru funtzioak, <math display=\"inline\"><mi>A</mi></math>, <math display=\"inline\"><mi>B</mi></math> eta <math display=\"inline\"><mi>C</mi></math>, goikoen deribatuak dira ①, ② eta ③. Baina beste ordena batean."
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "sarea",
+      "zutabeak": "repeat(1, minmax(0,1fr))",
+      "zelulak": [
+       {
+        "blokeak": [
+         {
+          "mota": "irudia",
+          "oina": null,
+          "src": "media/irudiak/52c8d088702b528c.svg",
+          "zabalera": 122
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "irudia",
+          "oina": null,
+          "src": "media/irudiak/ea2e1631d14521eb.svg",
+          "zabalera": 122
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "irudia",
+          "oina": null,
+          "src": "media/irudiak/bd62f82a2301116c.svg",
+          "zabalera": 122
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "irudia",
+          "oina": null,
+          "src": "media/irudiak/6ac1cf7d51a72e91.svg",
+          "zabalera": 122
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "irudia",
+          "oina": null,
+          "src": "media/irudiak/2baa3b125104c4ad.svg",
+          "zabalera": 122
+         }
+        ]
+       },
+       {
+        "blokeak": [
+         {
+          "mota": "irudia",
+          "oina": null,
+          "src": "media/irudiak/b841b913da72cb0e.svg",
+          "zabalera": 122
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "mota": "testua",
+    "html": "Zein da bakoitzaren funtzio deribatua?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#4": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "1",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aurkitu funtzio hauen BAT bitarte hauetan:   <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>3</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>;    <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>;    <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>2</mn><mo>,</mo><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>;   <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>+</mo><mi>h</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#5": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "2",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aurkitu <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>x</mi><mo>−</mo><mn>3</mn></mrow></math> funtzioaren BAT <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>+</mo><mi>h</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> bitartean eta lortzen duzun emaitzarekin kalkulatu <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#6": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "3",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Deribatuaren definizioa erabiliz, kalkulatu <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzio hauetan:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#7": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "4",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu funtzio hauen funtzio deribatua definizioa erabiliz:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#8": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "32",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aurkitu honako kurba hauen zuzen tangentearen ekuazioa adierazten den abzisa puntuetan:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#9": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "33",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Idatzi <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math> kurbaren tangentearen ekuazioa, <math display=\"inline\"><mrow><mn>4</mn><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>5</mn><mo>=</mo><mn>0</mn></mrow></math> zuzenaren paraleloa dela jakinik."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#10": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "34",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aurkitu <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>2</mn><mfrac><mi>x</mi><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></math> kurbaren tangenteak, jakinda kurba hori <math display=\"inline\"><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> zuzenaren paraleloa dela."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#11": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "35",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Idatzi <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>4</mn><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math> funtzioaren tangenteen ekuazioak abzisa ardatzarekin dituen ebakitze puntuetan."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#12": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "36",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aurkitu tangente horizontalaren puntuak honako funtzio hauetan eta idatzi tangentearen funtzioa puntu horietan:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#13": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "37",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aurkitu funtzio hauen maximoak, minimoak eta inflexio puntuak:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#14": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "38",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu funtzio hauen hazkuntza eta txikitze bitarteak eta esan maximo edo minimorik duten:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#15": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "39",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aurkitu funtzio hauen hazkuntza bitarteak eta maximoak eta minimoak:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#16": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "40",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu funtzio hauen ahurtasuna, ganbilatasuna eta inflexio puntuak:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#17": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "41",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu honako funtzioek maximo, minimo eta inflexio punturik duten <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math> abzisa puntuan:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#18": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "42",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Egiaztatu <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>−</mi><mi>x</mi></mrow></math> zuzena <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>8</mn><mi>x</mi></mrow></math> kurbaren tangentea dela. Aurkitu tangentzi puntua eta aztertu zuzen horrek kurba tangentzia ez den beste punturen batean ebakitzen ote duen."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#19": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "43",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aurkitu <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>4</mn><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>10</mn></mrow></math> kurbaren tangentearen ekuazioa bere inflexio puntuan."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#20": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "44",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Zehaztu <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi></mrow></math> parabola, jakinda <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn></mrow></math> zuzenaren tangentea dela <math display=\"inline\"><mrow><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntuan eta <math display=\"inline\"><mrow><mi>B</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mo>,</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntutik igarotzen dela."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#21": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "45",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi></mrow></math> kurbak abzisa ardatza ebakitzen du <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math> puntuan eta inflexio puntua du <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntuan. Kalkulatu <math display=\"inline\"><mi>a</mi></math>, <math display=\"inline\"><mi>b</mi></math> eta <math display=\"inline\"><mi>c</mi></math>."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#22": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "46",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi></mrow></math> funtzioari buruz badakigu <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntutik igarotzen dela eta <math display=\"inline\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> zuzenaren paraleloa den tangente bat duela puntu horretan."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#23": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "47",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu jarraitasuna eta deribagarritasuna:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#24": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "49",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Deribatua ez duten zenbat puntu daude <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>8</mn><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math> funtzioan?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#25": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "50",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu <math display=\"inline\"><mi>a</mi></math> eta <math display=\"inline\"><mi>b</mi></math> honako funtzio hau"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#26": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "51",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu funtzio hauen grafikoan eta esan zein puntutan ez diren deribagarriak. Baten bat deribagarria da <math display=\"inline\"><mi mathvariant=\"double-struck\">ℝ</mi></math> osoan?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#27": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "52",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzioa honela dago definituta:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#28": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "53",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu funtzio honen jarraitasuna eta deribagarritasuna:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#29": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "54",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "2 m <math display=\"inline\"><mi>×</mi></math> 3 m-ko lamina angeluzuzenaren tapa gabeko kaxa egin nahi dugu. Erpinetatik karratu batzuk ebaki ditugu. Kalkulatu ebakitako karratuaren aldea kaxaren bolumena maximoa izateko."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#30": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "55",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "30 cm-ko perimetroa duten triangelu isoszele guztien artean, zeinek du azalera maximoa?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#31": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "56",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "10 cm-ko sortzailea eta edukiera maximoa duen ontzi konikoa eraiki nahi dugu. Zein behar da oinarriaren erradioa?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#32": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "57",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Ordubeteko azterketa egiten duen ikasle baten errendimendua, %<math display=\"inline\"><mi>r</mi></math>, <math display=\"inline\"><mrow><mi>r</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>300</mn><mi>t</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzioak adierazten duela badakigu, funtzio horretan <math display=\"inline\"><mrow><mn>0</mn><mo>≤</mo><mi>t</mi><mo>≤</mo><mn>1</mn></mrow></math> izanik (<math display=\"inline\"><mi>t</mi></math> ordutan). Azaldu noiz handitzen eta noiz txikitzen den errendimendua. Noiz anulatzen da? Noiz da maximoa?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#33": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "58",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Azalera 6 <math display=\"inline\"><msup><mi>m</mi><mn>2</mn></msup></math>-koa duen leiho angeluzuzen bati markoa egin nahi diogu. Zati linealaren markoak 2000 PTA balio du eta zati bertikalak 3000 PTA. Kalkulatu leihoaren dimentsioak kostua minimoa izateko. Zein izango da kostu hori?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#34": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "59",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Banku batek inbertsio plan bat atera du merkatura. Plan horren errentagarritasuna, <math display=\"inline\"><mrow><mi>R</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> milaka pezetatan, ezartzen den kantitatearen (<math display=\"inline\"><mi>x</mi></math> mila pezetatan) funtziopean emango da honako adierazpen honen bitartez:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#35": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "60",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Produktu bat 8 urtez egon da merkatuan. Bere prezioa (<math display=\"inline\"><mrow><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> milaka pezetatan) denborarekin egon da lotuta (<math display=\"inline\"><mi>t</mi></math>, urtetan) merkatuan egin duen denboran, funtzio honen arabera:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#36": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "61",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Mezularitza enpresa baten tarifak hauek dira: 20 kg-tik beherako zama bada, 800 PTA kiloko. 20 kg-tik gora, kiloko prezioa 20tik gora dagoen kilo kopuruari 800 kenduz lortzen da. Mezulari batek eraman dezakeen zama maximoa 60 kg da. Zamaren pisua <math display=\"inline\"><mi>x</mi></math> da, zama kiloko prezioa ematen digun funtzioa <math display=\"inline\"><mrow><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta enpresaren irabaziak ematen digun funtzioa <math display=\"inline\"><mrow><mi>I</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#37": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "62",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Egiaztatu funtzio bat <math display=\"inline\"><msub><mi>x</mi><mn>0</mn></msub></math> puntuan deribagarria bada, <math display=\"inline\"><msub><mi>x</mi><mn>0</mn></msub></math> puntuan jarraia dela. Kontuan izan hau:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#38": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "63",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Hirugarren mailako funtzio polinomiko batek deribatu nuluko zenbat puntu eduki ditzake? Posible da bat bakarra edo bat ere ez edukitzea?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#39": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "64",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Justifikatu bigarren mailako funtzio polinomiko batek tangente horizontaleko puntu bat duela beti."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#40": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "65",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>f</mi></math> funtzioak lehen eta bigarren deribatuak baditu eta <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><msup><mi>f</mi><mo>″</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> badira, <math display=\"inline\"><mi>f</mi></math> funtzioak maximo erlatibo bat izan dezake <math display=\"inline\"><mi>a</mi></math> puntuan? Hala bada, eman adibide bat."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#41": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "66",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>f</mi></math> funtzio bat beheranzkoa da <math display=\"inline\"><mi>a</mi></math> puntuan eta deribagarria da bertan. <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&gt;</mo><mn>0</mn></mrow></math> izan daiteke? <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> izan daiteke? <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&lt;</mo><mn>0</mn></mrow></math> izan daiteke? Arrazoitu."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#42": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "67",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math> funtzioak (<math display=\"inline\"><mi>x</mi></math>-en balio absolutua) minimo erlatiborik badu punturen batean? Zein puntutan da deribagarria? Arrazoitu."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#43": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "68",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>f</mi></math> funtzio baten deribatua positiboa bada <math display=\"inline\"><mi>a</mi></math> dagaiaren balio guztientzat, egon daitezke <math display=\"inline\"><mi>a</mi></math> eta <math display=\"inline\"><mi>b</mi></math> bi zenbaki desberdin <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> beteko dutenak? Arrazoitu."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#44": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "69",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>f</mi></math> funtzio bati buruz badakigu <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><msup><mi>f</mi><mo>″</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><msup><mi>f</mi><mo>‴</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>5</mn></mrow></math> direla. Esan dezakegu <math display=\"inline\"><mi>f</mi></math> funtzioak maximo, minimo edo inflexio puntu bat duela <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>a</mi></mrow></math> puntuan?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#45": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "70",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> bada, honako proposizio hauetatik, zein da egia?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#46": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "71",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Grafiko hauek <math display=\"inline\"><mrow><mi>f</mi><mo>,</mo><mi>g</mi><mo>,</mo><mi>h</mi></mrow></math> eta <math display=\"inline\"><mi>i</mi></math> funtzioen funtzio deribatuak adierazten dituzte."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#47": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "73",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu funtzio hauen deribagarritasuna:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#48": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "74",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Funtzio honetan:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#49": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "75",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Egiaztatu <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>x</mi><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo>−</mo><mn>3</mn><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math> funtzioa ez dela deribagarria <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>3</mn></mrow></math> puntuan."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#50": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "76",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Funtzio hau"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#51": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "77",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup></mrow></math> funtzioaren <math display=\"inline\"><mi>n</mi></math> ordenako deribatua."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#52": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "78",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzioan, egiaztatu <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><msup><mi>f</mi><mo>″</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>. <math display=\"inline\"><mrow><msup><mi>f</mi><mo>‴</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> ere izango da?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#53": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "79",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math> izanda, aurkitu puntu bat <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> bitartean; bertan tangentea <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>,</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math>-tik pasatzen den kordaren paralelo izango da."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#54": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "80",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math> funtzioaren maximo eta minimo erlatibo eta absoluturik dagoen."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#55": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "81",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu hazkuntza bitarteak eta maximoak eta minimoak <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math>-k emandako funtzioan."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#56": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "82",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi></mrow></math> funtzioak <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mi>f</mi></math>-k ez duela mutur erlatiborik <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math> puntuan egiaztatzen du. Kalkulatu <math display=\"inline\"><mi>a</mi></math>, <math display=\"inline\"><mi>b</mi></math> eta <math display=\"inline\"><mi>c</mi></math>."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#57": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "83",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aurkitu <math display=\"inline\"><mi>a</mi></math> eta <math display=\"inline\"><mi>b</mi></math>  <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzioa jarraia izan dadin:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#58": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a31",
+  "atalaIzena": "6. Proposatutako ariketak eta problemak",
+  "izena": "84",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Badago <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></mfrac></mrow></math> deribagarri ez den punturik? Arrazoitu erantzuna."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#59": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a33",
+  "atalaIzena": "Gaian trebatzeko, pentsatu eta ebatzi",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Honako grafiko honetan adierazita dagoen funtzioa zein den aurkitzeko, ondoren agertzen den bezala jokatu behar dugu:"
+   },
+   {
+    "mota": "irudia",
+    "oina": null,
+    "src": "media/irudiak/fe5ec580ef13917f.svg",
+    "zabalera": 286
+   },
+   {
+    "mota": "testua",
+    "html": "<em>(Adar infinituak)</em>"
+   },
+   {
+    "mota": "sarea",
+    "zutabeak": "repeat(1, minmax(0,1fr))",
+    "zelulak": [
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>−</mi><msup><mn>2</mn><mo>−</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mi>∞</mi></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>4</mn><mo>−</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>∞</mi></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mi>∞</mi></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>−</mi><msup><mn>2</mn><mo>+</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>∞</mi></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>4</mn><mo>+</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>∞</mi></mrow></math>"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "mota": "testua",
+    "html": "<em>(Ebakitze puntuak ardatzekin):</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "  <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>     <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>     <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>     <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>7</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<em>(Tangente horizontaleko puntuak):</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "  <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn></mrow></math>,    <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>"
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math>,    <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>"
+     }
+    ]
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>9</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math>,    <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>9</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>"
+     }
+    ]
+   },
+   {
+    "mota": "testua",
+    "html": "Datu horiekin, parentesien arteko parrafoen beharrizanik gabe eta jakinda funtzioa <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>2</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>4</mn></mrow></math> puntuetan izan ezik gainerako puntuetan deribagarria dela eta, beraz, jarraia ere badela, nahikoa dugu kurba zehaztasun osoz adierazteko."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#60": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a33",
+  "atalaIzena": "Gaian trebatzeko, pentsatu eta ebatzi",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Irudikatu ardatz koordenatu batzuk paper koadrikulatuan eta irudikatu kurba bat, ahal duzunik eta sinpleena, kontuan izanda honako baldintza hauek bete behar dituela:"
+   },
+   {
+    "mota": "sarea",
+    "zutabeak": "repeat(1, minmax(0,1fr))",
+    "zelulak": [
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mi>∞</mi></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>2</mn><mo>−</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mi>∞</mi></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>2</mn><mo>+</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>∞</mi></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>;    <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>75</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>"
+       }
+      ]
+     },
+     {
+      "blokeak": [
+       {
+        "mota": "testua",
+        "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>4</mn></mrow></math>;    <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#61": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a33",
+  "atalaIzena": "Gaian trebatzeko, pentsatu eta ebatzi",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Deskribatu ahalik eta daturik gutxien erabiliz eta aurreko atalean egin dugun antzera, honako funtzio hau:"
+   },
+   {
+    "mota": "irudia",
+    "oina": null,
+    "src": "media/irudiak/b254c7eec57c63e0.svg",
+    "zabalera": 270
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#62": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "1",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Funtzio jarrai eta deribagarri bati buruz hau dakigu:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#63": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "2",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Egin honako hau betetzen duen funtzio jarrai eta deribagarri baten grafikoa:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#64": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "3",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Adierazi funtzio jarrai eta deribagarri bat. Honako hau jakinda:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#65": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "4",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Adierazi honako hau betetzen duen funtzio jarrai eta deribagarri bat <math display=\"inline\"><mi mathvariant=\"double-struck\">ℝ</mi></math>-n:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#66": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "5",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Adierazi honako hau betetzen duen funtzio polinomiko bat:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#67": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "6",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Adierazi <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>3</mn></mrow></math> puntuan definituta dagoen eta hau betetzen duen funtzio bat:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#68": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "7",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Deskribatu honako funtzioak. Adierazi asintotak eta adar infinituak, puntu singularrak eta goranzko eta beheranzko bitarteak."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#69": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "8",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzio bati buruz informazio hau dugu:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#70": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "9",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Irudikatu funtzio hauen grafikoa adar infinituak, maximoak eta minimoak eta inflexio puntuak aztertuz:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#71": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "10",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Adierazi funtzio hauen grafikoa bere asintotak, gorapena eta beheranpena, maximoak eta minimoak eta inflexio puntuak aztertuz:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#72": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "11",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aurkitu <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></mrow></math> funtzioaren asintotak."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#73": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "12",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu funtzio hauen adar infinituak eta puntu singularrak eta irudikatu:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#74": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "13",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Irudikatu funtzio hauen grafikoa euren adar infinituak eta puntu singularrak aztertuz:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#75": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "14",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu 10. eta 12. ariketako funtzioen simetria."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#76": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "15",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kalkulatu <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math> funtzioaren maximo, minimo eta inflexio puntuak <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>2</mn><mi>π</mi></mrow></math> kasurako eta irudikatu lortu duzun informazioa erabiliz. Begiratu ea funtzioa periodikoa den eta, hala bada, esan zein den bere periodoa."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#77": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "16",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu honako funtzio hauen maximo, minimo eta inflexio puntuak eta adierazi grafiko batean:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#78": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "17",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aurkitu <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>e</mi><mrow><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></msup></mrow></math> funtzioaren maximoak, minimoak eta asintotak eta irudikatu bere grafikoa."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#79": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "18",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu funtzio hauen definizio eremua, asintotak, goranzko bitarteak eta maximoak eta minimoak eta irudikatu grafikoetan:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#80": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "19",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aztertu beheko funtzio horien definizio eremua, asintotak eta muturrak eta, informazio horrekin, ahalegindu bakoitzaren grafikoa aurkitzen behean adierazten diren grafikoen artean."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#81": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "20",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Zer esan dezakegu bi maximo eta bi minimo erlatibo dituen funtzio polinomiko baten mailari buruz?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#82": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "21",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Zenbat inflexio puntu izan ditzake gehienez ere laugarren mailako funtzio polinomiko batek?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#83": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "22",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></math> funtzioa ez dago definituta <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math> puntuetan baina asintota bertikal bat baino ez du. Justifikatu."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#84": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "23",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Zenbat asintota bertikal izan ditzake funtzio batek? Eta zenbat horizontal?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#85": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "24",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Zer erlazio egongo da funtzio razionalaren zenbakitzailearen eta izendatzailearen mailen artean funtzioak asintota zeiharra izan dezan?"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#86": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "25",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></mfrac></mrow></math> funtzioan, egiaztatu beraren eta asintota horizontalaren arteko aldeak 0-rantz jotzen duela <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></math> denean."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#87": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "26",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<em>a)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>6</mn></mrow></math> zuzena <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>−</mo><mi>k</mi></mrow></mfrac></mrow></math> funtzioaren asintota zeiharra da. Aurkitu <math display=\"inline\"><mi>k</mi></math>-ren balioa."
+   },
+   {
+    "mota": "testua",
+    "html": "<em>b)</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "Adierazi <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzioa <math display=\"inline\"><mi>k</mi></math>-ren balio horrekin."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#88": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "27",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Partikula bat <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>x</mi></mrow><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></mrow></math> kurbak <math display=\"inline\"><mrow><mi>x</mi><mo>&gt;</mo><mn>1</mn></mrow></math> kasurako irudikatzen duen grafikoan barrena higitzen da."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#89": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "28",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo>−</mo><mn>3</mn><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math> funtzioa izanda, aurkitu:"
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#90": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a43",
+  "atalaIzena": "Proposatutako ariketak eta problemak",
+  "izena": "29",
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Egiaztatu <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mfrac><mo stretchy=\"false\" form=\"prefix\">|</mo><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math> funtzioak bi asintota horizontal desberdin dituela."
+   }
+  ],
+  "ebazpena": null
+ },
+ "01mc_02funtzioak#91": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a85",
+  "atalaIzena": "36. ariketa — KALKULATU: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><msubsup><mo>∏</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mn>10</mn></msubsup><msup><mi>e</mi><mi>n</mi></msup></mrow></math>  (4/12/2014)",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Klase-orria, 2014-12-04.) Kalkula ezazu <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><msubsup><mo>∏</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mn>10</mn></msubsup><msup><mi>e</mi><mi>n</mi></msup></mrow></math>."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "<strong>Orri bereko teoria (transkribatua, zenbakitu gabe):</strong> katearen erregela <math display=\"inline\"><mrow><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mrow><mi>d</mi><mi>f</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><mfrac><mrow><mi>d</mi><mi>g</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><msup><mi>f</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><msup><mi>g</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>; adibidea <em>&quot;bideratu katearen erregelatik&quot;</em>  <math display=\"inline\"><mrow><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><msqrt><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msqrt><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><msqrt><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msqrt><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><mfrac><mn>1</mn><msqrt><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msqrt></mfrac><mo>⋅</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfrac><mn>1</mn><msqrt><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msqrt></mfrac><mo>⋅</mo><msup><mi>g</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> — azken faktorea GORRIZ biribilduta &quot;OJO&quot; batekin (ahaztu ohi dena); eta &quot;SUSTITUIR <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><msqrt><mi>t</mi></msqrt></mrow></math>&quot;  adibidea: <math display=\"inline\"><mrow><mfrac><mi>d</mi><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">sin</mi><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><msup><mi>f</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><mfrac><mn>1</mn><mrow><mn>2</mn><msqrt><mi>t</mi></msqrt></mrow></mfrac></mrow></math>."
+   },
+   {
+    "mota": "testua",
+    "html": "<strong>KALKULATU:</strong> <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><munderover><mo>∏</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mn>10</mn></munderover><msup><mi>e</mi><mi>n</mi></msup><mo>=</mo><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mn>10</mn></munderover><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><msup><mi>e</mi><mi>n</mi></msup><mo>=</mo><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mn>10</mn></munderover><mi>n</mi><mo>=</mo><mfrac><mrow><mn>10</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>10</mn><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>55</mn></mrow></math> Gorriz azpian: <em>&quot;propiedad del logaritmo: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">log</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>⋅</mo><mi>B</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">log</mi><mo>&#8289;</mo></mrow><mi>A</mi><mo>+</mo><mrow><mi mathvariant=\"normal\">log</mi><mo>&#8289;</mo></mrow><mi>B</mi></mrow></math>&quot;</em>."
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><munderover><mo>∏</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mn>10</mn></munderover><msup><mi>e</mi><mi>n</mi></msup><mo>=</mo><mn>55</mn></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_02funtzioak#92": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a86",
+  "atalaIzena": "37. ariketa — <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mi>x</mi></mfrac></mrow></math> funtzioaren azterketa eta marrazkia (4/12/2014)",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Klase-orria.) Azter eta marraz ezazu <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mi>x</mi></mfrac></mrow></math> funtzioa (&quot;DIBUJAR <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mi>x</mi></mfrac></mrow></math>&quot;)."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>D</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi mathvariant=\"double-struck\">ℝ</mi><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mn>0</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math>. Berdez oharra: <em>&quot;muga bat da, baina hor ez dago ongi definituta.&quot;</em>: <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mi>x</mi></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mn>1</mn></mfrac><mo>=</mo><mn>1</mn><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mrow><mtext mathvariant=\"normal\">L’Hôpital; </mtext><mspace width=\"0.333em\"></mspace></mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> ere bai</mtext></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> Ebaki-puntuak: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mn>0</mn><mo>→</mo><mi>x</mi><mo>=</mo><mi>k</mi><mi>π</mi></mrow></math>  (&quot;puntos de corte&quot;). Asintota (gorriz &quot;PSA&quot; tankerako marka): <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> asintota horizontala. Muturrak: <math display=\"block\"><mrow><msup><mi>y</mi><mo>′</mo></msup><mo>=</mo><mfrac><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>=</mo><mn>0</mn><mo>→</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>→</mo><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtext mathvariant=\"normal\">gorriz biribilduta</mtext><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> Ekuazio hori GRAFIKOKI aztertuta: <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>-en adarrak eta <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>x</mi></mrow></math> zuzena marraztuta (gorriz zuzena), ebaki-puntuak = muturren posizioak. Marrazki handia: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mi>x</mi></mfrac></mrow></math> kanpai moteltua, <math display=\"inline\"><mn>1</mn></math> jatorrian, <math display=\"inline\"><mrow><mi>−</mi><mn>4</mn><mi>π</mi><mi>…</mi><mn>4</mn><mi>π</mi></mrow></math> tartean."
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mi>x</mi></mfrac><mo>=</mo><mn>1</mn><mo>;</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> muturrak </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> ekuazioaren soluzioetan </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_02funtzioak#93": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a87",
+  "atalaIzena": "53. ariketa — Azterketa 2014-05-28, G4: <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>16</mn><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&gt;</mo><mn>9</mn></mrow></math> ebatzi",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Azterketa, 2014-05-28, G4; &quot;EBATZ EZAZU&quot;.) Ebatzi <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>16</mn><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&gt;</mo><mn>9</mn></mrow></math>."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>16</mn><mo>=</mo><mn>0</mn><mo>→</mo><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>16</mn><mo>→</mo><mi>x</mi><mo>=</mo><mi>±</mi><mn>4</mn></mrow></math>  (zeinu-aldaketako puntuak)."
+   },
+   {
+    "mota": "testua",
+    "html": "<strong>• <math display=\"inline\"><mrow><mi>x</mi><mo>≥</mo><mn>4</mn></mrow></math> edo <math display=\"inline\"><mrow><mi>x</mi><mo>≤</mo><mi>−</mi><mn>4</mn></mrow></math>:</strong>  <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>16</mn><mo>≥</mo><mn>0</mn><mo>→</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>16</mn><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>16</mn></mrow></math>: <math display=\"block\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>16</mn><mo>&gt;</mo><mn>9</mn><mo>→</mo><msup><mi>x</mi><mn>2</mn></msup><mo>&gt;</mo><mn>25</mn><mo>→</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&gt;</mo><mn>5</mn><mspace width=\"1.0em\"></mspace><mo>→</mo><mi>x</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>∞</mi><mo>,</mo><mi>−</mi><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∪</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mo>,</mo><mi>∞</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> (koadernoan &quot;<math display=\"inline\"><mrow><mi>x</mi><mo>&gt;</mo><mi>±</mi><mn>5</mn></mrow></math>&quot; idazkera gordina, gero tarteak zuzen)."
+   },
+   {
+    "mota": "testua",
+    "html": "<strong>• <math display=\"inline\"><mrow><mi>−</mi><mn>4</mn><mo>≤</mo><mi>x</mi><mo>≤</mo><mn>4</mn></mrow></math>:</strong>  <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>16</mn><mo>&lt;</mo><mn>0</mn><mo>→</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>16</mn><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>=</mo><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>16</mn></mrow></math>: <math display=\"block\"><mrow><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>16</mn><mo>&gt;</mo><mn>9</mn><mo>→</mo><msup><mi>x</mi><mn>2</mn></msup><mo>&lt;</mo><mn>7</mn><mo>→</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&lt;</mo><msqrt><mn>7</mn></msqrt><mspace width=\"1.0em\"></mspace><mo>→</mo><mi>x</mi><mo>∈</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><msqrt><mn>7</mn></msqrt><mo>,</mo><msqrt><mn>7</mn></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "&quot;BERAZ&quot;: <math display=\"block\"><mrow><mi>x</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>∞</mi><mo>,</mo><mi>−</mi><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∪</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><msqrt><mn>7</mn></msqrt><mo>,</mo><msqrt><mn>7</mn></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∪</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mo>,</mo><mi>∞</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>16</mn><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&gt;</mo><mn>9</mn><mo>⇔</mo><mi>x</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>∞</mi><mo>,</mo><mi>−</mi><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∪</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><msqrt><mn>7</mn></msqrt><mo>,</mo><msqrt><mn>7</mn></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∪</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mo>,</mo><mi>∞</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_02funtzioak#94": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a88",
+  "atalaIzena": "54. ariketa — Azterketa 2013-05-29, G2: <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">sin</mi><mi>a</mi><mo>−</mo><mi mathvariant=\"normal\">sin</mi><mi>b</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>≤</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></mrow></math> frogatu",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Azterketa, 2013-05-29, G2; &quot;FROGATU&quot;.) Froga ezazu <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">sin</mi><mi>a</mi><mo>−</mo><mi mathvariant=\"normal\">sin</mi><mi>b</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>≤</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></mrow></math> dela <math display=\"inline\"><mrow><mi>a</mi><mo>,</mo><mi>b</mi><mo>∈</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math> guztietarako."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "Hitzez (euskaraz): <em>&quot;batez besteko balioaren teorema erabiliko dugu: honen arabera <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> tarte batean funtzio bat jarraitua eta deribagarria bada, orduan&quot;</em> <math display=\"block\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>b</mi><mo>−</mo><mi>a</mi></mrow></mfrac></mrow></math> <em>&quot;gure kasuan&quot;</em>  <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>, <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>, &quot;beraz&quot;: <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>c</mi><mo>=</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>b</mi><mo>−</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>a</mi></mrow><mrow><mi>b</mi><mo>−</mo><mi>a</mi></mrow></mfrac><mo>⇒</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">cos</mi><mi>c</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>=</mo><mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">sin</mi><mi>b</mi><mo>−</mo><mi mathvariant=\"normal\">sin</mi><mi>a</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi>b</mi><mo>−</mo><mi>a</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></mfrac><mo>⇒</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">cos</mi><mi>c</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi>b</mi><mo>−</mo><mi>a</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">sin</mi><mi>b</mi><mo>−</mo><mi mathvariant=\"normal\">sin</mi><mi>a</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></mrow></math> <math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">cos</mi><mi>c</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>≤</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> denez</mtext></mrow><mo>:</mo><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">sin</mi><mi>b</mi><mo>−</mo><mi mathvariant=\"normal\">sin</mi><mi>a</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">cos</mi><mi>c</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi>b</mi><mo>−</mo><mi>a</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>≤</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mspace width=\"1.0em\"></mspace><mi>▫</mi></mrow></math>"
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">sin</mi><mi>a</mi><mo>−</mo><mi mathvariant=\"normal\">sin</mi><mi>b</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>≤</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mspace width=\"1.0em\"></mspace><mo>∀</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>∈</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_02funtzioak#95": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a89",
+  "atalaIzena": "55. ariketa — Azterketa 2012-01-13, G4: <math display=\"inline\"><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mfrac><mi>π</mi><mn>4</mn></mfrac></mrow></math> ekuazioak gutxienez BI soluzio <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-n",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Azterketa, 2012-01-13, G4; &quot;FROGATU&quot;.) Froga ezazu <math display=\"inline\"><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mfrac><mi>π</mi><mn>4</mn></mfrac></mrow></math> ekuazioak gutxienez bi soluzio dituela <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> tartean."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "Funtzioa: <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mfrac><mi>π</mi><mn>4</mn></mfrac></mrow></math>."
+   },
+   {
+    "mota": "testua",
+    "html": "<strong>Bolzano</strong>  (azpimarratua): <em>&quot;lehenik Bolzanoren teorema erabiliz frogatuko dugu funtzioa gutxienez behin anulatzen dela <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> tartean&quot;</em>: <math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>0</mn><mo>−</mo><mfrac><mi>π</mi><mn>4</mn></mfrac><mo>=</mo><mi>−</mi><mfrac><mi>π</mi><mn>4</mn></mfrac><mo>&lt;</mo><mn>0</mn></mrow></math> <math display=\"block\"><mrow><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mfrac><mi>π</mi><mn>4</mn></mfrac><mo>=</mo><mfrac><mi>π</mi><mn>4</mn></mfrac><mo>&gt;</mo><mn>0</mn></mrow></math> <em>&quot;Funtzioa jarraitua denez badakigu funtzioa gutxienez behin anulatzen dela&quot;</em>  (<math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math>-n; eta berdin <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>,</mo><mi>π</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math>-n, <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mi>π</mi><mn>4</mn></mfrac><mo>&lt;</mo><mn>0</mn></mrow></math>)."
+   },
+   {
+    "mota": "testua",
+    "html": "<strong>Rolle</strong>  (azpimarratua): <em>&quot;azkenik Rolleren teorema erabiliz frogatuko dugu bi puntu daudela non funtzioa anulatzen den; horretarako nahikoa da frogatzea bi puntuen artean badagoela puntu bat non funtzioaren deribatua anulatzen den&quot;</em>: <math display=\"block\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo>−</mo><mfrac><mi>π</mi><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>→</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>−</mi><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>→</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>−</mi><mi>x</mi></mrow></math> Marrazkia: <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math> adarrak eta <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>−</mi><mi>x</mi></mrow></math> zuzena; <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>,</mo><mi>π</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> tartean mozten dira (<math display=\"inline\"><mi mathvariant=\"normal\">tan</mi></math> negatiboa den adarrean) — deribatuaren zeroa hor dago, bi erroen artean, koherentea."
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mfrac><mi>π</mi><mn>4</mn></mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> ekuazioak </mtext><mspace width=\"0.333em\"></mspace></mrow><mo>≥</mo><mn>2</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> soluzio ditu </mtext><mspace width=\"0.333em\"></mspace></mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mrow><mtext mathvariant=\"normal\">-n (Bolzano </mtext><mspace width=\"0.333em\"></mspace></mrow><mo>×</mo><mn>2</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> + Rolle) </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_02funtzioak#96": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a90",
+  "atalaIzena": "56. ariketa — Azterketa 2013-01-17, G3: <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi></mrow></math> ekuazioak soluzio BAKARRA <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mfrac><mi>π</mi><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></math>-n",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Azterketa, 2013-01-17, G3; &quot;FROGATU&quot;.) Froga ezazu <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> ekuazioak soluzio bakarra duela <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mfrac><mi>π</mi><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></math> tartean."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi></mrow></math>."
+   },
+   {
+    "mota": "testua",
+    "html": "<strong>Bolzano:</strong>  <em>&quot;lehenik Bolzanoren teorema erabiliz frogatuko dugu funtzioa gutxienez behin anulatzen dela <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mfrac><mi>π</mi><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></math> tartean&quot;</em>: <math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>−</mo><mn>1</mn><mo>=</mo><mi>−</mi><mn>1</mn><mo>&lt;</mo><mn>0</mn></mrow></math> <math display=\"block\"><mrow><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>π</mi><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><msup><mi>π</mi><mn>2</mn></msup><mn>16</mn></mfrac><mo>−</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>=</mo><mfrac><msup><mi>π</mi><mn>2</mn></msup><mn>16</mn></mfrac><mo>&gt;</mo><mn>0</mn></mrow></math> <em>&quot;Funtzioa jarraitua denez badakigu gutxienez behin anulatzen dela.&quot;</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "<strong>Bakartasuna:</strong>  <em>&quot;funtzioa deribatzen badugu, ikus dezakegu beti dela positiboa gure tartean&quot;</em>: <math display=\"block\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi><mo>&gt;</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>x</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mfrac><mi>π</mi><mn>4</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> <em>&quot;Horrek esan nahi du beti dela gorakorra tartean eta gehienez puntu batean anulatzen dela.&quot;</em>"
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi><mo>:</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> soluzio bakarra </mtext><mspace width=\"0.333em\"></mspace></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mfrac><mi>π</mi><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mtext mathvariant=\"normal\">-n </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_02funtzioak#97": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a91",
+  "atalaIzena": "57. ariketa — Azterketa 2014-05-28, G3: <math display=\"inline\"><mrow><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>=</mo><mn>0</mn></mrow></math> ekuazioak erro erreal BAKARRA",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Azterketa, 2014-05-28, G3; &quot;FROGA EZAZU ... erro erreal bakarra duela&quot;.) Froga ezazu <math display=\"inline\"><mrow><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>=</mo><mn>0</mn></mrow></math> ekuazioak erro erreal bakarra duela."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>9</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo>;</mo><mspace width=\"1.0em\"></mspace><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>:</mo><mspace width=\"1.0em\"></mspace><mi>x</mi><mo>=</mo><mfrac><mrow><mi>−</mi><mn>6</mn><mo>±</mo><msqrt><mrow><mn>36</mn><mo>−</mo><mn>108</mn></mrow></msqrt></mrow><mrow><mn>2</mn><mo>⋅</mo><mn>9</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>−</mi><mn>6</mn><mo>±</mo><msqrt><mrow><mi>−</mi><mn>72</mn></mrow></msqrt></mrow><mn>18</mn></mfrac></mrow></math> (koadernoan <math display=\"inline\"><msqrt><mrow><mi>−</mi><mn>128</mn></mrow></msqrt></math> irakurtzen da; ik. Zuzenketa)  <em>&quot;→ ez dauka erro errealik; beraz deribatua ez da anulatzen → funtzioa beti da gorakorra ala beherakorra&quot;</em>  (hemen: gorakorra, <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo>&gt;</mo><mn>0</mn></mrow></math>). <em>&quot;Horrek esan nahi du funtzioa gehienez aldi batean anulatzen dela.&quot;</em>"
+   },
+   {
+    "mota": "testua",
+    "html": "Bolzano: <math display=\"block\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn><mo>:</mo><mspace width=\"1.0em\"></mspace><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mn>1</mn><mo>&lt;</mo><mn>0</mn><mo>;</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>x</mi><mo>=</mo><mn>1</mn><mo>:</mo><mspace width=\"1.0em\"></mspace><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>8</mn><mo>&gt;</mo><mn>0</mn></mrow></math> <em>&quot;<math display=\"inline\"><mrow><mi>x</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> tartean puntu batean anulatzen da&quot;</em> — eta monotoniagatik, behin bakarrik."
+   },
+   {
+    "mota": "oharra",
+    "titulua": "Zuzenketa",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "Diskriminantea: <math display=\"inline\"><mrow><mn>36</mn><mo>−</mo><mn>4</mn><mo>⋅</mo><mn>9</mn><mo>⋅</mo><mn>3</mn><mo>=</mo><mn>36</mn><mo>−</mo><mn>108</mn><mo>=</mo><mi>−</mi><mn>72</mn></mrow></math>; koadernoko &quot;<math display=\"inline\"><msqrt><mrow><mi>−</mi><mn>128</mn></mrow></msqrt></math>&quot; lapsus aritmetikoa da (ondorioa — negatiboa, erro errealik ez — berdin mantentzen da)."
+     }
+    ]
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>=</mo><mn>0</mn><mo>:</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> erro erreal bakarra, </mtext><mspace width=\"0.333em\"></mspace></mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> tartean </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_02funtzioak#98": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a92",
+  "atalaIzena": "58. ariketa — Azterketa 2013-05-29: <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mfrac><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mn>2</mn><mi>x</mi></mrow></mfrac></mrow></math> zatikakoa jarraitua izanik, <math display=\"inline\"><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><msup><mi>h</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> kalkulatu",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Azterketa, 2013-05-29.) Izan bedi <math display=\"inline\"><mi>h</mi></math> bi aldiz deribagarria, <math display=\"inline\"><msup><mi>h</mi><mo>″</mo></msup></math> jarraitua izanik, eta izan bedi <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mfrac><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mn>2</mn><mi>x</mi></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>x</mi><mo>≠</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>1</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>x</mi><mo>=</mo><mn>0</mn></mtd></mtr></mtable></mrow></mrow></math>. Jakinda <math display=\"inline\"><mi>f</mi></math> jarraitua dela, kalkulatu <math display=\"inline\"><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><msup><mi>h</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "<em>&quot;Badakigunez <math display=\"inline\"><mi>f</mi></math> jarraitua dela <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> denean, <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn></mrow></math>  denez:&quot;</em> <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>0</mn><mo>−</mo></msup></mrow></munder><mfrac><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mn>2</mn><mi>x</mi></mrow></mfrac><mo>=</mo><mn>1</mn><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mfrac><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mn>2</mn><mi>x</mi></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> beraz </mtext><mspace width=\"0.333em\"></mspace></mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mn>2</mn><mi>x</mi></mrow></mfrac><mo>=</mo><mn>1</mn></mrow></math> <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></math>-n <math display=\"inline\"><mrow><mn>2</mn><mi>x</mi><mo>→</mo><mn>0</mn></mrow></math> denez, zatidurak limite finitua izateko: <math display=\"inline\"><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>  (laukituta)."
+   },
+   {
+    "mota": "testua",
+    "html": "<em>&quot;<math display=\"inline\"><mfrac><mn>0</mn><mn>0</mn></mfrac></math> motako limitea denez, L&#x27;Hôpital erabiliz:&quot;</em> <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><msup><mi>h</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>1</mn><mo>⇒</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><msup><mi>h</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn></mrow></math> <em>&quot;<math display=\"inline\"><mrow><msup><mi>h</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> jarraitua denez (nola badakigu bi aldiz deribagarria delako):&quot;</em>  <math display=\"inline\"><mrow><msup><mi>h</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn></mrow></math>  (laukituta)."
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><msup><mi>h</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_02funtzioak#99": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a93",
+  "atalaIzena": "59. ariketa — Azterketa 2012-05-29: <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><msup><mi>e</mi><mfrac><mn>1</mn><mi>x</mi></mfrac></msup><mo>,</mo><mi>x</mi><mo>&lt;</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mspace width=\"0.167em\"></mspace><mfrac><mn>2</mn><mn>3</mn></mfrac><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mi>x</mi><mo>≥</mo><mn>0</mn></mtd></mtr></mtable></mrow></mrow></math>: jarraitutasuna eta deribagarritasuna",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Azterketa, 2012-05-29; &quot;aztertu <math display=\"inline\"><mi>f</mi></math>-ren jarraitutasuna eta deribagarritasuna&quot;.)  <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><msup><mi>e</mi><mfrac><mn>1</mn><mi>x</mi></mfrac></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>x</mi><mo>&lt;</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mfrac><mn>2</mn><mn>3</mn></mfrac><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>x</mi><mo>≥</mo><mn>0</mn></mtd></mtr></mtable></mrow></mrow></math>."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "<strong>Jarraitutasuna.</strong>  <math display=\"inline\"><mrow><mi>x</mi><msup><mi>e</mi><mfrac><mn>1</mn><mi>x</mi></mfrac></msup></mrow></math>: <math display=\"inline\"><mrow><mi>x</mi><mo>∈</mo><mi mathvariant=\"double-struck\">ℝ</mi><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mn>0</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math>-n bi funtzio jarraituren biderkadura (<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> ez dagokio adar honi); <math display=\"inline\"><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>: <math display=\"inline\"><mrow><mi>x</mi><mo>∈</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math>-n jarraitua (&quot;polinomioa&quot; + <math display=\"inline\"><mi mathvariant=\"normal\">ln</mi></math> konposaketa ondo definitua, <math display=\"inline\"><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>&gt;</mo><mn>0</mn></mrow></math>)."
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mn>0</mn></math>-ko balioa: <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>⋅</mo><msup><mn>0</mn><mn>3</mn></msup><mo>−</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mn>0</mn><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>. Alboko limiteak: <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>0</mn><mo>−</mo></msup></mrow></munder><mi>x</mi><msup><mi>e</mi><mfrac><mn>1</mn><mi>x</mi></mfrac></msup><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>e</mi><mfrac><mn>1</mn><mi>x</mi></mfrac></msup><mo>→</mo><mn>0</mn><mo>,</mo><mspace width=\"0.167em\"></mspace><mi>x</mi><mo>→</mo><msup><mn>0</mn><mo>−</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>;</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mfrac><mn>2</mn><mn>3</mn></mfrac><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> &quot;BERAZ JARRAITUA&quot;."
+   },
+   {
+    "mota": "testua",
+    "html": "<strong>Deribagarritasuna <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>-n, definizioz:</strong>  <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>h</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>0</mn></msub><mo>+</mo><mi>h</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mi>h</mi></mfrac></mrow></math>:"
+   },
+   {
+    "mota": "testua",
+    "html": "Eskuinetik: <math display=\"block\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mn>0</mn><mo>+</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>h</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mfrac><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>h</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mi>h</mi></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>h</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mfrac><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><msup><mi>h</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mi>h</mi></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>h</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mfrac><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><msup><mi>h</mi><mn>3</mn></msup></mrow><mi>h</mi></mfrac><mo>−</mo><mn>2</mn><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>h</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mi>h</mi></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>h</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mfrac><mn>2</mn><mn>3</mn></mfrac><msup><mi>h</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>h</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mfrac><msup><mi>h</mi><mn>2</mn></msup><mi>h</mi></mfrac><mo>=</mo><mn>0</mn><mo>−</mo><mn>2</mn><mo>⋅</mo><mn>0</mn><mo>=</mo><mn>0</mn></mrow></math> (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∼</mo><mi>u</mi></mrow></math> baliokidetzaz). Ezkerretik (<math display=\"inline\"><mrow><mi>x</mi><mo>&lt;</mo><mn>0</mn></mrow></math>): <math display=\"block\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mn>0</mn><mo>−</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>h</mi><mo>→</mo><msup><mn>0</mn><mo>−</mo></msup></mrow></munder><mfrac><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>h</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mi>h</mi></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>h</mi><mo>→</mo><msup><mn>0</mn><mo>−</mo></msup></mrow></munder><mfrac><mrow><mi>h</mi><msup><mi>e</mi><mfrac><mn>1</mn><mi>h</mi></mfrac></msup></mrow><mi>h</mi></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>h</mi><mo>→</mo><msup><mn>0</mn><mo>−</mo></msup></mrow></munder><msup><mi>e</mi><mfrac><mn>1</mn><mi>h</mi></mfrac></msup><mo>=</mo><mn>0</mn></mrow></math> <em>&quot;<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> DERIBAGARRIA DA <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>-n&quot;</em>  (bi alboko deribatuak <math display=\"inline\"><mrow><mo>=</mo><mn>0</mn></mrow></math>)."
+   },
+   {
+    "mota": "testua",
+    "html": "<strong>Deribatu-funtzioa</strong>  (gainerako puntuetan): <math display=\"block\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><msup><mi>e</mi><mfrac><mn>1</mn><mi>x</mi></mfrac></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup><mo>=</mo><msup><mi>e</mi><mfrac><mn>1</mn><mi>x</mi></mfrac></msup><mo>−</mo><mfrac><msup><mi>e</mi><mfrac><mn>1</mn><mi>x</mi></mfrac></msup><mi>x</mi></mfrac><mo>=</mo><msup><mi>e</mi><mfrac><mn>1</mn><mi>x</mi></mfrac></msup><mfrac><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mi>x</mi></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>x</mi><mo>&lt;</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><mi mathvariant=\"normal\">ln</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mfrac><mrow><mn>4</mn><mi>x</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>x</mi><mo>&gt;</mo><mn>0</mn></mtd></mtr></mtable></mrow></mrow></math>"
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><mi>f</mi><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> jarraitua eta deribagarria </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"double-struck\">ℝ</mi><mrow><mtext mathvariant=\"normal\">-n; </mtext><mspace width=\"0.333em\"></mspace></mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_02funtzioak#100": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a94",
+  "atalaIzena": "60. ariketa — Azterketa 2012-06-28, G2: <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfrac></mrow></math> kurbaren zuzen ukitzailea <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>-n",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Azterketa, 2012-06-28, G2; &quot;IDATZI ... kurbaren zuzen ukitzailearen ekuazioa <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> abzisako puntuan&quot;.)  <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfrac></mrow></math>."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "Gorriz: <math display=\"inline\"><mrow><mi>y</mi><mo>−</mo><msub><mi>y</mi><mn>0</mn></msub><mo>=</mo><msup><mi>f</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>. <math display=\"block\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mi>−</mi><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>x</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></mfrac></mrow><mrow><mn>1</mn><mo>+</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mrow><mtext mathvariant=\"normal\">koadernoan zenbakitzailea </mtext><mspace width=\"0.333em\"></mspace></mrow><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> idatzita dago; ik. Zuzenketa</mtext></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mspace width=\"1.0em\"></mspace><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mi>−</mi><mn>1</mn></mrow><mrow><mn>1</mn><mo>+</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mn>0</mn></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>"
+   },
+   {
+    "mota": "oharra",
+    "titulua": "Zuzenketa",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "Koadernoak <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac></mrow></math> eta <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>  dakartza: katearen erregelako barne-deribatua (<math display=\"inline\"><mrow><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>x</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></mfrac></mrow></math>) falta da. Balio zuzena <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mi>−</mi><mn>1</mn></mrow><mrow><mn>1</mn><mo>+</mo><mn>1</mn></mrow></mfrac><mo>⋅</mo><mn>1</mn><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math> da; malda <math display=\"inline\"><mrow><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>, ez <math display=\"inline\"><mrow><mi>+</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>. Ondoko zuzen ukitzailea horrekin zuzenduta ematen da."
+     }
+    ]
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mn>0</mn></mrow></mfrac><mo>=</mo><mfrac><mi>π</mi><mn>4</mn></mfrac><mo>;</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>y</mi><mo>−</mo><mfrac><mi>π</mi><mn>4</mn></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⇒</mo><mi>y</mi><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mi>π</mi><mn>4</mn></mfrac></mrow></math> (koadernoan <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mi>π</mi><mn>4</mn></mfrac></mrow></math>, malda okerrarekin; &quot;zuzen ukitzailearen malda&quot; oharra alboan)."
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><mi>y</mi><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mi>π</mi><mn>4</mn></mfrac><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mrow><mtext mathvariant=\"normal\">jatorrizkoan </mtext><mspace width=\"0.333em\"></mspace></mrow><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>,</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Zuzenketa ikus</mtext></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_02funtzioak#101": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a95",
+  "atalaIzena": "61. ariketa — Azterketa 2012-06-28, G4: <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&lt;</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&gt;</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> → <math display=\"inline\"><mrow><mo>∃</mo><mi>c</mi></mrow></math> non <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Azterketa, 2012-06-28, G4.) Izan bitez <math display=\"inline\"><mi>f</mi></math> eta <math display=\"inline\"><mi>g</mi></math> funtzioak <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> tartean jarraituak, <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&lt;</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&gt;</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> izanik. Frogatu existitzen dela <math display=\"inline\"><mrow><mi>c</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> non <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> den."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzioa definituko dugu; <math display=\"inline\"><mi>f</mi></math> eta <math display=\"inline\"><mi>g</mi></math> jarraituak direnez <math display=\"inline\"><mi>h</mi></math> ere jarraitua da. <math display=\"block\"><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&lt;</mo><mn>0</mn><mo>;</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&gt;</mo><mn>0</mn></mrow></math> <em>&quot;Bolzanoren teorema erabiliz badakigu <math display=\"inline\"><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> gutxienez aldi batez anulatzen dela&quot;</em>: <math display=\"inline\"><mrow><mo>∃</mo><mi>c</mi></mrow></math>, <math display=\"inline\"><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>. <math display=\"block\"><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> denez</mtext></mrow><mo>:</mo><mspace width=\"1.0em\"></mspace><mn>0</mn><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> beraz </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"1.0em\"></mspace><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"1.0em\"></mspace><mi>▫</mi></mrow></math>"
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><mo>∃</mo><mi>c</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>:</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_02funtzioak#102": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a96",
+  "atalaIzena": "66. ariketa — <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">cos</mi><msup><mi>x</mi><mi>α</mi></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mfrac><mn>1</mn><mi mathvariant=\"normal\">sin</mi></mfrac><mi>x</mi></mrow></msup></mrow></math>: kasu-azterketa <math display=\"inline\"><mi>α</mi></math>-ren arabera (2013-05-29)",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Orri bera.) Kalkula ezazu <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">cos</mi><msup><mi>x</mi><mi>α</mi></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mfrac><mn>1</mn><mi mathvariant=\"normal\">sin</mi></mfrac><mi>x</mi></mrow></msup></mrow></math>, <math display=\"inline\"><mrow><mi>α</mi><mo>&gt;</mo><mn>0</mn></mrow></math> parametroaren arabera."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>A</mi></math> deitu limiteari eta logaritmoa hartu (&quot;<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mo>=</mo><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mi mathvariant=\"normal\">ln</mi></mrow></math>&quot;): <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>A</mi><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mn>1</mn><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msup><mi>x</mi><mi>α</mi></msup></mrow></math> <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>B</mi><mo>≃</mo><mi>B</mi><mo>−</mo><mn>1</mn></mrow></math>  (<math display=\"inline\"><mrow><mi>B</mi><mo>→</mo><mn>1</mn></mrow></math>)  baliokidetzaz: <math display=\"block\"><mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mn>1</mn><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">cos</mi><msup><mi>x</mi><mi>α</mi></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>≃</mo><mi>x</mi><mspace width=\"0.167em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>→</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> <math display=\"block\"><mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msup><mi>x</mi><mi>α</mi></msup><mo>−</mo><mn>1</mn></mrow><mi>x</mi></mfrac><mspace width=\"1.0em\"></mspace><mfrac><mn>0</mn><mn>0</mn></mfrac><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> indeterminazioa, beraz L’Hôpital egin daiteke: </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math> <math display=\"block\"><mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>−</mi><mi>α</mi><msup><mi>x</mi><mrow><mi>α</mi><mo>−</mo><mn>1</mn></mrow></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><msup><mi>x</mi><mi>α</mi></msup></mrow><mn>1</mn></mfrac><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mrow><mtext mathvariant=\"normal\">berriz ere </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"normal\">sin</mi><msup><mi>x</mi><mi>α</mi></msup><mo>≃</mo><msup><mi>x</mi><mi>α</mi></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mspace width=\"1.0em\"></mspace><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mo>−</mo><mi>α</mi><msup><mi>x</mi><mrow><mn>2</mn><mi>α</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow></math> Kasuak (giltza handi batekin, hirurak laukituta):"
+   },
+   {
+    "mota": "zerrenda",
+    "ordenatua": false,
+    "elementuak": [
+     "<math display=\"inline\"><mrow><mn>2</mn><mi>α</mi><mo>−</mo><mn>1</mn><mo>&gt;</mo><mn>0</mn><mo>⇐</mo><mi>α</mi><mo>&gt;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>A</mi><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>A</mi><mo>=</mo><mn>1</mn></mrow></math>.",
+     "<math display=\"inline\"><mrow><mn>2</mn><mi>α</mi><mo>−</mo><mn>1</mn><mo>=</mo><mn>0</mn><mo>⇐</mo><mi>α</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>A</mi><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>⇒</mo><mi>A</mi><mo>=</mo><mfrac><mn>1</mn><msqrt><mi>e</mi></msqrt></mfrac></mrow></math>.",
+     "<math display=\"inline\"><mrow><mn>2</mn><mi>α</mi><mo>−</mo><mn>1</mn><mo>&lt;</mo><mn>0</mn><mo>⇐</mo><mn>0</mn><mo>&lt;</mo><mi>α</mi><mo>&lt;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>A</mi><mo>=</mo><mi>−</mi><mi>∞</mi><mo>⇒</mo><mi>A</mi><mo>=</mo><mn>0</mn></mrow></math>."
+    ]
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">cos</mi><msup><mi>x</mi><mi>α</mi></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mfrac><mn>1</mn><mi mathvariant=\"normal\">sin</mi></mfrac><mi>x</mi></mrow></msup><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>1</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>α</mi><mo>&gt;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><msup><mi>e</mi><mrow><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>α</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><mn>0</mn><mo>&lt;</mo><mi>α</mi><mo>&lt;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mtd></mtr></mtable></mrow></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_02funtzioak#103": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a97",
+  "atalaIzena": "67. ariketa — 6(vi): <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></msup></mrow></math>  (2013-05-29)",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Orri bera, 6(vi).) Kalkula ezazu <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></msup></mrow></math>."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>A</mi></math> deituta, logaritmoak: <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>A</mi><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow></munder><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mspace width=\"0.167em\"></mspace><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow></munder><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>B</mi><mo>≃</mo><mi>B</mi><mo>−</mo><mn>1</mn></mrow></math> berriro). Idatzita dagoen bidea: <math display=\"block\"><mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow></munder><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>−</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mfrac><mn>0</mn><mn>0</mn></mfrac><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> L’Hôpital: </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"1.0em\"></mspace><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow></munder><mfrac><mrow><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mrow><mi>−</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>0</mn><mo>−</mo><mn>0</mn></mrow><mrow><mi>−</mi><mn>1</mn></mrow></mfrac><mo>=</mo><mn>0</mn></mrow></math> <math display=\"block\"><mrow><mn>0</mn><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>A</mi><mo>⇐</mo><msup><mi>e</mi><mn>0</mn></msup><mo>=</mo><mi>A</mi><mo>⇐</mo><mi>A</mi><mo>=</mo><mn>1</mn></mrow></math>"
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></msup><mo>=</mo><mn>1</mn></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_02funtzioak#104": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a98",
+  "atalaIzena": "68. ariketa — <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>/</mi><msup><mi>x</mi><mn>3</mn></msup></mrow></msup></mrow></math>  (2012-01-13)",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(2012-01-13ko azterketa-ariketa.) Kalkula ezazu <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><msup><mi>x</mi><mn>3</mn></msup></mfrac></msup></mrow></math>."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>A</mi></mrow></math>  metodoa: <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>A</mi><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><msup><mi>x</mi><mn>3</mn></msup></mfrac><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mi>x</mi></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><msup><mi>x</mi><mn>3</mn></msup></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mi>x</mi></mfrac><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">ln</mi><mi>B</mi><mo>≃</mo><mi>B</mi><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> <math display=\"block\"><mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><msup><mi>x</mi><mn>3</mn></msup></mfrac><mo>⋅</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mi>x</mi></mrow><mi>x</mi></mfrac><mspace width=\"1.0em\"></mspace><mo>;</mo><mspace width=\"1.0em\"></mspace><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>≃</mo><mi>x</mi><mspace width=\"0.167em\"></mspace><mo>⇒</mo><mspace width=\"0.167em\"></mspace><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><msup><mi>x</mi><mn>3</mn></msup></mfrac><mo>→</mo><mfrac><mi>x</mi><msup><mi>x</mi><mn>3</mn></msup></mfrac></mrow></math> <math display=\"block\"><mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mi>x</mi><msup><mi>x</mi><mn>3</mn></msup></mfrac><mo>⋅</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mi>x</mi></mrow><mi>x</mi></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mi>x</mi></mrow><msup><mi>x</mi><mn>3</mn></msup></mfrac><mspace width=\"1.0em\"></mspace><mfrac><mn>0</mn><mn>0</mn></mfrac><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> L’Hôpital: </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math> <math display=\"block\"><mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mrow><mtext mathvariant=\"normal\">marjinan </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo>−</mo><mn>1</mn><mo>≃</mo><mi>−</mi><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mspace width=\"1.0em\"></mspace><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mi>…</mi></mrow></math> Koadernoan bi bide batera: L&#x27;Hôpital bigarrenez edo baliokidetza; azken lerroa: <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>A</mi><mo>=</mo><msup><mi>e</mi><mrow><mi>−</mi><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></msup></mrow></math>"
+   },
+   {
+    "mota": "oharra",
+    "titulua": "Oharra",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "Koadernoak lerro batean <math display=\"inline\"><mfrac><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></math> eta hurrengoan <math display=\"inline\"><mfrac><mrow><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></math> idazten du: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mn>1</mn><mo>≃</mo><mi>−</mi><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac></mrow></math> baliokidetza sartu du eta <math display=\"inline\"><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math>-ren bikoitza jarri izendatzailean (<math display=\"inline\"><mrow><mi>−</mi><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac></mrow></math> zenbakitzailean sartu ordez) — emaitza bera, <math display=\"inline\"><mrow><mi>−</mi><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></math>."
+     }
+    ]
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><msup><mi>x</mi><mn>3</mn></msup></mfrac></msup><mo>=</mo><msup><mi>e</mi><mrow><mi>−</mi><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></msup></mrow></math>"
+     }
+    ]
+   }
+  ]
+ },
+ "01mc_02funtzioak#105": {
+  "mota": "ariketa",
+  "kapitulua": "01mc_02funtzioak",
+  "atala": "a99",
+  "atalaIzena": "81. ariketa — 6A: <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><msup><mi>a</mi><mi>x</mi></msup><mo>+</mo><msup><mi>b</mi><mi>x</mi></msup></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mn>1</mn><mi>x</mi></mfrac></msup></mrow></math>",
+  "izena": null,
+  "izar": 0,
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "(Azterketa-zerrenda bateko 6A; &quot;KALKULATU&quot;.) Kalkula ezazu <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><msup><mi>a</mi><mi>x</mi></msup><mo>+</mo><msup><mi>b</mi><mi>x</mi></msup></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mn>1</mn><mi>x</mi></mfrac></msup></mrow></math>."
+   }
+  ],
+  "ebazpena": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><msup><mi>a</mi><mi>x</mi></msup><mo>+</mo><msup><mi>b</mi><mi>x</mi></msup></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mn>1</mn><mi>x</mi></mfrac></msup><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>1</mn><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mn>1</mn><mn>0</mn></mfrac></msup><mo>=</mo><msup><mn>1</mn><mi>∞</mi></msup></mrow></math> indeterminazioa. Eskema urdinez/berdez:  <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><msup><mi>B</mi><mi>E</mi></msup><mo>=</mo><mi>A</mi></mrow></math>; <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><msup><mi>B</mi><mi>E</mi></msup><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>A</mi><mo>→</mo><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mi>E</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>B</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>A</mi><mo>→</mo><msup><mi>e</mi><mrow><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mi>E</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>B</mi></mrow></msup><mo>=</mo><mi>A</mi></mrow></math>: <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><msup><mi>a</mi><mi>x</mi></msup><mo>+</mo><msup><mi>b</mi><mi>x</mi></msup></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mn>1</mn><mi>x</mi></mfrac></msup><mo>=</mo><msup><mi>e</mi><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mn>1</mn><mi>x</mi></mfrac><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><msup><mi>a</mi><mi>x</mi></msup><mo>+</mo><msup><mi>b</mi><mi>x</mi></msup></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup><mo>=</mo><msup><mi>e</mi><mi>C</mi></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>A</mi><mo>=</mo><msup><mi>e</mi><mi>C</mi></msup></mrow></math> <strong><math display=\"inline\"><mi>C</mi></math>-ren kalkulua.</strong>  Gorriz: <em>&quot;aplicamos la equivalencia: cuando <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mn>1</mn></mrow></math>... <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>≃</mo><mi>x</mi><mo>−</mo><mn>1</mn></mrow></math>&quot;</em>: <math display=\"block\"><mrow><mi>C</mi><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mn>1</mn><mi>x</mi></mfrac><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mrow><msup><mi>a</mi><mi>x</mi></msup><mo>+</mo><msup><mi>b</mi><mi>x</mi></msup></mrow><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mn>1</mn><mi>x</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><msup><mi>a</mi><mi>x</mi></msup><mo>+</mo><msup><mi>b</mi><mi>x</mi></msup></mrow><mn>2</mn></mfrac><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>⋅</mo><mfrac><mrow><msup><mi>a</mi><mi>x</mi></msup><mo>+</mo><msup><mi>b</mi><mi>x</mi></msup><mo>−</mo><mn>2</mn></mrow><mn>2</mn></mfrac></mrow></math> <em>&quot;Nola aurkitzen dugun indeterminazioa <math display=\"inline\"><mfrac><mn>0</mn><mn>0</mn></mfrac></math> aplicamos L&#x27;Hôpital&quot;</em>: <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><msup><mi>a</mi><mi>x</mi></msup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>a</mi><mo>+</mo><msup><mi>b</mi><mi>x</mi></msup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>b</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>a</mi><mo>+</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>b</mi></mrow><mn>2</mn></mfrac></mrow></math> Arrosaz: <em>&quot;orain logaritmoaren jabetza bat aplikatzen dugu... gero beste bat&quot;</em>: <math display=\"block\"><mrow><mi>C</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>⋅</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>b</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><msqrt><mrow><mi>a</mi><mi>b</mi></mrow></msqrt></mrow></math> <strong>&quot;SOLUCIÓN&quot;:</strong> <math display=\"block\"><mrow><mi>A</mi><mo>=</mo><msup><mi>e</mi><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><msqrt><mrow><mi>a</mi><mi>b</mi></mrow></msqrt></mrow></msup><mo>=</mo><msqrt><mrow><mi>a</mi><mi>b</mi></mrow></msqrt></mrow></math> (gorriz biribilduta)."
+   },
+   {
+    "mota": "kutxa",
+    "kolorea": "laranja",
+    "titulua": null,
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><msup><mi>a</mi><mi>x</mi></msup><mo>+</mo><msup><mi>b</mi><mi>x</mi></msup></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mn>1</mn><mi>x</mi></mfrac></msup><mo>=</mo><msqrt><mrow><mi>a</mi><mi>b</mi></mrow></msqrt></mrow></math>"
+     }
+    ]
+   }
+  ]
  }
 };

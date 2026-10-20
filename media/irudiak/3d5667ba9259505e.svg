@@ -1,0 +1,15 @@
+<svg class="typst-doc" viewBox="0 0 70.03149606299213 56.425196850393704" width="70.03149606299213pt" height="56.425196850393704pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:h5="http://www.w3.org/1999/xhtml">
+    <g>
+        <g class="typst-group" transform="matrix(1 0 0 1 1 1)">
+            <g>
+                <path class="typst-shape" fill="none" stroke="#1d2733" stroke-width="0.6" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 0 28.346456692913385)" d="M 0 0h 68.031494 "/>
+                <path class="typst-shape" fill="none" stroke="#787878" stroke-width="0.4" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dashoffset="0" stroke-dasharray="3 3" transform="matrix(1 0 0 1 11.338582677165354 0)" d="M 0 0m 0 54.425198 v -54.425198 "/>
+                <path class="typst-shape" fill="none" stroke="#787878" stroke-width="0.4" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dashoffset="0" stroke-dasharray="3 3" transform="matrix(1 0 0 1 56.69291338582677 0)" d="M 0 0m 0 54.425198 v -54.425198 "/>
+                <path class="typst-shape" fill="none" stroke="#b3362a" stroke-width="1.1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 1.1338582677165363 1.1338582677165363)" d="M 0 0m 0 23.811024 c 3.4015749 -7.937008 6.8031497 -19.27559 9.070867 -23.811024 "/>
+                <path class="typst-shape" fill="none" stroke="#b3362a" stroke-width="1.1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 12.47244094488189 31.74803149606299)" d="M 0 0m 0 21.543306 c 6.8031497 -4.535433 14.740157 -18.141731 21.543306 -21.543306 "/>
+                <path class="typst-shape" fill="none" stroke="#b3362a" stroke-width="1.1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 34.01574803149607 31.74803149606299)" d="M 0 0c 6.8031497 3.4015749 14.740157 17.007874 21.543306 21.543306 "/>
+                <path class="typst-shape" fill="none" stroke="#b3362a" stroke-width="1.1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 57.8267716535433 1.1338582677165363)" d="M 0 0c 2.2677166 4.5354333 5.6692915 15.874016 9.070867 23.811024 "/>
+            </g>
+        </g>
+    </g>
+</svg>

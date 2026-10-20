@@ -55,7 +55,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "01ma_06geometria2": {
   "titulua": "JAKINA - B2 - Geometria eta koadernoak - IV",
@@ -63,7 +63,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "01mc_01deribatuak": {
   "titulua": "JAKINA - B3 - Kalkulua eta analisia - I",
@@ -71,7 +71,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "01mc_02funtzioak": {
   "titulua": "JAKINA - B3 - Kalkulua eta analisia - I (koadernoak II)",
@@ -79,7 +79,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "01mc_03integralak": {
   "titulua": "JAKINA - B3 - Kalkulua eta analisia - II",
