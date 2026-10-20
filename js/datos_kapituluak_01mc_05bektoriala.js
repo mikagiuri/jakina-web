@@ -31,7 +31,7 @@ KAPITULUAK["01mc_05bektoriala"] = {
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/03_calculo_analisis/_sueltos_sin_clasificar/8_Gaia_12_13_Aldagai_anitzeko_funtzioak_KDI.pdf",
+   "proiektua": "8_Gaia_12_13_Aldagai_anitzeko_funtzioak_KDI.pdf",
    "xehetasuna": "Kalkulu Diferentziala eta Integrala, UPV/EHU (2012-13), 8. gaia — teoria tipografiatua, euskaraz. Ariketak: 03_calculo_analisis/calculo/KALKULU DIFERENTZIAL ETA INTEGRALA/BIGARREN LAUHILABETEA/8 ALDAGAI ANITZEKO FUNTZIOAK/ (ebazpenik gabe)",
    "hizkuntza": "eu"
   }
@@ -1065,7 +1065,7 @@ KAPITULUAK["01mc_05bektoriala"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/03_calculo_analisis/analisis/ANALISI BEKTORIAL ETA KONPLEXUA/ANA 1_Gaia.pdf",
+     "proiektua": "ANA 1_Gaia.pdf",
      "xehetasuna": "Analisi Bektorial eta Konplexua, UPV/EHU, 1. gaia (Muturrak) — teoria tipografiatua + ariketak, euskaraz. Ariketak: ANA 1_Gaia ariketak.pdf (ebazpenik gabe)",
      "hizkuntza": "eu"
     }
@@ -1803,7 +1803,7 @@ KAPITULUAK["01mc_05bektoriala"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/03_calculo_analisis/analisis/ANALISI BEKTORIAL ETA KONPLEXUA/ANA 2_Gaia.pdf",
+     "proiektua": "ANA 2_Gaia.pdf",
      "xehetasuna": "Analisi Bektorial eta Konplexua, UPV/EHU, 2. gaia (Funtzio inplizituak) — teoria tipografiatua + ariketak, euskaraz. Ariketak: ANA 2_Gaia ariketak.pdf (batzuk emaitzarekin)",
      "hizkuntza": "eu"
     },
@@ -2140,7 +2140,7 @@ KAPITULUAK["01mc_05bektoriala"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/03_calculo_analisis/analisis/ANALISI BEKTORIAL ETA KONPLEXUA/ANA 3_Gaia.pdf",
+     "proiektua": "ANA 3_Gaia.pdf",
      "xehetasuna": "Analisi Bektorial eta Konplexua, UPV/EHU, 3. gaia (Integral bikoitza) — teoria tipografiatua + ariketak, euskaraz. Ariketak: ANA 3_Gaia ariketak.pdf (batzuk emaitzarekin)",
      "hizkuntza": "eu"
     },
@@ -4233,7 +4233,7 @@ KAPITULUAK["01mc_05bektoriala"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/03_calculo_analisis/analisis/ANALISI BEKTORIAL ETA KONPLEXUA/ANA 4_Gaia.pdf",
+     "proiektua": "ANA 4_Gaia.pdf",
      "xehetasuna": "Analisi Bektorial eta Konplexua, UPV/EHU, 4. gaia (Integral hirukoitza) — teoria tipografiatua + ariketak, euskaraz. Ariketak: ANA 4_Gaia ariketak.pdf (batzuk emaitzarekin)",
      "hizkuntza": "eu"
     }
@@ -4616,7 +4616,7 @@ KAPITULUAK["01mc_05bektoriala"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/03_calculo_analisis/analisis/ANALISI BEKTORIAL ETA KONPLEXUA/ANA 5_Gaia.pdf",
+     "proiektua": "ANA 5_Gaia.pdf",
      "xehetasuna": "Analisi Bektorial eta Konplexua, UPV/EHU, 5. gaia (Lerro-integralak) — teoria tipografiatua + ariketak, euskaraz. Ariketak: ANA 5_Gaia ariketak.pdf (batzuk emaitzarekin)",
      "hizkuntza": "eu"
     },
@@ -5657,7 +5657,7 @@ KAPITULUAK["01mc_05bektoriala"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/03_calculo_analisis/analisis/ANALISI BEKTORIAL ETA KONPLEXUA/ANA 6_Gaia.pdf",
+     "proiektua": "ANA 6_Gaia.pdf",
      "xehetasuna": "Analisi Bektorial eta Konplexua, UPV/EHU, 6. gaia (Gainazal-integralak) — teoria tipografiatua + ariketak, euskaraz. Ariketak: ANA 6_Gaia ariketak.pdf (batzuk emaitzarekin)",
      "hizkuntza": "eu"
     }
@@ -6167,7 +6167,7 @@ KAPITULUAK["01mc_05bektoriala"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/03_calculo_analisis/analisis/ANALISI BEKTORIAL ETA KONPLEXUA/ANA 7_Gaia.pdf",
+     "proiektua": "ANA 7_Gaia.pdf",
      "xehetasuna": "Analisi Bektorial eta Konplexua, UPV/EHU, 7. gaia (Green/Stokes/Gauss teoremak) — teoria tipografiatua + ariketak, euskaraz. Ariketak: ANA 7_Gaia ariketak.pdf (batzuk emaitzarekin)",
      "hizkuntza": "eu"
     }

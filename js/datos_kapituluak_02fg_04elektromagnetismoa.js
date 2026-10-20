@@ -30,7 +30,7 @@ KAPITULUAK["02fg_04elektromagnetismoa"] = {
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/04_fisica_general/BIGARREN LAUHILABETEA/",
+   "proiektua": "BIGARREN LAUHILABETEA",
    "xehetasuna": "FISIKA OROKORRA, UPV/EHU, bigarren lauhilabeteko elektrizitate eta magnetismoaren lehen pasea",
    "hizkuntza": "eu"
   }
@@ -953,7 +953,7 @@ KAPITULUAK["02fg_04elektromagnetismoa"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013",
+     "proiektua": "diario landeta 2 ene 2013",
      "xehetasuna": "LANDETA2 — FISICA LANDETA errotulua, 134-200 orrialdeak (17 zatiki): eskuzko iturriaren edizio kritikoa, hitzez hitz, lau geruzatan (transkripzioa / irakurketa-zalantzak / zuzenketak / egiaztapen matematikoa). Ez da laburpenik egin.",
      "hizkuntza": "es/eu"
     },
@@ -2265,7 +2265,7 @@ KAPITULUAK["02fg_04elektromagnetismoa"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013",
+     "proiektua": "diario landeta 2 ene 2013",
      "xehetasuna": "LANDETA2 — FISICA NEWTON errotulua, 143-190 orrialdeak (9 zatiki): eskuzko iturriaren edizio kritikoa, hitzez hitz, lau geruzatan (transkripzioa / irakurketa-zalantzak / zuzenketak / egiaztapen matematikoa). Ez da laburpenik egin.",
      "hizkuntza": "es/eu"
     },
@@ -2837,7 +2837,7 @@ KAPITULUAK["02fg_04elektromagnetismoa"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013",
+     "proiektua": "diario landeta 2 ene 2013",
      "xehetasuna": "LANDETA2 — FISIKA II errotulua, 113-152 orrialdeak (9 zatiki): eskuzko iturriaren edizio kritikoa, hitzez hitz, lau geruzatan (transkripzioa / irakurketa-zalantzak / zuzenketak / egiaztapen matematikoa). Ez da laburpenik egin.",
      "hizkuntza": "es/eu"
     },
@@ -3180,7 +3180,7 @@ KAPITULUAK["02fg_04elektromagnetismoa"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013",
+     "proiektua": "diario landeta 2 ene 2013",
      "xehetasuna": "LANDETA2 — FISICA I errotulua, 161-214 orrialdeak (13 zatiki): eskuzko iturriaren edizio kritikoa, hitzez hitz, lau geruzatan (transkripzioa / irakurketa-zalantzak / zuzenketak / egiaztapen matematikoa). Ez da laburpenik egin.",
      "hizkuntza": "es/eu"
     },
@@ -4003,7 +4003,7 @@ KAPITULUAK["02fg_04elektromagnetismoa"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013",
+     "proiektua": "diario landeta 2 ene 2013",
      "xehetasuna": "LANDETA2 — FISICA JAVI / XABI errotulua, 205-232 orrialdeak (14 zatiki): eskuzko iturriaren edizio kritikoa, hitzez hitz, lau geruzatan (transkripzioa / irakurketa-zalantzak / zuzenketak / egiaztapen matematikoa). Ez da laburpenik egin.",
      "hizkuntza": "es/eu"
     },
@@ -5453,7 +5453,7 @@ KAPITULUAK["02fg_04elektromagnetismoa"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario fisica marzo 2013, IMG_2026_07_28_03_02_32S.jpg",
+     "proiektua": "diario fisica marzo 2013, IMG_2026_07_28_03_02_32S.jpg",
      "xehetasuna": "F1_0001: korronte alternoko zirkuituen eta fasoreen eskuzko teoriaren hitzez hitzeko transkripzio egiaztatua; irakurketa-zalantzak eta egiaztapen fisiko-matematikoa bereizita",
      "hizkuntza": "es/eu"
     }
@@ -6245,7 +6245,7 @@ KAPITULUAK["02fg_04elektromagnetismoa"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario fisica marzo 2013, 0003-0022",
+     "proiektua": "diario fisica marzo 2013, 0003-0022",
      "xehetasuna": "F1_L02: korronte alternoko eskuzko koadernoaren hitzez hitzeko transkripzio egiaztatua; zuzenketak eta egiaztapen matematikoak geruza bereizietan",
      "hizkuntza": "es/eu"
     }
@@ -6701,7 +6701,7 @@ KAPITULUAK["02fg_04elektromagnetismoa"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013",
+     "proiektua": "diario landeta 2 ene 2013",
      "xehetasuna": "LANDETA2 — ERROTULURIK GABE (euskaraz; ustez FISIKA II) errotulua, 234-236 orrialdeak (2 zatiki): eskuzko iturriaren edizio kritikoa, hitzez hitz, lau geruzatan (transkripzioa / irakurketa-zalantzak / zuzenketak / egiaztapen matematikoa). Ez da laburpenik egin.",
      "hizkuntza": "es/eu"
     },
@@ -8480,7 +8480,7 @@ KAPITULUAK["02fg_04elektromagnetismoa"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario fisica marzo 2013, 0023-0042",
+     "proiektua": "diario fisica marzo 2013, 0023-0042",
      "xehetasuna": "F1_L03: Fisika Orokorra II-ko eskuzko koadernoaren hitzez hitzeko transkripzio egiaztatua; zuzenketak eta egiaztapen fisiko-matematikoak geruza bereizietan",
      "hizkuntza": "es/eu"
     }

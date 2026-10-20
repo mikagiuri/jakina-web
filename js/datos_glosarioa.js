@@ -2260,6 +2260,195 @@ const GLOSARIOA = [
   "atala": "a41"
  },
  {
+  "t": "Motor termikoa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Motor termikoaren helburua lan erabilgarria ematea da. Sistemak beroa hartzen du iturri berotik eta beroaren zati bat iturri hotzera botatzen du: <math display=\"inline\"><mrow><msub><mi>Q</mi><mn>1</mn></msub><mo>&gt;</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><msub><mi>Q</mi><mn>2</mn></msub><mo>&lt;</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>W</mi><mo>&lt;</mo><mn>0</mn></mrow></math>. Errendimendua"
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><mi>η</mi><mo>=</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>W</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></mfrac><mo>=</mo><mn>1</mn><mo>−</mo><mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></mfrac><mi>.</mi></mrow></math>"
+     }
+    ]
+   },
+   {
+    "mota": "testua",
+    "html": "Bigarren printzipioak ez du uzten <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>=</mo><mn>0</mn></mrow></math> izatea ziklo errepikagarri batean; hortaz, motor termiko erreal edo ideal orok <math display=\"inline\"><mrow><mi>η</mi><mo>&lt;</mo><mn>1</mn></mrow></math> du bi iturriren artean."
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a24"
+ },
+ {
+  "t": "Hozkailua eta bero-ponpa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Hozkailuan helburua iturri hotzetik beroa ateratzea da. Horretarako lana eman behar zaio sistemari: <math display=\"inline\"><mrow><msub><mi>Q</mi><mn>1</mn></msub><mo>&lt;</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><msub><mi>Q</mi><mn>2</mn></msub><mo>&gt;</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>W</mi><mo>&gt;</mo><mn>0</mn></mrow></math>. Bere eraginkortasun-neurria"
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><msub><mi>ε</mi><mi>h</mi></msub><mo>=</mo><mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>W</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></mrow></mfrac><mi>.</mi></mrow></math>"
+     }
+    ]
+   },
+   {
+    "mota": "testua",
+    "html": "Bero-ponpan helburua iturri beroari beroa ematea da. Zeinuak berdin irakurri daitezke, baina orain emaitza baliagarria <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></math>  da:"
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><msub><mi>ε</mi><mi>p</mi></msub><mo>=</mo><mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>W</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></mrow></mfrac><mi>.</mi></mrow></math>"
+     }
+    ]
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a24"
+ },
+ {
+  "t": "Itzulgarritasuna",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Prozesu bat <strong>itzulgarria</strong> da baldin eta sistema eta ingurunea hasierako egoeretara itzul badaitezke, unibertsoaren gainerakoan beste aldaketarik utzi gabe."
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a26"
+ },
+ {
+  "t": "Entropia",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>S</mi></math> honela definitzen da: <math display=\"block\"><mrow><mi>d</mi><mi>S</mi><mo>=</mo><mfrac><mrow><mi>δ</mi><msub><mi>Q</mi><mtext mathvariant=\"normal\">itzulgarria</mtext></msub></mrow><mi>T</mi></mfrac><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a31"
+ },
+ {
+  "t": "Carnot-en zikloa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Edozein sistemarentzat eraiki daitekeen ziklo itzulgarria da. Bi lerro isotermano itzulgarriz eta bi lerro adiabatiko itzulgarriz osatzen da: <math display=\"block\"><mrow><mspace width=\"0.222em\"></mspace><mn>2</mn><mspace width=\"0.222em\"></mspace><mi>i</mi><mi>s</mi><mi>o</mi><mi>t</mi><mi>e</mi><mi>r</mi><mi>m</mi><mi>a</mi><mspace width=\"0.222em\"></mspace><mi>i</mi><mi>t</mi><mi>z</mi><mi>u</mi><mi>l</mi><mi>g</mi><mi>a</mi><mi>r</mi><mi>r</mi><mi>i</mi><mspace width=\"0.222em\"></mspace><mo>+</mo><mspace width=\"0.222em\"></mspace><mn>2</mn><mspace width=\"0.222em\"></mspace><mi>a</mi><mi>d</mi><mi>i</mi><mi>a</mi><mi>b</mi><mi>a</mi><mi>t</mi><mi>a</mi><mspace width=\"0.222em\"></mspace><mi>i</mi><mi>t</mi><mi>z</mi><mi>u</mi><mi>l</mi><mi>g</mi><mi>a</mi><mi>r</mi><mi>r</mi><mi>i</mi><mspace width=\"0.222em\"></mspace><mo>→</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> ziklo itzulgarria</mtext></mrow><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a37"
+ },
+ {
+  "t": "Oinarrizko ekuazioa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>S</mi><mo>=</mo><mi>S</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>U</mi><mo>,</mo><mi>V</mi><mo>,</mo><mi>N</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≡</mo><mi>U</mi><mo>=</mo><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>S</mi><mo>,</mo><mi>V</mi><mo>,</mo><mi>N</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math> Bi forma horiek — entropikoa eta energetikoa — <strong>oinarrizko ekuazioak</strong>  dira: informazio termodinamiko osoa daukate."
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a57"
+ },
+ {
+  "t": "Legendre-ren transformazioa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>ψ</mi><mo>=</mo><mi>ψ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>Y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>P</mi><mi>X</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math> non <math display=\"inline\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mi>d</mi><mi>Y</mi></mrow><mrow><mi>d</mi><mi>X</mi></mrow></mfrac></mrow></math> den. Informazio-galerarik gabe pasatzen da <math display=\"inline\"><mrow><mi>Y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>X</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtziotik <math display=\"inline\"><mrow><mi>ψ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>  funtziora: puntuen kokapenaren ordez, lerro tangenteen kokapena erabiliz."
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a63"
+ },
+ {
+  "t": "Helmholtz-en energia askea, <math display=\"inline\"><mi>F</mi></math>",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>F</mi><mo>≡</mo><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>T</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>,</mo></mrow></math> hau da, <math display=\"inline\"><mi>S</mi></math> aldagai naturala <math display=\"inline\"><mi>T</mi></math>-rekin ordezkatuz lortzen den energiaren Legendre-transformatua."
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a63"
+ },
+ {
+  "t": "Entalpia, <math display=\"inline\"><mi>H</mi></math>",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>H</mi><mo>≡</mo><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>,</mo></mrow></math> hau da, <math display=\"inline\"><mi>V</mi></math> aldagai naturala <math display=\"inline\"><mi>P</mi></math>-rekin ordezkatuz lortzen den energiaren Legendre-transformatua."
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a63"
+ },
+ {
+  "t": "Gibbs-en energia askea, <math display=\"inline\"><mi>G</mi></math>",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>G</mi><mo>≡</mo><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>T</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>,</mo></mrow></math> hau da, <math display=\"inline\"><mi>S</mi></math> eta <math display=\"inline\"><mi>V</mi></math> aldagai naturalak <math display=\"inline\"><mi>T</mi></math> eta <math display=\"inline\"><mi>P</mi></math>-rekin ordezkatuz lortzen den energiaren Legendre-transformatua."
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a63"
+ },
+ {
+  "t": "Egonkortasun-baldintzak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Formulazio entropikoan (Hessiar negatiboa): <math display=\"block\"><mrow><msub><mi>S</mi><mrow><mi>U</mi><mi>U</mi></mrow></msub><mo>≤</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>S</mi><mrow><mi>V</mi><mi>V</mi></mrow></msub><mo>≤</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>S</mi><mrow><mi>U</mi><mi>U</mi></mrow></msub><msub><mi>S</mi><mrow><mi>V</mi><mi>V</mi></mrow></msub><mo>−</mo><msubsup><mi>S</mi><mrow><mi>U</mi><mi>V</mi></mrow><mn>2</mn></msubsup><mo>≥</mo><mn>0</mn><mi>.</mi></mrow></math> Formulazio energetikoan, duala (Hessiar positiboa, <math display=\"inline\"><mrow><mi>U</mi><mo>=</mo><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>S</mi><mo>,</mo><mi>V</mi><mo>,</mo><mi>N</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> minimoa baita <math display=\"inline\"><mrow><mi>S</mi><mo>,</mo><mi>V</mi></mrow></math>-ren arabera): <math display=\"block\"><mrow><msub><mi>U</mi><mrow><mi>S</mi><mi>S</mi></mrow></msub><mo>≥</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>U</mi><mrow><mi>V</mi><mi>V</mi></mrow></msub><mo>≥</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>U</mi><mrow><mi>S</mi><mi>S</mi></mrow></msub><msub><mi>U</mi><mrow><mi>V</mi><mi>V</mi></mrow></msub><mo>−</mo><msubsup><mi>U</mi><mrow><mi>S</mi><mi>V</mi></mrow><mn>2</mn></msubsup><mo>≥</mo><mn>0</mn><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a65"
+ },
+ {
+  "t": "Van der Waals-en egoera-ekuazioa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mi>R</mi><mi>T</mi></mrow><mrow><mi>v</mi><mo>−</mo><mi>b</mi></mrow></mfrac><mo>−</mo><mfrac><mi>a</mi><msup><mi>v</mi><mn>2</mn></msup></mfrac><mo>,</mo></mrow></math> non <math display=\"inline\"><mi>v</mi></math> bolumen molarra den, eta <math display=\"inline\"><mrow><mi>a</mi><mo>,</mo><mi>b</mi></mrow></math> parametroek molekulen arteko erakarpena eta bolumen baztertua kodetzen dituzten."
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a66"
+ },
+ {
+  "t": "Puntu kritikoa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>P</mi></mrow><mrow><mi>∂</mi><mi>v</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msub><mi>T</mi><mi>k</mi></msub></msub><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>P</mi></mrow><mrow><mi>∂</mi><msup><mi>v</mi><mn>2</mn></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msub><mi>T</mi><mi>k</mi></msub></msub><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a66"
+ },
+ {
+  "t": "Ehrenfest-en sailkapena",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Fase-trantsizioak Gibbs-en potentzial termodinamikoaren deribatuen arabera sailkatzen dira: trantsizioaren <strong>ordena</strong> etena den lehen deribatuaren ordena da. <math display=\"inline\"><mi>G</mi></math> beti jarraitua da; <math display=\"inline\"><mi>n</mi></math>. ordenako trantsizioan <math display=\"inline\"><mi>G</mi></math>-ren <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. deribatuak jarraituak dira, baina <math display=\"inline\"><mi>n</mi></math>. deribatuetan jauzia edo dibergentzia agertzen da."
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a66"
+ },
+ {
   "t": "Ekuazio diferentziala (ED)",
   "blokeak": [
    {
@@ -2456,6 +2645,540 @@ const GLOSARIOA = [
   ],
   "kapitulua": "03mm_02serieak",
   "atala": "a11"
+ },
+ {
+  "t": "Barne-produktua",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>V</mi></math> izanik <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> tartean definitutako funtzioen espazioa eta <math display=\"inline\"><mrow><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&gt;</mo><mn>0</mn></mrow></math> <strong>pisu</strong>-funtzioa, barne-produktua honela definitzen da: <math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>f</mi><mspace width=\"0.222em\"></mspace><mo stretchy=\"false\" form=\"prefix\">|</mo><mspace width=\"0.222em\"></mspace><mi>g</mi><msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mi>ρ</mi></msub><mo>=</mo><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><msup><mi>f</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a21"
+ },
+ {
+  "t": "Norma",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">∥</mo><mi>f</mi><mo stretchy=\"true\" form=\"postfix\">∥</mo></mrow><mi>ρ</mi></msub><mo>=</mo><msqrt><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>f</mi><mspace width=\"0.222em\"></mspace><mo stretchy=\"false\" form=\"prefix\">|</mo><mspace width=\"0.222em\"></mspace><mi>f</mi><msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mi>ρ</mi></msub></mrow></msqrt><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mn>2</mn></msup><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a21"
+ },
+ {
+  "t": "Distantzia, konbergentzia eta ortogonaltasuna",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Bi funtzioen arteko distantzia <math display=\"block\"><mrow><mi>d</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>g</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">∥</mo><mi>f</mi><mo>−</mo><mi>g</mi><mo stretchy=\"true\" form=\"postfix\">∥</mo></mrow><mi>ρ</mi></msub><mi>.</mi></mrow></math> Konbergentzia normaren arabera: <math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">∥</mo><msub><mi>f</mi><mi>n</mi></msub><mo>−</mo><mi>f</mi><mo stretchy=\"true\" form=\"postfix\">∥</mo></mrow><mi>ρ</mi></msub><mo>→</mo><mn>0</mn></mrow></math> (<math display=\"inline\"><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></math>). Bi funtzio <strong>ortogonalak</strong> dira <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>f</mi><mspace width=\"0.222em\"></mspace><mo stretchy=\"false\" form=\"prefix\">|</mo><mspace width=\"0.222em\"></mspace><mi>g</mi><msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mi>ρ</mi></msub><mo>=</mo><mn>0</mn></mrow></math> bada."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a21"
+ },
+ {
+  "t": "Hilbert-en espazioa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Barne-produktua duen espazio bektoriala, norma horrekiko <strong>osoa</strong> dena (hots, Cauchy-ren segida orok limitea du espazioan)."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a21"
+ },
+ {
+  "t": "Gram-Schmidt-en ortogonalizazioa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mi>y</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mi>∞</mi></msubsup></math> familia linealki independentetik abiatuta, <math display=\"block\"><mrow><msub><mi>ψ</mi><mn>0</mn></msub><mo>=</mo><msub><mi>y</mi><mn>0</mn></msub><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>ψ</mi><mi>n</mi></msub><mo>=</mo><msub><mi>y</mi><mi>n</mi></msub><mo>−</mo><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></munderover><msub><mi>φ</mi><mi>k</mi></msub><mo stretchy=\"false\" form=\"prefix\">⟨</mo><msub><mi>φ</mi><mi>k</mi></msub><mspace width=\"0.222em\"></mspace><mo stretchy=\"false\" form=\"prefix\">|</mo><mspace width=\"0.222em\"></mspace><msub><mi>y</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>φ</mi><mi>n</mi></msub><mo>=</mo><mfrac><msub><mi>ψ</mi><mi>n</mi></msub><msub><mrow><mo stretchy=\"true\" form=\"prefix\">∥</mo><msub><mi>ψ</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">∥</mo></mrow><mi>ρ</mi></msub></mfrac><mi>.</mi></mrow></math> <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mi>ψ</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></math> ortogonala da eta <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mi>φ</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></math> ortonormala."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a21"
+ },
+ {
+  "t": "Adjuntua",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>L</mi></math> eragile diferentzialaren adjuntua <math display=\"inline\"><msup><mi>L</mi><mo>+</mo></msup></math> da, <math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>f</mi><mspace width=\"0.222em\"></mspace><mo stretchy=\"false\" form=\"prefix\">|</mo><mspace width=\"0.222em\"></mspace><mi>L</mi><mi>g</mi><msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mi>ρ</mi></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><msup><mi>L</mi><mo>+</mo></msup><mi>f</mi><mspace width=\"0.222em\"></mspace><mo stretchy=\"false\" form=\"prefix\">|</mo><mspace width=\"0.222em\"></mspace><mi>g</mi><msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mi>ρ</mi></msub><mo>,</mo><mspace width=\"1.0em\"></mspace><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><msup><mi>f</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mi>L</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><msup><mi>L</mi><mo>+</mo></msup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>*</mo></msup><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>,</mo></mrow></math> betetzen duena. Propietatea: <math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>L</mi><mo>+</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo></msup><mo>=</mo><mi>L</mi></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a22"
+ },
+ {
+  "t": "Eragile hermitiarra (autoadjuntua)",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>L</mi><mo>=</mo><msup><mi>L</mi><mo>+</mo></msup></mrow></math> bada, <math display=\"inline\"><mi>L</mi></math> <strong>hermitiarra</strong> da eta <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>f</mi><mspace width=\"0.222em\"></mspace><mo stretchy=\"false\" form=\"prefix\">|</mo><mspace width=\"0.222em\"></mspace><mi>L</mi><mi>g</mi><msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mi>ρ</mi></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>L</mi><mi>f</mi><mspace width=\"0.222em\"></mspace><mo stretchy=\"false\" form=\"prefix\">|</mo><mspace width=\"0.222em\"></mspace><mi>g</mi><msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mi>ρ</mi></msub></mrow></math> betetzen du (muga-baldintza egokiekin)."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a22"
+ },
+ {
+  "t": "Banandutako ekuazioak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>u</mi><mi>t</mi></msub><mo>=</mo><msup><mi>σ</mi><mn>2</mn></msup><msub><mi>u</mi><mrow><mi>x</mi><mi>x</mi></mrow></msub><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>X</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>T</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>σ</mi><mn>2</mn></msup><mi>T</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>X</mi><mo>″</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mfrac><mrow><msup><mi>T</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><msup><mi>σ</mi><mn>2</mn></msup><mi>T</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><msup><mi>X</mi><mo>″</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>X</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mo>=</mo><mi>−</mi><mi>λ</mi><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Hortaz,"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msup><mi>T</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><msup><mi>σ</mi><mn>2</mn></msup><mi>λ</mi><mi>T</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><msup><mi>X</mi><mo>″</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>λ</mi><mi>X</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a40"
+ },
+ {
+  "t": "Pisua",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Ekuazio espazialaren pisua"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><msub><mi>a</mi><mn>0</mn></msub></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">exp</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mo>∫</mo><msub><mi>a</mi><mn>1</mn></msub><mfrac><mi>x</mi><msub><mi>a</mi><mn>0</mn></msub></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">exp</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mo>∫</mo><mi>d</mi><mfrac><mi>x</mi><mi>x</mi></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>x</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "da. Beraz, hasierako datua <math display=\"inline\"><mrow><mn>1</mn><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mi>∞</mi></msubsup><msub><mi>f</mi><mi>n</mi></msub><msub><mi>X</mi><mrow><mi>n</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub></mrow></math> gisa garatzean,"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>f</mi><mi>n</mi></msub><mo>=</mo><mfrac><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>2</mn></msubsup><msub><mi>X</mi><mrow><mi>n</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mi>x</mi><mi>d</mi><mi>x</mi></mrow><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>2</mn></msubsup><msubsup><mi>X</mi><mrow><mi>n</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mn>2</mn></msubsup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></mfrac><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a43"
+ },
+ {
+  "t": "Koefiziente haztatuak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mn>1</mn><mo>=</mo><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mo accent=\"false\">∞</mo></munderover><mfrac><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>2</mn></msubsup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>n</mi><mfrac><mi>π</mi><mi mathvariant=\"normal\">log</mi></mfrac><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">log</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>x</mi><mi>d</mi><mi>x</mi></mrow><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>2</mn></msubsup><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>n</mi><mfrac><mi>π</mi><mi mathvariant=\"normal\">log</mi></mfrac><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi mathvariant=\"normal\">log</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></mfrac><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>n</mi><mfrac><mi>π</mi><mi mathvariant=\"normal\">log</mi></mfrac><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">log</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a44"
+ },
+ {
+  "t": "Gradientea",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>∇</mi><mi>φ</mi><mo>=</mo><mfrac><mrow><mi>∂</mi><mi>φ</mi></mrow><mrow><mi>∂</mi><mi>x</mi></mrow></mfrac><mover><mi>i</mi><mo accent=\"true\">̂</mo></mover><mo>+</mo><mfrac><mrow><mi>∂</mi><mi>φ</mi></mrow><mrow><mi>∂</mi><mi>y</mi></mrow></mfrac><mover><mi>j</mi><mo accent=\"true\">̂</mo></mover><mo>+</mo><mfrac><mrow><mi>∂</mi><mi>φ</mi></mrow><mrow><mi>∂</mi><mi>z</mi></mrow></mfrac><mover><mi>k</mi><mo accent=\"true\">̂</mo></mover><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a53"
+ },
+ {
+  "t": "Zatiak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>I</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>I</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a54"
+ },
+ {
+  "t": "Bektore-espazioko axiomak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>a</mi><mo>,</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>a</mi><mo>,</mo><mi>λ</mi><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>=</mo><mi>λ</mi><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>a</mi><mo>,</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>≥</mo><mn>0</mn><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>*</mo></msup><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>b</mi><mo>,</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>,</mo></mrow></math> eta <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>a</mi><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>=</mo><mn>0</mn></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a56"
+ },
+ {
+  "t": "Funtzioen barne-biderkadura pisuduna",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>f</mi><mo>,</mo><mi>g</mi><msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mi>ρ</mi></msub><mo>=</mo><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mover><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mo accent=\"true\">¯</mo></mover><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>,</mo></mrow></math> non <math display=\"inline\"><mrow><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&gt;</mo><mn>0</mn></mrow></math> pisu erreal bat den."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a56"
+ },
+ {
+  "t": "Ortogonalitatea",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn></mrow></math> denean, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>m</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>0</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mi>n</mi><mo>≠</mo><mi>m</mi></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mfrac><mi>π</mi><mn>2</mn></mfrac></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mi>n</mi><mo>=</mo><mi>m</mi></mtd></mtr></mtable></mrow><mo>=</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><msub><mi>δ</mi><mrow><mi>n</mi><mi>m</mi></mrow></msub><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a58"
+ },
+ {
+  "t": "Eragile adjuntua",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Edozein bi funtziorentzat, <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>f</mi><mo>,</mo><mi mathvariant=\"script\">ℒ</mi><mi>g</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><msup><mi mathvariant=\"script\">ℒ</mi><mo>+</mo></msup><mi>f</mi><mo>,</mo><mi>g</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>+</mo></mrow></math> mugalde-baldintzetako ekarpenak. <math display=\"inline\"><msup><mi mathvariant=\"script\">ℒ</mi><mo>+</mo></msup></math> eragilea <math display=\"inline\"><mi mathvariant=\"script\">ℒ</mi></math>-ren adjuntua da."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a60"
+ },
+ {
+  "t": "Autoadjuntutasuna",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msup><mi mathvariant=\"script\">ℒ</mi><mo>+</mo></msup><mo>=</mo><mi mathvariant=\"script\">ℒ</mi></mrow></math> bada, eragilea autoadjuntua da. Mugalde-baldintzetako ekarpenak zero badira, eragilea hermitiarra da."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a60"
+ },
+ {
+  "t": "Eragile hermitiarraren ondorioak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Autobalioak errealak dira; autobalio desberdinei dagozkien autofuntzioak ortogonalak dira; eta autofuntzioek oinarri osoa eratzen dute."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a62"
+ },
+ {
+  "t": "Forma autoadjuntua",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>p</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><msup><mi>p</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><mi>q</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>=</mo><mi>−</mi><mi>λ</mi><mi>y</mi></mrow></math>, hau da, <math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>p</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>′</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup><mo>+</mo><mi>q</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>=</mo><mi>−</mi><mi>λ</mi><mi>y</mi></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a63"
+ },
+ {
+  "t": "Faktore integratzailea",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msub><mi>a</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><msub><mi>a</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><msub><mi>a</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>=</mo><mi>−</mi><mi>λ</mi><mi>y</mi></mrow></math> ekuaziorako, <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">exp</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mo>∫</mo><mi>x</mi></msup><mfrac><mrow><msub><mi>a</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msub><mi>a</mi><msup><mn>0</mn><mo>′</mo></msup></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><msub><mi>a</mi><mn>0</mn></msub></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><msub><mi>a</mi><mn>0</mn></msub></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">exp</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mo>∫</mo><mi>x</mi></msup><msub><mi>a</mi><mn>1</mn></msub><mfrac><mi>u</mi><msub><mi>a</mi><mn>0</mn></msub></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a64"
+ },
+ {
+  "t": "Laguerre-ren ekuazioa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>x</mi><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><mi>ν</mi><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>, eta <math display=\"inline\"><mrow><mi mathvariant=\"script\">ℒ</mi><mo>=</mo><mi>−</mi><mi>x</mi><mfrac><msup><mi>d</mi><mn>2</mn></msup><mi>d</mi></mfrac><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mi>d</mi><mi>d</mi></mfrac><mi>x</mi></mrow></math>. Autobalioen problema <math display=\"inline\"><mrow><mi mathvariant=\"script\">ℒ</mi><mi>y</mi><mo>=</mo><mi>λ</mi><mi>y</mi></mrow></math> idatzita, <math display=\"inline\"><mrow><mi>x</mi><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><mi>λ</mi><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> lortzen da."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a65"
+ },
+ {
+  "t": "Muturretako baldintzak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msub><mi>α</mi><mn>1</mn></msub><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><msub><mi>α</mi><mn>2</mn></msub><msup><mi>y</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>, eta <math display=\"inline\"><mrow><msub><mi>β</mi><mn>1</mn></msub><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><msub><mi>β</mi><mn>2</mn></msub><msup><mi>y</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>. Hauek Wronskiarra bi muturretan zero egitea bermatzen dute."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a66"
+ },
+ {
+  "t": "Baldintzak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Gainazaleko tenperatura nulua da uneoro: <math display=\"inline\"><mrow><mi>ζ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>R</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>. Tenperatura finitua da esfera osoko puntuetan, zentroa barne. Hasieran, <math display=\"inline\"><mrow><mi>ζ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>ζ</mi><mn>0</mn></msub><mfrac><mi>R</mi><mi>r</mi></mfrac><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mfrac><mi>r</mi><mi>R</mi></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a68"
+ },
+ {
+  "t": "Hasierako eta inguruneko problema",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>u</mi><mrow><mi>t</mi><mi>t</mi></mrow></msub><mo>=</mo><msup><mi>c</mi><mn>2</mn></msup><msub><mi>u</mi><mrow><mi>x</mi><mi>x</mi></mrow></msub><mo>−</mo><mfrac><msup><mi>c</mi><mn>2</mn></msup><mi>ℓ</mi></mfrac><msub><mi>u</mi><mi>x</mi></msub><mo>+</mo><msup><mi>c</mi><mn>2</mn></msup><mfrac><mi>μ</mi><msup><mi>ℓ</mi><mn>2</mn></msup></mfrac><mi>u</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>L</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>e</mi><mrow><mi>γ</mi><mfrac><mi>L</mi><mi>ℓ</mi></mfrac></mrow></msup><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>u</mi><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>L</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><msup><mi>e</mi><mrow><mi>γ</mi><mfrac><mi>L</mi><mi>ℓ</mi></mfrac></mrow></msup><msub><mi>u</mi><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>u</mi><mrow><mi>t</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>L</mi></math> tartearen luzera da; <math display=\"inline\"><mi>ℓ</mi></math> difusio-luzera bereizgarria da; <math display=\"inline\"><mi>μ</mi></math> eta <math display=\"inline\"><mi>γ</mi></math> dimentsiorik gabeko parametroak dira. <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math> denean aldagai-banaketaren metodoa erabil daiteke; beste balioetarako zaildu egiten da."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a73"
+ },
+ {
+  "t": "Mugako forma",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Sturm–Liouville-ren problema erregularra izateko, <math display=\"block\"><mrow><mfrac><mn>1</mn><mi>w</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>f</mi><mo accent=\"true\">¯</mo></mover><msup><mi>g</mi><mo>′</mo></msup><mo>−</mo><msup><mover><mi>f</mi><mo accent=\"true\">¯</mo></mover><mo>′</mo></msup><mi>g</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msubsup><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>a</mi><mi>b</mi></msubsup><mo>=</mo><mn>0</mn></mrow></math> bete behar da."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a74"
+ },
+ {
+  "t": "Autofuntzioak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>X</mi><mrow><mi>n</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><msup><mi>e</mi><mfrac><mi>x</mi><mrow><mn>2</mn><mi>ℓ</mi></mrow></mfrac></msup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><msub><mi>A</mi><mi>n</mi></msub><mi mathvariant=\"normal\">cos</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mrow><mn>2</mn><mi>n</mi><mi>π</mi></mrow><mi>L</mi></mfrac><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><msub><mi>B</mi><mi>n</mi></msub><mi mathvariant=\"normal\">sin</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mrow><mn>2</mn><mi>n</mi><mi>π</mi></mrow><mi>L</mi></mfrac><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>.</mi></mrow></math> Autobalio bakoitzeko bi funtzio propio independente daude."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a76"
+ },
+ {
+  "t": "Autofuntzioen garapena",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mo accent=\"false\">∞</mo></munderover><msub><mi>T</mi><mrow><mi>n</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><msub><mi>A</mi><mi>n</mi></msub><mi mathvariant=\"normal\">cos</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mrow><mn>2</mn><mi>n</mi><mi>π</mi></mrow><mi>L</mi></mfrac><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><msub><mi>B</mi><mi>n</mi></msub><mi mathvariant=\"normal\">sin</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mrow><mn>2</mn><mi>n</mi><mi>π</mi></mrow><mi>L</mi></mfrac><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><msup><mi>e</mi><mfrac><mi>x</mi><mrow><mn>2</mn><mi>ℓ</mi></mrow></mfrac></msup><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a77"
+ },
+ {
+  "t": "Hasierako datuak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>x</mi><mo>+</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mo accent=\"false\">∞</mo></munderover><msub><mi>a</mi><mi>n</mi></msub><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mn>7</mn><mo>=</mo><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mo accent=\"false\">∞</mo></munderover><msub><mi>b</mi><mi>n</mi></msub><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a78"
+ },
+ {
+  "t": "Autofuntzioak eta pisua",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msub><mi>X</mi><mrow><mi>n</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><msub><mi>C</mi><mi>n</mi></msub><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Sturm–Liouville-ren pisua <math display=\"inline\"><mrow><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">exp</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mo>∫</mo><mn>2</mn><mi>d</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup></mrow></math> da."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a80"
+ },
+ {
+  "t": "Problema",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi mathvariant=\"script\">ℒ</mi><mi>y</mi><mo>=</mo><mi>−</mi><msup><mi>y</mi><mo>″</mo></msup><mo>−</mo><msup><mi>y</mi><mo>′</mo></msup><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>y</mi></mrow></math>, <math display=\"inline\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><msup><mi>y</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>. Pisua: <math display=\"inline\"><mrow><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">exp</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msubsup><mo>∫</mo><mn>0</mn><mi>x</mi></msubsup><mn>1</mn><mi>d</mi><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>e</mi><mi>x</mi></msup></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a83"
+ },
+ {
+  "t": "Problema",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><mn>2</mn><mi>x</mi><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>μ</mi><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>e</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>. Problema homogeneoan <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mi>α</mi></msup></mrow></math> saiatzen da."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a84"
+ },
+ {
+  "t": "Problema espektrala",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>1</mn><mo>,</mo><mi>e</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> tartean, har dezagun <math display=\"block\"><mrow><msub><mi mathvariant=\"script\">ℒ</mi><mi>μ</mi></msub><mi>y</mi><mo>=</mo><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup><msup><mi>y</mi><mo>″</mo></msup><mo>−</mo><mn>2</mn><mi>x</mi><msup><mi>y</mi><mo>′</mo></msup><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>μ</mi><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>y</mi></mrow></math> eragilea, <math display=\"inline\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>e</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> mugako baldintzekin."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a85"
+ },
+ {
+  "t": "Problema",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mn>1</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>2</mn></mrow></math> tartean, <math display=\"block\"><mrow><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><mfrac><mn>2</mn><mi>x</mi></mfrac><msup><mi>y</mi><mo>′</mo></msup><mo>−</mo><mfrac><mi>μ</mi><msup><mi>x</mi><mn>2</mn></msup></mfrac><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><msup><mi>y</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math> Ekuazio homogeneoan <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mi>r</mi></msup></mrow></math> saiatuz, <math display=\"block\"><mrow><msup><mi>r</mi><mn>2</mn></msup><mo>+</mo><mi>r</mi><mo>−</mo><mi>μ</mi><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>r</mi><mo>=</mo><mfrac><mrow><mi>−</mi><mn>1</mn><mo>±</mo><msqrt><mrow><mn>1</mn><mo>+</mo><mn>4</mn><mi>μ</mi></mrow></msqrt></mrow><mrow><mn>2</mn><mi>.</mi></mrow></mfrac></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a86"
+ },
+ {
+  "t": "Faktore integratzailea",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Bigarren ordenako ekuazio lineal homogeneoa <math display=\"block\"><mrow><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><mi>Q</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><mi>R</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> izan bedi. <math display=\"inline\"><mrow><mi>μ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> faktorea bilatzen da, ekuazioa biderkatu ondoren <math display=\"block\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>μ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>′</mo></msup><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>′</mo></msup><mo>+</mo><mi>μ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>R</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> forma izan dezan."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a88"
+ },
+ {
+  "t": "Datuak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn></mrow></math>, <math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>3</mn><mi>x</mi></mrow></math> eta <math display=\"inline\"><mrow><mi>w</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>e</mi><mrow><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></msup></mrow></math>, <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mi>∞</mi></mrow></math>. Koefizienteak errealak direla hartuko dugu, eta <math display=\"block\"><mrow><mi>h</mi><mo>=</mo><mi>α</mi><mi>f</mi><mo>+</mo><mi>β</mi><mi>g</mi><mo>=</mo><mn>2</mn><mi>α</mi><mo>+</mo><mn>3</mn><mi>β</mi><mi>x</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a89"
+ },
+ {
+  "t": "Prozesu induktiboa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msub><mi>v</mi><mn>1</mn></msub><mo>,</mo><msub><mi>v</mi><mn>2</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>v</mi><mi>n</mi></msub></mrow></math> bektore linealki independenteetatik <math display=\"inline\"><mrow><msub><mi>e</mi><mn>1</mn></msub><mo>,</mo><msub><mi>e</mi><mn>2</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>e</mi><mi>n</mi></msub></mrow></math> sistema ortogonala eraikitzen da: <math display=\"block\"><mrow><msub><mi>e</mi><mn>1</mn></msub><mo>=</mo><msub><mi>v</mi><mn>1</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msub><mi>e</mi><mn>2</mn></msub><mo>=</mo><msub><mi>v</mi><mn>2</mn></msub><mfrac><mrow><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><msub><mi>e</mi><mn>1</mn></msub><mo>,</mo><msub><mi>v</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><msub><mi>e</mi><mn>1</mn></msub><mo>,</mo><msub><mi>e</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></mfrac><msub><mi>e</mi><mn>1</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msub><mi>e</mi><mi>n</mi></msub><mo>=</mo><msub><mi>v</mi><mi>n</mi></msub><mo>−</mo><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></munderover><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><msub><mi>e</mi><mi>i</mi></msub><mo>,</mo><msub><mi>v</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><msub><mi>e</mi><mi>i</mi></msub><mo>,</mo><msub><mi>e</mi><mi>i</mi></msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></mfrac><msub><mi>e</mi><mi>i</mi></msub><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a91"
+ },
+ {
+  "t": "Proiekzioak kentzea",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Bi bektore ortogonal <math display=\"inline\"><msub><mi>e</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>e</mi><mn>2</mn></msub></math> emanda, haiekiko linealki independentea den <math display=\"inline\"><msub><mi>v</mi><mn>3</mn></msub></math> bektoretik hirugarren norabide ortogonala eraikitzen da:"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a92"
+ },
+ {
+  "t": "Abiapuntua",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msup><mi>L</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> espazioan, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>f</mi><mo>,</mo><mi>g</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>=</mo><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>1</mn></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math> barne-biderkadurarekin, aurreko urratsek <math display=\"inline\"><mrow><msub><mi>e</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><msub><mi>e</mi><mn>2</mn></msub><mo>=</mo><mi>x</mi></mrow></math> eta <math display=\"inline\"><mrow><msub><mi>e</mi><mn>3</mn></msub><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math> eman dituzte."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a93"
+ },
+ {
+  "t": "Legendre-ren polinomioak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Oinarri ortogonaleko bektore bakoitza <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math> puntuan unitatea izan dadin normalizatuz, lehen lau Legendre-ren polinomioak lortzen dira."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a93"
+ },
+ {
+  "t": "Koefizienteen matrizea",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>M</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>λ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn><mo>−</mo><msup><mi>e</mi><mrow><mi>−</mi><mi>π</mi></mrow></msup><mi>c</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><msup><mi>e</mi><mrow><mi>−</mi><mi>π</mi></mrow></msup><mi>s</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msup><mi>e</mi><mi>π</mi></msup><mi>c</mi><mo>+</mo><msup><mi>e</mi><mi>π</mi></msup><msqrt><mi>λ</mi></msqrt><mi>s</mi><mo>−</mo><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msqrt><mi>λ</mi></msqrt><mo>+</mo><msup><mi>e</mi><mi>π</mi></msup><mi>s</mi><mo>−</mo><msup><mi>e</mi><mi>π</mi></msup><msqrt><mi>λ</mi></msqrt><mi>c</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a95"
+ },
+ {
+  "t": "Aldagai berria",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Mugako baldintza akoplatuek <math display=\"block\"><mrow><msqrt><mi>λ</mi></msqrt><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">cosh</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi mathvariant=\"normal\">cos</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><msqrt><mi>λ</mi></msqrt><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><msqrt><mi>λ</mi></msqrt><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> ekuazioa ematen dute. <math display=\"inline\"><mrow><mi>u</mi><mo>=</mo><msqrt><mi>λ</mi></msqrt></mrow></math> hartuta, <math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>u</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></math> funtzioen ebakidurak bilatu behar dira."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a96"
+ },
+ {
+  "t": "Soluzio ez-tribiala eta endekapena",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>M</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>A</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>B</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> sistema homogeneoan, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>M</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> baldintzak soluzio ez-tribial bat dagoela ziurtatzen du. Bi koefiziente independente, hau da, bi dimentsioko autoespazioa egoteko, <math display=\"inline\"><mrow><mi>M</mi><mo>=</mo><mn>0</mn></mrow></math> behar da."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a97"
+ },
+ {
+  "t": "Sistema homogeneoa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>M</mi><mi>c</mi><mo>=</mo><mn>0</mn></mrow></math> sistema lineal homogeneoak soluzio ez-tribiala izateko <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>M</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> bete behar du. Bi koefizienteko ariketa honen testuinguruan bi soluzio independente egoteko <math display=\"inline\"><mrow><mi>M</mi><mo>=</mo><mn>0</mn></mrow></math> behar da. Oro har, degenerazioa nukleoaren dimentsioa bat baino handiagoa denean dago."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a99"
+ },
+ {
+  "t": "Ebakidura grafikoa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>u</mi><mo>=</mo><msqrt><mi>λ</mi></msqrt></mrow></math> aldagaian autobalioak <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn><mi>u</mi></mrow></math> ekuazioaren ebakidurek ematen dituzte. <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-ren adar bakoitza <math display=\"inline\"><mrow><mi>u</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow></math> asintota bertikalera hurbiltzen da."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a100"
+ },
+ {
+  "t": "Muga-arazoa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Jatorrizko <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> tartean <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>θ</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> egiten da; hortik <math display=\"inline\"><mrow><mi>θ</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta muturrak <math display=\"inline\"><mrow><mi>θ</mi><mo>=</mo><mi>±</mi><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow></math> dira. Eragilearen forma autoadjuntua aldagai berrian murriztu ondoren ekuazioa <math display=\"block\"><mrow><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>d</mi><msup><mi>θ</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>+</mo><mi>λ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> da, eta muga-baldintzak <math display=\"inline\"><mrow><mi>y</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>y</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math> dira."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a101"
+ },
+ {
+  "t": "Faktore integratzailea",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><mi>Q</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><mi>R</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> ekuazioa <math display=\"block\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>μ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>′</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup><mo>+</mo><mi>μ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>R</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> eran idazteko, koefizienteek <math display=\"block\"><mrow><mi>P</mi><msup><mi>μ</mi><mo>′</mo></msup><mo>=</mo><mi>μ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>Q</mi><mo>−</mo><msup><mi>P</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> bete behar dute."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a105"
  },
  {
   "t": "Sailkapena diskriminantearen arabera",

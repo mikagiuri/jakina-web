@@ -52,10 +52,6 @@ KAPITULUAK["05mk_01kontzeptuak"] = {
    "proiektua": "fullmekanika",
    "xehetasuna": "1.–10. kapituluak (Aguirregabiria)",
    "hizkuntza": "eu"
-  },
-  {
-   "mota": "testua",
-   "html": ".update(0)"
   }
  ],
  "atalak": [
@@ -4243,7 +4239,7 @@ KAPITULUAK["05mk_01kontzeptuak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "Ecenarro, Mecanica y Ondas, UPV/EHU 2000, ISBN 84-8373-295-5",
+     "proiektua": "EHU 2000, ISBN 84-8373-295-5",
      "xehetasuna": "Examenes resueltos (1996-2000), mk:1",
      "hizkuntza": "eu"
     }

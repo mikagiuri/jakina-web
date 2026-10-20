@@ -32,7 +32,7 @@ KAPITULUAK["01mc_03integralak"] = {
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/gzm_liburua",
+   "proiektua": "gzm_liburua",
    "xehetasuna": "21. kapitulua",
    "hizkuntza": "eu"
   }
@@ -1503,7 +1503,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 2. atala; inprimatutako 149. or.; 1533--1545. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -1735,7 +1735,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 6. atala; inprimatutako 161. or.; 1611--1622. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -4347,7 +4347,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "IV. kap., 1. atala; inprimatutako 112--113. or.; 1037--1073. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -5218,10 +5218,6 @@ KAPITULUAK["01mc_03integralak"] = {
      ]
     },
     {
-     "mota": "testua",
-     "html": " "
-    },
-    {
      "mota": "sarea",
      "zutabeak": "repeat(1, minmax(0,1fr))",
      "zelulak": [
@@ -5297,10 +5293,6 @@ KAPITULUAK["01mc_03integralak"] = {
        "html": "Aurkitu integral hauek:"
       }
      ]
-    },
-    {
-     "mota": "testua",
-     "html": " "
     },
     {
      "mota": "sarea",
@@ -5380,10 +5372,6 @@ KAPITULUAK["01mc_03integralak"] = {
      ]
     },
     {
-     "mota": "testua",
-     "html": " "
-    },
-    {
      "mota": "sarea",
      "zutabeak": "repeat(1, minmax(0,1fr))",
      "zelulak": [
@@ -5459,10 +5447,6 @@ KAPITULUAK["01mc_03integralak"] = {
        "html": "Kalkulatu ondoko integralak adierazitako bitarteetan:"
       }
      ]
-    },
-    {
-     "mota": "testua",
-     "html": " "
     },
     {
      "mota": "ariketa",
@@ -5602,10 +5586,6 @@ KAPITULUAK["01mc_03integralak"] = {
        "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math> funtzioa emanda, justifikatu ondoko funtzioetatik zein den <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>1</mn><mi>x</mi></msubsup><mi>f</mi></mrow></math>:"
       }
      ]
-    },
-    {
-     "mota": "testua",
-     "html": " "
     },
     {
      "mota": "sarea",
@@ -7132,7 +7112,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "IV. kap., 8. atala; inprimatutako 140--141. or.; 1391--1402. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -7474,7 +7454,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "IV. kap., 6. atala; inprimatutako 132--133. or.; 1326--1337. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -7622,7 +7602,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "IV. kap., 7. atala; inprimatutako 135--136. or.; 1338--1372. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -8023,7 +8003,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "IV. kap., 9. atala; inprimatutako 141--142. or.; 1403--1414. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -8358,7 +8338,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "IV. kap., 2. atala; inprimatutako 119--120. or.; 1191--1210. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -8682,7 +8662,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 4. atala; inprimatutako 157. or.; 1582--1598. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -8879,7 +8859,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 5. atala; inprimatutako 158. or.; 1599--1605. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -8939,7 +8919,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "IV. kap., 3. atala; inprimatutako 124. or.; 1229--1254. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -9347,7 +9327,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "IV. kap., 4. atala; inprimatutako 127. or.; 1255--1279. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -9638,7 +9618,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "IV. kap., 5. atala; inprimatutako 129--130. or.; 1280--1314. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -10039,7 +10019,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "IV. kap., 10.--12. atalak; inprimatutako 143--144. or.; 1415--1442. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -13131,7 +13111,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 7. atala; inprimatutako 163. or.; 1623--1630. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -13432,7 +13412,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 8. atala; inprimatutako 168. or.; 1666--1670. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -13503,7 +13483,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 8. atala; inprimatutako 171. or.; 1681--1684. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -13563,7 +13543,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 9. atala; inprimatutako 171--172. or.; 1685--1690. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -13651,7 +13631,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 9. atala; inprimatutako 175. or.; 1701--1713. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -13831,7 +13811,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 10. atala; inprimatutako 177--178. or.; 1714--1726. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -13990,7 +13970,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 11. atala; inprimatutako 180--181. or.; 1727--1750. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -14334,10 +14314,6 @@ KAPITULUAK["01mc_03integralak"] = {
      ]
     },
     {
-     "mota": "testua",
-     "html": " "
-    },
-    {
      "mota": "sarea",
      "zutabeak": "repeat(1, minmax(0,1fr))",
      "zelulak": [
@@ -14495,10 +14471,6 @@ KAPITULUAK["01mc_03integralak"] = {
        "html": "Kalkulatu honela mugaturiko barrutien azalerak:"
       }
      ]
-    },
-    {
-     "mota": "testua",
-     "html": " "
     },
     {
      "mota": "ariketa",
@@ -15187,7 +15159,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 3. atala; inprimatutako 154. or.; 1546--1566. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -15434,7 +15406,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 4. atala; inprimatutako 155--156. or.; 1567--1581. ariketak",
      "hizkuntza": "es/eu"
     },
@@ -15647,7 +15619,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/03_calculo_analisis (KDI 7. gaia + AAA_TEXES_kalkulatex)",
+     "proiektua": "03_calculo_analisis (KDI 7. gaia + AAA_TEXES_kalkulatex)",
      "xehetasuna": "Funtzio-segidak/serieak eta Taylor: KDI (UPV/EHU, 2012-13) teoria tipografiatua + erabiltzailearen ariketa ebatziak. Erabakia (2026-07-23): Taylor KALKULUAN doa, analisi konplexuaren eta metodo matematikoen aurretik",
      "hizkuntza": "eu"
     }

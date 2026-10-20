@@ -10,7 +10,7 @@ KAPITULUAK["01mz_01konplexuak"] = {
  "sarrera": [
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/03_calculo_analisis/analisis/ANALISI BEKTORIAL ETA KONPLEXUA/ANA 8-13_Gaia.pdf",
+   "proiektua": "ANA 8-13_Gaia.pdf",
    "xehetasuna": "Analisi Bektorial eta Konplexua, UPV/EHU, 8.-13. gaiak (Analisi konplexua: zenbaki konplexuak, aldagai konplexuko funtzioak, oinarrizko funtzioak, integrazio konplexua, Taylor/Laurent, hondarrak) — teoria tipografiatua, euskaraz. Ariketak: ANA N_Gaia ariketak.pdf. Ekarria: 2026-07-24.",
    "hizkuntza": "eu"
   }
@@ -1268,10 +1268,6 @@ KAPITULUAK["01mz_01konplexuak"] = {
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
        "html": "<em>Em.:</em> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>z</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>=</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">arg</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn><mi>π</mi><mo>−</mo><mi>α</mi></mrow></math>."
       },
       {
@@ -1280,10 +1276,6 @@ KAPITULUAK["01mz_01konplexuak"] = {
        "elementuak": [
         "<math display=\"inline\"><mrow><mi>z</mi><mo>=</mo><msup><mi>e</mi><mrow><mi>i</mi><mi>t</mi></mrow></msup><mo>+</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>t</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>π</mi><mo>,</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> izanik"
        ]
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",
@@ -1350,10 +1342,6 @@ KAPITULUAK["01mz_01konplexuak"] = {
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
        "html": "<em>Em.:</em> <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mi>α</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>16</mn><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mi>α</mi><mo>−</mo><mn>20</mn><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>α</mi><mo>+</mo><mn>5</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>α</mi></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mi>α</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>16</mn><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mi>α</mi><mo>−</mo><mn>20</mn><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>α</mi><mo>+</mo><mn>5</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>α</mi></mrow></math>."
       }
      ]
@@ -1409,10 +1397,6 @@ KAPITULUAK["01mz_01konplexuak"] = {
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
        "html": "<em>Em.:</em> <math display=\"inline\"><mrow><mfrac><mrow><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mi>i</mi></mrow></math>, <math display=\"inline\"><mrow><mfrac><mrow><mi>−</mi><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>−</mo><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mi>i</mi></mrow></math>."
       }
      ]
@@ -1427,10 +1411,6 @@ KAPITULUAK["01mz_01konplexuak"] = {
       {
        "mota": "testua",
        "html": "Kalkula itzazu <math display=\"inline\"><msqrt><mrow><mn>3</mn><mo>+</mo><mn>4</mn><mi>i</mi></mrow></msqrt></math> zenbakiaren bi balioak, forma binomikoan idatziz."
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",
@@ -3043,10 +3023,6 @@ KAPITULUAK["01mz_01konplexuak"] = {
       {
        "mota": "testua",
        "html": "<strong>7.</strong> Aurki itzazu <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mi>i</mi><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>i</mi><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> moduan adieraz daitezkeen funtzio holomorfo guztiak."
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",
@@ -7428,10 +7404,6 @@ KAPITULUAK["01mz_01konplexuak"] = {
       {
        "mota": "testua",
        "html": "<strong>5.</strong> Kalkulatu <math display=\"inline\"><mrow><msub><mo>∫</mo><mi>γ</mi></msub><msup><mi>z</mi><mrow><mi>−</mi><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup><mspace width=\"0.167em\"></mspace><mi>d</mi><mi>z</mi></mrow></math>, <math display=\"inline\"><mi>γ</mi></math> unitate zirkunferentziaren goiko erdia izanik, <math display=\"inline\"><mn>1</mn></math>-etik <math display=\"inline\"><mrow><mi>−</mi><mn>1</mn></mrow></math>-eraino, eta <math display=\"inline\"><msup><mi>z</mi><mrow><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup></math> definitzeko <math display=\"inline\"><mrow><msqrt><mn>1</mn></msqrt><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math> ematen duen adarra hartuz."
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",

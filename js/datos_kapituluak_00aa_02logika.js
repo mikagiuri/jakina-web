@@ -45,7 +45,7 @@ KAPITULUAK["00aa_02logika"] = {
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/def_log_ds_v8.typ",
+   "proiektua": "def_log_ds_v8.typ",
    "xehetasuna": "erabiltzaileak idatzia (%100 berea): proposizioa, klaseak, Venn, silogismoak, Kant — euskaratzeke",
    "hizkuntza": "es"
   },
@@ -61,7 +61,7 @@ KAPITULUAK["00aa_02logika"] = {
   },
   {
    "mota": "itzulgai",
-   "proiektua": "_historico/espazio-ontzia/01_logica_conjuntos/logica_simbolica",
+   "proiektua": "logica_simbolica",
    "orrialdeak": "152",
    "jatorria": "es"
   }
@@ -8804,7 +8804,7 @@ KAPITULUAK["00aa_02logika"] = {
     },
     {
      "mota": "itzulgai",
-     "proiektua": "_historico/espazio-ontzia/01_logica_conjuntos/sets_relations_mappings",
+     "proiektua": "sets_relations_mappings",
      "orrialdeak": "112",
      "jatorria": "en"
     },
@@ -8830,7 +8830,7 @@ KAPITULUAK["00aa_02logika"] = {
     },
     {
      "mota": "itzulgai",
-     "proiektua": "_historico/espazio-ontzia/01_logica_conjuntos/nociones_basicas",
+     "proiektua": "nociones_basicas",
      "orrialdeak": "90",
      "jatorria": "es"
     }

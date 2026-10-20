@@ -22,25 +22,25 @@ KAPITULUAK["07fe_01estatistikoa"] = {
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/10_fisika_modernoa/fisika_modernoa/AAA_TEXES_fismotex/FismoTex SEGUNDO BLOQUE/FismoTex SEGUNDO BLOQUE.pdf",
+   "proiektua": "FismoTex SEGUNDO BLOQUE.pdf",
    "xehetasuna": "Mikel Aguirre, erabiltzailearena %100; mikroegoerak/makroegoerak, postulatu funtsezkoa eta Einstein-en solidoa",
    "hizkuntza": "es"
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/10_fisika_modernoa/fismoderna_analizaryextraer/cuaderno fismo/",
+   "proiektua": "cuaderno fismo",
    "xehetasuna": "Mikel Aguirre, erabiltzailearena %100; 2. Blokea: Mekanika Estatistikoa (Boltzmann-en banaketa, estatistika kuantikoak, elektroi askeen gasa)",
    "hizkuntza": "es"
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/10_fisika_modernoa/fismoderna_analizaryextraer/fismo_2bloque_teoria/",
+   "proiektua": "fismo_2bloque_teoria",
    "xehetasuna": "Mikel Aguirre, erabiltzailearena %100; 2. Blokea osoa (11.-16. gaiak): gas ideal klasikoa (14. gaia) eta rotor zurruna/molekula diatomikoa (15. gaia) batez ere, gainerakoa dagoeneko landutakoaren errepikapena/hobekuntza",
    "hizkuntza": "es"
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/10_fisika_modernoa/fismoderna_analizaryextraer/fismo_2bloque_ejercicios/",
+   "proiektua": "fismo_2bloque_ejercicios",
    "xehetasuna": "Fisika Modernoa, ZTF-UPV/EHU. Boletin ofiziala inprimatua, gaiaka (11.-16.), Emaitzak orriarekin eta ebazpen eskuzkribatuarekin",
    "hizkuntza": "eu"
   }
@@ -1721,7 +1721,7 @@ KAPITULUAK["07fe_01estatistikoa"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "espazio-ontzia/10_fisika_modernoa/fismoderna_analizaryextraer/fismo_2bloque_ejercicios",
+     "proiektua": "fismo_2bloque_ejercicios",
      "xehetasuna": "Fisika Modernoa, Fisikako Gradua/Ingeniaritza Elektronikoko Gradua, ZTF-UPV/EHU. Boletin ofiziala, gaiaka (11.-16. gaiak), Emaitzak orriarekin eta ebazpen eskuzkribatuarekin.",
      "hizkuntza": "eu"
     },

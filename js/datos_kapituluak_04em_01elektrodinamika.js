@@ -51,10 +51,6 @@ KAPITULUAK["04em_01elektrodinamika"] = {
    "proiektua": "griffiths Intro to electrodynamics textbook",
    "xehetasuna": "2.–8. kapituluak, euskaratuak (2026-07-18)",
    "hizkuntza": "eu"
-  },
-  {
-   "mota": "testua",
-   "html": ".update(1)"
   }
  ],
  "atalak": [
@@ -1714,7 +1710,7 @@ KAPITULUAK["04em_01elektrodinamika"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 12. atala; inprimatutako 184--188. or.; 1761. aplikazioak",
      "hizkuntza": "es/eu"
     },
@@ -2260,10 +2256,6 @@ KAPITULUAK["04em_01elektrodinamika"] = {
        "html": "Cuaderno azul, <strong>Elektromagnetismoa I</strong>, 2013-09-11: lehen orriak karga puntualak eta dentsitate lineal, gainazaleko eta bolumetrikoak bereizten ditu; 2. orriko 1. adibideak <math display=\"inline\"><mrow><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>a</mi><mi>/</mi><mi>r</mi></mrow></math> esfera baten karga osoa eskatzen du. Argazkiak: <code>IMG_2026_07_30_03_01_07S.jpg</code> eta <code>IMG_2026_07_30_03_01_12S.jpg</code>. Irudia CeTZ berreraikuntza editoriala da; ebazpena fisikatik berridatzi da."
       }
      ]
-    },
-    {
-     "mota": "testua",
-     "html": ".update(0)"
     }
    ]
   },
@@ -3119,7 +3111,7 @@ KAPITULUAK["04em_01elektrodinamika"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/a imprimir/HutseangoElektrostatika.pdf",
+     "proiektua": "HutseangoElektrostatika.pdf",
      "xehetasuna": "Elektromagnetismoa I (UPV/EHU, Fisika Teorikoa eta Zientziaren Historia Saila), «Hutseango eremu elektrostatikoa» problema-orria, 1.--15. ariketak; osagarri gisa «Dielektrikoak 2: Kondentsadoreak» orriko 1. eta 6. ariketak (hutseango zatia)",
      "hizkuntza": "eu"
     },
@@ -3269,10 +3261,6 @@ KAPITULUAK["04em_01elektrodinamika"] = {
     {
      "mota": "testua",
      "html": "<em>\n  Kapitulu honek elektrostatika garatzen du Coulomb-en legetik eroaleetara eta kapazitateraino, emaitza estandarrak eta CeTZ marrazki originalak erabiliz, JAKINArako euskaratua. </em>"
-    },
-    {
-     "mota": "testua",
-     "html": ".update(2)"
     }
    ]
   },
@@ -6965,7 +6953,7 @@ KAPITULUAK["04em_01elektrodinamika"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/a imprimir/HutseangoElektrostatika.pdf",
+     "proiektua": "HutseangoElektrostatika.pdf",
      "xehetasuna": "Elektromagnetismoa I (UPV/EHU), Fisika Teorikoa eta Zientziaren Historia Saila -- «Hutseango eremu elektrostatikoa» orria; 8., 11., 16.--18. ariketak",
      "hizkuntza": "eu"
     },
@@ -7079,10 +7067,6 @@ KAPITULUAK["04em_01elektrodinamika"] = {
     {
      "mota": "testua",
      "html": "<em>\n  Kapitulu honek Laplace-ren ekuazioa ebazteko teknika estandarrak garatzen ditu — bakartasun-teoremak, irudien metodoa, aldagaien banantzea eta garapen multipolarra —, CeTZ marrazki originalak erabiliz, JAKINArako euskaratua. </em>"
-    },
-    {
-     "mota": "testua",
-     "html": ".update(3)"
     }
    ]
   },
@@ -10095,7 +10079,7 @@ KAPITULUAK["04em_01elektrodinamika"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/a imprimir/Dielektrikoak.pdf eta Kondentsadoreak.pdf",
+     "proiektua": "Dielektrikoak.pdf eta Kondentsadoreak.pdf",
      "xehetasuna": "UPV/EHU, ZTF-FCT, Fisika Teorikoa eta Zientziaren Historia Saila -- Elektromagnetismoa I ikastaroko problema-orriak: \"Dielektrikoak 1: Polarizazioa\" (1.--6. eta 10. ariketak) eta \"Dielektrikoak 2: Kondentsadoreak\" (2., 3., 5.--7. ariketak)",
      "hizkuntza": "eu"
     },
@@ -10262,10 +10246,6 @@ KAPITULUAK["04em_01elektrodinamika"] = {
     {
      "mota": "testua",
      "html": "<em>\n  Kapitulu honek eremu elektrikoak materian garatzen ditu — polarizazioa, atxikitako karga, desplazamendu-eremua eta dielektriko linealak — CeTZ marrazki originalak erabiliz, JAKINArako euskaratua. </em>"
-    },
-    {
-     "mota": "testua",
-     "html": ".update(4)"
     }
    ]
   },
@@ -12334,7 +12314,7 @@ KAPITULUAK["04em_01elektrodinamika"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "UPV/EHU — Elektromagnetismoa I, Magnetostatika I ariketa-orria",
+     "proiektua": "EHU — Elektromagnetismoa I, Magnetostatika I ariketa-orria",
      "xehetasuna": "Fisika Teorikoa eta Zientziaren Historia Saila; euskarazko enuntziatuak, ebazpenik gabe",
      "hizkuntza": "eu"
     },
@@ -12407,10 +12387,6 @@ KAPITULUAK["04em_01elektrodinamika"] = {
     {
      "mota": "testua",
      "html": "<em>\n  Kapitulu honek magnetostatika garatzen du — Lorentz-en indarra, Biot-Savart-en legea, Ampère-ren legea eta bektore-potentziala — CeTZ marrazki originalak erabiliz, JAKINArako euskaratua. </em>"
-    },
-    {
-     "mota": "testua",
-     "html": ".update(5)"
     }
    ]
   },
@@ -13966,7 +13942,7 @@ KAPITULUAK["04em_01elektrodinamika"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "UPV/EHU",
+     "proiektua": "EHU",
      "xehetasuna": "Elektromagnetismoa I -- Magnetostatika I ariketa-orria (Ingurune Magnetikoak)",
      "hizkuntza": "eu"
     },
@@ -14027,10 +14003,6 @@ KAPITULUAK["04em_01elektrodinamika"] = {
     {
      "mota": "testua",
      "html": "<em>\n  Kapitulu honek eremu magnetikoak materian garatzen ditu — magnetizazioa, atxikitako korronteak, H eremu laguntzailea eta ingurune linealak/ez-linealak — CeTZ marrazki originalak erabiliz, JAKINArako euskaratua. </em>"
-    },
-    {
-     "mota": "testua",
-     "html": ".update(6)"
     }
    ]
   },
@@ -16655,7 +16627,7 @@ KAPITULUAK["04em_01elektrodinamika"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "UPV/EHU — Elektromagnetismoa I — Korrontea",
+     "proiektua": "EHU — Elektromagnetismoa I — Korrontea",
      "xehetasuna": "§7.1, korronte elektrikoa eta Ohm-en legea",
      "hizkuntza": "eu"
     },
@@ -16706,7 +16678,7 @@ KAPITULUAK["04em_01elektrodinamika"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "UPV/EHU — Elektromagnetismoa I — Indukzioa",
+     "proiektua": "EHU — Elektromagnetismoa I — Indukzioa",
      "xehetasuna": "indukzioa eta energia magnetikoa",
      "hizkuntza": "eu"
     },
@@ -16758,10 +16730,6 @@ KAPITULUAK["04em_01elektrodinamika"] = {
     {
      "mota": "testua",
      "html": "<em>\n  Kapitulu honek elektrizitatea eta magnetismoa bateratzen ditu — iee-a, Faraday-ren legea, induktantzia eta Maxwellek Ampère-ren legeari egindako zuzenketa — Maxwellen ekuazioen multzo osoan, CeTZ marrazki originalak erabiliz, JAKINArako euskaratua. </em>"
-    },
-    {
-     "mota": "testua",
-     "html": ".update(7)"
     }
    ]
   },
@@ -17038,7 +17006,7 @@ KAPITULUAK["04em_01elektrodinamika"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 12. atala; inprimatutako 184--188. or.; 1781. aplikazioak",
      "hizkuntza": "es/eu"
     },
@@ -18549,7 +18517,7 @@ KAPITULUAK["04em_01elektrodinamika"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/08_elektromagnetismoa/.../griffiths Intro to electrodynamics textbook",
+     "proiektua": "griffiths Intro to electrodynamics textbook",
      "xehetasuna": "8. kapitulua, 3. ed.; 355--362. or. (argazkiak); ebazpen gabeko problemak",
      "hizkuntza": "eu"
     },
@@ -18596,10 +18564,6 @@ KAPITULUAK["04em_01elektrodinamika"] = {
       {
        "mota": "testua",
        "html": "<math display=\"inline\"><mi>R</mi></math> erradioko esfera batek <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑷</mi></math> polarizazio uniformea eta <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑴</mi></math> magnetizazio uniformea ditu (ez nahitaez norabide berean). Aurkitu konfigurazioaren momentu elektromagnetiko osoa."
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",

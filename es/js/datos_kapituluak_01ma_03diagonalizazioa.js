@@ -34,10 +34,6 @@ KAPITULUAK["01ma_03diagonalizazioa"] = {
    "proiektua": "JAKINAk idatzia",
    "xehetasuna": "no había teoría en el corpus; continuación del capítulo 1 de M09 (cap. 2)",
    "hizkuntza": "eu"
-  },
-  {
-   "mota": "testua",
-   "html": ".update(1)"
   }
  ],
  "atalak": [
@@ -687,7 +683,7 @@ KAPITULUAK["01ma_03diagonalizazioa"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 1 nov 2012 alg calc fis general quimi computacion, IMG_2026_07_28_01_07_47S.jpg",
+     "proiektua": "diario landeta 1 nov 2012 alg calc fis general quimi computacion, IMG_2026_07_28_01_07_47S.jpg",
      "xehetasuna": "Cuaderno LANDETA, páginas 2-3: transcripción manuscrita autoauditada y verificada matemáticamente sobre aplicación lineal, bases, dimensión y matriz asociada",
      "hizkuntza": "es"
     }
@@ -777,7 +773,7 @@ KAPITULUAK["01ma_03diagonalizazioa"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario algebra ene 2013, IMG_2026_07_28_02_14_56S.jpg, ezkerreko erdia",
+     "proiektua": "diario algebra ene 2013, IMG_2026_07_28_02_14_56S.jpg, ezkerreko erdia",
      "xehetasuna": "A1_0018i: transcripción literal verificada del desarrollo manuscrito sobre el núcleo y la imagen de aplicaciones lineales; correcciones y verificación matemática por separado",
      "hizkuntza": "es"
     },
@@ -1440,7 +1436,7 @@ KAPITULUAK["01ma_03diagonalizazioa"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013, IMG_2026_07_28_01_43_28S.jpg",
+     "proiektua": "diario landeta 2 ene 2013, IMG_2026_07_28_01_43_28S.jpg",
      "xehetasuna": "ALGEBRA LANDETA (landeta2), páginas 32-33: matrices de paso e inversa mediante la adjunta (todos los cofactores verificados) — transcripción v3",
      "hizkuntza": "es"
     }
@@ -1506,7 +1502,7 @@ KAPITULUAK["01ma_03diagonalizazioa"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013, IMG_2026_07_28_01_47_13S.jpg — IMG_2026_07_28_01_48_27S.jpg",
+     "proiektua": "diario landeta 2 ene 2013, IMG_2026_07_28_01_47_13S.jpg — IMG_2026_07_28_01_48_27S.jpg",
      "xehetasuna": "ALGEBRA LANDETA (landeta2), páginas 84-111, 2013/01/18-24: diagonalizabilidad, FORMA CANÓNICA DE JORDAN completa (subespacios generalizados, base, verificación), matrices equivalentes por operaciones elementales, f^2011 mediante Jordan, y el problema inverso del cambio de base — transcripciones verificadas v3",
      "hizkuntza": "es"
     }
@@ -1767,10 +1763,6 @@ KAPITULUAK["01ma_03diagonalizazioa"] = {
     {
      "mota": "testua",
      "html": "<strong>Demostración.</strong> Siendo <math display=\"inline\"><mrow><msub><mi>W</mi><mi>i</mi></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mover><msub><mi>w</mi><mrow><mi>i</mi><mn>1</mn></mrow></msub><mo accent=\"true\">→</mo></mover><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></math>, la suma es el subespacio generado por la unión de sus generadores. Como cada <math display=\"inline\"><msub><mi>W</mi><mi>i</mi></msub></math> es <math display=\"inline\"><mi>f</mi></math>-invariante, <math display=\"inline\"><mrow><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><msub><mi>w</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∈</mo><msub><mi>W</mi><mi>i</mi></msub><mo>⊆</mo><msub><mi>W</mi><mn>1</mn></msub><mo>+</mo><mi>…</mi><mo>+</mo><msub><mi>W</mi><mi>n</mi></msub></mrow></math>; por tanto, como <math display=\"inline\"><mi>f</mi></math> lleva todos los generadores a la suma, <math display=\"inline\"><mrow><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>W</mi><mn>1</mn></msub><mo>+</mo><mi>…</mi><mo>+</mo><msub><mi>W</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⊆</mo><msub><mi>W</mi><mn>1</mn></msub><mo>+</mo><mi>…</mi><mo>+</mo><msub><mi>W</mi><mi>n</mi></msub></mrow></math>."
-    },
-    {
-     "mota": "testua",
-     "html": " "
     },
     {
      "mota": "testua",
@@ -4164,7 +4156,7 @@ KAPITULUAK["01ma_03diagonalizazioa"] = {
     },
     {
      "mota": "itzulgai",
-     "proiektua": "_historico/espazio-ontzia/02_algebra_geometria/algebra_lineal/ocw_ejercicios_resueltos",
+     "proiektua": "ocw_ejercicios_resueltos",
      "orrialdeak": "40",
      "jatorria": "es"
     }
@@ -6787,7 +6779,7 @@ KAPITULUAK["01ma_03diagonalizazioa"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013, IMG_2026_07_28_01_42_30S.jpg — IMG_2026_07_28_01_43_04S.jpg (ezker orriak)",
+     "proiektua": "diario landeta 2 ene 2013, IMG_2026_07_28_01_42_30S.jpg — IMG_2026_07_28_01_43_04S.jpg (ezker orriak)",
      "xehetasuna": "Cuaderno LANDETA2, páginas 12-15, 18-22: imágenes inversas de aplicaciones lineales, cambio de base, determinante 5×5, subespacios suplementarios e invariantes, diagonalización completa (el rótulo de la página 22 es ALGEBRA NEWTON) — transcripciones v3 comprobadas",
      "hizkuntza": "es"
     }

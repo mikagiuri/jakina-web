@@ -10,7 +10,7 @@ KAPITULUAK["03mm_08kaosa"] = {
  "sarrera": [
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/edf_eus",
+   "proiektua": "edf_eus",
    "xehetasuna": "8. kapituluaren luzapena (programaz haraindiko aberastea): kaos determinista eta erakarle arraroak",
    "hizkuntza": "eu"
   },

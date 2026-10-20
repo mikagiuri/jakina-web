@@ -10,13 +10,9 @@ KAPITULUAK["03mm_02serieak"] = {
  "sarrera": [
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/edf_eus",
+   "proiektua": "edf_eus",
    "xehetasuna": "6.–7. kapituluak (serieak, metodo hurbilduak)",
    "hizkuntza": "eu"
-  },
-  {
-   "mota": "testua",
-   "html": ".update(5)"
   }
  ],
  "atalak": [
@@ -2505,7 +2501,7 @@ KAPITULUAK["03mm_02serieak"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 5. orria (METMATCG01_0005, IMG_2025_07_06_20_14_58S.jpg; UPV/EHU ZTF-FCT azterketa-orria, 2015/1/8, erabiltzailearen izenarekin): x²(x+2)y''-4xy'+4y=(3/4)√x seriez + forma normalizatua. GURUTZE-EGIAZTAPENA: homogeneoaren soluzioak = 0002 unitateko y1,y2 (residuoa 0); orakulua y_p=√x/(x+2) (SymPy). s-aljebra eta Laplace L[tf]=-F' egiaztatuak. Azpiindize ilegibleak deklaratuta. Konfiantza altua",
      "hizkuntza": "es/eu"
     },
@@ -2615,7 +2611,7 @@ KAPITULUAK["03mm_02serieak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 6. orria (METMATCG01_0006, IMG_2025_07_06_20_15_09S.jpg): lan-orri arina — sistema lineal baten hasiera (matrizea (-1 1;-1 -1), autobalioak -1±i, foku egonkorra) eta 0005-eko EDOaren ANALISI INDIZIALA (Frobenius): p0=-2, q0=2, erro indizialak 1,2 = y1,y2-ren esponente nagusiak. SymPy-z egiaztatua; koefiziente-akatsa (-4λ vs -2λ) autoreak faktorizazioan zuzendua. Hirugarren gurutzea 0005/0002 katearekin. Konfiantza altua",
      "hizkuntza": "es"
     },
@@ -2719,7 +2715,7 @@ KAPITULUAK["03mm_02serieak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 117. unitatea (METMATCG01_0117, IMG_2025_07_12_12_26_03S.jpg; «12/12/2011», 17. ariketa): Frobenius-en metodoa 4x^2 y''+2x(1-x)y'-xy=0 ekuaziorako — indize-ekuazioa 4lambda^2-2lambda=0 (lambda=0,1/2), errekurrentzia a_n=a_(n-1)/(2(n+lambda)); lambda=0 -> a_n=a_0/(2^n n!) -> y1=e^{x/2}; lambda=1/2 -> a_n=a_0/(2n+1)!! -> y2=e^{x/2} erf(sqrt(x/2)). SymPy-z egiaztatua (y1,y2 residuoa 0; dsolve-k berresten). Konfiantza altua",
      "hizkuntza": "es/eu"
     },
@@ -2827,7 +2823,7 @@ KAPITULUAK["03mm_02serieak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 118. unitatea (METMATCG01_0118, IMG_2025_07_12_12_26_11S.jpg): Frobenius y''(x-1)-y'(x-3)-y=0 (= «Bestelako Ariketak III» boletineko 17. ariketa). z=x-1 aldaketaz z^2 y''-z^2 y'+2z y'-z y=0; indize-ekuazioa lambda^2+lambda=0 (lambda=0,-1), errekurrentzia a_n=a_(n-1)/(n+lambda+1); lambda=0 -> y=(a0/z)(e^z-1), lambda=-1 -> y=(a0/z)e^z; soluzio orokorra y=A e^x/(x-1)+B/(x-1). SymPy-z egiaztatua (oinarri biak eta orokorra residuoa 0). Konfiantza altua",
      "hizkuntza": "es/eu"
     },
@@ -2909,7 +2905,7 @@ KAPITULUAK["03mm_02serieak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 132. unitatea (METMATCG01_0132, IMG_2025_07_12_12_28_48S.jpg; «M. METHODS 25/11/2015»): funtzio bikoiti/bakoitiaren deskonposaketa (f=bakoitia+bikoitia; serie par/inpar) + Frobenius (x^2-1)y''+4xy'+2y=0 x=1-en (u=x-1, u(u+2)y''+4(u+1)y'+2y=0, indizea 2lambda(lambda+1)=0 -> lambda=0,-1) + serie geometrikoa 1/(1-x^2)=sum x^{2n}. SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "es/eu"
     },
@@ -2998,7 +2994,7 @@ KAPITULUAK["03mm_02serieak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 133. unitatea (METMATCG01_0133, IMG_2025_07_12_12_28_57S.jpg; 0132ren jarraipena): (x^2-1)y''+4xy'+2y=0 -ren serie-soluzioa x=0-en (puntu arrunta; x=+-1 singularrak). Errekurrentzia a_{n+2}=a_n (n(n-1)+4n+2=(n+1)(n+2)) -> bikoitiak a0, bakoitiak a1; soluzioa y=(A1+A2 x)/(1-x^2) (|x|<1). Behean x=1 Frobenius (0132tik). SymPy-z egiaztatua (oinarri biak residuoa 0). Konfiantza altua",
      "hizkuntza": "es/eu"
     },
@@ -3075,7 +3071,7 @@ KAPITULUAK["03mm_02serieak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 134. unitatea (METMATCG01_0134, IMG_2025_07_12_12_29_05S.jpg; 0132-0133ren amaiera): (x^2-1)y''+4xy'+2y=0 ebazpena x=1-en. Frobenius lambda=0: a_{n+1}=-1/2 a_n -> y1=2/(x+1); D'Alembert-ez (P=4x/(x^2-1), int P=2ln|x^2-1|) y2=1/(2(1-x^2)); soluzio orokorra y=(A1+A2 x)/(1-x^2). SymPy-z egiaztatua (y1,y2 residuoa 0). Konfiantza altua",
      "hizkuntza": "es/eu"
     },
@@ -3187,7 +3183,7 @@ KAPITULUAK["03mm_02serieak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 145. unitatea (METMATCG01_0145, IMG_2025_07_12_12_30_53S.jpg; euskaraz): serie-ebazpena, zein beta-rentzat (1+x^2)y''-2xy'+beta·y=0 ekuazioak soluzio polinomikoak. Errekurrentzia a_{n+2}=-(n^2-3n+beta)/((n+1)(n+2))·a_n; eteten da beta=n(3-n) denean. beta=0 → y=A+B(x+x^3/3); beta=2 → y=Ax+B(1-x^2). SymPy-z egiaztatua (a5 izend.=120). Konfiantza altua",
      "hizkuntza": "eu/es"
     },
@@ -3253,7 +3249,7 @@ KAPITULUAK["03mm_02serieak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 157. unitatea (METMATCG01_0157, IMG_2025_07_12_12_32_41S.jpg; «METODO MATEMATIKOAK», 3/12/2014): 2. ordenako EDO lineala (x^2-3x+2)y'' - 2(3-2x)y' + 2y = 1. FROBENIUSEN singularitateak: puntu singular erregularrak x=1, x=2 (p0=2, q0=0). EBAZPEN ZUZENA: EDO zehatza aldagai-aldaketa bidez u=(x^2-3x+2)y -> u''=1 -> u=x^2/2+Ax+B -> soluzio orokor itxia y(x)=(Ax+B)/(x^2-3x+2) + 1/2. Soluzio-kurben portaera-grafikoa. ⚠ Zuzenketa txikia: manuskrituko 5-2x lapsusa 3-2x-ra zuzendua. SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "eu/es"
     },
@@ -3379,7 +3375,7 @@ KAPITULUAK["03mm_02serieak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 159. unitatea (METMATCG01_0159, IMG_2025_07_12_12_34_24S.jpg): sin x-ren Taylor seriea eta x^(-1/2) sin x-ren Frobenius/Puiseux garapena. Akatsik ez; SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "es/eu"
     },
@@ -3465,7 +3461,7 @@ KAPITULUAK["03mm_02serieak"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CNmet3/",
+     "proiektua": "CNmet3",
      "xehetasuna": "CNmet3, 9.-12. orrialdeak (3 zatiki): 'METODO MATEMATIKOAK' errotulua eta 'SERIEEN BIDEZKO SOLUZIOAK' (20/XI/2013) - serieen bidezko ebazpenaren hasiera",
      "hizkuntza": "eu"
     },
@@ -3641,7 +3637,7 @@ KAPITULUAK["03mm_02serieak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CNmet3/",
+     "proiektua": "CNmet3",
      "xehetasuna": "CNmet3, 13.-21. orrialdeak (7 zatiki): FROBENIUS eta berretura-serieak (21/XI - 29/XI/2013) - errotulu elebidunak ('METODO MATEMATIKOAK / FROBENIUS', 'ECUACIONES DIFERENCIALES / SERIES DE POTENCIAS'), puntu singularrak barne",
      "hizkuntza": "eu/es"
     },
@@ -4686,7 +4682,7 @@ KAPITULUAK["03mm_02serieak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CNmet3/",
+     "proiektua": "CNmet3",
      "xehetasuna": "CNmet3, 22.-23. orrialdeak (0012 unitatea, orri mistoa): Bessel-en ekuazioa eta funtzio bereziak + egonkortasun-teoriaren hastapena (potentzialak eta fase-espazioak, CeTZ-rekin bektorizatuak) eta ekuazio indiziala / Frobenius-en kasuak; konfiantza ertaina",
      "hizkuntza": "eu/es"
     },
@@ -4910,7 +4906,7 @@ KAPITULUAK["03mm_02serieak"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CAx cuaderno amarillo metmat probabilidad ingles/",
+     "proiektua": "CAx cuaderno amarillo metmat probabilidad ingles",
      "xehetasuna": "CAx, 26.-27. orrialdeak (0015 unitatea, orri bikoitza; #CAxp26/#CAxp27): serie-ebazpena eta Green-en funtzioa. Euskaraz berriro (alternantzia baieztatuta). Azterketa-ariketa: (a) (1+x^2)y''-2xy'+beta y=0 serie bidez, errekurrentzia a_(n+2)=-(n^2-3n+beta)/((n+2)(n+1)) a_n, trunkatze beta=n(3-n) -> beta=0 (y=1, y=x+x^3/3) eta beta=2 (y=x, y=1-x^2); (b) Green-en funtzioa problema inhomogeneoarena, y(1)=2y(0), y'(1)=2y'(0) -> soilik tribiala -> Green existitzen da. ⭐⭐ HIRU AKATS dokumentatuta: 1 kaltegabea (A=B vs A=2B, emaitza berdina) eta 2 LARRIAK (jauzia (1+z^2)^2 -> zuzena 1/(1+z^2); jarraitutasuneko zeinu-akatsa -> B=D faltsua). Eskuizkribuko Green FINALA OKERRA. EBAZPEN ZUZENA aplikatu da (Comprobacion) akatsak MENTZIONATUZ: A=z/(1+z^2)^2, B=(1+z-z^2)/(2(1+z^2)^2), C=2B, D=(1-z-z^2)/(2(1+z^2)^2). (a) osorik zuzena. SymPy-z egiaztatua (errekurrentzia, 4 soluzioak, Green zuzenaren jarraitutasuna+jauzia). Marrazkirik ez. Konfiantza altua ebazpen matematikoan",
      "hizkuntza": "eu"
     },
@@ -5029,10 +5025,6 @@ KAPITULUAK["03mm_02serieak"] = {
        ]
       }
      ]
-    },
-    {
-     "mota": "testua",
-     "html": ".update(6)"
     }
    ]
   },

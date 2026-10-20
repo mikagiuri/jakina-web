@@ -29,7 +29,7 @@ KAPITULUAK["03mm_06probabilitatea"] = {
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/gzm_liburua",
+   "proiektua": "gzm_liburua",
    "xehetasuna": "22.–23. kapituluak; ariketa-banku gehigarriak fitxatuta (CATALOGO_B6_METODOS.md): estatistika(1).pdf (Metodo Matematikoak-eko orria, EU), Salazar-López eta Maronna (erreferentzia hutsak)",
    "hizkuntza": "eu"
   },
@@ -456,13 +456,9 @@ KAPITULUAK["03mm_06probabilitatea"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/06_metodos_matematicos/METODO MATEMATIKOAK/dpe2-prob-13.pdf",
+     "proiektua": "dpe2-prob-13.pdf",
      "xehetasuna": "Metodo Matematikoak irakasgaiaren probabilitate-orri ofiziala, osorik: probabilitatea fisikari begira (detektagailuak, Poisson, konfiantza-mugak, erroreen propagazioa)",
      "hizkuntza": "eu"
-    },
-    {
-     "mota": "testua",
-     "html": ".update(8)"
     }
    ]
   },
@@ -5158,7 +5154,7 @@ KAPITULUAK["03mm_06probabilitatea"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CAx cuaderno amarillo metmat probabilidad ingles/",
+     "proiektua": "CAx cuaderno amarillo metmat probabilidad ingles",
      "xehetasuna": "CAx, 1. orrialdea (0001 unitatea): probabilitatea ingelesez. Bi ariketa: (1) bi as ateratzea karta-sortatik ordezkapenarekin (independentzia -> 1/169) eta gabe (Pr(B|A)=3/51 -> 1/221); (2) probabilitate osoaren teorema trafiko-uharteen sarean (partizioa A_1..A_4, Pr(A_i)=1/4, baldintzatuak 1/3,1/3,0,1/2 -> Pr(B)=7/24). Probabilitate osoaren dekonposizioaren irudia CeTZ-rekin (errepideen grafo zehatza irakurtezina, ez berreraikia; abaniko-marrazkien ildotik). Zuzenketarik ez (hiru emaitzak zuzenak, Python-ez egiaztatua). Etiketa kanonikoa #CAxp1 ikusgai (lote osoko lehen aldia). Konfiantza altua",
      "hizkuntza": "en/es"
     }
@@ -5267,7 +5263,7 @@ KAPITULUAK["03mm_06probabilitatea"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CAx cuaderno amarillo metmat probabilidad ingles/",
+     "proiektua": "CAx cuaderno amarillo metmat probabilidad ingles",
      "xehetasuna": "CAx, 2. orrialdea (0002 unitatea): probabilitateko bi problema klasiko ingelesez. (1) Bayes-en teorema proba medikoetan (positibo faltsuen paradoxa): datu medikoekin (Pr(A)=0,0001, Pr(B|A)=0,9999, Pr(B|Ac)=0,0002) emaitza Pr(A|B)=1/3 (0,9999 faktore komuna zehazki sinplifikatzen delako); sentikortasuna Pr(B|Ac)=0,0001 -> 1/2, Pr(A)=0,001 -> 0,833; interpretazio kontraintuitiboa (osasuntsuen gehiengoa). (2) urtebetetzeen paradoxa: p=365!/((365-k)! 365^k), q=1-p; Stirling-ez q=1-e^(-k)(365/(365-k))^(365-k+1/2); k=23 -> q~0,51 (atalasea non q>1/2), k=50 -> q~0,97. q(k) kurbaren irudia CeTZ-rekin (editoreak gehitua). Zuzenketarik ez (bost emaitzak zuzenak, Python-ez egiaztatua). Enuntziatuaren barne-inkoherentzia 0,002% vs 0,0002 (=0,02%) zalantzetan. Etiketa kanonikoa #CAxp2. Konfiantza altua",
      "hizkuntza": "en/es"
     }
@@ -5391,7 +5387,7 @@ KAPITULUAK["03mm_06probabilitatea"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CAx cuaderno amarillo metmat probabilidad ingles/",
+     "proiektua": "CAx cuaderno amarillo metmat probabilidad ingles",
      "xehetasuna": "CAx, 3. orrialdea (0003 unitatea): konbinatoria eta probabilitatea ingelesez, gehi POST-IT hori bat itsatsita. (1) snooker-bolen permutazio bereizgarriak: 22 bola (15 gorri bereizezin) -> 22!/15! = 22·21·20·19·18·17·16 = 859.541.760. (2) bi as dituen bridge-esku bat (hipergeometrikoa): C(4,2)C(48,11)/C(52,13) = (4·3·39·38·13·12)/(2·52·51·50·49) = 0,213. (3) as bana lau jokalarietako bakoitzari: 4!(48!/(12!)^4)/(52!/(13!)^4) = 24·13^4/(52·51·50·49) = 0,105. (4) post-iteko minbizi-probaren erabakiak-zuhaitza + Bayes: Pr(Mb)=0,001, Pr(+|Mb)=0,99, Pr(+|noMb)=0,01 -> Pr(Mb|+)=0,09 (Pr(+|Mb) != Pr(Mb|+)). Erabakiak-zuhaitzaren irudia CeTZ-rekin (post-itak marraztuta dauka). Zuzenketa bat mentzioz (2. ariketan 2! faktorea falta adierazpen zabalduan; emaitza 0,213 zuzena). Python-ez egiaztatua. Post-itak azpiko papera estaltzen du (zuria seguru asko). Etiketa kanonikoa #CAxp3. Konfiantza altua",
      "hizkuntza": "en/es"
     }
@@ -5531,7 +5527,7 @@ KAPITULUAK["03mm_06probabilitatea"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CAx cuaderno amarillo metmat probabilidad ingles/",
+     "proiektua": "CAx cuaderno amarillo metmat probabilidad ingles",
      "xehetasuna": "CAx, 4.-5. orrialdeak (0004 unitatea, CAx-en LEHEN orri bikoitza; bi etiketa #CAxp4/#CAxp5): mekanika estatistikoa (gai-aldaketa probabilitatetik). N partikula R energia-mailatan (g_i endekapenak) banatzeko modu-kopurua W, lau kasutan -> hiru estatistika kuantikoak. Bi etapa: mailen arteko banaketa (multinomiala bereizgarrietan, 1 bereizezinetan) bider mailaren barneko w_i. (i) bereizgarri+mugarik ez: w_i=g_i^(n_i) -> W=N! prod g_i^(n_i)/n_i! = MAXWELL-BOLTZMANN (gas klasikoa); (ii) bereizezin+mugarik ez: w_i=(n_i+g_i-1)!/(n_i!(g_i-1)!) (bolak eta banatzaileak) -> BOSE-EINSTEIN (fotoiak); (iii) bereizezin+gehienez 1: w_i=C(g_i,n_i) -> FERMI-DIRAC (elektroiak, Pauli); (iv) bereizgarri+gehienez 1: w_i=g_i!/(g_i-n_i)! -> EZ DA NATURAN GERTATZEN. Sailkapen-taula 2x2 (editoreak gehitua). Zuzenketarik ez (lau formulak zuzenak, Python brute-force-z egiaztatuak: g=4,n=3 -> 64,20,4,24). Marrazkirik gabe. Konfiantza altua",
      "hizkuntza": "en/es"
     }
@@ -5656,7 +5652,7 @@ KAPITULUAK["03mm_06probabilitatea"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CAx cuaderno amarillo metmat probabilidad ingles/",
+     "proiektua": "CAx cuaderno amarillo metmat probabilidad ingles",
      "xehetasuna": "CAx, 6.-7. orrialdeak (0005 unitatea, orri bikoitza; #CAxp6/#CAxp7): probabilitate jarraitua eta hidrogenoaren 1s elektroia. Bost ariketa: (1) bolen banaketa hipergeometrikoa (7 gorri, 3 zuri, 3 atera ordezkapenik gabe): f=(1/120, 7/40, 21/40, 7/24), batura 1 (barra-grafikoarekin, eskuizkribuan marraztua). (2) PDF esponentzialaren normalizazioa A e^(-x): A=1, Pr(1<x<=2)=e^-1-e^-2~0,23. (3) bi aldagai independenteren bateratua g=e^-x, h=2e^-2y: ~0,2. (4-5) hidrogenoaren 1s elektroia (psi=A e^(-r/a0)): dV=4 pi r^2 dr -> f(r)=4 pi r^2 A^2 e^(-2r/a0); normalizazioz int r^2 e^(-2r/a0)=a0^3/4 -> A=1/sqrt(pi a0^3); batez besteko distantzia E[R]=3 a0/2 (SCHAUM 2.81 formula-taula); moda r=a0 (Bohr, f'(r)=(8/a0^3)r e^(-2r/a0)(1-r/a0)). f(r) dentsitate erradialaren irudia CeTZ-rekin (editoreak gehitua, moda vs batez bestekoa). Zuzenketarik ez (zortzi emaitzak zuzenak, Python-ez). Barne-erref (✱) 6->7 (ordena logikoaren aurka). Konfiantza altua",
      "hizkuntza": "en/es"
     }
@@ -5795,7 +5791,7 @@ KAPITULUAK["03mm_06probabilitatea"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CAx cuaderno amarillo metmat probabilidad ingles/",
+     "proiektua": "CAx cuaderno amarillo metmat probabilidad ingles",
      "xehetasuna": "CAx, 8.-9. orrialdeak (0006 unitatea, orri bikoitza; #CAxp8/#CAxp9): hiru gai. (1) hidrogenoaren 1s elektroiaren desbideratze estandarra (6-7 orrien jarraipena): V[R]=E[(r-mu)^2]=(4/a0^3)int(r^4+r^2 mu^2-2r^3 mu)e^(-2r/a0)dr, int r^n=n!/(2/a0)^(n+1) -> V[R]=3a0^2-3 mu a0+mu^2=(3/4)a0^2, sigma=(sqrt3/2)a0~0,866 a0 (moda a0/media 1,5a0/sigma 0,866a0). (2) dado okertua (p/2,p,p,p,p,2p): p=2/13, E[X]=53/13, E[X^2]=253/13, V[X]=480/169 BI BIDETATIK (definizioz eta E[X^2]-E[X]^2). (3) banaketa binomiala: Pr(X=3)=C(5,3)(1/6)^3(5/6)^2~0,032; errekurrentzia-formula Pr(X=x+1)=(p/q)((n-x)/(x+1))Pr(X=x); Bin(3,1/2) -> 1/8,3/8,3/8,1/8 (barra-grafikoa editoreak gehitua). Zuzenketarik ez (hamalau emaitzak zuzenak, Python-ez). Konfiantza altua",
      "hizkuntza": "en/es"
     }
@@ -5917,7 +5913,7 @@ KAPITULUAK["03mm_06probabilitatea"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CAx cuaderno amarillo metmat probabilidad ingles/",
+     "proiektua": "CAx cuaderno amarillo metmat probabilidad ingles",
      "xehetasuna": "CAx, 10.-11. orrialdeak (0007 unitatea, orri bikoitza; #CAxp10/#CAxp11): bost ariketa, lote osoko garbienetakoa. (1) UK loteria (hipergeometrikoa, N=49, M=6, n=6): Pr(k)=C(6,k)C(43,6-k)/C(49,6), zazpi probabilitateak 1/2,29 ... 1/(13,98 milioi), batura 1. (2) Poisson mezuetan (lambda=2): Pr(x)=2^x/x! e^(-2) = 0,135/0,271/0,271/0,180/0,090 (Pr(1)=Pr(2)). (3) binomialaren Poisson-hurbilketa (bonbillak, Bin(200,0.005), lambda=1): Pr=0,37/0,37/0,18 (binomial zehatza (0,995)^200=0,367). (4) bi Poisson-en batura: Po(0,4)+Po(0,8)=Po(1,2), Pr(Z>=2)=0,338. (5) gaussiarraren sigma-mugak: 2 Phi(n)-1 = 68,3/95,4/99,7% (mu,sigma-rekiko independenteak). Po(2) barra-grafikoa eta gaussiarraren sigma-muga irudia CeTZ-rekin (editoreak gehituak). Zuzenketarik ez (hogeita bi emaitzak zuzenak, Python/scipy-z). Konfiantza altua",
      "hizkuntza": "en/es"
     }
@@ -6052,7 +6048,7 @@ KAPITULUAK["03mm_06probabilitatea"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CAx cuaderno amarillo metmat probabilidad ingles/",
+     "proiektua": "CAx cuaderno amarillo metmat probabilidad ingles",
      "xehetasuna": "CAx, 12.-13. orrialdeak (0008 unitatea, orri bikoitza; #CAxp12/#CAxp13): banaketa normalaren bost aplikazio. (1) zerrategi bien nahasketa: A N(209,4;5^2) -> Phi(-1,88)=0,0301 (3%), B N(210,1;5^2) -> 0,0217, nahasketa 3:1 -> 0,0280 (2,8%). (2) alderantzizko problema (paketeak): Pr(>200)=0,068, Pr(<140)=0,03 -> ekuazio-sistema batuz sigma=17,8, mu=173,5. (3) binomialaren hurbilketa normala (txipak, Bin(200;0,1)): E=20, V=18, jarraitutasun-zuzenketaz Pr(X>15,5)=Phi(1,06)=0,86. (4) Poisson-en hurbilketa normala (Po(24)~N(24;24)): jarraitutasun-zuzenketaz Pr(X>23,5)=Phi(0,102)=0,54. (5) bi normal independenteren batura: T~N(60;10) (1,8^2+2,6^2=10 zehazki), Pr(T>65)=1-Phi(1,58)=0,057 (5,7%). Marrazkirik gabe. Zuzenketa bat mentzioz (Phi(1,33)->Phi(1,88); balioa 0,9699 zuzena). Kanpo-iturria TABLE 30.3. scipy-z egiaztatua (18 emaitza). Konfiantza altua",
      "hizkuntza": "en/es"
     }
@@ -6186,7 +6182,7 @@ KAPITULUAK["03mm_06probabilitatea"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CAx cuaderno amarillo metmat probabilidad ingles/",
+     "proiektua": "CAx cuaderno amarillo metmat probabilidad ingles",
      "xehetasuna": "CAx, 14.-15. orrialdeak (0009 unitatea, orri bikoitza; #CAxp14/#CAxp15): kobariantza eta korrelazioa. (1) dado okertuko X eta Y=X^2: Cov[X,Y]=E[X^3]-E[X]E[X^2]=101-(53/13)(253/13)=3660/169; sigma_y^2=(187356/169)p=28824/169; Corr[X,Y]=3660/sqrt(480·28824)=0,984. (2) lau aldagaiaren korrelazio-matrizea karta-sorta batetik (W,X,Y,Z): batez bestekoak (1/2, 16/13, 1/2, 3/13), bariantzak (3/4, 472/169, 1/4, 69/169), sei kobariantzak; Corr[W,X]=Corr[X,Y]=0 (independentzia), gainerakoak 0,577/-0,209/0,598/-0,361; matrize simetrikoa mat()-ez. Marrazkirik gabe. Zuzenketarik ez (hogeita hamar emaitzak zuzenak, 52 kartako sorta zenbatuz Python-ez; 187356 barne). Konfiantza altua",
      "hizkuntza": "en/es"
     }
@@ -6273,7 +6269,7 @@ KAPITULUAK["03mm_06probabilitatea"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CAx cuaderno amarillo metmat probabilidad ingles/",
+     "proiektua": "CAx cuaderno amarillo metmat probabilidad ingles",
      "xehetasuna": "CAx, 16.-17. orrialdeak (0010 unitatea, orri bikoitza; #CAxp16/#CAxp17): banaketa multinomiala, batura bikoitzaren mugak eta sartze-baztertzea. Problema bakarra hiru ataletan (hamabi ikasle, A/B/C osagaiak %20/%30/%50, bakoitzak A+B+2C behar): (a) Pr(3)=12!/(3!3!6!)(0,2)^3(0,3)^3(0,5)^6=0,06237 multinomiala; (b) Pr(N) batura bikoitza mugekin (2<=k_1<=6, 2<=k_2<=8-k_1) eta Pr(2)=(0,5)^12 sum ^12C_i(0,4)^i sum ^(12-i)C_j(0,6)^j forma; (c) Pr(1)=0,9144 sartze-baztertzez. Irudi editorial BAT (deklaratua): Pr(2)-ren (k_1,k_2) eskualde onargarria (15 puntu, CeTZ). Zuzenketarik ez. ⭐⭐ Aurkikuntza: autoreak baztertutako ebakidura ~10^-4 terminoek laugarren dezimala erabakitzen dute; kontuan hartuta Pr(1)=0,91452=0,9145 zehazki (enuntziatuak eskatzen duena), enumerazio multinomial osoz Python-en berretsia. Konfiantza altua",
      "hizkuntza": "en/es"
     }
@@ -6393,7 +6389,7 @@ KAPITULUAK["03mm_06probabilitatea"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CAx cuaderno amarillo metmat probabilidad ingles/",
+     "proiektua": "CAx cuaderno amarillo metmat probabilidad ingles",
      "xehetasuna": "CAx, 31. orrialdea (0018 unitatea, orri bakarra; #CAxp31): konbinatoria — aldakuntzak eta konbinazioak. ⭐⭐ KOADERNOAREN HIRUGARREN HIZKUNTZA: orria osorik GAZTELANIAZ (orain arte ingelesa eta euskara). Perfilaren araua: HIRU hizkuntza materialaren arabera, irudiz irudi. Gaia EDPetatik KONBINATORIARA itzultzen da (1-21 probabilitatearen oinarria). Lau definizio: V_(n,m)=n!/(n-m)!, C_(n,m)=binom(n,m), VR_(n,m)=n^m, CR_(n,m)=binom(n+m-1,m). ⭐⭐ Lau kasuak PROBLEMA BAKARRA (3 sari 10 ikasleri) bi ardatzetan (ordena x errepikapena): V_(10,3)=720, C_(10,3)=120, VR_(10,3)=1000, CR_(10,3)=220. Bost emaitzak zuzenak (Python + brute-force itertools). Ertzetako zerrendek m!-gatiko zatiketa justifikatzen dute eskuz (C=V/m!). Bi taula (sailkapena + instantziazioa). Zuzenketarik ez. Enuntziatuak gaztelaniaz aipatuta, definizioak euskaraz. Konfiantza altua",
      "hizkuntza": "es"
     }
@@ -6466,7 +6462,7 @@ KAPITULUAK["03mm_06probabilitatea"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CAx cuaderno amarillo metmat probabilidad ingles/",
+     "proiektua": "CAx cuaderno amarillo metmat probabilidad ingles",
      "xehetasuna": "CAx, 32. orrialdea (0019 unitatea, orri bakarra; #CAxp32): poligono baten DIAGONALAK konbinatoriaz. Gaztelaniaz (31.aren jarraipena; konbinazioen definizioa gorriz errepikatua; bi orriek konbinatoria-blokea). ⭐ Ideia: kenketa — erpin-bikote guztiak C(n,2), aldeak (n) kendu -> diagonalak = C(n,2)-n = (n^2-3n)/2. Laukia 2, hexagonoa 9, oktogonoa 20; orokorra n=4,6,8-n 2/9/20 (kontrol bikoitza). (2) aldeak=diagonalak: n=(n^2-3n)/2 -> n(n-5)=0 -> n=5 (pentagonoa, 5 alde=5 diagonal). ⭐ BAKARTASUNA (osatua): n(n-5)/2>0 n>5-erako -> pentagonoa BAKARRA. Sei kalkuluak SymPy-z egiaztatuak. Zuzenketarik ez (marjinako bikote-zerrenda: DC=CD, BC falta, ez ukitu). IRUDIA: laukia/pentagonoa/hexagonoa aldeak solido + diagonalak eten, pentagonoa nabarmenduta (CeTZ). Enuntziatua gaztelaniaz aipatuta, ebazpena euskaraz. Konfiantza altua",
      "hizkuntza": "es"
     }
@@ -6532,7 +6528,7 @@ KAPITULUAK["03mm_06probabilitatea"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CAx cuaderno amarillo metmat probabilidad ingles/",
+     "proiektua": "CAx cuaderno amarillo metmat probabilidad ingles",
      "xehetasuna": "CAx, 33. orrialdea (0020 unitatea, orri bakarra; #CAxp33): permutazioak eta aldakuntzak. Gaztelaniaz (31-32ren jarraipena); KONBINATORIA-BLOKEA IXTEN du (31-33). Bi problema: (1) 5 gizon + 4 emakume lerroan, emakumeak posizio bikoitietan (4 bikoiti, 5 bakoiti behartua) -> P_4·P_5=4!·5!=2880; (2) 4 digituko zenbakiak: (1) errepikapenez V_(9,1)·VR_(10,3)=9·10^3=9000, (2) errep. gabe V_(9,1)·V_(9,3)=9·504=4536, (3) azken digitua 0 eta errep. gabe V_(9,3)=9·8·7=504. ⭐⭐ ZUZENKETA (mención): 3. enuntziatuak 'NO ES 0' dio baina kalkuluak (504) 'ES 0' eskatzen du (NO ES 0 -> 4032). Aritmetikak enuntziatua erabakitzen du (CAX_0011 irizpidea). Lau emaitzak brute-force-z egiaztatuak. IRUDI editorial bat: 9 posizioko lerroa bikoiti/bakoiti (CeTZ). Enuntziatuak gaztelaniaz aipatuta, ebazpena euskaraz. Konfiantza altua",
      "hizkuntza": "es"
     }
@@ -6630,7 +6626,7 @@ KAPITULUAK["03mm_06probabilitatea"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CAx cuaderno amarillo metmat probabilidad ingles/",
+     "proiektua": "CAx cuaderno amarillo metmat probabilidad ingles",
      "xehetasuna": "CAx, 34. orrialdea (0021 unitatea, orri bakarra; #CAxp34): urtebetetzeak eta Morse alfabetoa. ⭐⭐ CAx-EN AZKEN UNITATEA (21/21) ETA CORPUS OSOAREN AZKENA (161/161). Gaztelaniaz (31-33ren jarraipena); konbinatoria-blokea (31-34) ixten du. Bi problema klasiko (sailkapenaren bi muturrak): (1) 10 lagunen urtebetetze-banaketak, VR_(365,10)=365^10=4,2e25 (urtebetetzeen paradoxaren izendatzailea; zatidura 0,883); (2) Morse 5 seinale 3 marra+2 puntu, C_(5,2)=10 (zer aukeratzen den: 2 punturen kokapena; C_(5,3)=10 simetriaz). Bi emaitzak Python-ez egiaztatuak. Zuzenketarik ez. IRUDIA: 10 Morse letrak (CeTZ). Koadernoaren itxiera-oharra (1-21 prob., 22-30 EDak, 31-34 konbinatoria; hiru hizkuntza; lan-koadernoa). Enunciados citados en castellano, ebazpena euskaraz. Konfiantza altua",
      "hizkuntza": "es"
     }

@@ -10,7 +10,7 @@ KAPITULUAK["03mm_07estatistika"] = {
  "sarrera": [
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/gzm_liburua",
+   "proiektua": "gzm_liburua",
    "xehetasuna": "24.–25. kapituluak; probabilitate-produktutik banandua (T4 D4)",
    "hizkuntza": "eu"
   },
@@ -23,10 +23,6 @@ KAPITULUAK["03mm_07estatistika"] = {
      "html": "t-Student eta chi-karratu banaketak, p-balioa eta erregresioa oraindik jaso gabe daude (maila aurre-unibertsitarioko arkua osorik dago: laginketa, estimazioa, konfiantza-tarteak, hipotesi-kontrasteak)."
     }
    ]
-  },
-  {
-   "mota": "testua",
-   "html": ".update(9)"
   }
  ],
  "atalak": [
@@ -2110,10 +2106,6 @@ KAPITULUAK["03mm_07estatistika"] = {
           },
           {
            "mota": "testua",
-           "html": " "
-          },
-          {
-           "mota": "testua",
            "html": "<math display=\"inline\"><mrow><mo>=</mo><mn>1</mn><mo>−</mo><mi>φ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>73</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn><mo>−</mo><mn>0</mn><mo>,</mo><mn>9582</mn><mo>=</mo><mn>0</mn><mo>,</mo><mn>0418</mn></mrow></math>"
           }
          ]
@@ -2139,10 +2131,6 @@ KAPITULUAK["03mm_07estatistika"] = {
           {
            "mota": "testua",
            "html": "<strong>2.</strong>  <math display=\"inline\"><mrow><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mn>21</mn><mo>&lt;</mo><mi>z</mi><mo>≤</mo><mn>1</mn><mo>,</mo><mn>34</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>=</mo><mi>φ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>34</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>φ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>21</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo></mrow></math>"
-          },
-          {
-           "mota": "testua",
-           "html": " "
           },
           {
            "mota": "testua",
@@ -2178,19 +2166,11 @@ KAPITULUAK["03mm_07estatistika"] = {
           },
           {
            "mota": "testua",
-           "html": " "
-          },
-          {
-           "mota": "testua",
            "html": "<math display=\"inline\"><mrow><mo>=</mo><mn>1</mn><mo>−</mo><mn>0</mn><mo>,</mo><mn>7967</mn><mo>=</mo><mn>0</mn><mo>,</mo><mn>2033</mn></mrow></math>"
           },
           {
            "mota": "testua",
            "html": "<math display=\"inline\"><mrow><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>0</mn><mo>,</mo><mn>83</mn><mo>&lt;</mo><mi>z</mi><mo>≤</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>=</mo><mi>φ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mn>0</mn><mo>,</mo><mn>2033</mn><mo>=</mo><mn>0</mn><mo>,</mo><mn>9893</mn><mo>−</mo><mn>0</mn><mo>,</mo><mn>2033</mn><mo>=</mo></mrow></math>"
-          },
-          {
-           "mota": "testua",
-           "html": " "
           },
           {
            "mota": "testua",
@@ -2219,10 +2199,6 @@ KAPITULUAK["03mm_07estatistika"] = {
           {
            "mota": "testua",
            "html": "<strong>4.</strong>  <math display=\"inline\"><mrow><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>95</mn><mo>&lt;</mo><mi>z</mi><mo>&lt;</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>=</mo><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>1</mn><mo>&lt;</mo><mi>z</mi><mo>&lt;</mo><mn>1</mn><mo>,</mo><mn>95</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>=</mo><mi>φ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>95</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>φ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo></mrow></math>"
-          },
-          {
-           "mota": "testua",
-           "html": " "
           },
           {
            "mota": "testua",
@@ -2519,10 +2495,6 @@ KAPITULUAK["03mm_07estatistika"] = {
           {
            "mota": "testua",
            "html": "<math display=\"inline\"><mrow><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>70</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>80</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>↔</mo><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mn>5</mn><mo>&lt;</mo><mi>z</mi><mo>&lt;</mo><mn>1</mn><mo>,</mo><mn>75</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>=</mo></mrow></math>  <br>"
-          },
-          {
-           "mota": "testua",
-           "html": " "
           },
           {
            "mota": "testua",
@@ -3153,19 +3125,11 @@ KAPITULUAK["03mm_07estatistika"] = {
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
        "html": "Bitartea: <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>500</mn><mo>±</mo><mn>1</mn><mo>,</mo><mn>96</mn><mo>⋅</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>493</mn><mo>,</mo><mn>1</mn><mo>;</mo><mn>506</mn><mo>,</mo><mn>9</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       },
       {
        "mota": "testua",
        "html": "%99aren kasuan <math display=\"inline\"><mrow><mo>→</mo><mn>1</mn><mo>−</mo><mi>α</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>99</mn><mo>→</mo><mi>α</mi><mi>/</mi><mn>2</mn><mo>=</mo><mn>0</mn><mo>,</mo><mn>005</mn><mo>→</mo><msub><mi>z</mi><mrow><mi>α</mi><mi>/</mi><mn>2</mn></mrow></msub><mo>=</mo><mn>2</mn><mo>,</mo><mn>575</mn></mrow></math>"
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",
@@ -3907,10 +3871,6 @@ KAPITULUAK["03mm_07estatistika"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": ""
-        },
-        {
-         "mota": "testua",
          "html": "Zoriz 40 indibiduo hartuko ditugu 18 eta 25 urte bitartekoen artean; 70 indibiduo 26-40 bitartekoen artean eta 90, azkenik, 40 urtetik gorakoen artean."
         },
         {
@@ -4245,10 +4205,6 @@ KAPITULUAK["03mm_07estatistika"] = {
         {
          "mota": "testua",
          "html": "<math display=\"inline\"><mrow><mi>P</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mover><mi>x</mi><mo accent=\"true\">¯</mo></mover><mo>&gt;</mo><mn>4</mn><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mi>P</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>z</mi><mo>&gt;</mo><mfrac><mrow><mn>4</mn><mo>−</mo><mn>3</mn><mo>,</mo><mn>5</mn></mrow><mrow><mn>0</mn><mo>,</mo><mn>285</mn></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>z</mi><mo>&gt;</mo><mn>1</mn><mo>,</mo><mn>75</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>=</mo></mrow></math>"
-        },
-        {
-         "mota": "testua",
-         "html": " "
         },
         {
          "mota": "testua",
@@ -5148,15 +5104,7 @@ KAPITULUAK["03mm_07estatistika"] = {
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
        "html": "<em>b.1.)</em> Definitu estratuak."
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",
@@ -5265,10 +5213,6 @@ KAPITULUAK["03mm_07estatistika"] = {
        "html": "Badakigu lurrera mota jakin bateko 100 txintxeta botaz gero, %95ean punta gora begira geratzen direnen proportzioa <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1216</mn><mo>;</mo><mn>0</mn><mo>,</mo><mn>2784</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> bitartean dagoela. Kalkulatu txintxeta horietako bat gora begira geratzeko dagoen <math display=\"inline\"><mi>p</mi></math> probabilitatea eta egiaztatu emandako bitartearen zabaltasuna zuzena dela."
       }
      ]
-    },
-    {
-     "mota": "testua",
-     "html": ".update(10)"
     }
    ]
   },
@@ -5962,10 +5906,6 @@ KAPITULUAK["03mm_07estatistika"] = {
           {
            "mota": "testua",
            "html": "<math display=\"inline\"><mrow><mi>α</mi><mi>/</mi><mn>2</mn><mo>=</mo><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>z</mi><mo>≥</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>=</mo><mn>1</mn><mo>−</mo><mn>0</mn><mo>,</mo><mn>9772</mn><mo>=</mo><mn>0</mn><mo>,</mo><mn>0228</mn><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mi>α</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>0456</mn></mrow></math>"
-          },
-          {
-           "mota": "testua",
-           "html": " "
           },
           {
            "mota": "testua",
@@ -8407,7 +8347,7 @@ KAPITULUAK["03mm_07estatistika"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CAx cuaderno amarillo metmat probabilidad ingles/",
+     "proiektua": "CAx cuaderno amarillo metmat probabilidad ingles",
      "xehetasuna": "CAx, 18.-19. orrialdeak (0011 unitatea, orri bikoitza; #CAxp18/#CAxp19): Bayes hiru hornitzailerekin, oinarri-tasaren paradoxa eta neurketen estatistika. ⚠ HIZKUNTZA-ALDAKETA: koadernoa ingelesetik euskarara pasatzen da hemen (triajearen aurreikuspenaren aurkakoa); euskarazko enuntziatuak partzialki irakurgaitzak, garapena osorik irakurgarria eta egiaztatua. Lau ariketa: (1) mikrotxipak, Bayes 3 hornitzailerekin (ingelesez), Pr(X|1)=0,005/0,0094=0,532; (2) tesi-lana 4 kokapenetan, Pr(A_1|B̄)=(1-p)/(4-p), osagarria 3/(4-p); (3) Salamancako taberna, oinarri-tasaren paradoxa, Pr(D|E)=0,0107 (Bayes zuhaitza eskuizkributik berregina, CeTZ); (4) A magnitudearen 6 neurketa: batez bestekoa 32,96, s^2=62,29, Bessel sigma=8,64, %80 CI [28,445, 37,475]. Zuzenketarik ez (14 emaitza egiaztagarri, 14ak zuzenak, Python/scipy/SymPy-z). Konfiantza ertaina (euskarazko zatiak irakurgaitzak)",
      "hizkuntza": "en/eu"
     }
@@ -8527,7 +8467,7 @@ KAPITULUAK["03mm_07estatistika"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CAx cuaderno amarillo metmat probabilidad ingles/",
+     "proiektua": "CAx cuaderno amarillo metmat probabilidad ingles",
      "xehetasuna": "CAx, 20.-21. orrialdeak (0012 unitatea, orri bikoitza; #CAxp20/#CAxp21): osagaien fidagarritasuna — lagina, binomiala eta Bayes, KATE BAKARRA. Euskaraz osorik (0011ko aldaketa baieztatuta). Problema bakarra lau ataletan kateatuta: (a) 10 neurketaren estatistika, batez bestekoa 6,67, s^2=3,728, Bessel sigma=2,04, %80 CI [5,84, 7,50]; (b) Bin(298;0,01), Pr(matxurarik ez)=(0,99)^298=0,05, Pr(>=1)=0,95; (c) Bin(298;1e-4), Pr(hondatu)=1-(1-1e-4)^298=0,02936, Pr(>=2)=4,32e-4; (d) Bayes (b)/(c)-ko emaitzak datu gisa, Pr(A|hondatu)=(4/10000·0,95)/(...)=0,0125~0,01. Zuzenketarik ez (emaitza finalak zuzenak). ⭐⭐ Barne-inkoherentzia dokumentatua: karratuen batura idatzia 3,74992 baina erabilitako sigma^2=4,14-k 3,728 (zuzena) eskatzen du. IRUDIA: (d)-ko Bayes zuhaitza eskuizkributik berregina (CeTZ). Oinarri-tasaren paradoxa hirugarren aldiz. Konfiantza ertaina. Python/scipy-z egiaztatua",
      "hizkuntza": "eu"
     }

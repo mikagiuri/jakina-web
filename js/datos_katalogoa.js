@@ -167,7 +167,7 @@ const KATALOGOA = {
   "azpititulua": "III. aroa - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "03mm_01edo": {
   "titulua": "JAKINA - B6 - Metodo matematikoak - 1/9",
@@ -215,7 +215,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "03mm_05edp": {
   "titulua": "JAKINA - B6 - Metodo matematikoak - 7/9",
@@ -287,7 +287,7 @@ const KATALOGOA = {
   "azpititulua": "III. aroa - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "05mk_04zentralak": {
   "titulua": "JAKINA - B9 - Mekanika klasikoa - 4/10",
@@ -295,7 +295,7 @@ const KATALOGOA = {
   "azpititulua": "III. aroa - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "05mk_05solidoa": {
   "titulua": "JAKINA - B9 - Mekanika klasikoa - 5/10",
@@ -303,7 +303,7 @@ const KATALOGOA = {
   "azpititulua": "III. aroa - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "05mk_06analitikoa": {
   "titulua": "JAKINA - B9 - Mekanika klasikoa - 6/10",
@@ -311,7 +311,7 @@ const KATALOGOA = {
   "azpititulua": "III. aroa - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "05mk_07oszilazioak": {
   "titulua": "JAKINA - B9 - Mekanika klasikoa - 7/10",
@@ -319,7 +319,7 @@ const KATALOGOA = {
   "azpititulua": "III. aroa - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "05mk_08kaosa": {
   "titulua": "JAKINA - B9 - Mekanika klasikoa - 8/10",
@@ -335,7 +335,7 @@ const KATALOGOA = {
   "azpititulua": "III. aroa - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "05mk_10jarraituak": {
   "titulua": "JAKINA - B9 - Mekanika klasikoa - 10/10",

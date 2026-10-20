@@ -47,7 +47,7 @@ KAPITULUAK["01mc_01deribatuak"] = {
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/gzm_liburua",
+   "proiektua": "gzm_liburua",
    "xehetasuna": "Capítulos 17 y 18",
    "hizkuntza": "eu"
   },
@@ -372,10 +372,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
     {
      "mota": "testua",
      "html": "<em>«Llevó las fuerzas del hombre hasta un punto que nunca se habría\n  pensado, y la obra que creó fue, sin embargo, original en cada una\n  de esas obras».</em>"
-    },
-    {
-     "mota": "testua",
-     "html": ".update(4)"
     },
     {
      "mota": "oharra",
@@ -1081,7 +1077,7 @@ KAPITULUAK["01mc_01deribatuak"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013, IMG_2026_07_28_01_44_29S.jpg — IMG_2026_07_28_01_46_55S.jpg",
+     "proiektua": "diario landeta 2 ene 2013, IMG_2026_07_28_01_44_29S.jpg — IMG_2026_07_28_01_46_55S.jpg",
      "xehetasuna": "CALCULO LANDETA (landeta2), páginas 52-81, 2013/01/10-16: estudios completos de funciones, Bolzano/Rolle/Weierstrass, optimización y el bloque de series y sucesiones (Stolz, D'Alembert, Raabe, Cauchy, Pringsheim, Leibniz, inducción, campo de convergencia) — transcripciones v3 comprobadas",
      "hizkuntza": "es"
     },
@@ -1670,7 +1666,7 @@ KAPITULUAK["01mc_01deribatuak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario 1 de calculo ene 2013, IMG_2026_07_28_02_27_45S.jpg",
+     "proiektua": "diario 1 de calculo ene 2013, IMG_2026_07_28_02_27_45S.jpg",
      "xehetasuna": "C1_0001: transcripción literal comprobada del estudio manuscrito de una serie numérica; dudas de lectura, correcciones y comprobación matemática por separado",
      "hizkuntza": "es/eu"
     }
@@ -3438,10 +3434,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
         },
         {
          "mota": "testua",
-         "html": " "
-        },
-        {
-         "mota": "testua",
          "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mroot><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mi>n</mi></mroot><mo>=</mo><mroot><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mi>n</mi></mroot><mo>=</mo><mroot><mi>a</mi><mi>n</mi></mroot></mrow></math>"
         }
        ]
@@ -3750,10 +3742,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
        "html": "son infinitos del mismo orden."
       }
      ]
@@ -3797,10 +3785,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
       {
        "mota": "testua",
        "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>∞</mi></mrow></math>    y"
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",
@@ -4574,10 +4558,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
         },
         {
          "mota": "testua",
-         "html": " "
-        },
-        {
-         "mota": "testua",
          "html": "<span>porque una exponencial de base mayor que 1 es un infinito de orden superior a una potencia.</span>"
         }
        ]
@@ -4873,10 +4853,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
       {
        "mota": "testua",
        "html": "<img class=\"formula\" src=\"../media/formulak/6b6de93332c4aeb8.svg\" alt=\"f(#[1 000]) = (1 + 1/#[1 000])^#[1 000] = #[2,7169]...\" style=\"width:18.889em;height:1.001em\" loading=\"lazy\">"
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",
@@ -5320,10 +5296,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
           },
           {
            "mota": "testua",
-           "html": " "
-          },
-          {
-           "mota": "testua",
            "html": "<span><math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mi>c</mi><mo>+</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>∞</mi></mrow></math></span>"
           }
          ]
@@ -5348,10 +5320,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
           {
            "mota": "testua",
            "html": "<span><math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mi>c</mi><mo>−</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>∞</mi></mrow></math></span>"
-          },
-          {
-           "mota": "testua",
-           "html": " "
           },
           {
            "mota": "testua",
@@ -5383,10 +5351,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
       {
        "mota": "testua",
        "html": "<span><math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mi>c</mi><mo>−</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>6</mn></mrow></math></span>"
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",
@@ -5797,10 +5761,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
           {
            "mota": "testua",
            "html": "Veamos si existe <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>1</mn></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>,"
-          },
-          {
-           "mota": "testua",
-           "html": " "
           },
           {
            "mota": "testua",
@@ -7700,10 +7660,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
        "html": "<em>b)</em>"
       },
       {
@@ -8133,10 +8089,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
         {
          "mota": "testua",
          "html": "e)  <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mo>=</mo><mfrac><mi>∞</mi><mn>0</mn></mfrac><mo>=</mo><mi>±</mi><mi>∞</mi></mrow></math>"
-        },
-        {
-         "mota": "testua",
-         "html": " "
         },
         {
          "mota": "testua",
@@ -8625,10 +8577,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
         },
         {
          "mota": "testua",
-         "html": " "
-        },
-        {
-         "mota": "testua",
          "html": "<span>(similar al caso (b))</span>"
         }
        ]
@@ -8683,10 +8631,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
       {
        "mota": "testua",
        "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>4</mn><mi>x</mi><mo>−</mo><mn>2</mn></mrow><mrow><mn>3</mn><mi>x</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow></math>"
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",
@@ -8840,10 +8784,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
        "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>1</mn><mo>+</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mn>1</mn><mn>2</mn></msup><mo>−</mo><mi>a</mi><mo>⋅</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>3</mn><mo>−</mo><mi>a</mi></mrow></math>"
       }
      ]
@@ -8987,10 +8927,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
         {
          "mota": "testua",
          "html": "<math display=\"inline\"><mrow><mi>b</mi><mo>=</mo><mn>10</mn></mrow></math>"
-        },
-        {
-         "mota": "testua",
-         "html": " "
         },
         {
          "mota": "testua",
@@ -9557,10 +9493,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
        "html": "<em>b)</em>"
       },
       {
@@ -9586,10 +9518,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
       {
        "mota": "testua",
        "html": "Calcula el límite de la función <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> cuando <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mn>2</mn></mrow></math>, <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mn>3</mn></mrow></math>, <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></math>, <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></math>."
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",
@@ -10311,10 +10239,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
        "html": "<em>(↪ Multiplica y divide por <math display=\"inline\"><mrow><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi></mrow></msqrt><mo>+</mo><mi>x</mi></mrow></math>.)</em>"
       }
      ]
@@ -10335,10 +10259,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
       {
        "mota": "testua",
        "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn></mrow></msqrt><mo>−</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn></mrow></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",
@@ -10377,10 +10297,6 @@ KAPITULUAK["01mc_01deribatuak"] = {
       {
        "mota": "testua",
        "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>2</mn></mrow></munder><mfrac><mrow><mn>1</mn><mo>−</mo><msqrt><mrow><mn>3</mn><mo>−</mo><mi>x</mi></mrow></msqrt></mrow><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow></mfrac></mrow></math>"
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",

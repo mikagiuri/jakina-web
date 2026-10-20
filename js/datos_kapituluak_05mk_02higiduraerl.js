@@ -7,12 +7,7 @@ KAPITULUAK["05mk_02higiduraerl"] = {
  "azala": "B9.2 - Higidura erlatiboa",
  "azpititulua": "III. aroa - L2",
  "iturburua": "kapituluak/05mk_02higiduraerl/05mk_02higiduraerl.typ",
- "sarrera": [
-  {
-   "mota": "testua",
-   "html": ".update(1)"
-  }
- ],
+ "sarrera": [],
  "atalak": [
   {
    "id": "a1",
@@ -1664,7 +1659,7 @@ KAPITULUAK["05mk_02higiduraerl"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "Ecenarro, Mecanica y Ondas, UPV/EHU 2000, ISBN 84-8373-295-5",
+     "proiektua": "EHU 2000, ISBN 84-8373-295-5",
      "xehetasuna": "Examenes resueltos (1996-2000), mk:2",
      "hizkuntza": "eu"
     }

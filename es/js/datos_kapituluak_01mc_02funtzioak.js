@@ -30,7 +30,7 @@ KAPITULUAK["01mc_02funtzioak"] = {
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/gzm_liburua",
+   "proiektua": "gzm_liburua",
    "xehetasuna": "Capítulos 19 y 20",
    "hizkuntza": "eu"
   }
@@ -1930,10 +1930,6 @@ KAPITULUAK["01mc_02funtzioak"] = {
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
        "html": "es la derivada en un punto <math display=\"inline\"><mi>x</mi></math> variable."
       }
      ]
@@ -2873,10 +2869,6 @@ KAPITULUAK["01mc_02funtzioak"] = {
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
        "html": "<math display=\"inline\"><mrow><mn>4</mn><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn></mrow></math>.   Esta ecuación tiene una única solución <math display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>1</mn></mrow></math>. Sus pendientes coinciden en el punto <math display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>1</mn></mrow></math>."
       },
       {
@@ -3561,10 +3553,6 @@ KAPITULUAK["01mc_02funtzioak"] = {
       {
        "mota": "testua",
        "html": "Los puntos singulares son estos:    <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>,    <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>,"
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",
@@ -4565,10 +4553,6 @@ KAPITULUAK["01mc_02funtzioak"] = {
     },
     {
      "mota": "testua",
-     "html": " "
-    },
-    {
-     "mota": "testua",
      "html": "Por tanto, <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow></math>"
     },
     {
@@ -5104,10 +5088,6 @@ KAPITULUAK["01mc_02funtzioak"] = {
     },
     {
      "mota": "testua",
-     "html": " "
-    },
-    {
-     "mota": "testua",
      "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>, <math display=\"inline\"><mrow><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><msqrt><mn>3</mn></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>−</mi><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>"
     },
     {
@@ -5380,10 +5360,6 @@ KAPITULUAK["01mc_02funtzioak"] = {
         },
         {
          "mota": "testua",
-         "html": " "
-        },
-        {
-         "mota": "testua",
          "html": "<em>a)</em>"
         },
         {
@@ -5630,19 +5606,11 @@ KAPITULUAK["01mc_02funtzioak"] = {
     },
     {
      "mota": "testua",
-     "html": " "
-    },
-    {
-     "mota": "testua",
      "html": "[①]"
     },
     {
      "mota": "testua",
      "html": "• <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> es un punto de inflexión <math display=\"inline\"><mrow><mo>→</mo><msup><mi>f</mi><mo>″</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>→</mo><mn>6</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>=</mo><mn>0</mn></mrow></math>"
-    },
-    {
-     "mota": "testua",
-     "html": " "
     },
     {
      "mota": "testua",
@@ -5655,10 +5623,6 @@ KAPITULUAK["01mc_02funtzioak"] = {
     {
      "mota": "testua",
      "html": "• <math display=\"inline\"><mi>f</mi></math> tiene un extremo en el punto <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> <math display=\"inline\"><mrow><mo>→</mo><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>→</mo><mi>c</mi><mo>=</mo><mn>0</mn></mrow></math>"
-    },
-    {
-     "mota": "testua",
-     "html": " "
     },
     {
      "mota": "testua",
@@ -9383,10 +9347,6 @@ KAPITULUAK["01mc_02funtzioak"] = {
               },
               {
                "mota": "testua",
-               "html": " "
-              },
-              {
-               "mota": "testua",
                "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>−</mi><msup><mn>1</mn><mo>−</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>∞</mi></mrow></math>"
               }
              ]
@@ -9396,10 +9356,6 @@ KAPITULUAK["01mc_02funtzioak"] = {
               {
                "mota": "testua",
                "html": "<math display=\"inline\"><mrow><mfrac><mrow><mn>3</mn><mo>⋅</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>0</mn><mo>,</mo><mn>999</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>−</mo><mn>5</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>0</mn><mo>,</mo><mn>999</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mn>6</mn></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>0</mn><mo>,</mo><mn>999</mn><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>0</mn><mo>,</mo><mn>999</mn><mo>−</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mo>=</mo><mi>−</mi><mn>663</mn><mo>,</mo><mi>…</mi></mrow></math>"
-              },
-              {
-               "mota": "testua",
-               "html": " "
               },
               {
                "mota": "testua",
@@ -9452,10 +9408,6 @@ KAPITULUAK["01mc_02funtzioak"] = {
               },
               {
                "mota": "testua",
-               "html": " "
-              },
-              {
-               "mota": "testua",
                "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>2</mn><mo>−</mo></msup></mrow></munder><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>∞</mi></mrow></math>"
               }
              ]
@@ -9465,10 +9417,6 @@ KAPITULUAK["01mc_02funtzioak"] = {
               {
                "mota": "testua",
                "html": "<math display=\"inline\"><mrow><mfrac><mrow><mn>3</mn><mo>⋅</mo><mn>2</mn><mo>,</mo><msup><mn>001</mn><mn>2</mn></msup><mo>−</mo><mn>5</mn><mo>⋅</mo><mn>2</mn><mo>,</mo><mn>001</mn><mo>−</mo><mn>6</mn></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>,</mo><mn>001</mn><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>,</mo><mn>001</mn><mo>−</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mo>=</mo><mi>−</mi><mn>1330</mn><mo>,</mo><mi>…</mi></mrow></math>"
-              },
-              {
-               "mota": "testua",
-               "html": " "
               },
               {
                "mota": "testua",
@@ -10124,10 +10072,6 @@ KAPITULUAK["01mc_02funtzioak"] = {
           },
           {
            "mota": "testua",
-           "html": " "
-          },
-          {
-           "mota": "testua",
            "html": "<math display=\"inline\"><mrow><msup><mi>f</mi><mo>″</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>⇔</mo><mi>x</mi><mo>=</mo><mn>2</mn><mo>→</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>,</mo><mn>7</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
           },
           {
@@ -10231,10 +10175,6 @@ KAPITULUAK["01mc_02funtzioak"] = {
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
        "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>,    <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>27</mn><mn>4</mn></mfrac><mo>=</mo><mn>6</mn><mo>,</mo><mn>75</mn></mrow></math>"
       },
       {
@@ -10281,10 +10221,6 @@ KAPITULUAK["01mc_02funtzioak"] = {
           {
            "mota": "testua",
            "html": "   <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mn>2</mn><mi>x</mi></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math>,"
-          },
-          {
-           "mota": "testua",
-           "html": " "
           },
           {
            "mota": "testua",
@@ -10895,10 +10831,6 @@ KAPITULUAK["01mc_02funtzioak"] = {
         },
         {
          "mota": "testua",
-         "html": " "
-        },
-        {
-         "mota": "testua",
          "html": "<math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math> asínt. vertical   <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>→</mo><msup><mn>2</mn><mo>−</mo></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada, </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>y</mi><mo>→</mo><mi>∞</mi></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>→</mo><msup><mn>2</mn><mo>+</mo></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada, </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>y</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mtd></mtr></mtable></mrow></math>"
         },
         {
@@ -11122,10 +11054,6 @@ KAPITULUAK["01mc_02funtzioak"] = {
       {
        "mota": "testua",
        "html": "<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup><mo>+</mo><mn>3</mn><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mi>∞</mi></mrow></math>;"
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",
@@ -11928,10 +11856,6 @@ KAPITULUAK["01mc_02funtzioak"] = {
     },
     {
      "mota": "testua",
-     "html": " "
-    },
-    {
-     "mota": "testua",
      "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn></mrow></math>,    <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≥</mo><mn>0</mn></mrow></math> para cualquier <math display=\"inline\"><mi>x</mi></math>."
     },
     {
@@ -11952,10 +11876,6 @@ KAPITULUAK["01mc_02funtzioak"] = {
     {
      "mota": "testua",
      "html": "<math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mn>4</mn></mrow></math>;    <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>3</mn></mrow></math>;"
-    },
-    {
-     "mota": "testua",
-     "html": " "
     },
     {
      "mota": "testua",
@@ -13629,7 +13549,7 @@ KAPITULUAK["01mc_02funtzioak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013, IMG_2026_07_28_01_44_29S.jpg — IMG_2026_07_28_01_46_55S.jpg",
+     "proiektua": "diario landeta 2 ene 2013, IMG_2026_07_28_01_44_29S.jpg — IMG_2026_07_28_01_46_55S.jpg",
      "xehetasuna": "CALCULO LANDETA (landeta2), páginas 52-81, 2013/01/10-16: estudios completos de funciones, Bolzano/Rolle/Weierstrass, optimización y el bloque de series y sucesiones (Stolz, D'Alembert, Raabe, Cauchy, Pringsheim, Leibniz, inducción, campo de convergencia) — transcripciones v3 comprobadas",
      "hizkuntza": "es"
     }
@@ -16462,7 +16382,7 @@ KAPITULUAK["01mc_02funtzioak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013, IMG_2026_07_28_01_43_40S.jpg (eskuin orria) eta IMG_2026_07_28_01_43_46S.jpg (ezker orria)",
+     "proiektua": "diario landeta 2 ene 2013, IMG_2026_07_28_01_43_40S.jpg (eskuin orria) eta IMG_2026_07_28_01_43_46S.jpg (ezker orria)",
      "xehetasuna": "CALCULO LANDETA (landeta2), páginas 37-38: estudio completo de la función (x²+2)e^(-x²) (dominio, puntos de corte, asíntotas, derivada y máximo) — transcripción v3 comprobada",
      "hizkuntza": "es"
     }

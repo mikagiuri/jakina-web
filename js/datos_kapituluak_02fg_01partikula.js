@@ -45,7 +45,7 @@ KAPITULUAK["02fg_01partikula"] = {
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/04_fisica_general/LEHEN LAUHILABETEA/",
+   "proiektua": "LEHEN LAUHILABETEA",
    "xehetasuna": "FISIKA OROKORRA, UPV/EHU (Zientzia eta Teknologia Fakultatea), irakasgai-apunteak 2012-2014; 0.-7. gaiak (sarrera, bektoreak, zinematika, dinamika, partikula-sistemak, solido zurruna, grabitazioa, fluidoak)",
    "hizkuntza": "eu"
   }
@@ -1252,7 +1252,7 @@ KAPITULUAK["02fg_01partikula"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 12. atala; inprimatutako 184--188. or.; 1751, 1755, 1778. aplikazioak",
      "hizkuntza": "es/eu"
     },
@@ -4280,7 +4280,7 @@ KAPITULUAK["02fg_01partikula"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013, IMG_2026_07_28_01_48_59S.jpg — IMG_2026_07_28_01_49_27S.jpg",
+     "proiektua": "diario landeta 2 ene 2013, IMG_2026_07_28_01_48_59S.jpg — IMG_2026_07_28_01_49_27S.jpg",
      "xehetasuna": "FISIKA LANDETA (landeta2), 121.-128. orrialdeak, 2013/01/31: elektrostatikaren hasiera — karga elektrikoa, Coulomben legea, eremu elektrikoa, gainezarmena, eremu maximoaren problema eta hari kargatuaren integrazioa — v3 transkripzio egiaztatuak",
      "hizkuntza": "es"
     }
@@ -8048,7 +8048,7 @@ KAPITULUAK["02fg_01partikula"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013, IMG_2026_07_28_01_43_22S.jpg — IMG_2026_07_28_01_44_12S.jpg (fisika-orriak)",
+     "proiektua": "diario landeta 2 ene 2013, IMG_2026_07_28_01_43_22S.jpg — IMG_2026_07_28_01_44_12S.jpg (fisika-orriak)",
      "xehetasuna": "FISIKA LANDETA (landeta2), 30.-31., 39.-49. orrialdeak: noriaren balaztatzea, indar kontserbatiboak eta orekak, bala-barra talka eta buelta osoa, kurbadura-erradioa, kamioia bihurgunean/peraltea, zirkulu bertikala, lana eta energia — v3 transkripzio egiaztatuak",
      "hizkuntza": "es"
     }
@@ -8625,7 +8625,7 @@ KAPITULUAK["02fg_01partikula"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 12. atala; inprimatutako 184--188. or.; 1779, 1780. aplikazioak",
      "hizkuntza": "es/eu"
     },
@@ -8680,7 +8680,7 @@ KAPITULUAK["02fg_01partikula"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 12. atala; inprimatutako 184--188. or.; 1764, 1774. aplikazioak",
      "hizkuntza": "es/eu"
     },
@@ -8757,7 +8757,7 @@ KAPITULUAK["02fg_01partikula"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 12. atala; inprimatutako 184--188. or.; 1765, 1766, 1767. aplikazioak",
      "hizkuntza": "es/eu"
     },
@@ -9276,7 +9276,7 @@ KAPITULUAK["02fg_01partikula"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 12. atala; inprimatutako 184--188. or.; 1760, 1775. aplikazioak",
      "hizkuntza": "es/eu"
     },
@@ -10199,7 +10199,7 @@ KAPITULUAK["02fg_01partikula"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 12. atala; inprimatutako 184--188. or.; 1752, 1754. aplikazioak",
      "hizkuntza": "es/eu"
     },
@@ -12109,7 +12109,7 @@ KAPITULUAK["02fg_01partikula"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 12. atala; inprimatutako 184--188. or.; 1768, 1769, 1770, 1771. aplikazioak",
      "hizkuntza": "es/eu"
     },
@@ -12158,7 +12158,7 @@ KAPITULUAK["02fg_01partikula"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 12. atala; inprimatutako 184--188. or.; 1756, 1757, 1758, 1759. aplikazioak",
      "hizkuntza": "es/eu"
     },
@@ -12412,7 +12412,7 @@ KAPITULUAK["02fg_01partikula"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 12. atala; inprimatutako 184--188. or.; 1776, 1777. aplikazioak",
      "hizkuntza": "es/eu"
     },
@@ -12687,7 +12687,7 @@ KAPITULUAK["02fg_01partikula"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/04_fisica_general/teknika_esperimentalak_I/",
+     "proiektua": "teknika_esperimentalak_I",
      "xehetasuna": "TEKNIKA ESPERIMENTALAK I (UPV/EHU, Materia Kondentsatuaren Fisika Saila): erroreen teoria — neurketen adierazpena, propagazioa, bateragarritasuna, karratu minimoak",
      "hizkuntza": "eu"
     }
@@ -13156,13 +13156,13 @@ KAPITULUAK["02fg_01partikula"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013, IMG_2026_07_28_01_43_04S.jpg (eskuin orria) — IMG_2026_07_28_01_43_15S.jpg",
+     "proiektua": "diario landeta 2 ene 2013, IMG_2026_07_28_01_43_04S.jpg (eskuin orria) — IMG_2026_07_28_01_43_15S.jpg",
      "xehetasuna": "FISIKA LANDETA (landeta2 koadernoa), 23.-29. orrialdeak: partikula-sistemak (bonba), plataforma birakaria (L kontserbazioa), talka inelastikoa malgukiarekin, aro+zilindro errodadura, noria — v3 transkripzio egiaztatuak",
      "hizkuntza": "es"
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013",
+     "proiektua": "diario landeta 2 ene 2013",
      "xehetasuna": "LANDETA2 — TEKNIKA errotulua, 132-132 orrialdeak (1 zatiki): eskuzko iturriaren edizio kritikoa, hitzez hitz, lau geruzatan (transkripzioa / irakurketa-zalantzak / zuzenketak / egiaztapen matematikoa). Ez da laburpenik egin.",
      "hizkuntza": "es/eu"
     }
@@ -13235,7 +13235,7 @@ KAPITULUAK["02fg_01partikula"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013, IMG_2026_07_28_01_49_27S.jpg (eskuin orria) eta IMG_2026_07_28_01_49_32S.jpg",
+     "proiektua": "diario landeta 2 ene 2013, IMG_2026_07_28_01_49_27S.jpg (eskuin orria) eta IMG_2026_07_28_01_49_32S.jpg",
      "xehetasuna": "TEKNIKA ESPERIMENTALAK (landeta2), 129.-131. orrialdeak, 2013/02/01: ziurgabetasunen biribilketa, batez bestekoa, desbiderazio estandarra, erroreen propagazioa eta karratu txikienak — v3 transkripzio egiaztatuak",
      "hizkuntza": "eu"
     }

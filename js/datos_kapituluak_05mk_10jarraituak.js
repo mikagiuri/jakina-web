@@ -7,12 +7,7 @@ KAPITULUAK["05mk_10jarraituak"] = {
  "azala": "B9.10 - Ingurune jarraituak",
  "azpititulua": "III. aroa - L2",
  "iturburua": "kapituluak/05mk_10jarraituak/05mk_10jarraituak.typ",
- "sarrera": [
-  {
-   "mota": "testua",
-   "html": ".update(9)"
-  }
- ],
+ "sarrera": [],
  "atalak": [
   {
    "id": "a1",

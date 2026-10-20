@@ -62,7 +62,7 @@ KAPITULUAK["00aa_01sarrera"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "proiektuaren/bidea",
+     "proiektua": "bidea",
      "xehetasuna": "qué capítulo",
      "hizkuntza": "eu"
     },
@@ -72,7 +72,7 @@ KAPITULUAK["00aa_01sarrera"] = {
     },
     {
      "mota": "itzulgai",
-     "proiektua": "proiektuaren/bidea",
+     "proiektua": "bidea",
      "orrialdeak": "100",
      "jatorria": "es"
     },

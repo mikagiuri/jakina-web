@@ -1002,31 +1002,31 @@ KAPITULUAK["01mc_04funtzioserieak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario 2 de calculo marzo 2013, 0001-0020",
+     "proiektua": "diario 2 de calculo marzo 2013, 0001-0020",
      "xehetasuna": "C2_L01: kalkuluko eskuzko koadernoaren hitzez hitzeko transkripzio egiaztatua; zuzenketak eta egiaztapen matematikoak geruza bereizietan",
      "hizkuntza": "es/eu"
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario 1 de calculo ene 2013, 0005-0024",
+     "proiektua": "diario 1 de calculo ene 2013, 0005-0024",
      "xehetasuna": "C1_L03: kalkuluko eskuzko koadernoaren hitzez hitzeko transkripzio egiaztatua; zuzenketak eta egiaztapen matematikoak geruza bereizietan",
      "hizkuntza": "es/eu"
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario 1 de calculo ene 2013, 0025-0026",
+     "proiektua": "diario 1 de calculo ene 2013, 0025-0026",
      "xehetasuna": "C1_L04: kalkuluko eskuzko koadernoaren hitzez hitzeko transkripzio egiaztatua; zuzenketak eta egiaztapen matematikoak geruza bereizietan",
      "hizkuntza": "es/eu"
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario 2 de calculo marzo 2013, 0021-0040",
+     "proiektua": "diario 2 de calculo marzo 2013, 0021-0040",
      "xehetasuna": "C2_L02: kalkuluko eskuzko koadernoaren hitzez hitzeko transkripzio egiaztatua; zuzenketak eta egiaztapen matematikoak geruza bereizietan",
      "hizkuntza": "es/eu"
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario 2 de calculo marzo 2013, IMG_2026_07_28_02_47_33S.jpg",
+     "proiektua": "diario 2 de calculo marzo 2013, IMG_2026_07_28_02_47_33S.jpg",
      "xehetasuna": "C2_0041: funtzio-serien konbergentzia eta Weierstrassen M irizpideari buruzko eskuzko teoriaren hitzez hitzeko transkripzio egiaztatua",
      "hizkuntza": "es/eu"
     }

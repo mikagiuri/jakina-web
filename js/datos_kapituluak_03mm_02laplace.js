@@ -10,13 +10,9 @@ KAPITULUAK["03mm_02laplace"] = {
  "sarrera": [
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/edf_eus",
+   "proiektua": "edf_eus",
    "xehetasuna": "5. kapitulua (Laplace)",
    "hizkuntza": "eu"
-  },
-  {
-   "mota": "testua",
-   "html": ".update(4)"
   }
  ],
  "atalak": [
@@ -2795,7 +2791,7 @@ KAPITULUAK["03mm_02laplace"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 7. orria (METMATCG01_0007, IMG_2025_07_06_20_15_21S.jpg; «5.24» ariketa): koefiziente aldakorreko EDO t ẍ+(3t-1)ẋ-(4t+9)x=0, x(0)=0, Laplace-z. L[tf]=-F' propietateak s-ko lehen ordenako EDO batera darama, X=A/(s-1)³, x=A t²eᵗ. Ariketa OSOA eta zuzena (SymPy: residuoa 0, faktorizazioa, antitransformatua, oineko taula). Zuzenketarik ez. Konfiantza altua",
      "hizkuntza": "es/eu"
     },
@@ -2917,7 +2913,7 @@ KAPITULUAK["03mm_02laplace"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 8. orria (METMATCG01_0008, IMG_2025_07_06_20_16_01S.jpg): koefiziente aldakorreko EDO t y''+2(t-1)y'-2y=0, y(0)=0, Laplace-z (0007-ren familia). Y=A/(s²(s+2)²) zati partzialetan hedatuta, y=B[-1+t+e⁻²ᵗ+t e⁻²ᵗ]. Ariketa OSOA eta zuzena (SymPy: residuoa 0, zati partzialak, antitransformatua). Zuzenketarik ez. Konfiantza altua",
      "hizkuntza": "es/eu"
     },
@@ -3040,7 +3036,7 @@ KAPITULUAK["03mm_02laplace"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 10. orria (METMATCG01_0010, IMG_2025_07_06_20_16_35S.jpg): Laplace-ren boletín inprimatuaren p.2 (19-35 problemak) + ESKUZKO anotazioak. Inprimatua ez da berregiten (0009-n identifikatua); anotazioak transkribatu eta egiaztatuak (SymPy): konboluzioa L⁻¹{1/(s(s²+1))}=1-cos t, integralaren propietatea F/s, translazio-teorema e⁻ᵃˢF. ⭐ 24. problema borobildua = 0007ko EDO («5.24»). Konfiantza altua",
      "hizkuntza": "en/es"
     },
@@ -3121,7 +3117,7 @@ KAPITULUAK["03mm_02laplace"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 12. orria (METMATCG01_0012, IMG_2025_07_06_20_17_31S.jpg): Laplace-ren boletín EUSKALDUN inprimatua (8 problema) + ESKUZKO anotazioak. Inprimatua ez da berregiten (0009-ren bertsio euskaldun); 1. problemaren SOLUZIOA transkribatu eta egiaztatua (SymPy): x=Σ(-1)^k θ(t-kπ)(1-cos(t-kπ)), mailakako erantzunen gainezarpena. ⭐ Nukleoa = 0010ko 1-cos t. Gurutze-marka antolatzaileak (mi 7, mi 1…). Konfiantza altua",
      "hizkuntza": "eu/es"
     },
@@ -3182,7 +3178,7 @@ KAPITULUAK["03mm_02laplace"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 14. unitatea (METMATCG01_0014, IMG_2025_07_06_20_17_53S.jpg): Laplace-ren boletín euskaldun inprimatuaren p.3 (17-20 problemak) + 20. problemaren SOLUZIO MANUSKRITOA (Laplace + eskailerak, partzialki irakurtezina). Inprimatua ez da berregiten; 20. problema INDEPENDENTEKI egiaztatua (SymPy): ÿ=f(t) eskailera-forzamenduarekin, y(3a)=a(8a-9)/3 → a=9/8. Manuskritoaren metodoa (s²Y+1) zuzena, garapena partzialki irakurtezina (deklaratua). Konfiantza altua",
      "hizkuntza": "eu/es"
     },
@@ -3278,7 +3274,7 @@ KAPITULUAK["03mm_02laplace"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 75. unitatea (METMATCG01_0075, IMG_2025_07_06_20_32_08S.jpg): kapitulu inprimatua «5. GAIA Laplace-ren transformazioa» p.53 + 5.1 problemaren eskuzko soluzioa — sen/cos-en Laplace transformatua integralik gabe, bi metodoz (deribatuak L[f'']=s²F-sf(0)-f'(0), eta esponentzial konplexuak L[eⁱᵃᵗ]=1/(s-ia)). L[sin at]=a/(s²+a²), L[cos at]=s/(s²+a²). SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "eu/es"
     },
@@ -3393,7 +3389,7 @@ KAPITULUAK["03mm_02laplace"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 76. unitatea (METMATCG01_0076, IMG_2025_07_06_20_32_14S.jpg): kapitulu inprimatua «5. Laplace-ren transformazioa» p.54 + 5.5-5.7 problemen eskuzko soluzioak — 5.5 antitransformatua 1/(s²-4s+5)=e²ᵗsin t (karratua osatuz), 5.6 L[f/t]=∫F du propietatea (G'=-F), 5.7 L[∫f]=(1/s)[F-∫] propietatea (zatika). SymPy-z/estandarra egiaztatua. Konfiantza altua",
      "hizkuntza": "eu/es"
     },
@@ -3494,7 +3490,7 @@ KAPITULUAK["03mm_02laplace"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 82. unitatea (METMATCG01_0082, IMG_2025_07_06_20_32_59S.jpg): kapitulu inprimatua «5. Laplace-ren transformazioa» p.60 (5.21-5.24) + ESKUZKO anotazioak. Inprimatua ez da berregiten; 5.21eko eskailera-soluzioa eta translazio-propietatea, Cramer/Laplace oharrak eta 5.23ren transformazioa transkribatu eta SymPy-z egiaztatuak. 5.22ko frakzio urdina eta 5.24ren ondoko zati bat irakurtezintzat deklaratuak. Konfiantza altua",
      "hizkuntza": "eu/es"
     },
@@ -3598,7 +3594,7 @@ KAPITULUAK["03mm_02laplace"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 83. unitatea (METMATCG01_0083, IMG_2025_07_06_20_33_09S.jpg): kapitulu inprimatua «5. Laplace-ren transformazioa» p.61 (5.24-5.26) + ESKUZKO anotazioak. Inprimatua ez da berregiten; 5.24ren s-ko murrizketa (X'=-3X/(s-1)) eta 5.25eko zati partziala transkribatu eta SymPy-z egiaztatuak. 5.24 osorik 0007 unitatean dago; marjineko zati osatugabeak irakurtezintzat deklaratuak. Konfiantza altua",
      "hizkuntza": "eu/es"
     },
@@ -3699,7 +3695,7 @@ KAPITULUAK["03mm_02laplace"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 113. unitatea (METMATCG01_0113, IMG_2025_07_12_12_25_35S.jpg): Laplace-ren transformatuaren formulario MANUSKRITO osoa («SEGUNDO TEOREMA DE TRASLACIÓN»): translazio-teoremak, deribatuen transformatua L[f^(n)], t^n-z biderketa (L[t f]=-F', L[t^n f]=(-1)^n F^(n)), integralaren transformatua eta konboluzioa, oinarrizko taula. SymPy-z egiaztatua; HIRU zuzenketa mentzioarekin (L[t f']=-F-s F' zeinua; L[t sin K t]=2K s/(s^2+K^2)^2, 2s faltan; L[t^2 cos K t] marjineko emaitza irakurtezina, zuzena emanda). Konfiantza altua",
      "hizkuntza": "es/eu"
     },
@@ -3907,7 +3903,7 @@ KAPITULUAK["03mm_02laplace"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 123. unitatea (METMATCG01_0123, IMG_2025_07_12_12_26_47S.jpg; «18/12/2014», Laplace): x''+9x = {sin t (0<t<3pi), cos t (t>3pi)}, x(0)=x'(0)=0. Heaviside + desplazamendu, (s^2+9)X=(1+e^{-3pis}-s e^{-3pis})/(1+s^2), zati partzialak (A=-1/8,B=1/8,C=1/8,D=-1/8), alderantzizkoa; soluzioa x=(1/8)(sin t-1/3 sin3t) 0<t<3pi eta x=(1/8)(cos t-cos3t) t>3pi. SymPy-z egiaztatua (zati biak + jarraitutasuna t=3pi-n). Errotulu-zuzenketa (t<3pi->t>3pi). Konfiantza altua",
      "hizkuntza": "es/eu"
     },
@@ -4007,7 +4003,7 @@ KAPITULUAK["03mm_02laplace"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 124. unitatea (METMATCG01_0124, IMG_2025_07_12_12_26_55S.jpg): 123. unitatearen KONPROBAKETA (egiaztapena) — x(0)=0, x'(0)=0 eta t=3pi-ko jarraitutasuna (x(3pi^-)=x(3pi^+)=0). Labur (orria zuri); SymPy-z egiaztatua (0123-n). Konfiantza altua",
      "hizkuntza": "es/eu"
     },
@@ -4170,7 +4166,7 @@ KAPITULUAK["03mm_02laplace"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 329. unitatea (METMATCG01_0329, IMG_2025_07_12_13_04_14S.jpg): Laplace-ren FORMULARIOA, JOSERRA EGAÑA-k sinatua (baimen esplizitua + atribuzioa). Definizioa, 5 propietate, 13 transformatu/antitransformatu, funtzio eskailera. Osoa SymPy-z egiaztatua; zuzenketa bat mentzioarekin (L⁻¹[A/Pⁿ]=A t^{n-1}/(n-1)!, ez P). Aldagaia P. Konfiantza altua",
      "hizkuntza": "es/eu"
     },
@@ -4291,7 +4287,7 @@ KAPITULUAK["03mm_02laplace"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 330. unitatea (METMATCG01_0330, IMG_2025_07_12_13_04_23S.jpg): Joserra Egaña-ren bigarren formularioa (sinatua, baimenduna): Laplace-ren itxiera (funtzio eskailera, periodikoaren transformatua, alderantzizkoak zati partzialez) + FOURIER-en serieak (Euler, Parseval, Dirichlet, par/bakoiti kasuak). Muestreo SymPy-z egiaztatua (periodikoa, Euler-en koefizienteak, par/bakoiti). Konfiantza altua",
      "hizkuntza": "es/eu"
     }
@@ -4304,7 +4300,7 @@ KAPITULUAK["03mm_02laplace"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CNmet3/",
+     "proiektua": "CNmet3",
      "xehetasuna": "CNmet3, 1.-8. orrialdeak (7 zatiki): hastapen-baldintzen problemak (HBP) - 'EBATZI ONDOKO HASTAPEN-BALDINTZEN PROBLEMA' errotuluko ariketa ebatziak eta jarraipen-orriak; edizio kritiko literala, standalonez egiaztatuak",
      "hizkuntza": "eu/es"
     },

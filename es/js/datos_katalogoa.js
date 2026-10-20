@@ -87,7 +87,7 @@ const KATALOGOA = {
   "azpititulua": "Era I - Herramientas",
   "aroa": "I",
   "maila": "Herramientas",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "01mc_04funtzioserieak": {
   "titulua": "JAKINA - B3 - Cálculo y análisis - III",
@@ -95,7 +95,7 @@ const KATALOGOA = {
   "azpititulua": "Era I - Herramientas",
   "aroa": "I",
   "maila": "Herramientas",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "01mc_05bektoriala": {
   "titulua": "JAKINA - B3 - Cálculo y análisis - IV",
@@ -103,7 +103,7 @@ const KATALOGOA = {
   "azpititulua": "Era I - Herramientas",
   "aroa": "I",
   "maila": "Herramientas",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "01mc_06ebazpenak": {
   "titulua": "JAKINA - B3 - Cálculo y análisis - V",
@@ -119,7 +119,7 @@ const KATALOGOA = {
   "azpititulua": "Era I - Herramientas",
   "aroa": "I",
   "maila": "Herramientas",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "02fg_01partikula": {
   "titulua": "JAKINA - B04A.1 - M16 Mecánica",
@@ -175,7 +175,7 @@ const KATALOGOA = {
   "azpititulua": "Era I - Herramientas",
   "aroa": "I",
   "maila": "Herramientas",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "03mm_01goiordena": {
   "titulua": "JAKINA - B6 - Métodos matemáticos - 2/9",
@@ -183,7 +183,7 @@ const KATALOGOA = {
   "azpititulua": "Era I - Herramientas",
   "aroa": "I",
   "maila": "Herramientas",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "03mm_02laplace": {
   "titulua": "JAKINA - B6 - Métodos matemáticos - 3/9",
@@ -191,7 +191,7 @@ const KATALOGOA = {
   "azpititulua": "Era I - Herramientas",
   "aroa": "I",
   "maila": "Herramientas",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "03mm_02serieak": {
   "titulua": "JAKINA - B6 - Métodos matemáticos - 4/9",
@@ -199,7 +199,7 @@ const KATALOGOA = {
   "azpititulua": "Era I - Herramientas",
   "aroa": "I",
   "maila": "Herramientas",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "03mm_03ezlinealak": {
   "titulua": "JAKINA - B6 - Métodos matemáticos - 5/9",
@@ -207,7 +207,7 @@ const KATALOGOA = {
   "azpititulua": "Era I - Herramientas",
   "aroa": "I",
   "maila": "Herramientas",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "03mm_04sturm": {
   "titulua": "JAKINA - B6 - Métodos matemáticos - 6/9",
@@ -215,7 +215,7 @@ const KATALOGOA = {
   "azpititulua": "Era I - Herramientas",
   "aroa": "I",
   "maila": "Herramientas",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "03mm_05edp": {
   "titulua": "JAKINA - B6 - Métodos matemáticos - 7/9",
@@ -247,7 +247,7 @@ const KATALOGOA = {
   "azpititulua": "Era I - Herramientas",
   "aroa": "I",
   "maila": "Herramientas",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "04em_01elektrodinamika": {
   "titulua": "JAKINA - B08.1 - M23 Griffiths 2-8",
@@ -351,7 +351,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa IV - L2",
   "aroa": "IV",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "07fe_01estatistikoa": {
   "titulua": "JAKINA - B10.2 - M27 Física estadística",
@@ -359,7 +359,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa IV - L2",
   "aroa": "IV",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "09zz_01programazioa": {
   "titulua": "JAKINA - B10.3 - M28 Programación y algoritmos",

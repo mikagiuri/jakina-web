@@ -40,7 +40,7 @@ KAPITULUAK["09zz_01programazioa"] = {
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013, IMG_2026_07_28_01_43_34S.jpg eta IMG_2026_07_28_01_43_40S.jpg (ezker orria)",
+   "proiektua": "diario landeta 2 ene 2013, IMG_2026_07_28_01_43_34S.jpg eta IMG_2026_07_28_01_43_40S.jpg (ezker orria)",
    "xehetasuna": "KONPUTAZIOA LANDETA (landeta2), 34.-36. orrialdeak, 2013/01/04 (azterketa): zenbaki adiskideak eta zatitzaileak, lehentasun-testa, lehenen batura, hamartar→bitar bihurketa, eta kateetako hitzen agerpen-portzentajea — v3 transkripzio literalak, algoritmoak egiaztatuta",
    "hizkuntza": "es"
   }
@@ -157,7 +157,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013, IMG_2026_07_28_01_46_18S.jpg eta IMG_2026_07_28_01_47_04S.jpg",
+     "proiektua": "diario landeta 2 ene 2013, IMG_2026_07_28_01_46_18S.jpg eta IMG_2026_07_28_01_47_04S.jpg",
      "xehetasuna": "KONPUTAZIOA (landeta2), 68.-69. eta 82.-83. orrialdeak, 2013/01/14-17: fitxategiak (r/w/a), bokalen zenbaketa hiztegiz, zatitzaileen zerrenda, SCILAB, fitxategien lerroak txandakatzea eta zenbakia asmatzeko jokoa (random) — v3 transkripzio literalak",
      "hizkuntza": "es"
     }
@@ -516,7 +516,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "koadernoa_landeta1_konp_p198/p218/p220_mk.typ",
+     "proiektua": "p220_mk.typ",
      "xehetasuna": "KONPUTAZIOA (landeta1), 198-221 orrialdeak, 2012/12/28-31: hiztegiak Python-en (hitz-histograma, hitzkop, hiztegia alderantzikatzea) eta fitxategiak (organizar, kalkopurua, organitu) — logika egiaztatua; orri mistoen konputazio erdiak",
      "hizkuntza": "eu"
     }
@@ -676,7 +676,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "koadernoa_newton2_konp_p140/p142/p144/p146/p148_mk.typ",
+     "proiektua": "p148_mk.typ",
      "xehetasuna": "KONPUTAZIOA (newton2), 140-149 orrialdeak, 2013/2-3: Python programak — prezio-kalkulua (sarrera-kontrola), bilaketa lineala eta ehunekoak, karaktere debekatuak eta matrizeak, itsas-borrokaren jokoa (random), eta lee_coordenada (refactoring, isdigit); logika egiaztatua",
      "hizkuntza": "eu"
     }

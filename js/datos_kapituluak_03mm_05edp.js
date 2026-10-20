@@ -10,25 +10,25 @@ KAPITULUAK["03mm_05edp"] = {
  "sarrera": [
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/cNmet2/IMG_2026_07_30_02_32_34S_CNmet2_p0_y_p1.jpg",
+   "proiektua": "IMG_2026_07_30_02_32_34S_CNmet2_p0_y_p1.jpg",
    "xehetasuna": "CNmet2, 0. orrialdea (zatiki 1, etiketa kanonikoa CN MET2 p0): EDPen sailkapena eta Laplace-ren operadorea; rótulurik gabeko hasierako orria, edizio kritiko literala",
    "hizkuntza": "en/es"
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/06_metodos_matematicos/AAA_TEXES_metodo_matematikoak/",
+   "proiektua": "AAA_TEXES_metodo_matematikoak",
    "xehetasuna": "Erabiltzailearen Metodo Matematikoak apunteak (2014-2016, %100 bereak): funtzio-espazioak, Fourier-en serieak (ariketa ebatziak), Green-en funtzioa. Ariketa-bankuak fitxatuta: METODO MATEMATIKOAK/ (31 azterketa), met mat/ (375 argazki), AYO (apunte EU), metodos_estabilidad (8. kap.aren osagarria) — CATALOGO_B6_METODOS.md",
    "hizkuntza": "eu"
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/06_metodos_matematicos/METODO MATEMATIKOAK/",
+   "proiektua": "METODO MATEMATIKOAK",
    "xehetasuna": "Metodo Matematikoak irakasgaiaren pakete osoa (UPV/EHU 2010-2014): programa ofiziala, gai bakoitzeko ariketa-orriak, azterketetako bildumak eta 2013-05-24ko azterketa osoa",
    "hizkuntza": "eu"
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/06_metodos_matematicos/CG-06 (carpeta_grande)/",
+   "proiektua": "CG-06 (carpeta_grande)",
    "xehetasuna": "Erabiltzailearen Metodo Matematikoak koadernoa (233 argazki): 2. gaia (EDPak) da EDP-teoriaren bizkarrezurra — sarrera, sailkapena, mugalde-baldintzak, aldagai-banantzea eta azterketa-ebazpen osoak",
    "hizkuntza": "eu"
   }
@@ -376,7 +376,7 @@ KAPITULUAK["03mm_05edp"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/cNmet2/",
+     "proiektua": "cNmet2",
      "xehetasuna": "CNmet2 — METODOS MATEMATICOS errotulua, 1.-13. orrialdeak (7 zatiki): EDPak, bero-ekuazioa eta muga-baldintzak; 2026-08-04an standalonez egiaztatua",
      "hizkuntza": "es/en"
     }
@@ -930,7 +930,7 @@ KAPITULUAK["03mm_05edp"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/cNmet2/",
+     "proiektua": "cNmet2",
      "xehetasuna": "CNmet2 — METODO MATEMATIKOAK errotulua, 14.-21. orrialdeak (4 zatiki): Laplace esferikoa, beroaren hedapena eta ariketa ebatziak; errotulu-aldaketa bere horretan gordea",
      "hizkuntza": "eu/es/en"
     }
@@ -1217,7 +1217,7 @@ KAPITULUAK["03mm_05edp"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/cNmet2/",
+     "proiektua": "cNmet2",
      "xehetasuna": "CNmet2 — METODOS MATEMATICOS errotulua azentuarekin, 22.-26. orrialdeak (3 zatiki): Sturm-Liouville eta Green; 2014-04-04/07ko data ikusgarriak",
      "hizkuntza": "es/en"
     }
@@ -1380,7 +1380,7 @@ KAPITULUAK["03mm_05edp"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/cNmet2/",
+     "proiektua": "cNmet2",
      "xehetasuna": "CNmet2, 27.-82. orrialdeak (41 zatiki): Green eta Sturm-Liouville, EDPen ezaugarriak, Fourier, uhin/bero/Laplace/Helmholtz ekuazioak eta funtzio bereziak; edukizko rótulu anitzak hitzez hitz kontserbatuak",
      "hizkuntza": "es/en"
     }
@@ -3298,7 +3298,7 @@ KAPITULUAK["03mm_05edp"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CNmet3/",
+     "proiektua": "CNmet3",
      "xehetasuna": "CNmet3, 64.-65. orrialdeak (0033 unitatea): ariketak (4,5,6) — (4) Fourier-en serie konplexutik errealera (n->-n indize-aldaketa, Euler; f bikoitirako d_-n=d_n, 2 d_n cos serie erreala); (5) cos x-en sinu-serieko garapena (T=pi, omega=2, a_n=0, b_n=8n/(pi(4n^2-1)), bi bidez egiaztatua); (6) funtzio baten hedapen bakoitia (-2L,2L)-n (T=4L, a_n=0, b_n=(1/L)int_0^2L f sin(n pi x/2L)). cos x-en sinu-seriearen irudia scipy+CeTZ-rekin. Zuzenketarik ez; konfiantza ertaina",
      "hizkuntza": "eu/es"
     }
@@ -3394,7 +3394,7 @@ KAPITULUAK["03mm_05edp"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CNmet3/",
+     "proiektua": "CNmet3",
      "xehetasuna": "CNmet3, 66.-67. orrialdeak (0034 unitatea): 6. ariketaren itxiera (x=L simetria -> harmoniko bakoitiak sin((2n-1)pi x/2L)), 7. ariketa f(x)=x (-pi,pi)-n (bakoitia, a_n=0, b_n=2(-1)^(n+1)/n) eta Leibniz-en seriea pi/4=sum (-1)^n/(2n+1) (x=pi/2-n), paritatearen aljebra ((-1)^(sigma_1+sigma_2)), eta fisikako DPE garrantzitsuen katalogoa (uhina Delta u=(1/c^2)u_tt hiperbolikoa, difusioa K Delta u=u_t parabolikoa, Laplace Delta u=0 eliptikoa, Poisson, Schrödinger). f(x)=x-ren irudia scipy+CeTZ-rekin. Zuzenketa bat mentzioz (Leibniz-en zeinua - -> +); konfiantza ertaina",
      "hizkuntza": "eu/es"
     }
@@ -3505,7 +3505,7 @@ KAPITULUAK["03mm_05edp"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CNmet3/",
+     "proiektua": "CNmet3",
      "xehetasuna": "CNmet3, 68.-69. orrialdeak (0035 unitatea): aldagaien banaketaren metodo orokorra (uhin-ekuazioa: X''/X=T''/T=-lambda^2, u_lambda=e^(i lambda(x-t)), S-L problema) eta bero-ekuazioa muga-baldintza ez-homogeneoekin (u_t=a^2 u_xx, u(t,0)=T_1, u(t,L)=T_2), homogeneizazioa V=u-g (g(0)=T_1, g(L)=T_2) -> V_t=a^2 V_xx+a^2 g''; autofuntzioetan garatuz C_n'+(a n pi/L)^2(C_n+g_n)=0, C_n(0)=f_n-g_n. Bero-barraren irudia CeTZ-rekin. Zuzenketa bat mentzioz (hasierako baldintza f-g, ez f+g); konfiantza ertaina",
      "hizkuntza": "eu"
     }
@@ -3592,7 +3592,7 @@ KAPITULUAK["03mm_05edp"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CNmet3/",
+     "proiektua": "CNmet3",
      "xehetasuna": "CNmet3, 70.-71. orrialdeak (0036 unitatea): koefizienteen ekuazioaren ebazpena (C_n(t)=f_n e^(-kt)-g_n, k=(a n pi/L)^2), e^x-en Fourier-en garapena (T=2, a_n/b_n, seriea), gaiz gai integratu/deribatu, sum(-1)^n=-1/2 EZ DA EGIA (dibergentea; Abel/Cesaro), eta funtzio periodikoak Heaviside-rekin (g=sum[theta-theta]e^(x-2n)) + Dirac-en delta periodikoa (delta=1/T+(2/T)sum cos). e^x hedapen periodikoaren irudia CeTZ-rekin. Zuzenketa bat mentzioz (dos-estrellas: laukiko C_n(t) formulak EDOa ez du betetzen, 2 k g_n hondarra; autorearen NPI marka akatsaren ondoan); konfiantza ertaina",
      "hizkuntza": "eu/es"
     }
@@ -3704,7 +3704,7 @@ KAPITULUAK["03mm_05edp"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CNmet3/",
+     "proiektua": "CNmet3",
      "xehetasuna": "CNmet3, 72.-73. orrialdeak (0037 unitatea): 8. ariketa uhin karratuaren potentzia Parseval-ez (zuzenean A^2; Fourier-etik (8A^2/pi^2)sum 1/(2n+1)^2=A^2, sum 1/(2n+1)^2=pi^2/8); 9. ariketa funtzio bikoiti periodikoaren Fourier-en garapena oinarritik (b_n=0, a_n=(2/T)int f cos(n omega x), omega=2pi/T). Uhin karratuaren irudia CeTZ-rekin. Sekuentzia jarraitua (72, ez 82). Bi zuzenketa mentzioz (b_2 cos->sin, a_n faktorea 1/T->2/T); konfiantza ertaina",
      "hizkuntza": "eu/es"
     }
@@ -3782,7 +3782,7 @@ KAPITULUAK["03mm_05edp"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CNmet3/",
+     "proiektua": "CNmet3",
      "xehetasuna": "CNmet3, 74.-75. orrialdeak (0038 unitatea): a_0/2 terminoaren jatorria (f=A+sum(a_n cos+b_n sin) funtzio konstantearen (1) gainean proiektatuz: <f|1>=<A|1>=2 pi A -> A=(1/2pi)int f; koefiziente orokorra n=0-n cos0=1: a_0=(1/pi)int f=2A, b_0=0 -> termino konstantea=a_0/2; norm(1)^2=2 pi=2 norm(cos)^2 delako) eta serie konplexutik errealera (d_n=(1/T)int f e^(-i n omega x); batukaria bi adarretan banatuz, d_(-n)=d_n -> d_0+2 sum d_n cos(n omega t)). Irudirik gabe. Zuzenketa bat mentzioz (d_(-n)=d_n, paperak d_n=-d_n idazten du; zeinua azpiindizekoa da, ez koefizientekoa; oro har d_(-n)=conj(d_n)) eta inbentario-zuzenketa (argazki-ordena=orri-ordena; aurreko '72-81 falta' oharra okerra zen; 0037=72-73, hau 74-75, sekuentzia jarraitua, 0042-k baieztatua). Bat dator 64. orriarekin. Konfiantza ertaina",
      "hizkuntza": "eu/es"
     }
@@ -3868,7 +3868,7 @@ KAPITULUAK["03mm_05edp"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CNmet3/",
+     "proiektua": "CNmet3",
      "xehetasuna": "CNmet3, 76.-77. orrialdeak (0039 unitatea): koefizienteen formulen eratorpena biderkadura eskalarretik (f cos(omega x)-en proiekzioa -> int f cos = a_1 int cos^2; int_0^T cos^2(omega x)=T/2 zatika integratuz, I=T-I; a_n=(2/T)int f cos(n omega x), b_n=(2/T)int f sin(n omega x); a_0/2=(1/T)int f; PAR/IMPAR arauak) eta bi aplikazio: (a) f=1 (a_0/2=1, a_n=0) eta (5) ariketa cos x-en garapena (0,pi)-n oinarri periodikoarekin (a_0/2=0, a_n=0 parekotasunez; b_n-ek 65. orriko sinu-seriea berreskuratzen dute: cos x=sum 8n/(pi(4n^2-1)) sin(2nx)). cos x-en hedapen periodikoaren irudia CeTZ-rekin (beheranzko arku errepikatuak, jauziekin). Bi zuzenketa mentzioz (b_2 sin 2 omega x, paperak b_2 cos omega x, 83. orriko akats bera; lehen integralaren zeinua -sin->sin). Sekuentzia jarraitua (76-77, 0038ren jarraipena); konfiantza ertaina",
      "hizkuntza": "eu/es"
     }
@@ -4005,7 +4005,7 @@ KAPITULUAK["03mm_05edp"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CNmet3/",
+     "proiektua": "CNmet3",
      "xehetasuna": "CNmet3, 78.-79. orrialdeak (0040 unitatea): (5) ariketaren itxiera (a_n=0 errekurtsioz I=I/4n^2; parekotasun-arauak bikoiti/bakoiti irudiarekin; b_n zatika integrazio bikoitzez, errekurtsioa I=1/n+I/4n^2 -> b_n=8n/(pi(4n^2-1)), 65. orriarekin bat) eta saio berria (2014/3/4) bero-ekuazioa bi dimentsiotan (u_t=Delta u errektangeluan lau aldeak 0C-tan; aldagaien banaketa u=XYT -> Sturm-Liouville norabide bakoitzean; oinarri ortogonal biderkakorra sin(n pi x/b)sin(m pi y/a); koefiziente bikoitza integral bikoitzez g_nm). Errektangeluaren eremuaren eta parekotasunaren irudiak CeTZ-rekin. Zuzenketa kateatua mentzioz (⭐⭐ errekurtsioaren muga-terminoa 2/pi n eta zeinua +, eta emaitza 8n/(pi(4n^2-1)); paperak 1/pi, - eta 16n^2/(pi(4n^2+1)) -> 4/pi, ez du zerorantz jotzen). Hiru bidez egiaztatua (scipy). Sekuentzia jarraitua (78-79); konfiantza ertaina",
      "hizkuntza": "eu/es"
     }
@@ -4116,7 +4116,7 @@ KAPITULUAK["03mm_05edp"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CNmet3/",
+     "proiektua": "CNmet3",
      "xehetasuna": "CNmet3, 80.-81. orrialdeak (0041 unitatea): bero-problema 2D-ren itxiera (koefiziente bakoitza deuseztatuz u_nm+lambda_nm^2 u_nm=0 -> u_nm=g_nm e^(-lambda_nm^2 t), lambda_nm^2=(n pi/b)^2+(m pi/a)^2); banaketa egonkorra (u_t=0 -> Laplace Delta u=0 errektangeluan, hiru alde 0 eta u(0,y)=f(y); aldagaien banaketa, y-k darama S-L, Y_n=sin(n pi y/a)); eta Green-en funtzioaren adibide OSOA [(1/x^2)y']'=2x+1, y(1)=y(2)=0: lau baldintzak (G(1)=0, G(2)=0, jarraitutasuna, deribatuaren jauzia P(s)[G']=1) -> A=(s^3-8)/21, B=(8-s^3)/21, C=(s^3-1)/21, D=-8(s^3-1)/21. Bi irudi CeTZ-rekin: Laplace-ren eremua (f(y) ezkerrean) eta Green-en funtzioa G(x,s) (s=3/2). ZUZENKETARIK EZ (dena zuzena; Green-en lau koefizienteak berreraikita, 21 barne; scipy-z egiaztatua: baldintzak eta BVP-ren berreraikuntza y=int G(x,s)(2s+1)ds bat dator soluzio analitikoarekin). Sekuentzia jarraitua (80-81); konfiantza ertaina",
      "hizkuntza": "eu/es"
     }
@@ -4214,7 +4214,7 @@ KAPITULUAK["03mm_05edp"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CNmet3/",
+     "proiektua": "CNmet3",
      "xehetasuna": "CNmet3, 82.-83. orrialdeak (0042 unitatea): Green-en ariketa-zerrenda (oso azkar idatzia): (1) aurreko orriko Green-en funtzioa aplikatuz soluzioa y=int_1^x + int_x^2 f(s)G(x,s)ds, balio itxi egiaztatua y=x^5/5+x^4/4-(199/140)x^3+34/35; (2) Green-en funtzioa muga-baldintza mistoekin [(y'/(x+1))]'=cos x (homogeneoa y=Ax^2+2Ax+B; jauzia 1+s; Fredholm-en alternatiba: Green existitzen da homogeneoak soluzio tribiala baino ez badu); (3) Euler motako autobalio-problema L[y]=-x^2 y''-x y' (murrizketa [x y']'=-lambda y/x, x=e^t -> y_tt+lambda y=0, soluzio logaritmikoak sin/cos(sqrt(lambda)ln x), espektro positiboa). IRUDIRIK EZ (dentsoa, marrazkirik gabe). ZUZENKETARIK EZ (irakurketa-zalantza asko; egitura egiaztagarria maketatua; scipy-z egiaztatua). Orri-zenbaketa: hauek dira benetako 82-83 (0037-n '82' irakurria '72' da; sekuentzia jarraitua baieztatua). Konfiantza ertaina",
      "hizkuntza": "eu/es"
     }
@@ -4305,7 +4305,7 @@ KAPITULUAK["03mm_05edp"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CNmet3/",
+     "proiektua": "CNmet3",
      "xehetasuna": "CNmet3, 84.-85. orrialdeak (0043 unitatea): bero-ekuazioaren ebazpen OSOA aldagaien banaketaz (orri didaktikoena): u_t=alpha u_xx, u(0,t)=u(L,t)=0, u(x,0)=T. Banaketa u=X(x)T(t) -> (1/alpha)T'/T=X''/X=lambda; hiru kasu (lambda>0 eta lambda=0 tribialak, lambda<0 ez-nulua); balio propioak lambda_n=-n^2 pi^2/L^2, autofuntzioak sin(n pi x/L); denbora-atala T(t)=e^(-alpha(n pi/L)^2 t); serie-garapena u=sum b_n e^(...)sin(n pi x/L); ortogonaltasunez b_n=2T(1-(-1)^n)/(n pi) (bakoitiak). t->infinity limitea = 0 (enuntziatuak galdetzen du baina ez du erantzuten; esplizitatua). Soluzioaren beherakadaren irudia CeTZ-rekin (u(x,t) profilak denboran). Zuzenketa bat mentzioz (lambda<0 kasuan sqrt(-lambda) erroa falta; autoreak berak zuzentzen du hurrengo laukian). scipy-z egiaztatua (balio propioak, b_n, ortogonaltasuna, t->inf limitea). Sekuentzia jarraitua (84-85, 82-83ren jarraipena); konfiantza ertaina",
      "hizkuntza": "es"
     }
@@ -4408,7 +4408,7 @@ KAPITULUAK["03mm_05edp"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CNmet3/",
+     "proiektua": "CNmet3",
      "xehetasuna": "CNmet3, 86.-87. orrialdeak (0044 unitatea): (1) 1. problemaren itxiera: b_n=4T/(n pi) bakoitietan (ortogonaltasunez, f=T bakoitiaren hedapena), serie-soluzioa u=(4T/pi)sum 1/(2k+1) e^(...)sin((2k+1)pi x/L), eta t->infinity limitea=0 (esponentzialak 0-ra, sinuak bornatuak; interpretazio fisikoa). 0043-ko iragarpena (b_n eta limitea) hemen baieztatuta. (2) 2. problema muturretako tenperatura finkoekin (u(0,t)=T_1, u(pi,t)=T_2, u(x,0)=x(pi-x)): homogeneizazioa v(x)=((T_2-T_1)/pi)x+T_1 zuzena kenduz, w=u-v-k ekuazio homogeneo bera eta MB nuluak betetzen ditu (68. orriko teknika). Homogeneizazioaren irudia CeTZ-rekin (hasierako parabola + v(x) zuzena T_1..T_2). Bi zuzenketa mentzioz (w=u-v ikurra, paperak +v; w_x zeinua; autoreak berak kenketa erabiltzen du gero). scipy-z egiaztatua. Sekuentzia jarraitua (86-87); konfiantza ertaina",
      "hizkuntza": "es"
     }
@@ -4508,7 +4508,7 @@ KAPITULUAK["03mm_05edp"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CNmet3/",
+     "proiektua": "CNmet3",
      "xehetasuna": "CNmet3, 88.-89. orrialdeak (0045 unitatea): (2) bigarren problemaren itxiera: autobalioak lambda=-k^2, autofuntzioak sin(k x), T(t)=e^(-k^2 t); b_k koefizienteak hiru integralen bidez (x^2, x, konstantea) proiekzioz eta ortogonaltasunez -> cos(n pi)=(-1)^n gaia soilik geratzen da; soluzioa seriea, u=w+v. (3) iturri esponentziala duen problema (u_t-u_xx=2e^(3x), 0<x<1/2): soluzio egonkorra V(x)=-(2/9)e^(3x)+A x+B, B=2/9, A=(4/9)e^(3/2)-4/9 (V(0)=V(1/2)=0, -V''=2e^(3x)). V(x)-ren irudia CeTZ-rekin. Zuzenketa formalik EZ (lambda<0 jada erroarekin; anomaliak zalantzetan: k in ZZ vs k>=1, (T_1+T_2) vs (T_2-T_1), batukari falta, V(1/2)-ko gai askea). b_n azken balioa EZ da independenteki egiaztatu (anbiguotasuna); V(x) bai (scipy). Marjinako erreferentziak p.290, p.269. Sekuentzia jarraitua (88-89); konfiantza ertaina",
      "hizkuntza": "es"
     }
@@ -4597,7 +4597,7 @@ KAPITULUAK["03mm_05edp"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CNmet3/",
+     "proiektua": "CNmet3",
      "xehetasuna": "CNmet3, 90.-91. orrialdeak (0046 unitatea, KOADERNOAREN AZKEN UNITATEA 46/46): (3) problemaren itxiera: homogeneizazioa w=u-v (lau deribatuak, w_t-w_xx=0 iturria orekatuz; datu lineala w(x,0)=-A x) eta banaketa. (6) Euler ekuazioaren Green-en funtzioa y''+(2/x)y'-(1/x^2)y=f(x): H(x,xi) tarteka, L y=(x^2 y')' forma autoadjuntua, Green existitzen/bakarra tau ez bada espektrokoa. (7) Euler motako autobalio-problema x^2 y''+2x y'+lambda y=0: y=x^r -> r^2+r+lambda=0 -> r=-1/2 +/- sqrt(1/4-lambda); hiru kasu (lambda<1/4, =1/4 ln x logaritmikoa, >1/4 x^(-1/2)(C cos+D sin)(omega ln x)); MB-ek C=0 eta ekuazio transzendentea tan(omega ln 2)=2 omega (omega_1~1.89, omega_2~6.69; 45. orriko mota); lambda_n=omega_n^2+1/4; Green espektrala G=sum phi_n(s)phi_n(x)/(tau-lambda_n) (57. orria). Ekuazio transzendentearen irudia CeTZ-rekin (tan adarrak vs 2 omega zuzena, ebakidurak). ZUZENKETARIK EZ (anomaliak irakurketa-mendekoak). scipy-z egiaztatua (homogeneizazioa, Euler-en 3 kasuak, tan(omega ln 2)=2 omega). Sekuentzia jarraitua (90-91); konfiantza ertaina",
      "hizkuntza": "eu/es"
     }
@@ -4691,7 +4691,7 @@ KAPITULUAK["03mm_05edp"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CAx cuaderno amarillo metmat probabilidad ingles/",
+     "proiektua": "CAx cuaderno amarillo metmat probabilidad ingles",
      "xehetasuna": "CAx, 22.-23. orrialdeak (0013 unitatea, orri bikoitza; #CAxp22/#CAxp23): lehen ordenako EDO eta EDP linealak — faktore integratzailea eta p-konbinazioa. ⭐ Ingelesera itzuli da (0012 euskaraz zen): gaiaren araberako txandakatzea. Gaia PROBABILITATETIK aldenduta: ekuazio diferentzialak, Riley-Hobson-Bence eskuliburutik (14.2.4, 20.3.1). (1) EDO lineala dy/dx+P y=Q, mu=exp(int P dx); adibidea dy/dx+2xy=4x -> y=2+c e^-x^2. (2) EDP lineala x u_x+3u=x^2 -> mu=x^3 -> u=x^2/5+f(y)/x^3 (konstantea = funtzio arbitrarioa). (3) p-konbinazioa: x u_x-2y u_y=0 -> dx/A=dy/B kurba karakteristikoak -> p=x^2 y, u=f(x^2 y); (i) 2x^2y+1; (ii) BI soluzio 4x^2y eta x^2y+3 ('a solution' ez 'the'). BI ZUZENKETA deklaratuak: (a) 'integrate w.r.t. y'->'x'; (b) 'that'->'then, of course'. IRUDI editorial bat: kurba karakteristikoak x^2 y=p (CeTZ). SymPy-z egiaztatua (ordezkapenez). Metodoa liburuaren hizkuntzan (RHB prosa hitzez hitz gabe). Konfiantza altua",
      "hizkuntza": "en"
     }
@@ -4827,7 +4827,7 @@ KAPITULUAK["03mm_05edp"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CAx cuaderno amarillo metmat probabilidad ingles/",
+     "proiektua": "CAx cuaderno amarillo metmat probabilidad ingles",
      "xehetasuna": "CAx, 24.-25. orrialdeak (0014 unitatea, orri bikoitza; #CAxp24/#CAxp25): EDP linealak — u=h f(p) metodoa, ekuazio inhomogeneoak eta soluzioaren existentzia. Ingelesez, 0013ren gai eta iturri beretik (Riley-Hobson-Bence 20.3.2, 20.6). Hiru urrats: (1) u-n terminoa duten EDPak (C!=0), u=h(x,y)f(p); adibidea x u_x+2u_y-2u=0 -> h=e^y, u=e^y f(x e^-y/2). (2) EDP inhomogeneoak (orokorra=homogeneoa+integral partikularra): y u_x-x u_y=3x -> u=f(x^2+y^2)-3y; (i) x^2+y^2-3y; (ii) FAMILIA (u(1,0)=2 puntu bakarra). (3) ⭐⭐ Ezaugarriak eta existentzia: datua kurba osoan->bakarra, puntuan->familia, ZATIAN->ESKUALDE batean bakarrik (0<=x^2 y<=1, itzalpean). Zuzenketarik ez (SymPy-z ordezkapenez egiaztatua). IRUDIA: eskuizkribuak MARRAZTUA (x^2 y=c ezaugarriak + itzalpeko eskualdea + x=1 datu-segmentua) berregina CeTZ-z; 'argudioa figura eginda'. Metodoa liburuaren hizkuntzan (RHB prosa gabe). Konfiantza altua",
      "hizkuntza": "en"
     }
@@ -4923,7 +4923,7 @@ KAPITULUAK["03mm_05edp"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CAx cuaderno amarillo metmat probabilidad ingles/",
+     "proiektua": "CAx cuaderno amarillo metmat probabilidad ingles",
      "xehetasuna": "CAx, 28.-29. orrialdeak (0016 unitatea, orri bikoitza; #CAxp28/#CAxp29): uhin-ekuazioa BI BIDEZ — aldagaien banantzea eta ezaugarrien metodoa, gero baliokidetasuna. Euskaraz. Soka tenkatua (u(0)=u(L)=0), geldi, u_0 sin(pi x/L) hasierako posizioa. (a) banantzea: u=XT, lambda=n pi/L, u=sum sin(n pi x/L)[A_n sin+B_n cos]; B_1=u_0; ABIADURA-baldintza (osatua, mención): u_t(x,0)=0->A_n=0 -> u=u_0 sin(pi x/L)cos(pi c t/L). (b) ezaugarriak: c^2 u_xx-u_tt=0 hiperbolikoa, xi=x-ct/eta=x+ct, u_xieta koef=4c^2 -> u=F(x-ct)+G(x+ct) (d'Alembert). Baliokidetasuna (osatua, mención): biderketa->batura, u_0 sin cos=(u_0/2)[sin(pi(x-ct)/L)+sin(pi(x+ct)/L)]=F+G, F=G=(u_0/2)sin. ⭐⭐ Ezaugarriak orain TRESNA (24-25 teoria zen). BI HUTSUNE osatuak: abiadura-baldintza eta baliokidetasuna. Inocuo: batuketa n=0-tik. SymPy-z egiaztatua. IRUDI editorial bat: uhin geldikorra=bi bidaiari (CeTZ). Konfiantza altua",
      "hizkuntza": "eu"
     }

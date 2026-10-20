@@ -48,7 +48,7 @@ KAPITULUAK["01ma_01espazioak"] = {
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/wcata/eu",
+   "proiektua": "eu",
    "xehetasuna": "1.–4. kapituluak",
    "hizkuntza": "eu"
   },
@@ -84,7 +84,7 @@ KAPITULUAK["01ma_01espazioak"] = {
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/wcata/eu",
+   "proiektua": "eu",
    "xehetasuna": "5.–8. kapituluak",
    "hizkuntza": "eu"
   },
@@ -119,7 +119,7 @@ KAPITULUAK["01ma_01espazioak"] = {
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/wcata/eu",
+   "proiektua": "eu",
    "xehetasuna": "9. kapitulua",
    "hizkuntza": "eu"
   },
@@ -252,7 +252,7 @@ KAPITULUAK["01ma_01espazioak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/wcata/eu",
+     "proiektua": "eu",
      "xehetasuna": "10.–12. kapituluak",
      "hizkuntza": "eu"
     },
@@ -287,13 +287,13 @@ KAPITULUAK["01ma_01espazioak"] = {
     },
     {
      "mota": "itzulgai",
-     "proiektua": "_historico/espazio-ontzia/02_algebra_geometria/compendio_matematico",
+     "proiektua": "compendio_matematico",
      "orrialdeak": "\"1. kap.\"",
      "jatorria": "es"
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/edf_eus D eranskina + fullmekanika B eranskina",
+     "proiektua": "edf_eus D eranskina + fullmekanika B eranskina",
      "xehetasuna": "konplexuen oinarriak JAKINArako bateratuta",
      "hizkuntza": "eu"
     }
@@ -583,13 +583,9 @@ KAPITULUAK["01ma_01espazioak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/02_algebra_geometria/algebra_lineal/espazio_bektorialak",
+     "proiektua": "espazio_bektorialak",
      "xehetasuna": null,
      "hizkuntza": "eu"
-    },
-    {
-     "mota": "testua",
-     "html": ".update(0)"
     }
    ]
   },
@@ -2772,7 +2768,7 @@ KAPITULUAK["01ma_01espazioak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013, IMG_2026_07_28_01_42_47S.jpg",
+     "proiektua": "diario landeta 2 ene 2013, IMG_2026_07_28_01_42_47S.jpg",
      "xehetasuna": "LANDETA2 koadernoa, 16.-17. orrialdeak: azpiespazioen batura eta ebakidura (Grassmann), nukleo eta irudi jakineko endomorfismoa — v3 transkripzio egiaztatua",
      "hizkuntza": "es"
     }
@@ -5696,19 +5692,19 @@ KAPITULUAK["01ma_01espazioak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 1 nov 2012 alg calc fis general quimi computacion, IMG_2026_07_28_01_07_39S.jpg",
+     "proiektua": "diario landeta 1 nov 2012 alg calc fis general quimi computacion, IMG_2026_07_28_01_07_39S.jpg",
      "xehetasuna": "LANDETA koadernoa, 1. orrialdea: espazio bektorialen eta aplikazio linealen eskuzko garapenaren hitzez hitzeko transkripzio autoauditatu eta matematikoki egiaztatua",
      "hizkuntza": "es"
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario algebra ene 2013, 0021-0040",
+     "proiektua": "diario algebra ene 2013, 0021-0040",
      "xehetasuna": "A1_L05: aljebra linealeko eskuzko koadernoaren hitzez hitzeko transkripzio egiaztatua; zuzenketak eta egiaztapen matematikoak geruza bereizietan",
      "hizkuntza": "es/eu"
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013, IMG_2026_07_28_01_42_26S.jpg",
+     "proiektua": "diario landeta 2 ene 2013, IMG_2026_07_28_01_42_26S.jpg",
      "xehetasuna": "LANDETA2 koadernoa, 10.-11. orrialdeak (azterketa-materiala): sistema sortzailea, basea eta koordenatuak — v3 kontratupean berregindako hitzez hitzeko transkripzioa, matematikoki egiaztatua",
      "hizkuntza": "es"
     }

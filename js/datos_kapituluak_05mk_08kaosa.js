@@ -7,12 +7,7 @@ KAPITULUAK["05mk_08kaosa"] = {
  "azala": "B9.8 - Kaos determinista",
  "azpititulua": "III. aroa - L2",
  "iturburua": "kapituluak/05mk_08kaosa/05mk_08kaosa.typ",
- "sarrera": [
-  {
-   "mota": "testua",
-   "html": ".update(7)"
-  }
- ],
+ "sarrera": [],
  "atalak": [
   {
    "id": "a1",
@@ -783,14 +778,6 @@ KAPITULUAK["05mk_08kaosa"] = {
       {
        "mota": "testua",
        "html": "Mahai horizontal leun batean hiru disko finko berdin daude, <math display=\"inline\"><mn>2.5</mn></math> m-ko aldeko triangelu aldekide baten erpinetan. Diskoen erradioak 1 m luze dira. Norabide berean, baina jotze-parametro desberdinekin, partikula puntualak jaurtitzen dira diskoen kontra. Talkak elastikoak dira. Marraztu sakabanatze-funtzioa."
-      },
-      {
-       "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
-       "html": ""
       }
      ]
     },

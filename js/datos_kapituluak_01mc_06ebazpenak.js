@@ -10,7 +10,7 @@ KAPITULUAK["01mc_06ebazpenak"] = {
  "sarrera": [
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/03_calculo_analisis/analisis/analisis bek/ (eskuzko ebazpenak)",
+   "proiektua": " (eskuzko ebazpenak)",
    "xehetasuna": "Analisi bektorial eta konplexuaren ebazpen-liburua osoa: erabiltzailearen eskuzko ebazpenak, boletin ofizialekin banan-banan parekatuta (a-, c- eta k-serieak; protokoloa: FICHA_analisis_bek.md). a-seriea: 357 ebazpen (bektoriala, 1.-7. gaiak). k-seriea: 67 ebazpen (konplexua, 8.-13. gaiak) — orain goiko kapituluetan ainguratuta.",
    "hizkuntza": "eu"
   }

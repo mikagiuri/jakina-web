@@ -7,12 +7,7 @@ KAPITULUAK["03mm_01goiordena"] = {
  "azala": "B6.2 - EDO: goi-ordena, funtzio orokortuak eta ekuazio-sistemak (3.-4. gaiak)",
  "azpititulua": "I. aroa - Tresnak",
  "iturburua": "kapituluak/03mm_01goiordena/03mm_01goiordena.typ",
- "sarrera": [
-  {
-   "mota": "testua",
-   "html": ".update(2)"
-  }
- ],
+ "sarrera": [],
  "atalak": [
   {
    "id": "a1",
@@ -2109,10 +2104,6 @@ KAPITULUAK["03mm_01goiordena"] = {
        "html": "Har ezazu familia"
       },
       {
-       "mota": "testua",
-       "html": ".update(186)"
-      },
-      {
        "mota": "ezezaguna",
        "izena": "zenb-ekuazioa"
       },
@@ -3922,7 +3913,7 @@ KAPITULUAK["03mm_01goiordena"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 2. orria (METMATCG01_0002, IMG_2025_07_06_20_13_57S.jpg): formulario gorria (Riccati, Bernoulli, faktore integratzailea) + parametroen aldakuntza Cramer-ez, adibide zehatzarekin (y1=x²/(2+x), y2=x/(2+x), b=(3/4)√x → W=-x²/(2+x)²). SymPy-z egiaztatua; zuzenketa BAT mentzioarekin (C1'-ren zeinua). Oinean sinh/cosh eta deribatu-identitateak. Konfiantza altua",
      "hizkuntza": "en/es"
     },
@@ -4089,7 +4080,7 @@ KAPITULUAK["03mm_01goiordena"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 122. unitatea (METMATCG01_0122, IMG_2025_07_12_12_26_42S.jpg; «2013ko EKAINEko 4A»): ordena-murrizketa — e^{-y}y''+y'^2(e^{-y}-2yy')=0, y'=u(y) jarrita Bernoulli du/dy+u=2y e^y u^2 (n=2) -> p=1/u -> lineal dp/dy-p=-2y e^y. Manuskritoa hor gelditzen da; osaketa editorial gisa markatuta (p=e^y(C-y^2), x=(C-y^2+2y-2)e^y+D). SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "es/eu"
     },
@@ -4261,7 +4252,7 @@ KAPITULUAK["03mm_01goiordena"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 160. unitatearen B zatia (METMATCG01_0160_B, IMG_2025_07_12_12_34_30S.jpg; «3. GAIA - GOI ORDENAKO EKUAZIOAK», 20/9/2014): n ordenako hasierako balio-problema, existentzia/bakartasun baldintza eta koefiziente konstanteko EDO lineal homogeneoak. Adibideak y''+2y'+2y=0 eta y''-y=0. ZUZENKETA DEKLARATUA: lehen adibidean paperak k^2+2k+2 lortu ondoren k^3+k^2+2k+2 idazten du; zuzena k^2+2k+2=0 da. Soluzioak SymPy-z egiaztatuta. Konfiantza altua",
      "hizkuntza": "eu/es"
     },
@@ -4362,7 +4353,7 @@ KAPITULUAK["03mm_01goiordena"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 161. unitatea (METMATCG01_0161, IMG_2025_07_12_12_34_36S.jpg): koefiziente konstanteko EDO lineal homogeneoen hiru erro-kasu —erro bikoitza k=-1, erroak k=-1 bikoitza eta k=1 bakuna, eta erro konplexuak k=±i—. ZUZENKETA DEKLARATUA: paperak konstante arbitrarioen A/B izenak trukatzen ditu soluzioaren eta deribatuaren artean; familia matematikoa bera da eta (A+Bx)e^(-x)+Ce^x notazio bakarrean normalizatu da. Faktorizazioa eta hiru soluzioak SymPy-z egiaztatuta. Konfiantza altua",
      "hizkuntza": "eu/es"
     },
@@ -4470,13 +4461,9 @@ KAPITULUAK["03mm_01goiordena"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 328. unitatea (METMATCG01_0328, IMG_2025_07_12_13_03_55S.jpg; «11» ariketa): koefiziente konstanteko EDO lineala y''+y=x e⁻ˣ cos x, koefiziente indeterminatuz (kuasi-polinomioa). Homogeneoa k=±i; k1=2/25, k2=1/5, k3=-14/25, k4=-2/5. SymPy-z egiaztatua (residuoa 0). Ariketa OSOA eta zuzena. Konfiantza altua",
      "hizkuntza": "en/es"
-    },
-    {
-     "mota": "testua",
-     "html": ".update(3)"
     }
    ]
   },
@@ -6753,7 +6740,7 @@ KAPITULUAK["03mm_01goiordena"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 3. orria (METMATCG01_0003, IMG_2025_07_06_20_14_22S.jpg; «NO HOMOGÉNEA»): sistema ez-homogeneoa (dx/dt = x+y+sin t, dy/dt = x+y+t²) parametroen aldakuntzaz — autobalioak 0 eta 2, mu1/mu2 Cramer-ez eta integrazioak, soluzio orokorra. SymPy-z egiaztatua (residuoa 0); AUTOREAREN autozuzenketa gorria dokumentatua (muntaian mu1' vs mu1) eta zuzenketa txiki bat mentzioarekin (-1/41 → -1/40). Konfiantza altua",
      "hizkuntza": "es"
     },
@@ -6899,7 +6886,7 @@ KAPITULUAK["03mm_01goiordena"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 51. unitatea (METMATCG01_0051, IMG_2025_07_06_20_28_01S.jpg): kapitulu inprimatua «4. GAIA Ekuazio-sistemak» p.39 + 4.2 problemaren eskuzko soluzioa. Sistema (ẍ-2ẏ+x=0, ÿ-2ẋ+y=e²ᵗ) 4. ordenako EDO batera laburtua (x⁗-2ẍ+x=4e²ᵗ), karakteristikoa (z²-1)²=0, partikularra A=4/9. SymPy-z egiaztatua (residuoak 0). Konfiantza altua",
      "hizkuntza": "eu/es"
     },
@@ -6993,7 +6980,7 @@ KAPITULUAK["03mm_01goiordena"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 60. unitatea (METMATCG01_0060, IMG_2025_07_06_20_29_31S.jpg; orria 180° biratua): boletineko 25. problemaren eskuzko soluzioa — sistema lineal 3×3 (ẋ-y+z=0, ẏ-x-y=t, ż-x-z=t) LEHEN INTEGRALEZ (x-y+z=A, y-z=Beᵗ, x=C+Beᵗ). Metodoa zuzena; amaierako y,z muntaia zuzenduta mentzioarekin (SymPy: soluzio zuzena residuoak 0). Konfiantza altua",
      "hizkuntza": "es/eu"
     },
@@ -7056,7 +7043,7 @@ KAPITULUAK["03mm_01goiordena"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 67. unitatea (METMATCG01_0067, IMG_2025_07_06_20_30_54S.jpg): kapitulu inprimatua «4 Ekuazio-sistemak» p.51 + 4.29 problemaren eskuzko soluzioa — Cauchy-Euler sistema (tẋ=3x-2y, tẏ=2x-2y) t=eᵘ aldaketaz koefiziente konstanteetara, autobalioak k=2,-1, soluzioa x=A/t+2Bt², y=2A/t+Bt². SymPy-z egiaztatua (residuoak 0). Konfiantza altua",
      "hizkuntza": "eu/es"
     },

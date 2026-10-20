@@ -34,10 +34,6 @@ KAPITULUAK["01ma_03diagonalizazioa"] = {
    "proiektua": "JAKINAk idatzia",
    "xehetasuna": "corpusean teoriarik ez zegoen; M09ko 1. kapituluaren jarraipena (2. kap.)",
    "hizkuntza": "eu"
-  },
-  {
-   "mota": "testua",
-   "html": ".update(1)"
   }
  ],
  "atalak": [
@@ -687,7 +683,7 @@ KAPITULUAK["01ma_03diagonalizazioa"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 1 nov 2012 alg calc fis general quimi computacion, IMG_2026_07_28_01_07_47S.jpg",
+     "proiektua": "diario landeta 1 nov 2012 alg calc fis general quimi computacion, IMG_2026_07_28_01_07_47S.jpg",
      "xehetasuna": "LANDETA koadernoa, 2.-3. orrialdeak: aplikazio lineala, oinarriak, dimentsioa eta matrize elkartuari buruzko eskuzko transkripzio autoauditatu eta matematikoki egiaztatua",
      "hizkuntza": "es"
     }
@@ -777,7 +773,7 @@ KAPITULUAK["01ma_03diagonalizazioa"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario algebra ene 2013, IMG_2026_07_28_02_14_56S.jpg, ezkerreko erdia",
+     "proiektua": "diario algebra ene 2013, IMG_2026_07_28_02_14_56S.jpg, ezkerreko erdia",
      "xehetasuna": "A1_0018i: aplikazio linealen nukleoari eta irudiari buruzko eskuzko garapenaren hitzez hitzeko transkripzio egiaztatua; zuzenketak eta egiaztapen matematikoa bereizita",
      "hizkuntza": "es"
     },
@@ -1440,7 +1436,7 @@ KAPITULUAK["01ma_03diagonalizazioa"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013, IMG_2026_07_28_01_43_28S.jpg",
+     "proiektua": "diario landeta 2 ene 2013, IMG_2026_07_28_01_43_28S.jpg",
      "xehetasuna": "ALGEBRA LANDETA (landeta2), 32.-33. orrialdeak: paso-matrizeak eta alderantzizkoa adjuntuaren bidez (kofaktore guztiak egiaztatuta) — v3 transkripzioa",
      "hizkuntza": "es"
     }
@@ -1506,7 +1502,7 @@ KAPITULUAK["01ma_03diagonalizazioa"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013, IMG_2026_07_28_01_47_13S.jpg — IMG_2026_07_28_01_48_27S.jpg",
+     "proiektua": "diario landeta 2 ene 2013, IMG_2026_07_28_01_47_13S.jpg — IMG_2026_07_28_01_48_27S.jpg",
      "xehetasuna": "ALGEBRA LANDETA (landeta2), 84.-111. orrialdeak, 2013/01/18-24: diagonalizagarritasuna, JORDANEN FORMA KANONIKOA osorik (azpiespazio orokortuak, oinarria, egiaztapena), matrize baliokideak eragiketa elementalez, f^2011 Jordanen bidez, eta base-aldaketaren alderantzizko problema — v3 transkripzio egiaztatuak",
      "hizkuntza": "es"
     }
@@ -1767,10 +1763,6 @@ KAPITULUAK["01ma_03diagonalizazioa"] = {
     {
      "mota": "testua",
      "html": "<strong>Froga.</strong> <math display=\"inline\"><mrow><msub><mi>W</mi><mi>i</mi></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mover><msub><mi>w</mi><mrow><mi>i</mi><mn>1</mn></mrow></msub><mo accent=\"true\">→</mo></mover><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></math> izanik, batura beren sortzaileen bilduraren azpiespazioa da. <math display=\"inline\"><msub><mi>W</mi><mi>i</mi></msub></math> bakoitza <math display=\"inline\"><mi>f</mi></math>-aldaezina denez, <math display=\"inline\"><mrow><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><msub><mi>w</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo accent=\"true\">→</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∈</mo><msub><mi>W</mi><mi>i</mi></msub><mo>⊆</mo><msub><mi>W</mi><mn>1</mn></msub><mo>+</mo><mi>…</mi><mo>+</mo><msub><mi>W</mi><mi>n</mi></msub></mrow></math>; beraz <math display=\"inline\"><mi>f</mi></math>-k sortzaile guztiak baturara eramaten dituenez, <math display=\"inline\"><mrow><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>W</mi><mn>1</mn></msub><mo>+</mo><mi>…</mi><mo>+</mo><msub><mi>W</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⊆</mo><msub><mi>W</mi><mn>1</mn></msub><mo>+</mo><mi>…</mi><mo>+</mo><msub><mi>W</mi><mi>n</mi></msub></mrow></math>."
-    },
-    {
-     "mota": "testua",
-     "html": " "
     },
     {
      "mota": "testua",
@@ -4164,7 +4156,7 @@ KAPITULUAK["01ma_03diagonalizazioa"] = {
     },
     {
      "mota": "itzulgai",
-     "proiektua": "_historico/espazio-ontzia/02_algebra_geometria/algebra_lineal/ocw_ejercicios_resueltos",
+     "proiektua": "ocw_ejercicios_resueltos",
      "orrialdeak": "40",
      "jatorria": "es"
     }
@@ -6787,7 +6779,7 @@ KAPITULUAK["01ma_03diagonalizazioa"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario landeta 2 ene 2013, IMG_2026_07_28_01_42_30S.jpg — IMG_2026_07_28_01_43_04S.jpg (ezker orriak)",
+     "proiektua": "diario landeta 2 ene 2013, IMG_2026_07_28_01_42_30S.jpg — IMG_2026_07_28_01_43_04S.jpg (ezker orriak)",
      "xehetasuna": "LANDETA2 koadernoa, 12.-15., 18.-22. orrialdeak: aplikazio linealen aurreirudiak, base-aldaketa, 5×5 determinantea, azpiespazio suplementario eta inbarianteak, diagonalizazio osoa (22. orrialdeko rotulua ALGEBRA NEWTON da) — v3 transkripzio egiaztatuak",
      "hizkuntza": "es"
     }

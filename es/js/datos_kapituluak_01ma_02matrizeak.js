@@ -30,13 +30,9 @@ KAPITULUAK["01ma_02matrizeak"] = {
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/gzm_liburua",
+   "proiektua": "gzm_liburua",
    "xehetasuna": "Capítulos 1–3",
    "hizkuntza": "eu"
-  },
-  {
-   "mota": "testua",
-   "html": ".update(0)"
   }
  ],
  "atalak": [
@@ -992,11 +988,11 @@ KAPITULUAK["01ma_02matrizeak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "<em>(a)</em>"
+         "html": "<strong>(a)</strong>"
         },
         {
          "mota": "testua",
-         "html": "Resuelve <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>3</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>4</mn></mtd></mtr></mtable></mrow></math> el sistema. <em>(b)</em> Añade una tercera ecuación que sea compatible. <em>(c)</em> Añade una tercera ecuación que sea incompatible. <em>(d)</em> Interpreta geométricamente lo que has hecho en cada caso."
+         "html": "Resuelva el sistema <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>3</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>4</mn></mtd></mtr></mtable></mrow></math>.<br><strong>(b)</strong> Añada una tercera ecuación que lo haga compatible.<br><strong>(c)</strong> Añada una tercera ecuación que lo haga incompatible.<br><strong>(d)</strong> Interprete geométricamente lo que ha hecho en cada caso."
         }
        ]
       }
@@ -2139,7 +2135,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(a)</em>"
+     "html": "<strong>(a)</strong>"
     },
     {
      "mota": "testua",
@@ -2147,7 +2143,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(b)</em>"
+     "html": "<strong>(b)</strong>"
     },
     {
      "mota": "testua",
@@ -2168,7 +2164,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(a)</em>"
+     "html": "<strong>(a)</strong>"
     },
     {
      "mota": "testua",
@@ -2222,7 +2218,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(b)</em>"
+     "html": "<strong>(b)</strong>"
     },
     {
      "mota": "testua",
@@ -2328,7 +2324,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "<em>(a)</em>"
+         "html": "<strong>(a)</strong>"
         },
         {
          "mota": "testua",
@@ -2386,7 +2382,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "<em>(b)</em>"
+         "html": "<strong>(b)</strong>"
         },
         {
          "mota": "testua",
@@ -2443,7 +2439,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "Con tres tipos de alimentos —A (10 calorías/100 g), B (30 calorías/100 g), C (40 calorías/100 g)— vamos a hacer una dieta. <em>(a)</em> Si el límite de la dieta diaria de <math display=\"inline\"><mi>G</mi></math> gramos es de 840 calorías y la cantidad del alimento A es el doble que la de C, busca cuánto hay que comer de cada alimento en función de <math display=\"inline\"><mi>G</mi></math>. <em>(b)</em> Busca entre qué valores está <math display=\"inline\"><mi>G</mi></math> para que se cumplan las condiciones."
+     "html": "Con tres tipos de alimento —A (10 calorías/100 g), B (30 calorías/100 g), C (40 calorías/100 g)— vamos a hacer una dieta.<br><strong>(a)</strong> Si el límite de la dieta diaria de <math display=\"inline\"><mi>G</mi></math> gramos es de 840 calorías y la cantidad del alimento A es el doble que la de C, halle, en función de <math display=\"inline\"><mi>G</mi></math>, cuánto hay que comer de cada alimento.<br><strong>(b)</strong> Halle entre qué valores está <math display=\"inline\"><mi>G</mi></math> para que se cumplan las condiciones."
     },
     {
      "mota": "azpititulua",
@@ -2451,7 +2447,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(a)</em>"
+     "html": "<strong>(a)</strong>"
     },
     {
      "mota": "testua",
@@ -2505,7 +2501,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(b)</em>"
+     "html": "<strong>(b)</strong>"
     },
     {
      "mota": "testua",
@@ -2526,7 +2522,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(a)</em>"
+     "html": "<strong>(a)</strong>"
     },
     {
      "mota": "zentratua",
@@ -2534,10 +2530,6 @@ KAPITULUAK["01ma_02matrizeak"] = {
       {
        "mota": "testua",
        "html": "<img class=\"formula\" src=\"../media/formulak/88d6b53f8f56a8d1.svg\" alt=\"mat(row-gap: #6pt, column-gap: #9pt, augment: #2, 1,m,m - 1; m,1,2 - 2m)\" style=\"width:7.659em;height:1.579em\" loading=\"lazy\">"
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",
@@ -2560,7 +2552,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(b)</em>"
+     "html": "<strong>(b)</strong>"
     },
     {
      "mota": "testua",
@@ -3295,7 +3287,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -3303,7 +3295,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -3490,7 +3482,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -3498,7 +3490,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -3539,10 +3531,6 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
        "html": "<math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>−</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>k</mi><mi>x</mi><mo>+</mo><mi>z</mi><mo>=</mo><mn>0</mn></mtd></mtr></mtable></mrow></math>"
       }
      ]
@@ -3566,10 +3554,6 @@ KAPITULUAK["01ma_02matrizeak"] = {
       {
        "mota": "testua",
        "html": "¿Podemos convertir este sistema en un sistema incompatible cambiando solo la tercera ecuación? Razona la respuesta y da un ejemplo."
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",
@@ -3613,7 +3597,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -3621,7 +3605,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -3639,10 +3623,6 @@ KAPITULUAK["01ma_02matrizeak"] = {
        "html": "¿Un sistema de dos ecuaciones con tres incógnitas puede ser compatible determinado? Da ejemplos que aclaren la respuesta."
       }
      ]
-    },
-    {
-     "mota": "testua",
-     "html": ".update(1)"
     }
    ]
   },
@@ -3790,7 +3770,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -3848,7 +3828,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -4174,15 +4154,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
         },
         {
          "mota": "testua",
-         "html": " "
-        },
-        {
-         "mota": "testua",
          "html": "o    <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>a</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>m</mi><mo>,</mo><mi>n</mi></mrow></msub></mrow></math>    o, simplemente:"
-        },
-        {
-         "mota": "testua",
-         "html": " "
         },
         {
          "mota": "testua",
@@ -5443,10 +5415,6 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
        "html": "<math display=\"inline\"><mrow><mi>B</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>5</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>4</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>6</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>,    <math display=\"inline\"><mrow><mi>C</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>6</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>7</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>."
       },
       {
@@ -5491,10 +5459,6 @@ KAPITULUAK["01ma_02matrizeak"] = {
         "Si <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>4</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> y <math display=\"inline\"><mrow><mi>B</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>4</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>5</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>4</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, se pueden hacer <math display=\"inline\"><mrow><mi>A</mi><mo>⋅</mo><mi>B</mi></mrow></math> y <math display=\"inline\"><mrow><mi>B</mi><mo>⋅</mo><mi>A</mi></mrow></math>, pero <math display=\"inline\"><mrow><mi>A</mi><mo>⋅</mo><mi>B</mi></mrow></math> es de dimensión <math display=\"inline\"><mrow><mn>3</mn><mo>×</mo><mn>3</mn></mrow></math> y <math display=\"inline\"><mrow><mi>B</mi><mo>⋅</mo><mi>A</mi></mrow></math> es de dimensión <math display=\"inline\"><mrow><mn>2</mn><mo>×</mo><mn>2</mn></mrow></math>.",
         "Si <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>4</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>5</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> y <math display=\"inline\"><mrow><mi>B</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>7</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>:"
        ]
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",
@@ -5686,10 +5650,6 @@ KAPITULUAK["01ma_02matrizeak"] = {
         },
         {
          "mota": "testua",
-         "html": " "
-        },
-        {
-         "mota": "testua",
          "html": "<img class=\"formula\" src=\"../media/formulak/1dbbba26f6dbcbe9.svg\" alt=\"cases(3z + 7t = 0, 2z + 5t = 1) #h(0.4em) =&gt; #h(0.4em) z = -7, #h(0.3em) t = 3\" style=\"width:13.333em;height:1.241em\" loading=\"lazy\">"
         }
        ]
@@ -5793,12 +5753,12 @@ KAPITULUAK["01ma_02matrizeak"] = {
        ],
        "elementuak": [
         "Calcula <math display=\"inline\"><mrow><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo>,</mo><mi>t</mi></mrow></math> para que se cumpla:   <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>x</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>y</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>z</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>t</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>5</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>.",
-        "Para las matrices <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>7</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mi>B</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>5</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>4</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mi>C</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>4</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, comprueba estas igualdades:   <em>(a)</em> <math display=\"inline\"><mrow><mi>A</mi><mo>⋅</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>B</mi><mo>⋅</mo><mi>C</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>⋅</mo><mi>B</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><mi>C</mi></mrow></math>;   <em>(b)</em> <math display=\"inline\"><mrow><mi>A</mi><mo>⋅</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>B</mi><mo>+</mo><mi>C</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>⋅</mo><mi>B</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>⋅</mo><mi>C</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>;   <em>(c)</em> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>+</mo><mi>B</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><mi>C</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>⋅</mo><mi>C</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>B</mi><mo>⋅</mo><mi>C</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>.",
+        "Para las matrices <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>7</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mi>B</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>5</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>4</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mi>C</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>4</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, compruebe las siguientes igualdades:  <br><strong>(a)</strong> <math display=\"inline\"><mrow><mi>A</mi><mo>⋅</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>B</mi><mo>⋅</mo><mi>C</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>⋅</mo><mi>B</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><mi>C</mi></mrow></math>;  <br><strong>(b)</strong> <math display=\"inline\"><mrow><mi>A</mi><mo>⋅</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>B</mi><mo>+</mo><mi>C</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>⋅</mo><mi>B</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>⋅</mo><mi>C</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>;  <br><strong>(c)</strong> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>+</mo><mi>B</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><mi>C</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>⋅</mo><mi>C</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>B</mi><mo>⋅</mo><mi>C</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>.",
         "Siendo <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>5</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> y <math display=\"inline\"><mrow><mi>B</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>6</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>3</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, halla la matriz <math display=\"inline\"><mi>X</mi></math> que cumpla:   <math display=\"inline\"><mrow><mn>3</mn><mo>⋅</mo><mi>X</mi><mo>−</mo><mn>2</mn><mo>⋅</mo><mi>A</mi><mo>=</mo><mn>5</mn><mo>⋅</mo><mi>B</mi></mrow></math>.",
         "Halla dos matrices <math display=\"inline\"><mi>A</mi></math> y <math display=\"inline\"><mi>B</mi></math> de orden <math display=\"inline\"><mrow><mn>2</mn><mo>×</mo><mn>2</mn></mrow></math> que cumplan:   <math display=\"inline\"><mrow><mn>2</mn><mi>A</mi><mo>+</mo><mi>B</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>4</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>;   <math display=\"inline\"><mrow><mi>A</mi><mo>−</mo><mi>B</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>.",
         "Resuelve el sistema siguiente; las incógnitas son matrices:   <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>2</mn><mi>X</mi><mo>−</mo><mn>3</mn><mi>Y</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>5</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>4</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>X</mi><mo>−</mo><mi>Y</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>6</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mtd></mtr></mtable></mrow></math>.",
         "Halla cómo debe ser la matriz <math display=\"inline\"><mi>X</mi></math> para que se cumpla:   <math display=\"inline\"><mrow><mi>X</mi><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><mi>X</mi></mrow></math>.",
-        "Realiza las operaciones siguientes con las matrices <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mi>B</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>4</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>7</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mi>C</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>:   <em>(a)</em> <math display=\"inline\"><mrow><mi>A</mi><mo>+</mo><mi>B</mi><mo>+</mo><mi>C</mi></mrow></math>;   <em>(b)</em> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>⋅</mo><mi>B</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>⋅</mo><mi>C</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>;   <em>(c)</em> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>−</mo><mi>B</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><mi>C</mi></mrow></math>;   <em>(d)</em> <math display=\"inline\"><mrow><mi>A</mi><mo>⋅</mo><mi>B</mi><mo>⋅</mo><mi>C</mi></mrow></math>.",
+        "Haga las siguientes operaciones con las matrices <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mi>B</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>4</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>7</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mi>C</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>:  <br><strong>(a)</strong> <math display=\"inline\"><mrow><mi>A</mi><mo>+</mo><mi>B</mi><mo>+</mo><mi>C</mi></mrow></math>;  <br><strong>(b)</strong> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>⋅</mo><mi>B</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>⋅</mo><mi>C</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>;  <br><strong>(c)</strong> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>−</mo><mi>B</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><mi>C</mi></mrow></math>;  <br><strong>(d)</strong> <math display=\"inline\"><mrow><mi>A</mi><mo>⋅</mo><mi>B</mi><mo>⋅</mo><mi>C</mi></mrow></math>.",
         "Dada la matriz <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, comprueba <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>−</mo><mi>I</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>=</mo><mn>0</mn></mrow></math>."
        ]
       }
@@ -6627,15 +6587,15 @@ KAPITULUAK["01ma_02matrizeak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>5</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mi>B</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>4</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mi>C</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>5</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> y <math display=\"inline\"><mrow><mi>D</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> dadas, calcular: <em>(a)</em>  <math display=\"inline\"><mrow><mi>B</mi><mo>⋅</mo><mi>C</mi></mrow></math>;"
+       "html": "Dadas las matrices <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>5</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mi>B</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>4</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mi>C</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>5</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> y <math display=\"inline\"><mrow><mi>D</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, calcule:<br><strong>(a)</strong>  <math display=\"inline\"><mrow><mi>B</mi><mo>⋅</mo><mi>C</mi></mrow></math>;"
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>⋅</mo><mi>C</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><mi>B</mi></mrow></math>; <em>(c)</em>  <math display=\"inline\"><mrow><mi>B</mi><mo>⋅</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>D</mi><mo>⋅</mo><mi>C</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+       "html": "<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>⋅</mo><mi>C</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><mi>B</mi></mrow></math>;<br><strong>(c)</strong>  <math display=\"inline\"><mrow><mi>B</mi><mo>⋅</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>D</mi><mo>⋅</mo><mi>C</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
       }
      ]
     },
@@ -6645,7 +6605,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(a)</em>"
+     "html": "<strong>(a)</strong>"
     },
     {
      "mota": "testua",
@@ -6653,7 +6613,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(b)</em>"
+     "html": "<strong>(b)</strong>"
     },
     {
      "mota": "testua",
@@ -6661,7 +6621,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(c)</em>"
+     "html": "<strong>(c)</strong>"
     },
     {
      "mota": "testua",
@@ -6674,11 +6634,11 @@ KAPITULUAK["01ma_02matrizeak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
-       "html": "Calcula <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> matrizren inversoa. <em>(b)</em> Demostrar <math display=\"inline\"><mrow><mi>B</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>4</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> matrices ez duela inversorik."
+       "html": "Calcule la inversa de la matriz <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>.<br><strong>(b)</strong> Demuestre que la matriz <math display=\"inline\"><mrow><mi>B</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>4</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> no tiene inversa."
       }
      ]
     },
@@ -6688,7 +6648,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(a)</em>"
+     "html": "<strong>(a)</strong>"
     },
     {
      "mota": "testua",
@@ -6722,7 +6682,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(b)</em>"
+     "html": "<strong>(b)</strong>"
     },
     {
      "mota": "testua",
@@ -7098,7 +7058,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -7106,11 +7066,11 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
-       "html": "Si la cantidad del producto <math display=\"inline\"><mi>Q</mi></math> es 2 unidades, ¿cuáles serán las cantidades de los otros productos?    <em>(c)</em> Obtén las cantidades de los otros productos en función de la cantidad de <math display=\"inline\"><mi>Q</mi></math> que entra en la dieta. ¿Entre qué valores debe estar la cantidad de <math display=\"inline\"><mi>Q</mi></math>?"
+       "html": "Si la cantidad del producto <math display=\"inline\"><mi>Q</mi></math> es de 2 unidades, ¿cuáles serán las cantidades de los demás productos?   <br><strong>(c)</strong> Halle las cantidades de los demás productos en función de la cantidad <math display=\"inline\"><mi>Q</mi></math> que entra en la dieta. ¿Entre qué valores debe estar la cantidad de <math display=\"inline\"><mi>Q</mi></math>?"
       }
      ]
     },
@@ -7120,7 +7080,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(a)</em>"
+     "html": "<strong>(a)</strong>"
     },
     {
      "mota": "testua",
@@ -7154,7 +7114,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(b)</em>"
+     "html": "<strong>(b)</strong>"
     },
     {
      "mota": "testua",
@@ -7162,7 +7122,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(c)</em>"
+     "html": "<strong>(c)</strong>"
     },
     {
      "mota": "testua",
@@ -7323,19 +7283,15 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>−</mi><mn>2</mn><mi>A</mi><mo>+</mo><mn>3</mn><mi>B</mi></mrow></math>;    <em>(b)</em>  <math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>A</mi><mo>⋅</mo><mi>B</mi></mrow></math>;    <em>(c)</em>  <math display=\"inline\"><mrow><mi>B</mi><mo>⋅</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>A</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>;"
+       "html": "<math display=\"inline\"><mrow><mi>−</mi><mn>2</mn><mi>A</mi><mo>+</mo><mn>3</mn><mi>B</mi></mrow></math>;   <br><strong>(b)</strong>  <math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>A</mi><mo>⋅</mo><mi>B</mi></mrow></math>;   <br><strong>(c)</strong>  <math display=\"inline\"><mrow><mi>B</mi><mo>⋅</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>A</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>;"
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
-       "html": "<em>(d)</em>  <math display=\"inline\"><mrow><mi>A</mi><mo>⋅</mo><mi>A</mi><mo>−</mo><mi>B</mi><mo>⋅</mo><mi>B</mi></mrow></math>."
+       "html": "<strong>(d)</strong>  <math display=\"inline\"><mrow><mi>A</mi><mo>⋅</mo><mi>A</mi><mo>−</mo><mi>B</mi><mo>⋅</mo><mi>B</mi></mrow></math>."
       }
      ]
     },
@@ -7357,7 +7313,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -7365,7 +7321,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -7384,11 +7340,11 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>+</mo><mi>B</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>t</mi></msup><mo>=</mo><msup><mi>A</mi><mi>t</mi></msup><mo>+</mo><msup><mi>B</mi><mi>t</mi></msup></mrow></math>;    <em>(b)</em>  <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>A</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>t</mi></msup><mo>=</mo><mn>3</mn><msup><mi>A</mi><mi>t</mi></msup></mrow></math>."
+       "html": "<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>+</mo><mi>B</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>t</mi></msup><mo>=</mo><msup><mi>A</mi><mi>t</mi></msup><mo>+</mo><msup><mi>B</mi><mi>t</mi></msup></mrow></math>;   <br><strong>(b)</strong>  <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>A</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>t</mi></msup><mo>=</mo><mn>3</mn><msup><mi>A</mi><mi>t</mi></msup></mrow></math>."
       }
      ]
     },
@@ -7436,7 +7392,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -7444,7 +7400,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -7508,11 +7464,11 @@ KAPITULUAK["01ma_02matrizeak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Aurreko ejercicioso <math display=\"inline\"><mi>A</mi></math> y <math display=\"inline\"><mi>B</mi></math> matrizeekin y <math display=\"inline\"><msup><mi>A</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></math>, <math display=\"inline\"><msup><mi>B</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></math> inversoekin, egiaztatu:    <em>(a)</em>  <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>+</mo><mi>B</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi>−</mi><mn>1</mn></mrow></msup><mo>≠</mo><msup><mi>A</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup><mo>+</mo><msup><mi>B</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></mrow></math>;  "
+       "html": "Con las matrices <math display=\"inline\"><mi>A</mi></math> y <math display=\"inline\"><mi>B</mi></math> del ejercicio anterior y con sus inversas <math display=\"inline\"><msup><mi>A</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></math>, <math display=\"inline\"><msup><mi>B</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></math>, compruebe:   <br><strong>(a)</strong>  <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>+</mo><mi>B</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi>−</mi><mn>1</mn></mrow></msup><mo>≠</mo><msup><mi>A</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup><mo>+</mo><msup><mi>B</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></mrow></math>;"
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -7652,10 +7608,6 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
        "html": "<math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> y <math display=\"inline\"><mrow><mi>B</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>."
       }
      ]
@@ -7792,7 +7744,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -7800,7 +7752,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -7964,7 +7916,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "En un edificio hay tres tipos de viviendas: L3, L4 y L5. Las viviendas L3 tienen 4 ventanas pequeñas y 3 grandes; las L4, 5 pequeñas y 4 grandes; las L5, 6 pequeñas y 5 grandes. Cada ventana pequeña tiene 2 cristales y 4 lamas, y las grandes 4 cristales y 6 lamas. <em>(a)</em> Escribe una matriz que describa el número y el tamaño de las ventanas de cada vivienda, y otra que indique el número de cristales y lamas de cada tipo de ventana. <em>(b)</em> Calcula la matriz que indica el número de cristales y lamas de cada tipo de vivienda."
+       "html": "En un edificio hay tres tipos de casas: L3, L4 y L5. Las casas L3 tienen 4 ventanas pequeñas y 3 grandes; las L4, 5 pequeñas y 4 grandes; las L5, 6 pequeñas y 5 grandes. Cada ventana pequeña tiene 2 cristales y 4 listones, y las grandes, 4 cristales y 6 listones.<br><strong>(a)</strong> Escriba una matriz que describa el número y el tamaño de las ventanas de cada casa, y otra que exprese el número de cristales y de listones de cada tipo de ventana.<br><strong>(b)</strong> Calcule la matriz que expresa el número de cristales y de listones de cada tipo de casa."
       }
      ]
     },
@@ -8008,11 +7960,11 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "Sabemos que <math display=\"inline\"><mi>C</mi></math> y <math display=\"inline\"><mi>I</mi></math>  (matrices de coste e ingresos) son diagonales y que <math display=\"inline\"><mi>V</mi></math> (matriz de ventas) es una matriz fila. <em>(a)</em> Determina <math display=\"inline\"><mi>C</mi></math>, <math display=\"inline\"><mi>I</mi></math> y <math display=\"inline\"><mi>V</mi></math> matrices."
+       "html": "Sabemos que <math display=\"inline\"><mi>C</mi></math> y <math display=\"inline\"><mi>I</mi></math> (matrices de costes y de ingresos) son diagonales y que <math display=\"inline\"><mi>V</mi></math> (matriz de ventas) es una matriz fila.<br><strong>(a)</strong> Determine las matrices <math display=\"inline\"><mi>C</mi></math>, <math display=\"inline\"><mi>I</mi></math> y <math display=\"inline\"><mi>V</mi></math>."
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -8060,11 +8012,11 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "Pero, como consecuencia de la programación, A ha bajado un 10 %, B ha bajado un 5 % y C ha subido un 20 %, a todas las horas. <em>(a)</em> Obtén la matriz que indica la audiencia real de cada cadena."
+       "html": "Pero a consecuencia de la programación, el canal A ha bajado un 10 %, el B un 5 % y el C ha subido un 20 %, a todas las horas.<br><strong>(a)</strong> Obtenga la matriz que expresa la audiencia real de cada canal."
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -8095,7 +8047,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mi>A</mi></math>  es una matriz de dimensión <math display=\"inline\"><mrow><mn>3</mn><mo>×</mo><mn>2</mn></mrow></math>. <em>(a)</em> ¿Existe alguna matriz <math display=\"inline\"><mrow><mi>A</mi><mo>⋅</mo><mi>B</mi></mrow></math> que haga que <math display=\"inline\"><mi>B</mi></math> sea una matriz de una sola fila? <em>(b)</em> ¿Y <math display=\"inline\"><mrow><mi>B</mi><mo>⋅</mo><mi>A</mi></mrow></math>? Pon un ejemplo de cada caso, <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> teniendo en cuenta que."
+       "html": "<math display=\"inline\"><mi>A</mi></math>  es una matriz de dimensión <math display=\"inline\"><mrow><mn>3</mn><mo>×</mo><mn>2</mn></mrow></math>.<br><strong>(a)</strong> ¿Existe alguna matriz <math display=\"inline\"><mi>B</mi></math> que forme la matriz de una sola fila <math display=\"inline\"><mrow><mi>A</mi><mo>⋅</mo><mi>B</mi></mrow></math>?<br><strong>(b)</strong> ¿Y <math display=\"inline\"><mrow><mi>B</mi><mo>⋅</mo><mi>A</mi></mrow></math>? Ponga un ejemplo de cada caso, teniendo en cuenta que <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>."
       }
      ]
     },
@@ -8139,7 +8091,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Tenemos una matriz <math display=\"inline\"><mrow><mn>3</mn><mo>×</mo><mn>3</mn></mrow></math> de rango 3. <em>(a)</em> ¿Cómo cambiará el rango al quitar una columna? <em>(b)</em> Al quitar una fila y una columna, ¿podemos decir que el rango de la matriz resultante es 2?"
+       "html": "Tenemos la matriz <math display=\"inline\"><mrow><mn>3</mn><mo>×</mo><mn>3</mn></mrow></math> de rango 3.<br><strong>(a)</strong> ¿Cómo cambiará el rango al quitar una columna?<br><strong>(b)</strong> Al quitar una fila y una columna, ¿podemos decir que el rango de la matriz resultante es 2?"
       }
      ]
     },
@@ -8188,11 +8140,11 @@ KAPITULUAK["01ma_02matrizeak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mi>A</mi></math> y <math display=\"inline\"><mi>B</mi></math> son dos matrices cuadradas del mismo orden. <math display=\"inline\"><mrow><mi>A</mi><mo>⋅</mo><mi>B</mi><mo>=</mo><mi>A</mi><mo>⋅</mo><mi>C</mi></mrow></math> , en general, no se puede deducir <math display=\"inline\"><mrow><mi>B</mi><mo>=</mo><mi>C</mi></mrow></math> . <em>(a)</em> Demuéstralo <math display=\"inline\"><mrow><mi>A</mi><mo>⋅</mo><mi>B</mi><mo>=</mo><mi>A</mi><mo>⋅</mo><mi>C</mi></mrow></math> encontrando dos matrices <math display=\"inline\"><mi>B</mi></math> y <math display=\"inline\"><mi>C</mi></math> y <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> que cumplen "
+       "html": "<math display=\"inline\"><mi>A</mi></math> y <math display=\"inline\"><mi>B</mi></math> son dos matrices cuadradas del mismo orden. De la igualdad <math display=\"inline\"><mrow><mi>A</mi><mo>⋅</mo><mi>B</mi><mo>=</mo><mi>A</mi><mo>⋅</mo><mi>C</mi></mrow></math>, en general, no se puede deducir <math display=\"inline\"><mrow><mi>B</mi><mo>=</mo><mi>C</mi></mrow></math>.<br><strong>(a)</strong> Demuéstrelo encontrando dos matrices distintas <math display=\"inline\"><mi>B</mi></math> y <math display=\"inline\"><mi>C</mi></math> que cumplan <math display=\"inline\"><mrow><mi>A</mi><mo>⋅</mo><mi>B</mi><mo>=</mo><mi>A</mi><mo>⋅</mo><mi>C</mi></mrow></math>, siendo <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>."
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -8296,7 +8248,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/diario algebra ene 2013, IMG_2026_07_28_02_14_56S.jpg, eskuineko erdia",
+     "proiektua": "diario algebra ene 2013, IMG_2026_07_28_02_14_56S.jpg, eskuineko erdia",
      "xehetasuna": "A1_0018d: transcripción literal verificada de los enunciados manuscritos de productos de matrices; dudas de lectura y comprobación matemática por separado",
      "hizkuntza": "es"
     },
@@ -9096,10 +9048,6 @@ KAPITULUAK["01ma_02matrizeak"] = {
      "elementuak": [
       "Como esta mitad solo contiene enunciados, no hay ningún resultado manuscrito con el que comparar estos productos, ni ningún error numérico visible que señalar."
      ]
-    },
-    {
-     "mota": "testua",
-     "html": ".update(2)"
     }
    ]
   },
@@ -9838,10 +9786,6 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<br>"
-      },
-      {
-       "mota": "testua",
        "html": "(propiedad <span class=\"j-zirk\">⑧</span>: al restar a una columna otra multiplicada por un número, el determinante no cambia)."
       }
      ]
@@ -9954,7 +9898,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -9962,15 +9906,11 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
        "html": "Con signo <math display=\"inline\"><mi>−</mi></math>:  <math display=\"inline\"><mrow><mn>5</mn><mo>⋅</mo><mn>7</mn><mo>⋅</mo><mn>4</mn><mo>+</mo><mn>3</mn><mo>⋅</mo><mn>3</mn><mo>⋅</mo><mn>1</mn><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><mn>1</mn><mo>⋅</mo><mn>0</mn><mo>=</mo><mn>149</mn></mrow></math>. Por tanto, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>=</mo><mi>−</mi><mn>19</mn><mo>−</mo><mn>149</mn><mo>=</mo><mi>−</mi><mn>168</mn></mrow></math>."
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -9978,7 +9918,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(c)</em>"
+       "html": "<strong>(c)</strong>"
       },
       {
        "mota": "testua",
@@ -10361,26 +10301,26 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
-       "html": "Por la regla de Sarrus;    <em>(b)</em> desarrollando por cada fila y por cada columna. Comprueba que en los siete casos se obtiene el mismo resultado."
+       "html": "por la regla de Sarrus;   <br><strong>(b)</strong> desarrollando por cada fila y por cada columna. Compruebe que en los siete casos se obtiene el mismo resultado."
       },
       {
        "mota": "zerrenda",
        "ordenatua": true,
        "elementuak": [
-        "Con el determinante <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>7</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>5</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>6</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>9</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>8</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>4</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></math>:    <em>(a)</em> halla la suma de los productos de los elementos de la fila 1 por los adjuntos de la fila 3;  "
+        "Con el determinante <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>7</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>5</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>6</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>9</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>8</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>4</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></math>:   <br><strong>(a)</strong> halle la suma de los productos entre los elementos de la fila 1 y los adjuntos de la fila 3;"
        ]
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
-       "html": "halla la suma de los productos de los elementos de la columna 3 por los adjuntos de la columna 2;    <em>(c)</em> justifica por qué ambos resultados son cero."
+       "html": "halle la suma de los productos entre los elementos de la columna 3 y los adjuntos de la columna 2;   <br><strong>(c)</strong> justifique por qué los dos resultados son cero."
       }
      ]
     }
@@ -11889,10 +11829,6 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
        "html": "<math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>5</mn><mi>y</mi><mo>=</mo><mi>−</mi><mn>77</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>7</mn><mi>x</mi><mo>+</mo><mn>4</mn><mi>y</mi><mo>=</mo><mn>10</mn></mtd></mtr></mtable></mrow></math>."
       }
      ]
@@ -12408,10 +12344,6 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<br>"
-      },
-      {
-       "mota": "testua",
        "html": "<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msup><mi>A</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>7</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>k</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>11</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>4</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>k</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>=</mo><mi>−</mi><msup><mi>k</mi><mn>2</mn></msup><mo>−</mo><mn>29</mn><mi>k</mi><mo>+</mo><mn>62</mn><mo>=</mo><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo>−</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo>+</mo><mn>31</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>; solo puede ser compatible cuando <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msup><mi>A</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>=</mo><mn>0</mn></mrow></math>:"
       },
       {
@@ -12633,7 +12565,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -12641,7 +12573,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -12655,7 +12587,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(a)</em>"
+     "html": "<strong>(a)</strong>"
     },
     {
      "mota": "testua",
@@ -12663,7 +12595,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(b)</em>"
+     "html": "<strong>(b)</strong>"
     },
     {
      "mota": "testua",
@@ -12685,7 +12617,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -12693,7 +12625,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -12707,7 +12639,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(a)</em>"
+     "html": "<strong>(a)</strong>"
     },
     {
      "mota": "testua",
@@ -12715,7 +12647,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(b)</em>"
+     "html": "<strong>(b)</strong>"
     },
     {
      "mota": "testua",
@@ -12805,15 +12737,11 @@ KAPITULUAK["01ma_02matrizeak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Resuelve estos sistemas por Cramer:    <em>(a)</em>  <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>12</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mn>8</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>+</mo><mi>z</mi><mo>=</mo><mn>6</mn></mtd></mtr></mtable></mrow></math>;"
+       "html": "Resuelva estos sistemas por Cramer:   <br><strong>(a)</strong>  <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>12</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mn>8</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>+</mo><mi>z</mi><mo>=</mo><mn>6</mn></mtd></mtr></mtable></mrow></math>;"
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
-       "html": "<em>(b)</em>  <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>−</mo><mi>y</mi><mo>−</mo><mi>z</mi><mo>=</mo><mn>3</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>4</mn><mi>z</mi><mo>=</mo><mn>7</mn></mtd></mtr></mtable></mrow></math>."
+       "html": "<strong>(b)</strong>  <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>−</mo><mi>y</mi><mo>−</mo><mi>z</mi><mo>=</mo><mn>3</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>4</mn><mi>z</mi><mo>=</mo><mn>7</mn></mtd></mtr></mtable></mrow></math>."
       }
      ]
     },
@@ -12823,7 +12751,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(a)</em>"
+     "html": "<strong>(a)</strong>"
     },
     {
      "mota": "testua",
@@ -12831,7 +12759,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(b)</em>"
+     "html": "<strong>(b)</strong>"
     },
     {
      "mota": "testua",
@@ -12872,15 +12800,11 @@ KAPITULUAK["01ma_02matrizeak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Aztertu y resolver:    <em>(a)</em>  <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>−</mo><mi>z</mi><mo>=</mo><mn>4</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mn>5</mn><mi>z</mi><mo>=</mo><mi>−</mi><mn>8</mn></mtd></mtr></mtable></mrow></math>;"
+       "html": "Estudie y resuelva:   <br><strong>(a)</strong>  <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>−</mo><mi>z</mi><mo>=</mo><mn>4</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mn>5</mn><mi>z</mi><mo>=</mo><mi>−</mi><mn>8</mn></mtd></mtr></mtable></mrow></math>;"
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
-       "html": "<em>(b)</em>  <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>−</mo><mi>y</mi><mo>+</mo><mn>2</mn><mi>z</mi><mo>−</mo><mn>3</mn><mi>t</mi><mo>=</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>−</mo><mi>z</mi><mo>+</mo><mn>3</mn><mi>t</mi><mo>=</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>2</mn><mi>y</mi><mo>−</mo><mn>3</mn><mi>z</mi><mo>+</mo><mn>6</mn><mi>t</mi><mo>=</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>2</mn><mi>x</mi><mo>+</mo><mi>z</mi><mo>=</mo><mn>1</mn></mtd></mtr></mtable></mrow></math>."
+       "html": "<strong>(b)</strong>  <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>−</mo><mi>y</mi><mo>+</mo><mn>2</mn><mi>z</mi><mo>−</mo><mn>3</mn><mi>t</mi><mo>=</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>−</mo><mi>z</mi><mo>+</mo><mn>3</mn><mi>t</mi><mo>=</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>2</mn><mi>y</mi><mo>−</mo><mn>3</mn><mi>z</mi><mo>+</mo><mn>6</mn><mi>t</mi><mo>=</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>2</mn><mi>x</mi><mo>+</mo><mi>z</mi><mo>=</mo><mn>1</mn></mtd></mtr></mtable></mrow></math>."
       }
      ]
     },
@@ -12890,7 +12814,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(a)</em>"
+     "html": "<strong>(a)</strong>"
     },
     {
      "mota": "testua",
@@ -12898,7 +12822,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(b)</em>"
+     "html": "<strong>(b)</strong>"
     },
     {
      "mota": "testua",
@@ -12915,7 +12839,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -12923,7 +12847,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -12937,7 +12861,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(a)</em>"
+     "html": "<strong>(a)</strong>"
     },
     {
      "mota": "testua",
@@ -12953,7 +12877,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(b)</em>"
+     "html": "<strong>(b)</strong>"
     },
     {
      "mota": "testua",
@@ -12974,7 +12898,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -12982,7 +12906,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -12996,7 +12920,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(a)</em>"
+     "html": "<strong>(a)</strong>"
     },
     {
      "mota": "testua",
@@ -13027,7 +12951,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>(b)</em>"
+     "html": "<strong>(b)</strong>"
     },
     {
      "mota": "testua",
@@ -13261,7 +13185,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -13269,7 +13193,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -13277,7 +13201,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(c)</em>"
+       "html": "<strong>(c)</strong>"
       },
       {
        "mota": "testua",
@@ -13285,7 +13209,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(d)</em>"
+       "html": "<strong>(d)</strong>"
       },
       {
        "mota": "testua",
@@ -13304,15 +13228,11 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": " "
+       "html": "<strong>(a)</strong>  <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>m</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>p</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>n</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>q</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></math>;  "
       },
       {
        "mota": "testua",
-       "html": "<em>(a)</em>  <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>m</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>p</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>n</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>q</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></math>;  "
-      },
-      {
-       "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -13320,7 +13240,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(c)</em>"
+       "html": "<strong>(c)</strong>"
       },
       {
        "mota": "testua",
@@ -13328,7 +13248,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(d)</em>"
+       "html": "<strong>(d)</strong>"
       },
       {
        "mota": "testua",
@@ -13336,7 +13256,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(e)</em>"
+       "html": "<strong>(e)</strong>"
       },
       {
        "mota": "testua",
@@ -13631,7 +13551,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -13639,7 +13559,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -13658,7 +13578,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -13666,7 +13586,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -13739,7 +13659,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -13747,7 +13667,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -13782,7 +13702,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -13790,7 +13710,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -13802,11 +13722,11 @@ KAPITULUAK["01ma_02matrizeak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "<em>(a)</em>"
+         "html": "<strong>(a)</strong>"
         },
         {
          "mota": "testua",
-         "html": "Hay dos líneas proporcionales. <em>(b)</em> Suma las líneas 3.ª y 2.ª."
+         "html": "Hay dos filas proporcionales.<br><strong>(b)</strong> Sume las filas 3 y 2."
         }
        ]
       }
@@ -13819,19 +13739,15 @@ KAPITULUAK["01ma_02matrizeak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Demuestra que <em>(a)</em> el determinante es múltiplo de <math display=\"inline\"><mn>3</mn></math> y <em>(b)</em> de <math display=\"inline\"><mn>5</mn></math>:"
+       "html": "Demuestre<br><strong>(a)</strong> que el determinante es múltiplo de <math display=\"inline\"><mn>3</mn></math> y<br><strong>(b)</strong>  que es múltiplo de <math display=\"inline\"><mn>5</mn></math>:"
       },
       {
        "mota": "testua",
-       "html": " "
+       "html": "<strong>(a)</strong>  <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>4</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>7</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>8</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>5</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></math>;  "
       },
       {
        "mota": "testua",
-       "html": "<em>(a)</em>  <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>4</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>7</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>8</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>5</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></math>;  "
-      },
-      {
-       "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -13857,10 +13773,6 @@ KAPITULUAK["01ma_02matrizeak"] = {
       {
        "mota": "testua",
        "html": "<math display=\"inline\"><mi>a</mi></math>-ren zein baliorekin anulatzen da determinante hau?"
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",
@@ -13941,10 +13853,6 @@ KAPITULUAK["01ma_02matrizeak"] = {
       {
        "mota": "testua",
        "html": "Di cuál debe ser el valor de <math display=\"inline\"><mi>a</mi></math> para que este sistema sea compatible:"
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",
@@ -14135,7 +14043,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>x</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>x</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>  izanda:    <em>(a)</em> calcular <math display=\"inline\"><mi>x</mi></math>-en zein baliorekin duen inversoa <math display=\"inline\"><mi>A</mi></math>-k;    <em>(b)</em> calcular, posible bada, <math display=\"inline\"><msup><mi>A</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></math>  <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math> kasuan."
+       "html": "Siendo <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>x</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>3</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>x</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>:   <br><strong>(a)</strong> calcule para qué valores de <math display=\"inline\"><mi>x</mi></math> tiene <math display=\"inline\"><mi>A</mi></math> inversa;   <br><strong>(b)</strong> calcule, si es posible, <math display=\"inline\"><msup><mi>A</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></math> en el caso <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>."
       }
      ]
     },
@@ -14656,10 +14564,6 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": " "
-      },
-      {
-       "mota": "testua",
        "html": "<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>⋅</mo><mi>B</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>B</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
       }
      ]
@@ -14686,7 +14590,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -14694,7 +14598,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -14713,7 +14617,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -14721,7 +14625,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",
@@ -14729,7 +14633,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(c)</em>"
+       "html": "<strong>(c)</strong>"
       },
       {
        "mota": "testua",
@@ -14789,10 +14693,6 @@ KAPITULUAK["01ma_02matrizeak"] = {
       {
        "mota": "testua",
        "html": "Badago ondoko matrices inversorik izango ez duen <math display=\"inline\"><mi>a</mi></math>-ren baliorik:"
-      },
-      {
-       "mota": "testua",
-       "html": " "
       },
       {
        "mota": "testua",
@@ -14870,7 +14770,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<em>(a)</em>"
+       "html": "<strong>(a)</strong>"
       },
       {
        "mota": "testua",
@@ -14887,7 +14787,7 @@ KAPITULUAK["01ma_02matrizeak"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>(b)</em>"
+       "html": "<strong>(b)</strong>"
       },
       {
        "mota": "testua",

@@ -47,7 +47,7 @@ KAPITULUAK["03mm_01edo"] = {
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/edf_eus",
+   "proiektua": "edf_eus",
    "xehetasuna": "1.–4. kapituluak",
    "hizkuntza": "eu"
   }
@@ -1472,10 +1472,6 @@ KAPITULUAK["03mm_01edo"] = {
     {
      "mota": "testua",
      "html": "hau da, <strong>ekuazio banangarriak</strong>."
-    },
-    {
-     "mota": "testua",
-     "html": ".update(0)"
     }
    ]
   },
@@ -1986,19 +1982,19 @@ KAPITULUAK["03mm_01edo"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/CNmetodosx/",
+     "proiektua": "CNmetodosx",
      "xehetasuna": "CNmetodosx — METODOS MATEMATICOS errotulua, 1.-47., 50.-53., 60.-61., 66.-69. eta 82. orrialdeak (30 zatiki): EDOen eskuzko iturriaren edizio kritikoa, hitzez hitz, lau geruzatan; 2026-08-04an standalonez egiaztatua",
      "hizkuntza": "eu/es"
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/CNmetodosx/",
+     "proiektua": "CNmetodosx",
      "xehetasuna": "CNmetodosx — METODO MATEMATIKOAK errotulua, 48.-49., 54.-59., 62.-65., 70.-75., 78.-81. eta 83.-95. orrialdeak (18 zatiki; 88.-89. orrialdeetan errotulua ez da berriro ikusten): EDOen edizio kritiko literala eta egiaztapen matematikoa",
      "hizkuntza": "eu/es"
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/CNmetodosx/IMG_2026_07_30_02_20_28S.jpg",
+     "proiektua": "IMG_2026_07_30_02_20_28S.jpg",
      "xehetasuna": "CNmetodosx, 76.-77. orrialdeak (zatiki 1): METODO MATEMATIKOAK / METODOS MATEMATICOS errotulu mistoa bere horretan gordea; EDO linealen edizio kritiko literala",
      "hizkuntza": "eu/es"
     },
@@ -2255,10 +2251,6 @@ KAPITULUAK["03mm_01edo"] = {
        "html": ". Ikus <code>koadernoa_metodo_n_p048.typ</code>."
       }
      ]
-    },
-    {
-     "mota": "testua",
-     "html": ".update(1)"
     }
    ]
   },
@@ -3700,10 +3692,6 @@ KAPITULUAK["03mm_01edo"] = {
        "html": "Ekuazio homogeneoek eskala-aldaezintasun bat dute <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>→</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>,</mo><mi>a</mi><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eraldaketen aurrean. Orokortze bat ekuazio isobarikoek ematen dute, zeinak <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>→</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>,</mo><msup><mi>a</mi><mi>λ</mi></msup><mi>y</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> motako aldaketen aurrean aldaezinak baitira <math display=\"inline\"><mi>λ</mi></math>-ren balioren baterako; hau da, <math display=\"inline\"><mrow><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>+</mo><mi>Q</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> motako ekuazioak dira"
       },
       {
-       "mota": "testua",
-       "html": ".update(125)"
-      },
-      {
        "mota": "ezezaguna",
        "izena": "zenb-ekuazioa"
       },
@@ -3985,10 +3973,6 @@ KAPITULUAK["03mm_01edo"] = {
       {
        "mota": "testua",
        "html": "Eredu kosmologiko estandarrean Robertson-Walker unibertsoaren <math display=\"inline\"><mi>R</mi></math> eskala-faktorea Friedmann-en ekuazioaren arabera bilakatzen da:"
-      },
-      {
-       "mota": "testua",
-       "html": ".update(126)"
       },
       {
        "mota": "ezezaguna",
@@ -6527,7 +6511,7 @@ KAPITULUAK["03mm_01edo"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 89. unitatea (METMATCG01_0089, IMG_2025_07_12_12_18_44S.jpg; 07_12 argazki-saioaren hasiera): metodoen laburpen-orri MANUSKRITOA — lehen ordenako EDOen ebazpide-zuhaitza (zehatza->banangarria->lineala->homogeneoa->murrizgarria->Bernoulli->Riccati) forma kanonikoekin, adibide-ekuazioa lau forma baliokidetan (y'=-x y-y^2, Bernoulli n=2 / Riccati c=0) eta graduen taula (homogeneotasunerako). SymPy-z egiaztatua (lau formak baliokideak; A'=-1/(2cos^2 x)->A=-tan x/2). Konfiantza altua",
      "hizkuntza": "es/eu"
     },
@@ -6678,7 +6662,7 @@ KAPITULUAK["03mm_01edo"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 158. unitatea (METMATCG01_0158, IMG_2025_07_12_12_34_18S.jpg): EDOen metodo-laburpen manuskribatua. y''=y y' ordena-murrizketa p(y)=y' bidez; Riccati, Bernoulli, homogeneora murrizgarria, zehatza, lineala, homogeneoa eta banagarria. Adibideak: 2y dx+2x dy=0, y'+xy=x, 2x^2 dx+xy dy=0 eta y'=xy. Bi errata esplizituki zuzenduak: arctan-integralaren faktorea 1/(k sqrt(2k)) -> sqrt(2/k), eta u'+u=-2/u -> x u'+u=-2/u. SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "es/eu"
     },

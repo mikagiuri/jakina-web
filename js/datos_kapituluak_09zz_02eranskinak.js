@@ -35,7 +35,7 @@ KAPITULUAK["09zz_02eranskinak"] = {
   },
   {
    "mota": "iturria",
-   "proiektua": "fullmekanika/eranskinak/A_datu_taulak.typ",
+   "proiektua": "A_datu_taulak.typ",
    "xehetasuna": "konstante fisikoak, partikulak, astronomia-unitateak, inertzia-momentuak eta taulak",
    "hizkuntza": "eu"
   }
@@ -172,7 +172,7 @@ KAPITULUAK["09zz_02eranskinak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "_historico/espazio-ontzia/06_metodos_matematicos/met mat/CG-01/ (bukaerako txuletak)",
+     "proiektua": " (bukaerako txuletak)",
      "xehetasuna": "Metodoen txuleta (Laplace + Fourier), Joserra Egañaren orrietatik birlandua — kalkuluko formulario_egana-ren egile bera, aurrekari transkribatua",
      "hizkuntza": "eu"
     }

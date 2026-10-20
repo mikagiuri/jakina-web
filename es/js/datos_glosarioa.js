@@ -1523,5 +1523,989 @@ const GLOSARIOA = [
   ],
   "kapitulua": "01mc_02funtzioak",
   "atala": "a57"
+ },
+ {
+  "t": "Partición",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Una partición del intervalo <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> es un conjunto finito de puntos ordenados: <math display=\"block\"><mrow><mi>p</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>a</mi><mo>=</mo><msub><mi>x</mi><mn>0</mn></msub><mo>&lt;</mo><msub><mi>x</mi><mn>1</mn></msub><mo>&lt;</mo><mi>…</mi><mo>&lt;</mo><msub><mi>x</mi><mi>n</mi></msub><mo>=</mo><mi>b</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mi>.</mi></mrow></math> Si la partición <math display=\"inline\"><mi>q</mi></math> contiene todos los puntos de <math display=\"inline\"><mi>p</mi></math>, <math display=\"inline\"><mi>q</mi></math> es un <strong>refinamiento</strong> de <math display=\"inline\"><mi>p</mi></math>."
+   }
+  ],
+  "kapitulua": "01mc_03integralak",
+  "atala": "a2"
+ },
+ {
+  "t": "Integrales de Darboux",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Sea <math display=\"inline\"><mrow><mi>P</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> el conjunto de todas las particiones; <math display=\"block\"><mrow><msub><mi>I</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><mrow><mi mathvariant=\"normal\">sup</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>s</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>p</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>:</mo><mi>p</mi><mo>∈</mo><mi>P</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><msup><mi>I</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo>=</mo><mrow><mi mathvariant=\"normal\">inf</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>S</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>p</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>:</mo><mi>p</mi><mo>∈</mo><mi>P</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mi>.</mi></mrow></math> <math display=\"inline\"><mi>f</mi></math> es integrable en el sentido de Riemann cuando <math display=\"inline\"><mrow><msub><mi>I</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><msup><mi>I</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></mrow></math>; ese valor común es <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>."
+   }
+  ],
+  "kapitulua": "01mc_03integralak",
+  "atala": "a2"
+ },
+ {
+  "t": "Sumas inferior y superior",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "La <strong>suma inferior</strong> y la <strong>suma superior</strong> de <math display=\"inline\"><mi>f</mi></math> respecto de la partición <math display=\"inline\"><mi>P</mi></math> son, respectivamente:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>L</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msub><mi>m</mi><mi>i</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi mathvariant=\"normal\">Δ</mi><msub><mi>t</mi><mi>i</mi></msub><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msub><mi>M</mi><mi>i</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi mathvariant=\"normal\">Δ</mi><msub><mi>t</mi><mi>i</mi></msub><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Siempre <math display=\"inline\"><mrow><mi>L</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, porque en cada subintervalo <math display=\"inline\"><mrow><msub><mi>m</mi><mi>i</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><msub><mi>M</mi><mi>i</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+   }
+  ],
+  "kapitulua": "01mc_03integralak",
+  "atala": "a2"
+ },
+ {
+  "t": "Integral inferior, integral superior de Darboux e integrabilidad",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Sobre todas las particiones definamos"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>I</mi><mrow><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><munder><mi mathvariant=\"normal\">sup</mi><mi>P</mi></munder><mi>L</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>I</mi><mo>+</mo></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><munder><mi mathvariant=\"normal\">inf</mi><mi>P</mi></munder><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "El teorema 1 garantiza <math display=\"inline\"><mrow><msub><mi>I</mi><mrow><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>≤</mo><msub><mi>I</mi><mo>+</mo></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Cuando los dos números son iguales, decimos que <math display=\"inline\"><mi>f</mi></math> es <strong>integrable según Riemann</strong>, y el valor común"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "lo escribimos así. En los ejemplos anteriores, la integral de la constante es <math display=\"inline\"><mrow><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo>−</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>; la función de Dirichlet, en cambio, no tiene integral con esta definición."
+   }
+  ],
+  "kapitulua": "01mc_03integralak",
+  "atala": "a2"
+ },
+ {
+  "t": "Logaritmo neperiano",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Para todo <math display=\"inline\"><mrow><mi>x</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>≔</mo><msubsup><mo>∫</mo><mn>1</mn><mi>x</mi></msubsup><mfrac><mn>1</mn><mi>t</mi></mfrac><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01mc_03integralak",
+  "atala": "a2"
+ },
+ {
+  "t": "La exponencial",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">exp</mi><mo>&#8289;</mo></mrow><mo>≔</mo><msup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mi>−</mi><mn>1</mn></mrow></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> hots </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"1.0em\"></mspace><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>y</mi><mo>⇔</mo><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">exp</mi><mo>&#8289;</mo></mrow><mi>y</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01mc_03integralak",
+  "atala": "a2"
+ },
+ {
+  "t": "Exponencial general",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msup><mi>a</mi><mi>x</mi></msup><mo>≔</mo><msup><mi>e</mi><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>a</mi></mrow></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>a</mi><mo>&gt;</mo><mn>0</mn><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01mc_03integralak",
+  "atala": "a2"
+ },
+ {
+  "t": "Integral sobre un intervalo no acotado",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Para definir la integral <math display=\"block\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>∞</mi></msubsup><mi>f</mi><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></munder><msubsup><mo>∫</mo><mi>a</mi><mi>t</mi></msubsup><mi>f</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><msubsup><mo>∫</mo><mrow><mi>−</mi><mi>∞</mi></mrow><mi>b</mi></msubsup><mi>f</mi><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>t</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></munder><msubsup><mo>∫</mo><mi>t</mi><mi>b</mi></msubsup><mi>f</mi><mi>.</mi></mrow></math> <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mi>∞</mi></mrow><mi>∞</mi></msubsup><mi>f</mi></mrow></math> las dos colas deben converger por separado; en general no se puede sustituir por <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></munder><msubsup><mo>∫</mo><mrow><mi>−</mi><mi>t</mi></mrow><mi>t</mi></msubsup><mi>f</mi></mrow></math>."
+   }
+  ],
+  "kapitulua": "01mc_03integralak",
+  "atala": "a5"
+ },
+ {
+  "t": "Singularidad en un extremo",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Si <math display=\"inline\"><mi>f</mi></math> es integrable en todos los <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>+</mo><mi>ε</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>, <math display=\"inline\"><mrow><mi>ε</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, pero no está acotada en el punto <math display=\"inline\"><mi>a</mi></math>, entonces <math display=\"block\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>≔</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>t</mi><mo>→</mo><msup><mi>a</mi><mo>+</mo></msup></mrow></munder><msubsup><mo>∫</mo><mi>t</mi><mi>b</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mi>.</mi></mrow></math> De forma análoga, si la singularidad está en <math display=\"inline\"><mi>b</mi></math>, <math display=\"block\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>≔</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>t</mi><mo>→</mo><msup><mi>b</mi><mo>−</mo></msup></mrow></munder><msubsup><mo>∫</mo><mi>a</mi><mi>t</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>."
+   }
+  ],
+  "kapitulua": "01mc_03integralak",
+  "atala": "a5"
+ },
+ {
+  "t": "Campo de convergencia",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Para una sucesión de funciones <math display=\"inline\"><mrow><msub><mi>f</mi><mi>n</mi></msub><mo>:</mo><mi>I</mi><mo>→</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math>, <math display=\"block\"><mrow><mi>D</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>x</mi><mo>∈</mo><mi>I</mi><mo>:</mo><mo>∃</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><msub><mi>f</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∈</mo><mi mathvariant=\"double-struck\">ℝ</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> es el <strong>campo de convergencia</strong>. Si <math display=\"inline\"><mrow><mi>x</mi><mo>∈</mo><mi>D</mi></mrow></math>, se define <math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≔</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><msub><mi>f</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+   }
+  ],
+  "kapitulua": "01mc_04funtzioserieak",
+  "atala": "a2"
+ },
+ {
+  "t": "Convergencia puntual",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msub><mi>f</mi><mi>n</mi></msub><mo>→</mo><mi>f</mi></mrow></math> puntualmente en <math display=\"inline\"><mi>D</mi></math> si y solo si <math display=\"block\"><mrow><mo>∀</mo><mi>x</mi><mo>∈</mo><mi>D</mi><mo>,</mo><mo>∀</mo><mi>ε</mi><mo>&gt;</mo><mn>0</mn><mo>,</mo><mo>∃</mo><msub><mi>n</mi><mn>0</mn></msub><mo>=</mo><msub><mi>n</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mo>,</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>:</mo><mo>∀</mo><mi>n</mi><mo>≥</mo><msub><mi>n</mi><mn>0</mn></msub><mo>,</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>f</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&lt;</mo><mi>ε</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01mc_04funtzioserieak",
+  "atala": "a2"
+ },
+ {
+  "t": "Convergencia uniforme",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msub><mi>f</mi><mi>n</mi></msub><mo>→</mo><mi>f</mi></mrow></math> uniformemente en <math display=\"inline\"><mi>D</mi></math> si y solo si <math display=\"block\"><mrow><mo>∀</mo><mi>ε</mi><mo>&gt;</mo><mn>0</mn><mo>,</mo><mo>∃</mo><msub><mi>n</mi><mn>0</mn></msub><mo>=</mo><msub><mi>n</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>:</mo><mo>∀</mo><mi>x</mi><mo>∈</mo><mi>D</mi><mo>,</mo><mo>∀</mo><mi>n</mi><mo>≥</mo><msub><mi>n</mi><mn>0</mn></msub><mo>,</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>f</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&lt;</mo><mi>ε</mi><mi>.</mi></mrow></math> El índice puede depender de <math display=\"inline\"><mi>ε</mi></math>, pero no de <math display=\"inline\"><mi>x</mi></math>."
+   }
+  ],
+  "kapitulua": "01mc_04funtzioserieak",
+  "atala": "a2"
+ },
+ {
+  "t": "Los dos tipos de convergencia",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msub><mi>f</mi><mi>n</mi></msub><mo>→</mo><mi>f</mi></mrow></math> puntualmente en <math display=\"inline\"><mi>D</mi></math> si y solo si <math display=\"inline\"><mrow><mo>∀</mo><mi>x</mi><mo>∈</mo><mi>D</mi><mo>,</mo><mo>∀</mo><mi>ε</mi><mo>&gt;</mo><mn>0</mn><mo>,</mo><mo>∃</mo><msub><mi>n</mi><mn>0</mn></msub><mo>=</mo><msub><mi>n</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>ε</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> donde, cuando <math display=\"inline\"><mrow><mi>n</mi><mo>≥</mo><msub><mi>n</mi><mn>0</mn></msub></mrow></math>, <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>f</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&lt;</mo><mi>ε</mi></mrow></math>."
+   },
+   {
+    "mota": "testua",
+    "html": "La convergencia es <strong>uniforme</strong> si el mismo <math display=\"inline\"><mrow><msub><mi>n</mi><mn>0</mn></msub><mo>=</mo><msub><mi>n</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puede usarse para todos los puntos <math display=\"inline\"><mrow><mi>x</mi><mo>∈</mo><mi>D</mi></mrow></math>. Equivalentemente, <math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">∥</mo><msub><mi>f</mi><mi>n</mi></msub><mo>−</mo><mi>f</mi><mo stretchy=\"true\" form=\"postfix\">∥</mo></mrow><mi>∞</mi></msub><mo>→</mo><mn>0</mn></mrow></math>."
+   }
+  ],
+  "kapitulua": "01mc_04funtzioserieak",
+  "atala": "a2"
+ },
+ {
+  "t": "Convergencia de una serie de funciones",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Siendo <math display=\"inline\"><mrow><msub><mi>f</mi><mi>n</mi></msub><mo>:</mo><mi>I</mi><mo>→</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math>, las sumas parciales de la serie <math display=\"inline\"><mrow><msubsup><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mi>∞</mi></msubsup><msub><mi>f</mi><mi>n</mi></msub></mrow></math> son <math display=\"inline\"><mrow><msub><mi>S</mi><mi>N</mi></msub><mo>=</mo><msub><mi>f</mi><mn>1</mn></msub><mo>+</mo><mi>…</mi><mo>+</mo><msub><mi>f</mi><mi>N</mi></msub></mrow></math>. La serie converge puntualmente en el conjunto <math display=\"inline\"><mrow><mi>D</mi><mo>⊂</mo><mi>I</mi></mrow></math> cuando <math display=\"inline\"><mrow><msub><mi>S</mi><mi>N</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> tiene límite finito para todo <math display=\"inline\"><mrow><mi>x</mi><mo>∈</mo><mi>D</mi></mrow></math>."
+   }
+  ],
+  "kapitulua": "01mc_04funtzioserieak",
+  "atala": "a3"
+ },
+ {
+  "t": "Convergencia puntual",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "La serie de funciones <math display=\"inline\"><mrow><msubsup><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mi>∞</mi></msubsup><msub><mi>f</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> converge <strong>puntualmente</strong> a <math display=\"inline\"><mrow><mi>S</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> en <math display=\"inline\"><mi>D</mi></math> si la sucesión de sumas parciales <math display=\"inline\"><mrow><msub><mi>S</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> converge a <math display=\"inline\"><mrow><mi>S</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, es decir <math display=\"block\"><mrow><mo>∀</mo><mi>x</mi><mo>∈</mo><mi>D</mi><mo>:</mo><mspace width=\"1.0em\"></mspace><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><msub><mi>S</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>S</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01mc_04funtzioserieak",
+  "atala": "a3"
+ },
+ {
+  "t": "Convergencia uniforme",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mo>∑</mo><msub><mi>f</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> converge <strong>uniformemente</strong> a <math display=\"inline\"><mrow><mi>S</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> en <math display=\"inline\"><mi>D</mi></math>, si para todo <math display=\"inline\"><mrow><mo>∀</mo><mi>ε</mi><mo>&gt;</mo><mn>0</mn></mrow></math> existe <math display=\"inline\"><msub><mi>n</mi><mn>0</mn></msub></math> (el mismo para todo <math display=\"inline\"><mi>x</mi></math>) tal que <math display=\"inline\"><mrow><mo>∀</mo><mi>n</mi><mo>≥</mo><msub><mi>n</mi><mn>0</mn></msub></mrow></math> y <math display=\"inline\"><mrow><mo>∀</mo><mi>x</mi><mo>∈</mo><mi>D</mi></mrow></math>: <math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi>S</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msub><mi>S</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mo accent=\"false\">∞</mo></munderover><msub><mi>f</mi><mi>k</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&lt;</mo><mi>ε</mi><mi>.</mi></mrow></math> El resto es la cola de la serie: <math display=\"inline\"><mrow><mi>S</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msub><mi>S</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mi>∞</mi></msubsup><msub><mi>f</mi><mi>k</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+   }
+  ],
+  "kapitulua": "01mc_04funtzioserieak",
+  "atala": "a3"
+ },
+ {
+  "t": "dominios o regiones elementales",
+  "blokeak": [
+   {
+    "mota": "zerrenda",
+    "ordenatua": true,
+    "elementuak": [
+     "Sean <math display=\"inline\"><mrow><msub><mi>ϕ</mi><mn>1</mn></msub><mo>,</mo><msub><mi>ϕ</mi><mn>2</mn></msub><mo>:</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>→</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math> funciones continuas y supongamos que <math display=\"inline\"><mrow><msub><mi>ϕ</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><msub><mi>ϕ</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> para todo <math display=\"inline\"><mrow><mi>x</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>. Entonces decimos que <math display=\"block\"><mrow><mi>D</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∈</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>2</mn></msup><mo>:</mo><mi>x</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>ϕ</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><mi>y</mi><mo>≤</mo><msub><mi>ϕ</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> es una <strong>región de tipo 1</strong>.",
+     "Sean <math display=\"inline\"><mrow><msub><mi>ψ</mi><mn>1</mn></msub><mo>,</mo><msub><mi>ψ</mi><mn>2</mn></msub><mo>:</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>c</mi><mo>,</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>→</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math> funciones continuas, siendo <math display=\"inline\"><mrow><msub><mi>ψ</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><msub><mi>ψ</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> para todo <math display=\"inline\"><mrow><mi>y</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>c</mi><mo>,</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>. Se dice que <math display=\"block\"><mrow><mi>D</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∈</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>2</mn></msup><mo>:</mo><mi>y</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>c</mi><mo>,</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>ψ</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><mi>x</mi><mo>≤</mo><msub><mi>ψ</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> es una <strong>región de tipo 2</strong>.",
+     "Decimos que <math display=\"inline\"><mrow><mi>D</mi><mo>⊂</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>2</mn></msup></mrow></math> es una <strong>región de tipo 3</strong> si es de tipo (i) y (ii)."
+    ]
+   }
+  ],
+  "kapitulua": "01mc_05bektoriala",
+  "atala": "a58"
+ },
+ {
+  "t": "regiones elementales",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Sea <math display=\"inline\"><mrow><mi>W</mi><mo>⊂</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>3</mn></msup></mrow></math> acotado."
+   },
+   {
+    "mota": "zerrenda",
+    "ordenatua": true,
+    "elementuak": [
+     "Decimos que <math display=\"inline\"><mi>W</mi></math> es una <strong>región elemental de tipo I</strong> si existen una región elemental <math display=\"inline\"><mrow><mi>D</mi><mo>⊂</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>2</mn></msup></mrow></math> y funciones continuas <math display=\"inline\"><mrow><msub><mi>γ</mi><mn>1</mn></msub><mo>,</mo><msub><mi>γ</mi><mn>2</mn></msub><mo>:</mo><mi>D</mi><mo>→</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math> tales que <math display=\"block\"><mrow><mi>W</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∈</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>3</mn></msup><mo>:</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∈</mo><mi>D</mi><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>γ</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><mi>z</mi><mo>≤</mo><msub><mi>γ</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mi>.</mi></mrow></math>",
+     "Decimos que <math display=\"inline\"><mi>W</mi></math> es una <strong>región elemental de tipo II</strong> si existen una región elemental <math display=\"inline\"><mrow><mi>D</mi><mo>⊂</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>2</mn></msup></mrow></math> y funciones continuas <math display=\"inline\"><mrow><msub><mi>γ</mi><mn>1</mn></msub><mo>,</mo><msub><mi>γ</mi><mn>2</mn></msub><mo>:</mo><mi>D</mi><mo>→</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math> tales que <math display=\"block\"><mrow><mi>W</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∈</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>3</mn></msup><mo>:</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∈</mo><mi>D</mi><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>γ</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><mi>x</mi><mo>≤</mo><msub><mi>γ</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mi>.</mi></mrow></math>",
+     "Decimos que <math display=\"inline\"><mi>W</mi></math> es una <strong>región elemental de tipo III</strong> si existen una región elemental <math display=\"inline\"><mrow><mi>D</mi><mo>⊂</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>2</mn></msup></mrow></math> y funciones continuas <math display=\"inline\"><mrow><msub><mi>γ</mi><mn>1</mn></msub><mo>,</mo><msub><mi>γ</mi><mn>2</mn></msub><mo>:</mo><mi>D</mi><mo>→</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math> tales que <math display=\"block\"><mrow><mi>W</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∈</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>3</mn></msup><mo>:</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∈</mo><mi>D</mi><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>γ</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><mi>y</mi><mo>≤</mo><msub><mi>γ</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mi>.</mi></mrow></math>",
+     "Decimos que <math display=\"inline\"><mi>W</mi></math> es una <strong>región elemental de tipo IV</strong> si es de tipo I, II y III."
+    ]
+   }
+  ],
+  "kapitulua": "01mc_05bektoriala",
+  "atala": "a64"
+ },
+ {
+  "t": "Fórmula de Euler",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Para todo <math display=\"inline\"><mrow><mi>θ</mi><mo>∈</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math>, <math display=\"block\"><mrow><msup><mi>e</mi><mrow><mi>i</mi><mi>θ</mi></mrow></msup><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>+</mo><mi>i</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01mz_01konplexuak",
+  "atala": "a3"
+ },
+ {
+  "t": "Ecuación diferencial (ED)",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Ecuación en la que una función y sus derivadas aparecen relacionadas entre sí."
+   }
+  ],
+  "kapitulua": "03mm_01edo",
+  "atala": "a29"
+ },
+ {
+  "t": "Orden de una ecuación",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "La <strong>derivada más alta</strong> de la función que aparece."
+   }
+  ],
+  "kapitulua": "03mm_01edo",
+  "atala": "a29"
+ },
+ {
+  "t": "EDO lineal",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>a</mi><mrow><mi>n</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><msup><mi>y</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo>+</mo><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo>+</mo><mi>⋯</mi><mo>+</mo><msub><mi>a</mi><mn>0</mn></msub><mi>y</mi><mo>=</mo><mi>b</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_01edo",
+  "atala": "a29"
+ },
+ {
+  "t": "Variables separables",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>M</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msub><mi>N</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>+</mo><msub><mi>M</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msub><mi>N</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>y</mi><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mo>∫</mo><mfrac><mrow><msub><mi>M</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>−</mi><msub><mi>M</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mo>∫</mo><mfrac><mrow><msub><mi>N</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><msub><mi>N</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>d</mi><mi>y</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_01edo",
+  "atala": "a47"
+ },
+ {
+  "t": "Función homogénea (de grado n)",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>λ</mi><mi>x</mi><mo>,</mo><mi>λ</mi><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>λ</mi><mi>n</mi></msup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_01edo",
+  "atala": "a47"
+ },
+ {
+  "t": "Factor integrante",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Función que convierte la forma no exacta <math display=\"inline\"><mrow><mi>P</mi><mi>d</mi><mi>x</mi><mo>+</mo><mi>Q</mi><mi>d</mi><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> en forma exacta al multiplicarla por <math display=\"inline\"><mrow><mi>μ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_01edo",
+  "atala": "a47"
+ },
+ {
+  "t": "Ecuación de Bernoulli",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>=</mo><mi>B</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mi>n</mi></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>n</mi><mo>≠</mo><mn>0</mn><mo>,</mo><mn>1</mn><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_01edo",
+  "atala": "a47"
+ },
+ {
+  "t": "Ecuación de Riccati",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>+</mo><mi>B</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mi>C</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>B</mi><mo>,</mo><mi>C</mi><mo>≠</mo><mn>0</mn><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_01edo",
+  "atala": "a47"
+ },
+ {
+  "t": "EDO lineal (orden <math display=\"inline\"><mi>n</mi></math>)",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msup><mi>x</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo>+</mo><msub><mi>a</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>x</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo>+</mo><mi>⋯</mi><mo>+</mo><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>x</mi><mo>′</mo></msup><mo>+</mo><msub><mi>a</mi><mrow><mi>n</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mi>x</mi><mo>=</mo><mi>b</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math> <math display=\"inline\"><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>,</mo><mi>b</mi><mo>:</mo><mi>I</mi><mo>→</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math> continuas. <math display=\"inline\"><mrow><mi>b</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>: <strong>homogénea</strong>; <math display=\"inline\"><mrow><mi>b</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≠</mo><mn>0</mn></mrow></math>: <strong>completa</strong>."
+   }
+  ],
+  "kapitulua": "03mm_01goiordena",
+  "atala": "a16"
+ },
+ {
+  "t": "Linealmente independientes",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Las soluciones <math display=\"inline\"><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mi>⋯</mi><mo>,</mo><msub><mi>x</mi><mi>n</mi></msub></mrow></math> de la homogénea son <strong>l.i.</strong> si <math display=\"inline\"><mrow><msub><mi>C</mi><mn>1</mn></msub><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mi>⋯</mi><mo>+</mo><msub><mi>C</mi><mi>n</mi></msub><msub><mi>x</mi><mi>n</mi></msub><mo>=</mo><mn>0</mn></mrow></math> implica <math display=\"inline\"><mrow><msub><mi>C</mi><mi>i</mi></msub><mo>=</mo><mn>0</mn></mrow></math> (<math display=\"inline\"><mrow><mo>∀</mo><mi>i</mi></mrow></math>)."
+   }
+  ],
+  "kapitulua": "03mm_01goiordena",
+  "atala": "a16"
+ },
+ {
+  "t": "Wronskiano",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>W</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mi>⋯</mi><mo>,</mo><msub><mi>x</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>x</mi><mn>1</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>x</mi><mn>2</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋯</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>x</mi><mi>n</mi></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msubsup><mi>x</mi><mn>1</mn><mo>′</mo></msubsup></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋯</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msubsup><mi>x</mi><mi>n</mi><mo>′</mo></msubsup></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋮</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋮</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋮</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msubsup><mi>x</mi><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msubsup></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msubsup><mi>x</mi><mn>2</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msubsup></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋯</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msubsup><mi>x</mi><mi>n</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msubsup></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_01goiordena",
+  "atala": "a16"
+ },
+ {
+  "t": "Funciones linealmente independientes",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Las funciones <math display=\"inline\"><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>y</mi><mi>n</mi></msub></mrow></math> son linealmente independientes en el intervalo <math display=\"inline\"><mi>I</mi></math> si la identidad <math display=\"inline\"><mrow><msubsup><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></msubsup><msub><mi>C</mi><mi>k</mi></msub><msub><mi>y</mi><mrow><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><mn>0</mn></mrow></math> solo admite <math display=\"inline\"><mrow><msub><mi>C</mi><mn>1</mn></msub><mo>=</mo><mi>…</mi><mo>=</mo><msub><mi>C</mi><mi>n</mi></msub><mo>=</mo><mn>0</mn></mrow></math>. [CORREGIDO: el límite superior de la suma en el papel es <math display=\"inline\"><mi>∞</mi></math>, aunque la familia se define como <math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mn>1</mn><mo>,</mo><mi>…</mi><mo>,</mo><mi>n</mi></mrow></math>; para esta familia finita el límite superior es <math display=\"inline\"><mi>n</mi></math>.]"
+   }
+  ],
+  "kapitulua": "03mm_01goiordena",
+  "atala": "a16"
+ },
+ {
+  "t": "Wronskiano",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>W</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><msub><mi>y</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>y</mi><mi>k</mi></msub><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>y</mi><mn>1</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>y</mi><mn>2</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>…</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>y</mi><mi>k</mi></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>y</mi><msup><mn>1</mn><mo>′</mo></msup></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>y</mi><msup><mn>2</mn><mo>′</mo></msup></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>…</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>y</mi><msup><mi>k</mi><mo>′</mo></msup></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋮</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋮</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mo>⋱</mo></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋮</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msubsup><mi>y</mi><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msubsup></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msubsup><mi>y</mi><mn>2</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msubsup></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>…</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msubsup><mi>y</mi><mi>k</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msubsup></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_01goiordena",
+  "atala": "a16"
+ },
+ {
+  "t": "Función analítica",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>f</mi></math> es analítica en <math display=\"inline\"><msub><mi>x</mi><mn>0</mn></msub></math> si su serie de Taylor existe en un entorno de <math display=\"inline\"><msub><mi>x</mi><mn>0</mn></msub></math> y converge a <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>: <math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mo accent=\"false\">∞</mo></munderover><mfrac><mrow><msup><mi>f</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mi>k</mi><mi>!</mi></mrow></mfrac><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>k</mi></msup><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_01goiordena",
+  "atala": "a26"
+ },
+ {
+  "t": "Punto ordinario / singular",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><msub><mi>x</mi><mn>0</mn></msub></math> es un <strong>punto ordinario</strong> si <math display=\"inline\"><mrow><msub><mi>p</mi><mn>1</mn></msub><mo>,</mo><msub><mi>p</mi><mn>2</mn></msub></mrow></math> son analíticas en <math display=\"inline\"><msub><mi>x</mi><mn>0</mn></msub></math>; en caso contrario, <strong>punto singular</strong>."
+   }
+  ],
+  "kapitulua": "03mm_02serieak",
+  "atala": "a9"
+ },
+ {
+  "t": "Punto singular regular",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Si <math display=\"inline\"><msub><mi>x</mi><mn>0</mn></msub></math> es un punto singular de <math display=\"inline\"><mrow><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><msub><mi>p</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><msub><mi>p</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>, y <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msub><mi>p</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> y <math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><msub><mi>p</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> son analíticas en <math display=\"inline\"><msub><mi>x</mi><mn>0</mn></msub></math>, entonces <math display=\"inline\"><msub><mi>x</mi><mn>0</mn></msub></math> es un <strong>punto singular regular</strong> (en caso contrario, <strong>irregular</strong>)."
+   }
+  ],
+  "kapitulua": "03mm_02serieak",
+  "atala": "a9"
+ },
+ {
+  "t": "Función gamma",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>s</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><msup><mi>e</mi><mrow><mi>−</mi><mi>t</mi></mrow></msup><msup><mi>t</mi><mrow><mi>s</mi><mo>−</mo><mn>1</mn></mrow></msup><mi>d</mi><mi>t</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>s</mi><mo>&gt;</mo><mn>0</mn><mo>,</mo></mrow></math> y <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>s</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>s</mi><mi mathvariant=\"normal\">Γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>s</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. [CORREGIDO: en el papel el exponente del integrando es <math display=\"inline\"><msup><mi>t</mi><mi>s</mi></msup></math>; la definición compatible con la recurrencia exige <math display=\"inline\"><msup><mi>t</mi><mrow><mi>s</mi><mo>−</mo><mn>1</mn></mrow></msup></math>.]"
+   }
+  ],
+  "kapitulua": "03mm_02serieak",
+  "atala": "a9"
+ },
+ {
+  "t": "Ecuación de Bessel",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msup><mi>x</mi><mn>2</mn></msup><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><mi>x</mi><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>ν</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>y</mi><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>ν</mi><mn>2</mn></msup></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mi>y</mi><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_02serieak",
+  "atala": "a11"
+ },
+ {
+  "t": "Producto interno",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Siendo <math display=\"inline\"><mi>V</mi></math> el espacio de las funciones definidas en el intervalo <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> y <math display=\"inline\"><mrow><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&gt;</mo><mn>0</mn></mrow></math> la función <strong>peso</strong>, el producto interno se define así: <math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>f</mi><mspace width=\"0.222em\"></mspace><mo stretchy=\"false\" form=\"prefix\">|</mo><mspace width=\"0.222em\"></mspace><mi>g</mi><msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mi>ρ</mi></msub><mo>=</mo><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><msup><mi>f</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a21"
+ },
+ {
+  "t": "Norma",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">∥</mo><mi>f</mi><mo stretchy=\"true\" form=\"postfix\">∥</mo></mrow><mi>ρ</mi></msub><mo>=</mo><msqrt><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>f</mi><mspace width=\"0.222em\"></mspace><mo stretchy=\"false\" form=\"prefix\">|</mo><mspace width=\"0.222em\"></mspace><mi>f</mi><msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mi>ρ</mi></msub></mrow></msqrt><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mn>2</mn></msup><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a21"
+ },
+ {
+  "t": "Distancia, convergencia y ortogonalidad",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "La distancia entre dos funciones <math display=\"block\"><mrow><mi>d</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>g</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">∥</mo><mi>f</mi><mo>−</mo><mi>g</mi><mo stretchy=\"true\" form=\"postfix\">∥</mo></mrow><mi>ρ</mi></msub><mi>.</mi></mrow></math> Convergencia según la norma: <math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">∥</mo><msub><mi>f</mi><mi>n</mi></msub><mo>−</mo><mi>f</mi><mo stretchy=\"true\" form=\"postfix\">∥</mo></mrow><mi>ρ</mi></msub><mo>→</mo><mn>0</mn></mrow></math> (<math display=\"inline\"><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></math>). Dos funciones son <strong>ortogonales</strong> si <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>f</mi><mspace width=\"0.222em\"></mspace><mo stretchy=\"false\" form=\"prefix\">|</mo><mspace width=\"0.222em\"></mspace><mi>g</mi><msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mi>ρ</mi></msub><mo>=</mo><mn>0</mn></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a21"
+ },
+ {
+  "t": "Espacio de Hilbert",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Espacio vectorial con producto interno que es <strong>completo</strong> respecto a esa norma (es decir, toda sucesión de Cauchy tiene límite en el espacio)."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a21"
+ },
+ {
+  "t": "Ortogonalización de Gram-Schmidt",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Partiendo de la familia linealmente independiente <math display=\"inline\"><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mi>y</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mi>∞</mi></msubsup></math>, <math display=\"block\"><mrow><msub><mi>ψ</mi><mn>0</mn></msub><mo>=</mo><msub><mi>y</mi><mn>0</mn></msub><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>ψ</mi><mi>n</mi></msub><mo>=</mo><msub><mi>y</mi><mi>n</mi></msub><mo>−</mo><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></munderover><msub><mi>φ</mi><mi>k</mi></msub><mo stretchy=\"false\" form=\"prefix\">⟨</mo><msub><mi>φ</mi><mi>k</mi></msub><mspace width=\"0.222em\"></mspace><mo stretchy=\"false\" form=\"prefix\">|</mo><mspace width=\"0.222em\"></mspace><msub><mi>y</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>φ</mi><mi>n</mi></msub><mo>=</mo><mfrac><msub><mi>ψ</mi><mi>n</mi></msub><msub><mrow><mo stretchy=\"true\" form=\"prefix\">∥</mo><msub><mi>ψ</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">∥</mo></mrow><mi>ρ</mi></msub></mfrac><mi>.</mi></mrow></math> <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mi>ψ</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></math> es ortogonal y <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mi>φ</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></math> ortonormal."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a21"
+ },
+ {
+  "t": "Adjunto",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "El adjunto del operador diferencial <math display=\"inline\"><mi>L</mi></math> es <math display=\"inline\"><msup><mi>L</mi><mo>+</mo></msup></math>, que cumple <math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>f</mi><mspace width=\"0.222em\"></mspace><mo stretchy=\"false\" form=\"prefix\">|</mo><mspace width=\"0.222em\"></mspace><mi>L</mi><mi>g</mi><msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mi>ρ</mi></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><msup><mi>L</mi><mo>+</mo></msup><mi>f</mi><mspace width=\"0.222em\"></mspace><mo stretchy=\"false\" form=\"prefix\">|</mo><mspace width=\"0.222em\"></mspace><mi>g</mi><msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mi>ρ</mi></msub><mo>,</mo><mspace width=\"1.0em\"></mspace><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><msup><mi>f</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mi>L</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><msup><mi>L</mi><mo>+</mo></msup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>*</mo></msup><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>,</mo></mrow></math>. Propiedad: <math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>L</mi><mo>+</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo></msup><mo>=</mo><mi>L</mi></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a22"
+ },
+ {
+  "t": "Operador hermítico (autoadjunto)",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Si <math display=\"inline\"><mrow><mi>L</mi><mo>=</mo><msup><mi>L</mi><mo>+</mo></msup></mrow></math>, <math display=\"inline\"><mi>L</mi></math> es <strong>hermítico</strong> y cumple <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>f</mi><mspace width=\"0.222em\"></mspace><mo stretchy=\"false\" form=\"prefix\">|</mo><mspace width=\"0.222em\"></mspace><mi>L</mi><mi>g</mi><msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mi>ρ</mi></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>L</mi><mi>f</mi><mspace width=\"0.222em\"></mspace><mo stretchy=\"false\" form=\"prefix\">|</mo><mspace width=\"0.222em\"></mspace><mi>g</mi><msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mi>ρ</mi></msub></mrow></math> (con condiciones de contorno adecuadas)."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a22"
+ },
+ {
+  "t": "Ecuaciones separadas",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>u</mi><mi>t</mi></msub><mo>=</mo><msup><mi>σ</mi><mn>2</mn></msup><msub><mi>u</mi><mrow><mi>x</mi><mi>x</mi></mrow></msub><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>X</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>T</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>σ</mi><mn>2</mn></msup><mi>T</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>X</mi><mo>″</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mfrac><mrow><msup><mi>T</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><msup><mi>σ</mi><mn>2</mn></msup><mi>T</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><msup><mi>X</mi><mo>″</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>X</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mo>=</mo><mi>−</mi><mi>λ</mi><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Por tanto,"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msup><mi>T</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><msup><mi>σ</mi><mn>2</mn></msup><mi>λ</mi><mi>T</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><msup><mi>X</mi><mo>″</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>λ</mi><mi>X</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a40"
+ },
+ {
+  "t": "Peso",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Peso de la ecuación espacial"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><msub><mi>a</mi><mn>0</mn></msub></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">exp</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mo>∫</mo><msub><mi>a</mi><mn>1</mn></msub><mfrac><mi>x</mi><msub><mi>a</mi><mn>0</mn></msub></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">exp</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mo>∫</mo><mi>d</mi><mfrac><mi>x</mi><mi>x</mi></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>x</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "es. Por tanto, desarrollando el dato inicial como <math display=\"inline\"><mrow><mn>1</mn><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mi>∞</mi></msubsup><msub><mi>f</mi><mi>n</mi></msub><msub><mi>X</mi><mrow><mi>n</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub></mrow></math>,"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>f</mi><mi>n</mi></msub><mo>=</mo><mfrac><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>2</mn></msubsup><msub><mi>X</mi><mrow><mi>n</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mi>x</mi><mi>d</mi><mi>x</mi></mrow><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>2</mn></msubsup><msubsup><mi>X</mi><mrow><mi>n</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mn>2</mn></msubsup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></mfrac><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a43"
+ },
+ {
+  "t": "Coeficientes ponderados",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mn>1</mn><mo>=</mo><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mo accent=\"false\">∞</mo></munderover><mfrac><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>2</mn></msubsup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>n</mi><mfrac><mi>π</mi><mi mathvariant=\"normal\">log</mi></mfrac><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">log</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>x</mi><mi>d</mi><mi>x</mi></mrow><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>2</mn></msubsup><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>n</mi><mfrac><mi>π</mi><mi mathvariant=\"normal\">log</mi></mfrac><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi mathvariant=\"normal\">log</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></mfrac><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>n</mi><mfrac><mi>π</mi><mi mathvariant=\"normal\">log</mi></mfrac><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">log</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a44"
+ },
+ {
+  "t": "Gradiente",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>∇</mi><mi>φ</mi><mo>=</mo><mfrac><mrow><mi>∂</mi><mi>φ</mi></mrow><mrow><mi>∂</mi><mi>x</mi></mrow></mfrac><mover><mi>i</mi><mo accent=\"true\">̂</mo></mover><mo>+</mo><mfrac><mrow><mi>∂</mi><mi>φ</mi></mrow><mrow><mi>∂</mi><mi>y</mi></mrow></mfrac><mover><mi>j</mi><mo accent=\"true\">̂</mo></mover><mo>+</mo><mfrac><mrow><mi>∂</mi><mi>φ</mi></mrow><mrow><mi>∂</mi><mi>z</mi></mrow></mfrac><mover><mi>k</mi><mo accent=\"true\">̂</mo></mover><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a53"
+ },
+ {
+  "t": "Las partes",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>I</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>I</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a54"
+ },
+ {
+  "t": "Axiomas del espacio vectorial",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>a</mi><mo>,</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>a</mi><mo>,</mo><mi>λ</mi><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>=</mo><mi>λ</mi><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>a</mi><mo>,</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>≥</mo><mn>0</mn><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>*</mo></msup><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>b</mi><mo>,</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>,</mo></mrow></math> y <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>a</mi><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>=</mo><mn>0</mn></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a56"
+ },
+ {
+  "t": "Producto interno ponderado de funciones",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>f</mi><mo>,</mo><mi>g</mi><msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mi>ρ</mi></msub><mo>=</mo><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mover><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mo accent=\"true\">¯</mo></mover><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>,</mo></mrow></math> donde <math display=\"inline\"><mrow><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&gt;</mo><mn>0</mn></mrow></math> es un peso real."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a56"
+ },
+ {
+  "t": "Ortogonalidad",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Cuando <math display=\"inline\"><mrow><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>m</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mn>0</mn></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mi>n</mi><mo>≠</mo><mi>m</mi></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mfrac><mi>π</mi><mn>2</mn></mfrac></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mi>n</mi><mo>=</mo><mi>m</mi></mtd></mtr></mtable></mrow><mo>=</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><msub><mi>δ</mi><mrow><mi>n</mi><mi>m</mi></mrow></msub><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a58"
+ },
+ {
+  "t": "Operador adjunto",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Para dos funciones cualesquiera, <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> y <math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>f</mi><mo>,</mo><mi mathvariant=\"script\">ℒ</mi><mi>g</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><msup><mi mathvariant=\"script\">ℒ</mi><mo>+</mo></msup><mi>f</mi><mo>,</mo><mi>g</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>+</mo></mrow></math> contribuciones de las condiciones de contorno. El operador <math display=\"inline\"><msup><mi mathvariant=\"script\">ℒ</mi><mo>+</mo></msup></math> es el adjunto de <math display=\"inline\"><mi mathvariant=\"script\">ℒ</mi></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a60"
+ },
+ {
+  "t": "Carácter autoadjunto",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Si <math display=\"inline\"><mrow><msup><mi mathvariant=\"script\">ℒ</mi><mo>+</mo></msup><mo>=</mo><mi mathvariant=\"script\">ℒ</mi></mrow></math>, el operador es autoadjunto. Si las contribuciones de las condiciones de contorno son cero, el operador es hermítico."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a60"
+ },
+ {
+  "t": "Consecuencias del operador hermítico",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Los autovalores son reales; las autofunciones correspondientes a autovalores distintos son ortogonales; y las autofunciones forman una base completa."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a62"
+ },
+ {
+  "t": "Forma autoadjunta",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>p</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><msup><mi>p</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><mi>q</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>=</mo><mi>−</mi><mi>λ</mi><mi>y</mi></mrow></math>, es decir, <math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>p</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>′</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup><mo>+</mo><mi>q</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>=</mo><mi>−</mi><mi>λ</mi><mi>y</mi></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a63"
+ },
+ {
+  "t": "Factor integrante",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Para la ecuación <math display=\"inline\"><mrow><msub><mi>a</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><msub><mi>a</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><msub><mi>a</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>=</mo><mi>−</mi><mi>λ</mi><mi>y</mi></mrow></math>, <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">exp</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mo>∫</mo><mi>x</mi></msup><mfrac><mrow><msub><mi>a</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msub><mi>a</mi><msup><mn>0</mn><mo>′</mo></msup></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><msub><mi>a</mi><mn>0</mn></msub></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><msub><mi>a</mi><mn>0</mn></msub></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">exp</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mo>∫</mo><mi>x</mi></msup><msub><mi>a</mi><mn>1</mn></msub><mfrac><mi>u</mi><msub><mi>a</mi><mn>0</mn></msub></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a64"
+ },
+ {
+  "t": "Ecuación de Laguerre",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>x</mi><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><mi>ν</mi><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>, y <math display=\"inline\"><mrow><mi mathvariant=\"script\">ℒ</mi><mo>=</mo><mi>−</mi><mi>x</mi><mfrac><msup><mi>d</mi><mn>2</mn></msup><mi>d</mi></mfrac><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mi>d</mi><mi>d</mi></mfrac><mi>x</mi></mrow></math>. Escribiendo el problema de autovalores <math display=\"inline\"><mrow><mi mathvariant=\"script\">ℒ</mi><mi>y</mi><mo>=</mo><mi>λ</mi><mi>y</mi></mrow></math>, se obtiene <math display=\"inline\"><mrow><mi>x</mi><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><mi>λ</mi><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a65"
+ },
+ {
+  "t": "Condiciones en los extremos",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msub><mi>α</mi><mn>1</mn></msub><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><msub><mi>α</mi><mn>2</mn></msub><msup><mi>y</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>, y <math display=\"inline\"><mrow><msub><mi>β</mi><mn>1</mn></msub><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><msub><mi>β</mi><mn>2</mn></msub><msup><mi>y</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>. Estas garantizan que el wronskiano se anule en ambos extremos."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a66"
+ },
+ {
+  "t": "Condiciones",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "La temperatura en la superficie es nula en todo momento: <math display=\"inline\"><mrow><mi>ζ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>R</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>. La temperatura es finita en todos los puntos de la esfera, incluido el centro. Inicialmente, <math display=\"inline\"><mrow><mi>ζ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>ζ</mi><mn>0</mn></msub><mfrac><mi>R</mi><mi>r</mi></mfrac><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mfrac><mi>r</mi><mi>R</mi></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a68"
+ },
+ {
+  "t": "Problema de valores iniciales y de contorno",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>u</mi><mrow><mi>t</mi><mi>t</mi></mrow></msub><mo>=</mo><msup><mi>c</mi><mn>2</mn></msup><msub><mi>u</mi><mrow><mi>x</mi><mi>x</mi></mrow></msub><mo>−</mo><mfrac><msup><mi>c</mi><mn>2</mn></msup><mi>ℓ</mi></mfrac><msub><mi>u</mi><mi>x</mi></msub><mo>+</mo><msup><mi>c</mi><mn>2</mn></msup><mfrac><mi>μ</mi><msup><mi>ℓ</mi><mn>2</mn></msup></mfrac><mi>u</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>L</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>e</mi><mrow><mi>γ</mi><mfrac><mi>L</mi><mi>ℓ</mi></mfrac></mrow></msup><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>u</mi><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>L</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><msup><mi>e</mi><mrow><mi>γ</mi><mfrac><mi>L</mi><mi>ℓ</mi></mfrac></mrow></msup><msub><mi>u</mi><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>u</mi><mrow><mi>t</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>L</mi></math> es la longitud del intervalo; <math display=\"inline\"><mi>ℓ</mi></math> es la longitud de difusión característica; <math display=\"inline\"><mi>μ</mi></math> y <math display=\"inline\"><mi>γ</mi></math> son parámetros adimensionales. Cuando <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math> puede usarse el método de separación de variables; para otros valores se complica."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a73"
+ },
+ {
+  "t": "Forma de contorno",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Para que el problema de Sturm–Liouville sea regular, debe cumplirse <math display=\"block\"><mrow><mfrac><mn>1</mn><mi>w</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>f</mi><mo accent=\"true\">¯</mo></mover><msup><mi>g</mi><mo>′</mo></msup><mo>−</mo><msup><mover><mi>f</mi><mo accent=\"true\">¯</mo></mover><mo>′</mo></msup><mi>g</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msubsup><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>a</mi><mi>b</mi></msubsup><mo>=</mo><mn>0</mn></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a74"
+ },
+ {
+  "t": "Autofunciones",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>X</mi><mrow><mi>n</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><msup><mi>e</mi><mfrac><mi>x</mi><mrow><mn>2</mn><mi>ℓ</mi></mrow></mfrac></msup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><msub><mi>A</mi><mi>n</mi></msub><mi mathvariant=\"normal\">cos</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mrow><mn>2</mn><mi>n</mi><mi>π</mi></mrow><mi>L</mi></mfrac><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><msub><mi>B</mi><mi>n</mi></msub><mi mathvariant=\"normal\">sin</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mrow><mn>2</mn><mi>n</mi><mi>π</mi></mrow><mi>L</mi></mfrac><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>.</mi></mrow></math> Para cada autovalor hay dos funciones propias independientes."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a76"
+ },
+ {
+  "t": "Desarrollo en autofunciones",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mo accent=\"false\">∞</mo></munderover><msub><mi>T</mi><mrow><mi>n</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><msub><mi>A</mi><mi>n</mi></msub><mi mathvariant=\"normal\">cos</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mrow><mn>2</mn><mi>n</mi><mi>π</mi></mrow><mi>L</mi></mfrac><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><msub><mi>B</mi><mi>n</mi></msub><mi mathvariant=\"normal\">sin</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mrow><mn>2</mn><mi>n</mi><mi>π</mi></mrow><mi>L</mi></mfrac><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><msup><mi>e</mi><mfrac><mi>x</mi><mrow><mn>2</mn><mi>ℓ</mi></mrow></mfrac></msup><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a77"
+ },
+ {
+  "t": "Datos iniciales",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>x</mi><mo>+</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mo accent=\"false\">∞</mo></munderover><msub><mi>a</mi><mi>n</mi></msub><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mn>7</mn><mo>=</mo><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mo accent=\"false\">∞</mo></munderover><msub><mi>b</mi><mi>n</mi></msub><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a78"
+ },
+ {
+  "t": "Autofunciones y peso",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msub><mi>X</mi><mrow><mi>n</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><msub><mi>C</mi><mi>n</mi></msub><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. El peso de Sturm–Liouville es <math display=\"inline\"><mrow><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">exp</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mo>∫</mo><mn>2</mn><mi>d</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a80"
+ },
+ {
+  "t": "Problema",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi mathvariant=\"script\">ℒ</mi><mi>y</mi><mo>=</mo><mi>−</mi><msup><mi>y</mi><mo>″</mo></msup><mo>−</mo><msup><mi>y</mi><mo>′</mo></msup><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>y</mi></mrow></math>, <math display=\"inline\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> y <math display=\"inline\"><mrow><msup><mi>y</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>. Peso: <math display=\"inline\"><mrow><mi>ρ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">exp</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msubsup><mo>∫</mo><mn>0</mn><mi>x</mi></msubsup><mn>1</mn><mi>d</mi><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>e</mi><mi>x</mi></msup></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a83"
+ },
+ {
+  "t": "Problema",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><mn>2</mn><mi>x</mi><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>μ</mi><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>e</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>. En el problema homogéneo se prueba <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mi>α</mi></msup></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a84"
+ },
+ {
+  "t": "Problema espectral",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "En el intervalo <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>1</mn><mo>,</mo><mi>e</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>, tomemos el operador <math display=\"block\"><mrow><msub><mi mathvariant=\"script\">ℒ</mi><mi>μ</mi></msub><mi>y</mi><mo>=</mo><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup><msup><mi>y</mi><mo>″</mo></msup><mo>−</mo><mn>2</mn><mi>x</mi><msup><mi>y</mi><mo>′</mo></msup><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>μ</mi><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>y</mi></mrow></math>, con condiciones de contorno <math display=\"inline\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>e</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a85"
+ },
+ {
+  "t": "Problema",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "En el intervalo <math display=\"block\"><mrow><mn>1</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>2</mn></mrow></math>, <math display=\"block\"><mrow><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><mfrac><mn>2</mn><mi>x</mi></mfrac><msup><mi>y</mi><mo>′</mo></msup><mo>−</mo><mfrac><mi>μ</mi><msup><mi>x</mi><mn>2</mn></msup></mfrac><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><msup><mi>y</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math> Probando <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mi>r</mi></msup></mrow></math> en la ecuación homogénea, <math display=\"block\"><mrow><msup><mi>r</mi><mn>2</mn></msup><mo>+</mo><mi>r</mi><mo>−</mo><mi>μ</mi><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>r</mi><mo>=</mo><mfrac><mrow><mi>−</mi><mn>1</mn><mo>±</mo><msqrt><mrow><mn>1</mn><mo>+</mo><mn>4</mn><mi>μ</mi></mrow></msqrt></mrow><mrow><mn>2</mn><mi>.</mi></mrow></mfrac></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a86"
+ },
+ {
+  "t": "Factor integrante",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Sea la ecuación lineal homogénea de segundo orden <math display=\"block\"><mrow><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><mi>Q</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><mi>R</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>. Se busca el factor <math display=\"inline\"><mrow><mi>μ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, de modo que, tras multiplicar la ecuación, tenga la forma <math display=\"block\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>μ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>′</mo></msup><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>′</mo></msup><mo>+</mo><mi>μ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>R</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a88"
+ },
+ {
+  "t": "Datos",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn></mrow></math>, <math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>3</mn><mi>x</mi></mrow></math> y <math display=\"inline\"><mrow><mi>w</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>e</mi><mrow><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></msup></mrow></math>, <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mi>∞</mi></mrow></math>. Tomaremos los coeficientes como reales, y <math display=\"block\"><mrow><mi>h</mi><mo>=</mo><mi>α</mi><mi>f</mi><mo>+</mo><mi>β</mi><mi>g</mi><mo>=</mo><mn>2</mn><mi>α</mi><mo>+</mo><mn>3</mn><mi>β</mi><mi>x</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a89"
+ },
+ {
+  "t": "Proceso inductivo",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "A partir de <math display=\"inline\"><mrow><msub><mi>v</mi><mn>1</mn></msub><mo>,</mo><msub><mi>v</mi><mn>2</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>v</mi><mi>n</mi></msub></mrow></math> vectores linealmente independientes se construye el sistema ortogonal <math display=\"inline\"><mrow><msub><mi>e</mi><mn>1</mn></msub><mo>,</mo><msub><mi>e</mi><mn>2</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>e</mi><mi>n</mi></msub></mrow></math>: <math display=\"block\"><mrow><msub><mi>e</mi><mn>1</mn></msub><mo>=</mo><msub><mi>v</mi><mn>1</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msub><mi>e</mi><mn>2</mn></msub><mo>=</mo><msub><mi>v</mi><mn>2</mn></msub><mfrac><mrow><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">⟨</mo><msub><mi>e</mi><mn>1</mn></msub><mo>,</mo><msub><mi>v</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><msub><mi>e</mi><mn>1</mn></msub><mo>,</mo><msub><mi>e</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></mfrac><msub><mi>e</mi><mn>1</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msub><mi>e</mi><mi>n</mi></msub><mo>=</mo><msub><mi>v</mi><mi>n</mi></msub><mo>−</mo><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></munderover><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><msub><mi>e</mi><mi>i</mi></msub><mo>,</mo><msub><mi>v</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><msub><mi>e</mi><mi>i</mi></msub><mo>,</mo><msub><mi>e</mi><mi>i</mi></msub><mo stretchy=\"false\" form=\"postfix\">⟩</mo></mrow></mfrac><msub><mi>e</mi><mi>i</mi></msub><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a91"
+ },
+ {
+  "t": "Resta de proyecciones",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Dados dos vectores ortogonales <math display=\"inline\"><msub><mi>e</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>e</mi><mn>2</mn></msub></math>, a partir de un vector <math display=\"inline\"><msub><mi>v</mi><mn>3</mn></msub></math> linealmente independiente de ellos se construye la tercera dirección ortogonal:"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a92"
+ },
+ {
+  "t": "Punto de partida",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "En el espacio <math display=\"inline\"><mrow><msup><mi>L</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>, con el producto interno <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">⟨</mo><mi>f</mi><mo>,</mo><mi>g</mi><mo stretchy=\"false\" form=\"postfix\">⟩</mo><mo>=</mo><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>1</mn></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>, los pasos anteriores han dado <math display=\"inline\"><mrow><msub><mi>e</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><msub><mi>e</mi><mn>2</mn></msub><mo>=</mo><mi>x</mi></mrow></math> y <math display=\"inline\"><mrow><msub><mi>e</mi><mn>3</mn></msub><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a93"
+ },
+ {
+  "t": "Polinomios de Legendre",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Normalizando cada vector de la base ortogonal de modo que valga la unidad en el punto <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math>, se obtienen los cuatro primeros polinomios de Legendre."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a93"
+ },
+ {
+  "t": "Matriz de coeficientes",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>M</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>λ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn><mo>−</mo><msup><mi>e</mi><mrow><mi>−</mi><mi>π</mi></mrow></msup><mi>c</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><msup><mi>e</mi><mrow><mi>−</mi><mi>π</mi></mrow></msup><mi>s</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msup><mi>e</mi><mi>π</mi></msup><mi>c</mi><mo>+</mo><msup><mi>e</mi><mi>π</mi></msup><msqrt><mi>λ</mi></msqrt><mi>s</mi><mo>−</mo><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msqrt><mi>λ</mi></msqrt><mo>+</mo><msup><mi>e</mi><mi>π</mi></msup><mi>s</mi><mo>−</mo><msup><mi>e</mi><mi>π</mi></msup><msqrt><mi>λ</mi></msqrt><mi>c</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a95"
+ },
+ {
+  "t": "Variable nueva",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Las condiciones de contorno acopladas dan la ecuación <math display=\"block\"><mrow><msqrt><mi>λ</mi></msqrt><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">cosh</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi mathvariant=\"normal\">cos</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><msqrt><mi>λ</mi></msqrt><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><msqrt><mi>λ</mi></msqrt><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Tomando <math display=\"inline\"><mrow><mi>u</mi><mo>=</mo><msqrt><mi>λ</mi></msqrt></mrow></math>, hay que buscar las intersecciones de las funciones <math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>u</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a96"
+ },
+ {
+  "t": "Solución no trivial y degeneración",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "En el sistema homogéneo <math display=\"inline\"><mrow><mi>M</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>A</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>B</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, la condición <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>M</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> asegura que existe una solución no trivial. Para que haya dos coeficientes independientes, es decir, un autoespacio de dos dimensiones, se necesita <math display=\"inline\"><mrow><mi>M</mi><mo>=</mo><mn>0</mn></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a97"
+ },
+ {
+  "t": "Sistema homogéneo",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Para que el sistema lineal homogéneo <math display=\"inline\"><mrow><mi>M</mi><mi>c</mi><mo>=</mo><mn>0</mn></mrow></math> tenga solución no trivial debe cumplirse <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>M</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>. En el contexto de este ejercicio de dos coeficientes, para que haya dos soluciones independientes se necesita <math display=\"inline\"><mrow><mi>M</mi><mo>=</mo><mn>0</mn></mrow></math>. En general, hay degeneración cuando la dimensión del núcleo es mayor que uno."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a99"
+ },
+ {
+  "t": "Intersección gráfica",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "En la variable <math display=\"inline\"><mrow><mi>u</mi><mo>=</mo><msqrt><mi>λ</mi></msqrt></mrow></math> los autovalores los dan las intersecciones de la ecuación <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn><mi>u</mi></mrow></math>. Cada rama de <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> se acerca a la asíntota vertical <math display=\"inline\"><mrow><mi>u</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a100"
+ },
+ {
+  "t": "Problema de contorno",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "En el intervalo original <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> se hace <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>θ</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>; de ahí <math display=\"inline\"><mrow><mi>θ</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> y los extremos son <math display=\"inline\"><mrow><mi>θ</mi><mo>=</mo><mi>±</mi><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow></math>. Tras reducir la forma autoadjunta del operador en la nueva variable, la ecuación es <math display=\"block\"><mrow><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>d</mi><msup><mi>θ</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>+</mo><mi>λ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>, y las condiciones de contorno son <math display=\"inline\"><mrow><mi>y</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>y</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a101"
+ },
+ {
+  "t": "Factor integrante",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Para escribir la ecuación <math display=\"block\"><mrow><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><mi>Q</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><mi>R</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> en la forma <math display=\"block\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>μ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>′</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup><mo>+</mo><mi>μ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>R</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>, los coeficientes deben cumplir <math display=\"block\"><mrow><mi>P</mi><msup><mi>μ</mi><mo>′</mo></msup><mo>=</mo><mi>μ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>Q</mi><mo>−</mo><msup><mi>P</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+   }
+  ],
+  "kapitulua": "03mm_04sturm",
+  "atala": "a105"
  }
 ];

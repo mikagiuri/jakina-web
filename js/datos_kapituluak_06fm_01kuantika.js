@@ -38,7 +38,7 @@ KAPITULUAK["06fm_01kuantika"] = {
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/10_fisika_modernoa/fisika_modernoa/AAA_TEXES_fismotex/MASTERFISMOTex/MASTERFISMOtex.pdf",
+   "proiektua": "MASTERFISMOtex.pdf",
    "xehetasuna": "Mikel Aguirre, erabiltzailearena %100; 1.-6. eta 8.-17. atalak (kuantizazioaren jatorri esperimentala + Schrödingerren ekuazioa)",
    "hizkuntza": "es"
   }
@@ -3518,7 +3518,7 @@ KAPITULUAK["06fm_01kuantika"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "espazio-ontzia/10_fisika_modernoa/fisika_modernoa/fismo por dDIDODIDODS/fis mo exam emparejados",
+     "proiektua": "fis mo exam emparejados",
      "xehetasuna": "Introducción a la Estructura de la Materia (IEM) / Fisika Modernoa, ZTF-FCT, UPV/EHU. Azterketa ofizialak beren ebazpen ofizialekin, PDF garbian (ez argazkituta).",
      "hizkuntza": "es"
     },

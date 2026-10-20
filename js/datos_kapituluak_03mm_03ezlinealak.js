@@ -7,12 +7,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
  "azala": "B6.5 - Ez-linealak eta egonkortasuna (8. gaia)",
  "azpititulua": "I. aroa - Tresnak",
  "iturburua": "kapituluak/03mm_03ezlinealak/03mm_03ezlinealak.typ",
- "sarrera": [
-  {
-   "mota": "testua",
-   "html": ".update(7)"
-  }
- ],
+ "sarrera": [],
  "atalak": [
   {
    "id": "a1",
@@ -1270,15 +1265,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "<br>"
-    },
-    {
-     "mota": "testua",
      "html": "   <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mi>a</mi></mrow></math> denerako, <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&lt;</mo><mn>0</mn></mrow></math>,"
-    },
-    {
-     "mota": "testua",
-     "html": "<br>"
     },
     {
      "mota": "testua",
@@ -1546,10 +1533,6 @@ KAPITULUAK["03mm_03ezlinealak"] = {
       },
       {
        "mota": "testua",
-       "html": "<br>"
-      },
-      {
-       "mota": "testua",
        "html": "<em>Oharra:</em>  <strong>erakarpen-arro</strong> deitzen zaio erakarle baterantz jotzen duten soluzioak igarotzen diren fase-espazioko puntuen leku geometrikoari."
       }
      ]
@@ -1685,10 +1668,6 @@ KAPITULUAK["03mm_03ezlinealak"] = {
        "html": "Egiaztatu espazioaren azpimultzo «normalak» (puntu bat, kurba edo gainazal leun bat, poliedro baten barrualdea…) estaltzeko <math display=\"inline\"><mi>ε</mi></math> aldeko <math display=\"inline\"><mrow><mi>N</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∼</mo><mi>k</mi><msup><mi>ε</mi><mrow><mi>−</mi><mi>d</mi></mrow></msup></mrow></math> kubo behar direla <math display=\"inline\"><mrow><mi>ε</mi><mo>→</mo><mn>0</mn></mrow></math> limitean, non <math display=\"inline\"><mi>d</mi></math> dimentsioa den (0, 1, 2 eta 3 aipatutako adibideetan). Frogatu emaitza hau honela idatz daitekeela"
       },
       {
-       "mota": "testua",
-       "html": ".update(125)"
-      },
-      {
        "mota": "ezezaguna",
        "izena": "zenb-ekuazioa"
       },
@@ -1759,10 +1738,6 @@ KAPITULUAK["03mm_03ezlinealak"] = {
       {
        "mota": "testua",
        "html": "Gerra-garaietan Adriatikoko uretan marrazoen ugaritzea azaltzeko, Volterrak harrapari eta harrapakinaren eredu klasikoa sartu zuen elkarrekintzan dauden populazioen dinamika deskribatzeko. Eredu hau, unitate egokietan eta <math display=\"inline\"><mrow><mi>a</mi><mo>&gt;</mo><mn>0</mn></mrow></math> izanik, honela adieraz daiteke"
-      },
-      {
-       "mota": "testua",
-       "html": ".update(126)"
       },
       {
        "mota": "ezezaguna",
@@ -1903,10 +1878,6 @@ KAPITULUAK["03mm_03ezlinealak"] = {
       {
        "mota": "testua",
        "html": "Har ezazu (8.57)–(8.58)  sistema: <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>−</mi><mi>y</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>x</mi><mo>−</mo><msup><mi>y</mi><mi>n</mi></msup><mi>.</mi></mrow></math> Aurkitu haren oreka-puntua eta frogatu egonkorra dela <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>7</mn><mo>,</mo><mi>…</mi></mrow></math> direnerako. Noiz da asintotikoki egonkorra?"
-      },
-      {
-       "mota": "testua",
-       "html": "<br>"
       },
       {
        "mota": "testua",
@@ -2893,7 +2864,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 146. unitatea (METMATCG01_0146, IMG_2025_07_12_12_30_58S.jpg; «MÉTODO MATEMÁTIKOA», 2/12/2014): TEORIA (sistema dinamikoen linealizazioa: jakobiarra A, Delta=(trA)^2-4detA, lambda=(trA±sqrt(Delta))/2, soluzio orokorra autobektoreekin) + ADIBIDEA A=[[-1,-1],[-1/2,-3/2]]: lambda=-1/2,-2 (nodo egonkorra), autobektoreak (-2,1),(1,1). Fase-erretratua (A+B). SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "eu/es"
     }
@@ -2974,7 +2945,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 147. unitatea (METMATCG01_0147, IMG_2025_07_12_12_31_08S.jpg): nodo asintotikoaren analisia (lim y/x), 0146-ren jarraipena. 1. zatia = 0146 nodo egonkorra (y/x→-1/2 A≠0, motela; =1 A=0, azkarra). 2. zatia ADB 2: Ã=[[-1,-1],[9/2,7/2]], lambda=2,1/2 (nodo ezegonkorra). ⚠ ZUZENKETA: lambda=1/2 autobektorea (2/3,1)→(-2/3,1), malda motela +3/2→-3/2; lambda=2→(-1/3,1) malda -3 zuzena. Fase-erretratua (A+B) ADB2rako. SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "eu/es"
     }
@@ -3060,7 +3031,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 148. unitatea (METMATCG01_0148, IMG_2025_07_12_12_31_31S.jpg): sistema dx/dt=x-x^2+y^2, dy/dt=-y+2xy. BI oreka A(0,0),B(1,0) ZELAK (x=1/2 baztertua, ez erreala); jakobiarra (1-2x,2y;2y,2x-1). SISTEMA HAMILTONDARRA (dibergentzia=0, H=xy-x^2·y+y^3/3); x ardatza aldaezina (lotura heteroklinoa A→B). ⚠ ZUZENKETA: B-ren autobektoreak trukatuta (lambda=1→(0,1), lambda=-1→(1,0)); A-renak zuzenak. Fase-erretratua (A+B). SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "eu/es"
     }
@@ -3136,7 +3107,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 149. unitatea (METMATCG01_0149, IMG_2025_07_12_12_31_39S.jpg): TEORIA (autobalio konplexuak lambda=gamma±i·omega: gamma<0 kiribil egonkorra, gamma>0 ezegonkorra, gamma=0 [2.3] zentroa; soluzio erreala cos/sin) + ADIBIDEA dx/dt=-y, dy/dt=x-y^2: P(0,0) zentroa (lambda=±i, det A=1), itzulgarria R(x,y)=(x,-y) t→-t → zentro benetakoa (dibergentzia=-2y, ez Hamiltondarra). Fase-erretratua (A+B). SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "eu/es"
     }
@@ -3210,7 +3181,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 150. unitatea (METMATCG01_0150, IMG_2025_07_12_12_31_46S.jpg; «MÉTODO MATEMÁTIKOA», 2/12/2014): ZELA adibidea A=[[-1,-1],[-1,1]], lambda=±√2. ⚠ ZUZENKETA: autobektore-autobalio parekatzea trukatuta; zuzena lambda=√2→(1-√2,1) malda -(1+√2), lambda=-√2→(1+√2,1) malda √2-1. + oreka-moten LABURPENA (autobalio errealak: nodo egonkorra k2<k1<0, ezegonkorra 0<k2<k1, zela aurkakoak; konplexuak gamma±iω: 2.1 kiribil ezegonkorra, 2.2 egonkorra, 2.3 zentroa). Fase-erretratua (A+B). SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "eu/es"
     }
@@ -3331,7 +3302,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 151. unitatea (METMATCG01_0151, IMG_2025_07_12_12_31_55S.jpg; «5/12/2014»): 0148 sistemaren (dx/dt=x-x^2+y^2, dy/dt=-y+2xy) ANALISI KUALITATIBOA + fase-erretratu marraztua. Bi zela A(0,0),B(1,0); x ardatza aldaezina; Hamiltondarra (H=xy-x^2·y+y^3/3). ⚠ Zuzenketa txikia: dx/dt=0 nulklina x=x^2-y^2 (ez x^2+y^2; ez du 2 orekak aldatzen). Fase-erretratua = phase_0148 berrerabilia. SymPy-z egiaztatua (0148). Konfiantza altua",
      "hizkuntza": "eu/es"
     }
@@ -3394,7 +3365,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 152. unitatea (METMATCG01_0152, IMG_2025_07_12_12_32_03S.jpg; «MÉTODO MATEMÁTIKOA», 1/12/2014): (goia) 0149 adibidearen simetria (dx/dt=-y, dy/dt=x-y^2: itzulgarria R(x,y)=(x,-y) → zentro benetakoa; hiru fase-erretratu) vs dy/dt=x-y^3 (EZ itzulgarria, div=-3y^2 → foku ahula). (behea) autobalio erreal ERREPIKATUAK: 3.1 nodo izarra (a12=a21=0), 3.2 nodo endekatua (defektiboa). Fase-erretratua (A+B): nodo endekatua argigarria. SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "eu/es"
     }
@@ -3476,7 +3447,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 153. unitatea (METMATCG01_0153, IMG_2025_07_12_12_32_13S.jpg; «MÉTODO MATEMÁTIKOA», 12/12/2014): sistema ez-lineal osoa (LEHIA-EREDUA, Lotka–Volterra) dx/dt=x(1-x-y), dy/dt=y(3-x-2y). LAU oreka: (0,0) nodo ezegonkorra (k=1,3), (0,3/2) nodo egonkorra (k=-1/2,-3), (1,0) zela (k=-1,2), (-1,2) zela (k=-3/2±½√17, autobektoreak (2,-5±√17)). Jacobiarra [[1-2x-y,-x],[-y,3-x-4y]]; nulklinak x=0/y=1-x, y=0/y=(3-x)/2; autobalio/autobektore guztiak. ⚠ ZUZENKETA: lehen lerroko dx/dt=x(1-2x-y) lapsusa da ('2' soberan); jacobiarrak, y=1-x nulklinak eta 4 orekek (1,0),(-1,2) barne x(1-x-y) eskatzen dute (2-arekin orekak (1/2,0),(-1/3,5/3) lirateke, J11=1-4x-y). Fase-erretratua (A+B) leiho ZABALEAN. SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "eu/es"
     }
@@ -3586,7 +3557,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 154. unitatea (METMATCG01_0154, IMG_2025_07_12_12_32_20S.jpg): sistema ez-lineala dx/dt=(x+y-1)(x+y), dy/dt=x. Nulklinak x+y=0/x+y=1 (dx/dt=0), x=0 (dy/dt=0). BI oreka: (0,0) FOKU EGONKORRA (lambda=(-1±i√3)/2, Re=-1/2<0, kiribil-hustubidea), (0,1) ZELA (lambda=(1±√5)/2; lambda_+=(1+√5)/2=φ URREZKO ZENBAKIA; autobektoreak ((1±√5)/2,1)). Jacobiarra [[2x+2y-1,2x+2y-1],[1,0]] (dx/dt x+y-ren mende soilik). AKATSIK EZ. Fase-erretratua (A+B) leiho zabalean. SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "eu/es"
     }
@@ -3678,7 +3649,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 155. unitatea (METMATCG01_0155, IMG_2025_07_12_12_32_28S.jpg; «MÉTODO MATEMÁTIKOA», 25/11/2014): TEORIA — egonkortasun-teoria sarrera. Puntu finkoak f(t,x0)=0 gisa; pendulua (zentro+zela) + V(x) potentziala. Adibideak: a) x'=ax (x0=0), b) x'=ax-ax^3=ax(1-x^2) (x=0,±1; a>0: 0 ezeg., ±1 eg.), c) x'=2cos x-cos y, y'=2cos y-cos x (cos x=cos y=0 -> sareta; eliminazioa x'+2y'=3cos y; xake-taula: (+,+) nodo eg. λ=-1,-3; (-,-) nodo ezeg. λ=1,3; nahasiak zelak λ=±√3). Sistema autonomo bidimentsionala P,Q + baldintza KUASILINEALA (lim F/√(x²+y²)=lim G/√(x²+y²)=0) linealizazioarekin. AKATSIK EZ. Fase-erretratua: pendulua (A+B) leiho zabalean (zentro/zela sareta). SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "eu/es"
     }
@@ -3794,7 +3765,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 156. unitatea (METMATCG01_0156, IMG_2025_07_12_12_32_34S.jpg): sistema ez-lineala dx/dt=y-y^3, dy/dt=-x-y^2. HIRU oreka: A(0,0), B(-1,1), C(-1,-1) (dx/dt=0->y=0,±1; dy/dt=0->x=-y^2). Jacobiarra [[0,1-3y^2],[-1,-2y]]. M_A=[[0,1],[-1,0]] (lambda=±i, zentro lineala -> ZENTRO BENETAKOA, sistema ITZULGARRIA R=(x,-y), A ardatz finkoan y=0; dibergentzia=-2y ez Hamiltondarra); M_B=[[0,-2],[-1,-2]] zela (lambda=-1±√3); M_C=[[0,-2],[-1,2]] zela (lambda=1±√3). AKATSIK EZ (matrize guztiak zuzenak); gehigarria=A zentro benetakoaren frogapena. Fase-erretratua (A+B) leiho zabalean. SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "eu/es"
     }
@@ -3889,7 +3860,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 1. orria (METMATCG01_0001, IMG_2025_07_06_20_13_44S.jpg; «MÉTODO M.», 2015/12/17): sistema dinamiko ez-lineala (dx/dt = y-y³, dy/dt = -x-y²) osorik — hiru orekak, jacobiarra, zentroa P1-en (λ=±i, kuasilinealaren oharra) eta bi zela P2/P3-n (λ=-1±√3, 1±√3), zeinu-taula eta fase-erretratua. SymPy-z egiaztatua: dena zuzena salbu autobektore-zutabeen osagaiak (bi zuzenketa mentzioarekin). Fase-erretratuaren irudi editoriala CeTZ-z. Konfiantza altua",
      "hizkuntza": "es/en"
     }
@@ -4007,7 +3978,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CNmet3/",
+     "proiektua": "CNmet3",
      "xehetasuna": "CNmet3, 24.-25. orrialdeak (0013 unitatea): oreka-puntuen sailkapena balio propioen bidez (foku, zentro, korapilo eta izar-korapilo) eta sistema mekaniko unidimentsionala marruskadurarekin; fase-erretratuak CeTZ-rekin bektorizatuak; konfiantza ertaina",
      "hizkuntza": "eu/es"
     }
@@ -4132,7 +4103,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/CNmet3/",
+     "proiektua": "CNmet3",
      "xehetasuna": "CNmet3, 26.-27. orrialdeak (0014 unitatea, orri mistoa): sistema dinamiko ez-linealaren adibidea (oreka-puntuak, linealizazioa, fase-erretratuak CeTZ-rekin) eta Sturm-Liouville / Green-en sarrera (kosinuen ortogonaltasuna, eragile linealaren muga-baldintzak); konfiantza ertaina",
      "hizkuntza": "eu/es"
     }
@@ -4207,7 +4178,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 114. unitatea (METMATCG01_0114, IMG_2025_07_12_12_25_42S.jpg): sistema dinamiko ez-linealaren egonkortasun-analisi MANUSKRITOA (dx/dt=x^2+y^2-1, dy/dt=x y) — lau oreka-puntu (0,+-1),(+-1,0), jakobiarra (2x,2y;y,x), sailkapena: P1,P2 zela (lambda=+-sqrt2), P3 nodo ezegonkorra (lambda=1,2), P4 nodo egonkorra (lambda=-1,-2), autobektore eta fase-erretratuekin. SymPy-z egiaztatua (dena zuzena). Oreka-puntuak = 0112ren marjineko zerrenda. Konfiantza altua",
      "hizkuntza": "es/eu"
     }
@@ -4330,7 +4301,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 115. unitatea (METMATCG01_0115, IMG_2025_07_12_12_25_50S.jpg): 114ren jarraipena, sistema beraren analisi KUALITATIBOA — bi simetria (y->-y islapena; (x,t)->(-x,-t)), zeinu-azterketa (dx/dt=0 zirkulu unitatean, <0 barruan >0 kanpoan; dy/dt=0 ardatzetan), fase-erretratu globala eta lehen integralaren planteamendua dt=dx/(x^2+y^2-1)=dy/(xy). SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "es/eu"
     }
@@ -4425,7 +4396,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 116. unitatea (METMATCG01_0116, IMG_2025_07_12_12_25_55S.jpg): sistema dinamikoaren egonkortasun-analisia (dx/dt=sinh(x+y), dy/dt=y(x-1)) = 0095 «Problema 11 (hoja)» diapositibaren soluzioa. Bi oreka-puntu P1(1,-1) foku ezegonkorra (lambda=(1+-sqrt3 i)/2, Re>0) eta P2(0,0) zela (lambda=+-1, v=(1,0),(1,-2)), jakobiarra (cosh(x+y),cosh(x+y);y,x-1), zeinu-azterketa. SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "es/eu"
     }
@@ -4537,7 +4508,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 125. unitatea (METMATCG01_0125, IMG_2025_07_12_12_27_49S.jpg; «M. METHODS 15/12/2015»): sistema dinamikoa dx/dt=2y+3y^2, dy/dt=2x+3x^2 (= 0093 «Problema 5»). Lau oreka: P2(-2/3,-2/3), P3(0,0) zela (lambda=+-2); P1(-2/3,0), P4(0,-2/3) zentro (lambda=+-2i). LEHEN INTEGRALA H=x^2+x^3-y^2-y^3 (banangarria); x=y zuzen inbariantea bi zelak lotzen (H=0). SymPy-z egiaztatua (dH/dt=0, x=y inbariantea). Konfiantza altua",
      "hizkuntza": "es/eu"
     }
@@ -4681,7 +4652,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 126. unitatea (METMATCG01_0126, IMG_2025_07_12_12_28_02S.jpg): sistema KONTSERBATIBOA dx/dt=y, dy/dt=-x+3lambda^2/(4(2lambda-x))=-V'(x) (= 0091 «Problema 2»). Potentziala V=x^2/2+(3lambda^2/4)ln|2lambda-x|; energia H=x^2+y^2+(3/2)lambda^2 ln|2lambda-x|. Oreka: x=lambda/2 zentroa (V''=2/3>0), x=3lambda/2 zela (V''=-2<0); x=2lambda puntu singularra. SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "es/eu"
     }
@@ -4786,7 +4757,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 127. unitatea (METMATCG01_0127, IMG_2025_07_12_12_28_10S.jpg; «M. METHODS 10/12/2015»): sistema dx/dt=x, dy/dt=(y-x)(y-x-1). Oreka P1(0,0) zela (lambda=1,-1; v=(2,1),(0,1)) eta P2(0,1) NODO DEGENERATUA (lambda=1 bikoitza, defektiboa, norabide bakarra (0,1)). Jakobiarra (1,0;-2y+2x+1,2y-2x-1). SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "es/eu"
     }
@@ -4897,7 +4868,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 128. unitatea (METMATCG01_0128, IMG_2025_07_12_12_28_20S.jpg; «UNIDIMENSIONAL MECHANICAL SYSTEMS»): sistema mekaniko 1D-en teoria (ẍ=-V'(x), energia (1/2)ẋ^2+V=C, zentro=minimoa/zela=maximoa) + 14. adibidea dx/dt=5y, dy/dt=(x-1)(x+2)(x+3): x=1 zela (lambda=+-2sqrt15), x=-2 zentro (lambda=+-i sqrt15), x=-3 zela (lambda=+-2sqrt5); energia H=(5/2)y^2-G(x); bi zelen energia desberdina (47/12 vs -27/4) -> trajektoria banatuak. SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "es/eu"
     }
@@ -5018,7 +4989,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 129. unitatea (METMATCG01_0129, IMG_2025_07_12_12_28_28S.jpg; «M. METHODS 3/12/2015»): sistema lineal 2D-en teoria (autobalio-metodoa). x=e^{lambda t}c -> Ac=lambda c, det(A-Ilambda)=0; kasu konplexua (a-lambda,-b;b,a-lambda) -> lambda=a+-ib, autobektorea (1,-i); lambda=(trA+-sqrt(Delta))/2, Delta=(trA)^2-4detA; sailkapena (a=0 zentro, a>0 kiribil ezeg., a<0 kiribil eg.). SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "es/eu"
     }
@@ -5134,7 +5105,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 130. unitatea (METMATCG01_0130, IMG_2025_07_12_12_28_33S.jpg; 0129ren jarraipena): autobalio konplexuen kasua (a,-b;b,a). 2. ordenako EDOra murriztu x''-2ax'+(a^2+b^2)x=0 -> lambda=a+-ib; soluzioa x=e^{at}A cos(b(t-t0)), y=e^{at}A sin(...); x^2+y^2=e^{2at}A^2. Sailkapena: a=0 zirkuluak (zentro), a>0 kiribil ezegonkorra, a<0 kiribil asintotikoki egonkorra. SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "es/eu"
     }
@@ -5230,7 +5201,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 131. unitatea (METMATCG01_0131, IMG_2025_07_12_12_28_40S.jpg; «STABILITY of dynamic systems», 2/12/2015): egonkortasunaren sarrera (portaera kualitatiboa, multzo inbarianteak, oreka-puntuak). Adibideak: x'=ax (egonkorra a<0) eta x'=ax-x^3 (oreka 0,+-sqrt(a); sardexka-adarkatzea). Pendulua (2.->1. ordena); Lyapunov (egonkorra vs asintotikoa). SymPy-z egiaztatua; zuzenketa (x^2->x^3). Konfiantza altua",
      "hizkuntza": "es/eu"
     }
@@ -5321,7 +5292,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 135. unitatea (METMATCG01_0135, IMG_2025_07_12_12_29_10S.jpg): bi sistema. (1) deskatatua dx/dt=ln((x+1)^2), dy/dt=ln((y+1)^2) OSOA: P1(0,0) izar ezegonkorra (lambda=2 bik.), P4(-2,-2) izar egonkorra (lambda=-2 bik.), P2/P3 zela (lambda=+-2); x=-1,y=-1 singularrak; jakobiarra diag(2/(x+1),2/(y+1)). (2) dx/dt=y-y^3, dy/dt=x-x^2 hasita (6 oreka, 0136-n... EZ, 0136 beste sistema bat da; jarraipena beste orri batean). Fase-erretratua (sistema 1). SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "es/eu"
     }
@@ -5418,7 +5389,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 136. unitatea (METMATCG01_0136, IMG_2025_07_12_12_29_18S.jpg): sistema dx/dt=y^2-x^2-x, dy/dt=-y+2xy. Lau oreka: P1(0,0) izar egonkorra (lambda=-1 bik.), P2(-1,0), P3(1/2,sqrt3/2), P4(1/2,-sqrt3/2) zela (lambda=1,-3); jakobiarra (-2x-1,2y;2y,2x-1). Autobektoreak SymPy-z. Fase-erretratua. SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "es/eu"
     }
@@ -5506,7 +5477,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 137. unitatea (METMATCG01_0137, IMG_2025_07_12_12_29_35S.jpg; «DIAGRAMA DE FASE, 29/10/2015»): sistema dx/dt=y-1+x^2, dy/dt=-x^2+1+y. P1(1,0) kiribil ezegonkorra (lambda=(3+-sqrt7 i)/2, Re=3/2>0), P2(-1,0) zela (lambda=(-1+-sqrt17)/2); jakobiarra (2x,1;-2x,1). Fase-erretratua. SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "es/eu"
     }
@@ -5578,7 +5549,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 138. unitatea (METMATCG01_0138, IMG_2025_07_12_12_29_42S.jpg; «2013 EKAINEKO 4A» azterketa-ariketa): sistema dx/dt=(x^2+2)cos y sin y, dy/dt=x cosh x. Orekak x=0 (cosh x>0) & sin2y=0; P1(0,0) zela (lambda=±sqrt2, autobektoreak (sqrt2,1),(sqrt2,-1)), P2(0,pi/2) zentroa (lambda=±i sqrt2). Sistema R(x,y)=(-x,y)-rekiko itzulgarria eta P2 x=0 ardatzean → benetako zentro ez-lineala (ez linealaren emaitza soila). Fase-erretratua (A streamplot + B CeTZ). SymPy-z egiaztatua; zuzenketa txiki bat mentzioarekin (lambda1-en 1. ekuazioa -sqrt2·a+2b, ez -2b; emaitza berdina). Konfiantza altua",
      "hizkuntza": "es/eu"
     }
@@ -5650,7 +5621,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 139. unitatea (METMATCG01_0139, IMG_2025_07_12_12_29_52S.jpg; «DIAGRAMA DE FASE», 8. ariketa): sistema dx/dt=y-y^3, dy/dt=-x-y^2. HIRU oreka: A(0,0) zentroa (lambda=±i), B(-1,1) zela (lambda=-1±√3), C(-1,-1) zela (lambda=1±√3); jakobiarra (0,1-3y^2;-1,-2y). Sistema R(x,y)=(x,-y)-rekiko itzulgarria → A benetako zentro ez-lineala. Fase-erretratua (A streamplot + B CeTZ). SymPy-z egiaztatua, zuzenketarik gabe. Konfiantza altua",
      "hizkuntza": "es/eu"
     }
@@ -5732,7 +5703,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 140. unitatea (METMATCG01_0140, IMG_2025_07_12_12_29_58S.jpg; «DIAGRAMA DE FASE, MÉTODOS, 29/10/2015», «INVENTO»): sistema dx/dt=x(1-y), dy/dt=y(1-x). Orekak P1(0,0) nodo izar ezegonkorra (J=I, lambda=1 m=2) eta P2(1,1) zela (lambda=±1, autobektoreak (1,-1) ezeg./(1,1) egonk.); jakobiarra (1-y,-x;-y,1-x). x=y diagonala aldaezina (lotura heteroklinoa). Aparteko sistema txikia dx/dt=y-1,dy/dt=-x+1: (1,1) zentroa. Fase-erretratua (A streamplot + B CeTZ). SymPy-z egiaztatua, zuzenketarik gabe. Konfiantza altua",
      "hizkuntza": "es/eu"
     }
@@ -5808,7 +5779,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 141. unitatea (METMATCG01_0141, IMG_2025_07_12_12_30_13S.jpg): BI sistema. (1) dx/dt=y-1+x, dy/dt=-x+1+y: (1,0) kiribil ezegonkorra (lambda=1±i). (2) dx/dt=y^2-1+x, dy/dt=-x^2+1+y: LAU oreka. ⚠ ZUZENKETA: autoreak -y^3+2y+1 gaizki faktorizatu zuen ((y+1)(y^2+y-1), erroak (-1±√5)/2, x=y) eta «FAIL» idatzi; zuzena (y+1)(y^2-y-1), erroak (1±√5)/2, x=-y. Oreka zuzenak: P1(1,0),P2(0,-1) nodo inpropio ezegonkorrak (lambda=1 bik.), P3(-(1+√5)/2,(1+√5)/2)/P4((-1+√5)/2,(1-√5)/2) zelak. Fase-erretratua (A+B) sistema 2rako. SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "es/eu"
     }
@@ -5904,7 +5875,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 142. unitatea (METMATCG01_0142, IMG_2025_07_12_12_30_30S.jpg; «METODOAK», 16/12/2014): sistema dx/dt=2y+3y^2, dy/dt=2x+3x^2 (= 0125 unitatea; hemen LEHEN INTEGRALA). Lau oreka: A(0,0),D(-2/3,-2/3) zelak (lambda=±2), B(0,-2/3),C(-2/3,0) zentroak (lambda=±2i); jakobiarra (0,2+6y;2+6x,0). SISTEMA KONTSERBATIBOA: H=y^3+y^2-x^3-x^2 lehen integrala (Hdot=0), H=(y-x)(x^2+xy+y^2+x+y). Fase-erretratua (A+B). SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "eu/es"
     }
@@ -5997,7 +5968,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 143. unitatea (METMATCG01_0143, IMG_2025_07_12_12_30_37S.jpg): BI zati. (goia) Wolfram StreamPlot[{2y+3y^2,2x+3x^2},{x,-2,2},{y,-2,2}] = 0142/0125 sistemaren egiaztapena. (behea) serie bidezko ebazpena x=0 puntu arruntean: ODE erreala (x^2+x+1)y''-(x^2+3x+2)y'+(x+2)y=0 (etiketak zeinu-akatsak; garapena zuzena). Errekurrentziak a2=a1-a0, 6a3=2a2+a1-a0, a4=a2/6; bi soluzio y1=1+x, y2=x·e^x. SymPy-z egiaztatua (biek ODEa betetzen dute). Konfiantza altua",
      "hizkuntza": "es/eu"
     }
@@ -6087,7 +6058,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 144. unitatea (METMATCG01_0144, IMG_2025_07_12_12_30_48S.jpg; «2013 EKAINA 2A»): BI problema. (1) EDO zehatza [-3x+7xy+14y-y^2(1+1/x)-6]dx+[7x-2y]dy=0; faktore integratzailea mu=x·e^x ((Py-Qx)/Q=1+1/x), soluzioa x·e^x(7xy-y^2-3x)=C (1.25.2/1.25.3 taulak). (2) Fase-sistema xdot=y, ydot=-x^3-2x^2+x+2=-(x+2)(x+1)(x-1): P1(-2,0) zentroa (lambda=±i√3), P2(-1,0) zela (lambda=±√2), P3(1,0) zentroa (lambda=±i√6); Hamiltondarra (H=y^2/2+x^4/4+2x^3/3-x^2/2-2x), itzulgarria. Fase-erretratua (A+B). SymPy-z egiaztatua. Konfiantza altua",
      "hizkuntza": "eu/es"
     }
@@ -6186,7 +6157,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 160. unitatearen A zatia (METMATCG01_0160_A, IMG_2025_07_12_12_34_30S.jpg; 20/9/2014): «orbitak geometrikoak» irakurketa zalantzazkoaren azpiko bi eskema. (x-x0)^2+(y-y0)^2=R^2 eta (x-A)^2+y^2=B^2 zirkunferentziak; zirkulu gainjarriak zerrenda batean eta kanpoko kurba baten barruko bi begizta. Ez dago sistema diferentzialik edo noranzko-gezirk: geometria ikusgaia soilik kontserbatu da, fase-erretratu zehatzik asmatu gabe. CeTZ kalko editorial deklaratua. Konfiantza ertain-altua",
      "hizkuntza": "eu/es"
     }
@@ -6437,7 +6408,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
    "blokeak": [
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 119. unitatea (METMATCG01_0119, IMG_2025_07_12_12_26_20S.jpg): integral(sin^m theta cos^n theta) motako integralen metodoa, berretzaileen paritatearen arabera (par/bakoiti eta bakoiti/bakoiti -> ordezkapena; par/par -> angelu bikoitzaren formulak), adibideekin (int sin^2 cos^5, sin^3 cos^5, sin^2 cos^2, sin^3, cos^3, sin^4, cos^4). SymPy-z egiaztatua; zuzenketa BAT mentzioarekin (int sin^3 theta = cos^3 theta/3 - cos theta; paperak zeinua alderantziz). Konfiantza altua",
      "hizkuntza": "es/eu"
     }
@@ -6539,7 +6510,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/06_metodos_matematicos/met mat/CG-01 (carpeta_grande)/",
+     "proiektua": "CG-01 (carpeta_grande)",
      "xehetasuna": "CG-01, 120. unitatea (METMATCG01_0120, IMG_2025_07_12_12_26_27S.jpg; «ESFERA-PARABOLOIDE»): kalkulu bektoriala — F=(x,y,z)-ren FLUXUA z=a^2-x^2-y^2 (z>=0) paraboloidearen gainean. Parametrizazioa x=a sin(theta)cos(phi), y=a sin(theta)sin(phi), z=a^2 cos^2(theta); dS=r_theta x r_phi; F·dS=a^4(2 sin^3 cos + sin cos^3); emaitza 3 pi a^4 / 2. SymPy-z egiaztatua. Gai-aldetik kalkulu bektoriala (birbideraketa-hautagai). Konfiantza altua",
      "hizkuntza": "es/eu"
     }

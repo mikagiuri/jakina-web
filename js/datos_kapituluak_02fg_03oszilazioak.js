@@ -30,7 +30,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
   },
   {
    "mota": "iturria",
-   "proiektua": "_historico/espazio-ontzia/04_fisica_general/LEHEN LAUHILABETEA/8 OSZILAZIOAK ETA UHINAK/",
+   "proiektua": "8 OSZILAZIOAK ETA UHINAK",
    "xehetasuna": "FISIKA OROKORRA, UPV/EHU (Zientzia eta Teknologia Fakultatea), irakasgai-apunteak 2012-2014; 8. gaia (oszilazioak eta uhinak), M16k erabilitako iturri berbera",
    "hizkuntza": "eu"
   }
@@ -1387,7 +1387,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
+     "proiektua": "DEMIDOVICH PROBLEMAS Y EJERCICIOS DE ANALISIS MATEMATICO ESPAÑOL.pdf",
      "xehetasuna": "V. kap., 12. atala; inprimatutako 184--188. or.; 1753. aplikazioak",
      "hizkuntza": "es/eu"
     },
@@ -2377,10 +2377,6 @@ KAPITULUAK["02fg_03oszilazioak"] = {
     {
      "mota": "testua",
      "html": "Emaitza hori bat dator jatorrizko eskuzko emaitzarekin."
-    },
-    {
-     "mota": "testua",
-     "html": ".update(0)"
     },
     {
      "mota": "iturria",

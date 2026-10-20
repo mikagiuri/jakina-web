@@ -45,8 +45,8 @@ KAPITULUAK["02k1_01kimika"] = {
   },
   {
    "mota": "iturria",
-   "proiektua": "KIMIKA II (UPV/EHU-ZTF irakas-paketea, 2012-2014)",
-   "xehetasuna": "_historico/espazio-ontzia/05_kimika/ariketak_azterketak/KIMIKA II/ — gardenkiak eta ariketa-orriak, euskaraz; katalogoa: _historico/espazio-ontzia/05_kimika/CATALOGO_B5_KIMIKA.md",
+   "proiektua": "EHU-ZTF irakas-paketea, 2012-2014)",
+   "xehetasuna": "05_kimika/ariketak_azterketak/KIMIKA II/ — gardenkiak eta ariketa-orriak, euskaraz; katalogoa: _historico/espazio-ontzia/05_kimika/CATALOGO_B5_KIMIKA.md",
    "hizkuntza": "eu"
   }
  ],

@@ -7,12 +7,7 @@ KAPITULUAK["04em_02erradiazioa"] = {
  "azala": "B08.2 - Griffiths 9-12 eta M24 Optika",
  "azpititulua": "III. aroa - L2",
  "iturburua": "kapituluak/04em_02erradiazioa/04em_02erradiazioa.typ",
- "sarrera": [
-  {
-   "mota": "testua",
-   "html": ".update(8)"
-  }
- ],
+ "sarrera": [],
  "atalak": [
   {
    "id": "a1",
@@ -1826,10 +1821,6 @@ KAPITULUAK["04em_02erradiazioa"] = {
     {
      "mota": "testua",
      "html": "<em>\n  Kapitulu honek uhin elektromagnetikoak garatzen ditu — uhin-ekuazioa, hutseko uhin lauak, hedapena materian, islapena/transmisioa eta xurgapena eroaleetan — CeTZ marrazki originalak erabiliz, JAKINArako euskaratua. </em>"
-    },
-    {
-     "mota": "testua",
-     "html": ".update(9)"
     }
    ]
   },
@@ -3418,10 +3409,6 @@ KAPITULUAK["04em_02erradiazioa"] = {
     {
      "mota": "testua",
      "html": "<em>\n  Kapitulu honek elektrodinamikaren formulazio potentziala garatzen du — gauge-askatasuna, potentzial atzeratuak, Jefimenko-ren ekuazioak eta karga puntual higidun baten Liénard–Wiechert-en potentzialak — CeTZ marrazki originalak erabiliz, JAKINArako euskaratua. </em>"
-    },
-    {
-     "mota": "testua",
-     "html": ".update(10)"
     }
    ]
   },
@@ -5177,10 +5164,6 @@ KAPITULUAK["04em_02erradiazioa"] = {
     {
      "mota": "testua",
      "html": "<em>\n  Kapitulu honek erradiazioaren teoria garatzen du — dipolo-erradiazioa (elektrikoa eta magnetikoa), karga puntual azeleratuentzako Larmor-en formula eta erradiazio-erreakzioa — CeTZ marrazki originalak erabiliz, JAKINArako euskaratua. </em>"
-    },
-    {
-     "mota": "testua",
-     "html": ".update(11)"
     }
    ]
   },
@@ -9293,7 +9276,7 @@ KAPITULUAK["04em_02erradiazioa"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/10_fisika_modernoa/fisika_modernoa/AAA_TEXES_fismotex/MASTERFISMOTex/MASTERFISMOtex.pdf",
+     "proiektua": "MASTERFISMOtex.pdf",
      "xehetasuna": "Mikel Aguirre, erabiltzailearena %100; 7. atala (uhinen ekuazioa, interferentzia, Young)",
      "hizkuntza": "es"
     }
@@ -9570,7 +9553,7 @@ KAPITULUAK["04em_02erradiazioa"] = {
     },
     {
      "mota": "iturria",
-     "proiektua": "fuentes_originales/10_fisika_modernoa/fismoderna_analizaryextraer/",
+     "proiektua": "fismoderna_analizaryextraer",
      "xehetasuna": "Mikel Aguirre, erabiltzailearena %100; interferentzia anitza, sareta bidezko difrakzioa eta X izpien difrakzioa kristaletan",
      "hizkuntza": "es"
     }
