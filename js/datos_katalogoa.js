@@ -87,7 +87,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "01mc_04funtzioserieak": {
   "titulua": "JAKINA - B3 - Kalkulua eta analisia - III",
@@ -95,7 +95,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "01mc_05bektoriala": {
   "titulua": "JAKINA - B3 - Kalkulua eta analisia - IV",
@@ -103,7 +103,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "01mc_06ebazpenak": {
   "titulua": "JAKINA - B3 - Kalkulua eta analisia - V",
@@ -111,7 +111,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "01mz_01konplexuak": {
   "titulua": "JAKINA - B3 - Kalkulua eta analisia - VI",
@@ -119,7 +119,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "02fg_01partikula": {
   "titulua": "JAKINA - B04A.1 - M16 Mekanika",
@@ -127,7 +127,7 @@ const KATALOGOA = {
   "azpititulua": "II. aroa - L1",
   "aroa": "II",
   "maila": "L1",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "02fg_03oszilazioak": {
   "titulua": "JAKINA - B04A.2 - M17 Oszilazioak eta uhinak",
@@ -135,7 +135,7 @@ const KATALOGOA = {
   "azpititulua": "II. aroa - L1",
   "aroa": "II",
   "maila": "L1",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "02fg_04elektromagnetismoa": {
   "titulua": "JAKINA - B04B.1 - Elektromagnetismoaren oinarria eta F1",
@@ -143,7 +143,7 @@ const KATALOGOA = {
   "azpititulua": "II. aroa - L1",
   "aroa": "II",
   "maila": "L1",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "02fg_05optika": {
   "titulua": "JAKINA - B04B.2 - Landeta2 eta M18 Optika",
@@ -151,7 +151,7 @@ const KATALOGOA = {
   "azpititulua": "II. aroa - L1",
   "aroa": "II",
   "maila": "L1",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "02k1_01kimika": {
   "titulua": "JAKINA - B5 - Kimika",
@@ -159,7 +159,7 @@ const KATALOGOA = {
   "azpititulua": "II. aroa - L1",
   "aroa": "II",
   "maila": "L1",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "02td_01termodinamika": {
   "titulua": "JAKINA - B7 - Termodinamika",
@@ -175,7 +175,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "03mm_01goiordena": {
   "titulua": "JAKINA - B6 - Metodo matematikoak - 2/9",
@@ -183,7 +183,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "03mm_02laplace": {
   "titulua": "JAKINA - B6 - Metodo matematikoak - 3/9",
@@ -191,7 +191,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "03mm_02serieak": {
   "titulua": "JAKINA - B6 - Metodo matematikoak - 4/9",
@@ -199,7 +199,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "03mm_03ezlinealak": {
   "titulua": "JAKINA - B6 - Metodo matematikoak - 5/9",
@@ -207,7 +207,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "03mm_04sturm": {
   "titulua": "JAKINA - B6 - Metodo matematikoak - 6/9",
@@ -223,7 +223,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "03mm_06probabilitatea": {
   "titulua": "JAKINA - B6 - Metodo matematikoak - 8/9",
@@ -231,7 +231,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "03mm_07estatistika": {
   "titulua": "JAKINA - B6 - Metodo matematikoak - 9/9",
@@ -239,7 +239,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "03mm_08kaosa": {
   "titulua": "JAKINA - B6 - Metodo matematikoak - Eranskina",
@@ -247,7 +247,7 @@ const KATALOGOA = {
   "azpititulua": "I. aroa - Tresnak",
   "aroa": "I",
   "maila": "Tresnak",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "04em_01elektrodinamika": {
   "titulua": "JAKINA - B08.1 - M23 Griffiths 2-8",
@@ -255,7 +255,7 @@ const KATALOGOA = {
   "azpititulua": "III. aroa - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "04em_02erradiazioa": {
   "titulua": "JAKINA - B08.2 - Griffiths 9-12 eta M24 Optika",
@@ -263,7 +263,7 @@ const KATALOGOA = {
   "azpititulua": "III. aroa - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "05mk_01kontzeptuak": {
   "titulua": "JAKINA - B9 - Mekanika klasikoa - 1/10",
@@ -271,7 +271,7 @@ const KATALOGOA = {
   "azpititulua": "III. aroa - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "05mk_02higiduraerl": {
   "titulua": "JAKINA - B9 - Mekanika klasikoa - 2/10",
@@ -279,7 +279,7 @@ const KATALOGOA = {
   "azpititulua": "III. aroa - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "05mk_03erlatibitatea": {
   "titulua": "JAKINA - B9 - Mekanika klasikoa - 3/10",
@@ -327,7 +327,7 @@ const KATALOGOA = {
   "azpititulua": "III. aroa - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "05mk_09uhinak": {
   "titulua": "JAKINA - B9 - Mekanika klasikoa - 9/10",
@@ -343,7 +343,7 @@ const KATALOGOA = {
   "azpititulua": "III. aroa - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "06fm_01kuantika": {
   "titulua": "JAKINA - B10.1 - M26 Fisika kuantikoa",
@@ -351,7 +351,7 @@ const KATALOGOA = {
   "azpititulua": "IV. aroa - L2",
   "aroa": "IV",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "07fe_01estatistikoa": {
   "titulua": "JAKINA - B10.2 - M27 Fisika estatistikoa",
@@ -359,7 +359,7 @@ const KATALOGOA = {
   "azpititulua": "IV. aroa - L2",
   "aroa": "IV",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "09zz_01programazioa": {
   "titulua": "JAKINA - B10.3 - M28 Programazioa eta algoritmoak",
@@ -367,7 +367,7 @@ const KATALOGOA = {
   "azpititulua": "IV. aroa - TRESNAK",
   "aroa": "IV",
   "maila": "TRESNAK",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "09zz_02eranskinak": {
   "titulua": "JAKINA - Eranskinak",
@@ -375,6 +375,6 @@ const KATALOGOA = {
   "azpititulua": "Formulak eta kontsulta-materiala",
   "aroa": null,
   "maila": null,
-  "eskuragarri": false
+  "eskuragarri": true
  }
 };

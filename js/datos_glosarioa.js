@@ -1523,5 +1523,954 @@ const GLOSARIOA = [
   ],
   "kapitulua": "01mc_02funtzioak",
   "atala": "a57"
+ },
+ {
+  "t": "Partizioa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> tartearen partizioa puntu ordenatuen multzo finitu bat da: <math display=\"block\"><mrow><mi>p</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>a</mi><mo>=</mo><msub><mi>x</mi><mn>0</mn></msub><mo>&lt;</mo><msub><mi>x</mi><mn>1</mn></msub><mo>&lt;</mo><mi>…</mi><mo>&lt;</mo><msub><mi>x</mi><mi>n</mi></msub><mo>=</mo><mi>b</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mi>.</mi></mrow></math> <math display=\"inline\"><mi>q</mi></math> partizioak <math display=\"inline\"><mi>p</mi></math>-ren puntu guztiak baditu, <math display=\"inline\"><mi>q</mi></math> <math display=\"inline\"><mi>p</mi></math>-ren <strong>fintze</strong> bat da."
+   }
+  ],
+  "kapitulua": "01mc_03integralak",
+  "atala": "a2"
+ },
+ {
+  "t": "Darbouxen integralak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>P</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> partizio guztien multzoa izanik, <math display=\"block\"><mrow><msub><mi>I</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><mrow><mi mathvariant=\"normal\">sup</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>s</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>p</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>:</mo><mi>p</mi><mo>∈</mo><mi>P</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><msup><mi>I</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo>=</mo><mrow><mi mathvariant=\"normal\">inf</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>S</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>p</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>:</mo><mi>p</mi><mo>∈</mo><mi>P</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mi>.</mi></mrow></math> <math display=\"inline\"><mi>f</mi></math> Riemannen zentzuan integragarria da <math display=\"inline\"><mrow><msub><mi>I</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><msup><mi>I</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></mrow></math> denean; balio komun hori <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math> da."
+   }
+  ],
+  "kapitulua": "01mc_03integralak",
+  "atala": "a2"
+ },
+ {
+  "t": "Beheko eta goiko baturak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>f</mi></math>-ren <strong>beheko batura</strong> eta <strong>goiko batura</strong>, <math display=\"inline\"><mi>P</mi></math> partizioarekiko, hurrenez hurren hauek dira:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>L</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msub><mi>m</mi><mi>i</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi mathvariant=\"normal\">Δ</mi><msub><mi>t</mi><mi>i</mi></msub><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msub><mi>M</mi><mi>i</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi mathvariant=\"normal\">Δ</mi><msub><mi>t</mi><mi>i</mi></msub><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Beti <math display=\"inline\"><mrow><mi>L</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, azpitarte bakoitzean <math display=\"inline\"><mrow><msub><mi>m</mi><mi>i</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><msub><mi>M</mi><mi>i</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> delako."
+   }
+  ],
+  "kapitulua": "01mc_03integralak",
+  "atala": "a2"
+ },
+ {
+  "t": "Darboux-en integral behekoa, goikoa eta integragarritasuna",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Partizio guztien gainean defini ditzagun"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>I</mi><mrow><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><munder><mi mathvariant=\"normal\">sup</mi><mi>P</mi></munder><mi>L</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>I</mi><mo>+</mo></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><munder><mi mathvariant=\"normal\">inf</mi><mi>P</mi></munder><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "1. teoremak <math display=\"inline\"><mrow><msub><mi>I</mi><mrow><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>≤</mo><msub><mi>I</mi><mo>+</mo></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> bermatzen du. Bi zenbakiak berdinak direnean, <math display=\"inline\"><mi>f</mi></math> <strong>Riemann-integragarria</strong> dela esaten dugu, eta balio komuna"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "idazten dugu. Aurreko adibideetan, konstantearen integrala <math display=\"inline\"><mrow><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo>−</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> da; Dirichlet-en funtzioak, aldiz, ez du integralik definizio honetan."
+   }
+  ],
+  "kapitulua": "01mc_03integralak",
+  "atala": "a2"
+ },
+ {
+  "t": "Logaritmo nepertarra",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>x</mi><mo>&gt;</mo><mn>0</mn></mrow></math> orotarako, <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>≔</mo><msubsup><mo>∫</mo><mn>1</mn><mi>x</mi></msubsup><mfrac><mn>1</mn><mi>t</mi></mfrac><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01mc_03integralak",
+  "atala": "a2"
+ },
+ {
+  "t": "Esponentziala",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">exp</mi><mo>&#8289;</mo></mrow><mo>≔</mo><msup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mi>−</mi><mn>1</mn></mrow></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> hots </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"1.0em\"></mspace><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>y</mi><mo>⇔</mo><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">exp</mi><mo>&#8289;</mo></mrow><mi>y</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01mc_03integralak",
+  "atala": "a2"
+ },
+ {
+  "t": "Esponentzial orokorra",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msup><mi>a</mi><mi>x</mi></msup><mo>≔</mo><msup><mi>e</mi><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>a</mi></mrow></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>a</mi><mo>&gt;</mo><mn>0</mn><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01mc_03integralak",
+  "atala": "a2"
+ },
+ {
+  "t": "Tarte ez-bornatuko integrala",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>∞</mi></msubsup><mi>f</mi><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></munder><msubsup><mo>∫</mo><mi>a</mi><mi>t</mi></msubsup><mi>f</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><msubsup><mo>∫</mo><mrow><mi>−</mi><mi>∞</mi></mrow><mi>b</mi></msubsup><mi>f</mi><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>t</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></munder><msubsup><mo>∫</mo><mi>t</mi><mi>b</mi></msubsup><mi>f</mi><mi>.</mi></mrow></math> <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mi>∞</mi></mrow><mi>∞</mi></msubsup><mi>f</mi></mrow></math> integrala definitzeko bi isatsek bereizita konbergitu behar dute; ezin da, oro har, <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></munder><msubsup><mo>∫</mo><mrow><mi>−</mi><mi>t</mi></mrow><mi>t</mi></msubsup><mi>f</mi></mrow></math>-rekin ordezkatu."
+   }
+  ],
+  "kapitulua": "01mc_03integralak",
+  "atala": "a5"
+ },
+ {
+  "t": "Muturreko singularitatea",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>f</mi></math> integragarria bada <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>+</mo><mi>ε</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> guztietan, <math display=\"inline\"><mrow><mi>ε</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, baina <math display=\"inline\"><mi>a</mi></math> puntuan bornatu gabea bada, orduan <math display=\"block\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>≔</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>t</mi><mo>→</mo><msup><mi>a</mi><mo>+</mo></msup></mrow></munder><msubsup><mo>∫</mo><mi>t</mi><mi>b</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mi>.</mi></mrow></math> Antzera, singularitatea <math display=\"inline\"><mi>b</mi></math>-n badago, <math display=\"block\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>≔</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>t</mi><mo>→</mo><msup><mi>b</mi><mo>−</mo></msup></mrow></munder><msubsup><mo>∫</mo><mi>a</mi><mi>t</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>."
+   }
+  ],
+  "kapitulua": "01mc_03integralak",
+  "atala": "a5"
+ },
+ {
+  "t": "Konbergentzia-eremua",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msub><mi>f</mi><mi>n</mi></msub><mo>:</mo><mi>I</mi><mo>→</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math> funtzio-segida baterako, <math display=\"block\"><mrow><mi>D</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>x</mi><mo>∈</mo><mi>I</mi><mo>:</mo><mo>∃</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><msub><mi>f</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∈</mo><mi mathvariant=\"double-struck\">ℝ</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> da <strong>konbergentzia-eremua</strong>. <math display=\"inline\"><mrow><mi>x</mi><mo>∈</mo><mi>D</mi></mrow></math> bada, <math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≔</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><msub><mi>f</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> definitzen da."
+   }
+  ],
+  "kapitulua": "01mc_04funtzioserieak",
+  "atala": "a2"
+ },
+ {
+  "t": "Konbergentzia puntuala",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msub><mi>f</mi><mi>n</mi></msub><mo>→</mo><mi>f</mi></mrow></math> puntuz puntu <math display=\"inline\"><mi>D</mi></math>-n baldin eta <math display=\"block\"><mrow><mo>∀</mo><mi>x</mi><mo>∈</mo><mi>D</mi><mo>,</mo><mo>∀</mo><mi>ε</mi><mo>&gt;</mo><mn>0</mn><mo>,</mo><mo>∃</mo><msub><mi>n</mi><mn>0</mn></msub><mo>=</mo><msub><mi>n</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mo>,</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>:</mo><mo>∀</mo><mi>n</mi><mo>≥</mo><msub><mi>n</mi><mn>0</mn></msub><mo>,</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>f</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&lt;</mo><mi>ε</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01mc_04funtzioserieak",
+  "atala": "a2"
+ },
+ {
+  "t": "Konbergentzia uniformea",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msub><mi>f</mi><mi>n</mi></msub><mo>→</mo><mi>f</mi></mrow></math> uniformeki <math display=\"inline\"><mi>D</mi></math>-n baldin eta <math display=\"block\"><mrow><mo>∀</mo><mi>ε</mi><mo>&gt;</mo><mn>0</mn><mo>,</mo><mo>∃</mo><msub><mi>n</mi><mn>0</mn></msub><mo>=</mo><msub><mi>n</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>:</mo><mo>∀</mo><mi>x</mi><mo>∈</mo><mi>D</mi><mo>,</mo><mo>∀</mo><mi>n</mi><mo>≥</mo><msub><mi>n</mi><mn>0</mn></msub><mo>,</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>f</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&lt;</mo><mi>ε</mi><mi>.</mi></mrow></math> Indizea <math display=\"inline\"><mi>ε</mi></math>-en araberakoa izan daiteke, baina ez <math display=\"inline\"><mi>x</mi></math>-en araberakoa."
+   }
+  ],
+  "kapitulua": "01mc_04funtzioserieak",
+  "atala": "a2"
+ },
+ {
+  "t": "Bi konbergentzia motak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msub><mi>f</mi><mi>n</mi></msub><mo>→</mo><mi>f</mi></mrow></math> puntuz puntu <math display=\"inline\"><mi>D</mi></math>-n baldin eta <math display=\"inline\"><mrow><mo>∀</mo><mi>x</mi><mo>∈</mo><mi>D</mi><mo>,</mo><mo>∀</mo><mi>ε</mi><mo>&gt;</mo><mn>0</mn><mo>,</mo><mo>∃</mo><msub><mi>n</mi><mn>0</mn></msub><mo>=</mo><msub><mi>n</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>ε</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> non <math display=\"inline\"><mrow><mi>n</mi><mo>≥</mo><msub><mi>n</mi><mn>0</mn></msub></mrow></math> denean <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>f</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&lt;</mo><mi>ε</mi></mrow></math>."
+   },
+   {
+    "mota": "testua",
+    "html": "Konbergentzia <strong>uniformea</strong> da <math display=\"inline\"><mrow><msub><mi>n</mi><mn>0</mn></msub><mo>=</mo><msub><mi>n</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> bera <math display=\"inline\"><mrow><mi>x</mi><mo>∈</mo><mi>D</mi></mrow></math> puntu guztietarako erabil badaiteke. Baliokidez, <math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">∥</mo><msub><mi>f</mi><mi>n</mi></msub><mo>−</mo><mi>f</mi><mo stretchy=\"true\" form=\"postfix\">∥</mo></mrow><mi>∞</mi></msub><mo>→</mo><mn>0</mn></mrow></math>."
+   }
+  ],
+  "kapitulua": "01mc_04funtzioserieak",
+  "atala": "a2"
+ },
+ {
+  "t": "Funtzio-serie baten konbergentzia",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msub><mi>f</mi><mi>n</mi></msub><mo>:</mo><mi>I</mi><mo>→</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math> izanik, <math display=\"inline\"><mrow><msubsup><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mi>∞</mi></msubsup><msub><mi>f</mi><mi>n</mi></msub></mrow></math> seriearen batura partzialak <math display=\"inline\"><mrow><msub><mi>S</mi><mi>N</mi></msub><mo>=</mo><msub><mi>f</mi><mn>1</mn></msub><mo>+</mo><mi>…</mi><mo>+</mo><msub><mi>f</mi><mi>N</mi></msub></mrow></math> dira. Seriea puntuz puntu konbergentea da <math display=\"inline\"><mrow><mi>D</mi><mo>⊂</mo><mi>I</mi></mrow></math> multzoan <math display=\"inline\"><mrow><msub><mi>S</mi><mi>N</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-k limite finitua duenean <math display=\"inline\"><mrow><mi>x</mi><mo>∈</mo><mi>D</mi></mrow></math> guztietarako."
+   }
+  ],
+  "kapitulua": "01mc_04funtzioserieak",
+  "atala": "a3"
+ },
+ {
+  "t": "Konbergentzia puntuala",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msubsup><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mi>∞</mi></msubsup><msub><mi>f</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzio-serieak <math display=\"inline\"><mrow><mi>S</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-ra <strong>puntualki</strong> konbergitzen du <math display=\"inline\"><mi>D</mi></math>-n, batura partzialen segida <math display=\"inline\"><mrow><msub><mi>S</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> <math display=\"inline\"><mrow><mi>S</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-ra konbergitzen badu, hots <math display=\"block\"><mrow><mo>∀</mo><mi>x</mi><mo>∈</mo><mi>D</mi><mo>:</mo><mspace width=\"1.0em\"></mspace><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><msub><mi>S</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>S</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01mc_04funtzioserieak",
+  "atala": "a3"
+ },
+ {
+  "t": "Konbergentzia uniformea",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mo>∑</mo><msub><mi>f</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-k <math display=\"inline\"><mrow><mi>S</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-ra <strong>uniformeki</strong> konbergitzen du <math display=\"inline\"><mi>D</mi></math>-n, baldin <math display=\"inline\"><mrow><mo>∀</mo><mi>ε</mi><mo>&gt;</mo><mn>0</mn></mrow></math> badago <math display=\"inline\"><msub><mi>n</mi><mn>0</mn></msub></math> (bera <math display=\"inline\"><mi>x</mi></math> guztietarako balio duena) non <math display=\"inline\"><mrow><mo>∀</mo><mi>n</mi><mo>≥</mo><msub><mi>n</mi><mn>0</mn></msub></mrow></math> eta <math display=\"inline\"><mrow><mo>∀</mo><mi>x</mi><mo>∈</mo><mi>D</mi></mrow></math>: <math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi>S</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msub><mi>S</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mo accent=\"false\">∞</mo></munderover><msub><mi>f</mi><mi>k</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&lt;</mo><mi>ε</mi><mi>.</mi></mrow></math> Hondarra seriaren isatsa da: <math display=\"inline\"><mrow><mi>S</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msub><mi>S</mi><mi>n</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mi>∞</mi></msubsup><msub><mi>f</mi><mi>k</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+   }
+  ],
+  "kapitulua": "01mc_04funtzioserieak",
+  "atala": "a3"
+ },
+ {
+  "t": "eremu edo eskualde elementalak",
+  "blokeak": [
+   {
+    "mota": "zerrenda",
+    "ordenatua": true,
+    "elementuak": [
+     "Izan bitez <math display=\"inline\"><mrow><msub><mi>ϕ</mi><mn>1</mn></msub><mo>,</mo><msub><mi>ϕ</mi><mn>2</mn></msub><mo>:</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>→</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math> funtzio jarraituak eta demagun <math display=\"inline\"><mrow><msub><mi>ϕ</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><msub><mi>ϕ</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> dela <math display=\"inline\"><mrow><mi>x</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> guztietarako. Orduan <math display=\"block\"><mrow><mi>D</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∈</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>2</mn></msup><mo>:</mo><mi>x</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>ϕ</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><mi>y</mi><mo>≤</mo><msub><mi>ϕ</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> <strong>1. motako eremua</strong> dela diogu.",
+     "Izan bitez <math display=\"inline\"><mrow><msub><mi>ψ</mi><mn>1</mn></msub><mo>,</mo><msub><mi>ψ</mi><mn>2</mn></msub><mo>:</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>c</mi><mo>,</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>→</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math> funtzio jarraituak, <math display=\"inline\"><mrow><msub><mi>ψ</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><msub><mi>ψ</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> izanik <math display=\"inline\"><mrow><mi>y</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>c</mi><mo>,</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> guztietarako. <math display=\"block\"><mrow><mi>D</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∈</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>2</mn></msup><mo>:</mo><mi>y</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>c</mi><mo>,</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>ψ</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><mi>x</mi><mo>≤</mo><msub><mi>ψ</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> <strong>2. motako eremua</strong> dela esaten da.",
+     "<math display=\"inline\"><mrow><mi>D</mi><mo>⊂</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>2</mn></msup></mrow></math>  <strong>3. motako eremua</strong> dela diogu baldin (i) eta (ii) motakoa bada."
+    ]
+   }
+  ],
+  "kapitulua": "01mc_05bektoriala",
+  "atala": "a58"
+ },
+ {
+  "t": "eskualde elementalak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Izan bedi <math display=\"inline\"><mrow><mi>W</mi><mo>⊂</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>3</mn></msup></mrow></math> bornatua."
+   },
+   {
+    "mota": "zerrenda",
+    "ordenatua": true,
+    "elementuak": [
+     "<math display=\"inline\"><mi>W</mi></math>  <strong>I motako eskualde elementala</strong> dela diogu baldin eta existitzen badira <math display=\"inline\"><mrow><mi>D</mi><mo>⊂</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>2</mn></msup></mrow></math> eskualde elementala eta <math display=\"inline\"><mrow><msub><mi>γ</mi><mn>1</mn></msub><mo>,</mo><msub><mi>γ</mi><mn>2</mn></msub><mo>:</mo><mi>D</mi><mo>→</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math> funtzio jarraituak non <math display=\"block\"><mrow><mi>W</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∈</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>3</mn></msup><mo>:</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∈</mo><mi>D</mi><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>γ</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><mi>z</mi><mo>≤</mo><msub><mi>γ</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mi>.</mi></mrow></math>",
+     "<math display=\"inline\"><mi>W</mi></math>  <strong>II motako eskualde elementala</strong> dela diogu baldin eta existitzen badira <math display=\"inline\"><mrow><mi>D</mi><mo>⊂</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>2</mn></msup></mrow></math> eskualde elementala eta <math display=\"inline\"><mrow><msub><mi>γ</mi><mn>1</mn></msub><mo>,</mo><msub><mi>γ</mi><mn>2</mn></msub><mo>:</mo><mi>D</mi><mo>→</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math> funtzio jarraituak non <math display=\"block\"><mrow><mi>W</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∈</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>3</mn></msup><mo>:</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∈</mo><mi>D</mi><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>γ</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><mi>x</mi><mo>≤</mo><msub><mi>γ</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mi>.</mi></mrow></math>",
+     "<math display=\"inline\"><mi>W</mi></math>  <strong>III motako eskualde elementala</strong> dela diogu baldin eta existitzen badira <math display=\"inline\"><mrow><mi>D</mi><mo>⊂</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>2</mn></msup></mrow></math> eskualde elementala eta <math display=\"inline\"><mrow><msub><mi>γ</mi><mn>1</mn></msub><mo>,</mo><msub><mi>γ</mi><mn>2</mn></msub><mo>:</mo><mi>D</mi><mo>→</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math> funtzio jarraituak non <math display=\"block\"><mrow><mi>W</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∈</mo><msup><mi mathvariant=\"double-struck\">ℝ</mi><mn>3</mn></msup><mo>:</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∈</mo><mi>D</mi><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>γ</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><mi>y</mi><mo>≤</mo><msub><mi>γ</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mi>.</mi></mrow></math>",
+     "<math display=\"inline\"><mi>W</mi></math>  <strong>IV motako eskualde elementala</strong> dela diogu baldin eta I, II eta III motakoa bada."
+    ]
+   }
+  ],
+  "kapitulua": "01mc_05bektoriala",
+  "atala": "a64"
+ },
+ {
+  "t": "Eulerren formula",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>θ</mi><mo>∈</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math> guztietarako, <math display=\"block\"><mrow><msup><mi>e</mi><mrow><mi>i</mi><mi>θ</mi></mrow></msup><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>+</mo><mi>i</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "01mz_01konplexuak",
+  "atala": "a3"
+ },
+ {
+  "t": "Indar kontserbatiboa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Indar bat <strong>kontserbatiboa</strong> da bi punturen arteko lana <strong>ibilbidearekiko independentea</strong> bada."
+   }
+  ],
+  "kapitulua": "02fg_01partikula",
+  "atala": "a35"
+ },
+ {
+  "t": "A) Kargaren kuantizazio-printzipioa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Gorputz baten karga <strong>karga minimo baten</strong> (edo <strong>oinarrizko kargaren</strong>) <strong>multiplo osoa</strong> da: <math display=\"block\"><mrow><mi>e</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>60</mn><mspace width=\"0.222em\"></mspace><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>19</mn></mrow></msup><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> coulomb</mtext></mrow><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02fg_01partikula",
+  "atala": "a37"
+ },
+ {
+  "t": "B) Kontserbazio-printzipioa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Sistema <strong>isolatu</strong> baten karga <strong>konstantea</strong> da."
+   }
+  ],
+  "kapitulua": "02fg_01partikula",
+  "atala": "a37"
+ },
+ {
+  "t": "Eremu elektrikoa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Kokatzen den edozein kargak indar elektriko bat jasaten duen eskualdea. Eremuak ez du <strong>era berean</strong> eragiten bere hedadura osoan: <strong>intentsitatea aldatu</strong> egiten da."
+   }
+  ],
+  "kapitulua": "02fg_01partikula",
+  "atala": "a39"
+ },
+ {
+  "t": "Indar zentralak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<strong>Indar zentralak</strong> beti zentro beretik igarotzen dira (adib. malgukia, grabitatea)."
+   }
+  ],
+  "kapitulua": "02fg_01partikula",
+  "atala": "a47"
+ },
+ {
+  "t": "Potentzial elektrikoa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Puntu bateko potentzial elektrikoa <strong>karga positiboaren unitatea</strong> (<math display=\"inline\"><mrow><mi>+</mi><mn>1</mn><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> C</mtext></mrow></mrow></math>) <strong>infinitutik puntu horretara</strong> eramateko egin behar den <strong>lana</strong> da, <strong>abiadura konstantez</strong> eta <strong>eremuaren aurka</strong> (<math display=\"inline\"><mrow><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>∞</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>)."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a9"
+ },
+ {
+  "t": "Energia potentziala",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><msub><mi>q</mi><mn>0</mn></msub></math> karga baten energia potentziala puntu batean, karga hori <strong>infinitutik</strong> puntu horretara <strong>abiadura konstantez</strong> eta <strong>eremuaren aurka</strong> eramateko lana da: <math display=\"block\"><mrow><msub><mi>E</mi><mi>p</mi></msub><mo>=</mo><msub><mi>q</mi><mn>0</mn></msub><mi>V</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a9"
+ },
+ {
+  "t": "Fluxu elektrikoa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Eremu uniforme eta gainazal lau baterako: <math display=\"block\"><mrow><mi mathvariant=\"normal\">Φ</mi><mo>=</mo><mover><mi>E</mi><mo accent=\"true\">→</mo></mover><mo>⋅</mo><mover><mi>A</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mspace width=\"1.0em\"></mspace><mover><mi>A</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mi>A</mi><mover><mi>n</mi><mo accent=\"true\">→</mo></mover><mo>,</mo></mrow></math> non <math display=\"inline\"><mover><mi>n</mi><mo accent=\"true\">→</mo></mover></math> gainazalaren <strong>normala</strong> den."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a12"
+ },
+ {
+  "t": "Kondentsadore laua",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<strong>Azalera bereko eta zeinu aurkako karga berdineko</strong> bi plaka paralelok osatzen dute. Plaken arteko distantzia haien tamainaren aldean <strong>txikia</strong> bada, plaken arteko eremua plano infinituek sortuko luketenaren berdina da."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a13"
+ },
+ {
+  "t": "Edukiera",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Plaken kargaren eta haien arteko potentzial-diferentziaren arteko zatidura."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a13"
+ },
+ {
+  "t": "Eramailea orekan",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Eramaile orekatuaren <strong>barnean eremurik ez</strong> (<math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mn>0</mn></mrow></math>); eremua <strong>gainazalean</strong> soilik. Eramailea <strong>bolumen ekipotentziala</strong> da (<math display=\"inline\"><mrow><mi>V</mi><mo>=</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> kte</mtext></mrow></mrow></math>)."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a13"
+ },
+ {
+  "t": "Erresistentzia, kapazitatea eta autoinduktantzia",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Erresistentzia lineal batean:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>R</mi><mo>=</mo><mfrac><mi>V</mi><mi>I</mi></mfrac><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Kondentsadore lineal batean:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>C</mi><mo>=</mo><mfrac><mi>Q</mi><mi>V</mi></mfrac><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Koadernoak kondentsadorearen alboan energia metatzeko ahalmenari buruzko ohar berde bat dauka; grafia ez da guztiz ziurra."
+   },
+   {
+    "mota": "testua",
+    "html": "Haril ideal batean, aldiuneko tentsioa:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>v</mi><mrow><mi>L</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><mi>L</mi><mfrac><mrow><mi>d</mi><mi>i</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "[CORREGIDO: jatorrizko grafiak ez du argi bereizten <math display=\"inline\"><mrow><mi>d</mi><mfrac><mi>I</mi><mi>d</mi></mfrac><mi>t</mi></mrow></math> eta <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mfrac><mi>I</mi><mi mathvariant=\"normal\">Δ</mi></mfrac><mi>t</mi></mrow></math>; lege konstitutibo diferentziala goiko adierazpena da, eta diferentzia finituko forma haren hurbilketa da.]"
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a21"
+ },
+ {
+  "t": "Erreaktantziak eta inpedantzia",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>X</mi><mi>L</mi></msub><mo>=</mo><mi>ω</mi><mi>L</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>X</mi><mi>C</mi></msub><mo>=</mo><mfrac><mn>1</mn><mrow><mi>ω</mi><mi>C</mi></mrow></mfrac><mo>,</mo></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>Z</mi><mo>=</mo><msqrt><mrow><msup><mi>R</mi><mn>2</mn></msup><mo>+</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>X</mi><mi>L</mi></msub><mo>−</mo><msub><mi>X</mi><mi>C</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a21"
+ },
+ {
+  "t": "Seinale sinusoidala eta erreaktantziak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Iturri sinusoidala honela idatz daiteke:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>V</mi><mn>0</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>ω</mi><mo>=</mo><mn>2</mn><mi>π</mi><mi>f</mi><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Elementu idealetan:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>R</mi><mo>:</mo><mspace width=\"1.0em\"></mspace><msub><mi>v</mi><mrow><mi>R</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><mi>R</mi><mi>i</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>C</mi><mo>:</mo><mspace width=\"1.0em\"></mspace><msub><mi>i</mi><mrow><mi>C</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><mi>C</mi><mfrac><mrow><mi>d</mi><msub><mi>v</mi><mi>C</mi></msub></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>X</mi><mi>C</mi></msub><mo>=</mo><mfrac><mn>1</mn><mrow><mi>ω</mi><mi>C</mi></mrow></mfrac><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>L</mi><mo>:</mo><mspace width=\"1.0em\"></mspace><msub><mi>v</mi><mrow><mi>L</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><mi>L</mi><mfrac><mrow><mi>d</mi><msub><mi>i</mi><mi>L</mi></msub></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>X</mi><mi>L</mi></msub><mo>=</mo><mi>ω</mi><mi>L</mi><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Erresistentzian korrontea eta tentsioa fase berean daude; kondentsadorean korronteak <math display=\"inline\"><mfrac><mi>π</mi><mn>2</mn></mfrac></math> aurreratzen du; harilean <math display=\"inline\"><mfrac><mi>π</mi><mn>2</mn></mfrac></math> atzeratzen da."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a22"
+ },
+ {
+  "t": "Korrontea eta korronte-dentsitatea",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Gainazal bat zeharkatzen duen korrontea:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>I</mi><mo>=</mo><msub><mo>∫</mo><mi>S</mi></msub><mover><mi>j</mi><mo accent=\"true\">→</mo></mover><mo>⋅</mo><mi>d</mi><mover><mi>S</mi><mo accent=\"true\">→</mo></mover><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "[CORREGIDO: jatorrizko marrazkiak gainazalaren eta korronte-dentsitatearen arteko erlazioa modu laburtuan ematen du; forma bektorial osoa goikoa da.]"
+   },
+   {
+    "mota": "testua",
+    "html": "Eroale homogeneo batean:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>V</mi><mo>=</mo><mi>I</mi><mi>R</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>R</mi><mo>=</mo><mi>ρ</mi><mfrac><mi>l</mi><mi>A</mi></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mover><mi>E</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mi>ρ</mi><mover><mi>j</mi><mo accent=\"true\">→</mo></mover><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a22"
+ },
+ {
+  "t": "Nodoa, adarra, begizta eta maila",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<strong>Nodoa</strong> hainbat korronte elkartzen diren puntua da. <strong>Adarra</strong> bi nodo lotzen dituen bidea da, seriean dauden eta korronte bera daramaten elementuen multzoa. <strong>Begizta</strong> bide itxi oro da. <strong>Maila</strong> barruan beste begiztarik ez duen begizta irreduzigarria da."
+   },
+   {
+    "mota": "testua",
+    "html": "Mailaren definizioaren azken hitzak ez dira guztiz irakurtzen argazkian; aurreko esaldia definizio fisiko kanonikoa da."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a22"
+ },
+ {
+  "t": "RC denbora-konstantea",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>τ</mi><mo>=</mo><mi>R</mi><mi>C</mi><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>τ</mi></math>-k zirkuituaren erantzun esponentzialaren denbora-eskala ezartzen du."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a22"
+ },
+ {
+  "t": "Wheatstoneren zubi orekatua",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Galbanometro idealaren adarrean <math display=\"inline\"><mrow><msub><mi>V</mi><mtext mathvariant=\"normal\">BC</mtext></msub><mo>=</mo><mn>0</mn></mrow></math> denean ez da korronterik igarotzen. Bi tentsio-zatitzaileek potentzial bera ematen dute:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>ε</mi><mfrac><msub><mi>R</mi><mn>1</mn></msub><mrow><msub><mi>R</mi><mn>1</mn></msub><mo>+</mo><msub><mi>R</mi><mn>2</mn></msub></mrow></mfrac><mo>=</mo><mi>ε</mi><mfrac><msub><mi>R</mi><mn>3</mn></msub><mrow><msub><mi>R</mi><mn>4</mn></msub><mo>+</mo><msub><mi>R</mi><mn>3</mn></msub></mrow></mfrac><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Hortik, besoen kokapenaren arabera, ohiko oreka-erlazioa:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mfrac><msub><mi>R</mi><mn>1</mn></msub><msub><mi>R</mi><mn>2</mn></msub></mfrac><mo>=</mo><mfrac><msub><mi>R</mi><mn>3</mn></msub><msub><mi>R</mi><mrow><mn>4</mn><mi>.</mi></mrow></msub></mfrac></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Jatorrizko azken letrek grafia zalantzazkoa dute; ratioen esanahi fisikoa mantendu da, baina ez da etiketa ilunik asmatu."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a22"
+ },
+ {
+  "t": "Korronte elektrikoa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Karga-fluxua zentzu <strong>konbentzionalean</strong> (karga eramaileak positibotzat hartuta; normalean eroale zilindrikoetan)."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a24"
+ },
+ {
+  "t": "Kondentsadorea",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Karga metatzeko funtzioa duten eroale multzoa."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a24"
+ },
+ {
+  "t": "Sorgailua",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Edozein energia mota energia elektriko bihurtzeko gai den aparatua, edo kargari zirkuituan mugitzeko energia ematen diona."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a24"
+ },
+ {
+  "t": "Hartzailea",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Energia elektrikoa energia mota erabilgarri bihurtzeko (kontsumitzeko) gai den aparatua, <strong>beroa izan ezik</strong>."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a24"
+ },
+ {
+  "t": "Lorentzen indarra",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Eremu elektrikoa eta magnetikoa batera badaude:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mover><mi>F</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mi>q</mi><mover><mi>E</mi><mo accent=\"true\">→</mo></mover><mo>+</mo><mi>q</mi><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mo>×</mo><mover><mi>B</mi><mo accent=\"true\">→</mo></mover><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Zati magnetikoaren modulua:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>F</mi><mi>B</mi></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>q</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>v</mi><mi>B</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a33"
+ },
+ {
+  "t": "Hall oreka",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Korrontea daraman xafla bat <math display=\"inline\"><mover><mi>B</mi><mo accent=\"true\">→</mo></mover></math> eremu perpendikularrean jartzean, karga-eramaileak albo batean pilatzen dira. Sortutako zeharkako <math display=\"inline\"><msub><mover><mi>E</mi><mo accent=\"true\">→</mo></mover><mi>H</mi></msub></math> eremuak indar magnetikoa orekatzen du:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>q</mi><msub><mi>E</mi><mi>H</mi></msub><mo>−</mo><mi>q</mi><msub><mi>v</mi><mi>d</mi></msub><mi>B</mi><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>E</mi><mi>H</mi></msub><mo>=</mo><msub><mi>v</mi><mi>d</mi></msub><mi>B</mi><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>E</mi><mi>H</mi></msub><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><mfrac><msub><mi>V</mi><mi>H</mi></msub><mi>w</mi></mfrac><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Korrontearen eta eramaile-dentsitatearen arteko erlazioa:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>I</mi><mo>=</mo><mi>n</mi><mi>q</mi><msub><mi>v</mi><mi>d</mi></msub><mi>S</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mover><mi>J</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mi>n</mi><mi>q</mi><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mi>d</mi></msub><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a33"
+ },
+ {
+  "t": "Korronte-elementuaren eremua",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>d</mi><mover><mi>B</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mfrac><mrow><msub><mi>μ</mi><mn>0</mn></msub><mi>I</mi></mrow><mrow><mn>4</mn><mi>π</mi></mrow></mfrac><mfrac><mrow><mi>d</mi><mover><mi>l</mi><mo accent=\"true\">→</mo></mover><mo>×</mo><mover><mi>r</mi><mo accent=\"true\">̂</mo></mover></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac><mo>,</mo></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>μ</mi><mn>0</mn></msub><mo>=</mo><mn>4</mn><mi>π</mi><mo>⋅</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>7</mn></mrow></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> T m/A</mtext></mrow><mo>=</mo><mn>4</mn><mi>π</mi><mo>⋅</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>7</mn></mrow></msup><msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> N/A</mtext></mrow><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math>"
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a33"
+ },
+ {
+  "t": "Ampèreren zirkulazioa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Magnetostatikan:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mo>∮</mo><mover><mi>B</mi><mo accent=\"true\">→</mo></mover><mo>⋅</mo><mi>d</mi><mover><mi>l</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><msub><mi>μ</mi><mn>0</mn></msub><msub><mi>I</mi><mtext mathvariant=\"normal\">barne</mtext></msub><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Hari zuzen infinituan simetria zirkularrak:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>B</mi><mn>2</mn><mi>π</mi><mi>r</mi><mo>=</mo><msub><mi>μ</mi><mn>0</mn></msub><mi>I</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>B</mi><mo>=</mo><mfrac><mrow><msub><mi>μ</mi><mn>0</mn></msub><mi>I</mi></mrow><mrow><mn>2</mn><mi>π</mi><mi>r</mi></mrow></mfrac><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a33"
+ },
+ {
+  "t": "Korronte-elementuaren indarra",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>d</mi><mover><mi>F</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mi>I</mi><mi>d</mi><mover><mi>l</mi><mo accent=\"true\">→</mo></mover><mo>×</mo><mover><mi>B</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mspace width=\"1.0em\"></mspace><mover><mi>F</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mo>∫</mo><mi>I</mi><mi>d</mi><mover><mi>l</mi><mo accent=\"true\">→</mo></mover><mo>×</mo><mover><mi>B</mi><mo accent=\"true\">→</mo></mover><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Hari zuzena eta <math display=\"inline\"><mi>B</mi></math> uniformea badira:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mover><mi>F</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mi>I</mi><mover><mi>l</mi><mo accent=\"true\">→</mo></mover><mo>×</mo><mover><mi>B</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>F</mi><mo>=</mo><mi>I</mi><mi>l</mi><mi>B</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a33"
+ },
+ {
+  "t": "Fluxua eta induzitutako f.e.m.",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi mathvariant=\"normal\">Φ</mi><mi>B</mi></msub><mo>=</mo><msub><mo>∫</mo><mi>S</mi></msub><mover><mi>B</mi><mo accent=\"true\">→</mo></mover><mo>⋅</mo><mi>d</mi><mover><mi>S</mi><mo accent=\"true\">→</mo></mover><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Gainazal itxi batean fluxu magnetiko garbia zero da:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mo>∫</mo><msub><mi>S</mi><mtext mathvariant=\"normal\">itxi</mtext></msub></msub><mover><mi>B</mi><mo accent=\"true\">→</mo></mover><mo>⋅</mo><mi>d</mi><mover><mi>S</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Faraday–Lenzen legea:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>ε</mi><mo>=</mo><mi>−</mi><mfrac><mrow><mi>d</mi><msub><mi mathvariant=\"normal\">Φ</mi><mi>B</mi></msub></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>,</mo></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mo>∮</mo><mover><mi>E</mi><mo accent=\"true\">→</mo></mover><mo>⋅</mo><mi>d</mi><mover><mi>l</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mi>−</mi><mfrac><mi>∂</mi><mrow><mi>∂</mi><mi>t</mi></mrow></mfrac><msub><mo>∫</mo><mi>S</mi></msub><mover><mi>B</mi><mo accent=\"true\">→</mo></mover><mo>⋅</mo><mi>d</mi><mover><mi>S</mi><mo accent=\"true\">→</mo></mover><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a41"
+ },
+ {
+  "t": "Autoinduktantzia",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Φ</mi><mo>=</mo><mi>L</mi><mi>I</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>L</mi><mo>=</mo><mfrac><mrow><msub><mi>μ</mi><mn>0</mn></msub><mi>S</mi><msup><mi>N</mi><mn>2</mn></msup></mrow><mi>l</mi></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>ε</mi><mo>=</mo><mi>−</mi><mi>L</mi><mfrac><mrow><mi>d</mi><mi>I</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Henrio bateko induktantziak volt bateko f.e.m. sortzen du korrontea segundo bakoitzeko ampere batean aldatzen denean."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a41"
+ },
+ {
+  "t": "Ekuazio diferentziala (ED)",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Funtzio bat eta bere deribatuak elkarrekin erlazionatuta agertzen diren ekuazioa."
+   }
+  ],
+  "kapitulua": "03mm_01edo",
+  "atala": "a29"
+ },
+ {
+  "t": "Ekuazio baten ordena",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Funtzioa agertzen den <strong>deribaturik altuena</strong>."
+   }
+  ],
+  "kapitulua": "03mm_01edo",
+  "atala": "a29"
+ },
+ {
+  "t": "EDO lineala",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>a</mi><mrow><mi>n</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><msup><mi>y</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo>+</mo><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo>+</mo><mi>⋯</mi><mo>+</mo><msub><mi>a</mi><mn>0</mn></msub><mi>y</mi><mo>=</mo><mi>b</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_01edo",
+  "atala": "a29"
+ },
+ {
+  "t": "Aldagai bereizgarriak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>M</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msub><mi>N</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>+</mo><msub><mi>M</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msub><mi>N</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>y</mi><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mo>∫</mo><mfrac><mrow><msub><mi>M</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>−</mi><msub><mi>M</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mo>∫</mo><mfrac><mrow><msub><mi>N</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><msub><mi>N</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>d</mi><mi>y</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_01edo",
+  "atala": "a47"
+ },
+ {
+  "t": "Funtzio homogeneoa (n gradukoa)",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>λ</mi><mi>x</mi><mo>,</mo><mi>λ</mi><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>λ</mi><mi>n</mi></msup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_01edo",
+  "atala": "a47"
+ },
+ {
+  "t": "Faktore integratzailea",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><mi>P</mi><mi>d</mi><mi>x</mi><mo>+</mo><mi>Q</mi><mi>d</mi><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> forma ez-zehatzari <math display=\"inline\"><mrow><mi>μ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> biderkatzean forma zehatz bihurtzen duen funtzioa."
+   }
+  ],
+  "kapitulua": "03mm_01edo",
+  "atala": "a47"
+ },
+ {
+  "t": "Bernoulli-ren ekuazioa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>=</mo><mi>B</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mi>n</mi></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>n</mi><mo>≠</mo><mn>0</mn><mo>,</mo><mn>1</mn><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_01edo",
+  "atala": "a47"
+ },
+ {
+  "t": "Riccati-ren ekuazioa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>+</mo><mi>B</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mi>C</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>B</mi><mo>,</mo><mi>C</mi><mo>≠</mo><mn>0</mn><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_01edo",
+  "atala": "a47"
+ },
+ {
+  "t": "EDO lineala (<math display=\"inline\"><mi>n</mi></math> ordena)",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msup><mi>x</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo>+</mo><msub><mi>a</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>x</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo>+</mo><mi>⋯</mi><mo>+</mo><msub><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>x</mi><mo>′</mo></msup><mo>+</mo><msub><mi>a</mi><mrow><mi>n</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mi>x</mi><mo>=</mo><mi>b</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math> <math display=\"inline\"><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>,</mo><mi>b</mi><mo>:</mo><mi>I</mi><mo>→</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math> jarraituak. <math display=\"inline\"><mrow><mi>b</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>: <strong>homogenea</strong>; <math display=\"inline\"><mrow><mi>b</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≠</mo><mn>0</mn></mrow></math>: <strong>osoa</strong>."
+   }
+  ],
+  "kapitulua": "03mm_01goiordena",
+  "atala": "a16"
+ },
+ {
+  "t": "Linealki independenteak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mi>⋯</mi><mo>,</mo><msub><mi>x</mi><mi>n</mi></msub></mrow></math> homogeneoaren soluzioak <strong>l.i.</strong> dira baldin <math display=\"inline\"><mrow><msub><mi>C</mi><mn>1</mn></msub><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mi>⋯</mi><mo>+</mo><msub><mi>C</mi><mi>n</mi></msub><msub><mi>x</mi><mi>n</mi></msub><mo>=</mo><mn>0</mn></mrow></math>-k <math display=\"inline\"><mrow><msub><mi>C</mi><mi>i</mi></msub><mo>=</mo><mn>0</mn></mrow></math> (<math display=\"inline\"><mrow><mo>∀</mo><mi>i</mi></mrow></math>) inplikatzen badu."
+   }
+  ],
+  "kapitulua": "03mm_01goiordena",
+  "atala": "a16"
+ },
+ {
+  "t": "Wronskiarra",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>W</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mi>⋯</mi><mo>,</mo><msub><mi>x</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>x</mi><mn>1</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>x</mi><mn>2</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋯</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>x</mi><mi>n</mi></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msubsup><mi>x</mi><mn>1</mn><mo>′</mo></msubsup></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋯</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msubsup><mi>x</mi><mi>n</mi><mo>′</mo></msubsup></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋮</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋮</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋮</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msubsup><mi>x</mi><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msubsup></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msubsup><mi>x</mi><mn>2</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msubsup></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋯</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msubsup><mi>x</mi><mi>n</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msubsup></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_01goiordena",
+  "atala": "a16"
+ },
+ {
+  "t": "Funtzio linealki independenteak",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>y</mi><mi>n</mi></msub></mrow></math> funtzioak <math display=\"inline\"><mi>I</mi></math> tartean linealki independenteak dira baldin eta <math display=\"inline\"><mrow><msubsup><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></msubsup><msub><mi>C</mi><mi>k</mi></msub><msub><mi>y</mi><mrow><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><mn>0</mn></mrow></math> identitateak <math display=\"inline\"><mrow><msub><mi>C</mi><mn>1</mn></msub><mo>=</mo><mi>…</mi><mo>=</mo><msub><mi>C</mi><mi>n</mi></msub><mo>=</mo><mn>0</mn></mrow></math> baino ez badu. [CORREGIDO: papereko baturaren goiko muga <math display=\"inline\"><mi>∞</mi></math> da, nahiz eta familia <math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mn>1</mn><mo>,</mo><mi>…</mi><mo>,</mo><mi>n</mi></mrow></math> bezala definitu; familia finitu honetarako goiko muga <math display=\"inline\"><mi>n</mi></math> da.]"
+   }
+  ],
+  "kapitulua": "03mm_01goiordena",
+  "atala": "a16"
+ },
+ {
+  "t": "Wronskiarra",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>W</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><msub><mi>y</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>y</mi><mi>k</mi></msub><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>y</mi><mn>1</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>y</mi><mn>2</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>…</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>y</mi><mi>k</mi></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>y</mi><msup><mn>1</mn><mo>′</mo></msup></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>y</mi><msup><mn>2</mn><mo>′</mo></msup></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>…</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>y</mi><msup><mi>k</mi><mo>′</mo></msup></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋮</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋮</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mo>⋱</mo></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>⋮</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msubsup><mi>y</mi><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msubsup></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msubsup><mi>y</mi><mn>2</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msubsup></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>…</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msubsup><mi>y</mi><mi>k</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msubsup></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_01goiordena",
+  "atala": "a16"
+ },
+ {
+  "t": "Funtzio analitikoa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>f</mi></math> analitikoa da <math display=\"inline\"><msub><mi>x</mi><mn>0</mn></msub></math>-n baldin bere Taylor seriea <math display=\"inline\"><msub><mi>x</mi><mn>0</mn></msub></math>-ren ingurune batean existitzen bada eta <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-ra konbergitzen badu: <math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mo accent=\"false\">∞</mo></munderover><mfrac><mrow><msup><mi>f</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mi>k</mi><mi>!</mi></mrow></mfrac><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>k</mi></msup><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_01goiordena",
+  "atala": "a26"
+ },
+ {
+  "t": "Puntu arrunta / singularra",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><msub><mi>x</mi><mn>0</mn></msub></math> <strong>puntu arrunta</strong> da baldin <math display=\"inline\"><mrow><msub><mi>p</mi><mn>1</mn></msub><mo>,</mo><msub><mi>p</mi><mn>2</mn></msub></mrow></math> analitikoak badira <math display=\"inline\"><msub><mi>x</mi><mn>0</mn></msub></math>-n; bestela, <strong>puntu singularra</strong>."
+   }
+  ],
+  "kapitulua": "03mm_02serieak",
+  "atala": "a9"
+ },
+ {
+  "t": "Puntu singular erregularra",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><msub><mi>x</mi><mn>0</mn></msub></math> <math display=\"inline\"><mrow><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><msub><mi>p</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><msub><mi>p</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>-ren puntu singularra bada, eta <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msub><mi>p</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><msub><mi>p</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> analitikoak badira <math display=\"inline\"><msub><mi>x</mi><mn>0</mn></msub></math>-n, orduan <math display=\"inline\"><msub><mi>x</mi><mn>0</mn></msub></math> <strong>puntu singular erregularra</strong> da (bestela, <strong>irregularra</strong>)."
+   }
+  ],
+  "kapitulua": "03mm_02serieak",
+  "atala": "a9"
+ },
+ {
+  "t": "Gamma funtzioa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>s</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><msup><mi>e</mi><mrow><mi>−</mi><mi>t</mi></mrow></msup><msup><mi>t</mi><mrow><mi>s</mi><mo>−</mo><mn>1</mn></mrow></msup><mi>d</mi><mi>t</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>s</mi><mo>&gt;</mo><mn>0</mn><mo>,</mo></mrow></math> eta <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>s</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>s</mi><mi mathvariant=\"normal\">Γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>s</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. [CORREGIDO: paperean integrandoko berretzailea <math display=\"inline\"><msup><mi>t</mi><mi>s</mi></msup></math> da; errekurrentziarekin bateragarria den definizioak <math display=\"inline\"><msup><mi>t</mi><mrow><mi>s</mi><mo>−</mo><mn>1</mn></mrow></msup></math> behar du.]"
+   }
+  ],
+  "kapitulua": "03mm_02serieak",
+  "atala": "a9"
+ },
+ {
+  "t": "Bessel-en ekuazioa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msup><mi>x</mi><mn>2</mn></msup><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><mi>x</mi><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>ν</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>y</mi><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><msup><mi>y</mi><mo>″</mo></msup><mo>+</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><msup><mi>y</mi><mo>′</mo></msup><mo>+</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>ν</mi><mn>2</mn></msup></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mi>y</mi><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "03mm_02serieak",
+  "atala": "a11"
+ },
+ {
+  "t": "Sailkapena diskriminantearen arabera",
+  "blokeak": [
+   {
+    "mota": "zerrenda",
+    "ordenatua": false,
+    "elementuak": [
+     "<strong>Eliptikoak</strong> (<math display=\"inline\"><mrow><mi>D</mi><mo>&lt;</mo><mn>0</mn></mrow></math>): <math display=\"block\"><mrow><msup><mi>∇</mi><mn>2</mn></msup><mi>u</mi><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtext mathvariant=\"normal\">Laplace</mtext><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><msup><mi>∇</mi><mn>2</mn></msup><mi>u</mi><mo>+</mo><msup><mi>λ</mi><mn>2</mn></msup><mi>u</mi><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtext mathvariant=\"normal\">Helmholtz</mtext><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msup><mi>∇</mi><mn>2</mn></msup><mi>u</mi><mo>=</mo><mi>k</mi><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtext mathvariant=\"normal\">Poisson</mtext><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><msup><mi>∇</mi><mn>2</mn></msup><mi>u</mi><mo>+</mo><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>E</mi><mo>−</mo><mi>V</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>u</mi><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtext mathvariant=\"normal\">Schrödinger</mtext><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>",
+     "<strong>Hiperbolikoak</strong> (<math display=\"inline\"><mrow><mi>D</mi><mo>&gt;</mo><mn>0</mn></mrow></math>): uhin-ekuazioak, adib. <math display=\"block\"><mrow><msub><mi>u</mi><mrow><mi>t</mi><mi>t</mi></mrow></msub><mo>=</mo><msup><mi>c</mi><mn>2</mn></msup><msub><mi>u</mi><mrow><mi>x</mi><mi>x</mi></mrow></msub><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>s</mi><mi>o</mi><mi>k</mi><mi>a</mi><mspace width=\"0.222em\"></mspace><mi>b</mi><mi>i</mi><mi>b</mi><mi>r</mi><mi>a</mi><mi>k</mi><mi>o</mi><mi>r</mi><mi>r</mi><mi>a</mi><mspace width=\"0.222em\"></mspace><mn>1</mn><mi>D</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>u</mi><mrow><mi>t</mi><mi>t</mi></mrow></msub><mo>=</mo><msup><mi>c</mi><mn>2</mn></msup><msup><mi>∇</mi><mn>2</mn></msup><mi>u</mi><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtext mathvariant=\"normal\">uhina dimentsio handiagoetan</mtext><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> marruskadura (<math display=\"inline\"><mrow><mi>−</mi><mi>h</mi><msub><mi>u</mi><mi>t</mi></msub></mrow></math>), indar-behartua (<math display=\"inline\"><mrow><mi>+</mi><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>) eta transmisio-lerroa (<math display=\"inline\"><mrow><mi>−</mi><mi>h</mi><msub><mi>u</mi><mi>t</mi></msub><mo>−</mo><mi>k</mi><mi>u</mi></mrow></math>) aldaerekin.",
+     "<strong>Parabolikoak</strong> (<math display=\"inline\"><mrow><mi>D</mi><mo>=</mo><mn>0</mn></mrow></math>): difusio-ekuazioak, adib. <math display=\"block\"><mrow><msub><mi>u</mi><mi>t</mi></msub><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><msub><mi>u</mi><mrow><mi>x</mi><mi>x</mi></mrow></msub><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mi>i</mi><mi>f</mi><mi>u</mi><mi>s</mi><mi>i</mi><mi>o</mi><mi>a</mi><mspace width=\"0.222em\"></mspace><mn>1</mn><mi>D</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math> konbekzioa (<math display=\"inline\"><mrow><mi>−</mi><mi>h</mi><msub><mi>u</mi><mi>x</mi></msub></mrow></math>), alboko galera (<math display=\"inline\"><mrow><mi>−</mi><mi>k</mi><mi>u</mi></mrow></math>) eta iturriak (<math display=\"inline\"><mrow><mi>+</mi><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>) aldaerekin."
+    ]
+   }
+  ],
+  "kapitulua": "03mm_05edp",
+  "atala": "a10"
  }
 ];
