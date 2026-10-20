@@ -114,6 +114,25 @@ if (hizk){
 /* en la copia ES la elección «euskera» siempre puede atenderse: la vasca cuelga de la raíz */
 if (enEs && store.get("jakina-hizk", null) === "eu") location.replace("../" + location.hash);
 
+/* ----- (UX 2026-10-20) barra de progreso de lectura (fija, no desplaza) + botón «Goraino» ----- */
+(function(){
+  var prog = document.createElement("div"); prog.id = "irakur-prog"; prog.setAttribute("aria-hidden", "true");
+  document.body.insertBefore(prog, document.body.firstChild);
+  var up = document.createElement("button"); up.id = "goraino"; up.type = "button";
+  up.setAttribute("aria-label", "Goraino"); up.title = "Goraino"; up.textContent = "↑"; up.hidden = true;
+  up.addEventListener("click", function(){ window.scrollTo({ top: 0, behavior: "smooth" }); });
+  document.body.appendChild(up);
+  var tick = false;
+  function upd(){
+    tick = false;
+    var d = document.documentElement, max = Math.max(1, d.scrollHeight - d.clientHeight), y = d.scrollTop || document.body.scrollTop;
+    prog.style.width = (100 * y / max) + "%";
+    up.hidden = y < 600;
+  }
+  addEventListener("scroll", function(){ if (!tick){ tick = true; requestAnimationFrame(upd); } }, { passive: true });
+  addEventListener("resize", upd, { passive: true }); upd();
+})();
+
 /* utilidades comunes de las vistas */
 function esc(s){ return String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]); }
 window.esc = esc;

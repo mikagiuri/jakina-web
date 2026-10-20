@@ -3,15 +3,25 @@
    depende de: datos_katalogoa.js, hasieraview.js (katalogoaAroka) */
 
 let kapAroa = "all";
+let kapChipsZabalik = false;   // (UX) «+ N gehiago» sakatuta dagoen
 
 function loadKapituluak(aroa){
   if (aroa) kapAroa = aroa;
   const taldeak = katalogoaAroka();
   const chips = document.getElementById("arochips");
-  chips.innerHTML = ['<button class="chip" data-aroa="all" aria-pressed="' + (kapAroa === "all") + '">Todas</button>']
-    .concat([...taldeak.keys()].map(a => '<button class="chip" data-aroa="' + esc(a) + '" aria-pressed="' + (kapAroa === a) + '">' + esc(a) + '</button>')).join("");
-  chips.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
-    kapAroa = b.dataset.aroa;
+  // chip bakoitza; 6tik gora, gainerakoak tolestuta «+ N gehiago» botoiaren atzean (mahaigainean ere), lab_iesmdb-ren araua
+  const chipHtml = (a, label) => '<button class="chip" data-aroa="' + esc(a) + '" aria-pressed="' + (kapAroa === a) + '">' + esc(label) + '</button>';
+  const denak = [["all", "Todas"]].concat([...taldeak.keys()].map(a => [a, a]));
+  const ikusgai = denak.slice(0, 6), gehiago = denak.slice(6);
+  const erakutsiDenak = kapChipsZabalik || gehiago.some(ad => ad[0] === kapAroa);
+  let chipsHtml = ikusgai.map(ad => chipHtml(ad[0], ad[1])).join("");
+  if (gehiago.length && erakutsiDenak) chipsHtml += gehiago.map(ad => chipHtml(ad[0], ad[1])).join("");
+  else if (gehiago.length) chipsHtml += '<button type="button" class="chip chip-more" aria-expanded="false">+ ' + gehiago.length + ' más</button>';
+  chips.innerHTML = chipsHtml;
+  const moreBtn = chips.querySelector(".chip-more");
+  if (moreBtn) moreBtn.addEventListener("click", () => { kapChipsZabalik = true; loadKapituluak(); });
+  chips.querySelectorAll(".chip[data-aroa]").forEach(b => b.addEventListener("click", () => {
+    kapAroa = b.dataset.aroa; kapChipsZabalik = false;
     try { history.replaceState(null, "", "#kapituluak" + (kapAroa === "all" ? "" : "/" + encodeURIComponent(kapAroa))); } catch (e){}
     loadKapituluak();
   }));

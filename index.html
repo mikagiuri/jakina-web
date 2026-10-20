@@ -9,7 +9,10 @@
 <meta name="theme-color" content="#141519" media="(prefers-color-scheme: dark)">
 <link rel="manifest" href="manifest.webmanifest">
 <!-- Armadura copiada de lab_iesmdb (editables_lab_iesmdb/web/index.html): barra, pestañas, vistas .view, pie con versión.
-     Sin fuentes de red: css/jakina.css cambia las tipografías por las del sistema. -->
+     Tipografías del colegio (Spectral + IBM Plex) autoalojadas en web/fonts/ (css/_fonts.css), sin red en runtime. -->
+<link rel="preload" href="fonts/spectral-600-l.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/plexsans-400-l.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/_fonts.css">
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/mobile.css">
 <link rel="stylesheet" href="css/jakina.css">

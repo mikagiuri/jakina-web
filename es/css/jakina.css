@@ -1,23 +1,10 @@
 /* JAKINA: retoques sobre styles.css de lab_iesmdb (copiado sin cambios).
-   - Tipografías del sistema: sin red (la referencia usa Google Fonts).
-   - Acento: el «urdina» del motor de JAKINA (motor/paleta.typ), con su versión clara en modo noche.
+   - Tipografía: Spectral + IBM Plex, autoalojadas (css/_fonts.css, web/fonts/); se heredan de styles.css.
+   - Acento: el verde-azulado del colegio (heredado de styles.css; sin acento propio).
+   - Paleta del motor (--j-*): alias de los tokens del colegio, sin colores propios duplicados; se adapta al tema solo.
    - Bloques del motor (oharra, iturria, itzulgai, hutsunea, irudia, taula) como llamadas de la teoría de lab_iesmdb. */
 :root{
-  --serif:Georgia,"Times New Roman",serif;
-  --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-  --mono:ui-monospace,Consolas,Menlo,monospace;
-  --accent:#1a4f8a; --accent-2:#2a63a3;
-  --j-urdina:#1a4f8a; --j-berdea:#2e7d32; --j-laranja:#a65a06; --j-gorria:#b3362a; --j-grisa:#6e6e78;
-}
-@media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){
-    --accent:#7fb0e6; --accent-2:#9cc3ee; --on-accent:#0d1520;
-    --j-urdina:#7fb0e6; --j-berdea:#7bc98f; --j-laranja:#e3a35c; --j-gorria:#ee9387; --j-grisa:#a3a3b0;
-  }
-}
-:root[data-theme="dark"]{
-  --accent:#7fb0e6; --accent-2:#9cc3ee; --on-accent:#0d1520;
-  --j-urdina:#7fb0e6; --j-berdea:#7bc98f; --j-laranja:#e3a35c; --j-gorria:#ee9387; --j-grisa:#a3a3b0;
+  --j-urdina:var(--accent); --j-berdea:var(--ok); --j-laranja:var(--ipc); --j-gorria:var(--bad); --j-grisa:var(--muted);
 }
 
 .hero{margin:44px 0 6px}
@@ -156,3 +143,79 @@ img.formula-d{display:block;margin:.7em auto;height:auto}
 .j-etiketatua .j-marka{font-family:var(--sans);font-weight:600;min-width:2.4em;text-align:end;flex-shrink:0}
 .j-etiketatua .j-elte{min-width:0}
 img.irudi-l{display:block;max-width:100%;height:auto;margin:.2em auto;background:#fff;border-radius:8px;padding:6px;border:1px solid var(--line)}
+
+/* (UX 2026-10-20, web-jakina-7-aesthetics) ----- mejoras de interfaz; acento verde-azulado heredado de styles.css ----- */
+
+/* prop 9 · chips: más de 6 plegados (también en escritorio) */
+#arochips .chip-more{border-style:dashed;color:var(--muted)}
+#arochips .chip-more:hover{color:var(--ink);border-color:var(--accent)}
+
+/* prop 12 · carga (esqueleto con cabecera ya pintada → sin desplazamiento) y error amable */
+.kap-eskeleto{display:flex;flex-direction:column;gap:14px;margin:26px 0}
+.kap-eskeleto .sk{height:14px;border-radius:7px;background:linear-gradient(90deg,var(--surface-2),var(--line-soft),var(--surface-2));background-size:200% 100%;animation:sk 1.3s ease-in-out infinite}
+.kap-eskeleto .sk-l{width:100%}.kap-eskeleto .sk-m{width:78%}.kap-eskeleto .sk-s{width:46%}
+@keyframes sk{0%{background-position:200% 0}100%{background-position:-200% 0}}
+@media (prefers-reduced-motion:reduce){.kap-eskeleto .sk{animation:none}}
+.kap-kargatzen{margin-top:8px}
+.kap-errore{font-family:var(--sans);color:var(--muted);margin:24px 0;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.kap-saiatu{background:var(--accent);color:var(--on-accent);border:0;border-radius:999px;padding:8px 16px;font:600 .9rem var(--sans)}
+.kap-saiatu:hover{background:var(--accent-2)}
+
+/* prop 15 · anterior/siguiente en tarjeta + progreso de lectura fijo + «Goraino» */
+.kap-nav{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:40px}
+.kap-nav-a{display:block;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;color:var(--ink)}
+.kap-nav-a:hover{border-color:var(--accent)}
+.kap-nav-a small{display:block;color:var(--muted);font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;font-family:var(--sans)}
+.kap-nav-a:last-child{text-align:end}
+@media (max-width:560px){.kap-nav{grid-template-columns:1fr}.kap-nav-a:last-child{text-align:start}}
+#irakur-prog{position:fixed;top:0;left:0;height:3px;width:0;background:var(--accent);z-index:40;transition:width .1s linear}
+#goraino{position:fixed;inset-inline-end:16px;bottom:16px;z-index:35;width:44px;height:44px;border-radius:50%;background:var(--surface);border:1px solid var(--line);color:var(--ink);box-shadow:var(--shadow);font-size:1.15rem;line-height:1}
+#goraino:hover{border-color:var(--accent)}
+#goraino[hidden]{display:none}
+
+/* prop 13 · llamadas con más cuerpo (tono + radio) y badge en Oharra/Abisua */
+.j-oharra,.j-abisua{background:color-mix(in srgb,var(--j-laranja) 7%,var(--surface));border-radius:0 10px 10px 0;padding:.5em .9em}
+.j-abisua{background:color-mix(in srgb,var(--j-gorria) 7%,var(--surface))}
+.j-oharra>.j-et::before,.j-abisua>.j-et::before{content:"i";display:inline-grid;place-items:center;width:1.4em;height:1.4em;margin-inline-end:.45em;border-radius:6px;background:var(--j-laranja);color:var(--surface);font-size:.82em;vertical-align:-.22em}
+.j-abisua>.j-et::before{content:"!";background:var(--j-gorria)}
+
+/* prop 16 · objetivos táctiles ≥44 px en pantallas de dedo */
+@media (pointer:coarse){
+  header.bar .theme,header.bar .navtoggle{min-width:44px;min-height:44px}
+}
+
+/* (UX 2026-10-20) ----- figuras temáticas incrustadas (.j-irudia-berria), de _figuras_muestra/ de web-jakina-claude ----- */
+/* El conversor emite b.berria: geometría en <svg> (sin texto) + etiquetas HTML/MathML; colores por clase y currentColor.
+   Se adapta al tema solo (hereda --ink, --accent/--j-urdina, --j-gorria); sin caja blanca, texto del tamaño del cuerpo. */
+.j-irudia-berria{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 12px 10px;color:var(--ink)}
+.j-irudia-berria img{background:none;border:0;padding:0}
+
+/* Fitch: barras con currentColor, sin imagen */
+.fitch{display:grid;grid-template-columns:auto auto auto;width:fit-content;max-width:100%;overflow-x:auto;margin:.4em auto;line-height:1.5;font-size:1em}
+.fitch > span{padding:.14em 0}
+.fi-n{text-align:end;padding-right:.7em !important;color:var(--muted);font-family:var(--sans);font-size:.85em;align-self:center}
+.fi-c{padding-right:.8em}
+.fi-f{display:inline-block}
+.fi-as{border-bottom:.07em solid currentColor;padding-bottom:.1em}
+.fi-r{padding-left:.6em !important;color:var(--muted);font-family:var(--sans);font-size:.85em;align-self:center;white-space:nowrap}
+
+/* CeTZ: geometría SVG sin texto + etiquetas HTML/MathML superpuestas */
+.fg{--u:1.5em;--pad:1.8em;position:relative;width:calc(9 * var(--u) + 6.8em);max-width:100%;padding-top:var(--pad);margin:.4em auto;line-height:1.3;color:var(--ink)}
+.fg svg{display:block;width:calc(9 * var(--u));height:auto;overflow:visible}
+.fg path{vector-effect:non-scaling-stroke;fill:none}
+.fg .g{stroke:currentColor;stroke-opacity:.2;stroke-width:1px}
+.fg .a{stroke:currentColor;stroke-width:1.3px}
+.fg .r{stroke:currentColor;stroke-width:2px}
+.fg .rb{stroke:var(--j-urdina);stroke-width:2px}
+.fg .pt{fill:var(--j-gorria);stroke:none}
+.fg .l{position:absolute;white-space:nowrap;left:calc((var(--x) + 2) * var(--u));top:calc(var(--pad) + (3 - var(--y)) * var(--u))}
+.fg .up{transform:translate(0,-110%)}
+.fg .rt{transform:translate(.3em,-50%)}
+.fg .lb{color:var(--j-urdina)}
+
+/* tabla HTML temática */
+.j-taula-val table{width:auto;margin:0 auto}
+.j-taula-val th,.j-taula-val td{text-align:center;vertical-align:middle}
+.j-taula-val thead th{background:transparent;font-weight:400}
+.j-taula-val tr > :first-child{background:color-mix(in srgb,var(--j-laranja) 16%,transparent);font-weight:600}
+@media (max-width:520px){ .fg{--u:1.25em;width:19em} }

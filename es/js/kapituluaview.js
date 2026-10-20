@@ -40,10 +40,14 @@ function blokeaHtml(b, k){
         esc(b.proiektua) + "</code>" + (b.orrialdeak ? " (" + esc(b.orrialdeak) + " pág.)" : "") + "</div>";
     case "hutsunea":
       return '<div class="j-erreg j-hutsunea"><span class="j-et">HUECO</span> <strong>' + esc(b.izenburua) + "</strong>" + azpi(b.blokeak) + "</div>";
-    case "irudia":
+    case "irudia": {
+      // (UX 2026-10-20) figura temática incrustada (b.berria: SVG geometría + etiquetas HTML/MathML, currentColor);
+      // si no existe, fallback a la imagen SVG de Typst (sin regresión). La emite el conversor (web-jakina-claude).
+      const oina = b.oina ? "<figcaption>" + b.oina + "</figcaption>" : "";
+      if (b.berria) return '<figure class="j-irudia j-irudia-berria">' + b.berria + oina + "</figure>";
       return '<figure class="j-irudia"><img src="' + esc(b.src) + '" alt="' + esc((b.oina || "").replace(/<[^>]+>/g, "") || "Figura") + '"' +
-        (b.zabalera ? ' width="' + b.zabalera + '"' : "") + ' loading="lazy">' +
-        (b.oina ? "<figcaption>" + b.oina + "</figcaption>" : "") + "</figure>";
+        (b.zabalera ? ' width="' + b.zabalera + '"' : "") + ' loading="lazy">' + oina + "</figure>";
+    }
     case "ingurunea":
       return '<div class="j-ing j-k-' + b.kolorea + (b.etzana ? " j-etzana" : "") + '"><span class="j-et">' + esc(b.izena) + "</span>" +
         (b.titulua ? ' <strong class="j-ing-tit">(' + b.titulua + ")</strong>" : "") + azpi(b.blokeak) + "</div>";
@@ -113,7 +117,13 @@ function loadKapitulua(g){
     body.innerHTML = '<p class="hutsik">Este capítulo aún no está en la web.</p>'; toc.innerHTML = ""; return;
   }
   if (body.dataset.gakoa === gakoa){ kapAtalera(atala || null); return; }
-  body.innerHTML = '<p class="hutsik">Cargando…</p>';
+  // (UX 2026-10-20) kargatzeko eskeletoa: goiburua (katalogotik) jada margotuta, edukirik ez desplazatzeko
+  const kat0 = KATALOGOA[gakoa];
+  const goibHtml = '<div class="theory-head"><span class="kick" style="color:var(--accent)">' +
+    esc(kat0.aroa ? kat0.aroa + ". etapa · " + kat0.maila : (kat0.azpititulua || "")) + '</span><h1>' + esc(kat0.azala) + '</h1></div>';
+  body.innerHTML = goibHtml +
+    '<div class="kap-eskeleto" aria-hidden="true"><span class="sk sk-l"></span><span class="sk sk-m"></span><span class="sk sk-l"></span><span class="sk sk-s"></span></div>' +
+    '<p class="hutsik kap-kargatzen">Cargando…</p>';
   kapKargatu(gakoa).then(k => {
     const kat = KATALOGOA[gakoa];
     const head = '<div class="theory-head"><span class="kick" style="color:var(--accent)">' + esc(kat.aroa ? kat.aroa + ". etapa · " + kat.maila : kat.azpititulua) +
@@ -121,12 +131,16 @@ function loadKapitulua(g){
     const sarrera = k.sarrera.map(b => blokeaHtml(b, k)).join("");
     const atalak = k.atalak.map(a => '<h2 id="' + a.id + '" class="maila' + a.maila + '">' + a.izenburua + "</h2>" + a.blokeak.map(b => blokeaHtml(b, k)).join("")).join("");
     const gakoak = Object.keys(KATALOGOA), i = gakoak.indexOf(gakoa);
-    const nav = '<div class="kap-nav">' + (i > 0 ? '<a href="#kapitulua/' + gakoak[i - 1] + '">← ' + esc(KATALOGOA[gakoak[i - 1]].azala) + "</a>" : "<span></span>") +
-      (i < gakoak.length - 1 ? '<a href="#kapitulua/' + gakoak[i + 1] + '">' + esc(KATALOGOA[gakoak[i + 1]].azala) + " →</a>" : "") + "</div>";
+    // (UX 2026-10-20) aurrekoa/hurrengoa txarteletan, lab_iesmdb-ren erara
+    const nav = '<nav class="kap-nav" aria-label="Kapituluen artean">' +
+      (i > 0 ? '<a class="kap-nav-a" href="#kapitulua/' + gakoak[i - 1] + '"><small>← Anterior</small>' + esc(KATALOGOA[gakoak[i - 1]].azala) + "</a>" : "<span></span>") +
+      (i < gakoak.length - 1 ? '<a class="kap-nav-a" href="#kapitulua/' + gakoak[i + 1] + '"><small>Siguiente →</small>' + esc(KATALOGOA[gakoak[i + 1]].azala) + "</a>" : "") + "</nav>";
     body.innerHTML = head + sarrera + atalak +
       '<p class="kap-iturburua">Fuente: <code>edicion2/' + esc(k.iturburua) + "</code> (JAKINA, Typst). Los datos de la web los genera <code>tools/konbertatu_jakina.py</code>.</p>" + nav;
     body.dataset.gakoa = gakoa;
     formulakJarri(body, k);
+    // (UX 2026-10-20) irisgarritasuna: irudi orori alt bat, ez badu (prop. 16)
+    body.querySelectorAll("img:not([alt])").forEach(im => { im.alt = "Irudia"; });
     toc.innerHTML = '<div class="toc-title">Secciones del capítulo</div><ol>' +
       k.atalak.map(a => '<li><a href="#kapitulua/' + gakoa + "/" + a.id + '" data-atala="' + a.id + '">' + a.izenburua.replace(/<[^>]+>/g, "") + "</a></li>").join("") + "</ol>";
     /* (dsh-2, 19-10) zubiak B1 → Logika-txokoa: «Txokoan probatu» kaxa atal horien azpian.
@@ -137,7 +151,14 @@ function loadKapitulua(g){
       h.insertAdjacentHTML("afterend", '<p class="zubia"><span class="zubia-et">' + ZUBIAK_TXT.txokoan + '</span> <a href="#txokoa/' + esc(z.pieza) + '">' + esc(z.etiketa) + " →</a></p>");
     });
     if (atala) kapAtalera(atala);
-  }).catch(e => { console.error(e); body.innerHTML = '<p class="hutsik">No se ha podido cargar el capítulo.</p>'; });
+  }).catch(e => {
+    console.error(e);
+    // (UX 2026-10-20) errore atsegina: goiburua + «Saiatu berriz»
+    body.innerHTML = goibHtml + '<p class="kap-errore">No se ha podido cargar el capítulo. ' +
+      '<button type="button" class="kap-saiatu">Intentar de nuevo</button></p>';
+    const btn = body.querySelector(".kap-saiatu");
+    if (btn) btn.addEventListener("click", () => { delete body.dataset.gakoa; loadKapitulua(g); });
+  });
 }
 function kapAtalera(id){
   const h = id && document.getElementById(id); if (h) h.scrollIntoView({ block: "start" });

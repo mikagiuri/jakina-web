@@ -4,7 +4,7 @@
    · el código propio (html, js, css, json, manifest) va RED PRIMERO, revalidando, y sin conexión sale de la caché;
    · imágenes (las figuras SVG) van stale-while-revalidate.
    ⚠ Sube VERSION en cada publicación para invalidar la caché antigua. */
-const VERSION = "v010-2026-10-20";
+const VERSION = "v011-2026-10-20";
 const SITE = (new URL(self.registration.scope).pathname).replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "") || "root";
 const PREFIX = "jakina-" + SITE + "-";
 const CACHE = PREFIX + VERSION;
