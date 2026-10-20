@@ -18,12 +18,12 @@ KAPITULUAK["01ma_01espazioak"] = {
     }
    ],
    "edukia": [
-    "Aljebraren oinarriak: ekuazioak, erlazioak, polinomioak",
-    "Trigonometria eta radianak",
-    "Funtzio esponentziala eta logaritmikoa",
-    "Sistemak, konikoak eta matematika diskretua",
-    "Zenbaki konplexuak",
-    "Espazio bektorialak, matrizeak eta diagonalizazioa"
+    "Fundamentos del álgebra: ecuaciones, relaciones, polinomios",
+    "Trigonometría y radianes",
+    "Función exponencial y logarítmica",
+    "Sistemas, cónicas y matemática discreta",
+    "Números complejos",
+    "Espacios vectoriales, matrices y diagonalización"
    ]
   },
   {

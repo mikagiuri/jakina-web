@@ -18,12 +18,12 @@ KAPITULUAK["01mc_01deribatuak"] = {
     }
    ],
    "edukia": [
-    "2. Zenbaki-segidak",
-    "3. Zenbaki-serieak",
-    "4. Funtzioak eta jarraitutasuna",
-    "5. Deribagarritasuna",
-    "6. Integrazioa",
-    "7. Funtzio-segidak eta funtzio-serieak"
+    "2. Sucesiones numéricas",
+    "3. Series numéricas",
+    "4. Funciones y continuidad",
+    "5. Derivabilidad",
+    "6. Integración",
+    "7. Sucesiones y series de funciones"
    ]
   },
   {

@@ -18,9 +18,9 @@ KAPITULUAK["00aa_02logika"] = {
     }
    ],
    "edukia": [
-    "Logika sinbolikoa: dedukzio naturala eta kuantifikazioa",
-    "Multzoak, erlazioak eta aplikazioak",
-    "Zenbaki naturalak eta indukzio-printzipioa"
+    "Lógica simbólica: deducción natural y cuantificación",
+    "Conjuntos, relaciones y aplicaciones",
+    "Los números naturales y el principio de inducción"
    ]
   },
   {

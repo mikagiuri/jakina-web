@@ -1777,6 +1777,678 @@ const GLOSARIOA = [
   "atala": "a3"
  },
  {
+  "t": "Fuerza conservativa",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Una fuerza es <strong>conservativa</strong> si el trabajo entre dos puntos es <strong>independiente de la trayectoria</strong>."
+   }
+  ],
+  "kapitulua": "02fg_01partikula",
+  "atala": "a35"
+ },
+ {
+  "t": "A) Principio de cuantización de la carga",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "La carga de un cuerpo es un <strong>múltiplo entero</strong> de una <strong>carga mínima</strong> (o <strong>carga elemental</strong>): <math display=\"block\"><mrow><mi>e</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>60</mn><mspace width=\"0.222em\"></mspace><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>19</mn></mrow></msup><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> coulomb</mtext></mrow><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02fg_01partikula",
+  "atala": "a37"
+ },
+ {
+  "t": "B) Principio de conservación",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "La carga de un sistema <strong>aislado</strong> es <strong>constante</strong>."
+   }
+  ],
+  "kapitulua": "02fg_01partikula",
+  "atala": "a37"
+ },
+ {
+  "t": "Campo eléctrico",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Región en la que cualquier carga colocada soporta una fuerza eléctrica. El campo no actúa <strong>de la misma manera</strong> en toda su extensión: la <strong>intensidad varía</strong>."
+   }
+  ],
+  "kapitulua": "02fg_01partikula",
+  "atala": "a39"
+ },
+ {
+  "t": "Fuerzas centrales",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Las <strong>fuerzas centrales</strong> pasan siempre por el mismo centro (p. ej. el muelle, la gravedad)."
+   }
+  ],
+  "kapitulua": "02fg_01partikula",
+  "atala": "a47"
+ },
+ {
+  "t": "Potencial eléctrico",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "El potencial eléctrico en un punto es el <strong>trabajo</strong> que hay que realizar para llevar la <strong>unidad de carga positiva</strong> (<math display=\"inline\"><mrow><mi>+</mi><mn>1</mn><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> C</mtext></mrow></mrow></math>) <strong>desde el infinito hasta ese punto</strong>, <strong>con velocidad constante</strong> y <strong>contra el campo</strong> (<math display=\"inline\"><mrow><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>∞</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>)."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a9"
+ },
+ {
+  "t": "Energía potencial",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "La energía potencial de una carga <math display=\"inline\"><msub><mi>q</mi><mn>0</mn></msub></math> en un punto es el trabajo para llevar esa carga <strong>desde el infinito</strong> hasta ese punto, <strong>con velocidad constante</strong> y <strong>contra el campo</strong>: <math display=\"block\"><mrow><msub><mi>E</mi><mi>p</mi></msub><mo>=</mo><msub><mi>q</mi><mn>0</mn></msub><mi>V</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a9"
+ },
+ {
+  "t": "Flujo eléctrico",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Para un campo uniforme y una superficie plana: <math display=\"block\"><mrow><mi mathvariant=\"normal\">Φ</mi><mo>=</mo><mover><mi>E</mi><mo accent=\"true\">→</mo></mover><mo>⋅</mo><mover><mi>A</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mspace width=\"1.0em\"></mspace><mover><mi>A</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mi>A</mi><mover><mi>n</mi><mo accent=\"true\">→</mo></mover><mo>,</mo></mrow></math> donde <math display=\"inline\"><mover><mi>n</mi><mo accent=\"true\">→</mo></mover></math> es la <strong>normal</strong> a la superficie."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a12"
+ },
+ {
+  "t": "Condensador plano",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Está formado por dos placas paralelas de <strong>la misma área y de carga igual y de signo contrario</strong>. Si la distancia entre las placas es <strong>pequeña</strong> frente a su tamaño, el campo entre las placas es igual al que crearían planos infinitos."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a13"
+ },
+ {
+  "t": "Capacidad",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "El cociente entre la carga de las placas y la diferencia de potencial entre ellas."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a13"
+ },
+ {
+  "t": "Conductor en equilibrio",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<strong>No hay campo en el interior</strong> de un conductor en equilibrio (<math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mn>0</mn></mrow></math>); el campo existe solo <strong>en la superficie</strong>. El conductor es un <strong>volumen equipotencial</strong> (<math display=\"inline\"><mrow><mi>V</mi><mo>=</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> kte</mtext></mrow></mrow></math>)."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a13"
+ },
+ {
+  "t": "Resistencia, capacidad y autoinductancia",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "En una resistencia lineal:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>R</mi><mo>=</mo><mfrac><mi>V</mi><mi>I</mi></mfrac><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "En un condensador lineal:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>C</mi><mo>=</mo><mfrac><mi>Q</mi><mi>V</mi></mfrac><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "El cuaderno tiene junto al condensador una nota verde sobre la capacidad de almacenar energía; la grafía no es del todo segura."
+   },
+   {
+    "mota": "testua",
+    "html": "En una bobina ideal, la tensión instantánea:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>v</mi><mrow><mi>L</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><mi>L</mi><mfrac><mrow><mi>d</mi><mi>i</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "[CORREGIDO: la grafía original no distingue con claridad <math display=\"inline\"><mrow><mi>d</mi><mfrac><mi>I</mi><mi>d</mi></mfrac><mi>t</mi></mrow></math> y <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mfrac><mi>I</mi><mi mathvariant=\"normal\">Δ</mi></mfrac><mi>t</mi></mrow></math>; la ley constitutiva diferencial es la expresión de arriba, y la forma en diferencias finitas es su aproximación.]"
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a21"
+ },
+ {
+  "t": "Reactancias e impedancia",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>X</mi><mi>L</mi></msub><mo>=</mo><mi>ω</mi><mi>L</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>X</mi><mi>C</mi></msub><mo>=</mo><mfrac><mn>1</mn><mrow><mi>ω</mi><mi>C</mi></mrow></mfrac><mo>,</mo></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>Z</mi><mo>=</mo><msqrt><mrow><msup><mi>R</mi><mn>2</mn></msup><mo>+</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>X</mi><mi>L</mi></msub><mo>−</mo><msub><mi>X</mi><mi>C</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a21"
+ },
+ {
+  "t": "Señal sinusoidal y reactancias",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Una fuente sinusoidal se puede escribir así:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>V</mi><mn>0</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>ω</mi><mo>=</mo><mn>2</mn><mi>π</mi><mi>f</mi><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "En los elementos ideales:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>R</mi><mo>:</mo><mspace width=\"1.0em\"></mspace><msub><mi>v</mi><mrow><mi>R</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><mi>R</mi><mi>i</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>C</mi><mo>:</mo><mspace width=\"1.0em\"></mspace><msub><mi>i</mi><mrow><mi>C</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><mi>C</mi><mfrac><mrow><mi>d</mi><msub><mi>v</mi><mi>C</mi></msub></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>X</mi><mi>C</mi></msub><mo>=</mo><mfrac><mn>1</mn><mrow><mi>ω</mi><mi>C</mi></mrow></mfrac><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>L</mi><mo>:</mo><mspace width=\"1.0em\"></mspace><msub><mi>v</mi><mrow><mi>L</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msub><mo>=</mo><mi>L</mi><mfrac><mrow><mi>d</mi><msub><mi>i</mi><mi>L</mi></msub></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>X</mi><mi>L</mi></msub><mo>=</mo><mi>ω</mi><mi>L</mi><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "En la resistencia la corriente y la tensión están en fase; en el condensador la corriente se adelanta <math display=\"inline\"><mfrac><mi>π</mi><mn>2</mn></mfrac></math>; en la bobina se retrasa <math display=\"inline\"><mfrac><mi>π</mi><mn>2</mn></mfrac></math>."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a22"
+ },
+ {
+  "t": "Corriente y densidad de corriente",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "La corriente que atraviesa una superficie:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>I</mi><mo>=</mo><msub><mo>∫</mo><mi>S</mi></msub><mover><mi>j</mi><mo accent=\"true\">→</mo></mover><mo>⋅</mo><mi>d</mi><mover><mi>S</mi><mo accent=\"true\">→</mo></mover><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "[CORREGIDO: el dibujo original da la relación entre la superficie y la densidad de corriente de forma abreviada; la forma vectorial completa es la de arriba.]"
+   },
+   {
+    "mota": "testua",
+    "html": "En un conductor homogéneo:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>V</mi><mo>=</mo><mi>I</mi><mi>R</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>R</mi><mo>=</mo><mi>ρ</mi><mfrac><mi>l</mi><mi>A</mi></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mover><mi>E</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mi>ρ</mi><mover><mi>j</mi><mo accent=\"true\">→</mo></mover><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a22"
+ },
+ {
+  "t": "Nudo, rama, malla y lazo",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "El <strong>nudo</strong> es el punto donde se unen varias corrientes. La <strong>rama</strong> es el camino que une dos nudos, el conjunto de elementos que están en serie y llevan la misma corriente. El <strong>lazo</strong> es todo camino cerrado. La <strong>malla</strong> es el lazo irreducible que no tiene otro lazo en su interior."
+   },
+   {
+    "mota": "testua",
+    "html": "Las últimas palabras de la definición de malla no se leen del todo en la foto; la frase anterior es la definición física canónica."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a22"
+ },
+ {
+  "t": "Constante de tiempo RC",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>τ</mi><mo>=</mo><mi>R</mi><mi>C</mi><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>τ</mi></math> fija la escala de tiempo de la respuesta exponencial del circuito."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a22"
+ },
+ {
+  "t": "Puente de Wheatstone equilibrado",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Cuando <math display=\"inline\"><mrow><msub><mi>V</mi><mtext mathvariant=\"normal\">BC</mtext></msub><mo>=</mo><mn>0</mn></mrow></math> en la rama del galvanómetro ideal no pasa corriente. Los dos divisores de tensión dan el mismo potencial:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>ε</mi><mfrac><msub><mi>R</mi><mn>1</mn></msub><mrow><msub><mi>R</mi><mn>1</mn></msub><mo>+</mo><msub><mi>R</mi><mn>2</mn></msub></mrow></mfrac><mo>=</mo><mi>ε</mi><mfrac><msub><mi>R</mi><mn>3</mn></msub><mrow><msub><mi>R</mi><mn>4</mn></msub><mo>+</mo><msub><mi>R</mi><mn>3</mn></msub></mrow></mfrac><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "De ahí, según la posición de los brazos, la relación de equilibrio habitual:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mfrac><msub><mi>R</mi><mn>1</mn></msub><msub><mi>R</mi><mn>2</mn></msub></mfrac><mo>=</mo><mfrac><msub><mi>R</mi><mn>3</mn></msub><msub><mi>R</mi><mrow><mn>4</mn><mi>.</mi></mrow></msub></mfrac></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Las últimas letras del original tienen una grafía dudosa; se ha mantenido el significado físico de las razones, pero no se ha inventado ninguna etiqueta oscura."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a22"
+ },
+ {
+  "t": "Corriente eléctrica",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Flujo de carga en sentido <strong>convencional</strong> (tomando los portadores de carga como positivos; normalmente en conductores cilíndricos)."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a24"
+ },
+ {
+  "t": "Condensador",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Conjunto de conductores cuya función es almacenar carga."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a24"
+ },
+ {
+  "t": "Generador",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aparato capaz de convertir cualquier tipo de energía en energía eléctrica, o que da a la carga la energía para moverse en el circuito."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a24"
+ },
+ {
+  "t": "Receptor",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Aparato capaz de convertir la energía eléctrica en un tipo de energía útil (para consumirla), <strong>salvo el calor</strong>."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a24"
+ },
+ {
+  "t": "Fuerza de Lorentz",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Si hay campo eléctrico y magnético a la vez:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mover><mi>F</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mi>q</mi><mover><mi>E</mi><mo accent=\"true\">→</mo></mover><mo>+</mo><mi>q</mi><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mo>×</mo><mover><mi>B</mi><mo accent=\"true\">→</mo></mover><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Módulo de la parte magnética:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>F</mi><mi>B</mi></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>q</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>v</mi><mi>B</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a33"
+ },
+ {
+  "t": "Equilibrio Hall",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Al colocar una lámina que lleva corriente en un campo perpendicular <math display=\"inline\"><mover><mi>B</mi><mo accent=\"true\">→</mo></mover></math>, los portadores de carga se acumulan en un lado. El campo transversal <math display=\"inline\"><msub><mover><mi>E</mi><mo accent=\"true\">→</mo></mover><mi>H</mi></msub></math> así creado equilibra la fuerza magnética:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>q</mi><msub><mi>E</mi><mi>H</mi></msub><mo>−</mo><mi>q</mi><msub><mi>v</mi><mi>d</mi></msub><mi>B</mi><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>E</mi><mi>H</mi></msub><mo>=</mo><msub><mi>v</mi><mi>d</mi></msub><mi>B</mi><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>E</mi><mi>H</mi></msub><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><mfrac><msub><mi>V</mi><mi>H</mi></msub><mi>w</mi></mfrac><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Relación entre la corriente y la densidad de portadores:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>I</mi><mo>=</mo><mi>n</mi><mi>q</mi><msub><mi>v</mi><mi>d</mi></msub><mi>S</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mover><mi>J</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mi>n</mi><mi>q</mi><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mi>d</mi></msub><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a33"
+ },
+ {
+  "t": "Campo del elemento de corriente",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>d</mi><mover><mi>B</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mfrac><mrow><msub><mi>μ</mi><mn>0</mn></msub><mi>I</mi></mrow><mrow><mn>4</mn><mi>π</mi></mrow></mfrac><mfrac><mrow><mi>d</mi><mover><mi>l</mi><mo accent=\"true\">→</mo></mover><mo>×</mo><mover><mi>r</mi><mo accent=\"true\">̂</mo></mover></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac><mo>,</mo></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi>μ</mi><mn>0</mn></msub><mo>=</mo><mn>4</mn><mi>π</mi><mo>⋅</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>7</mn></mrow></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> T m/A</mtext></mrow><mo>=</mo><mn>4</mn><mi>π</mi><mo>⋅</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>7</mn></mrow></msup><msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> N/A</mtext></mrow><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math>"
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a33"
+ },
+ {
+  "t": "Circulación de Ampère",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "En magnetostática:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mo>∮</mo><mover><mi>B</mi><mo accent=\"true\">→</mo></mover><mo>⋅</mo><mi>d</mi><mover><mi>l</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><msub><mi>μ</mi><mn>0</mn></msub><msub><mi>I</mi><mtext mathvariant=\"normal\">barne</mtext></msub><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "En un hilo recto infinito la simetría circular:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>B</mi><mn>2</mn><mi>π</mi><mi>r</mi><mo>=</mo><msub><mi>μ</mi><mn>0</mn></msub><mi>I</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>B</mi><mo>=</mo><mfrac><mrow><msub><mi>μ</mi><mn>0</mn></msub><mi>I</mi></mrow><mrow><mn>2</mn><mi>π</mi><mi>r</mi></mrow></mfrac><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a33"
+ },
+ {
+  "t": "Fuerza sobre un elemento de corriente",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>d</mi><mover><mi>F</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mi>I</mi><mi>d</mi><mover><mi>l</mi><mo accent=\"true\">→</mo></mover><mo>×</mo><mover><mi>B</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mspace width=\"1.0em\"></mspace><mover><mi>F</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mo>∫</mo><mi>I</mi><mi>d</mi><mover><mi>l</mi><mo accent=\"true\">→</mo></mover><mo>×</mo><mover><mi>B</mi><mo accent=\"true\">→</mo></mover><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Si el hilo recto y <math display=\"inline\"><mi>B</mi></math> son uniformes:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mover><mi>F</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mi>I</mi><mover><mi>l</mi><mo accent=\"true\">→</mo></mover><mo>×</mo><mover><mi>B</mi><mo accent=\"true\">→</mo></mover><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>F</mi><mo>=</mo><mi>I</mi><mi>l</mi><mi>B</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a33"
+ },
+ {
+  "t": "Flujo y f.e.m. inducida",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mi mathvariant=\"normal\">Φ</mi><mi>B</mi></msub><mo>=</mo><msub><mo>∫</mo><mi>S</mi></msub><mover><mi>B</mi><mo accent=\"true\">→</mo></mover><mo>⋅</mo><mi>d</mi><mover><mi>S</mi><mo accent=\"true\">→</mo></mover><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "En una superficie cerrada el flujo magnético neto es cero:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mo>∫</mo><msub><mi>S</mi><mtext mathvariant=\"normal\">itxi</mtext></msub></msub><mover><mi>B</mi><mo accent=\"true\">→</mo></mover><mo>⋅</mo><mi>d</mi><mover><mi>S</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Ley de Faraday–Lenz:"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>ε</mi><mo>=</mo><mi>−</mi><mfrac><mrow><mi>d</mi><msub><mi mathvariant=\"normal\">Φ</mi><mi>B</mi></msub></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>,</mo></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mo>∮</mo><mover><mi>E</mi><mo accent=\"true\">→</mo></mover><mo>⋅</mo><mi>d</mi><mover><mi>l</mi><mo accent=\"true\">→</mo></mover><mo>=</mo><mi>−</mi><mfrac><mi>∂</mi><mrow><mi>∂</mi><mi>t</mi></mrow></mfrac><msub><mo>∫</mo><mi>S</mi></msub><mover><mi>B</mi><mo accent=\"true\">→</mo></mover><mo>⋅</mo><mi>d</mi><mover><mi>S</mi><mo accent=\"true\">→</mo></mover><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a41"
+ },
+ {
+  "t": "Autoinductancia",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Φ</mi><mo>=</mo><mi>L</mi><mi>I</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>L</mi><mo>=</mo><mfrac><mrow><msub><mi>μ</mi><mn>0</mn></msub><mi>S</mi><msup><mi>N</mi><mn>2</mn></msup></mrow><mi>l</mi></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>ε</mi><mo>=</mo><mi>−</mi><mi>L</mi><mfrac><mrow><mi>d</mi><mi>I</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mi>.</mi></mrow></math>"
+   },
+   {
+    "mota": "testua",
+    "html": "Una inductancia de un henrio produce una f.e.m. de un voltio cuando la corriente varía a razón de un amperio por segundo."
+   }
+  ],
+  "kapitulua": "02fg_04elektromagnetismoa",
+  "atala": "a41"
+ },
+ {
+  "t": "Motor térmico",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "El objetivo del motor térmico es dar trabajo útil. El sistema toma calor del foco caliente y cede parte del calor al foco frío: <math display=\"inline\"><mrow><msub><mi>Q</mi><mn>1</mn></msub><mo>&gt;</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><msub><mi>Q</mi><mn>2</mn></msub><mo>&lt;</mo><mn>0</mn></mrow></math> y <math display=\"inline\"><mrow><mi>W</mi><mo>&lt;</mo><mn>0</mn></mrow></math>. El rendimiento"
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><mi>η</mi><mo>=</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>W</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></mfrac><mo>=</mo><mn>1</mn><mo>−</mo><mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></mfrac><mi>.</mi></mrow></math>"
+     }
+    ]
+   },
+   {
+    "mota": "testua",
+    "html": "El segundo principio no permite que sea <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>=</mo><mn>0</mn></mrow></math> en un ciclo repetible; por tanto, todo motor térmico real o ideal tiene <math display=\"inline\"><mrow><mi>η</mi><mo>&lt;</mo><mn>1</mn></mrow></math> entre los dos focos."
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a24"
+ },
+ {
+  "t": "Refrigerador y bomba de calor",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "En el refrigerador el objetivo es extraer calor del foco frío. Para ello hay que darle trabajo al sistema: <math display=\"inline\"><mrow><msub><mi>Q</mi><mn>1</mn></msub><mo>&lt;</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><msub><mi>Q</mi><mn>2</mn></msub><mo>&gt;</mo><mn>0</mn></mrow></math> y <math display=\"inline\"><mrow><mi>W</mi><mo>&gt;</mo><mn>0</mn></mrow></math>. Su medida de eficacia"
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><msub><mi>ε</mi><mi>h</mi></msub><mo>=</mo><mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>W</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></mrow></mfrac><mi>.</mi></mrow></math>"
+     }
+    ]
+   },
+   {
+    "mota": "testua",
+    "html": "En la bomba de calor el objetivo es dar calor al foco caliente. Los signos pueden leerse igual, pero ahora el resultado útil es <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></math> :"
+   },
+   {
+    "mota": "zentratua",
+    "blokeak": [
+     {
+      "mota": "testua",
+      "html": "<math display=\"block\"><mrow><msub><mi>ε</mi><mi>p</mi></msub><mo>=</mo><mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>W</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>Q</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></mrow></mfrac><mi>.</mi></mrow></math>"
+     }
+    ]
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a24"
+ },
+ {
+  "t": "Reversibilidad",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Un proceso es <strong>reversible</strong> si el sistema y el entorno pueden volver a sus estados iniciales sin dejar ningún otro cambio en el resto del universo."
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a26"
+ },
+ {
+  "t": "Entropía",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"inline\"><mi>S</mi></math> se define así: <math display=\"block\"><mrow><mi>d</mi><mi>S</mi><mo>=</mo><mfrac><mrow><mi>δ</mi><msub><mi>Q</mi><mtext mathvariant=\"normal\">itzulgarria</mtext></msub></mrow><mi>T</mi></mfrac><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a31"
+ },
+ {
+  "t": "Ciclo de Carnot",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Es el ciclo reversible que puede construirse para cualquier sistema. Se compone de dos líneas isotermas reversibles y dos líneas adiabáticas reversibles: <math display=\"block\"><mrow><mspace width=\"0.222em\"></mspace><mn>2</mn><mspace width=\"0.222em\"></mspace><mi>i</mi><mi>s</mi><mi>o</mi><mi>t</mi><mi>e</mi><mi>r</mi><mi>m</mi><mi>a</mi><mspace width=\"0.222em\"></mspace><mi>i</mi><mi>t</mi><mi>z</mi><mi>u</mi><mi>l</mi><mi>g</mi><mi>a</mi><mi>r</mi><mi>r</mi><mi>i</mi><mspace width=\"0.222em\"></mspace><mo>+</mo><mspace width=\"0.222em\"></mspace><mn>2</mn><mspace width=\"0.222em\"></mspace><mi>a</mi><mi>d</mi><mi>i</mi><mi>a</mi><mi>b</mi><mi>a</mi><mi>t</mi><mi>a</mi><mspace width=\"0.222em\"></mspace><mi>i</mi><mi>t</mi><mi>z</mi><mi>u</mi><mi>l</mi><mi>g</mi><mi>a</mi><mi>r</mi><mi>r</mi><mi>i</mi><mspace width=\"0.222em\"></mspace><mo>→</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> ziklo itzulgarria</mtext></mrow><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a37"
+ },
+ {
+  "t": "Ecuación fundamental",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>S</mi><mo>=</mo><mi>S</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>U</mi><mo>,</mo><mi>V</mi><mo>,</mo><mi>N</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≡</mo><mi>U</mi><mo>=</mo><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>S</mi><mo>,</mo><mi>V</mi><mo>,</mo><mi>N</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math> Estas dos formas (la entrópica y la energética) son las <strong>ecuaciones fundamentales</strong>: contienen toda la información termodinámica."
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a57"
+ },
+ {
+  "t": "Transformación de Legendre",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>ψ</mi><mo>=</mo><mi>ψ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>Y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>P</mi><mi>X</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math> donde <math display=\"inline\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mi>d</mi><mi>Y</mi></mrow><mrow><mi>d</mi><mi>X</mi></mrow></mfrac></mrow></math>. Se pasa de la función <math display=\"inline\"><mrow><mi>Y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>X</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> a la función <math display=\"inline\"><mrow><mi>ψ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>  sin pérdida de información: en lugar de la posición de los puntos, se utiliza la posición de las rectas tangentes."
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a63"
+ },
+ {
+  "t": "Energía libre de Helmholtz, <math display=\"inline\"><mi>F</mi></math>",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>F</mi><mo>≡</mo><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>T</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>,</mo></mrow></math> es decir, la transformada de Legendre de la energía que se obtiene sustituyendo la variable natural <math display=\"inline\"><mi>S</mi></math> por <math display=\"inline\"><mi>T</mi></math>."
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a63"
+ },
+ {
+  "t": "Entalpía, <math display=\"inline\"><mi>H</mi></math>",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>H</mi><mo>≡</mo><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>,</mo></mrow></math> es decir, la transformada de Legendre de la energía que se obtiene sustituyendo la variable natural <math display=\"inline\"><mi>V</mi></math> por <math display=\"inline\"><mi>P</mi></math>."
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a63"
+ },
+ {
+  "t": "Energía libre de Gibbs, <math display=\"inline\"><mi>G</mi></math>",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>G</mi><mo>≡</mo><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>T</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>,</mo></mrow></math> es decir, la transformada de Legendre de la energía que se obtiene sustituyendo las variables naturales <math display=\"inline\"><mi>S</mi></math> y <math display=\"inline\"><mi>V</mi></math> por <math display=\"inline\"><mi>T</mi></math> y <math display=\"inline\"><mi>P</mi></math>."
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a63"
+ },
+ {
+  "t": "Condiciones de estabilidad",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "En la formulación entrópica (hessiano negativo): <math display=\"block\"><mrow><msub><mi>S</mi><mrow><mi>U</mi><mi>U</mi></mrow></msub><mo>≤</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>S</mi><mrow><mi>V</mi><mi>V</mi></mrow></msub><mo>≤</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>S</mi><mrow><mi>U</mi><mi>U</mi></mrow></msub><msub><mi>S</mi><mrow><mi>V</mi><mi>V</mi></mrow></msub><mo>−</mo><msubsup><mi>S</mi><mrow><mi>U</mi><mi>V</mi></mrow><mn>2</mn></msubsup><mo>≥</mo><mn>0</mn><mi>.</mi></mrow></math> En la formulación energética, la dual (hessiano positivo, porque <math display=\"inline\"><mrow><mi>U</mi><mo>=</mo><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>S</mi><mo>,</mo><mi>V</mi><mo>,</mo><mi>N</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> es un mínimo según <math display=\"inline\"><mrow><mi>S</mi><mo>,</mo><mi>V</mi></mrow></math>): <math display=\"block\"><mrow><msub><mi>U</mi><mrow><mi>S</mi><mi>S</mi></mrow></msub><mo>≥</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>U</mi><mrow><mi>V</mi><mi>V</mi></mrow></msub><mo>≥</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>U</mi><mrow><mi>S</mi><mi>S</mi></mrow></msub><msub><mi>U</mi><mrow><mi>V</mi><mi>V</mi></mrow></msub><mo>−</mo><msubsup><mi>U</mi><mrow><mi>S</mi><mi>V</mi></mrow><mn>2</mn></msubsup><mo>≥</mo><mn>0</mn><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a65"
+ },
+ {
+  "t": "Ecuación de estado de Van der Waals",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mi>R</mi><mi>T</mi></mrow><mrow><mi>v</mi><mo>−</mo><mi>b</mi></mrow></mfrac><mo>−</mo><mfrac><mi>a</mi><msup><mi>v</mi><mn>2</mn></msup></mfrac><mo>,</mo></mrow></math> donde <math display=\"inline\"><mi>v</mi></math> es el volumen molar, y los parámetros <math display=\"inline\"><mrow><mi>a</mi><mo>,</mo><mi>b</mi></mrow></math> codifican la atracción entre moléculas y el volumen excluido."
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a66"
+ },
+ {
+  "t": "Punto crítico",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "<math display=\"block\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>P</mi></mrow><mrow><mi>∂</mi><mi>v</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msub><mi>T</mi><mi>k</mi></msub></msub><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>P</mi></mrow><mrow><mi>∂</mi><msup><mi>v</mi><mn>2</mn></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msub><mi>T</mi><mi>k</mi></msub></msub><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math>"
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a66"
+ },
+ {
+  "t": "Clasificación de Ehrenfest",
+  "blokeak": [
+   {
+    "mota": "testua",
+    "html": "Las transiciones de fase se clasifican según las derivadas del potencial termodinámico de Gibbs: el <strong>orden</strong> de la transición es el orden de la primera derivada que es discontinua. <math display=\"inline\"><mi>G</mi></math> es siempre continua; en una transición de orden <math display=\"inline\"><mi>n</mi></math>. las derivadas <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. de <math display=\"inline\"><mi>G</mi></math> son continuas, pero en las derivadas <math display=\"inline\"><mi>n</mi></math>. aparece un salto o una divergencia."
+   }
+  ],
+  "kapitulua": "02td_01termodinamika",
+  "atala": "a66"
+ },
+ {
   "t": "Ecuación diferencial (ED)",
   "blokeak": [
    {
@@ -2507,5 +3179,21 @@ const GLOSARIOA = [
   ],
   "kapitulua": "03mm_04sturm",
   "atala": "a105"
+ },
+ {
+  "t": "Clasificación según el discriminante",
+  "blokeak": [
+   {
+    "mota": "zerrenda",
+    "ordenatua": false,
+    "elementuak": [
+     "<strong>Elípticas</strong> (<math display=\"inline\"><mrow><mi>D</mi><mo>&lt;</mo><mn>0</mn></mrow></math>): <math display=\"block\"><mrow><msup><mi>∇</mi><mn>2</mn></msup><mi>u</mi><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtext mathvariant=\"normal\">Laplace</mtext><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><msup><mi>∇</mi><mn>2</mn></msup><mi>u</mi><mo>+</mo><msup><mi>λ</mi><mn>2</mn></msup><mi>u</mi><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtext mathvariant=\"normal\">Helmholtz</mtext><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msup><mi>∇</mi><mn>2</mn></msup><mi>u</mi><mo>=</mo><mi>k</mi><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtext mathvariant=\"normal\">Poisson</mtext><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><msup><mi>∇</mi><mn>2</mn></msup><mi>u</mi><mo>+</mo><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>E</mi><mo>−</mo><mi>V</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>u</mi><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtext mathvariant=\"normal\">Schrödinger</mtext><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>",
+     "<strong>Hiperbólicas</strong> (<math display=\"inline\"><mrow><mi>D</mi><mo>&gt;</mo><mn>0</mn></mrow></math>): ecuaciones de ondas, p. ej. <math display=\"block\"><mrow><msub><mi>u</mi><mrow><mi>t</mi><mi>t</mi></mrow></msub><mo>=</mo><msup><mi>c</mi><mn>2</mn></msup><msub><mi>u</mi><mrow><mi>x</mi><mi>x</mi></mrow></msub><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>s</mi><mi>o</mi><mi>k</mi><mi>a</mi><mspace width=\"0.222em\"></mspace><mi>b</mi><mi>i</mi><mi>b</mi><mi>r</mi><mi>a</mi><mi>k</mi><mi>o</mi><mi>r</mi><mi>r</mi><mi>a</mi><mspace width=\"0.222em\"></mspace><mn>1</mn><mi>D</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>u</mi><mrow><mi>t</mi><mi>t</mi></mrow></msub><mo>=</mo><msup><mi>c</mi><mn>2</mn></msup><msup><mi>∇</mi><mn>2</mn></msup><mi>u</mi><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtext mathvariant=\"normal\">uhina dimentsio handiagoetan</mtext><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> con variantes de rozamiento (<math display=\"inline\"><mrow><mi>−</mi><mi>h</mi><msub><mi>u</mi><mi>t</mi></msub></mrow></math>), fuerza externa (<math display=\"inline\"><mrow><mi>+</mi><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>) y línea de transmisión (<math display=\"inline\"><mrow><mi>−</mi><mi>h</mi><msub><mi>u</mi><mi>t</mi></msub><mo>−</mo><mi>k</mi><mi>u</mi></mrow></math>).",
+     "<strong>Parabólicas</strong> (<math display=\"inline\"><mrow><mi>D</mi><mo>=</mo><mn>0</mn></mrow></math>): ecuaciones de difusión, p. ej. <math display=\"block\"><mrow><msub><mi>u</mi><mi>t</mi></msub><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><msub><mi>u</mi><mrow><mi>x</mi><mi>x</mi></mrow></msub><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mi>i</mi><mi>f</mi><mi>u</mi><mi>s</mi><mi>i</mi><mi>o</mi><mi>a</mi><mspace width=\"0.222em\"></mspace><mn>1</mn><mi>D</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math> con variantes de convección (<math display=\"inline\"><mrow><mi>−</mi><mi>h</mi><msub><mi>u</mi><mi>x</mi></msub></mrow></math>), pérdida lateral (<math display=\"inline\"><mrow><mi>−</mi><mi>k</mi><mi>u</mi></mrow></math>) y fuentes (<math display=\"inline\"><mrow><mi>+</mi><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>)."
+    ]
+   }
+  ],
+  "kapitulua": "03mm_05edp",
+  "atala": "a10"
  }
 ];

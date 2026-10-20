@@ -18,10 +18,10 @@ KAPITULUAK["03mm_01edo"] = {
     }
    ],
    "edukia": [
-    "Ekuazio diferentzial arruntak: lehen ordena, linealak, sistemak",
-    "Laplace-ren transformatua eta serie bidezko soluzioak",
-    "Egonkortasuna eta Sturm–Liouville",
-    "Probabilitatea eta estatistika"
+    "Ecuaciones diferenciales ordinarias: primer orden, lineales, sistemas",
+    "La transformada de Laplace y las soluciones por series",
+    "Estabilidad y Sturm–Liouville",
+    "Probabilidad y estadística"
    ]
   },
   {
@@ -1872,7 +1872,7 @@ KAPITULUAK["03mm_01edo"] = {
     },
     {
      "mota": "problema",
-     "izena": "Periodo del péndulo",
+     "izena": "Período del péndulo",
      "izar": 0,
      "blokeak": [
       {

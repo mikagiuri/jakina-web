@@ -111,7 +111,7 @@ const KATALOGOA = {
   "azpititulua": "Era I - Herramientas",
   "aroa": "I",
   "maila": "Herramientas",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "01mz_01konplexuak": {
   "titulua": "JAKINA - B3 - Cálculo y análisis - VI",
@@ -127,7 +127,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa II - L1",
   "aroa": "II",
   "maila": "L1",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "02fg_03oszilazioak": {
   "titulua": "JAKINA - B04A.2 - M17 Oscilaciones y ondas",
@@ -135,7 +135,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa II - L1",
   "aroa": "II",
   "maila": "L1",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "02fg_04elektromagnetismoa": {
   "titulua": "JAKINA - B04B.1 - Fundamentos del electromagnetismo y F1",
@@ -143,7 +143,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa II - L1",
   "aroa": "II",
   "maila": "L1",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "02fg_05optika": {
   "titulua": "JAKINA - B04B.2 - Landeta2 y M18 Óptica",
@@ -151,7 +151,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa II - L1",
   "aroa": "II",
   "maila": "L1",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "02k1_01kimika": {
   "titulua": "JAKINA - B5 - Química",
@@ -159,7 +159,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa II - L1",
   "aroa": "II",
   "maila": "L1",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "02td_01termodinamika": {
   "titulua": "JAKINA - B7 - Termodinámica",
@@ -167,7 +167,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa III - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "03mm_01edo": {
   "titulua": "JAKINA - B6 - Métodos matemáticos - 1/9",
@@ -223,7 +223,7 @@ const KATALOGOA = {
   "azpititulua": "Era I - Herramientas",
   "aroa": "I",
   "maila": "Herramientas",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "03mm_06probabilitatea": {
   "titulua": "JAKINA - B6 - Métodos matemáticos - 8/9",
@@ -231,7 +231,7 @@ const KATALOGOA = {
   "azpititulua": "Era I - Herramientas",
   "aroa": "I",
   "maila": "Herramientas",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "03mm_07estatistika": {
   "titulua": "JAKINA - B6 - Métodos matemáticos - 9/9",
@@ -239,7 +239,7 @@ const KATALOGOA = {
   "azpititulua": "Era I - Herramientas",
   "aroa": "I",
   "maila": "Herramientas",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "03mm_08kaosa": {
   "titulua": "JAKINA - B6 - Métodos matemáticos - Anexo",
@@ -255,7 +255,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa III - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "04em_02erradiazioa": {
   "titulua": "JAKINA - B08.2 - Griffiths 9-12 y M24 Óptica",
@@ -263,7 +263,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa III - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "05mk_01kontzeptuak": {
   "titulua": "JAKINA - B9 - Mecánica clásica - 1/10",
@@ -271,7 +271,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa III - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "05mk_02higiduraerl": {
   "titulua": "JAKINA - B9 - Mecánica clásica - 2/10",
@@ -279,7 +279,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa III - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "05mk_03erlatibitatea": {
   "titulua": "JAKINA - B9 - Mecánica clásica - 3/10",
@@ -287,7 +287,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa III - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "05mk_04zentralak": {
   "titulua": "JAKINA - B9 - Mecánica clásica - 4/10",
@@ -295,7 +295,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa III - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "05mk_05solidoa": {
   "titulua": "JAKINA - B9 - Mecánica clásica - 5/10",
@@ -303,7 +303,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa III - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "05mk_06analitikoa": {
   "titulua": "JAKINA - B9 - Mecánica clásica - 6/10",
@@ -311,7 +311,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa III - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "05mk_07oszilazioak": {
   "titulua": "JAKINA - B9 - Mecánica clásica - 7/10",
@@ -319,7 +319,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa III - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "05mk_08kaosa": {
   "titulua": "JAKINA - B9 - Mecánica clásica - 8/10",
@@ -327,7 +327,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa III - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "05mk_09uhinak": {
   "titulua": "JAKINA - B9 - Mecánica clásica - 9/10",
@@ -335,7 +335,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa III - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "05mk_10jarraituak": {
   "titulua": "JAKINA - B9 - Mecánica clásica - 10/10",
@@ -343,7 +343,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa III - L2",
   "aroa": "III",
   "maila": "L2",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "06fm_01kuantika": {
   "titulua": "JAKINA - B10.1 - M26 Física cuántica",
@@ -367,7 +367,7 @@ const KATALOGOA = {
   "azpititulua": "Etapa IV - HERRAMIENTAS",
   "aroa": "IV",
   "maila": "HERRAMIENTAS",
-  "eskuragarri": false
+  "eskuragarri": true
  },
  "09zz_02eranskinak": {
   "titulua": "JAKINA - Anexos",
@@ -375,6 +375,6 @@ const KATALOGOA = {
   "azpititulua": "Fórmulas y material de consulta",
   "aroa": null,
   "maila": null,
-  "eskuragarri": false
+  "eskuragarri": true
  }
 };

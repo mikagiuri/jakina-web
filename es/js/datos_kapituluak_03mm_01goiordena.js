@@ -6928,7 +6928,7 @@ KAPITULUAK["03mm_01goiordena"] = {
     {
      "mota": "izenburua",
      "maila": 4,
-     "testua": "Solución"
+     "testua": "Resolución"
     },
     {
      "mota": "testua",

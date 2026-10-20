@@ -18,10 +18,10 @@ KAPITULUAK["06fm_01kuantika"] = {
     }
    ],
    "edukia": [
-    "Erlatibitate berezia (ikus M25-3 eta M23-12)",
-    "Kuantizazioaren jatorri esperimentala eta Schrödinger-en ekuazioa",
-    "Formalismoa: egoerak, behagarriak, balio propioak",
-    "Fisika estatistikoaren oinarriak"
+    "Relatividad especial (véase M25-3 y M23-12)",
+    "El origen experimental de la cuantización y la ecuación de Schrödinger",
+    "Formalismo: estados, observables, autovalores",
+    "Fundamentos de la física estadística"
    ]
   },
   {
@@ -2904,7 +2904,7 @@ KAPITULUAK["06fm_01kuantika"] = {
     },
     {
      "mota": "testua",
-     "html": "por tanto"
+     "html": "así que"
     },
     {
      "mota": "testua",

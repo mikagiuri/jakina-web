@@ -1,0 +1,4499 @@
+/* JAKINA · kapitulua «B9.3 - Erlatibitate berezia» (05mk_03erlatibitatea), desde edicion2/kapituluak/05mk_03erlatibitatea/05mk_03erlatibitatea.typ
+   GENERADO por tools/konbertatu_jakina.py: no se edita a mano. */
+window.KAPITULUAK = window.KAPITULUAK || {};
+KAPITULUAK["05mk_03erlatibitatea"] = {
+ "gakoa": "05mk_03erlatibitatea",
+ "titulua": "JAKINA - B9 - Mecánica clásica - 3/10",
+ "azala": "B9.3 - Relatividad especial",
+ "azpititulua": "Etapa III - L2",
+ "iturburua": "kapituluak/05mk_03erlatibitatea/05mk_03erlatibitatea.typ",
+ "sarrera": [],
+ "atalak": [
+  {
+   "id": "a1",
+   "maila": 1,
+   "izenburua": "Relatividad especial",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "En este tema estudiaremos los conceptos básicos y los resultados de la relatividad especial. Aunque es una teoría clásica (es decir, no cuántica), la relatividad especial está en la base de toda la física moderna y sus predicciones se comprueban a diario en los laboratorios (por ejemplo, en los aceleradores de partículas). Aunque algunos resultados son bastante sorprendentes, hay que recordar que solo aparecen a nuestro alrededor cuando las velocidades son comparables a la de la luz, y que eso solo ocurre cuando la escala de los fenómenos es muy pequeña (en el mundo microscópico). En nuestra experiencia directa las velocidades son siempre muy pequeñas y la mecánica no relativista es perfectamente utilizable."
+    }
+   ]
+  },
+  {
+   "id": "a2",
+   "maila": 2,
+   "izenburua": "Mecánica «galileana»",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "Gracias a la teoría de Maxwell y a los experimentos de Hertz, a finales del siglo XIX se sabía que la luz es radiación electromagnética. En la electrodinámica de Maxwell la velocidad de la luz se escribe mediante constantes electromagnéticas universales: <math display=\"inline\"><mrow><mi>c</mi><mo>=</mo><mn>1</mn><mi>/</mi><msqrt><mrow><msub><mi>ε</mi><mn>0</mn></msub><msub><mi>μ</mi><mn>0</mn></msub></mrow></msqrt></mrow></math>  (véase la sección 9.12). Pero, según la transformación de Galileo (1.39), esa expresión no puede cumplirse en todos los sistemas de referencia inerciales. En aquella época se creía que la relación mencionada se cumplía en un sistema de referencia especial llamado <strong>sistema del éter</strong>. En el pensamiento mecanicista de entonces, las ondas electromagnéticas eran la propagación de perturbaciones del éter y, por tanto, era muy natural definir la velocidad de propagación respecto del éter, igual que la velocidad del sonido se define respecto del aire. El sistema del éter coincidía con el concepto de espacio absoluto de Newton, pero el éter debía tener propiedades muy extrañas para que la velocidad de la luz fuera tan grande en ese medio material imperceptible."
+    },
+    {
+     "mota": "testua",
+     "html": "Se quiso hallar la velocidad de la Tierra en el sistema del éter en el experimento realizado en 1887 por los estadounidenses Michelson<span class=\"j-oin\">[Albert Abraham Michelson obtuvo el premio Nobel de 1907 «por sus instrumentos ópticos de precisión y por las investigaciones espectroscópicas y metrológicas realizadas con ellos».]</span> y Morley (véase el problema 2.9). El resultado del experimento fue negativo: en el sistema de la Tierra la velocidad de la luz era constante, no variaba a lo largo del año. Einstein<span class=\"j-oin\">[La mayoría considera a Albert Einstein el creador de la relatividad especial, pero no hay que olvidar lo hecho antes por Lorentz, FitzGerald y, en especial, Poincaré. Este último conocía muchas de las ideas y resultados que veremos aquí, pero fue el trabajo de Einstein el que se difundió entre los físicos, sobre todo gracias a la influencia de Max Planck.]</span> dio una explicación sencilla y directa (en los artículos que crearon la relatividad especial no se menciona explícitamente el experimento de Michelson y Morley): la velocidad de la luz (en el vacío) es una constante universal y tiene el mismo valor en todos los sistemas de referencia inerciales. Por supuesto, esta hipótesis puede hacerse sin modificar la electrodinámica, pues basta con admitir que las ecuaciones de Maxwell son iguales en todos los sistemas de referencia. Pero, para conservar así la electrodinámica, tuvo que modificar la mecánica de aquella época, la que en este tema hemos llamado mecánica «galileana»."
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Sistemas de referencia inerciales"
+    },
+    {
+     "mota": "testua",
+     "html": "En este tema consideraremos siempre (salvo en algunos problemas) los sistemas inerciales <math display=\"inline\"><mi>S</mi></math> y <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> de la figura 3.2. Uno se mueve respecto del otro con velocidad constante, y los ejes <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math> y <math display=\"inline\"><mrow><msup><mi>O</mi><mo>′</mo></msup><msup><mi>X</mi><mo>′</mo></msup></mrow></math> se eligen sobre la misma recta y en la dirección del movimiento relativo. Los relojes se sincronizan con el valor <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math> cuando los dos orígenes coinciden en el mismo punto<span class=\"j-oin\">[El método para sincronizar con luz los relojes de los dos sistemas está en la base de la teoría de Einstein; pero aquí bastará con admitir que de algún modo puede hacerse.]</span>. El sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> se mueve con velocidad <math display=\"inline\"><mrow><mi>v</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> respecto de <math display=\"inline\"><mi>S</mi></math> y, en consecuencia, la velocidad de este último respecto del primero es <math display=\"inline\"><mrow><mi>−</mi><mi>v</mi></mrow></math>. Al hacer las figuras hemos tomado <math display=\"inline\"><mrow><mi>v</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, pero todas las expresiones que obtengamos pueden usarse con <math display=\"inline\"><mi>v</mi></math> negativos sin cambiar nada."
+    },
+    {
+     "mota": "irudia",
+     "oina": "Dos sistemas de referencia inerciales cuando <math display=\"inline\"><mrow><mi>v</mi><mo>&gt;</mo><mn>0</mn></mrow></math>.",
+     "src": "../media/irudiak/13e7adab4f0d0276.svg",
+     "zabalera": 381
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Sucesos"
+    },
+    {
+     "mota": "testua",
+     "html": "El objeto principal de estudio en este tema es el <strong>suceso</strong> <math display=\"inline\"><mi>G</mi></math> que ocurre en un instante conocido <math display=\"inline\"><mi>t</mi></math> y en un punto conocido <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. En el sistema <math display=\"inline\"><mi>S</mi></math> las componentes temporal y espacial del suceso <math display=\"inline\"><mi>G</mi></math> se expresarán como <math display=\"inline\"><mrow><mi>G</mi><mo>∼</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Del mismo modo, en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> escribiremos <math display=\"inline\"><mrow><mi>G</mi><mo>∼</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo>,</mo><msup><mi>x</mi><mo>′</mo></msup><mo>,</mo><msup><mi>y</mi><mo>′</mo></msup><mo>,</mo><msup><mi>z</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. En la mecánica galileana la relación entre las componentes de un suceso en los dos sistemas viene dada por las transformaciones de Galileo (1.38)–(1.38): <math display=\"block\"><mrow><mi>t</mi><mo>=</mo><msup><mi>t</mi><mo>′</mo></msup><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>x</mi><mo>=</mo><msup><mi>x</mi><mo>′</mo></msup><mo>+</mo><mi>v</mi><msup><mi>t</mi><mo>′</mo></msup><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>y</mi><mo>=</mo><msup><mi>y</mi><mo>′</mo></msup><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>z</mi><mo>=</mo><msup><mi>z</mi><mo>′</mo></msup></mrow></math> o <math display=\"block\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mi>t</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mi>x</mi><mo>−</mo><mi>v</mi><mi>t</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msup><mi>y</mi><mo>′</mo></msup><mo>=</mo><mi>y</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msup><mi>z</mi><mo>′</mo></msup><mo>=</mo><mi>z</mi><mi>.</mi></mrow></math> <math display=\"inline\"><mi>y</mi></math> Como las variables <math display=\"inline\"><mi>z</mi></math> no se transforman, también recurriremos a la notación abreviada <math display=\"inline\"><mrow><mi>G</mi><mo>∼</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∼</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo>,</mo><msup><mi>x</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, cuando convenga. Hay que subrayar que hemos usado el símbolo <math display=\"inline\"><mo>∼</mo></math> (y no <math display=\"inline\"><mo>=</mo></math>), porque en la mayoría de los casos será <math display=\"inline\"><mrow><mi>x</mi><mo>≠</mo><msup><mi>x</mi><mo>′</mo></msup></mrow></math>  (y en relatividad especial <math display=\"inline\"><mrow><mi>t</mi><mo>≠</mo><msup><mi>t</mi><mo>′</mo></msup></mrow></math>)."
+    },
+    {
+     "mota": "testua",
+     "html": "Consideraremos también los intervalos definidos por dos sucesos. Así, el intervalo de tiempo entre los sucesos <math display=\"inline\"><mrow><msub><mi>G</mi><mn>1</mn></msub><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><msub><mi>y</mi><mn>1</mn></msub><mo>,</mo><msub><mi>z</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>x</mi><mn>1</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>y</mi><mn>1</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>z</mi><mn>1</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> y <math display=\"inline\"><mrow><msub><mi>G</mi><mn>2</mn></msub><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>2</mn></msub><mo>,</mo><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><msub><mi>y</mi><mn>2</mn></msub><mo>,</mo><msub><mi>z</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>t</mi><mn>2</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>y</mi><mn>2</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>z</mi><mn>2</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> en los sistemas <math display=\"inline\"><mi>S</mi></math> y <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> es <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>≜</mo><msub><mi>t</mi><mn>2</mn></msub><mo>−</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>′</mo></msup><mo>≜</mo><msubsup><mi>t</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup></mrow></math> y el intervalo espacial entre ellos es <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"bold-italic\">𝒓</mi><mo>≜</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mn>2</mn></msub><mo>−</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mn>1</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi mathvariant=\"bold-italic\">𝒓</mi><mo>′</mo></msup><mo>≜</mo><msubsup><mi mathvariant=\"bold-italic\">𝒓</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi mathvariant=\"bold-italic\">𝒓</mi><mn>1</mn><mo>′</mo></msubsup></mrow></math> o, cuando <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>y</mi></mrow></math> y <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>z</mi></mrow></math> no nos interesan, <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mo>≜</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mo>′</mo></msup><mo>≜</mo><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>x</mi><mrow><mn>1</mn><mi>.</mi></mrow><mo>′</mo></msubsup></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "Como consecuencia de las transformaciones de Galileo, vemos que los intervalos de tiempo son absolutos, pues se miden de la misma manera en todos los sistemas inerciales: <math display=\"block\"><mrow><msub><mi>t</mi><mn>2</mn></msub><mo>−</mo><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><msubsup><mi>t</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>t</mi><mrow><mn>1</mn><mi>.</mi></mrow><mo>′</mo></msubsup></mrow></math> En particular, la simultaneidad es absoluta en la mecánica galileana: si dos sucesos son simultáneos en un sistema (<math display=\"inline\"><mrow><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup><mo>=</mo><msubsup><mi>t</mi><mn>2</mn><mo>′</mo></msubsup></mrow></math>, por ejemplo), lo son en todos los sistemas (<math display=\"inline\"><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><msub><mi>t</mi><mn>2</mn></msub></mrow></math>). Los intervalos espaciales, en cambio, no son absolutos, al menos si los sucesos no son simultáneos: <math display=\"block\"><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>x</mi><mn>1</mn><mo>′</mo></msubsup><mo>+</mo><mi>v</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>t</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math> Por ejemplo, si dos sucesos ocurren en el mismo punto pero en instantes distintos en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> (<math display=\"inline\"><mrow><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup><mo>=</mo><msubsup><mi>x</mi><mn>1</mn><mo>′</mo></msubsup></mrow></math>), no ocurrirán en el mismo punto en el sistema <math display=\"inline\"><mi>S</mi></math>: <math display=\"inline\"><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><mi>v</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>t</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>. La propiedad de ocurrir en el mismo lugar, a diferencia de la de ocurrir en el mismo instante, es una propiedad relativa: la punta de un avión está siempre en el mismo punto en el sistema del avión, pero no ocurre lo mismo desde el punto de vista del aeropuerto."
+    },
+    {
+     "mota": "testua",
+     "html": "Como se ve, en la mecánica galileana hay una clara asimetría entre los intervalos espaciales y temporales. Como veremos enseguida, en la relatividad especial ambos son relativos; pero definiremos otro tipo de intervalo que sí es absoluto."
+    }
+   ]
+  },
+  {
+   "id": "a3",
+   "maila": 2,
+   "izenburua": "Los postulados de Einstein",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "Einstein estableció los dos postulados siguientes como base de la relatividad especial:"
+    },
+    {
+     "mota": "testua",
+     "html": "<strong>Principio de relatividad:</strong>"
+    },
+    {
+     "mota": "testua",
+     "html": "Las leyes fundamentales de la física se manifiestan de la misma manera en todos los sistemas de referencia inerciales."
+    },
+    {
+     "mota": "testua",
+     "html": "<strong>Principio de invariancia de la velocidad de la luz:</strong>"
+    },
+    {
+     "mota": "testua",
+     "html": "En el vacío la velocidad de la luz es la misma en todos los sistemas de referencia inerciales: no depende de las velocidades del observador y de la fuente."
+    },
+    {
+     "mota": "testua",
+     "html": "Como vemos, el principio de relatividad es parecido al que vimos en la sección 1.2.1, aunque allí lo asociábamos con el nombre de Galileo<span class=\"j-oin\">[Parece que fue Poincaré quien propuso por primera vez este principio (en 1904), recogiendo y desarrollando ideas que ya existían.]</span>. Nos indica, en cierto modo, que todos los sistemas inerciales son equivalentes para hacer física."
+    },
+    {
+     "mota": "testua",
+     "html": "El segundo principio, en cambio, era completamente nuevo y, como veremos, trajo consecuencias de gran importancia. Si consideramos correcta la electrodinámica de Maxwell (y lo es cuando los efectos cuánticos son despreciables), podemos pensar que es la extensión natural del principio de relatividad: si las ecuaciones de Maxwell se cumplen en todos los sistemas inerciales, lo mismo ocurrirá con la expresión <math display=\"inline\"><mrow><mi>c</mi><mo>=</mo><mn>1</mn><mi>/</mi><msqrt><mrow><msub><mi>ε</mi><mn>0</mn></msub><msub><mi>μ</mi><mn>0</mn></msub></mrow></msqrt></mrow></math> obtenida de ellas. Desde este punto de vista, <math display=\"inline\"><msub><mi>ε</mi><mn>0</mn></msub></math>, <math display=\"inline\"><msub><mi>μ</mi><mn>0</mn></msub></math> y <math display=\"inline\"><mi>c</mi></math> son características universales del vacío y no propiedades que se midan solo en un sistema de referencia especial. Esta bonita y audaz hipótesis se ha comprobado una y otra vez en los experimentos (casi siempre mediante los resultados de la relatividad especial, que son su consecuencia) y está entre los fundamentos de toda la física moderna. De hecho, en ella se basa la definición del metro en el Sistema Internacional que recordamos en la página 4."
+    },
+    {
+     "mota": "testua",
+     "html": "Como la luz se mueve con velocidad <math display=\"inline\"><mi>c</mi></math> en todos los sistemas, no está en reposo en ningún sistema: no existe un sistema de referencia de la luz y, por tanto, la velocidad relativa entre sistemas no puede ser <math display=\"inline\"><mi>c</mi></math>."
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Velocidad relativa entre sistemas de referencia inerciales"
+    },
+    {
+     "mota": "testua",
+     "html": "Una consecuencia directa de los principios anteriores es que <em>el módulo de la velocidad relativa entre sistemas de referencia es siempre menor que <math display=\"inline\"><mi>c</mi></math></em>. Para verlo, supongamos que el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> se mueve con velocidad <math display=\"inline\"><mrow><mi>v</mi><mo>≥</mo><mi>c</mi></mrow></math> en el sistema <math display=\"inline\"><mi>S</mi></math>. Cuando <math display=\"inline\"><mrow><mi>t</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, es decir, en la situación de la izquierda de la figura 3.2, desde el punto <math display=\"inline\"><mi>O</mi></math> se envía un pulso de luz hacia <math display=\"inline\"><msup><mi>O</mi><mo>′</mo></msup></math>, pero como la velocidad de este último no es menor, nunca verá el pulso. Por otro lado, en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> la velocidad del pulso es <math display=\"inline\"><mi>c</mi></math> y <math display=\"inline\"><msup><mi>O</mi><mo>′</mo></msup></math> está en reposo: por tanto, llegará hasta <math display=\"inline\"><msup><mi>O</mi><mo>′</mo></msup></math>. Como aquí tenemos una contradicción, no puede ocurrir que sea <math display=\"inline\"><mrow><mi>v</mi><mo>≥</mo><mi>c</mi></mrow></math>."
+    }
+   ]
+  },
+  {
+   "id": "a4",
+   "maila": 2,
+   "izenburua": "Diagramas de Minkowski",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "Para facilitar varios cálculos en relatividad especial y ayudar a comprender las consecuencias, introduciremos ahora una herramienta gráfica. Como los sucesos tienen una componente temporal, para representarlos gráficamente hay que elegir el tiempo en un eje. Para que las dimensiones sean iguales (las de longitud) en todos los ejes, hemos multiplicado el tiempo por <math display=\"inline\"><mi>c</mi></math>; los ejes serán, pues, <math display=\"inline\"><mrow><mi>c</mi><mi>t</mi></mrow></math>, <math display=\"inline\"><mi>x</mi></math>, <math display=\"inline\"><mi>y</mi></math> y <math display=\"inline\"><mi>z</mi></math>. En el papel (o en la pizarra) no se pueden representar cuatro ejes perpendiculares, pero con la elección que hemos hecho en la figura 3.2 bastará con los ejes <math display=\"inline\"><mrow><mi>c</mi><mi>t</mi></mrow></math> y <math display=\"inline\"><mi>x</mi></math>, pues en las direcciones <math display=\"inline\"><mi>y</mi></math> y <math display=\"inline\"><mi>z</mi></math> casi nunca ocurrirá nada nuevo. En relatividad <math display=\"inline\"><mrow><mi>c</mi><mi>t</mi></mrow></math> se elige siempre en el eje vertical y <math display=\"inline\"><mi>x</mi></math> en el horizontal, como se muestra en la figura 3.3 en los diagramas correspondientes a los sistemas <math display=\"inline\"><mi>S</mi></math> y <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>."
+    },
+    {
+     "mota": "irudia",
+     "oina": "Diagramas de Minkowski de los sistemas de referencia <math display=\"inline\"><mi>S</mi></math> y <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>.",
+     "src": "../media/irudiak/5bb2fcfffea0de94.svg",
+     "zabalera": 324
+    },
+    {
+     "mota": "testua",
+     "html": "Para empezar, veamos cómo se representa en el diagrama de Minkowski el movimiento de una partícula que se mueve con velocidad constante <math display=\"inline\"><mi>v</mi></math>. En los diagramas que se usan normalmente para representar la evolución, el tiempo se pone en abscisas y usaríamos la gráfica de la ecuación <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><msub><mi>x</mi><mn>0</mn></msub><mo>+</mo><mi>v</mi><mi>t</mi></mrow></math>, pero como ahora el tiempo está en ordenadas, para describir la evolución usaremos la recta de pendiente <math display=\"inline\"><mrow><mi>c</mi><mi>/</mi><mi>v</mi></mrow></math> que expresa la ecuación equivalente <math display=\"block\"><mrow><mi>c</mi><mi>t</mi><mo>=</mo><mfrac><mi>c</mi><mi>v</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, llamada <strong>línea de universo</strong> de la partícula. Esa partícula estará en reposo en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> (pues ambos se mueven con velocidad <math display=\"inline\"><mi>v</mi></math> respecto de <math display=\"inline\"><mi>S</mi></math>) y su línea de universo <math display=\"inline\"><mrow><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><msubsup><mi>x</mi><mn>0</mn><mo>′</mo></msubsup></mrow></math> será allí una recta vertical."
+    },
+    {
+     "mota": "irudia",
+     "oina": "Línea de universo de una partícula en reposo en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> en los dos sistemas.",
+     "src": "../media/irudiak/9fdfcd2d9273074e.svg",
+     "zabalera": 298
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Calcula el ángulo <math display=\"inline\"><mi>α</mi></math> de la figura 3.4. ¿Cuáles serán las líneas de universo de las partículas en reposo en el sistema <math display=\"inline\"><mi>S</mi></math>? ¿Y las de los orígenes de los dos sistemas de referencia?"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "Supongamos ahora que se emite un rayo de luz en la dirección de los ejes <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math> y <math display=\"inline\"><mrow><msup><mi>O</mi><mo>′</mo></msup><msup><mi>X</mi><mo>′</mo></msup></mrow></math>. Como la luz se mueve en los dos sistemas con velocidad <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mi>c</mi></mrow></math> (o, si va hacia atrás, con velocidad <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mi>−</mi><mi>c</mi></mrow></math>), si la emisión es el suceso <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo>,</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>t</mi><mn>0</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>x</mi><mn>0</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, la línea de universo de un fotón<span class=\"j-oin\">[Basándose en el trabajo sobre el cuerpo negro de Max Karl Ernst Ludwig Planck, que sería premio Nobel en 1918, Einstein propuso en 1905 el cuanto de luz, entre otras cosas para explicar el efecto fotoeléctrico. Esta explicación, y no la relatividad especial, es la que se cita en el premio Nobel de 1921 que obtuvo. Millikan comprobó en experimentos la fórmula del efecto fotoeléctrico (véase la nota al pie de la página 603). El propio Einstein propuso en 1916 que el cuanto de luz era una partícula (es decir, que además de energía tiene momento lineal) y Compton comprobó en 1923 que lo es (véase la sección 3.12). El químico Gilbert Newton Lewis usó por primera vez (en 1926) el nombre «fotón», pero el significado que le dio no era del todo correcto. Aun así, la nueva palabra tuvo gran éxito para designar el concepto correcto.]</span> se escribirá así en los dos sistemas: <math display=\"block\"><mrow><mi>c</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>±</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mi>c</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo>−</mo><msubsup><mi>t</mi><mn>0</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>±</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>′</mo></msup><mo>−</mo><msubsup><mi>x</mi><mn>0</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math> Así se expresa, pues, el segundo principio de Einstein de forma gráfica: <em>la línea de universo del fotón es una recta de pendiente <math display=\"inline\"><mrow><mi>±</mi><mn>1</mn></mrow></math> en todos los sistemas inerciales</em>. Veamos la primera consecuencia de este principio."
+    },
+    {
+     "mota": "irudia",
+     "oina": "Líneas de universo de los fotones.",
+     "src": "../media/irudiak/3687a87c9e8a39c0.svg",
+     "zabalera": 319
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "La simultaneidad es relativa"
+    },
+    {
+     "mota": "testua",
+     "html": "Siguiendo la costumbre de Einstein, haremos un «experimento mental». Supongamos que en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> los detectores <math display=\"inline\"><msub><mi>D</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>D</mi><mn>2</mn></msub></math> están en reposo. Además, en el punto medio entre los dos detectores hay una fuente de luz <math display=\"inline\"><mi>I</mi></math> en reposo. Los detectores y la fuente se mueven con velocidad <math display=\"inline\"><mi>v</mi></math> en el sistema <math display=\"inline\"><mi>S</mi></math> y allí sus líneas de universo, en lugar de verticales, son rectas paralelas de pendiente <math display=\"inline\"><mrow><mi>c</mi><mi>/</mi><mi>v</mi></mrow></math>, y por simetría las distancias entre rectas sucesivas serán iguales. En un instante se enciende la luz (este es el suceso <math display=\"inline\"><msub><mi>G</mi><mn>0</mn></msub></math> de la figura 3.6) y los fotones parten en todas las direcciones. La llegada del primer fotón al detector <math display=\"inline\"><msub><mi>D</mi><mn>1</mn></msub></math>  (<math display=\"inline\"><msub><mi>D</mi><mn>2</mn></msub></math>) es el suceso <math display=\"inline\"><msub><mi>G</mi><mn>1</mn></msub></math>  (<math display=\"inline\"><msub><mi>G</mi><mn>2</mn></msub></math>). Como los caminos recorridos son iguales, está claro que los dos fotones llegan a los detectores en el mismo instante en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>: los dos sucesos son simultáneos."
+    },
+    {
+     "mota": "irudia",
+     "oina": "Fotones emitidos desde la fuente <math display=\"inline\"><mi>I</mi></math> que llegan a los detectores <math display=\"inline\"><msub><mi>D</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>D</mi><mn>2</mn></msub></math>.",
+     "src": "../media/irudiak/b07f3b5404d71f85.svg",
+     "zabalera": 379
+    },
+    {
+     "mota": "testua",
+     "html": "Pero en el sistema <math display=\"inline\"><mi>S</mi></math> las líneas de universo de los fotones también tienen pendiente <math display=\"inline\"><mrow><mi>±</mi><mn>1</mn></mrow></math> y, como se muestra en la figura 3.6, la luz llega antes al detector de la izquierda; en este sistema los dos sucesos no son simultáneos, pues <math display=\"inline\"><msub><mi>G</mi><mn>1</mn></msub></math> ocurre antes<span class=\"j-oin\">[Véase la simulación de la página `http://tp.lc.ehu.eus/jma/mekanika/erlatibitatea/aldiberekotasuna.html`.]</span>."
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Supongamos ahora que los detectores y la fuente están en reposo en el sistema <math display=\"inline\"><mi>S</mi></math>. ¿Qué ocurre en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>?"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "Valiéndonos del principio de invariancia de la velocidad de la luz, hemos visto que la simultaneidad es una propiedad relativa; pero para calcular exactamente cuándo ocurren en un sistema los sucesos que son simultáneos en otro, tenemos que encontrar la manera de hacer las transformaciones cinemáticas entre sistemas."
+    }
+   ]
+  },
+  {
+   "id": "a5",
+   "maila": 2,
+   "izenburua": "La transformación de Lorentz",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "Usando los postulados de Einstein y algunas hipótesis de simplicidad<span class=\"j-oin\">[La homogeneidad e isotropía del espacio y la homogeneidad del tiempo pueden usarse para fundamentar las hipótesis mencionadas, pero lo que aquí nos interesa es el efecto del principio de invariancia de la velocidad de la luz, no obtener con total rigor la transformación de Lorentz a partir de un conjunto mínimo de hipótesis (véase, por ejemplo, [95]). En última instancia, siempre podemos considerar que las transformaciones mencionadas están entre los principios básicos de la teoría.]</span>, para hallar la estructura de las transformaciones entre sistemas de referencia, consideremos el suceso <math display=\"inline\"><mrow><mi>G</mi><mo>∼</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∼</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo>,</mo><msup><mi>x</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. La relación más sencilla entre las componentes medidas en los dos sistemas sería lineal. Supongamos, pues, que tiene esta estructura: <math display=\"block\"><mrow><mi>x</mi><mo>=</mo><mi>a</mi><msup><mi>x</mi><mo>′</mo></msup><mo>+</mo><mi>b</mi><msup><mi>t</mi><mo>′</mo></msup><mo>+</mo><mi>c</mi><mo>,</mo></mrow></math> donde las constantes <math display=\"inline\"><mi>a</mi></math>, <math display=\"inline\"><mi>b</mi></math> y <math display=\"inline\"><mi>c</mi></math>, aunque dependen de la velocidad <math display=\"inline\"><mi>v</mi></math> entre sistemas, no cambian con el suceso."
+    },
+    {
+     "mota": "testua",
+     "html": "Para empezar, supongamos que el suceso corresponde al origen <math display=\"inline\"><mi>O</mi></math> del primer sistema. Como en el instante <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math> los dos orígenes estaban en el mismo punto, su abscisa era <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math> y, por tanto, en la expresión (3.19) hay que hacer <math display=\"inline\"><mrow><mi>c</mi><mo>=</mo><mn>0</mn></mrow></math>. En cualquier otro instante, la línea de universo de <math display=\"inline\"><mi>O</mi></math> es <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> y del resultado (3.19) se obtiene <math display=\"inline\"><mrow><mn>0</mn><mo>=</mo><mi>a</mi><msup><mi>x</mi><mo>′</mo></msup><mo>+</mo><mi>b</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></math>; pero esto puede escribirse como <math display=\"inline\"><mrow><msup><mi>x</mi><mo>′</mo></msup><mi>/</mi><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mi>−</mi><mi>b</mi><mi>/</mi><mi>a</mi></mrow></math> y, como la velocidad de <math display=\"inline\"><mi>O</mi></math> en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> es <math display=\"inline\"><mrow><msup><mi>x</mi><mo>′</mo></msup><mi>/</mi><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mi>−</mi><mi>v</mi></mrow></math>, obtenemos que <math display=\"inline\"><mrow><mi>b</mi><mo>=</mo><mi>v</mi><mi>a</mi></mrow></math>: <math display=\"block\"><mrow><mi>x</mi><mo>=</mo><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>′</mo></msup><mo>+</mo><mi>v</mi><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math> Dejando aparte el factor <math display=\"inline\"><mi>a</mi></math>, aquí tenemos la transformación de Galileo (3.2). Esperamos recuperar en algún límite (cuando la velocidad relativa <math display=\"inline\"><mi>v</mi></math> es pequeña, en concreto) <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mn>1</mn></mrow></math> y la mecánica galileana, que tan fructífera ha sido. Como para pasar de la transformación (3.2) a la inversa (3.6) se sustituía la velocidad <math display=\"inline\"><mi>v</mi></math> de <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> por la velocidad <math display=\"inline\"><mrow><mi>−</mi><mi>v</mi></mrow></math> de <math display=\"inline\"><mi>S</mi></math>, admitiremos que también aquí basta ese cambio para obtener la transformación inversa (sin tocar <math display=\"inline\"><mi>a</mi></math>, por simplificar): <math display=\"block\"><mrow><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math> En cierto modo, hemos tenido en cuenta aquí que, quitando el sentido del movimiento relativo, los dos sistemas son equivalentes."
+    },
+    {
+     "mota": "testua",
+     "html": "Hasta ahora solo hemos usado hipótesis de simplicidad y de simetría. Veamos las consecuencias del principio de invariancia de la velocidad de la luz. Para ello, consideraremos la línea de universo del fotón emitido desde el origen <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math> en el instante <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math>. Como se cumplen <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>c</mi><mi>t</mi></mrow></math> y <math display=\"inline\"><mrow><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></math>, las ecuaciones (3.20)–(3.21) quedan así en este caso particular: <math display=\"block\"><mrow><mi>c</mi><mi>t</mi><mo>=</mo><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup><mo>+</mo><mi>v</mi><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mi>t</mi><mo>−</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Elimina <math display=\"inline\"><msup><mi>t</mi><mo>′</mo></msup></math> de las ecuaciones anteriores,"
+      },
+      {
+       "mota": "ezezaguna",
+       "izena": "zenb-ekuazioa"
+      },
+      {
+       "mota": "testua",
+       "html": "para calcular que se cumple. Concluye que tenemos esto:"
+      },
+      {
+       "mota": "ezezaguna",
+       "izena": "zenb-ekuazioa"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "Por tanto, definiendo, para las velocidades <math display=\"inline\"><mi>v</mi></math> y <math display=\"inline\"><mrow><mi>−</mi><mi>v</mi></mrow></math>, el"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>γ</mi><mo>≡</mo><mfrac><mn>1</mn><msqrt><mrow><mn>1</mn><mo>−</mo><mfrac><msup><mi>v</mi><mn>2</mn></msup><msup><mi>c</mi><mn>2</mn></msup></mfrac></mrow></msqrt></mfrac></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "coeficiente cinemático, llamado <strong>factor de Lorentz</strong>, las transformaciones de Lorentz<span class=\"j-oin\">[Joseph Larmor las usó antes, en 1900: la propuesta de Lorentz es de 1904. Einstein fue el primero en obtener estas transformaciones a partir de un principio general.]</span> se escriben así<span class=\"j-oin\">[Hendrik Antoon Lorentz y Pieter Zeeman obtuvieron el premio Nobel de 1902 «por sus investigaciones sobre la influencia del magnetismo en el fenómeno de la radiación».]</span>, donde las magnitudes cinemáticas básicas medidas en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> y en el sistema <math display=\"inline\"><mi>S</mi></math>"
+    },
+    {
+     "mota": "irudia",
+     "oina": "Gráfica del factor de Lorentz.",
+     "src": "../media/irudiak/c5997a807fc11f6d.svg",
+     "zabalera": 235
+    },
+    {
+     "mota": "testua",
+     "html": "se relacionan del siguiente modo:"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>t</mi><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo>+</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><msup><mi>x</mi><mo>′</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "ezezaguna",
+     "izena": "zenb-ekuazioa"
+    },
+    {
+     "mota": "ezezaguna",
+     "izena": "zenb-ekuazioa"
+    },
+    {
+     "mota": "ezezaguna",
+     "izena": "zenb-ekuazioa"
+    },
+    {
+     "mota": "testua",
+     "html": "Las transformaciones inversas se obtienen poniendo <math display=\"inline\"><mrow><mi>−</mi><mi>v</mi></mrow></math> en lugar de <math display=\"inline\"><mi>v</mi></math> (y, por tanto, sin cambiar <math display=\"inline\"><mi>γ</mi></math>): <math display=\"block\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msup><mi>y</mi><mo>′</mo></msup><mo>=</mo><mi>y</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msup><mi>z</mi><mo>′</mo></msup><mo>=</mo><mi>z</mi><mi>.</mi></mrow></math>"
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Usa (3.27)–(3.30) y un cálculo directo para recuperar estas transformaciones inversas."
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "Como para hallar las transformaciones de Lorentz hemos hecho algunas hipótesis, en lugar de considerarlas resultados demostrados, a partir de ahora admitiremos que están entre los postulados básicos de la relatividad especial. Sus consecuencias, que veremos enseguida, se han comprobado muchas veces en diversos experimentos (y se comprueban a diario en los laboratorios: en los aceleradores de partículas, por ejemplo) y, por tanto, los físicos pensamos que están entre las leyes fundamentales de la física."
+    },
+    {
+     "mota": "testua",
+     "html": "Hay que subrayar que cuando la velocidad relativa entre sistemas es mucho menor que la de la luz, el coeficiente <math display=\"inline\"><mi>γ</mi></math> definido en la expresión (3.26) es casi 1 (véase la figura 3.7): <math display=\"block\"><mrow><mfrac><mi>v</mi><mi>c</mi></mfrac><mo>≪</mo><mn>1</mn><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mi>γ</mi><mo>≈</mo><mn>1</mn><mi>.</mi></mrow></math> Está claro que en ese límite las transformaciones de Lorentz (3.27)–(3.30) se reducen a las de Galileo (3.1)–(3.4). Las velocidades de los cuerpos macroscópicos de nuestro entorno son siempre mucho menores que la de la luz: no es de extrañar, pues, que aún hoy la mecánica de Galileo y Newton sea tan útil. Por la misma razón, algunas consecuencias de la relatividad especial nos parecen casi incomprensibles, contrarias al «sentido común»: no tenemos experiencia de velocidades grandes. Para encontrar las grandes velocidades necesarias para que aparezcan las consecuencias mencionadas, hay que cambiar por completo la escala de los fenómenos: solo aparecerán directamente en el mundo microscópico (en el movimiento de las partículas elementales, por ejemplo) o al estudiar el universo en astrofísica y cosmología."
+    },
+    {
+     "mota": "testua",
+     "html": "Por otra parte, si la velocidad relativa entre sistemas fuera <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>=</mo><mi>c</mi></mrow></math>, <math display=\"inline\"><mi>γ</mi></math> sería infinito: vemos de nuevo que el módulo de la velocidad relativa entre sistemas de referencia nunca es <math display=\"inline\"><mi>c</mi></math> (no puede ser mayor que <math display=\"inline\"><mi>c</mi></math> si queremos conservar la causalidad, como veremos en la sección 3.6)."
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Diagramas de Minkowski"
+    },
+    {
+     "mota": "testua",
+     "html": "Con las transformaciones de Lorentz podemos añadir resultados cuantitativos a lo hecho en la sección 3.3. Por ejemplo, sabíamos que en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> la línea de universo del punto fijo <math display=\"inline\"><mrow><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><msubsup><mi>x</mi><mn>0</mn><mo>′</mo></msubsup></mrow></math> es una recta vertical y que su ecuación en el sistema <math display=\"inline\"><mi>S</mi></math> es <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><msub><mi>x</mi><mn>0</mn></msub><mo>+</mo><mi>v</mi><mi>t</mi></mrow></math> o <math display=\"inline\"><mrow><mi>c</mi><mi>t</mi><mo>=</mo><mi>c</mi><mi>/</mi><mi>v</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>. Este resultado se obtiene también haciendo <math display=\"inline\"><mrow><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><msubsup><mi>x</mi><mn>0</mn><mo>′</mo></msubsup></mrow></math> en la ecuación de transformación (3.32); pero ahora encontramos la relación <math display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><msubsup><mi>x</mi><mn>0</mn><mo>′</mo></msubsup><mi>/</mi><mi>γ</mi></mrow></math>, que antes no conocíamos. Como caso particular, haciendo <math display=\"inline\"><mrow><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mn>0</mn></mrow></math> se recupera el eje <math display=\"inline\"><mrow><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></math>, que es la línea de universo del origen <math display=\"inline\"><msup><mi>O</mi><mo>′</mo></msup></math>: <math display=\"inline\"><mrow><mi>c</mi><mi>t</mi><mo>=</mo><mi>c</mi><mi>/</mi><mi>v</mi><mspace width=\"0.167em\"></mspace><mi>x</mi></mrow></math>."
+    },
+    {
+     "mota": "irudia",
+     "oina": "Ejes del sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>, puntos fijos y sucesos simultáneos.",
+     "src": "../media/irudiak/924affb14377543d.svg",
+     "zabalera": 414
+    },
+    {
+     "mota": "testua",
+     "html": "Si en lugar de considerar todos los sucesos que ocurren en un solo punto consideramos todos los que ocurren en un instante <math display=\"inline\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><msubsup><mi>t</mi><mn>0</mn><mo>′</mo></msubsup></mrow></math>, sabemos que no serán simultáneos en el sistema <math display=\"inline\"><mi>S</mi></math>; pero para obtener información cuantitativa podemos hacer <math display=\"inline\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><msubsup><mi>t</mi><mn>0</mn><mo>′</mo></msubsup></mrow></math> en la ecuación de transformación (3.31): los sucesos mencionados se sitúan en la recta <math display=\"inline\"><mrow><mi>c</mi><mi>t</mi><mo>=</mo><mi>v</mi><mi>/</mi><mi>c</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msub><mover><mi>x</mi><mo accent=\"true\">̃</mo></mover><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> de pendiente <math display=\"inline\"><mrow><mi>v</mi><mi>/</mi><mi>c</mi></mrow></math>, siendo <math display=\"inline\"><mrow><msub><mover><mi>x</mi><mo accent=\"true\">̃</mo></mover><mn>0</mn></msub><mo>=</mo><mi>−</mi><msup><mi>c</mi><mn>2</mn></msup><msubsup><mi>t</mi><mn>0</mn><mo>′</mo></msubsup><mi>/</mi><mi>γ</mi><mi>v</mi></mrow></math>. Por ejemplo, el eje <math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math> se recupera con la elección <math display=\"inline\"><mrow><msubsup><mi>t</mi><mn>0</mn><mo>′</mo></msubsup><mo>=</mo><mn>0</mn></mrow></math>: <math display=\"inline\"><mrow><mi>c</mi><mi>t</mi><mo>=</mo><mi>v</mi><mi>/</mi><mi>c</mi><mspace width=\"0.167em\"></mspace><mi>x</mi></mrow></math>. En el diagrama de Minkowski correspondiente al sistema <math display=\"inline\"><mi>S</mi></math>, por tanto, los ejes <math display=\"inline\"><mrow><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></math> y <math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math> no son perpendiculares, pues sus pendientes son <math display=\"inline\"><mrow><mi>c</mi><mi>/</mi><mi>v</mi></mrow></math> y <math display=\"inline\"><mrow><mi>v</mi><mi>/</mi><mi>c</mi></mrow></math>. Al pasar de un diagrama a otro no se conserva la perpendicularidad: la geometría de los diagramas de Minkowski no es euclídea."
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Demuestra que en la figura 3.8 tenemos <math display=\"inline\"><mrow><mi>α</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mfrac><mi>v</mi><mi>c</mi></mfrac></mrow></math>. Haz el análisis anterior intercambiando entre sí los sistemas <math display=\"inline\"><mi>S</mi></math> y <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a6",
+   "maila": 2,
+   "izenburua": "Transformación de intervalos",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "En esta sección, en lugar de considerar un único suceso, estudiaremos parejas de sucesos. El intervalo de tiempo entre los sucesos <math display=\"inline\"><mrow><msub><mi>G</mi><mn>1</mn></msub><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><msub><mi>y</mi><mn>1</mn></msub><mo>,</mo><msub><mi>z</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> y <math display=\"inline\"><mrow><msub><mi>G</mi><mn>2</mn></msub><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>2</mn></msub><mo>,</mo><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><msub><mi>y</mi><mn>2</mn></msub><mo>,</mo><msub><mi>z</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> es <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><msub><mi>t</mi><mn>2</mn></msub><mo>−</mo><msub><mi>t</mi><mn>1</mn></msub></mrow></math> en el sistema <math display=\"inline\"><mi>S</mi></math> y <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><msubsup><mi>t</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup></mrow></math> en <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>. Del mismo modo, las componentes del intervalo espacial son <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mo>=</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub></mrow></math>, <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>y</mi><mo>=</mo><msub><mi>y</mi><mn>2</mn></msub><mo>−</mo><msub><mi>y</mi><mn>1</mn></msub></mrow></math> y <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>z</mi><mo>=</mo><msub><mi>z</mi><mn>2</mn></msub><mo>−</mo><msub><mi>z</mi><mn>1</mn></msub></mrow></math>, y habrá que usar expresiones parecidas en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>. Así, la distancia entre los sucesos se escribe en los dos sistemas: <math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"bold-italic\">𝒓</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>=</mo><msqrt><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>z</mi><mn>2</mn></msup></mrow></msqrt><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi mathvariant=\"bold-italic\">𝒓</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>=</mo><msqrt><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>+</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>y</mi><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>+</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>z</mi><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup></mrow></msqrt><mi>.</mi></mrow></math> Usando las transformaciones (3.27)–(3.30) correspondientes a cada suceso, vemos que los intervalos se transforman de la misma manera (la razón matemática de esto es que las transformaciones de Lorentz son lineales):"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>′</mo></msup><mo>+</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mo>′</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "ezezaguna",
+     "izena": "zenb-ekuazioa"
+    },
+    {
+     "mota": "ezezaguna",
+     "izena": "zenb-ekuazioa"
+    },
+    {
+     "mota": "ezezaguna",
+     "izena": "zenb-ekuazioa"
+    },
+    {
+     "mota": "testua",
+     "html": "De nuevo, las transformaciones inversas se obtienen poniendo <math display=\"inline\"><mrow><mi>−</mi><mi>v</mi></mrow></math> en lugar de <math display=\"inline\"><mi>v</mi></math>: <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>−</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mo>−</mo><mi>v</mi><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>y</mi><mo>′</mo></msup><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><mi>y</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>z</mi><mo>′</mo></msup><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><mi>z</mi><mi>.</mi></mrow></math>"
+    },
+    {
+     "mota": "irudia",
+     "oina": "Medida de la longitud propia.",
+     "src": "../media/irudiak/a5a44972da09da4d.svg",
+     "zabalera": 318
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Contracción de FitzGerald y Lorentz"
+    },
+    {
+     "mota": "testua",
+     "html": "Supongamos que una varilla está en reposo en el eje <math display=\"inline\"><mrow><msup><mi>O</mi><mo>′</mo></msup><msup><mi>X</mi><mo>′</mo></msup></mrow></math> del sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>. Diremos que el <strong>sistema de referencia propio</strong> de la varilla es <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>, pues en él está en reposo. En este sistema el método para medir la longitud de la varilla, llamada <strong>longitud propia</strong>, es evidente: medimos la posición <math display=\"inline\"><msubsup><mi>x</mi><mn>1</mn><mo>′</mo></msubsup></math> del extremo izquierdo en el instante <math display=\"inline\"><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup></math> y la abscisa <math display=\"inline\"><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup></math> del derecho en el instante <math display=\"inline\"><msubsup><mi>t</mi><mn>2</mn><mo>′</mo></msubsup></math>. Como está en reposo, <math display=\"inline\"><msubsup><mi>x</mi><mn>1</mn><mo>′</mo></msubsup></math> y <math display=\"inline\"><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup></math> son constantes y, sean cuales sean <math display=\"inline\"><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup></math> y <math display=\"inline\"><msubsup><mi>t</mi><mn>2</mn><mo>′</mo></msubsup></math>, se obtiene siempre el mismo resultado: <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mo>*</mo></msup><mo>≡</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>x</mi><mrow><mn>1</mn><mi>.</mi></mrow><mo>′</mo></msubsup></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "En el sistema <math display=\"inline\"><mi>S</mi></math>, en cambio, la varilla se está moviendo y, para medir la longitud, las posiciones <math display=\"inline\"><msub><mi>x</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>x</mi><mn>2</mn></msub></math> de los dos extremos hay que medirlas <em>en el mismo instante</em> <math display=\"inline\"><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><msub><mi>t</mi><mn>2</mn></msub></mrow></math>: <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mo>=</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><msub><mi>t</mi><mn>2</mn></msub><mo>−</mo><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math> (Está claro que si medimos ahora la posición de un extremo y la del otro tres horas más tarde, cuando la varilla está muy lejos, la diferencia <math display=\"inline\"><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub></mrow></math> que obtendremos será mucho mayor que la longitud de la varilla.)"
+    },
+    {
+     "mota": "irudia",
+     "oina": "Medida de la longitud de un cuerpo en movimiento.",
+     "src": "../media/irudiak/1c7de30148e9babe.svg",
+     "zabalera": 438
+    },
+    {
+     "mota": "testua",
+     "html": "Para hallar la relación entre las longitudes medidas en los dos sistemas podríamos valernos de las ecuaciones (3.37) y (3.38), pero es más fácil hacer <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> en la transformación (3.42). El resultado es <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mo>*</mo></msup><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mi>γ</mi><mi mathvariant=\"normal\">Δ</mi><mi>x</mi></mrow></math> y, en consecuencia, la longitud medida en el sistema <math display=\"inline\"><mi>S</mi></math>"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mo>*</mo></msup></mrow><mi>γ</mi></mfrac></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "es menor que la propia, pues <math display=\"inline\"><mrow><mi>γ</mi><mo>&gt;</mo><mn>1</mn></mrow></math>. Aquí admitiremos que la varilla estaba en reposo en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>, pero se obtiene el mismo resultado si intercambiamos los sistemas (los dos son completamente equivalentes, y en este efecto solo aparece <math display=\"inline\"><mi>γ</mi></math> —es decir, <math display=\"inline\"><msup><mi>v</mi><mn>2</mn></msup></math>—, y no el sentido de la velocidad relativa). Por otra parte, por las expresiones (3.39) y (3.40), en las direcciones <math display=\"inline\"><mi>y</mi></math> y <math display=\"inline\"><mi>z</mi></math> no cambia nada. Por tanto, <em>un cuerpo que se mueve respecto del observador se mide contraído en la dirección del movimiento relativo</em>. Esta es la propuesta que hicieron George Francis FitzGerald en 1889 y Hendrik Antoon Lorentz en 1892 para explicar el resultado negativo del experimento de Michelson y Morley (véase el problema 3.119). Pero estos físicos entendían este fenómeno de otra manera: propusieron que, como consecuencia del movimiento respecto del éter, la longitud propia se acortaba. Solo en la obra de Einstein se logró la explicación correcta del efecto, en un marco teórico completo sin éter."
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Representa en los diagramas de Minkowski adecuados las medidas de longitud hechas en los dos sistemas."
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "No es posible medir directamente la contracción de la longitud en cuerpos macroscópicos, pues las velocidades necesarias son demasiado grandes (pero véase el análisis de la página 123). Con partículas elementales se consiguen fácilmente esas velocidades, pero en ese caso las longitudes (los diámetros de las partículas, por ejemplo) no son fáciles de medir. Por suerte, como veremos en ejemplos y problemas, el complemento de este efecto es la dilatación del tiempo de la sección siguiente, y esa se mide a diario en los laboratorios. Además, las consecuencias directas de la contracción de la longitud se miden en algunos sistemas (como los láseres de electrones libres)."
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Dilatación del tiempo"
+    },
+    {
+     "mota": "testua",
+     "html": "Consideremos ahora un reloj en reposo en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>: el tiempo medido en ese sistema será, por tanto, el <strong>tiempo propio</strong> del reloj. Consideremos dos medidas del tiempo, <math display=\"inline\"><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup></math> y <math display=\"inline\"><msubsup><mi>t</mi><mn>2</mn><mo>′</mo></msubsup></math>, y el intervalo de tiempo propio <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>*</mo></msup><mo>≡</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><msubsup><mi>t</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup></mrow></math> que definen. En el sistema propio las dos medidas se han hecho en el mismo punto (en el mismo reloj): <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>x</mi><mn>1</mn><mo>′</mo></msubsup><mo>=</mo><mn>0</mn></mrow></math>."
+    },
+    {
+     "mota": "irudia",
+     "oina": "Medida del tiempo propio.",
+     "src": "../media/irudiak/3d69ce45a2e9d052.svg",
+     "zabalera": 331
+    },
+    {
+     "mota": "testua",
+     "html": "Por otra parte, las medidas de tiempo <math display=\"inline\"><mrow><msub><mi>G</mi><mn>1</mn></msub><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>x</mi><mn>1</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> y <math display=\"inline\"><mrow><msub><mi>G</mi><mn>2</mn></msub><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>t</mi><mn>2</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>x</mi><mn>1</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> serán los sucesos <math display=\"inline\"><mrow><msub><mi>G</mi><mn>1</mn></msub><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><msub><mi>x</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> y <math display=\"inline\"><mrow><msub><mi>G</mi><mn>2</mn></msub><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>2</mn></msub><mo>,</mo><msub><mi>x</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> en el sistema <math display=\"inline\"><mi>S</mi></math> y el intervalo de tiempo entre ambos es <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><msub><mi>t</mi><mn>2</mn></msub><mo>−</mo><msub><mi>t</mi><mn>1</mn></msub></mrow></math>. Para calcular este último haremos <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math> en la transformación (3.37):"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><mi>γ</mi><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>*</mo></msup><mi>.</mi></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "Como <math display=\"inline\"><mrow><mi>γ</mi><mo>&gt;</mo><mn>1</mn></mrow></math>, en todos los demás sistemas se miden intervalos de tiempo más largos: <em>parece</em> que los relojes que se mueven respecto del observador se atrasan, pero hay que subrayar que admitimos que todos los relojes son perfectos y miden el tiempo de la misma manera (cada uno en su sistema). En el análisis anterior se comparan dos tipos de medidas distintas. El intervalo de tiempo más corto que se mide es el propio, es decir, el que se mide en un solo punto (y, por tanto, con un solo reloj). La medida (3.49), en cambio, se ha hecho en puntos distintos (en dos relojes distintos), pues en la transformación (3.38), haciendo <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math> se obtiene <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mo>=</mo><mi>γ</mi><mi>v</mi><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>*</mo></msup><mo>≠</mo><mn>0</mn></mrow></math>."
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Representa en los diagramas de Minkowski adecuados las medidas de tiempo hechas en los sistemas <math display=\"inline\"><mi>S</mi></math> y <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>."
+      }
+     ]
+    },
+    {
+     "mota": "irudia",
+     "oina": "Medida del tiempo de un reloj en movimiento.",
+     "src": "../media/irudiak/a7ed0416bb23f782.svg",
+     "zabalera": 351
+    },
+    {
+     "mota": "testua",
+     "html": "Este efecto puede medirse directamente: en 1971 J. C. Hafele y R. E. Keating metieron cuatro relojes atómicos en aviones para dar la vuelta al mundo en los dos sentidos. Comparando con las medidas de los relojes que se quedaron en el laboratorio, comprobaron que se cumplía la predicción de la relatividad especial y de la general (véase [8]). También hace falta la relatividad general porque, como el campo gravitatorio es distinto a distintas alturas, los relojes (aunque estén en reposo) miden el tiempo de manera distinta."
+    },
+    {
+     "mota": "irudia",
+     "oina": "Experimento de Rossi y Hall en los sistemas de la Tierra y de los muones.",
+     "src": "../media/irudiak/0195d62051e98d2f.svg",
+     "zabalera": 322
+    },
+    {
+     "mota": "testua",
+     "html": "Antes, la dilatación del tiempo se había comprobado en 1938 en el efecto Doppler relativista por H. E. Ives<span class=\"j-oin\">[Aun así, Ives siempre fue contrario a la teoría de Einstein [93].]</span> y G. R. Stilwell (véase el efecto Doppler transversal en la página 141). Después, en 1941, B. Rossi y D. B. Hall hicieron un experimento clásico para comprobar este fenómeno (véase [2]). Cuando los rayos cósmicos<span class=\"j-oin\">[El físico Victor Franz Hess obtuvo la mitad del premio Nobel de 1936 por descubrir la radiación cósmica.]</span> entran en la atmósfera se producen muones que se mueven con gran velocidad. Si se mide el flujo de muones a distintas alturas, en el laboratorio y en una cumbre<span class=\"j-oin\">[En realidad, las medidas se hicieron en Denver y en Echo Lake, que está a 50 km y 1624 m más alto.]</span>, se ve que en el punto más bajo el número de muones es menor, pues en el intervalo de tiempo necesario para llegar allí algunos muones se han desintegrado. Según la ley de desintegración de Rutherford y Soddy<span class=\"j-oin\">[Ernest Rutherford obtuvo el premio Nobel de Química de 1908 por sus investigaciones sobre la desintegración de los elementos y la química de las sustancias radiactivas. Frederick Soddy obtuvo el premio Nobel de Química de 1921 por sus investigaciones sobre la radiactividad y los isótopos.]</span>, si en un instante el número de partículas inestables es <math display=\"inline\"><msub><mi>N</mi><mn>0</mn></msub></math>, después de transcurrido el intervalo de tiempo <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></math> quedan <math display=\"block\"><mrow><mi>N</mi><mo>=</mo><msub><mi>N</mi><mn>0</mn></msub><mspace width=\"0.167em\"></mspace><msup><mn>2</mn><mrow><mi>−</mi><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mi>/</mi><mi>τ</mi></mrow></msup></mrow></math> partículas, siendo <math display=\"inline\"><mi>τ</mi></math> el tiempo de vida media de las partículas. Por tanto, con la vida media de los muones y los flujos medidos en dos puntos distintos, se puede medir el intervalo de tiempo <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><mi>τ</mi><msub><mrow><mi mathvariant=\"normal\">log</mi><mo>&#8289;</mo></mrow><mn>2</mn></msub><msub><mi>N</mi><mn>0</mn></msub><mi>/</mi><mi>N</mi></mrow></math> necesario para recorrer la distancia <math display=\"inline\"><mi>l</mi></math> entre esos dos puntos: el número de muones es un reloj muy bueno. Por otra parte, como la velocidad de los muones es casi <math display=\"inline\"><mi>c</mi></math> (<math display=\"inline\"><mrow><mi>v</mi><mo>≈</mo><mn>0.994</mn><mi>c</mi></mrow></math> y <math display=\"inline\"><mrow><mi>γ</mi><mo>≈</mo><mn>9</mn></mrow></math>), podríamos pensar que el intervalo de tiempo mencionado es <math display=\"inline\"><mrow><mi>l</mi><mi>/</mi><mi>c</mi></mrow></math>, pero si se hace el experimento no se obtiene eso. Para entender este resultado hay que tener en cuenta que la vida media es una característica de las partículas que se desintegran (y no del observador) y, por tanto, para aplicar la ley de desintegración <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></math> también hay que medirlo en el sistema propio de los muones. El intervalo medido en la Tierra es mucho más largo: <math display=\"block\"><mrow><mfrac><mi>l</mi><mi>c</mi></mfrac><mo>=</mo><mi>γ</mi><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><mi>γ</mi><mi>τ</mi><msub><mrow><mi mathvariant=\"normal\">log</mi><mo>&#8289;</mo></mrow><mn>2</mn></msub><msub><mi>N</mi><mn>0</mn></msub><mi>/</mi><mi>N</mi><mi>.</mi></mrow></math> El número <math display=\"inline\"><mrow><mi>N</mi><mo>=</mo><msub><mi>N</mi><mn>0</mn></msub><msup><mn>2</mn><mrow><mi>−</mi><mi>l</mi><mi>/</mi><mi>γ</mi><mi>c</mi><mi>τ</mi></mrow></msup></mrow></math> que se obtiene de aquí es el resultado que se ha comprobado una y otra vez en experimentos de este tipo."
+    },
+    {
+     "mota": "testua",
+     "html": "Arriba se ha analizado el experimento de los muones en el sistema de la Tierra mediante la dilatación del tiempo. Veamos ahora cómo puede explicarse el resultado en el sistema propio de los muones, que es equivalente para hacer física. La longitud <math display=\"inline\"><mi>l</mi></math> la definimos en el sistema de la Tierra, usando las alturas de la cumbre y del laboratorio, por ejemplo. Esa distancia, por tanto, es propia en el sistema de la Tierra y se mide contraída en el sistema de los muones, <math display=\"inline\"><mrow><mi>l</mi><mi>/</mi><mi>γ</mi></mrow></math>, y el tiempo <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></math> necesario para ir de un punto a otro es <math display=\"block\"><mrow><mfrac><mrow><mi>l</mi><mi>/</mi><mi>γ</mi></mrow><mi>c</mi></mfrac><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><mi>τ</mi><msub><mrow><mi mathvariant=\"normal\">log</mi><mo>&#8289;</mo></mrow><mn>2</mn></msub><msub><mi>N</mi><mn>0</mn></msub><mi>/</mi><mi>N</mi></mrow></math>. Está claro que se obtiene el mismo resultado: la dilatación del tiempo y la contracción de la longitud son dos aspectos complementarios de un único fenómeno. En el sistema de la Tierra el intervalo espacial es propio y las medidas se entienden directamente mediante la dilatación del tiempo. En el sistema de los muones, en cambio, el intervalo de tiempo es el propio y el análisis natural se hace valiéndose de la contracción de la longitud."
+    }
+   ]
+  },
+  {
+   "id": "a7",
+   "maila": 2,
+   "izenburua": "Intervalo espaciotemporal",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "Como acabamos de ver, en la relatividad especial no solo los intervalos espaciales sino también los de tiempo son relativos. Aunque a menudo se oye decir que «según la relatividad especial todo es relativo», en esta teoría muchas cosas son absolutas, invariantes: la velocidad de la luz en el vacío, el tiempo propio medido por un reloj, la longitud propia medida con una regla y el intervalo espacio-temporal definido por dos sucesos, que generaliza estas dos últimas magnitudes, por ejemplo. Consideremos de nuevo los sucesos <math display=\"inline\"><msub><mi>G</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>G</mi><mn>2</mn></msub></math> de la sección 3.5. El intervalo espacio-temporal entre ellos es este: <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mi>−</mi><msup><mi>c</mi><mn>2</mn></msup><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"bold-italic\">𝒓</mi><msup><mo stretchy=\"false\" form=\"prefix\">|</mo><mn>2</mn></msup><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>z</mi><mn>2</mn></msup><mo>−</mo><msup><mi>c</mi><mn>2</mn></msup><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math> Aunque se escriba como un cuadrado, está claro que <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>s</mi><mn>2</mn></msup></mrow></math> puede ser negativo. Por ejemplo, los sucesos que definen el intervalo de tiempo propio <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>*</mo></msup></mrow></math> ocurren en el mismo punto, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"bold-italic\">𝒓</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>=</mo><mn>0</mn></mrow></math>, y en ese caso tenemos <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mi>−</mi><msup><mi>c</mi><mn>2</mn></msup><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mrow><mi>*</mi><mn>2</mn></mrow></msup><mo>≤</mo><mn>0</mn></mrow></math>. Por otra parte, si los dos sucesos son simultáneos, <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>, el intervalo espacio-temporal es la distancia habitual: <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>s</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"bold-italic\">𝒓</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>≥</mo><mn>0</mn></mrow></math>."
+    },
+    {
+     "mota": "testua",
+     "html": "Como hemos dicho, la propiedad principal de los intervalos espacio-temporales es que son absolutos."
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Usa las transformaciones de Lorentz para demostrar que el intervalo espacio-temporal definido por dos sucesos es un <strong>invariante relativista</strong> (es decir, que tiene el mismo valor en todos los sistemas de referencia inerciales):"
+      },
+      {
+       "mota": "kutxa",
+       "kolorea": "laranja",
+       "titulua": null,
+       "blokeak": [
+        {
+         "mota": "testua",
+         "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>z</mi><mn>2</mn></msup><mo>−</mo><msup><mi>c</mi><mn>2</mn></msup><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mn>2</mn></msup><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>+</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>y</mi><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>+</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>z</mi><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>−</mo><msup><mi>c</mi><mn>2</mn></msup><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>′</mo></msup><msup><mi></mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "Según el signo de <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>s</mi><mn>2</mn></msup></mrow></math>, los intervalos espacio-temporales entre dos sucesos distintos se clasifican en tres tipos, como se ve a continuación."
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Intervalos de tipo espacio"
+    },
+    {
+     "mota": "testua",
+     "html": "Cuando el intervalo espacial entre dos sucesos es mayor que el intervalo de tiempo (<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"bold-italic\">𝒓</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&gt;</mo><mi>c</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math>), tenemos <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>s</mi><mn>2</mn></msup><mo>&gt;</mo><mn>0</mn></mrow></math>. Para facilitar el análisis (sin cambiar las conclusiones) podemos admitir que <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>y</mi><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><mi>z</mi><mo>=</mo><mn>0</mn></mrow></math>; por tanto, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&gt;</mo><mi>c</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math> y <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>c</mi><mn>2</mn></msup><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mn>2</mn></msup><mo>&gt;</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>⇔</mo><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mfrac><mrow><mi mathvariant=\"normal\">Δ</mi><mi>x</mi></mrow><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&gt;</mo><mi>c</mi><mi>.</mi></mrow></math>"
+    },
+    {
+     "mota": "irudia",
+     "oina": "Intervalo de tipo espacio.",
+     "src": "../media/irudiak/d007f8b222495a51.svg",
+     "zabalera": 253
+    },
+    {
+     "mota": "testua",
+     "html": "Ahora, si definimos <math display=\"block\"><mrow><msub><mi>v</mi><mi>e</mi></msub><mo>≡</mo><mfrac><msup><mi>c</mi><mn>2</mn></msup><mfrac><mrow><mi mathvariant=\"normal\">Δ</mi><mi>x</mi></mrow><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></mfrac></mfrac></mrow></math>, es <math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msub><mi>v</mi><mi>e</mi></msub><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&lt;</mo><mi>c</mi></mrow></math>. En el sistema que se mueve con velocidad <math display=\"inline\"><mrow><mi>v</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> respecto del sistema inicial <math display=\"inline\"><mi>S</mi></math> tenemos <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>−</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>γ</mi><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><mi>v</mi><msub><mi>v</mi><mi>e</mi></msub></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> y, eligiendo adecuadamente la velocidad relativa <math display=\"inline\"><mi>v</mi></math>, pero respetando siempre la condición <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&lt;</mo><mi>c</mi></mrow></math>, se puede conseguir que <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></math> sea positivo, negativo o nulo. En consecuencia, si la relación entre los dos sucesos considerados es de tipo espacio, siempre se puede encontrar un sistema de referencia inercial (el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> de la figura, precisamente) en el que los dos sucesos sean simultáneos. Del mismo modo, podemos elegir el sistema de referencia de modo que el primer suceso ocurra antes o después del segundo."
+    },
+    {
+     "mota": "testua",
+     "html": "El orden temporal de dos sucesos, por tanto, no es absoluto, sino que depende del sistema de referencia. Si se quiere conservar la causalidad, principio fundamental de toda la ciencia, la causa debe ocurrir antes que el efecto en todos los sistemas de referencia inerciales y, por tanto, no puede haber ninguna relación causal entre dos sucesos si el intervalo entre ellos es de tipo espacio. Para garantizar esto,"
+    },
+    {
+     "mota": "testua",
+     "html": "la interacción causal no puede propagarse con una velocidad mayor que <math display=\"inline\"><mi>c</mi></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "se admite siempre como hipótesis. De hecho, con esta hipótesis no hay ninguna interacción causal que pueda ligar dos sucesos de este tipo, pues, como consecuencia de la hipótesis (3.55), para ir de uno a otro tendría que propagarse con una velocidad mayor que <math display=\"inline\"><mi>c</mi></math>."
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "¿Puede cambiarse el orden espacial de dos sucesos así eligiendo un sistema de referencia adecuado? ¿Pueden ocurrir en el mismo punto?"
+      }
+     ]
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Intervalos de tipo tiempo"
+    },
+    {
+     "mota": "testua",
+     "html": "Cuando el intervalo de tiempo es mayor que el espacial (<math display=\"inline\"><mrow><mi>c</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&gt;</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"bold-italic\">𝒓</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math>), tenemos <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>s</mi><mn>2</mn></msup><mo>&lt;</mo><mn>0</mn></mrow></math>. De nuevo, admitiendo que <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>y</mi><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><mi>z</mi><mo>=</mo><mn>0</mn></mrow></math>, tenemos <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&lt;</mo><mi>c</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math> y, en consecuencia, <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>c</mi><mn>2</mn></msup><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mn>2</mn></msup><mo>&lt;</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>⇔</mo><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mfrac><mrow><mi mathvariant=\"normal\">Δ</mi><mi>x</mi></mrow><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&lt;</mo><mi>c</mi><mi>.</mi></mrow></math>"
+    },
+    {
+     "mota": "irudia",
+     "oina": "Intervalo de tipo tiempo.",
+     "src": "../media/irudiak/9cf87d3528b09830.svg",
+     "zabalera": 253
+    },
+    {
+     "mota": "testua",
+     "html": "Ahora, si definimos <math display=\"block\"><mrow><msub><mi>v</mi><mi>e</mi></msub><mo>≡</mo><mfrac><mrow><mi mathvariant=\"normal\">Δ</mi><mi>x</mi></mrow><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></mfrac></mrow></math>, se cumple <math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msub><mi>v</mi><mi>e</mi></msub><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&lt;</mo><mi>c</mi></mrow></math>. En el sistema que se mueve con velocidad <math display=\"inline\"><mrow><mi>v</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> respecto del sistema inicial <math display=\"inline\"><mi>S</mi></math> tenemos <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>−</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>γ</mi><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><mrow><mi>v</mi><msub><mi>v</mi><mi>e</mi></msub></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> y, como la velocidad relativa <math display=\"inline\"><mi>v</mi></math> cumple la condición <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&lt;</mo><mi>c</mi></mrow></math>, es <math display=\"block\"><mrow><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><mrow><mi>v</mi><msub><mi>v</mi><mi>e</mi></msub></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&gt;</mo><mn>0</mn></mrow></math> y el signo de <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></math> es el mismo en todos los sistemas. No se puede, por tanto, cambiar el orden temporal y, en particular, dos sucesos de este tipo no son simultáneos en ningún sistema de referencia. (Esto último se ve también así: si fueran simultáneos en un sistema, allí sería <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> y <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"bold-italic\">𝒓</mi><msup><mo stretchy=\"false\" form=\"prefix\">|</mo><mn>2</mn></msup><mo>&gt;</mo><mn>0</mn></mrow></math> y el intervalo sería necesariamente de tipo espacio.)"
+    },
+    {
+     "mota": "testua",
+     "html": "Por otra parte, <em>como el módulo de la velocidad relativa entre sistemas de referencia es menor que <math display=\"inline\"><mi>c</mi></math></em>, del suceso que ocurre antes en todos los sistemas al otro puede enviarse una señal que se propague con velocidad <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mi>/</mi><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&lt;</mo><mi>c</mi></mrow></math> y, por tanto, que el primero sea la causa del segundo no iría contra el principio de causalidad."
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "¿Puede cambiarse el orden espacial de dos sucesos así eligiendo un sistema de referencia adecuado? ¿Pueden ocurrir en el mismo punto?"
+      }
+     ]
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Intervalos de tipo luz"
+    },
+    {
+     "mota": "testua",
+     "html": "Cuando los intervalos espacial y temporal son iguales (<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"bold-italic\">𝒓</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>=</mo><mi>c</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math>), tenemos <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mn>0</mn></mrow></math>. Además, cuando <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>y</mi><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><mi>z</mi><mo>=</mo><mn>0</mn></mrow></math>, tenemos <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>=</mo><mi>c</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math> y <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>c</mi><mn>2</mn></msup><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mn>2</mn></msup><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>⇔</mo><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mfrac><mrow><mi mathvariant=\"normal\">Δ</mi><mi>x</mi></mrow><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>=</mo><mi>c</mi></mrow></math>. También se dice que el intervalo espacio-temporal es <strong>nulo</strong>."
+    },
+    {
+     "mota": "irudia",
+     "oina": "Intervalo de tipo luz.",
+     "src": "../media/irudiak/9b7778476906d865.svg",
+     "zabalera": 253
+    },
+    {
+     "mota": "testua",
+     "html": "Si definimos de nuevo <math display=\"block\"><mrow><msub><mi>v</mi><mi>e</mi></msub><mo>≡</mo><mfrac><mrow><mi mathvariant=\"normal\">Δ</mi><mi>x</mi></mrow><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></mfrac></mrow></math>, se cumple <math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msub><mi>v</mi><mi>e</mi></msub><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>=</mo><mi>c</mi></mrow></math>. En el sistema que se mueve con velocidad <math display=\"inline\"><mrow><mi>v</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> respecto del sistema inicial <math display=\"inline\"><mi>S</mi></math> tenemos <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>−</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>γ</mi><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><mrow><mi>v</mi><msub><mi>v</mi><mi>e</mi></msub></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> y, como la velocidad relativa <math display=\"inline\"><mi>v</mi></math> cumple la condición <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&lt;</mo><mi>c</mi></mrow></math>, es <math display=\"block\"><mrow><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><mrow><mi>v</mi><msub><mi>v</mi><mi>e</mi></msub></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&gt;</mo><mn>0</mn></mrow></math> y el signo de <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></math> es el mismo en todos los sistemas. No se puede, por tanto, cambiar el orden temporal y, en particular, los dos sucesos no serán simultáneos en ningún sistema de referencia."
+    },
+    {
+     "mota": "testua",
+     "html": "Además, del suceso que ocurre antes en todos los sistemas al otro puede enviarse una señal con velocidad <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mi>/</mi><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>=</mo><mi>c</mi></mrow></math> (mediante luz o, como veremos más adelante, usando otras partículas sin masa). En consecuencia, puede haber una relación causal entre los dos sucesos en este caso sin romper el principio de causalidad."
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "¿Puede cambiarse el orden espacial de dos sucesos así eligiendo un sistema de referencia adecuado? ¿Pueden ocurrir en el mismo punto?"
+      }
+     ]
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "El cono de luz"
+    },
+    {
+     "mota": "testua",
+     "html": "El lugar geométrico de los puntos que definen un intervalo espacio-temporal nulo con un suceso <math display=\"inline\"><mrow><msub><mi>G</mi><mn>0</mn></msub><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo>,</mo><msub><mi>x</mi><mn>0</mn></msub><mo>,</mo><msub><mi>y</mi><mn>0</mn></msub><mo>,</mo><msub><mi>z</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> es el cono de luz de <math display=\"inline\"><msub><mi>G</mi><mn>0</mn></msub></math> y en todos los sistemas de referencia inerciales viene dado por la ecuación <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mn>0</mn></mrow></math>: <math display=\"block\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>y</mi><mo>−</mo><msub><mi>y</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>z</mi><mo>−</mo><msub><mi>z</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>c</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math> En las figuras anteriores hemos representado el cono de luz del suceso <math display=\"inline\"><msub><mi>G</mi><mn>1</mn></msub></math> mediante dos rectas perpendiculares, pues la proyección que se obtiene en el plano <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mi>t</mi><mo>,</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> haciendo <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>y</mi><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><mi>z</mi><mo>=</mo><mn>0</mn></mrow></math> es <math display=\"block\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>c</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><msub><mi>t</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></math>. (Aquí hay que usar el subíndice 1 en lugar del 0, claro.)  Si solo hacemos <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>z</mi><mo>=</mo><mn>0</mn></mrow></math>, la ecuación <math display=\"block\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>y</mi><mo>−</mo><msub><mi>y</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>c</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></math> define el cono de la figura 3.17 en el espacio <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mi>t</mi><mo>,</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+    },
+    {
+     "mota": "testua",
+     "html": "En el caso general, la ecuación (3.69) define un hipercono de tres dimensiones en el hiperespacio <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mi>t</mi><mo>,</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, pero esto no se puede dibujar en dos dimensiones."
+    },
+    {
+     "mota": "irudia",
+     "oina": "Cono de luz del suceso <math display=\"inline\"><msub><mi>G</mi><mn>0</mn></msub></math>.",
+     "src": "../media/irudiak/f2f9a9aa82125424.svg",
+     "zabalera": 192
+    },
+    {
+     "mota": "testua",
+     "html": "El semicono superior es el <strong>cono de luz del futuro</strong> y define el futuro absoluto de <math display=\"inline\"><msub><mi>G</mi><mn>0</mn></msub></math>: todos los sucesos que están en su superficie y en su interior ocurren después de <math display=\"inline\"><msub><mi>G</mi><mn>0</mn></msub></math> en todos los sistemas de referencia inerciales y pueden ser efecto de <math display=\"inline\"><msub><mi>G</mi><mn>0</mn></msub></math>, pues podrían haber recibido alguna señal enviada desde <math display=\"inline\"><msub><mi>G</mi><mn>0</mn></msub></math>. Consideremos un pulso de luz emitido en el suceso <math display=\"inline\"><msub><mi>G</mi><mn>0</mn></msub></math>. Los fotones emitidos en todas las direcciones estarán en el instante <math display=\"inline\"><mi>t</mi></math> en la superficie esférica definida por la ecuación (3.69) del cono de luz, y al cambiar <math display=\"inline\"><mi>t</mi></math> esa ecuación dará toda la evolución del frente de onda de la luz. Por tanto, el cono de luz del futuro es el conjunto de las líneas de universo de los fotones emitidos en el suceso <math display=\"inline\"><msub><mi>G</mi><mn>0</mn></msub></math>."
+    },
+    {
+     "mota": "testua",
+     "html": "El semicono inferior es el <strong>cono de luz del pasado</strong> y define el pasado absoluto de <math display=\"inline\"><msub><mi>G</mi><mn>0</mn></msub></math>: todos los sucesos que están en su superficie y en su interior han ocurrido antes de <math display=\"inline\"><msub><mi>G</mi><mn>0</mn></msub></math> en todos los sistemas de referencia inerciales y pueden ser la causa de <math display=\"inline\"><msub><mi>G</mi><mn>0</mn></msub></math>, pues podría haberse recibido en <math display=\"inline\"><msub><mi>G</mi><mn>0</mn></msub></math> alguna señal enviada por ellos. De hecho, este cono de luz del pasado es el conjunto de las líneas de universo de todos los fotones que se detectan en el suceso <math display=\"inline\"><msub><mi>G</mi><mn>0</mn></msub></math>. Está claro, por otra parte, que el suceso <math display=\"inline\"><msub><mi>G</mi><mn>0</mn></msub></math> está en los conos de luz del futuro (del pasado) de todos los puntos del cono de luz del pasado (del futuro)."
+    },
+    {
+     "mota": "testua",
+     "html": "Los sucesos exteriores al cono de luz ocurren antes, después o a la vez que <math display=\"inline\"><msub><mi>G</mi><mn>0</mn></msub></math> en distintos sistemas de referencia. Por tanto, no tienen ninguna relación causal con dicho suceso. Hay que tener en cuenta que en los diagramas de Minkowski usamos <math display=\"inline\"><mrow><mi>c</mi><mi>t</mi></mrow></math> en el eje vertical y, en consecuencia, las escalas no son las que usamos en la experiencia habitual: ¡a un segundo le corresponde un segundo-luz (es decir, casi <math display=\"inline\"><mrow><mn>300</mn><mspace width=\"0.167em\"></mspace><mn>000</mn></mrow></math> km)! No es de extrañar, pues, que en nuestra experiencia cotidiana el futuro y el pasado no sean el presente, pues la mayoría de los sucesos exteriores al cono de luz que no son simultáneos con nuestros sistemas de referencia están muy, muy lejos. En cosmología, en cambio, hay que estudiar grandes distancias e intervalos de tiempo y hay que tener en cuenta los límites de causalidad definidos por los conos de luz (junto con las consecuencias de la relatividad general)."
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Hipérbolas de calibración"
+    },
+    {
+     "mota": "testua",
+     "html": "Como la geometría de los diagramas de Minkowski no es euclídea, si en un diagrama se dibujan los ejes de otro sistema inercial, las unidades de los pares de ejes no aparecen a distancias iguales."
+    },
+    {
+     "mota": "testua",
+     "html": "Consideremos los sistemas <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>c</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>′</mo></msup><mo>,</mo><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> y <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>″</mo></msup><mo>,</mo><mi>c</mi><msup><mi>t</mi><mo>″</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> de la figura 3.18. En todos los sistemas se escribe de la misma manera la siguiente familia de hipérbolas: <math display=\"block\"><mrow><mi>−</mi><msup><mi>c</mi><mn>2</mn></msup><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mi>−</mi><msup><mi>c</mi><mn>2</mn></msup><msup><mi>t</mi><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>=</mo><mi>−</mi><msup><mi>c</mi><mn>2</mn></msup><msup><mi>t</mi><mo>″</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mo>″</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>=</mo><msup><mi>n</mi><mn>2</mn></msup><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>=</mo><mi>±</mi><mn>1</mn><mo>,</mo><mi>±</mi><mn>2</mn><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+    },
+    {
+     "mota": "irudia",
+     "oina": "Hipérbolas de calibración.",
+     "src": "../media/irudiak/2a4ba7aeaf10d30a.svg",
+     "zabalera": 303
+    },
+    {
+     "mota": "testua",
+     "html": "Si en esas ecuaciones se hace <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>, se obtienen posiciones <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>±</mi><mn>1</mn><mo>,</mo><mi>±</mi><mn>2</mn><mo>,</mo><mi>…</mi></mrow></math> a distancias iguales. Pero si se hace <math display=\"inline\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math>, se obtiene dónde están las marcas <math display=\"inline\"><mrow><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mi>±</mi><mn>1</mn><mo>,</mo><mi>±</mi><mn>2</mn><mo>,</mo><mi>…</mi></mrow></math> en el eje <math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math>. En consecuencia, los puntos de intersección entre las hipérbolas de calibración (3.72) y los ejes espaciales están a distancias iguales en el sistema de referencia de cada eje. Como se ve, en la figura las distancias entre marcas sucesivas no son iguales en los ejes <math display=\"inline\"><mi>x</mi></math>, <math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math> y <math display=\"inline\"><msup><mi>x</mi><mo>″</mo></msup></math>."
+    },
+    {
+     "mota": "testua",
+     "html": "Del mismo modo, en los ejes temporales están a distancias iguales los puntos de intersección entre los ejes y las hipérbolas de calibración contiguas: <math display=\"block\"><mrow><mi>−</mi><msup><mi>c</mi><mn>2</mn></msup><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mi>−</mi><msup><mi>c</mi><mn>2</mn></msup><msup><mi>t</mi><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>=</mo><mi>−</mi><msup><mi>c</mi><mn>2</mn></msup><msup><mi>t</mi><mo>″</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mo>″</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>=</mo><mi>−</mi><msup><mi>n</mi><mn>2</mn></msup><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>=</mo><mi>±</mi><mn>1</mn><mo>,</mo><mi>±</mi><mn>2</mn><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Intervalos infinitesimales"
+    },
+    {
+     "mota": "testua",
+     "html": "Si dos sucesos están muy próximos en el espacio y en el tiempo, el intervalo espacio-temporal entre ambos será infinitesimal y absoluto: <math display=\"block\"><mrow><mi>d</mi><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mi>−</mi><msup><mi>c</mi><mn>2</mn></msup><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>d</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>d</mi><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mi>d</mi><msup><mi>z</mi><mn>2</mn></msup><mo>=</mo><mi>−</mi><msup><mi>c</mi><mn>2</mn></msup><mi>d</mi><msup><mi>t</mi><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>+</mo><mi>d</mi><msup><mi>x</mi><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>+</mo><mi>d</mi><msup><mi>y</mi><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>+</mo><mi>d</mi><msup><mi>z</mi><mo>′</mo></msup><msup><mi></mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math> Por supuesto, <math display=\"inline\"><mrow><mi>d</mi><mi>t</mi></mrow></math>, <math display=\"inline\"><mrow><mi>d</mi><mi>x</mi></mrow></math>, <math display=\"inline\"><mrow><mi>d</mi><mi>y</mi></mrow></math> y <math display=\"inline\"><mrow><mi>d</mi><mi>z</mi></mrow></math> los intervalos infinitesimales se transforman igual que los finitos."
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Tiempo propio"
+    },
+    {
+     "mota": "testua",
+     "html": "Si en un momento el intervalo entre los dos sucesos más próximos de la línea de universo de una partícula (o reloj) es <math display=\"inline\"><mrow><mi>d</mi><mi>t</mi></mrow></math> y la posición relativa es <math display=\"inline\"><mrow><mi>d</mi><mi mathvariant=\"bold-italic\">𝒓</mi></mrow></math>  (en un sistema de referencia inercial), el intervalo espacio-temporal entre ellos es <math display=\"block\"><mrow><mi>d</mi><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mi>−</mi><msup><mi>c</mi><mn>2</mn></msup><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>d</mi><msup><mi mathvariant=\"bold-italic\">𝒓</mi><mn>2</mn></msup><mo>=</mo><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>c</mi><mn>2</mn></msup><mo>−</mo><msup><mi mathvariant=\"bold-italic\">𝒗</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup><mo>&lt;</mo><mn>0</mn></mrow></math>; si la velocidad de la partícula medida en el sistema inercial es <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝒗</mi></math>, entonces <math display=\"inline\"><mrow><mi>d</mi><mi mathvariant=\"bold-italic\">𝒓</mi><mo>=</mo><mi mathvariant=\"bold-italic\">𝒗</mi><mi>d</mi><mi>t</mi></mrow></math> y la velocidad escalar es <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"bold-italic\">𝒗</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&lt;</mo><mi>c</mi></mrow></math>. La línea de universo de una partícula con masa está siempre dentro de los conos del futuro y del pasado de todos sus sucesos, como se muestra en la figura 3.19, porque el valor absoluto de la pendiente de la línea de universo es <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>c</mi><mi>/</mi><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&gt;</mo><mn>1</mn></mrow></math>."
+    },
+    {
+     "mota": "irudia",
+     "oina": "Línea de universo de una partícula con masa, conos de luz de dos sucesos y sistema de referencia inercial instantáneamente en reposo en el instante de <math display=\"inline\"><mi>P</mi></math>.",
+     "src": "../media/irudiak/356fd33e5142c680.svg",
+     "zabalera": 199
+    },
+    {
+     "mota": "testua",
+     "html": "Si la partícula está acelerada, no siempre está en reposo en ningún sistema de referencia inercial, pero en cada momento puede elegirse el <strong>sistema de referencia inercial instantáneamente en reposo</strong> que se mueve con la velocidad de la partícula, que admite coordenadas <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>c</mi><mi>τ</mi><mo>,</mo><msup><mi>x</mi><mo>*</mo></msup><mo>,</mo><msup><mi>y</mi><mo>*</mo></msup><mo>,</mo><msup><mi>z</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math>. Como allí en ese momento la partícula está en reposo, tenemos <math display=\"inline\"><mrow><msup><mi mathvariant=\"bold-italic\">𝒗</mi><mo>*</mo></msup><mo>=</mo><mn>0</mn></mrow></math> y <math display=\"inline\"><mrow><mi>d</mi><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mi>−</mi><msup><mi>c</mi><mn>2</mn></msup><mi>d</mi><msup><mi>τ</mi><mn>2</mn></msup></mrow></math>, y de ahí se obtiene el tiempo propio medido a lo largo de la línea de universo de la partícula<span class=\"j-oin\">[A veces a esto se le llama <strong>hipótesis del reloj</strong>: la relación entre los intervalos de tiempo medidos por un reloj acelerado y por unos sistemas inerciales no depende (directamente) de la aceleración, sino que (como consecuencia de la dilatación del tiempo) es una mera función de la velocidad relativa en cada momento. Por ejemplo, en los aceleradores se comprueba una y otra vez esta hipótesis al medir la vida media de partículas radiactivas aceleradas. Minkowski introdujo en 1908 el concepto de tiempo propio.]</span>:"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>d</mi><mi>τ</mi><mo>=</mo><mfrac><msqrt><mrow><mi>−</mi><mi>d</mi><msup><mi>s</mi><mn>2</mn></msup></mrow></msqrt><mi>c</mi></mfrac><mi>.</mi></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "Por supuesto, esa expresión no depende del sistema de referencia usado para medir <math display=\"inline\"><mrow><mi>d</mi><msup><mi>s</mi><mn>2</mn></msup></mrow></math>: es absoluta. En consecuencia, esta es su relación con el intervalo de tiempo infinitesimal <math display=\"inline\"><mrow><mi>d</mi><mi>t</mi></mrow></math> medido a lo largo de la línea de universo de la partícula en un sistema inercial: <math display=\"block\"><mrow><mi>d</mi><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mi>−</mi><msup><mi>c</mi><mn>2</mn></msup><mi>d</mi><msup><mi>τ</mi><mn>2</mn></msup><mo>=</mo><mi>−</mi><msup><mi>c</mi><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><msup><mi mathvariant=\"bold-italic\">𝒗</mi><mn>2</mn></msup><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup><mspace width=\"1.0em\"></mspace><mo>⇔</mo><mspace width=\"1.0em\"></mspace><mi>d</mi><mi>t</mi><mo>=</mo><mfrac><mrow><mi>d</mi><mi>τ</mi></mrow><msqrt><mrow><mn>1</mn><mo>−</mo><mfrac><msup><mi mathvariant=\"bold-italic\">𝒗</mi><mn>2</mn></msup><msup><mi>c</mi><mn>2</mn></msup></mfrac></mrow></msqrt></mfrac><mo>≥</mo><mi>d</mi><mi>τ</mi><mi>.</mi></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "Esta es la <strong>dilatación del tiempo</strong>: el intervalo de tiempo propio es siempre más corto que el medido en los sistemas en los que la partícula no está en reposo. <math display=\"inline\"><mrow><mi>d</mi><mi>τ</mi></mrow></math> Los intervalos finitos de tiempo propio se obtienen integrando a lo largo de la línea de universo estas contribuciones infinitesimales."
+    },
+    {
+     "mota": "testua",
+     "html": "Las líneas de universo de las partículas sin masa (fotones) son rectas y a lo largo de ellas <math display=\"inline\"><mrow><mi>d</mi><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mn>0</mn></mrow></math>: no se puede definir el tiempo propio de tales partículas, pues no están en reposo en ningún sistema de referencia."
+    },
+    {
+     "mota": "irudia",
+     "oina": "Líneas de universo de una partícula con masa y de un fotón, en el plano <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>z</mi><mo>=</mo><mn>0</mn></mrow></math>.",
+     "src": "../media/irudiak/b733f6424d58fe6c.svg",
+     "zabalera": 224
+    }
+   ]
+  },
+  {
+   "id": "a8",
+   "maila": 2,
+   "izenburua": "Transformación de la velocidad",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "Consideremos ahora el movimiento de una partícula y las componentes de la velocidad que se obtienen derivando sus coordenadas <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math>: <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mover><mi>z</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math>. Veamos primero cómo se transforman las derivadas respecto del tiempo. Para cualquier función <math display=\"inline\"><mi>f</mi></math>, tenemos <math display=\"block\"><mrow><mfrac><mrow><mi>d</mi><mi>f</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>d</mi><mi>f</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></mfrac><mfrac><mrow><mi>d</mi><msup><mi>t</mi><mo>′</mo></msup></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mfrac><mrow><mi>d</mi><mi>f</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mi>d</mi><mi>t</mi><mi>/</mi><mi>d</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></mfrac><mfrac><mrow><mi>d</mi><mi>f</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></mfrac></mrow></math>. Si aquí se usa (3.27), se obtiene <math display=\"block\"><mrow><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></mfrac><mo>=</mo><mfrac><mi>d</mi><mrow><mi>d</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo>+</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><msup><mi>x</mi><mo>′</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mfrac><mrow><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mo>≡</mo><mfrac><mrow><mi>d</mi><msup><mi>x</mi><mo>′</mo></msup></mrow><mrow><mi>d</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></mfrac></mrow></math>. Esta es, pues, la transformación de las derivadas: <math display=\"block\"><mrow><mfrac><mrow><mi>d</mi><mi>f</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mfrac><mrow><mi>d</mi><mi>f</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></mfrac><mi>.</mi></mrow></math> Usando las transformaciones de Lorentz (3.28)–(3.30) y (3.80), vemos que la ley relativista de composición de velocidades es la siguiente:"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mfrac><mrow><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mo>+</mo><mi>v</mi></mrow><mrow><mn>1</mn><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></mfrac><mo>,</mo></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "ezezaguna",
+     "izena": "zenb-ekuazioa"
+    },
+    {
+     "mota": "ezezaguna",
+     "izena": "zenb-ekuazioa"
+    },
+    {
+     "mota": "testua",
+     "html": "Está claro que en el límite de velocidades pequeñas, <math display=\"inline\"><mrow><mi>γ</mi><mo>≈</mo><mn>1</mn></mrow></math> y <math display=\"inline\"><mrow><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo>≈</mo><mn>0</mn></mrow></math>, se recupera la ley de transformación de la mecánica galileana. Con un cálculo directo o, mejor, teniendo en cuenta que los dos sistemas son completamente equivalentes salvo por el sentido de la velocidad relativa, pueden obtenerse las transformaciones inversas: <math display=\"block\"><mrow><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mo>=</mo><mfrac><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>−</mo><mi>v</mi></mrow><mrow><mn>1</mn><mo>−</mo><mi>v</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></mfrac><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msup><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mo>=</mo><mfrac><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mrow><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>v</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msup><mover><mi>z</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mo>=</mo><mfrac><mover><mi>z</mi><mo accent=\"true\">̇</mo></mover><mrow><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>v</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mi>.</mi></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "Como vemos, en la relatividad especial <em>la velocidad medida en un sistema es la medida en otro más la velocidad de este último multiplicada por un factor que depende de las velocidades</em>. Además, la transformación del módulo de la velocidad puede escribirse así: <math display=\"block\"><mrow><msup><mi>c</mi><mn>2</mn></msup><mo>−</mo><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>=</mo><msup><mi>c</mi><mn>2</mn></msup><mfrac><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>c</mi><mn>2</mn></msup><mo>−</mo><msup><mi>v</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>c</mi><mn>2</mn></msup><mo>−</mo><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>c</mi><mn>2</mn></msup><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac></mrow></math>"
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Comprueba el resultado (3.87)."
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "Ahora se ve claramente que la hipótesis sobre la propagación de la causalidad es sólida. Si una partícula o una señal se mueve en un sistema con velocidad <math display=\"inline\"><mi>c</mi></math> o menor (<math display=\"inline\"><mrow><msup><mi>c</mi><mn>2</mn></msup><mo>−</mo><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>≥</mo><mn>0</mn></mrow></math>), no se propagará con una velocidad mayor que <math display=\"inline\"><mi>c</mi></math> en ningún otro sistema (<math display=\"inline\"><mrow><msup><mi>c</mi><mn>2</mn></msup><mo>−</mo><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>≥</mo><mn>0</mn></mrow></math>), pues, como hemos dicho una y otra vez, admitimos que las velocidades relativas entre sistemas son siempre menores que <math display=\"inline\"><mi>c</mi></math>: <math display=\"inline\"><mrow><msup><mi>c</mi><mn>2</mn></msup><mo>−</mo><msup><mi>v</mi><mn>2</mn></msup><mo>&gt;</mo><mn>0</mn></mrow></math>. En particular, no hay ninguna contradicción en que los fotones se muevan con velocidad <math display=\"inline\"><mi>c</mi></math> en todos los sistemas: <math display=\"inline\"><mrow><msup><mi>c</mi><mn>2</mn></msup><mo>−</mo><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>=</mo><msup><mi>c</mi><mn>2</mn></msup><mo>−</mo><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>=</mo><mn>0</mn></mrow></math> puede ser, y el fotón no está en reposo en ningún sistema."
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Usa en el resultado (3.87)"
+      },
+      {
+       "mota": "ezezaguna",
+       "izena": "zenb-ekuazioa"
+      },
+      {
+       "mota": "testua",
+       "html": "una notación más explícita para demostrar las siguientes relaciones entre los factores de Lorentz:"
+      },
+      {
+       "mota": "ezezaguna",
+       "izena": "zenb-ekuazioa"
+      },
+      {
+       "mota": "ezezaguna",
+       "izena": "zenb-ekuazioa"
+      },
+      {
+       "mota": "testua",
+       "html": "Deduce que la ecuación de transformación (3.82) se escribe de este modo:"
+      },
+      {
+       "mota": "ezezaguna",
+       "izena": "zenb-ekuazioa"
+      }
+     ]
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<strong>Ley de transformación de la aceleración.</strong> Comprueba que las relaciones entre las componentes de la aceleración medidas en los dos sistemas"
+      },
+      {
+       "mota": "ezezaguna",
+       "izena": "zenb-ekuazioa"
+      },
+      {
+       "mota": "ezezaguna",
+       "izena": "zenb-ekuazioa"
+      },
+      {
+       "mota": "ezezaguna",
+       "izena": "zenb-ekuazioa"
+      },
+      {
+       "mota": "testua",
+       "html": "o"
+      },
+      {
+       "mota": "ezezaguna",
+       "izena": "zenb-ekuazioa"
+      },
+      {
+       "mota": "ezezaguna",
+       "izena": "zenb-ekuazioa"
+      },
+      {
+       "mota": "ezezaguna",
+       "izena": "zenb-ekuazioa"
+      },
+      {
+       "mota": "testua",
+       "html": "son."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a9",
+   "maila": 2,
+   "izenburua": "Momento lineal",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "Como vimos en la sección 1.5.3, el principio de conservación del momento lineal total de los sistemas aislados se considera un principio fundamental de la física. Para conservar este principio básico en la relatividad especial hay que cambiar la propia definición de momento lineal, como veremos en un experimento mental."
+    },
+    {
+     "mota": "testua",
+     "html": "Estudiemos la colisión entre dos partículas idénticas de masa <math display=\"inline\"><mi>m</mi></math>. Antes de la colisión las velocidades eran <math display=\"inline\"><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msub></math> en el sistema <math display=\"inline\"><mi>S</mi></math>, y después de la colisión <math display=\"inline\"><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>3</mn></msub></math> y <math display=\"inline\"><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>4</mn></msub></math>. Si conservamos la definición de momento lineal de la mecánica galileana (<math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝒑</mi><mo>≡</mo><mi>m</mi><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover></mrow></math>), la conservación de la componente <math display=\"inline\"><mi>y</mi></math> del momento lineal en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> se escribe así: <math display=\"block\"><mrow><mi>m</mi><msubsup><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mn>1</mn><mo>′</mo></msubsup><mo>+</mo><mi>m</mi><msubsup><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn><mo>′</mo></msubsup><mo>=</mo><mi>m</mi><msubsup><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mn>3</mn><mo>′</mo></msubsup><mo>+</mo><mi>m</mi><msubsup><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mrow><mn>4</mn><mi>.</mi></mrow><mo>′</mo></msubsup></mrow></math> Si en esta ecuación se usa la expresión (3.91) de la transformación (3.82), en el sistema <math display=\"inline\"><mi>S</mi></math> se obtiene <math display=\"block\"><mrow><mi>m</mi><mfrac><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msubsup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>1</mn><mo>′</mo></msubsup><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub></mfrac><msub><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mn>1</mn></msub><mo>+</mo><mi>m</mi><mfrac><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msubsup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn><mo>′</mo></msubsup><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub></mfrac><msub><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msub><mo>=</mo><mi>m</mi><mfrac><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>3</mn></msub><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msubsup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>3</mn><mo>′</mo></msubsup><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub></mfrac><msub><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mn>3</mn></msub><mo>+</mo><mi>m</mi><mfrac><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>4</mn></msub><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msubsup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>4</mn><mo>′</mo></msubsup><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub></mfrac><msub><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mn>4</mn></msub></mrow></math>; pero esto no se parece al principio de conservación del momento lineal. El principio de conservación puede escribirse de la misma manera en los dos sistemas si cambiamos la definición de momento lineal, pues si <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> es la componente <math display=\"inline\"><mi>y</mi></math> de dicho principio en el sistema <math display=\"block\"><mrow><mi>m</mi><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msubsup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>1</mn><mo>′</mo></msubsup><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><msubsup><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mn>1</mn><mo>′</mo></msubsup><mo>+</mo><mi>m</mi><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msubsup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn><mo>′</mo></msubsup><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><msubsup><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn><mo>′</mo></msubsup><mo>=</mo><mi>m</mi><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msubsup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>3</mn><mo>′</mo></msubsup><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><msubsup><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mn>3</mn><mo>′</mo></msubsup><mo>+</mo><mi>m</mi><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msubsup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>4</mn><mo>′</mo></msubsup><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><msubsup><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mn>4</mn><mo>′</mo></msubsup></mrow></math>, en el sistema <math display=\"inline\"><mi>S</mi></math> obtendríamos al aplicar la transformación (3.91): <math display=\"block\"><mrow><mi>m</mi><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><msub><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mn>1</mn></msub><mo>+</mo><mi>m</mi><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><msub><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msub><mo>=</mo><mi>m</mi><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>3</mn></msub><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><msub><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mn>3</mn></msub><mo>+</mo><mi>m</mi><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>4</mn></msub><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><msub><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mrow><mn>4</mn><mi>.</mi></mrow></msub></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "Teniendo en cuenta este experimento mental, está claro que en la definición del momento lineal de una partícula hay que introducir en la relatividad especial el coeficiente <math display=\"inline\"><mi>γ</mi></math> correspondiente al <em>módulo</em> de su velocidad. <em>El momento lineal de una partícula puntual de masa <math display=\"inline\"><mi>m</mi></math> que se mueve con velocidad <math display=\"inline\"><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover></math> es</em><span class=\"j-oin\">[Max Planck halló en 1906 esta definición correcta del momento lineal relativista.]</span>:"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝒑</mi><mo>≡</mo><mi>m</mi><mi>γ</mi><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mfrac><mrow><mi>m</mi><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover></mrow><msqrt><mrow><mn>1</mn><mo>−</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><msup><mo stretchy=\"false\" form=\"prefix\">|</mo><mn>2</mn></msup></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac></mrow></msqrt></mfrac><mo>,</mo></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "donde, para simplificar la notación, hemos escrito <math display=\"inline\"><mi>γ</mi></math> para designar el valor <math display=\"inline\"><mrow><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>−</mi><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup></mrow></math>."
+    },
+    {
+     "mota": "testua",
+     "html": "En algunos libros se dice que el coeficiente <math display=\"inline\"><mrow><mi>γ</mi><mi>m</mi></mrow></math> de la velocidad en la definición del momento lineal es la <strong>masa relativista</strong> (y a menudo se escribe con la simple letra <math display=\"inline\"><mi>m</mi></math>). La masa relativista medida en el sistema propio de la partícula, es decir, nuestra masa <math display=\"inline\"><mi>m</mi></math> que se recupera al hacer <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>1</mn></mrow></math>, se llama <strong>masa en reposo</strong> o <strong>masa propia</strong> (y con frecuencia se escribe <math display=\"inline\"><msub><mi>m</mi><mn>0</mn></msub></math>). Nosotros aquí, para evitar confusiones, hemos llamado <strong>masa</strong> al valor <math display=\"inline\"><mi>m</mi></math>, que es una característica de la partícula e independiente de la velocidad. El coeficiente <math display=\"inline\"><mi>γ</mi></math> lo escribiremos siempre explícitamente y, salvo en algunos puntos especiales de las secciones siguientes, no usaremos el nombre «masa relativista»."
+    }
+   ]
+  },
+  {
+   "id": "a10",
+   "maila": 2,
+   "izenburua": "Masa y energía",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "Consideremos la ley de conservación del momento lineal en la dirección <math display=\"inline\"><mi>x</mi></math> en el experimento mental de la figura 3.21. Dos partículas idénticas se mueven con velocidades opuestas en el eje <math display=\"inline\"><mi>x</mi></math> del sistema <math display=\"inline\"><mi>S</mi></math> y al chocar queda una sola partícula. Teniendo en cuenta la simetría, está claro que la nueva partícula queda en reposo en este sistema de referencia."
+    },
+    {
+     "mota": "irudia",
+     "oina": "Colisión simétrica en una recta.",
+     "src": "../media/irudiak/3e11287a09730963.svg",
+     "zabalera": 493
+    },
+    {
+     "mota": "testua",
+     "html": "Para eliminar el movimiento de la partícula izquierda, usaremos el sistema propio <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>, que se mueve con velocidad <math display=\"inline\"><mi>v</mi></math> en el sistema <math display=\"inline\"><mi>S</mi></math>. Allí la partícula izquierda está en reposo, la nueva partícula se mueve con velocidad <math display=\"inline\"><mrow><mi>−</mi><mi>v</mi></mrow></math> y, teniendo en cuenta la transformación de la velocidad, la velocidad escalar de la partícula derecha es esta: <math display=\"block\"><mrow><mi>u</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>v</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>v</mi><mn>2</mn></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></mfrac><mi>.</mi></mrow></math>"
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Comprueba la última afirmación y el resultado siguiente:"
+      },
+      {
+       "mota": "ezezaguna",
+       "izena": "zenb-ekuazioa"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "Si en la ecuación <math display=\"inline\"><mrow><mi>m</mi><msub><mi>γ</mi><mi>u</mi></msub><mi>u</mi><mo>=</mo><mi>M</mi><msub><mi>γ</mi><mi>v</mi></msub><mi>v</mi></mrow></math> que expresa en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> la conservación del momento lineal se sustituyen los resultados (3.103) y (3.104), se obtiene esto: <math display=\"block\"><mrow><mn>2</mn><mi>m</mi><msub><mi>γ</mi><mi>v</mi></msub><mo>=</mo><mi>M</mi><mspace width=\"1.0em\"></mspace><mo>⇔</mo><mspace width=\"1.0em\"></mspace><mi>m</mi><msub><mi>γ</mi><mi>v</mi></msub><mo>+</mo><mi>m</mi><msub><mi>γ</mi><mi>v</mi></msub><mo>=</mo><mi>M</mi><msub><mi>γ</mi><mn>0</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>m</mi><mo>+</mo><mi>m</mi><msub><mi>γ</mi><mi>u</mi></msub><mo>=</mo><mi>M</mi><msub><mi>γ</mi><mi>v</mi></msub><mspace width=\"1.0em\"></mspace><mo>⇔</mo><mspace width=\"1.0em\"></mspace><mi>m</mi><msub><mi>γ</mi><mn>0</mn></msub><mo>+</mo><mi>m</mi><msub><mi>γ</mi><mi>u</mi></msub><mo>=</mo><mi>M</mi><msub><mi>γ</mi><mi>v</mi></msub><mi>.</mi></mrow></math>"
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Comprueba estos resultados."
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "Como <math display=\"inline\"><mrow><mi>γ</mi><mo>&gt;</mo><mn>1</mn></mrow></math>, <em>¡la masa total no se conserva en esta colisión!</em> De hecho, las expresiones (3.105) y (3.106) dicen que la suma de los productos de la masa de las partículas por el coeficiente cinemático <math display=\"inline\"><mi>γ</mi></math> se conserva en los sistemas <math display=\"inline\"><mi>S</mi></math> y <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>, respectivamente. ¿Qué es, pues, esa magnitud <math display=\"inline\"><mrow><mi>m</mi><mi>γ</mi></mrow></math> que se conserva al sumar la contribución de todas las partículas (es decir, la que en algunos textos se llama masa relativista)?"
+    },
+    {
+     "mota": "testua",
+     "html": "Usando el binomio de Newton, se obtienen los siguientes desarrollos de Taylor: <math display=\"block\"><mrow><mi>γ</mi><mo>=</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfrac><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo>+</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mfrac><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>4</mn></msup><msup><mi>c</mi><mn>4</mn></msup></mfrac><mo>+</mo><mi>⋯</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>m</mi><mi>γ</mi><mo>=</mo><mi>m</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><mfrac><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo>+</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mi>m</mi><mfrac><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>4</mn></msup><msup><mi>c</mi><mn>4</mn></msup></mfrac><mo>+</mo><mi>⋯</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>m</mi><mi>γ</mi><msup><mi>c</mi><mn>2</mn></msup><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>+</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mi>m</mi><mfrac><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>4</mn></msup><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo>+</mo><mi>⋯</mi></mrow></math> Estudiemos la magnitud <math display=\"inline\"><mrow><mi>m</mi><mi>γ</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></math> de la última ecuación."
+    },
+    {
+     "mota": "zerrenda",
+     "ordenatua": true,
+     "elementuak": [
+      "Tiene las dimensiones de una energía: <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>m</mi><mi>γ</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mi>M</mi><msup><mi>L</mi><mn>2</mn></msup><msup><mi>T</mi><mrow><mi>−</mi><mn>2</mn></mrow></msup></mrow></math>.",
+      "En el límite galileano <math display=\"inline\"><mrow><mi>m</mi><mi>γ</mi><msup><mi>c</mi><mn>2</mn></msup><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup></mrow></math>  es: <math display=\"inline\"><mrow><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></math> término constante más energía cinética.",
+      "Por otra parte, la colisión no es elástica, pues aunque al final la energía cinética en el sistema <math display=\"inline\"><mi>S</mi></math> es nula, no lo era al principio. La energía cinética no se conservará; pero, al ser un sistema aislado, la energía total (teniendo en cuenta la térmica, la elástica y las energías de todos los demás tipos) debe conservarse. ¡Esta es una de las leyes más fundamentales de la física! De hecho, la suma de estas magnitudes de todas las partículas se conserva en la colisión, tanto en el sistema <math display=\"inline\"><mi>S</mi></math> como en el <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>, pues (3.105) y (véase (3.106) se escriben así: <math display=\"block\"><mrow><mi>m</mi><msub><mi>γ</mi><mi>v</mi></msub><msup><mi>c</mi><mn>2</mn></msup><mo>+</mo><mi>m</mi><msub><mi>γ</mi><mi>v</mi></msub><msup><mi>c</mi><mn>2</mn></msup><mo>=</mo><mi>M</mi><msup><mi>c</mi><mn>2</mn></msup><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup><mo>+</mo><mi>m</mi><msub><mi>γ</mi><mi>u</mi></msub><msup><mi>c</mi><mn>2</mn></msup><mo>=</mo><mi>M</mi><msub><mi>γ</mi><mi>v</mi></msub><msup><mi>c</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math>"
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "Usando la navaja de Occam<span class=\"j-oin\">[Los físicos de poca cultura lo llamamos «el principio del caballo»: <em>si se parece a los caballos, trota como los caballos y relincha, es un caballo</em>.]</span>, parece que la manera más sencilla de explicar estas propiedades,"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>E</mi><mo>=</mo><mi>m</mi><mi>γ</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "consiste en admitir que la magnitud<span class=\"j-oin\">[Si la magnitud <math display=\"inline\"><mi>m</mi></math> en lugar de ser la masa de la partícula es la masa relativista, esa hipótesis se reduce a la famosa fórmula <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></math>.]</span>  (siendo <math display=\"inline\"><mrow><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>−</mi><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup></mrow></math> el factor correspondiente a la velocidad <math display=\"inline\"><mi>γ</mi></math> de la partícula) es la energía total de la partícula. Esa es, pues, la energía total de una partícula <em>aislada</em> (si está en un campo exterior, por ejemplo, hay que sumar a la energía (3.112) la energía potencial correspondiente)."
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Energía en reposo"
+    },
+    {
+     "mota": "testua",
+     "html": "Con esta definición de la energía, en el sistema propio de la partícula, es decir, cuando la partícula está en reposo, la energía «cinética» es nula y la energía total que queda,"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msub><mi>E</mi><mn>0</mn></msub><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup><mo>,</mo></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "será la suma de todas las demás energías no ligadas al movimiento: se llama <strong>energía en reposo</strong> o <strong>energía propia</strong>. En la energía en reposo de un núcleo estable hay las energías en reposo de los componentes y una energía nuclear negativa: la suma de las energías en reposo de los componentes es mayor que la energía propia del núcleo, pues para liberar los componentes hay que dar al núcleo una energía, llamada energía de enlace<span class=\"j-oin\">[Max Planck se dio cuenta en 1906 de que la masa total de un sistema de partículas es menor que la suma de las masas de sus componentes.]</span>. Del mismo modo, en la energía en reposo de un átomo habrá las energías propias positivas del núcleo y de los electrones y la energía electromagnética negativa. Si la partícula es un cuerpo pequeño pero macroscópico, ahí están la energía térmica, la elástica, etc."
+    },
+    {
+     "mota": "testua",
+     "html": "Como hemos visto en la colisión anterior, la energía total en reposo no siempre se conserva. Si cambian el número, la naturaleza o el estado interno de las partículas, la energía propia cambiará casi siempre. Lo que se conserva es la suma de las energías totales."
+    },
+    {
+     "mota": "testua",
+     "html": "Debido al gran valor del coeficiente <math display=\"inline\"><msup><mi>c</mi><mn>2</mn></msup></math>, en la mayoría de los fenómenos térmicos y químicos del mundo macroscópico el cambio de masa correspondiente al cambio de la energía en reposo es demasiado pequeño para medirlo directamente en el laboratorio con una balanza (véase el problema 3.46). Pero en los mundos microscópicos hay muchas posibilidades de comprobar en la física actual<span class=\"j-oin\">[La primera comprobación experimental fue el experimento de John Cockcroft y Ernest T. S. Walton en 1932. Al bombardear litio con protones de alta energía, en la reacción <math display=\"inline\"><mrow><mrow><msubsup><mrow></mrow><mn>1</mn><mn>1</mn></msubsup><mi mathvariant=\"normal\">H</mi></mrow><mo>+</mo><mrow><msubsup><mrow></mrow><mn>3</mn><mn>7</mn></msubsup><mtext mathvariant=\"normal\">Li</mtext></mrow><mo>→</mo><mn>2</mn><mrow><msubsup><mrow></mrow><mn>2</mn><mn>4</mn></msubsup><mtext mathvariant=\"normal\">He</mtext></mrow></mrow></math>, la energía cinética de las partículas alfa que aparecen procede de la masa que se pierde. Obtuvieron el premio Nobel de 1951 por lograr la transmutación de núcleos con un acelerador. En 2005 se comprobó esta equivalencia con una precisión del 0.00004 % [102].]</span> la hipótesis (3.113), que expresa la equivalencia entre la energía en reposo y la masa<span class=\"j-oin\">[El propio Einstein presentó a lo largo de 40 años 18 <em>demostraciones</em> de esta equivalencia [85]. No está nada claro que pueda deducirse de los demás postulados de la teoría. En cualquier caso, podemos tomarla como un postulado comprobado en experimentos.]</span>. Dejando a un lado la fisión que casi todos tenemos en mente —base física del desafortunado artefacto que se conoce con el nombre inadecuado de «bomba atómica»—, veamos la fusión nuclear que ocurre en el Sol (y en otras estrellas), que gracias a la energía que produce hace posible la vida en la superficie de la Tierra. En 1938 Hans Bethe<span class=\"j-oin\">[Este trabajo se cita en el anuncio del premio Nobel que se le concedió en 1967.]</span> propuso que en las condiciones de las estrellas ocurre la siguiente sucesión de reacciones nucleares:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mrow><msubsup><mrow></mrow><mn>1</mn><mn>1</mn></msubsup><mi mathvariant=\"normal\">H</mi></mrow><mo>+</mo><mrow><msubsup><mrow></mrow><mn>6</mn><mn>12</mn></msubsup><mi mathvariant=\"normal\">C</mi></mrow></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>→</mo><mrow><msubsup><mrow></mrow><mn>7</mn><mn>13</mn></msubsup><mi mathvariant=\"normal\">N</mi></mrow></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><msubsup><mrow></mrow><mn>7</mn><mn>13</mn></msubsup><mi mathvariant=\"normal\">N</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>→</mo><mrow><msubsup><mrow></mrow><mn>6</mn><mn>13</mn></msubsup><mi mathvariant=\"normal\">C</mi></mrow><mo>+</mo><msup><mi>e</mi><mo>+</mo></msup><mo>+</mo><mi>ν</mi></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mrow><msubsup><mrow></mrow><mn>1</mn><mn>1</mn></msubsup><mi mathvariant=\"normal\">H</mi></mrow><mo>+</mo><mrow><msubsup><mrow></mrow><mn>6</mn><mn>13</mn></msubsup><mi mathvariant=\"normal\">C</mi></mrow></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>→</mo><mrow><msubsup><mrow></mrow><mn>7</mn><mn>14</mn></msubsup><mi mathvariant=\"normal\">N</mi></mrow></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mrow><msubsup><mrow></mrow><mn>1</mn><mn>1</mn></msubsup><mi mathvariant=\"normal\">H</mi></mrow><mo>+</mo><mrow><msubsup><mrow></mrow><mn>7</mn><mn>14</mn></msubsup><mi mathvariant=\"normal\">N</mi></mrow></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>→</mo><mrow><msubsup><mrow></mrow><mn>8</mn><mn>15</mn></msubsup><mi mathvariant=\"normal\">O</mi></mrow></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><msubsup><mrow></mrow><mn>8</mn><mn>15</mn></msubsup><mi mathvariant=\"normal\">O</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>→</mo><mrow><msubsup><mrow></mrow><mn>7</mn><mn>15</mn></msubsup><mi mathvariant=\"normal\">N</mi></mrow><mo>+</mo><msup><mi>e</mi><mo>+</mo></msup><mo>+</mo><mi>ν</mi></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mrow><msubsup><mrow></mrow><mn>1</mn><mn>1</mn></msubsup><mi mathvariant=\"normal\">H</mi></mrow><mo>+</mo><mrow><msubsup><mrow></mrow><mn>7</mn><mn>15</mn></msubsup><mi mathvariant=\"normal\">N</mi></mrow></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>→</mo><mrow><msubsup><mrow></mrow><mn>6</mn><mn>12</mn></msubsup><mi mathvariant=\"normal\">C</mi></mrow><mo>+</mo><mrow><msubsup><mrow></mrow><mn>2</mn><mn>4</mn></msubsup><mtext mathvariant=\"normal\">He</mtext></mrow></mtd></mtr></mtable></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "Vemos que el carbono se usa como catalizador en este <strong>ciclo CNO</strong> y en total tenemos esto (olvidando además algunos fotones que se producen): <math display=\"block\"><mrow><mn>4</mn><mrow><msubsup><mrow></mrow><mn>1</mn><mn>1</mn></msubsup><mi mathvariant=\"normal\">H</mi></mrow><mo>→</mo><mrow><msubsup><mrow></mrow><mn>2</mn><mn>4</mn></msubsup><mtext mathvariant=\"normal\">He</mtext></mrow><mo>+</mo><mn>2</mn><msup><mi>e</mi><mo>+</mo></msup><mo>+</mo><mn>2</mn><mi>ν</mi><mi>.</mi></mrow></math> Como la masa de los neutrinos es muy pequeña, la masa perdida en la reacción es la siguiente (véase la tabla A.2): <math display=\"block\"><mrow><mn>4</mn><msub><mi>m</mi><mrow><msubsup><mrow></mrow><mn>1</mn><mn>1</mn></msubsup><mi mathvariant=\"normal\">H</mi></mrow></msub><mo>−</mo><msub><mi>m</mi><mrow><msubsup><mrow></mrow><mn>2</mn><mn>4</mn></msubsup><mtext mathvariant=\"normal\">He</mtext></mrow></msub><mo>−</mo><mn>2</mn><msub><mi>m</mi><mi>e</mi></msub><mo>=</mo><mn>4</mn><msub><mi>m</mi><mi>p</mi></msub><mo>−</mo><msub><mi>m</mi><mi>α</mi></msub><mo>−</mo><mn>2</mn><msub><mi>m</mi><mi>e</mi></msub><mo>≈</mo><mn>24.7</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> MeV </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>/</mi><msup><mi>c</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math> Esa energía (y <math display=\"inline\"><mn>2.0</mn></math> MeV que se liberan cuando <math display=\"inline\"><msup><mi>e</mi><mo>+</mo></msup></math> positrones<span class=\"j-oin\">[Carl David Anderson obtuvo la mitad del premio Nobel de 1936 por descubrir el positrón.]</span> se encuentran con los electrones, sus antipartículas) aparecerán como energía de otro tipo. En efecto, los núcleos producidos tienen energía cinética y los fotones producidos en la reacción también llevan energía. Aunque de media se necesitan seis millones de años para hacer un ciclo, debido a la gran masa de las estrellas se produce (se transforma) una energía enorme con este proceso. Hoy se cree que en el caso del Sol la mayor parte de la energía producida procede del ciclo protón-protón, aunque el ciclo de Bethe tiene mayor importancia en estrellas más calientes. En cualquier caso, en los dos procesos se aplica la ecuación (3.115)."
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Demuestra que el momento lineal de una partícula"
+      },
+      {
+       "mota": "ezezaguna",
+       "izena": "zenb-ekuazioa"
+      },
+      {
+       "mota": "testua",
+       "html": "puede escribirse así, y deduce la siguiente relación:"
+      },
+      {
+       "mota": "ezezaguna",
+       "izena": "zenb-ekuazioa"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "Si del último resultado despejamos <math display=\"inline\"><msubsup><mi>E</mi><mn>0</mn><mn>2</mn></msubsup></math>, nos queda esto: <math display=\"block\"><mrow><msup><mi>m</mi><mn>2</mn></msup><msup><mi>c</mi><mn>4</mn></msup><mo>=</mo><msubsup><mi>E</mi><mn>0</mn><mn>2</mn></msubsup><mo>=</mo><msup><mi>E</mi><mn>2</mn></msup><mo>−</mo><msup><mi>c</mi><mn>2</mn></msup><msup><mi mathvariant=\"bold-italic\">𝒑</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math> Este resultado es muy útil para hacer cálculos con los principios de conservación (por ejemplo, al estudiar colisiones). Además, el miembro izquierdo es una característica de la partícula y no depende del sistema de referencia. Por tanto, el miembro derecho debe cumplir la misma propiedad, y como la velocidad de la luz o el intervalo espacio-temporal (3.54), es un invariante relativista:"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msup><mi>m</mi><mn>2</mn></msup><msup><mi>c</mi><mn>4</mn></msup><mo>=</mo><msup><mi>E</mi><mn>2</mn></msup><mo>−</mo><msup><mi>c</mi><mn>2</mn></msup><msup><mi mathvariant=\"bold-italic\">𝒑</mi><mn>2</mn></msup><mo>=</mo><msup><mi>E</mi><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>−</mo><msup><mi>c</mi><mn>2</mn></msup><msup><mi mathvariant=\"bold-italic\">𝒑</mi><mo>′</mo></msup><msup><mi></mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "En el caso de un sistema de partículas <em>aislado</em>, tenemos un invariante relativista parecido si se usan la energía y el momento lineal totales, pero entonces la masa <math display=\"inline\"><mi>m</mi></math> de la ecuación (3.119) no es, en general, la suma de las masas de los componentes, pues también hay que tener en cuenta las contribuciones de la energía cinética intrínseca y de la energía de interacción (por ejemplo, como dijimos antes, la masa de un átomo no es la suma de las masas del núcleo y de los electrones: como la energía de interacción es negativa, hay que usar energía para separar los componentes). Véanse la sección 3.9.2 y el problema 3.120."
+    },
+    {
+     "mota": "testua",
+     "html": "Gracias a las propiedades que hemos visto en esta sección, vemos que la energía y la masa (relativista) son dos aspectos equivalentes de una única propiedad de las partículas, aunque históricamente se hayan descubierto y medido de maneras y con unidades distintas. Pero no hay que pensar que la energía es imposible cuando la masa (en reposo) es nula."
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Transformación de la energía y del momento lineal"
+    },
+    {
+     "mota": "testua",
+     "html": "Como ocurre en la mecánica galileana, la energía y el momento lineal de una partícula dependen del sistema de referencia. Si consideramos los sistemas <math display=\"inline\"><mi>S</mi></math> y <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> que usamos una y otra vez, las relaciones entre las energías y los momentos lineales medidos en ambos son las siguientes:"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>E</mi><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>E</mi><mo>′</mo></msup><mo>+</mo><mi>v</mi><msubsup><mi>p</mi><mi>x</mi><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "ezezaguna",
+     "izena": "zenb-ekuazioa"
+    },
+    {
+     "mota": "ezezaguna",
+     "izena": "zenb-ekuazioa"
+    },
+    {
+     "mota": "ezezaguna",
+     "izena": "zenb-ekuazioa"
+    },
+    {
+     "mota": "testua",
+     "html": "Las inversas son estas: <math display=\"block\"><mrow><msup><mi>E</mi><mo>′</mo></msup><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>E</mi><mo>−</mo><mi>v</mi><msub><mi>p</mi><mi>x</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msubsup><mi>p</mi><mi>x</mi><mo>′</mo></msubsup><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>p</mi><mi>x</mi></msub><mo>−</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mi>E</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msubsup><mi>p</mi><mi>y</mi><mo>′</mo></msubsup><mo>=</mo><msub><mi>p</mi><mi>y</mi></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msubsup><mi>p</mi><mi>z</mi><mo>′</mo></msubsup><mo>=</mo><msub><mi>p</mi><mi>z</mi></msub><mi>.</mi></mrow></math> Como las transformaciones son lineales, la energía y el momento lineal totales de un sistema de partículas libres se transforman de la misma manera. Además, lo mismo ocurre si hay interacción con la energía y el momento lineal"
+    },
+    {
+     "mota": "testua",
+     "html": "<em>totales</em>"
+    },
+    {
+     "mota": "testua",
+     "html": "de los sistemas"
+    },
+    {
+     "mota": "testua",
+     "html": "<em>aislados</em>"
+    },
+    {
+     "mota": "testua",
+     "html": ", siempre que se tengan en cuenta la energía y el momento lineal de los campos que llevan la interacción entre las partículas (véase el problema 3.120)."
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Usa las definiciones (3.102) y (3.112), las propiedades (3.89)–(3.90) y las ecuaciones de transformación de la velocidad para comprobar (3.120)–(3.127). ¡Cuidado, con velocidades y factores de Lorentz distintos!"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "De estas transformaciones se demuestra directamente que también en el caso general, si se usan la energía y el momento lineal <em>totales</em> de un sistema aislado, tenemos el siguiente invariante relativista: <math display=\"block\"><mrow><msup><mi>E</mi><mn>2</mn></msup><mo>−</mo><msup><mi>c</mi><mn>2</mn></msup><msup><mi mathvariant=\"bold-italic\">𝒑</mi><mn>2</mn></msup><mo>=</mo><msup><mi>E</mi><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>−</mo><msup><mi>c</mi><mn>2</mn></msup><msup><mi mathvariant=\"bold-italic\">𝒑</mi><mo>′</mo></msup><msup><mi></mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math>"
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Energía cinética"
+    },
+    {
+     "mota": "testua",
+     "html": "La energía cinética, consecuencia del movimiento (que desaparecerá si elegimos el sistema de referencia propio), será lo que queda al restar de la energía total la energía en reposo<span class=\"j-oin\">[Einstein halló esta expresión de la energía cinética en 1905, en su primer artículo sobre la relatividad; la de la energía en reposo, en el segundo artículo del mismo año, y la de la energía total en 1907.]</span>:"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>T</mi><mo>≡</mo><mi>E</mi><mo>−</mo><msub><mi>E</mi><mn>0</mn></msub><mo>=</mo><mi>m</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>γ</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>c</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "El desarrollo de esto, <math display=\"block\"><mrow><mi>T</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>+</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mi>m</mi><mfrac><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>4</mn></msup><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo>+</mo><mi>⋯</mi><mo>,</mo></mrow></math> se reduce a la energía cinética de la física galileana cuando la velocidad es pequeña."
+    }
+   ]
+  },
+  {
+   "id": "a11",
+   "maila": 2,
+   "izenburua": "Fuerza y potencia",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "Para definir la fuerza, estudiemos el teorema de las fuerzas vivas en la relatividad especial: <math display=\"block\"><mrow><mover><mi>T</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi mathvariant=\"bold-italic\">𝑭</mi><mo>⋅</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>.</mi></mrow></math>"
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Demuestra la siguiente expresión de la útil derivada:"
+      },
+      {
+       "mota": "ezezaguna",
+       "izena": "zenb-ekuazioa"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "Si la naturaleza y el estado interno de la partícula no cambian, como la energía en reposo de la partícula es constante durante el movimiento, (3.131) queda así: <math display=\"block\"><mrow><mover><mi>T</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>E</mi><mo>−</mo><msub><mi>E</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></msup><mo>=</mo><mover><mi>E</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>m</mi><mi>γ</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></msup><mo>=</mo><mi>m</mi><msup><mi>γ</mi><mn>3</mn></msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̈</mo></mover><mo>⋅</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi mathvariant=\"bold-italic\">𝑭</mi><mo>⋅</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>.</mi></mrow></math> Está claro que si definimos la fuerza como <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝑭</mi><mo>=</mo><mi>m</mi><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̈</mo></mover></mrow></math>  (o, usando la masa relativista en lugar de la masa, <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝑭</mi><mo>=</mo><mi>m</mi><mi>γ</mi><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̈</mo></mover></mrow></math>) no se cumple el teorema de las fuerzas vivas. Por supuesto, el resultado (3.133) se cumpliría con la definición <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝑭</mi><mo>=</mo><mi>m</mi><msup><mi>γ</mi><mn>3</mn></msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̈</mo></mover></mrow></math>, pero ¿de dónde saldría esa? Hay una opción más natural. En la mecánica de Newton hay dos expresiones equivalentes para definir la fuerza<span class=\"j-oin\">[El propio Newton expresó de la segunda manera su segunda ley. Además, la expresión <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝑭</mi><mo>=</mo><mover><mi mathvariant=\"bold-italic\">𝒑</mi><mo accent=\"true\">̇</mo></mover></mrow></math> es más general, pues puede usarse también cuando la masa es variable.]</span>: <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝑭</mi><mo>=</mo><mi>m</mi><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̈</mo></mover></mrow></math> y <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝑭</mi><mo>=</mo><mover><mi mathvariant=\"bold-italic\">𝒑</mi><mo accent=\"true\">̇</mo></mover></mrow></math>. En la relatividad especial, en cambio, no son equivalentes y, aunque la primera no sea adecuada, la segunda es la que necesitamos: así, en el caso de la partícula aislada recuperamos el principio de conservación del momento lineal. De hecho, en la relatividad especial la fuerza total que sufre la partícula"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝑭</mi><mo>=</mo><mover><mi mathvariant=\"bold-italic\">𝒑</mi><mo accent=\"true\">̇</mo></mover></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "es<span class=\"j-oin\">[Este resultado también lo halló Max Planck en 1906.]</span>. Con esta definición, la potencia desarrollada por la fuerza total es la derivada de la energía cinética."
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Comprueba que con la definición (3.134) se cumple (3.133), pues tenemos:"
+      },
+      {
+       "mota": "ezezaguna",
+       "izena": "zenb-ekuazioa"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a12",
+   "maila": 2,
+   "izenburua": "Partículas sin masa",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "De la ecuación (3.116) podemos calcular el módulo <math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"bold-italic\">𝒑</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math> del momento lineal: <math display=\"block\"><mrow><mi>p</mi><mo>=</mo><mfrac><mi>E</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"false\" form=\"prefix\">|</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>.</mi></mrow></math> Como todos sabemos, la luz y los fotones llevan energía. Según el resultado (3.116), el momento lineal de un fotón de energía <math display=\"inline\"><mi>E</mi></math> tiene la dirección de la propagación. Además, como la velocidad es <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>=</mo><mi>c</mi></mrow></math>, el módulo del momento (3.116) es el siguiente:"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>p</mi><mo>=</mo><mfrac><mi>E</mi><mi>c</mi></mfrac><mi>.</mi></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "Aquí, tras admitir que la luz está formada por fotones, hemos considerado el fotón como una partícula. Hay que decir, sin embargo, que también en la interpretación ondulatoria de la luz, al estudiar la radiación electromagnética en la electrodinámica de Maxwell, se obtiene la misma relación entre la energía y el momento lineal que llevan las ondas planas."
+    },
+    {
+     "mota": "testua",
+     "html": "Por otra parte, sustituyendo el resultado (3.137) en la relación general (3.118), vemos que <em>la masa y la energía en reposo del fotón son cero</em>. Hay que tener en cuenta que la definición (3.102) del momento lineal no puede aplicarse directamente al caso del fotón<span class=\"j-oin\">[Einstein no mencionó el momento lineal del fotón hasta 1917.]</span>  <math display=\"inline\"><mrow><mi>m</mi><mo>=</mo><mn>0</mn></mrow></math> y como tenemos <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mi>∞</mi></mrow></math>, hay que hacer un proceso de límite. Recordemos que la velocidad de un fotón es <math display=\"inline\"><mi>c</mi></math> en todos los sistemas: no tiene sistema propio y no puede estar en reposo. No es, pues, tan sorprendente que la energía en reposo y la masa del fotón sean cero."
+    },
+    {
+     "mota": "testua",
+     "html": "Las propiedades vistas hasta ahora en esta sección son las de todas las partículas sin masa, y sin masa serían también los cuantos de gravitación que todavía no se han detectado directamente, llamados <strong>gravitones</strong>."
+    },
+    {
+     "mota": "testua",
+     "html": "En el caso de los fotones, con todo, podemos decir algo más usando los conceptos básicos de la física cuántica. Cuando Einstein introdujo el concepto de cuanto de luz para explicar el efecto fotoeléctrico, postuló que la energía del fotón se obtiene multiplicando la constante <math display=\"inline\"><mi>h</mi></math> de Planck (véase la tabla A.1) por la frecuencia <math display=\"inline\"><mi>ν</mi></math> de la luz:"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>E</mi><mo>=</mo><mi>h</mi><mi>ν</mi><mi>.</mi></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "Esta propiedad básica muestra que la energía y la frecuencia (el color, en el caso de la luz visible) son en el fondo dos aspectos equivalentes de una única propiedad del fotón. Además, como la velocidad de fase de la luz en el vacío es <math display=\"inline\"><mi>c</mi></math>, la longitud de onda de un fotón de frecuencia <math display=\"inline\"><mi>ν</mi></math> es <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mi>c</mi><mi>/</mi><mi>ν</mi></mrow></math>. Sustituyendo esto y el resultado (3.137) en la ecuación (3.138) de Einstein, se obtiene que el momento lineal del fotón es este: <math display=\"block\"><mrow><mi>p</mi><mo>=</mo><mfrac><mi>h</mi><mi>λ</mi></mfrac><mi>.</mi></mrow></math>"
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Efecto Doppler"
+    },
+    {
+     "mota": "testua",
+     "html": "Si la frecuencia propia de una fuente de radiación electromagnética (es decir, la frecuencia que se mide en el sistema de la fuente) es <math display=\"inline\"><mi>ν</mi></math>, el observador que se mueve respecto de la fuente medirá otra frecuencia (<math display=\"inline\"><msup><mi>ν</mi><mo>′</mo></msup></math>). Este fenómeno lo estudiaron por primera vez Doppler en 1842 y Fizeau en 1849."
+    },
+    {
+     "mota": "irudia",
+     "oina": "Sistemas y líneas de universo de la fuente de luz y del observador.",
+     "src": "../media/irudiak/0a49a6fe4257bfc8.svg",
+     "zabalera": 404
+    },
+    {
+     "mota": "testua",
+     "html": "Como de costumbre, si elegimos el eje <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math> en la dirección del movimiento relativo, en el sistema de la fuente la energía del fotón será <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mi>h</mi><mi>ν</mi></mrow></math> y la única componente del momento lineal <math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><msub><mi>p</mi><mi>x</mi></msub><mo>=</mo><mi>E</mi><mi>/</mi><mi>c</mi><mo>=</mo><mi>h</mi><mi>ν</mi><mi>/</mi><mi>c</mi></mrow></math>. Del mismo modo, en el sistema del observador la energía será <math display=\"inline\"><mrow><msup><mi>E</mi><mo>′</mo></msup><mo>=</mo><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup></mrow></math> y el momento lineal <math display=\"inline\"><mrow><msup><mi>p</mi><mo>′</mo></msup><mo>=</mo><msubsup><mi>p</mi><mi>x</mi><mo>′</mo></msubsup><mo>=</mo><msup><mi>E</mi><mo>′</mo></msup><mi>/</mi><mi>c</mi><mo>=</mo><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup><mi>/</mi><mi>c</mi></mrow></math>. Así, las transformaciones (3.124)–(3.125) se escriben en este caso: <math display=\"block\"><mrow><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>h</mi><mi>ν</mi><mo>−</mo><mi>v</mi><mfrac><mrow><mi>h</mi><mi>ν</mi></mrow><mi>c</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mfrac><mrow><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup></mrow><mi>c</mi></mfrac><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>h</mi><mi>ν</mi></mrow><mi>c</mi></mfrac><mo>−</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mi>h</mi><mi>ν</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math> De las dos ecuaciones se obtiene la misma conclusión<span class=\"j-oin\">[Aquí, como se hace habitualmente en relatividad, usamos la velocidad adimensional <math display=\"inline\"><mrow><mi>β</mi><mo>≡</mo><mi>v</mi><mi>/</mi><mi>c</mi></mrow></math>. Con esta notación escribiremos <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>β</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>−</mi><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup></mrow></math>, por ejemplo.]</span>:"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msup><mi>ν</mi><mo>′</mo></msup><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><mi>v</mi><mi>c</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>ν</mi><mo>=</mo><msqrt><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>β</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow><mrow><mn>1</mn><mo>−</mo><msup><mi>β</mi><mn>2</mn></msup></mrow></mfrac></msqrt><mi>ν</mi><mo>=</mo><msqrt><mfrac><mrow><mn>1</mn><mo>−</mo><mi>β</mi></mrow><mrow><mn>1</mn><mo>+</mo><mi>β</mi></mrow></mfrac></msqrt><mi>ν</mi><mo>=</mo><msqrt><mfrac><mrow><mi>c</mi><mo>−</mo><mi>v</mi></mrow><mrow><mi>c</mi><mo>+</mo><mi>v</mi></mrow></mfrac></msqrt><mi>ν</mi><mi>.</mi></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "(En la sección 9.13.2 explicaremos el efecto Doppler desde otro punto de vista.) Cuando la fuente y el observador se alejan, tenemos <math display=\"inline\"><mrow><mi>v</mi><mo>&gt;</mo><mn>0</mn></mrow></math> y <math display=\"inline\"><mrow><msup><mi>ν</mi><mo>′</mo></msup><mo>&lt;</mo><mi>ν</mi></mrow></math>, y la frecuencia que mide el observador es menor que la propia: tenemos el <strong>corrimiento al rojo</strong>, pues en el caso de la luz visible el observador puede ver como luz roja de menor frecuencia la luz que en la fuente es azul. Cuando el observador y la fuente se acercan, <math display=\"inline\"><mrow><mi>v</mi><mo>&lt;</mo><mn>0</mn></mrow></math> y tenemos el <strong>corrimiento al azul</strong>: <math display=\"inline\"><mrow><msup><mi>ν</mi><mo>′</mo></msup><mo>&gt;</mo><mi>ν</mi></mrow></math>."
+    },
+    {
+     "mota": "testua",
+     "html": "En general, este es el fenómeno que se ve en la luz de las galaxias. Al analizar con un espectrómetro la luz recogida con el telescopio, las líneas características conocidas (las del hidrógeno o las del calcio, por ejemplo) no aparecen donde están en el espectro de una lámpara en el laboratorio, sino con corrimiento al rojo. Gracias a esto sabemos que las galaxias se alejan de nosotros en todas direcciones: es lo que se llama expansión del universo. Basándose en las observaciones anteriores, en 1929 comenzó la revolución de la cosmología moderna cuando Edwin Hubble publicó que la relación entre la distancia <math display=\"inline\"><mi>d</mi></math> y la velocidad <math display=\"inline\"><mi>v</mi></math> de las galaxias es <math display=\"block\"><mrow><mi>v</mi><mo>=</mo><mi>H</mi><mi>d</mi></mrow></math>: el universo no es estático. La constante <math display=\"inline\"><mi>H</mi></math> que aparece en la ley de Hubble (3.142) se llama <strong>constante de Hubble</strong>."
+    },
+    {
+     "mota": "testua",
+     "html": "Para simplificar el estudio, hemos analizado el problema en una dimensión, pero cuando en el sistema de la fuente el ángulo entre la velocidad del observador y la velocidad de propagación de la onda es <math display=\"inline\"><mi>θ</mi></math>, la frecuencia cambia así (véase el problema 3.64): <math display=\"block\"><mrow><msup><mi>ν</mi><mo>′</mo></msup><mo>=</mo><mfrac><mrow><mn>1</mn><mo>−</mo><mi>β</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi></mrow><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>β</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>ν</mi><mi>.</mi></mrow></math> En consecuencia, a diferencia de lo que ocurre con el sonido, tenemos <math display=\"inline\"><mrow><msup><mi>ν</mi><mo>′</mo></msup><mo>≠</mo><mi>ν</mi></mrow></math> también cuando <math display=\"inline\"><mrow><mi>θ</mi><mo>=</mo><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math>. Este <strong>efecto Doppler transversal</strong> es el que comprobaron H. E. Ives y G. R. Stilwell."
+    },
+    {
+     "mota": "irudia",
+     "oina": "Efecto Doppler transversal.",
+     "src": "../media/irudiak/f5fbb00029ff8de6.svg",
+     "zabalera": 142
+    }
+   ]
+  },
+  {
+   "id": "a13",
+   "maila": 2,
+   "izenburua": "Efecto Compton",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "Entre 1919 y 1923 Arthur Holly Compton hizo una serie clásica de experimentos. Se bombardeaban electrones de baja energía con rayos X y se medía la frecuencia de los rayos dispersados. Para simplificar el análisis del experimento, consideremos la colisión de la figura 3.25. Contra un electrón <math display=\"inline\"><msup><mi>e</mi><mo>−</mo></msup></math> en reposo se envía un fotón de frecuencia <math display=\"inline\"><mi>ν</mi></math> en la dirección del vector unitario <math display=\"inline\"><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover></math>. Al encontrarse con el electrón cambia su dirección: a partir de ahí será la del vector <math display=\"inline\"><msup><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover><mo>′</mo></msup></math>. El ángulo de dispersión es el dado por el producto <math display=\"inline\"><mrow><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover><mo>⋅</mo><msup><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover><mo>′</mo></msup><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi></mrow></math>. Como después de la colisión el electrón empieza a moverse, la energía y la frecuencia del fotón disminuyen. Como es un sistema aislado, para estudiar la colisión usaremos las leyes de conservación de la energía y del momento lineal (para este estudio escribieron por primera vez Compton y Debye estos principios de conservación relativistas)."
+    },
+    {
+     "mota": "irudia",
+     "oina": "Dispersión Compton.",
+     "src": "../media/irudiak/0ea195555989e318.svg",
+     "zabalera": 292
+    },
+    {
+     "mota": "sarea",
+     "zutabeak": "repeat(1, minmax(0,1fr))",
+     "zelulak": [
+      {
+       "blokeak": [
+        {
+         "mota": "sarea",
+         "zutabeak": "repeat(1, minmax(0,1fr))",
+         "zelulak": [
+          {
+           "blokeak": []
+          },
+          {
+           "blokeak": [
+            {
+             "mota": "testua",
+             "html": "<strong>Al principio</strong>"
+            }
+           ]
+          },
+          {
+           "blokeak": [
+            {
+             "mota": "testua",
+             "html": "<strong>Al final</strong>"
+            }
+           ]
+          },
+          {
+           "blokeak": [
+            {
+             "mota": "testua",
+             "html": "<strong>Energía:</strong>"
+            }
+           ]
+          },
+          {
+           "blokeak": [
+            {
+             "mota": "testua",
+             "html": "<math display=\"inline\"><mrow><mi>h</mi><mi>ν</mi><mo>+</mo><msub><mi>E</mi><mn>0</mn></msub></mrow></math>"
+            }
+           ]
+          },
+          {
+           "blokeak": [
+            {
+             "mota": "testua",
+             "html": "<math display=\"inline\"><mrow><mo>=</mo><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup><mo>+</mo><mi>E</mi><mi>.</mi></mrow></math>"
+            }
+           ]
+          },
+          {
+           "blokeak": [
+            {
+             "mota": "testua",
+             "html": "<strong>Momento lineal:</strong>"
+            }
+           ]
+          },
+          {
+           "blokeak": [
+            {
+             "mota": "testua",
+             "html": "<math display=\"inline\"><mrow><mfrac><mrow><mi>h</mi><mi>ν</mi></mrow><mi>c</mi></mfrac><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover></mrow></math>"
+            }
+           ]
+          },
+          {
+           "blokeak": [
+            {
+             "mota": "testua",
+             "html": "<math display=\"inline\"><mrow><mo>=</mo><mfrac><mrow><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup></mrow><mi>c</mi></mfrac><msup><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover><mo>′</mo></msup><mo>+</mo><mi mathvariant=\"bold-italic\">𝒑</mi><mi>.</mi></mrow></math>"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "blokeak": [
+        {
+         "mota": "ezezaguna",
+         "izena": "ekuazio-zenbakia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "Aquí <math display=\"inline\"><mrow><msub><mi>E</mi><mn>0</mn></msub><mo>=</mo><msub><mi>m</mi><mi>e</mi></msub><msup><mi>c</mi><mn>2</mn></msup></mrow></math> es la energía en reposo del electrón. Si escribimos la energía <math display=\"inline\"><mi>E</mi></math> y el momento lineal <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝒑</mi></math> del electrón tras la colisión mediante la velocidad, esta última aparecerá explícitamente y mediante el coeficiente <math display=\"inline\"><mi>γ</mi></math>. Es mucho más fácil (<em>aquí y al estudiar la mayoría de las colisiones</em>) usar el invariante relativista (3.118), tras despejar la energía <math display=\"inline\"><mi>E</mi></math> y el momento <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝒑</mi></math> que no nos interesan, <math display=\"block\"><mrow><mi>E</mi><mo>=</mo><mi>h</mi><mi>ν</mi><mo>−</mo><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup><mo>+</mo><msub><mi>E</mi><mn>0</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>c</mi><mi mathvariant=\"bold-italic\">𝒑</mi><mo>=</mo><mi>h</mi><mi>ν</mi><mspace width=\"0.167em\"></mspace><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover><mo>−</mo><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup><mspace width=\"0.167em\"></mspace><msup><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover><mo>′</mo></msup><mo>,</mo></mrow></math>: <math display=\"block\"><mrow><msubsup><mi>E</mi><mn>0</mn><mn>2</mn></msubsup><mo>=</mo><msup><mi>E</mi><mn>2</mn></msup><mo>−</mo><msup><mi>c</mi><mn>2</mn></msup><msup><mi mathvariant=\"bold-italic\">𝒑</mi><mn>2</mn></msup><mo>=</mo><msubsup><mi>E</mi><mn>0</mn><mn>2</mn></msubsup><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>h</mi><mi>ν</mi><mo>−</mo><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><msub><mi>E</mi><mn>0</mn></msub><mo>−</mo><mn>2</mn><mi>h</mi><mi>ν</mi><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi mathvariant=\"normal\">cos</mi><mi>θ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math> Sustituyendo aquí <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mi>c</mi><mi>/</mi><mi>ν</mi></mrow></math> y las longitudes de onda <math display=\"inline\"><mrow><msup><mi>λ</mi><mo>′</mo></msup><mo>=</mo><mi>c</mi><mi>/</mi><msup><mi>ν</mi><mo>′</mo></msup></mrow></math>, se obtiene esto:"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msup><mi>λ</mi><mo>′</mo></msup><mo>−</mo><mi>λ</mi><mo>=</mo><msub><mi>λ</mi><mi>C</mi></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi mathvariant=\"normal\">cos</mi><mi>θ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "donde <math display=\"block\"><mrow><msub><mi>λ</mi><mi>C</mi></msub><mo>≡</mo><mfrac><mi>h</mi><mrow><msub><mi>m</mi><mi>e</mi></msub><mi>c</mi></mrow></mfrac><mo>≈</mo><mn>2.43</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>12</mn></mrow></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math> es la <strong>longitud de onda de Compton</strong>. Al demostrar que la longitud de onda de los rayos X dispersados cumplía la ley (3.148) (y que no depende de la intensidad ni de la duración del haz de rayos X), Compton dio la primera prueba directa de la hipótesis del fotón (y por eso obtuvo la mitad del premio Nobel de 1927). A pesar de la opinión que defendió Newton en su libro <em>Opticks</em>, los trabajos de Young y otros demostraron que la naturaleza ondulatoria de la luz era necesaria para explicar la interferencia y la difracción (véase la sección 9.15.1). En el experimento de Compton se ve que está formada por partículas, es decir, que la luz lleva, además de energía, momento lineal en una dirección concreta<span class=\"j-oin\">[Otras explicaciones del efecto fueron descartadas en los experimentos que realizaron en 1925 Walther Bothe y Hans Geiger, por un lado, y Compton y Alfred Simon, por otro. William G. Cross y Norman F. Ramsey comprobaron en 1950 que el movimiento del electrón también es el predicho por el análisis de la colisión entre partículas.]</span>. Hoy se ha entendido en física que no es tan sorprendente que la naturaleza de los componentes del mundo microscópico sea muy distinta de lo que vemos en nuestra experiencia macroscópica."
+    }
+   ]
+  },
+  {
+   "id": "a14",
+   "maila": 2,
+   "izenburua": "Emisión y absorción de fotones",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "Consideremos dos niveles electrónicos de un átomo (o dos niveles de energía de un núcleo). Cuando está en el inferior, la energía en reposo del átomo (o del núcleo) es <math display=\"inline\"><msub><mi>E</mi><mn>01</mn></msub></math>, y si está en el superior es <math display=\"inline\"><msub><mi>E</mi><mn>02</mn></msub></math>. La distancia entre los dos niveles de energía es, pues, <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>E</mi><mo>=</mo><msub><mi>E</mi><mn>02</mn></msub><mo>−</mo><msub><mi>E</mi><mn>01</mn></msub></mrow></math>."
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Emisión"
+    },
+    {
+     "mota": "testua",
+     "html": "Supongamos que en un átomo en reposo el electrón del nivel superior cae al inferior al emitir un fotón. Como el fotón lleva momento lineal, para que el momento total sea cero el átomo tiene que retroceder. Para estudiar este proceso hay que usar de nuevo los principios de conservación de la energía y del momento lineal:"
+    },
+    {
+     "mota": "sarea",
+     "zutabeak": "repeat(1, minmax(0,1fr))",
+     "zelulak": [
+      {
+       "blokeak": [
+        {
+         "mota": "sarea",
+         "zutabeak": "repeat(1, minmax(0,1fr))",
+         "zelulak": [
+          {
+           "blokeak": [
+            {
+             "mota": "testua",
+             "html": "<strong>Energía:</strong>"
+            }
+           ]
+          },
+          {
+           "blokeak": [
+            {
+             "mota": "testua",
+             "html": "<math display=\"inline\"><msub><mi>E</mi><mn>02</mn></msub></math>"
+            }
+           ]
+          },
+          {
+           "blokeak": [
+            {
+             "mota": "testua",
+             "html": "<math display=\"inline\"><mrow><mo>=</mo><mi>h</mi><mi>ν</mi><mo>+</mo><mi>E</mi><mi>.</mi></mrow></math>"
+            }
+           ]
+          },
+          {
+           "blokeak": [
+            {
+             "mota": "testua",
+             "html": "<strong>Momento lineal:</strong>"
+            }
+           ]
+          },
+          {
+           "blokeak": [
+            {
+             "mota": "testua",
+             "html": "<math display=\"inline\"><mn>0</mn></math>"
+            }
+           ]
+          },
+          {
+           "blokeak": [
+            {
+             "mota": "testua",
+             "html": "<math display=\"inline\"><mrow><mo>=</mo><mfrac><mrow><mi>h</mi><mi>ν</mi></mrow><mi>c</mi></mfrac><mo>−</mo><mi>p</mi><mi>.</mi></mrow></math>"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "blokeak": [
+        {
+         "mota": "ezezaguna",
+         "izena": "ekuazio-zenbakia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "Por tanto, tenemos esto: <math display=\"block\"><mrow><mi>E</mi><mo>=</mo><msub><mi>E</mi><mn>02</mn></msub><mo>−</mo><mi>h</mi><mi>ν</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>c</mi><mi>p</mi><mo>=</mo><mi>h</mi><mi>ν</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msubsup><mi>E</mi><mn>01</mn><mn>2</mn></msubsup><mo>=</mo><msup><mi>E</mi><mn>2</mn></msup><mo>−</mo><msup><mi>c</mi><mn>2</mn></msup><msup><mi>p</mi><mn>2</mn></msup><mo>=</mo><msubsup><mi>E</mi><mn>02</mn><mn>2</mn></msubsup><mo>−</mo><mn>2</mn><msub><mi>E</mi><mn>02</mn></msub><mi>h</mi><mi>ν</mi><mi>.</mi></mrow></math> En consecuencia, la energía del fotón es menor que la distancia <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>E</mi></mrow></math> entre los niveles <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mi>h</mi><mi>ν</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mfrac><mrow><msubsup><mi>E</mi><mn>02</mn><mn>2</mn></msubsup><mo>−</mo><msubsup><mi>E</mi><mn>01</mn><mn>2</mn></msubsup></mrow><mrow><mn>2</mn><msub><mi>E</mi><mn>02</mn></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>E</mi><mn>02</mn></msub><mo>−</mo><msub><mi>E</mi><mn>01</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>E</mi><mn>02</mn></msub><mo>+</mo><msub><mi>E</mi><mn>01</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mn>2</mn><msub><mi>E</mi><mn>02</mn></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><mi mathvariant=\"normal\">Δ</mi><mi>E</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><msub><mi>E</mi><mn>02</mn></msub><mo>−</mo><mi mathvariant=\"normal\">Δ</mi><mi>E</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mn>2</mn><msub><mi>E</mi><mn>02</mn></msub></mrow></mfrac></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><mi>E</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><mrow><mi mathvariant=\"normal\">Δ</mi><mi>E</mi></mrow><mrow><mn>2</mn><msub><mi>E</mi><mn>02</mn></msub></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mtd></mtr></mtable></math>, pues el átomo se ha llevado una parte al retroceder."
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Absorción"
+    },
+    {
+     "mota": "testua",
+     "html": "Calculemos ahora la energía del fotón que hay que absorber para que un electrón de un átomo en reposo pase del nivel inferior al superior. Las leyes de conservación son las siguientes:"
+    },
+    {
+     "mota": "sarea",
+     "zutabeak": "repeat(1, minmax(0,1fr))",
+     "zelulak": [
+      {
+       "blokeak": [
+        {
+         "mota": "sarea",
+         "zutabeak": "repeat(1, minmax(0,1fr))",
+         "zelulak": [
+          {
+           "blokeak": [
+            {
+             "mota": "testua",
+             "html": "<strong>Energía:</strong>"
+            }
+           ]
+          },
+          {
+           "blokeak": [
+            {
+             "mota": "testua",
+             "html": "<math display=\"inline\"><mrow><msub><mi>E</mi><mn>01</mn></msub><mo>+</mo><mi>h</mi><mi>ν</mi></mrow></math>"
+            }
+           ]
+          },
+          {
+           "blokeak": [
+            {
+             "mota": "testua",
+             "html": "<math display=\"inline\"><mrow><mo>=</mo><mi>E</mi><mi>.</mi></mrow></math>"
+            }
+           ]
+          },
+          {
+           "blokeak": [
+            {
+             "mota": "testua",
+             "html": "<strong>Momento lineal:</strong>"
+            }
+           ]
+          },
+          {
+           "blokeak": [
+            {
+             "mota": "testua",
+             "html": "<math display=\"inline\"><mfrac><mrow><mi>h</mi><mi>ν</mi></mrow><mi>c</mi></mfrac></math>"
+            }
+           ]
+          },
+          {
+           "blokeak": [
+            {
+             "mota": "testua",
+             "html": "<math display=\"inline\"><mrow><mo>=</mo><mi>p</mi><mi>.</mi></mrow></math>"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "blokeak": [
+        {
+         "mota": "ezezaguna",
+         "izena": "ekuazio-zenbakia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "Ahora la energía del fotón es mayor que la distancia entre niveles, pues una parte de su energía se usa para dar energía cinética al átomo: <math display=\"block\"><mrow><mi>h</mi><mi>ν</mi><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><mi>E</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mfrac><mrow><mi mathvariant=\"normal\">Δ</mi><mi>E</mi></mrow><mrow><mn>2</mn><msub><mi>E</mi><mn>01</mn></msub></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
+    },
+    {
+     "mota": "ariketa",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Compruebe la última afirmación."
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "Teniendo en cuenta los dos análisis que acabamos de hacer, podríamos pensar que en un medio formado por átomos idénticos el fotón emitido por uno no puede ser absorbido por los demás. Sin embargo, en este análisis hemos hecho dos hipótesis: que los niveles de energía están perfectamente definidos y que los átomos están en reposo. Si se cumplieran estas hipótesis, un vapor sería transparente a la radiación que él mismo emite. En los vapores reales, en cambio, la anchura de los niveles de energía y el movimiento térmico de los átomos bastan para anular el efecto, pero en condiciones adecuadas puede medirse el fenómeno del retroceso de los átomos (véase [2]). Por otra parte, no hay que pensar que el retroceso del átomo es inevitable. En el <strong>efecto</strong><span class=\"j-oin\">[Efecto del que se valieron en 1960 Robert V. Pound y Glen A. Rebka para hacer una comprobación de la relatividad general, igualando el corrimiento al rojo producido por el campo gravitatorio y el efecto Doppler debido al movimiento.]</span> <strong>Mössbauer</strong><span class=\"j-oin\">[Rudolf Ludwig Mössbauer obtuvo la mitad del premio Nobel de 1961 por sus investigaciones sobre el efecto que lleva su nombre.]</span> , cuando los núcleos emiten y absorben rayos <math display=\"inline\"><mi>γ</mi></math>, el retroceso no es el de un solo núcleo, sino el de toda la red cristalina: es, pues, muy pequeño (véase [2])."
+    }
+   ]
+  },
+  {
+   "id": "a15",
+   "maila": 2,
+   "izenburua": "Problemas resueltos",
+   "blokeak": [
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "La paradoja de los gemelos<span class=\"j-oin\">[Parece que el propio Einstein mencionó esta seudoparadoja, que también se conoce como <strong>paradoja de los relojes</strong>, en el mismo año, pero un poco antes.]</span>  (Langevin 1911)"
+    },
+    {
+     "mota": "testua",
+     "html": "<em>Itziar y Leire son hermanas, nacieron en el año 19930 y son gemelas. Tras aprobar el segundo curso de física, Leire se ha ido de vacaciones a la estrella Próxima Centauri. Como se ha movido respecto de la Tierra, su reloj biológico ha ido más despacio que el de Itziar y, al reencontrarse con Itziar, parece más joven que esta. Itziar está muy enfadada, pues cree que, como ella se ha movido respecto de Leire, Leire tiene otro derecho a ser más joven. ¿Cómo le explicarías a Itziar lo ocurrido, para que apruebe el segundo curso el año que viene?</em>"
+    },
+    {
+     "mota": "testua",
+     "html": "Aquí parece que hay una paradoja, pero es una mera apariencia. Al principio podemos pensar que los dos gemelos son completamente equivalentes, pues en definitiva cada uno se mueve respecto del otro. El caso es que los movimientos de ambos no son de la misma naturaleza. El gemelo que se ha quedado en la Tierra es inercial, se mueve sin aceleración (el movimiento de la Tierra, que no interviene en la paradoja, no lo tendremos aquí en cuenta); pero el otro no es inercial, pues para volver a la Tierra ha tenido que sufrir una aceleración en algún punto. Valiéndonos de la teoría básica que hemos visto en este tema, el análisis hay que hacerlo en el sistema del gemelo que se ha quedado en la Tierra (y por eso deducimos que el viajero será más joven cuando se reúnan de nuevo); pero integrando el intervalo <math display=\"inline\"><mrow><mi>d</mi><msup><mi>s</mi><mn>2</mn></msup></mrow></math> espacio-temporal del viajero (que es proporcional al tiempo propio del viajero) se obtiene la misma conclusión en el sistema del observador acelerado. (Véanse, además, los problemas 3.4, 3.11, 3.12, 3.18 y 6.85.)"
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Movimiento hiperbólico"
+    },
+    {
+     "mota": "testua",
+     "html": "<em>Una partícula relativista se mueve con aceleración uniforme, es decir, en cada momento en el sistema de referencia inercial propio (en el que, por definición, la partícula está en reposo en ese momento) la aceleración <math display=\"inline\"><mrow><mi>a</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> tiene un valor constante. Además, está en reposo en el sistema del laboratorio en el punto <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></math> en el instante <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>. Halla la posición de la partícula en todos los momentos en el sistema del laboratorio. Dibuja la línea de universo de la partícula. ¿Por qué se dice que este movimiento es hiperbólico? ¿Cuáles son las velocidades de la partícula en los límites <math display=\"inline\"><mrow><mi>t</mi><mo>→</mo><mi>±</mi><mi>∞</mi></mrow></math>?</em>"
+    },
+    {
+     "mota": "testua",
+     "html": "En el sistema propio la velocidad es <math display=\"inline\"><mrow><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math> y la aceleración <math display=\"inline\"><mrow><msup><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>′</mo></msup><mo>=</mo><mi>a</mi></mrow></math>; por tanto, usando la ecuación de transformación (3.92) de la aceleración, en el laboratorio tenemos esto: <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>=</mo><mover><mi>v</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><msup><mi>γ</mi><mrow><mi>−</mi><mn>3</mn></mrow></msup><mi>a</mi><mi>.</mi></mrow></math> Por tanto, tras separar las variables en ese resultado, si se usan las integrales <math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>α</mi><msup><mi>u</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>−</mi><mn>3</mn><mi>/</mi><mn>2</mn></mrow></msup><mi>d</mi><mi>u</mi><mo>=</mo><mi>u</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>α</mi><msup><mi>u</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>−</mi><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mo>∫</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>α</mi><msup><mi>u</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>−</mi><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup><mi>d</mi><mi>u</mi><mo>=</mo><mfrac><mn>1</mn><mi>α</mi></mfrac><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>α</mi><msup><mi>u</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup></mrow></math> junto con las condiciones iniciales <math display=\"inline\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> y <math display=\"inline\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></math>, se obtienen la velocidad y la posición: <math display=\"block\"><mrow><msup><mi>γ</mi><mn>3</mn></msup><mi>d</mi><mi>v</mi><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><msup><mi>v</mi><mn>2</mn></msup><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>−</mi><mn>3</mn><mi>/</mi><mn>2</mn></mrow></msup><mi>d</mi><mi>v</mi><mo>=</mo><mi>a</mi><mi>d</mi><mi>t</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>v</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><msup><mi>v</mi><mn>2</mn></msup><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>−</mi><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup><mo>=</mo><mi>a</mi><mi>t</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>v</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mi>t</mi></mrow><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><msup><mi>t</mi><mn>2</mn></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>x</mi><mo>=</mo><msub><mi>x</mi><mn>0</mn></msub><mo>+</mo><mfrac><msup><mi>c</mi><mn>2</mn></msup><mi>a</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mrow><mn>1</mn><mo>+</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msup><mi>t</mi><mn>2</mn></msup></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac></mrow></msqrt><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
+    },
+    {
+     "mota": "irudia",
+     "oina": null,
+     "src": "../media/irudiak/4fb0d97dbc689b7f.svg",
+     "zabalera": 307
+    },
+    {
+     "mota": "zentratua",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "text(size: 10pt, fill:berdea)[<strong>FIGURA 3.26</strong>    Movimiento hiperbólico en el diagrama de Minkowski.]"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "Como consecuencia del último resultado, la línea de universo de la partícula es una rama de la siguiente hipérbola (véase la figura 3.26): <math display=\"block\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msub><mover><mi>x</mi><mo accent=\"true\">̃</mo></mover><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mi>t</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><msup><mi>c</mi><mn>2</mn></msup><mi>a</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><msub><mover><mi>x</mi><mo accent=\"true\">̃</mo></mover><mn>0</mn></msub><mo>≡</mo><msub><mi>x</mi><mn>0</mn></msub><mo>−</mo><mfrac><msup><mi>c</mi><mn>2</mn></msup><mi>a</mi></mfrac><mi>.</mi></mrow></math> Por otra parte, por la expresión de <math display=\"inline\"><mi>v</mi></math> que hemos obtenido, cuando <math display=\"inline\"><mrow><mi>a</mi><mo>&gt;</mo><mn>0</mn></mrow></math> tenemos <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>t</mi><mo>→</mo><mi>±</mi><mi>∞</mi></mrow></munder><mi>v</mi><mo>=</mo><mi>±</mi><mi>c</mi></mrow></math> y si <math display=\"inline\"><mrow><mi>a</mi><mo>&lt;</mo><mn>0</mn></mrow></math> es <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>t</mi><mo>→</mo><mi>±</mi><mi>∞</mi></mrow></munder><mi>v</mi><mo>=</mo><mi>∓</mi><mi>c</mi></mrow></math>  (véase cómo son las asíntotas de la hipérbola)."
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Velocidad del centro de masas"
+    },
+    {
+     "mota": "testua",
+     "html": "<em>Consideremos dos partículas idénticas que se mueven con velocidades opuestas y el centro de masas <math display=\"inline\"><mi>O</mi></math> definido en la mecánica galileana en ese sistema de referencia. Calcula la velocidad del punto <math display=\"inline\"><mi>O</mi></math> en el sistema en reposo de la partícula derecha y la del centro de masas <math display=\"inline\"><msup><mi>O</mi><mo>′</mo></msup></math> que define la mecánica galileana en este último sistema:</em>"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msub><mi mathvariant=\"bold-italic\">𝒗</mi><msup><mi>O</mi><mo>′</mo></msup></msub><mo>=</mo><mfrac><mrow><msub><mi>m</mi><mn>1</mn></msub><msubsup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>1</mn><mo>′</mo></msubsup><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub><msubsup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn><mo>′</mo></msubsup></mrow><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub></mrow></mfrac><mi>.</mi></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "<em>Deduce que en este sistema de referencia <math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝒗</mi><msup><mi>O</mi><mo>′</mo></msup></msub><mo>≠</mo><msub><mi mathvariant=\"bold-italic\">𝒗</mi><mi>O</mi></msub></mrow></math>.</em>"
+    },
+    {
+     "mota": "testua",
+     "html": "<em>En lugar de dar una definición relativista de la <span>posición</span> del centro de masas, si la energía total de un sistema aislado es <math display=\"inline\"><mi>E</mi></math> y el momento lineal total <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑷</mi></math>, diremos que el sistema del centro de masas</em>"
+    },
+    {
+     "mota": "ezezaguna",
+     "izena": "zenb-ekuazioa"
+    },
+    {
+     "mota": "testua",
+     "html": "<em>es el que se mueve con la velocidad indicada, pues así se consigue que el momento lineal total sea <math display=\"inline\"><mrow><msup><mi mathvariant=\"bold-italic\">𝑷</mi><mo>*</mo></msup><mo>=</mo><mn>0</mn></mrow></math>. Comprueba esta última propiedad. Aunque no fijemos la posición del origen del triedro ni la orientación de los ejes, con todos los orígenes y orientaciones tenemos la propiedad fundamental: <math display=\"inline\"><mrow><msup><mi mathvariant=\"bold-italic\">𝑷</mi><mo>*</mo></msup><mo>=</mo><mn>0</mn></mrow></math>.</em>"
+    },
+    {
+     "mota": "testua",
+     "html": "En el sistema en reposo de la partícula derecha está claro que el punto <math display=\"inline\"><mi>O</mi></math> se moverá con velocidad <math display=\"inline\"><mi>v</mi></math> y tenemos esto"
+    },
+    {
+     "mota": "irudia",
+     "oina": null,
+     "src": "../media/irudiak/37c90b058f773bc0.svg",
+     "zabalera": 154
+    },
+    {
+     "mota": "testua",
+     "html": "la velocidad de la partícula izquierda: <math display=\"block\"><mrow><mi>u</mi><mo>=</mo><mfrac><mrow><mi>v</mi><mo>+</mo><mi>v</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>v</mi><mn>2</mn></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mi>v</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>v</mi><mn>2</mn></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></mfrac><mi>.</mi></mrow></math> Por tanto, según la definición de la mecánica galileana la velocidad del punto <math display=\"inline\"><msup><mi>O</mi><mo>′</mo></msup></math> es <math display=\"block\"><mrow><msub><mi>v</mi><msup><mi>O</mi><mo>′</mo></msup></msub><mo>=</mo><mfrac><mrow><mi>m</mi><mi>u</mi></mrow><mrow><mn>2</mn><mi>m</mi></mrow></mfrac><mo>=</mo><mfrac><mi>u</mi><mn>2</mn></mfrac><mo>=</mo><mfrac><mi>v</mi><mrow><mn>1</mn><mo>+</mo><msup><mi>v</mi><mn>2</mn></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></mfrac><mo>≠</mo><mi>v</mi><mi>.</mi></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "Para ver que <math display=\"inline\"><mrow><msup><mi mathvariant=\"bold-italic\">𝑷</mi><mo>*</mo></msup><mo>=</mo><mn>0</mn></mrow></math>, basta sustituir el valor <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑽</mi></math> en las ecuaciones de transformación (3.125)–(3.127), tras elegir los ejes <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math> y <math display=\"inline\"><mrow><mi>O</mi><msup><mi>X</mi><mo>′</mo></msup></mrow></math> en la dirección de <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑷</mi></math>. Observa que la fórmula (3.157) es la generalización de la expresión (3.116) de una sola partícula."
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Sistema del centro de masas y energía umbral"
+    },
+    {
+     "mota": "testua",
+     "html": "<em>El antiprotón se descubrió en 1955 en el acelerador Bevatron, en el Radiation Laboratory<span class=\"j-oin\">[Hoy se llama <em>Lawrence Berkeley National Laboratory</em>.]</span> (y por ello los físicos Emilio Segrè y Owen Chamberlain obtuvieron el premio Nobel de 1959). En aquel experimento se bombardeaban protones en reposo con protones, para obtener lo siguiente:</em>"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>p</mi><mo>+</mo><mi>p</mi><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mi>p</mi><mo>+</mo><mi>p</mi><mo>+</mo><mi>p</mi><mo>+</mo><mover><mi>p</mi><mo accent=\"true\">¯</mo></mover><mi>.</mi></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "<em>¿Cuál era la energía (cinética) mínima que había que dar a los proyectiles para ello? ¿Cuál es la energía mínima si los dos protones iniciales se mueven en sentidos opuestos?</em>"
+    },
+    {
+     "mota": "testua",
+     "html": "La energía que hay al principio aparecerá de dos maneras distintas tras la colisión: una parte será la masa de las partículas que quedan y la otra la energía cinética total de las partículas. Como la primera es fija, la energía inicial mínima se logrará cuando la energía cinética final sea mínima. En el sistema del laboratorio la energía cinética mínima no es cero, pues si lo fuera el momento lineal total también sería cero (y esto es imposible, pues al principio no era nulo). Pero, por definición, en el sistema del centro de masas el momento lineal total es nulo (recuerda lo dicho en la página 37 y en el problema 3.14.3); por tanto, allí la energía cinética mínima es cero, y eso ocurrirá en el sistema del centro de masas cuando las cuatro partículas estén en reposo. Como se ve, en ese caso, en el sistema del laboratorio todas las partículas finales se moverán con la misma velocidad <math display=\"inline\"><mi>v</mi></math> (es decir, con la velocidad del centro de masas) y con el mismo factor <math display=\"inline\"><mi>γ</mi></math>. Por tanto, si la energía en reposo, la energía total y el momento lineal del protón inicial son <math display=\"inline\"><mrow><msub><mi>E</mi><mn>0</mn></msub><mo>=</mo><msub><mi>m</mi><mi>p</mi></msub><msup><mi>c</mi><mn>2</mn></msup></mrow></math>, <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><msub><mi>E</mi><mn>0</mn></msub><mo>+</mo><mi>T</mi></mrow></math> y <math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><mfrac><mn>1</mn><mi>c</mi></mfrac><msqrt><mrow><msup><mi>E</mi><mn>2</mn></msup><mo>−</mo><msubsup><mi>E</mi><mn>0</mn><mn>2</mn></msubsup></mrow></msqrt></mrow></math>, respectivamente, las leyes de conservación de la energía y del momento lineal se escriben en el laboratorio así: <math display=\"block\"><mrow><mi>E</mi><mo>+</mo><msub><mi>E</mi><mn>0</mn></msub><mo>=</mo><mn>4</mn><mi>γ</mi><msub><mi>E</mi><mn>0</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mfrac><mn>1</mn><mi>c</mi></mfrac><msqrt><mrow><msup><mi>E</mi><mn>2</mn></msup><mo>−</mo><msubsup><mi>E</mi><mn>0</mn><mn>2</mn></msubsup></mrow></msqrt><mo>=</mo><mn>4</mn><mfrac><msub><mi>E</mi><mn>0</mn></msub><msup><mi>c</mi><mn>2</mn></msup></mfrac><mi>γ</mi><mi>v</mi><mi>.</mi></mrow></math> Usando el invariante relativista <math display=\"inline\"><mrow><msup><mi>γ</mi><mn>2</mn></msup><mo>−</mo><msup><mi>γ</mi><mn>2</mn></msup><msup><mi>v</mi><mn>2</mn></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn></mrow></math>, se obtiene lo siguiente: <math display=\"block\"><mrow><mn>16</mn><msubsup><mi>E</mi><mn>0</mn><mn>2</mn></msubsup><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>E</mi><mo>+</mo><msub><mi>E</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>E</mi><mn>2</mn></msup><mo>−</mo><msubsup><mi>E</mi><mn>0</mn><mn>2</mn></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mi>E</mi><mo>=</mo><mn>7</mn><msub><mi>E</mi><mrow><mn>0</mn><mi>.</mi></mrow></msub></mrow></math> En consecuencia, la energía cinética mínima es <math display=\"inline\"><mrow><msub><mi>T</mi><mi mathvariant=\"normal\">min</mi></msub><mo>=</mo><mn>6</mn><msub><mi>E</mi><mn>0</mn></msub><mo>=</mo><mn>6</mn><msub><mi>m</mi><mi>p</mi></msub><msup><mi>c</mi><mn>2</mn></msup><mo>≈</mo><mn>5.63</mn></mrow></math> GeV."
+    },
+    {
+     "mota": "testua",
+     "html": "Si los protones iniciales se mueven en sentidos opuestos, la energía cinética final puede ser cero en el laboratorio: basta para ello lanzarlos con velocidades opuestas. Si se hace así, el laboratorio será el sistema del centro de masas, la energía cinética final mínima será nula y la energía cinética inicial mínima, igual a la energía en reposo de las dos partículas que se producen, <math display=\"inline\"><mrow><msub><mi>T</mi><mi mathvariant=\"normal\">min</mi></msub><mo>=</mo><mn>2</mn><msub><mi>E</mi><mn>0</mn></msub><mo>≈</mo><mn>1.88</mn></mrow></math> GeV."
+    },
+    {
+     "mota": "izenburua",
+     "maila": 3,
+     "testua": "Partículas virtuales"
+    },
+    {
+     "mota": "testua",
+     "html": "<em>En la física de partículas las interacciones se producen intercambiando partículas. En el diagrama de Feynman de la figura se describe una dispersión sencilla. Dos partículas que se mueven con momentos <math display=\"inline\"><msub><mi mathvariant=\"bold-italic\">𝒑</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi mathvariant=\"bold-italic\">𝒑</mi><mn>2</mn></msub></math> intercambian entre sí una partícula de momento <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝒒</mi></math>. Al final, la naturaleza de las partículas no ha cambiado, pero sí los momentos lineales. Demuestra que la partícula intercambiada es virtual, es decir, que su energía en reposo es negativa (en la física cuántica pueden aparecer partículas así durante intervalos de tiempo cortos).</em>"
+    },
+    {
+     "mota": "irudia",
+     "oina": null,
+     "src": "../media/irudiak/e3eb00dfa3d7b38f.svg",
+     "zabalera": 212
+    },
+    {
+     "mota": "testua",
+     "html": "Supongamos que la masa de la partícula intercambiada es <math display=\"inline\"><mi>m</mi></math>, su velocidad <math display=\"inline\"><mrow><mi>c</mi><mi mathvariant=\"bold-italic\">𝜷</mi></mrow></math> y su factor de Lorentz <math display=\"inline\"><mi>γ</mi></math>. La masa de la partícula izquierda es <math display=\"inline\"><msub><mi>m</mi><mn>1</mn></msub></math>, su velocidad <math display=\"inline\"><mrow><mi>c</mi><msub><mi mathvariant=\"bold-italic\">𝜷</mi><mn>1</mn></msub></mrow></math> antes de la colisión y <math display=\"inline\"><mrow><mi>c</mi><msubsup><mi mathvariant=\"bold-italic\">𝜷</mi><mn>1</mn><mo>′</mo></msubsup></mrow></math> después de ella, y sus factores de Lorentz <math display=\"inline\"><msub><mi>γ</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup></math>. Los principios de conservación de la energía y del momento lineal en el proceso de absorción de la partícula se escriben así: <math display=\"block\"><mrow><mi>m</mi><mi>γ</mi><msup><mi>c</mi><mn>2</mn></msup><mo>+</mo><msub><mi>m</mi><mn>1</mn></msub><msub><mi>γ</mi><mn>1</mn></msub><msup><mi>c</mi><mn>2</mn></msup><mo>=</mo><msub><mi>m</mi><mn>1</mn></msub><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup><msup><mi>c</mi><mn>2</mn></msup><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>m</mi><mi>γ</mi><mi>c</mi><mi mathvariant=\"bold-italic\">𝜷</mi><mo>+</mo><msub><mi>m</mi><mn>1</mn></msub><msub><mi>γ</mi><mn>1</mn></msub><mi>c</mi><msub><mi mathvariant=\"bold-italic\">𝜷</mi><mn>1</mn></msub><mo>=</mo><msub><mi>m</mi><mn>1</mn></msub><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup><mi>c</mi><msubsup><mi mathvariant=\"bold-italic\">𝜷</mi><mrow><mn>1</mn><mi>.</mi></mrow><mo>′</mo></msubsup></mrow></math> De aquí, si se despejan las características de la partícula intercambiada, <math display=\"block\"><mrow><mi>m</mi><mi>γ</mi><mo>=</mo><msub><mi>m</mi><mn>1</mn></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup><mo>−</mo><msub><mi>γ</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>m</mi><mi>γ</mi><mi mathvariant=\"bold-italic\">𝜷</mi><mo>=</mo><msub><mi>m</mi><mn>1</mn></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup><msubsup><mi mathvariant=\"bold-italic\">𝜷</mi><mn>1</mn><mo>′</mo></msubsup><mo>−</mo><msub><mi>γ</mi><mn>1</mn></msub><msub><mi mathvariant=\"bold-italic\">𝜷</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> se calcula fácilmente el cuadrado de la masa: <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><msup><mi>m</mi><mn>2</mn></msup></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><msup><mi>m</mi><mn>2</mn></msup><msup><mi>γ</mi><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi mathvariant=\"bold-italic\">𝜷</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><msubsup><mi>m</mi><mn>1</mn><mn>2</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup><mo>−</mo><msub><mi>γ</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup><msubsup><mi mathvariant=\"bold-italic\">𝜷</mi><mn>1</mn><mo>′</mo></msubsup><mo>−</mo><msub><mi>γ</mi><mn>1</mn></msub><msub><mi mathvariant=\"bold-italic\">𝜷</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mn>2</mn><msubsup><mi>m</mi><mn>1</mn><mn>2</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msub><mi>γ</mi><mn>1</mn></msub><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup><mo>+</mo><msub><mi>γ</mi><mn>1</mn></msub><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup><msub><mi mathvariant=\"bold-italic\">𝜷</mi><mn>1</mn></msub><mo>⋅</mo><msubsup><mi mathvariant=\"bold-italic\">𝜷</mi><mn>1</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>≤</mo><mn>2</mn><msubsup><mi>m</mi><mn>1</mn><mn>2</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msub><mi>γ</mi><mn>1</mn></msub><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup><mo>+</mo><msub><mi>γ</mi><mn>1</mn></msub><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup><mo stretchy=\"false\" form=\"prefix\">|</mo><msub><mi mathvariant=\"bold-italic\">𝜷</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">|</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><msubsup><mi mathvariant=\"bold-italic\">𝜷</mi><mn>1</mn><mo>′</mo></msubsup><mo stretchy=\"false\" form=\"prefix\">|</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mn>2</mn><msubsup><mi>m</mi><mn>1</mn><mn>2</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msub><mi>γ</mi><mn>1</mn></msub><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup><mo>+</mo><msub><mi>γ</mi><mn>1</mn></msub><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup><msqrt><mrow><mn>1</mn><mo>−</mo><msubsup><mi>γ</mi><mn>1</mn><mrow><mi>−</mi><mn>2</mn></mrow></msubsup></mrow></msqrt><msqrt><mrow><mn>1</mn><mo>−</mo><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup><msup><mi></mi><mrow><mi>−</mi><mn>2</mn></mrow></msup></mrow></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mn>2</mn><msubsup><mi>m</mi><mn>1</mn><mn>2</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msub><mi>γ</mi><mn>1</mn></msub><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup><mo>+</mo><msqrt><mrow><msubsup><mi>γ</mi><mn>1</mn><mn>2</mn></msubsup><mo>−</mo><mn>1</mn></mrow></msqrt><msqrt><mrow><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup><msup><mi></mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&lt;</mo><mn>0</mn><mi>.</mi></mtd></mtr></mtable></math> Para demostrar la última desigualdad hay que comprobar <math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>γ</mi><mn>1</mn><mn>2</mn></msubsup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup><msup><mi></mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&lt;</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>γ</mi><mn>1</mn></msub><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></math>; pero esto se escribe como <math display=\"block\"><mrow><mi>−</mi><msubsup><mi>γ</mi><mn>1</mn><mn>2</mn></msubsup><mo>−</mo><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup><msup><mi></mi><mn>2</mn></msup><mo>&lt;</mo><mi>−</mi><mn>2</mn><msub><mi>γ</mi><mn>1</mn></msub><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup></mrow></math> y es consecuencia del siguiente resultado, que se cumple porque la velocidad de la partícula ha cambiado: <math display=\"block\"><mrow><msup><mrow><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>γ</mi><mn>1</mn></msub><mo>−</mo><msubsup><mi>γ</mi><mn>1</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mn>2</mn></msup><mo>&lt;</mo><mn>0</mn><mi>.</mi></mrow></math>"
+    }
+   ]
+  },
+  {
+   "id": "a16",
+   "maila": 2,
+   "izenburua": "Problemak",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Consecuencias de las transformaciones de Lorentz])"
+    },
+    {
+     "mota": "problema",
+     "izena": "El tren de Einstein",
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "La longitud en reposo de un tren es mayor que la de un túnel. Como su velocidad respecto del túnel es suficientemente grande, un observador situado sobre el túnel mide que el tren es más corto que el túnel y, por tanto, cerrando en el instante adecuado las puertas de los dos extremos del túnel, atrapa el tren dentro. Pero desde el punto de vista del observador que va en el tren, es el túnel el que se ha contraído y, en consecuencia, es imposible que todo el tren esté dentro del túnel en el mismo instante. ¿Cómo puedes explicar este rompecabezas? <br>  <em>Sugerencia</em>: Para hacer los cálculos puedes elegir <math display=\"inline\"><mrow><msub><mi>l</mi><mrow><mtext mathvariant=\"normal\">trena </mtext><mspace width=\"0.333em\"></mspace></mrow></msub><mo>=</mo><mn>1.000</mn></mrow></math> m, <math display=\"inline\"><mrow><msub><mi>l</mi><mrow><mtext mathvariant=\"normal\">tunela </mtext><mspace width=\"0.333em\"></mspace></mrow></msub><mo>=</mo><mn>800</mn></mrow></math> m y <math display=\"inline\"><mrow><mi>v</mi><mi>/</mi><mi>c</mi><mo>=</mo><mn>3</mn><mi>/</mi><mn>5</mn></mrow></math>."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Las longitudes en reposo de dos naves espaciales que se mueven en la misma recta pero en sentidos opuestos son <math display=\"inline\"><mrow><msub><mi>l</mi><mn>0</mn></msub><mo>=</mo><msup><mn>10</mn><mn>3</mn></msup></mrow></math> m. Según los medidores de la nave <math display=\"inline\"><mi>A</mi></math>, la proa de <math display=\"inline\"><mi>B</mi></math> tarda <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><mn>5</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>6</mn></mrow></msup></mrow></math> s en recorrer toda la longitud de <math display=\"inline\"><mi>A</mi></math>. Un reloj situado en la proa de la nave <math display=\"inline\"><mi>B</mi></math> hace dos medidas: la primera cuando está a la altura de la proa del reloj <math display=\"inline\"><mi>A</mi></math> y la segunda cuando está junto a la popa de <math display=\"inline\"><mi>A</mi></math>. ¿Cuál es la diferencia entre las dos medidas?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "La vida media de los piones en reposo es <math display=\"inline\"><mrow><mi>τ</mi><mo>=</mo><mn>2</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>8</mn></mrow></msup></mrow></math> s. Cuando los piones producidos en un acelerador de alta energía llegaron a 25 m, solo quedaba la mitad de ellos. ¿Cuál era la velocidad de los piones?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "La paradoja de los gemelos (I)",
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Itziar y Leire son gemelas. Leire va hasta una estrella que está a 8 años luz, con velocidad <math display=\"inline\"><mrow><mn>4</mn><mi>c</mi><mi>/</mi><mn>5</mn></mrow></math>, y, nada más llegar, vuelve con la misma velocidad escalar. Itziar se queda en la Tierra. Dibuja las líneas de universo de las dos gemelas en un diagrama de Minkowski y calcula cuánto tiempo ha pasado para cada gemela desde que se separaron hasta que se reencuentran. Cada gemela, en su día, envía saludos a su hermana por radio. Dibuja las líneas de universo de los mensajes, para poner de manifiesto la asimetría entre las dos gemelas."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Explica esta paradoja: «En el tren de Einstein, que se mueve muy deprisa, un corredor va hacia atrás con velocidad opuesta a la del tren; está, por tanto, en reposo respecto de la Tierra. Como sabemos, el reloj del tren se atrasa respecto del sistema de referencia de la Tierra, pues en este último se está moviendo. Del mismo modo, el reloj del corredor se atrasa respecto del sistema del tren. Por tanto, el reloj del corredor se atrasa todavía más respecto del sistema de la Tierra. Pero, por otro lado, como el corredor está en reposo respecto de la Tierra, en su sistema y en el de la Tierra debería medirse el mismo tiempo. Aquí tenemos una contradicción y, en consecuencia, la relatividad especial es inadmisible.»"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Un viajero que se mueve por el espacio con velocidad <math display=\"inline\"><mi>v</mi></math> sincroniza su reloj con el de un amigo de la Tierra cuando está a su altura: <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math>. El de la Tierra"
+      },
+      {
+       "mota": "testua",
+       "html": "<em>ve</em>"
+      },
+      {
+       "mota": "testua",
+       "html": "los dos relojes a la vez: <math display=\"inline\"><mi>t</mi></math> directamente y <math display=\"inline\"><msup><mi>t</mi><mo>′</mo></msup></math> con un telescopio. ¿Cuál es el valor de <math display=\"inline\"><mi>t</mi></math> cuando <math display=\"inline\"><msup><mi>t</mi><mo>′</mo></msup></math> <em>ve</em> una hora? ¿Cuál debe ser la velocidad para que el instante mencionado sea <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>2</mn></mrow></math> horas? <br>  <em>Sugerencia</em>: Recuerda que «ver» y «medir» son cosas distintas."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Comenta la siguiente opinión que leímos en un examen: «En los dos extremos del tren de Einstein hay una fuente de luz en cada uno. El observador que está en el centro del tren detecta a la vez los dos fotones de los extremos. Para el observador que está en la estación, en cambio, el fotón emitido desde el extremo delantero llegará antes que el otro <em>al detector del tren</em>, pues este va <em>en busca</em> del fotón. Este resultado demuestra que en la relatividad especial la simultaneidad es relativa.»"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 2,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "La cuña de la pieza <math display=\"inline\"><mi>A</mi></math> de la figura es algo más corta que los brazos de <math display=\"inline\"><mi>B</mi></math>, cuando ambas están en reposo. Ahora, la pieza <math display=\"inline\"><mi>A</mi></math> se lanza con mucha velocidad contra <math display=\"inline\"><mi>B</mi></math>, como se muestra en el apartado (b) de la figura. Como el observador del sistema de <math display=\"inline\"><mi>B</mi></math> mide contraída la cuña de <math display=\"inline\"><mi>A</mi></math>, cree que el extremo de la cuña no tocará el detonador. Por tanto, se queda tranquilo, convencido de que el explosivo no estallará. Según las medidas del observador que se mueve junto con <math display=\"inline\"><mi>A</mi></math>, en cambio, son los brazos de <math display=\"inline\"><mi>B</mi></math> los que se han contraído y, en consecuencia, la cuña de <math display=\"inline\"><mi>A</mi></math> es lo bastante larga para golpear el detonador; cree, pues, que la explosión ocurrirá. ¿Tú qué crees? ¿Por qué?"
+      },
+      {
+       "mota": "irudia",
+       "oina": null,
+       "src": "../media/irudiak/060c2e7a22348e22.svg",
+       "zabalera": 243
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Cuando una nave espacial que se mueve con velocidad <math display=\"inline\"><mrow><mn>0.8</mn><mi>c</mi></mrow></math> pasa junto a la Tierra son las doce del mediodía desde el punto de vista de los observadores terrestres. <br> (a) Cuando en el reloj de la nave se mide que son las 12:30, pasa por una estación interplanetaria en reposo respecto de la Tierra. ¿Qué hora es en la estación, si allí se mide el tiempo terrestre? <br> (b) Medida desde la Tierra, ¿cuál es la distancia de la estación? <br> (c) Cuando en la nave son las 12:30 se envía una señal por radio hacia la Tierra. ¿Cuándo se recibe en la Tierra (usando el tiempo de esta)? <br> (d) Si desde la Tierra se emite inmediatamente la respuesta, ¿cuándo se recibirá en la nave espacial (usando el reloj de esta)?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "¿Es verdad que según las medidas de un sistema de referencia inercial los relojes de todos los demás sistemas de referencia inerciales se atrasan? ¿Y que en un sistema de referencia inercial las reglas de todos los demás sistemas de referencia inerciales se miden contraídas?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "La paradoja de los gemelos (II)",
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Patxi y Peru son hermanos gemelos que viven en el espacio. Un día Patxi empieza a alejarse de Peru con velocidad <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>0.8</mn><mi>c</mi></mrow></math>. Cuando, según las medidas de Peru, ha pasado el tiempo <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></math>, Patxi vuelve con la misma velocidad. Tras pasar un nuevo intervalo de valor <math display=\"inline\"><mrow><mn>2</mn><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></math>, vuelve a dar la vuelta, sin cambiar la velocidad escalar, hasta reunirse con Peru. Si, según las medidas de este último, la duración total <math display=\"inline\"><mrow><mn>4</mn><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></math> del viaje ha sido de un año, ¿qué mide Patxi? Dibuja las líneas de universo de los gemelos en el diagrama de Minkowski correspondiente al sistema de Peru."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "La paradoja de los gemelos acelerados",
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Peru y Jone, gemelos, parten a la vez de la Tierra en naves espaciales relativistas idénticas, como se muestra en la figura. Los dos usan el motor de la misma manera, de modo que consiguen la aceleración máxima. En consecuencia, cuando se les acaba el combustible, las velocidades de ambos son iguales y están en el mismo sistema de referencia inercial. Sin embargo, cuando esto ocurre, dicen a sus padres por radio que Jone es mayor que Peru. ¿Cómo explicarías a los padres por qué la hija es mayor?"
+      },
+      {
+       "mota": "irudia",
+       "oina": null,
+       "src": "../media/irudiak/b503493eacf8fbea.svg",
+       "zabalera": 256
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Jone enciende a la vez dos bombillas en reposo a 2 m de distancia. Nekane, que se mueve en la dirección definida por las bombillas, le dice: «entre esos dos encendidos he medido una distancia de 4 m». «Qué va» —responde Jone— «por la contracción de Lorentz y FitzGerald, debes medir menos de 2 m». ¿Tú qué crees?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Se enciende una bombilla en el sistema de Jone y 5 segundos después otra a un segundo-luz de distancia. Nekane, que se mueve en la dirección definida por las bombillas, le dice: «entre esos dos encendidos he medido un intervalo de 7 segundos». «Qué va» —responde Jone— «por la dilatación del tiempo, como te estás moviendo, debes medir un intervalo de tiempo más corto». ¿Tú qué crees?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Transformación general de Lorentz",
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Las componentes de un suceso en los sistemas de referencia inerciales <math display=\"inline\"><mi>S</mi></math> y <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> son <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi mathvariant=\"bold-italic\">𝒓</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> y <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo>,</mo><msup><mi mathvariant=\"bold-italic\">𝒓</mi><mo>′</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math>, respectivamente. El sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> se mueve con velocidad constante <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝒗</mi></math> respecto del sistema <math display=\"inline\"><mi>S</mi></math>. Demuestra que las relaciones entre las coordenadas medidas en los dos sistemas son las siguientes: <math display=\"block\"><mrow><mi>t</mi><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo>+</mo><mfrac><mrow><mi mathvariant=\"bold-italic\">𝒗</mi><mo>⋅</mo><msup><mi mathvariant=\"bold-italic\">𝒓</mi><mo>′</mo></msup></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝒓</mi><mo>=</mo><msup><mi mathvariant=\"bold-italic\">𝒓</mi><mo>′</mo></msup><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>γ</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mrow><mi mathvariant=\"bold-italic\">𝒗</mi><mo>⋅</mo><msup><mi mathvariant=\"bold-italic\">𝒓</mi><mo>′</mo></msup></mrow><msup><mi>v</mi><mn>2</mn></msup></mfrac><mo>+</mo><mi>γ</mi><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi mathvariant=\"bold-italic\">𝒗</mi><mi>.</mi></mrow></math> ¿Qué ocurre cuando la velocidad <math display=\"inline\"><mi>v</mi></math> es mucho menor que la de la luz? <br>"
+      },
+      {
+       "mota": "testua",
+       "html": "<em>Sugerencia</em>"
+      },
+      {
+       "mota": "testua",
+       "html": ": Como la expresión vectorial no depende del triedro, basta comprobar que, tras elegir los ejes <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math> y <math display=\"inline\"><mrow><mi>O</mi><msup><mi>X</mi><mo>′</mo></msup></mrow></math> en la dirección <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝒗</mi></math>, se recuperan las expresiones (3.27)–(3.30)."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Cuando la punta <math display=\"inline\"><mi>A</mi></math> de un cohete de longitud propia <math display=\"inline\"><mi>L</mi></math> pasa a la altura del origen <math display=\"inline\"><mi>O</mi></math> del laboratorio terrestre, se sincronizan los relojes del punto <math display=\"inline\"><mi>A</mi></math> del cohete y el de la Tierra, <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math>, y en ese momento se envía un pulso de luz de <math display=\"inline\"><mi>A</mi></math> a <math display=\"inline\"><mi>B</mi></math>. Desde la Tierra se ha medido que la velocidad del cohete es <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>4</mn><mi>/</mi><mn>5</mn><mspace width=\"0.167em\"></mspace><mi>c</mi></mrow></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "(a) ¿Dónde está en el instante <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> el extremo <math display=\"inline\"><mi>B</mi></math> del cohete en el sistema <math display=\"inline\"><mi>S</mi></math> del laboratorio? <br> (b) Usando lo anterior, calcula <em>en el sistema de la Tierra</em> cuándo llega el pulso al punto <math display=\"inline\"><mi>B</mi></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "(c) ¿Dónde está <math display=\"inline\"><mi>B</mi></math> en ese momento en el sistema de la Tierra? <br> (d) ¿Cuándo pasará el extremo <math display=\"inline\"><mi>B</mi></math> a la altura de <math display=\"inline\"><mi>O</mi></math> desde el punto de vista del sistema de la Tierra? <br> (e) Usa ahora los cálculos hechos en el sistema del cohete y las transformaciones de Lorentz para comprobar lo hallado en los apartados (b), (c) y (d). <br> (f) Dibuja en el diagrama de Minkowski de la Tierra las líneas de universo de los extremos <math display=\"inline\"><mi>A</mi></math> y <math display=\"inline\"><mi>B</mi></math> y del pulso de luz, y la emisión y la detección del pulso."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 3,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Este es el problema que hemos leído en un buen libro de texto: «Un atleta que lleva una pértiga horizontal de 20 pies de longitud corre con una velocidad <math display=\"inline\"><mi>v</mi></math> tal que <math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>v</mi><mn>2</mn></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>−</mi><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup><mo>=</mo><mn>2</mn></mrow></math> En el marco del atleta, en el que la sala solo tiene 5 pies de longitud, ¿cómo es posible esto? [Pista: ningún efecto viaja más rápido que la luz.] Demuestra que la longitud mínima de la sala para este truco es <math display=\"inline\"><mrow><mn>20</mn><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> pies. Dibuja un diagrama espacio-temporal para mostrar lo que ocurre en el marco del atleta.» <br> Aunque el enunciado es oscuro, parece que lo que se quiere decir es esto: la primera vez que toda la pértiga está dentro de la sala"
+      },
+      {
+       "mota": "testua",
+       "html": "<em>ve</em>"
+      },
+      {
+       "mota": "testua",
+       "html": "el atleta cierra la puerta (y esta agarra el extremo trasero de la pértiga). Comprueba que con esta interpretación se recupera el resultado del enunciado. Explica (en dos casos sencillos) por qué es un truco falso:"
+      },
+      {
+       "mota": "zerrenda",
+       "ordenatua": false,
+       "elementuak": [
+        "si el extremo delantero de la pértiga rompe las paredes, cuando se cierra la puerta no toda la pértiga está dentro de la sala con la longitud mínima dada, y",
+        "si de algún modo se consigue que dicho extremo no atraviese la pared, aunque la longitud de la sala sea mucho menor puede lograrse que toda la pértiga esté en la sala, en el mismo instante, en el sistema del atleta. ¿Cuál es la longitud mínima en este caso?"
+       ]
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "La paradoja de los gemelos (III)",
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Un gemelo está en reposo en un sistema de referencia inercial y el otro se mueve con aceleración propia constante <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mi>−</mi><mi>g</mi><mo>&lt;</mo><mn>0</mn></mrow></math> (recuerda el problema resuelto 3.14.2). Usa (3.77) para hallar la relación entre el intervalo infinitesimal <math display=\"inline\"><mrow><mi>d</mi><mi>τ</mi></mrow></math> de tiempo propio medido por el gemelo viajero y el intervalo <math display=\"inline\"><mrow><mi>d</mi><mi>t</mi></mrow></math> medido en el sistema inercial. Los dos gemelos están juntos en los sucesos <math display=\"inline\"><mi>A</mi></math> y <math display=\"inline\"><mi>B</mi></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "Demuestra que esta es la relación entre los intervalos de tiempo medidos por los gemelos entre esos dos sucesos: <math display=\"block\"><mrow><mfrac><mrow><mi>g</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mi>B</mi></msub><mo>−</mo><msub><mi>t</mi><mi>A</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mn>2</mn><mi>c</mi></mrow></mfrac><mo>=</mo><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mfrac><mrow><mi>g</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>τ</mi><mi>B</mi></msub><mo>−</mo><msub><mi>τ</mi><mi>A</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mn>2</mn><mi>c</mi></mrow></mfrac><mi>.</mi></mrow></math> ¿Cuál ha envejecido más entre esos dos sucesos? <br>"
+      },
+      {
+       "mota": "testua",
+       "html": "<em>Sugerencia</em>"
+      },
+      {
+       "mota": "testua",
+       "html": ": Observa que siempre pueden elegirse los orígenes del espacio y del tiempo de modo que sean los del diagrama de Minkowski de la figura."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "En el sistema de referencia inercial <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> una varilla de longitud <math display=\"inline\"><mi>L</mi></math> es paralela al eje <math display=\"inline\"><mrow><mi>O</mi><msup><mi>X</mi><mo>′</mo></msup></mrow></math> y se mueve con velocidad constante <math display=\"inline\"><mrow><mi>−</mi><mi>u</mi><msup><mi mathvariant=\"bold-italic\">𝒋</mi><mo>′</mo></msup></mrow></math>, como se muestra en la figura. El sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> se mueve con velocidad <math display=\"inline\"><mrow><mi>v</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> respecto del sistema inercial <math display=\"inline\"><mi>S</mi></math>. Según las medidas hechas en este último, la varilla no es paralela al eje <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "(a) Escribe las evoluciones de los dos extremos de la varilla como <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>x</mi><mn>1</mn><mo>′</mo></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><msubsup><mi>y</mi><mn>1</mn><mo>′</mo></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> y <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><msubsup><mi>y</mi><mn>2</mn><mo>′</mo></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "(b) Usa las transformaciones de Lorentz para obtener <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><msub><mi>y</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> y <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><msub><mi>y</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math>. <br> (c) Halla el ángulo <math display=\"inline\"><mi>α</mi></math> entre la varilla y el eje <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math>. ¿Es constante? <br> (d) Calcula la longitud de la varilla medida en el sistema <math display=\"inline\"><mi>S</mi></math>. ¿Es siempre menor que <math display=\"inline\"><mi>L</mi></math>? <br> (e) Comprueba que en los límites <math display=\"inline\"><mrow><mi>u</mi><mo>→</mo><mn>0</mn></mrow></math> y <math display=\"inline\"><mrow><mi>v</mi><mo>→</mo><mn>0</mn></mrow></math> se recuperan resultados razonables."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Según las medidas del observador inercial <math display=\"inline\"><mi>S</mi></math>, los intervalos de tiempo que mide el reloj en reposo respecto del observador inercial <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> son <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mi>/</mi><mn>2</mn></mrow></math>. ¿Cómo serán los intervalos de tiempo medidos por el reloj en reposo respecto de <math display=\"inline\"><mi>S</mi></math>, según las medidas del observador <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>? ¿Por qué?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "En el sistema de referencia <math display=\"inline\"><mi>S</mi></math> los extremos de una regla están en las abscisas fijas <math display=\"inline\"><msub><mi>x</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>x</mi><mn>2</mn></msub></math>. El sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> se mueve con velocidad <math display=\"inline\"><mrow><mi>v</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> respecto de <math display=\"inline\"><mi>S</mi></math>. Usando dos veces la transformación <math display=\"inline\"><mrow><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, se obtiene <math display=\"inline\"><mrow><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>x</mi><mn>1</mn><mo>′</mo></msubsup><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&gt;</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub></mrow></math>. ¿Quiere decir eso que la regla es más larga en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>? ¿Por qué?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "En un sistema inercial la distancia entre dos sucesos instantáneos es 3 m. En un segundo sistema inercial que se mueve en la dirección definida por los dos sucesos el intervalo de tiempo entre ellos es <math display=\"inline\"><msup><mn>10</mn><mrow><mi>−</mi><mn>8</mn></mrow></msup></math> s. ¿Cuál es la distancia entre esos sucesos en el segundo sistema inercial? ¿Y la velocidad relativa entre los sistemas?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Dos bombillas se encienden a la vez en el laboratorio. ¿Cómo debe moverse un observador relativista para medir que los dos encendidos son simultáneos?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Un anillo circular se mueve con velocidad relativista <math display=\"inline\"><mi>v</mi></math> en el laboratorio, en la dirección de uno de sus diámetros. Demuestra que la forma medida en el laboratorio es la de una elipse y halla la excentricidad. ¿Qué ocurre en el caso de una superficie esférica? ¿Y en el límite <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>→</mo><mi>c</mi></mrow></math>?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Una nave espacial va de una estrella a otra. ¿Cuál es la velocidad constante de la nave, si la distancia entre las estrellas es de un año luz y, según las medidas del capitán, la duración del viaje es de un año?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "La liebre y la tortuga han decidido hacer una carrera de longitud <math display=\"inline\"><mi>d</mi></math>. Ponen en marcha cronómetros idénticos y la tortuga parte enseguida. La liebre, creyendo que puede ganar fácilmente, decide echarse la siesta. Cada una detiene su cronómetro al llegar a la distancia <math display=\"inline\"><mi>d</mi></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "(a) ¿Cuál puede ser la mayor duración de la siesta, <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msub><mi>t</mi><mn>1</mn></msub></mrow></math>, para que la liebre gane? <br> (b) Al final la liebre hace una siesta de duración <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msub><mi>t</mi><mn>2</mn></msub><mo>&gt;</mo><mi mathvariant=\"normal\">Δ</mi><msub><mi>t</mi><mn>1</mn></msub></mrow></math>, pero, cuando acaba la carrera de las dos, se proclama ganadora porque su cronómetro ha medido un intervalo de tiempo más corto. ¿Cuál puede ser <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msub><mi>t</mi><mn>2</mn></msub></mrow></math>? <br>"
+      },
+      {
+       "mota": "testua",
+       "html": "<em>Observación</em>"
+      },
+      {
+       "mota": "testua",
+       "html": ": Las velocidades de las dos son relativistas y constantes en la carrera: <math display=\"inline\"><mrow><msub><mi>v</mi><mi>e</mi></msub><mo>&gt;</mo><msub><mi>v</mi><mi>d</mi></msub></mrow></math>."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "El efecto Terrell",
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Un cuadrado se mueve con velocidad relativista <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mi>β</mi><mi>c</mi></mrow></math>, en su plano, en la dirección de un lado. Tu ojo está en el mismo plano, como se muestra en la figura, pero a gran distancia. Estudiemos lo que <em>ves</em> cuando la luz salida de la base <math display=\"inline\"><mrow><mi>B</mi><mi>C</mi></mrow></math>, cuando estaba lo más cerca del ojo, llega hasta el ojo. Demuestra que <em>verías</em> igualmente el cuadrado en reposo de la derecha si estuviera girado un ángulo <math display=\"inline\"><mi>α</mi></math>."
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Leyes de transformación de la velocidad y de la aceleración])"
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "El observador <math display=\"inline\"><mi>O</mi></math> de nuestra galaxia ve que las galaxias <math display=\"inline\"><mi>A</mi></math> y <math display=\"inline\"><mi>B</mi></math> se mueven con velocidad <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>0.8</mn><mi>c</mi></mrow></math> y en sentidos opuestos. Para un observador situado en la galaxia <math display=\"inline\"><mi>A</mi></math>, ¿cuál es la velocidad de <math display=\"inline\"><mi>O</mi></math>? ¿Y la de <math display=\"inline\"><mi>B</mi></math>?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Un electrón emitido por un núcleo radiactivo que se mueve con velocidad constante <math display=\"inline\"><mrow><mn>0.05</mn><mi>c</mi></mrow></math> en el sistema del laboratorio se mueve con velocidad <math display=\"inline\"><mrow><mn>0.8</mn><mi>c</mi></mrow></math> respecto del núcleo. Desde el punto de vista del sistema del laboratorio, ¿cuáles son la velocidad y la dirección del electrón si en el sistema del núcleo las direcciones del electrón y del laboratorio son (a) paralelas, (b) perpendiculares?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Cuando se desintegra el mesón <math display=\"inline\"><msup><mi>K</mi><mn>0</mn></msup></math> en reposo, a menudo se produce una pareja de piones <math display=\"inline\"><msup><mi>π</mi><mo>±</mo></msup></math> que se mueven con la misma velocidad escalar <math display=\"inline\"><mrow><mn>0.83</mn><mi>c</mi></mrow></math>, aunque haya otras posibilidades. Si el mesón <math display=\"inline\"><msup><mi>K</mi><mn>0</mn></msup></math>, en lugar de estar en reposo, se mueve con velocidad <math display=\"inline\"><mrow><mn>0.9</mn><mi>c</mi></mrow></math>, ¿cuál es la mayor velocidad que puede tener un pión? ¿Y la menor? ¿Puede usarse el resultado del problema 2.16 para hacer el cálculo?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Gravedad artificial",
+     "izar": 2,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "En una nave espacial que partió de la Tierra con velocidad nula, la gravedad artificial es igual a <math display=\"inline\"><mi>g</mi></math> de la Tierra. Halla la distancia <math display=\"inline\"><mi>x</mi></math> recorrida en función del tiempo terrestre. Cuando ha pasado el intervalo de tiempo <math display=\"inline\"><mrow><mi>c</mi><mi>/</mi><mi>g</mi></mrow></math> desde la salida, se empiezan a enviar señales de radar desde la Tierra hacia la nave. Demuestra que en la nave no se recibirá ninguna señal (se dice que las señales están al otro lado del <strong>horizonte de sucesos</strong>). <br>"
+      },
+      {
+       "mota": "testua",
+       "html": "<em>Sugerencia</em>"
+      },
+      {
+       "mota": "testua",
+       "html": ": Para hacer los cálculos usa en cada instante el sistema inercial que se mueve con la velocidad de la nave, es decir, el sistema de referencia inercial instantáneamente en reposo."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Una partícula relativista se acerca con velocidad <math display=\"inline\"><mi>u</mi></math> a una partícula idéntica en reposo. ¿Hacia dónde y con qué velocidad se mueve un observador en cuyo sistema las velocidades escalares de las dos partículas son iguales? ¿Qué ocurre en tu respuesta en el caso <math display=\"inline\"><mrow><mi>u</mi><mo>≪</mo><mi>c</mi></mrow></math>? ¿Cuáles son la energía y el momento lineal totales en los dos sistemas de referencia?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Rapidez",
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Para simplificar algunos cálculos relativistas, a cada velocidad escalar se le asigna su <strong>rapidez</strong> mediante la siguiente fórmula: <math display=\"block\"><mrow><msub><mi>ξ</mi><mi>v</mi></msub><mo>≡</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> arctanh </mtext><mspace width=\"0.333em\"></mspace></mrow><mfrac><mi>v</mi><mi>c</mi></mfrac><mi>.</mi></mrow></math> Demuestra que las transformaciones de Lorentz (3.31)–(3.34) se escriben de la forma <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mi>c</mi><mi>t</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><msub><mi>ξ</mi><mi>v</mi></msub><mo>+</mo><msup><mi>x</mi><mo>′</mo></msup><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><msub><mi>ξ</mi><mi>v</mi></msub><mo>,</mo></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mi>x</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><msup><mi>x</mi><mo>′</mo></msup><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><msub><mi>ξ</mi><mi>v</mi></msub><mo>+</mo><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><msub><mi>ξ</mi><mi>v</mi></msub><mo>,</mo></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mi>y</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><msup><mi>y</mi><mo>′</mo></msup><mo>,</mo></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mi>z</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><msup><mi>z</mi><mo>′</mo></msup></mtd></mtr></mtable></math> y la ley relativista de transformación (3.81) de la velocidad de este modo: <math display=\"block\"><mrow><msub><mi>ξ</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover></msub><mo>=</mo><msub><mi>ξ</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup></msub><mo>+</mo><msub><mi>ξ</mi><mi>v</mi></msub><mi>.</mi></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Aberración",
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "La dependencia de la dirección de propagación de un rayo de luz respecto del movimiento del observador se llama <strong>aberración</strong>. Si para ver una estrella el ángulo entre el telescopio, que se mueve con velocidad <math display=\"inline\"><mi>v</mi></math> respecto de las estrellas fijas, y la horizontal es <math display=\"inline\"><msup><mi>θ</mi><mo>′</mo></msup></math>, el ángulo que da la posición <em>real</em> de la estrella (es decir, la medida en el sistema de las estrellas fijas) es el ángulo <math display=\"inline\"><mi>θ</mi></math> de la expresión siguiente en la mecánica galileana:"
+      },
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><msup><mi>θ</mi><mo>′</mo></msup><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>θ</mi><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>+</mo><mi>v</mi><mi>/</mi><mi>c</mi></mrow></mfrac></mrow></math> Demuestra ese resultado y halla el que hay que usar en la relatividad especial. <br>"
+      },
+      {
+       "mota": "testua",
+       "html": "<em>Sugerencia</em>"
+      },
+      {
+       "mota": "testua",
+       "html": ": Estudia la velocidad de los fotones en los dos sistemas."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Una fuente que emite luz de forma isótropa en el sistema propio se mueve con velocidad <math display=\"inline\"><mi>v</mi></math> en el laboratorio. ¿Qué porcentaje de la luz tiene en el laboratorio componente positiva de la velocidad en la dirección de la fuente?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Velocidad de la luz en un medio en movimiento",
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "A partir de 1851 Fizeau midió la velocidad de la luz en el agua. El agua se movía con velocidad <math display=\"inline\"><mi>v</mi></math> en la dirección de la luz. Cuando el agua está en reposo, es decir, en el sistema propio del agua, la velocidad de la luz es <math display=\"inline\"><mrow><mi>c</mi><mi>/</mi><mi>n</mi></mrow></math>, siendo <math display=\"inline\"><mrow><mi>n</mi><mo>&gt;</mo><mn>1</mn></mrow></math> el índice de refracción del agua. Cuando el agua se movía, en cambio, la velocidad que midió Fizeau era esta: <math display=\"block\"><mrow><mfrac><mi>c</mi><mi>n</mi></mfrac><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><msup><mi>n</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>v</mi><mi>.</mi></mrow></math> La explicación de Fizeau se basaba en el arrastre del éter. <br> (a) Calcula cuál es la velocidad de la luz en el agua medida en el laboratorio. <br> (b) Haz las aproximaciones adecuadas para explicar el resultado de Fizeau."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Las partículas idénticas de la figura se mueven en el laboratorio con las velocidades indicadas. ¿Cuál es la velocidad de cada partícula en el sistema del centro de masas?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Ley general de transformación de la velocidad",
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Una partícula puntual se mueve con velocidad <math display=\"inline\"><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup></math> en el sistema de referencia inercial <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>, y este con velocidad <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝒗</mi></math> respecto del sistema <math display=\"inline\"><mi>S</mi></math>. Demuestra que en el sistema <math display=\"inline\"><mi>S</mi></math> la velocidad de la partícula es esta: <math display=\"block\"><mrow><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mfrac><mrow><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>γ</mi><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>γ</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mrow><mi mathvariant=\"bold-italic\">𝒗</mi><mo>⋅</mo><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup></mrow><msup><mi>v</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi mathvariant=\"bold-italic\">𝒗</mi></mrow><mrow><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mfrac><mrow><mi mathvariant=\"bold-italic\">𝒗</mi><mo>⋅</mo><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mi>γ</mi><mo>≡</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><msup><mi>v</mi><mn>2</mn></msup><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>−</mi><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup><mi>.</mi></mrow></math> ¿Qué ocurre cuando las velocidades <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math> y <math display=\"inline\"><mi>v</mi></math> son mucho menores que la de la luz?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "El grupo de transformaciones de Lorentz",
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "En el sistema de referencia inercial <math display=\"inline\"><mi>S</mi></math> el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> se mueve con velocidad <math display=\"inline\"><mrow><mi>v</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> y la velocidad del sistema <math display=\"inline\"><msup><mi>S</mi><mo>″</mo></msup></math> respecto de <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> es <math display=\"inline\"><mrow><mi>u</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math>. La velocidad de <math display=\"inline\"><msup><mi>S</mi><mo>″</mo></msup></math> en el sistema <math display=\"inline\"><mi>S</mi></math> será la dada por la ley relativista de transformación de la velocidad: <math display=\"block\"><mrow><mi>w</mi><mo>=</mo><mfrac><mrow><mi>v</mi><mo>+</mo><mi>u</mi></mrow><mrow><mn>1</mn><mo>+</mo><mfrac><mrow><mi>v</mi><mi>u</mi></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac></mrow></mfrac><mi>.</mi></mrow></math> Comprueba que se obtiene lo mismo al hacer la transformación de Lorentz de <math display=\"inline\"><mi>S</mi></math> a <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> y luego de <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> a <math display=\"inline\"><msup><mi>S</mi><mo>″</mo></msup></math> que al transformar directamente de <math display=\"inline\"><mi>S</mi></math> a <math display=\"inline\"><msup><mi>S</mi><mo>″</mo></msup></math>. Este resultado demuestra, cuando se generaliza adecuadamente, que las transformaciones de Lorentz forman un grupo."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Las velocidades de las partículas relativistas de la figura son constantes. El intervalo de tiempo que necesitan para encontrarse siempre puede escribirse como <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mi>d</mi><mi>/</mi><mi>v</mi></mrow></math>; pero ¿qué hay que poner aquí, <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><msub><mi>v</mi><mn>1</mn></msub><mo>+</mo><msub><mi>v</mi><mn>2</mn></msub></mrow></math> o <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mfrac><mrow><msub><mi>v</mi><mn>1</mn></msub><mo>+</mo><msub><mi>v</mi><mn>2</mn></msub></mrow><mrow><mn>1</mn><mo>+</mo><mfrac><mrow><msub><mi>v</mi><mn>1</mn></msub><msub><mi>v</mi><mn>2</mn></msub></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac></mrow></mfrac></mrow></math>?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "La fuente de luz <math display=\"inline\"><mi>A</mi></math> se mueve con velocidad <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>0.99</mn><mi>c</mi></mrow></math> como se muestra en la figura. Si el observador <math display=\"inline\"><mi>B</mi></math>, en reposo, ve en un momento la luz que llega de <math display=\"inline\"><mi>A</mi></math> en la dirección indicada, ¿cuál era el ángulo entre la dirección del movimiento relativo y la del rayo en el sistema en reposo de la fuente?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "¿Cuál es la velocidad relativa entre las naves de los extremos en el sistema de la nave central? ¿Cómo hay que elegir <math display=\"inline\"><mi>u</mi></math> para que esa velocidad relativa sea máxima? ¿Y para que sea mínima? ¿Cuáles son los valores máximo y mínimo? ¿Qué cambia en tus respuestas si el cohete de velocidad <math display=\"inline\"><mi>u</mi></math>, en lugar de estar entre los otros dos, está a la izquierda o a la derecha?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "La velocidad relativa entre dos trenes relativistas es <math display=\"inline\"><mrow><mn>7</mn><mi>c</mi><mi>/</mi><mn>5</mn></mrow></math>, según las medidas del observador de la estación. La medida por el maquinista de uno de los trenes, en cambio, es <math display=\"inline\"><mrow><mn>35</mn><mi>c</mi><mi>/</mi><mn>37</mn></mrow></math>. ¿Cuáles son las velocidades de los trenes en el sistema de la estación?"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Masa, energía y momento lineal])"
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "El diámetro de nuestra galaxia es de <math display=\"inline\"><msup><mn>10</mn><mn>5</mn></msup></math> años luz, aproximadamente. Si un protón de <math display=\"inline\"><msup><mn>10</mn><mn>19</mn></msup></math> eV atraviesa la galaxia, ¿cuánto tiempo tardará en el sistema de la galaxia y en el propio?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "¿Cómo debe ser la velocidad de una partícula para que la diferencia entre su energía cinética y la expresión <math display=\"inline\"><mrow><mn>1</mn><mi>/</mi><mn>2</mn><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup></mrow></math> sea menor que el 1 %? ¿Y para que la diferencia entre la energía cinética y la total sea menor que el 1 %?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Cambio de masa en un proceso termodinámico",
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "En el proceso isotermo en el que se congela un kilogramo de agua se libera una energía térmica de valor <math display=\"inline\"><mrow><mn>3.34</mn><mo>×</mo><msup><mn>10</mn><mn>4</mn></msup></mrow></math> J. ¿Cómo ha cambiado la masa del agua en ese proceso?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Usando las masas del protón, del neutrón y del núcleo <math display=\"inline\"><mrow><msubsup><mrow></mrow><mn>2</mn><mn>4</mn></msubsup><mtext mathvariant=\"normal\">He</mtext></mrow></math>, calcula la energía de enlace de este núcleo."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "¿Qué ocurre con las ecuaciones de transformación (3.120)–(3.123) en el límite de velocidades pequeñas?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Transformación general de la energía y del momento lineal",
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "La energía y el momento lineal de una partícula en los sistemas de referencia inerciales <math display=\"inline\"><mi>S</mi></math> y <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> son <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>E</mi><mo>,</mo><mi mathvariant=\"bold-italic\">𝒑</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> y <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>E</mi><mo>′</mo></msup><mo>,</mo><msup><mi mathvariant=\"bold-italic\">𝒑</mi><mo>′</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math>, respectivamente. El sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> se mueve con velocidad constante <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝒗</mi></math> respecto del sistema <math display=\"inline\"><mi>S</mi></math>. Demuestra que las relaciones entre las magnitudes medidas en los dos sistemas son las siguientes: <math display=\"block\"><mrow><mi>E</mi><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>E</mi><mo>′</mo></msup><mo>+</mo><mi mathvariant=\"bold-italic\">𝒗</mi><mo>⋅</mo><msup><mi mathvariant=\"bold-italic\">𝒑</mi><mo>′</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝒑</mi><mo>=</mo><msup><mi mathvariant=\"bold-italic\">𝒑</mi><mo>′</mo></msup><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>γ</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mrow><mi mathvariant=\"bold-italic\">𝒗</mi><mo>⋅</mo><msup><mi mathvariant=\"bold-italic\">𝒑</mi><mo>′</mo></msup></mrow><msup><mi>v</mi><mn>2</mn></msup></mfrac><mo>+</mo><mi>γ</mi><mi>E</mi><mfrac><mi>′</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi mathvariant=\"bold-italic\">𝒗</mi><mi>.</mi></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "¿Cuál es la frecuencia de cada fotón en el sistema del centro de masas en los dos casos de la figura?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Si la energía cinética, la velocidad y el momento lineal de una partícula son <math display=\"inline\"><mi>T</mi></math>, <math display=\"inline\"><mi>v</mi></math> y <math display=\"inline\"><mi>p</mi></math>, ¿cuáles de las cuatro gráficas de la figura siguiente son galileanas y cuáles relativistas?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Un fotón de energía <math display=\"inline\"><mi>E</mi></math> se acerca al origen <math display=\"inline\"><mi>O</mi></math> del sistema de referencia <math display=\"inline\"><mi>S</mi></math> en una dirección que forma un ángulo <math display=\"inline\"><mi>α</mi></math> con el eje <math display=\"inline\"><mrow><mi>O</mi><mi>Y</mi></mrow></math>, como se muestra en la figura. En el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>, en cambio, que se mueve con velocidad <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝒗</mi><mo>=</mo><mi>v</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> en la dirección del eje <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math>, si el fotón se mueve en la dirección del eje <math display=\"inline\"><mrow><msup><mi>O</mi><mo>′</mo></msup><msup><mi>Y</mi><mo>′</mo></msup></mrow></math>, ¿cuál es la energía del fotón en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>? Calcula <math display=\"inline\"><mi>v</mi></math>."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Consideremos el sistema de referencia del centro de masas de un sistema formado por dos partículas libres. En la mecánica galileana, la relación entre las velocidades medidas en dicho sistema es esta: <math display=\"block\"><mrow><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msub><mo>=</mo><mi>−</mi><mfrac><msub><mi>m</mi><mn>1</mn></msub><msub><mi>m</mi><mn>2</mn></msub></mfrac><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mrow><mn>1</mn><mi>.</mi></mrow></msub></mrow></math> ¿Cuál es la generalización relativista de ese resultado?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Invariante relativista",
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "La energía total de un sistema de partículas libres es <math display=\"inline\"><mi>E</mi></math> y su momento lineal total <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝒑</mi></math>. Comprueba, como generalización del resultado (3.119), que la magnitud <math display=\"inline\"><mrow><msup><mi>E</mi><mn>2</mn></msup><mo>−</mo><msup><mi>c</mi><mn>2</mn></msup><msup><mi mathvariant=\"bold-italic\">𝒑</mi><mn>2</mn></msup></mrow></math> es un invariante relativista, es decir, que no depende del sistema de referencia inercial. ¿Cuál es el significado de este invariante?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "El acelerador Tevatron de Fermilab producía protones de <math display=\"inline\"><mrow><mi>E</mi><mo>≈</mo><mn>1</mn></mrow></math> TeV de energía. Si uno de estos protones y un fotón parten hacia la Luna en el mismo momento, ¿cuál será la distancia entre ambos cuando el fotón llegue a la Luna?"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Ecuaciones del movimiento])"
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Comprueba que cuando la fuerza total que sufre una partícula relativista es <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑭</mi></math> la ecuación del movimiento se escribe así: <math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝑭</mi><mo>=</mo><mi>m</mi><msup><mi>γ</mi><mn>3</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̈</mo></mover><mo>+</mo><mfrac><mrow><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>×</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>×</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̈</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>.</mi></mrow></math> ¿Cómo queda en el caso del movimiento rectilíneo?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Fuerza constante",
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Si sobre una carga inicialmente en reposo actúa un campo electrostático uniforme y constante, ¿cuál es la velocidad de la carga en cualquier instante? ¿Es constante la aceleración? Comprueba que el movimiento es hiperbólico (recuerda el problema resuelto 3.14.2) y calcula la aceleración propia. ¿Es esta última constante?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "El momento lineal de un protón relativista es <math display=\"inline\"><msub><mi mathvariant=\"bold-italic\">𝒑</mi><mn>0</mn></msub></math> en el instante <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> en que entra en un campo eléctrico transversal uniforme y constante: <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝑬</mi><mo>⟂</mo><msub><mi mathvariant=\"bold-italic\">𝒑</mi><mn>0</mn></msub></mrow></math>. Calcula cómo cambia con el tiempo la dirección del protón. Halla la componente de la velocidad en la dirección de la trayectoria inicial y demuestra que, a diferencia de lo que ocurre en el caso no relativista, va disminuyendo."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Oscilador armónico relativista",
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Estudiemos el movimiento de una partícula que se mueve a lo largo del eje <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math>. Si la fuerza que sufre es la fuerza recuperadora <math display=\"inline\"><mrow><mi>F</mi><mo>=</mo><mi>−</mi><mi>k</mi><mi>x</mi></mrow></math>, ¿cuál es la ecuación del movimiento? Demuestra que el principio de conservación de la energía se escribe así: <math display=\"block\"><mrow><mi>E</mi><mo>=</mo><mi>m</mi><mi>γ</mi><msup><mi>c</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><msup><mi>A</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math> ¿Qué es la constante de integración <math display=\"inline\"><mi>A</mi></math>?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Movimiento ciclotrón",
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "La masa y la carga de una partícula son <math display=\"inline\"><mi>m</mi></math> y <math display=\"inline\"><mi>q</mi></math> y se mueve con velocidad escalar constante <math display=\"inline\"><mi>v</mi></math> perpendicularmente al campo magnético <math display=\"inline\"><mi>B</mi></math> (<math display=\"inline\"><mi>B</mi></math> es uniforme y constante). Demuestra que, como en la mecánica galileana, el movimiento es circular; pero que ahora la frecuencia de ciclotrón que debes calcular, es decir, la velocidad angular, depende de la velocidad. En el acelerador LHC<span class=\"j-oin\">[<em>Large Hadron Collider</em>.]</span> las órbitas de los protones de 4 TeV, equivalentes a las estudiadas arriba (en 2011), tienen un radio efectivo de 2804 m. ¿Cuánto vale <math display=\"inline\"><mi>B</mi></math>?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Como <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝑭</mi><mo>≠</mo><mi>m</mi><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̈</mo></mover></mrow></math>, ¿es verdad que cuando <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝑭</mi><mo>=</mo><mn>0</mn></mrow></math> es <math display=\"inline\"><mrow><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̈</mo></mover><mo>=</mo><mn>0</mn></mrow></math>? ¿Por qué?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Electrones de energía cinética <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><msub><mi>m</mi><mi>e</mi></msub><msup><mi>c</mi><mn>2</mn></msup></mrow></math> se dispersan en un blanco fijo, como se muestra en la figura. La dispersión es elástica y el flujo de electrones es <math display=\"inline\"><mi>N</mi></math>  (electrones/s). Calcula el módulo, la dirección y el sentido de la fuerza que el haz ejerce sobre el blanco."
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Efecto Doppler])"
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Un meteorito se mueve con velocidad constante <math display=\"inline\"><mi>v</mi></math> hacia una fuente de radar en reposo. Los pulsos que esta emite en los instantes <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><msub><mi>t</mi><mn>1</mn></msub></mrow></math>, <math display=\"inline\"><msub><mi>t</mi><mn>2</mn></msub></math> regresan tras reflejarse en el meteorito. <br> (a) Dibuja en un diagrama de Minkowski las líneas de universo de la fuente, del meteorito y de los pulsos."
+      },
+      {
+       "mota": "testua",
+       "html": "(b) Halla el intervalo de tiempo entre los dos pulsos en el sistema del meteorito. <br> (c) ¿Cómo puede usar la estación de radar el intervalo de tiempo entre los pulsos reflejados para medir la velocidad del meteorito?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Efecto Doppler",
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Demuestra el resultado (3.143). ¿Cuál es el ángulo entre la dirección de propagación de la onda y la velocidad del observador en el sistema de este último? ¿En qué dirección no se mide ningún efecto?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Cuando quiere recurrir una multa por no pararse en un semáforo en rojo, el conductor —que es físico— dice al agente: «Por el efecto Doppler, al acercarme al semáforo he visto la luz roja como verde». Pero como el agente también es físico, le responde: «Entonces tendré que retirarte el carné de conducir». ¿Por qué?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Corrimiento al rojo",
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "En astronomía el corrimiento al rojo de una galaxia o de un cuásar se define así: <math display=\"block\"><mrow><mi>z</mi><mo>≡</mo><mfrac><mrow><mi mathvariant=\"normal\">Δ</mi><mi>λ</mi></mrow><mi>λ</mi></mfrac><mo>=</mo><mfrac><msup><mi>λ</mi><mo>′</mo></msup><mi>λ</mi></mfrac><mo>−</mo><mn>1</mn><mo>,</mo></mrow></math> donde <math display=\"inline\"><mi>λ</mi></math> es la longitud de onda medida en el sistema de la fuente, <math display=\"inline\"><msup><mi>λ</mi><mo>′</mo></msup></math> la medida en el espectroscopio terrestre y <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>λ</mi><mo>=</mo><msup><mi>λ</mi><mo>′</mo></msup><mo>−</mo><mi>λ</mi></mrow></math>. ¿Cómo se escribe la velocidad de la fuente en la relatividad especial mediante <math display=\"inline\"><mi>z</mi></math>?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "El corrimiento al rojo de la galaxia MACS0647-JD es <math display=\"inline\"><mrow><mi>z</mi><mo>=</mo><mn>11</mn></mrow></math>, según los datos publicados en 2012. Tomando <math display=\"inline\"><mrow><mi>H</mi><mo>=</mo><mn>72</mn></mrow></math> km s<math display=\"inline\"><msup><mrow></mrow><mrow><mi>−</mi><mn>1</mn></mrow></msup></math> Mpc<math display=\"inline\"><msup><mrow></mrow><mrow><mi>−</mi><mn>1</mn></mrow></msup></math> y haciendo hipótesis, estima cuándo se emitió la luz que vemos ahora en el espectroscopio."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Entre la Tierra y Marte se mueven dos naves espaciales idénticas, con la misma velocidad escalar <math display=\"inline\"><mi>v</mi></math>, en sentidos opuestos. La luz de la nave <math display=\"inline\"><mi>A</mi></math> se ve verde (<math display=\"inline\"><mrow><msub><mi>λ</mi><mi>A</mi></msub><mo>=</mo><mn>500</mn></mrow></math> nm) desde la Tierra y la de la nave <math display=\"inline\"><mi>B</mi></math> naranja (<math display=\"inline\"><mrow><msub><mi>λ</mi><mi>B</mi></msub><mo>=</mo><mn>600</mn></mrow></math> nm). Calcula <math display=\"inline\"><mrow><mi>v</mi><mi>/</mi><mi>c</mi></mrow></math>. ¿Hacia dónde se mueve cada nave? Una tercera nave idéntica, <math display=\"inline\"><mi>C</mi></math>, parte hacia Marte y su piloto ve verde (<math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>500</mn></mrow></math> nm) la luz de la nave <math display=\"inline\"><mi>B</mi></math>. ¿Cuál es la velocidad de la tercera nave (en el sistema de la Tierra)? ¿Cómo se ve la luz de <math display=\"inline\"><mi>C</mi></math> desde la Tierra y desde Marte?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Aunque las dos estrellas no se distingan en el telescopio, los astrónomos pueden decir que un sistema estelar es doble. En las observaciones astronómicas se ha medido que las longitudes de onda de una línea espectral de una fuente de luz que se eclipsa con un periodo de 18 h están en el intervalo de 563–539 nm. Para simplificar, supongamos que una estrella es muy pesada y oscura y la otra mucho más ligera y luminosa, y que se mueve alrededor de la otra en una órbita circular en un plano paralelo a la dirección de observación. Calcula la distancia entre las dos estrellas y la masa de la pesada."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Una fuente de luz emite en todo el espectro visible, pero no fuera de él. ¿Cuál es su velocidad mínima al alejarse para ser invisible? ¿Y al acercarse?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Ley de la reflexión",
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "El espejo de la figura se mueve con velocidad <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mi>β</mi><mi>c</mi></mrow></math>. Un fotón de frecuencia <math display=\"inline\"><msub><mi>ν</mi><mi>e</mi></msub></math> que llega con un ángulo de incidencia <math display=\"inline\"><msub><mi>θ</mi><mi>e</mi></msub></math> se refleja en el espejo. Demuestra que la ley de la reflexión se escribe así en la relatividad: <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><msub><mi>θ</mi><mi>e</mi></msub><mrow><mn>1</mn><mo>+</mo><mi>β</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>e</mi></msub></mrow></mfrac><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><msub><mi>θ</mi><mi>i</mi></msub><mrow><mn>1</mn><mo>−</mo><mi>β</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>i</mi></msub></mrow></mfrac><mi>.</mi></mrow></math> Calcula la frecuencia <math display=\"inline\"><msub><mi>ν</mi><mi>i</mi></msub></math> del fotón reflejado."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Un meteorito se acerca con velocidad relativista <math display=\"inline\"><mi>v</mi></math> a un radar en reposo en el sistema de referencia inercial <math display=\"inline\"><mi>S</mi></math>. Si la frecuencia propia de las microondas en el sistema del radar es <math display=\"inline\"><msub><mi>ν</mi><mn>0</mn></msub></math>, ¿cuál es la frecuencia medida en el sistema del radar en la señal reflejada en el meteorito? Repite el cálculo, sin cambiar la velocidad del meteorito, si el sistema <math display=\"inline\"><mi>S</mi></math> del radar se acerca al meteorito con velocidad relativista <math display=\"inline\"><mi>u</mi></math> y si se aleja del meteorito con velocidad <math display=\"inline\"><mi>u</mi></math>."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Consideremos los sistemas de referencia inerciales habituales <math display=\"inline\"><mi>S</mi></math> y <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>. La velocidad de <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> es <math display=\"inline\"><mrow><mn>3</mn><mi>c</mi><mi>/</mi><mn>5</mn><mspace width=\"0.167em\"></mspace><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math>, según las medidas del sistema <math display=\"inline\"><mi>S</mi></math>. Cuando los orígenes de los dos sistemas están en el mismo punto (cuando <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math>) pasa por ese origen común una nave espacial con velocidad <math display=\"inline\"><mrow><mi>c</mi><mi>/</mi><mn>2</mn><mspace width=\"0.167em\"></mspace><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math>, según las medidas del sistema <math display=\"inline\"><mi>S</mi></math>. En la nave hay una fuente de luz isótropa de <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>450</mn></mrow></math> nm. Calcula las longitudes de onda medidas más tarde (cuando <math display=\"inline\"><mrow><mi>t</mi><mo>,</mo><msup><mi>t</mi><mo>′</mo></msup><mo>&gt;</mo><mn>0</mn></mrow></math>) por los detectores situados en los orígenes de los dos sistemas."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "¿Cómo puede usarse el resultado del problema 3.6 para obtener la fórmula (3.141) del efecto Doppler? Y, a la inversa, ¿cómo puede usarse el resultado (3.141) para resolver el problema 3.6?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Cuando una nave espacial empieza a alejarse de la Tierra se sincronizan (<math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math>) los relojes de la Tierra y de la nave. En un momento se envía desde la Tierra un pulso de radar de frecuencia <math display=\"inline\"><mi>ν</mi></math> y lo que se ha reflejado en la nave se detecta <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></math> más tarde, con frecuencia <math display=\"inline\"><mrow><mi>ν</mi><mi>/</mi><mn>4</mn></mrow></math>. <br> (a) ¿Cuál es la velocidad constante de la nave en el sistema de la Tierra? <br> (b) ¿Cuándo y dónde se ha emitido el pulso, en los dos sistemas? <br> (c) ¿Cuándo y dónde se ha reflejado el pulso, en los dos sistemas? <br> (d) ¿Cuándo y dónde se detecta el pulso reflejado, en los dos sistemas?"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Principios de conservación])"
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Cuando un electrón y un positrón se encuentran, desaparecen y en su lugar se producen fotones. Tiene que producirse más de un fotón. ¿Por qué?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Al desintegrarse un fotón se ha producido una pareja electrón-positrón. Demuestra que en el proceso ha participado necesariamente otra partícula."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "La energía total de un <math display=\"inline\"><msup><mi>π</mi><mn>0</mn></msup></math> es <math display=\"inline\"><mrow><mn>2</mn><msub><mi>m</mi><mi>π</mi></msub><msup><mi>c</mi><mn>2</mn></msup></mrow></math> y, al desintegrarse, se producen dos fotones que se mueven en su dirección. ¿Cuál es la frecuencia de cada fotón?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Al desintegrarse una partícula de masa <math display=\"inline\"><mi>m</mi></math> en reposo se producen tres partículas de la misma masa. Si las velocidades de dos partículas son las que se muestran en la figura, ¿cuál es la de la tercera? ¿Cuáles son las masas de las partículas producidas?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Dos partículas de masas no nulas <math display=\"inline\"><msub><mi>m</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>m</mi><mn>2</mn></msub></math> se mueven en la misma recta con velocidades <math display=\"inline\"><msub><mi>v</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>v</mi><mn>2</mn></msub></math>. Al encontrarse queda una sola partícula. ¿Cuáles son la masa y la velocidad de esta última? ¿Puede ocurrir que esa masa sea nula?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Los protones producidos por un acelerador tienen una energía de 200 GeV y, cuando atacan a otros protones en reposo, aparece una partícula <math display=\"inline\"><mi>X</mi></math> en la siguiente reacción: <math display=\"block\"><mrow><mi>p</mi><mo>+</mo><mi>p</mi><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mi>p</mi><mo>+</mo><mi>p</mi><mo>+</mo><mi>X</mi><mi>.</mi></mrow></math> ¿Cuál es la mayor masa que puede tener la partícula <math display=\"inline\"><mi>X</mi></math>?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Un protón con una energía cinética de 437 MeV choca con otro en reposo. Si tras la colisión la energía de los dos protones es la misma, ¿cuál es el ángulo entre sus direcciones? (En el experimento realizado en 1955 se midió el valor <math display=\"inline\"><mrow><mn>84.0</mn><msup><mi></mi><mo>∘</mo></msup><mo>±</mo><mn>0.2</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>). ¿Cuál será el ángulo si la energía cinética del primer protón es de 33 GeV?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Cohete de fotones (I)",
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Una nave espacial se mueve en línea recta por efecto de un motor que emite fotones. La energía y el momento lineal de la nave son <math display=\"inline\"><mi>E</mi></math> y <math display=\"inline\"><mi>p</mi></math>. Halla la relación entre las derivadas <math display=\"inline\"><mover><mi>E</mi><mo accent=\"true\">̇</mo></mover></math> y <math display=\"inline\"><mover><mi>p</mi><mo accent=\"true\">̇</mo></mover></math> para calcular cómo cambia la masa de la nave. Supongamos que la nave estaba inicialmente en reposo y que su masa era <math display=\"inline\"><msub><mi>m</mi><mn>0</mn></msub></math>. Demuestra que cuando se mueve con velocidad <math display=\"inline\"><mi>v</mi></math> la masa es esta: <math display=\"block\"><mrow><mi>m</mi><mo>=</mo><msub><mi>m</mi><mn>0</mn></msub><msqrt><mfrac><mrow><mi>c</mi><mo>−</mo><mi>v</mi></mrow><mrow><mi>c</mi><mo>+</mo><mi>v</mi></mrow></mfrac></msqrt><mi>.</mi></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Cohete de fotones (II)",
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Supongamos que el cohete del problema 3.83 estaba inicialmente en reposo, en el instante <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>, con energía <math display=\"inline\"><mrow><msub><mi>E</mi><mn>0</mn></msub><mo>≡</mo><msub><mi>m</mi><mn>0</mn></msub><msup><mi>c</mi><mn>2</mn></msup></mrow></math>, en el sistema de referencia inercial <math display=\"inline\"><mi>S</mi></math>, y que la energía de todos los fotones emitidos desde el principio hasta un instante, medida en el sistema <math display=\"inline\"><mi>S</mi></math>, es <math display=\"inline\"><msub><mi>E</mi><mi>γ</mi></msub></math>. Demuestra que en todos los instantes tenemos <math display=\"inline\"><mrow><msub><mi>E</mi><mi>γ</mi></msub><mo>&lt;</mo><msub><mi>E</mi><mn>0</mn></msub><mi>/</mi><mn>2</mn></mrow></math>. Explica cualitativamente por qué aparece ese límite. Calcula <math display=\"inline\"><msub><mi>E</mi><mi>γ</mi></msub></math> en función de la velocidad alcanzada, la velocidad del cohete y la masa."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Cohete de fotones (III)",
+     "izar": 2,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Para estudiar casos particulares del problema 3.84, es más natural empezar con la energía <math display=\"inline\"><mrow><mi>d</mi><msubsup><mi>E</mi><mi>γ</mi><mo>*</mo></msubsup><mi>/</mi><mi>d</mi><mi>τ</mi></mrow></math> de los fotones emitidos por unidad de tiempo propio <math display=\"inline\"><mi>τ</mi></math> en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>*</mo></msup></math> del cohete. Demuestra que la masa y la velocidad <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mi>β</mi><mi>c</mi></mrow></math> medida en el sistema inicial <math display=\"inline\"><mi>S</mi></math> son soluciones de las siguientes ecuaciones: <math display=\"block\"><mrow><mi>d</mi><mi>m</mi><mo>=</mo><mi>−</mi><mfrac><mrow><mi>d</mi><msubsup><mi>E</mi><mi>γ</mi><mo>*</mo></msubsup></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mfrac><mrow><mi>d</mi><mi>β</mi></mrow><mrow><mn>1</mn><mo>−</mo><msup><mi>β</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>d</mi><msubsup><mi>E</mi><mi>γ</mi><mo>*</mo></msubsup></mrow><mrow><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></mfrac><mi>.</mi></mrow></math> ¿Cuál es la relación entre la potencia <math display=\"inline\"><mrow><mi>d</mi><msubsup><mi>E</mi><mi>γ</mi><mo>*</mo></msubsup><mi>/</mi><mi>d</mi><mi>τ</mi></mrow></math> y <math display=\"inline\"><mrow><mi>d</mi><msub><mi>E</mi><mi>γ</mi></msub><mi>/</mi><mi>d</mi><mi>t</mi></mrow></math> del sistema <math display=\"inline\"><mi>S</mi></math>?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Cohete de fotones (IV)",
+     "izar": 2,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Supongamos en el problema 3.85 que <math display=\"inline\"><mrow><mi>d</mi><msubsup><mi>E</mi><mi>γ</mi><mo>*</mo></msubsup><mi>/</mi><mi>d</mi><mi>τ</mi><mo>=</mo><mi>μ</mi><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></math>. Calcula, en función de los tiempos <math display=\"inline\"><mi>t</mi></math> y <math display=\"inline\"><mi>τ</mi></math>, la velocidad y la masa del cohete y las energías <math display=\"inline\"><msub><mi>E</mi><mi>γ</mi></msub></math> y <math display=\"inline\"><msubsup><mi>E</mi><mi>γ</mi><mo>*</mo></msubsup></math>. <br>"
+      },
+      {
+       "mota": "testua",
+       "html": "<em>Observación</em>"
+      },
+      {
+       "mota": "testua",
+       "html": ": El tiempo del sistema inercial inicial <math display=\"inline\"><mi>S</mi></math> y el medido en el cohete se sincronizan de la forma <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mi>τ</mi><mo>=</mo><mn>0</mn></mrow></math> cuando empiezan a emitirse los fotones."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Tras chocar con un electrón en reposo, la frecuencia de un fotón es la mitad de la anterior. Si el ángulo de dispersión ha sido <math display=\"inline\"><mrow><mn>60</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>, ¿cuál era la frecuencia del fotón antes de la colisión?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "En el efecto Compton habitual el electrón está en reposo. Supongamos ahora que antes de la colisión el electrón se movía en la dirección del fotón y que después de la colisión el fotón retrocede sin cambiar la frecuencia <math display=\"inline\"><mi>ν</mi></math> ni la dirección. ¿Cuál era la velocidad del electrón?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "En una colisión frontal chocan dos protones (o un protón y un antiprotón) de la misma energía <math display=\"inline\"><mi>E</mi></math> que se mueven en la misma dirección. <br> (a) Halla la <strong>energía disponible</strong> de los dos protones, es decir, la energía total medida en el sistema del centro de masas. <br> (b) ¿Cuál puede ser la mayor masa de las partículas que se producen? ¿Por qué? <br> (c) Calcula la energía de un protón en el sistema en reposo del otro. <br> (d) Si ahora un protón está en reposo, ¿cuál debe ser la energía del otro para que la energía disponible del sistema sea la del caso anterior? <br> (e)  <em>Aplicación numérica</em>: en el acelerador LHC la energía de los protones que se movían en sentidos opuestos era de 4 TeV en 2011. Comenta el resultado."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Dispersión Compton inversa",
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "En el experimento de Compton, al dispersarse con un electrón en reposo el fotón X pierde energía. Si el electrón se está moviendo, en cambio, el fotón puede ganar energía."
+      },
+      {
+       "mota": "testua",
+       "html": "¿Cómo deben ser la energía y el momento lineal del electrón para que en la colisión de la figura la energía del fotón sea mayor tras la colisión? Demuestra que cuando la energía del electrón es muy grande, la energía final del fotón es la que tenía el electrón antes de producirse la colisión, sea cual sea la energía inicial del fotón."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "En el experimento de la figura un fotón de alta energía golpea un electrón de una muestra delgada. El electrón va al detector <math display=\"inline\"><mi>A</mi></math> y el fotón al <math display=\"inline\"><mi>B</mi></math>. Calcula las energías inicial y final del fotón, usando como unidad la energía en reposo del electrón."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Si al encontrarse dos partículas relativistas queda una sola partícula, ¿puede ocurrir que la masa de la nueva partícula sea menor que la suma de las masas de las dos partículas iniciales?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Una partícula de masa <math display=\"inline\"><msub><mi>m</mi><mn>1</mn></msub></math>, que se mueve con velocidad <math display=\"inline\"><mrow><msub><mi>v</mi><mn>1</mn></msub><mo>=</mo><mn>0.9</mn><mi>c</mi></mrow></math>, choca con una partícula en reposo de masa <math display=\"inline\"><mrow><msub><mi>m</mi><mn>2</mn></msub><mo>=</mo><mn>10</mn><msub><mi>m</mi><mn>1</mn></msub></mrow></math> y las dos quedan unidas. (a) ¿Cuáles son la masa y la velocidad de la nueva partícula? Ahora la partícula de masa <math display=\"inline\"><msub><mi>m</mi><mn>1</mn></msub></math> está en reposo. (b) ¿Cuál debe ser la velocidad de <math display=\"inline\"><msub><mi>m</mi><mn>2</mn></msub></math> para que la de la partícula compuesta sea igual a la del apartado (a)? (c) ¿Y para que la masa de la nueva partícula sea la del apartado (a)?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Demuestra que es imposible que un electrón aislado emita un fotón, pero que sí puede ocurrir que un átomo aislado emita un fotón (de hecho, eso es lo que ocurre cuando está excitado, es decir, cuando algún electrón del átomo no está en el nivel de energía mínima)."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Consideremos una colisión entre partículas. <br> (a) Demuestra que si la ley de conservación del momento lineal se cumple en todos los sistemas de referencia inerciales, también se conserva la energía total. <br> (b) Comprueba que la colisión es elástica si y solo si se conserva la masa total. <br> (c) ¿Por qué se conserva la masa en el límite no relativista (recuerda el problema 1.102), aunque la colisión no sea elástica?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Comenta la siguiente solución de un problema que hemos encontrado en un libro de ejercicios: Se ve a menudo que se produce fotográficamente un par electrón-positrón. Demuestra que un proceso así es imposible si no interviene otro cuerpo, por ejemplo, el núcleo. Supongamos que el núcleo tiene masa <math display=\"inline\"><mi>M</mi></math> y que un electrón tiene masa <math display=\"inline\"><msub><mi>m</mi><mi>e</mi></msub></math>. ¿Cuál es la energía mínima que debe tener el fotón para crear un par electrón-positrón? (…) En este caso, las fotografías tienen algo. El fotón debe tener energía suficiente <math display=\"inline\"><mi>E</mi></math> para crear tal par y <math display=\"inline\"><mi>M</mi></math> Inicialmente estará en reposo. El par se creará en reposo, es decir, <math display=\"block\"><mrow><mi>E</mi><mo>+</mo><mi>M</mi><msup><mi>c</mi><mn>2</mn></msup><mo>=</mo><mi>M</mi><mi>γ</mi><msup><mi>c</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><msub><mi>m</mi><mi>e</mi></msub><msup><mi>c</mi><mn>2</mn></msup><mo>,</mo></mrow></math> donde <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mfrac><mn>1</mn><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>β</mi><mn>2</mn></msup></mrow></msqrt></mfrac></mrow></math> con <math display=\"inline\"><mrow><mi>β</mi><mo>=</mo><mfrac><mi>v</mi><mi>c</mi></mfrac></mrow></math>, pues <math display=\"inline\"><mi>v</mi></math> es la velocidad del núcleo después de la creación del par. La conservación del momento da <math display=\"block\"><mrow><mfrac><mi>E</mi><mi>c</mi></mfrac><mo>=</mo><mi>M</mi><mi>γ</mi><mi>β</mi><mi>c</mi><mi>.</mi></mrow></math> (…) lo que da <math display=\"block\"><mrow><mi>E</mi><mo>=</mo><mn>2</mn><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>M</mi><mo>−</mo><msub><mi>m</mi><mi>e</mi></msub></mrow><mrow><mi>M</mi><mo>−</mo><mn>2</mn><msub><mi>m</mi><mi>e</mi></msub></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msub><mi>m</mi><mi>e</mi></msub><msup><mi>c</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math> Como <math display=\"inline\"><mrow><mi>M</mi><mo>≫</mo><msub><mi>m</mi><mi>e</mi></msub></mrow></math>, la energía mínima necesaria es algo mayor que la energía en reposo del par creado, <math display=\"inline\"><mrow><mn>2</mn><msub><mi>m</mi><mi>e</mi></msub><msup><mi>c</mi><mn>2</mn></msup></mrow></math>.»"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "La idea de la estructura de quarks de la materia obtuvo un importante apoyo experimental en 1974, cuando en los laboratorios <em>Stanford Linear Accelerator Centre</em> y <em>Brookhaven National Laboratory</em>, al mismo tiempo, se descubrió la partícula <math display=\"inline\"><mrow><mi>J</mi><mi>/</mi><mi>ψ</mi></mrow></math> —formada por un quark de tipo «encanto» y un antiquark—<span class=\"j-oin\">[Por esto obtuvieron el premio Nobel de 1976 Burton Richter y Samuel Chao Chung Ting, directores de los experimentos.]</span> en la siguiente reacción: <math display=\"block\"><mrow><msup><mi>e</mi><mo>+</mo></msup><mo>+</mo><msup><mi>e</mi><mo>−</mo></msup><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mi>J</mi><mi>/</mi><mi>ψ</mi><mi>.</mi></mrow></math> (a) ¿Qué energía hay que dar a los positrones al bombardear electrones en reposo para producir mesones <math display=\"inline\"><mrow><mi>J</mi><mi>/</mi><mi>ψ</mi></mrow></math>? <br> (b) ¿Y a los electrones, si se usan para atacar positrones en reposo? <br> (c) Si los electrones y los positrones se mueven con velocidades opuestas en el acelerador, ¿cuál es la energía mínima que hay que usar para producir un mesón? <br> A la vista de las respuestas, ¿qué método crees que se usó para descubrir <math display=\"inline\"><mrow><mi>J</mi><mi>/</mi><mi>ψ</mi></mrow></math>? <br>"
+      },
+      {
+       "mota": "testua",
+       "html": "<em>Observación</em>"
+      },
+      {
+       "mota": "testua",
+       "html": ": <math display=\"inline\"><mrow><msub><mi>m</mi><mrow><mi>J</mi><mi>/</mi><mi>ψ</mi></mrow></msub><mo>=</mo><mn>3097</mn></mrow></math> MeV<math display=\"inline\"><mrow><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></math>."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Cuando el positrón de la figura golpea el electrón en reposo, quedan solo tres fotones de la misma frecuencia, como se muestra en la figura. Demuestra la siguiente desigualdad: <math display=\"block\"><mrow><mfrac><mi>π</mi><mn>3</mn></mfrac><mo>&lt;</mo><mi>α</mi><mo>&lt;</mo><mi>π</mi><mi>.</mi></mrow></math> ¿Cuándo irán hacia delante los tres fotones?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "La energía cinética del positrón de la figura es igual a la de reposo y, al encontrarse con un electrón, el par desaparece y quedan los tres fotones de la figura. Si la masa del electrón es <math display=\"inline\"><msub><mi>m</mi><mi>e</mi></msub></math>, ¿cuál era su velocidad? ¿Y la longitud de onda de cada fotón en el laboratorio y en el sistema del centro de masas?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "(a) La masa de un cohete en reposo en la Tierra es <math display=\"inline\"><msub><mi>m</mi><mn>0</mn></msub></math>. De pronto lanza, mediante el motor de fotones, una energía <math display=\"inline\"><mrow><msub><mi>E</mi><mi>γ</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><msub><mi>m</mi><mn>0</mn></msub><msup><mi>c</mi><mn>2</mn></msup></mrow></math> en una dirección, en forma de luz. Halla la nueva velocidad del cohete. <br> (b) Un cohete idéntico en reposo en la Tierra lanza una energía <math display=\"inline\"><mrow><msub><mi>E</mi><mrow><mi>γ</mi><mn>1</mn></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><msub><mi>m</mi><mn>0</mn></msub><msup><mi>c</mi><mn>2</mn></msup></mrow></math> y, cuando alcanza la nueva velocidad, vuelve a lanzar en su sistema de referencia propio una energía <math display=\"inline\"><mrow><msub><mi>E</mi><mrow><mi>γ</mi><mn>2</mn></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><msub><mi>m</mi><mn>0</mn></msub><msup><mi>c</mi><mn>2</mn></msup></mrow></math> en la misma dirección (y sentido). ¿Cuál es la velocidad final?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "El pión de la figura se mueve con velocidad <math display=\"inline\"><mi>v</mi></math>. Si los dos fotones que aparecen al desintegrarse se mueven con las frecuencias y direcciones que se muestran, ¿cuáles son <math display=\"inline\"><mi>v</mi></math>, <math display=\"inline\"><mi>α</mi></math> y <math display=\"inline\"><mi>ν</mi></math>? ¿Qué hay mal en la figura? <br>"
+      },
+      {
+       "mota": "testua",
+       "html": "<em>Observación</em>"
+      },
+      {
+       "mota": "testua",
+       "html": ": La masa del pión es <math display=\"inline\"><msub><mi>m</mi><mi>π</mi></msub></math>."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Se bombardean electrones en reposo con fotones. Antes de la colisión las energías de los electrones y de los fotones son iguales. Demuestra que las longitudes de onda de los fotones dispersados tienen un valor mínimo y un valor máximo. Calcula esos dos valores. ¿Cuál es la velocidad máxima de los electrones tras la dispersión?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Cohete relativista",
+     "izar": 2,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "La velocidad de los gases de un cohete relativista es siempre <math display=\"inline\"><mi>u</mi></math> en el sistema del cohete. Al principio, en reposo, la masa del cohete era <math display=\"inline\"><msub><mi>m</mi><mn>0</mn></msub></math>. <br> (a) Usa las leyes de conservación de la energía <math display=\"inline\"><mi>E</mi></math> y del momento lineal <math display=\"inline\"><mi>p</mi></math> y la ley de transformación de la velocidad para demostrar que tenemos esto: <math display=\"block\"><mrow><mfrac><mrow><mi>d</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mi>p</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>d</mi><mi>E</mi></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mrow><mfrac><mi>u</mi><mi>c</mi></mfrac><mo>−</mo><mfrac><mrow><mi>c</mi><mi>p</mi></mrow><mi>E</mi></mfrac></mrow><mrow><mn>1</mn><mo>+</mo><mfrac><mi>u</mi><mi>c</mi></mfrac><mfrac><mrow><mi>c</mi><mi>p</mi></mrow><mi>E</mi></mfrac></mrow></mfrac><mi>.</mi></mrow></math> Esta ecuación es homogénea (solo aparece el cociente <math display=\"inline\"><mrow><mi>c</mi><mi>p</mi><mi>/</mi><mi>E</mi></mrow></math>) y se resuelve con el cambio de variable <math display=\"inline\"><mrow><mi>β</mi><mo>≡</mo><mi>c</mi><mi>p</mi><mi>/</mi><mi>E</mi></mrow></math>. Comprueba que, usando la masa <math display=\"inline\"><mrow><mi>m</mi><mo>=</mo><msqrt><mrow><msup><mi>E</mi><mn>2</mn></msup><mo>−</mo><msup><mi>c</mi><mn>2</mn></msup><msup><mi>p</mi><mn>2</mn></msup></mrow></msqrt><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></math> y la velocidad <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mi>c</mi><mi>β</mi><mo>=</mo><msup><mi>c</mi><mn>2</mn></msup><mi>p</mi><mi>/</mi><mi>E</mi></mrow></math> instantáneamente en reposo del cohete, el resultado se escribe así: <math display=\"block\"><mrow><mfrac><mrow><mn>1</mn><mo>+</mo><mi>v</mi><mi>/</mi><mi>c</mi></mrow><mrow><mn>1</mn><mo>−</mo><mi>v</mi><mi>/</mi><mi>c</mi></mrow></mfrac><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><msub><mi>m</mi><mn>0</mn></msub><mi>m</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mn>2</mn><mi>u</mi><mi>/</mi><mi>c</mi></mrow></msup><mi>.</mi></mrow></math> Halla la solución <math display=\"inline\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>m</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. ¿Cuál es la velocidad máxima del cohete? ¿Cuándo se alcanza? Comprueba que cuando <math display=\"inline\"><mrow><mi>u</mi><mo>=</mo><mi>c</mi></mrow></math> se recupera el resultado del problema 3.83. ¿Qué ocurre si no todas las velocidades son relativistas?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Enfriamiento de átomos",
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Para enfriar (es decir, frenar) átomos se usan láseres. El átomo de la figura está en el nivel fundamental, con energía en reposo <math display=\"inline\"><msub><mi>E</mi><mn>0</mn></msub></math>, y se mueve como se muestra. ¿Cómo hay que elegir la frecuencia del fotón para que el átomo absorba el fotón al pasar al nivel <math display=\"inline\"><mrow><msub><mi>E</mi><mn>0</mn></msub><mo>+</mo><mi mathvariant=\"normal\">Δ</mi><msub><mi>E</mi><mn>0</mn></msub></mrow></math>? ¿Cuál es entonces la nueva velocidad del átomo? (Enseguida emitirá un fotón para volver al nivel fundamental, pero como la dirección de ese fotón se elegirá al azar, repitiendo el proceso una y otra vez se consigue reducir la velocidad del átomo.) ¿Cómo se escriben los resultados teniendo en cuenta que <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msub><mi>E</mi><mn>0</mn></msub><mo>≪</mo><msub><mi>E</mi><mn>0</mn></msub></mrow></math>?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "¿Se conserva siempre la energía cinética en las colisiones entre partículas relativistas? Si la respuesta es afirmativa, explica por qué. Si es negativa, ¿cuándo no se conserva?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Un protón de energía cinética <math display=\"inline\"><mi>T</mi></math> se lanza contra otro protón en reposo. Tras la colisión, las velocidades de los protones son simétricas respecto de la velocidad del protón inicial. Halla la velocidad final de los protones y el ángulo de dispersión. ¿Cuáles son los valores máximo y mínimo de este último al cambiar <math display=\"inline\"><mi>T</mi></math>? ¿Cómo es el ángulo de dispersión en una colisión así en la mecánica galileana? Comenta el resultado."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "La energía de una partícula es <math display=\"inline\"><mi>E</mi></math> y la de reposo <math display=\"inline\"><msub><mi>E</mi><mn>0</mn></msub></math>. Se desintegra en dos fotones (como en el caso de un <math display=\"inline\"><msup><mi>π</mi><mn>0</mn></msup></math>, por ejemplo). Comprueba que el ángulo <math display=\"inline\"><mi>θ</mi></math> entre las direcciones de los fotones es el dado por la relación <math display=\"block\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mfrac><mi>θ</mi><mn>2</mn></mfrac><mo>=</mo><mfrac><msubsup><mi>E</mi><mn>0</mn><mn>2</mn></msubsup><mrow><mn>4</mn><msub><mi>E</mi><mn>1</mn></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>E</mi><mo>−</mo><msub><mi>E</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac></mrow></math>, si la energía de uno de los fotones es <math display=\"inline\"><msub><mi>E</mi><mn>1</mn></msub></math>. Calcula los valores máximo y mínimo de dicho ángulo y cuáles son entonces las energías de los fotones."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Las masas de las tres partículas que aparecen al desintegrarse una partícula en reposo de masa <math display=\"inline\"><mi>M</mi></math> son <math display=\"inline\"><msub><mi>m</mi><mn>1</mn></msub></math>, <math display=\"inline\"><msub><mi>m</mi><mn>2</mn></msub></math> y <math display=\"inline\"><msub><mi>m</mi><mn>3</mn></msub></math>. Calcula cuál es la mayor energía que puede alcanzar la primera partícula (por ejemplo). ¿Y la menor?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Al desintegrarse un pión <math display=\"inline\"><msup><mi>π</mi><mn>0</mn></msup></math> aparecen dos fotones que se mueven en su dirección (pero en sentidos opuestos). Si la energía de uno de ellos es el triple que la del otro, ¿cuál era la velocidad del pión?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "¿Cuál es la energía cinética mínima de los mesones <math display=\"inline\"><msup><mi>K</mi><mo>−</mo></msup></math> para producir hiperones <math display=\"inline\"><msup><mi mathvariant=\"normal\">Λ</mi><mn>0</mn></msup></math> en la reacción <math display=\"block\"><mrow><msup><mi>K</mi><mo>−</mo></msup><mo>+</mo><mi>p</mi><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><msup><mi mathvariant=\"normal\">Λ</mi><mn>0</mn></msup><mo>+</mo><msup><mi>π</mi><mn>0</mn></msup></mrow></math> al bombardear protones en reposo? Y, ¿cuál es la energía cinética mínima de los piones al bombardear protones en reposo para que ocurra la reacción <math display=\"block\"><mrow><msup><mi>π</mi><mn>0</mn></msup><mo>+</mo><mi>p</mi><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><msup><mi mathvariant=\"normal\">Λ</mi><mn>0</mn></msup><mo>+</mo><msup><mi>K</mi><mo>+</mo></msup></mrow></math>? <br>"
+      },
+      {
+       "mota": "testua",
+       "html": "<em>Observación</em>"
+      },
+      {
+       "mota": "testua",
+       "html": ": <math display=\"inline\"><mrow><msub><mi>m</mi><msup><mi>K</mi><mo>±</mo></msup></msub><mo>=</mo><mn>494</mn></mrow></math> MeV<math display=\"inline\"><mrow><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></math>, <math display=\"inline\"><mrow><msub><mi>m</mi><mi>p</mi></msub><mo>=</mo><mn>938</mn></mrow></math> MeV<math display=\"inline\"><mrow><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></math>, <math display=\"inline\"><mrow><msub><mi>m</mi><msup><mi mathvariant=\"normal\">Λ</mi><mn>0</mn></msup></msub><mo>=</mo><mn>1116</mn></mrow></math> MeV<math display=\"inline\"><mrow><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></math>, <math display=\"inline\"><mrow><msub><mi>m</mi><msup><mi>π</mi><mn>0</mn></msup></msub><mo>=</mo><mn>135</mn></mrow></math> MeV<math display=\"inline\"><mrow><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></math>."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Cuando un electrón relativista de energía <math display=\"inline\"><mi>E</mi></math> choca con otro en reposo, el ángulo de dispersión del primero y el ángulo de retroceso del segundo son iguales: <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Φ</mi><mo>=</mo><mi>α</mi></mrow></math>. Calcula <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Φ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>E</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> y estudia lo que ocurre cuando la energía <math display=\"inline\"><mi>E</mi></math> es lo mayor posible. ¿Pueden ser perpendiculares las trayectorias de los dos electrones tras la colisión? ¿Qué ocurre en el límite no relativista?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "(a) La masa de una partícula en reposo en el laboratorio es <math display=\"inline\"><mi>m</mi></math> y el momento lineal de un fotón que se acerca <math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>m</mi><mi>c</mi></mrow></math>. Calcula, <em>en el sistema del centro de masas</em>, la energía total del sistema y el momento lineal del fotón. <br> (b) Si tras la colisión el fotón se mueve en la misma dirección, ¿cuál es su momento lineal en el laboratorio y en el sistema del centro de masas?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Las energías de los dos fotones que quedan al desintegrarse una partícula son <math display=\"inline\"><msub><mi>E</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>E</mi><mn>2</mn></msub></math> y el ángulo entre sus trayectorias <math display=\"inline\"><mi>θ</mi></math>. Calcula la masa y la velocidad de la partícula inicial."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Al desintegrarse la partícula cargada en reposo <math display=\"inline\"><mi>A</mi></math> se producen la partícula cargada <math display=\"inline\"><mi>B</mi></math> y la partícula inestable <math display=\"inline\"><mi>C</mi></math>. Como <math display=\"inline\"><mi>C</mi></math> es neutra, no se ve en los detectores, pero cuando ha pasado el tiempo <math display=\"inline\"><mi>t</mi></math> desde la desintegración de <math display=\"inline\"><mi>A</mi></math>, a la distancia <math display=\"inline\"><mi>d</mi></math>, se producen <math display=\"inline\"><mi>D</mi></math> y <math display=\"inline\"><mi>E</mi></math> al desintegrarse <math display=\"inline\"><mi>C</mi></math>. La masa de <math display=\"inline\"><mi>A</mi></math> es <math display=\"inline\"><msub><mi>m</mi><mi>A</mi></msub></math> y la de <math display=\"inline\"><mi>B</mi></math> es <math display=\"inline\"><msub><mi>m</mi><mi>B</mi></msub></math>. ¿Cómo puede escribirse la masa de <math display=\"inline\"><mi>C</mi></math> usando las masas de <math display=\"inline\"><mi>A</mi></math> y <math display=\"inline\"><mi>B</mi></math> que se miden y los valores <math display=\"inline\"><mi>t</mi></math> y <math display=\"inline\"><mi>d</mi></math>?"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Miscelánea])"
+    },
+    {
+     "mota": "problema",
+     "izena": "Invariancia de la ecuación de ondas",
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Como veremos en la sección 9.1, la ecuación de evolución de una magnitud escalar <math display=\"inline\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> que se propaga con velocidad <math display=\"inline\"><mi>c</mi></math> es la siguiente: <math display=\"block\"><mrow><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>u</mi></mrow><mrow><mi>∂</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>−</mo><mfrac><mn>1</mn><msup><mi>c</mi><mn>2</mn></msup></mfrac><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>u</mi></mrow><mrow><mi>∂</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math> Demuestra que esta ecuación es invariante, es decir, que en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> se escribe de la misma manera: <math display=\"block\"><mrow><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><msup><mi>u</mi><mo>′</mo></msup></mrow><mrow><mi>∂</mi><msup><mi>x</mi><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup></mrow></mfrac><mo>−</mo><mfrac><mn>1</mn><msup><mi>c</mi><mn>2</mn></msup></mfrac><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><msup><mi>u</mi><mo>′</mo></msup></mrow><mrow><mi>∂</mi><msup><mi>t</mi><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mn>0</mn><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><msup><mi>u</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo>,</mo><msup><mi>x</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≡</mo><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math> ¿Es invariante en la mecánica galileana?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "En un experimento realizado en el CERN [65], se acumulaban muones de 3.094 GeV en un anillo de 14 m de diámetro. La vida media medida en el laboratorio fue <math display=\"inline\"><mrow><msub><mi>τ</mi><mi>L</mi></msub><mo>=</mo><mn>64.37</mn><mspace width=\"0.167em\"></mspace><mi>μ</mi><mi>s</mi></mrow></math>. ¿Cuánto vale la diferencia relativa entre lo medido en el experimento y lo predicho por la teoría? Calcula la aceleración propia de los muones (es decir, la que se mide en cada momento en el sistema en el que el muón está en reposo)."
+      },
+      {
+       "mota": "testua",
+       "html": "<em>Observación</em>"
+      },
+      {
+       "mota": "testua",
+       "html": ": La vida media propia de los muones es <math display=\"inline\"><mrow><msup><mi>τ</mi><mo>*</mo></msup><mo>=</mo><mn>2.197</mn><mspace width=\"0.167em\"></mspace><mi>μ</mi><mi>s</mi></mrow></math> y su masa está en la tabla A.2."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Recuerda el problema 1.13 y la ley de Hubble (3.142). ¿Por qué no hay ninguna contradicción?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "La masa de un cohete que se aleja de la Tierra con velocidad <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>3</mn><mi>/</mi><mn>5</mn><mspace width=\"0.167em\"></mspace><mi>c</mi></mrow></math> es <math display=\"inline\"><mi>m</mi></math>. De repente, mediante el motor de fotones, emite una energía <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></math> hacia atrás, en forma de luz. ¿Cuáles son la nueva masa y la nueva velocidad del cohete, si esa energía emitida <math display=\"inline\"><mi>E</mi></math> se mide en el sistema del cohete? ¿Cómo se mide el valor de <math display=\"inline\"><mi>E</mi></math> desde la Tierra?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Experimento de Michelson y Morley",
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Estudiemos la contracción que propuso Lorentz para explicar el resultado del experimento de Michelson y Morley <em>en la mecánica galileana</em>. El interferómetro de la figura se mueve con velocidad <math display=\"inline\"><mi>v</mi></math> en el sistema del éter, en la dirección indicada. ¿Cómo debe ser la relación entre las longitudes <math display=\"inline\"><mrow><mi>l</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>A</mi><mi>B</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math> y <math display=\"inline\"><mrow><msup><mi>l</mi><mo>′</mo></msup><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>A</mi><mi>C</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math> de los brazos para que los tiempos que la luz necesita para hacer un viaje de ida y vuelta por los brazos sean iguales? ¿Qué ocurre si el interferómetro sufre un giro de <math display=\"inline\"><mrow><mn>90</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>? ¿Cómo puede usarse el cálculo anterior para explicar el resultado del experimento <em>en la mecánica galileana</em>? ¿Cuál es la explicación relativista? Comenta el resultado. <br>"
+      },
+      {
+       "mota": "testua",
+       "html": "<em>Observación</em>"
+      },
+      {
+       "mota": "testua",
+       "html": ": En el sistema del éter la velocidad de la luz es <math display=\"inline\"><mi>c</mi></math>."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Transformación de la energía y del momento lineal",
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Entre dos bloques idénticos hay un tubo con un muelle comprimido dentro. Los dos bloques están inicialmente en reposo porque están unidos por una cuerda. Al romperse la cuerda, la velocidad escalar de cada bloque es <math display=\"inline\"><mi>u</mi></math>, como se muestra en la figura. Las masas del muelle, del tubo y de la cuerda son despreciables."
+      },
+      {
+       "mota": "testua",
+       "html": "(a) Calcula la energía potencial elástica que había inicialmente en el muelle. <br> (b) Estudia la colisión en el sistema de referencia inercial en el que inicialmente todo el sistema se movía con velocidad <math display=\"inline\"><mi>v</mi></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "(c) Deduce que también antes de la colisión se cumplen las leyes de transformación (3.120)–(3.123), si en la energía y el momento lineal totales se tienen en cuenta la energía y el momento lineal elásticos. ¿Cuáles son? <br> (d) Comprueba el invariante relativista (3.128). ¿Cuál es la masa de la expresión (3.119)? <br> (e) ¿Qué ocurre en el límite no relativista? <br> (f) Comenta el resultado."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Cuando una partícula golpea otra partícula idéntica en reposo se produce una colisión elástica. Como se ve, puede ocurrir que la primera partícula quede en reposo y que la segunda empiece a moverse con el momento lineal de la primera; pero estudiemos los demás casos: tras la colisión las direcciones de las partículas no serán las del movimiento relativo anterior a la colisión. <br> (a) Dibuja la colisión en el sistema del centro de masas y en el laboratorio. Supongamos que el ángulo entre las direcciones inicial y final es <math display=\"inline\"><msup><mi>θ</mi><mo>*</mo></msup></math> en el sistema del centro de masas. <br> (b) Usa la transformación de la velocidad para calcular el ángulo entre las direcciones finales en el laboratorio, en función de <math display=\"inline\"><msup><mi>θ</mi><mo>*</mo></msup></math>. <br> (c) Demuestra que ese ángulo medido en el laboratorio es menor que <math display=\"inline\"><mrow><mn>90</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>. (Puede usarse <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>α</mi><mo>+</mo><mi>β</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">tan</mi><mi>α</mi><mo>+</mo><mi mathvariant=\"normal\">tan</mi><mi>β</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi mathvariant=\"normal\">tan</mi><mi>α</mi><mi mathvariant=\"normal\">tan</mi><mi>β</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>.)"
+      },
+      {
+       "mota": "testua",
+       "html": "(d) ¿Qué ocurre en el límite no relativista?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 0,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Ane y Begoña son gemelas. Un día Ane parte de la Tierra con velocidad <math display=\"inline\"><mrow><mn>3</mn><mi>c</mi><mi>/</mi><mn>5</mn></mrow></math>. Cinco años después Begoña va en busca de su hermana, con velocidad <math display=\"inline\"><mrow><mn>4</mn><mi>c</mi><mi>/</mi><mn>5</mn></mrow></math>. Cuando alcanza a Ane, los dos cohetes idénticos quedan unidos. ¿Quién es entonces la más joven? ¿Cuál es la diferencia entre las edades? Si la masa de los cohetes iniciales era <math display=\"inline\"><mi>m</mi></math>, ¿cuáles son ahora la masa y la velocidad del cohete? ¿Por qué ha cambiado la masa de los cohetes?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Taquiones",
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Algunos (pocos) físicos creen que pueden existir partículas que se mueven siempre con velocidad mayor que <math display=\"inline\"><mi>c</mi></math>, los taquiones (y las habituales serían los <strong>bradiones</strong> —o <strong>tardiones</strong>— y las que se mueven con velocidad <math display=\"inline\"><mi>c</mi></math> los <strong>luxones</strong>). Demuestra las siguientes afirmaciones. <br> (a) Si en un sistema de referencia inercial la velocidad escalar es mayor que <math display=\"inline\"><mi>c</mi></math>, lo es en todos los demás sistemas inerciales. <br> (b) Si la energía es real, la masa de los taquiones es imaginaria (pero no es una masa, pues el taquión no está en reposo en ningún sistema de referencia). <br> (c) La energía (si es positiva) y el módulo del momento lineal disminuyen al aumentar la velocidad."
+      },
+      {
+       "mota": "testua",
+       "html": "(d) Si se envían taquiones con velocidad <math display=\"inline\"><mrow><mi>u</mi><mo>&gt;</mo><mi>c</mi></mrow></math> a una galaxia, según las medidas de una nave espacial que va hacia ella con la velocidad adecuada <math display=\"inline\"><mrow><mi>v</mi><mo>&lt;</mo><mi>c</mi></mrow></math>, los taquiones llegan a la galaxia antes de ser enviados desde la Tierra. Por tanto, puede enviarse información al pasado mediante taquiones. <br> (e) En el sistema de la nave del caso anterior la energía de los taquiones es negativa. Sin embargo, como la detección de energía negativa equivale a la emisión de energía positiva, la explicación de los físicos de la nave puede ser esta: se han emitido taquiones de energía positiva desde la galaxia hacia la Tierra."
+      },
+      {
+       "mota": "testua",
+       "html": "<em>Observación</em>"
+      },
+      {
+       "mota": "testua",
+       "html": ": Comenta los resultados."
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": "Cuadrivectores",
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "En la relatividad especial se usan los cuadrivectores <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝒂</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>a</mi><mn>0</mn></msub><mo>,</mo><msub><mi>a</mi><mn>1</mn></msub><mo>,</mo><msub><mi>a</mi><mn>2</mn></msub><mo>,</mo><msub><mi>a</mi><mn>3</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, que tienen 4 componentes de las mismas dimensiones, para reunir expresiones. El primero es el conjunto de las componentes de un suceso: <math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝒙</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>0</mn></msub><mo>,</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><msub><mi>x</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≡</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mi>t</mi><mo>,</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math> El segundo, la velocidad relativista de una partícula, <math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝒖</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>u</mi><mn>0</mn></msub><mo>,</mo><msub><mi>u</mi><mn>1</mn></msub><mo>,</mo><msub><mi>u</mi><mn>2</mn></msub><mo>,</mo><msub><mi>u</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≡</mo><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>c</mi><mo>,</mo><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>,</mo><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>,</mo><mover><mi>z</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> y el tercero está formado por su energía y su momento lineal: <math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝒑</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>p</mi><mn>0</mn></msub><mo>,</mo><msub><mi>p</mi><mn>1</mn></msub><mo>,</mo><msub><mi>p</mi><mn>2</mn></msub><mo>,</mo><msub><mi>p</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≡</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>E</mi><mi>c</mi></mfrac><mo>,</mo><msub><mi>p</mi><mi>x</mi></msub><mo>,</mo><msub><mi>p</mi><mi>y</mi></msub><mo>,</mo><msub><mi>p</mi><mi>z</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math> Usa las ecuaciones de transformación (3.27)–(3.30), (3.81)–(3.83), (3.89) y (3.120)–(3.123) para comprobar que las ecuaciones de transformación de estos cuadrivectores particulares son las siguientes transformaciones generales: <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><msub><mi>u</mi><mn>0</mn></msub></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>u</mi><mn>0</mn><mo>′</mo></msubsup><mo>+</mo><mi>β</mi><msubsup><mi>u</mi><mn>1</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><msub><mi>u</mi><mn>1</mn></msub></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>u</mi><mn>1</mn><mo>′</mo></msubsup><mo>+</mo><mi>β</mi><msubsup><mi>u</mi><mn>0</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><msub><mi>u</mi><mn>2</mn></msub></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><msubsup><mi>u</mi><mn>2</mn><mo>′</mo></msubsup><mo>,</mo></mtd></mtr><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><msub><mi>u</mi><mn>3</mn></msub></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><msubsup><mi>u</mi><mn>3</mn><mo>′</mo></msubsup><mo>,</mo></mtd></mtr></mtable></math> donde <math display=\"inline\"><mrow><mi>β</mi><mo>=</mo><mi>v</mi><mi>/</mi><mi>c</mi></mrow></math> es la velocidad adimensional y <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><msub><mi>γ</mi><mi>v</mi></msub></mrow></math> el factor de Lorentz, <math display=\"inline\"><mi>S</mi></math> y <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> el correspondiente a la velocidad relativa entre los sistemas. ¿Cuáles son las transformaciones inversas? ¿Qué ocurre si el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> es el sistema en reposo de la partícula? Demuestra que el <strong>cuadrado</strong> del cuadrivector definido como <math display=\"block\"><mrow><msup><mi mathvariant=\"bold-italic\">𝒂</mi><mn>2</mn></msup><mo>≡</mo><mi>−</mi><msubsup><mi>a</mi><mn>0</mn><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>a</mi><mn>1</mn><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>a</mi><mn>2</mn><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>a</mi><mn>3</mn><mn>2</mn></msubsup></mrow></math> es en todos los casos un invariante relativista, es decir, que tiene el mismo valor en todos los sistemas de referencia inerciales. ¿Cuál es ese invariante en los tres casos particulares mencionados arriba?"
+      }
+     ]
+    },
+    {
+     "mota": "problema",
+     "izena": null,
+     "izar": 1,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Dos naves idénticas de longitud propia <math display=\"inline\"><mi>l</mi></math> se mueven a lo largo de la dirección común de sus longitudes, en sentidos opuestos. Según las medidas de una nave, los dos extremos izquierdos estaban a la altura uno del otro en el instante <math display=\"inline\"><mi>t</mi></math> y los derechos cuando era <math display=\"inline\"><mrow><mi>t</mi><mo>+</mo><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></math>. ¿Cuál es la velocidad relativa medida por una nave? ¿Y la medida en el sistema del centro de masas de las dos naves?"
+      }
+     ]
+    },
+    {
+     "mota": "iturria",
+     "proiektua": "CG-01 (carpeta_grande)",
+     "xehetasuna": "METMATCG01_0004 (IMG_2025_07_06_20_14_30S.jpg; del lote CG-01 «métodos», contenido RELATIVIDAD — manda la imagen): hoja de deducción de la transformación del tiempo de Lorentz, con diagramas de Minkowski y callejones sin salida tachados. Los dos resultados limpios están comprobados con SymPy: t' = x/(γv) - x'/v ≡ γ(t - vx/c²) y t = γ(t' + (v/c²)x'). Sin correcciones. Confianza alta",
+     "hizkuntza": "es"
+    }
+   ]
+  },
+  {
+   "id": "a17",
+   "maila": 1,
+   "izenburua": "Transformación del tiempo de Lorentz a partir de las transformaciones del espacio (hoja de trabajo)",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "Punto de partida, las transformaciones del espacio entre dos sistemas inerciales:"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>x</mi><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>′</mo></msup><mo>+</mo><mi>v</mi><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>γ</mi><mo>=</mo><mfrac><mn>1</mn><msqrt><mrow><mn>1</mn><mo>−</mo><mfrac><msup><mi>v</mi><mn>2</mn></msup><msup><mi>c</mi><mn>2</mn></msup></mfrac></mrow></msqrt></mfrac><mi>.</mi></mrow></math>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a18",
+   "maila": 2,
+   "izenburua": "Deducción",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "Despejando <math display=\"inline\"><msup><mi>t</mi><mo>′</mo></msup></math> de la primera (línea 2 de la fuente):"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mfrac><mi>x</mi><mrow><mi>γ</mi><mi>v</mi></mrow></mfrac><mo>−</mo><mfrac><msup><mi>x</mi><mo>′</mo></msup><mi>v</mi></mfrac><mo>,</mo></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "y sustituyendo <math display=\"inline\"><mrow><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> sale la forma estándar: <math display=\"inline\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>v</mi><mi>x</mi><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Por el camino inverso, despejando <math display=\"inline\"><mi>t</mi></math> de las dos ecuaciones (resultado en rojo de la fuente):"
+    },
+    {
+     "mota": "kutxa",
+     "kolorea": "laranja",
+     "titulua": null,
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>t</mi><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo>+</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><msup><mi>x</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+      }
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "<em class=\"j-nab\">La hoja es un borrador de trabajo: dos intentos están TACHADOS (p. ej.\n<math display=\"inline\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><msup><mi>x</mi><mo>′</mo></msup><mi>/</mi><mi>c</mi></mrow></math> borrado hace tiempo) y una línea intermedia — <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo>+</mo><mi>v</mi><msup><mi>t</mi><mo>′</mo></msup><mi>/</mi><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> —\ncorresponde al caso particular del rayo de luz (<math display=\"inline\"><mrow><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></math>), no a la transformación\ngeneral. El propio autor la descartó y dio en rojo la definitiva.</em>"
+    }
+   ]
+  },
+  {
+   "id": "a19",
+   "maila": 2,
+   "izenburua": "Diagramas",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "Los dos diagramas de Minkowski de la fuente, en rojo, muestran la línea de universo de la luz (recta <math display=\"inline\"><mrow><mi>c</mi><mi>t</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mi>/</mi><mi>v</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> en el plano <math display=\"inline\"><mrow><mi>c</mi><mi>t</mi></mrow></math>–<math display=\"inline\"><mi>x</mi></math>, tomando <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mi>c</mi></mrow></math> como pendiente), como soporte geométrico de la transformación."
+    },
+    {
+     "mota": "oharra",
+     "titulua": "Notas de la fuente",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Completado a partir de la fotografía (<code>METMATCG01_0004</code>, hoja suelta, sin fecha;"
+      },
+      {
+       "mota": "testua",
+       "html": "<code>IMG_2025_07_06_20_14_30S.jpg</code>"
+      },
+      {
+       "mota": "testua",
+       "html": "; del lote CG-01 «métodos», pero el contenido es RELATIVIDAD y viene aquí — manda la imagen). Los dos resultados limpios están comprobados con SymPy: <math display=\"inline\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mi>x</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>γ</mi><mi>v</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msup><mi>x</mi><mo>′</mo></msup><mi>/</mi><mi>v</mi><mo>≡</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>v</mi><mi>x</mi><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> y <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>v</mi><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>x</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Callejones sin salida tachados recogidos literalmente (cero descartes); NO hay correcciones. Véase <code>koadernoa_metmatcg01_p004.typ</code>."
+      }
+     ]
+    },
+    {
+     "mota": "iturria",
+     "proiektua": "EHU 2000, ISBN 84-8373-295-5",
+     "xehetasuna": "Examenes resueltos (1996-2000), mk:3",
+     "hizkuntza": "eu"
+    }
+   ]
+  },
+  {
+   "id": "a20",
+   "maila": 2,
+   "izenburua": "Enunciado",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "Una nave espacial pasa ante la Tierra con velocidad <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>0.8</mn><mspace width=\"0.167em\"></mspace><mi>c</mi></mrow></math>. Los relojes de la Tierra y de la nave marcan las doce del mediodía en ese momento. a) A las 12:30, según la hora de la nave, esta pasa por una estación espacial fija respecto de la Tierra y con los relojes sincronizados con los de la Tierra. ¿Qué hora es en la estación? b) ¿A qué distancia (en horas-luz, en coordenadas terrestres) está la estación de la Tierra? c) A las 12:30, según la nave, se envía una señal hacia la Tierra. ¿A qué hora (en el tiempo de la Tierra) se recibe la señal en la Tierra? d) El centro de control de la Tierra responde inmediatamente. ¿Cuándo (en el tiempo de la nave) se recibirá la respuesta en la nave?"
+    }
+   ]
+  },
+  {
+   "id": "a21",
+   "maila": 2,
+   "izenburua": "Solución (resuelta y comentada por el autor)",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": ""
+    },
+    {
+     "mota": "testua",
+     "html": "<strong>R.</strong>"
+    },
+    {
+     "mota": "testua",
+     "html": "Durante el viaje de la nave hasta la estación interplanetaria, se comparan los tiempos de un único reloj de la nave con los de dos relojes distintos situados en el sistema de referencia, pues en ese sistema están fijas tanto la Tierra como la estación interplanetaria. Por tanto, el intervalo de tiempo medido por el reloj de la nave es un <em>intervalo de tiempo propio</em> y estará relacionado con el medido por el observador ligado a la Tierra según esta relación:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msub><mi>t</mi><mtext mathvariant=\"normal\">Tierra</mtext></msub><mo>=</mo><mi>γ</mi><mspace width=\"0.167em\"></mspace><mi mathvariant=\"normal\">Δ</mi><msub><mi>t</mi><mtext mathvariant=\"normal\">nave</mtext></msub><mo>=</mo><mn>30</mn><mo>⋅</mo><mn>5</mn><mi>/</mi><mn>3</mn><mo>=</mo><mn>50</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> min</mtext></mrow><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><msub><mi>t</mi><mtext mathvariant=\"normal\">Tierra</mtext></msub><mo>=</mo><mn>12</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> h </mtext><mspace width=\"0.333em\"></mspace></mrow><mn>50</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> min</mtext></mrow></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "pues, para la velocidad indicada, <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>5</mn><mi>/</mi><mn>3</mn></mrow></math>. Como para el observador de la Tierra han pasado 50 min, en ese tiempo la nave recorrerá esta distancia:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>d</mi><mo>=</mo><mi>v</mi><mspace width=\"0.167em\"></mspace><mi mathvariant=\"normal\">Δ</mi><msub><mi>t</mi><mtext mathvariant=\"normal\">Tierra</mtext></msub><mo>=</mo><mn>0.8</mn><mi>c</mi><mo>⋅</mo><mn>3000</mn><mo>=</mo><mn>7.2</mn><mo>⋅</mo><msup><mn>10</mn><mn>11</mn></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><mo>=</mo><mn>5</mn><mi>/</mi><mn>6</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> h-l</mtext></mrow></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "esta será, por tanto, la distancia de la estación interplanetaria a la Tierra."
+    },
+    {
+     "mota": "testua",
+     "html": "En ese momento, a las 12 h 50 min en el tiempo de la Tierra, si se envía hacia la Tierra una señal de radio o de luz, necesitará este intervalo de tiempo para llegar a la Tierra:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mi>d</mi><mi>/</mi><mi>c</mi><mo>=</mo><mn>7.2</mn><mo>⋅</mo><msup><mn>10</mn><mn>11</mn></msup><mi>/</mi><mn>3</mn><mo>⋅</mo><msup><mn>10</mn><mn>8</mn></msup><mo>=</mo><mn>2.4</mn><mo>⋅</mo><msup><mn>10</mn><mn>3</mn></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> s</mtext></mrow><mo>=</mo><mn>40</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> min</mtext></mrow></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "por tanto, la señal procedente de la nave llegará a la Tierra a las 13 h 30 min (hora de la Tierra). Esta señal se refleja en la estación terrestre y vuelve a la nave. Plantearemos la ecuación de los tiempos de llegada de dos trenes que avanzan en la misma dirección, teniendo el tren de atrás mayor velocidad que el de delante. Tomando como instante inicial la salida de la señal desde la nave hacia la Tierra, y usando las coordenadas del sistema de la Tierra, el tiempo de encuentro de la nave y de la señal reflejada en la Tierra puede escribirse así:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>d</mi><mo>+</mo><mi>x</mi></mrow><mi>c</mi></mfrac><mo>=</mo><mfrac><mi>x</mi><mi>v</mi></mfrac><mo>=</mo><mfrac><mi>x</mi><mrow><mn>0.8</mn><mi>c</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mi>x</mi><mo>=</mo><mn>8</mn><mi>d</mi><mo>=</mo><mn>5.76</mn><mo>⋅</mo><msup><mn>10</mn><mn>12</mn></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "de ahí podemos sacar <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><mn>2.4</mn><mo>⋅</mo><msup><mn>10</mn><mn>4</mn></msup></mrow></math> s <math display=\"inline\"><mrow><mo>=</mo><mn>6</mn></mrow></math> h 40 min, el tiempo transcurrido, según los observadores de la Tierra, desde que sale la señal de la nave hasta que regresa. Es decir, la señal volverá a la nave a las 19 h 30 min (hora de la Tierra). Este intervalo de tiempo de 6 h 40 min (en el tiempo de la Tierra) entre el envío de la señal y la recepción de la respuesta, medido por el observador de la nave, será el tiempo propio correspondiente <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></math>, es decir:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mi>/</mi><mi>γ</mi><mo>=</mo><mn>2.4</mn><mo>⋅</mo><msup><mn>10</mn><mn>4</mn></msup><mi>/</mi><mn>1.6667</mn><mo>=</mo><mn>1.44</mn><mo>⋅</mo><msup><mn>10</mn><mn>4</mn></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> s</mtext></mrow><mo>=</mo><mn>4</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> h</mtext></mrow></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "Por tanto, la llegada de la señal de respuesta a la nave ocurrirá cuatro horas después de que la señal saliera (12 h 30 min, hora de la nave). Es decir, a las 16 h 30 min, hora de la nave."
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"inline\"><mi>•</mi></math> Tiene mucho interés ver cómo puede resolverse este ejercicio usando el <em>diagrama de Minkowski</em>. Primero dibujaremos los ejes <math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math> y <math display=\"inline\"><mrow><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></math> correspondientes, que, como se sabe por la teoría, tienen estas ecuaciones:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"inline\"><mi>•</mi></math> Eje <math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math>: <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mi>c</mi><mi>t</mi><mo>=</mo><mfrac><mi>v</mi><mi>c</mi></mfrac><mi>x</mi><mo>=</mo><mn>0.8</mn><mi>x</mi></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"inline\"><mi>•</mi></math> Eje <math display=\"inline\"><mrow><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></math>: <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mi>c</mi><mi>t</mi><mo>=</mo><mfrac><mi>c</mi><mi>v</mi></mfrac><mi>x</mi><mo>=</mo><mn>1.25</mn><mi>x</mi></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "Del mismo modo, los rayos de luz que viajan hacia delante y hacia atrás (que más adelante servirán de líneas auxiliares para dibujar los rayos) se expresarán así:"
+    },
+    {
+     "mota": "testua",
+     "html": "<img class=\"formula formula-d\" src=\"../media/formulak/c606713c6b3263c8.svg\" alt=\"c t = x #h(2em) c t = - x\" style=\"width:9.737em;height:0.948em\" loading=\"lazy\">"
+    },
+    {
+     "mota": "testua",
+     "html": "Las construcciones gráficas de las señales de la nave a la Tierra y de la posterior respuesta son claras, siguiendo en cada una la dirección paralela al eje de luz correspondiente. Por tanto, nos falta un único dato para empezar la resolución geométrica, y este puede ser el valor de <math display=\"inline\"><msub><mi>t</mi><mi>A</mi></msub></math>, pues el valor de <math display=\"inline\"><msubsup><mi>t</mi><mi>A</mi><mo>′</mo></msubsup></math> es un dato, al ser el tiempo propio. Como consecuencia del fenómeno de la dilatación del tiempo, entre los dos valores existe esta relación:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msub><mi>t</mi><mi>A</mi></msub><mo>=</mo><mi>γ</mi><mspace width=\"0.167em\"></mspace><msubsup><mi>t</mi><mi>A</mi><mo>′</mo></msubsup><mo>=</mo><mfrac><mn>5</mn><mn>3</mn></mfrac><mo>⋅</mo><mn>30</mn><mo>=</mo><mn>50</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> min</mtext></mrow><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mi>c</mi><msub><mi>t</mi><mi>A</mi></msub><mo>=</mo><mn>9</mn><mo>⋅</mo><msup><mn>10</mn><mn>11</mn></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "y el valor correspondiente de <math display=\"inline\"><msub><mi>x</mi><mi>A</mi></msub></math> para ese punto A será este: <math display=\"inline\"><mrow><msub><mi>x</mi><mi>A</mi></msub><mo>=</mo><mi>c</mi><msub><mi>t</mi><mi>A</mi></msub><mi>/</mi><mn>1.25</mn><mo>=</mo><mn>7.2</mn><mo>⋅</mo><msup><mn>10</mn><mn>11</mn></msup></mrow></math> m, como obtuvimos antes."
+    },
+    {
+     "mota": "testua",
+     "html": "[FIGURA: Diagrama de Minkowski. Eje <math display=\"inline\"><mrow><mi>c</mi><mi>t</mi></mrow></math> vertical y eje <math display=\"inline\"><mi>x</mi></math> horizontal, con origen O. Desde el origen, el eje <math display=\"inline\"><mrow><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></math> (recta de pendiente 1.25, etiquetada <math display=\"inline\"><mrow><mi>c</mi><mi>t</mi><mo>=</mo><mn>1.25</mn><mi>x</mi></mrow></math>) y el eje <math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math> (recta de pendiente 0.8, etiquetada <math display=\"inline\"><mrow><mi>c</mi><mi>t</mi><mo>=</mo><mn>0.8</mn><mi>x</mi></mrow></math>). Líneas auxiliares de luz punteadas <math display=\"inline\"><mrow><mi>c</mi><mi>t</mi><mo>=</mo><mi>x</mi></mrow></math> y <math display=\"inline\"><mrow><mi>c</mi><mi>t</mi><mo>=</mo><mi>−</mi><mi>x</mi></mrow></math>. Sobre el eje <math display=\"inline\"><mrow><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></math> se marcan los puntos A y C (con sus valores <math display=\"inline\"><mrow><mi>c</mi><msubsup><mi>t</mi><mi>A</mi><mo>′</mo></msubsup></mrow></math> y <math display=\"inline\"><mrow><mi>c</mi><msubsup><mi>t</mi><mi>C</mi><mo>′</mo></msubsup></mrow></math>); sobre el eje <math display=\"inline\"><mrow><mi>c</mi><mi>t</mi></mrow></math> se marcan las alturas <math display=\"inline\"><mrow><mi>c</mi><msub><mi>t</mi><mi>A</mi></msub></mrow></math>, <math display=\"inline\"><mrow><mi>c</mi><msub><mi>t</mi><mi>B</mi></msub></mrow></math> (punto B) y <math display=\"inline\"><mrow><mi>c</mi><msub><mi>t</mi><mi>C</mi></msub></mrow></math>; sobre el eje <math display=\"inline\"><mi>x</mi></math> se marcan <math display=\"inline\"><msub><mi>x</mi><mi>A</mi></msub></math> y <math display=\"inline\"><msub><mi>x</mi><mi>C</mi></msub></math>. Líneas de construcción punteadas: <math display=\"inline\"><mover><mrow><mi>A</mi><mi>B</mi></mrow><mo accent=\"true\">¯</mo></mover></math> (paralela a <math display=\"inline\"><mrow><mi>c</mi><mi>t</mi><mo>=</mo><mi>−</mi><mi>x</mi></mrow></math>, de A a B sobre el eje <math display=\"inline\"><mrow><mi>c</mi><mi>t</mi></mrow></math>) y <math display=\"inline\"><mover><mrow><mi>B</mi><mi>C</mi></mrow><mo accent=\"true\">¯</mo></mover></math> (paralela a <math display=\"inline\"><mrow><mi>c</mi><mi>t</mi><mo>=</mo><mi>x</mi></mrow></math>, de B al punto C sobre el eje <math display=\"inline\"><mrow><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></math>).]"
+    },
+    {
+     "mota": "testua",
+     "html": "El punto de corte entre la recta <math display=\"inline\"><mover><mrow><mi>A</mi><mi>B</mi></mrow><mo accent=\"true\">¯</mo></mover></math> y el eje <math display=\"inline\"><mrow><mi>c</mi><mi>t</mi></mrow></math> nos dará el instante en que la señal procedente de la nave llega a la Tierra:"
+    },
+    {
+     "mota": "testua",
+     "html": "<img class=\"formula formula-d\" src=\"../media/formulak/b3fa3dac336469be.svg\" alt=\"cases(delim: &quot;{&quot;, upright(&quot;Recta &quot;) overline(A B) : &amp; c t = - x + 1.62 dot.op 10^12, upright(&quot;Eje &quot;) c t : &amp; x = 0) quad arrow.r quad t_B = 5.4 dot.op 10^3 upright(&quot; s&quot;) = 1 upright(&quot; h &quot;) 30 upright(&quot; min&quot;)\" style=\"width:37.773em;height:3.684em\" loading=\"lazy\">"
+    },
+    {
+     "mota": "testua",
+     "html": "El punto C se obtiene de manera parecida, como corte de la paralela al eje de luz que pasa por B con el eje <math display=\"inline\"><mrow><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></math>:"
+    },
+    {
+     "mota": "testua",
+     "html": "<img class=\"formula formula-d\" src=\"../media/formulak/aec629688f434374.svg\" alt=\"cases(delim: &quot;{&quot;, upright(&quot;Recta &quot;) overline(B C) : &amp; c t = x + 1.62 dot.op 10^12, upright(&quot;Eje &quot;) c t&#x27; : &amp; c t = 1.25 x) #h(2em) {x_C = 6.48 dot.op 10^12 upright(&quot; m&quot;)\\ t_C = 2.70 dot.op 10^4 upright(&quot; s&quot;) = 7 upright(&quot; h &quot;) 30 upright(&quot; min&quot;)\" style=\"width:29.975em;height:5.706em\" loading=\"lazy\">"
+    },
+    {
+     "mota": "testua",
+     "html": "Volviendo este tiempo al tiempo de la nave mediante el factor <math display=\"inline\"><mi>γ</mi></math>, obtendremos esto:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msubsup><mi>t</mi><mi>C</mi><mo>′</mo></msubsup><mo>=</mo><msub><mi>t</mi><mi>C</mi></msub><mi>/</mi><mi>γ</mi><mo>=</mo><mn>2.7</mn><mo>⋅</mo><msup><mn>10</mn><mn>4</mn></msup><mi>/</mi><mn>1.667</mn><mo>=</mo><mn>1.62</mn><mo>⋅</mo><msup><mn>10</mn><mn>4</mn></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> s</mtext></mrow><mo>=</mo><mn>4</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> h </mtext><mspace width=\"0.333em\"></mspace></mrow><mn>30</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> min</mtext></mrow></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "que coincide con el tiempo calculado mediante el procedimiento anterior, por supuesto."
+    }
+   ]
+  },
+  {
+   "id": "a22",
+   "maila": 2,
+   "izenburua": "Enunciado",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "Dos fotones de energías 200 MeV y 150 MeV, respectivamente, se mueven en direcciones perpendiculares. ¿Cuáles son la energía y el momento lineal totales del sistema? Si una única partícula material tuviera la misma energía y el mismo momento lineal, ¿cuál sería su masa en reposo? ¿En qué dirección iría y con qué velocidad? Si dicha partícula tiene un periodo medio de desintegración de un milisegundo (medido en su sistema en reposo), ¿qué distancia recorrerá en promedio hasta desintegrarse?"
+    }
+   ]
+  },
+  {
+   "id": "a23",
+   "maila": 2,
+   "izenburua": "Solución (resuelta y comentada por el autor)",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": ""
+    },
+    {
+     "mota": "testua",
+     "html": "<strong>R.</strong>"
+    },
+    {
+     "mota": "testua",
+     "html": "La relación fundamental de la Dinámica Relativista nos dice esto:"
+    },
+    {
+     "mota": "testua",
+     "html": "<img class=\"formula formula-d\" src=\"../media/formulak/85c3d58a728dd3cb.svg\" alt=\"E^2 = E_0^2 + P^2 c^2 = m_0^2 c^4 + gamma^2 m_0^2 v^2 c^2 #h(2em) [gamma = \\( 1 - beta^2 \\)^(- 1 \\/ 2)]\" style=\"width:30.617em;height:1.647em\" loading=\"lazy\">"
+    },
+    {
+     "mota": "testua",
+     "html": "pues <math display=\"inline\"><mrow><mi>P</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi mathvariant=\"bold-italic\">𝑷</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>=</mo><mi>m</mi><mi>v</mi></mrow></math> y <math display=\"inline\"><mrow><mi>m</mi><mo>=</mo><mi>γ</mi><msub><mi>m</mi><mn>0</mn></msub></mrow></math>. En nuestro caso, como las masas en reposo de los fotones son nulas, la relación entre la energía y el momento será simplemente esta: <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mi>P</mi><mi>c</mi></mrow></math>."
+    },
+    {
+     "mota": "testua",
+     "html": "La energía total del sistema será la suma de las energías de los dos fotones:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>E</mi><mo>=</mo><msub><mi>E</mi><mn>1</mn></msub><mo>+</mo><msub><mi>E</mi><mn>2</mn></msub><mo>=</mo><mn>200</mn><mo>+</mo><mn>150</mn><mo>=</mo><mn>350</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> MeV</mtext></mrow></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "el módulo del momento lineal relativista, en cambio, se obtendrá de la composición vectorial de los momentos lineales de cada fotón, siendo perpendiculares sus direcciones:"
+    },
+    {
+     "mota": "testua",
+     "html": "<img class=\"formula formula-d\" src=\"../media/formulak/e046110ccf9aec88.svg\" alt=\"{P_(1 x) = 200 upright(&quot; MeV&quot;) \\/ c\\ P_(2 y) = 150 upright(&quot; MeV&quot;) \\/ c #h(2em) arrow.r #h(2em) P = sqrt(200^2 + 150^2) = 250 upright(&quot; MeV&quot;) \\/ c\" style=\"width:33.154em;height:3.829em\" loading=\"lazy\">"
+    },
+    {
+     "mota": "testua",
+     "html": "Del mismo modo, podemos obtener la dirección del momento lineal total:"
+    },
+    {
+     "mota": "testua",
+     "html": "<img class=\"formula formula-d\" src=\"../media/formulak/a673080af5a5695d.svg\" alt=\"tan theta = P_(2 y) / P_(1 x) = 150 / 200 = 0.75 #h(2em) arrow.r #h(2em) theta = 36 degree 52&#x27; 12&#x27;&#x27;\" style=\"width:26.006em;height:2.997em\" loading=\"lazy\">"
+    },
+    {
+     "mota": "testua",
+     "html": "Si el portador de esa energía y de ese momento fuera una partícula de masa no nula, podemos calcular su masa en reposo partiendo de la relación fundamental de la Dinámica Relativista:"
+    },
+    {
+     "mota": "testua",
+     "html": "<img class=\"formula formula-d\" src=\"../media/formulak/96028fb61356a67f.svg\" alt=\"E_0 = sqrt(E^2 - P^2 c^2) = sqrt(350^2 - 250^2) = 245 upright(&quot; MeV&quot;) #h(2em) arrow.r #h(2em) m_0 = 245 upright(&quot; MeV&quot;) \\/ c^2\" style=\"width:40.236em;height:1.691em\" loading=\"lazy\">"
+    },
+    {
+     "mota": "testua",
+     "html": "La velocidad de la partícula <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mi>γ</mi><msub><mi>E</mi><mn>0</mn></msub></mrow></math> podemos obtenerla de la relación. Tendremos:"
+    },
+    {
+     "mota": "testua",
+     "html": "<img class=\"formula formula-d\" src=\"../media/formulak/f33dd253b03a947b.svg\" alt=\"gamma = E / E_0 = 350 / 245 approx 1.43 #h(2em) arrow.r #h(2em) v = 0.714 thin c\" style=\"width:22.421em;height:2.878em\" loading=\"lazy\">"
+    },
+    {
+     "mota": "testua",
+     "html": "y la dirección en que se mueve será la calculada antes para el vector momento lineal total: <math display=\"inline\"><mrow><mi>θ</mi><mo>=</mo><mn>36</mn><msup><mi></mi><mo>∘</mo></msup><msup><mn>52</mn><mo>′</mo></msup><msup><mn>12</mn><mo>″</mo></msup></mrow></math>."
+    },
+    {
+     "mota": "testua",
+     "html": "Si el periodo medio de desintegración en su sistema en reposo es <math display=\"inline\"><mrow><mi>τ</mi><mo>=</mo><mn>1</mn></mrow></math> ms, en el sistema de observación, teniendo en cuenta el fenómeno de la dilatación del tiempo, será <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mi>γ</mi><mi>τ</mi><mo>=</mo><mn>1.43</mn></mrow></math> ms y, como se mueve con velocidad <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>0.714</mn><mspace width=\"0.167em\"></mspace><mi>c</mi></mrow></math>, la distancia media recorrida hasta desintegrarse será, simplemente, esta:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mo>=</mo><mi>v</mi><mi>t</mi><mo>=</mo><mn>0.714</mn><mspace width=\"0.167em\"></mspace><mi>c</mi><mo>×</mo><mn>1.43</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>3</mn></mrow></msup><mo>=</mo><mn>3.06</mn><mo>×</mo><msup><mn>10</mn><mn>5</mn></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow></mrow></math>"
+    }
+   ]
+  },
+  {
+   "id": "a24",
+   "maila": 2,
+   "izenburua": "Enunciado",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "En el experimento de Compton, los fotones perdían energía al dispersarse con electrones prácticamente en reposo. Sin embargo, si el electrón se mueve lo bastante deprisa, el fotón puede ganar energía. ¿Cómo deben ser la energía y el momento lineal del electrón para que el fotón gane energía en la colisión de la figura? Demuestra que si la energía del electrón es muy grande, la energía del fotón tras la colisión es como la del electrón antes de la colisión, sea cual sea la energía inicial del fotón. [<em>Observación</em>: El cálculo puede simplificarse elevando al cuadrado algunas expresiones]."
+    },
+    {
+     "mota": "testua",
+     "html": "[Figura: colisión frontal en dos instantes. - (Arriba, antes de la colisión) el electrón e⁻ se mueve hacia la derecha (→) y el fotón hν en sentido contrario, hacia la izquierda (←), representado como una onda. - (Abajo, después de la colisión) el electrón e⁻ se mueve hacia la derecha (→) y el fotón hν&#x27; se mueve ahora también hacia la derecha (→), representado como una onda.]"
+    }
+   ]
+  },
+  {
+   "id": "a25",
+   "maila": 2,
+   "izenburua": "Solución (resuelta y comentada por el autor)",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": ""
+    },
+    {
+     "mota": "testua",
+     "html": "<strong>R.</strong>"
+    },
+    {
+     "mota": "testua",
+     "html": "En la figura de arriba se representa el momento antes de la colisión, con el electrón de energía E y momento p, y el fotón aportando una energía hν y un momento hν/c.&nbsp;En la figura de abajo se muestra la situación posterior a la colisión, siendo la energía y el momento nuevos de las dos partículas, respectivamente, E&#x27;, p&#x27;, hν&#x27; y hν&#x27;/c.&nbsp;Como la energía y el momento lineal del sistema se conservarán, se cumplirán estas relaciones:"
+    },
+    {
+     "mota": "testua",
+     "html": "<img class=\"formula formula-d\" src=\"../media/formulak/559ad990e73cbfc9.svg\" alt=\"{E + h nu = E&#x27; + h nu&#x27;\\ p - frac(h nu, c) = p&#x27; + frac(h nu&#x27;, c) #h(2em) {E + h nu = E&#x27; + h nu&#x27;\\ c p - h nu = c p&#x27; + h nu&#x27;\" style=\"width:22.156em;height:6.420em\" loading=\"lazy\">"
+    },
+    {
+     "mota": "testua",
+     "html": "Sumando y restando las dos ecuaciones, operando brevemente, tendremos:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>E</mi><mo>−</mo><mi>c</mi><mi>p</mi><mo>+</mo><mn>2</mn><mi>h</mi><mi>ν</mi><mo>=</mo><msup><mi>E</mi><mo>′</mo></msup><mo>−</mo><mi>c</mi><msup><mi>p</mi><mo>′</mo></msup></mrow></math> <math display=\"block\"><mrow><mi>E</mi><mo>+</mo><mi>c</mi><mi>p</mi><mo>−</mo><mn>2</mn><msup><mi>ν</mi><mo>′</mo></msup><mo>=</mo><msup><mi>E</mi><mo>′</mo></msup><mo>+</mo><mi>c</mi><msup><mi>p</mi><mo>′</mo></msup></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "Además, para el electrón debe cumplirse la relación energía-momento tanto antes como después de la colisión. Esto se traduce así:"
+    },
+    {
+     "mota": "testua",
+     "html": "<img class=\"formula formula-d\" src=\"../media/formulak/6a02d09e72c1d389.svg\" alt=\"{E^2 = p^2 c^2 + m^2 c^4\\ E&#x27; &quot;&quot;^2 = c^2 p&#x27; &quot;&quot;^2 + m^2 c^4 #h(0em) arrow.r #h(0em) E^2 - c^2 p^2 = E&#x27; &quot;&quot;^2 - c^2 p&#x27; &quot;&quot;^2\" style=\"width:23.757em;height:3.410em\" loading=\"lazy\">"
+    },
+    {
+     "mota": "testua",
+     "html": "donde m es su masa en reposo. Ahora, si multiplicamos miembro a miembro las dos ecuaciones obtenidas aplicando las leyes de conservación de la energía y del momento, el segundo miembro de la expresión resultante coincide con el segundo miembro de lo obtenido de esta última relación energía-momento. Por tanto, igualando los primeros miembros de las dos expresiones y simplificando, obtendremos esta relación:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup><mo>=</mo><mfrac><mrow><mi>E</mi><mo>+</mo><mi>c</mi><mi>p</mi></mrow><mrow><mi>E</mi><mo>−</mo><mi>c</mi><mi>p</mi><mo>+</mo><mn>2</mn><mi>h</mi><mi>ν</mi></mrow></mfrac><mspace width=\"0.167em\"></mspace><mi>h</mi><mi>ν</mi></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "esto nos da la energía del fotón que sale de la interacción en función de las características dinámicas del electrón y del fotón que entran. Podemos reducir aún más el número de variables que hay que tener en cuenta usando la relación energía-momento y despejando cp en función de la energía E del electrón. Así, nos quedará esto:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup><mo>=</mo><mfrac><mrow><mi>E</mi><mo>+</mo><msqrt><mrow><msup><mi>E</mi><mn>2</mn></msup><mo>−</mo><msup><mi>m</mi><mn>2</mn></msup><msup><mi>c</mi><mn>4</mn></msup></mrow></msqrt></mrow><mrow><mi>E</mi><mo>−</mo><msqrt><mrow><msup><mi>E</mi><mn>2</mn></msup><mo>−</mo><msup><mi>m</mi><mn>2</mn></msup><msup><mi>c</mi><mn>4</mn></msup></mrow></msqrt><mo>+</mo><mn>2</mn><mi>h</mi><mi>ν</mi></mrow></mfrac><mspace width=\"0.167em\"></mspace><mi>h</mi><mi>ν</mi></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "De aquí, la condición para que el fotón gane energía en su colisión, es decir, para que sea hν&#x27; &gt; hν, es (usemos la expresión más simplificada):"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>E</mi><mo>+</mo><mi>c</mi><mi>p</mi><mo>&gt;</mo><mi>E</mi><mo>−</mo><mi>c</mi><mi>p</mi><mo>+</mo><mn>2</mn><mi>h</mi><mi>ν</mi><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mi>p</mi><mo>&gt;</mo><mfrac><mrow><mi>h</mi><mi>ν</mi></mrow><mi>c</mi></mfrac></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "es decir, que el momento lineal del electrón sea mayor que el momento lineal del fotón. En cuanto a la energía del electrón, teniendo en cuenta la relación energía-momento y la última condición obtenida, deberá cumplirse esto:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>E</mi><mo>=</mo><msqrt><mrow><msup><mi>c</mi><mn>2</mn></msup><msup><mi>p</mi><mn>2</mn></msup><mo>+</mo><msup><mi>m</mi><mn>2</mn></msup><msup><mi>c</mi><mn>4</mn></msup></mrow></msqrt><mo>&gt;</mo><msqrt><mrow><msup><mi>h</mi><mn>2</mn></msup><msup><mi>ν</mi><mn>2</mn></msup><mo>+</mo><msup><mi>m</mi><mn>2</mn></msup><msup><mi>c</mi><mn>4</mn></msup></mrow></msqrt></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "Por último, si la energía del electrón es muy grande (es decir, si E ≫ mc²), la energía del fotón que sale puede aproximarse así:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup><mo>=</mo><mfrac><mrow><mi>E</mi><mo>+</mo><msqrt><mrow><msup><mi>E</mi><mn>2</mn></msup><mo>−</mo><msup><mi>m</mi><mn>2</mn></msup><msup><mi>c</mi><mn>4</mn></msup></mrow></msqrt></mrow><mrow><mi>E</mi><mo>−</mo><msqrt><mrow><msup><mi>E</mi><mn>2</mn></msup><mo>−</mo><msup><mi>m</mi><mn>2</mn></msup><msup><mi>c</mi><mn>4</mn></msup></mrow></msqrt><mo>+</mo><mn>2</mn><mi>h</mi><mi>ν</mi></mrow></mfrac><mspace width=\"0.167em\"></mspace><mi>h</mi><mi>ν</mi><mo>≃</mo><mfrac><mrow><mn>2</mn><mi>E</mi></mrow><mrow><mn>2</mn><mi>h</mi><mi>ν</mi></mrow></mfrac><mspace width=\"0.167em\"></mspace><mi>h</mi><mi>ν</mi><mo>=</mo><mi>E</mi></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "Es decir, la energía del fotón que sale es como la del electrón que entra."
+    }
+   ]
+  },
+  {
+   "id": "a26",
+   "maila": 2,
+   "izenburua": "Enunciado",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "Algunos aceleradores pueden dar protones de energía de 200 GeV (1 GeV"
+    }
+   ]
+  },
+  {
+   "id": "a27",
+   "maila": 1,
+   "izenburua": "10^9 eV). Calcula la máxima energía en reposo posible para una partícula X,",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "expresada en GeV, que puede producirse cuando uno de esos protones de alta energía choca con un protón en reposo, según la siguiente reacción:"
+    },
+    {
+     "mota": "testua",
+     "html": "<img class=\"formula formula-d\" src=\"../media/formulak/18ccaabfda95eb84.svg\" alt=\"p + p #h(0em) arrow.r #h(0em) p + p + X\" style=\"width:9.032em;height:1.226em\" loading=\"lazy\">"
+    },
+    {
+     "mota": "testua",
+     "html": "[<em>Observación</em>: La energía en reposo de un protón es 0.938 GeV]."
+    }
+   ]
+  },
+  {
+   "id": "a28",
+   "maila": 2,
+   "izenburua": "Solución (resuelta y comentada por el autor)",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": ""
+    },
+    {
+     "mota": "testua",
+     "html": "<strong>R.</strong>"
+    },
+    {
+     "mota": "testua",
+     "html": "Si nos situamos en el sistema del centro de masas de la pareja inicial protón-protón, veremos que ambos viajan hacia el punto de encuentro con la misma velocidad. Tras la colisión, además de los dos protones originales, tendremos la partícula X, fruto de la transformación de la energía cinética aportada por los protones iniciales, con una masa en reposo determinada, moviéndose con una velocidad determinada (es decir, con una energía cinética determinada). La situación descrita nos dice que calculemos la energía en reposo máxima de esta partícula X, y esto ocurrirá cuando toda la energía cinética que los dos protones aportan a la colisión se convierta en energía en reposo de la partícula X. Es decir, al final tendremos que las tres partículas resultantes de la colisión quedan en reposo en el sistema del centro de masas."
+    },
+    {
+     "mota": "testua",
+     "html": "En el sistema del laboratorio, la partícula incidente de velocidad <math display=\"inline\"><mi>u</mi></math> choca con el protón en reposo y los dos protones, además de la partícula X producida en la colisión, saldrán juntos con velocidad <math display=\"inline\"><mi>v</mi></math>. El cuadrimomento es una magnitud invariante; por tanto, compararemos el módulo del cuadrimomento antes de la colisión en el sistema del laboratorio con el módulo del cuadrimomento después de la colisión en el sistema del centro de masas. Así:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msup><mi>P</mi><mn>2</mn></msup><msup><mi>c</mi><mn>2</mn></msup><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>E</mi><mo>+</mo><msub><mi>E</mi><mn>0</mn></msub><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>=</mo><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><msub><mi>E</mi><mn>0</mn></msub><mo>+</mo><msub><mi>E</mi><mrow><mi>X</mi><mn>0</mn></mrow></msub><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "donde <math display=\"inline\"><mi>P</mi></math> es el momento relativista del sistema antes de la colisión en el sistema del laboratorio, <math display=\"inline\"><mi>E</mi></math> y <math display=\"inline\"><msub><mi>E</mi><mn>0</mn></msub></math> son la energía relativista del protón incidente y la energía en reposo del protón blanco, respectivamente, y las cantidades del segundo miembro corresponden a las energías en reposo de las tres partículas en el sistema del centro de masas (de hecho, el momento relativista es nulo en este sistema). Además, en el sistema del laboratorio se cumple <math display=\"inline\"><mrow><msup><mi>E</mi><mn>2</mn></msup><mo>=</mo><msup><mi>P</mi><mn>2</mn></msup><msup><mi>c</mi><mn>2</mn></msup><mo>+</mo><msubsup><mi>E</mi><mn>0</mn><mn>2</mn></msubsup></mrow></math> (pues el momento relativista total lo aporta el protón incidente). Sustituyendo este dato en la ecuación anterior:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msup><mi>E</mi><mn>2</mn></msup><mo>−</mo><msubsup><mi>E</mi><mn>0</mn><mn>2</mn></msubsup><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>E</mi><mo>+</mo><msub><mi>E</mi><mn>0</mn></msub><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>=</mo><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><msub><mi>E</mi><mn>0</mn></msub><mo>+</mo><msub><mi>E</mi><mrow><mi>X</mi><mn>0</mn></mrow></msub><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "Resolviendo la ecuación de segundo grado en <math display=\"inline\"><msub><mi>E</mi><mrow><mi>X</mi><mn>0</mn></mrow></msub></math> resultante y simplificando, nos queda esto:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msub><mi>E</mi><mrow><mi>X</mi><mn>0</mn></mrow></msub><mo>=</mo><msqrt><mrow><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>E</mi><mo>+</mo><msub><mi>E</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><msub><mi>E</mi><mn>0</mn></msub></mrow></msqrt><mo>−</mo><mn>2</mn><msub><mi>E</mi><mn>0</mn></msub><mo>=</mo><mn>17.539</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> GeV</mtext></mrow></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "donde hemos sustituido los datos dados por el texto: <math display=\"inline\"><mrow><msub><mi>E</mi><mn>0</mn></msub><mo>=</mo><mn>0.938</mn></mrow></math> GeV y <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mn>200</mn></mrow></math> GeV. [<em>Observación</em>: Hemos descartado la segunda solución, que sería la del signo <math display=\"inline\"><mi>−</mi></math> delante del radical, porque nos daría una masa en reposo negativa, lo que es absurdo]."
+    },
+    {
+     "mota": "zerrenda",
+     "ordenatua": false,
+     "elementuak": [
+      "<em>Otro método</em>: Trabajemos en el sistema del laboratorio y tengamos en cuenta la conservación de la energía y del momento relativista entre antes y después de la colisión. Escribamos, con la hipótesis vista antes, que las partículas resultantes salen las tres juntas:"
+     ]
+    },
+    {
+     "mota": "zerrenda",
+     "ordenatua": false,
+     "elementuak": [
+      "Conserv. Energía <math display=\"inline\"><mrow><msub><mi>γ</mi><mi>u</mi></msub><msub><mi>E</mi><mn>0</mn></msub><mo>+</mo><msub><mi>E</mi><mn>0</mn></msub><mo>=</mo><msub><mi>γ</mi><mi>v</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><msub><mi>E</mi><mn>0</mn></msub><mo>+</mo><msub><mi>E</mi><mrow><mi>X</mi><mn>0</mn></mrow></msub><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>",
+      "Conserv. Momento <math display=\"inline\"><mrow><msub><mi>γ</mi><mi>u</mi></msub><msub><mi>E</mi><mn>0</mn></msub><mi>u</mi><mo>=</mo><msub><mi>γ</mi><mi>v</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><msub><mi>E</mi><mn>0</mn></msub><mo>+</mo><msub><mi>E</mi><mrow><mi>X</mi><mn>0</mn></mrow></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>v</mi></mrow></math>"
+     ]
+    },
+    {
+     "mota": "testua",
+     "html": "En la conservación del momento relativista hemos partido de esta ecuación: <math display=\"inline\"><mrow><msub><mi>γ</mi><mi>u</mi></msub><msub><mi>M</mi><mn>0</mn></msub><mi>u</mi><mo>=</mo><msub><mi>γ</mi><mi>v</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><msub><mi>M</mi><mn>0</mn></msub><mo>+</mo><msub><mi>M</mi><mrow><mi>X</mi><mn>0</mn></mrow></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>v</mi></mrow></math>, que hemos multiplicado por <math display=\"inline\"><msup><mi>c</mi><mn>2</mn></msup></math> para obtener la relación anterior. Dividiendo miembro a miembro las ecuaciones anteriores, hemos llegado a esto:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>v</mi><mo>=</mo><mfrac><mrow><msub><mi>γ</mi><mi>u</mi></msub><mi>u</mi></mrow><mrow><msub><mi>γ</mi><mi>u</mi></msub><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "Pero conocemos la energía del protón incidente y su energía en reposo, que cumplen la relación <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><msub><mi>γ</mi><mi>u</mi></msub><msub><mi>E</mi><mn>0</mn></msub></mrow></math>, por tanto <math display=\"inline\"><mrow><msub><mi>γ</mi><mi>u</mi></msub><mo>=</mo><mi>E</mi><mi>/</mi><msub><mi>E</mi><mn>0</mn></msub><mo>=</mo><mn>200</mn><mi>/</mi><mn>0.938</mn><mo>=</mo><mn>213.22</mn></mrow></math>, correspondiente a la velocidad <math display=\"inline\"><mrow><mi>u</mi><mo>=</mo><mn>0.999989</mn><mspace width=\"0.167em\"></mspace><mi>c</mi></mrow></math>. Llevando estos datos a la ecuación de arriba:"
+    },
+    {
+     "mota": "testua",
+     "html": "<img class=\"formula formula-d\" src=\"../media/formulak/75e9ad9c590e5611.svg\" alt=\"v = 0.995321 thin c #h(0em) arrow.r #h(0em) gamma_v = 10.349\" style=\"width:14.473em;height:1.289em\" loading=\"lazy\">"
+    },
+    {
+     "mota": "testua",
+     "html": "Sustituyendo estos valores en la ecuación de conservación de la energía, por ejemplo, recuperamos fácilmente el resultado anterior: <math display=\"inline\"><mrow><msub><mi>E</mi><mrow><mi>X</mi><mn>0</mn></mrow></msub><mo>=</mo><mn>17.539</mn></mrow></math> GeV."
+    }
+   ]
+  },
+  {
+   "id": "a29",
+   "maila": 2,
+   "izenburua": "Enunciado",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "De vez en cuando, una estrella sufre una explosión y sus capas externas son expulsadas a gran velocidad. A una estrella de este tipo se la llama &quot;nova&quot; y brilla intensamente durante cierto tiempo. Se observa que la apertura angular de una &quot;nova&quot; aumenta al ritmo de 0.864 × 10⁻³ ″/día. Además, el espectro de emisión de la luz recibida muestra dos líneas separadas 10 Å donde debería estar la línea de longitud de onda de 5000 Å de un espectro estelar normal. Interpretando que esas líneas corresponden a la luz procedente de las regiones superficiales que se alejan y se acercan en la dirección de la Tierra, calcula la distancia a la que está la estrella, en años luz."
+    },
+    {
+     "mota": "testua",
+     "html": "[Figura: circunferencia de radio r centrada en E; sobre el diámetro horizontal y de izquierda a derecha, los puntos R, E, A. Desde allí, hacia la derecha, una línea larga hasta el observador O; se marca el ángulo α junto a O y se etiqueta la distancia d a lo largo de la línea entre la estrella y O.]"
+    }
+   ]
+  },
+  {
+   "id": "a30",
+   "maila": 2,
+   "izenburua": "Solución (resuelta y comentada por el autor)",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": ""
+    },
+    {
+     "mota": "testua",
+     "html": "<strong>R.</strong>"
+    },
+    {
+     "mota": "testua",
+     "html": "En la figura se muestra la situación que se explica en el texto. Pasado un tiempo t desde el momento de la explosión, el frente que representa la capa externa de la estrella E que se convierte en &quot;nova&quot; forma una capa esférica de radio r = vt, siendo v la velocidad de propagación de ese frente. El observador situado en O, a una distancia d ≫ r, observa el espectro de emisión de la estrella de los rayos que vienen de los puntos A y R y, en lugar de la señal de identificación que debería situarse en λ = 5000 Å, encuentra que alrededor de ese punto aparecen dos señales separadas por un intervalo de 10 Å. Los puntos de los que proceden las dos señales los hemos marcado a propósito como A(azul) y R(rojo) para indicar lo que nos dice la teoría del efecto Doppler relativista: para una fuente que se acerca (como en A) habrá un desplazamiento de la señal hacia el azul, y para una fuente que se aleja (como en R) habrá un desplazamiento de la señal hacia el rojo. Si tenemos en cuenta la expresión de la longitud de onda percibida en función de la velocidad de la fuente y del ángulo θ que forma la dirección de visión hacia la fuente con esa dirección, como si pusiéramos la estrella en el infinito (recuerda la teoría), que dice:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>λ</mi><mo>=</mo><msub><mi>λ</mi><mn>0</mn></msub><mspace width=\"0.167em\"></mspace><mfrac><mrow><mn>1</mn><mo>+</mo><mi>β</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>β</mi><mn>2</mn></msup><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup></mrow></mfrac></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "donde λ₀ es la longitud de onda percibida por el observador en reposo relativo respecto de la fuente, y β = v/c.&nbsp;Por tanto, las longitudes de onda que el observador de O percibe en las señales procedentes de los puntos R y A corresponden, respectivamente, a los valores θ = 0 y θ = π. Es decir:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msub><mi>λ</mi><mi>R</mi></msub><mo>=</mo><msub><mi>λ</mi><mn>0</mn></msub><mspace width=\"0.167em\"></mspace><mfrac><mrow><mn>1</mn><mo>+</mo><mi>β</mi></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>β</mi><mn>2</mn></msup><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup></mrow></mfrac><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>β</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>β</mi><mn>2</mn></msup><mo>+</mo><mi>⋯</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msub><mi>λ</mi><mn>0</mn></msub></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msub><mi>λ</mi><mi>A</mi></msub><mo>=</mo><msub><mi>λ</mi><mn>0</mn></msub><mspace width=\"0.167em\"></mspace><mfrac><mrow><mn>1</mn><mo>−</mo><mi>β</mi></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>β</mi><mn>2</mn></msup><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup></mrow></mfrac><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>β</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>β</mi><mn>2</mn></msup><mo>+</mo><mi>⋯</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msub><mi>λ</mi><mn>0</mn></msub></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "La diferencia entre las dos longitudes de onda percibidas (no tienen por qué ser simétricas respecto de λ₀) será, en buena aproximación, esta:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>λ</mi><mo>=</mo><msub><mi>λ</mi><mi>R</mi></msub><mo>−</mo><msub><mi>λ</mi><mi>A</mi></msub><mo>≃</mo><mn>2</mn><mi>β</mi><msub><mi>λ</mi><mn>0</mn></msub><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mi>v</mi><mo>=</mo><mfrac><mrow><mi>c</mi><mspace width=\"0.167em\"></mspace><mi mathvariant=\"normal\">Δ</mi><mi>λ</mi></mrow><mrow><mn>2</mn><msub><mi>λ</mi><mn>0</mn></msub></mrow></mfrac></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "De esta relación podemos obtener la velocidad de propagación v = ṙ del frente mencionado. Además, volviendo a la figura, podemos establecer la siguiente relación trigonométrica:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>α</mi><mo>≃</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>α</mi><mo>=</mo><mfrac><mi>r</mi><mi>d</mi></mfrac><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mi>r</mi><mo>=</mo><mi>d</mi><mi>α</mi><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mover><mi>r</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>v</mi><mo>=</mo><mi>d</mi><mover><mi>α</mi><mo accent=\"true\">̇</mo></mover></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "donde α̇ es la mitad de la velocidad angular a la que aumenta el diámetro de la &quot;nova&quot; observada desde la Tierra (pues α representa la mitad de la apertura angular de la nova). Por tanto, y teniendo en cuenta que 0.864 × 10⁻³ ″/día =:4.8481 × 10⁻¹⁴ rad/s"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>d</mi><mo>=</mo><mfrac><mi>v</mi><mover><mi>α</mi><mo accent=\"true\">̇</mo></mover></mfrac><mo>=</mo><mfrac><mrow><mi>c</mi><mspace width=\"0.167em\"></mspace><mi mathvariant=\"normal\">Δ</mi><mi>λ</mi></mrow><mrow><mn>2</mn><msub><mi>λ</mi><mn>0</mn></msub><mover><mi>α</mi><mo accent=\"true\">̇</mo></mover></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mo>×</mo><msup><mn>10</mn><mn>8</mn></msup><mo>⋅</mo><mn>10</mn></mrow><mrow><mn>2</mn><mo>×</mo><mn>5000</mn><mo>×</mo><mn>2.424</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>14</mn></mrow></msup></mrow></mfrac><mo>=</mo><mn>1.238</mn><mo>×</mo><msup><mn>10</mn><mn>19</mn></msup><mspace width=\"0.222em\"></mspace><mi mathvariant=\"normal\">m</mi><mo>=</mo><mn>1309</mn><mspace width=\"0.222em\"></mspace><mtext mathvariant=\"normal\">años-luz</mtext></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "<em>Otro método para obtener β.</em>"
+    },
+    {
+     "mota": "testua",
+     "html": "Si dividimos miembro a miembro λ_R y λ_A, teniendo en cuenta que λ_R = λ_A + 10, obtendremos esto:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mfrac><msub><mi>λ</mi><mi>R</mi></msub><msub><mi>λ</mi><mi>A</mi></msub></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn><mo>+</mo><mi>β</mi></mrow><mrow><mn>1</mn><mo>−</mo><mi>β</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><msub><mi>λ</mi><mi>A</mi></msub><mo>+</mo><mn>10</mn></mrow><msub><mi>λ</mi><mi>A</mi></msub></mfrac></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "Pero además, reescribiendo λ_A en función de λ₀:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msub><mi>λ</mi><mi>A</mi></msub><mo>=</mo><msub><mi>λ</mi><mn>0</mn></msub><msqrt><mfrac><mrow><mn>1</mn><mo>−</mo><mi>β</mi></mrow><mrow><mn>1</mn><mo>+</mo><mi>β</mi></mrow></mfrac></msqrt><mo>=</mo><mn>5000</mn><msqrt><mfrac><msub><mi>λ</mi><mi>A</mi></msub><mrow><msub><mi>λ</mi><mi>A</mi></msub><mo>+</mo><mn>10</mn></mrow></mfrac></msqrt></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "que nos lleva a una ecuación se segundo grado cuya única solución válida, en buena aproximación, es λ_A = 4995 Å (las dos líneas son prácticamente simétricas respecto a λ₀). Sustituido este valor en el recientemente calculado cociente λ_R/λ_A en función de β, obtenemos sin dificultad β ≃ 10⁻³. A partir de aquí, el camino para obtener la distancia a la estrella es el mismo que antes."
+    }
+   ]
+  },
+  {
+   "id": "a31",
+   "maila": 2,
+   "izenburua": "Enunciado",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "Al desintegrarse una partícula de masa <math display=\"inline\"><mi>M</mi></math> en reposo, se producen un fotón y una nueva partícula de masa <math display=\"inline\"><mi>m</mi></math>. Obtén las energías de las partículas producidas en función de <math display=\"inline\"><mi>M</mi></math> y <math display=\"inline\"><mi>m</mi></math>."
+    }
+   ]
+  },
+  {
+   "id": "a32",
+   "maila": 2,
+   "izenburua": "Solución (resuelta y comentada por el autor)",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "Hay que aplicar los dos principios de conservación: el de la energía mecánica y el del momento lineal. Las dos masas dadas como datos son masas en reposo. Si la energía del fotón que sale es <math display=\"inline\"><mi>Q</mi></math>, las expresiones de los dos principios son las siguientes:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>M</mi><msup><mi>c</mi><mn>2</mn></msup><mo>=</mo><mi>γ</mi><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup><mo>+</mo><mi>Q</mi></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mn>0</mn><mo>=</mo><mi>γ</mi><mi>m</mi><mi>v</mi><mo>−</mo><mfrac><mi>Q</mi><mi>c</mi></mfrac></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "Si usamos el sistema de referencia en el que la masa <math display=\"inline\"><mi>M</mi></math> está en reposo, las partículas que salen y el fotón deben salir necesariamente en direcciones opuestas, y eso es lo que expresa la segunda ecuación, donde <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>β</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>−</mi><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup></mrow></math>, <math display=\"inline\"><mrow><mi>β</mi><mo>=</mo><mi>v</mi><mi>/</mi><mi>c</mi></mrow></math>. Haciendo las operaciones, escribiremos así:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>Q</mi><mo>=</mo><mi>γ</mi><mi>m</mi><mi>v</mi><mi>c</mi><mo>=</mo><mi>γ</mi><mi>β</mi><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "y sustituyendo en la primera ecuación, tras unas operaciones sencillas, podemos escribir así:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mfrac><mi>M</mi><mi>m</mi></mfrac><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>β</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msqrt><mfrac><mrow><mn>1</mn><mo>+</mo><mi>β</mi></mrow><mrow><mn>1</mn><mo>−</mo><mi>β</mi></mrow></mfrac></msqrt></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "Los valores correspondientes de <math display=\"inline\"><mi>β</mi></math> y <math display=\"inline\"><mi>γ</mi></math> son los siguientes:"
+    },
+    {
+     "mota": "testua",
+     "html": "<img class=\"formula formula-d\" src=\"../media/formulak/9bee8b7ead79f604.svg\" alt=\"beta = frac(M^2 - m^2, M^2 + m^2) #h(2em) gamma = frac(M^2 + m^2, 2 M m)\" style=\"width:16.887em;height:2.843em\" loading=\"lazy\">"
+    },
+    {
+     "mota": "testua",
+     "html": "Por tanto, las energías de las partículas que salen serán las siguientes:"
+    },
+    {
+     "mota": "testua",
+     "html": "<img class=\"formula formula-d\" src=\"../media/formulak/edaae23510d2797e.svg\" alt=\"E_m = gamma m c^2 = frac(M^2 + m^2, 2 M) c^2 #h(2em) Q = gamma beta m c^2 = frac(M^2 - m^2, 2 M) c^2\" style=\"width:29.552em;height:2.747em\" loading=\"lazy\">"
+    },
+    {
+     "mota": "testua",
+     "html": "Como era de esperar, la suma de ambas es la energía en reposo de la partícula que se desintegra: <math display=\"inline\"><mrow><msub><mi>E</mi><mi>M</mi></msub><mo>=</mo><mi>M</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></math>."
+    }
+   ]
+  },
+  {
+   "id": "a33",
+   "maila": 2,
+   "izenburua": "Enunciado",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "Dos protones de la misma energía (<math display=\"inline\"><mi>E</mi></math>) chocan frontalmente, es decir, con velocidades iguales y opuestas. Siendo la"
+    },
+    {
+     "mota": "testua",
+     "html": "<em>energía disponible</em>"
+    },
+    {
+     "mota": "testua",
+     "html": "de las partículas que chocan la energía que hay en el sistema de referencia del centro de momentos:"
+    },
+    {
+     "mota": "zerrenda",
+     "ordenatua": true,
+     "elementuak": [
+      "Halla la energía disponible de la pareja de protones."
+     ]
+    },
+    {
+     "mota": "zerrenda",
+     "ordenatua": true,
+     "elementuak": [
+      "¿Cuál es la energía en reposo máxima de las partículas que se producen? Razona la respuesta."
+     ]
+    },
+    {
+     "mota": "zerrenda",
+     "ordenatua": true,
+     "elementuak": [
+      "Calcula, en función de <math display=\"inline\"><mi>E</mi></math> y de la energía en reposo del protón (<math display=\"inline\"><mi>μ</mi></math>), la energía de un protón en el sistema de referencia en el que el otro protón está en reposo."
+     ]
+    },
+    {
+     "mota": "zerrenda",
+     "ordenatua": true,
+     "elementuak": [
+      "¿A qué energía debería acelerarse un protón para que, al chocar con otro protón (que está en reposo), la energía disponible sea igual a la del apartado a.?"
+     ]
+    },
+    {
+     "mota": "zerrenda",
+     "ordenatua": true,
+     "elementuak": [
+      "Aplica los resultados a estos datos: <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mn>28</mn></mrow></math> GeV (anillos de almacenamiento del CERN), <math display=\"inline\"><mrow><mi>μ</mi><mo>=</mo><mn>0.938</mn></mrow></math> GeV."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a34",
+   "maila": 2,
+   "izenburua": "Solución (resuelta y comentada por el autor)",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": ""
+    },
+    {
+     "mota": "testua",
+     "html": "<strong>R.</strong>"
+    },
+    {
+     "mota": "testua",
+     "html": "<strong>a.</strong>"
+    },
+    {
+     "mota": "testua",
+     "html": "Al tratarse de partículas idénticas de la misma energía que chocan frontalmente, los sistemas de referencia del laboratorio y del centro de momentos coinciden, pues en el primero el momento lineal total es <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝒑</mi><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi mathvariant=\"bold-italic\">𝒑</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>, y esa es la única condición que debe cumplir el centro de momentos. Por tanto,"
+    },
+    {
+     "mota": "testua",
+     "html": "<em>energía disponible</em>"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"inline\"><mrow><mn>2</mn><mi>E</mi></mrow></math> da."
+    },
+    {
+     "mota": "testua",
+     "html": "<strong>b.</strong>"
+    },
+    {
+     "mota": "testua",
+     "html": "La energía en reposo máxima de las partículas producidas en la colisión es la propia energía disponible, <math display=\"inline\"><mrow><mn>2</mn><mi>E</mi></mrow></math>, y corresponde al caso en que todas las partículas producidas quedarían en reposo en el sistema de referencia del centro de momentos; eso es posible, porque precisamente en ese sistema el momento lineal total es nulo. Dicho de otro modo, el caso correspondiente es aquel en que toda la energía cinética se convierte en masa en reposo del sistema resultante de la colisión."
+    },
+    {
+     "mota": "testua",
+     "html": "<strong>c.</strong>"
+    },
+    {
+     "mota": "testua",
+     "html": "Sean L y P, respectivamente, los sistemas de referencia del laboratorio y de un protón; los cuadrimomentos de la pareja de protones que chocan son los siguientes:"
+    },
+    {
+     "mota": "testua",
+     "html": "<img class=\"formula formula-d\" src=\"../media/formulak/ea48392c58b97abd.svg\" alt=\"bb(P)_(upright(&quot;L&quot;)) = (0 \\, med frac(2 E, c)) #h(2em) bb(P)_(upright(&quot;P&quot;)) = (upright(bold(p))_(upright(&quot;P&quot;)) \\, med frac(E_(upright(&quot;P&quot;)) + mu, c))\" style=\"width:19.987em;height:2.980em\" loading=\"lazy\">"
+    },
+    {
+     "mota": "testua",
+     "html": "donde <math display=\"inline\"><msub><mi mathvariant=\"bold-italic\">𝒑</mi><mi mathvariant=\"normal\">P</mi></msub></math> y <math display=\"inline\"><msub><mi>E</mi><mi mathvariant=\"normal\">P</mi></msub></math> son, respectivamente, el momento lineal y la energía de un protón en el sistema de referencia del otro. Como esos dos sistemas de referencia están en movimiento relativo rectilíneo y uniforme, se pasa de uno a otro mediante una transformación de Lorentz, que deja invariante la norma de los cuadrivectores:"
+    },
+    {
+     "mota": "testua",
+     "html": "<img class=\"formula formula-d\" src=\"../media/formulak/1d0116ce50e3d3aa.svg\" alt=\"parallel bb(P)_(upright(&quot;L&quot;)) parallel^2 = parallel bb(P)_(upright(&quot;P&quot;)) parallel^2 #h(2em) arrow.r #h(2em) - frac(4 E^2, c^2) = p_(upright(&quot;P&quot;))^2 - frac(\\( E_(upright(&quot;P&quot;)) + mu \\)^2, c^2)\" style=\"width:25.385em;height:2.760em\" loading=\"lazy\">"
+    },
+    {
+     "mota": "testua",
+     "html": "[Recuérdese que trabajamos en un espacio de Riemann de signatura <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>+</mi><mspace width=\"0.167em\"></mspace><mo>+</mo><mspace width=\"0.167em\"></mspace><mo>+</mo><mspace width=\"0.167em\"></mspace><mi>−</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>; por tanto, la norma se expresa como se ha indicado arriba]. Además, como para cualquier partícula de energía en reposo <math display=\"inline\"><mi>μ</mi></math>, momento lineal <math display=\"inline\"><msub><mi>p</mi><mi mathvariant=\"normal\">P</mi></msub></math> y energía <math display=\"inline\"><msub><mi>E</mi><mi mathvariant=\"normal\">P</mi></msub></math> se cumple <math display=\"inline\"><mrow><msubsup><mi>E</mi><mi mathvariant=\"normal\">P</mi><mn>2</mn></msubsup><mo>=</mo><msup><mi>c</mi><mn>2</mn></msup><msubsup><mi>p</mi><mi mathvariant=\"normal\">P</mi><mn>2</mn></msubsup><mo>+</mo><msup><mi>μ</mi><mn>2</mn></msup></mrow></math>, sustituyendo en la relación de arriba y tras operar, se obtendrá lo siguiente:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msub><mi>E</mi><mi mathvariant=\"normal\">P</mi></msub><mo>=</mo><mfrac><mrow><mn>2</mn><msup><mi>E</mi><mn>2</mn></msup></mrow><mi>μ</mi></mfrac><mo>−</mo><mi>μ</mi></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "<strong>• Otro método.</strong>"
+    },
+    {
+     "mota": "testua",
+     "html": "Aunque sin duda es más largo, con este método el objetivo es calcular la energía del protón, medida desde un sistema de referencia que se mueve con velocidad relativa <math display=\"inline\"><mi>V</mi></math> respecto del sistema original (calcularemos <math display=\"inline\"><mi>V</mi></math>), en función de los valores de la energía y del momento lineal del protón en el sistema de referencia del centro de momentos. En primer lugar, calculemos la velocidad relativa de cada protón respecto del centro de momentos. Para ello, disponemos de la expresión que da la energía total <math display=\"inline\"><mi>E</mi></math> en función de la energía en reposo <math display=\"inline\"><msub><mi>E</mi><mn>0</mn></msub></math>: <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mi>γ</mi><msub><mi>E</mi><mn>0</mn></msub></mrow></math>. En nuestro caso, <math display=\"inline\"><mrow><msub><mi>E</mi><mn>0</mn></msub><mo>=</mo><mi>μ</mi></mrow></math>:"
+    },
+    {
+     "mota": "testua",
+     "html": "<img class=\"formula formula-d\" src=\"../media/formulak/8374f9dbb275a0cf.svg\" alt=\"E = gamma mu #h(2em) arrow.r #h(2em) gamma = E / mu #h(2em) arrow.r #h(2em) beta = sqrt(1 - mu^2 / E^2)\" style=\"width:26.032em;height:3.245em\" loading=\"lazy\">"
+    },
+    {
+     "mota": "testua",
+     "html": "Situémonos ahora en el sistema de referencia del protón que va de derecha a izquierda: su velocidad es <math display=\"inline\"><mrow><mi>V</mi><mo>=</mo><mi>−</mi><mi>β</mi><mi>c</mi></mrow></math>, siendo <math display=\"inline\"><mi>β</mi></math> la ya calculada. Las ecuaciones de transformación de Lorentz de la energía y del momento son las siguientes:"
+    },
+    {
+     "mota": "testua",
+     "html": "<img class=\"formula formula-d\" src=\"../media/formulak/52b6db02818bc1b2.svg\" alt=\"p&#x27; = Gamma (p - V / c^2 E) #h(2em) E&#x27; = Gamma (E - V p)\" style=\"width:20.049em;height:2.980em\" loading=\"lazy\">"
+    },
+    {
+     "mota": "testua",
+     "html": "En nuestro caso, <math display=\"inline\"><mi mathvariant=\"normal\">Γ</mi></math> y <math display=\"inline\"><mi>γ</mi></math> coinciden: <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Γ</mi><mo>=</mo><mi>γ</mi><mo>=</mo><mi>E</mi><mi>/</mi><mi>μ</mi></mrow></math>. Además, <math display=\"inline\"><mrow><msup><mi>p</mi><mo>′</mo></msup><mo>=</mo><msub><mi>p</mi><mi mathvariant=\"normal\">P</mi></msub></mrow></math> y <math display=\"inline\"><mrow><msup><mi>E</mi><mo>′</mo></msup><mo>=</mo><msub><mi>E</mi><mi mathvariant=\"normal\">P</mi></msub></mrow></math>. Por último, <math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><mi>γ</mi><msub><mi>m</mi><mn>0</mn></msub><mi>v</mi></mrow></math>, donde <math display=\"inline\"><mrow><msub><mi>m</mi><mn>0</mn></msub><mo>=</mo><mi>μ</mi><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></math> y <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mi>β</mi><mi>c</mi></mrow></math>. Usando la segunda de las ecuaciones de transformación:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msub><mi>E</mi><mi mathvariant=\"normal\">P</mi></msub><mo>=</mo><mfrac><mi>E</mi><mi>μ</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>E</mi><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>β</mi><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><mi>γ</mi><mfrac><mi>μ</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo>⋅</mo><mi>β</mi><mi>c</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mrow><mn>2</mn><msup><mi>E</mi><mn>2</mn></msup></mrow><mi>μ</mi></mfrac><mo>−</mo><mi>μ</mi></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "repitiendo, por supuesto, el resultado obtenido antes."
+    },
+    {
+     "mota": "testua",
+     "html": "<strong>• Otro método todavía.</strong>"
+    },
+    {
+     "mota": "testua",
+     "html": "Calculemos la velocidad relativa del protón que va de izquierda a derecha respecto del protón que va en sentido contrario. No tenemos que hacer nada más que aplicar la regla de composición de velocidades relativistas:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msup><mi>β</mi><mo>′</mo></msup><mo>=</mo><mfrac><mrow><mi>β</mi><mo>−</mo><mfrac><mi>V</mi><mi>c</mi></mfrac></mrow><mrow><mn>1</mn><mo>−</mo><mi>β</mi><mfrac><mi>V</mi><mi>c</mi></mfrac></mrow></mfrac></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "donde <math display=\"inline\"><mi>β</mi></math> es la velocidad relativa respecto de la luz del protón que va de izquierda a derecha en el sistema del centro de momentos, <math display=\"inline\"><msup><mi>β</mi><mo>′</mo></msup></math> la correspondiente respecto del sistema que viaja con el protón que va de derecha a izquierda, y <math display=\"inline\"><mrow><mi>V</mi><mo>=</mo><mi>−</mi><mi>β</mi><mi>c</mi></mrow></math> lo que hemos obtenido antes. Sustituyendo los valores:"
+    },
+    {
+     "mota": "testua",
+     "html": "<img class=\"formula formula-d\" src=\"../media/formulak/7ea554172de72d7c.svg\" alt=\"beta&#x27; = frac(2 beta, 1 + beta^2) #h(2em) arrow.r #h(2em) gamma&#x27; = frac(1 + beta^2, 1 - beta^2)\" style=\"width:18.134em;height:2.972em\" loading=\"lazy\">"
+    },
+    {
+     "mota": "testua",
+     "html": "La energía <math display=\"inline\"><msup><mi>E</mi><mo>′</mo></msup></math> de una partícula de masa en reposo <math display=\"inline\"><mi>μ</mi></math> y velocidad relativa <math display=\"inline\"><msup><mi>β</mi><mo>′</mo></msup></math> respecto de la luz (en este caso <math display=\"inline\"><mrow><msup><mi>E</mi><mo>′</mo></msup><mo>=</mo><msub><mi>E</mi><mi mathvariant=\"normal\">P</mi></msub></mrow></math>) la da esta expresión:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msup><mi>E</mi><mo>′</mo></msup><mo>=</mo><msub><mi>E</mi><mi mathvariant=\"normal\">P</mi></msub><mo>=</mo><msup><mi>γ</mi><mo>′</mo></msup><mi>μ</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>2</mn><mo>−</mo><msup><mi>μ</mi><mn>2</mn></msup><mi>/</mi><msup><mi>E</mi><mn>2</mn></msup></mrow><mrow><msup><mi>μ</mi><mn>2</mn></msup><mi>/</mi><msup><mi>E</mi><mn>2</mn></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>μ</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>2</mn><msup><mi>E</mi><mn>2</mn></msup></mrow><msup><mi>μ</mi><mn>2</mn></msup></mfrac><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>μ</mi><mo>=</mo><mfrac><mrow><mn>2</mn><msup><mi>E</mi><mn>2</mn></msup></mrow><mi>μ</mi></mfrac><mo>−</mo><mi>μ</mi></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "<strong>d.</strong>"
+    },
+    {
+     "mota": "testua",
+     "html": "En lugar de una colisión frontal de dos protones, si uno de ellos (el blanco) estuviera en reposo en el sistema del laboratorio, para que la energía disponible fuera la misma habría que acelerar el otro (el proyectil) hasta la energía <math display=\"inline\"><msub><mi>E</mi><mi mathvariant=\"normal\">P</mi></msub></math> obtenida en el apartado anterior."
+    },
+    {
+     "mota": "testua",
+     "html": "<strong>e.</strong>"
+    },
+    {
+     "mota": "testua",
+     "html": "Sustituyendo los datos de los anillos de almacenamiento del CERN en los cuatro apartados anteriores, la energía disponible de cada pareja de protones es de 56 GeV, energía igual a la energía en reposo máxima de las partículas que se producen tras la colisión. Medida desde un protón, la energía del otro protón será ahora <math display=\"inline\"><mrow><msub><mi>E</mi><mi mathvariant=\"normal\">P</mi></msub><mo>≃</mo><mn>1</mn><mo>,</mo><mn>671</mn></mrow></math> GeV, y coincide con la energía que habría de tener el protón proyectil para obtener los mismos resultados en el laboratorio con un blanco de protones en reposo. Es evidente que se pueden obtener los mismos resultados —de manera mucho más cómoda— usando anillos de almacenamiento, y no lanzando contra un blanco formado por protones fijos un haz de protones que antes hay que acelerar a una energía altísima."
+    }
+   ]
+  },
+  {
+   "id": "a35",
+   "maila": 2,
+   "izenburua": "Enunciado",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": ""
+    },
+    {
+     "mota": "testua",
+     "html": "Un viajero espacial que se mueve con velocidad <math display=\"inline\"><mi>v</mi></math> respecto de la Tierra sincroniza su reloj (<math display=\"inline\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math>) con el de su amigo terrestre (<math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>) al pasar junto a él. El terrestre <strong>ve</strong> a la vez los tiempos marcados por los dos relojes: el suyo (<math display=\"inline\"><mi>t</mi></math>) mirando directamente y el del viajero (<math display=\"inline\"><msup><mi>t</mi><mo>′</mo></msup></math>) con un telescopio. ¿Cuál es el valor de <math display=\"inline\"><mi>t</mi></math> cuando ve <math display=\"inline\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>1</mn></mrow></math> hora? ¿Cuál debe ser la velocidad <math display=\"inline\"><mi>v</mi></math> para que en ese momento sea <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>2</mn></mrow></math> horas? [<em>Observación</em>: Recuerda que <strong>ver</strong> y <strong>medir</strong> no son lo mismo]."
+    }
+   ]
+  },
+  {
+   "id": "a36",
+   "maila": 2,
+   "izenburua": "Solución (resuelta y comentada por el autor)",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": ""
+    },
+    {
+     "mota": "testua",
+     "html": "[Figura (junto al enunciado): tres esquemas apilados que muestran los sistemas de referencia <math display=\"inline\"><mi>S</mi></math> (Tierra) y <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> (viajero) en tres instantes sucesivos. 1) <math display=\"inline\"><mi>S</mi></math> y <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> coinciden; velocidad <math display=\"inline\"><mi>v</mi></math> hacia la derecha; el reloj del viajero marca <math display=\"inline\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math> (eje <math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math>); una fila de seis relojes del sistema <math display=\"inline\"><mi>S</mi></math> marcan todos <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> (eje <math display=\"inline\"><mi>x</mi></math>). 2) <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> desplazado hacia la derecha con velocidad <math display=\"inline\"><mi>v</mi></math>; el reloj del viajero marca <math display=\"inline\"><msup><mi>t</mi><mo>′</mo></msup></math> y desde la distancia <math display=\"inline\"><mi>d</mi></math> emite una señal con velocidad <math display=\"inline\"><mi>c</mi></math> (hacia la izquierda); la fila de seis relojes de <math display=\"inline\"><mi>S</mi></math> marca <math display=\"inline\"><mi>t</mi></math>. 3) <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> aún más a la derecha, con velocidad <math display=\"inline\"><mi>v</mi></math>; el reloj del viajero marca <math display=\"inline\"><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup></math> (eje <math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math>); la fila de seis relojes de <math display=\"inline\"><mi>S</mi></math> marca <math display=\"inline\"><msub><mi>t</mi><mn>1</mn></msub></math>.]"
+    },
+    {
+     "mota": "testua",
+     "html": "<strong>R.</strong>"
+    },
+    {
+     "mota": "testua",
+     "html": "En la figura se muestran las distintas situaciones de los dos observadores a medida que ocurren los hechos que se narran. En el primer instante, los dos observadores comparan las medidas de sus relojes en el momento en que pasan uno junto a otro. Hay que subrayar que <em>miden</em> y <em>ven</em> lo mismo: <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math>. En ese momento, todos los relojes del sistema del observador terrestre indican <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>. El observador viajero continúa su trayectoria, alejándose de la Tierra con velocidad <math display=\"inline\"><mi>v</mi></math>. En la segunda situación, el observador viajero"
+    },
+    {
+     "mota": "testua",
+     "html": "<em>mide</em>"
+    },
+    {
+     "mota": "testua",
+     "html": "y <em>ve</em> en su reloj que ha pasado una hora. En ese momento, el reloj del sistema del observador terrestre —que coincide espacialmente con la posición del viajero— no marca la una, sino (por ejemplo) la una y cuarenta (<math display=\"inline\"><mi>t</mi></math> en la figura), como todos los relojes sincronizados con este, que ocupan todos los puntos del referencial mencionado, incluido el que está en la posición del observador que se ha quedado en la Tierra. En ese momento, el viajero —que lleva una cámara de televisión— envía a la Tierra, que está atrás a la distancia <math display=\"inline\"><mi>d</mi></math> medida en el referencial terrestre, una fotografía en la que las agujas de su reloj marcan la una. Esa señal, que viajará hacia la Tierra con velocidad <math display=\"inline\"><mi>c</mi></math>, es recibida por el observador terrestre cuando ambos marcan (<math display=\"inline\"><msub><mi>t</mi><mn>1</mn></msub></math> en la figura de abajo). En ese momento, todos los relojes del sistema de la Tierra sincronizados con el reloj del observador terrestre marcarán las dos (<math display=\"inline\"><msub><mi>t</mi><mn>1</mn></msub></math>), y el reloj del viajero —que ya no está donde envió la señal a la Tierra— marca la una y cuarto (<math display=\"inline\"><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup></math> en la figura)."
+    },
+    {
+     "mota": "testua",
+     "html": "La duración del viaje —desde el momento en que empieza en la Tierra hasta que el reloj del viajero marca la una (<math display=\"inline\"><msup><mi>t</mi><mo>′</mo></msup></math>)— es distinta para los dos observadores. Por un lado, el viajero, que está en reposo respecto de su reloj durante todo el viaje,"
+    },
+    {
+     "mota": "testua",
+     "html": "<em>tiempo propio</em>"
+    },
+    {
+     "mota": "testua",
+     "html": "mide; el observador terrestre, en cambio, mide la diferencia de los tiempos indicados por dos relojes idénticos sincronizados en su sistema de referencia pero separados por la distancia espacial <math display=\"inline\"><mi>d</mi></math>. Por tanto, conociendo el fenómeno de la dilatación del tiempo, el observador terrestre deduce que el tiempo transcurrido en el sistema de la Tierra entre los dos sucesos de la comparación de relojes es el siguiente:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>t</mi><mo>=</mo><mi>γ</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "y en consecuencia, cuando el reloj del viajero marca la una (<math display=\"inline\"><msup><mi>t</mi><mo>′</mo></msup></math>) la distancia <math display=\"inline\"><mi>d</mi></math> a la que estará el viajero será la siguiente:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>d</mi><mo>=</mo><mi>v</mi><mi>t</mi><mo>=</mo><mi>γ</mi><mi>v</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "De ahí, la imagen enviada por el viajero llegará al observador que se ha quedado en la Tierra después de que pase el tiempo <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></math>, que es esto:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><mfrac><mi>d</mi><mi>c</mi></mfrac><mo>=</mo><mfrac><mrow><mi>γ</mi><mi>v</mi><msup><mi>t</mi><mo>′</mo></msup></mrow><mi>c</mi></mfrac><mo>=</mo><mi>γ</mi><mi>β</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "y entonces el tiempo <math display=\"inline\"><msub><mi>t</mi><mn>1</mn></msub></math> que marcarán las agujas de su reloj:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mi>t</mi><mo>+</mo><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><mi>γ</mi><msup><mi>t</mi><mo>′</mo></msup><mo>+</mo><mi>γ</mi><mi>β</mi><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>β</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><msqrt><mfrac><mrow><mn>1</mn><mo>+</mo><mi>β</mi></mrow><mrow><mn>1</mn><mo>−</mo><mi>β</mi></mrow></mfrac></msqrt><mspace width=\"0.167em\"></mspace><msup><mi>t</mi><mo>′</mo></msup></mrow></math>"
+    },
+    {
+     "mota": "testua",
+     "html": "El ejemplo numérico nos dice que <math display=\"inline\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>1</mn><mspace width=\"0.222em\"></mspace><mi mathvariant=\"normal\">h</mi><mo>→</mo><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn><mspace width=\"0.222em\"></mspace><mi mathvariant=\"normal\">h</mi></mrow></math> es, y, por tanto, la velocidad de la nave del viajero se obtiene despejando <math display=\"inline\"><mi>β</mi></math> en la relación anterior, sustituyendo estos valores:"
+    },
+    {
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msqrt><mfrac><mrow><mn>1</mn><mo>+</mo><mi>β</mi></mrow><mrow><mn>1</mn><mo>−</mo><mi>β</mi></mrow></mfrac></msqrt><mo>=</mo><mn>2</mn><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mi>β</mi><mo>=</mo><mfrac><mi>v</mi><mi>c</mi></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></mrow></math>"
+    }
+   ]
+  },
+  {
+   "id": "a37",
+   "maila": 2,
+   "izenburua": "Enunciado",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "En el experimento de la figura, un fotón de alta energía choca contra un electrón de la muestra blanco. Tras la colisión, el electrón se detecta en el detector A y el fotón en el detector B. Calcula las energías inicial y final del fotón en función de la energía en reposo del electrón."
+    },
+    {
+     "mota": "testua",
+     "html": "<strong>Figura:</strong>"
+    },
+    {
+     "mota": "testua",
+     "html": "El fotón incidente llega horizontalmente desde la izquierda (flecha) hasta el «Blanco». Tras la colisión, el electrón sale hacia arriba y a la derecha en dirección al detector A (cuadro); la recta Blanco–A es una hipotenusa etiquetada con la marca «5» y forma un triángulo rectángulo con un cateto vertical marcado «3» (a trazos, bajando desde A) y un cateto horizontal marcado «4» (a trazos). El fotón dispersado sale hacia abajo en dirección al detector B (cuadro), y en el Blanco hay el símbolo de ángulo recto («90°») entre la línea horizontal a trazos (cateto «4», dirección incidente) y la línea vertical que baja hacia B, indicando que el fotón dispersado sale perpendicularmente a la dirección horizontal incidente (recto hacia abajo, hacia B)."
+    }
+   ]
+  },
+  {
+   "id": "a38",
+   "maila": 2,
+   "izenburua": "Solución (resuelta y comentada por el autor)",
+   "blokeak": [
+    {
+     "mota": "testua",
+     "html": "En la figura, los lados marcados con las medidas 3, 4 y 5 sirven solamente para determinar la magnitud del ángulo de dispersión del electrón en el sistema del laboratorio. En nuestro caso:"
+    },
+    {
+     "mota": "testua",
+     "html": "<code></code><code> sin α = 3/5   →   α = 37° </code><code></code>"
+    },
+    {
+     "mota": "testua",
+     "html": "Como se sabe, la energía y el momento relativistas del sistema se conservarán. Si llamamos Q y Q&#x27; a las energías del fotón incidente y del dispersado, y E₀ = m₀c² a la energía en reposo del electrón, los principios de conservación mencionados se escribirán así:"
+    },
+    {
+     "mota": "testua",
+     "html": "<code></code><code> E_(ant) = E_(des)      →      Q + E₀ = Q&#x27; + γE₀ P_x(ant) = P_x(des)    →      Q/c = mv cos 37° P_y(ant) = P_y(des)    →      0 = mv sin 37° − Q&#x27;/c </code><code></code>"
+    },
+    {
+     "mota": "testua",
+     "html": "Pero como m = γm₀ = γE₀/c², las dos últimas relaciones, tras unas breves operaciones, pueden reordenarse así:"
+    },
+    {
+     "mota": "testua",
+     "html": "<code></code><code> Q = 4γE₀v/(5c)        Q&#x27; = 3γE₀v/(5c) </code><code></code>"
+    },
+    {
+     "mota": "testua",
+     "html": "Llevando este resultado a la primera de las ecuaciones, tras simplificar, llegaremos a esto:"
+    },
+    {
+     "mota": "testua",
+     "html": "<code></code><code> (4/5)γβ + 1 = (3/5)γβ + γ      →      γ = 13/12      [β = 5/13] </code><code></code>"
+    },
+    {
+     "mota": "testua",
+     "html": "Llevando estos valores a las expresiones de Q y Q&#x27;, nos quedará esto:"
+    },
+    {
+     "mota": "testua",
+     "html": "<code></code><code> Q = (1/3)E₀        Q&#x27; = (1/4)E₀ </code><code></code>"
+    },
+    {
+     "mota": "testua",
+     "html": "<strong>• Otro método:</strong>"
+    },
+    {
+     "mota": "testua",
+     "html": "Llamemos ahora P al módulo del momento relativista del electrón dispersado y E a su energía. Los principios de conservación mencionados antes, teniendo en cuenta sin 37° = 3/5 y cos 37° = 4/5, se escribirán en función de E y P:"
+    },
+    {
+     "mota": "testua",
+     "html": "<code></code><code> E_(ant) = E_(des)      →      Q + E₀ = Q&#x27; + E P_x(ant) = P_x(des)    →      Q/c = (4/5)P P_y(ant) = P_y(des)    →      0 = (3/5)P − Q&#x27;/c </code><code></code>"
+    },
+    {
+     "mota": "testua",
+     "html": "De la segunda y la tercera relación podemos despejar Pc y Q&#x27; sin sustituir en la primera:"
+    },
+    {
+     "mota": "testua",
+     "html": "<code></code><code> ⎧ Pc = (5/4)Q ⎨                            →      E = Q − Q&#x27; + E₀ = (1/4)Q + E₀ ⎩ Q&#x27; = (3/5)Pc = (3/4)Q </code><code></code>"
+    },
+    {
+     "mota": "testua",
+     "html": "Por último, teniendo en cuenta la relación energía–momento para cualquier partícula —expresada como E² = E₀² + P²c²—, podemos escribir:"
+    },
+    {
+     "mota": "testua",
+     "html": "<code></code><code> ((1/4)Q + E₀)² = E₀² + ((5/4)Q)² </code><code></code>"
+    },
+    {
+     "mota": "testua",
+     "html": "Al resolver Q en función de E₀, nos dará esto:"
+    },
+    {
+     "mota": "testua",
+     "html": "<code></code><code> Q = (1/3)E₀      →      Q&#x27; = (1/4)E₀ </code><code></code>"
+    }
+   ]
+  }
+ ]
+};
