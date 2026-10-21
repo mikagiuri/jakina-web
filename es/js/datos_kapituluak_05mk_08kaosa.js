@@ -646,7 +646,7 @@ KAPITULUAK["05mk_08kaosa"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "text(fill:berdea, weight: &quot;bold&quot;, size: 10pt, smallcaps[Fractales])"
+     "html": "<strong>Fractales</strong>"
     },
     {
      "mota": "irudia",
@@ -746,7 +746,7 @@ KAPITULUAK["05mk_08kaosa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:berdea, weight: &quot;bold&quot;, size: 10pt, smallcaps[Simulaciones numéricas])"
+     "html": "<strong>Simulaciones numéricas</strong>"
     },
     {
      "mota": "problema",

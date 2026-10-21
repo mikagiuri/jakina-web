@@ -1107,7 +1107,7 @@ KAPITULUAK["05mk_05solidoa"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Zinematika])"
+     "html": "<strong>Zinematika</strong>"
     },
     {
      "mota": "problema",
@@ -1192,7 +1192,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Pendulu fisikoa])"
+     "html": "<strong>Pendulu fisikoa</strong>"
     },
     {
      "mota": "problema",
@@ -1266,7 +1266,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Inertzia-momentuak eta -tentsorea])"
+     "html": "<strong>Inertzia-momentuak eta -tentsorea</strong>"
     },
     {
      "mota": "problema",
@@ -1433,7 +1433,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Masa-zentroa eta oreka])"
+     "html": "<strong>Masa-zentroa eta oreka</strong>"
     },
     {
      "mota": "problema",
@@ -1592,7 +1592,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Kontserbazio-legeak])"
+     "html": "<strong>Kontserbazio-legeak</strong>"
     },
     {
      "mota": "problema",
@@ -1869,7 +1869,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Higidura-ekuazioak])"
+     "html": "<strong>Higidura-ekuazioak</strong>"
     },
     {
      "mota": "problema",
@@ -2263,7 +2263,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Eulerren ekuazioak])"
+     "html": "<strong>Eulerren ekuazioak</strong>"
     },
     {
      "mota": "problema",
@@ -2525,7 +2525,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Denetarik])"
+     "html": "<strong>Denetarik</strong>"
     },
     {
      "mota": "problema",

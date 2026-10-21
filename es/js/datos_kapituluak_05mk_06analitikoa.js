@@ -40,7 +40,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Partícula puntual]"
+     "html": "Partícula puntual"
     },
     {
      "mota": "testua",
@@ -64,7 +64,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Sistema de partículas]"
+     "html": "Sistema de partículas"
     },
     {
      "mota": "testua",
@@ -72,7 +72,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Péndulo esférico]"
+     "html": "Péndulo esférico"
     },
     {
      "mota": "testua",
@@ -126,7 +126,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Alambre semicircular giratorio]"
+     "html": "Hilo semicircular giratorio"
     },
     {
      "mota": "testua",
@@ -134,7 +134,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Sólido rígido]"
+     "html": "Sólido rígido"
     },
     {
      "mota": "testua",
@@ -142,7 +142,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Máquina de Atwood]"
+     "html": "Máquina de Atwood"
     },
     {
      "mota": "testua",
@@ -160,7 +160,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano inclinado]"
+     "html": "Plano inclinado"
     },
     {
      "mota": "testua",
@@ -205,7 +205,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano inclinado móvil]"
+     "html": "Plano inclinado móvil"
     },
     {
      "mota": "testua",
@@ -452,7 +452,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[El disco homogéneo (<math display=\"inline\"><mrow><mi>R</mi><mo>,</mo><mi>M</mi></mrow></math>) rueda sin deslizar por la pendiente <math display=\"inline\"><mi>β</mi></math>; la masa <math display=\"inline\"><mi>m</mi></math> del borde equilibra en la parte alta de la cuesta. <math display=\"inline\"><mi>θ</mi></math> se mide desde la vertical descendente.]"
+       "html": "El disco homogéneo (<math display=\"inline\"><mrow><mi>R</mi><mo>,</mo><mi>M</mi></mrow></math>) rueda sin deslizar sobre la pendiente <math display=\"inline\"><mi>β</mi></math>; la masa <math display=\"inline\"><mi>m</mi></math> del borde equilibra en la parte superior de la rampa. <math display=\"inline\"><mi>θ</mi></math> se mide desde la vertical descendente."
       }
      ]
     },
@@ -500,7 +500,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[El semidisco (masa <math display=\"inline\"><mi>M</mi></math>) se balancea sobre su borde curvo en la mesa; la partícula <math display=\"inline\"><mi>m</mi></math> está en el extremo del diámetro. En el equilibrio, el centro de masas (<math display=\"inline\"><mi>G</mi></math>) queda verticalmente bajo <math display=\"inline\"><mi>O</mi></math>; así, el diámetro se inclina <math display=\"inline\"><msub><mi>θ</mi><mtext mathvariant=\"normal\">or</mtext></msub></math>.]"
+       "html": "El semidisco (masa <math display=\"inline\"><mi>M</mi></math>) se balancea sobre su borde curvo encima de la mesa; <math display=\"inline\"><mi>m</mi></math> es una partícula en el extremo del diámetro. En el equilibrio, el centro de masas (<math display=\"inline\"><mi>G</mi></math>) queda en la vertical bajo <math display=\"inline\"><mi>O</mi></math>; así, el diámetro se inclina un ángulo <math display=\"inline\"><msub><mi>θ</mi><mtext mathvariant=\"normal\">or</mtext></msub></math>."
       }
      ]
     },
@@ -639,7 +639,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Oscilador armónico]"
+     "html": "Oscilador armónico"
     },
     {
      "mota": "testua",
@@ -762,7 +762,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Partícula sin ligaduras en coordenadas cartesianas]"
+     "html": "Partícula libre en coordenadas cartesianas"
     },
     {
      "mota": "testua",
@@ -779,7 +779,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Máquina de Atwood]"
+     "html": "Máquina de Atwood"
     },
     {
      "mota": "testua",
@@ -787,7 +787,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Péndulo esférico]"
+     "html": "Péndulo esférico"
     },
     {
      "mota": "testua",
@@ -808,7 +808,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Sistema de referencia giratorio]"
+     "html": "Sistema de referencia giratorio"
     },
     {
      "mota": "testua",
@@ -826,7 +826,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano inclinado móvil]"
+     "html": "Plano inclinado móvil"
     },
     {
      "mota": "testua",
@@ -874,7 +874,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[El bloque <math display=\"inline\"><mi>m</mi></math> desliza por la cara lisa y la cuña <math display=\"inline\"><mi>M</mi></math> retrocede.]"
+       "html": "El bloque <math display=\"inline\"><mi>m</mi></math> desliza sobre la cara lisa y la cuña <math display=\"inline\"><mi>M</mi></math> retrocede."
       }
      ]
     },
@@ -918,7 +918,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[El muelle está comprimido una longitud <math display=\"inline\"><mrow><mi>l</mi><mo>−</mo><mi>δ</mi></mrow></math> (longitud propia <math display=\"inline\"><mi>l</mi></math>), sujeto por el hilo; la pared ejerce la fuerza <math display=\"inline\"><mi>N</mi></math> sobre <math display=\"inline\"><msub><mi>m</mi><mn>1</mn></msub></math>. Al cortar el hilo el sistema se libera.]"
+       "html": "El muelle está comprimido a la longitud <math display=\"inline\"><mrow><mi>l</mi><mo>−</mo><mi>δ</mi></mrow></math> (longitud natural <math display=\"inline\"><mi>l</mi></math>), sujeto por un hilo; la pared ejerce la fuerza <math display=\"inline\"><mi>N</mi></math> sobre <math display=\"inline\"><msub><mi>m</mi><mn>1</mn></msub></math>. Al cortar el hilo el sistema se libera."
       }
      ]
     },
@@ -966,7 +966,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Cadena homogénea (<math display=\"inline\"><mrow><mi>m</mi><mo>,</mo><mi>L</mi></mrow></math>) colgada de una polea lisa y sin masa; en el extremo derecho, el cuerpo <math display=\"inline\"><mi>M</mi></math>. <math display=\"inline\"><mi>x</mi></math> es la longitud del tramo izquierdo.]"
+       "html": "Cadena homogénea (<math display=\"inline\"><mrow><mi>m</mi><mo>,</mo><mi>L</mi></mrow></math>) colgada de una polea lisa y sin masa; en el extremo derecho, el cuerpo <math display=\"inline\"><mi>M</mi></math>. <math display=\"inline\"><mi>x</mi></math> es la longitud del tramo izquierdo."
       }
      ]
     },
@@ -1010,7 +1010,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Tijera elástica: dos barras articuladas, masas <math display=\"inline\"><mi>M</mi></math> arriba, masas <math display=\"inline\"><mi>m</mi></math> abajo en el suelo liso; el muelle <math display=\"inline\"><mi>k</mi></math> une la base. <math display=\"inline\"><mi>θ</mi></math> se mide desde la vertical.]"
+       "html": "Tijera elástica: dos barras articuladas, con masas <math display=\"inline\"><mi>M</mi></math> arriba y masas <math display=\"inline\"><mi>m</mi></math> abajo sobre el suelo liso; el muelle <math display=\"inline\"><mi>k</mi></math> une la base. <math display=\"inline\"><mi>θ</mi></math> se mide desde la vertical."
       }
      ]
     },
@@ -1054,7 +1054,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[La cuerda que pasa por la anilla <math display=\"inline\"><mi>O</mi></math> se recoge hacia arriba con velocidad constante <math display=\"inline\"><mi>u</mi></math>; la longitud del péndulo es <math display=\"inline\"><mrow><mi>ℓ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>ℓ</mi><mn>0</mn></msub><mo>−</mo><mi>u</mi><mi>t</mi></mrow></math> (ligadura reónoma) y <math display=\"inline\"><mi>θ</mi></math> se mide desde la vertical descendente.]"
+       "html": "La cuerda que pasa por el anillo <math display=\"inline\"><mi>O</mi></math> se eleva con velocidad constante <math display=\"inline\"><mi>u</mi></math>; la longitud del péndulo es <math display=\"inline\"><mrow><mi>ℓ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>ℓ</mi><mn>0</mn></msub><mo>−</mo><mi>u</mi><mi>t</mi></mrow></math> (ligadura reónoma) y <math display=\"inline\"><mi>θ</mi></math> se mide desde la vertical descendente."
       }
      ]
     },
@@ -1245,7 +1245,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano inclinado móvil]"
+     "html": "Plano inclinado móvil"
     },
     {
      "mota": "testua",
@@ -1277,7 +1277,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Partícula sin ligaduras en coordenadas cartesianas]"
+     "html": "Partícula libre en coordenadas cartesianas"
     },
     {
      "mota": "testua",
@@ -1285,7 +1285,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Partícula sin ligaduras en coordenadas cilíndricas]"
+     "html": "Partícula libre en coordenadas cilíndricas"
     },
     {
      "mota": "testua",
@@ -1302,7 +1302,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano inclinado móvil]"
+     "html": "Plano inclinado móvil"
     },
     {
      "mota": "testua",
@@ -1354,7 +1354,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Tubo giratorio visto desde arriba: la partícula <math display=\"inline\"><mi>m</mi></math> está unida con un muelle <math display=\"inline\"><mi>k</mi></math> al eje <math display=\"inline\"><mi>O</mi></math>; el tubo (giratorio) tiene momento de inercia <math display=\"inline\"><msub><mi>I</mi><mn>0</mn></msub></math> y gira con velocidad <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><mover><mi>φ</mi><mo accent=\"true\">̇</mo></mover></mrow></math>.]"
+       "html": "Tubo giratorio visto desde arriba: la partícula <math display=\"inline\"><mi>m</mi></math> está unida al eje <math display=\"inline\"><mi>O</mi></math> por el muelle <math display=\"inline\"><mi>k</mi></math>; el tubo (giratorio) tiene momento de inercia <math display=\"inline\"><msub><mi>I</mi><mn>0</mn></msub></math> y gira con velocidad <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><mover><mi>φ</mi><mo accent=\"true\">̇</mo></mover></mrow></math>."
       }
      ]
     },
@@ -1402,7 +1402,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[El aro rueda sin deslizar sobre la mesa; la cuenta (<math display=\"inline\"><mi>m</mi></math>) desliza sobre él sin rozamiento; <math display=\"inline\"><mi>φ</mi></math> se mide desde el punto inferior y <math display=\"inline\"><mi>f</mi></math> es el rozamiento de la mesa.]"
+       "html": "El aro rueda sin deslizar sobre la mesa; la cuenta (<math display=\"inline\"><mi>m</mi></math>) se desliza sobre él sin rozamiento; <math display=\"inline\"><mi>φ</mi></math> se mide desde el punto inferior y <math display=\"inline\"><mi>f</mi></math> es el rozamiento de la mesa."
       }
      ]
     },
@@ -1446,7 +1446,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[El alambre gira con ángulo <math display=\"inline\"><mi>β</mi></math> y velocidad <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> constantes; las dos cuentas deslizan en los radios <math display=\"inline\"><msub><mi>r</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>r</mi><mn>2</mn></msub></math>, unidas por dos muelles. Línea de trazos: órbita circular de la segunda cuenta.]"
+       "html": "El hilo gira con ángulo <math display=\"inline\"><mi>β</mi></math> y <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> constante; las dos cuentas deslizan en los radios <math display=\"inline\"><msub><mi>r</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>r</mi><mn>2</mn></msub></math>, encadenadas por dos muelles. Línea discontinua: órbita circular de la segunda cuenta."
       }
      ]
     },
@@ -1494,7 +1494,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[El conjunto bloque-tubo desliza sobre la mesa lisa (<math display=\"inline\"><mi>X</mi></math>); dos partículas (<math display=\"inline\"><mi>m</mi></math> cada una) oscilan en el tubo, con <math display=\"inline\"><msub><mi>θ</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>θ</mi><mn>2</mn></msub></math> medidos desde el punto inferior.]"
+       "html": "El conjunto bloque-tubo desliza sobre la mesa lisa (<math display=\"inline\"><mi>X</mi></math>); dos partículas (<math display=\"inline\"><mi>m</mi></math> cada una) oscilan en el tubo, <math display=\"inline\"><msub><mi>θ</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>θ</mi><mn>2</mn></msub></math> medidos desde el punto inferior."
       }
      ]
     },
@@ -1566,7 +1566,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Partícula sin ligaduras en coordenadas cartesianas]"
+     "html": "Partícula libre en coordenadas cartesianas"
     },
     {
      "mota": "testua",
@@ -1623,7 +1623,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano inclinado móvil]"
+     "html": "Plano inclinado móvil"
     },
     {
      "mota": "testua",
@@ -1710,7 +1710,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[La barra rígida (masa <math display=\"inline\"><mi>m</mi></math> en el extremo) se balancea libremente en su plano mientras el motor la fuerza a girar con <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math> constante alrededor del eje vertical; <math display=\"inline\"><mi>θ</mi></math> se mide desde la vertical inferior.]"
+       "html": "La barra rígida (masa <math display=\"inline\"><mi>m</mi></math> en el extremo) se balancea libremente en su plano mientras el motor la obliga a girar con <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math> constante alrededor del eje vertical; <math display=\"inline\"><mi>θ</mi></math> se mide desde la vertical inferior."
       }
      ]
     },
@@ -1754,7 +1754,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[El tubo gira con velocidad <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> alrededor del eje vertical; <math display=\"inline\"><mi>s</mi></math> es la posición de la partícula a lo largo del tubo desde <math display=\"inline\"><mi>O</mi></math>, y la línea de puntos su trayectoria de giro.]"
+       "html": "El tubo gira con velocidad <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> alrededor del eje vertical; <math display=\"inline\"><mi>s</mi></math> es la posición de la partícula a lo largo del tubo desde <math display=\"inline\"><mi>O</mi></math>, y la línea de puntos su trayectoria de giro."
       }
      ]
     },
@@ -1802,7 +1802,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[El raíl rígido gira alrededor del eje <math display=\"inline\"><mi>e</mi></math> con <math display=\"inline\"><mi>ω</mi></math>, formando el ángulo fijo <math display=\"inline\"><mi>β</mi></math>; la cuenta <math display=\"inline\"><mi>m</mi></math> desliza en el raíl unida por un muelle (<math display=\"inline\"><mi>k</mi></math>), a distancia <math display=\"inline\"><mi>r</mi></math> de <math display=\"inline\"><mi>O</mi></math>. La cuenta se ha dibujado bajo <math display=\"inline\"><mi>O</mi></math> (posición estable de equilibrio).]"
+       "html": "El raíl rígido gira alrededor del eje <math display=\"inline\"><mi>e</mi></math> con <math display=\"inline\"><mi>ω</mi></math>, con ángulo fijo <math display=\"inline\"><mi>β</mi></math>; la cuenta <math display=\"inline\"><mi>m</mi></math> desliza por el raíl unida a un muelle (<math display=\"inline\"><mi>k</mi></math>), a distancia <math display=\"inline\"><mi>r</mi></math> de <math display=\"inline\"><mi>O</mi></math>. La cuenta se ha dibujado bajo <math display=\"inline\"><mi>O</mi></math> (posición estable de equilibrio)."
       }
      ]
     },
@@ -1850,7 +1850,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[El aro gira con velocidad <math display=\"inline\"><mi>ω</mi></math> alrededor de su diámetro vertical; <math display=\"inline\"><mi>θ</mi></math> se mide desde el punto más alto.]"
+       "html": "El aro gira con velocidad <math display=\"inline\"><mi>ω</mi></math> alrededor de su diámetro vertical; <math display=\"inline\"><mi>θ</mi></math> se mide desde el punto superior."
       }
      ]
     },
@@ -1890,7 +1890,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[El regulador de bolas gira con velocidad <math display=\"inline\"><mi>ω</mi></math> alrededor del eje vertical; <math display=\"inline\"><mi>θ</mi></math> es el ángulo que forman las barras con el eje, y el cuerpo <math display=\"inline\"><mi>M</mi></math> desliza verticalmente a lo largo del eje.]"
+       "html": "El regulador de bolas gira con velocidad <math display=\"inline\"><mi>ω</mi></math> alrededor del eje vertical; <math display=\"inline\"><mi>θ</mi></math> es el ángulo que forman las barras con el eje, y el cuerpo <math display=\"inline\"><mi>M</mi></math> desliza verticalmente a lo largo del eje."
       }
      ]
     },
@@ -1938,7 +1938,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[La barra <math display=\"inline\"><mrow><mi>m</mi><mo>,</mo><mi>ℓ</mi></mrow></math> desliza en el tubo giratorio libre, unida al pivote por un muelle <math display=\"inline\"><mi>k</mi></math>; <math display=\"inline\"><mi>r</mi></math> es el radio del centro y <math display=\"inline\"><mi>θ</mi></math> el ángulo del tubo.]"
+       "html": "La barra <math display=\"inline\"><mrow><mi>m</mi><mo>,</mo><mi>ℓ</mi></mrow></math> desliza en un tubo giratorio libre, unida a un pivote por un muelle <math display=\"inline\"><mi>k</mi></math>; <math display=\"inline\"><mi>r</mi></math> es el radio del centro y <math display=\"inline\"><mi>θ</mi></math> el ángulo del tubo."
       }
      ]
     },
@@ -1982,7 +1982,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[A la izquierda, la trayectoria del oscilador amortiguado en el espacio de fases físico: una espiral hacia dentro, con el área contrayéndose como <math display=\"inline\"><msup><mi>e</mi><mrow><mi>−</mi><mi>γ</mi><mi>t</mi></mrow></msup></math>. A la derecha, en la variable vestida <math display=\"inline\"><mrow><mi>q</mi><mo>=</mo><mi>x</mi><mspace width=\"0.167em\"></mspace><msup><mi>e</mi><mrow><mi>γ</mi><mi>t</mi><mi>/</mi><mn>2</mn></mrow></msup></mrow></math> la misma trayectoria se convierte en una elipse cerrada: curva de nivel de la constante del movimiento <math display=\"inline\"><mi>I</mi></math>.]"
+       "html": "A la izquierda, la trayectoria del oscilador amortiguado en el espacio de fases físico: una espiral hacia dentro, con el área contrayéndose como <math display=\"inline\"><msup><mi>e</mi><mrow><mi>−</mi><mi>γ</mi><mi>t</mi></mrow></msup></math>. A la derecha, en la variable <math display=\"inline\"><mrow><mi>q</mi><mo>=</mo><mi>x</mi><mspace width=\"0.167em\"></mspace><msup><mi>e</mi><mrow><mi>γ</mi><mi>t</mi><mi>/</mi><mn>2</mn></mrow></msup></mrow></math> la misma trayectoria se convierte en una elipse cerrada: <math display=\"inline\"><mi>I</mi></math> curva de nivel de la constante del movimiento."
       }
      ]
     },
@@ -2068,7 +2068,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Partícula sin ligaduras en coordenadas cartesianas]"
+     "html": "Partícula libre en coordenadas cartesianas"
     },
     {
      "mota": "testua",
@@ -2076,7 +2076,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano inclinado móvil]"
+     "html": "Plano inclinado móvil"
     },
     {
      "mota": "testua",
@@ -2117,7 +2117,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Partícula sin ligaduras en coordenadas cartesianas]"
+     "html": "Partícula libre en coordenadas cartesianas"
     },
     {
      "mota": "testua",
@@ -2125,7 +2125,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano inclinado móvil]"
+     "html": "Plano inclinado móvil"
     },
     {
      "mota": "testua",
@@ -2168,7 +2168,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Partícula sin ligaduras en coordenadas cartesianas]"
+     "html": "Partícula libre en coordenadas cartesianas"
     },
     {
      "mota": "testua",
@@ -2185,7 +2185,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano inclinado móvil]"
+     "html": "Plano inclinado móvil"
     },
     {
      "mota": "testua",
@@ -2221,7 +2221,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano inclinado móvil]"
+     "html": "Plano inclinado móvil"
     },
     {
      "mota": "testua",
@@ -2269,7 +2269,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano inclinado móvil]"
+     "html": "Plano inclinado móvil"
     },
     {
      "mota": "testua",
@@ -2502,7 +2502,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt, fill:berdea)[FIGURA 6.18   Energía potencial efectiva y una órbita.]"
+       "html": "FIGURA 6.18   Energía potencial efectiva y una órbita."
       }
      ]
     },
@@ -2519,7 +2519,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Ligaduras y coordenadas generalizadas])"
+     "html": "<strong>Ligaduras y coordenadas generalizadas</strong>"
     },
     {
      "mota": "problema",
@@ -2556,7 +2556,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Estática analítica])"
+     "html": "<strong>Estática analítica</strong>"
     },
     {
      "mota": "problema",
@@ -2762,7 +2762,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Cálculo de variaciones y principio de Hamilton])"
+     "html": "<strong>Cálculo de variaciones y principio de Hamilton</strong>"
     },
     {
      "mota": "problema",
@@ -2792,7 +2792,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Ecuaciones de Lagrange])"
+     "html": "<strong>Ecuaciones de Lagrange</strong>"
     },
     {
      "mota": "problema",
@@ -3013,7 +3013,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Leyes de conservación])"
+     "html": "<strong>Leyes de conservación</strong>"
     },
     {
      "mota": "problema",
@@ -3304,7 +3304,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Aproximación lineal])"
+     "html": "<strong>Aproximación lineal</strong>"
     },
     {
      "mota": "problema",
@@ -3352,7 +3352,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Problemas equivalentes])"
+     "html": "<strong>Problemas equivalentes</strong>"
     },
     {
      "mota": "problema",
@@ -3496,7 +3496,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Lagrangianas no estándar])"
+     "html": "<strong>Lagrangianos no estándar</strong>"
     },
     {
      "mota": "problema",
@@ -3618,7 +3618,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Formalismo hamiltoniano])"
+     "html": "<strong>Formalismo hamiltoniano</strong>"
     },
     {
      "mota": "problema",
@@ -3758,7 +3758,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Miscelánea])"
+     "html": "<strong>Miscelánea</strong>"
     },
     {
      "mota": "problema",
@@ -4014,7 +4014,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Dispositivo principal: polea colgada de un péndulo, con dos masas.]"
+       "html": "Dispositivo principal: polea colgada del péndulo, con dos masas."
       }
      ]
     },
@@ -4159,7 +4159,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[97Feb03: muelle vertical (<math display=\"inline\"><mi>k</mi></math>), masa <math display=\"inline\"><msub><mi>m</mi><mn>1</mn></msub></math> y varilla sin masa <math display=\"inline\"><mi>a</mi></math> con <math display=\"inline\"><msub><mi>m</mi><mn>2</mn></msub></math>.]"
+       "html": "97Feb03: muelle vertical (<math display=\"inline\"><mi>k</mi></math>), masa <math display=\"inline\"><msub><mi>m</mi><mn>1</mn></msub></math> y varilla sin masa <math display=\"inline\"><mi>a</mi></math> con <math display=\"inline\"><msub><mi>m</mi><mn>2</mn></msub></math>."
       }
      ]
     },
@@ -4252,7 +4252,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[El disco de Oxford: polea con masa (<math display=\"inline\"><msub><mi>m</mi><mn>2</mn></msub></math>, radio <math display=\"inline\"><mi>a</mi></math>), muelle al suelo y <math display=\"inline\"><msub><mi>m</mi><mn>1</mn></msub></math> colgada.]"
+       "html": "Disco de Oxford: polea con masa (<math display=\"inline\"><msub><mi>m</mi><mn>2</mn></msub></math>, radio <math display=\"inline\"><mi>a</mi></math>), muelle al suelo y <math display=\"inline\"><msub><mi>m</mi><mn>1</mn></msub></math> colgando."
       }
      ]
     },
@@ -4374,7 +4374,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[El torno: del extremo izquierdo del balancín cuelga el péndulo; la cuerda del extremo derecho, hacia abajo por la polea del suelo y hacia arriba por la de lo alto, se une al bloque paralelamente a la pendiente. Al bajar el bloque, el péndulo sube.]"
+       "html": "Tornillo: péndulo colgado del extremo izquierdo del balancín; la cuerda del extremo derecho, por la polea del suelo hacia abajo y por la polea de arriba hacia arriba, se ata al bloque paralelamente a la pendiente. Al bajar el bloque, el péndulo sube."
       }
      ]
     },
@@ -4652,7 +4652,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Vara contra la pared: los multiplicadores <math display=\"inline\"><msub><mi>λ</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>λ</mi><mn>2</mn></msub></math> son las fuerzas normales de la pared y del suelo, ni más ni menos.]"
+       "html": "Varilla contra la pared: los multiplicadores <math display=\"inline\"><msub><mi>λ</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>λ</mi><mn>2</mn></msub></math> son las fuerzas normales de la pared y del suelo, ni más ni menos."
       }
      ]
     },
@@ -4831,7 +4831,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Péndulo gemelo en la polea: la cuerda intercambia las alturas de las suspensiones (<math display=\"inline\"><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>+</mo><msub><mi>y</mi><mn>2</mn></msub><mo>=</mo><mn>0</mn></mrow></math>), y el multiplicador <math display=\"inline\"><mi>λ</mi></math> es la tensión de la cuerda. Este es el dispositivo principal de los cuadernos.]"
+       "html": "Péndulo gemelo en la polea: la cuerda intercambia las alturas de las suspensiones (<math display=\"inline\"><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>+</mo><msub><mi>y</mi><mn>2</mn></msub><mo>=</mo><mn>0</mn></mrow></math>), y el multiplicador <math display=\"inline\"><mi>λ</mi></math> es la tensión de la cuerda. Este es el dispositivo principal de los cuadernos."
       }
      ]
     },

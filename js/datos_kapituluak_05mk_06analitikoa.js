@@ -40,7 +40,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Partikula puntuala]"
+     "html": "Partikula puntuala"
     },
     {
      "mota": "testua",
@@ -64,7 +64,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Partikula-sistema]"
+     "html": "Partikula-sistema"
     },
     {
      "mota": "testua",
@@ -72,7 +72,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Pendulu esferikoa]"
+     "html": "Pendulu esferikoa"
     },
     {
      "mota": "testua",
@@ -126,7 +126,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Hari erdizirkular birakaria]"
+     "html": "Hari erdizirkular birakaria"
     },
     {
      "mota": "testua",
@@ -134,7 +134,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Solido zurruna]"
+     "html": "Solido zurruna"
     },
     {
      "mota": "testua",
@@ -142,7 +142,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Atwooden makina]"
+     "html": "Atwooden makina"
     },
     {
      "mota": "testua",
@@ -160,7 +160,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano aldapatsua]"
+     "html": "Plano aldapatsua"
     },
     {
      "mota": "testua",
@@ -205,7 +205,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano aldapatsu higikorra]"
+     "html": "Plano aldapatsu higikorra"
     },
     {
      "mota": "testua",
@@ -452,7 +452,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Disko homogeneoa (<math display=\"inline\"><mrow><mi>R</mi><mo>,</mo><mi>M</mi></mrow></math>) <math display=\"inline\"><mi>β</mi></math> maldan labaindu gabe errodatzen da; <math display=\"inline\"><mi>m</mi></math> ertzeko masak aldaparen goiko aldean orekatzen du. <math display=\"inline\"><mi>θ</mi></math> bertikal beherakorretik neurtzen da.]"
+       "html": "Disko homogeneoa (<math display=\"inline\"><mrow><mi>R</mi><mo>,</mo><mi>M</mi></mrow></math>) <math display=\"inline\"><mi>β</mi></math> maldan labaindu gabe errodatzen da; <math display=\"inline\"><mi>m</mi></math> ertzeko masak aldaparen goiko aldean orekatzen du. <math display=\"inline\"><mi>θ</mi></math> bertikal beherakorretik neurtzen da."
       }
      ]
     },
@@ -500,7 +500,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Erdi-diskoa (masa <math display=\"inline\"><mi>M</mi></math>) ertz kurbatuan kulunkatzen da mahai gainean; <math display=\"inline\"><mi>m</mi></math> partikula diametroaren muturrean. Orekan, masa-zentroa (<math display=\"inline\"><mi>G</mi></math>) <math display=\"inline\"><mi>O</mi></math>-ren azpian dago bertikalean; ha- la, diametroa <math display=\"inline\"><msub><mi>θ</mi><mtext mathvariant=\"normal\">or</mtext></msub></math> okertzen da.]"
+       "html": "Erdi-diskoa (masa <math display=\"inline\"><mi>M</mi></math>) ertz kurbatuan kulunkatzen da mahai gainean; <math display=\"inline\"><mi>m</mi></math> partikula diametroaren muturrean. Orekan, masa-zentroa (<math display=\"inline\"><mi>G</mi></math>) <math display=\"inline\"><mi>O</mi></math>-ren azpian dago bertikalean; ha- la, diametroa <math display=\"inline\"><msub><mi>θ</mi><mtext mathvariant=\"normal\">or</mtext></msub></math> okertzen da."
       }
      ]
     },
@@ -639,7 +639,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Oszilador harmonikoa]"
+     "html": "Oszilador harmonikoa"
     },
     {
      "mota": "testua",
@@ -762,7 +762,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Loturarik gabeko partikula koordenatu kartesiarretan]"
+     "html": "Loturarik gabeko partikula koordenatu kartesiarretan"
     },
     {
      "mota": "testua",
@@ -779,7 +779,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Atwooden makina]"
+     "html": "Atwooden makina"
     },
     {
      "mota": "testua",
@@ -787,7 +787,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Pendulu esferikoa]"
+     "html": "Pendulu esferikoa"
     },
     {
      "mota": "testua",
@@ -808,7 +808,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Erreferentzia-sistema birakaria]"
+     "html": "Erreferentzia-sistema birakaria"
     },
     {
      "mota": "testua",
@@ -826,7 +826,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano aldapatsu higikorra]"
+     "html": "Plano aldapatsu higikorra"
     },
     {
      "mota": "testua",
@@ -874,7 +874,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[<math display=\"inline\"><mi>m</mi></math> blokea aurpegi leunean labaintzen da eta <math display=\"inline\"><mi>M</mi></math> ziriak atzera egiten du.]"
+       "html": "<math display=\"inline\"><mi>m</mi></math> blokea aurpegi leunean labaintzen da eta <math display=\"inline\"><mi>M</mi></math> ziriak atzera egiten du."
       }
      ]
     },
@@ -918,7 +918,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Malgukia <math display=\"inline\"><mrow><mi>l</mi><mo>−</mo><mi>δ</mi></mrow></math> luzeraz konprimatuta dago (luzera propioa <math display=\"inline\"><mi>l</mi></math>), hariak eutsita; hormak <math display=\"inline\"><mi>N</mi></math> indarra egiten dio <math display=\"inline\"><msub><mi>m</mi><mn>1</mn></msub></math>-i. Haria moztean sistema askatzen da.]"
+       "html": "Malgukia <math display=\"inline\"><mrow><mi>l</mi><mo>−</mo><mi>δ</mi></mrow></math> luzeraz konprimatuta dago (luzera propioa <math display=\"inline\"><mi>l</mi></math>), hariak eutsita; hormak <math display=\"inline\"><mi>N</mi></math> indarra egiten dio <math display=\"inline\"><msub><mi>m</mi><mn>1</mn></msub></math>-i. Haria moztean sistema askatzen da."
       }
      ]
     },
@@ -966,7 +966,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Kate homogeneoa (<math display=\"inline\"><mrow><mi>m</mi><mo>,</mo><mi>L</mi></mrow></math>) polea leun eta masagabetik zintzilik; eskuineko muturrean <math display=\"inline\"><mi>M</mi></math> gorputza. <math display=\"inline\"><mi>x</mi></math> da ezkerreko adarraren luzera.]"
+       "html": "Kate homogeneoa (<math display=\"inline\"><mrow><mi>m</mi><mo>,</mo><mi>L</mi></mrow></math>) polea leun eta masagabetik zintzilik; eskuineko muturrean <math display=\"inline\"><mi>M</mi></math> gorputza. <math display=\"inline\"><mi>x</mi></math> da ezkerreko adarraren luzera."
       }
      ]
     },
@@ -1010,7 +1010,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Guraize elastikoa: bi barra artikulatu, goian <math display=\"inline\"><mi>M</mi></math> masak, behean <math display=\"inline\"><mi>m</mi></math> masak zoru leunean; <math display=\"inline\"><mi>k</mi></math> malgukiak oinarria lotzen du. <math display=\"inline\"><mi>θ</mi></math> bertikaletik neurtzen da.]"
+       "html": "Guraize elastikoa: bi barra artikulatu, goian <math display=\"inline\"><mi>M</mi></math> masak, behean <math display=\"inline\"><mi>m</mi></math> masak zoru leunean; <math display=\"inline\"><mi>k</mi></math> malgukiak oinarria lotzen du. <math display=\"inline\"><mi>θ</mi></math> bertikaletik neurtzen da."
       }
      ]
     },
@@ -1054,7 +1054,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[<math display=\"inline\"><mi>O</mi></math> eraztunetik pasatzen den soka gora jasotzen da <math display=\"inline\"><mi>u</mi></math> abiadura konstantez; penduluaren luzera <math display=\"inline\"><mrow><mi>ℓ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>ℓ</mi><mn>0</mn></msub><mo>−</mo><mi>u</mi><mi>t</mi></mrow></math> da (lotura reonomoa) eta <math display=\"inline\"><mi>θ</mi></math> bertikal beheranzkotik neurtzen da.]"
+       "html": "<math display=\"inline\"><mi>O</mi></math> eraztunetik pasatzen den soka gora jasotzen da <math display=\"inline\"><mi>u</mi></math> abiadura konstantez; penduluaren luzera <math display=\"inline\"><mrow><mi>ℓ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>ℓ</mi><mn>0</mn></msub><mo>−</mo><mi>u</mi><mi>t</mi></mrow></math> da (lotura reonomoa) eta <math display=\"inline\"><mi>θ</mi></math> bertikal beheranzkotik neurtzen da."
       }
      ]
     },
@@ -1245,7 +1245,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano aldapatsu higikorra]"
+     "html": "Plano aldapatsu higikorra"
     },
     {
      "mota": "testua",
@@ -1277,7 +1277,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Loturarik gabeko partikula koordenatu kartesiarretan]"
+     "html": "Loturarik gabeko partikula koordenatu kartesiarretan"
     },
     {
      "mota": "testua",
@@ -1285,7 +1285,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Loturarik gabeko partikula koordenatu zilindrikoetan]"
+     "html": "Loturarik gabeko partikula koordenatu zilindrikoetan"
     },
     {
      "mota": "testua",
@@ -1302,7 +1302,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano aldapatsu higikorra]"
+     "html": "Plano aldapatsu higikorra"
     },
     {
      "mota": "testua",
@@ -1354,7 +1354,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Hodi birakaria goitik ikusita: <math display=\"inline\"><mi>m</mi></math> partikula <math display=\"inline\"><mi>k</mi></math> malgukiaz lotua dago <math display=\"inline\"><mi>O</mi></math> ardatzera; hodiak (birakariak) <math display=\"inline\"><msub><mi>I</mi><mn>0</mn></msub></math> inertzia-momentua du eta <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><mover><mi>φ</mi><mo accent=\"true\">̇</mo></mover></mrow></math> abiaduraz biratzen da.]"
+       "html": "Hodi birakaria goitik ikusita: <math display=\"inline\"><mi>m</mi></math> partikula <math display=\"inline\"><mi>k</mi></math> malgukiaz lotua dago <math display=\"inline\"><mi>O</mi></math> ardatzera; hodiak (birakariak) <math display=\"inline\"><msub><mi>I</mi><mn>0</mn></msub></math> inertzia-momentua du eta <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><mover><mi>φ</mi><mo accent=\"true\">̇</mo></mover></mrow></math> abiaduraz biratzen da."
       }
      ]
     },
@@ -1402,7 +1402,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Eraztuna mahaian labaindu gabe errodatzen da; kontua (<math display=\"inline\"><mi>m</mi></math>) marruskadurarik gabe irristatzen da haren gainean; <math display=\"inline\"><mi>φ</mi></math> beheko puntutik neurtzen da eta <math display=\"inline\"><mi>f</mi></math> mahaiaren marruskadura da.]"
+       "html": "Eraztuna mahaian labaindu gabe errodatzen da; kontua (<math display=\"inline\"><mi>m</mi></math>) marruskadurarik gabe irristatzen da haren gainean; <math display=\"inline\"><mi>φ</mi></math> beheko puntutik neurtzen da eta <math display=\"inline\"><mi>f</mi></math> mahaiaren marruskadura da."
       }
      ]
     },
@@ -1446,7 +1446,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Haria <math display=\"inline\"><mi>β</mi></math> angeluan <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> konstantez biratzen da; bi aleak <math display=\"inline\"><msub><mi>r</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>r</mi><mn>2</mn></msub></math> erradioetan labaintzen dira, bi malgukiz kateatuak. Marra etena: bigarren alearen orbita zirkularra.]"
+       "html": "Haria <math display=\"inline\"><mi>β</mi></math> angeluan <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> konstantez biratzen da; bi aleak <math display=\"inline\"><msub><mi>r</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>r</mi><mn>2</mn></msub></math> erradioetan labaintzen dira, bi malgukiz kateatuak. Marra etena: bigarren alearen orbita zirkularra."
       }
      ]
     },
@@ -1494,7 +1494,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Bloke-hodi multzoa mahai leunean labaintzen da (<math display=\"inline\"><mi>X</mi></math>); bi partikulek (<math display=\"inline\"><mi>m</mi></math> bakoitzak) hodian oszilatzen dute, <math display=\"inline\"><msub><mi>θ</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>θ</mi><mn>2</mn></msub></math> beheko puntutik neurtuta.]"
+       "html": "Bloke-hodi multzoa mahai leunean labaintzen da (<math display=\"inline\"><mi>X</mi></math>); bi partikulek (<math display=\"inline\"><mi>m</mi></math> bakoitzak) hodian oszilatzen dute, <math display=\"inline\"><msub><mi>θ</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>θ</mi><mn>2</mn></msub></math> beheko puntutik neurtuta."
       }
      ]
     },
@@ -1566,7 +1566,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Loturarik gabeko partikula koordenatu kartesiarretan]"
+     "html": "Loturarik gabeko partikula koordenatu kartesiarretan"
     },
     {
      "mota": "testua",
@@ -1623,7 +1623,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano aldapatsu higikorra]"
+     "html": "Plano aldapatsu higikorra"
     },
     {
      "mota": "testua",
@@ -1710,7 +1710,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Barra zurruna (<math display=\"inline\"><mi>m</mi></math> masa muturrean) bere planoan aske kulunkatzen da, motorrak <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math> konstantez ardatz bertikalaren inguruan behartzen duen bitartean; <math display=\"inline\"><mi>θ</mi></math> beheko bertikaletik neurtzen da.]"
+       "html": "Barra zurruna (<math display=\"inline\"><mi>m</mi></math> masa muturrean) bere planoan aske kulunkatzen da, motorrak <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math> konstantez ardatz bertikalaren inguruan behartzen duen bitartean; <math display=\"inline\"><mi>θ</mi></math> beheko bertikaletik neurtzen da."
       }
      ]
     },
@@ -1754,7 +1754,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Hodia <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> abiaduraz biratzen da ardatz bertikalaren inguruan; <math display=\"inline\"><mi>s</mi></math> partikularen posizioa da <math display=\"inline\"><mi>O</mi></math>-tik hodian zehar, eta puntu-lerroak bere biraketa-ibilbidea.]"
+       "html": "Hodia <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> abiaduraz biratzen da ardatz bertikalaren inguruan; <math display=\"inline\"><mi>s</mi></math> partikularen posizioa da <math display=\"inline\"><mi>O</mi></math>-tik hodian zehar, eta puntu-lerroak bere biraketa-ibilbidea."
       }
      ]
     },
@@ -1802,7 +1802,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Errail zurruna <math display=\"inline\"><mi>e</mi></math> ardatzaren inguruan <math display=\"inline\"><mi>ω</mi></math>-z biratzen da, <math display=\"inline\"><mi>β</mi></math> angelu finkoan; <math display=\"inline\"><mi>m</mi></math> alea malguki batez (<math display=\"inline\"><mi>k</mi></math>) lotuta labaintzen da errailean, <math display=\"inline\"><mi>O</mi></math>-tik <math display=\"inline\"><mi>r</mi></math> distantziara. Alea <math display=\"inline\"><mi>O</mi></math>-ren azpian marraztu da (orekaren kokapen egonkorra).]"
+       "html": "Errail zurruna <math display=\"inline\"><mi>e</mi></math> ardatzaren inguruan <math display=\"inline\"><mi>ω</mi></math>-z biratzen da, <math display=\"inline\"><mi>β</mi></math> angelu finkoan; <math display=\"inline\"><mi>m</mi></math> alea malguki batez (<math display=\"inline\"><mi>k</mi></math>) lotuta labaintzen da errailean, <math display=\"inline\"><mi>O</mi></math>-tik <math display=\"inline\"><mi>r</mi></math> distantziara. Alea <math display=\"inline\"><mi>O</mi></math>-ren azpian marraztu da (orekaren kokapen egonkorra)."
       }
      ]
     },
@@ -1850,7 +1850,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Aroa <math display=\"inline\"><mi>ω</mi></math> abiaduraz biratzen da bere diametro bertikalaren inguruan; <math display=\"inline\"><mi>θ</mi></math> goiko puntutik neurtzen da.]"
+       "html": "Aroa <math display=\"inline\"><mi>ω</mi></math> abiaduraz biratzen da bere diametro bertikalaren inguruan; <math display=\"inline\"><mi>θ</mi></math> goiko puntutik neurtzen da."
       }
      ]
     },
@@ -1890,7 +1890,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Bola-erregulatzailea <math display=\"inline\"><mi>ω</mi></math> abiaduraz biratzen da ardatz bertikalaren inguruan; <math display=\"inline\"><mi>θ</mi></math> barrek ardatzarekiko osatzen duten angelua da, eta <math display=\"inline\"><mi>M</mi></math> gorputza ardatzean zehar bertikalki labaintzen da.]"
+       "html": "Bola-erregulatzailea <math display=\"inline\"><mi>ω</mi></math> abiaduraz biratzen da ardatz bertikalaren inguruan; <math display=\"inline\"><mi>θ</mi></math> barrek ardatzarekiko osatzen duten angelua da, eta <math display=\"inline\"><mi>M</mi></math> gorputza ardatzean zehar bertikalki labaintzen da."
       }
      ]
     },
@@ -1938,7 +1938,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[<math display=\"inline\"><mrow><mi>m</mi><mo>,</mo><mi>ℓ</mi></mrow></math> barra hodi birakari askean labaintzen da, <math display=\"inline\"><mi>k</mi></math> malguki batek pibotari lotua; <math display=\"inline\"><mi>r</mi></math> erdigunearen erradioa da eta <math display=\"inline\"><mi>θ</mi></math> hodiaren angelua.]"
+       "html": "<math display=\"inline\"><mrow><mi>m</mi><mo>,</mo><mi>ℓ</mi></mrow></math> barra hodi birakari askean labaintzen da, <math display=\"inline\"><mi>k</mi></math> malguki batek pibotari lotua; <math display=\"inline\"><mi>r</mi></math> erdigunearen erradioa da eta <math display=\"inline\"><mi>θ</mi></math> hodiaren angelua."
       }
      ]
     },
@@ -1982,7 +1982,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Ezkerrean, osziladore motelduaren ibilbidea fase-espazio fisikoan: barrurantz doan espirala, azalera <math display=\"inline\"><msup><mi>e</mi><mrow><mi>−</mi><mi>γ</mi><mi>t</mi></mrow></msup></math> bezala uzkurtuz. Eskuinean, <math display=\"inline\"><mrow><mi>q</mi><mo>=</mo><mi>x</mi><mspace width=\"0.167em\"></mspace><msup><mi>e</mi><mrow><mi>γ</mi><mi>t</mi><mi>/</mi><mn>2</mn></mrow></msup></mrow></math> aldagai jantzian ibilbide bera elipse itxi bihurtzen da: <math display=\"inline\"><mi>I</mi></math> higidura-konstantearen maila-kurba.]"
+       "html": "Ezkerrean, osziladore motelduaren ibilbidea fase-espazio fisikoan: barrurantz doan espirala, azalera <math display=\"inline\"><msup><mi>e</mi><mrow><mi>−</mi><mi>γ</mi><mi>t</mi></mrow></msup></math> bezala uzkurtuz. Eskuinean, <math display=\"inline\"><mrow><mi>q</mi><mo>=</mo><mi>x</mi><mspace width=\"0.167em\"></mspace><msup><mi>e</mi><mrow><mi>γ</mi><mi>t</mi><mi>/</mi><mn>2</mn></mrow></msup></mrow></math> aldagai jantzian ibilbide bera elipse itxi bihurtzen da: <math display=\"inline\"><mi>I</mi></math> higidura-konstantearen maila-kurba."
       }
      ]
     },
@@ -2068,7 +2068,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Loturarik gabeko partikula koordenatu kartesiarretan]"
+     "html": "Loturarik gabeko partikula koordenatu kartesiarretan"
     },
     {
      "mota": "testua",
@@ -2076,7 +2076,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano aldapatsu higikorra]"
+     "html": "Plano aldapatsu higikorra"
     },
     {
      "mota": "testua",
@@ -2117,7 +2117,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Loturarik gabeko partikula koordenatu kartesiarretan]"
+     "html": "Loturarik gabeko partikula koordenatu kartesiarretan"
     },
     {
      "mota": "testua",
@@ -2125,7 +2125,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano aldapatsu higikorra]"
+     "html": "Plano aldapatsu higikorra"
     },
     {
      "mota": "testua",
@@ -2168,7 +2168,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Loturarik gabeko partikula koordenatu kartesiarretan]"
+     "html": "Loturarik gabeko partikula koordenatu kartesiarretan"
     },
     {
      "mota": "testua",
@@ -2185,7 +2185,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano aldapatsu higikorra]"
+     "html": "Plano aldapatsu higikorra"
     },
     {
      "mota": "testua",
@@ -2221,7 +2221,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano aldapatsu higikorra]"
+     "html": "Plano aldapatsu higikorra"
     },
     {
      "mota": "testua",
@@ -2269,7 +2269,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt)[Plano aldapatsu higikorra]"
+     "html": "Plano aldapatsu higikorra"
     },
     {
      "mota": "testua",
@@ -2502,7 +2502,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt, fill:berdea)[6.18 IRUDIA   Energia potentzial eraginkorra eta orbita bat.]"
+       "html": "6.18 IRUDIA   Energia potentzial eraginkorra eta orbita bat."
       }
      ]
     },
@@ -2519,7 +2519,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Loturak eta koordenatu orokortuak])"
+     "html": "<strong>Loturak eta koordenatu orokortuak</strong>"
     },
     {
      "mota": "problema",
@@ -2556,7 +2556,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Estatika analitikoa])"
+     "html": "<strong>Estatika analitikoa</strong>"
     },
     {
      "mota": "problema",
@@ -2762,7 +2762,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Aldakuntzen kalkulua eta Hamiltonen printzipioa])"
+     "html": "<strong>Aldakuntzen kalkulua eta Hamiltonen printzipioa</strong>"
     },
     {
      "mota": "problema",
@@ -2792,7 +2792,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Lagrangeren ekuazioak])"
+     "html": "<strong>Lagrangeren ekuazioak</strong>"
     },
     {
      "mota": "problema",
@@ -3013,7 +3013,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Kontserbazio-legeak])"
+     "html": "<strong>Kontserbazio-legeak</strong>"
     },
     {
      "mota": "problema",
@@ -3304,7 +3304,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Hurbilketa lineala])"
+     "html": "<strong>Hurbilketa lineala</strong>"
     },
     {
      "mota": "problema",
@@ -3352,7 +3352,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Problema baliokideak])"
+     "html": "<strong>Problema baliokideak</strong>"
     },
     {
      "mota": "problema",
@@ -3496,7 +3496,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Lagrangear ez-estandarrak])"
+     "html": "<strong>Lagrangear ez-estandarrak</strong>"
     },
     {
      "mota": "problema",
@@ -3618,7 +3618,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Formalismo hamiltondarra])"
+     "html": "<strong>Formalismo hamiltondarra</strong>"
     },
     {
      "mota": "problema",
@@ -3758,7 +3758,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Denetarik])"
+     "html": "<strong>Denetarik</strong>"
     },
     {
      "mota": "problema",
@@ -4014,7 +4014,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Dispositibo nagusia: pendulutik zintzilikatutako polea, bi masekin.]"
+       "html": "Dispositibo nagusia: pendulutik zintzilikatutako polea, bi masekin."
       }
      ]
     },
@@ -4159,7 +4159,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[97Feb03: malguki bertikala (<math display=\"inline\"><mi>k</mi></math>), <math display=\"inline\"><msub><mi>m</mi><mn>1</mn></msub></math> masa eta masarik gabeko <math display=\"inline\"><mi>a</mi></math> hagatxoa <math display=\"inline\"><msub><mi>m</mi><mn>2</mn></msub></math>-rekin.]"
+       "html": "97Feb03: malguki bertikala (<math display=\"inline\"><mi>k</mi></math>), <math display=\"inline\"><msub><mi>m</mi><mn>1</mn></msub></math> masa eta masarik gabeko <math display=\"inline\"><mi>a</mi></math> hagatxoa <math display=\"inline\"><msub><mi>m</mi><mn>2</mn></msub></math>-rekin."
       }
      ]
     },
@@ -4252,7 +4252,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Oxford-eko diskoa: polea masaduna (<math display=\"inline\"><msub><mi>m</mi><mn>2</mn></msub></math>, <math display=\"inline\"><mi>a</mi></math> erradioa), malgukia lurrera eta <math display=\"inline\"><msub><mi>m</mi><mn>1</mn></msub></math> zintzilik.]"
+       "html": "Oxford-eko diskoa: polea masaduna (<math display=\"inline\"><msub><mi>m</mi><mn>2</mn></msub></math>, <math display=\"inline\"><mi>a</mi></math> erradioa), malgukia lurrera eta <math display=\"inline\"><msub><mi>m</mi><mn>1</mn></msub></math> zintzilik."
       }
      ]
     },
@@ -4374,7 +4374,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Tornua: balantzinaren ezker muturretik pendulua zintzilik; eskuineko muturreko soka, zoruko polean behera eta gailurreko polean gora, blokeari aldapari paralelo lotzen zaio. Blokeak behera egitean pendulua igo egiten da.]"
+       "html": "Tornua: balantzinaren ezker muturretik pendulua zintzilik; eskuineko muturreko soka, zoruko polean behera eta gailurreko polean gora, blokeari aldapari paralelo lotzen zaio. Blokeak behera egitean pendulua igo egiten da."
       }
      ]
     },
@@ -4652,7 +4652,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Haga hormaren kontra: <math display=\"inline\"><msub><mi>λ</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>λ</mi><mn>2</mn></msub></math> biderkatzaileak hormaren eta zoruaren indar normalak dira, ez gehiago eta ez gutxiago.]"
+       "html": "Haga hormaren kontra: <math display=\"inline\"><msub><mi>λ</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>λ</mi><mn>2</mn></msub></math> biderkatzaileak hormaren eta zoruaren indar normalak dira, ez gehiago eta ez gutxiago."
       }
      ]
     },
@@ -4831,7 +4831,7 @@ KAPITULUAK["05mk_06analitikoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 9pt, style: &quot;italic&quot;)[Pendulu bikia polean: sokak esekiduren altuerak trukatzen ditu (<math display=\"inline\"><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>+</mo><msub><mi>y</mi><mn>2</mn></msub><mo>=</mo><mn>0</mn></mrow></math>), eta <math display=\"inline\"><mi>λ</mi></math> biderkatzailea sokaren tentsioa da. Hau da koadernoetako dispositibo nagusia.]"
+       "html": "Pendulu bikia polean: sokak esekiduren altuerak trukatzen ditu (<math display=\"inline\"><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>+</mo><msub><mi>y</mi><mn>2</mn></msub><mo>=</mo><mn>0</mn></mrow></math>), eta <math display=\"inline\"><mi>λ</mi></math> biderkatzailea sokaren tentsioa da. Hau da koadernoetako dispositibo nagusia."
       }
      ]
     },

@@ -1701,7 +1701,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt, fill:berdea)[<strong>3.26 IRUDIA</strong>    Higidura hiperbolikoa Minkowskiren diagraman.]"
+       "html": "<strong>3.26 IRUDIA</strong>    Higidura hiperbolikoa Minkowskiren diagraman."
       }
      ]
     },
@@ -1809,7 +1809,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Lorentzen transformazioen ondorioak])"
+     "html": "<strong>Lorentzen transformazioen ondorioak</strong>"
     },
     {
      "mota": "problema",
@@ -2194,7 +2194,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Abiaduraren eta azelerazioaren transformazio-legeak])"
+     "html": "<strong>Abiaduraren eta azelerazioaren transformazio-legeak</strong>"
     },
     {
      "mota": "problema",
@@ -2394,7 +2394,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Masa, energia eta momentu lineala])"
+     "html": "<strong>Masa, energia eta momentu lineala</strong>"
     },
     {
      "mota": "problema",
@@ -2530,7 +2530,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Higidura-ekuazioak])"
+     "html": "<strong>Higidura-ekuazioak</strong>"
     },
     {
      "mota": "problema",
@@ -2611,7 +2611,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Doppler efektua])"
+     "html": "<strong>Doppler efektua</strong>"
     },
     {
      "mota": "problema",
@@ -2762,7 +2762,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Kontserbazio-printzipioak])"
+     "html": "<strong>Kontserbazio-printzipioak</strong>"
     },
     {
      "mota": "problema",
@@ -3231,7 +3231,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Denetarik])"
+     "html": "<strong>Denetarik</strong>"
     },
     {
      "mota": "problema",

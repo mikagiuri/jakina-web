@@ -1694,7 +1694,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Problema de autovalores y autovectores generalizados])"
+     "html": "<strong>Problema de valores y vectores propios generalizados</strong>"
     },
     {
      "mota": "testua",
@@ -1911,7 +1911,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Batidos])"
+     "html": "<strong>Pulsaciones</strong>"
     },
     {
      "mota": "testua",
@@ -2445,7 +2445,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Osciladores armónicos, amortiguados y forzados])"
+     "html": "<strong>Osciladores armónicos, amortiguados y forzados</strong>"
     },
     {
      "mota": "problema",
@@ -2948,7 +2948,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       },
       {
        "mota": "testua",
-       "html": "text(size: 10pt, style: &quot;italic&quot;)[ «En los extremos de una barra de masa despreciable y de longitud <math display=\"inline\"><mrow><mi>d</mi><mo>=</mo><mn>1</mn></mrow></math> m hay unidas dos esferas pequeñas de <math display=\"inline\"><mrow><mi>m</mi><mo>=</mo><mn>1</mn></mrow></math> g. La barra cuelga de una articulación, de modo que gira sin rozamiento en torno al eje vertical que pasa por su centro. Dos esferas grandes de <math display=\"inline\"><mrow><mi>M</mi><mo>=</mo><mn>20</mn></mrow></math> kg están en la misma recta que la barra. La distancia entre los centros de la esfera grande y la pequeña es <math display=\"inline\"><mrow><mi>L</mi><mo>=</mo><mn>16</mn></mrow></math> cm (figura 226). Calcula el periodo de las pequeñas oscilaciones del péndulo giratorio.»"
+       "html": " «En los extremos de una barra de masa despreciable y longitud <math display=\"inline\"><mrow><mi>d</mi><mo>=</mo><mn>1</mn></mrow></math> m hay unidas dos esferas pequeñas de <math display=\"inline\"><mrow><mi>m</mi><mo>=</mo><mn>1</mn></mrow></math> g. La barra cuelga de una articulación, de modo que puede girar sin rozamiento alrededor de un eje vertical que pasa por su punto medio. Dos esferas grandes de <math display=\"inline\"><mrow><mi>M</mi><mo>=</mo><mn>20</mn></mrow></math> kg están en la misma recta de la barra. La distancia entre los centros de la esfera grande y la pequeña es <math display=\"inline\"><mrow><mi>L</mi><mo>=</mo><mn>16</mn></mrow></math> cm (figura 226). Calcula el periodo de las oscilaciones pequeñas del péndulo de torsión.»"
       },
       {
        "mota": "testua",
@@ -3129,7 +3129,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Oscilaciones no armónicas])"
+     "html": "<strong>Oscilaciones no armónicas</strong>"
     },
     {
      "mota": "problema",
@@ -3319,7 +3319,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Oscilaciones acopladas])"
+     "html": "<strong>Oscilaciones acopladas</strong>"
     },
     {
      "mota": "problema",
@@ -3939,7 +3939,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Miscelánea])"
+     "html": "<strong>Miscelánea</strong>"
     },
     {
      "mota": "problema",

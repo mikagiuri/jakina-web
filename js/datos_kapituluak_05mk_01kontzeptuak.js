@@ -2521,7 +2521,7 @@ KAPITULUAK["05mk_01kontzeptuak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Zinematika])"
+     "html": "<strong>Zinematika</strong>"
     },
     {
      "mota": "problema",
@@ -2861,7 +2861,7 @@ KAPITULUAK["05mk_01kontzeptuak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Partikula puntualaren dinamika])"
+     "html": "<strong>Partikula puntualaren dinamika</strong>"
     },
     {
      "mota": "problema",
@@ -3664,7 +3664,7 @@ KAPITULUAK["05mk_01kontzeptuak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Partikula-sistemak])"
+     "html": "<strong>Partikula-sistemak</strong>"
     },
     {
      "mota": "problema",

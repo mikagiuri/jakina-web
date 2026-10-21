@@ -945,7 +945,7 @@ KAPITULUAK["03mm_07estatistika"] = {
     },
     {
      "mota": "testua",
-     "html": "La calculadora tiene una tecla #text(size: 10pt)[RAN\\#], es decir, la tecla llamada <strong>generador de números aleatorios</strong>. Con esa tecla se obtiene al azar un número decimal comprendido entre 0,000 y 0,999. Si multiplicamos uno de esos números por <math display=\"inline\"><mi>N</mi></math> (el número de elementos de la población), obtendremos un número decimal cuya parte entera estará entre 0 y <math display=\"inline\"><mrow><mi>N</mi><mo>−</mo><mn>1</mn></mrow></math>. Por tanto, si tomamos la parte entera del número obtenido mediante la secuencia <img class=\"formula\" src=\"../media/formulak/056c8c78329ce52a.svg\" alt=\"N times &quot;RAN#&quot; + 1\" style=\"width:8.227em;height:1.001em\" loading=\"lazy\">, obtendremos un número elegido al azar entre 1 y <math display=\"inline\"><mi>N</mi></math>. Si hacemos ese mismo proceso <math display=\"inline\"><mi>n</mi></math> veces, obtendremos una muestra de <math display=\"inline\"><mi>n</mi></math> elementos, parecida a la muestra que obtendríamos por extracción con reemplazamiento. Para hacer bien la operación, habrá que eliminar los elementos que se repitan (si los hay) y obtener otros elementos en su lugar."
+     "html": "La calculadora tiene la tecla RAN\\#, es decir, la tecla llamada <strong>generador de números aleatorios</strong>. Con esa tecla se obtiene al azar un número decimal comprendido entre 0,000 y 0,999. Si multiplicamos uno de esos números por <math display=\"inline\"><mi>N</mi></math> (el número de elementos de la población), obtendremos un número decimal cuya parte entera estará entre 0 y <math display=\"inline\"><mrow><mi>N</mi><mo>−</mo><mn>1</mn></mrow></math>. Por tanto, si tomamos la parte entera del número obtenido mediante la secuencia <img class=\"formula\" src=\"../media/formulak/056c8c78329ce52a.svg\" alt=\"N times &quot;RAN#&quot; + 1\" style=\"width:8.227em;height:1.001em\" loading=\"lazy\">, obtendremos un número elegido al azar entre 1 y <math display=\"inline\"><mi>N</mi></math>. Si repetimos este mismo proceso <math display=\"inline\"><mi>n</mi></math> veces, obtendremos una muestra de <math display=\"inline\"><mi>n</mi></math> elementos, similar a la que obtendríamos extrayendo con reemplazamiento. Para hacer bien la operación habrá que eliminar los elementos repetidos (si los hay) y obtener otros elementos en su lugar."
     },
     {
      "mota": "testua",
@@ -962,7 +962,7 @@ KAPITULUAK["03mm_07estatistika"] = {
       },
       {
        "mota": "testua",
-       "html": "423     MULTIPLICANDO CONSTANTE. Ahora la calculadora está lista para multiplicar por 423 cualquier número escrito en la pantalla. Después de la operación hay que pulsar la tecla #text(size: 10pt)[=]."
+       "html": "423     FACTOR CONSTANTE. Ahora la calculadora está lista para multiplicar por 423 cualquier número escrito en pantalla. Tras la operación hay que pulsar la tecla =."
       },
       {
        "mota": "zentratua",
@@ -3759,7 +3759,7 @@ KAPITULUAK["03mm_07estatistika"] = {
         },
         {
          "mota": "testua",
-         "html": "Utiliza la función #text(size: 10pt)[RAN\\#] de la calculadora."
+         "html": "Usa la función RAN\\# de la calculadora."
         }
        ]
       }
@@ -3783,15 +3783,15 @@ KAPITULUAK["03mm_07estatistika"] = {
     },
     {
      "mota": "testua",
-     "html": "Esto quiere decir que hay que elegir uno de cada 139 individuos. Para saber por dónde empezar, elegiremos al azar un número entre 1 y 139. Esa operación la podemos hacer utilizando la función #text(size: 10pt)[RAN\\#] de la calculadora:"
+     "html": "Eso quiere decir que tenemos que elegir uno de los 139 individuos. Para saber por dónde empezar, elegiremos al azar un número entre 1 y 139. Esta operación podemos hacerla usando la función RAN\\# de la calculadora:"
     },
     {
      "mota": "testua",
-     "html": "Obtener el primer elemento: #text(size: 10pt)[RAN\\#]  <math display=\"inline\"><mi>×</mi></math> 139 <math display=\"inline\"><mi>+</mi></math> 1 <math display=\"inline\"><mo>=</mo></math> y tomaremos la parte entera."
+     "html": "Obtener el primer elemento: RAN\\#  <math display=\"inline\"><mi>×</mi></math> 139 <math display=\"inline\"><mi>+</mi></math> 1 <math display=\"inline\"><mo>=</mo></math> y tomaremos la parte entera."
     },
     {
      "mota": "testua",
-     "html": "Por ejemplo: #text(size: 10pt)[RAN\\#]  <math display=\"inline\"><mrow><mn>0</mn><mo>,</mo><mn>534</mn><mo>×</mo><mn>139</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>75</mn><mo>,</mo><mn>782</mn></mrow></math>"
+     "html": "Por ejemplo: RAN\\#  <math display=\"inline\"><mrow><mn>0</mn><mo>,</mo><mn>534</mn><mo>×</mo><mn>139</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>75</mn><mo>,</mo><mn>782</mn></mrow></math>"
     },
     {
      "mota": "testua",
@@ -3811,7 +3811,7 @@ KAPITULUAK["03mm_07estatistika"] = {
     },
     {
      "mota": "testua",
-     "html": "#text(size: 10pt)[RAN\\#]"
+     "html": "RAN\\#"
     },
     {
      "mota": "testua",
@@ -4488,7 +4488,7 @@ KAPITULUAK["03mm_07estatistika"] = {
       },
       {
        "mota": "testua",
-       "html": "Utiliza la tecla #text(size: 10pt)[RAN\\#] de la calculadora."
+       "html": "Usa la tecla RAN\\# de la calculadora."
       }
      ]
     },

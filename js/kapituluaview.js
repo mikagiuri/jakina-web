@@ -126,8 +126,12 @@ function loadKapitulua(g){
     '<p class="hutsik kap-kargatzen">Kargatzen…</p>';
   kapKargatu(gakoa).then(k => {
     const kat = KATALOGOA[gakoa];
+    // (web-jakina-7) toggle Irakurri/Ikasi SOLO si el capítulo tiene datos de estudio (window.IKASGAI)
+    const ikasgaiHtml = (window.IKASGAI && window.IKASGAI[gakoa])
+      ? '<div class="kap-ikasgai" role="group" aria-label="Modua"><span class="on">Irakurri</span><a href="#ikasi/' + gakoa + '">Ikasi</a></div>'
+      : '';
     const head = '<div class="theory-head"><span class="kick" style="color:var(--accent)">' + esc(kat.aroa ? kat.aroa + ". aroa · " + kat.maila : kat.azpititulua) +
-      '</span><h1>' + esc(k.azala) + '</h1></div>';
+      '</span><h1>' + esc(k.azala) + '</h1>' + ikasgaiHtml + '</div>';
     const sarrera = k.sarrera.map(b => blokeaHtml(b, k)).join("");
     const atalak = k.atalak.map(a => '<h2 id="' + a.id + '" class="maila' + a.maila + '">' + a.izenburua + "</h2>" + a.blokeak.map(b => blokeaHtml(b, k)).join("")).join("");
     const gakoak = Object.keys(KATALOGOA), i = gakoak.indexOf(gakoa);

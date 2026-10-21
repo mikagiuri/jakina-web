@@ -646,7 +646,7 @@ KAPITULUAK["05mk_08kaosa"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "text(fill:berdea, weight: &quot;bold&quot;, size: 10pt, smallcaps[Fraktalak])"
+     "html": "<strong>Fraktalak</strong>"
     },
     {
      "mota": "irudia",
@@ -746,7 +746,7 @@ KAPITULUAK["05mk_08kaosa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:berdea, weight: &quot;bold&quot;, size: 10pt, smallcaps[Zenbakizko simulazioak])"
+     "html": "<strong>Zenbakizko simulazioak</strong>"
     },
     {
      "mota": "problema",

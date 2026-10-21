@@ -219,3 +219,133 @@ img.irudi-l{display:block;max-width:100%;height:auto;margin:.2em auto;background
 .j-taula-val thead th{background:transparent;font-weight:400}
 .j-taula-val tr > :first-child{background:color-mix(in srgb,var(--j-laranja) 16%,transparent);font-weight:600}
 @media (max-width:520px){ .fg{--u:1.25em;width:19em} }
+
+
+/* ===== Ikasteko bista (web-jakina-7), v013 — erantsia 2026-10-21 ===== */
+/* Ikasteko bista — estiloak web/css/jakina.css-ri eranstekoak (web-jakina-7).
+   #ikasi-pean scoped, bista linealarekin ez talka egiteko. Look-a: web\-ko tokenak (verde-azulado + iturriak). */
+#ikasi{--A-mat:var(--r-con,#2B6CB0)}
+#ikasi .ikasi-bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:6px 0 10px}
+#ikasi .modetoggle{display:inline-flex;background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:3px}
+#ikasi .modetoggle .m-leer,#ikasi .modetoggle .m-study{border:0;background:none;color:var(--muted);font:600 .9rem var(--sans);padding:6px 16px;border-radius:999px;cursor:pointer;text-decoration:none}
+#ikasi .modetoggle .m-study[aria-pressed="true"]{background:var(--accent);color:var(--on-accent)}
+#ikasi .kapsel{background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:6px 10px;font:600 .9rem var(--sans);max-width:46vw}
+#ikasi .kapsel:hover{border-color:var(--accent)}
+#ikasi .ik-glos{background:var(--surface);border:1px solid var(--line);color:var(--muted);width:38px;height:38px;border-radius:10px;font-size:1.05rem;display:grid;place-items:center;margin-inline-start:auto;cursor:pointer}
+#ikasi .ik-glos:hover{color:var(--ink);border-color:var(--accent)}
+#ikasi .smodes{display:flex;gap:4px;padding:4px 0 10px;border-bottom:1px solid var(--line);overflow-x:auto;margin-bottom:14px}
+#ikasi .smode{border:0;background:none;color:var(--muted);font:600 .92rem var(--sans);padding:7px 14px;border-radius:9px;cursor:pointer;white-space:nowrap}
+#ikasi .smode:hover{color:var(--ink);background:var(--surface-2)}
+#ikasi .smode[aria-pressed="true"]{color:var(--ink);background:var(--surface);box-shadow:inset 0 0 0 1px var(--line)}
+
+#ikasi .sarrera{border-inline-start:4px solid var(--accent);padding-inline-start:16px;margin-bottom:10px}
+#ikasi .sarrera .kick{font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:var(--accent)}
+#ikasi .sarrera h1{font-family:var(--serif);font-size:clamp(1.6rem,4vw,2.1rem);margin:4px 0}
+#ikasi .sarrera p{color:var(--muted);max-width:62ch}
+
+#ikasi .study-layout{display:grid;grid-template-columns:1fr;gap:26px}
+@media (min-width:960px){#ikasi .study-layout{grid-template-columns:280px minmax(0,1fr);gap:40px}}
+#ikasi .srail{font-size:.9rem}
+@media (min-width:960px){#ikasi .srail{position:sticky;top:78px;align-self:start;max-height:calc(100vh - 100px);overflow:auto;padding-bottom:20px}}
+#ikasi .srail .atala{font:700 .68rem var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:16px 0 6px}
+#ikasi .srail ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:1px;border-inline-start:1px solid var(--line)}
+#ikasi .srail a{display:flex;gap:8px;align-items:baseline;padding:5px 12px;color:var(--muted);border-inline-start:2px solid transparent;margin-inline-start:-1px;overflow-wrap:anywhere;text-decoration:none}
+#ikasi .srail a:hover{color:var(--ink);border-inline-start-color:var(--line)}
+#ikasi .srail a.on{color:var(--ink);font-weight:600;border-inline-start-color:var(--accent)}
+@media (max-width:959px){#ikasi .srail{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;max-height:240px;overflow:auto}}
+
+#ikasi .mbadge{display:inline-grid;place-items:center;width:1.5em;height:1.5em;border-radius:7px;font:700 .72em var(--serif);background:var(--k,var(--accent));color:var(--on-accent);flex:0 0 auto}
+#ikasi .k-def{--k:var(--ok)} #ikasi .k-teo{--k:var(--accent)} #ikasi .k-met{--k:var(--ipc)} #ikasi .k-ide{--k:var(--A-mat)} #ikasi .k-not{--k:var(--muted)}
+#ikasi .mtag{font:600 .66rem var(--sans);letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);border-radius:999px;padding:1px 8px;color:var(--k,var(--muted))}
+
+#ikasi .ficha{max-width:72ch;min-width:0}
+#ikasi .ficha .kicker{font:600 .74rem var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--accent);display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+#ikasi .ficha h1{font-family:var(--serif);font-size:clamp(1.5rem,3.8vw,2.1rem);margin:6px 0 2px;border-inline-start:4px solid var(--accent);padding-inline-start:14px;line-height:1.2}
+#ikasi .ideia{background:color-mix(in srgb,var(--accent) 8%,var(--surface));border:1px solid var(--line);border-inline-start:4px solid var(--accent);border-radius:0 12px 12px 0;padding:14px 18px;margin:18px 0}
+#ikasi .ideia .lab,#ikasi .enun .lab,#ikasi .terms .lab,#ikasi .gcol .lab{font:700 .7rem var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);display:block;margin-bottom:4px}
+#ikasi .ideia .bd{font-family:var(--serif);font-size:1.12rem;line-height:1.6}
+#ikasi .ideia .bd p{margin:.2em 0}
+#ikasi .enun{border:1px dashed color-mix(in srgb,var(--accent) 50%,var(--line));border-radius:12px;padding:14px 18px;margin:14px 0}
+#ikasi .enun .lab{color:var(--muted)}
+#ikasi .enun .bd{font-family:var(--serif);line-height:1.7}
+#ikasi .formulabox{background:var(--surface-2);border:1px solid var(--line);border-radius:12px;padding:10px 16px;margin:14px 0;overflow-x:auto;text-align:center}
+#ikasi .capa{border:1px solid var(--line);border-radius:12px;background:var(--surface);overflow:hidden;margin:10px 0}
+#ikasi .capa>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;padding:12px 16px;font:600 1rem var(--sans)}
+#ikasi .capa>summary::-webkit-details-marker{display:none}
+#ikasi .capa>summary::after{content:"▾";color:var(--muted);margin-inline-start:auto;transition:transform .15s}
+#ikasi .capa[open]>summary::after{transform:rotate(180deg)}
+#ikasi .capa .body{padding:2px 16px 14px;font-family:var(--serif);line-height:1.7;overflow-wrap:break-word}
+#ikasi .capa .body math[display="block"]{overflow-x:auto;max-width:100%}
+#ikasi .capa.k-fr{--k:var(--ipc)}
+#ikasi .ex{border-top:1px dashed var(--line-soft);padding:10px 0 2px;margin-top:8px}
+#ikasi .ex:first-child{border-top:0}
+#ikasi .ex details{margin-top:6px}
+#ikasi .ex summary{cursor:pointer;color:var(--accent);font:600 .9rem var(--sans);list-style:none}
+#ikasi .ex summary::-webkit-details-marker{display:none}
+#ikasi .ex .sol{background:var(--ok-bg);border-radius:8px;padding:8px 12px;margin-top:6px}
+#ikasi .ex-nos{color:var(--muted);font:.85rem var(--sans);margin-top:4px;font-style:italic}
+
+#ikasi .terms{font-family:var(--sans);font-size:.92rem;margin:20px 0 6px}
+#ikasi .gterm{background:none;border:0;padding:0;font:inherit;color:inherit;cursor:help;border-bottom:1.5px dotted var(--accent)}
+#ikasi .gterm:hover{color:var(--accent)}
+#ikasi .graph{display:grid;gap:14px;margin:16px 0 4px;padding-top:14px;border-top:1px solid var(--line)}
+@media (min-width:620px){#ikasi .graph{grid-template-columns:1fr 1fr}}
+#ikasi .gcol .gch{display:flex;flex-wrap:wrap;gap:8px}
+#ikasi .gchip{display:inline-block;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:5px 13px;font:500 .9rem var(--sans);color:var(--ink);text-decoration:none}
+#ikasi .gchip:hover{border-color:var(--accent);color:var(--accent)}
+#ikasi .gchip.dead{border-style:dashed;color:var(--muted);cursor:default}
+#ikasi .snav{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:28px}
+#ikasi .snav a{display:block;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;color:var(--ink);text-decoration:none}
+#ikasi .snav a:hover{border-color:var(--accent)}
+#ikasi .snav a small{display:block;color:var(--muted);font-size:.74rem;text-transform:uppercase;letter-spacing:.06em}
+#ikasi .snav a:last-child{text-align:end}
+@media (max-width:560px){#ikasi .snav{grid-template-columns:1fr}#ikasi .snav a:last-child{text-align:start}}
+
+/* marcadores «proposamena» (texto del LLM sin revisar) — requisito del autor */
+#ikasi .pmark{display:inline-block;background:color-mix(in srgb,var(--ipc) 16%,var(--surface));border:1px solid color-mix(in srgb,var(--ipc) 45%,var(--line));color:var(--ipc);border-radius:999px;padding:0 8px;font:700 .66rem var(--sans);letter-spacing:.04em;text-transform:uppercase;vertical-align:middle}
+#ikasi .pnote{font:.8rem var(--sans);color:var(--muted);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 12px;margin:6px 0 10px}
+#ikasi .pnote b{color:var(--ipc)}
+
+/* Funtsezkoa / Mapa */
+#ikasi .atala-h{font:700 .72rem var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:22px 0 8px}
+#ikasi .essential{display:grid;gap:8px}
+#ikasi .ecard{display:flex;gap:12px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;color:var(--ink);text-decoration:none}
+#ikasi .ecard:hover{border-color:var(--accent)}
+#ikasi .ecard .mbadge{margin-top:2px}
+#ikasi .ec-b b{font-family:var(--serif);font-size:1.05rem}
+#ikasi .ec-i{color:var(--muted);font-size:.95rem;margin-top:2px}
+#ikasi .ec-i p{margin:.1em 0}
+#ikasi .mapgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;align-items:start}
+#ikasi .mapcol{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 14px}
+#ikasi .mapnode{padding:8px 0;border-top:1px solid var(--line-soft)}
+#ikasi .mapnode:first-of-type{border-top:0}
+#ikasi .mn-t{font-family:var(--serif);font-weight:600;display:block}
+#ikasi .mn-out{display:flex;flex-direction:column;gap:2px;margin-top:4px}
+#ikasi .mn-chip{font:500 .82rem var(--sans);color:var(--muted);text-decoration:none}
+#ikasi .mn-chip:hover{color:var(--accent)}
+
+/* glosarioa (modo completo) */
+#ikasi .glos-list{display:grid;gap:10px;margin-top:14px}
+#ikasi .glos-sarrera{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px}
+#ikasi .glos-sarrera b{font-family:var(--serif)}
+#ikasi .glos-def{color:var(--muted);font-size:.92rem}
+
+/* tablas y pilas convertidas desde Typst (claude: j-taula / j-zutabe) — dentro del estudio */
+#ikasi table.j-taula{border-collapse:collapse;width:auto;max-width:100%;margin:12px 0;font-family:var(--sans);font-size:.9rem;display:block;overflow-x:auto}
+#ikasi .j-taula th,#ikasi .j-taula td{border:1px solid var(--line);padding:6px 11px;text-align:start;vertical-align:top}
+#ikasi .j-taula th{background:var(--surface-2);font-weight:600;color:var(--ink)}
+#ikasi .j-taula tr>:first-child{background:color-mix(in srgb,var(--ipc) 10%,var(--surface))}
+#ikasi .j-zutabe{display:flex;flex-direction:column;gap:.2em;margin:.5em 0}
+
+/* glosarioaren popover-a */
+#ikasi .gpop{position:fixed;z-index:80;max-width:320px;background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:0 14px 40px rgba(0,0,0,.3);padding:12px 14px;font-family:var(--serif);font-size:.95rem;line-height:1.5}
+#ikasi .gpop .gt{font-family:var(--sans);font-weight:700;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em;color:var(--accent);margin-bottom:4px}
+#ikasi .gpop[hidden]{display:none}
+#ikasi img{max-width:100%;height:auto}
+
+@media (max-width:620px){ #ikasi .kapsel{order:6;flex-basis:100%;max-width:100%} }
+
+/* toggle «Irakurri/Ikasi» en la cabecera del capítulo lineal (lo añade kapituluaview) */
+.kap-ikasgai{display:inline-flex;background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:3px;margin:8px 0}
+.kap-ikasgai a,.kap-ikasgai span{font:600 .85rem var(--sans);padding:5px 14px;border-radius:999px;text-decoration:none;color:var(--muted)}
+.kap-ikasgai .on{background:var(--accent);color:var(--on-accent)}

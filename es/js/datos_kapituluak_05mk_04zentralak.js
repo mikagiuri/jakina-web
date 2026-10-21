@@ -1763,7 +1763,7 @@ KAPITULUAK["05mk_04zentralak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Ecuaciones del movimiento y principios de conservación])"
+     "html": "<strong>Ecuaciones del movimiento y principios de conservación</strong>"
     },
     {
      "mota": "problema",
@@ -2439,7 +2439,7 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Órbitas newtonianas])"
+     "html": "<strong>Órbitas newtonianas</strong>"
     },
     {
      "mota": "problema",
@@ -3020,7 +3020,7 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Dispersión y sección eficaz])"
+     "html": "<strong>Dispersión y sección eficaz</strong>"
     },
     {
      "mota": "problema",
@@ -3254,7 +3254,7 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Miscelánea])"
+     "html": "<strong>Miscelánea</strong>"
     },
     {
      "mota": "problema",

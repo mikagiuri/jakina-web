@@ -19,7 +19,7 @@ KAPITULUAK["05mk_10jarraituak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>10.1 IRUDIA</strong> Gainazal-tentsioaren ondorio ikusgarria.]"
+       "html": "<strong>10.1 IRUDIA</strong> Gainazal-tentsioaren ondorio ikusgarria."
       }
      ]
     },
@@ -645,7 +645,7 @@ KAPITULUAK["05mk_10jarraituak"] = {
     },
     {
      "mota": "testua",
-     "html": "Definizioa erabiliz, erraz kalkulatzen da ardatz kartesiar batekiko perpendikularra den gainazal infinitesimalean aplikatutako indar elastikoa; baina gauza bera egin daiteke edozein norabidetako gainazal infinitesimalean. 10.16 irudiko eskuinaldeko elementuaren kasuan, dimentsioak zerora doazen limitean masa eta, beraz, indar osoa zero dira. Adibidez, higidura-ekuazioaren <math display=\"inline\"><mi>x</mi></math> osagaia hauxe da: <math display=\"block\"><mrow><mi>d</mi><msub><mi>F</mi><mi>x</mi></msub><mo>−</mo><msub><mi>τ</mi><mrow><mi>x</mi><mi>y</mi></mrow></msub><mi>d</mi><mi>x</mi><mi>d</mi><mi>z</mi><mo>−</mo><msub><mi>τ</mi><mrow><mi>x</mi><mi>z</mi></mrow></msub><mi>d</mi><mi>x</mi><mi>d</mi><mi>y</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>τ</mi><mrow><mi>x</mi><mi>x</mi></mrow></msub><msub><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo></mrow><mrow><mi>x</mi><mo>+</mo><mi>d</mi><mi>x</mi></mrow></msub><mi>d</mi><mi>y</mi><mi>d</mi><mi>z</mi><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>τ</mi><mrow><mi>x</mi><mi>x</mi></mrow></msub><msub><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo></mrow><mi>x</mi></msub><mi>d</mi><mi>y</mi><mi>d</mi><mi>z</mi><mo>=</mo><mi>ρ</mi><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><msub><mi>u</mi><mi>x</mi></msub></mrow><mrow><mi>∂</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>V</mi><mo>,</mo></mrow></math> non elementuaren bolumen infinitesimala <math display=\"block\"><mrow><mi>d</mi><mi>V</mi><mo>≡</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>d</mi><mi>x</mi><mi>d</mi><mi>y</mi><mi>d</mi><mi>z</mi></mrow></math> den. Argi dago <math display=\"inline\"><mrow><mi>d</mi><mi>V</mi><mo>→</mo><mn>0</mn></mrow></math> limitean esfortzu guztiak puntu berean aplikatzen direla eta, ondorioz, (10.85) adierazpenaren ezkerraldean agertzen diren azken bi gaiek elkar deuseztatzen dutela. Gainazal infinitesimalaren azalera eta dagokion bektore unitario normala honako hauek ditugu: <math display=\"block\"><mrow><mi>d</mi><mi>S</mi><mo>=</mo><mi>d</mi><mi>x</mi><msqrt><mrow><mi>d</mi><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mi>d</mi><msup><mi>z</mi><mn>2</mn></msup></mrow></msqrt><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mi mathvariant=\"bold-italic\">𝒋</mi><mo>+</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mi mathvariant=\"bold-italic\">𝒌</mi><mo>=</mo><mfrac><mrow><mi>d</mi><mi>z</mi></mrow><msqrt><mrow><mi>d</mi><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mi>d</mi><msup><mi>z</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi mathvariant=\"bold-italic\">𝒋</mi><mo>+</mo><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><msqrt><mrow><mi>d</mi><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mi>d</mi><msup><mi>z</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi mathvariant=\"bold-italic\">𝒌</mi><mi>.</mi></mrow></math> Beraz, <math display=\"inline\"><mrow><mi>d</mi><mi mathvariant=\"bold-italic\">𝑺</mi><mo>=</mo><mi>d</mi><mi>S</mi><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover></mrow></math> elementuaren alde positiboan aplikaturiko esfortzuaren <math display=\"inline\"><mi>x</mi></math> osagaia hauxe dela ikusten dugu: <img class=\"formula formula-d\" src=\"media/formulak/88f95adde9816b15.svg\" alt=\"(d F_x) / (dif S) = tau_(x y) n_y + tau_(x z) n_z + 1 / 2 rho (partial^2 u_x) / (partial t^2) n_y n_z sqrt(dif y^2 + dif z^2) attach(arrow.r.long, t: #text(size: 10pt)[$dif V -&gt; 0$]) tau_(x y) n_y + tau_(x z) n_z.\" style=\"width:35.004em;height:2.773em\" loading=\"lazy\"> Oro har, <math display=\"inline\"><mrow><mi>d</mi><mi mathvariant=\"bold-italic\">𝑺</mi><mo>=</mo><mi>d</mi><mi>S</mi><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover></mrow></math> elementuaren kasuan esfortzua <math display=\"block\"><mrow><mfrac><mrow><mi>d</mi><msub><mi>F</mi><mi>i</mi></msub></mrow><mrow><mi>d</mi><mi>S</mi></mrow></mfrac><mo>=</mo><munderover><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></munderover><msub><mi>τ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><msub><mi>n</mi><mi>j</mi></msub></mrow></math> da eta indarra"
+     "html": "Definizioa erabiliz, erraz kalkulatzen da ardatz kartesiar batekiko perpendikularra den gainazal infinitesimalean aplikatutako indar elastikoa; baina gauza bera egin daiteke edozein norabidetako gainazal infinitesimalean. 10.16 irudiko eskuinaldeko elementuaren kasuan, dimentsioak zerora doazen limitean masa eta, beraz, indar osoa zero dira. Adibidez, higidura-ekuazioaren <math display=\"inline\"><mi>x</mi></math> osagaia hauxe da: <math display=\"block\"><mrow><mi>d</mi><msub><mi>F</mi><mi>x</mi></msub><mo>−</mo><msub><mi>τ</mi><mrow><mi>x</mi><mi>y</mi></mrow></msub><mi>d</mi><mi>x</mi><mi>d</mi><mi>z</mi><mo>−</mo><msub><mi>τ</mi><mrow><mi>x</mi><mi>z</mi></mrow></msub><mi>d</mi><mi>x</mi><mi>d</mi><mi>y</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>τ</mi><mrow><mi>x</mi><mi>x</mi></mrow></msub><msub><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo></mrow><mrow><mi>x</mi><mo>+</mo><mi>d</mi><mi>x</mi></mrow></msub><mi>d</mi><mi>y</mi><mi>d</mi><mi>z</mi><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>τ</mi><mrow><mi>x</mi><mi>x</mi></mrow></msub><msub><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo></mrow><mi>x</mi></msub><mi>d</mi><mi>y</mi><mi>d</mi><mi>z</mi><mo>=</mo><mi>ρ</mi><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><msub><mi>u</mi><mi>x</mi></msub></mrow><mrow><mi>∂</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>V</mi><mo>,</mo></mrow></math> non elementuaren bolumen infinitesimala <math display=\"block\"><mrow><mi>d</mi><mi>V</mi><mo>≡</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>d</mi><mi>x</mi><mi>d</mi><mi>y</mi><mi>d</mi><mi>z</mi></mrow></math> den. Argi dago <math display=\"inline\"><mrow><mi>d</mi><mi>V</mi><mo>→</mo><mn>0</mn></mrow></math> limitean esfortzu guztiak puntu berean aplikatzen direla eta, ondorioz, (10.85) adierazpenaren ezkerraldean agertzen diren azken bi gaiek elkar deuseztatzen dutela. Gainazal infinitesimalaren azalera eta dagokion bektore unitario normala honako hauek ditugu: <math display=\"block\"><mrow><mi>d</mi><mi>S</mi><mo>=</mo><mi>d</mi><mi>x</mi><msqrt><mrow><mi>d</mi><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mi>d</mi><msup><mi>z</mi><mn>2</mn></msup></mrow></msqrt><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mi mathvariant=\"bold-italic\">𝒋</mi><mo>+</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mi mathvariant=\"bold-italic\">𝒌</mi><mo>=</mo><mfrac><mrow><mi>d</mi><mi>z</mi></mrow><msqrt><mrow><mi>d</mi><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mi>d</mi><msup><mi>z</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi mathvariant=\"bold-italic\">𝒋</mi><mo>+</mo><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><msqrt><mrow><mi>d</mi><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mi>d</mi><msup><mi>z</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi mathvariant=\"bold-italic\">𝒌</mi><mi>.</mi></mrow></math> Beraz, <math display=\"inline\"><mrow><mi>d</mi><mi mathvariant=\"bold-italic\">𝑺</mi><mo>=</mo><mi>d</mi><mi>S</mi><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover></mrow></math> elementuaren alde positiboan aplikaturiko esfortzuaren <math display=\"inline\"><mi>x</mi></math> osagaia hauxe dela ikusten dugu: <img class=\"formula formula-d\" src=\"media/formulak/88f95adde9816b15.svg\" alt=\"(d F_x) / (dif S) = tau_(x y) n_y + tau_(x z) n_z + 1 / 2 rho (partial^2 u_x) / (partial t^2) n_y n_z sqrt(dif y^2 + dif z^2) attach(arrow.r.long, t: $dif V -&gt; 0$) tau_(x y) n_y + tau_(x z) n_z.\" style=\"width:35.004em;height:2.773em\" loading=\"lazy\"> Oro har, <math display=\"inline\"><mrow><mi>d</mi><mi mathvariant=\"bold-italic\">𝑺</mi><mo>=</mo><mi>d</mi><mi>S</mi><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover></mrow></math> elementuaren kasuan esfortzua <math display=\"block\"><mrow><mfrac><mrow><mi>d</mi><msub><mi>F</mi><mi>i</mi></msub></mrow><mrow><mi>d</mi><mi>S</mi></mrow></mfrac><mo>=</mo><munderover><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></munderover><msub><mi>τ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><msub><mi>n</mi><mi>j</mi></msub></mrow></math> da eta indarra"
     },
     {
      "mota": "kutxa",
@@ -1531,7 +1531,7 @@ KAPITULUAK["05mk_10jarraituak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 11pt)[Torricelliren teorema]"
+     "html": "Torricelliren teorema"
     },
     {
      "mota": "testua",
@@ -1564,7 +1564,7 @@ KAPITULUAK["05mk_10jarraituak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 11pt)[Venturi efektua]"
+     "html": "Venturi efektua"
     },
     {
      "mota": "testua",
@@ -1705,7 +1705,7 @@ KAPITULUAK["05mk_10jarraituak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(weight: &quot;bold&quot;, size: 10.5pt)[Biskositate zinematikoaren koefizientea]"
+     "html": "Biskositate zinematikoaren koefizientea"
     },
     {
      "mota": "testua",
@@ -3291,7 +3291,7 @@ KAPITULUAK["05mk_10jarraituak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt, fill:berdea)[<strong>10.41 IRUDIA</strong>  Buruz behera jarritako edalontzia (ikus 10.42 problema).]"
+       "html": "<strong>10.41 IRUDIA</strong>  Buruz behera jarritako edalontzia (ikus 10.42 problema)."
       }
      ]
     },
@@ -3555,7 +3555,7 @@ KAPITULUAK["05mk_10jarraituak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt, fill:berdea)[<strong>10.42 IRUDIA</strong>  Descartesen urpekaria (ikus 10.52 problema).]"
+       "html": "<strong>10.42 IRUDIA</strong>  Descartesen urpekaria (ikus 10.52 problema)."
       }
      ]
     },

@@ -9,7 +9,7 @@ const views = [...document.querySelectorAll(".view")];
 function activeViewId(){ const v = views.find(v => v.classList.contains("active")); return v ? v.id : null; }
 
 /* el capítulo abierto se marca en la pestaña «Kapituluak» */
-const ENTRY = { kapitulua: "kapituluak" };
+const ENTRY = { kapitulua: "kapituluak", ikasi: "kapituluak" };
 
 function show(id){
   if (!document.getElementById(id)) return;
@@ -33,7 +33,8 @@ tabs.addEventListener("click", e => {
 /* Registro vista → cargador (como en lab_iesmdb). */
 window.VIEW_LOADERS = {
   hasiera: "loadHasiera", kapituluak: "loadKapituluak", kapitulua: "loadKapitulua",
-  ariketak: "loadAriketak", txokoa: "loadTxokoa", glosarioa: "loadGlosarioa"   /* (dsh-2) + txokoa */
+  ariketak: "loadAriketak", txokoa: "loadTxokoa", glosarioa: "loadGlosarioa",   /* (dsh-2) + txokoa */
+  ikasi: "loadIkasi"   /* (web-jakina-7) ikasteko bista */
 };
 
 function parseHash(){

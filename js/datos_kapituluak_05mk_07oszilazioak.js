@@ -1694,7 +1694,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Balio eta bektore propio orokortuen problema])"
+     "html": "<strong>Balio eta bektore propio orokortuen problema</strong>"
     },
     {
      "mota": "testua",
@@ -1911,7 +1911,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Taupadak])"
+     "html": "<strong>Taupadak</strong>"
     },
     {
      "mota": "testua",
@@ -2445,7 +2445,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Osziladore harmonikoak, indargetuak eta bortxatuak])"
+     "html": "<strong>Osziladore harmonikoak, indargetuak eta bortxatuak</strong>"
     },
     {
      "mota": "problema",
@@ -2948,7 +2948,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       },
       {
        "mota": "testua",
-       "html": "text(size: 10pt, style: &quot;italic&quot;)[ «<math display=\"inline\"><mrow><mi>d</mi><mo>=</mo><mn>1</mn></mrow></math> m-ko luzera duen masa arbuiagarriko barra baten muturretan <math display=\"inline\"><mrow><mi>m</mi><mo>=</mo><mn>1</mn></mrow></math> g-ko bi esfera txiki daude lotuta. Barra giltzadura baten bidez zintzilik dago, erditik igarotzen den ardatz bertikalaren inguruan marruskadurarik gabe bira dezan. <math display=\"inline\"><mrow><mi>M</mi><mo>=</mo><mn>20</mn></mrow></math> kg-ko bi esfera handi barraren zuzen berean daude. Esfera handiaren eta txikiaren zentroen arteko distantzia <math display=\"inline\"><mrow><mi>L</mi><mo>=</mo><mn>16</mn></mrow></math> cm da (226. irudia). Kalkulatu pendulu birakariaren oszilazio txikien periodoa.»"
+       "html": " «<math display=\"inline\"><mrow><mi>d</mi><mo>=</mo><mn>1</mn></mrow></math> m-ko luzera duen masa arbuiagarriko barra baten muturretan <math display=\"inline\"><mrow><mi>m</mi><mo>=</mo><mn>1</mn></mrow></math> g-ko bi esfera txiki daude lotuta. Barra giltzadura baten bidez zintzilik dago, erditik igarotzen den ardatz bertikalaren inguruan marruskadurarik gabe bira dezan. <math display=\"inline\"><mrow><mi>M</mi><mo>=</mo><mn>20</mn></mrow></math> kg-ko bi esfera handi barraren zuzen berean daude. Esfera handiaren eta txikiaren zentroen arteko distantzia <math display=\"inline\"><mrow><mi>L</mi><mo>=</mo><mn>16</mn></mrow></math> cm da (226. irudia). Kalkulatu pendulu birakariaren oszilazio txikien periodoa.»"
       },
       {
        "mota": "testua",
@@ -3129,7 +3129,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Oszilazio ez-harmonikoak])"
+     "html": "<strong>Oszilazio ez-harmonikoak</strong>"
     },
     {
      "mota": "problema",
@@ -3319,7 +3319,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Oszilazio mihiztatuak])"
+     "html": "<strong>Oszilazio mihiztatuak</strong>"
     },
     {
      "mota": "problema",
@@ -3939,7 +3939,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Denetarik])"
+     "html": "<strong>Denetarik</strong>"
     },
     {
      "mota": "problema",

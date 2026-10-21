@@ -1763,7 +1763,7 @@ KAPITULUAK["05mk_04zentralak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Higidura-ekuazioak eta kontserbazio-printzipioak])"
+     "html": "<strong>Higidura-ekuazioak eta kontserbazio-printzipioak</strong>"
     },
     {
      "mota": "problema",
@@ -2439,7 +2439,7 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Orbita newtondarrak])"
+     "html": "<strong>Orbita newtondarrak</strong>"
     },
     {
      "mota": "problema",
@@ -3020,7 +3020,7 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Sakabanatzea eta sekzio eragilea])"
+     "html": "<strong>Sakabanatzea eta sekzio eragilea</strong>"
     },
     {
      "mota": "problema",
@@ -3254,7 +3254,7 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Denetarik])"
+     "html": "<strong>Denetarik</strong>"
     },
     {
      "mota": "problema",

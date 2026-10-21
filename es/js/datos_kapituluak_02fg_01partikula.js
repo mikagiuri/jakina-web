@@ -96,7 +96,7 @@ KAPITULUAK["02fg_01partikula"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "table( columns: 5, stroke: 0.5pt + grisa, inset: 5pt, align: center + horizon, [<strong>Estado</strong>], [<strong>¿Mantiene la forma?</strong>], [<strong>¿Mantiene el volumen?</strong>], [<strong>Distribución de las moléculas</strong>], [<strong>Propiedades físicas</strong>], [Gas], [No], [No], [Estadísticamente homogénea], [Isótropo], [Líquido], [No], [Sí], [Estadísticamente homogénea], [Isótropo], [Sólido], [Sí], [Sí], [Periódicamente homogénea], [Anisótropo], )"
+       "html": "<div class=\"j-taula\"><table><thead><tr><th><strong>Estado</strong></th><th><strong>¿Mantiene la forma?</strong></th><th><strong>¿Mantiene el volumen?</strong></th><th><strong>Distribución de moléculas</strong></th><th><strong>Propiedades físicas</strong></th></tr></thead><tbody><tr><td>Gas</td><td>No</td><td>No</td><td>Estadísticamente homogénea</td><td>Isótropo</td></tr><tr><td>Líquido</td><td>No</td><td>Sí</td><td>Estadísticamente homogénea</td><td>Isótropo</td></tr><tr><td>Sólido</td><td>Sí</td><td>Sí</td><td>Periódicamente homogénea</td><td>Anisótropo</td></tr></tbody></table></div>"
       }
      ]
     }
@@ -127,7 +127,7 @@ KAPITULUAK["02fg_01partikula"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "table( columns: 3, stroke: 0.5pt + grisa, inset: 5pt, align: center + horizon, [<strong>Magnitud</strong>], [<strong>SI</strong>], [<strong>CGS</strong>], [Longitud], [m], [cm], [Masa], [kg], [g], [Tiempo], [s], [s], [Intensidad de corriente], [A], [–], [Temperatura], [K], [–], [Intensidad luminosa], [candela], [–], )"
+       "html": "<div class=\"j-taula\"><table><thead><tr><th><strong>Magnitud</strong></th><th><strong>SI</strong></th><th><strong>CGS</strong></th></tr></thead><tbody><tr><td>Longitud</td><td>m</td><td>cm</td></tr><tr><td>Masa</td><td>kg</td><td>g</td></tr><tr><td>Tiempo</td><td>s</td><td>s</td></tr><tr><td>Intensidad de corriente</td><td>A</td><td>–</td></tr><tr><td>Temperatura</td><td>K</td><td>–</td></tr><tr><td>Intensidad luminosa</td><td>candela</td><td>–</td></tr></tbody></table></div>"
       }
      ]
     },
@@ -6930,7 +6930,7 @@ KAPITULUAK["02fg_01partikula"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "table( columns: 2, stroke: 0.5pt + grisa, inset: 5pt, align: (left, center), [<strong>Cuerpo (eje)</strong>], [<strong><math display=\"inline\"><mi>I</mi></math></strong>], [Aro o cilindro hueco (eje de simetría)], [<math display=\"inline\"><mrow><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></math>], [Disco o cilindro uniforme (eje de simetría)], [<math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></math>], [Esfera uniforme (cualquier diámetro)], [<math display=\"inline\"><mrow><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></math>], [Barra uniforme (por un extremo, eje perpendicular)], [<math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>M</mi><msup><mi>L</mi><mn>2</mn></msup></mrow></math>], [Barra uniforme (por el CM, eje perpendicular)], [<math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>12</mn></mfrac><mi>M</mi><msup><mi>L</mi><mn>2</mn></msup></mrow></math>], )"
+       "html": "<div class=\"j-taula\"><table><thead><tr><th><strong>Cuerpo (eje)</strong></th><th><strong><math display=\"inline\"><mi>I</mi></math></strong></th></tr></thead><tbody><tr><td>Anillo o cilindro hueco (eje de simetría)</td><td><math display=\"inline\"><mrow><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></math></td></tr><tr><td>Disco o cilindro uniforme (eje de simetría)</td><td><math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></math></td></tr><tr><td>Esfera uniforme (cualquier diámetro)</td><td><math display=\"inline\"><mrow><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></math></td></tr><tr><td>Barra uniforme (por un extremo, eje perpendicular)</td><td><math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>M</mi><msup><mi>L</mi><mn>2</mn></msup></mrow></math></td></tr><tr><td>Barra uniforme (por el CM, eje perpendicular)</td><td><math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>12</mn></mfrac><mi>M</mi><msup><mi>L</mi><mn>2</mn></msup></mrow></math></td></tr></tbody></table></div>"
       }
      ]
     },

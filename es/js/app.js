@@ -33,7 +33,7 @@ tabs.addEventListener("click", e => {
 /* Registro vista → cargador (como en lab_iesmdb). */
 window.VIEW_LOADERS = {
   hasiera: "loadHasiera", kapituluak: "loadKapituluak", kapitulua: "loadKapitulua",
-  ariketak: "loadAriketak", glosarioa: "loadGlosarioa"
+  ariketak: "loadEjercicios", glosarioa: "loadGlosario",
 };
 
 function parseHash(){

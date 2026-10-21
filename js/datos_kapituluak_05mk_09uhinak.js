@@ -1496,7 +1496,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Gamma izpiak])"
+     "html": "<strong>Gamma izpiak</strong>"
     },
     {
      "mota": "testua",
@@ -1504,7 +1504,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[X izpiak])"
+     "html": "<strong>X izpiak</strong>"
     },
     {
      "mota": "testua",
@@ -1512,7 +1512,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Argi ultramorea])"
+     "html": "<strong>Argi ultramorea</strong>"
     },
     {
      "mota": "testua",
@@ -1520,7 +1520,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Argi ikusgaia])"
+     "html": "<strong>Argi ikusgaia</strong>"
     },
     {
      "mota": "testua",
@@ -1528,7 +1528,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Argi infragorria])"
+     "html": "<strong>Argi infragorria</strong>"
     },
     {
      "mota": "testua",
@@ -1536,7 +1536,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Mikrouhinak])"
+     "html": "<strong>Mikrouhinak</strong>"
     },
     {
      "mota": "testua",
@@ -1544,7 +1544,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Irrati-uhinak])"
+     "html": "<strong>Irrati-uhinak</strong>"
     },
     {
      "mota": "testua",
@@ -1552,7 +1552,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Maiztasun txikiak])"
+     "html": "<strong>Maiztasun txikiak</strong>"
     },
     {
      "mota": "testua",
@@ -1705,7 +1705,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>9.32 IRUDIA</strong> Islapena eta errefrakzioa.]"
+       "html": "<strong>9.32 IRUDIA</strong> Islapena eta errefrakzioa."
       }
      ]
     }
@@ -1795,7 +1795,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>9.35 IRUDIA</strong> Ispilu-islapena eta islapen lausoa.]"
+       "html": "<strong>9.35 IRUDIA</strong> Ispilu-islapena eta islapen lausoa."
       }
      ]
     },
@@ -1827,7 +1827,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>9.36 IRUDIA</strong> Argiaren errefrakzioa.]"
+       "html": "<strong>9.36 IRUDIA</strong> Argiaren errefrakzioa."
       }
      ]
     },
@@ -1860,7 +1860,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>9.37 IRUDIA</strong> Prisma batek sortutako espektro ikusgaia eta ostadar bikoitza.]"
+       "html": "<strong>9.37 IRUDIA</strong> Prisma batek sortutako espektro ikusgaia eta ostadar bikoitza."
       }
      ]
     },
@@ -1892,7 +1892,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>9.39 IRUDIA</strong> Eskuinean barne-islapen osoa gertatzen da.]"
+       "html": "<strong>9.39 IRUDIA</strong> Eskuinean barne-islapen osoa gertatzen da."
       }
      ]
     },
@@ -1975,7 +1975,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10.5pt)[Uhin elektromagnetikoen islapen- eta transmisio-koefizienteak]"
+     "html": "Uhin elektromagnetikoen islapen- eta transmisio-koefizienteak"
     },
     {
      "mota": "testua",
@@ -2009,7 +2009,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>9.44 IRUDIA</strong> Argi islatuaren polarizazioa.]"
+       "html": "<strong>9.44 IRUDIA</strong> Argi islatuaren polarizazioa."
       }
      ]
     },
@@ -2334,7 +2334,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>9.52 IRUDIA</strong> Interferentzia film meheetan.]"
+       "html": "<strong>9.52 IRUDIA</strong> Interferentzia film meheetan."
       }
      ]
     }
@@ -2546,7 +2546,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>9.55 IRUDIA</strong> <strong>Chladniren irudiak</strong>: harea pilatzen da nodo-lerroetan, puntu egoki batzuk finko mantentzen badira xafla metalikoa biolin-arku batez bibrarazten denean.]"
+       "html": "<strong>9.55 IRUDIA</strong> <strong>Chladniren irudiak</strong>: harea pilatzen da nodo-lerroetan, puntu egoki batzuk finko mantentzen badira xafla metalikoa biolin-arku batez bibrarazten denean."
       }
      ]
     },
@@ -2783,7 +2783,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>9.60 IRUDIA</strong> Zuntz optikoak.]"
+       "html": "<strong>9.60 IRUDIA</strong> Zuntz optikoak."
       }
      ]
     }
@@ -2944,7 +2944,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>9.66 IRUDIA</strong> Fraunhofer difrakzioa zulo zirkular batean, iturri batekin eta birekin.]"
+       "html": "<strong>9.66 IRUDIA</strong> Fraunhofer difrakzioa zulo zirkular batean, iturri batekin eta birekin."
       }
      ]
     },
@@ -3054,7 +3054,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>9.70 IRUDIA</strong> Difrakzioa ehun batean zehar eta CD batean.]"
+       "html": "<strong>9.70 IRUDIA</strong> Difrakzioa ehun batean zehar eta CD batean."
       }
      ]
     },
@@ -3297,7 +3297,7 @@ KAPITULUAK["05mk_09uhinak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Oinarrizko propietateak])"
+     "html": "<strong>Oinarrizko propietateak</strong>"
     },
     {
      "mota": "problema",
@@ -3457,7 +3457,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Uhin-ekuazioa])"
+     "html": "<strong>Uhin-ekuazioa</strong>"
     },
     {
      "mota": "problema",
@@ -3521,7 +3521,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Talde-abiadura])"
+     "html": "<strong>Talde-abiadura</strong>"
     },
     {
      "mota": "problema",
@@ -3607,7 +3607,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Uhin mekanikoak])"
+     "html": "<strong>Uhin mekanikoak</strong>"
     },
     {
      "mota": "problema",
@@ -3781,7 +3781,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Soinua])"
+     "html": "<strong>Soinua</strong>"
     },
     {
      "mota": "problema",
@@ -3957,7 +3957,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Uhin elektromagnetikoak])"
+     "html": "<strong>Uhin elektromagnetikoak</strong>"
     },
     {
      "mota": "problema",
@@ -4087,7 +4087,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Doppler efektua])"
+     "html": "<strong>Doppler efektua</strong>"
     },
     {
      "mota": "problema",
@@ -4262,7 +4262,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Talka-uhinak])"
+     "html": "<strong>Talka-uhinak</strong>"
     },
     {
      "mota": "problema",
@@ -4277,7 +4277,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Islapena eta errefrakzioa])"
+     "html": "<strong>Islapena eta errefrakzioa</strong>"
     },
     {
      "mota": "problema",
@@ -4622,7 +4622,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Islapena eta polarizazioa])"
+     "html": "<strong>Islapena eta polarizazioa</strong>"
     },
     {
      "mota": "problema",
@@ -4659,7 +4659,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Interferentzia])"
+     "html": "<strong>Interferentzia</strong>"
     },
     {
      "mota": "problema",
@@ -5262,7 +5262,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Uhin geldikorrak])"
+     "html": "<strong>Uhin geldikorrak</strong>"
     },
     {
      "mota": "problema",
@@ -5630,7 +5630,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Difrakzioa])"
+     "html": "<strong>Difrakzioa</strong>"
     },
     {
      "mota": "problema",
@@ -5798,7 +5798,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Difrakzio-sareak])"
+     "html": "<strong>Difrakzio-sareak</strong>"
     },
     {
      "mota": "problema",
@@ -5882,7 +5882,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>9.76 IRUDIA</strong> Laser gorri batez argitutako CD bat.]"
+       "html": "<strong>9.76 IRUDIA</strong> Laser gorri batez argitutako CD bat."
       }
      ]
     },
@@ -5943,7 +5943,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[X izpien difrakzioa])"
+     "html": "<strong>X izpien difrakzioa</strong>"
     },
     {
      "mota": "problema",
@@ -5969,7 +5969,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Denetarik])"
+     "html": "<strong>Denetarik</strong>"
     },
     {
      "mota": "problema",

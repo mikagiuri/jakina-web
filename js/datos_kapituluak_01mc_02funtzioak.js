@@ -1320,7 +1320,7 @@ KAPITULUAK["01mc_02funtzioak"] = {
           },
           {
            "mota": "testua",
-           "html": "text(size: 10pt, style: &quot;italic&quot;, fill:berdea)[ Esfera batean inskribatuta dauden infinitu zilindroetatik zeinek du bolumen maximoa? ]"
+           "html": " Esfera batean inskribatuta dauden infinitu zilindroetatik zeinek du bolumen maximoa? "
           }
          ]
         }
@@ -1699,7 +1699,7 @@ KAPITULUAK["01mc_02funtzioak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "text(size: 10pt)[ANGELUDUN PUNTUA: <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>x</mi><mn>0</mn><mo>−</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≠</mo><msup><mi>f</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>x</mi><mn>0</mn><mo>+</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>]"
+           "html": "ANGELUDUN PUNTUA: <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>x</mi><mn>0</mn><mo>−</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≠</mo><msup><mi>f</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>x</mi><mn>0</mn><mo>+</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
           }
          ]
         },
@@ -1714,7 +1714,7 @@ KAPITULUAK["01mc_02funtzioak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "text(size: 10pt)[FUNTZIO DERIBAGARRIA: <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>x</mi><mn>0</mn><mo>−</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msup><mi>f</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>x</mi><mn>0</mn><mo>+</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msup><mi>f</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>]"
+           "html": "FUNTZIO DERIBAGARRIA: <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>x</mi><mn>0</mn><mo>−</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msup><mi>f</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>x</mi><mn>0</mn><mo>+</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msup><mi>f</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
           }
          ]
         }
@@ -2410,7 +2410,7 @@ KAPITULUAK["01mc_02funtzioak"] = {
                  "blokeak": [
                   {
                    "mota": "testua",
-                   "html": "<img class=\"formula\" src=\"media/formulak/523744aee615b328.svg\" alt=\"D(e^x) = e^x #h(0.2em) #text(size: 10pt)[(\\*)]\" style=\"width:7.455em;height:1.001em\" loading=\"lazy\">"
+                   "html": "<img class=\"formula\" src=\"media/formulak/523744aee615b328.svg\" alt=\"D(e^x) = e^x #h(0.2em) (\\*)\" style=\"width:7.455em;height:1.001em\" loading=\"lazy\">"
                   }
                  ]
                 },
@@ -2418,7 +2418,7 @@ KAPITULUAK["01mc_02funtzioak"] = {
                  "blokeak": [
                   {
                    "mota": "testua",
-                   "html": "<img class=\"formula\" src=\"media/formulak/19fc73793e5724a5.svg\" alt=\"D(a^x) = a^x ln a #h(0.2em) #text(size: 10pt)[(\\*)]\" style=\"width:9.565em;height:1.001em\" loading=\"lazy\">"
+                   "html": "<img class=\"formula\" src=\"media/formulak/19fc73793e5724a5.svg\" alt=\"D(a^x) = a^x ln a #h(0.2em) (\\*)\" style=\"width:9.565em;height:1.001em\" loading=\"lazy\">"
                   }
                  ]
                 }
@@ -2454,7 +2454,7 @@ KAPITULUAK["01mc_02funtzioak"] = {
                  "blokeak": [
                   {
                    "mota": "testua",
-                   "html": "<img class=\"formula\" src=\"media/formulak/b84bc4acb1f781df.svg\" alt=\"D(ln x) = 1/x #h(0.2em) #text(size: 10pt)[(\\*)]\" style=\"width:7.773em;height:1.001em\" loading=\"lazy\">"
+                   "html": "<img class=\"formula\" src=\"media/formulak/b84bc4acb1f781df.svg\" alt=\"D(ln x) = 1/x #h(0.2em) (\\*)\" style=\"width:7.773em;height:1.001em\" loading=\"lazy\">"
                   }
                  ]
                 },
@@ -3575,7 +3575,7 @@ KAPITULUAK["01mc_02funtzioak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "<img class=\"formula\" src=\"media/formulak/f5111a9e8ffcdd30.svg\" alt=\"(-1, 2) #h(0.4em) #text(size: 10pt)[MAXIMO ERLATIBOA] #h(1.5em) (1, -2) #h(0.4em) #text(size: 10pt)[MINIMO ERLATIBOA]\" style=\"width:32.394em;height:1.001em\" loading=\"lazy\">"
+         "html": "<img class=\"formula\" src=\"media/formulak/f5111a9e8ffcdd30.svg\" alt=\"(-1, 2) #h(0.4em) MAXIMO ERLATIBOA #h(1.5em) (1, -2) #h(0.4em) MINIMO ERLATIBOA\" style=\"width:32.394em;height:1.001em\" loading=\"lazy\">"
         }
        ]
       }
@@ -4205,7 +4205,7 @@ KAPITULUAK["01mc_02funtzioak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "<img class=\"formula\" src=\"media/formulak/81c31ff10e110979.svg\" alt=\"f&#x27;(x) = 0 arrow.r.double x = (144 plus.minus sqrt(144^2 - 4 dot 3 dot 1296)) / (2 dot 3) = cases( 12, 36 #h(0.3em) #text(size: 10pt)[(honek ez du balio, $0 &lt; x &lt; 36$ delako)], )\" style=\"width:32.930em;height:1.241em\" loading=\"lazy\">"
+         "html": "<img class=\"formula\" src=\"media/formulak/81c31ff10e110979.svg\" alt=\"f&#x27;(x) = 0 arrow.r.double x = (144 plus.minus sqrt(144^2 - 4 dot 3 dot 1296)) / (2 dot 3) = cases( 12, 36 #h(0.3em) (honek ez du balio, $0 &lt; x &lt; 36$ delako), )\" style=\"width:32.930em;height:1.241em\" loading=\"lazy\">"
         }
        ]
       },
@@ -14503,7 +14503,7 @@ KAPITULUAK["01mc_02funtzioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "table( columns: 4, align: center, stroke: 0.4pt + grisa, inset: 6pt, table.header([<math display=\"inline\"><mi>x</mi></math>], [<math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><msup><mi>e</mi><mrow><mi>−</mi><mn>2</mn></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math>], [<math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>e</mi><mrow><mi>−</mi><mn>2</mn></mrow></msup><mo>,</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math>], [<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mi>+</mi><mi>∞</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>]), [<math display=\"inline\"><mrow><mn>2</mn><mo>+</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>], [<math display=\"inline\"><mi>−</mi></math>], [<math display=\"inline\"><mi>+</mi></math>], [<math display=\"inline\"><mi>+</mi></math>], [<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>], [<math display=\"inline\"><mi>−</mi></math>], [<math display=\"inline\"><mi>−</mi></math>], [<math display=\"inline\"><mi>+</mi></math>], [<math display=\"inline\"><mrow><msup><mi>f</mi><mo>″</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>], [<math display=\"inline\"><mi>+</mi></math>], [<math display=\"inline\"><mi>−</mi></math>], [<math display=\"inline\"><mi>+</mi></math>], [<math display=\"inline\"><mi>f</mi></math>], [ganbila], [ahurra], [ganbila], )"
+       "html": "<div class=\"j-taula\"><table><thead><tr><th><math display=\"inline\"><mi>x</mi></math></th><th><math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><msup><mi>e</mi><mrow><mi>−</mi><mn>2</mn></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math></th><th><math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>e</mi><mrow><mi>−</mi><mn>2</mn></mrow></msup><mo>,</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math></th><th><math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mi>+</mi><mi>∞</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></th></tr></thead><tbody><tr><td><math display=\"inline\"><mrow><mn>2</mn><mo>+</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math></td><td><math display=\"inline\"><mi>−</mi></math></td><td><math display=\"inline\"><mi>+</mi></math></td><td><math display=\"inline\"><mi>+</mi></math></td></tr><tr><td><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math></td><td><math display=\"inline\"><mi>−</mi></math></td><td><math display=\"inline\"><mi>−</mi></math></td><td><math display=\"inline\"><mi>+</mi></math></td></tr><tr><td><math display=\"inline\"><mrow><msup><mi>f</mi><mo>″</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></td><td><math display=\"inline\"><mi>+</mi></math></td><td><math display=\"inline\"><mi>−</mi></math></td><td><math display=\"inline\"><mi>+</mi></math></td></tr><tr><td><math display=\"inline\"><mi>f</mi></math></td><td>ganbila</td><td>ahurra</td><td>ganbila</td></tr></tbody></table></div>"
       }
      ]
     },
@@ -14857,7 +14857,7 @@ KAPITULUAK["01mc_02funtzioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "table( columns: 2, align: left, [<strong>Ezaugarria</strong>], [<strong>Balioa</strong>], [Definizio-eremua], [<math display=\"inline\"><mrow><mi mathvariant=\"double-struck\">ℝ</mi><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mn>0</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math>], [Asintota bertikala], [<math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> (bi aldeetatik <math display=\"inline\"><mrow><mi>−</mi><mi>∞</mi></mrow></math>)], [Asintota zeiharra], [<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>−</mo><mfrac><mn>5</mn><mn>4</mn></mfrac></mrow></math> (<math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac></mrow></math>-n ardatza ebakitzen du)], [Maximo lokalak], [<math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mn>3</mn><mo>,</mo><mi>−</mi><mfrac><mn>49</mn><mn>12</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math>], [Minimo lokala], [<math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo>,</mo><mfrac><mn>9</mn><mn>8</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math>], [Inflexioa], [<math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>9</mn><mn>7</mn></mfrac><mo>,</mo><mfrac><mn>913</mn><mn>756</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≈</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1.29</mn><mo>,</mo><mn>1.21</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>], )"
+       "html": "<div class=\"j-taula\"><table><thead><tr><th><strong>Ezaugarria</strong></th><th><strong>Balioa</strong></th></tr></thead><tbody><tr><td>Definizio-eremua</td><td><math display=\"inline\"><mrow><mi mathvariant=\"double-struck\">ℝ</mi><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mn>0</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math></td></tr><tr><td>Asintota bertikala</td><td><math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> (bi aldeetatik <math display=\"inline\"><mrow><mi>−</mi><mi>∞</mi></mrow></math>)</td></tr><tr><td>Asintota zeiharra</td><td><math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>−</mo><mfrac><mn>5</mn><mn>4</mn></mfrac></mrow></math> (<math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac></mrow></math>-n ardatza ebakitzen du)</td></tr><tr><td>Maximo lokalak</td><td><math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mn>3</mn><mo>,</mo><mi>−</mi><mfrac><mn>49</mn><mn>12</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math></td></tr><tr><td>Minimo lokala</td><td><math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo>,</mo><mfrac><mn>9</mn><mn>8</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math></td></tr><tr><td>Inflexioa</td><td><math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>9</mn><mn>7</mn></mfrac><mo>,</mo><mfrac><mn>913</mn><mn>756</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≈</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1.29</mn><mo>,</mo><mn>1.21</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></td></tr></tbody></table></div>"
       }
      ]
     },

@@ -10317,7 +10317,7 @@ KAPITULUAK["03mm_04sturm"] = {
     },
     {
      "mota": "testua",
-     "html": "text(size: 14pt, weight: &quot;bold&quot;)[Oscilador de van der Pol]"
+     "html": "Oscilador de van der Pol"
     },
     {
      "mota": "ezezaguna",

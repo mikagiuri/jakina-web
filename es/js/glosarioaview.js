@@ -1,5 +1,5 @@
 "use strict";
-/* ===== Glosarioa: términos en euskera (de los #definizioa con título), modelo de glosarioview.js de lab_iesmdb =====
+/* ===== Glosario: términos en euskera (de los #definizioa con título), modelo de glosarioview.js de lab_iesmdb =====
    Buscador sin acentos y orden alfabético; cada término enlaza al apartado del capítulo donde se define.
    depende de: datos_glosarioa.js, datos_katalogoa.js y blokeaHtml() de kapituluaview.js */
 
@@ -29,7 +29,7 @@ function glosTxartela(t){
   return h + "</div>";
 }
 
-function loadGlosarioa(){
+function loadGlosario(){
   const el = document.getElementById("glosariozerrenda");
   if (!glosNahasi().length){
     el.innerHTML = '<p class="hutsik">Aún no hay definiciones en los capítulos ya convertidos.</p>';
@@ -50,4 +50,4 @@ function glosMarraztu(){
   document.getElementById("gloskop").textContent = zerr.length + " términos";
   document.getElementById("glostermak").innerHTML = zerr.map(glosTxartela).join("");
 }
-window.loadGlosarioa = loadGlosarioa;
+window.loadGlosario = loadGlosario;

@@ -1,0 +1,76 @@
+{
+ "kapituluak": [
+  {
+   "clave": "00aa_02logika",
+   "izenburua": "B1 · Lehen mailako logika",
+   "kontzeptuak": 95,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01ma_02matrizeak",
+   "izenburua": "B2 - Matrizeak, sistemak eta determinanteak (II)",
+   "kontzeptuak": 36,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01mc_01deribatuak",
+   "izenburua": "B3 - Kalkulua eta analisia - I",
+   "kontzeptuak": 40,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01mz_01konplexuak",
+   "izenburua": "B3 - Kalkulua eta analisia - VI",
+   "kontzeptuak": 48,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "02fg_01partikula",
+   "izenburua": "B04A.1 - M16 Mekanika",
+   "kontzeptuak": 42,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "02k1_01kimika",
+   "izenburua": "B5 - Kimika",
+   "kontzeptuak": 40,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "02td_01termodinamika",
+   "izenburua": "B7 - Termodinamika",
+   "kontzeptuak": 39,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "03mm_01edo",
+   "izenburua": "B6.1 - EDO: oinarriak eta lehen ordena (1.-2. gaiak)",
+   "kontzeptuak": 33,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "04em_01elektrodinamika",
+   "izenburua": "B08.1 - M23 Griffiths 2-8",
+   "kontzeptuak": 41,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "05mk_01kontzeptuak",
+   "izenburua": "B9.1 - Oinarrizko kontzeptuak",
+   "kontzeptuak": 31,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "06fm_01kuantika",
+   "izenburua": "B10.1 - M26 Fisika kuantikoa",
+   "kontzeptuak": 26,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "07fe_01estatistikoa",
+   "izenburua": "B10.2 · Fisika estatistikoa",
+   "kontzeptuak": 30,
+   "egoera": "proposamena"
+  }
+ ]
+}

@@ -1496,7 +1496,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Rayos gamma])"
+     "html": "<strong>Rayos gamma</strong>"
     },
     {
      "mota": "testua",
@@ -1504,7 +1504,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Rayos X])"
+     "html": "<strong>Rayos X</strong>"
     },
     {
      "mota": "testua",
@@ -1512,7 +1512,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Luz ultravioleta])"
+     "html": "<strong>Luz ultravioleta</strong>"
     },
     {
      "mota": "testua",
@@ -1520,7 +1520,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Luz visible])"
+     "html": "<strong>Luz visible</strong>"
     },
     {
      "mota": "testua",
@@ -1528,7 +1528,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Luz infrarroja])"
+     "html": "<strong>Luz infrarroja</strong>"
     },
     {
      "mota": "testua",
@@ -1536,7 +1536,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Microondas])"
+     "html": "<strong>Microondas</strong>"
     },
     {
      "mota": "testua",
@@ -1544,7 +1544,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Ondas de radio])"
+     "html": "<strong>Ondas de radio</strong>"
     },
     {
      "mota": "testua",
@@ -1552,7 +1552,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Bajas frecuencias])"
+     "html": "<strong>Bajas frecuencias</strong>"
     },
     {
      "mota": "testua",
@@ -1705,7 +1705,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>FIGURA 9.32</strong> Reflexión y refracción.]"
+       "html": "<strong>FIGURA 9.32</strong> Reflexión y refracción."
       }
      ]
     }
@@ -1795,7 +1795,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>FIGURA 9.35</strong> Reflexión especular y reflexión difusa.]"
+       "html": "<strong>FIGURA 9.35</strong> Reflexión especular y reflexión difusa."
       }
      ]
     },
@@ -1827,7 +1827,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>FIGURA 9.36</strong> Refracción de la luz.]"
+       "html": "<strong>FIGURA 9.36</strong> Refracción de la luz."
       }
      ]
     },
@@ -1860,7 +1860,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>FIGURA 9.37</strong> Espectro visible producido por un prisma y arcoíris doble.]"
+       "html": "<strong>FIGURA 9.37</strong> Espectro visible producido por un prisma y arcoíris doble."
       }
      ]
     },
@@ -1892,7 +1892,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>FIGURA 9.39</strong> A la derecha se produce reflexión interna total.]"
+       "html": "<strong>FIGURA 9.39</strong> A la derecha se produce reflexión interna total."
       }
      ]
     },
@@ -1975,7 +1975,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10.5pt)[Coeficientes de reflexión y de transmisión de las ondas electromagnéticas]"
+     "html": "Coeficientes de reflexión y transmisión de las ondas electromagnéticas"
     },
     {
      "mota": "testua",
@@ -2009,7 +2009,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>FIGURA 9.44</strong> Polarización de la luz reflejada.]"
+       "html": "<strong>FIGURA 9.44</strong> Polarización de la luz reflejada."
       }
      ]
     },
@@ -2334,7 +2334,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>FIGURA 9.52</strong> Interferencia en películas delgadas.]"
+       "html": "<strong>FIGURA 9.52</strong> Interferencia en películas delgadas."
       }
      ]
     }
@@ -2546,7 +2546,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>FIGURA 9.55</strong> <strong>Figuras de Chladni</strong>: la arena se acumula en las líneas nodales cuando, manteniendo fijos algunos puntos adecuados, se hace vibrar la lámina metálica con un arco de violín.]"
+       "html": "<strong>FIGURA 9.55</strong> <strong>Figuras de Chladni</strong>: la arena se acumula en las líneas nodales cuando se mantienen fijos algunos puntos adecuados y la placa metálica se hace vibrar con un arco de violín."
       }
      ]
     },
@@ -2783,7 +2783,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>FIGURA 9.60</strong> Fibras ópticas.]"
+       "html": "<strong>FIGURA 9.60</strong> Fibras ópticas."
       }
      ]
     }
@@ -2944,7 +2944,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>FIGURA 9.66</strong> Difracción de Fraunhofer en un orificio circular, con una y con dos fuentes.]"
+       "html": "<strong>FIGURA 9.66</strong> Difracción de Fraunhofer en un orificio circular, con una fuente y con dos."
       }
      ]
     },
@@ -3054,7 +3054,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>FIGURA 9.70</strong> Difracción a través de un tejido y en un CD.]"
+       "html": "<strong>FIGURA 9.70</strong> Difracción a través de una tela y de un CD."
       }
      ]
     },
@@ -3297,7 +3297,7 @@ KAPITULUAK["05mk_09uhinak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Propiedades básicas])"
+     "html": "<strong>Propiedades básicas</strong>"
     },
     {
      "mota": "problema",
@@ -3457,7 +3457,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Ecuación de ondas])"
+     "html": "<strong>Ecuación de ondas</strong>"
     },
     {
      "mota": "problema",
@@ -3521,7 +3521,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Velocidad de grupo])"
+     "html": "<strong>Velocidad de grupo</strong>"
     },
     {
      "mota": "problema",
@@ -3607,7 +3607,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Ondas mecánicas])"
+     "html": "<strong>Ondas mecánicas</strong>"
     },
     {
      "mota": "problema",
@@ -3781,7 +3781,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Sonido])"
+     "html": "<strong>Sonido</strong>"
     },
     {
      "mota": "problema",
@@ -3957,7 +3957,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Ondas electromagnéticas])"
+     "html": "<strong>Ondas electromagnéticas</strong>"
     },
     {
      "mota": "problema",
@@ -4087,7 +4087,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Efecto Doppler])"
+     "html": "<strong>Efecto Doppler</strong>"
     },
     {
      "mota": "problema",
@@ -4262,7 +4262,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Ondas de choque])"
+     "html": "<strong>Ondas de choque</strong>"
     },
     {
      "mota": "problema",
@@ -4277,7 +4277,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Reflexión y refracción])"
+     "html": "<strong>Reflexión y refracción</strong>"
     },
     {
      "mota": "problema",
@@ -4622,7 +4622,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Reflexión y polarización])"
+     "html": "<strong>Reflexión y polarización</strong>"
     },
     {
      "mota": "problema",
@@ -4659,7 +4659,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Interferencia])"
+     "html": "<strong>Interferencia</strong>"
     },
     {
      "mota": "problema",
@@ -5262,7 +5262,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Ondas estacionarias])"
+     "html": "<strong>Ondas estacionarias</strong>"
     },
     {
      "mota": "problema",
@@ -5630,7 +5630,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Difracción])"
+     "html": "<strong>Difracción</strong>"
     },
     {
      "mota": "problema",
@@ -5798,7 +5798,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Redes de difracción])"
+     "html": "<strong>Redes de difracción</strong>"
     },
     {
      "mota": "problema",
@@ -5882,7 +5882,7 @@ KAPITULUAK["05mk_09uhinak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "text(size: 10pt)[<strong>FIGURA 9.76</strong> Un CD iluminado con un láser rojo.]"
+       "html": "<strong>FIGURA 9.76</strong> Un CD iluminado por un láser rojo."
       }
      ]
     },
@@ -5943,7 +5943,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Difracción de rayos X])"
+     "html": "<strong>Difracción de rayos X</strong>"
     },
     {
      "mota": "problema",
@@ -5969,7 +5969,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Miscelánea])"
+     "html": "<strong>Miscelánea</strong>"
     },
     {
      "mota": "problema",

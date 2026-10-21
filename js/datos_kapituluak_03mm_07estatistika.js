@@ -945,7 +945,7 @@ KAPITULUAK["03mm_07estatistika"] = {
     },
     {
      "mota": "testua",
-     "html": "Kalkuladoreak #text(size: 10pt)[RAN\\#] tekla dauka, <strong>zorizko zenbakien sortzailea</strong> esaten zaion tekla alegia. Tekla horrekin zoriz lortzen da 0,000 eta 0,999 bitartean dagoen zenbaki hamartar bat. Zenbaki horietako bat <math display=\"inline\"><mi>N</mi></math>-rekin (populazioko elementuen kopurua) biderkatzen badugu, zati osoa 0 eta <math display=\"inline\"><mrow><mi>N</mi><mo>−</mo><mn>1</mn></mrow></math> bitartean izango duen zenbaki hamartar bat lortuko dugu. Beraz, <img class=\"formula\" src=\"media/formulak/056c8c78329ce52a.svg\" alt=\"N times &quot;RAN#&quot; + 1\" style=\"width:8.227em;height:1.001em\" loading=\"lazy\"> sekuentziaren bitartez lortu dugun zenbakiaren zati osoa hartzen badugu, 1 eta <math display=\"inline\"><mi>N</mi></math> bitartean zoriz aukeraturiko zenbaki bat lortuko dugu. Prozesu hau berau <math display=\"inline\"><mi>n</mi></math> aldiz egiten badugu, <math display=\"inline\"><mi>n</mi></math> elementuko lagina lortuko dugu eta ordezkaketa bidezko ateratze bidez lortuko dugun laginaren antzekoa izango da. Eragiketa ondo egiteko errepikatzen diren elementuak (baldin badaude) kendu egin beharko ditugu eta horien ordez beste elementu batzuk lortu beharko ditugu."
+     "html": "Kalkuladoreak RAN\\# tekla dauka, <strong>zorizko zenbakien sortzailea</strong> esaten zaion tekla alegia. Tekla horrekin zoriz lortzen da 0,000 eta 0,999 bitartean dagoen zenbaki hamartar bat. Zenbaki horietako bat <math display=\"inline\"><mi>N</mi></math>-rekin (populazioko elementuen kopurua) biderkatzen badugu, zati osoa 0 eta <math display=\"inline\"><mrow><mi>N</mi><mo>−</mo><mn>1</mn></mrow></math> bitartean izango duen zenbaki hamartar bat lortuko dugu. Beraz, <img class=\"formula\" src=\"media/formulak/056c8c78329ce52a.svg\" alt=\"N times &quot;RAN#&quot; + 1\" style=\"width:8.227em;height:1.001em\" loading=\"lazy\"> sekuentziaren bitartez lortu dugun zenbakiaren zati osoa hartzen badugu, 1 eta <math display=\"inline\"><mi>N</mi></math> bitartean zoriz aukeraturiko zenbaki bat lortuko dugu. Prozesu hau berau <math display=\"inline\"><mi>n</mi></math> aldiz egiten badugu, <math display=\"inline\"><mi>n</mi></math> elementuko lagina lortuko dugu eta ordezkaketa bidezko ateratze bidez lortuko dugun laginaren antzekoa izango da. Eragiketa ondo egiteko errepikatzen diren elementuak (baldin badaude) kendu egin beharko ditugu eta horien ordez beste elementu batzuk lortu beharko ditugu."
     },
     {
      "mota": "testua",
@@ -962,7 +962,7 @@ KAPITULUAK["03mm_07estatistika"] = {
       },
       {
        "mota": "testua",
-       "html": "423     BIDERKAGAI KONSTANTEA. Orain kalkuladorea prest dago 423rekin pantailan idatzitako edozein zenbaki biderkatzeko. Eragiketaren ondoren #text(size: 10pt)[=] teklari sakatu behar diogu."
+       "html": "423     BIDERKAGAI KONSTANTEA. Orain kalkuladorea prest dago 423rekin pantailan idatzitako edozein zenbaki biderkatzeko. Eragiketaren ondoren = teklari sakatu behar diogu."
       },
       {
        "mota": "zentratua",
@@ -3759,7 +3759,7 @@ KAPITULUAK["03mm_07estatistika"] = {
         },
         {
          "mota": "testua",
-         "html": "Erabili kalkuladoreko #text(size: 10pt)[RAN\\#] funtzioa."
+         "html": "Erabili kalkuladoreko RAN\\# funtzioa."
         }
        ]
       }
@@ -3783,15 +3783,15 @@ KAPITULUAK["03mm_07estatistika"] = {
     },
     {
      "mota": "testua",
-     "html": "Horrek esan nahi du 139 indibiduoko bat aukeratu behar dugula. Nondik hasi jakiteko, zenbaki bat aukeratuko dugu zoriz 1 eta 139 bitartean. Eragiketa hori kalkuladoreko #text(size: 10pt)[RAN\\#] funtzioa erabiliz egin dezakegu:"
+     "html": "Horrek esan nahi du 139 indibiduoko bat aukeratu behar dugula. Nondik hasi jakiteko, zenbaki bat aukeratuko dugu zoriz 1 eta 139 bitartean. Eragiketa hori kalkuladoreko RAN\\# funtzioa erabiliz egin dezakegu:"
     },
     {
      "mota": "testua",
-     "html": "Lehenengo elementua lortu: #text(size: 10pt)[RAN\\#]  <math display=\"inline\"><mi>×</mi></math> 139 <math display=\"inline\"><mi>+</mi></math> 1 <math display=\"inline\"><mo>=</mo></math> eta zati osoa hartuko dugu."
+     "html": "Lehenengo elementua lortu: RAN\\#  <math display=\"inline\"><mi>×</mi></math> 139 <math display=\"inline\"><mi>+</mi></math> 1 <math display=\"inline\"><mo>=</mo></math> eta zati osoa hartuko dugu."
     },
     {
      "mota": "testua",
-     "html": "Adibidez: #text(size: 10pt)[RAN\\#]  <math display=\"inline\"><mrow><mn>0</mn><mo>,</mo><mn>534</mn><mo>×</mo><mn>139</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>75</mn><mo>,</mo><mn>782</mn></mrow></math>"
+     "html": "Adibidez: RAN\\#  <math display=\"inline\"><mrow><mn>0</mn><mo>,</mo><mn>534</mn><mo>×</mo><mn>139</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>75</mn><mo>,</mo><mn>782</mn></mrow></math>"
     },
     {
      "mota": "testua",
@@ -3811,7 +3811,7 @@ KAPITULUAK["03mm_07estatistika"] = {
     },
     {
      "mota": "testua",
-     "html": "#text(size: 10pt)[RAN\\#]"
+     "html": "RAN\\#"
     },
     {
      "mota": "testua",
@@ -4488,7 +4488,7 @@ KAPITULUAK["03mm_07estatistika"] = {
       },
       {
        "mota": "testua",
-       "html": "Erabili kalkuladoreko #text(size: 10pt)[RAN\\#] tekla."
+       "html": "Erabili kalkuladoreko RAN\\# tekla."
       }
      ]
     },

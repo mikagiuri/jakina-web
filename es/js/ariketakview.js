@@ -1,10 +1,10 @@
 "use strict";
-/* ===== Ariketak: enunciado + solución desplegable (<details>), como los ejemplos resueltos de lab_iesmdb =====
+/* ===== Ejercicios: enunciado + solución desplegable (<details>), como los ejemplos resueltos de lab_iesmdb =====
    Agrupados por capítulo y apartado; cada uno enlaza a su sitio en el capítulo.
    depende de: datos_ariketak.js (lo genera tools/konbertatu_jakina.py desde #ariketa / #problema + #ebazpena),
    datos_katalogoa.js y blokeaHtml() de kapituluaview.js */
 
-function loadAriketak(){
+function loadEjercicios(){
   const el = document.getElementById("ariketazerrenda");
   /* (dsh-2, 19-10) Txokoaren ariketak, «Filosofia 1» etiketarekin (datos_ariketak_filosofia1.js) */
   const zerr = Object.entries(ARIKETAK).concat(Object.entries(typeof ARIKETAK_FIL1 !== "undefined" ? ARIKETAK_FIL1 : {}));
@@ -30,4 +30,4 @@ function loadAriketak(){
   }
   el.innerHTML = html;
 }
-window.loadAriketak = loadAriketak;
+window.loadEjercicios = loadEjercicios;

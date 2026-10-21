@@ -96,7 +96,7 @@ KAPITULUAK["02fg_01partikula"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "table( columns: 5, stroke: 0.5pt + grisa, inset: 5pt, align: center + horizon, [<strong>Egoera</strong>], [<strong>Itxura mant.?</strong>], [<strong>Bolumena mant.?</strong>], [<strong>Molekulen banaketa</strong>], [<strong>Propietate fisikoak</strong>], [Gasa], [Ez], [Ez], [Estatistikoki homogeneoa], [Isotropikoa], [Likidoa], [Ez], [Bai], [Estatistikoki homogeneoa], [Isotropikoa], [Solidoa], [Bai], [Bai], [Periodikoki homogeneoa], [Anisotropikoa], )"
+       "html": "<div class=\"j-taula\"><table><thead><tr><th><strong>Egoera</strong></th><th><strong>Itxura mant.?</strong></th><th><strong>Bolumena mant.?</strong></th><th><strong>Molekulen banaketa</strong></th><th><strong>Propietate fisikoak</strong></th></tr></thead><tbody><tr><td>Gasa</td><td>Ez</td><td>Ez</td><td>Estatistikoki homogeneoa</td><td>Isotropikoa</td></tr><tr><td>Likidoa</td><td>Ez</td><td>Bai</td><td>Estatistikoki homogeneoa</td><td>Isotropikoa</td></tr><tr><td>Solidoa</td><td>Bai</td><td>Bai</td><td>Periodikoki homogeneoa</td><td>Anisotropikoa</td></tr></tbody></table></div>"
       }
      ]
     }
@@ -127,7 +127,7 @@ KAPITULUAK["02fg_01partikula"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "table( columns: 3, stroke: 0.5pt + grisa, inset: 5pt, align: center + horizon, [<strong>Magnitudea</strong>], [<strong>SI</strong>], [<strong>CGS</strong>], [Luzera], [m], [cm], [Masa], [kg], [g], [Denbora], [s], [s], [Korrontearen intentsitatea], [A], [–], [Tenperatura], [K], [–], [Argi-intentsitatea], [kandela], [–], )"
+       "html": "<div class=\"j-taula\"><table><thead><tr><th><strong>Magnitudea</strong></th><th><strong>SI</strong></th><th><strong>CGS</strong></th></tr></thead><tbody><tr><td>Luzera</td><td>m</td><td>cm</td></tr><tr><td>Masa</td><td>kg</td><td>g</td></tr><tr><td>Denbora</td><td>s</td><td>s</td></tr><tr><td>Korrontearen intentsitatea</td><td>A</td><td>–</td></tr><tr><td>Tenperatura</td><td>K</td><td>–</td></tr><tr><td>Argi-intentsitatea</td><td>kandela</td><td>–</td></tr></tbody></table></div>"
       }
      ]
     },
@@ -6930,7 +6930,7 @@ KAPITULUAK["02fg_01partikula"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "table( columns: 2, stroke: 0.5pt + grisa, inset: 5pt, align: (left, center), [<strong>Gorputza (ardatza)</strong>], [<strong><math display=\"inline\"><mi>I</mi></math></strong>], [Eraztuna edo zilindro hutsa (simetria-ardatza)], [<math display=\"inline\"><mrow><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></math>], [Disko edo zilindro uniformea (simetria-ardatza)], [<math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></math>], [Esfera uniformea (edozein diametro)], [<math display=\"inline\"><mrow><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></math>], [Barra uniformea (muturretik, ardatza perpendikularra)], [<math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>M</mi><msup><mi>L</mi><mn>2</mn></msup></mrow></math>], [Barra uniformea (MZ-tik, ardatza perpendikularra)], [<math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>12</mn></mfrac><mi>M</mi><msup><mi>L</mi><mn>2</mn></msup></mrow></math>], )"
+       "html": "<div class=\"j-taula\"><table><thead><tr><th><strong>Gorputza (ardatza)</strong></th><th><strong><math display=\"inline\"><mi>I</mi></math></strong></th></tr></thead><tbody><tr><td>Eraztuna edo zilindro hutsa (simetria-ardatza)</td><td><math display=\"inline\"><mrow><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></math></td></tr><tr><td>Disko edo zilindro uniformea (simetria-ardatza)</td><td><math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></math></td></tr><tr><td>Esfera uniformea (edozein diametro)</td><td><math display=\"inline\"><mrow><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></math></td></tr><tr><td>Barra uniformea (muturretik, ardatza perpendikularra)</td><td><math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>M</mi><msup><mi>L</mi><mn>2</mn></msup></mrow></math></td></tr><tr><td>Barra uniformea (MZ-tik, ardatza perpendikularra)</td><td><math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>12</mn></mfrac><mi>M</mi><msup><mi>L</mi><mn>2</mn></msup></mrow></math></td></tr></tbody></table></div>"
       }
      ]
     },

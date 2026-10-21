@@ -1107,7 +1107,7 @@ KAPITULUAK["05mk_05solidoa"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Cinemática])"
+     "html": "<strong>Cinemática</strong>"
     },
     {
      "mota": "problema",
@@ -1192,7 +1192,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Péndulo físico])"
+     "html": "<strong>Péndulo físico</strong>"
     },
     {
      "mota": "problema",
@@ -1266,7 +1266,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Momentos y tensor de inercia])"
+     "html": "<strong>Momentos y tensor de inercia</strong>"
     },
     {
      "mota": "problema",
@@ -1433,7 +1433,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Centro de masas y equilibrio])"
+     "html": "<strong>Centro de masas y equilibrio</strong>"
     },
     {
      "mota": "problema",
@@ -1592,7 +1592,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Leyes de conservación])"
+     "html": "<strong>Leyes de conservación</strong>"
     },
     {
      "mota": "problema",
@@ -1869,7 +1869,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Ecuaciones del movimiento])"
+     "html": "<strong>Ecuaciones del movimiento</strong>"
     },
     {
      "mota": "problema",
@@ -2263,7 +2263,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Ecuaciones de Euler])"
+     "html": "<strong>Ecuaciones de Euler</strong>"
     },
     {
      "mota": "problema",
@@ -2525,7 +2525,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "text(fill:urdina, weight: &quot;bold&quot;, size: 10pt, smallcaps[Miscelánea])"
+     "html": "<strong>Miscelánea</strong>"
     },
     {
      "mota": "problema",
