@@ -1,0 +1,1239 @@
+{
+ "kapitulua": "02fg_03oszilazioak",
+ "izenburua": "B04A.2 · M17 Oszilazioak eta uhinak",
+ "sarrera": "<p>Oszilazioak oreka-posizio baten inguruko higidura errepikakorrak dira; higidura harmoniko sinplea, malgukiak eta penduluak ikusiko ditugu, baita marruskadura, kanpo-indarra eta erresonantzia ere. Gero uhinetara pasatzen gara: nola hedatzen diren, nola gainezartzen diren (interferentzia, uhin geldikorrak) eta Doppler efektua.</p>",
+ "atalak": [
+  {
+   "id": "S1",
+   "izena": "Higidura harmoniko sinplea"
+  },
+  {
+   "id": "S2",
+   "izena": "Malgukiak eta penduluak"
+  },
+  {
+   "id": "S3",
+   "izena": "Energia oszilazioetan"
+  },
+  {
+   "id": "S4",
+   "izena": "Indargetzea, bortxapena eta erresonantzia"
+  },
+  {
+   "id": "S5",
+   "izena": "Oszilazio akoplatuak"
+  },
+  {
+   "id": "S6",
+   "izena": "Uhinen oinarriak"
+  },
+  {
+   "id": "S7",
+   "izena": "Uhin harmonikoak"
+  },
+  {
+   "id": "S8",
+   "izena": "Gainezarpena eta uhin geldikorrak"
+  },
+  {
+   "id": "S9",
+   "izena": "Doppler efektua"
+  },
+  {
+   "id": "S10",
+   "izena": "Praktika eta osagarriak"
+  }
+ ],
+ "kontzeptuak": [
+  {
+   "id": "fosz-hhs",
+   "atala": "S1",
+   "mota": "definizioa",
+   "izena": "Higidura harmoniko sinplea (HHS)",
+   "ideia": "<p>Oreka-posiziotik aldentzen den gorputza aldentzearen proportzionala den indar batek aurkako aldera tiratzen badu, sinu-itxurako higidura errepikakorra sortzen da: higidura harmoniko sinplea.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Sistema askok, oreka-posiziotik aldenduta, oreka-posizioarekiko proportzionala eta aurkako noranzkoko indar (edo momentu) baten eraginpean itzultzeko joera dute — <strong>indar berreskuratzailea</strong>. Indar hori desplazamenduarekiko zuzenki proportzionala denean, <strong>higidura harmoniko sinplea</strong>  (HHS) sortzen da:</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>x</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><msup><mi>ω</mi><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>)</p></div><p>Ekuazio diferentzial horren soluzio orokorra da</p><p><math display=\"block\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></p><p>non <math display=\"inline\"><mi>A</mi></math>  <strong>anplitudea</strong>  (<math display=\"inline\"><mi>x</mi></math>-ren balio maximoa), <math display=\"inline\"><mi>ω</mi></math>  <strong>maiztasun angeluarra</strong>, eta <math display=\"inline\"><mrow><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi></mrow></math>  <strong>aldiuneko fasea</strong> diren (<math display=\"inline\"><mi>ϕ</mi></math>, <strong>hasierako fasea</strong>). Abiadura eta azelerazioa deribatuz lortzen dira:</p>",
+   "azalpena": "<p>MAS-a <strong>higidura zirkular uniformearen proiekzioa</strong> da. Periodoa <math display=\"inline\"><mi>T</mi></math>, maiztasuna <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>1</mn><mi>/</mi><mi>T</mi></mrow></math>, eta <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><mn>2</mn><mi>π</mi><mi>f</mi></mrow></math>:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>y</mi><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><msub><mi>φ</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>v</mi><mo>=</mo><mi>A</mi><mi>ω</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><msub><mi>φ</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>a</mi><mo>=</mo><mi>−</mi><mi>A</mi><msup><mi>ω</mi><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><msub><mi>φ</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><msup><mi>ω</mi><mn>2</mn></msup><mi>y</mi><mi>.</mi></mrow></math></p></div><p><em class=\"j-nab\">\n  Gakoa: <strong>azelerazioa elongazioaren aurkakoa eta proportzionala</strong> da (<math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mi>−</mi><msup><mi>ω</mi><mn>2</mn></msup><mi>y</mi></mrow></math>) — hori da MAS-aren\n  ezaugarri bereizgarria.\n</em></p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "higidura harmoniko sinplea (HHS)",
+     "def": "<p>Oreka-posizioarekiko desplazamenduaren proportzionala den indar berreskuratzaile baten eraginpeko higidura; posizioa sinu edo kosinu baten arabera aldatzen da.</p>"
+    },
+    {
+     "t": "indar berreskuratzailea",
+     "def": "<p>Gorputza oreka-posiziora itzultzera bultzatzen duen indarra; HHSan desplazamenduarekiko proportzionala eta aurkako noranzkokoa da.</p>"
+    },
+    {
+     "t": "anplitudea",
+     "def": "<p>Oszilazioan posizioak (elongazioak) hartzen duen balio maximoa.</p>"
+    },
+    {
+     "t": "maiztasun angeluarra",
+     "def": "<p>Fasea denborarekin zein azkar hazten den neurtzen duen magnitudea (rad/s); periodoarekin T = 2π/ω lotuta dago.</p>"
+    },
+    {
+     "t": "fasea",
+     "def": "<p>Sinuaren argumentua (ωt + φ): oszilazioaren zikloan une bakoitzean non gauden adierazten du.</p>"
+    },
+    {
+     "t": "hasierako fasea",
+     "def": "<p>Fasearen balioa hasierako unean (t = 0); higidura zein egoeratatik hasten den finkatzen du.</p>"
+    }
+   ],
+   "aurrekoak": [],
+   "ondorengoak": [
+    "fosz-hhs-zinematika"
+   ],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a2 · Higidura harmoniko sinplea; a15 · Ekuazioa eta magnitudeak (Landeta)",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-hhs-zinematika",
+   "atala": "S1",
+   "mota": "teorema",
+   "izena": "Abiadura, azelerazioa eta periodoa HHSan",
+   "ideia": "<p>Posizioa sinu bat bada, abiadura laurden bat aurreratuta doa eta azelerazioa beti posizioaren aurkakoa da, a = −ω²x. Higidura T = 2π/ω denboran behin errepikatzen da.</p>",
+   "formula": "",
+   "enuntziatua": "<p><math display=\"block\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mi>ω</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mi>ω</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo>+</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> <math display=\"block\"><mrow><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mi>A</mi><msup><mi>ω</mi><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><msup><mi>ω</mi><mn>2</mn></msup><mi>x</mi></mrow></math></p><p><math display=\"inline\"><mi>v</mi></math> eta <math display=\"inline\"><mi>x</mi></math>  <strong>koadraturan</strong> daude (fase-desfasea <math display=\"inline\"><mrow><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math>) eta <math display=\"inline\"><mi>a</mi></math> eta <math display=\"inline\"><mi>x</mi></math> <strong>oposizioan</strong>  (<math display=\"inline\"><mi>π</mi></math> desfasea). <strong>Periodoa</strong> eta <strong>maiztasuna</strong>:</p><p><math display=\"block\"><mrow><mi>T</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mi>ω</mi></mfrac><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mi>ν</mi><mo>=</mo><mfrac><mi>ω</mi><mrow><mn>2</mn><mi>π</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mi>T</mi></mfrac><mi>.</mi></mrow></math></p>",
+   "azalpena": "<figure class=\"j-irudia\"><img src=\"media/irudiak/b9fe880cde05670b.svg\" alt=\"Higidura harmoniko sinplearen posizioa denboraren funtzioan,\n    x(t)=Asin&amp;#8289;(ωt)  (ϕ=0 kasuan); A anplitudea eta T\n  periodoa markatuta.\" width=\"389\" loading=\"lazy\"><figcaption>Higidura harmoniko sinplearen posizioa denboraren funtzioan,\n    <math display=\"inline\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>  (<math display=\"inline\"><mrow><mi>ϕ</mi><mo>=</mo><mn>0</mn></mrow></math> kasuan); <math display=\"inline\"><mi>A</mi></math> anplitudea eta <math display=\"inline\"><mi>T</mi></math>\n  periodoa markatuta.</figcaption></figure><p>Posizioaren eta abiaduraren arteko erlazioa, denbora esplizituki agertu gabe:</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><mi>v</mi><mo>=</mo><mi>ω</mi><msqrt><mrow><msup><mi>A</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></math>)</p></div><p><strong>Dinamika.</strong>  <math display=\"inline\"><mi>m</mi></math> masako partikula baten gainean <math display=\"inline\"><mrow><mi>F</mi><mo>=</mo><mi>m</mi><mi>a</mi></mrow></math> betetzen bada eta higidura HHS bada, orduan <math display=\"inline\"><mrow><mi>F</mi><mo>=</mo><mi>−</mi><mi>m</mi><msup><mi>ω</mi><mn>2</mn></msup><mi>x</mi></mrow></math>: indar berreskuratzailea desplazamenduarekiko proportzionala eta aurkako noranzkokoa da.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "koadraturan (fase-desfasea π/2)",
+     "def": "<p>Bi magnitudek laurden bat zikloko desfasea dutenean (adibidez abiadurak eta posizioak) koadraturan daudela esaten da.</p>"
+    },
+    {
+     "t": "oposizioan (fase-desfasea π)",
+     "def": "<p>Bi magnitudek erabat aurkako zeinua dutenean (adibidez azelerazioak eta posizioak) oposizioan daudela esaten da.</p>"
+    },
+    {
+     "t": "periodoa",
+     "def": "<p>Oszilazio oso bat egiteko behar den denbora, T.</p>"
+    },
+    {
+     "t": "maiztasuna",
+     "def": "<p>Denbora-unitateko oszilazio kopurua, f = 1/T (Hz).</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-hhs"
+   ],
+   "ondorengoak": [
+    "fosz-hasierako-fasea",
+    "fosz-zinematika-integralak",
+    "fosz-malgukia",
+    "fosz-pendulu-sinplea",
+    "fosz-uhin-parametroak"
+   ],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a2 · Higidura harmoniko sinplea",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-hasierako-fasea",
+   "atala": "S1",
+   "mota": "metodoa",
+   "izena": "Hasierako fasea hasierako baldintzetatik",
+   "ideia": "<p>Higidura zein posizio eta abiaduratik hasten den jakinda, hasierako fasea φ0 kalkula daiteke; gero edozein unetako posizioa eta azelerazioa lortzen dira.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Abiadura-datuetatik <strong>hasierako fasea</strong> <math display=\"inline\"><msub><mi>φ</mi><mn>0</mn></msub></math> lortuta, une jakin bateko <strong>posizioa</strong> eta <strong>azelerazioa</strong> kalkulatzen dira (<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><msub><mi>φ</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>).</p>",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "hasierako baldintzak",
+     "def": "<p>Hasierako unean ezagutzen diren posizioa eta abiadura; hauek finkatzen dute zein den hasierako fasea eta anplitudea.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-hhs-zinematika"
+   ],
+   "ondorengoak": [],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a20 · MAS-aren hasierako fasea",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-zinematika-integralak",
+   "atala": "S1",
+   "mota": "metodoa",
+   "izena": "Zinematika integralez (Fisika-zubia)",
+   "ideia": "<p>Azelerazioa integratuz abiadura lortzen da, eta abiadura integratuz posizioa; hasierako datuek integrazio-konstanteak finkatzen dituzte.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Dimentsio bakarreko higiduran posizioa, abiadura eta azelerazioa honela lotzen dira:</p><p><math display=\"block\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mi>d</mi><mi>v</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mi>.</mi></mrow></math></p><p>Hasierako datuak <math display=\"inline\"><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></math> eta <math display=\"inline\"><mrow><mi>v</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msub><mi>v</mi><mn>0</mn></msub></mrow></math> badira, integrazioak konstanteak automatikoki finkatzen ditu:</p><p><math display=\"block\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>v</mi><mn>0</mn></msub><mo>+</mo><msubsup><mo>∫</mo><msub><mi>t</mi><mn>0</mn></msub><mi>t</mi></msubsup><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>s</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>s</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>x</mi><mn>0</mn></msub><mo>+</mo><msubsup><mo>∫</mo><msub><mi>t</mi><mn>0</mn></msub><mi>t</mi></msubsup><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>s</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>s</mi><mi>.</mi></mrow></math></p>",
+   "azalpena": "<p><math display=\"inline\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></math> <strong>desplazamendu sinatua</strong> da. Egindako bide geometrikoa, berriz,</p><p><math display=\"block\"><mrow><mi>s</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><msub><mi>t</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msubsup><mo>∫</mo><msub><mi>t</mi><mn>1</mn></msub><msub><mi>t</mi><mn>2</mn></msub></msubsup><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>d</mi><mi>t</mi></mrow></math></p><p>da; <math display=\"inline\"><mi>v</mi></math>-k zeinua aldatzen duen puntuetan integrala zatitu behar da. Altuera maximoa, higidura gorantz hasi bada, lehen <math display=\"inline\"><mrow><mi>v</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mo>*</mo></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math> unean erdiesten da, eta <math display=\"inline\"><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mo>*</mo></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><msubsup><mo>∫</mo><msub><mi>t</mi><mn>0</mn></msub><msub><mi>t</mi><mo>*</mo></msub></msubsup><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>t</mi></mrow></math>. Geldialdia muga gisa bakarrik iristen bada, <math display=\"inline\"><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></math>, bidea integral inpropio batez adierazten da eta haren konbergentzia egiaztatu behar da.</p><p>Grabitate konstanteko higidura bertikalean, gora noranzko positiboa hartuta, <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mi>−</mi><mi>g</mi></mrow></math> eta <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><msub><mi>v</mi><mn>0</mn></msub><mo>−</mo><mi>g</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> dira. Azelerazioaren beste lege bat <math display=\"inline\"><mrow><mi>j</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> sinboloaz ematen bada ere, testuinguruak <math display=\"inline\"><mrow><mi>j</mi><mo>=</mo><mi>d</mi><mfrac><mi>v</mi><mi>d</mi></mfrac><mi>t</mi></mrow></math> esan nahi duen egiaztatu, eta aurreko bi integralak kateatu.</p><p>Higidura periodiko batean <math display=\"inline\"><mi>T</mi></math> periodoko batez besteko abiadura sinatua eta abiaduraren batez besteko balio absolutua ez dira gauza bera:</p><p><math display=\"block\"><mrow><mover><mi>v</mi><mo accent=\"true\">¯</mo></mover><mo>=</mo><mfrac><mn>1</mn><mi>T</mi></mfrac><msubsup><mo>∫</mo><mn>0</mn><mi>T</mi></msubsup><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>t</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mover><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow><mo accent=\"true\">¯</mo></mover><mo>=</mo><mfrac><mn>1</mn><mi>T</mi></mfrac><msubsup><mo>∫</mo><mn>0</mn><mi>T</mi></msubsup><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>d</mi><mi>t</mi><mi>.</mi></mrow></math></p><p>Azelerazioa denboraren ordez abiaduraren funtzioa bada, <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>v</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>,</p><p><math display=\"block\"><mrow><mfrac><mrow><mi>d</mi><mi>v</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>v</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mi>d</mi><mi>t</mi><mo>=</mo><mfrac><mrow><mi>d</mi><mi>v</mi></mrow><mrow><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>v</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>.</mi></mrow></math></p><p>Beraz, <math display=\"inline\"><mrow><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>v</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&gt;</mo><mn>0</mn></mrow></math> den tarte batean <math display=\"inline\"><msub><mi>v</mi><mn>1</mn></msub></math>-etik <math display=\"inline\"><msub><mi>v</mi><mn>2</mn></msub></math>-ra azeleratzeko denbora</p><p><math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><msubsup><mo>∫</mo><msub><mi>v</mi><mn>1</mn></msub><msub><mi>v</mi><mn>2</mn></msub></msubsup><mfrac><mrow><mi>d</mi><mi>v</mi></mrow><mrow><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>v</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac></mrow></math></p><p>da. Horregatik, <math display=\"inline\"><mfrac><mn>1</mn><mi>a</mi></mfrac></math> versus <math display=\"inline\"><mi>v</mi></math> grafikoaren azalera denbora da. <math display=\"inline\"><mrow><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>v</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> zero bihurtzen bada, integrala inpropioa izan daiteke; zeinua aldatzen bada, tarteak bereizi behar dira. Posizioarekiko forma ere erabilgarria da: <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mi>v</mi><mi>d</mi><mfrac><mi>v</mi><mi>d</mi></mfrac><mi>x</mi></mrow></math>.</p><div class=\"j-gaia\">Demidovich — Oszilazio harmonikoa</div>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Puntu baten abiadura <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><msub><mi>v</mi><mn>0</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> bada eta <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>-n <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> bada, aurkitu bibrazioaren legea eta abiaduraren balio ertain absolutua periodoko.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "desplazamendu sinatua",
+     "def": "<p>Posizioaren aldaketa x(t) − x0, zeinuarekin; ez da berdina egindako bide osoa.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-hhs-zinematika"
+   ],
+   "ondorengoak": [],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a15 · Fisika-zubia: zinematika integralez (Demidovich, oszilazio harmonikoa)",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-malgukia",
+   "atala": "S2",
+   "mota": "teorema",
+   "izena": "Malguki lineala eta Hooke-ren legea",
+   "ideia": "<p>Malguki bati lotutako masak HHS egiten du; malgukia zurrunagoa den edo masa arinagoa den neurrian, azkarrago oszilatzen du: ω = √(k/m).</p>",
+   "formula": "",
+   "enuntziatua": "<p><math display=\"inline\"><mi>k</mi></math> konstantea duen malguki bati loturiko <math display=\"inline\"><mi>m</mi></math> masako partikula batentzat, indar berreskuratzailea <strong>Hooke-ren legeak</strong> ematen du: <math display=\"inline\"><mrow><mi>F</mi><mo>=</mo><mi>−</mi><mi>k</mi><mi>x</mi></mrow></math>  (<math display=\"inline\"><mi>x</mi></math>, oreka-posiziotik neurtutako luzapena). Newton-en 2. legean ordezkatuz,</p><p><math display=\"block\"><mrow><mi>−</mi><mi>k</mi><mi>x</mi><mo>=</mo><mi>m</mi><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>x</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>x</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mfrac><mi>k</mi><mi>m</mi></mfrac><mi>x</mi><mo>=</mo><mn>0</mn><mo>,</mo></mrow></math></p><p>HHS-en ekuazioarekin bat dator <math display=\"inline\"><mrow><msup><mi>ω</mi><mn>2</mn></msup><mo>=</mo><mi>k</mi><mi>/</mi><mi>m</mi></mrow></math> eginez gero:</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><mi>ω</mi><mo>=</mo><msqrt><mfrac><mi>k</mi><mi>m</mi></mfrac></msqrt></mrow></math>)</p></div>",
+   "azalpena": "<p>Hooke-ren legea (<math display=\"inline\"><mrow><mi>F</mi><mo>=</mo><mi>−</mi><mi>K</mi><mi>x</mi></mrow></math>) MAS-a sortzen du; <math display=\"inline\"><mrow><mi>K</mi><mo>=</mo><mi>m</mi><msup><mi>ω</mi><mn>2</mn></msup></mrow></math>-tik:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mfrac><mi>m</mi><mi>K</mi></mfrac></msqrt><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>m</mi><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>x</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mi>−</mi><mi>K</mi><mi>x</mi><mi>.</mi></mrow></math></p></div><p><strong>Osziladorearen energia</strong> (potentziala + zinetikoa) <strong>konstantea</strong> da: <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>K</mi><msup><mi>A</mi><mn>2</mn></msup></mrow></math>.</p>",
+   "frogapena": "",
+   "adibideak": [
+    "<p><math display=\"inline\"><msub><mi>m</mi><mn>2</mn></msub></math> blokea <math display=\"inline\"><msub><mi>m</mi><mn>1</mn></msub></math> blokearen gainean, malguki batekin (<math display=\"inline\"><mi>k</mi></math>). Biak elkarrekin mugituz, maiztasun angeluarra: <math display=\"block\"><mrow><mi>ω</mi><mo>=</mo><msqrt><mfrac><mi>k</mi><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub></mrow></mfrac></msqrt><mi>.</mi></mrow></math> <math display=\"inline\"><msub><mi>m</mi><mn>2</mn></msub></math> blokeak <strong>ez labaintzeko</strong>, azeleratzen duen indarra (maximoa elongazio maximoan, <math display=\"inline\"><mrow><mi>F</mi><mo>=</mo><msub><mi>m</mi><mn>2</mn></msub><msup><mi>ω</mi><mn>2</mn></msup><mi>x</mi></mrow></math>) marruskadura estatiko maximoa baino txikiagoa izan behar da (<math display=\"inline\"><mrow><mi>N</mi><mo>=</mo><msub><mi>m</mi><mn>2</mn></msub><mi>g</mi></mrow></math>): <math display=\"block\"><mrow><msub><mi>F</mi><mrow><mi>m</mi><mi>e</mi></mrow></msub><mo>=</mo><msub><mi>m</mi><mn>2</mn></msub><msup><mi>ω</mi><mn>2</mn></msup><mi>x</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>F</mi><mrow><mi>m</mi><mi>e</mi></mrow></msub><mo>≤</mo><msub><mi>μ</mi><mi>e</mi></msub><mi>N</mi><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><msub><mi>m</mi><mn>2</mn></msub><msup><mi>ω</mi><mn>2</mn></msup><mi>x</mi><mo>≤</mo><msub><mi>μ</mi><mi>e</mi></msub><mi>N</mi><mi>.</mi></mrow></math> Anplitude maximoa:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>x</mi><mo>≤</mo><mfrac><mrow><msub><mi>μ</mi><mi>e</mi></msub><mi>N</mi></mrow><mrow><msub><mi>m</mi><mn>2</mn></msub><msup><mi>ω</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><msub><mi>μ</mi><mi>e</mi></msub><msub><mi>m</mi><mn>2</mn></msub><mi>g</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><msub><mi>m</mi><mn>2</mn></msub><mi>k</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><msub><mi>μ</mi><mi>e</mi></msub><mi>g</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mi>k</mi></mfrac><mi>.</mi></mrow></math></p></div>"
+   ],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "Hooke-ren legea",
+     "def": "<p>Malgukiaren indarra luzapenarekiko proportzionala eta aurkako noranzkokoa da, F = −kx.</p>"
+    },
+    {
+     "t": "malgukiaren konstantea",
+     "def": "<p>Malgukiaren zurruntasuna neurtzen duen k magnitudea (N/m).</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-hhs-zinematika"
+   ],
+   "ondorengoak": [
+    "fosz-malguki-konbinatuak",
+    "fosz-energia-oszilazioa",
+    "fosz-indargetuak",
+    "fosz-akoplatuak",
+    "fosz-praktika-oszilazioak",
+    "fosz-landeta-mekanika"
+   ],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a3 · Malguki lineala; a16 · Malgukia eta periodoa; a21 · Oszilagailua bi masarekin",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-pendulu-sinplea",
+   "atala": "S2",
+   "mota": "teorema",
+   "izena": "Pendulu sinplea",
+   "ideia": "<p>Hari batetik zintzilik dagoen masak angelu txikietan HHS egiten du, eta bere periodoak luzeraren eta grabitatearen mende dago, ez masaren.</p>",
+   "formula": "",
+   "enuntziatua": "<div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mfrac><mi>L</mi><mi>g</mi></mfrac></msqrt><mi>.</mi></mrow></math></p></div>",
+   "azalpena": "<p><math display=\"inline\"><mi>L</mi></math> luzerako hari batetik zintzilik dagoen <math display=\"inline\"><mi>m</mi></math> masa puntualak, <math display=\"inline\"><mi>ϕ</mi></math> angelu txikietarako, HHS egiten du:</p><figure class=\"j-irudia\"><img src=\"media/irudiak/801ffe50733fd85d.svg\" alt=\"Pendulu sinplea: L luzerako hari batetik zintzilik dagoen m masa,\n    ϕ angelu txikian oszilatzen.\" width=\"120\" loading=\"lazy\"><figcaption>Pendulu sinplea: <math display=\"inline\"><mi>L</mi></math> luzerako hari batetik zintzilik dagoen <math display=\"inline\"><mi>m</mi></math> masa,\n    <math display=\"inline\"><mi>ϕ</mi></math> angelu txikian oszilatzen.</figcaption></figure><p>Tangentzialki, <math display=\"inline\"><mrow><msub><mi>F</mi><mi>τ</mi></msub><mo>=</mo><mi>−</mi><mi>m</mi><mi>g</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>=</mo><mi>m</mi><msub><mi>a</mi><mi>τ</mi></msub></mrow></math>, eta <math display=\"inline\"><mrow><msub><mi>a</mi><mi>τ</mi></msub><mo>=</mo><mi>L</mi><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>ϕ</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac></mrow></math> denez,</p><p><math display=\"block\"><mrow><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>ϕ</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mfrac><mi>g</mi><mi>L</mi></mfrac><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math></p><p>Oro har <strong>ez da harmonikoa</strong>  (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi></mrow></math> delako), baina angelu txikietarako <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>≈</mo><mi>ϕ</mi></mrow></math>, eta orduan HHS bihurtzen da:</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><msup><mi>ω</mi><mn>2</mn></msup><mo>=</mo><mfrac><mi>g</mi><mi>L</mi></mfrac><mtext mathvariant=\"normal\">  </mtext><mo>→</mo><mtext mathvariant=\"normal\">  </mtext><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mfrac><mi>L</mi><mi>g</mi></mfrac></msqrt></mrow></math>)</p></div>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "pendulu sinplea",
+     "def": "<p>Luzera finkoko hari baten muturrean zintzilik dagoen masa puntuala.</p>"
+    },
+    {
+     "t": "angelu txikien hurbilketa",
+     "def": "<p>sin φ ≈ φ hartzea; hurbilketa horrekin pendulu sinplearen ekuazioa harmonikoa bihurtzen da.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-hhs-zinematika"
+   ],
+   "ondorengoak": [
+    "fosz-pendulu-fisikoa",
+    "fosz-praktika-oszilazioak",
+    "fosz-praktika-azterketak"
+   ],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a4 · Pendulu sinplea; a17 · Pendulu sinplea eta konposatua",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-pendulu-fisikoa",
+   "atala": "S2",
+   "mota": "teorema",
+   "izena": "Pendulu fisikoa",
+   "ideia": "<p>Zurruntasun-solido bat masa-zentrotik kanpoko ardatz batetik zintzilikatuta ere oszilatzen da; periodoa inertzia-momentuaren eta ardatzaren distantziaren araberakoa da.</p>",
+   "formula": "",
+   "enuntziatua": "<p>MZ-tik pasatzen ez den ardatz baten inguruan oszilazio txikiak egiten dituen solido zurrun orok (<math display=\"inline\"><mi>I</mi></math>, <math display=\"inline\"><mi>O</mi></math> ardatzarekiko inertzia-momentua; <math display=\"inline\"><mi>b</mi></math>, MZ eta ardatzaren arteko distantzia) betetzen du, angelu txikietarako,</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><msup><mi>ω</mi><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mi>m</mi><mi>g</mi><mi>b</mi></mrow><mi>I</mi></mfrac><mtext mathvariant=\"normal\">  </mtext><mo>→</mo><mtext mathvariant=\"normal\">  </mtext><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mfrac><mi>I</mi><mrow><mi>m</mi><mi>g</mi><mi>b</mi></mrow></mfrac></msqrt></mrow></math>)</p></div><p>Kasu berezi gisa, pendulu sinplea berreskuratzen da <math display=\"inline\"><mrow><mi>I</mi><mo>=</mo><mi>m</mi><msup><mi>L</mi><mn>2</mn></msup></mrow></math> eta <math display=\"inline\"><mrow><mi>b</mi><mo>=</mo><mi>L</mi></mrow></math> eginez.</p>",
+   "azalpena": "<p>Disko bat esekitze-ardatz baten inguruan oszilatzen; inertzia-momentua <strong>Steiner</strong>-ez (<math display=\"inline\"><mrow><mi>I</mi><mo>=</mo><msub><mi>I</mi><mrow><mtext mathvariant=\"normal\">mz </mtext><mspace width=\"0.333em\"></mspace></mrow></msub><mo>+</mo><mi>m</mi><msup><mi>d</mi><mn>2</mn></msup></mrow></math>), eta higidura-ekuaziotik periodoa <math display=\"inline\"><mi>R</mi></math> eta <math display=\"inline\"><mi>d</mi></math>-ren funtzioan:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mfrac><mi>I</mi><mrow><mi>m</mi><mi>g</mi><mi>d</mi></mrow></mfrac></msqrt><mi>.</mi></mrow></math></p></div><p>Pendulu fisikoaren periodoa <math display=\"inline\"><mi>d</mi></math>-rekiko deribatuz eta zerora berdinduz (<math display=\"inline\"><mrow><mi>d</mi><mi>T</mi><mi>/</mi><mi>d</mi><mi>d</mi><mo>=</mo><mn>0</mn></mrow></math>), periodoa <strong>minimizatzen</strong> duen distantzia:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mfrac><mrow><mi>d</mi><mi>T</mi></mrow><mrow><mi>d</mi><mi>d</mi></mrow></mfrac><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mi>d</mi><mo>=</mo><mfrac><mi>R</mi><msqrt><mn>2</mn></msqrt></mfrac><mi>.</mi></mrow></math></p></div>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p><math display=\"inline\"><mi>R</mi></math> erradioa eta <math display=\"inline\"><mi>m</mi></math> masa dituen eraztun bat <math display=\"inline\"><mi>O</mi></math> puntutik zintzilikatzen da, plano bertikalean oszilazio txikiak eginez. Zein da oszilazioen periodoa? <strong>Emaitza</strong>: <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mrow><mn>2</mn><mi>R</mi><mi>/</mi><mi>g</mi></mrow></msqrt></mrow></math>  (<math display=\"inline\"><mrow><mi>I</mi><mo>=</mo><mn>2</mn><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></math>).</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "pendulu fisikoa (konposatua)",
+     "def": "<p>Masa-zentrotik pasatzen ez den ardatz baten inguruan oszilatzen duen solido zurruna.</p>"
+    },
+    {
+     "t": "Steiner-en teorema",
+     "def": "<p>Ardatz baten inguruko inertzia-momentua = masa-zentrotik pasatzen den ardatz paraleloaren inguruko momentua + m·d².</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-pendulu-sinplea"
+   ],
+   "ondorengoak": [
+    "fosz-praktika-testa"
+   ],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a5 · Pendulu fisikoa; a17 · Pendulu fisikoa/konposatua; a18 · Periodoa minimizatzen",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-malguki-konbinatuak",
+   "atala": "S2",
+   "mota": "teorema",
+   "izena": "Malguki konbinatuak: seriean eta paraleloan",
+   "ideia": "<p>Malguki bat baino gehiago konbinatzean, sistema malguki baliokide bakar bat bezala portatzen da: paraleloan konstanteak batu egiten dira, seriean haien alderantzizkoak.</p>",
+   "formula": "",
+   "enuntziatua": "<div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>f</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi>π</mi></mrow></mfrac><msqrt><mfrac><mi>k</mi><mi>m</mi></mfrac></msqrt><mi>.</mi></mrow></math></p></div><p>(Kasu numeriko desberdinetan konstante baliokidea aldatzen da: seriean <math display=\"inline\"><mrow><mn>1</mn><mi>/</mi><mi>k</mi><mo>=</mo><mo>∑</mo><mn>1</mn><mi>/</mi><msub><mi>k</mi><mi>i</mi></msub></mrow></math>; paraleloan <math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mo>∑</mo><msub><mi>k</mi><mi>i</mi></msub></mrow></math>.)</p>",
+   "azalpena": "<p>Serie/paraleloan konbinatutako malgukien <strong>periodoa</strong> (konstante baliokidez), elongazioa une jakin batean (fase-konparaketaz), eta <strong>energia mekaniko osoa</strong>:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>E</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><msup><mi>A</mi><mn>2</mn></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> seriean </mtext><mspace width=\"0.333em\"></mspace></mrow><mfrac><mn>1</mn><mi>k</mi></mfrac><mo>=</mo><mo>∑</mo><mfrac><mn>1</mn><msub><mi>k</mi><mi>i</mi></msub></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> paraleloan </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>k</mi><mo>=</mo><mo>∑</mo><msub><mi>k</mi><mi>i</mi></msub><mi>.</mi></mrow></math></p></div>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Lor bedi <math display=\"inline\"><msub><mi>k</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>k</mi><mn>2</mn></msub></math> errekuperazio-konstanteko malgukiez osaturiko sistemaren errekuperazio-konstante baliokidea, malgukiak paraleloz nahiz seriez elkarturik daudenean. <strong>Emaitza</strong>: paraleloz, <math display=\"inline\"><mrow><msub><mi>K</mi><mtext mathvariant=\"normal\">par</mtext></msub><mo>=</mo><msub><mi>k</mi><mn>1</mn></msub><mo>+</mo><msub><mi>k</mi><mn>2</mn></msub></mrow></math>; seriez, <math display=\"inline\"><mrow><mn>1</mn><mi>/</mi><msub><mi>K</mi><mtext mathvariant=\"normal\">ser</mtext></msub><mo>=</mo><mn>1</mn><mi>/</mi><msub><mi>k</mi><mn>1</mn></msub><mo>+</mo><mn>1</mn><mi>/</mi><msub><mi>k</mi><mn>2</mn></msub></mrow></math>.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "konstante baliokidea",
+     "def": "<p>Malguki-multzo baten ordez jar daitekeen malguki bakarraren konstantea.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-malgukia"
+   ],
+   "ondorengoak": [
+    "fosz-praktika-testa"
+   ],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a18 · Malguki konbinatuak; a19 · Malguki konbinatuak eta energia",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-energia-oszilazioa",
+   "atala": "S3",
+   "mota": "teorema",
+   "izena": "Oszilazio harmonikoen energia",
+   "ideia": "<p>HHSan energia zinetikoa eta potentziala aldatuz doaz, baina haien batura konstante da eta anplitudearen karratuarekiko proportzionala.</p>",
+   "formula": "",
+   "enuntziatua": "<p><math display=\"inline\"><mrow><mi>F</mi><mo>=</mo><mi>−</mi><mi>k</mi><mi>x</mi></mrow></math> indar kontserbatzailearen eraginpean, <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mi>ω</mi><msqrt><mrow><msup><mi>A</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></math> eta <math display=\"inline\"><mrow><msup><mi>ω</mi><mn>2</mn></msup><mo>=</mo><mi>k</mi><mi>/</mi><mi>m</mi></mrow></math>  erabiliz:</p><p><math display=\"block\"><mrow><msub><mi>E</mi><mi>k</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>A</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><msub><mi>E</mi><mi>p</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><msup><mi>x</mi><mn>2</mn></msup><mi>.</mi></mrow></math></p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><mi>E</mi><mo>=</mo><msub><mi>E</mi><mi>k</mi></msub><mo>+</mo><msub><mi>E</mi><mi>p</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><msup><mi>A</mi><mn>2</mn></msup><mo>=</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> konstante </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>)</p></div><figure class=\"j-irudia\"><img src=\"media/irudiak/534849c14993ffaf.svg\" alt=\"Energia zinetikoa eta potentziala HHSan, x-ren funtzioan: batura\n    (E, marra etena) konstante mantentzen da.\" width=\"245\" loading=\"lazy\"><figcaption>Energia zinetikoa eta potentziala HHSan, <math display=\"inline\"><mi>x</mi></math>-ren funtzioan: batura\n    (<math display=\"inline\"><mi>E</mi></math>, marra etena) konstante mantentzen da.</figcaption></figure>",
+   "azalpena": "<p>Malguki bertikal batean, masa jarri eta oreka-posizio berri batera konprimitzean (<math display=\"inline\"><mrow><msub><mi>y</mi><mn>0</mn></msub><mo>=</mo><mi>m</mi><mi>g</mi><mi>/</mi><mi>k</mi></mrow></math>), oreka berritik (<math display=\"inline\"><msub><mi>y</mi><mn>1</mn></msub></math>) neurtzen bada nahikoa da energia potentzial elastikoa bakarrik kontsideratzea:</p><p><math display=\"block\"><mrow><msub><mi>E</mi><mi>p</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><msubsup><mi>y</mi><mn>0</mn><mn>2</mn></msubsup><mo>−</mo><mi>m</mi><mi>g</mi><msub><mi>y</mi><mn>0</mn></msub><mo>+</mo><munder><munder><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><msubsup><mi>y</mi><mn>1</mn><mn>2</mn></msubsup><mo>−</mo><mi>k</mi><msub><mi>y</mi><mn>0</mn></msub><msub><mi>y</mi><mn>1</mn></msub></mrow><mo accent=\"true\">⏟</mo></munder><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> garatuz</mtext></mrow></munder><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><msubsup><mi>y</mi><mn>1</mn><mn>2</mn></msubsup><mo>+</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> konstante </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>.</mi></mrow></math></p><p>Grabitatearen eragina oreka-posizio berrian &quot;ezkutatuta&quot; gelditzen da konstante batean; horregatik nahikoa da malguki bertikaletan ere energia potentzial elastikoa bakarrik idaztea, oreka-posizio berritik neurtuz gero.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "energia potentzial elastikoa",
+     "def": "<p>Malgukiak luzapena dela eta metatzen duen energia, ½kx².</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-malgukia"
+   ],
+   "ondorengoak": [
+    "fosz-praktika-oszilazioak",
+    "fosz-landeta-mekanika"
+   ],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a6 · Oszilazio harmonikoen energia",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-indargetuak",
+   "atala": "S4",
+   "mota": "teorema",
+   "izena": "Oszilazio indargetuak",
+   "ideia": "<p>Marruskadurak energia xurgatzen duenez, benetako oszilazioen anplitudea txikituz doa; indargetzea zenbat eta handiagoa, orduan eta lehenago gelditzen da higidura.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Errealitatean marruskadurak (abiadurarekiko proportzionala, <math display=\"inline\"><mrow><msub><mi>F</mi><mtext mathvariant=\"normal\">indargetzailea</mtext></msub><mo>=</mo><mi>−</mi><mi>λ</mi><mi>v</mi></mrow></math>) energia xurgatzen du eta anplitudea txikituz doa:</p><p><math display=\"block\"><mrow><mi>m</mi><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>x</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mi>λ</mi><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>+</mo><mi>k</mi><mi>x</mi><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>x</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mn>2</mn><mi>γ</mi><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>+</mo><msubsup><mi>ω</mi><mn>0</mn><mn>2</mn></msubsup><mi>x</mi><mo>=</mo><mn>0</mn><mo>,</mo></mrow></math></p><p>non <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mi>λ</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>m</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>  <strong>indargetze-faktorea</strong> den eta <math display=\"inline\"><mrow><msub><mi>ω</mi><mn>0</mn></msub><mo>=</mo><msqrt><mrow><mi>k</mi><mi>/</mi><mi>m</mi></mrow></msqrt></mrow></math> osziladorearen berezko maiztasuna (indargetu gabe). Hiru erregimen bereizten dira, <math display=\"inline\"><mi>γ</mi></math> eta <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math>  konparatuz:</p><ul><li><strong>Indargetze ahula</strong>  (<math display=\"inline\"><mrow><mi>γ</mi><mo>&lt;</mo><msub><mi>ω</mi><mn>0</mn></msub></mrow></math>): <math display=\"inline\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><msup><mi>e</mi><mrow><mi>−</mi><mi>γ</mi><mi>t</mi></mrow></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><msqrt><mrow><msubsup><mi>ω</mi><mn>0</mn><mn>2</mn></msubsup><mo>−</mo><msup><mi>γ</mi><mn>2</mn></msup></mrow></msqrt></mrow></math> — oszilatzen jarraitzen du, anplitude gero eta txikiagoarekin.</li><li><strong>Gainindargetzea</strong>  (<math display=\"inline\"><mrow><mi>γ</mi><mo>&gt;</mo><msub><mi>ω</mi><mn>0</mn></msub></mrow></math>): ez du oszilaziorik egiten, esponentzialki itzultzen da orekara, motelago.</li><li><strong>Indargetze kritikoa</strong>  (<math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><msub><mi>ω</mi><mn>0</mn></msub></mrow></math>): oszilatu gabe ahalik eta denbora-tarte txikienean itzultzen da orekara.</li></ul><figure class=\"j-irudia\"><img src=\"media/irudiak/b6b80b34bdb13dd5.svg\" alt=\"Indargetze ahuleko oszilazioa: anplitudea Ae−γt inguratzailearen\n  arabera txikitzen doa.\" width=\"385\" loading=\"lazy\"><figcaption>Indargetze ahuleko oszilazioa: anplitudea <math display=\"inline\"><mrow><mi>A</mi><msup><mi>e</mi><mrow><mi>−</mi><mi>γ</mi><mi>t</mi></mrow></msup></mrow></math> inguratzailearen\n  arabera txikitzen doa.</figcaption></figure><p><strong>Indargetze ahulean</strong>, periodo batean anplitudeak jasaten duen aldakuntza konstantea da: <math display=\"inline\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>+</mo><mi>T</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>e</mi><mrow><mi>−</mi><mi>γ</mi><mi>T</mi></mrow></msup></mrow></math>.</p>",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Pendulu sinple baten periodoak <math display=\"inline\"><mn>2.5</mn></math> s balio du, oszilazio txikiak egitean. Une batean oszilazioen anplitudeak <math display=\"inline\"><mrow><mn>2</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math> balio izan du. Marruskaduraren kausaz, anplitudea txikiagotuz joan da, <math display=\"inline\"><mn>10</mn></math> oszilazio oso burutu ondoren <math display=\"inline\"><mrow><mn>1.5</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>-ko balioa hartzen duelarik. Lor bedi indargetze-konstantearen balioa. <strong>Emaitza</strong>: <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0.0115</mn></mrow></math>  <math display=\"inline\"><msup><mi>s</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></math>.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "indargetze-faktorea",
+     "def": "<p>γ = λ/(2m): abiadurarekiko proportzionala den marruskaduraren indarra neurtzen du; anplitudea e^(−γt) bezala txikitzen da.</p>"
+    },
+    {
+     "t": "berezko maiztasuna",
+     "def": "<p>Marruskadurarik gabe osziladoreak izango lukeen maiztasun angeluarra, ω0.</p>"
+    },
+    {
+     "t": "indargetze ahula",
+     "def": "<p>γ < ω0: oszilatzen jarraitzen du, anplitudea gero eta txikiagoarekin.</p>"
+    },
+    {
+     "t": "gainindargetzea",
+     "def": "<p>γ > ω0: ez du oszilatzen; motel itzultzen da orekara.</p>"
+    },
+    {
+     "t": "indargetze kritikoa",
+     "def": "<p>γ = ω0: oszilatu gabe itzultzen da orekara ahalik eta azkarren.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-malgukia"
+   ],
+   "ondorengoak": [
+    "fosz-bortxatuak"
+   ],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a7 · Oszilazio indargetuak",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-bortxatuak",
+   "atala": "S4",
+   "mota": "teorema",
+   "izena": "Oszilazio bortxatuak",
+   "ideia": "<p>Osziladore bat martxan mantentzeko kanpo-indar periodiko batek bultzatu behar du; egoera iraunkorrean osziladoreak indarraren maiztasunean oszilatzen du, ez berezkoan.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Osziladore indargetu bat martxan mantentzeko kanpo-energia eman behar zaio, adibidez <math display=\"inline\"><mrow><msub><mi>F</mi><mtext mathvariant=\"normal\">eragilea</mtext></msub><mo>=</mo><msub><mi>F</mi><mn>0</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>ω</mi><mi>e</mi></msub><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> indar periodiko baten bidez. Egoera iraunkorrean (emandako energia disipatutakoaren berdina denean), anplitudea konstante mantentzen da eta <math display=\"inline\"><msub><mi>F</mi><mn>0</mn></msub></math>-ren eta <math display=\"inline\"><msub><mi>ω</mi><mi>e</mi></msub></math>-ren mende dago. <math display=\"inline\"><mrow><msub><mi>ω</mi><mi>e</mi></msub><mo>≈</mo><msub><mi>ω</mi><mn>0</mn></msub></mrow></math> denean (kanpo-indarraren maiztasuna osziladorearen berezko maiztasunetik hurbil), <strong>erresonantzia</strong> gertatzen da: osziladore bortxatuak lor dezakeen anplituderik handiena.</p>",
+   "azalpena": "<p>Indar bultzatzaile harmonikoa gehituta, higidura-ekuazioa (<math display=\"inline\"><mrow><mi>β</mi><mo>=</mo><mi>b</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>m</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> indargetze-parametroa eta <math display=\"inline\"><mrow><msubsup><mi>ω</mi><mn>0</mn><mn>2</mn></msubsup><mo>=</mo><mi>k</mi><mi>/</mi><mi>m</mi></mrow></math> izanik): <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>+</mo><mn>2</mn><mi>β</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>+</mo><msubsup><mi>ω</mi><mn>0</mn><mn>2</mn></msubsup><mi>x</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><msub><mi>F</mi><mn>0</mn></msub><mi>m</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math> Iragankorra iraungitakoan (indargetuaren soluzioa, aurreko atala), egoera egonkorrean sistemak bultzatzailearen <math display=\"inline\"><mi>ω</mi></math> maiztasunean oszilatzen du, ez bere <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math> naturalean: <math display=\"block\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>−</mo><mi>δ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math> non</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><msub><mi>F</mi><mn>0</mn></msub><mi>/</mi><mi>m</mi></mrow><msqrt><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>ω</mi><mn>0</mn><mn>2</mn></msubsup><mo>−</mo><msup><mi>ω</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>4</mn><msup><mi>β</mi><mn>2</mn></msup><msup><mi>ω</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>δ</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>β</mi><mi>ω</mi></mrow><mrow><msubsup><mi>ω</mi><mn>0</mn><mn>2</mn></msubsup><mo>−</mo><msup><mi>ω</mi><mn>2</mn></msup></mrow></mfrac><mi>.</mi></mrow></math></p></div><p>Irakurketa:</p><ul><li><math display=\"inline\"><mrow><mi>ω</mi><mo>→</mo><mn>0</mn></mrow></math>: <math display=\"inline\"><mrow><mi>A</mi><mo>→</mo><msub><mi>F</mi><mn>0</mn></msub><mi>/</mi><mi>k</mi></mrow></math> (deformazio estatikoa), <math display=\"inline\"><mrow><mi>δ</mi><mo>→</mo><mn>0</mn></mrow></math> (fasean).</li><li><math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><msub><mi>ω</mi><mn>0</mn></msub></mrow></math>: <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><msub><mi>F</mi><mn>0</mn></msub><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mi>m</mi><mi>β</mi><msub><mi>ω</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> eta <math display=\"inline\"><mrow><mi>δ</mi><mo>=</mo><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math> — bultzada beti abiaduraren alde, energia-transferentzia maximoa.</li><li><math display=\"inline\"><mrow><mi>ω</mi><mo>→</mo><mi>∞</mi></mrow></math>: <math display=\"inline\"><mrow><mi>A</mi><mo>→</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mi>δ</mi><mo>→</mo><mi>π</mi></mrow></math> (aurkako fasean: masak ezin dio jarraitu).</li></ul>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "indar bultzatzailea",
+     "def": "<p>Osziladoreari kanpotik aplikatzen zaion indar periodikoa, F0 cos(ωt).</p>"
+    },
+    {
+     "t": "egoera iraunkorra",
+     "def": "<p>Iragankorra iraungi ondoren sistemak duen egoera: anplitude konstantea eta indar bultzatzailearen maiztasuna.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-indargetuak"
+   ],
+   "ondorengoak": [
+    "fosz-erresonantzia"
+   ],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a8 · Oszilazio bortxatuak eta erresonantzia; a9 · Tratamendu kuantitatiboa",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-erresonantzia",
+   "atala": "S4",
+   "mota": "teorema",
+   "izena": "Erresonantzia",
+   "ideia": "<p>Kanpo-indarraren maiztasuna osziladorearen berezkoaren ingurukoa denean, anplitudea izugarri handitzen da; indargetzea zenbat eta txikiagoa, orduan eta tontor garaiagoa eta estuagoa.</p>",
+   "formula": "",
+   "enuntziatua": "<p><em>Erresonantzia</em></p><p>: anplitudearen maximoa <math display=\"inline\"><mrow><msub><mi>ω</mi><mi>R</mi></msub><mo>=</mo><msqrt><mrow><msubsup><mi>ω</mi><mn>0</mn><mn>2</mn></msubsup><mo>−</mo><mn>2</mn><msup><mi>β</mi><mn>2</mn></msup></mrow></msqrt></mrow></math> maiztasunean gertatzen da (indargetze ahulean <math display=\"inline\"><mrow><msub><mi>ω</mi><mi>R</mi></msub><mo>≈</mo><msub><mi>ω</mi><mn>0</mn></msub></mrow></math>), eta zenbat eta indargetze txikiagoa, orduan eta tontor garaiagoa eta estuagoa. Tontorraren zorroztasuna kalitate-faktoreak neurtzen du: <math display=\"block\"><mrow><mi>Q</mi><mo>=</mo><mfrac><msub><mi>ω</mi><mn>0</mn></msub><mrow><mn>2</mn><mi>β</mi></mrow></mfrac><mo>,</mo></mrow></math> gutxi gorabehera &quot;oszilazio kopurua energia nabarmen galdu aurretik&quot;. <math display=\"inline\"><mi>Q</mi></math> handiko sistemek (kanpai bat, zirkuitu erresonante on bat — ikus RLC zirkuituak, 02fg_04ko 11. gaia, non <math display=\"inline\"><mi>Q</mi></math> bera agertzen baita) maiztasun-tarte estu-estuan baino ez dute erantzuten.</p>",
+   "azalpena": "<p class=\"j-ezezaguna\">[ezezaguna: bihurtzeke]</p>",
+   "frogapena": "",
+   "adibideak": [
+    "<p>Autoaren esekidura (<math display=\"inline\"><mrow><mi>m</mi><mo>=</mo><mn>300</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> kg</mtext></mrow></mrow></math> gurpileko, <math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mn>3</mn><mo>×</mo><msup><mn>10</mn><mn>4</mn></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> N/m</mtext></mrow></mrow></math>): <math display=\"inline\"><mrow><msub><mi>ω</mi><mn>0</mn></msub><mo>=</mo><msqrt><mrow><mi>k</mi><mi>/</mi><mi>m</mi></mrow></msqrt><mo>=</mo><mn>10</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> rad/s</mtext></mrow></mrow></math>, hots, <math display=\"inline\"><mrow><msub><mi>f</mi><mn>0</mn></msub><mo>≈</mo><mn>1.6</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Hz</mtext></mrow></mrow></math>. Errepideko sestra-uhinek (<math display=\"inline\"><mrow><mi>λ</mi><mo>≈</mo><mn>10</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow></mrow></math>) maiztasun horixe bultzatzen dute <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mi>λ</mi><mi>f</mi><mo>≈</mo><mn>57</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> km/h</mtext></mrow></mrow></math> abiaduran: horregatik dardara egiten du autoak abiadura jakin batean, eta horregatik behar dira motelgailu onak (<math display=\"inline\"><mi>β</mi></math> handitu, tontorra zapaldu).</p>"
+   ],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "erresonantzia",
+     "def": "<p>Kanpo-indarraren maiztasuna berezko maiztasunetik hurbil dagoenean sortzen den anplitude handiena.</p>"
+    },
+    {
+     "t": "kalitate-faktorea",
+     "def": "<p>Q = ω0/(2β): erresonantzia-tontorraren zorroztasuna neurtzen du; Q handiak maiztasun-tarte oso estuan erantzutea esan nahi du.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-bortxatuak"
+   ],
+   "ondorengoak": [
+    "fosz-praktika-testa"
+   ],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a8 · Oszilazio bortxatuak eta erresonantzia; a9 · Tratamendu kuantitatiboa",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-akoplatuak",
+   "atala": "S5",
+   "mota": "teorema",
+   "izena": "Oszilazio akoplatuak eta modu normalak",
+   "ideia": "<p>Malguki ahul batez lotutako bi osziladorek bi modu normal dituzte, bakoitza bere maiztasunarekin; edozein higidura bi moduen gainezarpena da, eta energia batetik bestera dabil.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Bi osziladore berdin (<math display=\"inline\"><mi>m</mi></math>, <math display=\"inline\"><mi>k</mi></math>) malguki ahul batez (<math display=\"inline\"><msup><mi>k</mi><mo>′</mo></msup></math>) lotzen baditugu, bakoitzaren higidurak bestearena baldintzatzen du: <math display=\"block\"><mrow><mi>m</mi><msub><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mn>1</mn></msub><mo>=</mo><mi>−</mi><mi>k</mi><msub><mi>x</mi><mn>1</mn></msub><mo>−</mo><msup><mi>k</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>1</mn></msub><mo>−</mo><msub><mi>x</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>m</mi><msub><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mn>2</mn></msub><mo>=</mo><mi>−</mi><mi>k</mi><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msup><mi>k</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math> Sistema askatzeko gakoa aldagai-aldaketa da: batura eta kendura. <math display=\"inline\"><mrow><mi>s</mi><mo>=</mo><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub></mrow></math> eta <math display=\"inline\"><mrow><mi>d</mi><mo>=</mo><msub><mi>x</mi><mn>1</mn></msub><mo>−</mo><msub><mi>x</mi><mn>2</mn></msub></mrow></math> hartuta, ekuazioak banandu egiten dira: <math display=\"block\"><mrow><mi>m</mi><mover><mi>s</mi><mo accent=\"true\">̈</mo></mover><mo>=</mo><mi>−</mi><mi>k</mi><mi>s</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>m</mi><mover><mi>d</mi><mo accent=\"true\">̈</mo></mover><mo>=</mo><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo>+</mo><mn>2</mn><msup><mi>k</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>.</mi></mrow></math> Bi osziladore aske &quot;berri&quot; — horiek dira <em>modu normalak</em>:</p><ol><li><em>Modu simetrikoa</em> (<math display=\"inline\"><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><msub><mi>x</mi><mn>2</mn></msub></mrow></math>, erdiko malgukia geldi): <math display=\"inline\"><mrow><msub><mi>ω</mi><mn>1</mn></msub><mo>=</mo><msqrt><mrow><mi>k</mi><mi>/</mi><mi>m</mi></mrow></msqrt></mrow></math> — biak batera, akoplamendua nabaritu gabe.</li><li><em>Modu antisimetrikoa</em> (<math display=\"inline\"><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><mi>−</mi><msub><mi>x</mi><mn>2</mn></msub></mrow></math>, erdikoa bi aldiz luzatua):</li></ol><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msub><mi>ω</mi><mn>2</mn></msub><mo>=</mo><msqrt><mfrac><mrow><mi>k</mi><mo>+</mo><mn>2</mn><msup><mi>k</mi><mo>′</mo></msup></mrow><mi>m</mi></mfrac></msqrt><mo>&gt;</mo><msub><mi>ω</mi><mrow><mn>1</mn><mi>.</mi></mrow></msub></mrow></math></p></div>",
+   "azalpena": "<p>Edozein higidura bi moduen gainezarmena da. Hasieran masa bakarra desplazatzen bada (<math display=\"inline\"><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><mi>A</mi></mrow></math>, <math display=\"inline\"><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>=</mo><mn>0</mn></mrow></math> — bi moduak anplitude berdinez pizten dira), energia batetik bestera dabil: <em>pultsazioak</em>. Masa bakoitzak <math display=\"inline\"><mrow><mover><mi>ω</mi><mo accent=\"true\">¯</mo></mover><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>ω</mi><mn>1</mn></msub><mo>+</mo><msub><mi>ω</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mn>2</mn></mrow></math> maiztasunaz oszilatzen du, anplitudea <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>ω</mi><mn>2</mn></msub><mo>−</mo><msub><mi>ω</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mn>2</mn></mrow></math> maiztasun geldoaz modulatuta — 9. gaiko taupaden fenomeno bera, hemen espazioan.</p><div class=\"j-ing j-k-grisa\"><span class=\"j-et\">Oharra</span><p><math display=\"inline\"><mi>N</mi></math> osziladore akoplatuk <math display=\"inline\"><mi>N</mi></math> modu normal dituzte, bakoitza bere maiztasunarekin. <math display=\"inline\"><mrow><mi>N</mi><mo>→</mo><mi>∞</mi></mrow></math> limitean (masa-ilara jarraitua), moduak soka baten uhin geldikor bihurtzen dira eta maiztasunak harmonikoen seriea (hurrengo kapituluko uhin geldikorrak): hauxe da osziladoreetatik uhinetarako zubia.</p></div>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "osziladore akoplatuak",
+     "def": "<p>Elkarren higidura baldintzatzen duten osziladoreak, adibidez malguki ahul batez lotuak.</p>"
+    },
+    {
+     "t": "modu normala",
+     "def": "<p>Sistema osoa maiztasun bakar batean eta fase finkoan oszilatzen duen higidura-patroia.</p>"
+    },
+    {
+     "t": "modu simetrikoa eta antisimetrikoa",
+     "def": "<p>Bi masak norabide berean (x1 = x2) edo aurkakoan (x1 = −x2) higitzen diren moduak.</p>"
+    },
+    {
+     "t": "pultsazioak (taupadak)",
+     "def": "<p>Bi modu gainezartzean sortzen den anplitudearen modulazio geldoa: energia masaz masa dabil.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-malgukia"
+   ],
+   "ondorengoak": [
+    "fosz-uhin-geldikorrak"
+   ],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a13 · Oszilazio akoplatuak eta modu normalak",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-uhina",
+   "atala": "S6",
+   "mota": "definizioa",
+   "izena": "Uhinaren kontzeptua",
+   "ideia": "<p>Uhina espazioan hedatzen den perturbazio bat da: energia garraiatzen du, baina ez materia.</p>",
+   "formula": "",
+   "enuntziatua": "<p><strong>Uhina</strong> espazioan hedatzen den perturbazio bat da: hasierako perturbazio bat puntutik puntura hedatzen da, materiaren garraiorik gabe, iturri igorle batetik abiatuz. <strong>Energia</strong> garraiatzen da (materia ez), eta <strong>atzerapena</strong> dago hasierako perturbazioa sortzen denetik urrunago dauden puntuetara iritsi arte.</p><ul><li><strong>Uhin mekanikoak</strong>: izaera mekanikoa duen perturbazioa hedatzeko ingurune material elastikoa behar da (airea, ura, soka).</li><li><strong>Uhin elektromagnetikoak</strong>: energia elektromagnetikoaren transmisioa gertatzen da ingurune materialaren premiarik gabe; hutsean edo materian zehar heda daitezke (argi ikusgaia, irrati-uhinak, X izpiak).</li></ul>",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "uhina",
+     "def": "<p>Iturri batetik abiatu eta puntutik puntura hedatzen den perturbazioa; energia garraiatzen du materiarik garraiatu gabe.</p>"
+    },
+    {
+     "t": "uhin mekanikoa",
+     "def": "<p>Hedatzeko ingurune material elastikoa behar duen uhina (soinua, soka bateko uhina).</p>"
+    },
+    {
+     "t": "uhin elektromagnetikoa",
+     "def": "<p>Ingurune materialik gabe, hutsean ere, heda daitekeen uhina (argia, irrati-uhinak, X izpiak).</p>"
+    }
+   ],
+   "aurrekoak": [],
+   "ondorengoak": [
+    "fosz-zeharkakoak-luzetarakoak",
+    "fosz-uhin-funtzioa"
+   ],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a22 · Uhinak; a23 · Uhinaren kontzeptua",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-zeharkakoak-luzetarakoak",
+   "atala": "S6",
+   "mota": "definizioa",
+   "izena": "Zeharkako eta luzetarako uhinak",
+   "ideia": "<p>Perturbazioa hedapen-norabidearen perpendikularra bada uhina zeharkakoa da (soka); paraleloa bada, luzetarakoa (soinua).</p>",
+   "formula": "",
+   "enuntziatua": "<p><strong>Zeharkako uhinak</strong>: perturbazioa uhinaren hedapen-norabidearen perpendikularra da (adib. soka batean sortutako pultsua). <strong>Luzetarako uhinak</strong>: perturbazioa hedapen-norabidearen paraleloa da (adib. soinu uhinak, konpresio/dilatazio gisa hedatzen direnak).</p>",
+   "azalpena": "<p><em class=\"j-nab\">\n  <strong>Uhinak</strong>: mekanikoak (ingurune bat behar) vs elektromagnetikoak. <strong>Transbertsalak</strong> (perturbazioa\n  hedapenaren perpendikularra) vs <strong>longitudinalak</strong> (paraleloa).\n</em></p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "zeharkako uhina",
+     "def": "<p>Perturbazioa hedapen-norabidearekiko perpendikularra den uhina.</p>"
+    },
+    {
+     "t": "luzetarako uhina",
+     "def": "<p>Perturbazioa hedapen-norabidearekiko paraleloa den uhina, konpresio eta dilatazio gisa hedatzen dena.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-uhina"
+   ],
+   "ondorengoak": [],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a24 · Zeharkako eta luzetarako uhinak; a16 · Uhinen sarrera",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-uhin-funtzioa",
+   "atala": "S6",
+   "mota": "teorema",
+   "izena": "Uhin-funtzioa eta uhin-ekuazioa",
+   "ideia": "<p>Perturbazioa abiadura konstantez hedatzen bada, y = f(x − vt) idatz daiteke; funtzio horiek guztiek uhin-ekuazioa betetzen dute.</p>",
+   "formula": "",
+   "enuntziatua": "<p><math display=\"inline\"><msup><mi>O</mi><mo>′</mo></msup></math> jatorria pultsuarekin batera mugitzen bada (<math display=\"inline\"><mrow><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mi>x</mi><mo>−</mo><mi>v</mi><mi>t</mi></mrow></math>), sokaren desplazamendua <math display=\"inline\"><mi>O</mi></math>-tik neurtuta <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> da. Oro har, <strong>uhin-funtzioa</strong>:</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>∓</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>)</p></div><p><math display=\"inline\"><mi>−</mi></math> zeinuak <math display=\"inline\"><mi>x</mi></math>-ren noranzko positiboan hedatzen den uhina adierazten du, eta <math display=\"inline\"><mi>+</mi></math> zeinuak noranzko negatiboan hedatzen dena; <math display=\"inline\"><mi>v</mi></math> uhinaren hedapen-abiaduraren modulua da. Luzetarako uhinetan, <math display=\"inline\"><mrow><mi>s</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Uhin-funtzio orok <strong>uhin-ekuazioa</strong> betetzen du:</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>∂</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><msup><mi>v</mi><mn>2</mn></msup></mfrac><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>∂</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>)</p></div>",
+   "azalpena": "",
+   "frogapena": "<p>Izan bedi soka bat <math display=\"inline\"><mi>T</mi></math> tentsioaz tenkatua, masa lineal-dentsitatea <math display=\"inline\"><mi>μ</mi></math> (kg/m), eta <math display=\"inline\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> zeharkako desplazamendu txikia. Har dezagun <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>x</mi><mo>,</mo><mi>x</mi><mo>+</mo><mi>d</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> zatitxoa (masa <math display=\"inline\"><mrow><mi>μ</mi><mspace width=\"0.167em\"></mspace><mi>d</mi><mi>x</mi></mrow></math>): bi muturretan tentsioak tira egiten dio, baina soka okertuta dagoenez, bi tiraketen norabideak apur bat desberdinak dira, eta zeharkako indar garbi bat geratzen da.</p><p>Malda txikietarako (<math display=\"inline\"><mrow><mi>θ</mi><mo>≈</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>=</mo><mi>∂</mi><mi>y</mi><mi>/</mi><mi>∂</mi><mi>x</mi></mrow></math>), zeharkako osagaia <math display=\"inline\"><mrow><mi>T</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>≈</mo><mi>T</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>∂</mi><mi>y</mi><mi>/</mi><mi>∂</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> da, eta indar garbia bi muturren arteko malda-diferentzia: <math display=\"block\"><mrow><msub><mi>F</mi><mi>y</mi></msub><mo>=</mo><mi>T</mi><msub><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mrow><mi>∂</mi><mi>y</mi></mrow><mrow><mi>∂</mi><mi>x</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi>x</mi><mo>+</mo><mi>d</mi><mi>x</mi></mrow></msub><mo>−</mo><mi>T</mi><msub><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mrow><mi>∂</mi><mi>y</mi></mrow><mrow><mi>∂</mi><mi>x</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>x</mi></msub><mo>=</mo><mi>T</mi><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>∂</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi><mi>.</mi></mrow></math> Newton-en bigarren legea zatitxoari aplikatuta (<math display=\"inline\"><mrow><msub><mi>F</mi><mi>y</mi></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>μ</mi><mspace width=\"0.167em\"></mspace><mi>d</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><msup><mi>∂</mi><mn>2</mn></msup><mi>y</mi><mi>/</mi><mi>∂</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></math>):</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>∂</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mi>μ</mi><mi>T</mi></mfrac><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>∂</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mspace width=\"1.0em\"></mspace><mo>↔</mo><mspace width=\"1.0em\"></mspace><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>∂</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><msup><mi>v</mi><mn>2</mn></msup><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>∂</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>v</mi><mo>=</mo><msqrt><mfrac><mi>T</mi><mi>μ</mi></mfrac></msqrt><mi>.</mi></mrow></math></p></div><p>Dedukzioak bi gauza ematen ditu batera: uhin-ekuazioaren <em>forma</em> (bigarren deribatu espaziala <math display=\"inline\"><mo>∝</mo></math> azelerazioa) eta hedapen-abiadura sokaren propietateetatik — lehen aurkeztutako <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><msqrt><mrow><mi>T</mi><mi>/</mi><mi>μ</mi></mrow></msqrt></mrow></math> formula, orain frogatuta. Egiaztapen zuzena: <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> edozein funtzio (uhin higikorra) soluzioa da, katearen erregelaz.</p><div class=\"j-ing j-k-grisa\"><span class=\"j-et\">Oharra</span><p>Patroi bera errepikatzen da naturan: gas batean <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><msqrt><mrow><mi>γ</mi><mi>p</mi><mi>/</mi><mi>ρ</mi></mrow></msqrt></mrow></math> (soinua), eta 14. gaian (02fg_04) eremu elektromagnetikoek ekuazio bera betetzen dute <math display=\"inline\"><mrow><mi>c</mi><mo>=</mo><mn>1</mn><mi>/</mi><msqrt><mrow><msub><mi>μ</mi><mn>0</mn></msub><msub><mi>ε</mi><mn>0</mn></msub></mrow></msqrt></mrow></math> abiadurarekin — &quot;zurruntasuna zati inertzia&quot; egitura unibertsala da.</p></div>",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "uhin-funtzioa",
+     "def": "<p>Perturbazioa posizioaren eta denboraren funtzio gisa ematen duen y(x,t) = f(x ∓ vt) funtzioa.</p>"
+    },
+    {
+     "t": "uhin-ekuazioa",
+     "def": "<p>Uhin guztiek betetzen duten ekuazio diferentziala: bigarren deribatu espaziala = (1/v²)·bigarren deribatu denborazkoa.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-uhina"
+   ],
+   "ondorengoak": [
+    "fosz-hedapen-abiadura",
+    "fosz-uhin-parametroak"
+   ],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a25 · Uhin-funtzioa eta uhin-ekuazioa",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-hedapen-abiadura",
+   "atala": "S6",
+   "mota": "teorema",
+   "izena": "Hedapen-abiadura",
+   "ideia": "<p>Uhinaren abiadura ingurunearen propietateek finkatzen dute, ez uhinaren anplitudeak: soka batean tentsioak eta masa lineal-dentsitateak, gas batean tenperaturak.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Uhinaren hedapen-abiadura ingurunearen araberakoa da — uhina transmititzen den distantziaren eta horretarako behar den denboraren arteko zatidura:</p><ul><li><strong>Soka</strong>: <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><msqrt><mrow><msub><mi>F</mi><mi>T</mi></msub><mi>/</mi><mi>μ</mi></mrow></msqrt></mrow></math>  (<math display=\"inline\"><msub><mi>F</mi><mi>T</mi></msub></math>, tentsioa; <math display=\"inline\"><mi>μ</mi></math>, luzera unitateko masa).</li><li><strong>Soinua gas batean</strong>: <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><msqrt><mrow><mi>γ</mi><mi>R</mi><mi>T</mi><mi>/</mi><mi>M</mi></mrow></msqrt></mrow></math>  (<math display=\"inline\"><mi>γ</mi></math>, Cp/Cv erlazioa; <math display=\"inline\"><mrow><mi>R</mi><mo>=</mo><mn>8.314</mn></mrow></math>  J/(mol K); <math display=\"inline\"><mi>M</mi></math>, molar-masa). Eguratsean, baldintza arruntetan (<math display=\"inline\"><mrow><mn>20</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>C): <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>343</mn></mrow></math>  m/s.</li><li><strong>Likidoen gainazal-uhinak</strong>: <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><msqrt><mrow><mi>g</mi><mi>h</mi></mrow></msqrt></mrow></math>  (<math display=\"inline\"><mi>h</mi></math>, sakonera).</li></ul>",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Luzera unitateko masa <math display=\"inline\"><mn>0.1</mn></math>  kg/m duen soka luze bat <math display=\"inline\"><mn>10</mn></math> N-eko tentsio konstantearen menpe dago. Sokaren <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> muturrean motore batek <math display=\"inline\"><mn>5</mn></math> oszilazio segunduko eta <math display=\"inline\"><mn>4</mn></math> cm-ko anplitudea duen higidura harmonikoa sortzen du. (a) Zein da uhinaren abiadura? (b) Zein da uhin-luzera? <strong>Emaitza</strong>: (a)  <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>10</mn></mrow></math>  m/s;  (b)  <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>2</mn></mrow></math> m.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "hedapen-abiadura",
+     "def": "<p>Uhin-patroia ingurunean zein abiaduraz aurreratzen den.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-uhin-funtzioa"
+   ],
+   "ondorengoak": [
+    "fosz-ekuazio-harmonikoa",
+    "fosz-soka-harmonikoak"
+   ],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a25 · Hedapen-abiadura",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-uhin-parametroak",
+   "atala": "S7",
+   "mota": "definizioa",
+   "izena": "Uhin harmonikoaren parametroak",
+   "ideia": "<p>Uhin harmoniko batean ingurunearen puntu bakoitzak HHS egiten du; uhinaren forma uhin-luzerak, anplitudeak, periodoak eta maiztasunak deskribatzen dute.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Uhin harmoniko bat ingurune batean zehar hedatzen bada, ingurunearen puntu bakoitzak higidura harmoniko sinplea egiten du. Parametroak:</p><ul><li><strong>Uhin-luzera</strong>  (<math display=\"inline\"><mi>λ</mi></math>): bibrazio-egoera berean dauden ondoz ondoko bi punturen arteko distantzia minimoa.</li><li><strong>Anplitudea</strong>  (<math display=\"inline\"><mi>A</mi></math>): inguruneko partikulek duten elongazioaren balio maximoa.</li><li><strong>Periodoa</strong>  (<math display=\"inline\"><mi>T</mi></math>): uhin-higidurak uhin-luzera bat hedatzeko behar duen denbora.</li><li><strong>Maiztasuna</strong>  (<math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>1</mn><mi>/</mi><mi>T</mi></mrow></math>): puntu bakoitzak denbora unitatean egiten dituen oszilazio kopurua.</li></ul>",
+   "azalpena": "<figure class=\"j-irudia\"><img src=\"media/irudiak/6ae5d13a47efc3ae.svg\" alt=\"Uhin harmoniko baten &amp;quot;aldiune bateko argazkia&amp;quot;: λ uhin-luzera\n  eta A anplitudea markatuta, v hedapen-abiaduraren norabidean.\" width=\"387\" loading=\"lazy\"><figcaption>Uhin harmoniko baten &quot;aldiune bateko argazkia&quot;: <math display=\"inline\"><mi>λ</mi></math> uhin-luzera\n  eta <math display=\"inline\"><mi>A</mi></math> anplitudea markatuta, <math display=\"inline\"><mi>v</mi></math> hedapen-abiaduraren norabidean.</figcaption></figure>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "uhin harmonikoa",
+     "def": "<p>Ingurunearen puntu bakoitzak higidura harmoniko sinplea egiten duen uhina.</p>"
+    },
+    {
+     "t": "uhin-luzera",
+     "def": "<p>Bibrazio-egoera berean dauden ondoz ondoko bi punturen arteko distantzia minimoa, λ.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-uhin-funtzioa",
+    "fosz-hhs-zinematika"
+   ],
+   "ondorengoak": [
+    "fosz-ekuazio-harmonikoa"
+   ],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a26 · Uhin harmonikoak",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-ekuazio-harmonikoa",
+   "atala": "S7",
+   "mota": "teorema",
+   "izena": "Uhin harmonikoaren ekuazioa",
+   "ideia": "<p>Uhin harmoniko bat y = A sin(kx − ωt) bezala idazten da; espazioan λ-ro eta denboran T-ro errepikatzen da, eta v = fλ betetzen da.</p>",
+   "formula": "",
+   "enuntziatua": "<p><math display=\"inline\"><mi>t</mi></math> aldiune jakin batean, desplazamendua <math display=\"inline\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>+</mo><mi>δ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> da (<math display=\"inline\"><mi>δ</mi></math>, fase-konstantea, jatorriaren araberakoa; <math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mn>2</mn><mi>π</mi><mi>/</mi><mi>λ</mi></mrow></math>, <strong>uhin-zenbakia</strong>, SI: <math display=\"inline\"><msup><mi>m</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></math>). Eskumarantza hedatzen den uhinarentzat (<math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>x</mi><mo>−</mo><mi>v</mi><mi>t</mi></mrow></math>):</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>δ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>)</p></div><p>non <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><mi>k</mi><mi>v</mi><mo>=</mo><mn>2</mn><mi>π</mi><mi>f</mi></mrow></math>  <strong>maiztasun angeluarra</strong> den. Erlazio fundamentala:</p><p><math display=\"block\"><mrow><mi>v</mi><mo>=</mo><mi>f</mi><mi>λ</mi><mi>.</mi></mrow></math></p>",
+   "azalpena": "<p>Puntu finko baten zeharkako abiadura <math display=\"inline\"><mrow><msub><mi>v</mi><mi>y</mi></msub><mo>=</mo><mi>∂</mi><mi>y</mi><mi>/</mi><mi>∂</mi><mi>t</mi><mo>=</mo><mi>−</mi><mi>ω</mi><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>δ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> da.</p><p>Uhin-luzera <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mi>v</mi><mi>T</mi></mrow></math>. <math display=\"inline\"><mi>x</mi></math> distantziako puntuak fokoak baino <math display=\"inline\"><mrow><mi>x</mi><mi>/</mi><mi>v</mi></mrow></math> atzerapenez bibratzen du, hortik:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>y</mi><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>−</mo><mi>k</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>k</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mi>λ</mi></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>λ</mi><mo>=</mo><mi>v</mi><mi>T</mi><mi>.</mi></mrow></math></p></div><p><math display=\"inline\"><mi>k</mi></math> = uhin-zenbakia. Denbora- eta espazio-periodikotasuna batzen ditu ekuazioak.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Uhin harmoniko bat <math display=\"inline\"><mn>3</mn></math>  m/s-ko abiaduraz hedatzen da <math display=\"inline\"><mi>x</mi></math> ardatzaren noranzko positiboan. Uhinaren maiztasuna eta anplitudea <math display=\"inline\"><mn>2</mn></math> Hz eta <math display=\"inline\"><mn>5</mn></math> cm dira, hurrenez hurren. Jatorritik <math display=\"inline\"><mn>10</mn></math> cm-ra dagoen puntu baten elongazioa nulua da hasierako momentuan. Aurkitu uhinaren ekuazioa. <strong>Emaitza</strong>: <math display=\"inline\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>5</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>2</mn></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mi>π</mi><mi>/</mi><mn>3</mn><mspace width=\"0.167em\"></mspace><mi>x</mi><mo>−</mo><mn>4</mn><mi>π</mi><mi>t</mi><mo>−</mo><mn>0.4</mn><mi>π</mi><mi>/</mi><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>  (SI).</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "uhin-zenbakia",
+     "def": "<p>k = 2π/λ: distantzia-unitateko fase-aldaketa (m⁻¹).</p>"
+    },
+    {
+     "t": "fase-konstantea",
+     "def": "<p>Uhin-ekuazioan jatorriaren aukeraren araberako fasearen gehigarria, δ.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-uhin-parametroak",
+    "fosz-hedapen-abiadura"
+   ],
+   "ondorengoak": [
+    "fosz-parametroak-ekuaziotik",
+    "fosz-bi-abiadurak",
+    "fosz-interferentzia",
+    "fosz-doppler"
+   ],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a26 · Uhin harmonikoak; a36 · Uhin-luzera eta ekuazioa",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-parametroak-ekuaziotik",
+   "atala": "S7",
+   "mota": "metodoa",
+   "izena": "Uhinaren parametroak ekuaziotik irakurri",
+   "ideia": "<p>Uhin baten ekuazioa eredu estandarrarekin alderatuz, anplitudea, uhin-zenbakia, maiztasun angeluarra eta hedapen-norabidea zuzenean irakurtzen dira.</p>",
+   "formula": "",
+   "enuntziatua": "<p><math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0.001</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>62.8</mn><mi>x</mi><mo>+</mo><mn>314</mn><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> ekuazioa <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>+</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> ereduarekin alderatuz:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>A</mi><mo>=</mo><mn>0.001</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>k</mi><mo>=</mo><mn>62.8</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> rad/m </mtext><mspace width=\"0.333em\"></mspace></mrow><mo>⇒</mo><mi>λ</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mi>k</mi></mfrac><mo>=</mo><mn>0.1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>ω</mi><mo>=</mo><mn>314</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> rad/s </mtext><mspace width=\"0.333em\"></mspace></mrow><mo>⇒</mo><mi>f</mi><mo>=</mo><mfrac><mi>ω</mi><mrow><mn>2</mn><mi>π</mi></mrow></mfrac><mo>=</mo><mn>50</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Hz</mtext></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>T</mi><mo>=</mo><mfrac><mn>1</mn><mi>f</mi></mfrac><mo>=</mo><mn>0.02</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> s</mtext></mrow><mi>.</mi></mrow></math></p></div><p><math display=\"inline\"><mrow><mi>k</mi><mi>x</mi></mrow></math> eta <math display=\"inline\"><mrow><mi>ω</mi><mi>t</mi></mrow></math> arteko <strong>zeinu positiboak</strong> uhina <math display=\"inline\"><mi>x</mi></math> ardatzaren <strong>norabide negatiboan</strong> hedatzen dela adierazten du (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> <math display=\"inline\"><mrow><mi>+</mi><mi>x</mi></mrow></math>-rantz doa; <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>+</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> <math display=\"inline\"><mrow><mi>−</mi><mi>x</mi></mrow></math>-rantz).</p>",
+   "azalpena": "<figure class=\"j-irudia\"><img src=\"media/irudiak/189c74ceb45318e7.svg\" alt=\"Uhinaren argazkia (t finkoan): anplitudea A=0.001 m eta uhin-luzera λ=0.1 m (gailurretik gailurrera). Patroia espazioan λ-ro errepikatzen da.\" width=\"217\" loading=\"lazy\"><figcaption>Uhinaren <strong>argazkia</strong> (<math display=\"inline\"><mi>t</mi></math> finkoan): <strong>anplitudea</strong> <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>0.001</mn></mrow></math> m eta <strong>uhin-luzera</strong> <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>0.1</mn></mrow></math> m (gailurretik gailurrera). Patroia espazioan <math display=\"inline\"><mi>λ</mi></math>-ro errepikatzen da.</figcaption></figure>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Soka batean hedatzen den uhin harmonikoaren ekuazioa hauxe da: <math display=\"inline\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>0.001</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>62.8</mn><msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><mrow><mi>−</mi><mn>1</mn></mrow></msup><mi>x</mi><mo>+</mo><mn>314</mn><msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> s</mtext></mrow><mrow><mi>−</mi><mn>1</mn></mrow></msup><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. (a) Zein noranzkotan desplazatzen da uhina? Zein da bere abiadura? (b) Aurkitu uhinaren uhin-luzera, maiztasuna eta periodoa. (c) Zein da sokaren edozein zatiren abiadura maximoa? <strong>Emaitza</strong>: (a)  <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>5</mn></mrow></math>  m/s;  (b) <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>1</mn></mrow></msup></mrow></math> m, <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>50</mn></mrow></math> Hz; (c)  <math display=\"inline\"><mn>0.314</mn></math>  m/s.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [],
+   "aurrekoak": [
+    "fosz-ekuazio-harmonikoa"
+   ],
+   "ondorengoak": [],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a33 · Uhinaren parametroak",
+   "sortua": [
+    "ideia"
+   ]
+  },
+  {
+   "id": "fosz-bi-abiadurak",
+   "atala": "S7",
+   "mota": "ideia",
+   "izena": "Oszilazio-abiadura eta hedapen-abiadura",
+   "ideia": "<p>Soka bateko puntu bat gora eta behera dabil abiadura batez; uhin-patroia, aldiz, beste abiadura batez aurreratzen da. Biak desberdinak dira.</p>",
+   "formula": "",
+   "enuntziatua": "<ul><li><strong>Oszilazio-abiadura</strong> (soka-puntu batena, zeharkakoa): <math display=\"inline\"><mrow><msub><mi>v</mi><mi>y</mi></msub><mo>=</mo><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mn>0.314</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>62.8</mn><mi>x</mi><mo>+</mo><mn>314</mn><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, gehienezko balioa <math display=\"inline\"><mn>0.314</mn></math> m/s (kosinua <math display=\"inline\"><mn>1</mn></math> denean). Puntu bakoitza <strong>gora eta behera</strong> nola doan.</li><li><strong>Hedapen-abiadura</strong> (uhinarena): <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mfrac><mi>λ</mi><mi>T</mi></mfrac><mo>=</mo><mfrac><mn>0.1</mn><mn>0.02</mn></mfrac><mo>=</mo><mn>5</mn></mrow></math> m/s. <strong>Patroia</strong> nola aurreratzen den.</li></ul><p><em class=\"j-nab\">\n  <strong>Oszilazio-abiadura <math display=\"inline\"><mo>≠</mo></math> hedapen-abiadura.</strong> Puntu materialak <math display=\"inline\"><mn>0.314</mn></math> m/s-ra dardara egiten du;\n  uhin-patroia, berriz, <math display=\"inline\"><mn>5</mn></math> m/s-ra hedatzen da. Bi gauza desberdin.\n</em></p>",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "oszilazio-abiadura",
+     "def": "<p>Ingurunearen puntu batek bere oreka-posizioaren inguruan duen abiadura, v_y = ∂y/∂t.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-ekuazio-harmonikoa"
+   ],
+   "ondorengoak": [],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a34 · Bi abiadurak",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-interferentzia",
+   "atala": "S8",
+   "mota": "teorema",
+   "izena": "Uhinen gainezarpena eta interferentzia",
+   "ideia": "<p>Bi uhin elkartzen direnean, erresultantea haien batura da; desfasearen arabera anplitudeak batu (eraikitzailea) edo ezabatu (suntsitzailea) egin daitezke.</p>",
+   "formula": "",
+   "enuntziatua": "<p><strong>Gainezarpenaren printzipioa</strong>: bi uhin edo gehiago konbinatzen direnean, uhin erresultantea uhinen batuketa algebraikoa da. Anplitude, maiztasun angeluar eta uhin-zenbaki berdineko baina desfasatutako bi uhin harmoniko gainezartzen badira,</p><p><math display=\"block\"><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><msub><mi>y</mi><mn>2</mn></msub><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>δ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math></p><p>trigonometriazko identitatea erabiliz (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mn>1</mn></msub><mo>+</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>θ</mi><mn>1</mn></msub><mo>−</mo><msub><mi>θ</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>θ</mi><mn>1</mn></msub><mo>+</mo><msub><mi>θ</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>):</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>+</mo><msub><mi>y</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>δ</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mfrac><mi>δ</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>)</p></div><p>Uhin-zenbaki eta maiztasun angeluar berekoa da, baina anplitudea <math display=\"inline\"><mrow><mn>2</mn><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>δ</mi><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> da, <math display=\"inline\"><mi>δ</mi></math> desfasearen araberakoa:</p>",
+   "azalpena": "<figure class=\"j-irudia\"><img src=\"media/irudiak/6ae64eac436aea46.svg\" alt=\"Interferentzia-patroiak: y1  (gorria) eta y2  (berdea) gainezarpena\n    (y1+y2, urdinez). δ=0 denean anplitudeak batzen dira; δ=π\n  denean erabat ezeztatzen dira.\" width=\"409\" loading=\"lazy\"><figcaption>Interferentzia-patroiak: <math display=\"inline\"><msub><mi>y</mi><mn>1</mn></msub></math>  (gorria) eta <math display=\"inline\"><msub><mi>y</mi><mn>2</mn></msub></math>  (berdea) gainezarpena\n    (<math display=\"inline\"><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>+</mo><msub><mi>y</mi><mn>2</mn></msub></mrow></math>, urdinez). <math display=\"inline\"><mrow><mi>δ</mi><mo>=</mo><mn>0</mn></mrow></math> denean anplitudeak batzen dira; <math display=\"inline\"><mrow><mi>δ</mi><mo>=</mo><mi>π</mi></mrow></math>\n  denean erabat ezeztatzen dira.</figcaption></figure><p>Interferentzia <strong>eraikitzailea</strong> da <math display=\"inline\"><mrow><mi>δ</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>2</mn><mi>π</mi><mo>,</mo><mn>4</mn><mi>π</mi><mo>,</mo><mi>…</mi></mrow></math> denean (anplitude erresultantea maximoa, <math display=\"inline\"><mrow><mn>2</mn><mi>A</mi></mrow></math>); <strong>suntsitzailea</strong> da <math display=\"inline\"><mrow><mi>δ</mi><mo>=</mo><mi>π</mi><mo>,</mo><mn>3</mn><mi>π</mi><mo>,</mo><mi>…</mi></mrow></math> denean (anplitude erresultantea nulua).</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Maiztasun bereko bi uhin sinusoidal soka luze batean zehar hedatzen dira. Uhinek <math display=\"inline\"><mn>3</mn></math> cm eta <math display=\"inline\"><mn>2</mn></math> cm-ko anplitudea dute, eta bigarren uhinak lehenengoarekiko <math display=\"inline\"><mrow><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math>-ko atzerapena du. Lortu bi uhinen arteko gainezarpenaren anplitudea. <strong>Emaitza</strong>: <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>3.6</mn></mrow></math> cm.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "gainezarpenaren printzipioa",
+     "def": "<p>Bi uhin edo gehiago konbinatzen direnean, uhin erresultantea uhinen batuketa aljebraikoa da.</p>"
+    },
+    {
+     "t": "interferentzia eraikitzailea",
+     "def": "<p>Uhinak fasean daudenean (δ = 0, 2π, …) anplitudeak batzen dira, 2A emanez.</p>"
+    },
+    {
+     "t": "interferentzia suntsitzailea",
+     "def": "<p>Uhinak kontrafasean daudenean (δ = π, 3π, …) erabat ezabatzen dira.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-ekuazio-harmonikoa"
+   ],
+   "ondorengoak": [
+    "fosz-uhin-geldikorrak"
+   ],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a27 · Uhinen interferentzia",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-uhin-geldikorrak",
+   "atala": "S8",
+   "mota": "definizioa",
+   "izena": "Uhin geldikorrak",
+   "ideia": "<p>Aurkako noranzkoan doazen bi uhin berdin gainezartzean, uhina ez da aurrera joaten: puntu batzuk beti geldirik daude (nodoak) eta besteek anplitude maximoz oszilatzen dute.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Aurkako noranzkoan higitzen diren uhin bidaiarien gainezarpena, uhinak espazio mugatu batean daudenean (<math display=\"inline\"><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><msub><mi>y</mi><mn>2</mn></msub><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>+</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>):</p><p><math display=\"block\"><mrow><mi>y</mi><mo>=</mo><msub><mi>y</mi><mn>1</mn></msub><mo>+</mo><msub><mi>y</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math></p><p>Harmonikoa da, osagaien maiztasun berekoa, baina anplitudea (<math display=\"inline\"><mrow><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>) denborarekiko independentea da eta sinusoidalki aldatzen da <math display=\"inline\"><mi>x</mi></math>-en funtzioan — puntu batzuk (<math display=\"inline\"><mi>x</mi></math> non <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>) beti geldirik daude, <strong>nodoak</strong>; besteak (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>±</mi><mn>1</mn></mrow></math>) anplitude maximoz oszilatzen dute, <strong>antinodoak</strong>.</p>",
+   "azalpena": "<p>Bi uhin <strong>aurkako</strong> gainezarrita (<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><msup><mi>y</mi><mo>′</mo></msup><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>+</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>) <strong>uhin geldikorra</strong> sortzen dute: <strong>nodoak</strong> (dardara egiten ez duten puntuak) eta <strong>sabelak</strong> (anplitudea <math display=\"inline\"><mrow><mn>2</mn><mi>A</mi></mrow></math>). Nodo <strong>ondoz ondokoen arteko distantzia</strong> <math display=\"inline\"><mrow><mi>λ</mi><mi>/</mi><mn>2</mn></mrow></math> da.</p><p><strong>Harmonikoak</strong> (soka bi muturretan finkatua): <math display=\"inline\"><mrow><msub><mi>λ</mi><mn>1</mn></msub><mi>/</mi><mn>2</mn><mo>=</mo><mi>L</mi></mrow></math> lehen harmonikoan, eta orokorrean</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msub><mi>λ</mi><mi>n</mi></msub><mo>=</mo><mfrac><mrow><mn>2</mn><mi>L</mi></mrow><mi>n</mi></mfrac><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>λ</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn><mi>L</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>λ</mi><mn>2</mn></msub><mo>=</mo><mi>L</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>…</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math></p></div>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "uhin geldikorra",
+     "def": "<p>Aurkako noranzkoan doazen bi uhin berdinen gainezarpenak sortzen duen uhina; anplitudea posizioaren araberakoa da eta ez du aurrera hedatzen.</p>"
+    },
+    {
+     "t": "nodoa",
+     "def": "<p>Uhin geldikorrean beti geldirik dagoen puntua.</p>"
+    },
+    {
+     "t": "antinodoa (sabela)",
+     "def": "<p>Uhin geldikorrean anplitude maximoz oszilatzen duen puntua.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-interferentzia",
+    "fosz-akoplatuak"
+   ],
+   "ondorengoak": [
+    "fosz-soka-harmonikoak"
+   ],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a28 · Uhin geldikorrak; a35 · Uhin geldikorrak",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-soka-harmonikoak",
+   "atala": "S8",
+   "mota": "teorema",
+   "izena": "Sokaren harmonikoak: muturreko baldintzak",
+   "ideia": "<p>Soka baten muturrek baldintza jakin batzuk ezartzen dituztenez, uhin geldikor batzuk bakarrik izan daitezke: bi muturrak finko badaude λ = 2L/n, eta mutur bat askea bada, harmoniko bakoitiak bakarrik.</p>",
+   "formula": "",
+   "enuntziatua": "<p><math display=\"inline\"><mi>L</mi></math> luzerako soka batean, bi muturrak finko izateak (<math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>L</mi></mrow></math> nodoak izan behar dute) baldintzatzen du zein uhin-luzera diren posible:</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><mi>L</mi><mo>=</mo><mi>n</mi><mfrac><msub><mi>λ</mi><mi>n</mi></msub><mn>2</mn></mfrac><mtext mathvariant=\"normal\">  </mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>)</p></div><p>Hortik, <strong>erresonantzia-maiztasunak</strong>:</p><p><math display=\"block\"><mrow><msub><mi>f</mi><mi>n</mi></msub><mo>=</mo><mfrac><mi>v</mi><msub><mi>λ</mi><mi>n</mi></msub></mfrac><mo>=</mo><mi>n</mi><mfrac><mi>v</mi><mrow><mn>2</mn><mi>L</mi></mrow></mfrac><mo>=</mo><mi>n</mi><msub><mi>f</mi><mn>1</mn></msub><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><msub><mi>f</mi><mn>1</mn></msub><mo>=</mo><mfrac><mi>v</mi><mrow><mn>2</mn><mi>L</mi></mrow></mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (oinarrizko maiztasuna). </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><p><math display=\"inline\"><msub><mi>f</mi><mn>1</mn></msub></math>-en multiploak diren maiztasunak <strong>harmonikoak</strong> dira.</p><p>Kasu honetan mutur finkoak nodo izan behar du eta mutur askeak antinodo:</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><mi>L</mi><mo>=</mo><mi>n</mi><mfrac><msub><mi>λ</mi><mi>n</mi></msub><mn>4</mn></mfrac><mtext mathvariant=\"normal\">  </mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>)</p></div><p><math display=\"block\"><mrow><msub><mi>f</mi><mi>n</mi></msub><mo>=</mo><mi>n</mi><mfrac><mi>v</mi><mrow><mn>4</mn><mi>L</mi></mrow></mfrac><mo>=</mo><mi>n</mi><msub><mi>f</mi><mn>1</mn></msub><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><msub><mi>f</mi><mn>1</mn></msub><mo>=</mo><mfrac><mi>v</mi><mrow><mn>4</mn><mi>L</mi></mrow></mfrac><mi>.</mi></mrow></math></p><p>Kasu honetan soilik harmoniko <strong>bakoitiak</strong> agertzen dira (<math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mi>…</mi></mrow></math>).</p>",
+   "azalpena": "<figure class=\"j-irudia\"><img src=\"media/irudiak/8aac5f37bf97d4de.svg\" alt=\"Bi muturrak finko dituen sokaren lehen hiru moduak (harmonikoak):\n    n=1  (oinarrizkoa, λ1=2L), n=2  (λ2=L), n=3\n    (λ3=2L/3).\" width=\"368\" loading=\"lazy\"><figcaption>Bi muturrak finko dituen sokaren lehen hiru moduak (harmonikoak):\n    <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow></math>  (oinarrizkoa, <math display=\"inline\"><mrow><msub><mi>λ</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn><mi>L</mi></mrow></math>), <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mn>2</mn></mrow></math>  (<math display=\"inline\"><mrow><msub><mi>λ</mi><mn>2</mn></msub><mo>=</mo><mi>L</mi></mrow></math>), <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mn>3</mn></mrow></math>\n    (<math display=\"inline\"><mrow><msub><mi>λ</mi><mn>3</mn></msub><mo>=</mo><mn>2</mn><mi>L</mi><mi>/</mi><mn>3</mn></mrow></math>).</figcaption></figure>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Bi muturretatik finko dagoen soka baten oinarrizko maiztasuna <math display=\"inline\"><mn>180</mn></math> Hz da. Ondoren aipatzen diren zein akziok murrizten du oinarrizko maiztasuna <math display=\"inline\"><mn>90</mn></math> Hz-era? (a) Tentsioa bikoiztu eta luzera bikoiztu; (b) tentsioa erdira murriztu eta luzera unitateko masa eta luzera konstante mantendu; (c) tentsioa eta luzera unitateko masa konstante mantendu eta luzera bikoiztu; (d) tentsioa eta luzera unitateko masa konstante mantendu eta luzera erdira murriztu. <strong>Emaitza</strong>: (c) — <math display=\"inline\"><mrow><msub><mi>f</mi><mn>1</mn></msub><mo>=</mo><mi>v</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>L</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∝</mo><mn>1</mn><mi>/</mi><mi>L</mi></mrow></math> denez, <math display=\"inline\"><mi>L</mi></math> bikoiztean <math display=\"inline\"><msub><mi>f</mi><mn>1</mn></msub></math> erdira murrizten da.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>Bi muturrak finko eta <math display=\"inline\"><mn>3</mn></math> m-ko luzera duen soka bat bere hirugarren harmonikoan bibratzen ari da. Sokako puntuen desplazamendu maximoa <math display=\"inline\"><mn>4</mn></math> mm da eta zeharkako uhinen abiadura <math display=\"inline\"><mn>50</mn></math>  m/s. Zeintzuk dira uhinaren uhin-luzera eta maiztasuna? Idatzi uhin-ekuazioa. <strong>Emaitza</strong>: <math display=\"inline\"><mrow><msub><mi>λ</mi><mn>3</mn></msub><mo>=</mo><mn>2</mn></mrow></math> m, <math display=\"inline\"><mrow><msub><mi>f</mi><mn>3</mn></msub><mo>=</mo><mn>25</mn></mrow></math> Hz, <math display=\"inline\"><mrow><msub><mi>y</mi><mn>3</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>4</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>50</mn><mi>π</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> mm.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p><math display=\"inline\"><mn>40</mn></math> cm-ko luzera eta <math display=\"inline\"><mn>1.2</mn></math> g-ko masako biolin baten sokaren oinarrizko maiztasuna <math display=\"inline\"><mn>500</mn></math> Hz da. (a) Zein da uhin geldikorraren uhin-luzera? (b) Zein da sokaren tentsioa? <strong>Emaitza</strong>: (a) <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>0.8</mn></mrow></math> m; (b)  <math display=\"inline\"><mrow><msub><mi>F</mi><mi>T</mi></msub><mo>=</mo><mn>480</mn></mrow></math> N.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "harmonikoa",
+     "def": "<p>Oinarrizko maiztasunaren multiplo den maiztasuna.</p>"
+    },
+    {
+     "t": "oinarrizko maiztasuna",
+     "def": "<p>Sistemak izan dezakeen maiztasun txikiena, f1 (n = 1).</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-uhin-geldikorrak",
+    "fosz-hedapen-abiadura"
+   ],
+   "ondorengoak": [
+    "fosz-hodi-akustikoak"
+   ],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a28 · Bi muturrak finko dituen soka / Mutur bat finko eta bestea aske duen soka",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-hodi-akustikoak",
+   "atala": "S8",
+   "mota": "teorema",
+   "izena": "Soinu-uhin geldikorrak hodietan",
+   "ideia": "<p>Organo-hodietan ere uhin geldikorrak sortzen dira: hodi irekia bi muturretan finko dagoen sokaren antzekoa da, eta alde batetik itxitakoa mutur bat finko eta bestea aske duenaren antzekoa.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Fenomeno bera aplikatzen zaie organo-hodiei: <strong>bi aldeetatik irekitako hodia</strong> bi muturretatik finko dagoen sokaren baliokidea da (bi muturretan antinodo, presio-aldaketan nodo), eta <strong>alde bat itxita duen hodia</strong> mutur bat finko eta bestea aske duen sokaren baliokidea (mutur itxian nodo, mutur irekian antinodo). Antinodoak hodiaren kanpoaldean daude muturretatik harago, beraz hodiaren luzera efektiboa <math display=\"inline\"><mrow><mi>L</mi><mo>+</mo><mi mathvariant=\"normal\">Δ</mi><mi>L</mi></mrow></math> da (<math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>L</mi></mrow></math>, muturreko zuzenketa, hodiaren diametroaren araberakoa).</p>",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Mutur biak irekita dituen organo-hodi baten luzera <math display=\"inline\"><mn>1</mn></math> m da. Soinuaren abiadura <math display=\"inline\"><mn>343</mn></math>  m/s bada, zeintzuk dira hodi horretan baimendutako uhin geldikorren maiztasunak eta uhin-luzerak? <strong>Emaitza</strong>: <math display=\"inline\"><mrow><msub><mi>λ</mi><mi>n</mi></msub><mo>=</mo><mn>2</mn><mi>/</mi><mi>n</mi></mrow></math> m, <math display=\"inline\"><mrow><msub><mi>f</mi><mi>n</mi></msub><mo>=</mo><mn>172</mn><mi>n</mi></mrow></math> Hz, <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mi>…</mi></mrow></math></p>",
+     "s": ""
+    },
+    {
+     "e": "<p><math display=\"inline\"><mn>460</mn></math> Hz-eko diapasoi batek erresonantzia sortzen du urez betetako hodi bertikal batean, ura muturretik <math display=\"inline\"><mn>18.3</mn></math> cm-ra eta <math display=\"inline\"><mn>55.8</mn></math> cm-ra dagoenean. Aurkitu soinuaren abiadura airean. <strong>Emaitza</strong>: muturreko zuzenketa <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>L</mi><mo>=</mo><mn>0.5</mn></mrow></math> cm; hortik <math display=\"inline\"><mrow><mi>v</mi><mo>≈</mo><mn>343</mn></mrow></math>  m/s.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "muturreko zuzenketa",
+     "def": "<p>Antinodoa hodiaren kanpoaldean dagoenez, hodiaren luzera efektiboari gehitu behar zaion ΔL zuzenketa.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-soka-harmonikoak"
+   ],
+   "ondorengoak": [],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a28 · Soinu-uhin geldikorrak aire zutabe batean",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-doppler",
+   "atala": "S9",
+   "mota": "teorema",
+   "izena": "Doppler efektua",
+   "ideia": "<p>Iturria eta hartzailea elkarri hurbiltzen zaizkionean soinua zorrotzagoa entzuten da, eta urruntzen direnean grabeagoa.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Uhina sortzen duen iturriaren eta hartzailearen artean higidura erlatiboa dagoenean, hartzaileak neurtzen duen maiztasuna eta iturriak igorritakoa ez dira berdinak: <strong>hurbiltzen direnean</strong> behatutako maiztasuna handiagoa da (tonu zorrotzagoa); <strong>urruntzen direnean</strong>, txikiagoa (tonu grabeagoa).</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><msub><mi>f</mi><mi>r</mi></msub><mo>=</mo><mfrac><mrow><mi>v</mi><mo>±</mo><msub><mi>u</mi><mi>r</mi></msub></mrow><mrow><mi>v</mi><mo>±</mo><msub><mi>u</mi><mi>i</mi></msub></mrow></mfrac><msub><mi>f</mi><mi>i</mi></msub></mrow></math>)</p></div><p>non <math display=\"inline\"><mi>v</mi></math> soinuaren abiadura ingurunean den, <math display=\"inline\"><msub><mi>u</mi><mi>i</mi></msub></math> iturriaren abiadura, <math display=\"inline\"><msub><mi>u</mi><mi>r</mi></msub></math> hartzailearena, <math display=\"inline\"><msub><mi>f</mi><mi>i</mi></msub></math> iturriak igortzen duen maiztasuna eta <math display=\"inline\"><msub><mi>f</mi><mi>r</mi></msub></math> hartzaileak neurtzen duena. Zeinuak: izendatzailean, <math display=\"inline\"><mi>−</mi></math> iturria hartzailerantz badoa (hurbiltzen); zenbakitzailean, <math display=\"inline\"><mi>+</mi></math> hartzailea iturrirantz badoa.</p>",
+   "azalpena": "<figure class=\"j-irudia\"><img src=\"media/irudiak/a42919d2186ecbaa.svg\" alt=\"Higitzen ari den iturri baten uhin-fronteak: mugimenduaren aurrean\n  trinkotuta (maiztasun handiagoa), atzean sakabanatuta (maiztasun\n  txikiagoa).\" width=\"350\" loading=\"lazy\"><figcaption>Higitzen ari den iturri baten uhin-fronteak: mugimenduaren aurrean\n  trinkotuta (maiztasun handiagoa), atzean sakabanatuta (maiztasun\n  txikiagoa).</figcaption></figure><p>Hiru kasu bereizten dira, geldi dagoen ingurunean oinarrituta:</p><ul><li><strong>Behatzailea geldi, iturria higitzen</strong>: <math display=\"inline\"><mrow><msub><mi>f</mi><mi>r</mi></msub><mo>=</mo><mi>v</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>v</mi><mo>∓</mo><msub><mi>u</mi><mi>i</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mspace width=\"0.167em\"></mspace><msub><mi>f</mi><mi>i</mi></msub></mrow></math> (<math display=\"inline\"><mi>−</mi></math> hurbiltzen, <math display=\"inline\"><mi>+</mi></math> urruntzen).</li><li><strong>Iturria geldi, behatzailea higitzen</strong>: <math display=\"inline\"><mrow><msub><mi>f</mi><mi>r</mi></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>v</mi><mo>±</mo><msub><mi>u</mi><mi>r</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mi>v</mi><mspace width=\"0.167em\"></mspace><msub><mi>f</mi><mi>i</mi></msub></mrow></math>  (<math display=\"inline\"><mi>+</mi></math> hurbiltzen, <math display=\"inline\"><mi>−</mi></math> urruntzen).</li><li><strong>Biak higitzen</strong>: bi urratsetan ebazten da, geldi dagoen ingurunea bitarteko gisa erabiliz (lehenengo iturri<math display=\"inline\"><mo>→</mo></math>ingurune, gero ingurune<math display=\"inline\"><mo>→</mo></math>hartzaile).</li></ul><p>Behatzailearen eta iturriaren abiadurekiko maiztasun <strong>hautemandua</strong>:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo>=</mo><mi>f</mi><mfrac><mrow><mi>v</mi><mo>±</mo><msub><mi>v</mi><mtext mathvariant=\"normal\">beh</mtext></msub></mrow><mrow><mi>v</mi><mo>∓</mo><msub><mi>v</mi><mtext mathvariant=\"normal\">itur</mtext></msub></mrow></mfrac><mi>.</mi></mrow></math></p></div><p>(Adibidea: bi anbulantzia/sirena.)</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Geldi dagoen kotxe baten klaxonaren maiztasuna <math display=\"inline\"><mn>400</mn></math> Hz da. Aurkitu soinuaren uhin-luzera eta behatutako maiztasuna baldin eta kotxea <math display=\"inline\"><mrow><mi>u</mi><mo>=</mo><mn>34</mn></mrow></math>  m/s-ko abiaduraz mugitzen bada geldi dagoen entzule baten noranzkoan (<math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>343</mn></mrow></math>  m/s).  <strong>Emaitza</strong>: <math display=\"inline\"><mn>444</mn></math> Hz, <math display=\"inline\"><mn>0.77</mn></math> m.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>Kotxe bat horma islatzaile bati hurbiltzen zaio. Kotxearen atzean geldi dagoen behatzaile bati kotxearen klaxonetik datorren <math display=\"inline\"><mn>745</mn></math> Hz-eko soinua heltzen zaio eta hormatik <math display=\"inline\"><mn>863</mn></math> Hz-eko soinua. (a) Zein da kotxearen abiadura? (b) Zein da klaxonaren maiztasuna? <strong>Emaitza</strong>: (a)  <math display=\"inline\"><mn>90.6</mn></math>  km/h;  (b)  <math display=\"inline\"><mn>800</mn></math> Hz.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>Hidrogenoaren espektroaren lerro urdinaren uhin-luzera <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>486</mn></mrow></math> nm da. Oso urrun dagoen galaxia batek igorritako hidrogenoaren espektroan lerro hori <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>550</mn></mrow></math> nm-tan behatzen da Lurrean. Zer abiaduran urruntzen da galaxia hori gugandik? (argiaren abiadura <math display=\"inline\"><mrow><mn>3</mn><mo>×</mo><msup><mn>10</mn><mn>8</mn></msup></mrow></math>  m/s).  <strong>Emaitza</strong>: <math display=\"inline\"><mrow><mn>3.95</mn><mo>×</mo><msup><mn>10</mn><mn>7</mn></msup></mrow></math>  m/s.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>Auto bateko gidaria fisika ikasten ari da, eta Doppler efektuaren ondorioak egiaztatzen ari da; horretarako, autoan soinu-maiztasuna neurtzeko tresna bat darama, erabiltzeko prest. Gabon Zahar eguna da, eta autoak geldirik daude San Sebastian Bulebarrean; gure ikaslea bere autoan geldirik dago, semaforoa berde jartzeko zain. Une horretan, anbulantzia bat atzetik hurbiltzen ari da abiadura konstantez, eta gure ikasleak autoan daraman maiztasun-neurgailuak 905 Hz-eko maiztasuna markatzen du anbulantzia hurbiltzen ari den bitartean. Aurreratu ondoren, anbulantzia urruntzen doan heinean, neurgailuak 850 Hz-eko maiztasuna adierazten du. Zein da anbulantziaren soinuaren jatorrizko maiztasuna (Hz-tan) eta zein anbulantziaren abiadura (km/h-tan)?  <strong>1 puntu</strong>.</p>",
+     "s": "<p><strong>Ebazpena.</strong></p><p>Gidaria (behatzailea) geldirik dago, eta anbulantzia (iturria)  <math display=\"inline\"><mi>v</mi></math> abiadura konstantez mugitzen da, lehenik hurbilduz eta gero urrunduz. Kasu honetan Doppler efektuaren formula erabiliko dugu, iturria mugimenduan eta behatzailea geldirik dagoenerako:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msub><mi>f</mi><mrow><mtext mathvariant=\"normal\">hautemana </mtext><mspace width=\"0.333em\"></mspace></mrow></msub><mo>=</mo><msub><mi>f</mi><mn>0</mn></msub><mo>⋅</mo><mfrac><msub><mi>v</mi><mi>s</mi></msub><mrow><msub><mi>v</mi><mi>s</mi></msub><mo>∓</mo><mi>v</mi></mrow></mfrac></mrow></math></p></div><p>non <math display=\"inline\"><msub><mi>f</mi><mn>0</mn></msub></math> iturriaren jatorrizko maiztasuna den, <math display=\"inline\"><msub><mi>v</mi><mi>s</mi></msub></math> soinuaren abiadura airean (<math display=\"inline\"><mrow><msub><mi>v</mi><mi>s</mi></msub><mo>=</mo><mn>343</mn></mrow></math>  m/s,  <math display=\"inline\"><mrow><mn>20</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>C-tan) eta <math display=\"inline\"><mi>v</mi></math> anbulantziaren abiadura. Zeinu-hitzarmena: izendatzailean <math display=\"inline\"><mrow><mi>−</mi><mi>v</mi></mrow></math> hartzen da iturria hurbiltzen denean (maiztasuna handitzen delako), eta <math display=\"inline\"><mrow><mi>+</mi><mi>v</mi></mrow></math> urrutiratzen denean (maiztasuna txikitzen delako).</p><p><strong>Hurbiltzean</strong>  (<math display=\"inline\"><mrow><msub><mi>f</mi><mn>1</mn></msub><mo>=</mo><mn>905</mn></mrow></math> Hz):</p><p><math display=\"block\"><mrow><msub><mi>f</mi><mn>1</mn></msub><mo>=</mo><msub><mi>f</mi><mn>0</mn></msub><mo>⋅</mo><mfrac><msub><mi>v</mi><mi>s</mi></msub><mrow><msub><mi>v</mi><mi>s</mi></msub><mo>−</mo><mi>v</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mspace width=\"0.222em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"0.222em\"></mspace></mrow></math></p><p><strong>Urruntzean</strong>  (<math display=\"inline\"><mrow><msub><mi>f</mi><mn>2</mn></msub><mo>=</mo><mn>850</mn></mrow></math> Hz):</p><p><math display=\"block\"><mrow><msub><mi>f</mi><mn>2</mn></msub><mo>=</mo><msub><mi>f</mi><mn>0</mn></msub><mo>⋅</mo><mfrac><msub><mi>v</mi><mi>s</mi></msub><mrow><msub><mi>v</mi><mi>s</mi></msub><mo>+</mo><mi>v</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mspace width=\"0.222em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"0.222em\"></mspace></mrow></math></p><p><strong>Abiadura kalkulatzea.</strong>  (1) eta (2) zatituz, <math display=\"inline\"><msub><mi>f</mi><mn>0</mn></msub></math> desagertzen da:</p><p><math display=\"block\"><mrow><mfrac><msub><mi>f</mi><mn>1</mn></msub><msub><mi>f</mi><mn>2</mn></msub></mfrac><mo>=</mo><mfrac><mrow><msub><mi>v</mi><mi>s</mi></msub><mo>+</mo><mi>v</mi></mrow><mrow><msub><mi>v</mi><mi>s</mi></msub><mo>−</mo><mi>v</mi></mrow></mfrac></mrow></math></p><p>Izan bedi <math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mfrac><msub><mi>f</mi><mn>1</mn></msub><msub><mi>f</mi><mn>2</mn></msub></mfrac><mo>=</mo><mfrac><mn>905</mn><mn>850</mn></mfrac><mo>=</mo><mn>1.0647</mn></mrow></math>. Orduan:</p><p><math display=\"block\"><mrow><mi>k</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>v</mi><mi>s</mi></msub><mo>−</mo><mi>v</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msub><mi>v</mi><mi>s</mi></msub><mo>+</mo><mi>v</mi></mrow></math> <math display=\"block\"><mrow><mi>k</mi><msub><mi>v</mi><mi>s</mi></msub><mo>−</mo><mi>k</mi><mi>v</mi><mo>=</mo><msub><mi>v</mi><mi>s</mi></msub><mo>+</mo><mi>v</mi></mrow></math> <math display=\"block\"><mrow><msub><mi>v</mi><mi>s</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>k</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> <math display=\"block\"><mrow><mi>v</mi><mo>=</mo><msub><mi>v</mi><mi>s</mi></msub><mo>⋅</mo><mfrac><mrow><mi>k</mi><mo>−</mo><mn>1</mn></mrow><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math></p><p>Balioak ordezkatuz:</p><p><math display=\"block\"><mrow><mi>v</mi><mo>=</mo><mn>343</mn><mo>⋅</mo><mfrac><mrow><mn>1.0647</mn><mo>−</mo><mn>1</mn></mrow><mrow><mn>1.0647</mn><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mn>343</mn><mo>⋅</mo><mfrac><mn>0.0647</mn><mn>2.0647</mn></mfrac><mo>=</mo><mn>343</mn><mo>⋅</mo><mn>0.03134</mn><mo>≈</mo><mn>10.75</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m/s </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><p>Km/h-tan jarrita (<math display=\"inline\"><mrow><mi>×</mi><mn>3.6</mn></mrow></math>):</p><p><math display=\"block\"><mrow><mi>v</mi><mo>=</mo><mn>10.75</mn><mo>×</mo><mn>3.6</mn><mo>≈</mo><mn>38.7</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> km/h </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><p><strong>Jatorrizko maiztasuna kalkulatzea.</strong>  (2) ekuaziotik <math display=\"inline\"><msub><mi>f</mi><mn>0</mn></msub></math>  argituz:</p><p><math display=\"block\"><mrow><msub><mi>f</mi><mn>0</mn></msub><mo>=</mo><msub><mi>f</mi><mn>2</mn></msub><mo>⋅</mo><mfrac><mrow><msub><mi>v</mi><mi>s</mi></msub><mo>+</mo><mi>v</mi></mrow><msub><mi>v</mi><mi>s</mi></msub></mfrac><mo>=</mo><mn>850</mn><mo>⋅</mo><mfrac><mrow><mn>343</mn><mo>+</mo><mn>10.75</mn></mrow><mn>343</mn></mfrac><mo>=</mo><mn>850</mn><mo>⋅</mo><mfrac><mn>353.75</mn><mn>343</mn></mfrac><mo>≈</mo><mn>876</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Hz </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><p>(Emaitza berbera lortzen da (1) ekuaziotik abiatuta: <math display=\"inline\"><mrow><msub><mi>f</mi><mn>0</mn></msub><mo>=</mo><msub><mi>f</mi><mn>1</mn></msub><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>v</mi><mi>s</mi></msub><mo>−</mo><mi>v</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><msub><mi>v</mi><mi>s</mi></msub><mo>=</mo><mn>905</mn><mo>⋅</mo><mn>332.25</mn><mi>/</mi><mn>343</mn><mo>≈</mo><mn>876</mn></mrow></math> Hz, kontsistentzia egiaztatuz.)</p><p>Beraz, anbulantziaren soinuaren jatorrizko maiztasuna eta abiadura:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msub><mi>f</mi><mn>0</mn></msub><mo>=</mo><mn>876</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Hz</mtext></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>v</mi><mo>=</mo><mn>38.7</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> km/h </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p></div><p>Emaitza hori bat dator jatorrizko eskuzko emaitzarekin.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "Doppler efektua",
+     "def": "<p>Iturriaren eta hartzailearen arteko higidura erlatiboa dela eta, hartzaileak neurtzen duen maiztasunaren eta iturriak igorritakoaren arteko aldea.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-ekuazio-harmonikoa"
+   ],
+   "ondorengoak": [
+    "fosz-praktika-azterketak"
+   ],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a29 · Doppler efektua; a37 · Doppler efektua",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-praktika-oszilazioak",
+   "atala": "S10",
+   "mota": "metodoa",
+   "izena": "Praktika: oszilazio-ariketak",
+   "ideia": "<p>Malgukiekin, penduluekin eta indargetzearekin lotutako ariketa-sorta bat, UPV/EHUko zerrenda ofizialetik hautatua.</p>",
+   "formula": "",
+   "enuntziatua": "<p>UPV/EHUko  <strong>Fisika Orokorra</strong> irakasgaiaren 8. gaiko (&quot;Oszilazioak&quot;) ariketa-zerrenda ofizialeko (2012-2013) hautaketa bat.</p>",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Higidura harmonikoz plano horizontal batean eta segundoko bi oszilazioz bibratzen ari den plataforma baten gainean kutxa bat dago. Kutxaren eta plataformaren arteko marruskadura-koefiziente estatikoak <math display=\"inline\"><mn>0.5</mn></math> balio du. Zein da oszilazioek izan dezaketen anplituderik handiena, kutxak labain egin gabe jarraitzeko? Plataformaren bibrazioa bertikala balitz, eta beraren anplitudea <math display=\"inline\"><mn>25</mn></math> mm-koa, zein izango litzateke maiztasunik handiena, kutxa plataformatik alde ez egiteko? <strong>Emaitza</strong>: (a)  <math display=\"inline\"><mrow><mi>x</mi><mo>≤</mo><mn>0.031</mn></mrow></math> m; (b)  <math display=\"inline\"><mrow><msub><mi>ν</mi><mi mathvariant=\"normal\">max</mi></msub><mo>=</mo><mn>3.16</mn></mrow></math>  <math display=\"inline\"><msup><mi>s</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></math>.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>Demagun bertikalki kokaturik dagoen malguki bati loturiko <math display=\"inline\"><mi>m</mi></math> masako partikularen oreka-posizio egonkorreko luzapena <math display=\"inline\"><mi>l</mi></math> dela. Froga bedi sistema perturbatuz gero, <math display=\"inline\"><mi>l</mi></math> luzerako pendulu sinplearena bezalako higidura oszilakorra gauzatzen dela.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p><math display=\"inline\"><mn>2</mn></math> kg-ko partikula bertikala den eta lurrari lotuta dagoen malguki baten muturrean dago. Malgukiaren luzera propioa <math display=\"inline\"><mn>8</mn></math> cm da, baina partikula bere gainean jartzean, malgukiaren luzera <math display=\"inline\"><mn>5</mn></math> cm da. Oreka-posizioan dagoenean, mailu batez beheranzko kolpe bat ematean, partikularen hasierako abiadura <math display=\"inline\"><mn>0.3</mn></math>  m/s da. (a) Zein izango da masak lortuko duen altuera maximoa? (b) Zenbat denbora behar du masak lehenengo aldiz altuera maximoa lortzeko? <strong>Emaitza</strong>: (a)  <math display=\"inline\"><mrow><msub><mi>h</mi><mi mathvariant=\"normal\">max</mi></msub><mo>=</mo><mn>17</mn></mrow></math> mm; (b)  <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0.26</mn></mrow></math> s.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>Oszilatzen duenean, malguki horizontal bati lotuta dagoen masaren periodoa <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mn>4</mn></mrow></math> s da. Malgukia eta masa bertikalean eskegi ondoren, eta oszilatu barik, zein izango da malgukiak jasango duen luzapena? <strong>Emaitza</strong>: <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>3.97</mn></mrow></math> m.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p><math display=\"inline\"><mn>40</mn></math> g-ko masa puntualak <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mn>0.32</mn></mrow></math> s periodoa duen higidura harmoniko sinplea egiten du. Higidura sortzen duen indarraren balio maximoa <math display=\"inline\"><mn>10</mn></math> N bada, zein da anplitudearen balioa? <strong>Emaitza</strong>: <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>65</mn></mrow></math> cm.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p><math display=\"inline\"><mn>2</mn></math> kg-ko gorputz batek <math display=\"inline\"><mn>10</mn></math> cm luzatzen du malguki bat orekan bertikalki eskegita dagoenean. Gorputza malguki berberari lotzen zaio, baina orain sistema marruskadura gabeko mahai baten gainean jarri da, horizontalean, malgukiaren beste muturra puntu finko bati lotuta. Oreka posiziotik <math display=\"inline\"><mn>5</mn></math> cm baztertzen da eta <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> denean askatu egiten da. (a) Aurkitu <math display=\"inline\"><mi>A</mi></math> anplitudea, maiztasun angeluarra, maiztasuna eta periodoa. (b) Zein da gorputzaren abiadura maximoa? <strong>Emaitza</strong>: (a) <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>5</mn></mrow></math> cm, <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>1.58</mn></mrow></math> Hz, <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mn>0.6347</mn></mrow></math> s; (b)  <math display=\"inline\"><mrow><msub><mi>v</mi><mi mathvariant=\"normal\">max</mi></msub><mo>=</mo><mn>0.495</mn></mrow></math>  m/s, <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0.158</mn></mrow></math> s.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [],
+   "aurrekoak": [
+    "fosz-malgukia",
+    "fosz-pendulu-sinplea",
+    "fosz-energia-oszilazioa"
+   ],
+   "ondorengoak": [],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a10 · Ariketak (9 ariketetatik 6 hemen; beste hirurak kontzeptu bakoitzean daude)",
+   "sortua": [
+    "ideia"
+   ]
+  },
+  {
+   "id": "fosz-praktika-testa",
+   "atala": "S10",
+   "mota": "metodoa",
+   "izena": "Praktika: autoebaluazio-testa",
+   "ideia": "<p>Aukera anitzeko hamar galdera oszilazioei buruz; erantzun zuzena azalpenarekin ikus daiteke.</p>",
+   "formula": "",
+   "enuntziatua": "<p>UPV/EHUko  <strong>Fisika Orokorra</strong> irakasgaiaren 8. gaiko galdetegi ofizialeko (Moodle, aukera anitzeko galderak) hautaketa bat.</p>",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p><math display=\"inline\"><mi>M</mi></math> masako eta <math display=\"inline\"><mi>R</mi></math> erradioko disko uniforme bat, bere perimetroko puntu batetik eskegi da. Pendulu fisiko bat bezala oszilatzen badu, bere periodoa da:</p><ul class=\"j-etiketatua\"><li><span class=\"j-marka\">a)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>2</mn><mi>π</mi><msqrt><mrow><mi>g</mi><mi>/</mi><mn>3</mn><mi>R</mi></mrow></msqrt></mrow></math></span></li><li><span class=\"j-marka\">b)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>2</mn><mi>π</mi><msqrt><mrow><mn>3</mn><mi>R</mi><mi>/</mi><mn>2</mn><mi>g</mi></mrow></msqrt></mrow></math></span></li><li><span class=\"j-marka\">c)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>2</mn><mi>π</mi><msqrt><mrow><mi>g</mi><mi>/</mi><mi>R</mi></mrow></msqrt></mrow></math></span></li><li><span class=\"j-marka\">d)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>2</mn><mi>π</mi><msqrt><mrow><mn>3</mn><mi>R</mi><mi>/</mi><mi>g</mi></mrow></msqrt></mrow></math></span></li><li><span class=\"j-marka\">e)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>2</mn><mi>π</mi><msqrt><mrow><mi>g</mi><mi>/</mi><mn>2</mn><mi>R</mi></mrow></msqrt></mrow></math></span></li></ul>",
+     "s": "<p><strong>Erantzun zuzena</strong>: (b) — <math display=\"inline\"><mrow><msub><mi>I</mi><mi>O</mi></msub><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></math>  (Steiner: <math display=\"inline\"><mrow><msub><mi>I</mi><mtext mathvariant=\"normal\">MZ</mtext></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></math> gehi <math display=\"inline\"><mrow><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></math>), <math display=\"inline\"><mrow><msup><mi>ω</mi><mn>2</mn></msup><mo>=</mo><mi>M</mi><mi>g</mi><mi>R</mi><mi>/</mi><msub><mi>I</mi><mi>O</mi></msub><mo>=</mo><mn>2</mn><mi>g</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>R</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>.</p>"
+    },
+    {
+     "e": "<p>Ordenatu irudietan agertzen diren sistemen oszilazioen periodoa txikienetik handienera:</p><figure class=\"j-irudia\"><img src=\"media/irudiak/c8a40838245fb22e.svg\" alt=\"Hiru sistema oszilatzaile: (a) eta (b) malguki bertikalak masa\n    ezberdinekin, (c) pendulu sinplea.\" width=\"353\" loading=\"lazy\"><figcaption>Hiru sistema oszilatzaile: (a) eta (b) malguki bertikalak masa\n    ezberdinekin, (c) pendulu sinplea.</figcaption></figure><ul class=\"j-etiketatua\"><li><span class=\"j-marka\">a)</span><span class=\"j-elte\">a,c,b</span></li><li><span class=\"j-marka\">b)</span><span class=\"j-elte\">c,a,b</span></li><li><span class=\"j-marka\">c)</span><span class=\"j-elte\">a,b,c</span></li><li><span class=\"j-marka\">d)</span><span class=\"j-elte\">b,a,c</span></li><li><span class=\"j-marka\">e)</span><span class=\"j-elte\">a,b,c</span></li></ul>",
+     "s": "<p><strong>Erantzun zuzena</strong>: (d) b,a,c — <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mrow><mi>m</mi><mi>/</mi><mi>k</mi></mrow></msqrt></mrow></math>  (a,b) eta <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mrow><mi>L</mi><mi>/</mi><mi>g</mi></mrow></msqrt></mrow></math>  (c)  erabiliz: <math display=\"inline\"><mrow><msub><mi>T</mi><mi>b</mi></msub><mo>≈</mo><mn>0.5</mn></mrow></math> s <math display=\"inline\"><mrow><mo>&lt;</mo><msub><mi>T</mi><mi>a</mi></msub><mo>≈</mo><mn>1.0</mn></mrow></math> s <math display=\"inline\"><mrow><mo>&lt;</mo><msub><mi>T</mi><mi>c</mi></msub><mo>≈</mo><mn>2.8</mn></mrow></math> s.</p>"
+    },
+    {
+     "e": "<p>Higidura harmoniko sinple baten maiztasuna <math display=\"inline\"><mrow><mn>2.6</mn><mo>×</mo><msup><mn>10</mn><mn>4</mn></msup></mrow></math> <math display=\"inline\"><msup><mi>s</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></math> da. Oszilazioa hasten da (<math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>) desplazamendua maximoa denean eta <math display=\"inline\"><mrow><mn>6.5</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>3</mn></mrow></msup></mrow></math> cm balio du. Noiz pasatuko da partikula <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>2.6</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>3</mn></mrow></msup></mrow></math> cm posiziotik lehenengo aldiz?</p><ul class=\"j-etiketatua\"><li><span class=\"j-marka\">a)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>7.1</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>6</mn></mrow></msup></mrow></math> s</span></li><li><span class=\"j-marka\">b)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>1.2</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>5</mn></mrow></msup></mrow></math> s</span></li><li><span class=\"j-marka\">c)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>1.1</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>3</mn></mrow></msup></mrow></math> s</span></li><li><span class=\"j-marka\">d)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>1.1</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>4</mn></mrow></msup></mrow></math> s</span></li><li><span class=\"j-marka\">e)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>4.2</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>3</mn></mrow></msup></mrow></math> s</span></li></ul>",
+     "s": "<p><strong>Erantzun zuzena</strong>: (b).</p>"
+    },
+    {
+     "e": "<p>Ume bat kulunka batean bultzatzen duzunean, zer da eraginkorrena?</p><ul class=\"j-etiketatua\"><li><span class=\"j-marka\">a)</span><span class=\"j-elte\">Ahalik eta indarrik handiena egitea</span></li><li><span class=\"j-marka\">b)</span><span class=\"j-elte\">Indar periodiko batekin bultzatzea ahalik eta maiztasun handienarekin</span></li><li><span class=\"j-marka\">c)</span><span class=\"j-elte\">Umearen pisuaren berdina den indarrarekin bultzatzea</span></li><li><span class=\"j-marka\">d)</span><span class=\"j-elte\">Indar periodiko batekin bultzatzea, periodoa soken luzeraren araberakoa izanik</span></li><li><span class=\"j-marka\">e)</span><span class=\"j-elte\">Indar periodiko batekin bultzatzea, periodoa umearen pisuaren araberakoa izanik</span></li></ul>",
+     "s": "<p><strong>Erantzun zuzena</strong>: (d) — erresonantzia lortzeko, kanpo-indarraren periodoa penduluaren berezko periodoarekin bat etorri behar da (<math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mrow><mi>L</mi><mi>/</mi><mi>g</mi></mrow></msqrt></mrow></math>, soken luzerak baldintzatua).</p>"
+    },
+    {
+     "e": "<p>Partikula batek higidura harmoniko sinplea jarraituz oszilatzen du. Higiduraren maiztasuna <math display=\"inline\"><mn>10</mn></math> Hz da eta anplitudea <math display=\"inline\"><mn>5</mn></math> cm. Partikula oreka posiziotik pasatzen denean, partikularen azelerazioa da:</p><ul class=\"j-etiketatua\"><li><span class=\"j-marka\">a)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>1.6</mn><mo>×</mo><msup><mn>10</mn><mn>5</mn></msup></mrow></math> cm/s²</span></li><li><span class=\"j-marka\">b)</span><span class=\"j-elte\"><math display=\"inline\"><mn>100</mn></math> cm/s²</span></li><li><span class=\"j-marka\">c)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>4.0</mn><mo>×</mo><msup><mn>10</mn><mn>6</mn></msup></mrow></math> cm/s²</span></li><li><span class=\"j-marka\">d)</span><span class=\"j-elte\"><math display=\"inline\"><mn>0</mn></math></span></li><li><span class=\"j-marka\">e)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>3.2</mn><mo>×</mo><msup><mn>10</mn><mn>6</mn></msup></mrow></math> cm/s²</span></li></ul>",
+     "s": "<p><strong>Erantzun zuzena</strong>: (d) — <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mi>−</mi><msup><mi>ω</mi><mn>2</mn></msup><mi>x</mi></mrow></math>, eta <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> oreka-posizioan denez, <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mn>0</mn></mrow></math>.</p>"
+    },
+    {
+     "e": "<p>Higidura harmonikoa egiten duen gorputz baten energia zinetikoa denboraren funtzioan irudikatu da (denbora periodoaren funtzioan idatzita). Hasierako desfasea zero bada, zein grafikak adierazten ditu baldintza horiek?</p><figure class=\"j-irudia\"><img src=\"media/irudiak/dc82681b0cbb87c2.svg\" alt=\"Lau grafiko-hautagai (energia zinetikoa K, denbora t/T-ren\n    funtzioan): (1) konstantea, (2)  sin&amp;#8289;(2πt/T)  (negatibora doa),\n        (3)  cos&amp;#8289;2(2πt/T)  (maiztasun bikoitza eta beti positiboa), (4)\n        cos&amp;#8289;(2πt/T)  (negatibora doa).\" width=\"203\" loading=\"lazy\"><figcaption>Lau grafiko-hautagai (energia zinetikoa <math display=\"inline\"><mi>K</mi></math>, denbora <math display=\"inline\"><mrow><mi>t</mi><mi>/</mi><mi>T</mi></mrow></math>-ren\n    funtzioan): (1) konstantea, (2)  <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>π</mi><mi>t</mi><mi>/</mi><mi>T</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>  (negatibora doa),\n        (3)  <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>π</mi><mi>t</mi><mi>/</mi><mi>T</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>  (maiztasun bikoitza eta beti positiboa), (4)\n        <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>π</mi><mi>t</mi><mi>/</mi><mi>T</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>  (negatibora doa).</figcaption></figure><ul class=\"j-etiketatua\"><li><span class=\"j-marka\">a)</span><span class=\"j-elte\">4</span></li><li><span class=\"j-marka\">b)</span><span class=\"j-elte\">5</span></li><li><span class=\"j-marka\">c)</span><span class=\"j-elte\">1</span></li><li><span class=\"j-marka\">d)</span><span class=\"j-elte\">2</span></li><li><span class=\"j-marka\">e)</span><span class=\"j-elte\">3</span></li></ul>",
+     "s": "<p><strong>Erantzun zuzena</strong>: (e) 3 — <math display=\"inline\"><mrow><msub><mi>E</mi><mi>k</mi></msub><mo>∝</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> da <math display=\"inline\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi></mrow></math> denean, eta <math display=\"inline\"><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></math>-ek <math display=\"inline\"><mi>ω</mi></math>-ren bikoitzeko maiztasuna du, hau da, <math display=\"inline\"><mrow><mi>T</mi><mi>/</mi><mn>2</mn></mrow></math> periodoa; gainera beti positiboa da.</p>"
+    },
+    {
+     "e": "<p><math display=\"inline\"><mrow><mi>m</mi><mo>=</mo><mn>36</mn></mrow></math> kg-ko masa, <math display=\"inline\"><mrow><msub><mi>k</mi><mn>1</mn></msub><mo>=</mo><mn>3</mn></mrow></math>  N/m eta <math display=\"inline\"><mrow><msub><mi>k</mi><mn>2</mn></msub><mo>=</mo><mn>4</mn></mrow></math>  N/m konstanteak dituzten malgukien bidez elkartzen da horma bietara. Oreka posiziotik aldeetara desplazatu eta gero, zein izango da bere oszilazioen periodoa?</p><figure class=\"j-irudia\"><img src=\"media/irudiak/49c4640f390db69b.svg\" alt=\"Masa bi malgukien bidez horma bietara loturik: sistema\n    baliokidea paraleloz konbinatutako malguki bakarra da.\" width=\"309\" loading=\"lazy\"><figcaption>Masa bi malgukien bidez horma bietara loturik: sistema\n    baliokidea paraleloz konbinatutako malguki bakarra da.</figcaption></figure><ul class=\"j-etiketatua\"><li><span class=\"j-marka\">a)</span><span class=\"j-elte\"><math display=\"inline\"><mn>20</mn></math> s</span></li><li><span class=\"j-marka\">b)</span><span class=\"j-elte\"><math display=\"inline\"><mn>14</mn></math> s</span></li><li><span class=\"j-marka\">c)</span><span class=\"j-elte\"><math display=\"inline\"><mn>11</mn></math> s</span></li><li><span class=\"j-marka\">d)</span><span class=\"j-elte\"><math display=\"inline\"><mn>32</mn></math> s</span></li><li><span class=\"j-marka\">e)</span><span class=\"j-elte\"><math display=\"inline\"><mn>38</mn></math> s</span></li></ul>",
+     "s": "<p><strong>Erantzun zuzena</strong>: (b) — bi malgukiak paraleloan daude (<math display=\"inline\"><mrow><mi>K</mi><mo>=</mo><msub><mi>k</mi><mn>1</mn></msub><mo>+</mo><msub><mi>k</mi><mn>2</mn></msub></mrow></math>), <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mrow><mi>m</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>k</mi><mn>1</mn></msub><mo>+</mo><msub><mi>k</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msqrt></mrow></math>.</p>"
+    },
+    {
+     "e": "<p><math display=\"inline\"><mn>0.454</mn></math> kg-ko bloke bat pausagunetik hasten da erortzen <math display=\"inline\"><mn>3.05</mn></math> m-ko luzerako eta <math display=\"inline\"><mrow><mn>53</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>-ko plano aldapatsuan behera. Aldaparen ostean <math display=\"inline\"><mn>9.14</mn></math> m-ko tarte horizontala ibili eta gero <math display=\"inline\"><mn>14.7</mn></math>  N/m-ko malguki bat konprimitzen du. Zenbat konprimitu da malgukia? (Ez dago marruskadurarik.)</p><ul class=\"j-etiketatua\"><li><span class=\"j-marka\">a)</span><span class=\"j-elte\"><math display=\"inline\"><mn>1.21</mn></math> m</span></li><li><span class=\"j-marka\">b)</span><span class=\"j-elte\"><math display=\"inline\"><mn>2.44</mn></math> m</span></li><li><span class=\"j-marka\">c)</span><span class=\"j-elte\"><math display=\"inline\"><mn>1.83</mn></math> m</span></li><li><span class=\"j-marka\">d)</span><span class=\"j-elte\"><math display=\"inline\"><mn>0.215</mn></math> m</span></li><li><span class=\"j-marka\">e)</span><span class=\"j-elte\"><math display=\"inline\"><mn>1.52</mn></math> m</span></li></ul>",
+     "s": "<p><strong>Erantzun zuzena</strong>: (a) — energiaren kontserbazioz, <math display=\"inline\"><mrow><mi>m</mi><mi>g</mi><mi>h</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></math>, <math display=\"inline\"><mrow><mi>h</mi><mo>=</mo><mn>3.05</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>53</mn><msup><mi></mi><mo>∘</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>.</p>"
+    },
+    {
+     "e": "<p>Mahai horizontal baten gainean marruskadurarik gabe oszilatzen duen masa bat malguki bati lotuta dago. Malgukia <math display=\"inline\"><mn>10</mn></math> cm luzatzen dugu eta geldiunetik askatzen dugu. Masaren oszilazioen periodoa <math display=\"inline\"><mn>5.6</mn></math> s-koa da. Zein da masaren abiadura <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>2.5</mn></mrow></math> s pasatu eta gero?</p><ul class=\"j-etiketatua\"><li><span class=\"j-marka\">a)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mi>−</mi><mn>0.106</mn></mrow></math> m/s</span></li><li><span class=\"j-marka\">b)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mi>−</mi><mn>0.261</mn></mrow></math> m/s</span></li><li><span class=\"j-marka\">c)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mi>−</mi><mn>0.0371</mn></mrow></math> m/s</span></li><li><span class=\"j-marka\">d)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mi>−</mi><mn>0.201</mn></mrow></math> m/s</span></li><li><span class=\"j-marka\">e)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mi>−</mi><mn>0.471</mn></mrow></math> m/s</span></li></ul>",
+     "s": "<p><strong>Erantzun zuzena</strong>: (c) — <math display=\"inline\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mi>A</mi><mi>ω</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><mn>2</mn><mi>π</mi><mi>/</mi><mi>T</mi></mrow></math>, <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>0.10</mn></mrow></math> m.</p>"
+    },
+    {
+     "e": "<p><math display=\"inline\"><mi>A</mi></math> penduluak <math display=\"inline\"><msub><mi>L</mi><mi>A</mi></msub></math> luzera dauka eta <math display=\"inline\"><msub><mi>M</mi><mi>A</mi></msub></math> masa du eskegita. <math display=\"inline\"><mi>B</mi></math> penduluak <math display=\"inline\"><msub><mi>L</mi><mi>B</mi></msub></math> luzera dauka eta <math display=\"inline\"><msub><mi>M</mi><mi>B</mi></msub></math> masa du eskegita. <math display=\"inline\"><mi>A</mi></math>-ren periodoa <math display=\"inline\"><mi>B</mi></math>-ren periodoaren bikoitza da. Orduan:</p><ul class=\"j-etiketatua\"><li><span class=\"j-marka\">a)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><msub><mi>L</mi><mi>A</mi></msub><mo>=</mo><mn>4</mn><msub><mi>L</mi><mi>B</mi></msub></mrow></math> eta <math display=\"inline\"><mrow><msub><mi>M</mi><mi>A</mi></msub><mo>=</mo><msub><mi>M</mi><mi>B</mi></msub></mrow></math></span></li><li><span class=\"j-marka\">b)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><msub><mi>L</mi><mi>A</mi></msub><mo>=</mo><msqrt><mn>2</mn></msqrt><msub><mi>L</mi><mi>B</mi></msub></mrow></math> eta <math display=\"inline\"><mrow><msub><mi>M</mi><mi>A</mi></msub><mi>/</mi><msub><mi>M</mi><mi>B</mi></msub></mrow></math> edozein</span></li><li><span class=\"j-marka\">c)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><msub><mi>L</mi><mi>A</mi></msub><mo>=</mo><mn>4</mn><msub><mi>L</mi><mi>B</mi></msub></mrow></math> eta <math display=\"inline\"><mrow><msub><mi>M</mi><mi>A</mi></msub><mi>/</mi><msub><mi>M</mi><mi>B</mi></msub></mrow></math> edozein</span></li><li><span class=\"j-marka\">d)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><msub><mi>L</mi><mi>A</mi></msub><mo>=</mo><msqrt><mn>2</mn></msqrt><msub><mi>L</mi><mi>B</mi></msub></mrow></math> eta <math display=\"inline\"><mrow><msub><mi>M</mi><mi>A</mi></msub><mo>=</mo><msub><mi>M</mi><mi>B</mi></msub></mrow></math></span></li><li><span class=\"j-marka\">e)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><msub><mi>L</mi><mi>A</mi></msub><mo>=</mo><mn>2</mn><msub><mi>L</mi><mi>B</mi></msub></mrow></math> eta <math display=\"inline\"><mrow><msub><mi>M</mi><mi>A</mi></msub><mo>=</mo><mn>2</mn><msub><mi>M</mi><mi>B</mi></msub></mrow></math></span></li></ul>",
+     "s": "<p><strong>Erantzun zuzena</strong>: (c) — <math display=\"inline\"><mrow><mi>T</mi><mo>∝</mo><msqrt><mi>L</mi></msqrt></mrow></math>  (masarekiko independentea); <math display=\"inline\"><mrow><msub><mi>T</mi><mi>A</mi></msub><mo>=</mo><mn>2</mn><msub><mi>T</mi><mi>B</mi></msub><mo>→</mo><msub><mi>L</mi><mi>A</mi></msub><mo>=</mo><mn>4</mn><msub><mi>L</mi><mi>B</mi></msub></mrow></math>, edozein <math display=\"inline\"><mrow><msub><mi>M</mi><mi>A</mi></msub><mi>/</mi><msub><mi>M</mi><mi>B</mi></msub></mrow></math> erlaziorentzat.</p>"
+    }
+   ],
+   "terminoak": [],
+   "aurrekoak": [
+    "fosz-pendulu-fisikoa",
+    "fosz-malguki-konbinatuak",
+    "fosz-erresonantzia"
+   ],
+   "ondorengoak": [],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a11 · Autoebaluazio-testa (10 ariketa)",
+   "sortua": [
+    "ideia"
+   ]
+  },
+  {
+   "id": "fosz-praktika-azterketak",
+   "atala": "S10",
+   "mota": "metodoa",
+   "izena": "Praktika: azterketa-ariketak (garapen osoarekin)",
+   "ideia": "<p>Azterketa ofizialetako hiru ariketa osatu: malguki-plataforma eta Doppler, HHSren grafikoa eta Tarzanen pendulua. Bakoitzak ebazpen osoa dauka.</p>",
+   "formula": "",
+   "enuntziatua": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Fisikako ikasle batek maiztasun-neurgailu bat oparitzat jasotzen du, eta ongi funtzionatzen duela egiaztatzeko, esperimentu hau diseinatzen du: 1 kg-ko plataforma bat hartu, hormari muturreko malguki horizontal batez lotua (<math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mn>625</mn></mrow></math>  N/m), eta bere maiztasun-neurgailu berria plataformaren gainean azkar finkatzen du. Ondoren malgukia 0.5 m konprimitzen du eta plataforma marruskadurarik gabe oszilatzen uzten du (maiztasun-neurgailuarekin batera). Gero, hormatik urrun, <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>250</mn></mrow></math> Hz-eko soinua igortzen duen bozgorailu bat entzunarazten du, eta uhin-sortzailearen soka geldirik pultsatzen du.</p><p>a) Kalkulatu plataformaren oszilazio-maiztasuna, Hz-tan. b) Zein da maiztasun-neurgailuak sokan neurtuko duen maiztasun handiena eta txikiena? Zein posiziotan eta zein noranzkotan mugituko da plataforma kasu horietan? c) Zein posiziotan egon behar du sokaren maiztasun propioa neurtzeko?</p><p>Maiztasun-neurgailuaren masa plataformarenaren aldean baztergarritzat jo behar da, eta maiztasun-neurgailuak denbora-tarte oso txikietan egindako neurketak gorde ditzakeela bere memorian. Datua: <math display=\"inline\"><mrow><msub><mi>v</mi><mtext mathvariant=\"normal\">soinua</mtext></msub><mo>=</mo><mn>343</mn></mrow></math>  m/s.  <strong>1.25 puntu</strong>.</p>",
+     "s": "<p><strong>Ebazpena.</strong></p><p>a) Plataforma-malguki sistema higidura harmoniko sinplean dabil, eta bere angeluar-maiztasuna soilik <math display=\"inline\"><mi>k</mi></math> eta <math display=\"inline\"><mi>m</mi></math>-ren mende dago:</p><p><math display=\"block\"><mrow><mi>ω</mi><mo>=</mo><msqrt><mfrac><mi>k</mi><mi>m</mi></mfrac></msqrt><mo>=</mo><msqrt><mfrac><mn>625</mn><mn>1</mn></mfrac></msqrt><mo>=</mo><mn>25</mn><mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> rad</mtext></mrow><mrow><mtext mathvariant=\"normal\">s </mtext><mspace width=\"0.333em\"></mspace></mrow></mfrac></mrow></math></p><p><math display=\"block\"><mrow><msub><mi>f</mi><mi>p</mi></msub><mo>=</mo><mfrac><mi>ω</mi><mrow><mn>2</mn><mi>π</mi></mrow></mfrac><mo>=</mo><mfrac><mn>25</mn><mrow><mn>2</mn><mi>π</mi></mrow></mfrac><mo>≈</mo><mn>3.98</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Hz </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msub><mi>f</mi><mi>p</mi></msub><mo>≈</mo><mn>4</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Hz </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p></div><p>b) Plataformaren gaineko maiztasun-neurgailua etengabe higitzen ari da (behatzaile mugikorra), bozgorailua berriz geldirik (iturri finkoa). Doppler efektuaren arabera, behatzaile mugikor batentzat:</p><p><math display=\"block\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo>=</mo><mi>f</mi><mfrac><mrow><msub><mi>v</mi><mtext mathvariant=\"normal\">soinua</mtext></msub><mo>±</mo><msub><mi>v</mi><mtext mathvariant=\"normal\">behatzailea</mtext></msub></mrow><msub><mi>v</mi><mtext mathvariant=\"normal\">soinua</mtext></msub></mfrac></mrow></math></p><p>Malgukiaren higidura harmoniko sinplean, abiadura maximoa oreka-puntuan (<math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>) gertatzen da:</p><p><math display=\"block\"><mrow><msub><mi>v</mi><mi mathvariant=\"normal\">max</mi></msub><mo>=</mo><mi>A</mi><mi>ω</mi><mo>=</mo><mn>0.5</mn><mo>⋅</mo><mn>25</mn><mo>=</mo><mn>12.5</mn><mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><mrow><mtext mathvariant=\"normal\">s </mtext><mspace width=\"0.333em\"></mspace></mrow></mfrac></mrow></math></p><p>Maiztasun handiena plataforma bozgorailurantz abiadura maximoz mugitzen ari denean neurtzen da (oreka-puntuan, bozgorailurantz):</p><p><math display=\"block\"><mrow><msub><mi>f</mi><mi mathvariant=\"normal\">max</mi></msub><mo>=</mo><mi>f</mi><mfrac><mrow><msub><mi>v</mi><mtext mathvariant=\"normal\">soinua</mtext></msub><mo>+</mo><msub><mi>v</mi><mi mathvariant=\"normal\">max</mi></msub></mrow><msub><mi>v</mi><mtext mathvariant=\"normal\">soinua</mtext></msub></mfrac><mo>=</mo><mn>250</mn><mo>⋅</mo><mfrac><mrow><mn>343</mn><mo>+</mo><mn>12.5</mn></mrow><mn>343</mn></mfrac><mo>≈</mo><mn>259</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Hz </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><p>Maiztasun txikiena, aldiz, oreka-puntutik bozgorailutik urruntzen ari denean (abiadura maximoz, kontrako noranzkoan):</p><p><math display=\"block\"><mrow><msub><mi>f</mi><mi mathvariant=\"normal\">min</mi></msub><mo>=</mo><mi>f</mi><mfrac><mrow><msub><mi>v</mi><mtext mathvariant=\"normal\">soinua</mtext></msub><mo>−</mo><msub><mi>v</mi><mi mathvariant=\"normal\">max</mi></msub></mrow><msub><mi>v</mi><mtext mathvariant=\"normal\">soinua</mtext></msub></mfrac><mo>=</mo><mn>250</mn><mo>⋅</mo><mfrac><mrow><mn>343</mn><mo>−</mo><mn>12.5</mn></mrow><mn>343</mn></mfrac><mo>≈</mo><mn>241</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Hz </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msub><mi>f</mi><mi mathvariant=\"normal\">max</mi></msub><mo>≈</mo><mn>259</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Hz </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtext mathvariant=\"normal\">bozgorailurantz</mtext><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></p></div><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msub><mi>f</mi><mi mathvariant=\"normal\">min</mi></msub><mo>≈</mo><mn>241</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Hz </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtext mathvariant=\"normal\">bozgorailutik urrunduz</mtext><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></p></div><p>c) Sokaren maiztasun propioa (<math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>250</mn></mrow></math> Hz, Doppler-desplazamendurik gabe) neurtzeko, plataformaren abiadurak zero izan behar du une horretan (<math display=\"inline\"><mrow><msub><mi>v</mi><mtext mathvariant=\"normal\">behatzailea</mtext></msub><mo>=</mo><mn>0</mn></mrow></math>), eta hori higidura harmoniko sinplearen muturretan gertatzen da, <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>±</mi><mi>A</mi></mrow></math>  posizioetan:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>x</mi><mo>=</mo><mi>±</mi><mi>A</mi><mo>=</mo><mi>±</mi><mn>0.5</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo>=</mo><msub><mi>t</mi><mtext mathvariant=\"normal\">muturretan</mtext></msub><mo>,</mo><mi>v</mi><mo>=</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> denean</mtext></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></p></div>"
+    },
+    {
+     "e": "<p>Higidura harmoniko sinplearen irudiak <math display=\"inline\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzioa erakusten du <math display=\"inline\"><mi>T</mi></math> periodo batean zehar. Kalkulatu: <strong>0.5 puntu</strong>.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/f14c42ea0a7129de.svg\" alt=\"v(t) funtzioa HAS baten T periodo batean zehar, t1 eta t2\n    uneak markatuta (jatorrizkoaren berreraikitze kualitatiboa).\" width=\"488\" loading=\"lazy\"><figcaption><math display=\"inline\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzioa HAS baten <math display=\"inline\"><mi>T</mi></math> periodo batean zehar, <math display=\"inline\"><msub><mi>t</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>t</mi><mn>2</mn></msub></math>\n    uneak markatuta (jatorrizkoaren berreraikitze kualitatiboa).</figcaption></figure><p>a) Higiduraren periodoa. b) Higiduraren anplitudea. c) Hasierako fasea, posizioa <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> gisa idazten badugu. d) Posizioa <math display=\"inline\"><msub><mi>t</mi><mn>1</mn></msub></math> unean. e) Azelerazioa <math display=\"inline\"><msub><mi>t</mi><mn>2</mn></msub></math> unean.</p>",
+     "s": "<p><strong>Ebazpena.</strong></p><p>a) Grafikoan zuzenean irakur daiteke kurbak bira oso bat ematen duela <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>12</mn></mrow></math> s-tan (kosinu-funtzioaren argumentua <math display=\"inline\"><mrow><mn>30</mn><mfrac><msup><mi></mi><mo>∘</mo></msup><mrow><mtext mathvariant=\"normal\">s </mtext><mspace width=\"0.333em\"></mspace></mrow></mfrac><mo>⋅</mo><mi>t</mi></mrow></math> delako, hots <math display=\"inline\"><mrow><mn>360</mn><mfrac><msup><mi></mi><mo>∘</mo></msup><mn>30</mn></mfrac><mfrac><msup><mi></mi><mo>∘</mo></msup><mrow><mtext mathvariant=\"normal\">s </mtext><mspace width=\"0.333em\"></mspace></mrow></mfrac><mo>=</mo><mn>12</mn></mrow></math> s):</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>T</mi><mo>=</mo><mn>12</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> s </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p></div><p>Hortik angeluar-maiztasuna: <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><mn>2</mn><mfrac><mi>π</mi><mi>T</mi></mfrac><mo>=</mo><mfrac><mi>π</mi><mn>6</mn></mfrac><mo>≈</mo><mn>0.524</mn><mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> rad</mtext></mrow><mi>s</mi></mfrac></mrow></math>.</p><p>b)  <math display=\"inline\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> bada, abiadura hauxe da:</p><p><math display=\"block\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mi>A</mi><mi>ω</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>v</mi><mi mathvariant=\"normal\">max</mi></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></p><p>Grafikoko ordenatu-ardatzeko balio esanguratsuena irakurriz, <math display=\"inline\"><mrow><msub><mi>v</mi><mi mathvariant=\"normal\">max</mi></msub><mo>≈</mo><mn>4.97</mn></mrow></math>  m/s dela ondorioztatzen da. Beraz:</p><p><math display=\"block\"><mrow><mi>A</mi><mo>=</mo><mfrac><msub><mi>v</mi><mi mathvariant=\"normal\">max</mi></msub><mi>ω</mi></mfrac><mo>=</mo><mfrac><mn>4.97</mn><mrow><mi>π</mi><mi>/</mi><mn>6</mn></mrow></mfrac><mo>≈</mo><mn>9.5</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>A</mi><mo>≈</mo><mn>9.5</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p></div><p>c)  <math display=\"inline\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>v</mi><mi mathvariant=\"normal\">max</mi></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzioek fase berbera dute. <math display=\"inline\"><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn></mrow></math> s unean plataforma <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> posiziotik igarotzen dela ikusten da grafikoan (ikus d), beraz:</p><p><math display=\"block\"><mrow><mi>ω</mi><msub><mi>t</mi><mn>1</mn></msub><mo>+</mo><mi>ϕ</mi><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>ϕ</mi><mo>=</mo><mi>−</mi><mi>ω</mi><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mi>−</mi><mfrac><mi>π</mi><mn>6</mn></mfrac><mo>⋅</mo><mn>2</mn><mo>=</mo><mi>−</mi><mfrac><mi>π</mi><mn>3</mn></mfrac></mrow></math></p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>ϕ</mi><mo>=</mo><mi>−</mi><mn>60</mn><msup><mi></mi><mo>∘</mo></msup><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> edo </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"1.0em\"></mspace><mo>−</mo><mfrac><mi>π</mi><mn>3</mn></mfrac></mrow></math></p></div><p>d)  <math display=\"inline\"><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn></mrow></math> s unean:</p><p><math display=\"block\"><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><msub><mi>t</mi><mn>1</mn></msub><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>9.5</mn><mo>⋅</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>π</mi><mn>6</mn></mfrac><mo>⋅</mo><mn>2</mn><mo>−</mo><mfrac><mi>π</mi><mn>3</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>9.5</mn><mo>⋅</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math></p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p></div><p>e) Azelerazioa HAS batean <math display=\"inline\"><mrow><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><msup><mi>ω</mi><mn>2</mn></msup><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> da beti. <math display=\"inline\"><mrow><msub><mi>t</mi><mn>2</mn></msub><mo>=</mo><mn>5</mn></mrow></math> s unean:</p><p><math display=\"block\"><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><msub><mi>t</mi><mn>2</mn></msub><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>9.5</mn><mo>⋅</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>π</mi><mn>6</mn></mfrac><mo>⋅</mo><mn>5</mn><mo>−</mo><mfrac><mi>π</mi><mn>3</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>9.5</mn><mo>⋅</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>9.5</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><p><math display=\"block\"><mrow><mi>a</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>−</mi><msup><mi>ω</mi><mn>2</mn></msup><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msup><mrow><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>π</mi><mn>6</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mn>2</mn></msup><mo>⋅</mo><mn>9.5</mn><mo>≈</mo><mi>−</mi><mn>2.60</mn><mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><msup><mi>s</mi><mn>2</mn></msup></mfrac></mrow></math></p><div class=\"j-oharra\"><span class=\"j-et\">Biribiltze-oharra.</span> Kalkulu zehatzak <math display=\"inline\"><mrow><mi>a</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≈</mo><mi>−</mi><mn>2.60</mn></mrow></math>  m/s² ematen du; kuadernoko emaitza jatorrizkoa <math display=\"inline\"><mrow><mi>−</mi><mn>2.62</mn></mrow></math>  m/s² da. Aldea txikia da (<math display=\"inline\"><mrow><mo>&lt;</mo><mn>1</mn><mi>%</mi></mrow></math>) eta grafikotik irakurritako <math display=\"inline\"><msub><mi>v</mi><mi mathvariant=\"normal\">max</mi></msub></math> balioaren biribiltzetik etor daiteke; jatorrizko balio literala mantendu da.</div><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>a</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>−</mi><mn>2.62</mn><mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><msup><mi>s</mi><mn>2</mn></msup></mfrac></mrow></math></p></div>"
+    },
+    {
+     "e": "<p>Tarzán (<math display=\"inline\"><mrow><msub><mi>m</mi><mi>T</mi></msub><mo>=</mo><mn>85</mn></mrow></math> kg) jauzi pendular bat egiten du <math display=\"inline\"><mrow><mi>h</mi><mo>=</mo><mn>2</mn></mrow></math> m-ko altueratik (ohi bezala, oihuka), <math display=\"inline\"><mrow><mi>L</mi><mo>=</mo><mn>20</mn></mrow></math> m-ko lianatik zintzilik. Bere ibilbideko puntu baxuenetik igarotzean, Chita-k (<math display=\"inline\"><mrow><msub><mi>m</mi><mi>C</mi></msub><mo>=</mo><mn>35</mn></mrow></math> kg) besoetatik heltzen dio jasoz. <strong>2.5 puntu</strong>.</p><p>(Margen: &quot;4. gaia, 7. ariketa&quot;.)</p><figure class=\"j-irudia\"><img src=\"media/irudiak/af267403742d64ec.svg\" alt=\"Tarzán lianan oszilatzen, h altueratik puntu baxuenerainoraino,\n    non Chita-k heltzen dion (jatorrizkoaren berreraikitzea).\" width=\"124\" loading=\"lazy\"><figcaption>Tarzán lianan oszilatzen, <math display=\"inline\"><mi>h</mi></math> altueratik puntu baxuenerainoraino,\n    non Chita-k heltzen dion (jatorrizkoaren berreraikitzea).</figcaption></figure><p>a) Lianak apurtuko ez balu, zein altueraraino igoko lirateke Tarzán (T) eta Chita (C) beren higiduraren puntu altuenean? b) Zein da sokaren tentsioa Tarzán ibilbideko puntu baxuenetik igarotzean? Eta Chita-k heldu ondoren? c) Suposatu Tarzán eta Chita, lianari lotuta, oszilazio txikiak egiten dituztela bertikalarekiko. Zein litzateke Jane-k (J irudian) neurtuko lukeen oszilazioen periodoa?</p>",
+     "s": "<p><strong>Ebazpena.</strong>  (<math display=\"inline\"><mrow><mi>g</mi><mo>=</mo><mn>9.81</mn></mrow></math>  m/s² erabiliko da.)</p><p>b) Energiaren kontserbazioaz (marruskadurarik gabe), Tarzán-ek puntu baxuenean duen abiadura:</p><p><math display=\"block\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>m</mi><mi>T</mi></msub><msup><mi>v</mi><mn>2</mn></msup><mo>=</mo><msub><mi>m</mi><mi>T</mi></msub><mi>g</mi><mi>h</mi><mo>⇒</mo><mi>v</mi><mo>=</mo><msqrt><mrow><mn>2</mn><mi>g</mi><mi>h</mi></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>2</mn><mo>⋅</mo><mn>9.81</mn><mo>⋅</mo><mn>2</mn></mrow></msqrt><mo>≈</mo><mn>6.26</mn><mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><mrow><mtext mathvariant=\"normal\">s </mtext><mspace width=\"0.333em\"></mspace></mrow></mfrac></mrow></math></p><p>Puntu baxuenean, higidura zirkularra denez (soka bidez), tentsioak grabitatearen indarra eta indar zentripetua orekatu behar ditu:</p><p><math display=\"block\"><mrow><msub><mi>T</mi><mi>T</mi></msub><mo>−</mo><msub><mi>m</mi><mi>T</mi></msub><mi>g</mi><mo>=</mo><msub><mi>m</mi><mi>T</mi></msub><mfrac><msup><mi>v</mi><mn>2</mn></msup><mi>L</mi></mfrac><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><msub><mi>T</mi><mi>T</mi></msub><mo>=</mo><msub><mi>m</mi><mi>T</mi></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>g</mi><mo>+</mo><mfrac><msup><mi>v</mi><mn>2</mn></msup><mi>L</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msub><mi>m</mi><mi>T</mi></msub><mi>g</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mfrac><mrow><mn>2</mn><mi>h</mi></mrow><mi>L</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></p><p><math display=\"block\"><mrow><msub><mi>T</mi><mi>T</mi></msub><mo>=</mo><mn>85</mn><mo>⋅</mo><mn>9.81</mn><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mfrac><mn>4</mn><mn>20</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>85</mn><mo>⋅</mo><mn>9.81</mn><mo>⋅</mo><mn>1.2</mn><mo>≈</mo><mn>1000</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> N </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msub><mi>T</mi><mi>T</mi></msub><mo>≈</mo><mn>1000</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> N </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p></div><p>Chita-k Tarzán heltzean, talka lasterra eta ia-uneko dela suposatzen da (grabitatearen pultsua denbora-tarte horretan baztergarria da), beraz momentu lineala kontserbatzen da:</p><p><math display=\"block\"><mrow><msub><mi>m</mi><mi>T</mi></msub><mi>v</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>m</mi><mi>T</mi></msub><mo>+</mo><msub><mi>m</mi><mi>C</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>v</mi><mo>′</mo></msup><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><msup><mi>v</mi><mo>′</mo></msup><mo>=</mo><mfrac><mrow><msub><mi>m</mi><mi>T</mi></msub><mi>v</mi></mrow><mrow><msub><mi>m</mi><mi>T</mi></msub><mo>+</mo><msub><mi>m</mi><mi>C</mi></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>85</mn><mo>⋅</mo><mn>6.26</mn></mrow><mn>120</mn></mfrac><mo>≈</mo><mn>4.44</mn><mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><mrow><mtext mathvariant=\"normal\">s </mtext><mspace width=\"0.333em\"></mspace></mrow></mfrac></mrow></math></p><p>Une horretan bertan (puntu baxuenean, oraindik), sistema berriaren tentsioa:</p><p><math display=\"block\"><mrow><msub><mi>T</mi><mtext mathvariant=\"normal\">T+C</mtext></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>m</mi><mi>T</mi></msub><mo>+</mo><msub><mi>m</mi><mi>C</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>g</mi><mo>+</mo><mi>v</mi><mfrac><msup><mi>′</mi><mn>2</mn></msup><mi>L</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>120</mn><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>9.81</mn><mo>+</mo><mfrac><msup><mn>4.44</mn><mn>2</mn></msup><mn>20</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≈</mo><mn>1295</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> N </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msub><mi>T</mi><mi>T</mi></msub><mo>≈</mo><mn>1000</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> N</mtext></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>T</mi><mtext mathvariant=\"normal\">T+C</mtext></msub><mo>≈</mo><mn>1295</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> N </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p></div><p>a) Lianak eutsiko balu (apurtu gabe), talkaren ostean Tarzán+Chita sistemak <math display=\"inline\"><msup><mi>v</mi><mo>′</mo></msup></math> abiadurarekin jarraituko luke oszilazioa, eta kontrako aldean altuera berera igoko lirateke, energia kontserbatuz (masak elkarturik higitzen dira, eta pendulu idealaren periodoa masarekiko independentea da):</p><p><math display=\"block\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>m</mi><mi>T</mi></msub><mo>+</mo><msub><mi>m</mi><mi>C</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>v</mi><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>m</mi><mi>T</mi></msub><mo>+</mo><msub><mi>m</mi><mi>C</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>g</mi><msup><mi>h</mi><mo>′</mo></msup><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><msup><mi>h</mi><mo>′</mo></msup><mo>=</mo><mi>v</mi><mfrac><msup><mi>′</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>g</mi></mrow></mfrac><mo>=</mo><mfrac><msup><mn>4.44</mn><mn>2</mn></msup><mrow><mn>2</mn><mo>⋅</mo><mn>9.81</mn></mrow></mfrac><mo>≈</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msup><mi>h</mi><mo>′</mo></msup><mo>≈</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p></div><p>c) Oszilazio txikietarako, pendulu sinplearen periodoa soilik <math display=\"inline\"><mi>L</mi></math> eta <math display=\"inline\"><mi>g</mi></math>-ren mende dago, masaren mende ez (kanpo-indar erresultantea eta inertzia biak masarekiko proportzionalak baitira):</p><p><math display=\"block\"><mrow><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mfrac><mi>L</mi><mi>g</mi></mfrac></msqrt><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mfrac><mn>20</mn><mn>9.81</mn></mfrac></msqrt><mo>≈</mo><mn>8.97</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> s </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>T</mi><mo>≈</mo><mn>8.97</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> s </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p></div>"
+    }
+   ],
+   "terminoak": [],
+   "aurrekoak": [
+    "fosz-pendulu-sinplea",
+    "fosz-doppler"
+   ],
+   "ondorengoak": [],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a12 · Azterketa gehiago (3 ariketa)",
+   "sortua": [
+    "ideia"
+   ]
+  },
+  {
+   "id": "fosz-landeta-mekanika",
+   "atala": "S10",
+   "mota": "metodoa",
+   "izena": "Mekanika-osagarriak: errodadura, plano inklinatua eta talka elastikoa",
+   "ideia": "<p>Landetaren koadernoko mekanika-ariketa batzuk (errodadura, plano inklinatua malgukiarekin, talka elastikoa); oszilazioekin zuzenean lotuta ez badaude ere, energia eta Hooke-ren legea erabiltzen dituzte.</p>",
+   "formula": "",
+   "enuntziatua": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [
+    "<p><math display=\"inline\"><mi>F</mi></math> indarpean irristatu gabe errodatzen duen esfera masiboa; translazio- (<math display=\"inline\"><mrow><mo>∑</mo><mi>F</mi><mo>=</mo><mi>m</mi><mi>a</mi></mrow></math>) eta errotazio- (<math display=\"inline\"><mrow><mo>∑</mo><mi>M</mi><mo>=</mo><mi>I</mi><mi>α</mi></mrow></math>) ekuazioez, masa-zentroaren azelerazioa (errodadura-baldintza <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mi>α</mi><mi>R</mi></mrow></math> erabilita).</p>",
+    "<p><em class=\"j-nab\">\n  Plano inklinatuan malgukira lotutako blokea: <strong>indar normala</strong> (<math display=\"inline\"><mrow><mi>N</mi><mo>=</mo><mi>m</mi><mi>g</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>α</mi></mrow></math>), <strong>marruskadura</strong>\n  (<math display=\"inline\"><mrow><msub><mi>F</mi><mi>r</mi></msub><mo>=</mo><mi>μ</mi><mi>N</mi></mrow></math>), eta <strong>lan-energia balantzea</strong> (energia elastikoa <math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></math> barne) <math display=\"inline\"><mi>k</mi></math> konstante elastikoa\n  lortzeko.\n</em></p>",
+    "<p>Erorketa askez, <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><msqrt><mrow><mn>2</mn><mi>g</mi><mi>h</mi></mrow></msqrt></mrow></math>: <math display=\"block\"><mrow><msub><mi>v</mi><mi>C</mi></msub><mo>=</mo><msqrt><mrow><mn>2</mn><mi>g</mi><msub><mi>h</mi><mi>N</mi></msub></mrow></msqrt><mo>=</mo><mn>14</mn><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m/s</mtext></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>v</mi><mi>N</mi></msub><mo>=</mo><msqrt><mrow><mn>2</mn><mi>g</mi><msub><mi>h</mi><mi>L</mi></msub></mrow></msqrt><mo>=</mo><mn>12</mn><mo>,</mo><mn>14</mn><mspace width=\"0.222em\"></mspace><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m/s</mtext></mrow><mi>.</mi></mrow></math> (<math display=\"inline\"><mrow><mi>g</mi><mo>=</mo><mn>9</mn><mo>,</mo><mn>8</mn></mrow></math>-rekin, <math display=\"inline\"><mrow><mn>14</mn><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m/s</mtext></mrow></mrow></math>-k <math display=\"inline\"><mrow><mi>h</mi><mo>=</mo><mn>10</mn><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow></mrow></math> ematen du, eta <math display=\"inline\"><mrow><mn>12</mn><mo>,</mo><mn>14</mn></mrow></math>-k <math display=\"inline\"><mrow><mi>h</mi><mo>≈</mo><mn>7</mn><mo>,</mo><mn>5</mn><mspace width=\"0.222em\"></mspace><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow></mrow></math>.)</p>"
+   ],
+   "ariketak": [],
+   "terminoak": [],
+   "aurrekoak": [
+    "fosz-malgukia",
+    "fosz-energia-oszilazioa"
+   ],
+   "ondorengoak": [],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a19 · Errodadura; a20 · Plano inklinatua; a21 · Talka elastikoa",
+   "sortua": [
+    "ideia"
+   ]
+  },
+  {
+   "id": "fosz-dimentsio-analisia",
+   "atala": "S10",
+   "mota": "ideia",
+   "izena": "Dimentsio-analisia eta Bernoulli (oharra)",
+   "ideia": "<p>Magnitude fisikoen dimentsioak egiaztatzea ekuazioak probatzeko tresna sinple eta indartsua da.</p>",
+   "formula": "",
+   "enuntziatua": "<p><em class=\"j-nab\">\n  <strong>Dimentsio-analisia</strong>: magnitude fisikoen dimentsioak egiaztatu (presioa, energia bolumen-unitateko:\n  <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mtext mathvariant=\"normal\">energia</mtext><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mtext mathvariant=\"normal\">bolumena</mtext><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>). <strong>Bernoulli</strong> ekuazioa berrikusia, eta MAS-ariketa numeriko bat.\n</em></p>",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "dimentsio-analisia",
+     "def": "<p>Ekuazio fisiko batean magnitude bakoitzaren dimentsioak (luzera, masa, denbora…) bat datozela egiaztatzen duen teknika.</p>"
+    }
+   ],
+   "aurrekoak": [],
+   "ondorengoak": [],
+   "iturria": "Fisika Orokorra (UPV/EHU) · M17 Oszilazioak eta uhinak · a37 · Dimentsio-analisia eta Bernoulli",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  }
+ ]
+}

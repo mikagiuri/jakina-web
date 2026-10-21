@@ -7,15 +7,69 @@
    "egoera": "proposamena"
   },
   {
+   "clave": "01ma_01espazioak",
+   "izenburua": "B2 - Aljebra oinarriak eta espazio bektorialak (I)",
+   "kontzeptuak": 44,
+   "egoera": "proposamena"
+  },
+  {
    "clave": "01ma_02matrizeak",
    "izenburua": "B2 - Matrizeak, sistemak eta determinanteak (II)",
    "kontzeptuak": 36,
    "egoera": "proposamena"
   },
   {
+   "clave": "01ma_03diagonalizazioa",
+   "izenburua": "B2 · Aplikazio linealak eta diagonalizazioa (I)",
+   "kontzeptuak": 45,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01ma_04algebra2013",
+   "izenburua": "B2 · Aljebra lineala eta geometria (algebra2013)",
+   "kontzeptuak": 49,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01ma_05geometria1",
+   "izenburua": "B2 · Geometria eta koadernoak (III)",
+   "kontzeptuak": 45,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01ma_06geometria2",
+   "izenburua": "B2 · Geometria eta koadernoak (IV)",
+   "kontzeptuak": 25,
+   "egoera": "proposamena"
+  },
+  {
    "clave": "01mc_01deribatuak",
    "izenburua": "B3 - Kalkulua eta analisia - I",
    "kontzeptuak": 40,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01mc_02funtzioak",
+   "izenburua": "B3 · Kalkulua eta analisia (I) — koadernoak II",
+   "kontzeptuak": 59,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01mc_03integralak",
+   "izenburua": "B3 · Kalkulua eta analisia (II): integrazioa",
+   "kontzeptuak": 44,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01mc_04funtzioserieak",
+   "izenburua": "B3 · Kalkulua eta analisia (III)",
+   "kontzeptuak": 31,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01mc_05bektoriala",
+   "izenburua": "B3 - Kalkulua eta analisia - IV",
+   "kontzeptuak": 78,
    "egoera": "proposamena"
   },
   {
@@ -28,6 +82,18 @@
    "clave": "02fg_01partikula",
    "izenburua": "B04A.1 - M16 Mekanika",
    "kontzeptuak": 42,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "02fg_03oszilazioak",
+   "izenburua": "B04A.2 · M17 Oszilazioak eta uhinak",
+   "kontzeptuak": 31,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "02fg_04elektromagnetismoa",
+   "izenburua": "B04B.1 · Elektromagnetismoaren oinarria eta F1",
+   "kontzeptuak": 54,
    "egoera": "proposamena"
   },
   {
@@ -49,15 +115,69 @@
    "egoera": "proposamena"
   },
   {
+   "clave": "03mm_07estatistika",
+   "izenburua": "B6.9 - Estatistika: laginketa, estimazioa eta hipotesiak (11. gaia)",
+   "kontzeptuak": 39,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "03mm_08kaosa",
+   "izenburua": "B6D - Kaosa eta erakarle arraroak (temarioz kanpoko luzapena)",
+   "kontzeptuak": 6,
+   "egoera": "proposamena"
+  },
+  {
    "clave": "04em_01elektrodinamika",
    "izenburua": "B08.1 - M23 Griffiths 2-8",
    "kontzeptuak": 41,
    "egoera": "proposamena"
   },
   {
+   "clave": "04em_02erradiazioa",
+   "izenburua": "B08.2 · Griffiths 9–12 eta M24 Optika",
+   "kontzeptuak": 52,
+   "egoera": "proposamena"
+  },
+  {
    "clave": "05mk_01kontzeptuak",
    "izenburua": "B9.1 - Oinarrizko kontzeptuak",
    "kontzeptuak": 31,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "05mk_02higiduraerl",
+   "izenburua": "B9 · Mekanika klasikoa 2/10 · Higidura erlatiboa",
+   "kontzeptuak": 25,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "05mk_05solidoa",
+   "izenburua": "B9 · Mekanika klasikoa 5/10 · Solido zurruna",
+   "kontzeptuak": 27,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "05mk_06analitikoa",
+   "izenburua": "B9 · Mekanika klasikoa 6/10 · Mekanika analitikoa eta Lagrange-dispositiboak",
+   "kontzeptuak": 42,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "05mk_07oszilazioak",
+   "izenburua": "B9.7 - Oszilazio txikiak",
+   "kontzeptuak": 44,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "05mk_08kaosa",
+   "izenburua": "B9 · Mekanika klasikoa 8/10 · Kaos determinista",
+   "kontzeptuak": 16,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "05mk_10jarraituak",
+   "izenburua": "B9 · Mekanika klasikoa 10/10 · Ingurune jarraituak",
+   "kontzeptuak": 48,
    "egoera": "proposamena"
   },
   {
@@ -69,6 +189,12 @@
   {
    "clave": "07fe_01estatistikoa",
    "izenburua": "B10.2 · Fisika estatistikoa",
+   "kontzeptuak": 30,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "09zz_01programazioa",
+   "izenburua": "B10.3 · M28 Programazioa eta algoritmoak",
    "kontzeptuak": 30,
    "egoera": "proposamena"
   }

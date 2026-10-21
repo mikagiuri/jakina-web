@@ -1,0 +1,712 @@
+{
+ "kapitulua": "05mk_08kaosa",
+ "izenburua": "B9 · Mekanika klasikoa 8/10 · Kaos determinista",
+ "sarrera": "<p>Mekanika klasikoan ekuazio deterministek ere portaera aurreikusezina sor dezakete. Duffingen oszilatzailearen bidez ikusiko dugu nola pasatzen den oreka-puntuetatik eta ziklo limiteetatik erakarle bitxietara, hastapen-baldintzekiko sentikortasunaren eta fraktalen bidez. Azkenean kaosa sistema hamiltondarretan eta sakabanatzean aztertzen da.</p>",
+ "atalak": [
+  {
+   "id": "S1",
+   "izena": "Duffingen oszilatzailea: orekak, erakarleak eta ziklo limiteak"
+  },
+  {
+   "id": "S2",
+   "izena": "Poincaréren sekzioak eta higidura kuasiperiodikoa"
+  },
+  {
+   "id": "S3",
+   "izena": "Kaosaren ezaugarriak: sentikortasuna eta erakarle bitxiak"
+  },
+  {
+   "id": "S4",
+   "izena": "Fraktalak, dimentsio fraktala eta okinaren transformazioa"
+  },
+  {
+   "id": "S5",
+   "izena": "Arro-muga fraktalak eta aurresanezintasuna"
+  },
+  {
+   "id": "S6",
+   "izena": "Kaosa sistema hamiltondarretan eta sakabanatzean"
+  },
+  {
+   "id": "S7",
+   "izena": "Praktika"
+  }
+ ],
+ "kontzeptuak": [
+  {
+   "id": "kkao-kaos-determinista",
+   "atala": "S1",
+   "mota": "ideia",
+   "izena": "Kaos determinista",
+   "ideia": "<p>Kaos determinista: higidura-ekuazioak guztiz zehatzak dira, baina emaitza oso zaila da aurreikustea. Askotan ekuazioa ezin dugu ebatzi, eta zenbakizko simulazioa erabili behar dugu.</p>",
+   "enuntziatua": "<p>Kaos determinista mekanikan nola agertzen den aztertuko dugu hurrengo orrialdeetan. Oinarrizko kontzeptu batzuk baizik ez ditugu ikusiko eta kontuan hartu behar da kaosa mekanika klasikoan ez ezik zientziaren arlo askotan agertzen dela. Kasu gehienetan ez dakigu nola aurkitu higidura-ekuazioen soluzio zehatzak: testuliburuetan aztertzen diren kasu errazak salbuespen nagusiak dira. Beraz, zenbakizko simulaziora jo beharko dugu<span class=\"j-oin\">[[49] programaz egin dira gai honetako zenbakizko kalkulu guztiak.]</span>.</p>",
+   "formula": "",
+   "azalpena": "<figure class=\"j-irudia\"><img src=\"media/irudiak/3f4643b4ee98068d.svg\" alt=\"Sakabanatze kaotikoa: 8.24 irudiko problemaren 1024 orbita.\" width=\"320\" loading=\"lazy\"><figcaption>Sakabanatze kaotikoa: 8.24 irudiko problemaren 1024 orbita.</figcaption></figure><figure class=\"j-irudia\"><img src=\"media/irudiak/190bd44aaf6c642b.svg\" alt=\"Tresna mekanikoa.\" width=\"158\" loading=\"lazy\"><figcaption>Tresna mekanikoa.</figcaption></figure>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "kaos determinista",
+     "def": "<p>Ekuazio deterministek sortutako higidura ez-erregularra, hastapen-baldintzekiko oso sentikorra, eta ondorioz epe luzera aurreikusezina.</p>"
+    },
+    {
+     "t": "zenbakizko simulazioa",
+     "def": "<p>Higidura-ekuazioak ordenagailuz urratsez urrats integratzea, soluzio zehatzik ez dagoenean.</p>"
+    }
+   ],
+   "aurrekoak": [],
+   "ondorengoak": [
+    "kkao-duffingen-ekuazioa"
+   ],
+   "iturria": "B9.8 · a1 Kaos determinista",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-duffingen-ekuazioa",
+   "atala": "S1",
+   "mota": "definizioa",
+   "izena": "Duffingen ekuazioa: tresna mekaniko baten eredua",
+   "ideia": "<p>Bi imanen artean oszilatzen duen burdin hari bat eredu daiteke potentzial bikoitz batekin, marruskadurarekin eta kanpo-indar batekin. Ekuazio horri Duffingen ekuazioa deritzo, eta gai ez-lineal bakar batek portaera aberatsa ematen dio.</p>",
+   "enuntziatua": "<p>Orain, abiadurarekiko proportzionala den marruskadura eta kanpo-indar harmonikoa kontuan hartuz, hauxe da aztertuko dugun higidura-ekuazio osoa, <strong>Duffingen ekuazioa</strong>  deritzona: <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>+</mo><mn>2</mn><mi>γ</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>−</mo><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>f</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi><mi>.</mi></mrow></math> Ekuazio hau sinplifikatuegia dela pentsa genezake, eta itxuraz ez zaigu hain arrotz egiten, zeinu bat eta gai kubikoa kenduta ohiko oszilador harmoniko bortxatua baita. Baina ikusiko dugunez, gai ez-lineal hori agertzeak ondorio dinamiko ikaragarriak dakartza eta ekuazio hau oso aberatsa da ikuspuntu dinamikotik.</p>",
+   "formula": "",
+   "azalpena": "<p>Irudiko burdin hariak bi imanen erakarpena pairatzen du eta bai aireak eragindako marruskadura ere. Geroago, <math display=\"inline\"><mi>F</mi></math> kanpo-indar harmoniko bat aplikatuko da haria eta imanak kokaturik dauden euskarrian.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/1e7cea7f6b1825bb.svg\" alt=\"Tresna mekanikoaren eredua.\" width=\"170\" loading=\"lazy\"><figcaption>Tresna mekanikoaren eredua.</figcaption></figure><p>Argi denez, <math display=\"inline\"><mrow><mi>F</mi><mo>=</mo><mn>0</mn></mrow></math> denean bi oreka-posizio egonkor izango ditu sistema honek, burdin hariaren mutur askea iman bakoitzaren ondoan dagoenean hain zuzen. (<strong>Biegonkortasuna</strong> dugula esaten da horrelako kasuetan.) Gainera, simetriaren ondorioz, haria pausagunean egon daiteke posizio bertikalean, egoera hau ezegonkorra bada ere. Oreka-puntu hauek aztertzeko eta sistema honen eredu matematikoa egiteko, maximo bat bi minimoren artean dituen potentzial batez balia gaitezke, oraingoz marruskadura arbuiatzen badugu behintzat. Aukerarik errazena honako potentzial hau dugu<span class=\"j-oin\">[Gai honetan dimentsio gabeko aldagaiak erabiltzen ditugu, baita <math display=\"inline\"><mrow><mi>m</mi><mo>=</mo><mn>1</mn></mrow></math> masa.]</span>: <math display=\"block\"><mrow><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>4</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math></p><figure class=\"j-irudia\"><img src=\"media/irudiak/99a013bbea815aef.svg\" alt=\"Fase-espazioa eta soluzio batzuk γ=f=0 kasuan.\" width=\"472\" loading=\"lazy\"><figcaption>Fase-espazioa eta soluzio batzuk <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mi>f</mi><mo>=</mo><mn>0</mn></mrow></math> kasuan.</figcaption></figure>",
+   "frogapena": "",
+   "adibideak": [
+    "<p><em>Froga ezazu marruskadura arbuiagarria denean, kanpo-indarrak aurkitu behar den baldintza betetzen badu,\nDuffingen ekuazioak <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mi>ω</mi><mn>3</mn></mfrac><mi>t</mi></mrow></math> soluzio periodiko zehatz bat onartzen duela.</em></p><p>Duffingen <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>−</mo><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>f</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi></mrow></math> ekuazioan <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mi>ω</mi><mn>3</mn></mfrac><mi>t</mi></mrow></math> saiatzen badugu, <math display=\"block\"><mrow><mfrac><mn>1</mn><mn>18</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>9</mn><msup><mi>A</mi><mn>3</mn></msup><mo>+</mo><mn>18</mn><mi>f</mi><mo>−</mo><mn>2</mn><mi>A</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>9</mn><mo>+</mo><msup><mi>ω</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mn>9</mn><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>A</mi><mn>3</mn></msup><mo>−</mo><mn>4</mn><mi>f</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi mathvariant=\"normal\">cos</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>ω</mi><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mi>ω</mi><mn>3</mn></mfrac><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> geratzen zaigu. Argi dago ekuazio hori <math display=\"inline\"><mi>t</mi></math> une guztietarako bete dadin, <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mroot><mrow><mn>4</mn><mi>f</mi></mrow><mn>3</mn></mroot></mrow></math> aukeratu behar dela. Hori eginez, <math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>3</mn><mi>f</mi><mo>−</mo><mroot><mrow><mn>4</mn><mi>f</mi></mrow><mn>3</mn></mroot><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mfrac><msup><mi>ω</mi><mn>2</mn></msup><mn>9</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mi>ω</mi><mn>3</mn></mfrac><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> baldintza geratzen zaigu. Soluzio periodiko berezia onartzeko, hortaz, <math display=\"block\"><mrow><mi>ω</mi><mo>=</mo><mn>3</mn><msqrt><mrow><mn>3</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>f</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mn>2</mn><mi>/</mi><mn>3</mn></mrow></msup><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></math> erlazioa bete behar da.</p>"
+   ],
+   "ariketak": [
+    {
+     "e": "<p>Froga ezazu higidura-ekuazioa honako hau dela: <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>=</mo><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math></p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "Duffingen ekuazioa",
+     "def": "<p>Oszilador ez-lineal bortxatu eta indargetua: ẍ + 2γẋ − x(1 − x²) = f cos ωt. Kaosa ikasteko eredu nagusia da.</p>"
+    },
+    {
+     "t": "biegonkortasuna",
+     "def": "<p>Sistemak bi oreka-posizio egonkor dituenean gertatzen dena (kasu honetan, bi imanen ondoan).</p>"
+    },
+    {
+     "t": "potentzial bikoitza",
+     "def": "<p>Bi minimo eta maximo bat dituen energia potentziala; hemen V(x) = −x²(2 − x²)/4.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-kaos-determinista"
+   ],
+   "ondorengoak": [
+    "kkao-oreka-puntuak-orbita-periodikoak",
+    "kkao-hastapen-baldintzekiko-sentikortasuna"
+   ],
+   "iturria": "B9.8 · a2 Tresna mekaniko baten eredu matematiko sinplifikatua; a13 Problema ebatziak (soluzio periodiko zehatza)",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-oreka-puntuak-orbita-periodikoak",
+   "atala": "S1",
+   "mota": "definizioa",
+   "izena": "Oreka-puntuak eta oszilazio periodikoak",
+   "ideia": "<p>Marruskadurarik eta kanpo-indarrik gabe, energia ez da aldatzen. Potentzialaren bi minimoak oreka egonkorrak dira (zentroak), maximoa ezegonkorra (zela-puntua), eta ibilbide gehienak itxiak dira.</p>",
+   "enuntziatua": "<p><math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntuak potentzialaren minimoei dagozkienez, oreka-puntu egonkorrak dira, eta haietariko baten ondoan hasten diren ibilbideak beti daude puntuaren inguruan; ez dira handik aldentzen ezta puntura joaten ere. Oreka egonkorra izan arren ez da asintotikoki egonkorra eta puntu horiei <strong>zentroak</strong> deritze, haien inguruko ibilbideen itxuragatik.</p><p>Potentzialaren maximoaren kasuan, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> oreka-puntua ezegonkorra daukagu eta (zela bateko zentroan utzitako bolatxo bati gertatzen zaiona kontuan harturik edo)  <strong>zela-puntua</strong> dela diogu.</p>",
+   "formula": "",
+   "azalpena": "<p>Hasteko marruskadura eta kanpo-indarra nuluak direla onartzen badugu, sistema kontserbatzailea izango da eta energia mekanikoa higidura-konstantea dela adierazten duen hurrengo adierazpena fase-ibilbideen ekuazioa da: <math display=\"block\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>E</mi><mi>.</mi></mrow></math></p><p>Ibilbide gehienak itxiak dira eta, beraz, oszilazio periodikoei dagozkie. Energia negatiboa bada, zentro baten inguruan oszilatzen du sistemak, orbita berdeetan ikusten den bezala. Energia positiboaren kasuan, sistema maximoaren gainetik pasatzeko gai da eta orbitak bi zentroak inguratzen ditu.</p><p>Sistema honek askatasun-gradu bakarra duenez, aldiune bateko posizioa eta abiadura izango dira hastapen-baldintzak. Beraz, fase-espazioaren puntu bakoitza hastapen-baldintzen multzo bat eta soluzio bati dagokio: puntu bakoitzetik soluzio bat eta soilik bat igarotzen da <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> unean.</p><p>Salbuespenak salbuespen, orbita gehienak oszilazio periodikoak dira eta euren periodoa anplitudearen menpekoa da. Higidura sinpleenetarikoa dugu hau, baina nahiko berezia, marruskadura txikienak ere deuseztatzen du eta.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/b6ba1310df36f4de.svg\" alt=\"Fase-espazioa eta soluzio batzuk γ=0.1, f=0 kasuan.\" width=\"472\" loading=\"lazy\"><figcaption>Fase-espazioa eta soluzio batzuk <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0.1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0</mn></mrow></math> kasuan.</figcaption></figure>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Egiaztatu sistema honen fase-espazioa 8.4 irudikoa dela.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>Nolakoak dira (kasu berezi honetan) energia nuluko kasuari dagozkion ibilbideak? Zenbat dira? (Oreka-puntu batetik hasita bertara itzultzen diren orbitei <strong>homoklinikoak</strong> deritze.)</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "zentroa",
+     "def": "<p>Oreka egonkorra (baina ez asintotikoki egonkorra), non inguruko ibilbideak puntuaren inguruan itxita dauden.</p>"
+    },
+    {
+     "t": "zela-puntua",
+     "def": "<p>Oreka ezegonkorra, potentzialaren maximoari dagokiona; zela baten zentroan utzitako bolatxoa bezala.</p>"
+    },
+    {
+     "t": "ibilbide homoklinikoa",
+     "def": "<p>Oreka-puntu batetik abiatu eta bertara itzultzen den orbita.</p>"
+    },
+    {
+     "t": "fase-ibilbidea",
+     "def": "<p>Posizioa eta abiadura planoan sistemak marrazten duen kurba; hemen energia konstanteko kurba da.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-duffingen-ekuazioa"
+   ],
+   "ondorengoak": [
+    "kkao-erakarleak-eta-arroak"
+   ],
+   "iturria": "B9.8 · a3 Oszilazio periodikoak",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-erakarleak-eta-arroak",
+   "atala": "S1",
+   "mota": "definizioa",
+   "izena": "Oszilazio indargetuak: erakarleak eta arroak",
+   "ideia": "<p>Marruskadurak oszilazioak ahultzen ditu eta sistema bi minimoetako batera iristen da: erakarleak dira. Hastapen-baldintza bakoitzak erakarle bat dauka, eta haien multzoak arroak dira.</p>",
+   "enuntziatua": "<p>Baina askoz ere interesgarriagoak dira <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntura doazen bi orbitak, <strong>barietate egonkorra</strong> osatzen dutenak alegia. 8.6 irudian argi eta garbi ikusten denez, ez doaz erakarle batera eta, hortaz, foku desberdinetara jotzen duten orbitak banantzen dituzte. Horregatik, orbita hauek <strong>banantzailea</strong> osatzen dutela esaten dugu. Erakarle batera doazen soluzioei dagozkien fase-puntuen leku geometrikoa, erakarlearen <strong>arroa</strong> da eta banantzailea erakarle desberdinen arroak banantzen ditu: <strong>arro-muga</strong> da.</p>",
+   "formula": "",
+   "azalpena": "<p>Orain marruskadura kontuan hartzen badugu, energia mekanikoa eta oszilazioen anplitudea gutxituz joango dira eta ia orbita guztiek energia potentzialaren minimo batera joko dute. Ondorioz, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntuak asintotikoki egonkorrak izango dira orain, inguruan dauden orbitek bertara hurbiltzeko joera baitute. Orbita horien itxura geometrikoa kontuan hartuz, oreka-puntuak <strong>fokuak</strong> direla esaten da (kasu gainindargetuan <strong>nodoak</strong> dira: ikus [46]), eta euren inguruko orbitak erakartzen dituztenez, <strong>erakarleak</strong> deritze.</p><p>8.5 irudian ikusten dugunez, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> jatorria zela-puntua da, berriro ere, baina handik sortzen diren orbitak oso desberdinak dira orain. Haietariko bik fokuetara jotzen dute. Orbita hauek oreka-puntuaren <em>barietate ezegonkorra</em> osatzen dute.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/5daa29064ea6692a.svg\" alt=\"Erakarpen-arroak γ=0.1, f=0 kasuan.\" width=\"266\" loading=\"lazy\"><figcaption>Erakarpen-arroak <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0.1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0</mn></mrow></math> kasuan.</figcaption></figure>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "erakarlea",
+     "def": "<p>Inguruko orbitak erakartzen dituen oreka-puntua (edo, orokorrean, multzoa); asintotikoki egonkorra da.</p>"
+    },
+    {
+     "t": "foku eta nodo",
+     "def": "<p>Erakarle puntualen itxura geometrikoa: fokuak espiral batean, nodoak (kasu gainindargetuan) espiral gabe.</p>"
+    },
+    {
+     "t": "arroa",
+     "def": "<p>Erakarle batera doazen soluzioei dagozkien fase-puntuen multzoa.</p>"
+    },
+    {
+     "t": "banantzailea (arro-muga)",
+     "def": "<p>Erakarle desberdinen arroak banantzen dituen kurba; zela-puntura doazen orbitek osatzen dute.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-oreka-puntuak-orbita-periodikoak"
+   ],
+   "ondorengoak": [
+    "kkao-ziklo-limiteak",
+    "kkao-arro-muga-fraktalak"
+   ],
+   "iturria": "B9.8 · a4 Oszilazio indargetuak",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-ziklo-limiteak",
+   "atala": "S1",
+   "mota": "definizioa",
+   "izena": "Oszilazio bakartuak: ziklo limiteak",
+   "ideia": "<p>Kanpo-indarra dagoenean ez dago oreka-punturik, baina sistema orbita periodiko bakar batera iristen da. Orbita hori erakarlea da: ziklo limitea.</p>",
+   "enuntziatua": "<p>Kanpo-indarra badago, oreka-puntuak ezinezkoak dira, konstanteek ez baitute (8.3) higidura-ekuazioa, betetzen. Soluzio periodikoak ager daitezke; baina kasu kontserbatzailean ez bezala, ez dute osatuko anplitudearekin era jarraituan aldatzen diren periodoetako orbiten multzo infinitu bat. Orain, periodo nagusi bat dugu: kanpo-indarrarena hain zuzen. Oszilazio linealen kasuan, kanpo-indarraren periodoa duen orbita periodiko bakarra dugu eta, gainera, erakarlea da, beste orbita guztiek tarte iragankor baten ondoren soluzio periodiko bakartu horretara jotzen dute eta. Orbita periodiko bakartuei <strong>ziklo limiteak</strong> deritze.</p>",
+   "formula": "",
+   "azalpena": "<figure class=\"j-irudia\"><img src=\"media/irudiak/2d63ebee94e3d268.svg\" alt=\"Duffingen ekuazioa γ=0.1, f=0.23 kasuan.\" width=\"472\" loading=\"lazy\"><figcaption>Duffingen ekuazioa <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0.1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0.23</mn></mrow></math> kasuan.</figcaption></figure><p>Duffingen ekuazioan <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0.23</mn></mrow></math> balioa aukeratzen badugu, antzeko eboluzioa ikusiko dugu kasu ez-lineal honetan. Desagertu diren bi erakarle puntualen ordez bi ziklo limite daude, eta asintotikoki egonkorrak, erakarleak, dira.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "ziklo limitea",
+     "def": "<p>Orbita periodiko bakartua; inguruko orbita guztiek, tarte iragankor baten ondoren, hartara jotzen dute.</p>"
+    },
+    {
+     "t": "portaera iragankorra",
+     "def": "<p>Erakarlera iritsi aurreko denbora-tartea, erakarlearen forma oraindik hartu ez duena.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-erakarleak-eta-arroak"
+   ],
+   "ondorengoak": [
+    "kkao-poincareren-sekzioa",
+    "kkao-hastapen-baldintzekiko-sentikortasuna"
+   ],
+   "iturria": "B9.8 · a5 Oszilazio bakartuak",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-poincareren-sekzioa",
+   "atala": "S2",
+   "mota": "definizioa",
+   "izena": "Poincaréren sekzioa eta torua",
+   "ideia": "<p>Orbita hiru dimentsiotan marrazteko zaila denean, orbitak gainazal jakin bat ebakitzen duen puntuak soilik marrazten dira. Horrela bi dimentsioko irudi bat lortzen da: Poincaréren sekzioa.</p>",
+   "enuntziatua": "<p>Gauza bera egiteko, badago beste aukera bat, <strong>Poincaréren sekzioa</strong> deitzen dena. Azken metodo honetan soluzioaren eta gainazal jakin baten arteko ebakidura-puntuak marrazten dira.</p>",
+   "formula": "",
+   "azalpena": "<p>Orain arte aztertu ditugun erakarleak dimentsio gabeko puntuak edo dimentsio bateko kurbak izan dira; baina dimentsio guztietarako erakarleak aurki daitezke. Adibidez, 8.8 irudiko adibidean, <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>+</mo><mi>z</mi><mo>+</mo><mi>d</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>z</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>c</mi><mi>y</mi><mo>,</mo></mtd></mtr></mtable></math> <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mi>y</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>+</mo><mi>z</mi><mo>+</mo><mi>d</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>z</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mi>c</mi><mi>x</mi><mo>,</mo></mtd></mtr></mtable></math> <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mover><mi>z</mi><mo accent=\"true\">̇</mo></mover></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mi>a</mi><mi>z</mi><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><msup><mi>z</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mtd></mtr></mtable></math> sistemaren orbita baten zati bat ikusten da, <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mn>2.01</mn></mrow></math>, <math display=\"inline\"><mrow><mi>b</mi><mo>=</mo><mn>3</mn></mrow></math>, <math display=\"inline\"><mrow><mi>c</mi><mo>=</mo><mn>0.25</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>d</mi><mo>=</mo><mn>0.2</mn></mrow></math> balioetarako. <math display=\"inline\"><mi>y</mi></math>, <math display=\"inline\"><mi>x</mi></math> eta <math display=\"inline\"><mi>z</mi></math> ardatzen norabideetan lorturiko proiekzioak irudiko (a), (b) eta (c) parteetan ikusten dira, hurrenez hurren. Lehen oktantearen erdikariaren norabideari dagokiona, ordea, (d) delakoan erakusten da. Aipaturiko kasuetan, proiekzioen bidez hiru dimentsioko sistema dinamikoaren soluzioen adierazpenak lortzen dira bi dimentsioko planoan. Gauza bera egiteko, badago beste aukera bat, <strong>Poincaréren sekzioa</strong> deitzen dena. Azken metodo honetan soluzioaren eta gainazal jakin baten arteko ebakidura-puntuak marrazten dira. Irudiko (e) zatian, adibidez, soluzioa <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> planoan dagoen bakoitzean dagozkion <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> koordenatuek definituriko puntua marraztu da. Edozein kasutan, 8.8 irudia arretaz aztertuz, portaera iragankorraren ondoren, orbita bi dimentsioko gainazal itxi batean kiribiltzen dela ikusten da. Erakarle honen forma geometrikoa <strong>toru</strong> izenaz ezagutzen da topologian, eta toruaren eta <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> planoaren ebakidura bi zirkunferentzia dira (zirkunferentzia topologikoak dira hauek, ohiko zirkunferentziak deformatuz, baina apurtu gabe, lor daitezkeenak). Irudiko orbitatik hasierako portaera iragankorra ezabatu da, sistema erakarlearen oso hurbil egoteko behar bezain tarte luzea pasatu dela eta ikuspuntu praktikotik erakarle barruan dagoela pentsatu ahal izateko asmoz. Hastapen-baldintzak aldatu ondoren, berriro portaera iragankorra igaro arte itxaroten bada, lortzen den orbita baliokidea da ikuspuntu kualitatibotik: ez da berdina, baina gainazal berean antzeko moduan biribiltzen da. Erakarlea toruaren azala da.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/dfcf77c9e7796a76.svg\" alt=\"Proiekzioak eta Poincaréren sekzioa.\" width=\"165\" loading=\"lazy\"><figcaption>Proiekzioak eta Poincaréren sekzioa.</figcaption></figure>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "Poincaréren sekzioa",
+     "def": "<p>Soluzioaren eta gainazal jakin baten ebakidura-puntuen multzoa; dimentsioa gutxitzen du.</p>"
+    },
+    {
+     "t": "toroa",
+     "def": "<p>Bi zirkunferentziaren biderkadura den gainazala; bi periodoko erakarleen forma geometrikoa.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-ziklo-limiteak"
+   ],
+   "ondorengoak": [
+    "kkao-higidura-kuasiperiodikoa",
+    "kkao-erakarle-bitxiak",
+    "kkao-kaos-hamiltondarra"
+   ],
+   "iturria": "B9.8 · a6 Erakarleak eta Poincaréren sekzioak",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-higidura-kuasiperiodikoa",
+   "atala": "S2",
+   "mota": "definizioa",
+   "izena": "Higidura kuasiperiodikoa eta periodo-kopurua",
+   "ideia": "<p>Toru baten gainean bi periodo daudenean, elkarneurgarriak badira higidura periodikoa da; bestela ez da inoiz errepikatzen (kuasiperiodikoa). Hala ere, kaosa ez da periodo askoren ondorioa: ez-linealtasuna nahikoa da.</p>",
+   "enuntziatua": "<p>Denbora-tarte labur baten ondoren, orbita guztiak toruaren gainazalean daude ikuspuntu praktikotik. Horrelako bi dimentsioko erakarle baten kasuan bi periodo ditugu: toruaren bi sekzio nagusietako bakoitzaren inguruan bira bat egiteko behar den batez besteko balioak periodo bat definitzen du. Bi periodo horiek elkarneurgarriak badira (hau da, periodoak <math display=\"inline\"><mi>T</mi></math> eta <math display=\"inline\"><msup><mi>T</mi><mo>′</mo></msup></math> izanik, <math display=\"inline\"><mrow><mi>n</mi><mi>T</mi><mo>+</mo><msup><mi>n</mi><mo>′</mo></msup><msup><mi>T</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math> ekuazioak, <math display=\"inline\"><mi>n</mi></math> eta <math display=\"inline\"><msup><mi>n</mi><mo>′</mo></msup></math> balioetarako soluzio oso ez-nuluak baditu) higidura iraunkorra periodikoa da eta orbita toruaren gainazalean dagoen kurba itxia izango da. Baina gehienetan ez da hori gertatuko eta higidura <strong>kuasiperiodikoa</strong>  (edo, zehazkiago, <strong>biperiodikoa</strong>) izango da. Orbitak toruaren gainazala beteko du eta higidura ez da inoiz errepikatuko; hala ere, funtsean bi periodo ditugu eta higidura iraunkorra nahiko erraza da.</p>",
+   "formula": "",
+   "azalpena": "<p>Erakarlearen dimentsioa <math display=\"inline\"><mi>n</mi></math> bada, <math display=\"inline\"><mi>n</mi></math> periodo izango ditugu kasu orokorrean. Landau fisikariak uste zuen hau izan zitekeela fluidoetan ikusten den turbulentziaren azalpena: dimentsio handiko erakarlea balego, higidura kuasiperiodikoak periodo asko izango lituzke eta kaotikotzat joko genuke. Gaur egunean badakigu kaosa egoteko ez dela beharrezkoa periodo (eta dimentsio) asko egotea. Nahikoa izan daiteke sistema dinamikoa ez-lineala izatea.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "higidura kuasiperiodikoa (biperiodikoa)",
+     "def": "<p>Bi periodo elkarneurgaitz dituen higidura: orbitak toruaren gainazala betetzen du eta ez da inoiz errepikatzen.</p>"
+    },
+    {
+     "t": "periodo elkarneurgarriak",
+     "def": "<p>T eta T′ periodoak elkarneurgarriak dira nT + n′T′ = 0 ekuazioak n eta n′ osoko soluzio ez-nuluak baditu.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-poincareren-sekzioa"
+   ],
+   "ondorengoak": [],
+   "iturria": "B9.8 · a6 Erakarleak eta Poincaréren sekzioak",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-hastapen-baldintzekiko-sentikortasuna",
+   "atala": "S3",
+   "mota": "definizioa",
+   "izena": "Hastapen-baldintzekiko menpekotasun sentikorra",
+   "ideia": "<p>Hasieran ia berdinak diren bi orbita denborarekin esponentzialki urruntzen dira. Hori da kaosaren ezaugarri nagusia, eta Lorenzen tximeleta efektua deritzo.</p>",
+   "enuntziatua": "<p>Ikusten dugunez hastapen-baldintzen aldaketa txikerrek ondorio ikaragarriak izan ditzakete: hasieran oso hurbil zeuden orbiten arteko distantzia era esponentzialean handitzen da eta denbora-tarte bat pasatu ondoren bi soluzioak guztiz desberdinak dira. Esan behar da fenomeno hau ez dela erabilitako zenbakizko metodoaren izaera hurbilduaren ondorioa, izaera horrek lortutako soluzioaren doitasunean eragina badu ere. <strong>Hastapen-baldintzekiko menpekotasun sentikor</strong> hau higidura-ekuazioaren izaera ez-linealetik dator eta kaos deterministaren ezaugarri nagusia dugu. Zientziaren arlo honen aitzindaria izan den Lorenz meteorologoak <strong>tximeleta efektu</strong> izena ezarri dio fenomeno honi, tximeleta baten hegoek sortutako perturbazioak denbora-tarte egokia igaro ondoren eguraldiaren iragarpen finenak hondatzeko gai baitirateke.</p>",
+   "formula": "",
+   "azalpena": "<p>Kanpo-indarraren anplitudea handitzean, eboluzioaren izaera erabat aldatzen da: orbita periodikoak desagertzen dira (horrela dirudi, behintzat) eta soluzioak etengabe ari dira oszilatzen baina ez da inolako erregulartasunik nabaritzen.</p><p>Erregulartasunik eza beste ikuspuntu batetik aztertzeko, ikus dezagun zer gertatzen den hastapen-baldintzen pittin bat aldatzen badira. 8.10 irudian <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0.4</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0.40001</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> hastapen-baldintzei dagozkien orbitak marraztu dira.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/e7f11e1c65b2dda1.svg\" alt=\"Duffingen ekuazioa γ=0.1, f=0.3 kasuan.\" width=\"472\" loading=\"lazy\"><figcaption>Duffingen ekuazioa <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0.1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0.3</mn></mrow></math> kasuan.</figcaption></figure><figure class=\"j-irudia\"><img src=\"media/irudiak/8118fd8c8d29ede1.svg\" alt=\"Hasieran oso hurbil dauden bi orbita γ=0.1, f=0.3 kasuan.\" width=\"280\" loading=\"lazy\"><figcaption>Hasieran oso hurbil dauden bi orbita <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0.1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0.3</mn></mrow></math> kasuan.</figcaption></figure><p>Naturan gertatzen diren hastapen-baldintzak neurtzean, erroreak egiten dira, nahitaez. Eboluzioa guztiz determinista izan arren, ikuspuntu matematikotik printzipioz doitasun osoz kalkula daitekeen soluzioak interes praktiko txikia izan dezake, hastapen-baldintzetan egindako erroreak era esponentzialean handituz badoaz. Laplaceren determinismoari ikaragarrizko oztopo praktikoak ezar diezazkioke eboluzio-ekuazio ez-lineal batzuen izaera kaotikoak. Beste aitzindari batek (Poincarék) aipatu zuenez, dadoak zoriaren iturritzat jotzen ditugu, nahiz eta haien eboluzio-ekuazioak, mekanika klasikoarenak, guztiz deterministak izan. Azpimarratu behar da hemen, fisika kuantikoan ez bezala, aurresatea eragozten duena ez dela teoria fisikoa, baizik eta ekuazioen izaera matematikoa eta haiek ebazteko erabili behar diren hastapen-baldintzetan eta metodo hurbilduetan halabeharrez egiten diren erroreak.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "hastapen-baldintzekiko menpekotasun sentikorra",
+     "def": "<p>Hasieran oso hurbil dauden orbiten arteko distantzia esponentzialki handitzea; ekuazio ez-linealen izaeratik dator, ez zenbakizko errorerik.</p>"
+    },
+    {
+     "t": "tximeleta efektua",
+     "def": "<p>Lorenzek sentikortasun horri emandako izena: tximeleta baten hegoek eguraldiaren iragarpena hondatu dezakete.</p>"
+    },
+    {
+     "t": "determinismoa (Laplace)",
+     "def": "<p>Hastapen-baldintza zehatzak ezagutuz etorkizun osoa kalkulatzeko ideia; kaosak oztopo praktikoak jartzen dizkio.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-ziklo-limiteak",
+    "kkao-duffingen-ekuazioa"
+   ],
+   "ondorengoak": [
+    "kkao-erakarle-bitxiak",
+    "kkao-okinaren-transformazioa"
+   ],
+   "iturria": "B9.8 · a7 Oszilazio kaotikoak",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-erakarle-bitxiak",
+   "atala": "S3",
+   "mota": "definizioa",
+   "izena": "Erakarle bitxiak",
+   "ideia": "<p>Orbita kaotiko guztiak fase-espazioko eremu txiki batera jotzen dute, baina ez dira erregularrak. Sekzioa handitzen dugun bakoitzean geruza berriak agertzen dira: horrelako erakarleari erakarle bitxia deritzo.</p>",
+   "enuntziatua": "<p>Denbora-dimentsioa periodikotzat jo dezakegu, periodikoa den kosinu batean bakarrik agertzen da eta. Beraz, periodo berbera duen sekzio estroboskopikoa erabiltzea da aukerarik errazena. Orbita osoak aztertu beharrean, <math display=\"block\"><mrow><mi>t</mi><mo>=</mo><msub><mi>t</mi><mn>0</mn></msub><mo>+</mo><mi>n</mi><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mi>ω</mi></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> aldiunetako posizioa eta abiadura marraztu dira 8.11 irudian. Hau ikusita pentsa genezake lerro makur batzuek osatzen dutela sekzioa, baina goiko laukizuena handituz gero, 8.12 sekzioak lortzen dira. Ikusten dugunez, lerro horiek beste lerro batzuez osaturik daude eta azken hauek ere ez dira bakunak. Eskala guztietan errepikatzen da gauza bera: gero eta egitura gehiago agertzen da, erakarlearen <strong>autoantzekotasun</strong> geometrikoaren ondorioz. Badirudi infinitu geruzaz osaturikoa dela.</p>",
+   "formula": "",
+   "azalpena": "<p>Aurreko adibidean orbitek ez zuten inolako erregulartasunik erakusten, baina bai propietate komun bat: tarte iragankor labur baten ondoren, orbita guztiak fase-espazioaren alde txiki samar batean daude. Badirudi periodikoa ez den erakarle baten aurrean gaudela, orbita guztiek bertarantz jotzen dute eta. Duffingen ekuazioan denbora esplizituki agertzen denez (hau da, <strong>autonomoa</strong> ez denez), hastapen-baldintzen benetako espazioa (matematikarien fase-espazioa) hiru dimentsiokoa da, orbita bat zehazteko hasierako posizio eta abiaduraz gain hasierako aldiunea ere aukeratu behar baita. Fase-espazio horretan ager daitezkeen erakarleak aztertzeko, Poincaréren sekzioez baliatuko gara, bi dimentsioko irudiak egiteko.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/c383b81c13b1013f.svg\" alt=\"Duffingen erakarlearen sekzio estroboskopikoa tmod&amp;#8289;2π=0 kasuan.\" width=\"262\" loading=\"lazy\"><figcaption>Duffingen erakarlearen sekzio estroboskopikoa <math display=\"inline\"><mrow><mi>t</mi><mrow><mi mathvariant=\"normal\">mod</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>π</mi><mo>=</mo><mn>0</mn></mrow></math> kasuan.</figcaption></figure><figure class=\"j-irudia\"><img src=\"media/irudiak/f67ba93ea1013605.svg\" alt=\"Duffingen erakarlearen sekzio estroboskopikoaren bi handipen.\" width=\"312\" loading=\"lazy\"><figcaption>Duffingen erakarlearen sekzio estroboskopikoaren bi handipen.</figcaption></figure>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "erakarle bitxia",
+     "def": "<p>Periodikoa ez den erakarlea, autoantzekoa eta infinitu geruzaz osatua; orbita kaotikoak hartara jotzen dute.</p>"
+    },
+    {
+     "t": "sekzio estroboskopikoa",
+     "def": "<p>Kanpo-indarraren periodoaren multiplo diren aldiuneetan (t = t₀ + 2πn/ω) posizioa eta abiadura marraztuz lortzen den Poincaréren sekzioa.</p>"
+    },
+    {
+     "t": "autoantzekotasuna",
+     "def": "<p>Objektuaren zati bat osoaren antzekoa izatea, eskala guztietan.</p>"
+    },
+    {
+     "t": "sistema autonomoa",
+     "def": "<p>Denbora esplizituki agertzen ez den ekuazioa duen sistema; Duffingena ez da autonomoa.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-poincareren-sekzioa",
+    "kkao-hastapen-baldintzekiko-sentikortasuna"
+   ],
+   "ondorengoak": [
+    "kkao-fraktal-autoantzekoak",
+    "kkao-okinaren-transformazioa"
+   ],
+   "iturria": "B9.8 · a7 Oszilazio kaotikoak (Erakarle bitxiak)",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-fraktal-autoantzekoak",
+   "atala": "S4",
+   "mota": "definizioa",
+   "izena": "Fraktalak: Cantorren multzoa eta von Kochen kurba",
+   "ideia": "<p>Fraktala eskala guztietan bere buruaren antza duen objektua da. Cantorren multzoak eta von Kochen kurbak dimentsio osoa ez dutenez, fraktalak dira.</p>",
+   "enuntziatua": "<p>Baina badauzka hain errazak ez diren beste propietate ikaragarri batzuk ere. Adibidez, luzera gabekoa da eta bere dimentsioa <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>/</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>3</mn><mo>&lt;</mo><mn>1</mn></mrow></math>. Dimentsioa osoa ez denez, <strong>fraktala</strong> dela esaten da.</p>",
+   "formula": "",
+   "azalpena": "<p>Objektu autoantzekoak XIX. mendetik ezagutzen dira matematikan. Adibidez, oso era sinplean definitzen da <strong>Cantorren multzoa</strong>: segmentu bat hiru zati berdinetan zatituz gero, erdikoa ezabatzen da, eta prozesu hau behin eta berriro errepikatzen da pauso bakoitzean geratzen diren segmentu guztietan. Argi dago limitean lortzen den multzoan infinitu puntu daudela (egia esan, hasierako segmentuan zeuden beste!).</p><figure class=\"j-irudia\"><img src=\"media/irudiak/3abd54e7479bab9a.svg\" alt=\"Cantorren multzoa eraikiz.\" width=\"258\" loading=\"lazy\"><figcaption>Cantorren multzoa eraikiz.</figcaption></figure><p>Beste adibide famatu bat, <strong>von Kochen elur-maluta</strong>, honela eraikitzen da: triangelu bateko alde bakoitza hirutan zatitzen da eta erdiko zatia berarekin batera triangelu aldekide bat osatzen duten bi segmentuez ordezkatzen da, eta prozesu hau geratzen diren segmentu guztietan errepikatzen da.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/6bf44e10c1916068.svg\" alt=\"Von Kochen elur-maluta eraikiz.\" width=\"556\" loading=\"lazy\"><figcaption>Von Kochen elur-maluta eraikiz.</figcaption></figure><p>Horrez gain, kurba horrek ez du tangenterik onartzen ezein puntutan: jarraitua izan arren ez da diferentziagarria.</p><p>Adibide geometriko hauen kasuan, autoantzekotasuna zehatza da; naturan agertzen diren fraktaletan, berriz, autoantzekotasuna hurbildua izaten da.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Froga ezazu Cantorren multzoaren luzera nulua dela.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>Froga ezazu von Kochen kurbaren luzera infinitua dela eta inguratzen duen azalera finitua.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "fraktala",
+     "def": "<p>Dimentsioa osoa ez den objektu geometrikoa, normalean autoantzekoa.</p>"
+    },
+    {
+     "t": "Cantorren multzoa",
+     "def": "<p>Segmentu bat hiru zatitan zatitu, erdikoa ezabatu eta prozesua infinitu aldiz errepikatuz lortzen den multzoa; luzera nulua du.</p>"
+    },
+    {
+     "t": "von Kochen elur-maluta",
+     "def": "<p>Triangelu baten alde bakoitzean erdiko hirugarrena beste bi segmentuz ordezkatuz (triangelu aldekide bat osatuz) eraikitzen den kurba; jarraitua da, baina inon ez diferentziagarria.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-erakarle-bitxiak"
+   ],
+   "ondorengoak": [
+    "kkao-dimentsio-fraktala",
+    "kkao-okinaren-transformazioa",
+    "kkao-praktika-problemak"
+   ],
+   "iturria": "B9.8 · a8 Fraktalak",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-dimentsio-fraktala",
+   "atala": "S4",
+   "mota": "definizioa",
+   "izena": "Dimentsio fraktala (edukiera)",
+   "ideia": "<p>Dimentsio fraktala neurtzeko, objektua estaltzeko d diametroko zenbat bola behar diren zenbatzen dugu eta d txikitzean N nola hazten den begiratzen dugu. Segmentua 1 da, karratua 2, eta von Kochen kurba ln4/ln3 ≈ 1,26.</p>",
+   "enuntziatua": "<p><strong>Dimentsio fraktala</strong></p><p>Fraktalen konplexutasuna kuantitatiboki neurtzeko, dimentsio fraktala erabil daiteke. Dimentsioaren definizio askotxo daude, baina hemen haietariko errazena, <strong>edukiera</strong>, aukeratuko dugu. <math display=\"inline\"><mi>l</mi></math> luzerako segmentu bat estaltzeko, <math display=\"inline\"><mrow><mi>d</mi><mo>=</mo><mi>l</mi></mrow></math> diametroko zirkulu bakarra behar dugu, <math display=\"inline\"><mrow><mi>d</mi><mo>=</mo><mi>l</mi><mi>/</mi><mn>2</mn></mrow></math> diametroko <math display=\"inline\"><mrow><mi>N</mi><mo>=</mo><mn>2</mn></mrow></math> zirkulu, eta <math display=\"inline\"><mi>d</mi></math> diametroko <math display=\"inline\"><mrow><mi>N</mi><mo>=</mo><mi>l</mi><mi>/</mi><mi>d</mi></mrow></math> zirkulu. Segmentuaren dimentsioa <math display=\"inline\"><mrow><mi>D</mi><mo>=</mo><mn>1</mn></mrow></math> dela</p><figure class=\"j-irudia\"><img src=\"media/irudiak/bfc37cdf873fe1bc.svg\" alt=\"Segmentuaren eta karratuaren estalkiak.\" width=\"407\" loading=\"lazy\"><figcaption>Segmentuaren eta karratuaren estalkiak.</figcaption></figure><p>gogoratuz, honela ere idatz daiteke estalkia egiteko behar diren zirkuluen kopurua:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>N</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>K</mi><msup><mi>d</mi><mrow><mi>−</mi><mi>D</mi></mrow></msup><mi>.</mi></mrow></math></p></div><p><math display=\"inline\"><mi>K</mi></math> koefizientea (kasu honetan luzera) konstante egokia da. Estali nahi duguna karratu bat bada, adierazpen berbera betetzen da, baina orain karratuaren dimentsioak bi direnez, <math display=\"inline\"><mrow><mi>D</mi><mo>=</mo><mn>2</mn></mrow></math> erabili behar da eta <math display=\"inline\"><mi>K</mi></math> karratuaren azalerarekiko proportzionala izango da. Era berean, erraz ikusten da kubo baten eta edozein multzo «arrunten» kasuan, <math display=\"inline\"><mi>d</mi></math> diametroko bolen bidez egindako estalkietan formula hori betetzen dela. Ondorioz, adierazpen hori erabiliko da kasu guztietan (eta ez bakarrik kasu arruntetan) dimentsioa definitzeko. Testuinguru honetan <math display=\"inline\"><mi>K</mi></math> konstantea interes gabekoa denez, hurrengo adierazpen baliokideaz balia gaitezke: <math display=\"block\"><mrow><mi>D</mi><mo>=</mo><mi>−</mi><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>d</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>N</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>d</mi></mrow></mfrac><mi>.</mi></mrow></math></p><figure class=\"j-irudia\"><img src=\"media/irudiak/052bd6d537f5c4c6.svg\" alt=\"Von Kochen kurbaren estalkiak.\" width=\"307\" loading=\"lazy\"><figcaption>Von Kochen kurbaren estalkiak.</figcaption></figure>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [
+    "<p><em>Kalkulatu 8.14 irudian erakusten den von Kochen elur-malutaren dimentsioa, perimetroa eta azalera.\nIruzkina egin erantzunari.</em></p><p>8.6 ariketan erabili dugun metodo zuzenaren ordez, simetriaz baliatuko gara dimentsioa kalkulatzeko. Izan ere, argi dago <math display=\"inline\"><mi>ε</mi></math> diametroko <math display=\"inline\"><mi>N</mi></math> zirkulu behar badira fraktal hau estaltzeko, <math display=\"inline\"><mrow><mi>ε</mi><mi>/</mi><mn>3</mn></mrow></math> diametroko <math display=\"inline\"><mrow><mn>4</mn><mi>N</mi></mrow></math> beharko direla, hau da, <math display=\"block\"><mrow><mn>4</mn><mi>N</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>N</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mi>/</mi><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math> Hemen, (<math display=\"inline\"><mrow><mi>ε</mi><mo>→</mo><mn>0</mn></mrow></math> limitean betetzen den)  <math display=\"inline\"><mrow><mi>N</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∝</mo><msup><mi>ε</mi><mrow><mi>−</mi><mi>D</mi></mrow></msup></mrow></math> definizioa saiatzen badugu, hauxe geratzen da: <math display=\"block\"><mrow><mn>4</mn><msup><mi>ε</mi><mrow><mi>−</mi><mi>D</mi></mrow></msup><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mi>/</mi><mn>3</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi>−</mi><mi>D</mi></mrow></msup><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mn>4</mn><mo>=</mo><msup><mn>3</mn><mi>D</mi></msup><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mi>D</mi><mo>=</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>4</mn></mrow><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>3</mn></mrow></mfrac><mi>.</mi></mrow></math> Bestalde, argi dago fraktala eraikitzean pauso bakoitzean, <math display=\"inline\"><mi>L</mi></math> luzerako segmentu bakoitzaren ordez <math display=\"inline\"><mrow><mi>L</mi><mi>/</mi><mn>3</mn></mrow></math> luzerako 4 segmentu erabiltzen direnez, perimetroa aurrekoa bider <math display=\"inline\"><mrow><mn>4</mn><mi>/</mi><mn>3</mn></mrow></math> dela eta limitean infinitua.</p><p>Hasierako triangeluaren azalera <math display=\"inline\"><mi>S</mi></math> bada, lehen pausoan <math display=\"inline\"><mrow><mi>S</mi><mi>/</mi><mn>9</mn></mrow></math> azalerako 3 triangeluren azalera gehitzen zaio; bigarrenean <math display=\"inline\"><mrow><mi>S</mi><mi>/</mi><msup><mn>9</mn><mn>2</mn></msup></mrow></math> azalerako <math display=\"inline\"><mrow><mn>3</mn><mo>×</mo><mn>4</mn></mrow></math> triangelurena; hirugarrenean <math display=\"inline\"><mrow><mi>S</mi><mi>/</mi><msup><mn>9</mn><mn>3</mn></msup></mrow></math> azalerako <math display=\"inline\"><mrow><mn>3</mn><mo>×</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></math> triangelurena; eta <math display=\"inline\"><mi>n</mi></math>.enean <math display=\"inline\"><mrow><mi>S</mi><mi>/</mi><msup><mn>9</mn><mi>n</mi></msup></mrow></math> azalerako <math display=\"inline\"><mrow><mn>3</mn><mo>×</mo><msup><mn>4</mn><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow></math> triangelurena. Limitean, azalera osoa hauxe izango da, beraz: <math display=\"block\"><mrow><mi>S</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>1</mn><mo>+</mo><mfrac><mn>3</mn><mn>9</mn></mfrac><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mo accent=\"false\">∞</mo></munderover><mfrac><msup><mn>4</mn><mi>n</mi></msup><msup><mn>9</mn><mi>n</mi></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mfrac><mn>8</mn><mn>5</mn></mfrac><mi>S</mi><mi>.</mi></mrow></math> Bitxia badirudi ere, perimetro jarraitu infinitu batek azalera finitua ingura dezake.</p>"
+   ],
+   "ariketak": [
+    {
+     "e": "<p>Erabili 8.16 irudia von Kochen fraktalaren dimentsioa <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>4</mn><mi>/</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>3</mn><mo>≈</mo><mn>1.26186</mn></mrow></math> dela frogatzeko. (Ikus, halaber, 8.12.2 problema.)</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "dimentsio fraktala (edukiera)",
+     "def": "<p>D = −lim<sub>d→0</sub> ln N(d) / ln d, non N(d) objektua estaltzeko behar diren d diametroko bolen kopurua den.</p>"
+    },
+    {
+     "t": "estalkia",
+     "def": "<p>Objektua estaltzen duten d diametroko bolen (edo zirkuluen) multzoa.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-fraktal-autoantzekoak"
+   ],
+   "ondorengoak": [
+    "kkao-arro-muga-fraktalak",
+    "kkao-praktika-problemak"
+   ],
+   "iturria": "B9.8 · a8 Fraktalak (Dimentsio fraktala); a13 Problema ebatziak (von Kochen elur-maluta)",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-okinaren-transformazioa",
+   "atala": "S4",
+   "mota": "definizioa",
+   "izena": "Okinaren transformazioa eta Liapunoven berretzaileak",
+   "ideia": "<p>Erakarle kaotikoa okinaren ore bat bezala dabil: luzatzen da (puntuak urruntzen dira) eta tolesten da (eremu mugatuan geratzeko). Luzatzearen abiadura Liapunoven berretzaile handienak neurtzen du.</p>",
+   "enuntziatua": "<p><strong>Luzatzea</strong>: Erakarlea luzatzen da periodoan zehar eta, ondorioz, aldiune batean oso hurbil zeuden puntuen arteko distantzia handituz doa. Soluzio hurbilen arteko <math display=\"inline\"><mi>d</mi></math> distantzia era esponentzialean handitzen da: <math display=\"inline\"><mrow><mi>d</mi><mo>∝</mo><msup><mi>e</mi><mrow><mi>λ</mi><mi>t</mi></mrow></msup></mrow></math> non <math display=\"inline\"><mi>λ</mi></math> magnitudea Liapunoven berretzaile handiena den. Transformazio hau da hastapen-baldintzekiko menpekotasun sentikorraren eta kaosaren zergatia. <strong>Tolestatzea</strong>: Luzatu ahala bere gainean tolestatzen da erakarlea. Horrela, erakarlea beti dago fase-espazioaren eskualde bornatu batean. Gainera, tolestatzen den bakoitzean erakarlea osatzen duten geruzen kopurua bikoizten denez, infinitu geruza egongo dira halabeharrez. Beraz, geruzak zeharkako norabide batean ebakiz gero, Cantorren multzoaren antzeko zerbait aurkituko dugu eta erakarlea fraktala (hau da, bitxia) izango da.</p>",
+   "formula": "",
+   "azalpena": "<p>Duffingen erakarlearen sorrera, egitura eta izaera hobeto ulertzeko, kanpo-indarraren oinarrizko periodoaren <math display=\"block\"><mrow><mi>t</mi><mo>=</mo><msub><mi>t</mi><mn>0</mn></msub><mo>+</mo><mi>n</mi><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mi>ω</mi></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>t</mi><mn>0</mn></msub><mo>≡</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mi>π</mi><mrow><mn>8</mn><mi>ω</mi></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mi>…</mi><mo>,</mo><mn>16</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> aldiuneei dagozkien Poincaréren sekzio estroboskopikoez baliatuko gara 8.17 irudian. Irudi honetan erakarlearen beraren eboluzioa ikusten dugu. Erakarlea aldaezina da higiduran zehar eta bertan dauden puntuak erakarlean zehar higitzen dira, handik irten gabe. Puntu horiek transformazio bat pairatzen dute higiduran zehar; baina puntu guztien multzoa, erakarlea bera, transformazio horrekiko aldaezina da. Irudian agerian dago transformazio horrek okinaren orearekin egiten duenarekin antz handia duela eta bi osagaiz osaturikoa dela:</p><figure class=\"j-irudia\"><img src=\"media/irudiak/7d757ba48a54113b.svg\" alt=\"Okinaren transformazioa.\" width=\"409\" loading=\"lazy\"><figcaption>Okinaren transformazioa.</figcaption></figure><p>Okinaren transformazio bikoitz hau kaos deterministaren oinarrizko mekanismoen artean dago.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "luzatzea",
+     "def": "<p>Erakarleak denboran zehar duen hedatzea: hurbil dauden puntuen arteko distantzia d ∝ e<sup>λt</sup> moduan hazten da.</p>"
+    },
+    {
+     "t": "tolestatzea",
+     "def": "<p>Luzatu ahala erakarleak bere gainean tolesten da; geruza-kopurua bikoizten da eta erakarlea eskualde mugatuan geratzen da.</p>"
+    },
+    {
+     "t": "Liapunoven berretzailea",
+     "def": "<p>Hurbil dauden orbiten arteko distantziaren hazkunde esponentzialaren abiadura (λ); handiena positiboa bada, kaosa dago.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-erakarle-bitxiak",
+    "kkao-fraktal-autoantzekoak",
+    "kkao-hastapen-baldintzekiko-sentikortasuna"
+   ],
+   "ondorengoak": [
+    "kkao-kaos-hamiltondarra"
+   ],
+   "iturria": "B9.8 · a9 Okinaren transformazioa eta Liapunoven berretzaileak",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-arro-muga-fraktalak",
+   "atala": "S5",
+   "mota": "definizioa",
+   "izena": "Arro-muga fraktalak eta ziurgabetasun-berretzailea",
+   "ideia": "<p>Kaosik ez dagoenean ere aurresatea zaila izan daiteke: bi erakarleren arro-muga fraktala bada, hastapen-baldintzen errorea asko txikitu behar da zalantzazko puntuak apur bat murrizteko. Ziurgabetasun-berretzaileak hori neurtzen du.</p>",
+   "enuntziatua": "<p>Oro har, arro-mugaren dimentsioa <math display=\"inline\"><mi>D</mi></math> bada, <math display=\"inline\"><mrow><msub><mi>N</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∝</mo><msup><mi>d</mi><mrow><mi>−</mi><mi>D</mi></mrow></msup></mrow></math> bola beharko dira muga estaltzeko eta fase-espazioaren zatia estaltzeko <math display=\"inline\"><mrow><msub><mi>N</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∝</mo><msup><mi>d</mi><mrow><mi>−</mi><mi>F</mi></mrow></msup></mrow></math>, bere dimentsioa <math display=\"inline\"><mi>F</mi></math> bada. Beraz, zalantzazko hastapen-baldintzen proportzioa hauxe da: <math display=\"inline\"><mrow><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∝</mo><msup><mi>d</mi><mrow><mi>F</mi><mo>−</mo><mi>D</mi></mrow></msup><mo>≡</mo><msup><mi>d</mi><mi>z</mi></msup></mrow></math>. Hemengo <math display=\"inline\"><mrow><mi>z</mi><mo>=</mo><mi>F</mi><mo>−</mo><mi>D</mi></mrow></math> balioa <strong>ziurgabetasun-berretzailea</strong> da.</p>",
+   "formula": "",
+   "azalpena": "<p>Duffingen ekuazioaren kasuan <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0.1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><mn>1</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>f</mi><mo>≤</mo><mn>0.13</mn></mrow></math> balioetarako agertzen diren erakarleak ez dira kaotikoak, ziklo limiteak baizik, baina bi dira, potentzialaren minimo bana inguratzen dutenak hain zuzen ere. Aukeratzen diren hastapen-baldintzen arabera soluzioak ziklo limite batera edo bestera joko du. Arroak aztertzeko <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> aldiunean aukeratuko ditugu <math display=\"inline\"><mi>x</mi></math> posizioa eta <math display=\"inline\"><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover></math> abiadura eta horrela lortzen den soluzioak eskuineko ziklora jotzen badu (hau da, eskuineko zikloaren arroan badago), <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> puntua kolore batez marraztuko dugu; ezkerreko zikloaren arroan badago, beste kolore bat erabiliko da. Horrela arroen irudia lortuko dugu.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/4fecad0b80696f24.svg\" alt=\"Duffingen ekuazioaren arroak f=0.1, 0.15 kasuetan.\" width=\"486\" loading=\"lazy\"><figcaption>Duffingen ekuazioaren arroak <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0.1</mn></mrow></math>, <math display=\"inline\"><mn>0.15</mn></math> kasuetan.</figcaption></figure><p>8.18 irudiko kasuetan arro-muga kurba leuna da eta higidura asintotikoa periodikoa: hurbil dauden soluzioen arteko distantzia ez da handituko era esponentzialean. Hala ere, bi ziklo limite daudenez, etorkizuna aurresateko, jakin behar da zein arrotan dauden hastapen-baldintzak. Hastapen-baldintzak kalkulatzean egiten den errorea <math display=\"inline\"><mi>d</mi></math> bada, arro-mugatik <math display=\"inline\"><mi>d</mi></math> distantziara dauden puntuekin bakarrik gerta daiteke aurresana oker egotea. Puntu horiek zenbat diren neurtzeko, <math display=\"inline\"><mi>d</mi></math> erradioko diskoez estaliko dugu arro-muga (eta zalantzako puntuak). Dakigunez, horretarako behar diren diskoen kopurua <math display=\"inline\"><mrow><msub><mi>N</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∝</mo><msup><mi>d</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></mrow></math> da eta aztertutako fase-espazioaren aldea estaltzeko <math display=\"inline\"><mrow><msub><mi>N</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∝</mo><msup><mi>d</mi><mrow><mi>−</mi><mn>2</mn></mrow></msup></mrow></math> disko beharko dira. Ondorioz, hastapen-baldintzak <math display=\"inline\"><mi>d</mi></math> doitasunez neurtzean, zalantzan dauden puntuen proportzioa <math display=\"inline\"><mrow><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>N</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><msub><mi>N</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∝</mo><mi>d</mi></mrow></math> da. Beraz, zalantzazko puntuen proportzioa magnitude-ordena batean gutxitu nahi bada, neurketetan egindako errorean ere magnitude-ordena bat irabazi behar da.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/1eea113e1cb69c56.svg\" alt=\"Duffingen ekuazioaren arroak f=0.2, 0.23 kasuetan.\" width=\"486\" loading=\"lazy\"><figcaption>Duffingen ekuazioaren arroak <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0.2</mn></mrow></math>, <math display=\"inline\"><mn>0.23</mn></math> kasuetan.</figcaption></figure><p>Arro-muga leuna bada, bere dimentsioa <math display=\"inline\"><mrow><mi>D</mi><mo>=</mo><mi>F</mi><mo>−</mo><mn>1</mn></mrow></math> izango da eta ziurgabetasun-berretzailea <math display=\"inline\"><mrow><mi>z</mi><mo>=</mo><mn>1</mn></mrow></math>. Horrela, zalantzazko puntuen kopurua 10 aldiz txikiagoa izateko, 10 aldiz txikiagoa izan beharko du hastapen-baldintzetan egindako erroreak. Baina, zer gertatzen da arro-muga leuna izan ez beharrean fraktala bada? <math display=\"inline\"><mrow><mi>F</mi><mo>−</mo><mn>1</mn><mo>&lt;</mo><mi>D</mi><mo>&lt;</mo><mi>F</mi></mrow></math> bada, <math display=\"inline\"><mrow><mi>z</mi><mo>&lt;</mo><mn>1</mn></mrow></math> izango da eta zalantzazko hastapen-baldintzen kopurua gutxitzea zailago gertatuko da. Adibidez, <math display=\"inline\"><mrow><mi>D</mi><mo>=</mo><mi>F</mi><mo>−</mo><mn>0.2</mn></mrow></math> bada, proportzioa 10 aldiz txikiagoa izateko, hastapen-baldintzak neurtzean 100000 aldiz txikiagoa den errorea lortu behar da.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/70cfef3e7452bd64.svg\" alt=\"Duffingen ekuazioaren arroen handipenak f=0.2 kasuan.\" width=\"443\" loading=\"lazy\"><figcaption>Duffingen ekuazioaren arroen handipenak <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0.2</mn></mrow></math> kasuan.</figcaption></figure><p>Hau gertatzen bada, eta oraintxe ikusiko dugu horrelakoak gertatzen direla, aurresateak oztopo handia izango du, higidura kaotikoa ez bada ere. Adibidez, arro-muga fraktala dela egiaztatzeko, 8.19 irudiaren erdian marraztu den laukizuena 8.20 delakoaren ezkerraldean handitu dugu, eta azken honen beheko eskuin muturra ondoan agertzen da.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "ziurgabetasun-berretzailea",
+     "def": "<p>z = F − D: zalantzazko hastapen-baldintzen proportzioa d<sup>z</sup> bezala txikitzen da; arro-muga leunean z = 1, fraktalean z &lt; 1.</p>"
+    },
+    {
+     "t": "arro-muga fraktala",
+     "def": "<p>Dimentsio ez-osoa duen arro-muga; kasu horretan hastapen-baldintzen zalantza oso poliki txikitzen da.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-erakarleak-eta-arroak",
+    "kkao-dimentsio-fraktala"
+   ],
+   "ondorengoak": [
+    "kkao-sakabanatze-kaotikoa",
+    "kkao-praktika-problemak"
+   ],
+   "iturria": "B9.8 · a10 Arro-muga fraktalak",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-kaos-hamiltondarra",
+   "atala": "S6",
+   "mota": "definizioa",
+   "izena": "Kaosa sistema hamiltondarretan",
+   "ideia": "<p>Sistema hamiltondarretan ez dago erakarlerik, baina kaosa agertu daiteke: Liapunoven berretzaileen batura zero da, baina bat positiboa izan daiteke. Poincaréren sekzioetan orbita kaotiko bakar batek azalera bat betetzen du.</p>",
+   "enuntziatua": "<p>Sistema hamiltondarrak kontserbatzaileak direnez, 6.10.4 ataleko Liouvilleren teorema betetzen da eta ondorioz ez dago erakarlerik. Liapunoven berretzaileen batura zero da, baina honek ez du debekatzen berretzaileren bat positiboa izatea. Horrela gertatzen denean, kaos hamiltondarra dugu.</p>",
+   "formula": "",
+   "azalpena": "<figure class=\"j-irudia\"><img src=\"media/irudiak/1e861592901335cb.svg\" alt=\"7.91 problemako sistemaren bi eboluzio: biperiodiko bat eta kaotiko bat.\" width=\"397\" loading=\"lazy\"><figcaption>7.91 problemako sistemaren bi eboluzio: biperiodiko bat eta kaotiko bat.</figcaption></figure><p>Adibide moduan kontsidera dezagun 7.91 problemako sistema. Jatorriaren inguruko oszilazioak periodikoak dira: Lissajousen irudi itxi bat. Anplitudea handiagoa bada, oszilazioak ez dira hain errazak, baina biperiodikoak (edo, hastapen-baldintza egokiekin, periodikoak) izan daitezke, 8.21 irudiko ezkerraldean, orbitaren zati batean ikusten den moduan.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/101168194d6e0a2a.svg\" alt=\"7.91 problemako sistemaren Poincaréren bi sekzio osagarri.\" width=\"398\" loading=\"lazy\"><figcaption>7.91 problemako sistemaren Poincaréren bi sekzio osagarri.</figcaption></figure><p>Energia mekanikoaren balioa aldatu gabe (<math display=\"inline\"><mn>8.21</mn></math> eta <math display=\"inline\"><mn>8.22</mn></math> irudietan <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mn>10.2</mn><msup><mi>q</mi><mn>2</mn></msup><mi>/</mi><mn>4</mn><mi>π</mi><msub><mi>ε</mi><mn>0</mn></msub><mi>a</mi></mrow></math> hartu da) beste hastapen-baldintza batzuk aukeratzen badira, orbita kaotikoa izan daiteke 8.21 irudiko ezkerraldean hautematen den moduan. Fenomeno hau hobeto ikusteko Poincaréren sekzioez balia gaitezke. Energia mekanikoa kontserbatzen denez, <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>,</mo><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> koordenatuetako hiru ezagutzen baditugu laugarrena energia mekanikoaren baliotik lortzen da. Bi dimentsioko irudiak egiteko, beste baldintza bat erabili da 8.22 irudian. Ezkerrean marraztu dira soluzioaren <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> koordenatuetako puntua <math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math> den bakoitzean. Eskuinaldean, ordea, <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> koordenatuetako puntua marraztu da <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> denean. Orbita periodiko bateko puntuak lerro jarraituetan agertzen dira. Gainera, orbita kaotiko <em>bakar bateko</em> puntuak marraztu dira eta, ikusten denez, irudi bakoitzeko azalera ez-nulu bat betetzen dute.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "kaos hamiltondarra",
+     "def": "<p>Sistema kontserbatzailearen kaosa: Liouvilleren teorema dela eta erakarlerik ez dago, baina Liapunoven berretzaile bat positiboa da.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-okinaren-transformazioa",
+    "kkao-poincareren-sekzioa"
+   ],
+   "ondorengoak": [
+    "kkao-sakabanatze-kaotikoa"
+   ],
+   "iturria": "B9.8 · a11 Kaosa sistema hamiltondarretan; a12 Sakabanatze kaotikoa (hasiera)",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-sakabanatze-kaotikoa",
+   "atala": "S6",
+   "mota": "definizioa",
+   "izena": "Sakabanatze kaotikoa",
+   "ideia": "<p>Partikula bat potentzial-eskualdetik pasatu eta infinitura doa: higidura asintotikoa sinplea da. Baina irteera-norabidea hastapen-baldintzen menpe etena da, eta ezin da aurresan: sakabanatze kaotikoa.</p>",
+   "enuntziatua": "<p>Aurreko atalean bezalaxe, erakarle kaotikorik ez badago ere, egoera asintotikoa aurresatea zaila da <strong>sakabanatze kaotiko</strong> hau gertatzen bada: eten-puntuen inguruan sakabanatze-angeluaren benetako balioa zalantzan egongo da. Argi dago ziurgabetasun-berretzailearen kontzeptua ia hitzez hitz aplika daitekeela kasu honetan.</p>",
+   "formula": "",
+   "azalpena": "<p>Kaosaren beste alderdi bat dugu hau. Sakabanatze-prozesu batean partikulak infinitura doaz eta ez dago erakarlerik. Higidura asintotikoa askea da, oso sinplea, beraz. Hala ere, etorkizuna aurresatea zaila izan daiteke. Hemen, bi dimentsiotan lau maximo dituen hurrengo energia potentziala aztertuko dugu, dimentsio gabeko aldagai egokietan: <math display=\"block\"><mrow><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><msup><mi>y</mi><mn>2</mn></msup><msup><mi>e</mi><mrow><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup><mi>.</mi></mrow></math></p><p>Partikula <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>10</mn><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntuan dagoenean <math display=\"inline\"><mi>x</mi></math> ardatzean zehar <math display=\"inline\"><mi>E</mi></math> energiaz higitzen bada, elkarrekintza-eskualdetik irtetean <math display=\"inline\"><mi>θ</mi></math> norabidean higituko da abiadura konstantez. Horrela <math display=\"inline\"><mrow><mi>θ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>  <strong>sakabanatze-funtzioa</strong> kalkula daiteke. Adibidez, 8.24 irudiko sakabanatze-funtzioa <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mn>1.2</mn></mrow></math> energiari dagokio. Kasu honetan partikula energiaren maximoen gainetik pasatzen da eta sakabanatze-angelua jotze-parametroaren funtzio leuna da.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/ad872da669d166f5.svg\" alt=\"(8.12) energia potentziala eta lau orbita E=0.26 denean.\" width=\"449\" loading=\"lazy\"><figcaption>(8.12) energia potentziala eta lau orbita <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mn>0.26</mn></mrow></math> denean.</figcaption></figure><figure class=\"j-irudia\"><img src=\"media/irudiak/87d8655f4b2d5912.svg\" alt=\"Sakabanatze-funtzioa E=1.2 denean.\" width=\"289\" loading=\"lazy\"><figcaption>Sakabanatze-funtzioa <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mn>1.2</mn></mrow></math> denean.</figcaption></figure><p>Baina <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mn>0.26</mn></mrow></math> energiari dagokion sakabanatze-funtzioa ez da jarraitua, 8.25 irudian ikus daitekeen bezala.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/3a701e50c2070a7e.svg\" alt=\"Sakabanatze-funtzioa E=0.26 denean.\" width=\"295\" loading=\"lazy\"><figcaption>Sakabanatze-funtzioa <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mn>0.26</mn></mrow></math> denean.</figcaption></figure><p>8.23 irudian <math display=\"inline\"><mrow><mi>b</mi><mo>=</mo><mi>−</mi><mn>0.45939019</mn><mo>+</mo><mn>2.5</mn><mi>k</mi><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>6</mn></mrow></msup></mrow></math>  (<math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn></mrow></math>) balioetarako lortzen diren orbitak marraztu dira. Ikusten dugunez, jotze-parametroaren aldaketak oso txikiak izan arren, etorkizuneko norabide asintotikoa zeharo desberdina da lau kasuotan.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/b8b616dcbbbe9c7a.svg\" alt=\"Sakabanatze-denbora E=0.26 denean.\" width=\"296\" loading=\"lazy\"><figcaption>Sakabanatze-denbora <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mn>0.26</mn></mrow></math> denean.</figcaption></figure><p>Fenomeno hau hobeto ulertzeko, partikulak elkarrekintza-eskualdean ematen duen denbora 8.26 irudian agertzen da. Ikusten dugunez, funtzio hau ere etena da eta sakabanatze-denboraren eta angeluaren etenuneak puntu berberetan gertatzen dira.</p><p>Emaitza honekin sakabanatze kaotikoaren zergatia erraz uler daiteke. Energia maximoena baina txikiagoa bada, gerta daiteke partikula potentzialaren tontor desberdinetan errebotatzea behin eta berriro. Lau tontorrekin infinitu segida periodiko desberdin osa daitekeenez, infinitu orbita periodiko daude. Jakina, orbita periodiko horiek ez dira egonkorrak izango (eta ez erakarleak ere); baina gerta daiteke sakabanatze-orbita bat orbita periodiko ezegonkor baten oso hurbil egotea aldiune batean eta azken hau gertatzen bada, elkarren hurbil egon daitezke denbora-tarte luze batez eta anitz aldiz errebotatu ondoren norabide-aldaketa handia gerta daiteke, hasieran oso hurbil zuen beste orbita bati dagokion aldaketaren oso desberdina izateko moduan.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Kalkula itzazu higidura-ekuazioak.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>Kalkula itzazu aurreko funtzioaren handitze batzuk, eten-multzoaren izaera fraktal autoantzekoa dela egiaztatzeko.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "sakabanatze-funtzioa",
+     "def": "<p>Partikulak irteten denean hartzen duen θ norabidea, jotze-parametroaren (b) funtzio gisa.</p>"
+    },
+    {
+     "t": "jotze-parametroa",
+     "def": "<p>Partikula jaurtitzean duen ardatzarekiko desplazamendu perpendikularra (b).</p>"
+    },
+    {
+     "t": "sakabanatze kaotikoa",
+     "def": "<p>Sakabanatze-funtzioa etena da, eten-multzoa fraktala da eta irteera-norabidea ezin da aurresan hastapen-baldintza zehatzik gabe.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-kaos-hamiltondarra",
+    "kkao-arro-muga-fraktalak"
+   ],
+   "ondorengoak": [
+    "kkao-praktika-problemak"
+   ],
+   "iturria": "B9.8 · a12 Sakabanatze kaotikoa",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-praktika-problemak",
+   "atala": "S7",
+   "mota": "metodoa",
+   "izena": "Praktika: Problemak",
+   "ideia": "<p>Fraktalen dimentsioa kalkulatzeko eta zenbakizko simulazioz kaosa aztertzeko problemak: Peanoren eta Hilberten kurbak, arro-mugak eta sakabanatze kaotikoa.</p>",
+   "enuntziatua": "",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Zein da 8.27 irudiko fraktala eraikitzeko araua? Eta bere dimentsioa, azalera eta perimetroa?</p><figure class=\"j-irudia\"><img src=\"media/irudiak/2d14a6a3d37294cf.svg\" alt=\"8.1 problemako fraktala eraikitzeko lehen pausoak.\" width=\"564\" loading=\"lazy\"><figcaption>8.1 problemako fraktala eraikitzeko lehen pausoak.</figcaption></figure>",
+     "s": ""
+    },
+    {
+     "e": "<p><strong>Peanoren kurba.</strong></p><p>1890ean Peanok aurkitu zuen karratu bat betetzen duen lehen kurba jarraitua: 8.28 irudiko prozedurak sortutako limite matematikoa. Zein da bere dimentsio fraktala?</p><figure class=\"j-irudia\"><img src=\"media/irudiak/5f04633a12411546.svg\" alt=\"Peanoren kurba eraikitzeko metodoa.\" width=\"539\" loading=\"lazy\"><figcaption>Peanoren kurba eraikitzeko metodoa.</figcaption></figure>",
+     "s": ""
+    },
+    {
+     "e": "<p><strong>Hilberten kurba.</strong></p><p>Karratua betetzen duen bigarren kurba jarraitua Hilbertek aurkitu zuen 1891n (ikus 8.29 irudia). Kalkulatu bere luzera eta dimentsioa.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/363b89f34b78b70b.svg\" alt=\"Hilberten kurba eraikitzeko metodoa.\" width=\"539\" loading=\"lazy\"><figcaption>Hilberten kurba eraikitzeko metodoa.</figcaption></figure>",
+     "s": ""
+    },
+    {
+     "e": "<p><strong>Mandelbroten kurba.</strong></p><p>8.30 irudiko fraktalak von Kochen elur-maluta betetzen du. Kalkulatu bere dimentsioa.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/6b8b59a801fe592f.svg\" alt=\"Mandelbroten kurba eraikitzeko metodoa.\" width=\"598\" loading=\"lazy\"><figcaption>Mandelbroten kurba eraikitzeko metodoa.</figcaption></figure>",
+     "s": ""
+    },
+    {
+     "e": "<p>Kalkulatu Cantorren multzoaren dimentsioa.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p><strong>Inertzia-momentua.</strong> <span class=\"j-izar\">★★★</span></p><p>Xafla mehe batean behin eta berriro egiten dira zuloak 8.31 irudian erakusten den moduan; baina, urrats bakoitzean, zulatu gabe geratzen materialean birbanatzen da zuloetan zegoen masa, era homogeneoan. Zein da fraktalaren dimentsioa? Kalkulatu limite matematikoan geratzen diren azalera eta masa-zentroarekiko inertzia-momentua. (Xaflaren masa <math display=\"inline\"><mi>m</mi></math> da eta aldeen luzera <math display=\"inline\"><mi>a</mi></math>.)</p><figure class=\"j-irudia\"><img src=\"media/irudiak/77d8875344ef52f3.svg\" alt=\"8.6 problemako fraktala.\" width=\"326\" loading=\"lazy\"><figcaption>8.6 problemako fraktala.</figcaption></figure>",
+     "s": ""
+    },
+    {
+     "e": "<p><span class=\"j-izar\">★</span></p><p>Erabili ekuazio diferentzialak ebazteko zenbakizko tresna egokiren bat (hala nola [49] programa) gai honetako higidura-ekuazioak aztertzeko. Egiaztatu soluzioak, edota fase-espazioa, erakusten dituzten irudiak.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p><strong>Arro-mugak.</strong> <span class=\"j-izar\">★★</span></p><p>Hiru erakarle periodiko ditu Duffingen (8.3) ekuazioak <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0.15</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0.25</mn></mrow></math> balioetarako. Marraztu erakarleak eta dagozkien arro-mugak.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p><strong>Sakabanatze kaotikoa.</strong> <span class=\"j-izar\">★★</span></p><p>Mahai horizontal leun batean hiru disko finko berdin daude, <math display=\"inline\"><mn>2.5</mn></math> m-ko aldeko triangelu aldekide baten erpinetan. Diskoen erradioak 1 m luze dira. Norabide berean, baina jotze-parametro desberdinekin, partikula puntualak jaurtitzen dira diskoen kontra. Talkak elastikoak dira. Marraztu sakabanatze-funtzioa.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p><span class=\"j-izar\">★</span></p><p><math display=\"inline\"><mi>L</mi></math> aldeko triangelu aldekide baten erpinetan hiru iman finko daude eta gainean soka batetik eseki da laugarrena, triangeluaren zentroaren bertikalean. Azken imanaren oszilazioak oso txikiak badira, bere higidura plano horizontal batean gertatzen da hurbilketa on batean eta higidura-ekuazioaren lehen hurbilketa ondoko izan daiteke: <math display=\"block\"><mrow><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̈</mo></mover><mo>+</mo><mn>2</mn><mi>γ</mi><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>+</mo><msup><mi>ω</mi><mn>2</mn></msup><mi mathvariant=\"bold-italic\">𝒓</mi><mo>+</mo><mi>C</mi><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></munderover><mfrac><mrow><mi mathvariant=\"bold-italic\">𝒓</mi><mo>−</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>i</mi></msub></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"bold-italic\">𝒓</mi><mo>−</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>i</mi></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mn>3</mn></msup></mfrac><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math> Azter ezazu higidura zenbakizko simulazioaren bidez. <em>Oharra</em>: Dimentsio gabeko aldagai egokietan <math display=\"inline\"><mrow><mi>C</mi><mo>=</mo><mi>L</mi><mo>=</mo><mn>1</mn></mrow></math> aukera daitezke.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p><span class=\"j-izar\">★★</span></p><p>Ageri denez, 8.10 problemako sistemak hiru oreka-puntu egonkor ditu (penduluaren imana beste baten gainean geratzen den bakoitzean). Marraztu erakarle horien arroak.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [],
+   "aurrekoak": [
+    "kkao-fraktal-autoantzekoak",
+    "kkao-dimentsio-fraktala",
+    "kkao-arro-muga-fraktalak",
+    "kkao-sakabanatze-kaotikoa"
+   ],
+   "ondorengoak": [],
+   "iturria": "B9.8 · a14 Problemak (11 ariketa: fraktalak eta zenbakizko simulazioak). Gainerako problema ebatziak jatorrizko liburuan daude.",
+   "sortua": [
+    "ideia"
+   ]
+  }
+ ]
+}

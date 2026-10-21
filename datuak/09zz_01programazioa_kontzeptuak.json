@@ -1,0 +1,1163 @@
+{
+ "kapitulua": "09zz_01programazioa",
+ "izenburua": "B10.3 · M28 Programazioa eta algoritmoak",
+ "sarrera": "<p>Modulu honek algoritmo klasikoak Python-antzeko sasikodean idazten eta irakurtzen irakasten du: zenbaki-teoria, errekurtsioa, fitxategiak eta kateak, hiztegiak, polinomioak eta matrizeak. Programa guztiak eskuz idatzitako koaderno-orrietatik datoz, eta iturriaren oharrek akatsak eta zuzenketak adierazten dituzte.</p>",
+ "atalak": [
+  {
+   "id": "S1",
+   "izena": "Zenbaki-algoritmoak eta oinarri-aldaketa"
+  },
+  {
+   "id": "S2",
+   "izena": "Iterazioa eta errekurtsioa"
+  },
+  {
+   "id": "S3",
+   "izena": "Baldintzak, sarrera-kontrola eta ausazkotasuna"
+  },
+  {
+   "id": "S4",
+   "izena": "Fitxategiak eta kateak"
+  },
+  {
+   "id": "S5",
+   "izena": "Hiztegiak"
+  },
+  {
+   "id": "S6",
+   "izena": "Zerrendak, polinomioak eta matrizeak"
+  },
+  {
+   "id": "S7",
+   "izena": "Beste tresnak eta ikuspegi osoa"
+  }
+ ],
+ "kontzeptuak": [
+  {
+   "id": "prog-zatitzaileen-batura-adiskideak",
+   "atala": "S1",
+   "mota": "metodoa",
+   "izena": "Zatitzaileen batura eta zenbaki adiskideak",
+   "ideia": "<p>Zenbaki baten zatitzaileak batzen ditugu begizta batekin; bi zenbaki adiskideak dira bakoitzaren zatitzaileen batura bestea denean.</p>",
+   "enuntziatua": "<p><code></code><code>python def sumadivisores(num): suma = 0 for i in range(1, (num//2)+1): if num % i == 0: suma = suma + 1        # jatorrizkoan; zuzena: suma + i return suma</code></p><p>def sonamigos(n1, n2): if n1 == sumadivisores(n2) and n2 == sumadivisores(n1): return True else: return False <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Zuzendutako <code>sumadivisores</code> funtzioarekin (<code>suma = suma + i</code>), zenbat da <code>sumadivisores(220)</code>? Eta <code>sumadivisores(284)</code>? Zer ondorioztatzen da <code>sonamigos(220, 284)</code>-z?</p>",
+     "s": "<p><code>sumadivisores(220) = 1+2+4+5+10+11+20+22+44+55+110 = 284</code> eta <code>sumadivisores(284) = 1+2+4+71+142 = 220</code>. Beraz <code>sonamigos(220, 284)</code> <code>True</code> da: 220 eta 284 zenbaki adiskideak dira.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "zatitzaile propioa",
+     "def": "<p>Zenbaki baten zatitzailea, zenbaki hori bera kontuan hartu gabe.</p>"
+    },
+    {
+     "t": "zenbaki adiskideak",
+     "def": "<p>Bi zenbaki, bakoitzaren zatitzaile propioen batura bestearen berdina denean (adibidez 220 eta 284).</p>"
+    },
+    {
+     "t": "begizta (for)",
+     "def": "<p>Instrukzio-multzo bat aldi askotan errepikatzen duen egitura; <code>for i in range(...)</code>-k balio-sorta bat zeharkatzen du.</p>"
+    },
+    {
+     "t": "hondarra (%)",
+     "def": "<p><code>a % b</code> operadoreak <code>a</code>-ren <code>b</code>-z zatiketaren hondarra ematen du; <code>a % b == 0</code> bada, <code>b</code> zatitzailea da.</p>"
+    }
+   ],
+   "aurrekoak": [],
+   "ondorengoak": [
+    "prog-zenbaki-lehenak",
+    "prog-zatitzaileen-zerrenda"
+   ],
+   "iturria": "a2 · Zenbaki adiskideak",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-zenbaki-lehenak",
+   "atala": "S1",
+   "mota": "metodoa",
+   "izena": "Zenbaki lehenak: testa eta sorkuntza",
+   "ideia": "<p>Zenbaki bat lehena den jakiteko, 2tik aurrera zatitzaileen bila hasten gara; bat aurkitu bezain laster, uzten dugu. Test horrekin lehenak zerrendatzen dira.</p>",
+   "enuntziatua": "<p><code></code><code>python def esprimo(n): primo = True i = 2 while i &lt; n and primo == True: if n % i == 0: primo = False i = i + 1 return primo</code></p><p>def sumaprimos(n): suma = 0 for i in range(1, n+1): if esprimo(i): suma = suma + 1        # jatorrizkoan; zuzena: suma + i return suma <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "<p><code></code><code>python def esprimo(n): pr = True i = 2 while i &lt; n and pr == True: if n % i == 0: pr = False i += 1 return pr</code></p><p>for i in range(100):        # 100 arteko lehenak if esprimo(i): print(i)</p><p>i = 1                       # lehen 1000 lehenak np = 0 while np &lt; 1000: if esprimo(i): print(i) np += 1 i += 1 <code></code><code></code></p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Zer itzultzen du <code>esprimo(13)</code>-k? Eta <code>esprimo(9)</code>-k?</p>",
+     "s": "<p><code>esprimo(13)</code> = <code>True</code> (2tik 12ra inork ez du zatitzen). <code>esprimo(9)</code> = <code>False</code>, 9 % 3 == 0 delako.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "zenbaki lehena",
+     "def": "<p>1 baino handiagoa den zenbaki naturala, bere buruaz eta 1ez beste zatitzailerik ez duena.</p>"
+    },
+    {
+     "t": "bandera (flag)",
+     "def": "<p>Egoera bat gogoratzen duen aldagai logikoa (<code>True</code>/<code>False</code>); hemen <code>primo</code>/<code>pr</code>, zatitzailerik aurkitu den ala ez adierazten duena.</p>"
+    },
+    {
+     "t": "while begizta",
+     "def": "<p>Baldintza bete bitartean errepikatzen den begizta.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-zatitzaileen-batura-adiskideak"
+   ],
+   "ondorengoak": [
+    "prog-hamartar-bitar-bihurketa",
+    "prog-urte-bisustua"
+   ],
+   "iturria": "a3 · Zenbaki lehenak; a9 · Zenbaki lehenak",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-zatitzaileen-zerrenda",
+   "atala": "S1",
+   "mota": "metodoa",
+   "izena": "Zatitzaileen zerrenda",
+   "ideia": "<p>Zatitzaileak batu beharrean zerrenda batean gordetzen ditugu, gero indizeaz heltzeko.</p>",
+   "enuntziatua": "<p><code></code><code>python def lista_divisores(num): l = [] for i in range(1, num):    # zenbakia bera sartzeko: range(1, num+1) if num % i == 0: l.append(i) return l</code></p><p>numero = int(input(&quot;Sartu zenbaki bat: &quot;)) lis = lista_divisores(numero) print(lis) print(lis[2])                  # hirugarren zatitzailea (indizeak 0-tik) <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p><code>lista_divisores(12)</code> funtzioak (<code>range(1, num)</code>-rekin) zer zerrenda itzultzen du?</p>",
+     "s": "<p><code>[1, 2, 3, 4, 6]</code>: 12 bera ez da sartzen, <code>range(1, 12)</code>-k 11ra arte baino ez duelako zeharkatzen.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "zerrenda (list)",
+     "def": "<p>Elementu ordenatuen bilduma, <code>[1, 2, 3]</code> bezala idatzia; <code>append</code>-ekin elementuak erantsi eta <code>lis[2]</code>-rekin indizeaz heltzen da.</p>"
+    },
+    {
+     "t": "indizea",
+     "def": "<p>Elementu baten posizioa zerrendan; Pythonen 0tik hasten da.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-zatitzaileen-batura-adiskideak"
+   ],
+   "ondorengoak": [
+    "prog-bilaketa-lineala",
+    "prog-polinomioak-batuketa-kenketa",
+    "prog-matrizeak"
+   ],
+   "iturria": "a6 · Zatitzaileen zerrenda",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-hamartar-bitar-bihurketa",
+   "atala": "S1",
+   "mota": "metodoa",
+   "izena": "Hamartarretik bitarrera: zatiketa hurrenkerak",
+   "ideia": "<p>Zenbakia 2z zatitzen dugu behin eta berriz; hondarrak, atzetik aurrera irakurrita, zifra bitarrak dira.</p>",
+   "enuntziatua": "<p>Eskuzko adibideak: <math display=\"inline\"><mrow><mn>7</mn><mo>→</mo><mn>111</mn></mrow></math>, <math display=\"inline\"><mrow><mn>6</mn><mo>→</mo><mn>110</mn></mrow></math> (zatiketa hurrenkerak <math display=\"inline\"><mn>2</mn></math>-z, hondarrak alderantziz irakurrita).</p><p><code></code><code>python def convierte(n): s = &#x27;&#x27; while n &gt; 0: s = str(n % 2) + s n = n // 2 return s</code></p><p>num = int(input(&quot;Sartu zenbaki oso positibo bat&quot;)) if num &lt;= 0: print(&quot;Zenbakia ez da positiboa&quot;) else: print(num, &quot;–&gt;&quot;, convierte(num)) <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "<p><code></code><code>python def convertir(n): s = &#x27;&#x27;             # jatorrizkoan &#x27; &#x27; (zuriunea); &#x27;&#x27; behar da while n != 0: s = str(n % 2) + s n = n // 2 return s print(convertir(n)) </code><code></code></p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Bihurtu 13 bitarrera zatiketa hurrenkerak erabiliz (eskuz, <code>convierte</code>-ren pausoak jarraituz).</p>",
+     "s": "<p>13 = 2·6 + 1; 6 = 2·3 + 0; 3 = 2·1 + 1; 1 = 2·0 + 1. Hondarrak alderantziz irakurrita: <code>1101</code>.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "oinarri bitarra",
+     "def": "<p>Bi zifra bakarrik (0 eta 1) erabiltzen dituen zenbaki-sistema; zifra bakoitzak 2ren berretura bat adierazten du.</p>"
+    },
+    {
+     "t": "zatiketa osoa (//)",
+     "def": "<p><code>n // 2</code> eragiketak zatiketaren zati osoa ematen du, hondarra baztertuta.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-zenbaki-lehenak"
+   ],
+   "ondorengoak": [
+    "prog-ikus-atlasa"
+   ],
+   "iturria": "a4 · Hamartarra → bitarra; a7 · Bitarrera bihurtzea",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-newton-erro-karratua",
+   "atala": "S2",
+   "mota": "metodoa",
+   "izena": "Erro karratua Newton-en metodoz",
+   "ideia": "<p>Erro karratua hurbiltzeko, estimazio bat hartu eta behin eta berriz hobetzen dugu formula sinple batekin.</p>",
+   "enuntziatua": "<p><code></code><code>python def raiz(num, ite): x = 1 for i in range(ite): x = x - ((x**2) - num) / (2*x) return x print(raiz(27, 10))   # adibidea</code></p><p>def raiz2(num): x = 1 xn = x - ((x*<strong>2) - num) / (2</strong>x) cont = 1 while abs(xn - x) &gt; 0.000001: x = xn xn = xn - ((xn*<strong>2) - num) / (2</strong>xn)   # jatorrizkoan 2*x cont += 1 print(cont) return xn <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p><code>raiz(9, 2)</code>-ren balioa kalkulatu, <code>x = 1</code>-etik hasita eta bi iterazio eginez.</p>",
+     "s": "<p>Iterazio bakoitzean <code>x = x - (x**2 - 9)/(2*x)</code>: lehenengoan <code>1 - (1-9)/2 = 5</code>; bigarrenean <code>5 - (25-9)/10 = 3,4</code>. Emaitza: <code>3.4</code> (9ren erro zehatzera, 3ra, hurbiltzen ari da).</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "iterazioa",
+     "def": "<p>Pausu bat aldi askotan errepikatzea, aurreko emaitza hurrengo pausoaren sarrera bihurtuz.</p>"
+    },
+    {
+     "t": "Newton-en metodoa",
+     "def": "<p><math display=\"inline\"><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>0</mn></mrow></math> ebazteko hurbilketa-metodoa: <math display=\"inline\"><mrow><mi>x</mi><mo>←</mo><mi>x</mi><mo>−</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>/</mo><msup><mi>f</mi><mo>′</mo></msup><mo>(</mo><mi>x</mi><mo>)</mo></mrow></math>.</p>"
+    },
+    {
+     "t": "tolerantzia",
+     "def": "<p>Hurbilketa onartzeko utzitako errore-muga; begiztak gelditzen da bi hurbilketa jarraitu haren azpitik gertu daudenean.</p>"
+    }
+   ],
+   "aurrekoak": [],
+   "ondorengoak": [
+    "prog-serieak",
+    "prog-faktoriala",
+    "prog-ikus-atlasa"
+   ],
+   "iturria": "a8 · Erro karratua Newton-en metodoz",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-serieak",
+   "atala": "S2",
+   "mota": "metodoa",
+   "izena": "Serie bat zerrenda gisa eraikitzea",
+   "ideia": "<p>Serie baten hurrengo hitza aurrekotik kalkulatzen dugu, eta guztiak zerrenda batean gordetzen ditugu; araua indizearen paritatearen araberakoa da.</p>",
+   "enuntziatua": "<p><code></code><code>python def serie(t1, ite): l = [t1] for i in range(1, ite): if i % 2 == 0: l.append(l[i-1] // 2) else: l.append((l[i-1] * 3) + 1) return l # t1=7: [7, 22, 11, 34, 17, 52, 26, 79, 39, 118] </code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p><code>serie(5, 4)</code> deituta, zer zerrenda lortzen da?</p>",
+     "s": "<p><code>l = [5]</code>; i=1 (bakoitia): 5·3+1 = 16; i=2 (bikoitia): 16//2 = 8; i=3 (bakoitia): 8·3+1 = 25. Emaitza: <code>[5, 16, 8, 25]</code>.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "pariotasuna",
+     "def": "<p>Zenbaki bat bikoitia (<code>i % 2 == 0</code>) edo bakoitia den.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-newton-erro-karratua"
+   ],
+   "ondorengoak": [],
+   "iturria": "a8 · Serie bikoiti/bakoitien arabera",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-faktoriala",
+   "atala": "S2",
+   "mota": "metodoa",
+   "izena": "Faktoriala: while, for eta errekurtsioa",
+   "ideia": "<p>Faktorial bera hiru erara idazten da: <code>while</code>-ekin, <code>for</code>-ekin, edo funtzioak bere buruari deituz (errekurtsioa).</p>",
+   "enuntziatua": "<p><code></code><code>python def factorial1(n):        def factorial2(n): f = 1                     f = 1 while n &gt; 1:              for i in range(2, n+1): f = f * n                 f = f * i n = n - 1             return f return f</code></p><p>def factorial_r(n):       # funtzio ERREKURTSIBOA (bere buruari deitzen diona) if n == 0 or n == 1:  #   oinarri-kasua return 1 else:                 #   errekurtsio-kasua return n * factorial_r(n-1) <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Zer itzultzen du <code>factorial_r(4)</code>-k?</p>",
+     "s": "<p><code>4 · factorial_r(3) = 4 · 3 · factorial_r(2) = 4 · 3 · 2 · factorial_r(1) = 4 · 3 · 2 · 1 = 24</code>.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "errekurtsioa",
+     "def": "<p>Funtzio batek bere buruari deitzea, problema txikiago batean; amaitzeko oinarri-kasu bat behar du.</p>"
+    },
+    {
+     "t": "oinarri-kasua",
+     "def": "<p>Errekurtsioa gelditzen den kasua, bere buruari berriz deitu gabe erantzuten duena (faktorialean, <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow></math> edo <math display=\"inline\"><mn>1</mn></math>).</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-newton-erro-karratua"
+   ],
+   "ondorengoak": [
+    "prog-fibonacci-iteratiboa",
+    "prog-fibonacci-errekurtsiboa",
+    "prog-asmatzeko-jokoa"
+   ],
+   "iturria": "a8 · Faktoriala (hiru bertsio)",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-fibonacci-iteratiboa",
+   "atala": "S2",
+   "mota": "metodoa",
+   "izena": "Fibonacci: bertsio iteratiboa",
+   "ideia": "<p>Fibonacci-ren segida lehen bi balioetatik eraikitzen da: hurrengo bakoitza aurreko biren batura da.</p>",
+   "enuntziatua": "<p><code></code><code>python def fibonacci(ite): l = [0, 1] for i in range(2, ite+1): l.append(l[i-2] + l[i-1]) return l # [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...]</code></p><p>def mostrar_fibonacci(ite): x0 = 0 x1 = 1 s = str(x0) + &#x27;, &#x27; + str(x1) for i in range(2, ite+1): aux = x1 x1 = x1 + x0 x0 = aux s = s + &#x27;, &#x27; + str(x1) print(s) <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p><code>fibonacci(6)</code> deituta, zer zerrenda lortzen da?</p>",
+     "s": "<p><code>[0, 1, 1, 2, 3, 5, 8]</code> (<code>range(2, 7)</code>-k i = 2…6 gehitzen ditu).</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "Fibonacci-ren segida",
+     "def": "<p><math display=\"inline\"><mrow><msub><mi>F</mi><mn>0</mn></msub><mo>=</mo><mn>0</mn><mo>,</mo><msub><mi>F</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn><mo>,</mo><msub><mi>F</mi><mi>n</mi></msub><mo>=</mo><msub><mi>F</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><msub><mi>F</mi><mrow><mi>n</mi><mo>−</mo><mn>2</mn></mrow></msub></mrow></math> definitutako segida.</p>"
+    },
+    {
+     "t": "aldagai laguntzailea",
+     "def": "<p>Bi balio trukatzean aurrekoa ez galtzeko erabiltzen den aldagai gehigarria (<code>aux</code>).</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-faktoriala"
+   ],
+   "ondorengoak": [
+    "prog-fibonacci-errekurtsiboa"
+   ],
+   "iturria": "a8 · Fibonacci",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-fibonacci-errekurtsiboa",
+   "atala": "S2",
+   "mota": "metodoa",
+   "izena": "Fibonacci errekurtsiboa eta deien zuhaitza",
+   "ideia": "<p>Fibonacci-ren definizioa zuzenean programatzen da funtzio errekurtsibo gisa; deien zuhaitzak erakusten du azpi-kalkuluak errepikatzen direla.</p>",
+   "enuntziatua": "<p><code></code><code>python def fibonacci_r(ite): if ite == 0: return 0 else: if ite == 1: return 1 else: return fibonacci_r(ite-1) + fibonacci_r(ite-2) </code><code></code></p><p><strong>Deien zuhaitza</strong> <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-rako: <code></code><code>text F(4) = 3 /        \\ F(3)=2    +   F(2)=1 /     \\         /    \\ F(2)=1  +  F(1)=1  F(1)=1 + F(0)=0 /   \\ F(1)=1 + F(0)=0 </code><code></code> Indizeak: <math display=\"inline\"><mrow><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn></mrow></math>; balioak: <math display=\"inline\"><mrow><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn></mrow></math>. (<math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> hiru aldiz agertzeak bertsio hau iteratiboa baino eraginkortasun txikiagokoa dela erakusten du.)</p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p><code>fibonacci_r(4)</code> kalkulatzean, zenbat aldiz kalkulatzen da <code>F(1)</code> deien zuhaitzaren arabera?</p>",
+     "s": "<p>Hiru aldiz (zuhaitzaren hiru hostotan agertzen da), eta F(4) = 3.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "deien zuhaitza",
+     "def": "<p>Funtzio errekurtsibo baten deiak zuhaitz gisa marraztea; deia bakoitzak bere azpi-deiak ditu.</p>"
+    },
+    {
+     "t": "eraginkortasuna",
+     "def": "<p>Algoritmo batek behar duen lan-kopurua; errekurtsio bikoitz honetan azpi-kalkuluak errepikatzen dira, beraz iteratiboa baino txikiagoa da.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-fibonacci-iteratiboa",
+    "prog-faktoriala"
+   ],
+   "ondorengoak": [
+    "prog-ikus-atlasa"
+   ],
+   "iturria": "a9 · Fibonacci errekurtsiboa",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-asmatzeko-jokoa",
+   "atala": "S3",
+   "mota": "metodoa",
+   "izena": "Asmatzeko jokoa: ausazko zenbakia eta begizta",
+   "ideia": "<p>Ordenagailuak ausazko zenbaki bat «pentsatzen» du eta jokalariak asmatu arte galdetzen jarraitzen du, pistak emanez.</p>",
+   "enuntziatua": "<p><code></code><code>python import random num = int(100 * random.random()) cont = 1 print(&quot;Zenbaki bat pentsatu dut, asmatu ezazu&quot;) op = int(input(&quot;Sartu zure erantzuna: &quot;)) while op != num: print(&quot;Zenbaki okerra&quot;) cont = cont + 1 if op &gt; num: print(&quot;Zenbaki txikiago bat pentsatu dut&quot;) else: print(&quot;Zenbaki handiago bat pentsatu dut&quot;) op = int(input(&quot;Sartu zure erantzuna: &quot;)) print(&quot;Zuzena!&quot;) print(&quot;&quot;, cont, &quot;saiakera erabili dituzu&quot;) </code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "ausazko zenbakia",
+     "def": "<p><code>random.random()</code>-ek [0, 1) tarteko zenbaki bat ematen du; 100z biderkatu eta <code>int</code>-ekin moztuta, 0 eta 99 arteko osoa lortzen da.</p>"
+    },
+    {
+     "t": "kontagailua",
+     "def": "<p>Gertaera bat zenbat aldiz gertatu den kontatzen duen aldagaia (<code>cont = cont + 1</code>).</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-faktoriala"
+   ],
+   "ondorengoak": [
+    "prog-itsas-borroka"
+   ],
+   "iturria": "a7 · Asmatzeko jokoa",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "prog-urte-bisustua",
+   "atala": "S3",
+   "mota": "metodoa",
+   "izena": "Urte bisustua: baldintza habiaratuak eta adierazpen logikoa",
+   "ideia": "<p>Urte bisustuaren araua bi eratan idatz daiteke: <code>if</code> habiaratuekin edo baldintza logiko bakar batekin (<code>and</code>, <code>or</code>).</p>",
+   "enuntziatua": "<p><code></code><code>python def es_bisiesto(num): if num % 4 == 0: if num % 100 != 0: return True else: return False else: return False </code><code></code></p>",
+   "formula": "",
+   "azalpena": "<p><code></code><code>python def es_bisiesto(num): if (num % 4 == 0 and num % 100 != 0) or (num % 400 == 0): return True    # jatorrizkoan % 1; % 100 behar da eta 2. klausula sinplifikatu else: return False </code><code></code></p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Egutegi gregoriarraren arauaz, <code>es_bisiesto</code>-k zer itzuliko luke 1900, 2000 eta 2024 urteentzat?</p>",
+     "s": "<p>1900: <code>False</code> (100-ez zatigarria, 400-ez ez). 2000: <code>True</code> (400-ez zatigarria). 2024: <code>True</code> (4z zatigarria, 100ez ez).</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "baldintza (if/elif/else)",
+     "def": "<p>Baldintza baten arabera instrukzio-bloke bat exekutatzen duen egitura.</p>"
+    },
+    {
+     "t": "adierazpen logikoa",
+     "def": "<p><code>and</code>, <code>or</code>, <code>not</code> eragileekin osatutako baldintza, <code>True</code> edo <code>False</code> ematen duena.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-zenbaki-lehenak"
+   ],
+   "ondorengoak": [
+    "prog-aulki-prezioak",
+    "prog-ord-chr-letra-tartea",
+    "prog-ikus-atlasa"
+   ],
+   "iturria": "a10 · Urte bisustua",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-aulki-prezioak",
+   "atala": "S3",
+   "mota": "metodoa",
+   "izena": "Sarrera-kontrola eta deskontu-katea: aulki-prezioak",
+   "ideia": "<p>Programak erabiltzaileak sartutako modeloa baliozkotzen du begizta batekin, eta kopuruaren arabera deskontu bat aplikatzen du.</p>",
+   "enuntziatua": "<p>Azterketa-programa: aulki-eskaera baten <strong>prezioa</strong> kalkulatzen du <strong>modeloaren</strong> eta <strong>kopuruaren</strong> arabera, <strong>sarrera-baliozkotzearekin</strong>.</p><p><code></code><code>python numsillas = int(input(&quot;Introduce el número de sillas&quot;)) modelo = input(&quot;Introduce el modelo&quot;) while modelo != &quot;AAA&quot; and modelo != &quot;ISAAA&quot; and modelo != &quot;GYAYS&quot;: modelo = input(&quot;Modelo no encontrado. Introduce el modelo&quot;)</code></p><p>if modelo == &quot;AAA&quot;: precio = numsillas <strong> 35 elif modelo == &quot;ISAAA&quot;: precio = numsillas </strong> 43 elif modelo == &quot;GYAYS&quot;: precio = numsillas <strong> 54 else: precio = numsillas </strong> 67          # heltezina: while-k modeloa baliozkotzen du</p><p>if numsillas &gt;= 4: precio = precio <strong> 0.9 elif numsillas &gt;= 6:                 # heltezina: &gt;=4-k jada harrapatzen du precio = precio </strong> 0.85 elif numsillas &gt;= 8: precio = precio <strong> 0.80 elif numsillas &gt;= 10: precio = precio </strong> 0.75</p><p>print(numsillas, &quot;sillas del modelo&quot;, modelo, &quot;cuestan&quot;, precio) <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "sarrera-baliozkotzea",
+     "def": "<p>Erabiltzaileak sartutako datua onargarria den egiaztatzea, eta ez bada, berriz eskatzea.</p>"
+    },
+    {
+     "t": "heltezina (kodea)",
+     "def": "<p>Inoiz exekutatuko ez den kode-zatia, aurreko baldintzek beti harrapatzen dutelako.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-urte-bisustua"
+   ],
+   "ondorengoak": [
+    "prog-lee-koordenada"
+   ],
+   "iturria": "a17 · Aulki-prezioen kalkulua",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "prog-ord-chr-letra-tartea",
+   "atala": "S3",
+   "mota": "notazioa",
+   "izena": "ord, chr eta letra-tartearen baldintza",
+   "ideia": "<p><code>ord</code> karaktere bat bere zenbaki-kodera bihurtzen du eta <code>chr</code> alderantziz; letrak sailkatzeko konparazioak erabiltzen dira.</p>",
+   "enuntziatua": "<p><code></code><code>python ord(&#x27;a&#x27;)   # -&gt; 97   (kodea karakteretik) chr(97)    # -&gt; &#x27;a&#x27;  (karakterea kodetik) # ord(&#x27;A&#x27;) = 65,  ord(&#x27;a&#x27;) = 97 </code><code></code></p>",
+   "formula": "",
+   "azalpena": "<p><code></code><code>python if letra &gt;= &quot;A&quot; and letra &lt;= &quot;b&quot;:   # jatorrizkoan; ikus oharra ... # minuskulak: letra &gt;= &#x27;a&#x27; and letra &lt;= &#x27;z&#x27; # maiuskulak: letra &gt;= &#x27;A&#x27; and letra &lt;= &#x27;Z&#x27; </code><code></code></p><p>Sarrera/irteera fitxategiak: <code>texto.txt</code> (zifratzeko), <code>texto_codificado.txt</code> (deszifratzeko).</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Zenbat da <code>ord('c')</code>? Eta zer karaktere da <code>chr(100)</code>?</p>",
+     "s": "<p><code>ord('c') = 99</code> (<code>ord('a') = 97</code> eta c alfabetoko hirugarrena da). <code>chr(100) = 'd'</code>.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "ASCII kodea",
+     "def": "<p>Karaktere bakoitzari esleitutako zenbakia (adibidez <code>'A'</code> = 65, <code>'a'</code> = 97).</p>"
+    },
+    {
+     "t": "Cesar zifraketa",
+     "def": "<p>Letra bakoitza alfabetoan <math display=\"inline\"><mi>k</mi></math> posizio lekualdatzen duen zifraketa sinplea, alfabetoaren amaieran hasierara itzuliz.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-urte-bisustua"
+   ],
+   "ondorengoak": [],
+   "iturria": "a11 · ord / chr eta ASCII; Letra-tartearen baldintza",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-lee-koordenada",
+   "atala": "S3",
+   "mota": "metodoa",
+   "izena": "Koordenatuen baliozkotzea funtzio batean (refactoring)",
+   "ideia": "<p>Behin eta berriz errepikatzen den baliozkotze-logika funtzio bakar batean biltzen dugu, mezua parametro gisa hartuta.</p>",
+   "enuntziatua": "<p>Aurreko itsas-borrokan koordenatuen baliozkotzea <strong>bitan</strong> errepikatzen zen (<code>x</code> eta <code>y</code>). Hemen logika hori <strong>funtzio bakar batean</strong> biltzen da, <strong>mezua parametro</strong> gisa hartuta: <strong>berrerabilgarritasuna</strong>.</p><p><code></code><code>python def lee_coordenada(mensaje): valido = False while not valido: dato = input(mensaje) if not dato.isdigit(): print(&quot;Debes introducir un número&quot;) else: coord = int(dato) - 1 if coord &lt; 0 or coord &gt; 9: print(&quot;Introduce un número del 1 al 10&quot;) else: return coord </code><code></code></p><p>Funtzioak <strong>bi baliozkotze</strong> egiten ditu: (1) sarrera <strong>digitu hutsez</strong> osatuta dagoen (<code>isdigit()</code>), eta (2) <strong>tartean</strong> dagoen (<math display=\"inline\"><mn>1</mn></math>–<math display=\"inline\"><mn>10</mn></math>, <math display=\"inline\"><mrow><mi>−</mi><mn>1</mn></mrow></math> kenketaz <math display=\"inline\"><mn>0</mn></math>–<math display=\"inline\"><mn>9</mn></math> bihurtuta).</p><p><em class=\"j-nab\">\n  <code>isdigit()</code> metodoak <strong>baliozkotze sendoagoa</strong> ematen du: <code>int()</code>-ek zuzenean <strong>huts egingo luke</strong>\n  (errorea) zenbakia ez den sarrera batekin; <code>isdigit()</code>-ekin lehenik egiaztatzen da.\n</em></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "refactoring",
+     "def": "<p>Kodearen portaera aldatu gabe haren egitura hobetzea, adibidez errepikapena funtzio batean bilduz.</p>"
+    },
+    {
+     "t": "parametroa",
+     "def": "<p>Funtzio batek deitzean jasotzen duen balioa (hemen <code>mensaje</code>).</p>"
+    },
+    {
+     "t": "isdigit()",
+     "def": "<p>Kate bat zifrez bakarrik osatuta dagoen ala ez dioen metodoa; <code>int()</code> deitu aurretik erroreak saihesteko.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-itsas-borroka",
+    "prog-aulki-prezioak"
+   ],
+   "ondorengoak": [],
+   "iturria": "a21 · lee_coordenada",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "prog-fitxategi-moduak",
+   "atala": "S4",
+   "mota": "notazioa",
+   "izena": "Fitxategiak irekitzea: r, w eta a moduak",
+   "ideia": "<p>Fitxategi bat irekitzean modua adierazi behar da: irakurtzeko (<code>r</code>), idazteko gainidatziz (<code>w</code>) edo amaieran erantsiz (<code>a</code>).</p>",
+   "enuntziatua": "<p><math display=\"block\"><mrow><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> -r (read): irakurri</mtext></mrow><mo>;</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> -w (write): gainidatzi</mtext></mrow><mo>;</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> -a (append): amaieran idatzi. </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p>",
+   "formula": "",
+   "azalpena": "<p><em class=\"j-nab\">\n  Fitxategi-moduak: <code>open(&quot;...&quot;, &quot;r&quot;)</code> <strong>irakurri</strong>, <code>&quot;w&quot;</code> <strong>idatzi</strong> (gainidatzi), <code>&quot;a&quot;</code> <strong>erantsi</strong>. Adibidea:\n  fitxategi bat lerroz lerro irakurri (<code>f.read()</code>, zerrenda batera <code>append</code>), itxi (<code>f.close()</code>), eta beste\n  batean <code>write</code> moduan elementu bakoitza idatzi begizta batez.\n</em></p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Fitxategiak aurretik zuen edukia galdu nahi ez baduzu, zer modutan ireki behar duzu idazteko?</p>",
+     "s": "<p><code>\"a\"</code> (append) moduan; <code>\"w\"</code>-k edukia ezabatzen eta gainidazten du.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "fitxategia irekitzea",
+     "def": "<p><code>open(izena, modua)</code>-k fitxategi bat programan erabiltzeko prestatzen du; amaieran <code>close()</code> egin behar da.</p>"
+    },
+    {
+     "t": "irakurri/idatzi/erantsi",
+     "def": "<p>Hiru ireki-moduak: <code>r</code> (read), <code>w</code> (write, gainidatzi) eta <code>a</code> (append, amaieran idatzi).</p>"
+    }
+   ],
+   "aurrekoak": [],
+   "ondorengoak": [
+    "prog-fitxategiak-txandakatzea",
+    "prog-karaktereak-kontatu-hitza-bilatu",
+    "prog-karaktere-debekatuak",
+    "prog-bokal-kontagailua"
+   ],
+   "iturria": "a6 · Ireki-moduak; a26 · Fitxategiekin lan egitea",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-fitxategiak-txandakatzea",
+   "atala": "S4",
+   "mota": "metodoa",
+   "izena": "Bi fitxategiren lerroak txandakatzea",
+   "ideia": "<p>Bi fitxategiren lerroak txandaka hirugarren batean idazten dira, eta bat amaitzen denean besteko soberakina kopiatzen da.</p>",
+   "enuntziatua": "<p><code></code><code>python f1 = open(&quot;fich.txt&quot;, &quot;r&quot;) f2 = open(&quot;fich2.txt&quot;, &quot;r&quot;) linea1 = f1.readline() linea2 = f2.readline() f3 = open(&quot;destino.txt&quot;, &quot;w&quot;)     # jatorrizkoan OPEN falta</code></p><p>while linea1 != &quot;&quot; and linea2 != &quot;&quot;: f3.write(linea1) f3.write(linea2) linea1 = f1.readline() linea2 = f2.readline()</p><p>while linea1 != &quot;&quot;:               # f1-eko soberakina f3.write(linea1) linea1 = f1.readline() while linea2 != &quot;&quot;:               # f2-eko soberakina f3.write(linea2) linea2 = f2.readline() f3.close() <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "fitxategi-amaiera",
+     "def": "<p><code>readline()</code>-ek kate hutsa (<code>\"\"</code>) itzultzen du irakurtzeko lerrorik ez dagoenean.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-fitxategi-moduak"
+   ],
+   "ondorengoak": [],
+   "iturria": "a7 · Bi fitxategiren lerroak txandakatzea",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "prog-karaktereak-kontatu-hitza-bilatu",
+   "atala": "S4",
+   "mota": "metodoa",
+   "izena": "Karaktereak kontatu eta hitza fitxategian bilatu",
+   "ideia": "<p>Fitxategia kate osoa bezala irakurtzen dugu: karaktere-kopurua begiztaz edo <code>len</code>-ekin kontatzen da, eta hitz bat badagoen <code>in</code>-ekin begiratzen da.</p>",
+   "enuntziatua": "<p><code></code><code>python def kalkopurua():          # 1. bertsioa: begiztaz f = open(&quot;texto.txt&quot;, &quot;r&quot;) datos = f.read() kop = 0 for karakter in datos: kop = kop + 1 return kop</code></p><p>def kalkopurua():          # 2. bertsioa: len() f = open(&quot;texto.txt&quot;, &quot;r&quot;) datos = f.read() return len(datos) <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "<p><code></code><code>python def organitu(fich, palabra): f = open(fich, &quot;r&quot;) datos = f.read() palabras = datos.split() if palabra in palabras: return True else: return False </code><code></code></p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Fitxategiaren edukia <code>\"kaixo mundua\"</code> bada, zenbat itzultzen du <code>kalkopurua()</code>-k? Eta <code>organitu(fich, \"mundua\")</code>-k?</p>",
+     "s": "<p><code>kalkopurua()</code> = 12 (11 letra eta zuriune bat). <code>organitu(fich, \"mundua\")</code> = <code>True</code>, \"mundua\" hitz-zerrendan dagoelako.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "split()",
+     "def": "<p>Kate bat hitzetan banatzen duen metodoa, hitz-zerrenda bat itzuliz.</p>"
+    },
+    {
+     "t": "len()",
+     "def": "<p>Kate edo zerrenda baten luzera (elementu-kopurua) ematen duen funtzioa.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-fitxategi-moduak"
+   ],
+   "ondorengoak": [
+    "prog-hitzen-portzentajea",
+    "prog-histograma"
+   ],
+   "iturria": "a16 · kalkopurua, organitu",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-hitzen-portzentajea",
+   "atala": "S4",
+   "mota": "metodoa",
+   "izena": "Hitzen agerpen-portzentajea",
+   "ideia": "<p>Hitz bat testu batean zenbat aldiz agertzen den kontatu eta hitz-kopuru osoaz zatitzen dugu, ehunekoa lortzeko.</p>",
+   "enuntziatua": "<p>Bilaketa-kate bateko hitzak erreferentzia-kate batekin konparatu eta bakoitzaren agerpen-portzentajea kalkulatzen duen programa.</p><p><code></code><code>python busqueda = input(&quot;Sartu bilaketa-katea&quot;) cadena   = input(&quot;Sartu erreferentzia-katea&quot;) lbus    = busqueda.split() lcadena = cadena.split() tamano  = len(lcadena) for pbus in lbus: por = 0 for pcad in lcadena: if pbus == pcad: por = por + 1 print(&quot;«&quot;, pbus, &quot;» hitza agertzen da&quot;, 100*por/tamano, &quot;%&quot;) </code><code></code></p>",
+   "formula": "",
+   "azalpena": "<p><code>split()</code>-ez esaldiak hitz-zerrendetan banatu, eta <strong>begizta habiaratuez</strong> hitz baten agerpenak zenbatu:</p><p><code></code><code>python LFRASE = FRASE.split() LBUS = BUS.split() kont = 0 for PALABRA in LBUS: for j in LFRASE: if PALABRA == j: kont += 1 portzentaia = 100 * kont / len(LFRASE) </code><code></code></p><p>Fitxategi bat irakurri, hitzetan banatu, eta <strong><code>e</code> duten hitzen ehunekoa</strong> kalkulatu:</p><p><code></code><code>python f = open(&quot;fich.txt&quot;, &quot;r&quot;) d = f.read() lista_palabras = d.split(&quot; &quot;) contador = 0 for palabra in lista_palabras: if &#x27;e&#x27; in palabra: contador = contador + 1 print(&quot;El porcentaje de palabras con la letra e es:&quot;, 100 * contador / len(lista_palabras)) </code><code></code></p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Erreferentzia-katea <code>\"a b a c\"</code> eta bilatutako hitza <code>\"a\"</code> badira, zer portzentaje inprimatzen da?</p>",
+     "s": "<p><code>a</code> bi aldiz agertzen da 4 hitzetatik: 100·2/4 = <code>50.0</code> %.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "begizta habiaratua",
+     "def": "<p>Beste begizta baten barruan dagoen begizta; kanpokoak hitz bat hartzen du eta barnekoak hitz horren agerpenak bilatzen ditu.</p>"
+    },
+    {
+     "t": "portzentajea",
+     "def": "<p>Zati bat osoarekiko 100 aldiz: <code>100 * kont / len(...)</code>.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-karaktereak-kontatu-hitza-bilatu"
+   ],
+   "ondorengoak": [
+    "prog-karaktere-debekatuak"
+   ],
+   "iturria": "a5; a26 · Esaldiak alderatzea; a18 · e letra duten hitzak",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-karaktere-debekatuak",
+   "atala": "S4",
+   "mota": "metodoa",
+   "izena": "Karaktere debekatuen iragazkia",
+   "ideia": "<p>Sarrerako fitxategitik lerroak irakurri eta karaktere debekaturik ez duten hitzak irteerako fitxategian idazten dira.</p>",
+   "enuntziatua": "<ul><li><code>esta_en_matriz(A, C)</code>: zerrenda <code>A</code> zerrenda-zerrenden <code>C</code> barruan dagoen (<math display=\"inline\"><mrow><mi>A</mi><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> in </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>C</mi></mrow></math>). Jatorrian <strong>osatu gabe</strong> geratzen da.</li><li><strong>Karaktere debekatuak:</strong> sarrerako fitxategitik irakurri, karaktere debekaturik gabeko lerroak irteerako fitxategira idatzi. Hemen hasten da (<code>open</code> r/w, lerroak zenbatu) eta <code>p144</code>-n <strong>osatzen</strong>.</li></ul>",
+   "formula": "",
+   "azalpena": "<p>Hitz bakoitzeko, <strong>karaktere debekatuak</strong> (<code>cadena</code>) hitzean dauden begiratu; garbia bada, lerroari gehitu eta irteerako fitxategira idatzi:</p><p><code></code><code>python while i &lt; len(cadena) and correcta: if cadena[i] in palabra: correcta = False i = i + 1 if correcta: linea_w = linea_w + palabra + &quot; &quot; fl.write(linea_w + &quot;\\n&quot;) numlinea = numlinea + 1 fe.close() fl.close() </code><code></code></p><p>(«Karaktere baimenduak» gaia <strong>etxean egiteko</strong> uzten da.)</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "iragazkia",
+     "def": "<p>Datuak aztertu eta baldintza bete dutenak bakarrik gordetzen dituen programa.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-fitxategi-moduak",
+    "prog-hitzen-portzentajea"
+   ],
+   "ondorengoak": [],
+   "iturria": "a18 · Beste bi programa (hasita); a19 · Karaktere debekatuen itxiera",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "prog-bokal-kontagailua",
+   "atala": "S5",
+   "mota": "metodoa",
+   "izena": "Bokal-kontagailua hiztegiarekin",
+   "ideia": "<p>Hiztegi batek letra bakoitza (giltza) bere agerpen-kopuruarekin (balioa) lotzen du; letra berria bada sortzen da, bestela kontagailua handitzen da.</p>",
+   "enuntziatua": "<p><code></code><code>python def vocales(nombre): f = open(nombre, &quot;r&quot;) linea = f.readline() dic = {}                 # jatorrizkoan [ ]; hiztegia behar da while linea != &quot;&quot;:       # jatorrizkoan &quot; &quot;; hutsa &quot;&quot; behar da for letra in linea: if letra == &#x27;a&#x27; or letra == &#x27;e&#x27; or ...:   # (etc.) if letra in dic: dic[letra] += 1 else: dic[letra] = 1 linea = f.readline() return dic</code></p><p>nombre = input(&quot;Sartu fitxategiaren izena: &quot;) diccionario = vocales(nombre) for elemento in diccionario: print(&quot;«&quot;, elemento, &quot;» bokala agertzen da&quot;, diccionario[elemento], &quot;aldiz&quot;) print(&quot;Fitxategiak&quot;, len(diccionario), &quot;bokal ditu&quot;) <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "<p><code></code><code>python FRASE = input() DIC = {} for LETRA in FRASE: if LETRA in &quot;aeiou&quot;: if LETRA in DIC: DIC[LETRA] += 1 else: DIC[LETRA] = 1 </code><code></code></p><p><strong>Hiztegia</strong> (<code>DIC</code>) letra bakoitzeko agerpen-kopurua gordetzen du; gakoa letra, balioa kontagailua.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p><code>FRASE = \"kaixo\"</code> izanik, zer hiztegi geratzen da programaren amaieran?</p>",
+     "s": "<p><code>{'a': 1, 'i': 1, 'o': 1}</code> (<code>k</code> eta <code>x</code> ez dira bokalak).</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "hiztegia (dict)",
+     "def": "<p>Giltza-balio bikoteen bilduma, <code>{giltza: balioa}</code> idatzia; giltzaz heltzen da balioari (<code>dic[giltza]</code>).</p>"
+    },
+    {
+     "t": "giltza",
+     "def": "<p>Hiztegiko elementu bakoitzaren identifikatzailea; balioa bilatzeko erabiltzen da.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-fitxategi-moduak"
+   ],
+   "ondorengoak": [
+    "prog-histograma"
+   ],
+   "iturria": "a6 · Bokalak zenbatzea; a23 · Bokal-kontagailua",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-histograma",
+   "atala": "S5",
+   "mota": "metodoa",
+   "izena": "Hitz-histograma eta hitzkop",
+   "ideia": "<p>Histogramak hitz bakoitza zenbat aldiz agertzen den gordetzen du hiztegi batean; <code>hitzkop</code>-ek maiztasun jakin bat duten hitzak itzultzen ditu.</p>",
+   "enuntziatua": "<p>Fitxategia lerroz lerro irakurri, hitzetan banatu, eta hiztegian <strong>kontatu</strong>. Adibidez, &quot;hola qué tal hola&quot; <math display=\"inline\"><mo>→</mo></math> <code>{hola: 2, qué: 1, tal: 1}</code>.</p><p><code></code><code>python def histograma(): f = open(&quot;fichero.txt&quot;, &quot;r&quot;) h = {} for linea in f: palabras = linea.split() for palabra in palabras: if palabra in h: h[palabra] = h[palabra] + 1 else: h[palabra] = 1 return h </code><code></code></p>",
+   "formula": "",
+   "azalpena": "<p><strong>Espezifikazioa:</strong> fitxategia irakurketa-moduan ireki, hiztegi hutsa sortu, edukia hitzetan banatu, eta hitz bakoitza hiztegian kontatu.</p><p><code></code><code>python def histograma(): f = open(&quot;texto.txt&quot;, &quot;r&quot;) dic = {} texto = f.read() for palabra in texto.split(): if palabra in dic: dic[palabra] = dic[palabra] + 1   # jatorrizkoan dic(palabra); zuzena: [] else: dic[palabra] = 1 return dic </code><code></code></p><p>Histograma (<code>h</code>) eta zenbaki bat (<code>n</code>) emanik, <strong>maiztasuna <math display=\"inline\"><mi>n</mi></math> duten hitzen</strong> zerrenda itzultzen du:</p><p><code></code><code>python def hitzkop(h, n): lista = [] for clave in h: if h[clave] == n: lista.append(clave) return lista </code><code></code></p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p><code>\"hola qué tal hola\"</code> testuaren histograma eta <code>hitzkop(h, 1)</code> zer dira?</p>",
+     "s": "<p>Histograma: <code>{'hola': 2, 'qué': 1, 'tal': 1}</code>. <code>hitzkop(h, 1)</code> = <code>['qué', 'tal']</code>.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "histograma",
+     "def": "<p>Elementu bakoitza zenbat aldiz agertzen den adierazten duen taula (maiztasuna).</p>"
+    },
+    {
+     "t": "maiztasuna",
+     "def": "<p>Gertaera edo elementu bat zenbat aldiz errepikatzen den.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-bokal-kontagailua",
+    "prog-karaktereak-kontatu-hitza-bilatu"
+   ],
+   "ondorengoak": [
+    "prog-hiztegia-alderantzikatzea",
+    "prog-taldekatzea-organizar2",
+    "prog-ikus-atlasa"
+   ],
+   "iturria": "a13 · histograma; a14 · hitzkop; a15 · Histograma",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-hiztegia-alderantzikatzea",
+   "atala": "S5",
+   "mota": "metodoa",
+   "izena": "Hiztegia alderantzikatzea",
+   "ideia": "<p>Histogramatik beste hiztegi bat eraikitzen da, non maiztasun bakoitzak bere hitzen zerrenda duen.</p>",
+   "enuntziatua": "<p>Histogramatik (<code>{hitza: maiztasuna}</code>) beste hiztegi bat eraikitzen da (<code>{maiztasuna: [hitzak]}</code>): maiztasun bakoitzari maiztasun hori duten hitzen <strong>zerrenda</strong> elkartzen zaio.</p><p><code></code><code>python dic1 = histograma() dic2 = {} for llave in dic1: if dic1[llave] in dic2: dic2[dic1[llave]].append(llave) else: dic2[dic1[llave]] = [llave] </code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p><code>{'hola': 2, 'qué': 1, 'tal': 1}</code> hiztegia alderantzikatuz, zer lortzen da?</p>",
+     "s": "<p><code>{2: ['hola'], 1: ['qué', 'tal']}</code>.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "hiztegi alderantzikatua",
+     "def": "<p>Balioak giltza bihurtzen dituen hiztegia; balio errepikatuek zerrenda osatzen dute.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-histograma"
+   ],
+   "ondorengoak": [],
+   "iturria": "a15 · Hiztegia alderantzikatzea",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-taldekatzea-organizar2",
+   "atala": "S5",
+   "mota": "metodoa",
+   "izena": "Lerroak taldekatzea: organizar2",
+   "ideia": "<p>Fitxategiko lerro bakoitzean lehen hiru hitzak giltza dira eta gainerakoak balio-zerrenda.</p>",
+   "enuntziatua": "<p>Fitxategia (<code>noticias.txt</code>) <strong>lerroz lerro</strong> irakurri; lerro bakoitzeko <strong>lehen hiru hitzak</strong> giltza, eta <strong>gainerako hitzak</strong> balio-zerrenda.</p><p><code></code><code>python def organizar2(): f = open(&quot;noticias.txt&quot;, &quot;r&quot;) dic = {} for linea in f.readlines(): palabras = linea.split() key = palabras[0] + &quot; &quot; + palabras[1] + &quot; &quot; + palabras[2] dic[key] = [] for i in range(3, len(palabras)): dic[key].append(palabras[i]) return dic </code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "giltza konposatua",
+     "def": "<p>Hainbat hitzez elkartuta osatutako giltza (<code>palabras[0] + \" \" + palabras[1] + ...</code>).</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-histograma"
+   ],
+   "ondorengoak": [],
+   "iturria": "a16 · organizar2",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "prog-bilaketa-lineala",
+   "atala": "S6",
+   "mota": "metodoa",
+   "izena": "Bilaketa lineala ordenatutako zerrendan",
+   "ideia": "<p>Zerrenda posizioz posizio aztertzen da elementua aurkitu arte; ordenatuta badago, elementua gaindituz gero ez dagoela jakin dezakegu.</p>",
+   "enuntziatua": "<p>Elementuaren <strong>indizea</strong> itzultzen du, edo <math display=\"inline\"><mrow><mi>−</mi><mn>1</mn></mrow></math> ez badago. Bektorea <strong>ordenatua</strong> dela suposatuz, <math display=\"inline\"><mrow><mi>−</mi><mn>1</mn></mrow></math> lehenago itzultzen du elementua gainditzean:</p><p><code></code><code>python def posicion(vector, elemento): for i in range(len(vector)): if elemento == vector[i]: return i elif elemento &lt; vector[i]: return -1 return -1 </code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p><code>posicion([2, 4, 6], 4)</code> eta <code>posicion([2, 4, 6], 5)</code> zer dira?</p>",
+     "s": "<p><code>1</code> (4 indize 1ean dago) eta <code>-1</code> (5 &lt; 6 denean berehala gelditzen da eta -1 itzultzen du).</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "bilaketa lineala",
+     "def": "<p>Elementu bat bilatzeko zerrenda hasieratik amaierara aztertzea.</p>"
+    },
+    {
+     "t": "ordenatua",
+     "def": "<p>Elementuak txikitik handira (edo alderantziz) jarrita daudenean, zerrenda ordenatua da.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-zatitzaileen-zerrenda"
+   ],
+   "ondorengoak": [],
+   "iturria": "a18 · posicion",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-polinomioak-batuketa-kenketa",
+   "atala": "S6",
+   "mota": "metodoa",
+   "izena": "Polinomioen batuketa eta kenketa",
+   "ideia": "<p>Polinomio bat koefizienteen zerrenda gisa gordetzen da (indizea = berretura); koefizienteak bikoteka batu edo kentzen dira.</p>",
+   "enuntziatua": "<p><code></code><code>python def sumapoli(p1, p2): if len(p2) &gt; len(p1):      # p1 luzeena izan dadin aux = p1; p1 = p2; p2 = aux rgt = [] for i in range(0, len(p2)): rgt.append(p1[i] + p2[i]) for i in range(len(p2), len(p1)): rgt.append(p1[i]) return rgt</code></p><p>def restapoli(p1, p2): correccion = 1 if len(p2) &gt; len(p1): aux = p1; p1 = p2; p2 = aux correccion = -1        # trukatzean, p1-p2 lortzeko rgt = [] for i in range(len(p2)): rgt.append((p1[i] - p2[i]) <strong> correccion) for i in range(len(p2), len(p1)): rgt.append(p1[i] </strong> correccion) return rgt <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p><code>sumapoli([1, 2], [3, 4, 5])</code> zer da? Zer polinomiori dagokio?</p>",
+     "s": "<p><code>[4, 6, 5]</code>, hau da, <math display=\"inline\"><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mi>x</mi><mo>)</mo><mo>+</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>)</mo><mo>=</mo><mn>4</mn><mo>+</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math>.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "koefiziente-zerrenda",
+     "def": "<p>Polinomio bat zerrenda gisa irudikatzea: <code>[a0, a1, a2]</code> = <math display=\"inline\"><mrow><msub><mi>a</mi><mn>0</mn></msub><mo>+</mo><msub><mi>a</mi><mn>1</mn></msub><mi>x</mi><mo>+</mo><msub><mi>a</mi><mn>2</mn></msub><msup><mi>x</mi><mn>2</mn></msup></mrow></math>.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-zatitzaileen-zerrenda"
+   ],
+   "ondorengoak": [
+    "prog-polinomioak-biderketa-ebaluazioa"
+   ],
+   "iturria": "a10 · Polinomioen batuketa eta kenketa",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-polinomioak-biderketa-ebaluazioa",
+   "atala": "S6",
+   "mota": "metodoa",
+   "izena": "Polinomioen biderketa, erakuspena eta ebaluazioa",
+   "ideia": "<p>Biderketan koefiziente bakoitza besteekin biderkatzen da (<math display=\"inline\"><mrow><mi>i</mi><mo>+</mo><mi>j</mi></mrow></math> posizioan metatuz); ebaluazioan polinomioa puntuetan kalkulatzen da.</p>",
+   "enuntziatua": "<p>Koefiziente-zerrenda hutsetik hasita, <strong>for begizta bikoitzez</strong> koefizienteak konbinatzen dira:</p><p><code></code><code>python def BiderPoli(p1, p2): BID = [0] * (len(p1) + len(p2) - 1) for i in range(len(p1)): for j in range(len(p2)): BID[i + j] += p1[i] * p2[j] return BID </code><code></code></p>",
+   "formula": "",
+   "azalpena": "<p><code>MostrarPoli(p)</code>: koefiziente-zerrenda (<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>9</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>) <strong>kate</strong> gisa erakusten du («<math display=\"inline\"><mrow><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>9</mn></mrow></math>»), <strong>kasu bereziak</strong> zainduz (koefiziente <math display=\"inline\"><mn>0</mn></math> ez erakutsi).</p><p><em class=\"j-nab\">\n  Ebaluazioa: <math display=\"inline\"><mrow><mi>m</mi><mo>=</mo><mi>m</mi><mo>+</mo><mi>p</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><msup><mi>x</mi><mi>k</mi></msup></mrow></math> metodoz, koefiziente bakoitza dagokion berreturaz biderkatuz batzen da.\n</em></p><p>Polinomio bat (adib. <math display=\"inline\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>5</mn></mrow></math>) <strong>puntu multzo</strong> batean ebaluatzen da (adib. <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>), koefizienteak array/bektore batean gordeta (indizeak <math display=\"inline\"><mrow><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mi>…</mi></mrow></math>).</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p><code>BiderPoli([1, 1], [1, 1])</code> zer da? Eta <math display=\"inline\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>5</mn></mrow></math> polinomioa <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>-n ebaluatuta?</p>",
+     "s": "<p><code>[1, 2, 1]</code>, hau da <math display=\"inline\"><mrow><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>1</mn><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math>. Ebaluazioa: <math display=\"inline\"><mrow><mn>2</mn><mo>·</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>15</mn></mrow></math>.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "polinomio baten ebaluazioa",
+     "def": "<p>Polinomioaren balioa <math display=\"inline\"><mi>x</mi></math>-ren balio zehatz batean kalkulatzea: koefiziente bakoitza berreturaz biderkatu eta batzea.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-polinomioak-batuketa-kenketa"
+   ],
+   "ondorengoak": [],
+   "iturria": "a24 · Polinomioaren ebaluazioa; a25 · Biderketa, erakuspena eta ebaluazioa",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-matrizeak",
+   "atala": "S6",
+   "mota": "metodoa",
+   "izena": "Matrizeak zerrenda-zerrenden bidez",
+   "ideia": "<p>Matrize bat zerrenda-zerrenda bezala eraikitzen da: kanpoko zerrendaren elementu bakoitza lerro bat da, eta <code>matriz[i][j]</code>-k elementu bat adierazten du.</p>",
+   "enuntziatua": "<p><strong>Eraikuntza:</strong> <math display=\"inline\"><mrow><mi>N</mi><mo>×</mo><mi>M</mi></mrow></math> matrizea, elementuak banan-banan eskatuz (<code>for i</code> / <code>for j</code> habiaratuak; <math display=\"inline\"><mrow><mtext mathvariant=\"normal\">matriz</mtext><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>i</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>j</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> indexazioa):</p><p><code></code><code>python n = 4 m = 4 matriz = [] for i in range(n): fila = [] for j in range(m): elemento = int(input(&quot;Introduce el elemento [&quot; + str(i+1) + &quot;,&quot; + str(j+1) + &quot;]&quot;)) fila.append(elemento) matriz.append(fila) print(matriz) </code><code></code></p><p><strong>Inprimatze formateatua</strong> (lerroz lerro):</p><p><code></code><code>python for i in range(n): linea = &quot; &quot; for j in range(m): linea = linea + str(matriz[i][j]) + &quot; &quot; print(linea) </code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p><code>matriz = [[1, 2], [3, 4]]</code> izanik, zer da <code>matriz[1][0]</code>?</p>",
+     "s": "<p><code>3</code>: 1. indizeko lerroa (bigarrena) <code>[3, 4]</code> da eta bertako 0. elementua 3.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "matrizea",
+     "def": "<p>Zenbakien taula zuzena, lerro eta zutabeetan antolatua; Pythonen zerrenda-zerrenda gisa gordetzen da.</p>"
+    },
+    {
+     "t": "indexazio bikoitza",
+     "def": "<p><code>matriz[i][j]</code>: lehenik <code>i</code> lerroa hartu, gero haren <code>j</code> elementua.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-zatitzaileen-zerrenda"
+   ],
+   "ondorengoak": [
+    "prog-itsas-borroka"
+   ],
+   "iturria": "a19 · Matrizeak zerrenda-zerrenden bidez",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-itsas-borroka",
+   "atala": "S6",
+   "mota": "metodoa",
+   "izena": "Itsas-borrokaren jokoa",
+   "ideia": "<p>Matrize bat taula gisa erabiltzen da: barku bat ausaz jartzen da, eta jokalariaren tiroak irakurri, baliozkotu eta taula eguneratzen du.</p>",
+   "enuntziatua": "<p><code></code><code>python import random</code></p><p>n = 10 m = 10 matriz = [] for i in range(n): fila = [] for j in range(m): fila.append(0) matriz.append(fila)</p><p>xa1 = int(random.random() <strong> 9.9) ya1 = int(random.random() </strong> 9.9) matriz[xa1][ya1] = 1 <code></code><code></code></p><p><strong>Balioen kodeketa:</strong> <code>0</code> markatu gabe, <code>1</code> barkua markatu gabe, <code>10</code> ura, <code>11</code> jota.</p>",
+   "formula": "",
+   "azalpena": "<p>Koordenatuak eskatu eta <strong>baliozkotu</strong> (<code>1</code>-etik <code>10</code>-era; programak <math display=\"inline\"><mrow><mi>−</mi><mn>1</mn></mrow></math> kentzen die, matrizea <math display=\"inline\"><mn>0</mn></math>-tik <math display=\"inline\"><mn>9</mn></math>-ra indexatzen delako), barkua jo den begiratu, eta <strong>hondoratzea</strong> konprobatu:</p><p><code></code><code>python fin = False while fin == False: coordx = int(input(&quot;X:&quot;)) - 1 while coordx &lt; 0 or coordx &gt; 9: print(&quot;Introduce un número del 1 al 10&quot;) coordx = int(input(&quot;X:&quot;)) - 1 coordy = int(input(&quot;Y:&quot;)) - 1 while coordy &lt; 0 or coordy &gt; 9: print(&quot;Introduce un número del 1 al 10&quot;) coordy = int(input(&quot;Y:&quot;)) - 1 if matriz[coordx][coordy] == 1: matriz[coordx][coordy] = 11 print(&quot;Hundido&quot;) fin = True for i in range(n): for j in range(m): if matriz[i][j] == 1: fin = False </code><code></code></p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "egoera (balio-kodeketa)",
+     "def": "<p>Taulako gelaxka bakoitzaren balioak egoera kodetzen du: 0 markatu gabe, 1 barkua, 10 ura, 11 jota.</p>"
+    },
+    {
+     "t": "erabiltzaile-indizea vs programa-indizea",
+     "def": "<p>Erabiltzaileak 1etik 10era idazten du, baina matrizea 0tik 9ra indexatzen da; horregatik 1 kentzen zaie.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-matrizeak",
+    "prog-asmatzeko-jokoa"
+   ],
+   "ondorengoak": [
+    "prog-lee-koordenada",
+    "prog-ikus-atlasa"
+   ],
+   "iturria": "a20 · Itsas-borrokaren jokoa",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "prog-scilab-lehen-aginduak",
+   "atala": "S7",
+   "mota": "notazioa",
+   "izena": "Scilab: lehen aginduak",
+   "ideia": "<p>Scilab kalkulu numerikorako beste hizkuntza bat da; hemen bektore bat sortzen eta funtzio sinple baten grafikoa marrazten da.</p>",
+   "enuntziatua": "<p><code></code><code>scilab x = 1:100    // 1..100 osoen bektorea y = x        // kopia plot(x, y)   // y = x zuzena marraztu </code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "bektorea (Scilab)",
+     "def": "<p><code>x = 1:100</code>-k 1etik 100era bitarteko osoen bektorea sortzen du.</p>"
+    },
+    {
+     "t": "plot",
+     "def": "<p>Scilab-en bi bektore emanda, haien arteko grafikoa marrazten duen agindua.</p>"
+    }
+   ],
+   "aurrekoak": [],
+   "ondorengoak": [],
+   "iturria": "a6 · Scilab (lehen aginduak)",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "prog-ikus-atlasa",
+   "atala": "S7",
+   "mota": "ideia",
+   "izena": "Ikus-atlasa: fluxua, errekurtsioa eta datu-egiturak",
+   "ideia": "<p>Irudi-sorta batek kodearen kontrol-fluxua ikusgarri egiten du: bihurketa bitarra, Fibonacci-ren zuhaitza, Newton, bisurtea, hiztegiak eta itsas-borroka.</p>",
+   "enuntziatua": "",
+   "formula": "",
+   "azalpena": "<figure class=\"j-irudia\"><img src=\"media/irudiak/5004f8e7660b7f32.svg\" alt=\"editoriala([Hamartarretik bitarrera bihurtzeko, bi bidezko zatiketen hondarrak pilatu eta alderantziz irakurtzen dira.])\" width=\"278\" loading=\"lazy\"><figcaption>editoriala([Hamartarretik bitarrera bihurtzeko, bi bidezko zatiketen hondarrak pilatu eta alderantziz irakurtzen dira.])</figcaption></figure><figure class=\"j-irudia\"><img src=\"media/irudiak/9ec8bd1046f0ee23.svg\" alt=\"editoriala([Fibonacci-ren errekurtsio-zuhaitzak azpiproblema berak behin eta berriz kalkulatzen direla erakusten du; memoizazioak bikoiztasuna ezabatzen du.])\" width=\"312\" loading=\"lazy\"><figcaption>editoriala([Fibonacci-ren errekurtsio-zuhaitzak azpiproblema berak behin eta berriz kalkulatzen direla erakusten du; memoizazioak bikoiztasuna ezabatzen du.])</figcaption></figure><figure class=\"j-irudia\"><img src=\"media/irudiak/95e03c4a95d07012.svg\" alt=\"editoriala([Newton-en metodoak uneko puntuko zuzen ukitzailearen zeroa erabiltzen du hurrengo hurbilketa eraikitzeko.])\" width=\"264\" loading=\"lazy\"><figcaption>editoriala([Newton-en metodoak uneko puntuko zuzen ukitzailearen zeroa erabiltzen du hurrengo hurbilketa eraikitzeko.])</figcaption></figure><figure class=\"j-irudia\"><img src=\"media/irudiak/a3b9ee5053f07163.svg\" alt=\"editoriala([Bisurtearen erabaki-zuhaitzak baldintzen lehentasuna erakusten du: 400, 100 eta 4 zatigarritasun-probak ezin dira ordenarik gabe ebaluatu.])\" width=\"301\" loading=\"lazy\"><figcaption>editoriala([Bisurtearen erabaki-zuhaitzak baldintzen lehentasuna erakusten du: 400, 100 eta 4 zatigarritasun-probak ezin dira ordenarik gabe ebaluatu.])</figcaption></figure><figure class=\"j-irudia\"><img src=\"media/irudiak/d5fca53dd30dc78b.svg\" alt=\"editoriala([Hiztegiaren alderantzikatzeak balio bakoitza hura zuten gakoen zerrendarekin lotzen du; histograma eta maiztasun-mapak egitura bera erabiltzen dute.])\" width=\"284\" loading=\"lazy\"><figcaption>editoriala([Hiztegiaren alderantzikatzeak balio bakoitza hura zuten gakoen zerrendarekin lotzen du; histograma eta maiztasun-mapak egitura bera erabiltzen dute.])</figcaption></figure><figure class=\"j-irudia\"><img src=\"media/irudiak/f1e2004a9ab5aa6a.svg\" alt=\"editoriala([Itsas-borrokan sareta datu-egitura da eta jokaldia egoera-makina: koordenatua irakurri, baliozkotu eta taula eguneratu.])\" width=\"332\" loading=\"lazy\"><figcaption>editoriala([Itsas-borrokan sareta datu-egitura da eta jokaldia egoera-makina: koordenatua irakurri, baliozkotu eta taula eguneratu.])</figcaption></figure>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [],
+   "aurrekoak": [
+    "prog-hamartar-bitar-bihurketa",
+    "prog-fibonacci-errekurtsiboa",
+    "prog-newton-erro-karratua",
+    "prog-urte-bisustua",
+    "prog-histograma",
+    "prog-itsas-borroka"
+   ],
+   "ondorengoak": [],
+   "iturria": "a27-a29 · Ikus-atlasa",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  }
+ ]
+}
