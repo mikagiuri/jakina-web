@@ -276,6 +276,9 @@ img.irudi-l{display:block;max-width:100%;height:auto;margin:.2em auto;background
 #ikasi .capa[open]>summary::after{transform:rotate(180deg)}
 #ikasi .capa .body{padding:2px 16px 14px;font-family:var(--serif);line-height:1.7;overflow-wrap:break-word}
 #ikasi .capa .body math[display="block"]{overflow-x:auto;max-width:100%}
+/* (v014 konponketa) edozein formula bloke zabalegi (enun, ideia, capas…): scroll horizontala, ez orria desplazatu */
+#ikasi math[display="block"]{display:block;overflow-x:auto;max-width:100%}
+#ikasi .ideia .bd,#ikasi .enun .bd,#ikasi .capa .body{overflow-x:auto}
 #ikasi .capa.k-fr{--k:var(--ipc)}
 #ikasi .ex{border-top:1px dashed var(--line-soft);padding:10px 0 2px;margin-top:8px}
 #ikasi .ex:first-child{border-top:0}
