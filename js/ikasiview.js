@@ -171,5 +171,15 @@
         head.insertAdjacentHTML('beforeend','<div class="kap-ikasgai" role="group" aria-label="Modua"><span class="on">Irakurri</span><a href="#ikasi/'+gakoa+'">Ikasi</a></div>');
     }catch(e){}
   }
-  loadGlobals().then(function(){ window.IKASGAI = INDEXSET; toggleBerandutua(); });
+  loadGlobals().then(function(){
+    window.IKASGAI = INDEXSET;
+    toggleBerandutua();
+    // (lasterketa) kapitulua IKASGAI baino lehen edo geroago margotu daiteke, eta sarea geldoa bada
+    // deialdi bakarrak huts egin dezake: saiatu segundo batzuez kapitulua guztiz margotu arte.
+    var n=0, iv=setInterval(function(){
+      toggleBerandutua();
+      var b=document.getElementById('kapbody');
+      if((b && b.querySelector('.theory-head .kap-ikasgai')) || (b && b.dataset.gakoa) || ++n>60) clearInterval(iv);
+    }, 100);
+  });
 })();
