@@ -1,0 +1,1239 @@
+{
+ "kapitulua": "02fg_03oszilazioak",
+ "izenburua": "B04A.2 · M17 Oscilaciones y ondas",
+ "sarrera": "<p>Las oscilaciones son movimientos repetitivos en torno a una posición de equilibrio; veremos el movimiento armónico simple, los muelles y los péndulos, y también el rozamiento, la fuerza externa y la resonancia. Después pasamos a las ondas: cómo se propagan, cómo se superponen (interferencia, ondas estacionarias) y el efecto Doppler.</p>",
+ "atalak": [
+  {
+   "id": "S1",
+   "izena": "Movimiento armónico simple"
+  },
+  {
+   "id": "S2",
+   "izena": "Muelles y péndulos"
+  },
+  {
+   "id": "S3",
+   "izena": "Energía en las oscilaciones"
+  },
+  {
+   "id": "S4",
+   "izena": "Amortiguamiento, oscilaciones forzadas y resonancia"
+  },
+  {
+   "id": "S5",
+   "izena": "Oscilaciones acopladas"
+  },
+  {
+   "id": "S6",
+   "izena": "Fundamentos de las ondas"
+  },
+  {
+   "id": "S7",
+   "izena": "Ondas armónicas"
+  },
+  {
+   "id": "S8",
+   "izena": "Superposición y ondas estacionarias"
+  },
+  {
+   "id": "S9",
+   "izena": "Efecto Doppler"
+  },
+  {
+   "id": "S10",
+   "izena": "Práctica y complementos"
+  }
+ ],
+ "kontzeptuak": [
+  {
+   "id": "fosz-hhs",
+   "atala": "S1",
+   "mota": "definizioa",
+   "izena": "Movimiento armónico simple (HHS)",
+   "ideia": "<p>Si un cuerpo que se aleja de la posición de equilibrio es tirado hacia atrás por una fuerza proporcional al alejamiento, se produce un movimiento repetitivo de forma sinusoidal: el movimiento armónico simple.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Muchos sistemas, cuando se alejan de la posición de equilibrio, tienden a volver bajo la acción de una fuerza (o momento) proporcional a la separación y de sentido contrario — la <strong>fuerza recuperadora</strong>. Cuando esa fuerza es directamente proporcional al desplazamiento, se produce un <strong>movimiento armónico simple</strong> (MAS):</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>x</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><msup><mi>ω</mi><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>)</p></div><p>La solución general de esa ecuación diferencial es</p><p><math display=\"block\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></p><p>donde <math display=\"inline\"><mi>A</mi></math> es la <strong>amplitud</strong> (valor máximo de <math display=\"inline\"><mi>x</mi></math>), <math display=\"inline\"><mi>ω</mi></math> la <strong>frecuencia angular</strong> y <math display=\"inline\"><mrow><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi></mrow></math> la <strong>fase instantánea</strong> (<math display=\"inline\"><mi>ϕ</mi></math>, la <strong>fase inicial</strong>). La velocidad y la aceleración se obtienen derivando:</p>",
+   "azalpena": "<p>El MAS es la <strong>proyección de un movimiento circular uniforme</strong>. El periodo <math display=\"inline\"><mi>T</mi></math>, la frecuencia <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>1</mn><mi>/</mi><mi>T</mi></mrow></math>, y <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><mn>2</mn><mi>π</mi><mi>f</mi></mrow></math>:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>y</mi><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><msub><mi>φ</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>v</mi><mo>=</mo><mi>A</mi><mi>ω</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><msub><mi>φ</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>a</mi><mo>=</mo><mi>−</mi><mi>A</mi><msup><mi>ω</mi><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><msub><mi>φ</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><msup><mi>ω</mi><mn>2</mn></msup><mi>y</mi><mi>.</mi></mrow></math></p></div><p><em class=\"j-nab\">\n  Clave: la <strong>aceleración es opuesta y proporcional a la elongación</strong> (<math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mi>−</mi><msup><mi>ω</mi><mn>2</mn></msup><mi>y</mi></mrow></math>) — esa es la\n  característica distintiva del MAS.\n</em></p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "movimiento armónico simple (MAS)",
+     "def": "<p>Movimiento bajo una fuerza recuperadora proporcional al desplazamiento respecto de la posición de equilibrio; la posición varía como un seno o un coseno.</p>"
+    },
+    {
+     "t": "fuerza recuperadora",
+     "def": "<p>Fuerza que empuja al cuerpo a volver a la posición de equilibrio; en el MAS es proporcional al desplazamiento y de sentido contrario.</p>"
+    },
+    {
+     "t": "amplitud",
+     "def": "<p>Valor máximo que alcanza la posición (la elongación) en la oscilación.</p>"
+    },
+    {
+     "t": "frecuencia angular",
+     "def": "<p>Magnitud que mide la rapidez con que crece la fase con el tiempo (rad/s); está ligada al periodo mediante T = 2π/ω.</p>"
+    },
+    {
+     "t": "fase",
+     "def": "<p>Argumento del seno (ωt + φ): indica en qué punto del ciclo de la oscilación nos encontramos en cada instante.</p>"
+    },
+    {
+     "t": "fase inicial",
+     "def": "<p>Valor de la fase en el instante inicial (t = 0); determina desde qué situación arranca el movimiento.</p>"
+    }
+   ],
+   "aurrekoak": [],
+   "ondorengoak": [
+    "fosz-hhs-zinematika"
+   ],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a2 · Movimiento armónico simple; a15 · Ecuación y magnitudes (Landeta)",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-hhs-zinematika",
+   "atala": "S1",
+   "mota": "teorema",
+   "izena": "Velocidad, aceleración y periodo en el MAS",
+   "ideia": "<p>Si la posición es un seno, la velocidad va adelantada un cuarto de ciclo y la aceleración es siempre opuesta a la posición, a = −ω²x. El movimiento se repite cada tiempo T = 2π/ω.</p>",
+   "formula": "",
+   "enuntziatua": "<p><math display=\"block\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mi>ω</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mi>ω</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo>+</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> <math display=\"block\"><mrow><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mi>A</mi><msup><mi>ω</mi><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><msup><mi>ω</mi><mn>2</mn></msup><mi>x</mi></mrow></math></p><p><math display=\"inline\"><mi>v</mi></math> y <math display=\"inline\"><mi>x</mi></math> están <strong>en cuadratura</strong> (desfase <math display=\"inline\"><mrow><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math>), y <math display=\"inline\"><mi>a</mi></math> y <math display=\"inline\"><mi>x</mi></math> están <strong>en oposición</strong> (desfase <math display=\"inline\"><mi>π</mi></math>). El <strong>periodo</strong> y la <strong>frecuencia</strong>:</p><p><math display=\"block\"><mrow><mi>T</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mi>ω</mi></mfrac><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mi>ν</mi><mo>=</mo><mfrac><mi>ω</mi><mrow><mn>2</mn><mi>π</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mi>T</mi></mfrac><mi>.</mi></mrow></math></p>",
+   "azalpena": "<figure class=\"j-irudia\"><img src=\"media/irudiak/b9fe880cde05670b.svg\" alt=\"Posición del movimiento armónico simple en función del tiempo,\n    x(t)=Asin&amp;#8289;(ωt)  (caso ϕ=0); con la amplitud A y el\n  periodo T señalados.\" width=\"389\" loading=\"lazy\"><figcaption>Posición del movimiento armónico simple en función del tiempo,\n    <math display=\"inline\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> (en el caso <math display=\"inline\"><mrow><mi>ϕ</mi><mo>=</mo><mn>0</mn></mrow></math>); se indican la amplitud <math display=\"inline\"><mi>A</mi></math> y el\n  periodo <math display=\"inline\"><mi>T</mi></math>.</figcaption></figure><p>Relación entre la posición y la velocidad, sin que aparezca el tiempo de forma explícita:</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><mi>v</mi><mo>=</mo><mi>ω</mi><msqrt><mrow><msup><mi>A</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></math>)</p></div><p><strong>Dinámica.</strong> Si sobre una partícula de masa <math display=\"inline\"><mi>m</mi></math> se cumple <math display=\"inline\"><mrow><mi>F</mi><mo>=</mo><mi>m</mi><mi>a</mi></mrow></math> y el movimiento es un MAS, entonces <math display=\"inline\"><mrow><mi>F</mi><mo>=</mo><mi>−</mi><mi>m</mi><msup><mi>ω</mi><mn>2</mn></msup><mi>x</mi></mrow></math>: la fuerza recuperadora es proporcional al desplazamiento y de sentido contrario.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "en cuadratura (desfase π/2)",
+     "def": "<p>Cuando dos magnitudes están desfasadas un cuarto de ciclo (por ejemplo la velocidad y la posición) se dice que están en cuadratura.</p>"
+    },
+    {
+     "t": "en oposición (desfase π)",
+     "def": "<p>Cuando dos magnitudes tienen signos totalmente opuestos (por ejemplo la aceleración y la posición) se dice que están en oposición.</p>"
+    },
+    {
+     "t": "periodo",
+     "def": "<p>Tiempo necesario para realizar una oscilación completa, T.</p>"
+    },
+    {
+     "t": "frecuencia",
+     "def": "<p>Número de oscilaciones por unidad de tiempo, f = 1/T (Hz).</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-hhs"
+   ],
+   "ondorengoak": [
+    "fosz-hasierako-fasea",
+    "fosz-zinematika-integralak",
+    "fosz-malgukia",
+    "fosz-pendulu-sinplea",
+    "fosz-uhin-parametroak"
+   ],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a2 · Movimiento armónico simple",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-hasierako-fasea",
+   "atala": "S1",
+   "mota": "metodoa",
+   "izena": "Fase inicial a partir de las condiciones iniciales",
+   "ideia": "<p>Sabiendo desde qué posición y velocidad arranca el movimiento, se puede calcular la fase inicial φ0; después se obtienen la posición y la aceleración en cualquier instante.</p>",
+   "formula": "",
+   "enuntziatua": "<p>A partir de los datos de velocidad se obtiene la <strong>fase inicial</strong> <math display=\"inline\"><msub><mi>φ</mi><mn>0</mn></msub></math> y se calculan la <strong>posición</strong> y la <strong>aceleración</strong> en un instante dado (<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><msub><mi>φ</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>).</p>",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "condiciones iniciales",
+     "def": "<p>Posición y velocidad conocidas en el instante inicial; son las que determinan la fase inicial y la amplitud.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-hhs-zinematika"
+   ],
+   "ondorengoak": [],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a20 · Fase inicial del MAS",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-zinematika-integralak",
+   "atala": "S1",
+   "mota": "metodoa",
+   "izena": "Cinemática integral (puente con la física)",
+   "ideia": "<p>Integrando la aceleración se obtiene la velocidad, e integrando la velocidad la posición; los datos iniciales fijan las constantes de integración.</p>",
+   "formula": "",
+   "enuntziatua": "<p>En el movimiento unidimensional la posición, la velocidad y la aceleración se relacionan así:</p><p><math display=\"block\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mi>d</mi><mi>v</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mi>.</mi></mrow></math></p><p>Si los datos iniciales son <math display=\"inline\"><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></math> y <math display=\"inline\"><mrow><mi>v</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msub><mi>v</mi><mn>0</mn></msub></mrow></math>, la integración fija automáticamente las constantes:</p><p><math display=\"block\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>v</mi><mn>0</mn></msub><mo>+</mo><msubsup><mo>∫</mo><msub><mi>t</mi><mn>0</mn></msub><mi>t</mi></msubsup><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>s</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>s</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>x</mi><mn>0</mn></msub><mo>+</mo><msubsup><mo>∫</mo><msub><mi>t</mi><mn>0</mn></msub><mi>t</mi></msubsup><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>s</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>s</mi><mi>.</mi></mrow></math></p>",
+   "azalpena": "<p><math display=\"inline\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub></mrow></math> es el <strong>desplazamiento con signo</strong>. El camino geométrico recorrido, en cambio, es</p><p><math display=\"block\"><mrow><mi>s</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><msub><mi>t</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msubsup><mo>∫</mo><msub><mi>t</mi><mn>1</mn></msub><msub><mi>t</mi><mn>2</mn></msub></msubsup><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>d</mi><mi>t</mi></mrow></math></p><p>; en los puntos en que <math display=\"inline\"><mi>v</mi></math> cambia de signo hay que dividir la integral. La altura máxima, si el movimiento ha empezado hacia arriba, se alcanza por primera vez en el instante <math display=\"inline\"><mrow><mi>v</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mo>*</mo></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math>, y <math display=\"inline\"><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mo>*</mo></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><msubsup><mo>∫</mo><msub><mi>t</mi><mn>0</mn></msub><msub><mi>t</mi><mo>*</mo></msub></msubsup><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>t</mi></mrow></math>. Si el reposo solo se alcanza como límite, <math display=\"inline\"><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></math>, el camino se expresa mediante una integral impropia y hay que comprobar su convergencia.</p><p>En el movimiento vertical con gravedad constante, tomando positivo el sentido hacia arriba, <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mi>−</mi><mi>g</mi></mrow></math> y <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><msub><mi>v</mi><mn>0</mn></msub><mo>−</mo><mi>g</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>. Aunque otra ley de la aceleración se dé con el símbolo <math display=\"inline\"><mrow><mi>j</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, comprobar qué significa <math display=\"inline\"><mrow><mi>j</mi><mo>=</mo><mi>d</mi><mfrac><mi>v</mi><mi>d</mi></mfrac><mi>t</mi></mrow></math> en el contexto, y encadenar las dos integrales anteriores.</p><p>En un movimiento periódico, la velocidad media con signo en un período <math display=\"inline\"><mi>T</mi></math> y el valor medio del valor absoluto de la velocidad no son lo mismo:</p><p><math display=\"block\"><mrow><mover><mi>v</mi><mo accent=\"true\">¯</mo></mover><mo>=</mo><mfrac><mn>1</mn><mi>T</mi></mfrac><msubsup><mo>∫</mo><mn>0</mn><mi>T</mi></msubsup><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>t</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mover><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow><mo accent=\"true\">¯</mo></mover><mo>=</mo><mfrac><mn>1</mn><mi>T</mi></mfrac><msubsup><mo>∫</mo><mn>0</mn><mi>T</mi></msubsup><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>d</mi><mi>t</mi><mi>.</mi></mrow></math></p><p>Si la aceleración es función de la velocidad en lugar del tiempo, <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>v</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>,</p><p><math display=\"block\"><mrow><mfrac><mrow><mi>d</mi><mi>v</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>v</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mi>d</mi><mi>t</mi><mo>=</mo><mfrac><mrow><mi>d</mi><mi>v</mi></mrow><mrow><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>v</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>.</mi></mrow></math></p><p>Por tanto, en un intervalo en que <math display=\"inline\"><mrow><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>v</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&gt;</mo><mn>0</mn></mrow></math>, el tiempo para acelerar de <math display=\"inline\"><msub><mi>v</mi><mn>1</mn></msub></math> a <math display=\"inline\"><msub><mi>v</mi><mn>2</mn></msub></math> es</p><p><math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><msubsup><mo>∫</mo><msub><mi>v</mi><mn>1</mn></msub><msub><mi>v</mi><mn>2</mn></msub></msubsup><mfrac><mrow><mi>d</mi><mi>v</mi></mrow><mrow><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>v</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac></mrow></math></p><p>Por eso, el área de la gráfica de <math display=\"inline\"><mfrac><mn>1</mn><mi>a</mi></mfrac></math> frente a <math display=\"inline\"><mi>v</mi></math> es el tiempo. Si <math display=\"inline\"><mrow><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>v</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> se anula, la integral puede ser impropia; si cambia de signo, hay que separar los intervalos. También es útil la forma respecto de la posición: <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mi>v</mi><mi>d</mi><mfrac><mi>v</mi><mi>d</mi></mfrac><mi>x</mi></mrow></math>.</p><div class=\"j-gaia\">Demidovich — Oscilación armónica</div>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Si la velocidad de un punto es <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><msub><mi>v</mi><mn>0</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> y en <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> es <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>, hallar la ley de la vibración y el valor medio absoluto de la velocidad por periodo.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "desplazamiento con signo",
+     "def": "<p>Variación de la posición x(t) − x0, con su signo; no es lo mismo que el camino total recorrido.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-hhs-zinematika"
+   ],
+   "ondorengoak": [],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a15 · Puente con la física: cinemática mediante integrales (Demidovich, oscilación armónica)",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-malgukia",
+   "atala": "S2",
+   "mota": "teorema",
+   "izena": "Muelle lineal y ley de Hooke",
+   "ideia": "<p>Una masa unida a un muelle realiza un MAS; cuanto más rígido es el muelle o más ligera es la masa, más deprisa oscila: ω = √(k/m).</p>",
+   "formula": "",
+   "enuntziatua": "<p>Para una partícula de masa <math display=\"inline\"><mi>m</mi></math> unida a un muelle de constante <math display=\"inline\"><mi>k</mi></math>, la fuerza recuperadora viene dada por la <strong>ley de Hooke</strong>: <math display=\"inline\"><mrow><mi>F</mi><mo>=</mo><mi>−</mi><mi>k</mi><mi>x</mi></mrow></math> (<math display=\"inline\"><mi>x</mi></math>, alargamiento medido desde la posición de equilibrio). Sustituyendo en la 2.ª ley de Newton,</p><p><math display=\"block\"><mrow><mi>−</mi><mi>k</mi><mi>x</mi><mo>=</mo><mi>m</mi><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>x</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>x</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mfrac><mi>k</mi><mi>m</mi></mfrac><mi>x</mi><mo>=</mo><mn>0</mn><mo>,</mo></mrow></math></p><p>Coincide con la ecuación del MAS haciendo <math display=\"inline\"><mrow><msup><mi>ω</mi><mn>2</mn></msup><mo>=</mo><mi>k</mi><mi>/</mi><mi>m</mi></mrow></math>:</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><mi>ω</mi><mo>=</mo><msqrt><mfrac><mi>k</mi><mi>m</mi></mfrac></msqrt></mrow></math>)</p></div>",
+   "azalpena": "<p>La ley de Hooke (<math display=\"inline\"><mrow><mi>F</mi><mo>=</mo><mi>−</mi><mi>K</mi><mi>x</mi></mrow></math>) produce un MAS; a partir de <math display=\"inline\"><mrow><mi>K</mi><mo>=</mo><mi>m</mi><msup><mi>ω</mi><mn>2</mn></msup></mrow></math>:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mfrac><mi>m</mi><mi>K</mi></mfrac></msqrt><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>m</mi><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>x</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mi>−</mi><mi>K</mi><mi>x</mi><mi>.</mi></mrow></math></p></div><p>La <strong>energía del oscilador</strong> (potencial + cinética) es <strong>constante</strong>: <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>K</mi><msup><mi>A</mi><mn>2</mn></msup></mrow></math>.</p>",
+   "frogapena": "",
+   "adibideak": [
+    "<p>Bloque <math display=\"inline\"><msub><mi>m</mi><mn>2</mn></msub></math> sobre el bloque <math display=\"inline\"><msub><mi>m</mi><mn>1</mn></msub></math>, con un muelle (<math display=\"inline\"><mi>k</mi></math>). Moviéndose juntos, la frecuencia angular es: <math display=\"block\"><mrow><mi>ω</mi><mo>=</mo><msqrt><mfrac><mi>k</mi><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub></mrow></mfrac></msqrt><mi>.</mi></mrow></math> Para que el bloque <math display=\"inline\"><msub><mi>m</mi><mn>2</mn></msub></math> <strong>no deslice</strong>, la fuerza que lo acelera (máxima en la elongación máxima, <math display=\"inline\"><mrow><mi>F</mi><mo>=</mo><msub><mi>m</mi><mn>2</mn></msub><msup><mi>ω</mi><mn>2</mn></msup><mi>x</mi></mrow></math>) debe ser menor que el rozamiento estático máximo (<math display=\"inline\"><mrow><mi>N</mi><mo>=</mo><msub><mi>m</mi><mn>2</mn></msub><mi>g</mi></mrow></math>): <math display=\"block\"><mrow><msub><mi>F</mi><mrow><mi>m</mi><mi>e</mi></mrow></msub><mo>=</mo><msub><mi>m</mi><mn>2</mn></msub><msup><mi>ω</mi><mn>2</mn></msup><mi>x</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>F</mi><mrow><mi>m</mi><mi>e</mi></mrow></msub><mo>≤</mo><msub><mi>μ</mi><mi>e</mi></msub><mi>N</mi><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><msub><mi>m</mi><mn>2</mn></msub><msup><mi>ω</mi><mn>2</mn></msup><mi>x</mi><mo>≤</mo><msub><mi>μ</mi><mi>e</mi></msub><mi>N</mi><mi>.</mi></mrow></math> Amplitud máxima:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>x</mi><mo>≤</mo><mfrac><mrow><msub><mi>μ</mi><mi>e</mi></msub><mi>N</mi></mrow><mrow><msub><mi>m</mi><mn>2</mn></msub><msup><mi>ω</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><msub><mi>μ</mi><mi>e</mi></msub><msub><mi>m</mi><mn>2</mn></msub><mi>g</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><msub><mi>m</mi><mn>2</mn></msub><mi>k</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><msub><mi>μ</mi><mi>e</mi></msub><mi>g</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mi>k</mi></mfrac><mi>.</mi></mrow></math></p></div>"
+   ],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "ley de Hooke",
+     "def": "<p>La fuerza del muelle es proporcional al alargamiento y de sentido contrario, F = −kx.</p>"
+    },
+    {
+     "t": "constante del muelle",
+     "def": "<p>Magnitud k que mide la rigidez del muelle (N/m).</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-hhs-zinematika"
+   ],
+   "ondorengoak": [
+    "fosz-malguki-konbinatuak",
+    "fosz-energia-oszilazioa",
+    "fosz-indargetuak",
+    "fosz-akoplatuak",
+    "fosz-praktika-oszilazioak",
+    "fosz-landeta-mekanika"
+   ],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a3 · Muelle lineal; a16 · Muelle y periodo; a21 · Oscilador con dos masas",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-pendulu-sinplea",
+   "atala": "S2",
+   "mota": "teorema",
+   "izena": "Péndulo simple",
+   "ideia": "<p>Una masa colgada de un hilo realiza un MAS para ángulos pequeños, y su periodo depende de la longitud y de la gravedad, no de la masa.</p>",
+   "formula": "",
+   "enuntziatua": "<div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mfrac><mi>L</mi><mi>g</mi></mfrac></msqrt><mi>.</mi></mrow></math></p></div>",
+   "azalpena": "<p>Una masa puntual <math display=\"inline\"><mi>m</mi></math> que cuelga de un hilo de longitud <math display=\"inline\"><mi>L</mi></math> realiza, para ángulos pequeños <math display=\"inline\"><mi>ϕ</mi></math>, un MAS:</p><figure class=\"j-irudia\"><img src=\"media/irudiak/801ffe50733fd85d.svg\" alt=\"Péndulo simple: masa m colgada de un hilo de longitud L,\n    que oscila con un ángulo ϕ pequeño.\" width=\"120\" loading=\"lazy\"><figcaption>Péndulo simple: masa <math display=\"inline\"><mi>m</mi></math> que cuelga de un hilo de longitud <math display=\"inline\"><mi>L</mi></math>,\n    oscilando con un ángulo pequeño <math display=\"inline\"><mi>ϕ</mi></math>.</figcaption></figure><p>Tangencialmente, <math display=\"inline\"><mrow><msub><mi>F</mi><mi>τ</mi></msub><mo>=</mo><mi>−</mi><mi>m</mi><mi>g</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>=</mo><mi>m</mi><msub><mi>a</mi><mi>τ</mi></msub></mrow></math>, y como <math display=\"inline\"><mrow><msub><mi>a</mi><mi>τ</mi></msub><mo>=</mo><mi>L</mi><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>ϕ</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>,</p><p><math display=\"block\"><mrow><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>ϕ</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mfrac><mi>g</mi><mi>L</mi></mfrac><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math></p><p>En general <strong>no es armónico</strong> (porque <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi></mrow></math>), pero para ángulos pequeños <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>≈</mo><mi>ϕ</mi></mrow></math>, y entonces se convierte en un MAS:</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><msup><mi>ω</mi><mn>2</mn></msup><mo>=</mo><mfrac><mi>g</mi><mi>L</mi></mfrac><mtext mathvariant=\"normal\">  </mtext><mo>→</mo><mtext mathvariant=\"normal\">  </mtext><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mfrac><mi>L</mi><mi>g</mi></mfrac></msqrt></mrow></math>)</p></div>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "péndulo simple",
+     "def": "<p>Masa puntual colgada del extremo de un hilo de longitud fija.</p>"
+    },
+    {
+     "t": "aproximación de ángulos pequeños",
+     "def": "<p>Tomar sin φ ≈ φ; con esta aproximación la ecuación del péndulo simple se vuelve armónica.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-hhs-zinematika"
+   ],
+   "ondorengoak": [
+    "fosz-pendulu-fisikoa",
+    "fosz-praktika-oszilazioak",
+    "fosz-praktika-azterketak"
+   ],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a4 · Péndulo simple; a17 · Péndulo simple y compuesto",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-pendulu-fisikoa",
+   "atala": "S2",
+   "mota": "teorema",
+   "izena": "Péndulo físico",
+   "ideia": "<p>Un sólido rígido colgado de un eje que no pasa por el centro de masas también oscila; el periodo depende del momento de inercia y de la distancia al eje.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Todo sólido rígido que realiza pequeñas oscilaciones alrededor de un eje que no pasa por el CM (<math display=\"inline\"><mi>I</mi></math>, con <math display=\"inline\"><mi>O</mi></math> el momento de inercia respecto al eje y <math display=\"inline\"><mi>b</mi></math> la distancia entre el CM y el eje) cumple, para ángulos pequeños,</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><msup><mi>ω</mi><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mi>m</mi><mi>g</mi><mi>b</mi></mrow><mi>I</mi></mfrac><mtext mathvariant=\"normal\">  </mtext><mo>→</mo><mtext mathvariant=\"normal\">  </mtext><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mfrac><mi>I</mi><mrow><mi>m</mi><mi>g</mi><mi>b</mi></mrow></mfrac></msqrt></mrow></math>)</p></div><p>Como caso particular, se recupera el péndulo simple haciendo <math display=\"inline\"><mrow><mi>I</mi><mo>=</mo><mi>m</mi><msup><mi>L</mi><mn>2</mn></msup></mrow></math> y <math display=\"inline\"><mrow><mi>b</mi><mo>=</mo><mi>L</mi></mrow></math>.</p>",
+   "azalpena": "<p>Un disco oscilando alrededor de un eje de suspensión; momento de inercia por <strong>Steiner</strong> (<math display=\"inline\"><mrow><mi>I</mi><mo>=</mo><msub><mi>I</mi><mrow><mtext mathvariant=\"normal\">mz </mtext><mspace width=\"0.333em\"></mspace></mrow></msub><mo>+</mo><mi>m</mi><msup><mi>d</mi><mn>2</mn></msup></mrow></math>), y, a partir de la ecuación del movimiento, el periodo en función de <math display=\"inline\"><mi>R</mi></math> y <math display=\"inline\"><mi>d</mi></math>:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mfrac><mi>I</mi><mrow><mi>m</mi><mi>g</mi><mi>d</mi></mrow></mfrac></msqrt><mi>.</mi></mrow></math></p></div><p>Derivando el periodo del péndulo físico respecto a <math display=\"inline\"><mi>d</mi></math> e igualando a cero (<math display=\"inline\"><mrow><mi>d</mi><mi>T</mi><mi>/</mi><mi>d</mi><mi>d</mi><mo>=</mo><mn>0</mn></mrow></math>), la distancia que <strong>minimiza</strong> el periodo:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mfrac><mrow><mi>d</mi><mi>T</mi></mrow><mrow><mi>d</mi><mi>d</mi></mrow></mfrac><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mi>d</mi><mo>=</mo><mfrac><mi>R</mi><msqrt><mn>2</mn></msqrt></mfrac><mi>.</mi></mrow></math></p></div>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Un anillo de radio <math display=\"inline\"><mi>R</mi></math> y masa <math display=\"inline\"><mi>m</mi></math> se cuelga del punto <math display=\"inline\"><mi>O</mi></math>, realizando pequeñas oscilaciones en el plano vertical. ¿Cuál es el periodo de las oscilaciones? <strong>Resultado</strong>: <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mrow><mn>2</mn><mi>R</mi><mi>/</mi><mi>g</mi></mrow></msqrt></mrow></math> (<math display=\"inline\"><mrow><mi>I</mi><mo>=</mo><mn>2</mn><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></math>).</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "péndulo físico (compuesto)",
+     "def": "<p>Sólido rígido que oscila en torno a un eje que no pasa por el centro de masas.</p>"
+    },
+    {
+     "t": "teorema de Steiner",
+     "def": "<p>Momento de inercia respecto de un eje = momento respecto del eje paralelo que pasa por el centro de masas + m·d².</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-pendulu-sinplea"
+   ],
+   "ondorengoak": [
+    "fosz-praktika-testa"
+   ],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a5 · Péndulo físico; a17 · Péndulo físico/compuesto; a18 · Minimizar el periodo",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-malguki-konbinatuak",
+   "atala": "S2",
+   "mota": "teorema",
+   "izena": "Muelles combinados: en serie y en paralelo",
+   "ideia": "<p>Al combinar más de un muelle, el sistema se comporta como un único muelle equivalente: en paralelo las constantes se suman, en serie se suman sus inversas.</p>",
+   "formula": "",
+   "enuntziatua": "<div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>f</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi>π</mi></mrow></mfrac><msqrt><mfrac><mi>k</mi><mi>m</mi></mfrac></msqrt><mi>.</mi></mrow></math></p></div><p>(En distintos casos numéricos la constante equivalente cambia: en serie <math display=\"inline\"><mrow><mn>1</mn><mi>/</mi><mi>k</mi><mo>=</mo><mo>∑</mo><mn>1</mn><mi>/</mi><msub><mi>k</mi><mi>i</mi></msub></mrow></math>; en paralelo <math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mo>∑</mo><msub><mi>k</mi><mi>i</mi></msub></mrow></math>.)</p>",
+   "azalpena": "<p><strong>Periodo</strong> de muelles combinados en serie/paralelo (mediante la constante equivalente), elongación en un instante dado (por comparación de fases) y <strong>energía mecánica total</strong>:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>E</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><msup><mi>A</mi><mn>2</mn></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> seriean </mtext><mspace width=\"0.333em\"></mspace></mrow><mfrac><mn>1</mn><mi>k</mi></mfrac><mo>=</mo><mo>∑</mo><mfrac><mn>1</mn><msub><mi>k</mi><mi>i</mi></msub></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> paraleloan </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>k</mi><mo>=</mo><mo>∑</mo><msub><mi>k</mi><mi>i</mi></msub><mi>.</mi></mrow></math></p></div>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Obténgase la constante recuperadora equivalente del sistema formado por muelles de constantes recuperadoras <math display=\"inline\"><msub><mi>k</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>k</mi><mn>2</mn></msub></math>, cuando los muelles están asociados en paralelo y en serie. <strong>Resultado</strong>: en paralelo, <math display=\"inline\"><mrow><msub><mi>K</mi><mtext mathvariant=\"normal\">par</mtext></msub><mo>=</mo><msub><mi>k</mi><mn>1</mn></msub><mo>+</mo><msub><mi>k</mi><mn>2</mn></msub></mrow></math>; en serie, <math display=\"inline\"><mrow><mn>1</mn><mi>/</mi><msub><mi>K</mi><mtext mathvariant=\"normal\">ser</mtext></msub><mo>=</mo><mn>1</mn><mi>/</mi><msub><mi>k</mi><mn>1</mn></msub><mo>+</mo><mn>1</mn><mi>/</mi><msub><mi>k</mi><mn>2</mn></msub></mrow></math>.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "constante equivalente",
+     "def": "<p>Constante del único muelle que puede sustituir a un conjunto de muelles.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-malgukia"
+   ],
+   "ondorengoak": [
+    "fosz-praktika-testa"
+   ],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a18 · Muelles combinados; a19 · Muelles combinados y energía",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-energia-oszilazioa",
+   "atala": "S3",
+   "mota": "teorema",
+   "izena": "Energía de las oscilaciones armónicas",
+   "ideia": "<p>En el MAS las energías cinética y potencial van cambiando, pero su suma es constante y proporcional al cuadrado de la amplitud.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Bajo una fuerza conservativa <math display=\"inline\"><mrow><mi>F</mi><mo>=</mo><mi>−</mi><mi>k</mi><mi>x</mi></mrow></math>, usando <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mi>ω</mi><msqrt><mrow><msup><mi>A</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></math> y <math display=\"inline\"><mrow><msup><mi>ω</mi><mn>2</mn></msup><mo>=</mo><mi>k</mi><mi>/</mi><mi>m</mi></mrow></math>:</p><p><math display=\"block\"><mrow><msub><mi>E</mi><mi>k</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>A</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><msub><mi>E</mi><mi>p</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><msup><mi>x</mi><mn>2</mn></msup><mi>.</mi></mrow></math></p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><mi>E</mi><mo>=</mo><msub><mi>E</mi><mi>k</mi></msub><mo>+</mo><msub><mi>E</mi><mi>p</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><msup><mi>A</mi><mn>2</mn></msup><mo>=</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> konstante </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>)</p></div><figure class=\"j-irudia\"><img src=\"media/irudiak/534849c14993ffaf.svg\" alt=\"Energía cinética y potencial en el MAS, en función de x: la suma\n    (E, línea discontinua) se mantiene constante.\" width=\"245\" loading=\"lazy\"><figcaption>Energía cinética y potencial en el MAS, en función de <math display=\"inline\"><mi>x</mi></math>: la suma\n    (<math display=\"inline\"><mi>E</mi></math>, línea discontinua) se mantiene constante.</figcaption></figure>",
+   "azalpena": "<p>En un muelle vertical, al colocar una masa y comprimirlo hasta una nueva posición de equilibrio (<math display=\"inline\"><mrow><msub><mi>y</mi><mn>0</mn></msub><mo>=</mo><mi>m</mi><mi>g</mi><mi>/</mi><mi>k</mi></mrow></math>), si se mide desde el nuevo equilibrio (<math display=\"inline\"><msub><mi>y</mi><mn>1</mn></msub></math>) basta con considerar únicamente la energía potencial elástica:</p><p><math display=\"block\"><mrow><msub><mi>E</mi><mi>p</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><msubsup><mi>y</mi><mn>0</mn><mn>2</mn></msubsup><mo>−</mo><mi>m</mi><mi>g</mi><msub><mi>y</mi><mn>0</mn></msub><mo>+</mo><munder><munder><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><msubsup><mi>y</mi><mn>1</mn><mn>2</mn></msubsup><mo>−</mo><mi>k</mi><msub><mi>y</mi><mn>0</mn></msub><msub><mi>y</mi><mn>1</mn></msub></mrow><mo accent=\"true\">⏟</mo></munder><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> garatuz</mtext></mrow></munder><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><msubsup><mi>y</mi><mn>1</mn><mn>2</mn></msubsup><mo>+</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> konstante </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>.</mi></mrow></math></p><p>El efecto de la gravedad queda &quot;oculto&quot; en una constante en la nueva posición de equilibrio; por eso, también en los muelles verticales basta con escribir solo la energía potencial elástica, si se mide desde la nueva posición de equilibrio.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "energía potencial elástica",
+     "def": "<p>Energía que almacena el muelle por su alargamiento, ½kx².</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-malgukia"
+   ],
+   "ondorengoak": [
+    "fosz-praktika-oszilazioak",
+    "fosz-landeta-mekanika"
+   ],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a6 · Energía de las oscilaciones armónicas",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-indargetuak",
+   "atala": "S4",
+   "mota": "teorema",
+   "izena": "Oscilaciones amortiguadas",
+   "ideia": "<p>Como el rozamiento absorbe energía, la amplitud de las oscilaciones reales va disminuyendo; cuanto mayor es el amortiguamiento, antes se detiene el movimiento.</p>",
+   "formula": "",
+   "enuntziatua": "<p>En la realidad, el rozamiento (proporcional a la velocidad, <math display=\"inline\"><mrow><msub><mi>F</mi><mtext mathvariant=\"normal\">indargetzailea</mtext></msub><mo>=</mo><mi>−</mi><mi>λ</mi><mi>v</mi></mrow></math>) absorbe energía y la amplitud va disminuyendo:</p><p><math display=\"block\"><mrow><mi>m</mi><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>x</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mi>λ</mi><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>+</mo><mi>k</mi><mi>x</mi><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>x</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mn>2</mn><mi>γ</mi><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>+</mo><msubsup><mi>ω</mi><mn>0</mn><mn>2</mn></msubsup><mi>x</mi><mo>=</mo><mn>0</mn><mo>,</mo></mrow></math></p><p>donde <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mi>λ</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>m</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> es el <strong>factor de amortiguamiento</strong> y <math display=\"inline\"><mrow><msub><mi>ω</mi><mn>0</mn></msub><mo>=</mo><msqrt><mrow><mi>k</mi><mi>/</mi><mi>m</mi></mrow></msqrt></mrow></math> la frecuencia propia del oscilador (sin amortiguamiento). Se distinguen tres regímenes, comparando <math display=\"inline\"><mi>γ</mi></math> y <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math>:</p><ul><li><strong>Amortiguamiento débil</strong> (<math display=\"inline\"><mrow><mi>γ</mi><mo>&lt;</mo><msub><mi>ω</mi><mn>0</mn></msub></mrow></math>): <math display=\"inline\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><msup><mi>e</mi><mrow><mi>−</mi><mi>γ</mi><mi>t</mi></mrow></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><msqrt><mrow><msubsup><mi>ω</mi><mn>0</mn><mn>2</mn></msubsup><mo>−</mo><msup><mi>γ</mi><mn>2</mn></msup></mrow></msqrt></mrow></math> — sigue oscilando, con una amplitud cada vez menor.</li><li><strong>Sobreamortiguamiento</strong> (<math display=\"inline\"><mrow><mi>γ</mi><mo>&gt;</mo><msub><mi>ω</mi><mn>0</mn></msub></mrow></math>): no oscila, vuelve al equilibrio de forma exponencial, más lentamente.</li><li><strong>Amortiguamiento crítico</strong> (<math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><msub><mi>ω</mi><mn>0</mn></msub></mrow></math>): vuelve al equilibrio sin oscilar en el menor tiempo posible.</li></ul><figure class=\"j-irudia\"><img src=\"media/irudiak/b6b80b34bdb13dd5.svg\" alt=\"Oscilación con amortiguamiento débil: la amplitud disminuye según la envolvente Ae−γt.\" width=\"385\" loading=\"lazy\"><figcaption>Oscilación con amortiguamiento débil: la amplitud disminuye según la\n  envolvente <math display=\"inline\"><mrow><mi>A</mi><msup><mi>e</mi><mrow><mi>−</mi><mi>γ</mi><mi>t</mi></mrow></msup></mrow></math>.</figcaption></figure><p><strong>Con amortiguamiento débil</strong>, la variación que experimenta la amplitud en un periodo es constante: <math display=\"inline\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>+</mo><mi>T</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>e</mi><mrow><mi>−</mi><mi>γ</mi><mi>T</mi></mrow></msup></mrow></math>.</p>",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>El periodo de un péndulo simple vale <math display=\"inline\"><mn>2.5</mn></math> s al realizar oscilaciones pequeñas. En un instante la amplitud de las oscilaciones ha valido <math display=\"inline\"><mrow><mn>2</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>. A causa del rozamiento, la amplitud ha ido disminuyendo, tomando el valor <math display=\"inline\"><mrow><mn>1.5</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math> tras completarse <math display=\"inline\"><mn>10</mn></math> oscilaciones completas. Obténgase el valor de la constante de amortiguamiento. <strong>Resultado</strong>: <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0.0115</mn></mrow></math> <math display=\"inline\"><msup><mi>s</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></math>.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "factor de amortiguamiento",
+     "def": "<p>γ = λ/(2m): mide la fuerza de rozamiento proporcional a la velocidad; la amplitud disminuye como e^(−γt).</p>"
+    },
+    {
+     "t": "frecuencia propia",
+     "def": "<p>Frecuencia angular que tendría el oscilador sin rozamiento, ω0.</p>"
+    },
+    {
+     "t": "amortiguamiento débil",
+     "def": "<p>γ < ω0: sigue oscilando, con una amplitud cada vez menor.</p>"
+    },
+    {
+     "t": "sobreamortiguamiento",
+     "def": "<p>γ > ω0: no oscila; vuelve lentamente al equilibrio.</p>"
+    },
+    {
+     "t": "amortiguamiento crítico",
+     "def": "<p>γ = ω0: vuelve al equilibrio sin oscilar lo más deprisa posible.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-malgukia"
+   ],
+   "ondorengoak": [
+    "fosz-bortxatuak"
+   ],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a7 · Oscilaciones amortiguadas",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-bortxatuak",
+   "atala": "S4",
+   "mota": "teorema",
+   "izena": "Oscilaciones forzadas",
+   "ideia": "<p>Para mantener en marcha un oscilador hay que empujarlo con una fuerza externa periódica; en régimen estacionario el oscilador oscila con la frecuencia de la fuerza, no con la propia.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Para mantener en marcha un oscilador amortiguado hay que suministrarle energía externa, por ejemplo mediante una fuerza periódica <math display=\"inline\"><mrow><msub><mi>F</mi><mtext mathvariant=\"normal\">eragilea</mtext></msub><mo>=</mo><msub><mi>F</mi><mn>0</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>ω</mi><mi>e</mi></msub><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. En régimen estacionario (cuando la energía aportada iguala a la disipada), la amplitud se mantiene constante y depende de <math display=\"inline\"><msub><mi>F</mi><mn>0</mn></msub></math> y de <math display=\"inline\"><msub><mi>ω</mi><mi>e</mi></msub></math>. Cuando <math display=\"inline\"><mrow><msub><mi>ω</mi><mi>e</mi></msub><mo>≈</mo><msub><mi>ω</mi><mn>0</mn></msub></mrow></math> (frecuencia de la fuerza externa próxima a la frecuencia propia del oscilador), se produce la <strong>resonancia</strong>: la mayor amplitud que puede alcanzar el oscilador forzado.</p>",
+   "azalpena": "<p>Añadiendo una fuerza impulsora armónica, la ecuación del movimiento es (con <math display=\"inline\"><mrow><mi>β</mi><mo>=</mo><mi>b</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>m</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> el parámetro de amortiguamiento y <math display=\"inline\"><mrow><msubsup><mi>ω</mi><mn>0</mn><mn>2</mn></msubsup><mo>=</mo><mi>k</mi><mi>/</mi><mi>m</mi></mrow></math>): <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>+</mo><mn>2</mn><mi>β</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>+</mo><msubsup><mi>ω</mi><mn>0</mn><mn>2</mn></msubsup><mi>x</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><msub><mi>F</mi><mn>0</mn></msub><mi>m</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math> Una vez extinguido el transitorio (la solución del oscilador amortiguado, apartado anterior), en el régimen estacionario el sistema oscila a la frecuencia <math display=\"inline\"><mi>ω</mi></math> de la fuerza impulsora, no a su frecuencia natural <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math>: <math display=\"block\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>−</mo><mi>δ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math> donde</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><msub><mi>F</mi><mn>0</mn></msub><mi>/</mi><mi>m</mi></mrow><msqrt><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>ω</mi><mn>0</mn><mn>2</mn></msubsup><mo>−</mo><msup><mi>ω</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>4</mn><msup><mi>β</mi><mn>2</mn></msup><msup><mi>ω</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>δ</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>β</mi><mi>ω</mi></mrow><mrow><msubsup><mi>ω</mi><mn>0</mn><mn>2</mn></msubsup><mo>−</mo><msup><mi>ω</mi><mn>2</mn></msup></mrow></mfrac><mi>.</mi></mrow></math></p></div><p>Lectura:</p><ul><li><math display=\"inline\"><mrow><mi>ω</mi><mo>→</mo><mn>0</mn></mrow></math>: <math display=\"inline\"><mrow><mi>A</mi><mo>→</mo><msub><mi>F</mi><mn>0</mn></msub><mi>/</mi><mi>k</mi></mrow></math> (deformación estática), <math display=\"inline\"><mrow><mi>δ</mi><mo>→</mo><mn>0</mn></mrow></math> (en fase).</li><li><math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><msub><mi>ω</mi><mn>0</mn></msub></mrow></math>: <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><msub><mi>F</mi><mn>0</mn></msub><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mi>m</mi><mi>β</mi><msub><mi>ω</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> y <math display=\"inline\"><mrow><mi>δ</mi><mo>=</mo><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math> — el impulso va siempre a favor de la velocidad, transferencia máxima de energía.</li><li><math display=\"inline\"><mrow><mi>ω</mi><mo>→</mo><mi>∞</mi></mrow></math>: <math display=\"inline\"><mrow><mi>A</mi><mo>→</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mi>δ</mi><mo>→</mo><mi>π</mi></mrow></math> (en oposición de fase: la masa no puede seguirlo).</li></ul>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "fuerza impulsora",
+     "def": "<p>Fuerza periódica aplicada desde fuera al oscilador, F0 cos(ωt).</p>"
+    },
+    {
+     "t": "régimen estacionario",
+     "def": "<p>Estado del sistema una vez extinguido el transitorio: amplitud constante y frecuencia de la fuerza impulsora.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-indargetuak"
+   ],
+   "ondorengoak": [
+    "fosz-erresonantzia"
+   ],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a8 · Oscilaciones forzadas y resonancia; a9 · Tratamiento cuantitativo",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-erresonantzia",
+   "atala": "S4",
+   "mota": "teorema",
+   "izena": "Resonancia",
+   "ideia": "<p>Cuando la frecuencia de la fuerza externa es próxima a la propia del oscilador, la amplitud crece enormemente; cuanto menor es el amortiguamiento, más alto y más estrecho es el pico.</p>",
+   "formula": "",
+   "enuntziatua": "<p><em>Resonancia</em></p><p>: el máximo de la amplitud se da a la frecuencia <math display=\"inline\"><mrow><msub><mi>ω</mi><mi>R</mi></msub><mo>=</mo><msqrt><mrow><msubsup><mi>ω</mi><mn>0</mn><mn>2</mn></msubsup><mo>−</mo><mn>2</mn><msup><mi>β</mi><mn>2</mn></msup></mrow></msqrt></mrow></math> (con amortiguamiento débil, <math display=\"inline\"><mrow><msub><mi>ω</mi><mi>R</mi></msub><mo>≈</mo><msub><mi>ω</mi><mn>0</mn></msub></mrow></math>), y cuanto menor es el amortiguamiento, más alto y más estrecho es el pico. La agudeza del pico la mide el factor de calidad: <math display=\"block\"><mrow><mi>Q</mi><mo>=</mo><mfrac><msub><mi>ω</mi><mn>0</mn></msub><mrow><mn>2</mn><mi>β</mi></mrow></mfrac><mo>,</mo></mrow></math> es, aproximadamente, &quot;el número de oscilaciones antes de perder una energía apreciable&quot;. Los sistemas con <math display=\"inline\"><mi>Q</mi></math> grande (una campana, un buen circuito resonante — véanse los circuitos RLC, tema 11 de 02fg_04, donde aparece el mismo <math display=\"inline\"><mi>Q</mi></math>) solo responden en un intervalo de frecuencias muy estrecho.</p>",
+   "azalpena": "<p class=\"j-ezezaguna\">[desconocido: sin convertir]</p>",
+   "frogapena": "",
+   "adibideak": [
+    "<p>Suspensión de un coche (<math display=\"inline\"><mrow><mi>m</mi><mo>=</mo><mn>300</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> kg</mtext></mrow></mrow></math> por rueda, <math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mn>3</mn><mo>×</mo><msup><mn>10</mn><mn>4</mn></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> N/m</mtext></mrow></mrow></math>): <math display=\"inline\"><mrow><msub><mi>ω</mi><mn>0</mn></msub><mo>=</mo><msqrt><mrow><mi>k</mi><mi>/</mi><mi>m</mi></mrow></msqrt><mo>=</mo><mn>10</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> rad/s</mtext></mrow></mrow></math>, es decir, <math display=\"inline\"><mrow><msub><mi>f</mi><mn>0</mn></msub><mo>≈</mo><mn>1.6</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Hz</mtext></mrow></mrow></math>. Las ondulaciones de la carretera (<math display=\"inline\"><mrow><mi>λ</mi><mo>≈</mo><mn>10</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow></mrow></math>) impulsan justo esa frecuencia a la velocidad <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mi>λ</mi><mi>f</mi><mo>≈</mo><mn>57</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> km/h</mtext></mrow></mrow></math>: por eso el coche vibra a una velocidad determinada, y por eso hacen falta buenos amortiguadores (aumentar <math display=\"inline\"><mi>β</mi></math>, aplanar el pico).</p>"
+   ],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "resonancia",
+     "def": "<p>Máxima amplitud, que se produce cuando la frecuencia de la fuerza externa está próxima a la frecuencia propia.</p>"
+    },
+    {
+     "t": "factor de calidad",
+     "def": "<p>Q = ω0/(2β): mide lo agudo que es el pico de resonancia; una Q grande significa responder en un intervalo de frecuencias muy estrecho.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-bortxatuak"
+   ],
+   "ondorengoak": [
+    "fosz-praktika-testa"
+   ],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a8 · Oscilaciones forzadas y resonancia; a9 · Tratamiento cuantitativo",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-akoplatuak",
+   "atala": "S5",
+   "mota": "teorema",
+   "izena": "Oscilaciones acopladas y modos normales",
+   "ideia": "<p>Dos osciladores unidos por un muelle débil tienen dos modos normales, cada uno con su frecuencia; cualquier movimiento es la superposición de los dos modos, y la energía pasa de uno a otro.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Si unimos dos osciladores idénticos (<math display=\"inline\"><mi>m</mi></math>, <math display=\"inline\"><mi>k</mi></math>) con un muelle débil (<math display=\"inline\"><msup><mi>k</mi><mo>′</mo></msup></math>), el movimiento de cada uno condiciona el del otro: <math display=\"block\"><mrow><mi>m</mi><msub><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mn>1</mn></msub><mo>=</mo><mi>−</mi><mi>k</mi><msub><mi>x</mi><mn>1</mn></msub><mo>−</mo><msup><mi>k</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>1</mn></msub><mo>−</mo><msub><mi>x</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>m</mi><msub><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mn>2</mn></msub><mo>=</mo><mi>−</mi><mi>k</mi><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msup><mi>k</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math> La clave para resolver el sistema es un cambio de variable: suma y diferencia. Tomando <math display=\"inline\"><mrow><mi>s</mi><mo>=</mo><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub></mrow></math> y <math display=\"inline\"><mrow><mi>d</mi><mo>=</mo><msub><mi>x</mi><mn>1</mn></msub><mo>−</mo><msub><mi>x</mi><mn>2</mn></msub></mrow></math>, las ecuaciones se desacoplan: <math display=\"block\"><mrow><mi>m</mi><mover><mi>s</mi><mo accent=\"true\">̈</mo></mover><mo>=</mo><mi>−</mi><mi>k</mi><mi>s</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>m</mi><mover><mi>d</mi><mo accent=\"true\">̈</mo></mover><mo>=</mo><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo>+</mo><mn>2</mn><msup><mi>k</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>.</mi></mrow></math> Dos osciladores libres &quot;nuevos&quot; — esos son los <em>modos normales</em>:</p><ol><li><em>Modo simétrico</em> (<math display=\"inline\"><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><msub><mi>x</mi><mn>2</mn></msub></mrow></math>, el muelle central en reposo): <math display=\"inline\"><mrow><msub><mi>ω</mi><mn>1</mn></msub><mo>=</mo><msqrt><mrow><mi>k</mi><mi>/</mi><mi>m</mi></mrow></msqrt></mrow></math> — los dos a la vez, sin notar el acoplamiento.</li><li><em>Modo antisimétrico</em> (<math display=\"inline\"><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><mi>−</mi><msub><mi>x</mi><mn>2</mn></msub></mrow></math>, el central estirado el doble):</li></ol><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msub><mi>ω</mi><mn>2</mn></msub><mo>=</mo><msqrt><mfrac><mrow><mi>k</mi><mo>+</mo><mn>2</mn><msup><mi>k</mi><mo>′</mo></msup></mrow><mi>m</mi></mfrac></msqrt><mo>&gt;</mo><msub><mi>ω</mi><mrow><mn>1</mn><mi>.</mi></mrow></msub></mrow></math></p></div>",
+   "azalpena": "<p>Cualquier movimiento es la superposición de los dos modos. Si al principio solo se desplaza una masa (<math display=\"inline\"><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><mi>A</mi></mrow></math>, <math display=\"inline\"><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>=</mo><mn>0</mn></mrow></math> — los dos modos se excitan con la misma amplitud), la energía pasa de una a otra: <em>pulsaciones</em>. Cada masa oscila con frecuencia <math display=\"inline\"><mrow><mover><mi>ω</mi><mo accent=\"true\">¯</mo></mover><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>ω</mi><mn>1</mn></msub><mo>+</mo><msub><mi>ω</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mn>2</mn></mrow></math>, con la amplitud modulada por una frecuencia lenta <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>ω</mi><mn>2</mn></msub><mo>−</mo><msub><mi>ω</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mn>2</mn></mrow></math> — el mismo fenómeno de los batidos del tema 9, aquí en el espacio.</p><div class=\"j-ing j-k-grisa\"><span class=\"j-et\">Observación</span><p><math display=\"inline\"><mi>N</mi></math> osciladores acoplados tienen <math display=\"inline\"><mi>N</mi></math> modos normales, cada uno con su frecuencia. En el límite <math display=\"inline\"><mrow><mi>N</mi><mo>→</mo><mi>∞</mi></mrow></math> (una fila continua de masas), los modos se convierten en ondas estacionarias de una cuerda y las frecuencias en la serie de los armónicos (las ondas estacionarias del capítulo siguiente): este es el puente entre los osciladores y las ondas.</p></div>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "osciladores acoplados",
+     "def": "<p>Osciladores que se condicionan mutuamente el movimiento, por ejemplo unidos por un muelle débil.</p>"
+    },
+    {
+     "t": "modo normal",
+     "def": "<p>Patrón de movimiento en el que todo el sistema oscila con una única frecuencia y con fase fija.</p>"
+    },
+    {
+     "t": "modo simétrico y antisimétrico",
+     "def": "<p>Modos en los que las dos masas se mueven en el mismo sentido (x1 = x2) o en sentidos opuestos (x1 = −x2).</p>"
+    },
+    {
+     "t": "pulsaciones (batidos)",
+     "def": "<p>Modulación lenta de la amplitud que se produce al superponer dos modos: la energía va de una masa a otra.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-malgukia"
+   ],
+   "ondorengoak": [
+    "fosz-uhin-geldikorrak"
+   ],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a13 · Oscilaciones acopladas y modos normales",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-uhina",
+   "atala": "S6",
+   "mota": "definizioa",
+   "izena": "El concepto de onda",
+   "ideia": "<p>Una onda es una perturbación que se propaga por el espacio: transporta energía, pero no materia.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Una <strong>onda</strong> es una perturbación que se propaga por el espacio: una perturbación inicial se extiende de punto a punto, sin transporte de materia, a partir de una fuente emisora. Se transporta <strong>energía</strong> (no materia), y existe un <strong>retardo</strong> hasta que la perturbación llega a los puntos más alejados de donde se originó.</p><ul><li><strong>Ondas mecánicas</strong>: para propagar una perturbación de naturaleza mecánica se necesita un medio material elástico (aire, agua, cuerda).</li><li><strong>Ondas electromagnéticas</strong>: la transmisión de energía electromagnética se produce sin necesidad de medio material; pueden propagarse en el vacío o a través de la materia (luz visible, ondas de radio, rayos X).</li></ul>",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "onda",
+     "def": "<p>Perturbación que parte de una fuente y se propaga de punto a punto; transporta energía sin transportar materia.</p>"
+    },
+    {
+     "t": "onda mecánica",
+     "def": "<p>Onda que necesita un medio material elástico para propagarse (el sonido, una onda en una cuerda).</p>"
+    },
+    {
+     "t": "onda electromagnética",
+     "def": "<p>Onda que puede propagarse sin medio material, incluso en el vacío (la luz, las ondas de radio, los rayos X).</p>"
+    }
+   ],
+   "aurrekoak": [],
+   "ondorengoak": [
+    "fosz-zeharkakoak-luzetarakoak",
+    "fosz-uhin-funtzioa"
+   ],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a22 · Ondas; a23 · El concepto de onda",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-zeharkakoak-luzetarakoak",
+   "atala": "S6",
+   "mota": "definizioa",
+   "izena": "Ondas transversales y longitudinales",
+   "ideia": "<p>Si la perturbación es perpendicular a la dirección de propagación, la onda es transversal (cuerda); si es paralela, longitudinal (sonido).</p>",
+   "formula": "",
+   "enuntziatua": "<p><strong>Ondas transversales</strong>: la perturbación es perpendicular a la dirección de propagación de la onda (p. ej., un pulso generado en una cuerda). <strong>Ondas longitudinales</strong>: la perturbación es paralela a la dirección de propagación (p. ej., las ondas sonoras, que se propagan como compresiones y dilataciones).</p>",
+   "azalpena": "<p><em class=\"j-nab\">\n  <strong>Ondas</strong>: mecánicas (necesitan un medio) frente a electromagnéticas. <strong>Transversales</strong> (la perturbación\n  es perpendicular a la propagación) frente a <strong>longitudinales</strong> (paralela).\n</em></p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "onda transversal",
+     "def": "<p>Onda en la que la perturbación es perpendicular a la dirección de propagación.</p>"
+    },
+    {
+     "t": "onda longitudinal",
+     "def": "<p>Onda en la que la perturbación es paralela a la dirección de propagación, y que se propaga como compresiones y dilataciones.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-uhina"
+   ],
+   "ondorengoak": [],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a24 · Ondas transversales y longitudinales; a16 · Introducción a las ondas",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-uhin-funtzioa",
+   "atala": "S6",
+   "mota": "teorema",
+   "izena": "Función de onda y ecuación de onda",
+   "ideia": "<p>Si la perturbación se propaga con velocidad constante, se puede escribir y = f(x − vt); todas esas funciones cumplen la ecuación de ondas.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Si el origen <math display=\"inline\"><msup><mi>O</mi><mo>′</mo></msup></math> se mueve junto con el pulso (<math display=\"inline\"><mrow><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mi>x</mi><mo>−</mo><mi>v</mi><mi>t</mi></mrow></math>), el desplazamiento de la cuerda medido desde <math display=\"inline\"><mi>O</mi></math> es <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. En general, la <strong>función de onda</strong>:</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>∓</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>)</p></div><p>El signo <math display=\"inline\"><mi>−</mi></math> indica la onda que se propaga en el sentido positivo de <math display=\"inline\"><mi>x</mi></math>, y el signo <math display=\"inline\"><mi>+</mi></math> la que se propaga en el sentido negativo; <math display=\"inline\"><mi>v</mi></math> es el módulo de la velocidad de propagación de la onda. En las ondas longitudinales, <math display=\"inline\"><mrow><mi>s</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Toda función de onda cumple la <strong>ecuación de onda</strong>:</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>∂</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><msup><mi>v</mi><mn>2</mn></msup></mfrac><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>∂</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>)</p></div>",
+   "azalpena": "",
+   "frogapena": "<p>Sea una cuerda tensada con tensión <math display=\"inline\"><mi>T</mi></math>, densidad lineal de masa <math display=\"inline\"><mi>μ</mi></math> (kg/m) y desplazamiento transversal pequeño <math display=\"inline\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Tomemos un trocito <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>x</mi><mo>,</mo><mi>x</mi><mo>+</mo><mi>d</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> (de masa <math display=\"inline\"><mrow><mi>μ</mi><mspace width=\"0.167em\"></mspace><mi>d</mi><mi>x</mi></mrow></math>): la tensión tira de él en los dos extremos, pero como la cuerda está curvada, las direcciones de los dos tirones son ligeramente distintas y queda una fuerza transversal neta.</p><p>Para pendientes pequeñas (<math display=\"inline\"><mrow><mi>θ</mi><mo>≈</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>=</mo><mi>∂</mi><mi>y</mi><mi>/</mi><mi>∂</mi><mi>x</mi></mrow></math>), la componente transversal es <math display=\"inline\"><mrow><mi>T</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>≈</mo><mi>T</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>∂</mi><mi>y</mi><mi>/</mi><mi>∂</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, y la fuerza neta es la diferencia de pendiente entre los dos extremos: <math display=\"block\"><mrow><msub><mi>F</mi><mi>y</mi></msub><mo>=</mo><mi>T</mi><msub><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mrow><mi>∂</mi><mi>y</mi></mrow><mrow><mi>∂</mi><mi>x</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi>x</mi><mo>+</mo><mi>d</mi><mi>x</mi></mrow></msub><mo>−</mo><mi>T</mi><msub><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mrow><mi>∂</mi><mi>y</mi></mrow><mrow><mi>∂</mi><mi>x</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>x</mi></msub><mo>=</mo><mi>T</mi><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>∂</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi><mi>.</mi></mrow></math> Aplicando la segunda ley de Newton al trocito (<math display=\"inline\"><mrow><msub><mi>F</mi><mi>y</mi></msub><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>μ</mi><mspace width=\"0.167em\"></mspace><mi>d</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><msup><mi>∂</mi><mn>2</mn></msup><mi>y</mi><mi>/</mi><mi>∂</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></math>):</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>∂</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mi>μ</mi><mi>T</mi></mfrac><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>∂</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mspace width=\"1.0em\"></mspace><mo>↔</mo><mspace width=\"1.0em\"></mspace><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>∂</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><msup><mi>v</mi><mn>2</mn></msup><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>∂</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>v</mi><mo>=</mo><msqrt><mfrac><mi>T</mi><mi>μ</mi></mfrac></msqrt><mi>.</mi></mrow></math></p></div><p>La deducción da a la vez dos cosas: la <em>forma</em> de la ecuación de onda (la segunda derivada espacial <math display=\"inline\"><mo>∝</mo></math> la aceleración) y la velocidad de propagación a partir de las propiedades de la cuerda — la fórmula <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><msqrt><mrow><mi>T</mi><mi>/</mi><mi>μ</mi></mrow></msqrt></mrow></math> presentada antes, ahora demostrada. Comprobación directa: cualquier función <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> (onda viajera) es solución, por la regla de la cadena.</p><div class=\"j-ing j-k-grisa\"><span class=\"j-et\">Observación</span><p>El mismo patrón se repite en la naturaleza: en un gas <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><msqrt><mrow><mi>γ</mi><mi>p</mi><mi>/</mi><mi>ρ</mi></mrow></msqrt></mrow></math> (sonido), y en el tema 14 (02fg_04) los campos electromagnéticos cumplen la misma ecuación con velocidad <math display=\"inline\"><mrow><mi>c</mi><mo>=</mo><mn>1</mn><mi>/</mi><msqrt><mrow><msub><mi>μ</mi><mn>0</mn></msub><msub><mi>ε</mi><mn>0</mn></msub></mrow></msqrt></mrow></math> — &quot;rigidez dividida por inercia&quot; es una estructura universal.</p></div>",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "función de onda",
+     "def": "<p>Función y(x,t) = f(x ∓ vt) que da la perturbación en función de la posición y del tiempo.</p>"
+    },
+    {
+     "t": "ecuación de ondas",
+     "def": "<p>Ecuación diferencial que cumplen todas las ondas: derivada segunda espacial = (1/v²)·derivada segunda temporal.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-uhina"
+   ],
+   "ondorengoak": [
+    "fosz-hedapen-abiadura",
+    "fosz-uhin-parametroak"
+   ],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a25 · Función de onda y ecuación de onda",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-hedapen-abiadura",
+   "atala": "S6",
+   "mota": "teorema",
+   "izena": "Velocidad de propagación",
+   "ideia": "<p>La velocidad de la onda la fijan las propiedades del medio, no la amplitud de la onda: en una cuerda, la tensión y la densidad lineal de masa; en un gas, la temperatura.</p>",
+   "formula": "",
+   "enuntziatua": "<p>La velocidad de propagación de la onda depende del medio — es el cociente entre la distancia a la que se transmite la onda y el tiempo necesario para ello:</p><ul><li><strong>Cuerda</strong>: <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><msqrt><mrow><msub><mi>F</mi><mi>T</mi></msub><mi>/</mi><mi>μ</mi></mrow></msqrt></mrow></math> (<math display=\"inline\"><msub><mi>F</mi><mi>T</mi></msub></math>, tensión; <math display=\"inline\"><mi>μ</mi></math>, masa por unidad de longitud).</li><li><strong>Sonido en un gas</strong>: <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><msqrt><mrow><mi>γ</mi><mi>R</mi><mi>T</mi><mi>/</mi><mi>M</mi></mrow></msqrt></mrow></math> (<math display=\"inline\"><mi>γ</mi></math>, cociente Cp/Cv; <math display=\"inline\"><mrow><mi>R</mi><mo>=</mo><mn>8.314</mn></mrow></math> J/(mol K); <math display=\"inline\"><mi>M</mi></math>, masa molar). En la atmósfera, en condiciones normales (<math display=\"inline\"><mrow><mn>20</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>C): <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>343</mn></mrow></math> m/s.</li><li><strong>Ondas superficiales de los líquidos</strong>: <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><msqrt><mrow><mi>g</mi><mi>h</mi></mrow></msqrt></mrow></math> (<math display=\"inline\"><mi>h</mi></math>, profundidad).</li></ul>",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Una cuerda larga de masa por unidad de longitud <math display=\"inline\"><mn>0.1</mn></math> kg/m está sometida a una tensión constante de <math display=\"inline\"><mn>10</mn></math> N. En el extremo <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> de la cuerda, un motor genera un movimiento armónico de <math display=\"inline\"><mn>5</mn></math> oscilaciones por segundo y amplitud <math display=\"inline\"><mn>4</mn></math> cm. (a) ¿Cuál es la velocidad de la onda? (b) ¿Cuál es la longitud de onda? <strong>Resultado</strong>: (a) <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>10</mn></mrow></math> m/s; (b) <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>2</mn></mrow></math> m.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "velocidad de propagación",
+     "def": "<p>Rapidez con la que avanza el patrón de la onda en el medio.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-uhin-funtzioa"
+   ],
+   "ondorengoak": [
+    "fosz-ekuazio-harmonikoa",
+    "fosz-soka-harmonikoak"
+   ],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a25 · Velocidad de propagación",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-uhin-parametroak",
+   "atala": "S7",
+   "mota": "definizioa",
+   "izena": "Parámetros de la onda armónica",
+   "ideia": "<p>En una onda armónica cada punto del medio realiza un MAS; la forma de la onda se describe con la longitud de onda, la amplitud, el periodo y la frecuencia.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Si una onda armónica se propaga a través de un medio, cada punto del medio realiza un movimiento armónico simple. Parámetros:</p><ul><li><strong>Longitud de onda</strong> (<math display=\"inline\"><mi>λ</mi></math>): distancia mínima entre dos puntos consecutivos que se encuentran en el mismo estado de vibración.</li><li><strong>Amplitud</strong> (<math display=\"inline\"><mi>A</mi></math>): valor máximo de la elongación de las partículas del medio.</li><li><strong>Periodo</strong> (<math display=\"inline\"><mi>T</mi></math>): tiempo que necesita el movimiento ondulatorio para propagarse una longitud de onda.</li><li><strong>Frecuencia</strong> (<math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>1</mn><mi>/</mi><mi>T</mi></mrow></math>): número de oscilaciones que realiza cada punto por unidad de tiempo.</li></ul>",
+   "azalpena": "<figure class=\"j-irudia\"><img src=\"media/irudiak/6ae5d13a47efc3ae.svg\" alt=\"&amp;quot;Fotografía de un instante&amp;quot; de una onda armónica: se señalan la longitud de onda λ\n  y la amplitud A, y la velocidad de propagación v en su dirección.\" width=\"387\" loading=\"lazy\"><figcaption>&quot;Fotografía instantánea&quot; de una onda armónica: se indican la longitud de onda <math display=\"inline\"><mi>λ</mi></math>\n  y la amplitud <math display=\"inline\"><mi>A</mi></math>, en la dirección de la velocidad de propagación <math display=\"inline\"><mi>v</mi></math>.</figcaption></figure>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "onda armónica",
+     "def": "<p>Onda en la que cada punto del medio realiza un movimiento armónico simple.</p>"
+    },
+    {
+     "t": "longitud de onda",
+     "def": "<p>Distancia mínima entre dos puntos consecutivos que están en el mismo estado de vibración, λ.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-uhin-funtzioa",
+    "fosz-hhs-zinematika"
+   ],
+   "ondorengoak": [
+    "fosz-ekuazio-harmonikoa"
+   ],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a26 · Ondas armónicas",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-ekuazio-harmonikoa",
+   "atala": "S7",
+   "mota": "teorema",
+   "izena": "Ecuación de la onda armónica",
+   "ideia": "<p>Una onda armónica se escribe y = A sin(kx − ωt); se repite cada λ en el espacio y cada T en el tiempo, y se cumple v = fλ.</p>",
+   "formula": "",
+   "enuntziatua": "<p>En un instante determinado <math display=\"inline\"><mi>t</mi></math>, el desplazamiento es <math display=\"inline\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>+</mo><mi>δ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> (<math display=\"inline\"><mi>δ</mi></math>, la constante de fase, depende del origen; <math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mn>2</mn><mi>π</mi><mi>/</mi><mi>λ</mi></mrow></math>, el <strong>número de onda</strong>, SI: <math display=\"inline\"><msup><mi>m</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></math>). Para una onda que se propaga hacia la derecha (<math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>x</mi><mo>−</mo><mi>v</mi><mi>t</mi></mrow></math>):</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>δ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>)</p></div><p>donde <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><mi>k</mi><mi>v</mi><mo>=</mo><mn>2</mn><mi>π</mi><mi>f</mi></mrow></math> es la <strong>frecuencia angular</strong>. Relación fundamental:</p><p><math display=\"block\"><mrow><mi>v</mi><mo>=</mo><mi>f</mi><mi>λ</mi><mi>.</mi></mrow></math></p>",
+   "azalpena": "<p>La velocidad transversal de un punto fijo es <math display=\"inline\"><mrow><msub><mi>v</mi><mi>y</mi></msub><mo>=</mo><mi>∂</mi><mi>y</mi><mi>/</mi><mi>∂</mi><mi>t</mi><mo>=</mo><mi>−</mi><mi>ω</mi><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>δ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>.</p><p>Longitud de onda <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mi>v</mi><mi>T</mi></mrow></math>. El punto a distancia <math display=\"inline\"><mi>x</mi></math> vibra con un retardo <math display=\"inline\"><mrow><mi>x</mi><mi>/</mi><mi>v</mi></mrow></math> respecto al foco, de ahí:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>y</mi><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>−</mo><mi>k</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>k</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mi>λ</mi></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>λ</mi><mo>=</mo><mi>v</mi><mi>T</mi><mi>.</mi></mrow></math></p></div><p><math display=\"inline\"><mi>k</mi></math> = número de onda. La ecuación combina la periodicidad temporal y la espacial.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Una onda armónica se propaga con velocidad <math display=\"inline\"><mn>3</mn></math> m/s en el sentido positivo del eje <math display=\"inline\"><mi>x</mi></math>. La frecuencia y la amplitud de la onda son <math display=\"inline\"><mn>2</mn></math> Hz y <math display=\"inline\"><mn>5</mn></math> cm, respectivamente. La elongación de un punto situado a <math display=\"inline\"><mn>10</mn></math> cm del origen es nula en el instante inicial. Hállese la ecuación de la onda. <strong>Resultado</strong>: <math display=\"inline\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>5</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>2</mn></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mi>π</mi><mi>/</mi><mn>3</mn><mspace width=\"0.167em\"></mspace><mi>x</mi><mo>−</mo><mn>4</mn><mi>π</mi><mi>t</mi><mo>−</mo><mn>0.4</mn><mi>π</mi><mi>/</mi><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> (SI).</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "número de onda",
+     "def": "<p>k = 2π/λ: variación de fase por unidad de distancia (m⁻¹).</p>"
+    },
+    {
+     "t": "constante de fase",
+     "def": "<p>Término aditivo de la fase en la ecuación de onda, que depende de la elección del origen, δ.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-uhin-parametroak",
+    "fosz-hedapen-abiadura"
+   ],
+   "ondorengoak": [
+    "fosz-parametroak-ekuaziotik",
+    "fosz-bi-abiadurak",
+    "fosz-interferentzia",
+    "fosz-doppler"
+   ],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a26 · Ondas armónicas; a36 · Longitud de onda y ecuación",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-parametroak-ekuaziotik",
+   "atala": "S7",
+   "mota": "metodoa",
+   "izena": "Leer los parámetros de la onda a partir de la ecuación",
+   "ideia": "<p>Comparando la ecuación de una onda con el modelo estándar, se leen directamente la amplitud, el número de onda, la frecuencia angular y el sentido de propagación.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Comparando la ecuación <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0.001</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>62.8</mn><mi>x</mi><mo>+</mo><mn>314</mn><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> con el modelo <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>+</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>A</mi><mo>=</mo><mn>0.001</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>k</mi><mo>=</mo><mn>62.8</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> rad/m </mtext><mspace width=\"0.333em\"></mspace></mrow><mo>⇒</mo><mi>λ</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mi>k</mi></mfrac><mo>=</mo><mn>0.1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>ω</mi><mo>=</mo><mn>314</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> rad/s </mtext><mspace width=\"0.333em\"></mspace></mrow><mo>⇒</mo><mi>f</mi><mo>=</mo><mfrac><mi>ω</mi><mrow><mn>2</mn><mi>π</mi></mrow></mfrac><mo>=</mo><mn>50</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Hz</mtext></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>T</mi><mo>=</mo><mfrac><mn>1</mn><mi>f</mi></mfrac><mo>=</mo><mn>0.02</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> s</mtext></mrow><mi>.</mi></mrow></math></p></div><p>El <strong>signo positivo</strong> entre <math display=\"inline\"><mrow><mi>k</mi><mi>x</mi></mrow></math> y <math display=\"inline\"><mrow><mi>ω</mi><mi>t</mi></mrow></math> indica que la onda se propaga en el <strong>sentido negativo</strong> del eje <math display=\"inline\"><mi>x</mi></math> (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> va hacia <math display=\"inline\"><mrow><mi>+</mi><mi>x</mi></mrow></math>; <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>+</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> hacia <math display=\"inline\"><mrow><mi>−</mi><mi>x</mi></mrow></math>).</p>",
+   "azalpena": "<figure class=\"j-irudia\"><img src=\"media/irudiak/189c74ceb45318e7.svg\" alt=\"Fotografía de la onda (con t fijo): amplitud A=0.001 m y longitud de onda λ=0.1 m (de cresta a cresta). El patrón se repite cada λ en el espacio.\" width=\"217\" loading=\"lazy\"><figcaption>La <strong>fotografía</strong> de la onda (con <math display=\"inline\"><mi>t</mi></math> fijo): <strong>amplitud</strong> <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>0.001</mn></mrow></math> m y <strong>longitud de onda</strong> <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>0.1</mn></mrow></math> m (de cresta a cresta). El patrón se repite en el espacio cada <math display=\"inline\"><mi>λ</mi></math>.</figcaption></figure>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>La ecuación de una onda armónica que se propaga en una cuerda es: <math display=\"inline\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>0.001</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>62.8</mn><msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><mrow><mi>−</mi><mn>1</mn></mrow></msup><mi>x</mi><mo>+</mo><mn>314</mn><msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> s</mtext></mrow><mrow><mi>−</mi><mn>1</mn></mrow></msup><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. (a) ¿En qué sentido se desplaza la onda? ¿Cuál es su velocidad? (b) Hállense la longitud de onda, la frecuencia y el periodo de la onda. (c) ¿Cuál es la velocidad máxima de cualquier porción de la cuerda? <strong>Resultado</strong>: (a) <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>5</mn></mrow></math> m/s; (b) <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>1</mn></mrow></msup></mrow></math> m, <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>50</mn></mrow></math> Hz; (c) <math display=\"inline\"><mn>0.314</mn></math> m/s.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [],
+   "aurrekoak": [
+    "fosz-ekuazio-harmonikoa"
+   ],
+   "ondorengoak": [],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a33 · Parámetros de la onda",
+   "sortua": [
+    "ideia"
+   ]
+  },
+  {
+   "id": "fosz-bi-abiadurak",
+   "atala": "S7",
+   "mota": "ideia",
+   "izena": "Velocidad de oscilación y velocidad de propagación",
+   "ideia": "<p>Un punto de una cuerda sube y baja con una velocidad; el patrón de la onda, en cambio, avanza con otra velocidad. Las dos son distintas.</p>",
+   "formula": "",
+   "enuntziatua": "<ul><li><strong>Velocidad de oscilación</strong> (de un punto de la cuerda, transversal): <math display=\"inline\"><mrow><msub><mi>v</mi><mi>y</mi></msub><mo>=</mo><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mn>0.314</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>62.8</mn><mi>x</mi><mo>+</mo><mn>314</mn><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, con valor máximo <math display=\"inline\"><mn>0.314</mn></math> m/s (cuando el coseno <math display=\"inline\"><mn>1</mn></math>). Cómo <strong>sube y baja</strong> cada punto.</li><li><strong>Velocidad de propagación</strong> (de la onda): <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mfrac><mi>λ</mi><mi>T</mi></mfrac><mo>=</mo><mfrac><mn>0.1</mn><mn>0.02</mn></mfrac><mo>=</mo><mn>5</mn></mrow></math> m/s. Cómo avanza el <strong>patrón</strong>.</li></ul><p><em class=\"j-nab\">\n  <strong>Velocidad de oscilación <math display=\"inline\"><mo>≠</mo></math> velocidad de propagación.</strong> El punto material vibra a <math display=\"inline\"><mn>0.314</mn></math> m/s;\n  el patrón de la onda, en cambio, se propaga a <math display=\"inline\"><mn>5</mn></math> m/s. Dos cosas distintas.\n</em></p>",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "velocidad de oscilación",
+     "def": "<p>Velocidad de un punto del medio alrededor de su posición de equilibrio, v_y = ∂y/∂t.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-ekuazio-harmonikoa"
+   ],
+   "ondorengoak": [],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a34 · Las dos velocidades",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-interferentzia",
+   "atala": "S8",
+   "mota": "teorema",
+   "izena": "Superposición e interferencia de ondas",
+   "ideia": "<p>Cuando se encuentran dos ondas, la resultante es su suma; según el desfase, las amplitudes pueden sumarse (interferencia constructiva) o anularse (destructiva).</p>",
+   "formula": "",
+   "enuntziatua": "<p><strong>Principio de superposición</strong>: cuando se combinan dos o más ondas, la onda resultante es la suma algebraica de las ondas. Si se superponen dos ondas armónicas de igual amplitud, frecuencia angular y número de onda, pero desfasadas,</p><p><math display=\"block\"><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><msub><mi>y</mi><mn>2</mn></msub><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>δ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math></p><p>usando la identidad trigonométrica (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mn>1</mn></msub><mo>+</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>θ</mi><mn>1</mn></msub><mo>−</mo><msub><mi>θ</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>θ</mi><mn>1</mn></msub><mo>+</mo><msub><mi>θ</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>):</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>+</mo><msub><mi>y</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>δ</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mfrac><mi>δ</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>)</p></div><p>Tiene el mismo número de onda y la misma frecuencia angular, pero la amplitud es <math display=\"inline\"><mrow><mn>2</mn><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>δ</mi><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, que depende del desfase <math display=\"inline\"><mi>δ</mi></math>:</p>",
+   "azalpena": "<figure class=\"j-irudia\"><img src=\"media/irudiak/6ae64eac436aea46.svg\" alt=\"Patrones de interferencia: y1  (rojo) e y2  (verde) y su superposición\n    (y1+y2, en azul). Con δ=0 las amplitudes se suman; con δ=π\n  se anulan por completo.\" width=\"409\" loading=\"lazy\"><figcaption>Patrones de interferencia: superposición de <math display=\"inline\"><msub><mi>y</mi><mn>1</mn></msub></math> (rojo) y <math display=\"inline\"><msub><mi>y</mi><mn>2</mn></msub></math> (verde)\n    (<math display=\"inline\"><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>+</mo><msub><mi>y</mi><mn>2</mn></msub></mrow></math>, en azul). Cuando <math display=\"inline\"><mrow><mi>δ</mi><mo>=</mo><mn>0</mn></mrow></math> las amplitudes se suman; cuando <math display=\"inline\"><mrow><mi>δ</mi><mo>=</mo><mi>π</mi></mrow></math>\n  se anulan por completo.</figcaption></figure><p>La interferencia es <strong>constructiva</strong> cuando <math display=\"inline\"><mrow><mi>δ</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>2</mn><mi>π</mi><mo>,</mo><mn>4</mn><mi>π</mi><mo>,</mo><mi>…</mi></mrow></math> (amplitud resultante máxima, <math display=\"inline\"><mrow><mn>2</mn><mi>A</mi></mrow></math>); <strong>destructiva</strong> cuando <math display=\"inline\"><mrow><mi>δ</mi><mo>=</mo><mi>π</mi><mo>,</mo><mn>3</mn><mi>π</mi><mo>,</mo><mi>…</mi></mrow></math> (amplitud resultante nula).</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Dos ondas sinusoidales de la misma frecuencia se propagan por una cuerda larga. Las ondas tienen amplitudes de <math display=\"inline\"><mn>3</mn></math> cm y <math display=\"inline\"><mn>2</mn></math> cm, y la segunda onda tiene un retardo de <math display=\"inline\"><mrow><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math> respecto a la primera. Obténgase la amplitud de la superposición de las dos ondas. <strong>Resultado</strong>: <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>3.6</mn></mrow></math> cm.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "principio de superposición",
+     "def": "<p>Cuando se combinan dos o más ondas, la onda resultante es la suma algebraica de las ondas.</p>"
+    },
+    {
+     "t": "interferencia constructiva",
+     "def": "<p>Cuando las ondas están en fase (δ = 0, 2π, …) las amplitudes se suman, dando 2A.</p>"
+    },
+    {
+     "t": "interferencia destructiva",
+     "def": "<p>Cuando las ondas están en contrafase (δ = π, 3π, …) se anulan por completo.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-ekuazio-harmonikoa"
+   ],
+   "ondorengoak": [
+    "fosz-uhin-geldikorrak"
+   ],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a27 · Interferencia de ondas",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-uhin-geldikorrak",
+   "atala": "S8",
+   "mota": "definizioa",
+   "izena": "Ondas estacionarias",
+   "ideia": "<p>Al superponerse dos ondas idénticas que van en sentidos opuestos, la onda no avanza: algunos puntos están siempre quietos (los nodos) y los demás oscilan con amplitud máxima.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Superposición de ondas viajeras que se mueven en sentidos opuestos, cuando las ondas están en un espacio limitado (<math display=\"inline\"><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><msub><mi>y</mi><mn>2</mn></msub><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>+</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>):</p><p><math display=\"block\"><mrow><mi>y</mi><mo>=</mo><msub><mi>y</mi><mn>1</mn></msub><mo>+</mo><msub><mi>y</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math></p><p>Es armónica, con la misma frecuencia que sus componentes, pero la amplitud (<math display=\"inline\"><mrow><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>) es independiente del tiempo y varía de forma sinusoidal en función de <math display=\"inline\"><mi>x</mi></math> — algunos puntos (<math display=\"inline\"><mi>x</mi></math> donde <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>) están siempre en reposo, los <strong>nodos</strong>; otros (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>±</mi><mn>1</mn></mrow></math>) oscilan con amplitud máxima, los <strong>antinodos</strong>.</p>",
+   "azalpena": "<p>Dos ondas <strong>opuestas</strong> superpuestas (<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> y <math display=\"inline\"><mrow><msup><mi>y</mi><mo>′</mo></msup><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>+</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>) forman una <strong>onda estacionaria</strong>: <strong>nodos</strong> (puntos que no vibran) y <strong>antinodos</strong> (amplitud <math display=\"inline\"><mrow><mn>2</mn><mi>A</mi></mrow></math>). La <strong>distancia entre nodos consecutivos</strong> es <math display=\"inline\"><mrow><mi>λ</mi><mi>/</mi><mn>2</mn></mrow></math>.</p><p><strong>Armónicos</strong> (cuerda fija en los dos extremos): <math display=\"inline\"><mrow><msub><mi>λ</mi><mn>1</mn></msub><mi>/</mi><mn>2</mn><mo>=</mo><mi>L</mi></mrow></math> en el primer armónico, y en general</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msub><mi>λ</mi><mi>n</mi></msub><mo>=</mo><mfrac><mrow><mn>2</mn><mi>L</mi></mrow><mi>n</mi></mfrac><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>λ</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn><mi>L</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>λ</mi><mn>2</mn></msub><mo>=</mo><mi>L</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>…</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math></p></div>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "onda estacionaria",
+     "def": "<p>Onda producida por la superposición de dos ondas idénticas que van en sentidos opuestos; la amplitud depende de la posición y no se propaga.</p>"
+    },
+    {
+     "t": "nodo",
+     "def": "<p>Punto que permanece siempre quieto en una onda estacionaria.</p>"
+    },
+    {
+     "t": "antinodo (vientre)",
+     "def": "<p>Punto que oscila con amplitud máxima en una onda estacionaria.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-interferentzia",
+    "fosz-akoplatuak"
+   ],
+   "ondorengoak": [
+    "fosz-soka-harmonikoak"
+   ],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a28 · Ondas estacionarias; a35 · Ondas estacionarias",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-soka-harmonikoak",
+   "atala": "S8",
+   "mota": "teorema",
+   "izena": "Armónicos de una cuerda: condiciones en los extremos",
+   "ideia": "<p>Como los extremos de una cuerda imponen condiciones determinadas, solo pueden darse algunas ondas estacionarias: λ = 2L/n si los dos extremos están fijos, y solo armónicos impares si un extremo es libre.</p>",
+   "formula": "",
+   "enuntziatua": "<p>En una cuerda de longitud <math display=\"inline\"><mi>L</mi></math>, el hecho de tener los dos extremos fijos (<math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> y <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>L</mi></mrow></math> deben ser nodos) condiciona qué longitudes de onda son posibles:</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><mi>L</mi><mo>=</mo><mi>n</mi><mfrac><msub><mi>λ</mi><mi>n</mi></msub><mn>2</mn></mfrac><mtext mathvariant=\"normal\">  </mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>)</p></div><p>De ahí, las <strong>frecuencias de resonancia</strong>:</p><p><math display=\"block\"><mrow><msub><mi>f</mi><mi>n</mi></msub><mo>=</mo><mfrac><mi>v</mi><msub><mi>λ</mi><mi>n</mi></msub></mfrac><mo>=</mo><mi>n</mi><mfrac><mi>v</mi><mrow><mn>2</mn><mi>L</mi></mrow></mfrac><mo>=</mo><mi>n</mi><msub><mi>f</mi><mn>1</mn></msub><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><msub><mi>f</mi><mn>1</mn></msub><mo>=</mo><mfrac><mi>v</mi><mrow><mn>2</mn><mi>L</mi></mrow></mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> (oinarrizko maiztasuna). </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><p>Las frecuencias que son múltiplos de <math display=\"inline\"><msub><mi>f</mi><mn>1</mn></msub></math> son los <strong>armónicos</strong>.</p><p>En este caso el extremo fijo debe ser un nodo y el extremo libre un antinodo:</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><mi>L</mi><mo>=</mo><mi>n</mi><mfrac><msub><mi>λ</mi><mi>n</mi></msub><mn>4</mn></mfrac><mtext mathvariant=\"normal\">  </mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>)</p></div><p><math display=\"block\"><mrow><msub><mi>f</mi><mi>n</mi></msub><mo>=</mo><mi>n</mi><mfrac><mi>v</mi><mrow><mn>4</mn><mi>L</mi></mrow></mfrac><mo>=</mo><mi>n</mi><msub><mi>f</mi><mn>1</mn></msub><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><msub><mi>f</mi><mn>1</mn></msub><mo>=</mo><mfrac><mi>v</mi><mrow><mn>4</mn><mi>L</mi></mrow></mfrac><mi>.</mi></mrow></math></p><p>En este caso solo aparecen los armónicos <strong>impares</strong> (<math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mi>…</mi></mrow></math>).</p>",
+   "azalpena": "<figure class=\"j-irudia\"><img src=\"media/irudiak/8aac5f37bf97d4de.svg\" alt=\"Los tres primeros modos (armónicos) de la cuerda con los dos extremos fijos:\n    n=1  (fundamental, λ1=2L), n=2  (λ2=L), n=3\n    (λ3=2L/3).\" width=\"368\" loading=\"lazy\"><figcaption>Los tres primeros modos (armónicos) de una cuerda con los dos extremos fijos:\n    <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow></math> (fundamental, <math display=\"inline\"><mrow><msub><mi>λ</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn><mi>L</mi></mrow></math>), <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mn>2</mn></mrow></math> (<math display=\"inline\"><mrow><msub><mi>λ</mi><mn>2</mn></msub><mo>=</mo><mi>L</mi></mrow></math>), <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mn>3</mn></mrow></math>\n    (<math display=\"inline\"><mrow><msub><mi>λ</mi><mn>3</mn></msub><mo>=</mo><mn>2</mn><mi>L</mi><mi>/</mi><mn>3</mn></mrow></math>).</figcaption></figure>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>La frecuencia fundamental de una cuerda con los dos extremos fijos es <math display=\"inline\"><mn>180</mn></math> Hz. ¿Cuál de las siguientes acciones reduce la frecuencia fundamental a <math display=\"inline\"><mn>90</mn></math> Hz? (a) Duplicar la tensión y duplicar la longitud; (b) reducir la tensión a la mitad y mantener constantes la masa por unidad de longitud y la longitud; (c) mantener constantes la tensión y la masa por unidad de longitud y duplicar la longitud; (d) mantener constantes la tensión y la masa por unidad de longitud y reducir la longitud a la mitad. <strong>Resultado</strong>: (c) — como <math display=\"inline\"><mrow><msub><mi>f</mi><mn>1</mn></msub><mo>=</mo><mi>v</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>L</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∝</mo><mn>1</mn><mi>/</mi><mi>L</mi></mrow></math>, al duplicar <math display=\"inline\"><mi>L</mi></math>, <math display=\"inline\"><msub><mi>f</mi><mn>1</mn></msub></math> se reduce a la mitad.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>Una cuerda con los dos extremos fijos y de <math display=\"inline\"><mn>3</mn></math> m de longitud vibra en su tercer armónico. El desplazamiento máximo de los puntos de la cuerda es <math display=\"inline\"><mn>4</mn></math> mm y la velocidad de las ondas transversales es <math display=\"inline\"><mn>50</mn></math> m/s. ¿Cuáles son la longitud de onda y la frecuencia de la onda? Escríbase la ecuación de onda. <strong>Resultado</strong>: <math display=\"inline\"><mrow><msub><mi>λ</mi><mn>3</mn></msub><mo>=</mo><mn>2</mn></mrow></math> m, <math display=\"inline\"><mrow><msub><mi>f</mi><mn>3</mn></msub><mo>=</mo><mn>25</mn></mrow></math> Hz, <math display=\"inline\"><mrow><msub><mi>y</mi><mn>3</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>4</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>50</mn><mi>π</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> mm.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>La frecuencia fundamental de la cuerda de un violín de longitud <math display=\"inline\"><mn>40</mn></math> cm y masa <math display=\"inline\"><mn>1.2</mn></math> g es <math display=\"inline\"><mn>500</mn></math> Hz. (a) ¿Cuál es la longitud de onda de la onda estacionaria? (b) ¿Cuál es la tensión de la cuerda? <strong>Resultado</strong>: (a) <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>0.8</mn></mrow></math> m; (b) <math display=\"inline\"><mrow><msub><mi>F</mi><mi>T</mi></msub><mo>=</mo><mn>480</mn></mrow></math> N.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "armónico",
+     "def": "<p>Frecuencia que es múltiplo de la frecuencia fundamental.</p>"
+    },
+    {
+     "t": "frecuencia fundamental",
+     "def": "<p>La menor frecuencia que puede tener el sistema, f1 (n = 1).</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-uhin-geldikorrak",
+    "fosz-hedapen-abiadura"
+   ],
+   "ondorengoak": [
+    "fosz-hodi-akustikoak"
+   ],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a28 · Cuerda con los dos extremos fijos / Cuerda con un extremo fijo y el otro libre",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-hodi-akustikoak",
+   "atala": "S8",
+   "mota": "teorema",
+   "izena": "Ondas sonoras estacionarias en tubos",
+   "ideia": "<p>En los tubos de órgano también se forman ondas estacionarias: un tubo abierto es parecido a una cuerda fija por los dos extremos, y uno cerrado por un lado es parecido a una cuerda con un extremo fijo y el otro libre.</p>",
+   "formula": "",
+   "enuntziatua": "<p>El mismo fenómeno se aplica a los tubos de órgano: un <strong>tubo abierto por los dos lados</strong> equivale a una cuerda con los dos extremos fijos (antinodos en los dos extremos, nodo en la variación de presión), y un <strong>tubo cerrado por un lado</strong> equivale a una cuerda con un extremo fijo y el otro libre (nodo en el extremo cerrado, antinodo en el extremo abierto). Los antinodos están fuera del tubo, más allá de los extremos, por lo que la longitud efectiva del tubo es <math display=\"inline\"><mrow><mi>L</mi><mo>+</mo><mi mathvariant=\"normal\">Δ</mi><mi>L</mi></mrow></math> (<math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>L</mi></mrow></math>, corrección de extremo, que depende del diámetro del tubo).</p>",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>La longitud de un tubo de órgano abierto por los dos extremos es <math display=\"inline\"><mn>1</mn></math> m. Si la velocidad del sonido es <math display=\"inline\"><mn>343</mn></math> m/s, ¿cuáles son las frecuencias y las longitudes de onda de las ondas estacionarias permitidas en ese tubo? <strong>Resultado</strong>: <math display=\"inline\"><mrow><msub><mi>λ</mi><mi>n</mi></msub><mo>=</mo><mn>2</mn><mi>/</mi><mi>n</mi></mrow></math> m, <math display=\"inline\"><mrow><msub><mi>f</mi><mi>n</mi></msub><mo>=</mo><mn>172</mn><mi>n</mi></mrow></math> Hz, <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mi>…</mi></mrow></math></p>",
+     "s": ""
+    },
+    {
+     "e": "<p>Un diapasón de <math display=\"inline\"><mn>460</mn></math> Hz produce resonancia en un tubo vertical lleno de agua cuando el agua está a <math display=\"inline\"><mn>18.3</mn></math> cm y a <math display=\"inline\"><mn>55.8</mn></math> cm del extremo. Hállese la velocidad del sonido en el aire. <strong>Resultado</strong>: corrección de extremo <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>L</mi><mo>=</mo><mn>0.5</mn></mrow></math> cm; de ahí <math display=\"inline\"><mrow><mi>v</mi><mo>≈</mo><mn>343</mn></mrow></math> m/s.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "corrección de extremo",
+     "def": "<p>Corrección ΔL que hay que añadir a la longitud efectiva del tubo, porque el antinodo queda fuera del tubo.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-soka-harmonikoak"
+   ],
+   "ondorengoak": [],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a28 · Ondas sonoras estacionarias en una columna de aire",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-doppler",
+   "atala": "S9",
+   "mota": "teorema",
+   "izena": "Efecto Doppler",
+   "ideia": "<p>Cuando la fuente y el receptor se acercan, el sonido se oye más agudo, y cuando se alejan, más grave.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Cuando hay movimiento relativo entre la fuente que genera la onda y el receptor, la frecuencia que mide el receptor y la emitida por la fuente no son iguales: <strong>cuando se acercan</strong>, la frecuencia observada es mayor (tono más agudo); <strong>cuando se alejan</strong>, menor (tono más grave).</p><div class=\"j-kutxa j-k-laranja\"><p>zenb-ekuazioa(<math display=\"block\"><mrow><msub><mi>f</mi><mi>r</mi></msub><mo>=</mo><mfrac><mrow><mi>v</mi><mo>±</mo><msub><mi>u</mi><mi>r</mi></msub></mrow><mrow><mi>v</mi><mo>±</mo><msub><mi>u</mi><mi>i</mi></msub></mrow></mfrac><msub><mi>f</mi><mi>i</mi></msub></mrow></math>)</p></div><p>donde <math display=\"inline\"><mi>v</mi></math> es la velocidad del sonido en el medio, <math display=\"inline\"><msub><mi>u</mi><mi>i</mi></msub></math> la velocidad de la fuente, <math display=\"inline\"><msub><mi>u</mi><mi>r</mi></msub></math> la del receptor, <math display=\"inline\"><msub><mi>f</mi><mi>i</mi></msub></math> la frecuencia que emite la fuente y <math display=\"inline\"><msub><mi>f</mi><mi>r</mi></msub></math> la que mide el receptor. Signos: en el denominador, <math display=\"inline\"><mi>−</mi></math> si la fuente va hacia el receptor (se acerca); en el numerador, <math display=\"inline\"><mi>+</mi></math> si el receptor va hacia la fuente.</p>",
+   "azalpena": "<figure class=\"j-irudia\"><img src=\"media/irudiak/a42919d2186ecbaa.svg\" alt=\"Frentes de onda de una fuente en movimiento: comprimidos\n  delante del movimiento (mayor frecuencia), dispersos detrás (menor\n  frecuencia).\" width=\"350\" loading=\"lazy\"><figcaption>Frentes de onda de una fuente en movimiento: comprimidos\n  delante del movimiento (mayor frecuencia), dispersos detrás (menor\n  frecuencia).</figcaption></figure><p>Se distinguen tres casos, tomando como referencia el medio en reposo:</p><ul><li><strong>Observador en reposo, fuente en movimiento</strong>: <math display=\"inline\"><mrow><msub><mi>f</mi><mi>r</mi></msub><mo>=</mo><mi>v</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>v</mi><mo>∓</mo><msub><mi>u</mi><mi>i</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mspace width=\"0.167em\"></mspace><msub><mi>f</mi><mi>i</mi></msub></mrow></math> (<math display=\"inline\"><mi>−</mi></math> se acerca, <math display=\"inline\"><mi>+</mi></math> se aleja).</li><li><strong>Fuente en reposo, observador en movimiento</strong>: <math display=\"inline\"><mrow><msub><mi>f</mi><mi>r</mi></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>v</mi><mo>±</mo><msub><mi>u</mi><mi>r</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mi>v</mi><mspace width=\"0.167em\"></mspace><msub><mi>f</mi><mi>i</mi></msub></mrow></math> (<math display=\"inline\"><mi>+</mi></math> se acerca, <math display=\"inline\"><mi>−</mi></math> se aleja).</li><li><strong>Ambos en movimiento</strong>: se resuelve en dos pasos, usando el medio en reposo como intermediario (primero fuente<math display=\"inline\"><mo>→</mo></math>medio, luego medio<math display=\"inline\"><mo>→</mo></math>receptor).</li></ul><p>Frecuencia <strong>percibida</strong> en función de las velocidades del observador y de la fuente:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo>=</mo><mi>f</mi><mfrac><mrow><mi>v</mi><mo>±</mo><msub><mi>v</mi><mtext mathvariant=\"normal\">beh</mtext></msub></mrow><mrow><mi>v</mi><mo>∓</mo><msub><mi>v</mi><mtext mathvariant=\"normal\">itur</mtext></msub></mrow></mfrac><mi>.</mi></mrow></math></p></div><p>(Ejemplo: dos ambulancias/sirenas.)</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>La frecuencia del claxon de un coche parado es <math display=\"inline\"><mn>400</mn></math> Hz. Hállense la longitud de onda del sonido y la frecuencia observada si el coche se mueve a una velocidad de <math display=\"inline\"><mrow><mi>u</mi><mo>=</mo><mn>34</mn></mrow></math> m/s en dirección a un oyente en reposo (<math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>343</mn></mrow></math> m/s). <strong>Resultado</strong>: <math display=\"inline\"><mn>444</mn></math> Hz, <math display=\"inline\"><mn>0.77</mn></math> m.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>Un coche se acerca a una pared reflectante. A un observador en reposo detrás del coche le llega el sonido del claxon del coche, de <math display=\"inline\"><mn>745</mn></math> Hz, y el sonido reflejado en la pared, de <math display=\"inline\"><mn>863</mn></math> Hz. (a) ¿Cuál es la velocidad del coche? (b) ¿Cuál es la frecuencia del claxon? <strong>Resultado</strong>: (a) <math display=\"inline\"><mn>90.6</mn></math> km/h; (b) <math display=\"inline\"><mn>800</mn></math> Hz.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>La longitud de onda de la línea azul del espectro del hidrógeno es <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>486</mn></mrow></math> nm. En el espectro del hidrógeno emitido por una galaxia muy lejana, esa línea se observa en la Tierra a <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>550</mn></mrow></math> nm. ¿A qué velocidad se aleja de nosotros esa galaxia? (velocidad de la luz <math display=\"inline\"><mrow><mn>3</mn><mo>×</mo><msup><mn>10</mn><mn>8</mn></msup></mrow></math> m/s). <strong>Resultado</strong>: <math display=\"inline\"><mrow><mn>3.95</mn><mo>×</mo><msup><mn>10</mn><mn>7</mn></msup></mrow></math> m/s.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>El conductor de un coche estudia Física y está comprobando las consecuencias del efecto Doppler; para ello lleva en el coche un instrumento para medir la frecuencia del sonido, listo para usar. Es Nochebuena y los coches están parados en el Bulevar de San Sebastián; nuestro estudiante está parado en su coche, esperando a que el semáforo se ponga en verde. En ese momento, una ambulancia se acerca por detrás a velocidad constante, y el frecuencímetro que nuestro estudiante lleva en el coche marca una frecuencia de 905 Hz mientras la ambulancia se acerca. Después de adelantarlo, a medida que la ambulancia se aleja, el aparato indica una frecuencia de 850 Hz. ¿Cuál es la frecuencia original del sonido de la ambulancia (en Hz) y cuál la velocidad de la ambulancia (en km/h)? <strong>1 punto</strong>.</p>",
+     "s": "<p><strong>Solución.</strong></p><p>El conductor (observador) está parado, y la ambulancia (fuente) se mueve con velocidad constante <math display=\"inline\"><mi>v</mi></math>, primero acercándose y luego alejándose. En este caso usaremos la fórmula del efecto Doppler para fuente en movimiento y observador en reposo:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msub><mi>f</mi><mrow><mtext mathvariant=\"normal\">hautemana </mtext><mspace width=\"0.333em\"></mspace></mrow></msub><mo>=</mo><msub><mi>f</mi><mn>0</mn></msub><mo>⋅</mo><mfrac><msub><mi>v</mi><mi>s</mi></msub><mrow><msub><mi>v</mi><mi>s</mi></msub><mo>∓</mo><mi>v</mi></mrow></mfrac></mrow></math></p></div><p>donde <math display=\"inline\"><msub><mi>f</mi><mn>0</mn></msub></math> es la frecuencia original de la fuente, <math display=\"inline\"><msub><mi>v</mi><mi>s</mi></msub></math> la velocidad del sonido en el aire (<math display=\"inline\"><mrow><msub><mi>v</mi><mi>s</mi></msub><mo>=</mo><mn>343</mn></mrow></math> m/s, a <math display=\"inline\"><mrow><mn>20</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>C) y <math display=\"inline\"><mi>v</mi></math> la velocidad de la ambulancia. Convenio de signos: en el denominador se toma <math display=\"inline\"><mrow><mi>−</mi><mi>v</mi></mrow></math> cuando la fuente se acerca (porque la frecuencia aumenta), y <math display=\"inline\"><mrow><mi>+</mi><mi>v</mi></mrow></math> cuando se aleja (porque la frecuencia disminuye).</p><p><strong>Al acercarse</strong> (<math display=\"inline\"><mrow><msub><mi>f</mi><mn>1</mn></msub><mo>=</mo><mn>905</mn></mrow></math> Hz):</p><p><math display=\"block\"><mrow><msub><mi>f</mi><mn>1</mn></msub><mo>=</mo><msub><mi>f</mi><mn>0</mn></msub><mo>⋅</mo><mfrac><msub><mi>v</mi><mi>s</mi></msub><mrow><msub><mi>v</mi><mi>s</mi></msub><mo>−</mo><mi>v</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mspace width=\"0.222em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"0.222em\"></mspace></mrow></math></p><p><strong>Al alejarse</strong> (<math display=\"inline\"><mrow><msub><mi>f</mi><mn>2</mn></msub><mo>=</mo><mn>850</mn></mrow></math> Hz):</p><p><math display=\"block\"><mrow><msub><mi>f</mi><mn>2</mn></msub><mo>=</mo><msub><mi>f</mi><mn>0</mn></msub><mo>⋅</mo><mfrac><msub><mi>v</mi><mi>s</mi></msub><mrow><msub><mi>v</mi><mi>s</mi></msub><mo>+</mo><mi>v</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mspace width=\"0.222em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"0.222em\"></mspace></mrow></math></p><p><strong>Cálculo de la velocidad.</strong> Dividiendo (1) entre (2), <math display=\"inline\"><msub><mi>f</mi><mn>0</mn></msub></math> desaparece:</p><p><math display=\"block\"><mrow><mfrac><msub><mi>f</mi><mn>1</mn></msub><msub><mi>f</mi><mn>2</mn></msub></mfrac><mo>=</mo><mfrac><mrow><msub><mi>v</mi><mi>s</mi></msub><mo>+</mo><mi>v</mi></mrow><mrow><msub><mi>v</mi><mi>s</mi></msub><mo>−</mo><mi>v</mi></mrow></mfrac></mrow></math></p><p>Sea <math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mfrac><msub><mi>f</mi><mn>1</mn></msub><msub><mi>f</mi><mn>2</mn></msub></mfrac><mo>=</mo><mfrac><mn>905</mn><mn>850</mn></mfrac><mo>=</mo><mn>1.0647</mn></mrow></math>. Entonces:</p><p><math display=\"block\"><mrow><mi>k</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>v</mi><mi>s</mi></msub><mo>−</mo><mi>v</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msub><mi>v</mi><mi>s</mi></msub><mo>+</mo><mi>v</mi></mrow></math> <math display=\"block\"><mrow><mi>k</mi><msub><mi>v</mi><mi>s</mi></msub><mo>−</mo><mi>k</mi><mi>v</mi><mo>=</mo><msub><mi>v</mi><mi>s</mi></msub><mo>+</mo><mi>v</mi></mrow></math> <math display=\"block\"><mrow><msub><mi>v</mi><mi>s</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>k</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> <math display=\"block\"><mrow><mi>v</mi><mo>=</mo><msub><mi>v</mi><mi>s</mi></msub><mo>⋅</mo><mfrac><mrow><mi>k</mi><mo>−</mo><mn>1</mn></mrow><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math></p><p>Sustituyendo los valores:</p><p><math display=\"block\"><mrow><mi>v</mi><mo>=</mo><mn>343</mn><mo>⋅</mo><mfrac><mrow><mn>1.0647</mn><mo>−</mo><mn>1</mn></mrow><mrow><mn>1.0647</mn><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mn>343</mn><mo>⋅</mo><mfrac><mn>0.0647</mn><mn>2.0647</mn></mfrac><mo>=</mo><mn>343</mn><mo>⋅</mo><mn>0.03134</mn><mo>≈</mo><mn>10.75</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m/s </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><p>Expresado en km/h (<math display=\"inline\"><mrow><mi>×</mi><mn>3.6</mn></mrow></math>):</p><p><math display=\"block\"><mrow><mi>v</mi><mo>=</mo><mn>10.75</mn><mo>×</mo><mn>3.6</mn><mo>≈</mo><mn>38.7</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> km/h </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><p><strong>Cálculo de la frecuencia original.</strong> Despejando <math display=\"inline\"><msub><mi>f</mi><mn>0</mn></msub></math> de la ecuación (2):</p><p><math display=\"block\"><mrow><msub><mi>f</mi><mn>0</mn></msub><mo>=</mo><msub><mi>f</mi><mn>2</mn></msub><mo>⋅</mo><mfrac><mrow><msub><mi>v</mi><mi>s</mi></msub><mo>+</mo><mi>v</mi></mrow><msub><mi>v</mi><mi>s</mi></msub></mfrac><mo>=</mo><mn>850</mn><mo>⋅</mo><mfrac><mrow><mn>343</mn><mo>+</mo><mn>10.75</mn></mrow><mn>343</mn></mfrac><mo>=</mo><mn>850</mn><mo>⋅</mo><mfrac><mn>353.75</mn><mn>343</mn></mfrac><mo>≈</mo><mn>876</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Hz </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><p>(Se obtiene el mismo resultado partiendo de la ecuación (1): <math display=\"inline\"><mrow><msub><mi>f</mi><mn>0</mn></msub><mo>=</mo><msub><mi>f</mi><mn>1</mn></msub><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>v</mi><mi>s</mi></msub><mo>−</mo><mi>v</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><msub><mi>v</mi><mi>s</mi></msub><mo>=</mo><mn>905</mn><mo>⋅</mo><mn>332.25</mn><mi>/</mi><mn>343</mn><mo>≈</mo><mn>876</mn></mrow></math> Hz, lo que comprueba la consistencia.)</p><p>Por tanto, la frecuencia original del sonido de la ambulancia y la velocidad son:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msub><mi>f</mi><mn>0</mn></msub><mo>=</mo><mn>876</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Hz</mtext></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>v</mi><mo>=</mo><mn>38.7</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> km/h </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p></div><p>Ese resultado coincide con el resultado manuscrito original.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "efecto Doppler",
+     "def": "<p>Diferencia entre la frecuencia que mide el receptor y la que emite la fuente, debida al movimiento relativo entre la fuente y el receptor.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "fosz-ekuazio-harmonikoa"
+   ],
+   "ondorengoak": [
+    "fosz-praktika-azterketak"
+   ],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a29 · Efecto Doppler; a37 · Efecto Doppler",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "fosz-praktika-oszilazioak",
+   "atala": "S10",
+   "mota": "metodoa",
+   "izena": "Práctica: ejercicios de oscilaciones",
+   "ideia": "<p>Una colección de ejercicios sobre muelles, péndulos y amortiguamiento, seleccionada de la lista oficial de la UPV/EHU.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Una selección de la lista oficial de ejercicios (2012-2013) del tema 8 (&quot;Oscilaciones&quot;) de la asignatura <strong>Física General</strong> de la UPV/EHU.</p>",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Sobre una plataforma que vibra con movimiento armónico en un plano horizontal, a razón de dos oscilaciones por segundo, hay una caja. El coeficiente de rozamiento estático entre la caja y la plataforma vale <math display=\"inline\"><mn>0.5</mn></math>. ¿Cuál es la mayor amplitud que pueden tener las oscilaciones para que la caja siga sin deslizar? Si la vibración de la plataforma fuera vertical y su amplitud de <math display=\"inline\"><mn>25</mn></math> mm, ¿cuál sería la mayor frecuencia para que la caja no se separe de la plataforma? <strong>Resultado</strong>: (a) <math display=\"inline\"><mrow><mi>x</mi><mo>≤</mo><mn>0.031</mn></mrow></math> m; (b) <math display=\"inline\"><mrow><msub><mi>ν</mi><mi mathvariant=\"normal\">max</mi></msub><mo>=</mo><mn>3.16</mn></mrow></math> <math display=\"inline\"><msup><mi>s</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></math>.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>Supongamos que el alargamiento en la posición de equilibrio estable de una partícula de masa <math display=\"inline\"><mi>m</mi></math> unida a un muelle colocado verticalmente es <math display=\"inline\"><mi>l</mi></math>. Demuéstrese que, si se perturba el sistema, se produce un movimiento oscilatorio como el de un péndulo simple de longitud <math display=\"inline\"><mi>l</mi></math>.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>Una partícula de <math display=\"inline\"><mn>2</mn></math> kg está en el extremo de un muelle vertical sujeto al suelo. La longitud propia del muelle es <math display=\"inline\"><mn>8</mn></math> cm, pero al colocar la partícula sobre él, la longitud del muelle es <math display=\"inline\"><mn>5</mn></math> cm. Cuando está en la posición de equilibrio, al darle un golpe hacia abajo con un martillo, la velocidad inicial de la partícula es <math display=\"inline\"><mn>0.3</mn></math> m/s. (a) ¿Cuál será la altura máxima que alcanzará la masa? (b) ¿Cuánto tiempo necesita la masa para alcanzar por primera vez la altura máxima? <strong>Resultado</strong>: (a) <math display=\"inline\"><mrow><msub><mi>h</mi><mi mathvariant=\"normal\">max</mi></msub><mo>=</mo><mn>17</mn></mrow></math> mm; (b) <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0.26</mn></mrow></math> s.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>Cuando oscila, el periodo de una masa unida a un muelle horizontal es <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mn>4</mn></mrow></math> s. Si se cuelgan el muelle y la masa verticalmente, y sin oscilar, ¿cuál será el alargamiento que sufrirá el muelle? <strong>Resultado</strong>: <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>3.97</mn></mrow></math> m.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>Una masa puntual de <math display=\"inline\"><mn>40</mn></math> g realiza un movimiento armónico simple de periodo <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mn>0.32</mn></mrow></math> s. Si el valor máximo de la fuerza que origina el movimiento es <math display=\"inline\"><mn>10</mn></math> N, ¿cuál es el valor de la amplitud? <strong>Resultado</strong>: <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>65</mn></mrow></math> cm.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>Un cuerpo de <math display=\"inline\"><mn>2</mn></math> kg alarga <math display=\"inline\"><mn>10</mn></math> cm un muelle cuando está colgado verticalmente en equilibrio. El cuerpo se une al mismo muelle, pero ahora el sistema se ha colocado horizontalmente sobre una mesa sin rozamiento, con el otro extremo del muelle sujeto a un punto fijo. Se separa <math display=\"inline\"><mn>5</mn></math> cm de la posición de equilibrio y se suelta cuando <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>. (a) Hállense la amplitud <math display=\"inline\"><mi>A</mi></math>, la frecuencia angular, la frecuencia y el periodo. (b) ¿Cuál es la velocidad máxima del cuerpo? <strong>Resultado</strong>: (a) <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>5</mn></mrow></math> cm, <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>1.58</mn></mrow></math> Hz, <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mn>0.6347</mn></mrow></math> s; (b) <math display=\"inline\"><mrow><msub><mi>v</mi><mi mathvariant=\"normal\">max</mi></msub><mo>=</mo><mn>0.495</mn></mrow></math> m/s, <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0.158</mn></mrow></math> s.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [],
+   "aurrekoak": [
+    "fosz-malgukia",
+    "fosz-pendulu-sinplea",
+    "fosz-energia-oszilazioa"
+   ],
+   "ondorengoak": [],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a10 · Ejercicios (6 de 9 ejercicios aquí; los otros tres están en cada concepto)",
+   "sortua": [
+    "ideia"
+   ]
+  },
+  {
+   "id": "fosz-praktika-testa",
+   "atala": "S10",
+   "mota": "metodoa",
+   "izena": "Práctica: test de autoevaluación",
+   "ideia": "<p>Diez preguntas de opción múltiple sobre oscilaciones; la respuesta correcta se puede ver con su explicación.</p>",
+   "formula": "",
+   "enuntziatua": "<p>Una selección del cuestionario oficial (Moodle, preguntas de opción múltiple) del tema 8 de la asignatura <strong>Física General</strong> de la UPV/EHU.</p>",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Un disco uniforme de masa <math display=\"inline\"><mi>M</mi></math> y radio <math display=\"inline\"><mi>R</mi></math> se cuelga de un punto de su perímetro. Si oscila como un péndulo físico, su periodo es:</p><ul class=\"j-etiketatua\"><li><span class=\"j-marka\">a)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>2</mn><mi>π</mi><msqrt><mrow><mi>g</mi><mi>/</mi><mn>3</mn><mi>R</mi></mrow></msqrt></mrow></math></span></li><li><span class=\"j-marka\">b)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>2</mn><mi>π</mi><msqrt><mrow><mn>3</mn><mi>R</mi><mi>/</mi><mn>2</mn><mi>g</mi></mrow></msqrt></mrow></math></span></li><li><span class=\"j-marka\">c)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>2</mn><mi>π</mi><msqrt><mrow><mi>g</mi><mi>/</mi><mi>R</mi></mrow></msqrt></mrow></math></span></li><li><span class=\"j-marka\">d)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>2</mn><mi>π</mi><msqrt><mrow><mn>3</mn><mi>R</mi><mi>/</mi><mi>g</mi></mrow></msqrt></mrow></math></span></li><li><span class=\"j-marka\">e)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>2</mn><mi>π</mi><msqrt><mrow><mi>g</mi><mi>/</mi><mn>2</mn><mi>R</mi></mrow></msqrt></mrow></math></span></li></ul>",
+     "s": "<p><strong>Respuesta correcta</strong>: (b) — <math display=\"inline\"><mrow><msub><mi>I</mi><mi>O</mi></msub><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></math> (Steiner: <math display=\"inline\"><mrow><msub><mi>I</mi><mtext mathvariant=\"normal\">MZ</mtext></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></math> más <math display=\"inline\"><mrow><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mrow></math>), <math display=\"inline\"><mrow><msup><mi>ω</mi><mn>2</mn></msup><mo>=</mo><mi>M</mi><mi>g</mi><mi>R</mi><mi>/</mi><msub><mi>I</mi><mi>O</mi></msub><mo>=</mo><mn>2</mn><mi>g</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>R</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>.\n</p>"
+    },
+    {
+     "e": "<p>Ordénense, de menor a mayor, los periodos de oscilación de los sistemas que aparecen en las figuras:</p><figure class=\"j-irudia\"><img src=\"media/irudiak/c8a40838245fb22e.svg\" alt=\"Tres sistemas oscilantes: (a) y (b) muelles verticales con masas\n    distintas, (c) péndulo simple.\" width=\"353\" loading=\"lazy\"><figcaption>Tres sistemas oscilantes: (a) y (b) muelles verticales con masas\n    distintas, (c) péndulo simple.</figcaption></figure><ul class=\"j-etiketatua\"><li><span class=\"j-marka\">a)</span><span class=\"j-elte\">a,c,b</span></li><li><span class=\"j-marka\">b)</span><span class=\"j-elte\">c,a,b</span></li><li><span class=\"j-marka\">c)</span><span class=\"j-elte\">a,b,c</span></li><li><span class=\"j-marka\">d)</span><span class=\"j-elte\">b,a,c</span></li><li><span class=\"j-marka\">e)</span><span class=\"j-elte\">a,b,c</span></li></ul>",
+     "s": "<p><strong>Respuesta correcta</strong>: (d) b,a,c — usando <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mrow><mi>m</mi><mi>/</mi><mi>k</mi></mrow></msqrt></mrow></math> (a,b) y <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mrow><mi>L</mi><mi>/</mi><mi>g</mi></mrow></msqrt></mrow></math> (c): <math display=\"inline\"><mrow><msub><mi>T</mi><mi>b</mi></msub><mo>≈</mo><mn>0.5</mn></mrow></math> s <math display=\"inline\"><mrow><mo>&lt;</mo><msub><mi>T</mi><mi>a</mi></msub><mo>≈</mo><mn>1.0</mn></mrow></math> s <math display=\"inline\"><mrow><mo>&lt;</mo><msub><mi>T</mi><mi>c</mi></msub><mo>≈</mo><mn>2.8</mn></mrow></math> s.</p>"
+    },
+    {
+     "e": "<p>La frecuencia de un movimiento armónico simple es <math display=\"inline\"><mrow><mn>2.6</mn><mo>×</mo><msup><mn>10</mn><mn>4</mn></msup></mrow></math> <math display=\"inline\"><msup><mi>s</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></math>. La oscilación comienza (<math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>) cuando el desplazamiento es máximo y vale <math display=\"inline\"><mrow><mn>6.5</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>3</mn></mrow></msup></mrow></math> cm. ¿Cuándo pasará la partícula por primera vez por la posición <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>2.6</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>3</mn></mrow></msup></mrow></math> cm?</p><ul class=\"j-etiketatua\"><li><span class=\"j-marka\">a)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>7.1</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>6</mn></mrow></msup></mrow></math> s</span></li><li><span class=\"j-marka\">b)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>1.2</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>5</mn></mrow></msup></mrow></math> s</span></li><li><span class=\"j-marka\">c)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>1.1</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>3</mn></mrow></msup></mrow></math> s</span></li><li><span class=\"j-marka\">d)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>1.1</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>4</mn></mrow></msup></mrow></math> s</span></li><li><span class=\"j-marka\">e)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>4.2</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>3</mn></mrow></msup></mrow></math> s</span></li></ul>",
+     "s": "<p><strong>Respuesta correcta</strong>: (b).</p>"
+    },
+    {
+     "e": "<p>Cuando empujas a un niño en un columpio, ¿qué es lo más eficaz?</p><ul class=\"j-etiketatua\"><li><span class=\"j-marka\">a)</span><span class=\"j-elte\">Hacer la mayor fuerza posible</span></li><li><span class=\"j-marka\">b)</span><span class=\"j-elte\">Empujar con una fuerza periódica de la mayor frecuencia posible</span></li><li><span class=\"j-marka\">c)</span><span class=\"j-elte\">Empujar con una fuerza igual al peso del niño</span></li><li><span class=\"j-marka\">d)</span><span class=\"j-elte\">Empujar con una fuerza periódica cuyo periodo dependa de la longitud de las cuerdas</span></li><li><span class=\"j-marka\">e)</span><span class=\"j-elte\">Empujar con una fuerza periódica cuyo periodo dependa del peso del niño</span></li></ul>",
+     "s": "<p><strong>Respuesta correcta</strong>: (d) — para lograr la resonancia, el periodo de la fuerza externa debe coincidir con el periodo propio del péndulo (<math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mrow><mi>L</mi><mi>/</mi><mi>g</mi></mrow></msqrt></mrow></math>, condicionado por la longitud de las cuerdas).</p>"
+    },
+    {
+     "e": "<p>Una partícula oscila siguiendo un movimiento armónico simple. La frecuencia del movimiento es <math display=\"inline\"><mn>10</mn></math> Hz y la amplitud <math display=\"inline\"><mn>5</mn></math> cm. Cuando la partícula pasa por la posición de equilibrio, la aceleración de la partícula es:</p><ul class=\"j-etiketatua\"><li><span class=\"j-marka\">a)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>1.6</mn><mo>×</mo><msup><mn>10</mn><mn>5</mn></msup></mrow></math> cm/s²</span></li><li><span class=\"j-marka\">b)</span><span class=\"j-elte\"><math display=\"inline\"><mn>100</mn></math> cm/s²</span></li><li><span class=\"j-marka\">c)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>4.0</mn><mo>×</mo><msup><mn>10</mn><mn>6</mn></msup></mrow></math> cm/s²</span></li><li><span class=\"j-marka\">d)</span><span class=\"j-elte\"><math display=\"inline\"><mn>0</mn></math></span></li><li><span class=\"j-marka\">e)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mn>3.2</mn><mo>×</mo><msup><mn>10</mn><mn>6</mn></msup></mrow></math> cm/s²</span></li></ul>",
+     "s": "<p><strong>Respuesta correcta</strong>: (d) — <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mi>−</mi><msup><mi>ω</mi><mn>2</mn></msup><mi>x</mi></mrow></math>, y como <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> está en la posición de equilibrio, <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mn>0</mn></mrow></math>.</p>"
+    },
+    {
+     "e": "<p>Se ha representado la energía cinética de un cuerpo con movimiento armónico en función del tiempo (con el tiempo expresado en función del periodo). Si el desfase inicial es cero, ¿qué gráfica representa esas condiciones?</p><figure class=\"j-irudia\"><img src=\"media/irudiak/dc82681b0cbb87c2.svg\" alt=\"Cuatro gráficas candidatas (energía cinética K, en función de t/T):\n    (1) constante, (2)  sin&amp;#8289;(2πt/T)  (llega a valores negativos),\n        (3)  cos&amp;#8289;2(2πt/T)  (frecuencia doble y siempre positiva), (4)\n        cos&amp;#8289;(2πt/T)  (llega a valores negativos).\" width=\"203\" loading=\"lazy\"><figcaption>Cuatro gráficas candidatas (energía cinética <math display=\"inline\"><mi>K</mi></math>, en función del tiempo <math display=\"inline\"><mrow><mi>t</mi><mi>/</mi><mi>T</mi></mrow></math>):\n    (1) constante, (2) <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>π</mi><mi>t</mi><mi>/</mi><mi>T</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> (tiende a valores negativos),\n        (3) <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>π</mi><mi>t</mi><mi>/</mi><mi>T</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> (frecuencia doble y siempre positiva), (4)\n        <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>π</mi><mi>t</mi><mi>/</mi><mi>T</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> (tiende a valores negativos).</figcaption></figure><ul class=\"j-etiketatua\"><li><span class=\"j-marka\">a)</span><span class=\"j-elte\">4</span></li><li><span class=\"j-marka\">b)</span><span class=\"j-elte\">5</span></li><li><span class=\"j-marka\">c)</span><span class=\"j-elte\">1</span></li><li><span class=\"j-marka\">d)</span><span class=\"j-elte\">2</span></li><li><span class=\"j-marka\">e)</span><span class=\"j-elte\">3</span></li></ul>",
+     "s": "<p><strong>Respuesta correcta</strong>: (e) 3 — <math display=\"inline\"><mrow><msub><mi>E</mi><mi>k</mi></msub><mo>∝</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> es <math display=\"inline\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi></mrow></math> cuando <math display=\"inline\"><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></math> tiene el doble de la frecuencia de <math display=\"inline\"><mi>ω</mi></math>, es decir, un periodo <math display=\"inline\"><mrow><mi>T</mi><mi>/</mi><mn>2</mn></mrow></math>; además es siempre positiva.</p>"
+    },
+    {
+     "e": "<p>Una masa de <math display=\"inline\"><mrow><mi>m</mi><mo>=</mo><mn>36</mn></mrow></math> kg se une a las dos paredes mediante muelles de constantes <math display=\"inline\"><mrow><msub><mi>k</mi><mn>1</mn></msub><mo>=</mo><mn>3</mn></mrow></math> N/m y <math display=\"inline\"><mrow><msub><mi>k</mi><mn>2</mn></msub><mo>=</mo><mn>4</mn></mrow></math> N/m. Tras desplazarla de la posición de equilibrio hacia los lados, ¿cuál será el periodo de sus oscilaciones?</p><figure class=\"j-irudia\"><img src=\"media/irudiak/49c4640f390db69b.svg\" alt=\"Masa unida a las dos paredes mediante dos muelles: el sistema\n    equivalente es un único muelle combinado en paralelo.\" width=\"309\" loading=\"lazy\"><figcaption>Masa unida a las dos paredes mediante dos muelles: el sistema\n    equivalente es un único muelle combinado en paralelo.</figcaption></figure><ul class=\"j-etiketatua\"><li><span class=\"j-marka\">a)</span><span class=\"j-elte\"><math display=\"inline\"><mn>20</mn></math> s</span></li><li><span class=\"j-marka\">b)</span><span class=\"j-elte\"><math display=\"inline\"><mn>14</mn></math> s</span></li><li><span class=\"j-marka\">c)</span><span class=\"j-elte\"><math display=\"inline\"><mn>11</mn></math> s</span></li><li><span class=\"j-marka\">d)</span><span class=\"j-elte\"><math display=\"inline\"><mn>32</mn></math> s</span></li><li><span class=\"j-marka\">e)</span><span class=\"j-elte\"><math display=\"inline\"><mn>38</mn></math> s</span></li></ul>",
+     "s": "<p><strong>Respuesta correcta</strong>: (b) — los dos muelles están en paralelo (<math display=\"inline\"><mrow><mi>K</mi><mo>=</mo><msub><mi>k</mi><mn>1</mn></msub><mo>+</mo><msub><mi>k</mi><mn>2</mn></msub></mrow></math>), <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mrow><mi>m</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>k</mi><mn>1</mn></msub><mo>+</mo><msub><mi>k</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msqrt></mrow></math>.</p>"
+    },
+    {
+     "e": "<p>Un bloque de <math display=\"inline\"><mn>0.454</mn></math> kg parte del reposo y cae por un plano inclinado de <math display=\"inline\"><mn>3.05</mn></math> m de longitud y <math display=\"inline\"><mrow><mn>53</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>. Tras el plano recorre un tramo horizontal de <math display=\"inline\"><mn>9.14</mn></math> m y comprime un muelle de <math display=\"inline\"><mn>14.7</mn></math> N/m. ¿Cuánto se ha comprimido el muelle? (No hay rozamiento.)</p><ul class=\"j-etiketatua\"><li><span class=\"j-marka\">a)</span><span class=\"j-elte\"><math display=\"inline\"><mn>1.21</mn></math> m</span></li><li><span class=\"j-marka\">b)</span><span class=\"j-elte\"><math display=\"inline\"><mn>2.44</mn></math> m</span></li><li><span class=\"j-marka\">c)</span><span class=\"j-elte\"><math display=\"inline\"><mn>1.83</mn></math> m</span></li><li><span class=\"j-marka\">d)</span><span class=\"j-elte\"><math display=\"inline\"><mn>0.215</mn></math> m</span></li><li><span class=\"j-marka\">e)</span><span class=\"j-elte\"><math display=\"inline\"><mn>1.52</mn></math> m</span></li></ul>",
+     "s": "<p><strong>Respuesta correcta</strong>: (a) — por conservación de la energía, <math display=\"inline\"><mrow><mi>m</mi><mi>g</mi><mi>h</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></math>, <math display=\"inline\"><mrow><mi>h</mi><mo>=</mo><mn>3.05</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>53</mn><msup><mi></mi><mo>∘</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>.</p>"
+    },
+    {
+     "e": "<p>Una masa que oscila sin rozamiento sobre una mesa horizontal está unida a un muelle. Estiramos el muelle <math display=\"inline\"><mn>10</mn></math> cm y lo soltamos desde el reposo. El periodo de las oscilaciones de la masa es de <math display=\"inline\"><mn>5.6</mn></math> s. ¿Cuál es la velocidad de la masa después de transcurridos <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>2.5</mn></mrow></math> s?</p><ul class=\"j-etiketatua\"><li><span class=\"j-marka\">a)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mi>−</mi><mn>0.106</mn></mrow></math> m/s</span></li><li><span class=\"j-marka\">b)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mi>−</mi><mn>0.261</mn></mrow></math> m/s</span></li><li><span class=\"j-marka\">c)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mi>−</mi><mn>0.0371</mn></mrow></math> m/s</span></li><li><span class=\"j-marka\">d)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mi>−</mi><mn>0.201</mn></mrow></math> m/s</span></li><li><span class=\"j-marka\">e)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><mi>−</mi><mn>0.471</mn></mrow></math> m/s</span></li></ul>",
+     "s": "<p><strong>Respuesta correcta</strong>: (c) — <math display=\"inline\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mi>A</mi><mi>ω</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><mn>2</mn><mi>π</mi><mi>/</mi><mi>T</mi></mrow></math>, <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>0.10</mn></mrow></math> m.</p>"
+    },
+    {
+     "e": "<p>El péndulo <math display=\"inline\"><mi>A</mi></math> tiene longitud <math display=\"inline\"><msub><mi>L</mi><mi>A</mi></msub></math> y cuelga de él una masa <math display=\"inline\"><msub><mi>M</mi><mi>A</mi></msub></math>. El péndulo <math display=\"inline\"><mi>B</mi></math> tiene longitud <math display=\"inline\"><msub><mi>L</mi><mi>B</mi></msub></math> y cuelga de él una masa <math display=\"inline\"><msub><mi>M</mi><mi>B</mi></msub></math>. El periodo de <math display=\"inline\"><mi>A</mi></math> es el doble del periodo de <math display=\"inline\"><mi>B</mi></math>. Entonces:</p><ul class=\"j-etiketatua\"><li><span class=\"j-marka\">a)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><msub><mi>L</mi><mi>A</mi></msub><mo>=</mo><mn>4</mn><msub><mi>L</mi><mi>B</mi></msub></mrow></math> y <math display=\"inline\"><mrow><msub><mi>M</mi><mi>A</mi></msub><mo>=</mo><msub><mi>M</mi><mi>B</mi></msub></mrow></math></span></li><li><span class=\"j-marka\">b)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><msub><mi>L</mi><mi>A</mi></msub><mo>=</mo><msqrt><mn>2</mn></msqrt><msub><mi>L</mi><mi>B</mi></msub></mrow></math> y <math display=\"inline\"><mrow><msub><mi>M</mi><mi>A</mi></msub><mi>/</mi><msub><mi>M</mi><mi>B</mi></msub></mrow></math> cualquiera</span></li><li><span class=\"j-marka\">c)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><msub><mi>L</mi><mi>A</mi></msub><mo>=</mo><mn>4</mn><msub><mi>L</mi><mi>B</mi></msub></mrow></math> y <math display=\"inline\"><mrow><msub><mi>M</mi><mi>A</mi></msub><mi>/</mi><msub><mi>M</mi><mi>B</mi></msub></mrow></math> cualquiera</span></li><li><span class=\"j-marka\">d)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><msub><mi>L</mi><mi>A</mi></msub><mo>=</mo><msqrt><mn>2</mn></msqrt><msub><mi>L</mi><mi>B</mi></msub></mrow></math> y <math display=\"inline\"><mrow><msub><mi>M</mi><mi>A</mi></msub><mo>=</mo><msub><mi>M</mi><mi>B</mi></msub></mrow></math></span></li><li><span class=\"j-marka\">e)</span><span class=\"j-elte\"><math display=\"inline\"><mrow><msub><mi>L</mi><mi>A</mi></msub><mo>=</mo><mn>2</mn><msub><mi>L</mi><mi>B</mi></msub></mrow></math> y <math display=\"inline\"><mrow><msub><mi>M</mi><mi>A</mi></msub><mo>=</mo><mn>2</mn><msub><mi>M</mi><mi>B</mi></msub></mrow></math></span></li></ul>",
+     "s": "<p><strong>Respuesta correcta</strong>: (c) — <math display=\"inline\"><mrow><mi>T</mi><mo>∝</mo><msqrt><mi>L</mi></msqrt></mrow></math> (independiente de la masa); <math display=\"inline\"><mrow><msub><mi>T</mi><mi>A</mi></msub><mo>=</mo><mn>2</mn><msub><mi>T</mi><mi>B</mi></msub><mo>→</mo><msub><mi>L</mi><mi>A</mi></msub><mo>=</mo><mn>4</mn><msub><mi>L</mi><mi>B</mi></msub></mrow></math>, para cualquier relación <math display=\"inline\"><mrow><msub><mi>M</mi><mi>A</mi></msub><mi>/</mi><msub><mi>M</mi><mi>B</mi></msub></mrow></math>.</p>"
+    }
+   ],
+   "terminoak": [],
+   "aurrekoak": [
+    "fosz-pendulu-fisikoa",
+    "fosz-malguki-konbinatuak",
+    "fosz-erresonantzia"
+   ],
+   "ondorengoak": [],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a11 · Test de autoevaluación (10 ejercicios)",
+   "sortua": [
+    "ideia"
+   ]
+  },
+  {
+   "id": "fosz-praktika-azterketak",
+   "atala": "S10",
+   "mota": "metodoa",
+   "izena": "Práctica: ejercicios de examen (con desarrollo completo)",
+   "ideia": "<p>Tres ejercicios completos de exámenes oficiales: plataforma-muelle y Doppler, gráfica del MAS y el péndulo de Tarzán. Cada uno tiene su resolución completa.</p>",
+   "formula": "",
+   "enuntziatua": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Un estudiante de Física recibe como regalo un frecuencímetro y, para comprobar que funciona bien, diseña este experimento: toma una plataforma de 1 kg, unida a la pared por un muelle horizontal en un extremo (<math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mn>625</mn></mrow></math> N/m), y fija rápidamente su nuevo frecuencímetro sobre la plataforma. Después comprime el muelle 0.5 m y deja que la plataforma oscile sin rozamiento (junto con el frecuencímetro). Luego, lejos de la pared, hace sonar un altavoz que emite un sonido de <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>250</mn></mrow></math> Hz, y pulsa la cuerda del generador de ondas estando esta en reposo.</p><p>a) Calcular la frecuencia de oscilación de la plataforma, en Hz. b) ¿Cuál es la frecuencia máxima y la mínima que medirá el frecuencímetro en la cuerda? ¿En qué posición y en qué sentido se moverá la plataforma en esos casos? c) ¿En qué posición debe estar para medir la frecuencia propia de la cuerda?</p><p>La masa del frecuencímetro debe considerarse despreciable frente a la de la plataforma, y el frecuencímetro puede guardar en su memoria las medidas realizadas en intervalos de tiempo muy pequeños. Dato: <math display=\"inline\"><mrow><msub><mi>v</mi><mtext mathvariant=\"normal\">soinua</mtext></msub><mo>=</mo><mn>343</mn></mrow></math> m/s. <strong>1.25 puntos</strong>.</p>",
+     "s": "<p><strong>Solución.</strong></p><p>a) El sistema plataforma-muelle realiza un movimiento armónico simple, y su frecuencia angular solo depende de <math display=\"inline\"><mi>k</mi></math> y de <math display=\"inline\"><mi>m</mi></math>:</p><p><math display=\"block\"><mrow><mi>ω</mi><mo>=</mo><msqrt><mfrac><mi>k</mi><mi>m</mi></mfrac></msqrt><mo>=</mo><msqrt><mfrac><mn>625</mn><mn>1</mn></mfrac></msqrt><mo>=</mo><mn>25</mn><mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> rad</mtext></mrow><mrow><mtext mathvariant=\"normal\">s </mtext><mspace width=\"0.333em\"></mspace></mrow></mfrac></mrow></math></p><p><math display=\"block\"><mrow><msub><mi>f</mi><mi>p</mi></msub><mo>=</mo><mfrac><mi>ω</mi><mrow><mn>2</mn><mi>π</mi></mrow></mfrac><mo>=</mo><mfrac><mn>25</mn><mrow><mn>2</mn><mi>π</mi></mrow></mfrac><mo>≈</mo><mn>3.98</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Hz </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msub><mi>f</mi><mi>p</mi></msub><mo>≈</mo><mn>4</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Hz </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p></div><p>b) El frecuencímetro situado sobre la plataforma está en movimiento continuo (observador móvil), mientras que el altavoz está en reposo (fuente fija). Según el efecto Doppler, para un observador móvil:</p><p><math display=\"block\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo>=</mo><mi>f</mi><mfrac><mrow><msub><mi>v</mi><mtext mathvariant=\"normal\">soinua</mtext></msub><mo>±</mo><msub><mi>v</mi><mtext mathvariant=\"normal\">behatzailea</mtext></msub></mrow><msub><mi>v</mi><mtext mathvariant=\"normal\">soinua</mtext></msub></mfrac></mrow></math></p><p>En el movimiento armónico simple del muelle, la velocidad máxima se da en el punto de equilibrio (<math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>):</p><p><math display=\"block\"><mrow><msub><mi>v</mi><mi mathvariant=\"normal\">max</mi></msub><mo>=</mo><mi>A</mi><mi>ω</mi><mo>=</mo><mn>0.5</mn><mo>⋅</mo><mn>25</mn><mo>=</mo><mn>12.5</mn><mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><mrow><mtext mathvariant=\"normal\">s </mtext><mspace width=\"0.333em\"></mspace></mrow></mfrac></mrow></math></p><p>La frecuencia máxima se mide cuando la plataforma se mueve hacia el altavoz con velocidad máxima (en el punto de equilibrio, hacia el altavoz):</p><p><math display=\"block\"><mrow><msub><mi>f</mi><mi mathvariant=\"normal\">max</mi></msub><mo>=</mo><mi>f</mi><mfrac><mrow><msub><mi>v</mi><mtext mathvariant=\"normal\">soinua</mtext></msub><mo>+</mo><msub><mi>v</mi><mi mathvariant=\"normal\">max</mi></msub></mrow><msub><mi>v</mi><mtext mathvariant=\"normal\">soinua</mtext></msub></mfrac><mo>=</mo><mn>250</mn><mo>⋅</mo><mfrac><mrow><mn>343</mn><mo>+</mo><mn>12.5</mn></mrow><mn>343</mn></mfrac><mo>≈</mo><mn>259</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Hz </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><p>La frecuencia mínima, en cambio, cuando se aleja del altavoz desde el punto de equilibrio (con velocidad máxima, en sentido contrario):</p><p><math display=\"block\"><mrow><msub><mi>f</mi><mi mathvariant=\"normal\">min</mi></msub><mo>=</mo><mi>f</mi><mfrac><mrow><msub><mi>v</mi><mtext mathvariant=\"normal\">soinua</mtext></msub><mo>−</mo><msub><mi>v</mi><mi mathvariant=\"normal\">max</mi></msub></mrow><msub><mi>v</mi><mtext mathvariant=\"normal\">soinua</mtext></msub></mfrac><mo>=</mo><mn>250</mn><mo>⋅</mo><mfrac><mrow><mn>343</mn><mo>−</mo><mn>12.5</mn></mrow><mn>343</mn></mfrac><mo>≈</mo><mn>241</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Hz </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msub><mi>f</mi><mi mathvariant=\"normal\">max</mi></msub><mo>≈</mo><mn>259</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Hz </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtext mathvariant=\"normal\">bozgorailurantz</mtext><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></p></div><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msub><mi>f</mi><mi mathvariant=\"normal\">min</mi></msub><mo>≈</mo><mn>241</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Hz </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtext mathvariant=\"normal\">bozgorailutik urrunduz</mtext><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></p></div><p>c) Para medir la frecuencia propia de la cuerda (<math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>250</mn></mrow></math> Hz, sin desplazamiento Doppler), la velocidad de la plataforma debe ser cero en ese instante (<math display=\"inline\"><mrow><msub><mi>v</mi><mtext mathvariant=\"normal\">behatzailea</mtext></msub><mo>=</mo><mn>0</mn></mrow></math>), y eso ocurre en los extremos del movimiento armónico simple, en las posiciones <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>±</mi><mi>A</mi></mrow></math>:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>x</mi><mo>=</mo><mi>±</mi><mi>A</mi><mo>=</mo><mi>±</mi><mn>0.5</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo>=</mo><msub><mi>t</mi><mtext mathvariant=\"normal\">muturretan</mtext></msub><mo>,</mo><mi>v</mi><mo>=</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> denean</mtext></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></p></div>"
+    },
+    {
+     "e": "<p>La figura del movimiento armónico simple muestra la función <math display=\"inline\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> a lo largo de un periodo <math display=\"inline\"><mi>T</mi></math>. Calcular: <strong>0.5 puntos</strong>.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/f14c42ea0a7129de.svg\" alt=\"Función v(t) de un MAS a lo largo de un periodo T, con los instantes t1 y t2\n    señalados (reconstrucción cualitativa del original).\" width=\"488\" loading=\"lazy\"><figcaption>Función <math display=\"inline\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> de un MAS a lo largo de un periodo <math display=\"inline\"><mi>T</mi></math>, con los\n    instantes <math display=\"inline\"><msub><mi>t</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>t</mi><mn>2</mn></msub></math> señalados (reconstrucción cualitativa del original).</figcaption></figure><p>a) El periodo del movimiento. b) La amplitud del movimiento. c) La fase inicial, si escribimos la posición como <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. d) La posición en el instante <math display=\"inline\"><msub><mi>t</mi><mn>1</mn></msub></math>. e) La aceleración en el instante <math display=\"inline\"><msub><mi>t</mi><mn>2</mn></msub></math>.</p>",
+     "s": "<p><strong>Solución.</strong></p><p>a) En la gráfica se lee directamente que la curva da una vuelta completa en <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>12</mn></mrow></math> s (porque el argumento de la función coseno es <math display=\"inline\"><mrow><mn>30</mn><mfrac><msup><mi></mi><mo>∘</mo></msup><mrow><mtext mathvariant=\"normal\">s </mtext><mspace width=\"0.333em\"></mspace></mrow></mfrac><mo>⋅</mo><mi>t</mi></mrow></math>, es decir, <math display=\"inline\"><mrow><mn>360</mn><mfrac><msup><mi></mi><mo>∘</mo></msup><mn>30</mn></mfrac><mfrac><msup><mi></mi><mo>∘</mo></msup><mrow><mtext mathvariant=\"normal\">s </mtext><mspace width=\"0.333em\"></mspace></mrow></mfrac><mo>=</mo><mn>12</mn></mrow></math> s):</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>T</mi><mo>=</mo><mn>12</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> s </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p></div><p>De ahí la frecuencia angular: <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><mn>2</mn><mfrac><mi>π</mi><mi>T</mi></mfrac><mo>=</mo><mfrac><mi>π</mi><mn>6</mn></mfrac><mo>≈</mo><mn>0.524</mn><mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> rad</mtext></mrow><mi>s</mi></mfrac></mrow></math>.</p><p>b) Si <math display=\"inline\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, la velocidad es:</p><p><math display=\"block\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mi>A</mi><mi>ω</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>v</mi><mi mathvariant=\"normal\">max</mi></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></p><p>Leyendo el valor más significativo del eje de ordenadas de la gráfica, se deduce que <math display=\"inline\"><mrow><msub><mi>v</mi><mi mathvariant=\"normal\">max</mi></msub><mo>≈</mo><mn>4.97</mn></mrow></math> m/s. Por tanto:</p><p><math display=\"block\"><mrow><mi>A</mi><mo>=</mo><mfrac><msub><mi>v</mi><mi mathvariant=\"normal\">max</mi></msub><mi>ω</mi></mfrac><mo>=</mo><mfrac><mn>4.97</mn><mrow><mi>π</mi><mi>/</mi><mn>6</mn></mrow></mfrac><mo>≈</mo><mn>9.5</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>A</mi><mo>≈</mo><mn>9.5</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p></div><p>c) Las funciones <math display=\"inline\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>v</mi><mi mathvariant=\"normal\">max</mi></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> y <math display=\"inline\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> tienen la misma fase. En el instante <math display=\"inline\"><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn></mrow></math> s se ve en la gráfica que la plataforma pasa por la posición <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> (véase d), por tanto:</p><p><math display=\"block\"><mrow><mi>ω</mi><msub><mi>t</mi><mn>1</mn></msub><mo>+</mo><mi>ϕ</mi><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>ϕ</mi><mo>=</mo><mi>−</mi><mi>ω</mi><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mi>−</mi><mfrac><mi>π</mi><mn>6</mn></mfrac><mo>⋅</mo><mn>2</mn><mo>=</mo><mi>−</mi><mfrac><mi>π</mi><mn>3</mn></mfrac></mrow></math></p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>ϕ</mi><mo>=</mo><mi>−</mi><mn>60</mn><msup><mi></mi><mo>∘</mo></msup><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> edo </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"1.0em\"></mspace><mo>−</mo><mfrac><mi>π</mi><mn>3</mn></mfrac></mrow></math></p></div><p>d) En el instante <math display=\"inline\"><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn></mrow></math> s:</p><p><math display=\"block\"><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><msub><mi>t</mi><mn>1</mn></msub><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>9.5</mn><mo>⋅</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>π</mi><mn>6</mn></mfrac><mo>⋅</mo><mn>2</mn><mo>−</mo><mfrac><mi>π</mi><mn>3</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>9.5</mn><mo>⋅</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math></p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p></div><p>e) La aceleración en un MAS es siempre <math display=\"inline\"><mrow><mi>a</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><msup><mi>ω</mi><mn>2</mn></msup><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. En el instante <math display=\"inline\"><mrow><msub><mi>t</mi><mn>2</mn></msub><mo>=</mo><mn>5</mn></mrow></math> s:</p><p><math display=\"block\"><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><msub><mi>t</mi><mn>2</mn></msub><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>9.5</mn><mo>⋅</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>π</mi><mn>6</mn></mfrac><mo>⋅</mo><mn>5</mn><mo>−</mo><mfrac><mi>π</mi><mn>3</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>9.5</mn><mo>⋅</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>9.5</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><p><math display=\"block\"><mrow><mi>a</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>−</mi><msup><mi>ω</mi><mn>2</mn></msup><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msup><mrow><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>π</mi><mn>6</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mn>2</mn></msup><mo>⋅</mo><mn>9.5</mn><mo>≈</mo><mi>−</mi><mn>2.60</mn><mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><msup><mi>s</mi><mn>2</mn></msup></mfrac></mrow></math></p><div class=\"j-oharra\"><span class=\"j-et\">Observación sobre el redondeo.</span> El cálculo exacto da <math display=\"inline\"><mrow><mi>a</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≈</mo><mi>−</mi><mn>2.60</mn></mrow></math> m/s²; el resultado del cuaderno, que es el original, es <math display=\"inline\"><mrow><mi>−</mi><mn>2.62</mn></mrow></math> m/s². La diferencia es pequeña (<math display=\"inline\"><mrow><mo>&lt;</mo><mn>1</mn><mi>%</mi></mrow></math>) y puede deberse al redondeo del valor <math display=\"inline\"><msub><mi>v</mi><mi mathvariant=\"normal\">max</mi></msub></math> leído en la gráfica; se ha mantenido el valor literal del original.</div><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>a</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>−</mi><mn>2.62</mn><mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><msup><mi>s</mi><mn>2</mn></msup></mfrac></mrow></math></p></div>"
+    },
+    {
+     "e": "<p>Tarzán (<math display=\"inline\"><mrow><msub><mi>m</mi><mi>T</mi></msub><mo>=</mo><mn>85</mn></mrow></math> kg) realiza un salto pendular desde una altura de <math display=\"inline\"><mrow><mi>h</mi><mo>=</mo><mn>2</mn></mrow></math> m (gritando, como de costumbre), colgado de una liana de <math display=\"inline\"><mrow><mi>L</mi><mo>=</mo><mn>20</mn></mrow></math> m. Al pasar por el punto más bajo de su trayectoria, Chita (<math display=\"inline\"><mrow><msub><mi>m</mi><mi>C</mi></msub><mo>=</mo><mn>35</mn></mrow></math> kg) lo agarra de los brazos y se sube. <strong>2.5 puntos</strong>.</p><p>(Margen: &quot;tema 4, ejercicio 7&quot;.)</p><figure class=\"j-irudia\"><img src=\"media/irudiak/af267403742d64ec.svg\" alt=\"Tarzán oscilando en una liana, desde una altura h hasta el punto más bajo,\n    donde Chita lo agarra (reconstrucción del original).\" width=\"124\" loading=\"lazy\"><figcaption>Tarzán oscilando en la liana, desde la altura <math display=\"inline\"><mi>h</mi></math> hasta el punto más bajo,\n    donde Chita lo agarra (reconstrucción del original).</figcaption></figure><p>a) Si la liana no se rompiera, ¿hasta qué altura subirían Tarzán (T) y Chita (C) en el punto más alto de su movimiento? b) ¿Cuál es la tensión de la cuerda cuando Tarzán pasa por el punto más bajo de la trayectoria? ¿Y después de que Chita lo agarre? c) Supongamos que Tarzán y Chita, unidos a la liana, realizan pequeñas oscilaciones respecto a la vertical. ¿Cuál sería el periodo de las oscilaciones que mediría Jane (J en la figura)?</p>",
+     "s": "<p><strong>Resolución.</strong> (Se usará <math display=\"inline\"><mrow><mi>g</mi><mo>=</mo><mn>9.81</mn></mrow></math> m/s².)</p><p>b) Por conservación de la energía (sin rozamiento), la velocidad de Tarzán en el punto más bajo es:</p><p><math display=\"block\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>m</mi><mi>T</mi></msub><msup><mi>v</mi><mn>2</mn></msup><mo>=</mo><msub><mi>m</mi><mi>T</mi></msub><mi>g</mi><mi>h</mi><mo>⇒</mo><mi>v</mi><mo>=</mo><msqrt><mrow><mn>2</mn><mi>g</mi><mi>h</mi></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>2</mn><mo>⋅</mo><mn>9.81</mn><mo>⋅</mo><mn>2</mn></mrow></msqrt><mo>≈</mo><mn>6.26</mn><mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><mrow><mtext mathvariant=\"normal\">s </mtext><mspace width=\"0.333em\"></mspace></mrow></mfrac></mrow></math></p><p>En el punto más bajo, como el movimiento es circular (mediante la cuerda), la tensión debe equilibrar la fuerza de la gravedad y la fuerza centrípeta:</p><p><math display=\"block\"><mrow><msub><mi>T</mi><mi>T</mi></msub><mo>−</mo><msub><mi>m</mi><mi>T</mi></msub><mi>g</mi><mo>=</mo><msub><mi>m</mi><mi>T</mi></msub><mfrac><msup><mi>v</mi><mn>2</mn></msup><mi>L</mi></mfrac><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><msub><mi>T</mi><mi>T</mi></msub><mo>=</mo><msub><mi>m</mi><mi>T</mi></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>g</mi><mo>+</mo><mfrac><msup><mi>v</mi><mn>2</mn></msup><mi>L</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msub><mi>m</mi><mi>T</mi></msub><mi>g</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mfrac><mrow><mn>2</mn><mi>h</mi></mrow><mi>L</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></p><p><math display=\"block\"><mrow><msub><mi>T</mi><mi>T</mi></msub><mo>=</mo><mn>85</mn><mo>⋅</mo><mn>9.81</mn><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mfrac><mn>4</mn><mn>20</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>85</mn><mo>⋅</mo><mn>9.81</mn><mo>⋅</mo><mn>1.2</mn><mo>≈</mo><mn>1000</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> N </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msub><mi>T</mi><mi>T</mi></msub><mo>≈</mo><mn>1000</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> N </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p></div><p>Cuando Chita agarra a Tarzán se supone que el choque es rápido y casi instantáneo (el impulso de la gravedad es despreciable en ese intervalo de tiempo), por lo que se conserva el momento lineal:</p><p><math display=\"block\"><mrow><msub><mi>m</mi><mi>T</mi></msub><mi>v</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>m</mi><mi>T</mi></msub><mo>+</mo><msub><mi>m</mi><mi>C</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>v</mi><mo>′</mo></msup><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><msup><mi>v</mi><mo>′</mo></msup><mo>=</mo><mfrac><mrow><msub><mi>m</mi><mi>T</mi></msub><mi>v</mi></mrow><mrow><msub><mi>m</mi><mi>T</mi></msub><mo>+</mo><msub><mi>m</mi><mi>C</mi></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>85</mn><mo>⋅</mo><mn>6.26</mn></mrow><mn>120</mn></mfrac><mo>≈</mo><mn>4.44</mn><mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><mrow><mtext mathvariant=\"normal\">s </mtext><mspace width=\"0.333em\"></mspace></mrow></mfrac></mrow></math></p><p>En ese mismo instante (en el punto más bajo, todavía), la tensión del nuevo sistema:</p><p><math display=\"block\"><mrow><msub><mi>T</mi><mtext mathvariant=\"normal\">T+C</mtext></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>m</mi><mi>T</mi></msub><mo>+</mo><msub><mi>m</mi><mi>C</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>g</mi><mo>+</mo><mi>v</mi><mfrac><msup><mi>′</mi><mn>2</mn></msup><mi>L</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>120</mn><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>9.81</mn><mo>+</mo><mfrac><msup><mn>4.44</mn><mn>2</mn></msup><mn>20</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≈</mo><mn>1295</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> N </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msub><mi>T</mi><mi>T</mi></msub><mo>≈</mo><mn>1000</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> N</mtext></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>T</mi><mtext mathvariant=\"normal\">T+C</mtext></msub><mo>≈</mo><mn>1295</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> N </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p></div><p>a) Si la liana aguantara (sin romperse), tras el choque el sistema Tarzán+Chita seguiría oscilando con velocidad <math display=\"inline\"><msup><mi>v</mi><mo>′</mo></msup></math> y subiría hasta la misma altura en el lado contrario, conservando la energía (las masas se mueven unidas, y el periodo del péndulo ideal es independiente de la masa):</p><p><math display=\"block\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>m</mi><mi>T</mi></msub><mo>+</mo><msub><mi>m</mi><mi>C</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>v</mi><mo>′</mo></msup><msup><mi></mi><mn>2</mn></msup><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>m</mi><mi>T</mi></msub><mo>+</mo><msub><mi>m</mi><mi>C</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>g</mi><msup><mi>h</mi><mo>′</mo></msup><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><msup><mi>h</mi><mo>′</mo></msup><mo>=</mo><mi>v</mi><mfrac><msup><mi>′</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>g</mi></mrow></mfrac><mo>=</mo><mfrac><msup><mn>4.44</mn><mn>2</mn></msup><mrow><mn>2</mn><mo>⋅</mo><mn>9.81</mn></mrow></mfrac><mo>≈</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><msup><mi>h</mi><mo>′</mo></msup><mo>≈</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p></div><p>c) Para oscilaciones pequeñas, el periodo del péndulo simple solo depende de <math display=\"inline\"><mi>L</mi></math> y de <math display=\"inline\"><mi>g</mi></math>, no de la masa (porque la fuerza externa resultante y la inercia son ambas proporcionales a la masa):</p><p><math display=\"block\"><mrow><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mfrac><mi>L</mi><mi>g</mi></mfrac></msqrt><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mfrac><mn>20</mn><mn>9.81</mn></mfrac></msqrt><mo>≈</mo><mn>8.97</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> s </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>T</mi><mo>≈</mo><mn>8.97</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> s </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p></div>"
+    }
+   ],
+   "terminoak": [],
+   "aurrekoak": [
+    "fosz-pendulu-sinplea",
+    "fosz-doppler"
+   ],
+   "ondorengoak": [],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a12 · Más exámenes (3 ejercicios)",
+   "sortua": [
+    "ideia"
+   ]
+  },
+  {
+   "id": "fosz-landeta-mekanika",
+   "atala": "S10",
+   "mota": "metodoa",
+   "izena": "Complementos de mecánica: rodadura, plano inclinado y choque elástico",
+   "ideia": "<p>Algunos ejercicios de mecánica del cuaderno de Landeta (rodadura, plano inclinado con muelle, choque elástico); aunque no están directamente relacionados con las oscilaciones, usan la energía y la ley de Hooke.</p>",
+   "formula": "",
+   "enuntziatua": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [
+    "<p>Esfera maciza que rueda sin deslizar bajo una fuerza <math display=\"inline\"><mi>F</mi></math>; con las ecuaciones de traslación (<math display=\"inline\"><mrow><mo>∑</mo><mi>F</mi><mo>=</mo><mi>m</mi><mi>a</mi></mrow></math>) y de rotación (<math display=\"inline\"><mrow><mo>∑</mo><mi>M</mi><mo>=</mo><mi>I</mi><mi>α</mi></mrow></math>), aceleración del centro de masas (usando la condición de rodadura <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mi>α</mi><mi>R</mi></mrow></math>).</p>",
+    "<p><em class=\"j-nab\">\n  Bloque unido a un muelle en un plano inclinado: <strong>fuerza normal</strong> (<math display=\"inline\"><mrow><mi>N</mi><mo>=</mo><mi>m</mi><mi>g</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>α</mi></mrow></math>), <strong>rozamiento</strong>\n  (<math display=\"inline\"><mrow><msub><mi>F</mi><mi>r</mi></msub><mo>=</mo><mi>μ</mi><mi>N</mi></mrow></math>) y <strong>balance trabajo-energía</strong> (incluida la energía elástica <math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></math>) para obtener\n  la constante elástica <math display=\"inline\"><mi>k</mi></math>.\n</em></p>",
+    "<p>En caída libre, <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><msqrt><mrow><mn>2</mn><mi>g</mi><mi>h</mi></mrow></msqrt></mrow></math>: <math display=\"block\"><mrow><msub><mi>v</mi><mi>C</mi></msub><mo>=</mo><msqrt><mrow><mn>2</mn><mi>g</mi><msub><mi>h</mi><mi>N</mi></msub></mrow></msqrt><mo>=</mo><mn>14</mn><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m/s</mtext></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>v</mi><mi>N</mi></msub><mo>=</mo><msqrt><mrow><mn>2</mn><mi>g</mi><msub><mi>h</mi><mi>L</mi></msub></mrow></msqrt><mo>=</mo><mn>12</mn><mo>,</mo><mn>14</mn><mspace width=\"0.222em\"></mspace><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m/s</mtext></mrow><mi>.</mi></mrow></math> (con <math display=\"inline\"><mrow><mi>g</mi><mo>=</mo><mn>9</mn><mo>,</mo><mn>8</mn></mrow></math>, <math display=\"inline\"><mrow><mn>14</mn><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m/s</mtext></mrow></mrow></math> da <math display=\"inline\"><mrow><mi>h</mi><mo>=</mo><mn>10</mn><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow></mrow></math>, y <math display=\"inline\"><mrow><mn>12</mn><mo>,</mo><mn>14</mn></mrow></math> da <math display=\"inline\"><mrow><mi>h</mi><mo>≈</mo><mn>7</mn><mo>,</mo><mn>5</mn><mspace width=\"0.222em\"></mspace><mspace width=\"0.222em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow></mrow></math>.)</p>"
+   ],
+   "ariketak": [],
+   "terminoak": [],
+   "aurrekoak": [
+    "fosz-malgukia",
+    "fosz-energia-oszilazioa"
+   ],
+   "ondorengoak": [],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a19 · Rodadura; a20 · Plano inclinado; a21 · Choque elástico",
+   "sortua": [
+    "ideia"
+   ]
+  },
+  {
+   "id": "fosz-dimentsio-analisia",
+   "atala": "S10",
+   "mota": "ideia",
+   "izena": "Análisis dimensional y Bernoulli (observación)",
+   "ideia": "<p>Comprobar las dimensiones de las magnitudes físicas es una herramienta sencilla y potente para poner a prueba ecuaciones.</p>",
+   "formula": "",
+   "enuntziatua": "<p><em class=\"j-nab\">\n  <strong>Análisis dimensional</strong>: comprobar las dimensiones de magnitudes físicas (presión, energía por unidad de volumen:\n  <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mtext mathvariant=\"normal\">energia</mtext><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mtext mathvariant=\"normal\">bolumena</mtext><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>). Repaso de la ecuación de <strong>Bernoulli</strong> y un ejercicio numérico de MAS.\n</em></p>",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "análisis dimensional",
+     "def": "<p>Técnica que comprueba que las dimensiones de cada magnitud (longitud, masa, tiempo…) concuerdan en una ecuación física.</p>"
+    }
+   ],
+   "aurrekoak": [],
+   "ondorengoak": [],
+   "iturria": "Física general (UPV/EHU) · M17 Oscilaciones y ondas · a37 · Análisis dimensional y Bernoulli",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  }
+ ]
+}

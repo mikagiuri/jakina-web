@@ -31,6 +31,12 @@
    "egoera": "proposamena"
   },
   {
+   "clave": "01ma_05geometria1",
+   "izenburua": "B2 - Geometría y cuadernos - III",
+   "kontzeptuak": 45,
+   "egoera": "proposamena"
+  },
+  {
    "clave": "01ma_06geometria2",
    "izenburua": "B2 · Geometría y cuadernos (IV)",
    "kontzeptuak": 25,
@@ -61,9 +67,39 @@
    "egoera": "proposamena"
   },
   {
+   "clave": "01mc_05bektoriala",
+   "izenburua": "B3 - Cálculo y análisis - IV",
+   "kontzeptuak": 78,
+   "egoera": "proposamena"
+  },
+  {
    "clave": "01mc_06ebazpenak",
    "izenburua": "B3 · Cálculo y análisis (V): problemas resueltos",
    "kontzeptuak": 32,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01mz_01konplexuak",
+   "izenburua": "B3 - Cálculo y análisis - VI",
+   "kontzeptuak": 48,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "02fg_01partikula",
+   "izenburua": "B04A.1 - M16 Mecánica",
+   "kontzeptuak": 42,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "02fg_03oszilazioak",
+   "izenburua": "B04A.2 · M17 Oscilaciones y ondas",
+   "kontzeptuak": 31,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "02fg_04elektromagnetismoa",
+   "izenburua": "B04B.1 · Fundamentos del electromagnetismo y F1",
+   "kontzeptuak": 54,
    "egoera": "proposamena"
   },
   {
@@ -73,15 +109,39 @@
    "egoera": "proposamena"
   },
   {
+   "clave": "02td_01termodinamika",
+   "izenburua": "B7 - Termodinamika",
+   "kontzeptuak": 39,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "03mm_01edo",
+   "izenburua": "B6.1 - EDO: fundamentos y primer orden (temas 1-2)",
+   "kontzeptuak": 35,
+   "egoera": "proposamena"
+  },
+  {
    "clave": "03mm_01goiordena",
    "izenburua": "B6 · Métodos matemáticos 2/9 — EDO: orden superior, funciones generalizadas y sistemas de ecuaciones",
    "kontzeptuak": 52,
    "egoera": "proposamena"
   },
   {
+   "clave": "03mm_02laplace",
+   "izenburua": "B6.3 - Transformada de Laplace (tema 5)",
+   "kontzeptuak": 31,
+   "egoera": "proposamena"
+  },
+  {
    "clave": "03mm_02serieak",
    "izenburua": "B6 · Métodos matemáticos 4/9 · Resolución por series y métodos aproximados",
    "kontzeptuak": 44,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "03mm_03ezlinealak",
+   "izenburua": "B6.5 - No lineales y estabilidad (tema 8)",
+   "kontzeptuak": 34,
    "egoera": "proposamena"
   },
   {
@@ -115,6 +175,12 @@
    "egoera": "proposamena"
   },
   {
+   "clave": "04em_01elektrodinamika",
+   "izenburua": "B08.1 - M23 Griffiths 2-8",
+   "kontzeptuak": 41,
+   "egoera": "proposamena"
+  },
+  {
    "clave": "04em_02erradiazioa",
    "izenburua": "B08.2 · Griffiths 9–12 y M24 Óptica",
    "kontzeptuak": 52,
@@ -130,6 +196,12 @@
    "clave": "05mk_02higiduraerl",
    "izenburua": "B9 · Mecánica clásica 2/10 · Movimiento relativo",
    "kontzeptuak": 25,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "05mk_03erlatibitatea",
+   "izenburua": "B9.3 - Relatividad especial",
+   "kontzeptuak": 38,
    "egoera": "proposamena"
   },
   {

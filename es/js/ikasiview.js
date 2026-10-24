@@ -160,5 +160,16 @@
   document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&popEl) popEl.hidden=true; });
 
   /* index-a eagerly kargatu: kapituluaview-k window.IKASGAI begiratzen du toggle-a non erakutsi jakiteko */
-  loadGlobals().then(function(){ window.IKASGAI = INDEXSET; });
+  function toggleBerandutua(){
+    // (lasterketa) IKASGAI kapitulua margotu ondoren badator, txandakatzailea orain txertatu
+    try{
+      var kv=document.getElementById('kapitulua');
+      if(!kv || !kv.classList.contains('active')) return;
+      var body=document.getElementById('kapbody'), gakoa=body && body.dataset.gakoa;
+      var head=body && body.querySelector('.theory-head');
+      if(gakoa && INDEXSET[gakoa] && head && !head.querySelector('.kap-ikasgai'))
+        head.insertAdjacentHTML('beforeend','<div class="kap-ikasgai" role="group" aria-label="Modo"><span class="on">Leer</span><a href="#ikasi/'+gakoa+'">Estudiar</a></div>');
+    }catch(e){}
+  }
+  loadGlobals().then(function(){ window.IKASGAI = INDEXSET; toggleBerandutua(); });
 })();
