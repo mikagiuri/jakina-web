@@ -100,7 +100,7 @@ KAPITULUAK["02td_01termodinamika"] = {
   {
    "id": "a3",
    "maila": 2,
-   "izenburua": "Bibliografía &lt;termo-biblio&gt;",
+   "izenburua": "Bibliografía ",
    "blokeak": [
     {
      "mota": "zerrenda",
@@ -1359,7 +1359,7 @@ KAPITULUAK["02td_01termodinamika"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Si el calor específico del agua es <math display=\"inline\"><mrow><mi>c</mi><mo>=</mo><mn>0.9983</mn><mo>−</mo><mn>5.184</mn><mo>⋅</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>5</mn></mrow></msup><mi>t</mi><mo>+</mo><mn>6.912</mn><mo>⋅</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>7</mn></mrow></msup><msup><mi>t</mi><mn>2</mn></msup></mrow></math>, ¿cuánto calor hace falta para calentar 1 g de agua de <math display=\"inline\"><mrow><mn>0</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math> a <math display=\"inline\"><mrow><mn>100</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>C?"
+       "html": "Si el calor específico del agua es <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>c</mi><mo>=</mo><mn>0.9983</mn><mo>−</mo><mn>5.184</mn><mo>⋅</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>5</mn></mrow></msup><mi>t</mi><mo>+</mo><mn>6.912</mn><mo>⋅</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>7</mn></mrow></msup><msup><mi>t</mi><mn>2</mn></msup></mrow></math></span>, ¿cuánto calor hace falta para calentar 1 g de agua de <math display=\"inline\"><mrow><mn>0</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math> a <math display=\"inline\"><mrow><mn>100</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>C?"
       }
      ]
     },
@@ -3577,7 +3577,7 @@ KAPITULUAK["02td_01termodinamika"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mi>S</mi></math> se define así: <math display=\"block\"><mrow><mi>d</mi><mi>S</mi><mo>=</mo><mfrac><mrow><mi>δ</mi><msub><mi>Q</mi><mtext mathvariant=\"normal\">itzulgarria</mtext></msub></mrow><mi>T</mi></mfrac><mi>.</mi></mrow></math>"
+       "html": "<math display=\"block\"><mi>S</mi></math> se define así: <math display=\"block\"><mrow><mi>d</mi><mi>S</mi><mo>=</mo><mfrac><mrow><mi>δ</mi><msub><mi>Q</mi><mtext mathvariant=\"normal\">itzulgarria</mtext></msub></mrow><mi>T</mi></mfrac><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -8673,8 +8673,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Texto de la derecha:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>El trabajo será máximo cuando el proceso sea reversible, ¡pero si el proceso es reversible tenemos un ciclo de Carnot!</q>"
     },
     {
      "mota": "testua",
@@ -8711,8 +8711,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "En el esquema hay dos temperaturas, <math display=\"inline\"><msub><mi>T</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>T</mi><mn>2</mn></msub></math>, y dos cuerpos puestos en contacto mediante una pared diatérmana. El texto de la transparencia dice:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>El intercambio de calor ocurrirá espontáneamente y, por tanto, el proceso es irreversible.</q>"
     },
     {
      "mota": "testua",
@@ -8827,8 +8827,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Volviendo a nuestro problema, las transparencias escriben que para unir de forma reversible esos dos sistemas hay que intercalar un artefacto (tramankulu). En el esquema se pasa de <math display=\"inline\"><msub><mi>T</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>T</mi><mn>2</mn></msub></math> iniciales a <math display=\"inline\"><msub><mi>T</mi><mi>f</mi></msub></math> y <math display=\"inline\"><msub><mi>T</mi><mi>f</mi></msub></math> finales, y al lado:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>El proceso terminará cuando se igualen las temperaturas de ambos.</q>"
     },
     {
      "mota": "testua",
@@ -9017,8 +9017,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Y la nota:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Todos los valores que estamos usando son positivos, porque la flecha indica la intensidad y el sentido de cada cosa.</q>"
     },
     {
      "mota": "testua",
@@ -9170,8 +9170,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Conclusión con las palabras de las transparencias:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Por tanto, al tener dos sistemas de masa finita, no penséis que la temperatura final será la media geométrica; eso dependerá de cómo dependa de la temperatura la capacidad calorífica. Por eso se ha planteado este caso como el mismo que los anteriores.</q>"
     },
     {
      "mota": "testua",
@@ -9266,8 +9266,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Texto:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Al extraer una energía <math display=\"inline\"><mi>Q</mi></math> en forma de calor de la fuente de calor a alta temperatura, siendo <math display=\"inline\"><msub><mi>T</mi><mn>0</mn></msub></math> la temperatura más baja de que disponemos, la energía que se puede extraer en forma de trabajo <math display=\"inline\"><msub><mi>W</mi><mtext mathvariant=\"normal\">max</mtext></msub></math> es el trabajo máximo.</q>"
     },
     {
      "mota": "testua",
@@ -9287,24 +9287,24 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Las transparencias escriben al lado: &quot;de la que podemos disponer&quot;. Y continúa:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Es decir: la entropía que puede extraerse de la fuente <math display=\"inline\"><msub><mi>T</mi><mn>0</mn></msub></math> solo en forma de calor no puede usarse para realizar trabajo.</q>"
     },
     {
      "mota": "testua",
      "html": "Conclusión:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Carácter de grado de la energía: puede usarse para el trabajo; no puede usarse para el trabajo.</q>"
     },
     {
      "mota": "testua",
      "html": "Y la pregunta:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>¿En qué cantidad puede extraerse trabajo y en cuánta no?</q>"
     },
     {
      "mota": "testua",
@@ -9363,8 +9363,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Pregunta y cálculo de debajo:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>En el proceso de transferir calor <math display=\"inline\"><mi>Q</mi></math> de <math display=\"inline\"><msub><mi>T</mi><mn>1</mn></msub></math> BI a <math display=\"inline\"><msub><mi>T</mi><mn>2</mn></msub></math> BI se ha perdido capacidad de realizar trabajo, ¿cuánta?</q>"
     },
     {
      "mota": "zentratua",
@@ -9403,8 +9403,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "En la siguiente transparencia un gran recuadro da la conclusión general:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Como consecuencia de cualquier proceso irreversible: el efecto sobre el universo es el siguiente: una parte de la cantidad de energía útil para realizar trabajo pasará a no ser útil para realizar trabajo.</q>"
     },
     {
      "mota": "testua",
@@ -9424,16 +9424,16 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Y debajo:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>La fuente de calor con la temperatura más baja que puede obtenerse.</q>"
     },
     {
      "mota": "testua",
      "html": "La frase de las transparencias:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>¡¡¡La energía se va &quot;degradando&quot;!!!</q>"
     },
     {
      "mota": "testua",
@@ -9453,8 +9453,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "La última hoja suelta, casi vacía, refuerza la idea anterior:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>En los procesos irreversibles cambia el carácter de la energía: se degrada la energía para realizar trabajo.</q>"
     }
    ]
   },
@@ -9472,8 +9472,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "En la primera figura está dibujado el proceso irreversible dentro de un sistema aislado. Los textos:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>De forma irreversible: el proceso ha ocurrido espontáneamente.</q>"
     },
     {
      "mota": "testua",
@@ -9506,8 +9506,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "En la segunda figura se unen los mismos estados inicial y final, pero para que el camino sea reversible mediante focos térmicos exteriores y una fuente de trabajo auxiliar. La frase de las transparencias:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>De forma reversible: lo mismo que ha ocurrido en el proceso espontáneo, ¡pero SIN GENERAR ENTROPÍA!</q>"
     },
     {
      "mota": "testua",
@@ -9550,24 +9550,24 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "A continuación se dice que el sistema tiene que llevar al mismo estado final. La nota de las transparencias, en parte manchada:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Pero como tenemos que llevar el sistema al estado final anterior (<math display=\"inline\"><msub><mi>S</mi><mi>f</mi></msub></math> ...), esa energía <math display=\"inline\"><mi>E</mi></math> ha pasado como trabajo a la máquina especial, por lo tanto:</q>"
     },
     {
      "mota": "testua",
      "html": "Recuadro principal:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Para lograr de forma reversible los cambios que han ocurrido de forma irreversible en el entorno próximo del sistema que tenemos entre manos, el calor extraído de las fuentes de calor auxiliares utilizadas pasará en forma de trabajo <math display=\"inline\"><msup><mi>W</mi><mo>′</mo></msup></math> a la fuente de trabajo auxiliar.</q>"
     },
     {
      "mota": "testua",
      "html": "Conclusión de abajo:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>La energía que era útil en forma de trabajo ha dejado de ser útil en forma de trabajo.</q>"
     },
     {
      "mota": "testua",
@@ -9650,16 +9650,16 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Encabezamiento de las transparencias:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>POSTULADO I: DEFINICIÓN DE LOS ESTADOS DE EQUILIBRIO</q>"
     },
     {
      "mota": "testua",
      "html": "Cambia el formalismo utilizado hasta ahora:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Dejando a un lado el formalismo utilizado hasta ahora, a partir de aquí definiremos los estados de equilibrio usando únicamente magnitudes EXTENSIVAS como variables termodinámicas independientes:</q>"
     },
     {
      "mota": "zerrenda",
@@ -9688,16 +9688,16 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Explicación junto a la figura:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Por ejemplo, en este caso no se ven entre sí ni mecánica, ni térmica, ni químicamente. Se dice que tenemos un estado de equilibrio ligado.</q>"
     },
     {
      "mota": "testua",
      "html": "El proceso espontáneo empieza al liberar alguna ligadura interna:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>El proceso espontáneo se iniciará al liberar alguna ligadura interna: en nuestro ejemplo, convirtiendo la pared de separación en diatermo o móvil.</q>"
     },
     {
      "mota": "testua",
@@ -9735,8 +9735,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Las dos últimas condiciones se explican en las transparencias mediante una llave:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Tenemos bloqueado el grado de libertad químico.</q>"
     }
    ]
   },
@@ -9750,8 +9750,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Encabezamiento de las transparencias:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>EXPRESIÓN DE LOS PROCESOS: MEDIANTE EL DIFERENCIAL DE LA ECUACIÓN FUNDAMENTAL</q>"
     },
     {
      "mota": "testua",
@@ -9965,20 +9965,20 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Las transparencias enfrentan dos conjuntos:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Postulado I: definición de los estados de equilibrio.</q>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Postulado II: definición de la función entropía.</q>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Postulado III: características de la función entropía.</q>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Postulado IV: propiedades de la función entropía, bajas temperaturas.</q>"
     },
     {
      "mota": "testua",
@@ -10021,24 +10021,24 @@ KAPITULUAK["02td_01termodinamika"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Estado de equilibrio ligado: el fijado por alguna influencia externa.</q>"
     },
     {
      "mota": "testua",
      "html": "A continuación empieza:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>El problema fundamental de la termodinámica.</q>"
     },
     {
      "mota": "testua",
      "html": "Primer caso:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>(i) Sistema compuesto formado por sistemas simples.</q>"
     },
     {
      "mota": "testua",
@@ -10049,16 +10049,16 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Segundo paso:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>(ii) Generalizar: de forma abstracta, válida para cualquier caso.</q>"
     },
     {
      "mota": "testua",
      "html": "Recuadros:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Un sistema cerrado en estado de equilibrio ligado, una vez liberada alguna ligadura interna, ¿en qué estado de equilibrio terminará?</q>"
     },
     {
      "mota": "testua",
@@ -10078,8 +10078,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Debajo se deja abierto el apartado siguiente:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Condiciones de cierre.</q>"
     }
    ]
   },
@@ -10258,8 +10258,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "La siguiente transparencia lleva la expresión de los procesos al sistema de varios componentes. Encabezamiento:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Expresión de los procesos: mediante el diferencial de la ecuación fundamental.</q>"
     },
     {
      "mota": "testua",
@@ -10379,8 +10379,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "La última línea de abajo está manchada, pero se lee así:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Energía interna <math display=\"inline\"><mo>→</mo></math> trabajo (&quot;térmico&quot;, ... químico).</q>"
     },
     {
      "mota": "oharra",
@@ -10404,8 +10404,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "La página siguiente subraya que las expresiones <math display=\"inline\"><mi>U</mi></math> y <math display=\"inline\"><mi>S</mi></math> son simétricas:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Las expresiones <math display=\"inline\"><mi>U</mi></math> y <math display=\"inline\"><mi>S</mi></math> son simétricas (¡¡equivalentes!!).</q>"
     },
     {
      "mota": "testua",
@@ -10513,8 +10513,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "La última frase de las transparencias:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>¡¡Relación entre las expresiones!!</q>"
     }
    ]
   },
@@ -10532,8 +10532,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Encabezamiento de las transparencias:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Ejemplos: deducción de la ecuación de estado a partir de la ecuación fundamental. En la expresión energética; en la entrópica.</q>"
     },
     {
      "mota": "testua",
@@ -10692,8 +10692,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Nota de las transparencias:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Las magnitudes escritas en minúscula indican el valor por unidad de mol; son magnitudes intensivas.</q>"
     },
     {
      "mota": "zentratua",
@@ -10830,16 +10830,16 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Las siguientes transparencias utilizan el principio extremal para resolver el problema fundamental."
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Resolución del problema fundamental de la termodinámica: principio extremal.</q>"
     },
     {
      "mota": "testua",
      "html": "Primer caso:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Asumiremos que tenemos un sistema hidrostático, pero de esta manera no se pierde ninguna generalidad.</q>"
     },
     {
      "mota": "testua",
@@ -10914,8 +10914,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Advertencia de las transparencias:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Aunque hayamos puesto <math display=\"inline\"><mrow><mi>d</mi><msup><mi>S</mi><mrow><mtext mathvariant=\"normal\">osoa </mtext><mspace width=\"0.333em\"></mspace></mrow></msup><mo>=</mo><mn>0</mn></mrow></math>, ¡¡eso no significa que el proceso ocurra de forma reversible!!</q>"
     },
     {
      "mota": "testua",
@@ -10960,8 +10960,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Última nota:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Es cierto que, en el punto donde se cumple <math display=\"inline\"><mrow><mi>d</mi><msup><mi>S</mi><mrow><mtext mathvariant=\"normal\">osoa </mtext><mspace width=\"0.333em\"></mspace></mrow></msup><mo>=</mo><mn>0</mn></mrow></math>, por el momento no podemos saber si es un máximo o un mínimo. Pero al estudiar las transiciones de fase demostraremos que la segunda derivada de <math display=\"inline\"><mi>S</mi></math> será negativa si tenemos un estado estable. Si no es así, tendremos una transición de fase y más adelante veremos cómo se analizan estos estados.</q>"
     },
     {
      "mota": "izenburua",
@@ -11574,8 +11574,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Variante del ejercicio al final de las transparencias:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q><math display=\"inline\"><mrow><msubsup><mi>T</mi><mi>i</mi><mn>1</mn></msubsup><mo>=</mo><mn>300</mn><mi>K</mi></mrow></math>, <math display=\"inline\"><mrow><msubsup><mi>T</mi><mi>i</mi><mn>2</mn></msubsup><mo>=</mo><mn>400</mn><mi>K</mi></mrow></math>, <math display=\"inline\"><mrow><msubsup><mi>N</mi><mi>i</mi><mn>1</mn></msubsup><mo>=</mo><mn>2</mn></mrow></math>, <math display=\"inline\"><mrow><msubsup><mi>N</mi><mi>i</mi><mn>2</mn></msubsup><mo>=</mo><mn>3</mn></mrow></math>. En este caso, a partir de la ecuación de estado podemos calcular <math display=\"inline\"><msubsup><mi>U</mi><mi>i</mi><mn>1</mn></msubsup></math> y <math display=\"inline\"><msubsup><mi>U</mi><mi>i</mi><mn>2</mn></msubsup></math> conociendo <math display=\"inline\"><msubsup><mi>T</mi><mi>i</mi><mn>1</mn></msubsup></math> y <math display=\"inline\"><msubsup><mi>T</mi><mi>i</mi><mn>2</mn></msubsup></math>. En consecuencia, tenemos <math display=\"inline\"><mrow><msup><mi>U</mi><mrow><mtext mathvariant=\"normal\">osoa </mtext><mspace width=\"0.333em\"></mspace></mrow></msup><mo>=</mo><msup><mi>U</mi><mn>1</mn></msup><mo>+</mo><msup><mi>U</mi><mn>2</mn></msup></mrow></math> y, a partir de ese momento, hay que seguir los pasos dados en el ejercicio anterior.</q>"
     },
     {
      "mota": "izenburua",
@@ -11662,16 +11662,16 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Las transparencias plantean esta pregunta:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Resolución del problema fundamental de la termodinámica: principio extremal. Un sistema pequeño en estado de equilibrio ligado, compuesto o simple, una vez liberada alguna ligadura interna, térmica, mecánica, química..., ¿en qué estado de equilibrio terminará?</q>"
     },
     {
      "mota": "testua",
      "html": "La página siguiente los marca como ejemplo:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>ejemplos C.2.6.3 / C.2.6.4</q>"
     },
     {
      "mota": "izenburua",
@@ -11779,8 +11779,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Las transparencias advierten:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Relación de Gibbs-Duhem: los parámetros intensivos no son independientes.</q>"
     },
     {
      "mota": "testua",
@@ -18083,7 +18083,7 @@ KAPITULUAK["02td_01termodinamika"] = {
       },
       {
        "mota": "testua",
-       "html": "c) La expresión correspondiente a una curva de equilibrio es la siguiente: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>p</mi><mo>=</mo><mi>A</mi><mo>+</mo><mfrac><mi>B</mi><mi>T</mi></mfrac><mo>+</mo><mi>C</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>T</mi></mrow></math>. ¿Cuál es el calor latente de vaporización?"
+       "html": "c) La expresión correspondiente a una curva de equilibrio es la siguiente: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>p</mi><mo>=</mo><mi>A</mi><mo>+</mo><mfrac><mi>B</mi><mi>T</mi></mfrac><mo>+</mo><mi>C</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>T</mi></mrow></math></span>. ¿Cuál es el calor latente de vaporización?"
       },
       {
        "mota": "testua",
@@ -18531,7 +18531,7 @@ KAPITULUAK["02td_01termodinamika"] = {
     },
     {
      "mota": "testua",
-     "html": "Los comentarios de la página dejan tres ejercicios: para el gas ideal el corchete es cero; este factor también puede utilizarse <math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>V</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>U</mi></msub><mo>=</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>V</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>S</mi></msub><mo>+</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>S</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>V</mi></msub><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>S</mi></mrow><mrow><mi>∂</mi><mi>V</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>U</mi></msub></mrow></math> ; y el resultado <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mi>T</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>V</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> hay que representarlo en un gráfico."
+     "html": "Los comentarios de la página dejan tres ejercicios: para el gas ideal el corchete es cero; este factor también puede utilizarse <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>V</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>U</mi></msub><mo>=</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>V</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>S</mi></msub><mo>+</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>S</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>V</mi></msub><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>S</mi></mrow><mrow><mi>∂</mi><mi>V</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>U</mi></msub></mrow></math></span> ; y el resultado <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mi>T</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>V</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> hay que representarlo en un gráfico."
     },
     {
      "mota": "izenburua",
@@ -18738,8 +18738,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "mota": "zerrenda",
      "ordenatua": false,
      "elementuak": [
-      "Parámetro de enfriamiento <math display=\"inline\"><mi>V</mi></math> : cuando <math display=\"inline\"><mrow><mi>S</mi><mo>=</mo><mtext mathvariant=\"normal\">kte</mtext></mrow></math> <math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>V</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>S</mi></msub><mo>=</mo><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>T</mi><msub><mi>C</mi><mi>V</mi></msub></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mi>α</mi><msub><mi>κ</mi><mi>T</mi></msub></mfrac></mrow></math>; cuando <math display=\"inline\"><mrow><mi>U</mi><mo>=</mo><mtext mathvariant=\"normal\">kte</mtext></mrow></math> <math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>V</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>U</mi></msub><mo>=</mo><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><msub><mi>C</mi><mi>V</mi></msub></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>T</mi><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>P</mi></mrow><mrow><mi>∂</mi><mi>T</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>V</mi></msub><mo>−</mo><mi>P</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>.",
-      "Parámetro de enfriamiento <math display=\"inline\"><mi>P</mi></math> : cuando <math display=\"inline\"><mrow><mi>S</mi><mo>=</mo><mtext mathvariant=\"normal\">kte</mtext></mrow></math> <math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>P</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>S</mi></msub><mo>=</mo><mfrac><mrow><mi>T</mi><mi>V</mi><mi>α</mi></mrow><msub><mi>C</mi><mi>P</mi></msub></mfrac></mrow></math>; cuando <math display=\"inline\"><mrow><mi>H</mi><mo>=</mo><mtext mathvariant=\"normal\">kte</mtext></mrow></math> <math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>P</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>H</mi></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><msub><mi>C</mi><mi>P</mi></msub></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>T</mi><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>V</mi></mrow><mrow><mi>∂</mi><mi>T</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>P</mi></msub><mo>−</mo><mi>V</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>."
+      "Parámetro de enfriamiento <math display=\"inline\"><mi>V</mi></math> : cuando <math display=\"inline\"><mrow><mi>S</mi><mo>=</mo><mtext mathvariant=\"normal\">kte</mtext></mrow></math> <math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>V</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>S</mi></msub><mo>=</mo><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>T</mi><msub><mi>C</mi><mi>V</mi></msub></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mi>α</mi><msub><mi>κ</mi><mi>T</mi></msub></mfrac></mrow></math>; cuando <math display=\"inline\"><mrow><mi>U</mi><mo>=</mo><mtext mathvariant=\"normal\">kte</mtext></mrow></math> <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>V</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>U</mi></msub><mo>=</mo><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><msub><mi>C</mi><mi>V</mi></msub></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>T</mi><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>P</mi></mrow><mrow><mi>∂</mi><mi>T</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>V</mi></msub><mo>−</mo><mi>P</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>.",
+      "Parámetro de enfriamiento <math display=\"inline\"><mi>P</mi></math> : cuando <math display=\"inline\"><mrow><mi>S</mi><mo>=</mo><mtext mathvariant=\"normal\">kte</mtext></mrow></math> <math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>P</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>S</mi></msub><mo>=</mo><mfrac><mrow><mi>T</mi><mi>V</mi><mi>α</mi></mrow><msub><mi>C</mi><mi>P</mi></msub></mfrac></mrow></math>; cuando <math display=\"inline\"><mrow><mi>H</mi><mo>=</mo><mtext mathvariant=\"normal\">kte</mtext></mrow></math> <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>P</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>H</mi></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><msub><mi>C</mi><mi>P</mi></msub></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>T</mi><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>V</mi></mrow><mrow><mi>∂</mi><mi>T</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>P</mi></msub><mo>−</mo><mi>V</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>."
      ]
     },
     {

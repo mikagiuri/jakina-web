@@ -312,7 +312,7 @@ KAPITULUAK["05mk_08kaosa"] = {
     },
     {
      "mota": "testua",
-     "html": "Baina badauzka hain errazak ez diren beste propietate ikaragarri batzuk ere. Adibidez, luzera gabekoa da eta bere dimentsioa <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>/</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>3</mn><mo>&lt;</mo><mn>1</mn></mrow></math>. Dimentsioa osoa ez denez, <strong>fraktala</strong> dela esaten da."
+     "html": "Baina badauzka hain errazak ez diren beste propietate ikaragarri batzuk ere. Adibidez, luzera gabekoa da eta bere dimentsioa <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>/</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>3</mn><mo>&lt;</mo><mn>1</mn></mrow></math></span>. Dimentsioa osoa ez denez, <strong>fraktala</strong> dela esaten da."
     },
     {
      "mota": "testua",
@@ -373,7 +373,7 @@ KAPITULUAK["05mk_08kaosa"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mi>K</mi></math> koefizientea (kasu honetan luzera) konstante egokia da. Estali nahi duguna karratu bat bada, adierazpen berbera betetzen da, baina orain karratuaren dimentsioak bi direnez, <math display=\"inline\"><mrow><mi>D</mi><mo>=</mo><mn>2</mn></mrow></math> erabili behar da eta <math display=\"inline\"><mi>K</mi></math> karratuaren azalerarekiko proportzionala izango da. Era berean, erraz ikusten da kubo baten eta edozein multzo «arrunten» kasuan, <math display=\"inline\"><mi>d</mi></math> diametroko bolen bidez egindako estalkietan formula hori betetzen dela. Ondorioz, adierazpen hori erabiliko da kasu guztietan (eta ez bakarrik kasu arruntetan) dimentsioa definitzeko. Testuinguru honetan <math display=\"inline\"><mi>K</mi></math> konstantea interes gabekoa denez, hurrengo adierazpen baliokideaz balia gaitezke: <math display=\"block\"><mrow><mi>D</mi><mo>=</mo><mi>−</mi><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>d</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>N</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>d</mi></mrow></mfrac><mi>.</mi></mrow></math>"
+     "html": "<math display=\"block\"><mi>K</mi></math> koefizientea (kasu honetan luzera) konstante egokia da. Estali nahi duguna karratu bat bada, adierazpen berbera betetzen da, baina orain karratuaren dimentsioak bi direnez, <math display=\"inline\"><mrow><mi>D</mi><mo>=</mo><mn>2</mn></mrow></math> erabili behar da eta <math display=\"inline\"><mi>K</mi></math> karratuaren azalerarekiko proportzionala izango da. Era berean, erraz ikusten da kubo baten eta edozein multzo «arrunten» kasuan, <math display=\"inline\"><mi>d</mi></math> diametroko bolen bidez egindako estalkietan formula hori betetzen dela. Ondorioz, adierazpen hori erabiliko da kasu guztietan (eta ez bakarrik kasu arruntetan) dimentsioa definitzeko. Testuinguru honetan <math display=\"inline\"><mi>K</mi></math> konstantea interes gabekoa denez, hurrengo adierazpen baliokideaz balia gaitezke: <math display=\"block\"><mrow><mi>D</mi><mo>=</mo><mi>−</mi><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>d</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>N</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>d</mi></mrow></mfrac><mi>.</mi></mrow></math>"
     },
     {
      "mota": "irudia",
@@ -386,7 +386,7 @@ KAPITULUAK["05mk_08kaosa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Erabili 8.16 irudia von Kochen fraktalaren dimentsioa <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>4</mn><mi>/</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>3</mn><mo>≈</mo><mn>1.26186</mn></mrow></math> dela frogatzeko. (Ikus, halaber, 8.12.2 problema.)"
+       "html": "Erabili 8.16 irudia von Kochen fraktalaren dimentsioa <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>4</mn><mi>/</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>3</mn><mo>≈</mo><mn>1.26186</mn></mrow></math></span> dela frogatzeko. (Ikus, halaber, 8.12.2 problema.)"
       }
      ]
     }
@@ -778,6 +778,10 @@ KAPITULUAK["05mk_08kaosa"] = {
       {
        "mota": "testua",
        "html": "Mahai horizontal leun batean hiru disko finko berdin daude, <math display=\"inline\"><mn>2.5</mn></math> m-ko aldeko triangelu aldekide baten erpinetan. Diskoen erradioak 1 m luze dira. Norabide berean, baina jotze-parametro desberdinekin, partikula puntualak jaurtitzen dira diskoen kontra. Talkak elastikoak dira. Marraztu sakabanatze-funtzioa."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/8dc323284fb4259c.svg\" alt=\"\" style=\"width:99px\" loading=\"lazy\">"
       }
      ]
     },

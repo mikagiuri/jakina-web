@@ -155,12 +155,12 @@ KAPITULUAK["05mk_04zentralak"] = {
        "html": "Egiaztatu higidura-ekuazioak honako hauek direla koordenatu polarretan:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>m</mi><mover><mi>r</mi><mo accent=\"true\">̈</mo></mover><mo>−</mo><mi>m</mi><mi>r</mi><msup><mover><mi>ϕ</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>+</mo><msup><mi>V</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>,</mo></mrow></math>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>m</mi><msup><mi>r</mi><mn>2</mn></msup><mover><mi>ϕ</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></msup><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -180,7 +180,7 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mover><mi>ϕ</mi><mo accent=\"true\">̇</mo></mover><mo>&gt;</mo><mn>0</mn></mrow></math> denean, momentu angeluarraren (4.7) kontserbazio-legetik <math display=\"block\"><mrow><mover><mi>ϕ</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mfrac><mi>L</mi><mrow><mi>m</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac></mrow></math> abiadura angeluarra askatuz, honela idazten da higidura erradialaren (4.10)  ekuazioa: <math display=\"block\"><mrow><mi>m</mi><mover><mi>r</mi><mo accent=\"true\">̈</mo></mover><mo>=</mo><mi>−</mi><msup><mi>V</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>m</mi><mi>r</mi><msup><mover><mi>ϕ</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>d</mi><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mi>d</mi><mi>r</mi></mrow></mfrac><mo>+</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mi>m</mi><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mi>d</mi><mrow><mi>d</mi><mi>r</mi></mrow></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>.</mi></mrow></math>"
+     "html": "<math display=\"block\"><mrow><mover><mi>ϕ</mi><mo accent=\"true\">̇</mo></mover><mo>&gt;</mo><mn>0</mn></mrow></math> denean, momentu angeluarraren (4.7) kontserbazio-legetik <math display=\"block\"><mrow><mover><mi>ϕ</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mfrac><mi>L</mi><mrow><mi>m</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac></mrow></math> abiadura angeluarra askatuz, honela idazten da higidura erradialaren (4.10)  ekuazioa: <math display=\"block\"><mrow><mi>m</mi><mover><mi>r</mi><mo accent=\"true\">̈</mo></mover><mo>=</mo><mi>−</mi><msup><mi>V</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>m</mi><mi>r</mi><msup><mover><mi>ϕ</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>d</mi><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mi>d</mi><mi>r</mi></mrow></mfrac><mo>+</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mi>m</mi><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mi>d</mi><mrow><mi>d</mi><mi>r</mi></mrow></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>.</mi></mrow></math>"
     },
     {
      "mota": "ariketa",
@@ -190,8 +190,8 @@ KAPITULUAK["05mk_04zentralak"] = {
        "html": "Zergatik deitzen zaio <strong>indar zentrifugoa</strong>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>m</mi><mi>r</mi><msup><mover><mi>ϕ</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>=</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mi>m</mi><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mi>d</mi><mrow><mi>d</mi><mi>r</mi></mrow></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>"
       },
       {
        "mota": "testua",
@@ -259,7 +259,7 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "testua",
-     "html": "Jakina, azken hau (4.8) energia mekanikoa da, abiadura angeluarra (4.7) kontserbazio-legearen bidez ezabatu ondoren. Orain, 1.4.3 ataleko aldagaien banantzearen metodoa erabiltzen badugu, higidura erradialaren ekuazioa <math display=\"block\"><mrow><mi>d</mi><mi>t</mi><mo>=</mo><mi>±</mi><mfrac><mrow><mi>d</mi><mi>r</mi></mrow><msqrt><mrow><mfrac><mn>2</mn><mi>m</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><msub><mi>V</mi><mi>e</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msqrt></mfrac><mo>=</mo><mi>±</mi><mfrac><mrow><mi>d</mi><mi>r</mi></mrow><msqrt><mrow><mfrac><mn>2</mn><mi>m</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msqrt></mfrac></mrow></math> da —gogoratu (1.109)—. Honen soluzioa, (1.111)-ri dagokiona, integral bat eta <math display=\"inline\"><mrow><mi>r</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msub><mi>r</mi><mn>0</mn></msub></mrow></math> hastapen-baldintza erabiliz lortzen da: <math display=\"block\"><mrow><mi>t</mi><mo>−</mo><msub><mi>t</mi><mn>0</mn></msub><mo>=</mo><mi>±</mi><msubsup><mo>∫</mo><msub><mi>r</mi><mn>0</mn></msub><mi>r</mi></msubsup><mfrac><mrow><mi>d</mi><mi>r</mi></mrow><msqrt><mrow><mfrac><mn>2</mn><mi>m</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msqrt></mfrac><mi>.</mi></mrow></math> Integral hau ebazten badugu <math display=\"inline\"><mi>t</mi></math> denbora <math display=\"inline\"><mi>r</mi></math> distantziaren menpean ezagutuko dugu eta, funtzio hori alderantzikatuz, <math display=\"inline\"><mrow><mi>r</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> soluzioa. Jakina, bi eragiketa matematiko horiek egiteko, askotan metodo hurbildutara (agian, zenbakizko metodo egoki batera<span class=\"j-oin\">[Ikus `http://tp.lc.ehu.eus/jma/mekanika/zentralak/zentrala.html` orrialdea.]</span>) jo beharko da, <math display=\"inline\"><mrow><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> potentzial gehienen kasuan era zehatzean egitea zaila edo ezinezkoa baita."
+     "html": "Jakina, azken hau (4.8) energia mekanikoa da, abiadura angeluarra (4.7) kontserbazio-legearen bidez ezabatu ondoren. Orain, 1.4.3 ataleko aldagaien banantzearen metodoa erabiltzen badugu, higidura erradialaren ekuazioa <math display=\"block\"><mrow><mi>d</mi><mi>t</mi><mo>=</mo><mi>±</mi><mfrac><mrow><mi>d</mi><mi>r</mi></mrow><msqrt><mrow><mfrac><mn>2</mn><mi>m</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><msub><mi>V</mi><mi>e</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msqrt></mfrac><mo>=</mo><mi>±</mi><mfrac><mrow><mi>d</mi><mi>r</mi></mrow><msqrt><mrow><mfrac><mn>2</mn><mi>m</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msqrt></mfrac></mrow></math> da —gogoratu (1.109)—. Honen soluzioa, (1.111)-ri dagokiona, integral bat eta <math display=\"inline\"><mrow><mi>r</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msub><mi>r</mi><mn>0</mn></msub></mrow></math> hastapen-baldintza erabiliz lortzen da: <math display=\"block\"><mrow><mi>t</mi><mo>−</mo><msub><mi>t</mi><mn>0</mn></msub><mo>=</mo><mi>±</mi><msubsup><mo>∫</mo><msub><mi>r</mi><mn>0</mn></msub><mi>r</mi></msubsup><mfrac><mrow><mi>d</mi><mi>r</mi></mrow><msqrt><mrow><mfrac><mn>2</mn><mi>m</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msqrt></mfrac><mi>.</mi></mrow></math> Integral hau ebazten badugu <math display=\"inline\"><mi>t</mi></math> denbora <math display=\"inline\"><mi>r</mi></math> distantziaren menpean ezagutuko dugu eta, funtzio hori alderantzikatuz, <math display=\"inline\"><mrow><mi>r</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> soluzioa. Jakina, bi eragiketa matematiko horiek egiteko, askotan metodo hurbildutara (agian, zenbakizko metodo egoki batera<span class=\"j-oin\">[Ikus <a href=\"http://tp.lc.ehu.eus/jma/mekanika/zentralak/zentrala.html\" target=\"_blank\" rel=\"noopener\"><code>http://tp.lc.ehu.eus/jma/mekanika/zentralak/zentrala.html</code></a> orrialdea.]</span>) jo beharko da, <math display=\"inline\"><mrow><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> potentzial gehienen kasuan era zehatzean egitea zaila edo ezinezkoa baita."
     },
     {
      "mota": "izenburua",
@@ -291,12 +291,12 @@ KAPITULUAK["05mk_04zentralak"] = {
        "html": "Erabili <math display=\"inline\"><mrow><mi>r</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>ϕ</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msub><mi>r</mi><mn>0</mn></msub></mrow></math> hastapen-baldintza eta <math display=\"inline\"><mi>δ</mi></math> integrazio-konstantea, orbitaren ekuazioa hurrengo bi modu baliokideetara idazten dela frogatzeko:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>ϕ</mi><mo>−</mo><msub><mi>ϕ</mi><mn>0</mn></msub><mo>=</mo><mi>∓</mi><msubsup><mo>∫</mo><mrow><mn>1</mn><mi>/</mi><msub><mi>r</mi><mn>0</mn></msub></mrow><mrow><mn>1</mn><mi>/</mi><mi>r</mi></mrow></msubsup><mfrac><mrow><mi>d</mi><mi>u</mi></mrow><msqrt><mrow><mfrac><mrow><mn>2</mn><mi>m</mi></mrow><msup><mi>L</mi><mn>2</mn></msup></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><mi>V</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mi>u</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>−</mo><msup><mi>u</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mo>,</mo></mrow></math>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>ϕ</mi><mo>−</mo><mi>δ</mi><mo>=</mo><mi>∓</mi><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>u</mi></mrow><msqrt><mrow><mfrac><mrow><mn>2</mn><mi>m</mi></mrow><msup><mi>L</mi><mn>2</mn></msup></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><mi>V</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mi>u</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>−</mo><msup><mi>u</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -312,8 +312,8 @@ KAPITULUAK["05mk_04zentralak"] = {
        "html": "Froga ezazu <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mi>−</mi><mn>2</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn></mrow></math> kasuetan (4.30)–(4.31) integralak hurrengoa erabiliz ebatz daitezkeela (parentesi arteko baldintzak betetzen badira):"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><msqrt><mrow><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi></mrow></msqrt></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><msqrt><mrow><mi>−</mi><mi>a</mi></mrow></msqrt></mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> arccos </mtext><mspace width=\"0.333em\"></mspace></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mrow><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><msqrt><mi mathvariant=\"normal\">Δ</mi></msqrt></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>a</mi><mo>&lt;</mo><mn>0</mn><mo>,</mo><mi mathvariant=\"normal\">Δ</mi><mo>≡</mo><msup><mi>b</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>a</mi><mi>c</mi><mo>&gt;</mo><mn>0</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -424,16 +424,16 @@ KAPITULUAK["05mk_04zentralak"] = {
      "html": "<math display=\"inline\"><mi>k</mi></math> proportzionaltasun-konstantearen zeinuaren arabera, bi motatako indar newtondarrak ditugu:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "par"
+     "mota": "testua",
+     "html": "<strong>Indar erakarlea</strong>  <math display=\"inline\"><mrow><mi>k</mi><mo>&gt;</mo><mn>0</mn></mrow></math> denean. Adibidez, bi partikulen arteko erakarpen grabitatorioa deskribatzen duen Newtonen grabitazio unibertsalaren legean:"
     },
     {
      "mota": "testua",
      "html": "<math display=\"block\"><mrow><mi>k</mi><mo>=</mo><mi>G</mi><msub><mi>m</mi><mn>1</mn></msub><msub><mi>m</mi><mn>2</mn></msub><mo>&gt;</mo><mn>0</mn><mi>.</mi></mrow></math>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "par"
+     "mota": "testua",
+     "html": "<strong>Indar aldaratzailea</strong>  <math display=\"inline\"><mrow><mi>k</mi><mo>&lt;</mo><mn>0</mn></mrow></math> denean. Adibidez, Coulomben legearen arabera, bi kargen arteko elkarrekintza elektrostatikoan"
     },
     {
      "mota": "testua",
@@ -441,7 +441,7 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "irudia",
-     "oina": "Energia potentzial eraginkorra. (a) Indar erakarlea. (b) Indar aldaratzailea<span class=\"j-oin\">[Ikus\n    `.../kepler.html` eta\n    `.../erlatiboa.html` animazioak.]</span>",
+     "oina": "Energia potentzial eraginkorra. (a) Indar erakarlea. (b) Indar aldaratzailea<span class=\"j-oin\">[Ikus\n    <a href=\"http://tp.lc.ehu.eus/jma/mekanika/zentralak/kepler.html\" target=\"_blank\" rel=\"noopener\"><code>.../kepler.html</code></a> eta\n    <a href=\"http://tp.lc.ehu.eus/jma/mekanika/zentralak/erlatiboa.html\" target=\"_blank\" rel=\"noopener\"><code>.../erlatiboa.html</code></a> animazioak.]</span>",
      "src": "media/irudiak/d2aa3f02abac063f.svg",
      "zabalera": 466
     },
@@ -535,7 +535,7 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "testua",
-     "html": "Ekuazioa koordenatu kartesiarretan idazteko, (1.4)–(1.5) transformazio-ekuazioak erabiliko ditugu <math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><mi>ε</mi><mi>r</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>±</mo><mi>r</mi><mo>=</mo><mi>ε</mi><mi>x</mi><mo>±</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></msqrt></mrow></math> adierazpen baliokidetik erro karratua ezabatzeko: <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>−</mo><mi>ε</mi><mi>x</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></math>, edota <math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>ε</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>ε</mi><mi>p</mi><mi>x</mi><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><msup><mi>p</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math>"
+     "html": "Ekuazioa koordenatu kartesiarretan idazteko, (1.4)–(1.5) transformazio-ekuazioak erabiliko ditugu <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><mi>ε</mi><mi>r</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>±</mo><mi>r</mi><mo>=</mo><mi>ε</mi><mi>x</mi><mo>±</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></msqrt></mrow></math></span> adierazpen baliokidetik erro karratua ezabatzeko: <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>−</mo><mi>ε</mi><mi>x</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></math>, edota <math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>ε</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>ε</mi><mi>p</mi><mi>x</mi><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><msup><mi>p</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math>"
     },
     {
      "mota": "ariketa",
@@ -636,8 +636,8 @@ KAPITULUAK["05mk_04zentralak"] = {
        "html": "Osatu karratuak (4.60) ekuazioan modu honetan idazteko:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>1</mn><mo>−</mo><msup><mi>ε</mi><mn>2</mn></msup></mrow><mi>p</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mfrac><mrow><mi>ε</mi><mi>p</mi></mrow><mrow><mn>1</mn><mo>−</mo><msup><mi>ε</mi><mn>2</mn></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>+</mo><mfrac><mrow><mn>1</mn><mo>−</mo><msup><mi>ε</mi><mn>2</mn></msup></mrow><msup><mi>p</mi><mn>2</mn></msup></mfrac><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -653,8 +653,8 @@ KAPITULUAK["05mk_04zentralak"] = {
        "html": "Egiaztatu honako propietate hauek betetzen direla:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msup><mi>b</mi><mn>2</mn></msup><mo>+</mo><msup><mi>c</mi><mn>2</mn></msup><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mi>ε</mi><mo>=</mo><mfrac><mi>c</mi><mi>a</mi></mfrac><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -745,7 +745,7 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mi>P</mi></math> puntuko <math display=\"inline\"><mi>x</mi></math> abzisa honako hau da: <math display=\"block\"><mrow><mi>x</mi><mo>=</mo><mover><mrow><mi>C</mi><mi>Q</mi></mrow><mo accent=\"true\">¯</mo></mover><mo>−</mo><mover><mrow><mi>O</mi><mi>C</mi></mrow><mo accent=\"true\">¯</mo></mover><mo>=</mo><mi>a</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ψ</mi><mo>−</mo><mi>c</mi><mo>=</mo><mi>a</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">cos</mi><mi>ψ</mi><mo>−</mo><mi>ε</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math> Bestalde, elipsearen (4.68) ekuazioaz baliatuz, hauxe dugu: <math display=\"block\"><mrow><mi>y</mi><mo>=</mo><mi>±</mi><mi>b</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>c</mi></mrow><mi>a</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mi>±</mi><mi>b</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>ψ</mi></mrow></msqrt><mo>=</mo><mi>b</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ψ</mi><mi>.</mi></mrow></math> (Azken emaitzaren zeinua irudia erabiliz aurkitzen da, jakina.) Beraz, honela kalkulatzen dira koordenatu kartesiarrak anomalia eszentrikoaren bidez: <math display=\"block\"><mrow><mi>x</mi><mo>=</mo><mi>a</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">cos</mi><mi>ψ</mi><mo>−</mo><mi>ε</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>y</mi><mo>=</mo><mi>b</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ψ</mi><mi>.</mi></mrow></math>"
+     "html": "<math display=\"block\"><mi>P</mi></math> puntuko <math display=\"inline\"><mi>x</mi></math> abzisa honako hau da: <math display=\"block\"><mrow><mi>x</mi><mo>=</mo><mover><mrow><mi>C</mi><mi>Q</mi></mrow><mo accent=\"true\">¯</mo></mover><mo>−</mo><mover><mrow><mi>O</mi><mi>C</mi></mrow><mo accent=\"true\">¯</mo></mover><mo>=</mo><mi>a</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ψ</mi><mo>−</mo><mi>c</mi><mo>=</mo><mi>a</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">cos</mi><mi>ψ</mi><mo>−</mo><mi>ε</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math> Bestalde, elipsearen (4.68) ekuazioaz baliatuz, hauxe dugu: <math display=\"block\"><mrow><mi>y</mi><mo>=</mo><mi>±</mi><mi>b</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>c</mi></mrow><mi>a</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mi>±</mi><mi>b</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>ψ</mi></mrow></msqrt><mo>=</mo><mi>b</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ψ</mi><mi>.</mi></mrow></math> (Azken emaitzaren zeinua irudia erabiliz aurkitzen da, jakina.) Beraz, honela kalkulatzen dira koordenatu kartesiarrak anomalia eszentrikoaren bidez: <math display=\"block\"><mrow><mi>x</mi><mo>=</mo><mi>a</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">cos</mi><mi>ψ</mi><mo>−</mo><mi>ε</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>y</mi><mo>=</mo><mi>b</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ψ</mi><mi>.</mi></mrow></math>"
     },
     {
      "mota": "ariketa",
@@ -755,12 +755,12 @@ KAPITULUAK["05mk_04zentralak"] = {
        "html": "Froga ezazu koordenatu polarrak hurrengo adierazpenek emandakoak direla:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>r</mi><mo>=</mo><mi>a</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>ε</mi><mi mathvariant=\"normal\">cos</mi><mi>ψ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mfrac><mi>ϕ</mi><mn>2</mn></mfrac><mo>=</mo><msqrt><mfrac><mrow><mn>1</mn><mo>+</mo><mi>ε</mi></mrow><mrow><mn>1</mn><mo>−</mo><mi>ε</mi></mrow></mfrac></msqrt><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mfrac><mi>ψ</mi><mrow><mn>2</mn><mi>.</mi></mrow></mfrac></mrow></math>"
       }
      ]
     },
@@ -821,8 +821,8 @@ KAPITULUAK["05mk_04zentralak"] = {
        "html": "Froga ezazu hauxe dela suziri bati Lurreko azalean eman behar zaion abiadurarik txikiena, infiniturantz alde egiteko gai izan dadin:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msub><mi>v</mi><mi>i</mi></msub><mo>=</mo><msqrt><mrow><mn>2</mn><mi>g</mi><msub><mi>R</mi><mo>⊕</mo></msub></mrow></msqrt><mo>≈</mo><mn>11.18</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> km/s</mtext></mrow><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -898,8 +898,8 @@ KAPITULUAK["05mk_04zentralak"] = {
        "html": "Egiaztatu hurrengo propietateak betetzen direla:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msup><mi>c</mi><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mi>ε</mi><mo>=</mo><mfrac><mi>c</mi><mi>a</mi></mfrac><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -908,12 +908,12 @@ KAPITULUAK["05mk_04zentralak"] = {
      "html": "Orbita, beraz, hiperbola-adar bat da: ardatzerdi nagusia <math display=\"inline\"><mi>a</mi></math> da, ardatzerdi txikia <math display=\"inline\"><mi>b</mi></math>, eta foku-parametroa <math display=\"inline\"><mi>c</mi></math>. Gainera, hiperbolaren zentroa <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntuan dago eta, hortaz, jatorria (hau da, indar-poloa) hiperbolaren fokuetako batean. Hiperbolak bi adar dituenez, bi orbita adierazten dira (4.93) ekuazioan:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "par"
+     "mota": "testua",
+     "html": "• Indarra erakarlea denean (<math display=\"inline\"><mrow><mi>k</mi><mo>&gt;</mo><mn>0</mn></mrow></math>), <math display=\"inline\"><mi>+</mi></math> zeinua aukeratu behar da (4.92) ekuazioan eta indar-polotik hurbilen dagoen adarra dugu."
     },
     {
-     "mota": "ezezaguna",
-     "izena": "par"
+     "mota": "testua",
+     "html": "• Indar aldaratzaileen kasuan (<math display=\"inline\"><mrow><mi>k</mi><mo>&lt;</mo><mn>0</mn></mrow></math>), <math display=\"inline\"><mi>−</mi></math> zeinua erabili behar da eta (4.92) ekuazioak adar urruna deskribatzen du."
     },
     {
      "mota": "ariketa",
@@ -952,10 +952,6 @@ KAPITULUAK["05mk_04zentralak"] = {
      "oina": "Orbita newtondarrak.",
      "blokeak": [
       {
-       "mota": "testua",
-       "html": "block(width: 100%)["
-      },
-      {
        "mota": "sarea",
        "zutabeak": "repeat(1, minmax(0,1fr))",
        "zelulak": [
@@ -977,7 +973,7 @@ KAPITULUAK["05mk_04zentralak"] = {
              "blokeak": [
               {
                "mota": "testua",
-               "html": "<math display=\"inline\"><mrow><mi>V</mi><mo>=</mo><mi>−</mi><mfrac><mi>k</mi><mi>r</mi></mfrac><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>k</mi><mo>=</mo><mi>G</mi><msub><mi>m</mi><mn>1</mn></msub><msub><mi>m</mi><mn>2</mn></msub><mo>,</mo><mspace width=\"0.167em\"></mspace><mfrac><mrow><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>q</mi><mn>1</mn></msub><msub><mi>q</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mn>4</mn><mi>π</mi><msub><mi>ε</mi><mn>0</mn></msub></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+               "html": "<math display=\"block\"><mrow><mi>V</mi><mo>=</mo><mi>−</mi><mfrac><mi>k</mi><mi>r</mi></mfrac><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>k</mi><mo>=</mo><mi>G</mi><msub><mi>m</mi><mn>1</mn></msub><msub><mi>m</mi><mn>2</mn></msub><mo>,</mo><mspace width=\"0.167em\"></mspace><mfrac><mrow><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>q</mi><mn>1</mn></msub><msub><mi>q</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mn>4</mn><mi>π</mi><msub><mi>ε</mi><mn>0</mn></msub></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
               }
              ]
             },
@@ -993,7 +989,7 @@ KAPITULUAK["05mk_04zentralak"] = {
              "blokeak": [
               {
                "mota": "testua",
-               "html": "<math display=\"inline\"><mrow><msub><mi>V</mi><mi>e</mi></msub><mo>=</mo><mi>−</mi><mfrac><mi>k</mi><mi>r</mi></mfrac><mo>+</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo>≥</mo><msub><mi>E</mi><mn>0</mn></msub></mrow></math>"
+               "html": "<math display=\"block\"><mrow><msub><mi>V</mi><mi>e</mi></msub><mo>=</mo><mi>−</mi><mfrac><mi>k</mi><mi>r</mi></mfrac><mo>+</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo>≥</mo><msub><mi>E</mi><mn>0</mn></msub></mrow></math>"
               }
              ]
             },
@@ -1009,7 +1005,7 @@ KAPITULUAK["05mk_04zentralak"] = {
              "blokeak": [
               {
                "mota": "testua",
-               "html": "<math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msup><mover><mi>r</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>+</mo><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msup><mover><mi>r</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>+</mo><msub><mi>V</mi><mi>e</mi></msub><mo>≥</mo><msub><mi>E</mi><mn>0</mn></msub></mrow></math>"
+               "html": "<math display=\"block\"><mrow><mi>E</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msup><mover><mi>r</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>+</mo><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msup><mover><mi>r</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>+</mo><msub><mi>V</mi><mi>e</mi></msub><mo>≥</mo><msub><mi>E</mi><mn>0</mn></msub></mrow></math>"
               }
              ]
             },
@@ -1025,7 +1021,7 @@ KAPITULUAK["05mk_04zentralak"] = {
              "blokeak": [
               {
                "mota": "testua",
-               "html": "<math display=\"inline\"><mrow><msub><mi>E</mi><mn>0</mn></msub><mo>=</mo><mi>−</mi><mfrac><mrow><mi>m</mi><msup><mi>k</mi><mn>2</mn></msup></mrow><mrow><mn>2</mn><msup><mi>L</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>"
+               "html": "<math display=\"block\"><mrow><msub><mi>E</mi><mn>0</mn></msub><mo>=</mo><mi>−</mi><mfrac><mrow><mi>m</mi><msup><mi>k</mi><mn>2</mn></msup></mrow><mrow><mn>2</mn><msup><mi>L</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>"
               }
              ]
             },
@@ -1041,7 +1037,7 @@ KAPITULUAK["05mk_04zentralak"] = {
              "blokeak": [
               {
                "mota": "testua",
-               "html": "<math display=\"inline\"><mrow><mi>ε</mi><mo>=</mo><msqrt><mrow><mn>1</mn><mo>−</mo><mfrac><mi>E</mi><msub><mi>E</mi><mn>0</mn></msub></mfrac></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>1</mn><mo>+</mo><mfrac><mrow><mn>2</mn><msup><mi>L</mi><mn>2</mn></msup><mi>E</mi></mrow><mrow><mi>m</mi><msup><mi>k</mi><mn>2</mn></msup></mrow></mfrac></mrow></msqrt></mrow></math>"
+               "html": "<math display=\"block\"><mrow><mi>ε</mi><mo>=</mo><msqrt><mrow><mn>1</mn><mo>−</mo><mfrac><mi>E</mi><msub><mi>E</mi><mn>0</mn></msub></mfrac></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>1</mn><mo>+</mo><mfrac><mrow><mn>2</mn><msup><mi>L</mi><mn>2</mn></msup><mi>E</mi></mrow><mrow><mi>m</mi><msup><mi>k</mi><mn>2</mn></msup></mrow></mfrac></mrow></msqrt></mrow></math>"
               }
              ]
             },
@@ -1057,7 +1053,7 @@ KAPITULUAK["05mk_04zentralak"] = {
              "blokeak": [
               {
                "mota": "testua",
-               "html": "<math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mi>m</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow><mrow><mn>2</mn><msub><mi>E</mi><mn>0</mn></msub></mrow></mfrac></mrow></math>"
+               "html": "<math display=\"block\"><mrow><mi>p</mi><mo>=</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mi>m</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow><mrow><mn>2</mn><msub><mi>E</mi><mn>0</mn></msub></mrow></mfrac></mrow></math>"
               }
              ]
             },
@@ -1073,7 +1069,7 @@ KAPITULUAK["05mk_04zentralak"] = {
              "blokeak": [
               {
                "mota": "testua",
-               "html": "<math display=\"inline\"><mrow><mi>r</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mi>ε</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>+</mo><mfrac><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mfrac><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></mfrac></mrow></math>"
+               "html": "<math display=\"block\"><mrow><mi>r</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mi>ε</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>+</mo><mfrac><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mfrac><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></mfrac></mrow></math>"
               }
              ]
             }
@@ -1110,7 +1106,7 @@ KAPITULUAK["05mk_04zentralak"] = {
         ],
         [
          "<math display=\"inline\"><mrow><msub><mi>E</mi><mn>0</mn></msub><mo>&lt;</mo><mi>E</mi><mo>&lt;</mo><mn>0</mn></mrow></math> <br><math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mi>ε</mi><mo>&lt;</mo><mn>1</mn></mrow></math> <br><span><math display=\"inline\"><mrow><mi>k</mi><mo>&gt;</mo><mn>0</mn></mrow></math></span>",
-         "<math display=\"inline\"><mrow><mfrac><mi>p</mi><mrow><mn>1</mn><mo>+</mo><mi>ε</mi></mrow></mfrac><mo>≤</mo><mi>r</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mn>1</mn><mo>+</mo><mi>ε</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi></mrow></mfrac><mo>≤</mo><mfrac><mi>p</mi><mrow><mn>1</mn><mo>−</mo><mi>ε</mi></mrow></mfrac></mrow></math> <br><math display=\"inline\"><mrow><mn>0</mn><mo>≤</mo><mi>ϕ</mi><mo>≤</mo><mn>2</mn><mi>π</mi></mrow></math> <br><math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mi>−</mi><mfrac><mi>k</mi><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></mrow></math>",
+         "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mfrac><mi>p</mi><mrow><mn>1</mn><mo>+</mo><mi>ε</mi></mrow></mfrac><mo>≤</mo><mi>r</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mn>1</mn><mo>+</mo><mi>ε</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi></mrow></mfrac><mo>≤</mo><mfrac><mi>p</mi><mrow><mn>1</mn><mo>−</mo><mi>ε</mi></mrow></mfrac></mrow></math></span> <br><math display=\"inline\"><mrow><mn>0</mn><mo>≤</mo><mi>ϕ</mi><mo>≤</mo><mn>2</mn><mi>π</mi></mrow></math> <br><math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mi>−</mi><mfrac><mi>k</mi><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></mrow></math>",
          "<math display=\"inline\"><mrow><mn>2</mn><mi>a</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mn>1</mn><mo>+</mo><mi>ε</mi></mrow></mfrac><mo>+</mo><mfrac><mi>p</mi><mrow><mn>1</mn><mo>−</mo><mi>ε</mi></mrow></mfrac></mrow></math> <br><math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mn>1</mn><mo>−</mo><msup><mi>ε</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mi>k</mi><mrow><mn>2</mn><mi>E</mi></mrow></mfrac></mrow></math> <br><math display=\"inline\"><mrow><mi>c</mi><mo>=</mo><mi>ε</mi><mi>a</mi><mspace width=\"1.0em\"></mspace><mi>b</mi><mo>=</mo><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>c</mi><mn>2</mn></msup></mrow></msqrt></mrow></math>",
          "<math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>c</mi></mrow><mi>a</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>y</mi><mi>b</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>1</mn></mrow></math> elipsea <br>Itxia eta periodikoa: irudiko (2) <br><math display=\"inline\"><mrow><mfrac><msup><mi>T</mi><mn>2</mn></msup><msup><mi>a</mi><mn>3</mn></msup></mfrac><mo>=</mo><mfrac><mrow><mn>4</mn><msup><mi>π</mi><mn>2</mn></msup><mi>m</mi></mrow><mi>k</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo>=</mo><mfrac><mrow><mn>4</mn><msup><mi>π</mi><mn>2</mn></msup></mrow><mrow><mi>G</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
         ],
@@ -1122,21 +1118,17 @@ KAPITULUAK["05mk_04zentralak"] = {
         ],
         [
          "<math display=\"inline\"><mrow><mi>E</mi><mo>&gt;</mo><mn>0</mn></mrow></math> <br><math display=\"inline\"><mrow><mi>ε</mi><mo>&gt;</mo><mn>1</mn></mrow></math> <br><span><math display=\"inline\"><mrow><mi>k</mi><mo>&gt;</mo><mn>0</mn></mrow></math></span>",
-         "<math display=\"inline\"><mrow><mfrac><mi>p</mi><mrow><mi>ε</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>≤</mo><mi>r</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mi>ε</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>&lt;</mo><mi>∞</mi></mrow></math> <br><math display=\"inline\"><mrow><mn>0</mn><mo>≤</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&lt;</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> arccos</mtext></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>1</mn><mi>ε</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&lt;</mo><mi>π</mi></mrow></math> <br><math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mfrac><mi>k</mi><mrow><mn>2</mn><mi>a</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mi>v</mi><mo>&gt;</mo><msub><mi>v</mi><mi>i</mi></msub></mrow></math>",
+         "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mfrac><mi>p</mi><mrow><mi>ε</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>≤</mo><mi>r</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mi>ε</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>&lt;</mo><mi>∞</mi></mrow></math></span> <br><span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mn>0</mn><mo>≤</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&lt;</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> arccos</mtext></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>1</mn><mi>ε</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&lt;</mo><mi>π</mi></mrow></math></span> <br><math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mfrac><mi>k</mi><mrow><mn>2</mn><mi>a</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mi>v</mi><mo>&gt;</mo><msub><mi>v</mi><mi>i</mi></msub></mrow></math>",
          "<math display=\"inline\"><mrow><mn>2</mn><mi>a</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mi>ε</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>−</mo><mfrac><mi>p</mi><mrow><mi>ε</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math> <br><math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mfrac><mi>p</mi><mrow><msup><mi>ε</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mi>k</mi><mrow><mn>2</mn><mi>E</mi></mrow></mfrac></mrow></math> <br><math display=\"inline\"><mrow><mi>c</mi><mo>=</mo><mi>ε</mi><mi>a</mi><mspace width=\"1.0em\"></mspace><mi>b</mi><mo>=</mo><msqrt><mrow><msup><mi>c</mi><mn>2</mn></msup><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></msqrt></mrow></math>",
          "<math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>x</mi><mo>−</mo><mi>c</mi></mrow><mi>a</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>y</mi><mi>b</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>1</mn></mrow></math> hiperbola <br>Irekia: irudiko (4), <math display=\"inline\"><mrow><mi>x</mi><mo>&lt;</mo><mi>c</mi></mrow></math> adarra"
         ],
         [
          "<math display=\"inline\"><mrow><mi>E</mi><mo>&gt;</mo><mn>0</mn></mrow></math> <br><math display=\"inline\"><mrow><mi>ε</mi><mo>&gt;</mo><mn>1</mn></mrow></math> <br><span><math display=\"inline\"><mrow><mi>k</mi><mo>&lt;</mo><mn>0</mn></mrow></math></span>",
-         "<math display=\"inline\"><mrow><mfrac><mi>p</mi><mrow><mi>ε</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>≤</mo><mi>r</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mi>ε</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>&lt;</mo><mi>∞</mi></mrow></math> <br><math display=\"inline\"><mrow><mn>0</mn><mo>≤</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&lt;</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> arccos</mtext></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mi>ε</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&lt;</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow></math> <br><math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mi>v</mi><mo>≥</mo><mn>0</mn></mrow></math>",
+         "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mfrac><mi>p</mi><mrow><mi>ε</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>≤</mo><mi>r</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mi>ε</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>&lt;</mo><mi>∞</mi></mrow></math></span> <br><span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mn>0</mn><mo>≤</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&lt;</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> arccos</mtext></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mi>ε</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&lt;</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow></math></span> <br><math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mi>v</mi><mo>≥</mo><mn>0</mn></mrow></math>",
          "<math display=\"inline\"><mrow><mn>2</mn><mi>a</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mi>ε</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>−</mo><mfrac><mi>p</mi><mrow><mi>ε</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math> <br><math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mfrac><mi>p</mi><mrow><msup><mi>ε</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow><mrow><mn>2</mn><mi>E</mi></mrow></mfrac></mrow></math> <br><math display=\"inline\"><mrow><mi>c</mi><mo>=</mo><mi>ε</mi><mi>a</mi><mspace width=\"1.0em\"></mspace><mi>b</mi><mo>=</mo><msqrt><mrow><msup><mi>c</mi><mn>2</mn></msup><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></msqrt></mrow></math>",
          "<math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>x</mi><mo>−</mo><mi>c</mi></mrow><mi>a</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>y</mi><mi>b</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>1</mn></mrow></math> hiperbola <br>Irekia: irudiko (4), <math display=\"inline\"><mrow><mi>x</mi><mo>&gt;</mo><mi>c</mi></mrow></math> adarra"
         ]
        ]
-      },
-      {
-       "mota": "testua",
-       "html": "]"
       }
      ]
     }
@@ -1446,7 +1438,7 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "testua",
-     "html": "1999an bestelako soluzio mota bat aurkitu zen, Eguzkiaren eta Lurraren sistemaren <math display=\"inline\"><msub><mi>L</mi><mn>3</mn></msub></math>, <math display=\"inline\"><msub><mi>L</mi><mn>4</mn></msub></math> eta <math display=\"inline\"><msub><mi>L</mi><mn>5</mn></msub></math> puntuak lotzen dituen orbitak eta, besteak beste, 5 km-ko diametroa duen Cruithne<span class=\"j-oin\">[Ikus `burtleburtle.net/bob/physics/cruithne.html` orrialdeko simulazioa.]</span> asteroidea horrelako batean higitzen da eta, kalkuluen arabera, bertan egongo da 5000 urtez."
+     "html": "1999an bestelako soluzio mota bat aurkitu zen, Eguzkiaren eta Lurraren sistemaren <math display=\"inline\"><msub><mi>L</mi><mn>3</mn></msub></math>, <math display=\"inline\"><msub><mi>L</mi><mn>4</mn></msub></math> eta <math display=\"inline\"><msub><mi>L</mi><mn>5</mn></msub></math> puntuak lotzen dituen orbitak eta, besteak beste, 5 km-ko diametroa duen Cruithne<span class=\"j-oin\">[Ikus <a href=\"http://burtleburtle.net/bob/physics/cruithne.html\" target=\"_blank\" rel=\"noopener\"><code>burtleburtle.net/bob/physics/cruithne.html</code></a> orrialdeko simulazioa.]</span> asteroidea horrelako batean higitzen da eta, kalkuluen arabera, bertan egongo da 5000 urtez."
     },
     {
      "mota": "testua",
@@ -1524,7 +1516,7 @@ KAPITULUAK["05mk_04zentralak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "Irudian ikusten den bezala, <math display=\"block\"><mrow><mi>ε</mi><mo>=</mo><mfrac><mi>p</mi><mi>D</mi></mfrac><mo>=</mo><mfrac><mi>r</mi><mi>d</mi></mfrac><mo>=</mo><mfrac><msup><mi>r</mi><mo>′</mo></msup><msup><mi>d</mi><mo>′</mo></msup></mfrac><mi>.</mi></mrow></math> Bestalde, <math display=\"inline\"><mrow><mi>D</mi><mo>=</mo><mi>r</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>+</mo><mi>d</mi><mo>=</mo><msup><mi>r</mi><mo>′</mo></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msup><mi>ϕ</mi><mo>′</mo></msup><mo>−</mo><msup><mi>d</mi><mo>′</mo></msup></mrow></math> eta hemen <math display=\"block\"><mrow><mi>D</mi><mo>=</mo><mfrac><mi>p</mi><mi>ε</mi></mfrac><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mi>d</mi><mo>=</mo><mfrac><mi>r</mi><mi>ε</mi></mfrac><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><msup><mi>d</mi><mo>′</mo></msup><mo>=</mo><mfrac><msup><mi>r</mi><mo>′</mo></msup><mi>ε</mi></mfrac></mrow></math>"
+         "html": "Irudian ikusten den bezala, <math display=\"block\"><mrow><mi>ε</mi><mo>=</mo><mfrac><mi>p</mi><mi>D</mi></mfrac><mo>=</mo><mfrac><mi>r</mi><mi>d</mi></mfrac><mo>=</mo><mfrac><msup><mi>r</mi><mo>′</mo></msup><msup><mi>d</mi><mo>′</mo></msup></mfrac><mi>.</mi></mrow></math> Bestalde, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>D</mi><mo>=</mo><mi>r</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>+</mo><mi>d</mi><mo>=</mo><msup><mi>r</mi><mo>′</mo></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msup><mi>ϕ</mi><mo>′</mo></msup><mo>−</mo><msup><mi>d</mi><mo>′</mo></msup></mrow></math></span> eta hemen <math display=\"block\"><mrow><mi>D</mi><mo>=</mo><mfrac><mi>p</mi><mi>ε</mi></mfrac><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mi>d</mi><mo>=</mo><mfrac><mi>r</mi><mi>ε</mi></mfrac><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><msup><mi>d</mi><mo>′</mo></msup><mo>=</mo><mfrac><msup><mi>r</mi><mo>′</mo></msup><mi>ε</mi></mfrac></mrow></math>"
         }
        ]
       },
@@ -1677,7 +1669,7 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>σ</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>≪</mo><mn>1</mn></mrow></math> kasuan, azken emaitzan Newtonen binomioa erabiltzen bada, honako hurbilketa hau lortzen dugu: <math display=\"block\"><mrow><mi>δ</mi><msub><mi>ϕ</mi><mo>−</mo></msub><mo>≈</mo><mi>−</mi><mi>π</mi><mi>σ</mi><mi>.</mi></mrow></math>"
+     "html": "<math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>σ</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>≪</mo><mn>1</mn></mrow></math> kasuan, azken emaitzan Newtonen binomioa erabiltzen bada, honako hurbilketa hau lortzen dugu: <math display=\"block\"><mrow><mi>δ</mi><msub><mi>ϕ</mi><mo>−</mo></msub><mo>≈</mo><mi>−</mi><mi>π</mi><mi>σ</mi><mi>.</mi></mrow></math>"
     },
     {
      "mota": "irudia",
@@ -1827,8 +1819,8 @@ KAPITULUAK["05mk_04zentralak"] = {
        "html": ": Ikus 7.5.2 ataleko Lissajousen irudiak eta hurrengo simulazioa:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "link"
+       "mota": "testua",
+       "html": "<a href=\"http://tp.lc.ehu.eus/jma/mekanika/zentralak/harmonikoa.html\" target=\"_blank\" rel=\"noopener\"><code>.../harmonikoa.html</code></a>"
       },
       {
        "mota": "testua",
@@ -1855,6 +1847,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Indar-eremu zentral baten eraginpean higitzen den partikula baten orbita zirkularra da eta <math display=\"inline\"><mi>O</mi></math> indar-poloa orbitan dago. Aurki ezazu orbitaren <math display=\"inline\"><mrow><mi>r</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> ekuazioa eta froga ezazu energia potentziala <math display=\"block\"><mrow><mi>V</mi><mo>=</mo><mi>−</mi><mfrac><mi>k</mi><msup><mi>r</mi><mn>4</mn></msup></mfrac></mrow></math> egiturakoa dela."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/9992c0b608c38768.svg\" alt=\"\" style=\"width:95px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1984,6 +1980,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Testuliburu on batean ondoko irudia erabiltzen zen indar-eremu zentral baten menpeko orbita bornatu orokorraren forma geometrikoa azaltzeko (<math display=\"inline\"><msub><mi>r</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>r</mi><mn>2</mn></msub></math> perizentroaren eta apozentroaren distantziak dira). Zoritxarrez, orbita hori ezinezkoa da. Azaldu zergatik<span class=\"j-oin\">[José Luis Arias irakasle bikainak proposatu zigun problema hau 1970ean, bigarren mailako mekanikan. Urte askotan testuan agertu ondoren, 2004an edo zuzendu zen aipatutako liburuan irudi hori.]</span>."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/48c0eb56326b2f11.svg\" alt=\"\" style=\"width:97px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2084,6 +2084,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Irudiko bi masa berdin malguki baten bidez lotuta daude eta <math display=\"inline\"><mi>R</mi></math> erradioko orbita zirkular berean ari dira higitzen. Malgukiaren berezko luzera <math display=\"inline\"><mi>L</mi></math> da eta konstante berreskuratzailea <math display=\"inline\"><mi>k</mi></math>. Ez dago grabitaterik. Zein da higiduraren periodoa? Era <math display=\"inline\"><mi>R</mi></math> erradioaren balio minimoa? Egonkorra al da orbita?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/68d656c71328fcd1.svg\" alt=\"\" style=\"width:106px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2095,6 +2099,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Bi masa berdin malguki baten bidez lotuta daude, mahai horizontal leun baten gainean. Hasieran geldi daude <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>±</mi><mi>a</mi><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntuetan eta malgukia deformatu gabe. Beste masa berdin bat hurbiltzen zaie <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math> ardatzean barrena eta <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> unean ezkerreko masa jotzen du. Talka elastikoa da eta talka ondoren ere hiru partikulak <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math> ardatzean geratzen dira. Kalkulatu hiru partikulen higidura <math display=\"inline\"><mrow><mi>t</mi><mo>≥</mo><mn>0</mn></mrow></math> tartean."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/19e5d791f6ff3d86.svg\" alt=\"\" style=\"width:180px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2239,6 +2247,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "<math display=\"inline\"><mi>m</mi></math> masako partikula <math display=\"inline\"><msub><mi>l</mi><mn>0</mn></msub></math> luzera propioko malguki baten bidez dago loturik puntu finko batetik, mahai horizontal leun baten gainean. Partikularen abiadura hasieran irudian erakusten dena da eta malgukiaren luzera maximoa <math display=\"inline\"><mrow><mn>2</mn><msub><mi>l</mi><mn>0</mn></msub></mrow></math>. Aurki ezazu malgukiaren <math display=\"inline\"><mi>k</mi></math> konstante berreskuratzailea <math display=\"inline\"><mi>m</mi></math>, <math display=\"inline\"><msub><mi>v</mi><mn>0</mn></msub></math> eta <math display=\"inline\"><msub><mi>l</mi><mn>0</mn></msub></math> datuen funtzioan. Zirriborratu masaren orbita."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/3b18891d24c5317c.svg\" alt=\"\" style=\"width:113px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2261,6 +2273,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "<math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>k</mi><mi>m</mi><mi>/</mi><msup><mi>r</mi><mn>3</mn></msup></mrow></math> moduluko indar zentralak <math display=\"inline\"><mi>O</mi></math> puntu finkorantz erakartzen du <math display=\"inline\"><mi>m</mi></math> masa. Irudiko posizioan partikularen abiadura <math display=\"inline\"><mrow><msub><mi>v</mi><mn>0</mn></msub><mo>=</mo><msqrt><mi>k</mi></msqrt><mi>/</mi><mi>a</mi></mrow></math> da. Erabili kontserbazio-printzipioak partikularen ibilbidea kalkulatzeko. Aurkitu partikularen posizioa denboraren menpean."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/e6ca360602eed984.svg\" alt=\"\" style=\"width:126px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2272,6 +2288,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Irudikoetakoren bat izan daiteke indar-eremu zentral batean higitzen den partikula baten orbita?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/ba550ce08b4e2562.svg\" alt=\"\" style=\"width:205px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2333,6 +2353,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Irudiko masa berdinak hagatxo arin leunean barrena higi daitezke, malguki baten bidez loturik daudela. Sistema hutsean dago, grabitaziorik gabe. Malgukiaren konstante berreskuratzailea <math display=\"inline\"><mi>k</mi></math> da eta luzera propioa <math display=\"inline\"><mi>L</mi></math>. Irudian erakusten den unean malgukia deformatu gabe dago. Higiduran malgukiak duen luzera maximoa <math display=\"inline\"><mrow><mn>5</mn><mi>L</mi></mrow></math> bada, zeintzuk dira <math display=\"inline\"><msub><mi>v</mi><mn>0</mn></msub></math> eta partikulen abiadura minimoak? Zirriborratu masen orbitak."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/78428e40c76225d6.svg\" alt=\"\" style=\"width:207px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2354,7 +2378,7 @@ KAPITULUAK["05mk_04zentralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mi>m</mi></math> masako partikula orbita bornatu batean higitzen ari da <math display=\"inline\"><mrow><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> energia potentzial zentralean. Partikularen energia mekanikoa <math display=\"inline\"><mi>E</mi></math> da, momentu angeluarra <math display=\"inline\"><mrow><mi>L</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, apozentroen distantzia <math display=\"inline\"><mrow><msub><mi>r</mi><mo>+</mo></msub><mo>=</mo><mn>1</mn><mi>/</mi><msub><mi>u</mi><mn>1</mn></msub></mrow></math> eta perizentroena <math display=\"inline\"><mrow><msub><mi>r</mi><mo>−</mo></msub><mo>=</mo><mn>1</mn><mi>/</mi><msub><mi>u</mi><mn>2</mn></msub></mrow></math>. Egiaztatu <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>u</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>u</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> dugula, honako definizio hau egiten bada: <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≡</mo><mfrac><mrow><mn>2</mn><mi>m</mi></mrow><msup><mi>L</mi><mn>2</mn></msup></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>−</mo><msup><mi>u</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math> Frogatu ondoz ondoko bi perizentroren (edo bi apozentroren) arteko denbora-tartea eta distantzia angeluarra honako hauek direla: <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><mn>2</mn><mfrac><mi>m</mi><mi>L</mi></mfrac><msubsup><mo>∫</mo><msub><mi>u</mi><mn>1</mn></msub><msub><mi>u</mi><mn>2</mn></msub></msubsup><mfrac><mrow><mi>d</mi><mi>u</mi></mrow><mrow><msup><mi>u</mi><mn>2</mn></msup><msqrt><mrow><mi mathvariant=\"normal\">Δ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msqrt></mrow></mfrac><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mi mathvariant=\"normal\">Δ</mi><mi>ϕ</mi><mo>=</mo><mn>2</mn><msubsup><mo>∫</mo><msub><mi>u</mi><mn>1</mn></msub><msub><mi>u</mi><mn>2</mn></msub></msubsup><mfrac><mrow><mi>d</mi><mi>u</mi></mrow><msqrt><mrow><mi mathvariant=\"normal\">Δ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msqrt></mfrac><mi>.</mi></mrow></math>"
+       "html": "<math display=\"block\"><mi>m</mi></math> masako partikula orbita bornatu batean higitzen ari da <math display=\"inline\"><mrow><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> energia potentzial zentralean. Partikularen energia mekanikoa <math display=\"inline\"><mi>E</mi></math> da, momentu angeluarra <math display=\"inline\"><mrow><mi>L</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, apozentroen distantzia <math display=\"inline\"><mrow><msub><mi>r</mi><mo>+</mo></msub><mo>=</mo><mn>1</mn><mi>/</mi><msub><mi>u</mi><mn>1</mn></msub></mrow></math> eta perizentroena <math display=\"inline\"><mrow><msub><mi>r</mi><mo>−</mo></msub><mo>=</mo><mn>1</mn><mi>/</mi><msub><mi>u</mi><mn>2</mn></msub></mrow></math>. Egiaztatu <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>u</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>u</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> dugula, honako definizio hau egiten bada: <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≡</mo><mfrac><mrow><mn>2</mn><mi>m</mi></mrow><msup><mi>L</mi><mn>2</mn></msup></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>−</mo><msup><mi>u</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math> Frogatu ondoz ondoko bi perizentroren (edo bi apozentroren) arteko denbora-tartea eta distantzia angeluarra honako hauek direla: <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><mn>2</mn><mfrac><mi>m</mi><mi>L</mi></mfrac><msubsup><mo>∫</mo><msub><mi>u</mi><mn>1</mn></msub><msub><mi>u</mi><mn>2</mn></msub></msubsup><mfrac><mrow><mi>d</mi><mi>u</mi></mrow><mrow><msup><mi>u</mi><mn>2</mn></msup><msqrt><mrow><mi mathvariant=\"normal\">Δ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msqrt></mrow></mfrac><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mi mathvariant=\"normal\">Δ</mi><mi>ϕ</mi><mo>=</mo><mn>2</mn><msubsup><mo>∫</mo><msub><mi>u</mi><mn>1</mn></msub><msub><mi>u</mi><mn>2</mn></msub></msubsup><mfrac><mrow><mi>d</mi><mi>u</mi></mrow><msqrt><mrow><mi mathvariant=\"normal\">Δ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msqrt></mfrac><mi>.</mi></mrow></math>"
       },
       {
        "mota": "testua",
@@ -2423,6 +2447,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Mahai leun batean dauden bi bloke malguki baten bidez loturik daude eta barra horizontal leun batean barrena higi daitezke. Une batean irudian erakusten den konfigurazioan daude, masa-zentroaren sisteman. Higiduran blokeen arteko distantzia maximoa <math display=\"inline\"><mrow><mn>2</mn><mi>L</mi></mrow></math> da. Nola idazten dira <math display=\"inline\"><msub><mi>v</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>v</mi><mn>2</mn></msub></math> abiadurak <math display=\"inline\"><mi>k</mi></math>, <math display=\"inline\"><mi>L</mi></math> eta <math display=\"inline\"><mi>M</mi></math> parametroen funtzioan? <br>  <em>Oharra</em>: Malgukiaren luzera propioa <math display=\"inline\"><mi>L</mi></math> da, bere konstante berreskuratzailea <math display=\"inline\"><mi>k</mi></math>, blokeen masak irudikoak, eta malgukiarena eta barrarena arbuiagarriak."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/52168a4352e90ba3.svg\" alt=\"\" style=\"width:234px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2449,6 +2477,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Eguzkiaren eta kometa baten arteko distantziarik laburrena Lurraren orbitaren erradioaren erdia da, eta aldiune horretan Lurraren abiadura kometarenaren erdia da. Zeintzuk izango dira kometaren posizioa, abiadura eta norabidea, Lurraren orbita zeharkatzean? Nolakoa izango da kometaren orbita? Zuzena al da irudia? <br>  <em>Oharra</em>: Arbuia ezazu Lurraren orbitaren eszentrikotasuna."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/6acb6270ba25de8c.svg\" alt=\"\" style=\"width:148px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2460,6 +2492,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Kometa baten orbita parabolikoa Lurraren orbitaren planoan dago eta bere perihelioaren distantzia <math display=\"inline\"><mi>h</mi></math> da. Froga ezazu Lurraren orbitaren barruan ematen duen denbora honako hau dela: <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><mfrac><msqrt><mn>2</mn></msqrt><mrow><mn>3</mn><mi>π</mi></mrow></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mfrac><mrow><mn>2</mn><mi>h</mi></mrow><mi>R</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msqrt><mrow><mn>1</mn><mo>−</mo><mfrac><mi>h</mi><mi>R</mi></mfrac></mrow></msqrt><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> urte</mtext></mrow><mi>.</mi></mrow></math> Zein da <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></math>-ren baliorik handiena? Balio maximo hori gertatzen denean, zein da kometaren abiadura eskalarra Lurraren orbita zeharkatzean? Eta <math display=\"inline\"><mi>h</mi></math>-ren beste balioekin? <br>  <em>Oharra</em>: Ondoko integraletako bat erabil daiteke: <math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mi>r</mi><mi>d</mi><mi>r</mi></mrow><msqrt><mrow><mi>r</mi><mo>−</mo><mi>h</mi></mrow></msqrt></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo>+</mo><mn>2</mn><mi>h</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msqrt><mrow><mi>r</mi><mo>−</mo><mi>h</mi></mrow></msqrt><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>ϕ</mi></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mi>ϕ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mo>=</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mi>ϕ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mn>3</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mi>ϕ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mi>.</mi></mrow></math>"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/fc7a2e1e13c9a23c.svg\" alt=\"\" style=\"width:97px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2504,6 +2540,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Aldiune batean irudiko satelitearen garaiera (Lurraren gainazaletik neurtua) <math display=\"inline\"><msub><mi>R</mi><mo>⊕</mo></msub></math> da eta bere abiadura <math display=\"block\"><mrow><msub><mi>v</mi><mn>0</mn></msub><mo>=</mo><msqrt><mfrac><mrow><mi>G</mi><msub><mi>M</mi><mo>⊕</mo></msub></mrow><mrow><mn>2</mn><msub><mi>R</mi><mo>⊕</mo></msub></mrow></mfrac></msqrt><mi>.</mi></mrow></math> Abiadura eta bertikalaren arteko angelua <math display=\"inline\"><mi>α</mi></math> da. <br> (a) Nolakoa da orbita <math display=\"inline\"><mrow><mi>α</mi><mo>=</mo><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math> bada? <br> (b) Nola aukeratu behar da <math display=\"inline\"><mi>α</mi></math> angelua satelitearen apogeoa ahalik eta handiena izateko (Lurraren gainean erori gabe, noski)?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/299afeba777a61dd.svg\" alt=\"\" style=\"width:74px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2537,6 +2577,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Irudiko satelitearen orbita parabolikoa da eta bere perigeoa <math display=\"inline\"><mi>P</mi></math> puntuan dago. <math display=\"inline\"><msup><mi>P</mi><mo>′</mo></msup></math> puntura iristean, motorrak pizten dira eta denbora-tarte arbuiagarri batean satelitearen abiaduraren noranzkoa alderantzikatzen da eta bere modulua erdira murrizten. <br> (a) Kalkulatu <math display=\"inline\"><mi>v</mi></math> eta <math display=\"inline\"><msup><mi>v</mi><mo>′</mo></msup></math> abiadurak, <math display=\"inline\"><mrow><mi>O</mi><msup><mi>P</mi><mo>′</mo></msup></mrow></math> distantzia eta <math display=\"inline\"><mi>α</mi></math> angelua. <br> (b) Begi bistan dago orbita berria ez dela parabolikoa izango; kalkulurik egin gabe: nolako orbita izango da halabeharrez? <br> (c) Lurraren gainean eroriko al da satelitea?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/fd8a5353a03fe101.svg\" alt=\"\" style=\"width:88px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2548,6 +2592,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "«Irudiko orbita newtondar guztien ardatz nagusiak berdinak direnez, energia mekanikoak ere berdinak dituk» dio Aitorrek. «Bai zera! Orbita zirkularraren energia, minimoa duk» erantzuten dio Mikelek. Zer uste duzu zuk?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/d222daa5aeecf9c2.svg\" alt=\"\" style=\"width:162px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2691,6 +2739,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Geldi dagoen partikularantz abiatzen da, oso distantzia handitik, partikula berdin bat. Hasieran, azken honen abiadura eta jotze-parametroa <math display=\"inline\"><mi>v</mi></math> eta <math display=\"inline\"><mi>b</mi></math> dira, hurrenez hurren. Partikula bien arteko elkarrekintza grabitatorioa da. Zirriborratu partikula bakoitzaren ibilbidea masa-zentroaren sisteman. Zein da bi partikulen arteko distantzia minimoa? Zer gertatzen da <math display=\"inline\"><mrow><mi>b</mi><mo>=</mo><mn>0</mn></mrow></math> bada? Eta <math display=\"inline\"><mrow><mi>v</mi><mo>→</mo><mn>0</mn></mrow></math> limitean?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/72f78349b91420d8.svg\" alt=\"\" style=\"width:163px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2713,6 +2765,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Indar newtondarren poloa <math display=\"inline\"><mi>O</mi></math> puntuan badago, irudiko kurba sorten artean zein(tzuk) izan daite(zk)e orbitak?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/4f136bea6b9ce49c.svg\" alt=\"\" style=\"width:227px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2735,6 +2791,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Lurraren atmosfera arbuiatzen badugu, izan daiteke irudiko orbita satelite batena?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/49ef52233b77d2e1.svg\" alt=\"\" style=\"width:115px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2779,6 +2839,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "<math display=\"inline\"><mrow><mn>7</mn><msub><mi>R</mi><mo>⊕</mo></msub></mrow></math> erradioko orbita zirkular batean higitzen ari den <math display=\"inline\"><mi>m</mi></math> masako satelite bat berreskuratzeko, irudiko metodoaz baliatu dira. Satelitea <math display=\"inline\"><mi>A</mi></math> puntuan zegoenean, Lurreko <math display=\"inline\"><mi>B</mi></math> puntutik bidali zen <math display=\"inline\"><mi>M</mi></math> masako bigarren satelite bat. Azken honek bakarrik erabili zuen motorra hasieran, tarte laburrean, orbitan jartzeko; gero pisuaren eraginez higitzen zen. Bi sateliteek <math display=\"inline\"><mi>C</mi></math> puntuan elkarrekin topo egitean, loturik geratu ziren eta satelite berria zuzenean erori zen Lurrera, erakusten den moduan. Zein zen bigarren satelitearen abiadura <math display=\"inline\"><mi>B</mi></math> puntuan? Eta amaierako satelitearena Lurrera heltzean? Kalkulatu bigarren satelitearen <math display=\"inline\"><mi>M</mi></math> masa eta noiz igorri zen neurtzen duen <math display=\"inline\"><mi>α</mi></math> angelua."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/eea5d34f455291d7.svg\" alt=\"\" style=\"width:126px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2823,6 +2887,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Satelite baten orbita zirkularraren erradioa Lurrarenaren bikoitza da. Bat-batean satelitearen abiaduraren norabidea aldatzen da, modulua aldatu gabe, irudian erakusten den bezala. Nola aukeratu behar da <math display=\"inline\"><mi>δ</mi></math> angelua orbita berria Lurraren azalaren tangentea izan dadin? Kalkulatu orbita berriaren eszentrikotasuna eta hasierako puntuaren eta perigeoaren arteko distantzia angeluarra."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/6decb4e5052ebade.svg\" alt=\"\" style=\"width:147px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2914,7 +2982,11 @@ KAPITULUAK["05mk_04zentralak"] = {
       },
       {
        "mota": "testua",
-       "html": ".<span class=\"j-oin\">[Ikus, adibidez, .]</span> Satelite bat Eguzkitik urruntzen da norabide erradialean ihes-abiadurarekin. Jupiterren orbita irudian ikusten den puntuan zeharkatzean, planeta honen eraginez, satelitearen abiaduraren norabideak <math display=\"inline\"><mrow><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math> balioko biraketa pairatzen du, Jupiterren orbitaren tangentea izateko moduan. Jupiterren eraginaren iraupena oso laburra (planetaren orbitaren periodoa baino askoz txikiagoa) bada eta talka horretan Eguzkiaren eragina arbuiatzen bada, froga ezazu satelitearen masa unitateko energiaren aldaketa hauxe izan dela: <math display=\"block\"><mrow><mfrac><mrow><mi mathvariant=\"normal\">Δ</mi><mi>E</mi></mrow><mi>m</mi></mfrac><mo>≈</mo><mn>468.6</mn><mo>×</mo><msup><mn>10</mn><mn>6</mn></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> J/kg </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>.</mi></mrow></math> Nolakoa da orbita berria: zirkularra, eliptikoa, parabolikoa ala hiperbolikoa?"
+       "html": ".<span class=\"j-oin\">[Ikus, adibidez, <a href=\"http://en.wikipedia.org/wiki/Gravity_assist\" target=\"_blank\" rel=\"noopener\">http://en.wikipedia.org/wiki/Gravity_assist</a>.]</span> Satelite bat Eguzkitik urruntzen da norabide erradialean ihes-abiadurarekin. Jupiterren orbita irudian ikusten den puntuan zeharkatzean, planeta honen eraginez, satelitearen abiaduraren norabideak <math display=\"inline\"><mrow><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math> balioko biraketa pairatzen du, Jupiterren orbitaren tangentea izateko moduan. Jupiterren eraginaren iraupena oso laburra (planetaren orbitaren periodoa baino askoz txikiagoa) bada eta talka horretan Eguzkiaren eragina arbuiatzen bada, froga ezazu satelitearen masa unitateko energiaren aldaketa hauxe izan dela: <math display=\"block\"><mrow><mfrac><mrow><mi mathvariant=\"normal\">Δ</mi><mi>E</mi></mrow><mi>m</mi></mfrac><mo>≈</mo><mn>468.6</mn><mo>×</mo><msup><mn>10</mn><mn>6</mn></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> J/kg </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>.</mi></mrow></math> Nolakoa da orbita berria: zirkularra, eliptikoa, parabolikoa ala hiperbolikoa?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/e9aefcd297119e76.svg\" alt=\"\" style=\"width:136px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2925,7 +2997,7 @@ KAPITULUAK["05mk_04zentralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Sistema bikoitz bateko bi izarrak irudiko egoeran daude, une batean, masa-zentroaren sisteman. Higiduran barrena izarren arteko distantziaren handiena <math display=\"inline\"><mrow><mn>2</mn><mi>a</mi></mrow></math> bada, zeintzuk dira irudiko <math display=\"inline\"><msub><mi>v</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>v</mi><mn>2</mn></msub></math> abiadurak?    "
+       "html": "Sistema bikoitz bateko bi izarrak irudiko egoeran daude, une batean, masa-zentroaren sisteman. Higiduran barrena izarren arteko distantziaren handiena <math display=\"inline\"><mrow><mn>2</mn><mi>a</mi></mrow></math> bada, zeintzuk dira irudiko <math display=\"inline\"><msub><mi>v</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>v</mi><mn>2</mn></msub></math> abiadurak?    <img class=\"irudi-l\" src=\"media/irudiak/8e0779618a24f471.svg\" alt=\"\" style=\"width:98px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2981,7 +3053,7 @@ KAPITULUAK["05mk_04zentralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Sistema bikoitz bateko bi izarrak irudiko egoeran daude une batean eta <math display=\"inline\"><mrow><msub><mi>v</mi><mn>0</mn></msub><mo>=</mo><msqrt><mrow><mi>G</mi><mi>M</mi><mi>/</mi><msub><mi>r</mi><mn>0</mn></msub></mrow></msqrt></mrow></math> da. Marraztu, ahal den ondoren, orbitak masa-zentroaren sisteman. Kalkulatu orbiten eszentrikotasuna eta izarren arteko distantzia maximoa eta minimoa. Zeintzuk dira masa-zentroaren sisteman neurtutako izarren abiadura maximoak eta minimoak?    "
+       "html": "Sistema bikoitz bateko bi izarrak irudiko egoeran daude une batean eta <math display=\"inline\"><mrow><msub><mi>v</mi><mn>0</mn></msub><mo>=</mo><msqrt><mrow><mi>G</mi><mi>M</mi><mi>/</mi><msub><mi>r</mi><mn>0</mn></msub></mrow></msqrt></mrow></math> da. Marraztu, ahal den ondoren, orbitak masa-zentroaren sisteman. Kalkulatu orbiten eszentrikotasuna eta izarren arteko distantzia maximoa eta minimoa. Zeintzuk dira masa-zentroaren sisteman neurtutako izarren abiadura maximoak eta minimoak?    <img class=\"irudi-l\" src=\"media/irudiak/eda2a51a8464b934.svg\" alt=\"\" style=\"width:118px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3015,6 +3087,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Masa-zentroaren sisteman, <math display=\"inline\"><mi>m</mi></math> masako bi izar esferiko berdinen abiadurak irudikoak dira, distantzia handira daudenean. <math display=\"inline\"><mrow><msub><mi>v</mi><mn>1</mn></msub><mo>=</mo><msqrt><mfrac><mrow><mi>G</mi><mi>m</mi></mrow><mrow><mn>2</mn><mi>b</mi></mrow></mfrac></msqrt></mrow></math> da. Kalkulatu zein den izar bakoitzaren norabidearen aldaketa osoa. Nolakoa izan behar du izarren erradioak izarrek elkar jo ez dezaten?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/4458e54ccc080d95.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3192,7 +3268,7 @@ KAPITULUAK["05mk_04zentralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko biraketa-elipsoide leun finkoaren ekuazioa hauxe da: <math display=\"block\"><mrow><mfrac><msup><mi>x</mi><mn>2</mn></msup><msup><mi>a</mi><mn>2</mn></msup></mfrac><mo>+</mo><mfrac><mrow><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><msup><mi>z</mi><mn>2</mn></msup></mrow><msup><mi>b</mi><mn>2</mn></msup></mfrac><mo>=</mo><mn>1</mn><mi>.</mi></mrow></math> Partikula puntualak bidaltzen dira elipsoidearen kontra, <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math> ardatzaren norabidean. Talkak elastikoak dira. Kalkulatu sakabanatze-sekzio eragile diferentziala eta osoa.    "
+       "html": "Irudiko biraketa-elipsoide leun finkoaren ekuazioa hauxe da: <math display=\"block\"><mrow><mfrac><msup><mi>x</mi><mn>2</mn></msup><msup><mi>a</mi><mn>2</mn></msup></mfrac><mo>+</mo><mfrac><mrow><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><msup><mi>z</mi><mn>2</mn></msup></mrow><msup><mi>b</mi><mn>2</mn></msup></mfrac><mo>=</mo><mn>1</mn><mi>.</mi></mrow></math> Partikula puntualak bidaltzen dira elipsoidearen kontra, <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math> ardatzaren norabidean. Talkak elastikoak dira. Kalkulatu sakabanatze-sekzio eragile diferentziala eta osoa.    <img class=\"irudi-l\" src=\"media/irudiak/92aa8285509d9514.svg\" alt=\"\" style=\"width:155px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3271,6 +3347,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       },
       {
        "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/373e8f3fee498af0.svg\" alt=\"\" style=\"width:188px\" loading=\"lazy\">"
+      },
+      {
+       "mota": "testua",
        "html": "(b) Indar-eremu zentral batean higitzen den partikula batek pairatutako indarra izan daiteke erakarlea puntu batzuetan eta aldaratzailea orbita bereko beste puntu batzuetan. <br> (c) Keplerren orbita bateko perizentroan indarra eta abiadura elkarzutak direnez, indarra zentripetoa da eta honako hau betetzen da: <math display=\"block\"><mrow><mfrac><mi>k</mi><msup><mi>r</mi><mn>2</mn></msup></mfrac><mo>=</mo><mi>m</mi><mfrac><msup><mi>v</mi><mn>2</mn></msup><mi>r</mi></mfrac><mi>.</mi></mrow></math>"
       }
      ]
@@ -3335,6 +3415,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Partikula bat eremu zentral (ez-newtondar) batean higitzen ari da. Indar-poloa <math display=\"inline\"><mi>O</mi></math> puntuan dago. Frogatu irudikoa ezin izan daitekeela orbitaren zati bat.  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/39b871fa966cba07.svg\" alt=\"\" style=\"width:77px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3646,10 +3730,6 @@ KAPITULUAK["05mk_04zentralak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>R.</strong>"
     },
     {
@@ -3811,10 +3891,6 @@ KAPITULUAK["05mk_04zentralak"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -4061,10 +4137,6 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>1. irudia (egoera orokorra).</strong>"
     },
     {
@@ -4191,10 +4263,6 @@ KAPITULUAK["05mk_04zentralak"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -4504,7 +4572,7 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "testua",
-     "html": "Hala ere, P-n eremua gainjartzearen unean, abiadurak gainjarri aurretik zeukan balio bera mantentzen du (hau da, osagai erradial nulua izaten jarraitzen du: <math display=\"inline\"><mrow><msub><mover><mi>r</mi><mo accent=\"true\">̇</mo></mover><mi>P</mi></msub><mo>=</mo><mn>0</mn></mrow></math>, eta <math display=\"inline\"><msub><mi mathvariant=\"bold-italic\">𝒗</mi><mi>P</mi></msub></math> abiadura osoa zeharkakoa izango da eta lehenago kalkulatutako orbita zirkularreko abiaduraren berdina). Beste hitz batzuetan, satelitea eremu zentral berria gainjartzearen unean zegoen P puntua ere atzerapen-puntua da orbita berrirako. Beraz, berridatzi dezakegu <math display=\"inline\"><mrow><mi>l</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>P</mi></msub><mo>×</mo><mi>m</mi><msub><mi mathvariant=\"bold-italic\">𝒗</mi><mi>P</mi></msub><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>=</mo><msub><mi>r</mi><mi>P</mi></msub><mo>⋅</mo><mi>m</mi><msub><mi>v</mi><mi>P</mi></msub><mo>=</mo><mn>2</mn><mi>R</mi><mo>⋅</mo><mi>m</mi><msqrt><mrow><msub><mi>g</mi><mn>0</mn></msub><mi>R</mi><mi>/</mi><mn>2</mn></mrow></msqrt></mrow></math> (kontuan har dezagun eremu zentral berria aplikatzean ez dela aldatuko sateliteak orbita zirkularrean zeukan momentu angeluarra). Balio hori bigarren erlazioetan ordezkatuz, <math display=\"inline\"><msub><mi>v</mi><mi>Q</mi></msub></math> <math display=\"inline\"><msub><mi>r</mi><mi>Q</mi></msub></math>-ren funtzioan honela askatu ahal izango dugu:"
+     "html": "Hala ere, P-n eremua gainjartzearen unean, abiadurak gainjarri aurretik zeukan balio bera mantentzen du (hau da, osagai erradial nulua izaten jarraitzen du: <math display=\"inline\"><mrow><msub><mover><mi>r</mi><mo accent=\"true\">̇</mo></mover><mi>P</mi></msub><mo>=</mo><mn>0</mn></mrow></math>, eta <math display=\"inline\"><msub><mi mathvariant=\"bold-italic\">𝒗</mi><mi>P</mi></msub></math> abiadura osoa zeharkakoa izango da eta lehenago kalkulatutako orbita zirkularreko abiaduraren berdina). Beste hitz batzuetan, satelitea eremu zentral berria gainjartzearen unean zegoen P puntua ere atzerapen-puntua da orbita berrirako. Beraz, berridatzi dezakegu <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>l</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>P</mi></msub><mo>×</mo><mi>m</mi><msub><mi mathvariant=\"bold-italic\">𝒗</mi><mi>P</mi></msub><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>=</mo><msub><mi>r</mi><mi>P</mi></msub><mo>⋅</mo><mi>m</mi><msub><mi>v</mi><mi>P</mi></msub><mo>=</mo><mn>2</mn><mi>R</mi><mo>⋅</mo><mi>m</mi><msqrt><mrow><msub><mi>g</mi><mn>0</mn></msub><mi>R</mi><mi>/</mi><mn>2</mn></mrow></msqrt></mrow></math></span> (kontuan har dezagun eremu zentral berria aplikatzean ez dela aldatuko sateliteak orbita zirkularrean zeukan momentu angeluarra). Balio hori bigarren erlazioetan ordezkatuz, <math display=\"inline\"><msub><mi>v</mi><mi>Q</mi></msub></math> <math display=\"inline\"><msub><mi>r</mi><mi>Q</mi></msub></math>-ren funtzioan honela askatu ahal izango dugu:"
     },
     {
      "mota": "testua",

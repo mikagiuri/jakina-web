@@ -69,7 +69,7 @@
 .j-frog{margin:.6em 0 1em}
 .j-frog > p:first-of-type{display:inline}
 .j-et-frog{font-family:var(--sans)}
-.j-qed{float:inline-end;color:var(--muted)}
+.j-qed{float:inline-end;color:var(--accent);font-size:1.05em;line-height:1}
 .j-frog::after{content:"";display:block;clear:both}
 .j-ariketa{border:1.5px solid var(--j-urdina);border-radius:8px;padding:.6em 1em;margin:1.1em 0}
 .j-ariketa > .j-et{color:var(--j-urdina)}
@@ -117,7 +117,8 @@ img.formula-d{display:block;margin:.7em auto;height:auto}
 .j-azpititulua::after{content:"";display:block;width:18%;border-bottom:2px solid var(--j-laranja);opacity:.6;margin-top:.25em}
 .j-gai{margin:1.1em 0}
 .j-gai > .j-gai-tit{font-family:var(--sans);font-weight:700;font-size:.95rem;color:var(--j-c);margin-bottom:.35em}
-.j-sarea{display:grid;gap:.55em 1.3em;align-items:center;margin:.7em 0}
+.j-sarea{display:grid;gap:.55em 1.3em;align-items:center;margin:.7em 0;max-width:100%;overflow-x:auto}
+.j-gelaxka{min-width:0}   /* (v016, con _6) deja encoger las celdas: la rejilla hace scroll propio y las fórmulas de dentro también, sin desplazar la página */
 .j-gelaxka > p{margin:.15em 0}
 .j-gelaxka .j-irudia{margin:.3em 0}
 .j-gelaxka .j-taula{margin:.3em 0}
@@ -352,3 +353,35 @@ img.irudi-l{display:block;max-width:100%;height:auto;margin:.2em auto;background
 .kap-ikasgai{display:inline-flex;background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:3px;margin:8px 0}
 .kap-ikasgai a,.kap-ikasgai span{font:600 .85rem var(--sans);padding:5px 14px;border-radius:999px;text-decoration:none;color:var(--muted)}
 .kap-ikasgai .on{background:var(--accent);color:var(--on-accent)}
+
+/* ===== Pulido estético + código/citas (web-jakina-7, 24-10) =====
+   A: foco de teclado y afordancia de capas. B: <pre><code> y <blockquote> para el conversor v016. */
+
+/* (A) foco de teclado visible y coherente en la vista de estudio (accesibilidad) */
+#ikasi a:focus-visible,#ikasi button:focus-visible,#ikasi select:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:8px}
+#ikasi .capa>summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+
+/* (A) afordancia de las capas plegables del estudio */
+#ikasi .capa>summary:hover{background:color-mix(in srgb,var(--accent) 6%,var(--surface))}
+
+/* (B) marcado real del conversor v016 (confirmado con _6). Las citas EN BLOQUE son .j-kutxa (j-k-grisa)
+   y las notas biográficas .j-oin, que ya tienen estilo; <q> usa las comillas del navegador. Aquí, lo nuevo: */
+
+/* código en bloque: <code class="j-kodea"> dentro de <p> (el conversor ya le pone display:block;white-space:pre;overflow-x:auto;tab-size por style=) */
+code.j-kodea{font-family:var(--mono);font-size:.86rem;line-height:1.5;color:var(--ink);background:var(--surface-2);border:1px solid var(--line);border-inline-start:3px solid var(--accent);border-radius:8px;padding:.75em 1em;margin:.6em 0}
+
+/* epígrafe literario: <span class="j-epigrafea"><em>cita</em><br><span class="j-smallcaps">autor</span></span> */
+.j-epigrafea{display:block;margin:12px 0 18px auto;max-width:72%;text-align:end;font-family:var(--serif);font-style:italic;color:var(--muted);line-height:1.55}
+.j-epigrafea .j-smallcaps{display:inline-block;margin-top:3px;font-style:normal}
+.j-smallcaps{font-variant:small-caps;letter-spacing:.03em}
+@media (max-width:620px){.j-epigrafea{max-width:100%}}
+
+/* defensivo: si algún día llegara un <pre> suelto, que no desborde (v016 usa code.j-kodea, no <pre>) */
+.theory pre,#ikasi pre{overflow-x:auto;font-family:var(--mono);background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin:14px 0}
+
+/* (A) lectura lineal: fórmulas en bloque anchas con scroll propio, no desplazar la página (como en #ikasi) */
+.theory math[display="block"]{display:block;overflow-x:auto;max-width:100%}
+
+/* (v016, acordado con _6) fórmula LARGA dentro de texto que el conversor envuelve en <span class="j-mat-luzea">:
+   scroll propio sin romper la línea base de las fórmulas pequeñas (solo se aplica a las envueltas). Inerte hasta v016. */
+.j-mat-luzea{display:inline-block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle}

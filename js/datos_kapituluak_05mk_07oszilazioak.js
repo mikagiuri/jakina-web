@@ -285,7 +285,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi>γ</mi><mo>&lt;</mo><mi>ω</mi></mrow></math> denean, erro karakteristikoak <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mi>−</mi><mi>γ</mi><mo>±</mo><mi>i</mi><msqrt><mrow><msup><mi>ω</mi><mn>2</mn></msup><mo>−</mo><msup><mi>γ</mi><mn>2</mn></msup></mrow></msqrt></mrow></math> dira. Elkarren konjugatuak direnez, fasoreak erabiltzekotan nahikoa da bat aukeratzea eta berriro ere <math display=\"inline\"><mrow><mi>C</mi><mo>=</mo><mi>A</mi><msup><mi>e</mi><mrow><mi>i</mi><msub><mi>φ</mi><mn>0</mn></msub></mrow></msup></mrow></math> jartzea, soluzioa <math display=\"block\"><mrow><mi>z</mi><mo>=</mo><mi>C</mi><msup><mi>e</mi><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mi>γ</mi><mo>+</mo><mi>i</mi><msub><mi>ω</mi><mi>γ</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>t</mi></mrow></msup><mo>=</mo><mi>C</mi><msup><mi>e</mi><mrow><mi>−</mi><mi>γ</mi><mi>t</mi></mrow></msup><msup><mi>e</mi><mrow><mi>i</mi><msub><mi>ω</mi><mi>γ</mi></msub><mi>t</mi></mrow></msup><mo>=</mo><mi>A</mi><msup><mi>e</mi><mrow><mi>−</mi><mi>γ</mi><mi>t</mi></mrow></msup><msup><mi>e</mi><mrow><mi>i</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>ω</mi><mi>γ</mi></msub><mi>t</mi><mo>+</mo><msub><mi>φ</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><msub><mi>ω</mi><mi>γ</mi></msub><mo>≡</mo><msqrt><mrow><msup><mi>ω</mi><mn>2</mn></msup><mo>−</mo><msup><mi>γ</mi><mn>2</mn></msup></mrow></msqrt></mrow></math>"
+     "html": "<math display=\"block\"><mrow><mi>γ</mi><mo>&lt;</mo><mi>ω</mi></mrow></math> denean, erro karakteristikoak <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mi>−</mi><mi>γ</mi><mo>±</mo><mi>i</mi><msqrt><mrow><msup><mi>ω</mi><mn>2</mn></msup><mo>−</mo><msup><mi>γ</mi><mn>2</mn></msup></mrow></msqrt></mrow></math> dira. Elkarren konjugatuak direnez, fasoreak erabiltzekotan nahikoa da bat aukeratzea eta berriro ere <math display=\"inline\"><mrow><mi>C</mi><mo>=</mo><mi>A</mi><msup><mi>e</mi><mrow><mi>i</mi><msub><mi>φ</mi><mn>0</mn></msub></mrow></msup></mrow></math> jartzea, soluzioa <math display=\"block\"><mrow><mi>z</mi><mo>=</mo><mi>C</mi><msup><mi>e</mi><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mi>γ</mi><mo>+</mo><mi>i</mi><msub><mi>ω</mi><mi>γ</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>t</mi></mrow></msup><mo>=</mo><mi>C</mi><msup><mi>e</mi><mrow><mi>−</mi><mi>γ</mi><mi>t</mi></mrow></msup><msup><mi>e</mi><mrow><mi>i</mi><msub><mi>ω</mi><mi>γ</mi></msub><mi>t</mi></mrow></msup><mo>=</mo><mi>A</mi><msup><mi>e</mi><mrow><mi>−</mi><mi>γ</mi><mi>t</mi></mrow></msup><msup><mi>e</mi><mrow><mi>i</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>ω</mi><mi>γ</mi></msub><mi>t</mi><mo>+</mo><msub><mi>φ</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><msub><mi>ω</mi><mi>γ</mi></msub><mo>≡</mo><msqrt><mrow><msup><mi>ω</mi><mn>2</mn></msup><mo>−</mo><msup><mi>γ</mi><mn>2</mn></msup></mrow></msqrt></mrow></math>"
     },
     {
      "mota": "testua",
@@ -341,7 +341,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi>γ</mi><mo>&gt;</mo><mi>ω</mi></mrow></math> denean, <math display=\"inline\"><mrow><msub><mi>λ</mi><mo>±</mo></msub><mo>≡</mo><mi>γ</mi><mo>±</mo><msqrt><mrow><msup><mi>γ</mi><mn>2</mn></msup><mo>−</mo><msup><mi>ω</mi><mn>2</mn></msup></mrow></msqrt><mo>&gt;</mo><mn>0</mn></mrow></math>"
+     "html": "<math display=\"block\"><mrow><mi>γ</mi><mo>&gt;</mo><mi>ω</mi></mrow></math> denean, <math display=\"inline\"><mrow><msub><mi>λ</mi><mo>±</mo></msub><mo>≡</mo><mi>γ</mi><mo>±</mo><msqrt><mrow><msup><mi>γ</mi><mn>2</mn></msup><mo>−</mo><msup><mi>ω</mi><mn>2</mn></msup></mrow></msqrt><mo>&gt;</mo><mn>0</mn></mrow></math>"
     },
     {
      "mota": "testua",
@@ -364,7 +364,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mi>ω</mi></mrow></math> denean erro karakteristiko bakarra dago: <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mi>γ</mi><mo>=</mo><mi>ω</mi></mrow></math>. Berriro ere, ez dago oszilaziorik, eta soluzioa (1.119)  da: <math display=\"block\"><mrow><mi>x</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>C</mi><mo>+</mo><mi>D</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>e</mi><mrow><mi>−</mi><mi>ω</mi><mi>t</mi></mrow></msup><mi>.</mi></mrow></math>"
+     "html": "<math display=\"block\"><mrow><mi>γ</mi><mo>=</mo><mi>ω</mi></mrow></math> denean erro karakteristiko bakarra dago: <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mi>γ</mi><mo>=</mo><mi>ω</mi></mrow></math>. Berriro ere, ez dago oszilaziorik, eta soluzioa (1.119)  da: <math display=\"block\"><mrow><mi>x</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>C</mi><mo>+</mo><mi>D</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>e</mi><mrow><mi>−</mi><mi>ω</mi><mi>t</mi></mrow></msup><mi>.</mi></mrow></math>"
     },
     {
      "mota": "testua",
@@ -476,7 +476,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "Ekuazio osoaren soluzio partikular berezi bat da azken hau. Berriro ere, fasoreak erabiliko ditugu kalkulua egiteko. Horretarako, <math display=\"inline\"><mrow><msub><mi>f</mi><mn>0</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">Ω</mi><mi>t</mi><mo>+</mo><mi>α</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Re </mtext><mspace width=\"0.333em\"></mspace></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>f</mi><mn>0</mn></msub><msup><mi>e</mi><mrow><mi>i</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">Ω</mi><mi>t</mi><mo>+</mo><mi>α</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> kanpo-indarra eta ekuazioa forma konplexuan idatziko ditugu: <math display=\"block\"><mrow><mi>f</mi><mo>=</mo><msub><mi>f</mi><mn>0</mn></msub><msup><mi>e</mi><mrow><mi>i</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">Ω</mi><mi>t</mi><mo>+</mo><mi>α</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo>,</mo></mrow></math>"
+     "html": "Ekuazio osoaren soluzio partikular berezi bat da azken hau. Berriro ere, fasoreak erabiliko ditugu kalkulua egiteko. Horretarako, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>f</mi><mn>0</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">Ω</mi><mi>t</mi><mo>+</mo><mi>α</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> Re </mtext><mspace width=\"0.333em\"></mspace></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>f</mi><mn>0</mn></msub><msup><mi>e</mi><mrow><mi>i</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">Ω</mi><mi>t</mi><mo>+</mo><mi>α</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span> kanpo-indarra eta ekuazioa forma konplexuan idatziko ditugu: <math display=\"block\"><mrow><mi>f</mi><mo>=</mo><msub><mi>f</mi><mn>0</mn></msub><msup><mi>e</mi><mrow><mi>i</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">Ω</mi><mi>t</mi><mo>+</mo><mi>α</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo>,</mo></mrow></math>"
     },
     {
      "mota": "testua",
@@ -762,7 +762,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       },
       {
        "mota": "testua",
-       "html": "Hortaz, hauexek dira erresonantzia-kurbaren zabalera, anplitude maximoa eta erresonantzia-pultsazioa<span class=\"j-oin\">[ Parentesi arteko magnitudearen parekoak diren gaiak arbuiatzen direla esan nahi da <math display=\"inline\"><mi mathvariant=\"script\">𝒪</mi></math> notazioarekin. (Ikus, adibidez, [46].) Horrela, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>3</mn></msup><mi>/</mi><mn>3</mn><mi>!</mi><mo>+</mo><msup><mi>x</mi><mn>5</mn></msup><mi>/</mi><mn>5</mn><mi>!</mi><mo>−</mo><mi>⋯</mi><mo>=</mo><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>3</mn></msup><mi>/</mi><mn>3</mn><mi>!</mi><mo>+</mo><mi mathvariant=\"script\">𝒪</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>5</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>x</mi><mo>+</mo><mi mathvariant=\"script\">𝒪</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> dugu.]</span>: <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"normal\">Ω</mi><mo>≡</mo><msub><mi mathvariant=\"normal\">Ω</mi><mo>+</mo></msub><mo>−</mo><msub><mi mathvariant=\"normal\">Ω</mi><mo>−</mo></msub><mo>=</mo><mn>2</mn><mi>γ</mi><mo>+</mo><mi mathvariant=\"script\">𝒪</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>γ</mi><mn>3</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math>"
+       "html": "Hortaz, hauexek dira erresonantzia-kurbaren zabalera, anplitude maximoa eta erresonantzia-pultsazioa<span class=\"j-oin\">[ Parentesi arteko magnitudearen parekoak diren gaiak arbuiatzen direla esan nahi da <math display=\"inline\"><mi mathvariant=\"script\">𝒪</mi></math> notazioarekin. (Ikus, adibidez, [46].) Horrela, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>3</mn></msup><mi>/</mi><mn>3</mn><mi>!</mi><mo>+</mo><msup><mi>x</mi><mn>5</mn></msup><mi>/</mi><mn>5</mn><mi>!</mi><mo>−</mo><mi>⋯</mi><mo>=</mo><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>3</mn></msup><mi>/</mi><mn>3</mn><mi>!</mi><mo>+</mo><mi mathvariant=\"script\">𝒪</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>5</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>x</mi><mo>+</mo><mi mathvariant=\"script\">𝒪</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span> dugu.]</span>: <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"normal\">Ω</mi><mo>≡</mo><msub><mi mathvariant=\"normal\">Ω</mi><mo>+</mo></msub><mo>−</mo><msub><mi mathvariant=\"normal\">Ω</mi><mo>−</mo></msub><mo>=</mo><mn>2</mn><mi>γ</mi><mo>+</mo><mi mathvariant=\"script\">𝒪</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>γ</mi><mn>3</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math>"
       },
       {
        "mota": "testua",
@@ -906,7 +906,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "Eman dezagun (7.30) ekuazioan kanpo-eragina <math display=\"inline\"><mi>T</mi></math> periodoko funtzioa dela: <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>+</mo><mi>T</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Horrelako funtzioa sinusoideen konbinazio modura idatz daiteke <strong>Fourierren serie</strong> egoki baten bidez (ikus, adibidez, [46])<span class=\"j-oin\">[Ikus  orrialdeko animazioa.]</span>:"
+     "html": "Eman dezagun (7.30) ekuazioan kanpo-eragina <math display=\"inline\"><mi>T</mi></math> periodoko funtzioa dela: <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>+</mo><mi>T</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Horrelako funtzioa sinusoideen konbinazio modura idatz daiteke <strong>Fourierren serie</strong> egoki baten bidez (ikus, adibidez, [46])<span class=\"j-oin\">[Ikus <a href=\"http://tp.lc.ehu.eus/jma/mekanika/oszilazioak/harmonikoak.html\" target=\"_blank\" rel=\"noopener\">http://tp.lc.ehu.eus/jma/mekanika/oszilazioak/harmonikoak.html</a> orrialdeko animazioa.]</span>:"
     },
     {
      "mota": "kutxa",
@@ -1302,7 +1302,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><msub><mi>A</mi><mi>y</mi></msub><mo>=</mo><mn>0</mn></mrow></math> denean, <math display=\"inline\"><msub><mi>ω</mi><mi>x</mi></msub></math> pultsazioa dugu bakarrik, higidura periodikoa da eta osziladorea <strong>lehen moduan</strong> dagoela esaten da. Era berean, <math display=\"inline\"><mrow><msub><mi>A</mi><mi>x</mi></msub><mo>=</mo><mn>0</mn></mrow></math> denean, <math display=\"inline\"><msub><mi>ω</mi><mi>y</mi></msub></math> pultsazioko higidura periodikoa dugu eta bigarren moduan dago osziladorea. Beraz, <math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝒙</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>x</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>y</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><msub><mover><mi mathvariant=\"bold-italic\">𝒆</mi><mo accent=\"true\">̂</mo></mover><mi>x</mi></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><msub><mover><mi mathvariant=\"bold-italic\">𝒆</mi><mo accent=\"true\">̂</mo></mover><mi>y</mi></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+     "html": "<math display=\"block\"><mrow><msub><mi>A</mi><mi>y</mi></msub><mo>=</mo><mn>0</mn></mrow></math> denean, <math display=\"inline\"><msub><mi>ω</mi><mi>x</mi></msub></math> pultsazioa dugu bakarrik, higidura periodikoa da eta osziladorea <strong>lehen moduan</strong> dagoela esaten da. Era berean, <math display=\"inline\"><mrow><msub><mi>A</mi><mi>x</mi></msub><mo>=</mo><mn>0</mn></mrow></math> denean, <math display=\"inline\"><msub><mi>ω</mi><mi>y</mi></msub></math> pultsazioko higidura periodikoa dugu eta bigarren moduan dago osziladorea. Beraz, <math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝒙</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>x</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>y</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><msub><mover><mi mathvariant=\"bold-italic\">𝒆</mi><mo accent=\"true\">̂</mo></mover><mi>x</mi></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><msub><mover><mi mathvariant=\"bold-italic\">𝒆</mi><mo accent=\"true\">̂</mo></mover><mi>y</mi></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
     },
     {
      "mota": "testua",
@@ -1728,7 +1728,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "sistema lineala ebatziz gero, honako baldintza hauek betetzen dituzten <math display=\"inline\"><mi>n</mi></math> bektore independente (<math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mn>1</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mi>S</mi><mrow><mi>i</mi><mn>1</mn></mrow></msub><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mo>,</mo><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mn>2</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mi>S</mi><mrow><mi>i</mi><mn>2</mn></mrow></msub><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mi>n</mi></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mi>S</mi><mrow><mi>i</mi><mi>n</mi></mrow></msub><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math>) lortzen dira:"
+     "html": "sistema lineala ebatziz gero, honako baldintza hauek betetzen dituzten <math display=\"inline\"><mi>n</mi></math> bektore independente (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mn>1</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mi>S</mi><mrow><mi>i</mi><mn>1</mn></mrow></msub><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mo>,</mo><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mn>2</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mi>S</mi><mrow><mi>i</mi><mn>2</mn></mrow></msub><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mi>n</mi></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mi>S</mi><mrow><mi>i</mi><mi>n</mi></mrow></msub><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math></span>) lortzen dira:"
     },
     {
      "mota": "kutxa",
@@ -1915,7 +1915,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "Eman dezagun, orain, eskuineko pendulua posizio bertikalean geldi dagoenean ezkerrekoa <math display=\"inline\"><mi>α</mi></math> balioko angelutik askatzen dugula. Hastapen-baldintzak <math display=\"inline\"><mrow><msub><mi>θ</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>α</mi><mo>,</mo><msub><mi>θ</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mover><mi>θ</mi><mo accent=\"true\">̇</mo></mover><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mover><mi>θ</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> dira eta dagokien soluzioa <math display=\"block\"><mrow><msub><mi>θ</mi><mn>1</mn></msub><mo>=</mo><mfrac><mi>α</mi><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">cos</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>ω</mi><mn>1</mn></msub><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>ω</mi><mn>2</mn></msub><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mi>α</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mrow><msub><mi>ω</mi><mn>1</mn></msub><mo>+</mo><msub><mi>ω</mi><mn>2</mn></msub></mrow><mn>2</mn></mfrac><mi>t</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mrow><msub><mi>ω</mi><mn>2</mn></msub><mo>−</mo><msub><mi>ω</mi><mn>1</mn></msub></mrow><mn>2</mn></mfrac><mi>t</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msub><mi>θ</mi><mn>2</mn></msub><mo>=</mo><mfrac><mi>α</mi><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">cos</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>ω</mi><mn>1</mn></msub><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi mathvariant=\"normal\">cos</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>ω</mi><mn>2</mn></msub><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mi>α</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mrow><msub><mi>ω</mi><mn>1</mn></msub><mo>+</mo><msub><mi>ω</mi><mn>2</mn></msub></mrow><mn>2</mn></mfrac><mi>t</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mrow><msub><mi>ω</mi><mn>2</mn></msub><mo>−</mo><msub><mi>ω</mi><mn>1</mn></msub></mrow><mn>2</mn></mfrac><mi>t</mi><mi>.</mi></mrow></math> Hortaz, 7.4 atalean egindakoa kontuan hartuz, <math display=\"block\"><mrow><mi>ε</mi><mo>≡</mo><mfrac><mrow><msub><mi>ω</mi><mn>2</mn></msub><mo>−</mo><msub><mi>ω</mi><mn>1</mn></msub></mrow><mn>2</mn></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>ω</mi><mo>≡</mo><mfrac><mrow><msub><mi>ω</mi><mn>1</mn></msub><mo>+</mo><msub><mi>ω</mi><mn>2</mn></msub></mrow><mn>2</mn></mfrac></mrow></math> definizioekin, higidura-ekuazioen soluzioak <math display=\"block\"><mrow><msub><mi>θ</mi><mn>1</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>α</mi><mi mathvariant=\"normal\">cos</mi><mi>ε</mi><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msub><mi>θ</mi><mn>2</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>α</mi><mi mathvariant=\"normal\">sin</mi><mi>ε</mi><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi></mrow></math> edota <math display=\"block\"><mrow><msub><mi>θ</mi><mn>1</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>α</mi><mi mathvariant=\"normal\">cos</mi><mi>ε</mi><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msub><mi>θ</mi><mn>2</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>α</mi><mi mathvariant=\"normal\">cos</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>ε</mi><mi>t</mi><mo>−</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi></mrow></math> moduan idazten dira."
+     "html": "Eman dezagun, orain, eskuineko pendulua posizio bertikalean geldi dagoenean ezkerrekoa <math display=\"inline\"><mi>α</mi></math> balioko angelutik askatzen dugula. Hastapen-baldintzak <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>θ</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>α</mi><mo>,</mo><msub><mi>θ</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mover><mi>θ</mi><mo accent=\"true\">̇</mo></mover><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mover><mi>θ</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math></span> dira eta dagokien soluzioa <math display=\"block\"><mrow><msub><mi>θ</mi><mn>1</mn></msub><mo>=</mo><mfrac><mi>α</mi><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">cos</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>ω</mi><mn>1</mn></msub><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>ω</mi><mn>2</mn></msub><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mi>α</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mrow><msub><mi>ω</mi><mn>1</mn></msub><mo>+</mo><msub><mi>ω</mi><mn>2</mn></msub></mrow><mn>2</mn></mfrac><mi>t</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mrow><msub><mi>ω</mi><mn>2</mn></msub><mo>−</mo><msub><mi>ω</mi><mn>1</mn></msub></mrow><mn>2</mn></mfrac><mi>t</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msub><mi>θ</mi><mn>2</mn></msub><mo>=</mo><mfrac><mi>α</mi><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">cos</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>ω</mi><mn>1</mn></msub><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi mathvariant=\"normal\">cos</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>ω</mi><mn>2</mn></msub><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mi>α</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mrow><msub><mi>ω</mi><mn>1</mn></msub><mo>+</mo><msub><mi>ω</mi><mn>2</mn></msub></mrow><mn>2</mn></mfrac><mi>t</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mrow><msub><mi>ω</mi><mn>2</mn></msub><mo>−</mo><msub><mi>ω</mi><mn>1</mn></msub></mrow><mn>2</mn></mfrac><mi>t</mi><mi>.</mi></mrow></math> Hortaz, 7.4 atalean egindakoa kontuan hartuz, <math display=\"block\"><mrow><mi>ε</mi><mo>≡</mo><mfrac><mrow><msub><mi>ω</mi><mn>2</mn></msub><mo>−</mo><msub><mi>ω</mi><mn>1</mn></msub></mrow><mn>2</mn></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>ω</mi><mo>≡</mo><mfrac><mrow><msub><mi>ω</mi><mn>1</mn></msub><mo>+</mo><msub><mi>ω</mi><mn>2</mn></msub></mrow><mn>2</mn></mfrac></mrow></math> definizioekin, higidura-ekuazioen soluzioak <math display=\"block\"><mrow><msub><mi>θ</mi><mn>1</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>α</mi><mi mathvariant=\"normal\">cos</mi><mi>ε</mi><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msub><mi>θ</mi><mn>2</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>α</mi><mi mathvariant=\"normal\">sin</mi><mi>ε</mi><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi></mrow></math> edota <math display=\"block\"><mrow><msub><mi>θ</mi><mn>1</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>α</mi><mi mathvariant=\"normal\">cos</mi><mi>ε</mi><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msub><mi>θ</mi><mn>2</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>α</mi><mi mathvariant=\"normal\">cos</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>ε</mi><mi>t</mi><mo>−</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi></mrow></math> moduan idazten dira."
     },
     {
      "mota": "irudia",
@@ -2064,7 +2064,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mi>⋮</mi></math>"
+       "html": "<math display=\"block\"><mi>⋮</mi></math>"
       }
      ]
     },
@@ -2077,7 +2077,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mi>⋮</mi></math>"
+       "html": "<math display=\"block\"><mi>⋮</mi></math>"
       }
      ]
     },
@@ -2198,7 +2198,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "uhin-ekuaziora<span class=\"j-oin\">[Atal honetako ildotik aztertu zuen Lagrangek soka bibrakorraren ekuazioa.]</span> laburtzen da —ikus (9.5)— eta dagokion fase-abiadura honako hau dugu: <math display=\"block\"><mrow><mi>v</mi><mo>=</mo><msqrt><mfrac><mi>T</mi><mi>μ</mi></mfrac></msqrt><mi>.</mi></mrow></math> Modu normalak aurkitzeko <math display=\"inline\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>C</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>e</mi><mrow><mi>i</mi><mi>ω</mi><mi>t</mi></mrow></msup></mrow></math> soluzioa saiatuko dugu (7.257) ekuazioan, <math display=\"inline\"><mrow><msub><mi>y</mi><mi>s</mi></msub><mo>=</mo><msub><mi>C</mi><mi>s</mi></msub><msup><mi>e</mi><mrow><mi>i</mi><mi>ω</mi><mi>t</mi></mrow></msup></mrow></math> delakoaren ordez. Argi dago <math display=\"block\"><mrow><msup><mi>C</mi><mo>″</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><msup><mi>k</mi><mn>2</mn></msup><mi>C</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> baldintza lortzen dela<span class=\"j-oin\">[Honetara laburtzen da dimentsio batean hiru dimentsioko <strong>Helmholtzen ekuazioa</strong>: <math display=\"inline\"><mrow><msup><mi>∇</mi><mn>2</mn></msup><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"bold-italic\">𝒓</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><msup><mi>k</mi><mn>2</mn></msup><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"bold-italic\">𝒓</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math>.]</span>, uhin-zenbakia (ikus 9.2 atala) hauxe bada: <math display=\"block\"><mrow><mi>k</mi><mo>≡</mo><mfrac><mi>ω</mi><mi>v</mi></mfrac><mo>&gt;</mo><mn>0</mn><mi>.</mi></mrow></math> (7.259) ekuazioa oszilador harmonikoarena denez, badakigu soluzio orokorra 25. orrialdeko <math display=\"inline\"><mrow><mi>C</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>x</mi><mo>+</mo><mi>B</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>x</mi></mrow></math> dela. Baina kasu honetan sokaren muturrak higitzen ez direnez, ondoko bi mugalde-baldintza bete behar dira (7.248) direlakoen ordez: <math display=\"block\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>L</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math> Lehenengoa betetzeko <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>0</mn></mrow></math> hartu behar da eta bigarrenaren ondorioz <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>L</mi><mo>=</mo><mn>0</mn></mrow></math> dugu. Azken ekuazio honen soluzio ez-nuluak <math display=\"block\"><mrow><mi>k</mi><mo>=</mo><mfrac><mrow><mi>n</mi><mi>π</mi></mrow><mi>L</mi></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> direnez, pultsazio normalak"
+     "html": "uhin-ekuaziora<span class=\"j-oin\">[Atal honetako ildotik aztertu zuen Lagrangek soka bibrakorraren ekuazioa.]</span> laburtzen da —ikus (9.5)— eta dagokion fase-abiadura honako hau dugu: <math display=\"block\"><mrow><mi>v</mi><mo>=</mo><msqrt><mfrac><mi>T</mi><mi>μ</mi></mfrac></msqrt><mi>.</mi></mrow></math> Modu normalak aurkitzeko <math display=\"inline\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>C</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>e</mi><mrow><mi>i</mi><mi>ω</mi><mi>t</mi></mrow></msup></mrow></math> soluzioa saiatuko dugu (7.257) ekuazioan, <math display=\"inline\"><mrow><msub><mi>y</mi><mi>s</mi></msub><mo>=</mo><msub><mi>C</mi><mi>s</mi></msub><msup><mi>e</mi><mrow><mi>i</mi><mi>ω</mi><mi>t</mi></mrow></msup></mrow></math> delakoaren ordez. Argi dago <math display=\"block\"><mrow><msup><mi>C</mi><mo>″</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><msup><mi>k</mi><mn>2</mn></msup><mi>C</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> baldintza lortzen dela<span class=\"j-oin\">[Honetara laburtzen da dimentsio batean hiru dimentsioko <strong>Helmholtzen ekuazioa</strong>: <math display=\"inline\"><mrow><msup><mi>∇</mi><mn>2</mn></msup><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"bold-italic\">𝒓</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><msup><mi>k</mi><mn>2</mn></msup><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"bold-italic\">𝒓</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math>.]</span>, uhin-zenbakia (ikus 9.2 atala) hauxe bada: <math display=\"block\"><mrow><mi>k</mi><mo>≡</mo><mfrac><mi>ω</mi><mi>v</mi></mfrac><mo>&gt;</mo><mn>0</mn><mi>.</mi></mrow></math> (7.259) ekuazioa oszilador harmonikoarena denez, badakigu soluzio orokorra 25. orrialdeko <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>C</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>x</mi><mo>+</mo><mi>B</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>x</mi></mrow></math></span> dela. Baina kasu honetan sokaren muturrak higitzen ez direnez, ondoko bi mugalde-baldintza bete behar dira (7.248) direlakoen ordez: <math display=\"block\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>L</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math> Lehenengoa betetzeko <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>0</mn></mrow></math> hartu behar da eta bigarrenaren ondorioz <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>L</mi><mo>=</mo><mn>0</mn></mrow></math> dugu. Azken ekuazio honen soluzio ez-nuluak <math display=\"block\"><mrow><mi>k</mi><mo>=</mo><mfrac><mrow><mi>n</mi><mi>π</mi></mrow><mi>L</mi></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> direnez, pultsazio normalak"
     },
     {
      "mota": "kutxa",
@@ -2482,7 +2482,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Zein da <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi><mo>+</mo><mi>B</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi></mrow></math> oszilazioaren anplitudea?"
+       "html": "Zein da <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi><mo>+</mo><mi>B</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi></mrow></math></span> oszilazioaren anplitudea?"
       }
      ]
     },
@@ -2659,7 +2659,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mi>m</mi></math> masako partikula bat orekan dago <math display=\"inline\"><mi>k</mi></math> konstanteko malguki batetik esekita. <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> tartean <math display=\"inline\"><mrow><mi>F</mi><mo>=</mo><msub><mi>F</mi><mn>0</mn></msub></mrow></math> indar konstantea aplikatzen bazaio, frogatu indarra desagertzen oreka-puntutik neurtutako distantzia hauxe dela: <math display=\"block\"><mrow><mi>x</mi><mo>=</mo><mfrac><msub><mi>F</mi><mn>0</mn></msub><mi>k</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">cos</mi><mi>ω</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi mathvariant=\"normal\">cos</mi><mi>ω</mi><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>ω</mi><mn>2</mn></msup><mo>≡</mo><mfrac><mi>k</mi><mi>m</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
+       "html": "<math display=\"block\"><mi>m</mi></math> masako partikula bat orekan dago <math display=\"inline\"><mi>k</mi></math> konstanteko malguki batetik esekita. <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> tartean <math display=\"inline\"><mrow><mi>F</mi><mo>=</mo><msub><mi>F</mi><mn>0</mn></msub></mrow></math> indar konstantea aplikatzen bazaio, frogatu indarra desagertzen oreka-puntutik neurtutako distantzia hauxe dela: <math display=\"block\"><mrow><mi>x</mi><mo>=</mo><mfrac><msub><mi>F</mi><mn>0</mn></msub><mi>k</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">cos</mi><mi>ω</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi mathvariant=\"normal\">cos</mi><mi>ω</mi><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>ω</mi><mn>2</mn></msup><mo>≡</mo><mfrac><mi>k</mi><mi>m</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -2769,6 +2769,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "«U» itxurako beirazko hodi batean 2 Kg merkurio isurtzen dira. Hodiaren zeharkako sekzioa <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>1</mn></mrow></math> cm<sup>2</sup> da. Oreka-posizioaren inguruko oszilazioak aztertzeko, (a) aurkitu oreka-puntutik neurtutako merkurioaren zutabearen altuera eta indar berreskuratzailea lotzen dituen <math display=\"inline\"><mi>k</mi></math> konstantea eta (b) kalkulatu oszilazioen periodoa. <em>Oharra</em>: Arbuiatu airearen biskositatea eta gainazal-tentsioa."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/875d759ec7d64a00.svg\" alt=\"\" style=\"width:47px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2780,6 +2784,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Eman dezagun 1.99 problemako kasuan bi zilindroak kontrako noranzkoetan biratzen direla oso arin. Zilindroen eta barraren arteko marruskadura dinamikoaren koefizientea <math display=\"inline\"><mi>μ</mi></math> bada eta zilindroen arteko distantzia <math display=\"inline\"><mi>a</mi></math>, zein da oszilazioen periodoa? <em>Oharra</em>: Arbuiatu barraren erradioa."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/30f45ee5088d1cad.svg\" alt=\"\" style=\"width:105px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2813,6 +2821,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "<math display=\"inline\"><mi>R</mi></math> erradioko jomuga zirkularra arinegi oszilatzen ari denez <math display=\"inline\"><mi>O</mi></math> puntuaren inguruan, tiratzaileak <math display=\"inline\"><mi>O</mi></math> puntuari egiten dio tiro. Oszilazioa harmonikoa bada eta <math display=\"inline\"><mi>A</mi></math> anplitudekoa, zein izango da diskoa jotzeko probabilitatea? Handiagoa izango da <math display=\"inline\"><mi>P</mi></math> puntuari egiten badio tiro?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/922f459cde23239d.svg\" alt=\"\" style=\"width:124px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2824,6 +2836,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Barra horizontal leun batean barrena higi daiteke irudiko <math display=\"inline\"><mi>m</mi></math> masa, masa gabeko soka luze baten eta erradio txikiko txirrika baten bidez <math display=\"inline\"><mi>M</mi></math> masarekin loturik dagoena. Oreka-posiziotik <math display=\"inline\"><mi>A</mi></math> distantzia txikira mugitu ondoren, <math display=\"inline\"><mi>m</mi></math> masa askatzen bada, nola higituko da? Zein izango da <math display=\"inline\"><mi>M</mi></math>-ren periodoa? Non egongo da <math display=\"inline\"><mi>m</mi></math> masa <math display=\"inline\"><mi>M</mi></math>-ren abiadura eskalarra maximoa denean?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/23076cdc8f8b2b58.svg\" alt=\"\" style=\"width:109px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2846,6 +2862,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Plano horizontal leun batean ari da higitzen, <math display=\"inline\"><mi>v</mi></math> abiadura konstantez, irudiko barra homogeneoa. <math display=\"inline\"><mi>O</mi></math> puntutik aurrera barraren eta hagatxoaren arteko marruskadura dinamikoaren koefizientea <math display=\"inline\"><mrow><mi>μ</mi><mo>&gt;</mo><mn>0</mn></mrow></math> bada, zenbat denbora pasatuko da —eskuineko muturra <math display=\"inline\"><mi>O</mi></math> puntutik igaro ondoren— barra geratu arte? Non geldituko da barra?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/9973b9c2e5175495.svg\" alt=\"\" style=\"width:117px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2890,6 +2910,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Mahai leun horizontal batean dago geldi <math display=\"inline\"><mi>m</mi></math> masako partikula, deformatu gabe dagoen malguki baten mutur bati itsatsita. Une batean beste muturra <math display=\"inline\"><mi>v</mi></math> abiadura konstantez higiarazten da eta <math display=\"inline\"><mi>d</mi></math> distantzia egin duenean geldi geratzen da. Nola aukeratu behar da <math display=\"inline\"><mi>v</mi></math>, azken une horretan <math display=\"inline\"><mi>m</mi></math> geldi gera dadin, oszilatu gabe?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/6daeb6b1219f1cab.svg\" alt=\"\" style=\"width:102px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2901,6 +2925,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Plataforma baten gainean geldi dauden bi bloke elkarrekin lotu dira soka baten bidez eta muturretatik malguki berdinez. Blokeen eta plataformaren arteko marruskadura arbuiagarria bada ere, plataformaren eta zoruaren arteko marruskadura estatikoaren koefizientea <math display=\"inline\"><mi>μ</mi></math> da. Zein da sokaren <math display=\"inline\"><mi>T</mi></math> tentsioaren balio maximoa, soka ebaki ondoren plataforma higi ez dadin? <em>Oharra</em>: Bi kasu kontsideratu behar dira <math display=\"inline\"><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>=</mo><mn>9</mn><msub><mi>m</mi><mn>2</mn></msub></mrow></math> eta <math display=\"inline\"><mrow><msub><mi>m</mi><mn>1</mn></msub><mi>/</mi><msub><mi>m</mi><mn>2</mn></msub></mrow></math> irrazionala denean."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/f05a871596de0763.svg\" alt=\"\" style=\"width:132px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2912,6 +2940,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko hagatxo bertikala leuna da eta txirrikaren erradioa arbuiagarria. Nolako baldintza bete behar du sistema orekan egon ahal izateko, grabitatearen eraginpean? Zein da orduan oreka-konfigurazioa? Eta oszilazio txikien maiztasuna?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/d5cddd6f8d316d5a.svg\" alt=\"\" style=\"width:111px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2934,6 +2966,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko eraztun horizontala <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> abiadura angeluar konstantez ari da biratzen bere zentroaren inguruan. <math display=\"inline\"><mi>m</mi></math> masako partikula diametro batean barrena higi daiteke, marruskadurarik gabe, eta malguki berdinez loturik dagoela. Malgukien luzera propioa <math display=\"inline\"><mi>L</mi></math> da eta konstante berreskuratzailea <math display=\"inline\"><mi>k</mi></math>. (a) Kalkulatu oreka erlatiboaren konfigurazioa(k). (b) Noiz izango da oszilakorra masaren higidura? Zein da orduan bere maiztasuna? Oszilakorra ez bada, nola higitzen da masa? (c) Zer aldatzen da zure erantzunetan malgukietako bat kentzen bada?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/0474f0b2c42ef7d7.svg\" alt=\"\" style=\"width:83px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2964,6 +3000,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko mahaia leuna da, baina bi blokeen arteko marruskadura estatikoaren koefizientea <math display=\"inline\"><mi>μ</mi></math> da. Nolako izan behar du oszilazioen anplitudeak, goiko blokea labaintzen has ez dadin?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/c4cc12fd4d19bb22.svg\" alt=\"\" style=\"width:88px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2975,6 +3015,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko plataformaren masa <math display=\"inline\"><mi>M</mi></math> da eta bi zilindro homogeneo berdinen gainean dago eta hormatik lotuta <math display=\"inline\"><mi>k</mi></math> konstante berreskuratzaileko malguki baten bidez, irudian erakusten den bezala. Zilindroen masak eta erradioak <math display=\"inline\"><mi>m</mi></math> eta <math display=\"inline\"><mi>r</mi></math> dira, hurrenez hurren. Plataforma eta zilindroak labaintzen ez badira, zein da oszilazioen maiztasuna?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/fa189488f6eb32ad.svg\" alt=\"\" style=\"width:109px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2986,6 +3030,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> barra artikulazio leun baten inguruan bira daiteke plano bertikal batean, Plano hori, artikulazioa bezalaxe, <math display=\"inline\"><mrow><mi>C</mi><mi>D</mi></mrow></math> ardatz bertikalaren inguruan biratzen da, <math display=\"inline\"><mi>ω</mi></math> abiadura angeluar konstantez. Barraren luzera eta masa <math display=\"inline\"><mi>a</mi></math> eta <math display=\"inline\"><mi>m</mi></math> dira, hurrenez hurren. Aukeratu barraren triedro nagusi bat energia zinetikoa idazteko. Idatzi higidura-ekuazioa eta aztertu oreka erlatiboaren puntuak, euren egonkortasuna, eta oreka egonkorreko puntuen inguruko oszilazio txikien maiztasunak. <em>Oharra</em>: Arbuiatu barraren diametroa."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/331c0ad00dfc864f.svg\" alt=\"\" style=\"width:97px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2997,6 +3045,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko blokea mahai leunean higitzen da, hormarekiko perpendikularrean, malgukiaren eraginez. Sistema orekan dago <math display=\"inline\"><mrow><mi>α</mi><mo>=</mo><msub><mi>α</mi><mn>0</mn></msub></mrow></math> denean. Kalkulatu oszilazio txikien maiztasuna."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/943ee9fc9a4ffb3a.svg\" alt=\"\" style=\"width:110px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3008,6 +3060,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko barra leuna <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> abiadura angeluar konstantez ari da biratzen plano horizontal batean. Barran barrena higi daitekeen <math display=\"inline\"><mi>m</mi></math> masa biraketa-ardatzetik lotuta dago, malguki baten bidez. Malgukiaren luzera propioa <math display=\"inline\"><mi>L</mi></math> da eta konstante berreskuratzailea <math display=\"inline\"><mi>k</mi></math>. Noiz egongo da oreka erlatiboaren konfigurazioen bat? Zein izango da? Eta oreka egonkorreko konfigurazioaren inguruko oszilazio txikien maiztasuna? Zer gertatzen da oreka-konfiguraziorik ez dagoenean?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/22517ce3c6c5d3f9.svg\" alt=\"\" style=\"width:101px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3019,6 +3075,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudian erakusten den ezkerreko masa mahai horizontal leunean higitzen da, <math display=\"inline\"><mi>A</mi></math> anplitudeko oszilazio lineal batean. Malgukiaren elongazioa <math display=\"inline\"><mrow><mi>A</mi><mi>/</mi><mn>2</mn></mrow></math> denean, masa berdin batekin topo egiten du eta biak loturik geratzen dira. Kalkulatu oszilazio berrien anplitudea. Zer aldatzen da zure erantzunean talka elastikoa bada?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/516cec7d276f27e6.svg\" alt=\"\" style=\"width:110px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3080,6 +3140,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko pendulu matematiko alderantzikatua egonkortzeko, hormatik lotu da, <math display=\"inline\"><mi>d</mi></math> altueran, malguki baten bidez. Malgukia deformatu gabe dago pendulua bertikalean dagoenean. Penduluaren luzera eta masa <math display=\"inline\"><mi>L</mi></math> eta <math display=\"inline\"><mi>m</mi></math> dira. Nola aukeratu behar da malgukiaren <math display=\"inline\"><mi>k</mi></math> konstante berreskuratzailea? Zein da orduan oszilazio txikien maiztasuna?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/ac54484cb0a5070c.svg\" alt=\"\" style=\"width:69px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3113,6 +3177,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko txirrikak eta soka masa gabekoak dira. Soka biribilkatuta dago beheko txirrikan eta ez da labaintzen. Eskuineko masa bakarrik higitzen da bertikalean eta <math display=\"inline\"><mi>M</mi></math> masakoa finko dago txirrikako periferian. Marruskadurak arbuiagarriak dira. Nolako baldintza(k) bete behar d(ir)a sistema orekan egon ahal izateko? Aurkitu oreka egonkorreko konfigurazioa(k) eta beren inguruko oszilazio txikien maiztasuna."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/1c7fc2e9c8fcb0a5.svg\" alt=\"\" style=\"width:65px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3139,6 +3207,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudian adierazten den aldiunean partikula pausagunean dago eta labaintzen hasten da. Marruskadura arbuiagarria da. Harmonikoa al da partikularen higidura? Zein da periodoa?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/38ded391d9d39c5e.svg\" alt=\"\" style=\"width:101px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3150,6 +3222,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko bi malguki berdinen luzera propioa <math display=\"inline\"><mi>d</mi></math> da eta sistema mahai leun horizontal batean dago. Masa barra leunean barrena higi daiteke."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/6dc91092b54b51f4.svg\" alt=\"\" style=\"width:117px\" loading=\"lazy\">"
       },
       {
        "mota": "testua",
@@ -3237,6 +3313,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Hagatxo zurrun arin baten bidez daude lotuta irudiko bi masa berdinak. Norabide elkarzutetan higi daitezke, mahai horizontal leun batean. Frogatu partikula bakoitzaren higidura harmonikoa dela, baina oszilador hauek nahiko bitxiak direla, maiztasuna energia mekanikoaren (hau da, hastapen-baldintzen) menpekoa baita. Nolakoa da oszilazioen anplitudea? Eta oreka-konfigurazioa? Nolakoa da hagatxoaren zentroaren ibilbidea? Eta hagatxoaren abiadura angeluarra?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/98db9d56200e08e0.svg\" alt=\"\" style=\"width:67px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3248,6 +3328,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Aztertu irudiko sistemaren higidura, bloke eta azal horizontalaren arteko marruskadura arbuiatu gabe."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/15fc6cd3d7331d67.svg\" alt=\"\" style=\"width:92px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3332,6 +3416,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       },
       {
        "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/e71674ebeb5728a4.svg\" alt=\"\" style=\"width:92px\" loading=\"lazy\">"
+      },
+      {
+       "mota": "testua",
        "html": "(a) Marraztu <math display=\"inline\"><mi>M</mi></math> eta <math display=\"inline\"><mi>m</mi></math> masen gainean eragiten duten indarrak eta aurkitu higidura-ekuazioak."
       },
       {
@@ -3378,6 +3466,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Mahai horizontal leun batean dagoen <math display=\"inline\"><mi>m</mi></math> masa bi puntu finkotik lotuta dago, malguki berdinen bidez, irudian erakusten den bezala. Malgukien luzera propioa <math display=\"inline\"><mi>L</mi></math> da. Frogatu <math display=\"inline\"><mrow><mi>a</mi><mo>&lt;</mo><mi>L</mi></mrow></math> denean erdiko posizioa ezegonkorra dela. Zein da arrazoi fisikoa? Egiaztatu <math display=\"inline\"><mrow><mi>a</mi><mo>&gt;</mo><mi>L</mi></mrow></math> bada, aipaturiko posizioan oreka egonkorra dela eta oszilazio txikietan energia potentziala (7.120) moduan idatz daitekeela, kalkulatu behar dituzun <math display=\"inline\"><msub><mi>k</mi><mi>x</mi></msub></math> eta <math display=\"inline\"><msub><mi>k</mi><mi>y</mi></msub></math> konstante egokiekin. Zeintzuk dira modu eta maiztasun normalak azken kasuan?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/58aae51d0118693b.svg\" alt=\"\" style=\"width:126px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3389,6 +3481,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "7.8 ariketaren ildo beretik azter itzazu irudiko bi masen zeharkako oszilazio txikiak. Zeintzuk dira sistemaren modu normalak?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/865493ff9d412ae4.svg\" alt=\"\" style=\"width:110px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3400,6 +3496,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Bi xafla horizontal leunen artean dagoen <math display=\"inline\"><mi>m</mi></math> masa lau puntu finkotik lotuta dago, malguki berdinen bidez, irudian erakusten den moduan. Malgukien luzera propioa <math display=\"inline\"><mi>L</mi></math> da. Noiz da oreka egonkorra erdiko puntua? Froga ezazu azken kasu horretan, oszilazioak txikiak direnean, 4.5 problemako energia potentziala berreskuratzen dela, kalkulatu behar duzun konstante berreskuratzaile egokiarekin."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/342e1ca4279cb622.svg\" alt=\"\" style=\"width:100px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3411,6 +3511,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudian agertzen den malgukiaren berezko luzera, penduluen esekidura-puntuen arteko <math display=\"inline\"><mi>s</mi></math> distantziaren berdina da. Aurki bitez sistemaren modu normal lauak. <em>Oharra</em>: Kalkuluak errazteko, <math display=\"inline\"><mrow><mi>m</mi><mo>=</mo><mn>6</mn><mi>M</mi></mrow></math>, <math display=\"inline\"><mrow><mi>l</mi><mo>=</mo><mn>2</mn><mi>d</mi></mrow></math> eta <math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mn>2</mn><mi>M</mi><mi>g</mi><mi>/</mi><mi>d</mi></mrow></math> balioak aukera daitezke."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/86554912d4497fa1.svg\" alt=\"\" style=\"width:93px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3422,6 +3526,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko sistemaren gainean eragiten duen kanpo-indarra <math display=\"inline\"><mrow><mi>F</mi><mo>=</mo><msub><mi>F</mi><mn>0</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi mathvariant=\"normal\">Ω</mi><mi>t</mi></mrow></math> da. Marruskadura arbuiagarria da. Azter ezazu sistemaren higidura zuzena."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/66eb53939b5e86fa.svg\" alt=\"\" style=\"width:128px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3433,6 +3541,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko hiru masak berdinak dira eta zirkunferentzia horizontal leun batean barrena higi daitezke. Malgukiak ere berdinak badira, zeintzuk dira sistemaren modu normalak?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/15b23b4799d8d4ae.svg\" alt=\"\" style=\"width:79px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3455,6 +3567,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Marruskadura arbuiatuz, azter itzazu irudiko sistemaren oszilazio txiki lauak."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/e795b643a438ea9b.svg\" alt=\"\" style=\"width:81px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3466,6 +3582,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Nahiz eta oso sinplea izan, irudiko sistema automobilen eredu erabilgarria da. Kalkula itzazu dagozkion modu normalak hurrengo datuak erabiliz: Gurpilen eta ardatzen masa: <math display=\"inline\"><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>=</mo><mn>200</mn></mrow></math> kg. Autoaren masa osoa: <math display=\"inline\"><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub><mo>=</mo><mn>1000</mn></mrow></math> kg. Pneumatikoen konstantea: <math display=\"inline\"><mrow><msub><mi>k</mi><mn>1</mn></msub><mo>=</mo><mn>500</mn></mrow></math> N/mm. Esekidura-malgukien konstantea: <math display=\"inline\"><mrow><msub><mi>k</mi><mn>2</mn></msub><mo>=</mo><mn>50</mn></mrow></math> N/mm."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/81dc1768ffc4d717.svg\" alt=\"\" style=\"width:50px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3477,6 +3597,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Zilindro huts bat gainazal horizontal batean ari da higitzen eta zilindro bete bat dauka barnean. Zilindro biak labaindu gabe higitzen badira, zein da oszilazio txikien periodoa? Deskribatu modu normalak."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/88555cf0db537e3a.svg\" alt=\"\" style=\"width:74px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3488,6 +3612,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko zirkuituen arteko elkarrindukzio-koefizientea <math display=\"inline\"><mi>M</mi></math> bada, zeintzuk dira sistemaren modu normalak?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/f6f0d26eddd62a44.svg\" alt=\"\" style=\"width:120px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3499,6 +3627,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Aurki itzazu irudiko sistemaren maiztasun, koordenatu eta modu normalak. Kalkuluak errazteko, aukera ezazu <math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mn>2</mn><mi>m</mi><mi>g</mi><mi>/</mi><mi>l</mi></mrow></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/36406b3fc34a59c3.svg\" alt=\"\" style=\"width:87px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3510,6 +3642,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko sisteman marruskadura arbuiagarria dela jorik, aurki itzazu koordenatu, maiztasun eta modu normalak."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/f2864f0b84220dd3.svg\" alt=\"\" style=\"width:92px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3521,6 +3657,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Kalkula itzazu irudiko sistemaren maiztasun eta modu normalak, ziriaren higidura plano bertikal batean gertatzen bada eta masa-zentroarena norabide bertikalean."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/2e69867a903f61ab.svg\" alt=\"\" style=\"width:67px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3532,6 +3672,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Aurki itzazu irudiko sistemaren pultsazio eta modu normalak, <math display=\"inline\"><mrow><mi>k</mi><mi>/</mi><mi>m</mi><mo>=</mo><mn>6</mn><mi>g</mi><mi>/</mi><mi>l</mi></mrow></math> baldintza betetzen den kasu berezian."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/89c04282f64c9d92.svg\" alt=\"\" style=\"width:89px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3543,6 +3687,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko lau kargak finko daude. Bosgarren partikularen karga ere <math display=\"inline\"><mi>q</mi></math> da eta <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> planoan higi daiteke. Idatz ezazu partikularen energia potentziala <math display=\"inline\"><mrow><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Taylorren garapena jatorriaren inguruan eginez, aurki ezazu potentzialaren hurbilketa koadratikoa eta froga ezazu jatorrian oreka egonkorra dela. Aurki itzazu modu normalak. Nolakoa izango da partikularen orbita jatorritik oso hurbil higitzen bada?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/5309f22948637dde.svg\" alt=\"\" style=\"width:97px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3579,6 +3727,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       },
       {
        "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/4e12891f8ddf0e26.svg\" alt=\"\" style=\"width:117px\" loading=\"lazy\">"
+      },
+      {
+       "mota": "testua",
        "html": "Kalkulatu pendulu baten ekuazioa oszilazioak txikiak direnean eta egin <math display=\"inline\"><mrow><mi>N</mi><mo>→</mo><mi>∞</mi></mrow></math> limitea hurrengo egiturako uhin-ekuazioa betetzen dela egiaztatzeko: <math display=\"block\"><mrow><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>u</mi></mrow><mrow><mi>∂</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>−</mo><mfrac><mn>1</mn><msup><mi>v</mi><mn>2</mn></msup></mfrac><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>u</mi></mrow><mrow><mi>∂</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><msubsup><mi>ω</mi><mn>0</mn><mn>2</mn></msubsup><msup><mi>v</mi><mn>2</mn></msup></mfrac><mi>u</mi><mi>.</mi></mrow></math> Zeintzuk dira <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math> eta <math display=\"inline\"><mi>v</mi></math> konstanteak?"
       }
      ]
@@ -3591,6 +3743,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko eraztunaren masa <math display=\"inline\"><mi>M</mi></math> da eta <math display=\"inline\"><mi>P</mi></math> puntuaren inguruan oszila daiteke plano bertikal batean grabitatearen eraginpean. <math display=\"inline\"><mi>m</mi></math> masako iduneko bat eraztunean barrena higi daiteke marruskadurarik gabe."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/516ab85dea0e9b0f.svg\" alt=\"\" style=\"width:70px\" loading=\"lazy\">"
       },
       {
        "mota": "testua",
@@ -3614,6 +3770,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Bi masa berdin, irudiko hagatxo leun paralelo bertikaletan barrena higi daitezke eta malgukien bidez daude loturik erakusten den moduan. Hagatxoen arteko distantzia, <math display=\"inline\"><msup><mi>k</mi><mo>′</mo></msup></math> konstante berreskuratzaileko malgukiaren luzera propioaren berdina da. Aurkitu maiztasun eta koordenatu normalak. Deskribatu modu normalak."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/633005f52efbca06.svg\" alt=\"\" style=\"width:82px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3625,6 +3785,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko bi blokeen masak <math display=\"inline\"><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>=</mo><mi>m</mi></mrow></math> eta <math display=\"inline\"><mrow><msub><mi>m</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>m</mi></mrow></math> dira eta mahai horizontal leun batean daude, beraien artean eta hormatik bi malguki berdinez lotuta, irudian erakusten den moduan. Oreka-posiziotik neurtutako <math display=\"inline\"><msub><mi>x</mi><mi>i</mi></msub></math> abzisak erabiltzen badira, hastapen-baldintzak <math display=\"inline\"><mrow><msub><mi>x</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><msub><mi>x</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><msub><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> dira. Aurkitu higidura-ekuazioen soluzioa."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/d5fb95e90e6fc99f.svg\" alt=\"\" style=\"width:128px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3636,6 +3800,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko hagatxo arina plano bertikal batean bira daiteke artikulazio leun baten inguruan. Gainera, <math display=\"inline\"><mi>m</mi></math> masa hagatxoan barrena higi daiteke marruskadurarik gabe eta hagatxoaren artikulaziotik loturik dago <math display=\"inline\"><msub><mi>l</mi><mn>0</mn></msub></math> luzera propioko malguki arin baten bidez. Kalkulatu maiztasun eta modu normalak. Iruzkina egin emaitzari. <em>Oharra</em>: Oszilazioak txikiak ez direnean zer gertatzen den ikusteko, erabili simulazio hau: <code>http://tp.lc.ehu.eus/jma/mekanika/oszilazioak/elastikoa.html</code>."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/91868c5eb33beaa8.svg\" alt=\"\" style=\"width:62px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3672,6 +3840,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       },
       {
        "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/c9f23b54513c3ea6.svg\" alt=\"\" style=\"width:84px\" loading=\"lazy\">"
+      },
+      {
+       "mota": "testua",
        "html": "(a) Aurkitu oreka-konfigurazioak eta eztabaidatu euren egonkortasuna."
       },
       {
@@ -3691,6 +3863,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       },
       {
        "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/d273934a6ae26270.svg\" alt=\"\" style=\"width:88px\" loading=\"lazy\">"
+      },
+      {
+       "mota": "testua",
        "html": "(a) Kalkulatu eta deskribatu maiztasun eta modu normalak."
       },
       {
@@ -3707,6 +3883,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko sistemaren ezkerreko muturra <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><msub><mi>x</mi><mn>0</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi mathvariant=\"normal\">Ω</mi><mi>t</mi></mrow></math> legearen arabera higitzen ari da, kanpo-indar egoki baten eraginez. Idatzi bi masen higidura-ekuazioak. Zein da masen desplazamendua higidura iraunkorrean? Noiz gertatzen da erresonantzia? <em>Oharra</em>: Arbuiatu marruskadura."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/d53d0dbcfb80ba36.svg\" alt=\"\" style=\"width:165px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3718,6 +3898,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko plataformaren gainean kokatu da <math display=\"inline\"><mi>R</mi></math> erradioko hemisferio hutsa, erakusten den moduan bira daitekeena labaindu gabe. Plataformaren masa <math display=\"inline\"><mrow><mi>M</mi><mo>=</mo><mi>m</mi><mi>/</mi><mn>2</mn></mrow></math> da. Kalkulatu maiztasun eta modu normalak eta deskribatu azken hauek. Idatzi higidura-ekuazioen soluzio orokorra. Nola higituko da sistema <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> unean plataforma geldi badago eta <math display=\"inline\"><mrow><mi>A</mi><mi>O</mi><mi>B</mi></mrow></math> ertza horizontalean baina <math display=\"inline\"><mi>ω</mi></math> abiadura angeluar txikiz biratuz?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/58f21ab751becd5d.svg\" alt=\"\" style=\"width:94px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3729,6 +3913,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko masak marruskadurarik gabe higi daitezke zuzen horizontal batean."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/9b2a32da2d518d5e.svg\" alt=\"\" style=\"width:139px\" loading=\"lazy\">"
       },
       {
        "mota": "testua",
@@ -3759,6 +3947,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       },
       {
        "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/794346b1a9b20456.svg\" alt=\"\" style=\"width:63px\" loading=\"lazy\">"
+      },
+      {
+       "mota": "testua",
        "html": "(a) Kalkulatu maiztasun eta modu normalak."
       },
       {
@@ -3782,6 +3974,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       },
       {
        "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/59463bce7587fa9b.svg\" alt=\"\" style=\"width:69px\" loading=\"lazy\">"
+      },
+      {
+       "mota": "testua",
        "html": "(a) Nola aukeratu behar da kanpo-indarraren <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> pultsazioa sistema erresonantzian jartzeko?"
       },
       {
@@ -3798,6 +3994,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko bi masak norabide bertikalean higitzen dira, beheko masan aplikatutako kanpo-indar bertikal sinusoidalaren eraginpean. Bi malgukien luzera propioa <math display=\"inline\"><mi>ℓ</mi></math> da. Aukeratu irudiko koordenatuak eta idatzi higidura-ekuazioen soluzio orokorra. Nola aukeratu behar dira <math display=\"inline\"><msub><mi>F</mi><mn>0</mn></msub></math>, <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> eta hastapen-baldintzak (<math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> unean), (a) sistema erresonantzian jartzeko, (b) sistema modu normal batean higitzeko? <em>Oharra</em>: Arbuiatu marruskadura."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/cf233789e6eee6ee.svg\" alt=\"\" style=\"width:69px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3809,6 +4009,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Masa bat hagatxo leun arin batean barrena higi daiteke, hagatxoaren artikulazio leunetik malguki baten bidez loturik dagoela. Malgukiaren luzera propioa <math display=\"inline\"><mi>L</mi></math> da eta konstante berreskuratzailea <math display=\"inline\"><mi>k</mi></math>. Hasieran sistema orekan dago, posizio bertikalean, baina <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> unean masa bereko beste partikula batek jotzen du pendulukoa <math display=\"inline\"><mi>v</mi></math> abiadura horizontal txikiz. Bi masak loturik geratzen dira. Oreka-puntu berriaren inguruko oszilazioak txikiak badira, zeintzuk dira <math display=\"inline\"><mrow><mi>r</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mi>φ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>? Nolako baldintzak bete behar dira oszilazioak txikiak izateko?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/db17a8160a17ebce.svg\" alt=\"\" style=\"width:67px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3831,6 +4035,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Aurkitu irudiko sistemaren oszilazio bertikalen maiztasun eta modu normalak. Nola aukeratu behar dira hastapen-baldintzak higidura periodikoa izateko?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/01ccb2319eed62df.svg\" alt=\"\" style=\"width:49px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3842,6 +4050,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Bi masa berdin norabide elkarzutetan higi daitezke, marruskadurarik gabe, eta <math display=\"inline\"><mi>O</mi></math> puntu finkotik eta haien artean loturik daude irudiko malgukien bidez. Kalkulatu maiztasun eta modu normalak. Nola aukeratu behar dira hastapen-baldintzak sistema modu normal bakoitzean jartzeko? <em>Oharra</em>: Hiru malgukiak zuzenak dira une guztietan."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/7481edb48736e7bb.svg\" alt=\"\" style=\"width:81px\" loading=\"lazy\">"
       },
       {
        "mota": "testua",
@@ -3857,6 +4069,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko plataformaren masa <math display=\"inline\"><mi>m</mi></math> da eta oztoporik gabe higi daiteke horizontalean. Gainean duen <math display=\"inline\"><mi>m</mi></math> masako blokea marruskadurarik gabe higi daiteke. Plataforma eta bloke hori geldi daudela, <math display=\"inline\"><mi>v</mi></math> abiadura horizontalez higitzen den <math display=\"inline\"><mi>m</mi></math> masako bigarren blokeak plataformaren gainean dagoena jotzen du. Bi blokeak loturik geratzen badira, nola higitzen dira sistemaren elementuak talka ondoren?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/65ac624d1413659d.svg\" alt=\"\" style=\"width:128px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3868,6 +4084,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko disko berdinak plano bertikal berean bira daitezke, ardatz leun horizontalen inguruan. Ez dago labainketarik diskoen artean. Diskoen periferiako puntu simetrikoetatik pendulu matematiko berdinak eseki dira. Penduluen masa eta luzera <math display=\"inline\"><mi>m</mi></math> eta <math display=\"inline\"><mi>R</mi></math> dira eta diskoen masa eta erradioa <math display=\"inline\"><mrow><mn>3</mn><mi>m</mi></mrow></math> eta <math display=\"inline\"><mi>R</mi></math>. Kalkulatu sistemaren oszilazio txikien maiztasun eta modu normalak. Nola aukeratu behar dira hastapen-baldintzak higidura periodikoa izateko?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/95faaa957a8e8aeb.svg\" alt=\"\" style=\"width:92px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3879,6 +4099,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko masak eta malgukiak zuzen berean higitzen dira. (a) Kalkulatu higidura-ekuazioen soluzio orokorra eta erresonantzia-baldintzak. (b) Nola aukeratu behar dira hastapen-baldintzak higidura periodikoa izateko? (c) Muturretako malgukiak kentzen badira, zein(tzuk) d(ir)a maiztasun normala(k)?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/d82af4261567a774.svg\" alt=\"\" style=\"width:217px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3890,6 +4114,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko <math display=\"inline\"><mi>M</mi></math> masa barra horizontal leun batean barrena higi daiteke eta <math display=\"inline\"><mi>m</mi></math> norabide bertikalean. Malgukiaren konstante berreskuratzailea <math display=\"inline\"><mi>k</mi></math> da. Demagun orekatik neurtutako malgukiaren luzapena <math display=\"inline\"><mi>y</mi></math> koordenatu orokortua dela. Kalkulatu maiztasun, koordenatu eta modu normalak. Nola aukeratu behar dira hastapen-baldintzak sistema modu normal batean jartzeko?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/2e89a91f72980920.svg\" alt=\"\" style=\"width:93px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3901,6 +4129,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko barra homogeneoaren masa eta luzera <math display=\"inline\"><mi>m</mi></math> eta <math display=\"inline\"><mi>l</mi></math> dira. Mutur batean duen eraztun txikia barra horizontal leunean barrena higi daiteke. Oszilazio txikiak irudiko planoan gertatzen dira. Kalkulatu maiztasun eta modu normalak. Orekan zegoenean <math display=\"inline\"><mi>J</mi></math> bulkada horizontal txikia aplikatzen zaio eraztunetik <math display=\"inline\"><mrow><mi>h</mi><mo>=</mo><mn>2</mn><mi>l</mi><mi>/</mi><mn>3</mn></mrow></math> distantziara. Kalkulatu barraren higidura-ekuazioen soluzioa."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/3bea6ee4bc4a7378.svg\" alt=\"\" style=\"width:89px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3912,6 +4144,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "<math display=\"inline\"><mi>l</mi></math> luzerako soka arin baten bidez lotu dira <math display=\"inline\"><mrow><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>l</mi></mrow></math> luzerako barra homogeneo baten muturretako bat eta puntu finko bat. Kalkulatu oszilazio lau txikien maiztasun eta modu normalak. Modu normalez gain, badago bestelako soluzio periodikorik?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/eb3ea2866132a669.svg\" alt=\"\" style=\"width:61px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3923,6 +4159,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Eraztun bat plano horizontal batean higi daiteke, marruskadurarik gabe, irudian erakusten den eran: eraztuna bira daiteke, baina zentroa zuzen batean barrena higitzen da. Eraztunaren masa eta erradioa <math display=\"inline\"><mi>m</mi></math> eta <math display=\"inline\"><mi>r</mi></math> dira. Malguki arinen luzera propioa <math display=\"inline\"><msub><mi>l</mi><mn>0</mn></msub></math> da eta konstante berreskuratzailea <math display=\"inline\"><mi>k</mi></math>. Orekan malgukien luzera <math display=\"inline\"><mrow><mi>a</mi><mo>&gt;</mo><msub><mi>l</mi><mn>0</mn></msub></mrow></math> da. Kalkulatu maiztasun eta modu normalak."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/2c09a4f4c2f6f36e.svg\" alt=\"\" style=\"width:97px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3934,6 +4174,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Kalkulatu irudiko sistemaren maiztasun eta modu normalak, <math display=\"inline\"><mrow><mi>M</mi><mo>=</mo><mn>2</mn><mi>m</mi></mrow></math> eta <math display=\"inline\"><mrow><msup><mi>k</mi><mo>′</mo></msup><mo>=</mo><mn>2</mn><mi>k</mi></mrow></math> kasuan. Noiz da periodikoa oszilazioa? <em>Oharra</em>: Marruskadura arbuiagarria da."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/35f9237005970f80.svg\" alt=\"\" style=\"width:110px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3949,6 +4193,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Irudiko bi blokeak mahai horizontal leun batean daude eta ezkerrekoan eragiten du kanpo-indar harmonikoa. Aurkitu zein den bete behar den baldintza ezkerreko masa geldi geratu ahal dadin."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/426156eb7f7a3ec5.svg\" alt=\"\" style=\"width:144px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3960,6 +4208,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       {
        "mota": "testua",
        "html": "Kontsidera dezagun gorputz baten egitura elastikoaren eredu sinplista bat. <em>Gorputz</em> baten osagai <em>mikroskopikoak</em> <math display=\"inline\"><mi>m</mi></math> eta <math display=\"inline\"><mrow><mi>α</mi><mi>m</mi></mrow></math> masak dira eta haien arteko elkarrekintza, masa gabeko malguki batek eragindakoa. Malgukiaren konstante berreskuratzailea <math display=\"inline\"><mi>k</mi></math> da eta <math display=\"inline\"><mrow><mn>0</mn><mo>≤</mo><mi>α</mi><mo>≤</mo><mn>0.697</mn><mi>…</mi></mrow></math> parametroa konstantea. Horrelako bi <em>gorputz</em> higitzen ari dira, mahai horizontal leun batean."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/ac2b32184d42cf35.svg\" alt=\"\" style=\"width:146px\" loading=\"lazy\">"
       },
       {
        "mota": "testua",
@@ -4013,6 +4265,10 @@ KAPITULUAK["05mk_07oszilazioak"] = {
       },
       {
        "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/baa9b0cb4206e07f.svg\" alt=\"\" style=\"width:114px\" loading=\"lazy\">"
+      },
+      {
+       "mota": "testua",
        "html": "<math display=\"block\"><mrow><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msup><mi>ω</mi><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math> Egiaztatu ez dagoela oreka egonkorreko konfiguraziorik. Orain simetria-ardatz bertikalaren inguruan birarazten da <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> abiadura angeluarraz. Zein da bete behar den baldintza oreka egonkorra (eta horren inguruko oszilazioak) gertatu ahal izateko? <em>Oharra</em>: Benetako tresna mekanikoak ikusteko, bilatu Interneten <em>rotating saddle</em>, <em>Paul trap</em> edo antzeko hitzak."
       }
      ]
@@ -4032,10 +4288,6 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "Kalkulatu beheko irudietan erakusten diren bi sistema oszilatzaileen pultsazioak, kontuan hartuta lehen kasuan zilindroa irristatu gabe biribiltzen dela eta bigarren kasuan oszilazio txikiak soilik hartzen direla kontuan."
     },
     {
@@ -4053,10 +4305,6 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -4293,10 +4541,6 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>R.</strong>"
     },
     {
@@ -4305,7 +4549,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> l_1 = R(θ_2 − θ_1)      l_2 = R(θ_3 − θ_2)      l_3 = R(θ_1 − θ_3) </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">l_1 = R(θ_2 − θ_1)      l_2 = R(θ_3 − θ_2)      l_3 = R(θ_1 − θ_3)</code>"
     },
     {
      "mota": "testua",
@@ -4313,7 +4557,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> V = (1/2) k R² [ (θ_2 − θ_1)² + (θ_3 − θ_2)² + (θ_1 − θ_3)² ] </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">V = (1/2) k R² [ (θ_2 − θ_1)² + (θ_3 − θ_2)² + (θ_1 − θ_3)² ]</code>"
     },
     {
      "mota": "testua",
@@ -4321,7 +4565,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> T = (1/2) R² [ 2m \\dot{θ}_1² + m \\dot{θ}_2² + m \\dot{θ}_3² ] = (1/2) m R² ( 2\\dot{θ}_1² + \\dot{θ}_2² + \\dot{θ}_3² ) </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">T = (1/2) R² [ 2m \\dot{θ}_1² + m \\dot{θ}_2² + m \\dot{θ}_3² ] = (1/2) m R² ( 2\\dot{θ}_1² + \\dot{θ}_2² + \\dot{θ}_3² )</code>"
     },
     {
      "mota": "testua",
@@ -4329,7 +4573,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> | 2  0  0 |                  |  2  −1  −1 | T = mR² | 0  1  0 |          V = kR² | −1   2  −1 | | 0  0  1 |                  | −1  −1   2 | </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">        | 2  0  0 |                  |  2  −1  −1 |\nT = mR² | 0  1  0 |          V = kR² | −1   2  −1 |\n        | 0  0  1 |                  | −1  −1   2 |</code>"
     },
     {
      "mota": "testua",
@@ -4337,7 +4581,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> | 2  0  0 |            |  2  −1  −1 | t = | 0  1  0 |        v = | −1   2  −1 | | 0  0  1 |            | −1  −1   2 | </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">    | 2  0  0 |            |  2  −1  −1 |\nt = | 0  1  0 |        v = | −1   2  −1 |\n    | 0  0  1 |            | −1  −1   2 |</code>"
     },
     {
      "mota": "testua",
@@ -4345,7 +4589,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> | 2−2λ   −1    −1  | |  −1   2−λ    −1  | = 0     →     λ_1 = 0  →  ω_1 = 0 |  −1    −1   2−λ  |                λ_2 = 2  →  ω_2 = √(2k/m) λ_3 = 3  →  ω_3 = √(3k/m) </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">| 2−2λ   −1    −1  |\n|  −1   2−λ    −1  | = 0     →     λ_1 = 0  →  ω_1 = 0\n|  −1    −1   2−λ  |                λ_2 = 2  →  ω_2 = √(2k/m)\n                                   λ_3 = 3  →  ω_3 = √(3k/m)</code>"
     },
     {
      "mota": "testua",
@@ -4357,15 +4601,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> • λ = 0    |  2  −1  −1 | | a_11 |             →   a_11 = a_21 = a_31 | −1   2  −1 | | a_21 | = 0 | −1  −1   2 | | a_31 |</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "• λ = 2    | −2  −1  −1 | | a_12 |             →   a_12 = −a_22 = −a_32 | −1   0  −1 | | a_22 | = 0 | −1  −1   0 | | a_32 |"
-    },
-    {
-     "mota": "testua",
-     "html": "• λ = 3    | −4  −1  −1 | | a_13 |             →   a_13 = 0,  a_23 = −a_33 | −1  −1  −1 | | a_23 | = 0 | −1  −1  −1 | | a_33 | <code></code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">• λ = 0    |  2  −1  −1 | | a_11 |             →   a_11 = a_21 = a_31\n           | −1   2  −1 | | a_21 | = 0\n           | −1  −1   2 | | a_31 |\n\n• λ = 2    | −2  −1  −1 | | a_12 |             →   a_12 = −a_22 = −a_32\n           | −1   0  −1 | | a_22 | = 0\n           | −1  −1   0 | | a_32 |\n\n• λ = 3    | −4  −1  −1 | | a_13 |             →   a_13 = 0,  a_23 = −a_33\n           | −1  −1  −1 | | a_23 | = 0\n           | −1  −1  −1 | | a_33 |</code>"
     },
     {
      "mota": "testua",
@@ -4377,7 +4613,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> | a_11   a_11   a_11 | | 2  0  0 | | a_11   a_12    0   |   | α  0  0 | | a_12  −a_12  −a_12 | | 0  1  0 | | a_11  −a_12   a_23 | = | 0  α  0 | |  0     a_23  −a_23 | | 0  0  1 | | a_11  −a_12  −a_23 |   | 0  0  α | </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">| a_11   a_11   a_11 | | 2  0  0 | | a_11   a_12    0   |   | α  0  0 |\n| a_12  −a_12  −a_12 | | 0  1  0 | | a_11  −a_12   a_23 | = | 0  α  0 |\n|  0     a_23  −a_23 | | 0  0  1 | | a_11  −a_12  −a_23 |   | 0  0  α |</code>"
     },
     {
      "mota": "testua",
@@ -4385,7 +4621,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> a_11 = a_12 = 1/(2√m R)              a_23 = √2/(2√m R) </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">a_11 = a_12 = 1/(2√m R)              a_23 = √2/(2√m R)</code>"
     },
     {
      "mota": "testua",
@@ -4393,11 +4629,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> | 1 |                        |  1 |                        |  0 | a_1 = ————— | 1 |        a_2 = ————— | −1 |        a_3 = ————— | 1 | 2√m R | 1 |              2√m R | −1 |             2√m R  | −1 |</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "(a_1 = (1/(2√m R))·[1, 1, 1]ᵀ ;  a_2 = (1/(2√m R))·[1, −1, −1]ᵀ ;  a_3 = (√2/(2√m R))·[0, 1, −1]ᵀ) <code></code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">          | 1 |                        |  1 |                        |  0 |\na_1 = ————— | 1 |        a_2 = ————— | −1 |        a_3 = ————— | 1 |\n      2√m R | 1 |              2√m R | −1 |             2√m R  | −1 |\n\n(a_1 = (1/(2√m R))·[1, 1, 1]ᵀ ;  a_2 = (1/(2√m R))·[1, −1, −1]ᵀ ;  a_3 = (√2/(2√m R))·[0, 1, −1]ᵀ)</code>"
     },
     {
      "mota": "testua",
@@ -4405,7 +4637,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> | 1   1    0  | A = ————— | 1  −1   √2  | 2√m R | 1  −1  −√2  | </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">          | 1   1    0  |\nA = ————— | 1  −1   √2  |\n    2√m R | 1  −1  −√2  |</code>"
     },
     {
      "mota": "testua",
@@ -4413,7 +4645,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> | η_10 | η_0 =   | η_20 |  = Ã T q_0 | η_30 | </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">        | η_10 |\nη_0 =   | η_20 |  = Ã T q_0\n        | η_30 |</code>"
     },
     {
      "mota": "testua",
@@ -4421,7 +4653,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> | η_10 |    mR²   | 1   1    1  | | 2  0  0 | | θ_10 |     √m R  | 2θ_10 + θ_20 + θ_30 | | η_20 | = —————  | 1  −1   −1  | | 0  1  0 | | θ_20 |  =  ————  | 2θ_10 − θ_20 − θ_30 | | η_30 |   2√m R  | 0  √2  −√2  | | 0  0  1 | | θ_30 |      2    |   √2(θ_20 − θ_30)   | </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">| η_10 |    mR²   | 1   1    1  | | 2  0  0 | | θ_10 |     √m R  | 2θ_10 + θ_20 + θ_30 |\n| η_20 | = —————  | 1  −1   −1  | | 0  1  0 | | θ_20 |  =  ————  | 2θ_10 − θ_20 − θ_30 |\n| η_30 |   2√m R  | 0  √2  −√2  | | 0  0  1 | | θ_30 |      2    |   √2(θ_20 − θ_30)   |</code>"
     },
     {
      "mota": "testua",
@@ -4429,7 +4661,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> • 1 modua soilik aktibatuko da baldin:   θ_10 = θ_20 = θ_30 • 2 modua soilik aktibatuko da baldin:   θ_10 = −θ_20 = −θ_30 • 3 modua soilik aktibatuko da baldin:   θ_10 = 0  eta  θ_20 = −θ_30 </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">• 1 modua soilik aktibatuko da baldin:   θ_10 = θ_20 = θ_30\n• 2 modua soilik aktibatuko da baldin:   θ_10 = −θ_20 = −θ_30\n• 3 modua soilik aktibatuko da baldin:   θ_10 = 0  eta  θ_20 = −θ_30</code>"
     },
     {
      "mota": "testua",
@@ -4457,10 +4689,6 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -4547,8 +4775,8 @@ KAPITULUAK["05mk_07oszilazioak"] = {
      "mota": "zerrenda",
      "ordenatua": false,
      "elementuak": [
-      "<math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>1</mn></mrow></math>: <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>4</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>a</mi><mn>11</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>a</mi><mn>21</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mn>0</mn><mspace width=\"0.222em\"></mspace><mo>→</mo><mspace width=\"0.222em\"></mspace><msub><mi>a</mi><mn>11</mn></msub><mo>=</mo><mi>−</mi><mn>2</mn><msub><mi>a</mi><mn>21</mn></msub></mrow></math>",
-      "<math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>1</mn><mi>/</mi><mn>6</mn></mrow></math>: <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn><mi>/</mi><mn>3</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn><mi>/</mi><mn>3</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn><mi>/</mi><mn>3</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn><mi>/</mi><mn>6</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>a</mi><mn>12</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>a</mi><mn>22</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mn>0</mn><mspace width=\"0.222em\"></mspace><mo>→</mo><mspace width=\"0.222em\"></mspace><msub><mi>a</mi><mn>22</mn></msub><mo>=</mo><mn>2</mn><msub><mi>a</mi><mn>12</mn></msub></mrow></math>"
+      "<math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>1</mn></mrow></math>: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>4</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>a</mi><mn>11</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>a</mi><mn>21</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mn>0</mn><mspace width=\"0.222em\"></mspace><mo>→</mo><mspace width=\"0.222em\"></mspace><msub><mi>a</mi><mn>11</mn></msub><mo>=</mo><mi>−</mi><mn>2</mn><msub><mi>a</mi><mn>21</mn></msub></mrow></math></span>",
+      "<math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>1</mn><mi>/</mi><mn>6</mn></mrow></math>: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn><mi>/</mi><mn>3</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn><mi>/</mi><mn>3</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn><mi>/</mi><mn>3</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn><mi>/</mi><mn>6</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>a</mi><mn>12</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>a</mi><mn>22</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mn>0</mn><mspace width=\"0.222em\"></mspace><mo>→</mo><mspace width=\"0.222em\"></mspace><msub><mi>a</mi><mn>22</mn></msub><mo>=</mo><mn>2</mn><msub><mi>a</mi><mn>12</mn></msub></mrow></math></span>"
      ]
     },
     {
@@ -4678,10 +4906,6 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>00Jun09(2P)</strong>"
     },
     {
@@ -4699,10 +4923,6 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -5050,10 +5270,6 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>R.</strong>"
     },
     {
@@ -5062,11 +5278,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> T = (1/2) T_ij q̇_i q̇_j = (1/2) m (ẋ_1^2 + ẋ_2^2)</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "V = (1/2) V_ij q_i q_j = (1/2) [ (k_1 + k_2) x_1^2 + (k_1 + k_2) x_2^2 − 2 k_1 k_2 x_1 x_2 ] <code></code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">T = (1/2) T_ij q̇_i q̇_j = (1/2) m (ẋ_1^2 + ẋ_2^2)\n\nV = (1/2) V_ij q_i q_j = (1/2) [ (k_1 + k_2) x_1^2 + (k_1 + k_2) x_2^2 − 2 k_1 k_2 x_1 x_2 ]</code>"
     },
     {
      "mota": "testua",
@@ -5074,7 +5286,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> T = [ m   0 ;  0   m ]        V = [ k_1+k_2    −k_2 ;  −k_2    k_1+k_2 ] </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">T = [ m   0 ;  0   m ]        V = [ k_1+k_2    −k_2 ;  −k_2    k_1+k_2 ]</code>"
     },
     {
      "mota": "testua",
@@ -5082,7 +5294,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> | k_1+k_2−ω^2 m       −k_2      | |    −k_2         k_1+k_2−ω^2 m | = 0    →    { ω_1 = √(k_1/m) ;  ω_2 = √((k_1 + 2k_2)/m) } </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">| k_1+k_2−ω^2 m       −k_2      |\n|    −k_2         k_1+k_2−ω^2 m | = 0    →    { ω_1 = √(k_1/m) ;  ω_2 = √((k_1 + 2k_2)/m) }</code>"
     },
     {
      "mota": "testua",
@@ -5098,11 +5310,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> • ω = ω_1:    [ k_2   −k_2 ;  −k_2   k_2 ] [ a_11 ; a_21 ] = [ 0 ; 0 ]    →    a_21 = a_11</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "• ω = ω_2:    [ −k_2   −k_2 ;  −k_2   −k_2 ] [ a_12 ; a_22 ] = [ 0 ; 0 ]    →    a_22 = −a_12 <code></code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">• ω = ω_1:    [ k_2   −k_2 ;  −k_2   k_2 ] [ a_11 ; a_21 ] = [ 0 ; 0 ]    →    a_21 = a_11\n\n• ω = ω_2:    [ −k_2   −k_2 ;  −k_2   −k_2 ] [ a_12 ; a_22 ] = [ 0 ; 0 ]    →    a_22 = −a_12</code>"
     },
     {
      "mota": "testua",
@@ -5110,7 +5318,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> A = [ a_11    a_11 ;  a_12    −a_12 ] </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">A = [ a_11    a_11 ;  a_12    −a_12 ]</code>"
     },
     {
      "mota": "testua",
@@ -5118,7 +5326,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> Ã T A = I    →    a_11 = a_12 = 1/√(2m) </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">Ã T A = I    →    a_11 = a_12 = 1/√(2m)</code>"
     },
     {
      "mota": "testua",
@@ -5126,7 +5334,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> A = (1/√(2m)) [ 1    1 ;  1   −1 ] </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">A = (1/√(2m)) [ 1    1 ;  1   −1 ]</code>"
     },
     {
      "mota": "testua",
@@ -5138,7 +5346,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> η_r = Σ_{jk} T_jk a_kr [ q_{j0} cos ω_r t + (q̇_{j0}/ω_r) sin ω_r t ] </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">η_r = Σ_{jk} T_jk a_kr [ q_{j0} cos ω_r t + (q̇_{j0}/ω_r) sin ω_r t ]</code>"
     },
     {
      "mota": "testua",
@@ -5146,11 +5354,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> η_1 = √(m/2) ( a cos ω_1 t + (v_0/ω_1) sin ω_1 t )</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "η_2 = √(m/2) ( −a cos ω_2 t + (v_0/ω_2) sin ω_2 t ) <code></code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">η_1 = √(m/2) ( a cos ω_1 t + (v_0/ω_1) sin ω_1 t )\n\nη_2 = √(m/2) ( −a cos ω_2 t + (v_0/ω_2) sin ω_2 t )</code>"
     },
     {
      "mota": "testua",
@@ -5158,11 +5362,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> x_1 = (1/2) [ a (cos ω_1 t − cos ω_2 t) + v_0 ( (sin ω_1 t)/ω_1 + (sin ω_2 t)/ω_2 ) ]</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "x_2 = (1/2) [ a (cos ω_1 t + cos ω_2 t) + v_0 ( (sin ω_1 t)/ω_1 − (sin ω_2 t)/ω_2 ) ] <code></code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">x_1 = (1/2) [ a (cos ω_1 t − cos ω_2 t) + v_0 ( (sin ω_1 t)/ω_1 + (sin ω_2 t)/ω_2 ) ]\n\nx_2 = (1/2) [ a (cos ω_1 t + cos ω_2 t) + v_0 ( (sin ω_1 t)/ω_1 − (sin ω_2 t)/ω_2 ) ]</code>"
     },
     {
      "mota": "testua",
@@ -5178,7 +5378,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> ω_1 = √(k_1/m)        ω_2 = √((k_1 + 2k_2)/m) </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">ω_1 = √(k_1/m)        ω_2 = √((k_1 + 2k_2)/m)</code>"
     },
     {
      "mota": "testua",
@@ -5190,11 +5390,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> x_{1(1)} = A_1 cos(ω_1 + φ_1)</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "x_{2(1)} = A_1 cos(ω_1 + φ_1) <code></code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">x_{1(1)} = A_1 cos(ω_1 + φ_1)\n\nx_{2(1)} = A_1 cos(ω_1 + φ_1)</code>"
     },
     {
      "mota": "testua",
@@ -5206,11 +5402,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> x_{1(2)} = A_2 cos(ω_2 + φ_2)</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "x_{2(2)} = −A_2 cos(ω_2 + φ_2) <code></code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">x_{1(2)} = A_2 cos(ω_2 + φ_2)\n\nx_{2(2)} = −A_2 cos(ω_2 + φ_2)</code>"
     },
     {
      "mota": "testua",
@@ -5222,11 +5414,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> x_1 = x_{1(1)} + x_{1(2)} = A_1 cos(ω_1 + φ_1) + A_2 cos(ω_2 + φ_2)</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "x_2 = x_{2(1)} + x_{2(2)} = A_1 cos(ω_1 + φ_1) − A_2 cos(ω_2 + φ_2) <code></code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">x_1 = x_{1(1)} + x_{1(2)} = A_1 cos(ω_1 + φ_1) + A_2 cos(ω_2 + φ_2)\n\nx_2 = x_{2(1)} + x_{2(2)} = A_1 cos(ω_1 + φ_1) − A_2 cos(ω_2 + φ_2)</code>"
     },
     {
      "mota": "testua",
@@ -5234,11 +5422,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> ẋ_1 = −ω_1 A_1 sin(ω_1 + φ_1) − ω_2 A_2 sin(ω_2 + φ_2)</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "ẋ_2 = −ω_1 A_1 sin(ω_1 + φ_1) + ω_2 A_2 sin(ω_2 + φ_2) <code></code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">ẋ_1 = −ω_1 A_1 sin(ω_1 + φ_1) − ω_2 A_2 sin(ω_2 + φ_2)\n\nẋ_2 = −ω_1 A_1 sin(ω_1 + φ_1) + ω_2 A_2 sin(ω_2 + φ_2)</code>"
     },
     {
      "mota": "testua",
@@ -5246,7 +5430,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> { x_10 = 0 = A_1 cos φ_1 + A_2 cos φ_2 x_20 = a = A_1 cos φ_1 − A_2 cos φ_2 ẋ_10 = v_0 = −ω_1 A_1 sin φ_1 − ω_2 A_2 sin φ_2 ẋ_20 = 0 = −ω_1 A_1 sin φ_1 + ω_2 A_2 sin φ_2 } </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">{ x_10 = 0 = A_1 cos φ_1 + A_2 cos φ_2\n  x_20 = a = A_1 cos φ_1 − A_2 cos φ_2\n  ẋ_10 = v_0 = −ω_1 A_1 sin φ_1 − ω_2 A_2 sin φ_2\n  ẋ_20 = 0 = −ω_1 A_1 sin φ_1 + ω_2 A_2 sin φ_2 }</code>"
     },
     {
      "mota": "testua",
@@ -5254,7 +5438,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> { tan φ_1 = −v_0/(ω_1 a)        A_1 = a/(2 cos φ_1) tan φ_2 = v_0/(ω_2 a)        A_2 = −a/(2 cos φ_2) } </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">{ tan φ_1 = −v_0/(ω_1 a)        A_1 = a/(2 cos φ_1)\n  tan φ_2 = v_0/(ω_2 a)        A_2 = −a/(2 cos φ_2) }</code>"
     },
     {
      "mota": "testua",
@@ -5282,10 +5466,6 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -5438,10 +5618,6 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>R.</strong>"
     },
     {
@@ -5546,10 +5722,6 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "Irudiko sistema, <math display=\"inline\"><mi>R</mi></math> erradioko bi disko zirkularrez osatua, adierazitako puntuetara lotutako <math display=\"inline\"><mi>k</mi></math> konstantedun malguki baten bidez elkarri konektatuta, emanik, aurkitu sistemaren oszilazio-maiztasun propioak. Lortu, era berean, bibrazio-modu normalak. [Kontuan har bedi diskoen eta lurraren arteko irristatzerik ez dagoen kasua]."
     },
     {
@@ -5567,10 +5739,6 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -5707,10 +5875,6 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -5856,10 +6020,6 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "Kontuan har dezagun irudian erakusten den sistema dinamikoa, <math display=\"inline\"><mi>R</mi></math> erradioko eta <math display=\"inline\"><mi>M</mi></math> masako aro batez osatua, bere zirkunferentziaren puntu finko baten inguruan plano bertikal batean oszila dezakeena, eta aroan sartuta dagoen <math display=\"inline\"><mi>m</mi></math> masako konta batez, zeinak marruskadurarik gabe irrista dezakeen. a) Kalkulatu aroaren inertzia-momentua biraketa-ardatzarekiko, b) <math display=\"inline\"><mrow><mi>m</mi><mo>=</mo><mn>0</mn></mrow></math> dela suposatuta, zein izango da oszilazio txikien maiztasuna?, c) Lortu sistemaren funtzio lagrangearra <math display=\"inline\"><mrow><mi>m</mi><mo>≠</mo><mn>0</mn></mrow></math> den kasu orokorrerako irudian erakusten diren koordenatu orokortuak erabiliz (<math display=\"inline\"><mi>θ</mi></math> eta <math display=\"inline\"><mi>φ</mi></math>), d) Egin oszilazio txikietarako hurbilketa lagrangearrean, e) Lortu sistemaren maiztasun normalak, f) Zer gertatzen da <math display=\"inline\"><mrow><mi>m</mi><mo>≪</mo><mi>M</mi></mrow></math> bada? Deskribatu oszilazio txikien modu normalak eta kalkulatu haien maiztasun normalak, g) Gauza bera <math display=\"inline\"><mrow><mi>m</mi><mo>≫</mo><mi>M</mi></mrow></math> kasurako."
     },
     {
@@ -5873,10 +6033,6 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -6140,10 +6296,6 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>R.</strong>"
     },
     {
@@ -6156,7 +6308,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> m ẍ₁ = −k(x₁ − x₂) − 2mβ(ẋ₁ − ẋ₂) </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">m ẍ₁ = −k(x₁ − x₂) − 2mβ(ẋ₁ − ẋ₂)</code>"
     },
     {
      "mota": "testua",
@@ -6164,7 +6316,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> ẍ + 2βẋ + ω₀²x = −ẍ₂ = Aω² sin ωt </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">ẍ + 2βẋ + ω₀²x = −ẍ₂ = Aω² sin ωt</code>"
     },
     {
      "mota": "testua",
@@ -6172,7 +6324,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> x = D sin(ωt − δ) </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">x = D sin(ωt − δ)</code>"
     },
     {
      "mota": "testua",
@@ -6180,11 +6332,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> D = Aω² / √((ω₀² − ω²)² + 4β²ω²) = Ar² / √((1 − r²)² + 4β²r²/ω₀²)</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "δ = tan⁻¹ [ 2βω / (ω₀² − ω²) ] = tan⁻¹ [ (2βr/ω₀) / (1 − r²) ] <code></code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">D = Aω² / √((ω₀² − ω²)² + 4β²ω²) = Ar² / √((1 − r²)² + 4β²r²/ω₀²)\n\nδ = tan⁻¹ [ 2βω / (ω₀² − ω²) ] = tan⁻¹ [ (2βr/ω₀) / (1 − r²) ]</code>"
     },
     {
      "mota": "testua",
@@ -6199,11 +6347,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> D = lim(r→∞) Ar² / √((1 − r²)² + 4β²r²/ω₀²) = A</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "δ = lim(r→∞) tan⁻¹ [ (2βr/ω₀) / (1 − r²) ] = tan⁻¹(0⁻) = π <code></code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">D = lim(r→∞) Ar² / √((1 − r²)² + 4β²r²/ω₀²) = A\n\nδ = lim(r→∞) tan⁻¹ [ (2βr/ω₀) / (1 − r²) ] = tan⁻¹(0⁻) = π</code>"
     },
     {
      "mota": "testua",
@@ -6218,11 +6362,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> D = lim(r→0) Ar² / √((1 − r²)² + 4β²r²/ω₀²) = Ar² = Aω²/ω₀²</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "δ = lim(r→0) tan⁻¹ [ (2βr/ω₀) / (1 − r²) ] = tan⁻¹(0⁺) = 0 <code></code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">D = lim(r→0) Ar² / √((1 − r²)² + 4β²r²/ω₀²) = Ar² = Aω²/ω₀²\n\nδ = lim(r→0) tan⁻¹ [ (2βr/ω₀) / (1 − r²) ] = tan⁻¹(0⁺) = 0</code>"
     },
     {
      "mota": "testua",
@@ -6242,7 +6382,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> a = A_NI + a′   →   ma = F = mA_NI + ma′ = mA_NI + F′ </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">a = A_NI + a′   →   ma = F = mA_NI + ma′ = mA_NI + F′</code>"
     },
     {
      "mota": "testua",
@@ -6250,11 +6390,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> F′ = ma′ = F − mA_NI</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "m ẍ = −kx − 2mβẋ − m ẍ₂ <code></code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">F′ = ma′ = F − mA_NI\n\nm ẍ = −kx − 2mβẋ − m ẍ₂</code>"
     },
     {
      "mota": "testua",
@@ -6262,7 +6398,7 @@ KAPITULUAK["05mk_07oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> ẍ + 2βẋ + ω₀²x = −ẍ₂ = Aω² sin ωt </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">ẍ + 2βẋ + ω₀²x = −ẍ₂ = Aω² sin ωt</code>"
     }
    ]
   },
@@ -6282,10 +6418,6 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -6490,10 +6622,6 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>R.</strong>"
     },
     {
@@ -6637,10 +6765,6 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>99Feb03.</strong>"
     },
     {
@@ -6654,10 +6778,6 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -6772,10 +6892,6 @@ KAPITULUAK["05mk_07oszilazioak"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"

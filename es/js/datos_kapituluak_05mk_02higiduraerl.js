@@ -455,8 +455,14 @@ KAPITULUAK["05mk_02higiduraerl"] = {
      "zabalera": 224
     },
     {
-     "mota": "ezezaguna",
-     "izena": "list"
+     "mota": "zerrenda",
+     "ordenatua": false,
+     "elementuak": [
+      "<math display=\"inline\"><mi>O</mi></math> origen en el centro del laboratorio, en la superficie de la Tierra. Para dar la posición de ese punto usaremos, como de costumbre, <math display=\"inline\"><mi>ϕ</mi></math> la <strong>longitud</strong> (es decir, el ángulo entre los planos del meridiano que pasa por nuestro laboratorio y el de Greenwich) y <math display=\"inline\"><mi>λ</mi></math> la <strong>latitud</strong> (el ángulo que mide la posición de nuestro paralelo desde el ecuador y a lo largo del meridiano).",
+      "<math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math> eje tangente al meridiano y hacia el sur.",
+      "<math display=\"inline\"><mrow><mi>O</mi><mi>Y</mi></mrow></math> eje tangente al paralelo y hacia el este.",
+      "<math display=\"inline\"><mrow><mi>O</mi><mi>Z</mi></mrow></math> en la dirección radial de la Tierra y hacia fuera."
+     ]
     },
     {
      "mota": "testua",
@@ -686,7 +692,7 @@ KAPITULUAK["05mk_02higiduraerl"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>¿Cuál es el significado de la matriz\nortogonal <math display=\"inline\"><mrow><mi>R</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>?</em>"
+     "html": "<em>¿Cuál es el significado de la matriz\nortogonal <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>R</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>?</em>"
     },
     {
      "mota": "testua",
@@ -716,7 +722,7 @@ KAPITULUAK["05mk_02higiduraerl"] = {
     },
     {
      "mota": "testua",
-     "html": "Por otra parte, como la traza es invariante bajo las transformaciones de semejanza (véase el problema 5.19), si el eje cartesiano <math display=\"inline\"><mrow><mi>O</mi><mi>Z</mi></mrow></math> se elige en el eje de rotación, la traza se calcula fácilmente, pues en ese caso la matriz de rotación se reduce a la expresión (2.32): <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tr</mi><mo>&#8289;</mo></mrow><mi mathvariant=\"bold-italic\">𝑹</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>+</mo><mn>1</mn></mrow></math>. En consecuencia, este es el ángulo de rotación (en cualquier sistema de referencia): <math display=\"block\"><mrow><mi>ϕ</mi><mo>=</mo><mi>±</mi><mrow><mi mathvariant=\"normal\">arccos</mi><mo>&#8289;</mo></mrow><mfrac><mrow><mrow><mi mathvariant=\"normal\">tr</mi><mo>&#8289;</mo></mrow><mi mathvariant=\"bold-italic\">𝑹</mi><mo>−</mo><mn>1</mn></mrow><mrow><mn>2</mn><mi>.</mi></mrow></mfrac></mrow></math>"
+     "html": "Por otra parte, como la traza es invariante bajo las transformaciones de semejanza (véase el problema 5.19), si el eje cartesiano <math display=\"inline\"><mrow><mi>O</mi><mi>Z</mi></mrow></math> se elige en el eje de rotación, la traza se calcula fácilmente, pues en ese caso la matriz de rotación se reduce a la expresión (2.32): <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tr</mi><mo>&#8289;</mo></mrow><mi mathvariant=\"bold-italic\">𝑹</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>+</mo><mn>1</mn></mrow></math></span>. En consecuencia, este es el ángulo de rotación (en cualquier sistema de referencia): <math display=\"block\"><mrow><mi>ϕ</mi><mo>=</mo><mi>±</mi><mrow><mi mathvariant=\"normal\">arccos</mi><mo>&#8289;</mo></mrow><mfrac><mrow><mrow><mi mathvariant=\"normal\">tr</mi><mo>&#8289;</mo></mrow><mi mathvariant=\"bold-italic\">𝑹</mi><mo>−</mo><mn>1</mn></mrow><mrow><mn>2</mn><mi>.</mi></mrow></mfrac></mrow></math>"
     },
     {
      "mota": "izenburua",
@@ -1672,7 +1678,7 @@ KAPITULUAK["05mk_02higiduraerl"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "Una barca sale del punto P en la orilla derecha de un río de anchura <math display=\"inline\"><mi>D</mi></math>, por el que el agua circula con velocidad constante <math display=\"inline\"><mi>v</mi></math> (en la figura, hacia arriba) y se mueve con velocidad constante <math display=\"inline\"><mi>V</mi></math> respecto del agua, dirigida en todo momento hacia el punto Q situado en la orilla izquierda. Obtén la ecuación de la trayectoria de la barca en coordenadas polares. ¿A qué distancia de Q tocará la barca la orilla izquierda? [<em>Dato</em>: <math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sec</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mi mathvariant=\"normal\">sec</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>]"
+     "html": "Una barca sale del punto P en la orilla derecha de un río de anchura <math display=\"inline\"><mi>D</mi></math>, por el que el agua circula con velocidad constante <math display=\"inline\"><mi>v</mi></math> (en la figura, hacia arriba) y se mueve con velocidad constante <math display=\"inline\"><mi>V</mi></math> respecto del agua, dirigida en todo momento hacia el punto Q situado en la orilla izquierda. Obtén la ecuación de la trayectoria de la barca en coordenadas polares. ¿A qué distancia de Q tocará la barca la orilla izquierda? [<em>Dato</em>: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sec</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mi mathvariant=\"normal\">sec</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>]"
     },
     {
      "mota": "testua",
@@ -1685,10 +1691,6 @@ KAPITULUAK["05mk_02higiduraerl"] = {
    "maila": 2,
    "izenburua": "Solución (resuelta y comentada por el autor)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"

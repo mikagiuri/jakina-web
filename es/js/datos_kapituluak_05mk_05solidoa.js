@@ -95,7 +95,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "mota": "zerrenda",
      "ordenatua": true,
      "elementuak": [
-      "Por la tercera ley de Newton, <em>en el sólido rígido las fuerzas internas no realizan trabajo</em>, pues la potencia de cada par de acción y reacción es <math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mrow><mi>j</mi><mi>i</mi></mrow></msub><mo>⋅</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mo>+</mo><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>⋅</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>j</mi></msub><mo>=</mo><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mrow><mi>j</mi><mi>i</mi></mrow></msub><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mo>−</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>j</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math>, ya que <math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mrow><mi>j</mi><mi>i</mi></mrow></msub><mo>∥</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>i</mi></msub><mo>−</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>j</mi></msub><mo>⟂</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mo>−</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>j</mi></msub></mrow></math>."
+      "Por la tercera ley de Newton, <em>en el sólido rígido las fuerzas internas no realizan trabajo</em>, pues la potencia de cada par de acción y reacción es <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mrow><mi>j</mi><mi>i</mi></mrow></msub><mo>⋅</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mo>+</mo><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>⋅</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>j</mi></msub><mo>=</mo><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mrow><mi>j</mi><mi>i</mi></mrow></msub><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mo>−</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>j</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math></span>, ya que <math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mrow><mi>j</mi><mi>i</mi></mrow></msub><mo>∥</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>i</mi></msub><mo>−</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>j</mi></msub><mo>⟂</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mo>−</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>j</mi></msub></mrow></math>."
      ]
     },
     {
@@ -504,7 +504,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "si se sustituyen en el sistema lineal, pueden hallarse tres vectores propios ortonormales (<math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝒖</mi><mo>=</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>1</mn></msub><mo>,</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>2</mn></msub></mrow></math> y <math display=\"inline\"><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>3</mn></msub></math>): <math display=\"block\"><mrow><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mn>1</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>11</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>21</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>31</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mn>2</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>12</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>22</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>32</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mn>3</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>13</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>23</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>33</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mi>i</mi></msub><mo>⋅</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mi>j</mi></msub><mo>=</mo><msub><mi>δ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mspace width=\"1.0em\"></mspace><mo>⇔</mo><mspace width=\"1.0em\"></mspace><msubsup><mi mathvariant=\"bold-italic\">𝑼</mi><mi>i</mi><mi>⊤</mi></msubsup><mo>⋅</mo><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mi>j</mi></msub><mo>=</mo><msub><mi>δ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>,</mo></mrow></math> donde <math display=\"inline\"><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mi>i</mi></msub></math> es la matriz columna correspondiente al vector <math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mi>i</mi></msub><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></msubsup><msub><mi>R</mi><mrow><mi>j</mi><mi>i</mi></mrow></msub><msub><mover><mi mathvariant=\"bold-italic\">𝒆</mi><mo accent=\"true\">̂</mo></mover><mi>j</mi></msub></mrow></math>. Con las componentes de los vectores propios se forma la siguiente matriz ortogonal <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑹</mi></math>: <math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝑹</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>1</mn></msub><mo>,</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>2</mn></msub><mo>,</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>3</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>11</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>12</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>13</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>21</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>22</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>23</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>31</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>32</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>33</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msup><mi mathvariant=\"bold-italic\">𝑹</mi><mi>⊤</mi></msup><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝑹</mi><mo>=</mo><mi mathvariant=\"bold-italic\">𝑹</mi><mo>⋅</mo><msup><mi mathvariant=\"bold-italic\">𝑹</mi><mi>⊤</mi></msup><mo>=</mo><mn mathvariant=\"bold\">𝟏</mn><mspace width=\"1.0em\"></mspace><mo>⇔</mo><mspace width=\"1.0em\"></mspace><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></munderover><msub><mi>R</mi><mrow><mi>k</mi><mi>i</mi></mrow></msub><msub><mi>R</mi><mrow><mi>k</mi><mi>j</mi></mrow></msub><mo>=</mo><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></munderover><msub><mi>R</mi><mrow><mi>i</mi><mi>k</mi></mrow></msub><msub><mi>R</mi><mrow><mi>j</mi><mi>k</mi></mrow></msub><mo>=</mo><msub><mi>δ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mi>.</mi></mrow></math> Haciendo la siguiente rotación, <math display=\"block\"><mrow><msup><mi mathvariant=\"bold-italic\">𝑼</mi><mo>*</mo></msup><mo>=</mo><msup><mi mathvariant=\"bold-italic\">𝑹</mi><mi>⊤</mi></msup><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝑼</mi><mspace width=\"1.0em\"></mspace><mo>⇔</mo><mspace width=\"1.0em\"></mspace><msubsup><mi>u</mi><mi>i</mi><mo>*</mo></msubsup><mo>=</mo><munderover><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></munderover><msub><mi>R</mi><mrow><mi>j</mi><mi>i</mi></mrow></msub><msub><mi>u</mi><mi>j</mi></msub><mo>,</mo></mrow></math> <math display=\"inline\"><mrow><msubsup><mover><mi mathvariant=\"bold-italic\">𝒆</mi><mo accent=\"true\">̂</mo></mover><mi>i</mi><mo>*</mo></msubsup><mo>=</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mi>i</mi></msub></mrow></math> obtenemos el sistema de referencia definido por los vectores propios unitarios, y en él el tensor <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑰</mi></math> es diagonal, <math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow><mo>*</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msup><mi mathvariant=\"bold-italic\">𝑹</mi><mi>⊤</mi></msup><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝑹</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>λ</mi><mn>1</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>λ</mi><mn>2</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>λ</mi><mn>3</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math> Si el tensor <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑰</mi></math> es semidefinido positivo, <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"bold-italic\">𝒖</mi><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝑰</mi><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝒖</mi><mo>=</mo><msup><mi mathvariant=\"bold-italic\">𝑼</mi><mi>⊤</mi></msup><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝑼</mi><mo>=</mo><msup><mi mathvariant=\"bold-italic\">𝑼</mi><mrow><mi>*</mi><mi>⊤</mi></mrow></msup><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow><mo>*</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><msup><mi mathvariant=\"bold-italic\">𝑼</mi><mo>*</mo></msup><mo>≥</mo><mn>0</mn><mo>,</mo><mo>∀</mo><mi mathvariant=\"bold-italic\">𝒖</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math>, todos los valores propios son positivos o nulos."
+     "html": "si se sustituyen en el sistema lineal, pueden hallarse tres vectores propios ortonormales (<math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝒖</mi><mo>=</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>1</mn></msub><mo>,</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>2</mn></msub></mrow></math> y <math display=\"inline\"><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>3</mn></msub></math>): <math display=\"block\"><mrow><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mn>1</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>11</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>21</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>31</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mn>2</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>12</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>22</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>32</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mn>3</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>13</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>23</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>33</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mi>i</mi></msub><mo>⋅</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mi>j</mi></msub><mo>=</mo><msub><mi>δ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mspace width=\"1.0em\"></mspace><mo>⇔</mo><mspace width=\"1.0em\"></mspace><msubsup><mi mathvariant=\"bold-italic\">𝑼</mi><mi>i</mi><mi>⊤</mi></msubsup><mo>⋅</mo><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mi>j</mi></msub><mo>=</mo><msub><mi>δ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>,</mo></mrow></math> donde <math display=\"inline\"><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mi>i</mi></msub></math> es la matriz columna correspondiente al vector <math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mi>i</mi></msub><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></msubsup><msub><mi>R</mi><mrow><mi>j</mi><mi>i</mi></mrow></msub><msub><mover><mi mathvariant=\"bold-italic\">𝒆</mi><mo accent=\"true\">̂</mo></mover><mi>j</mi></msub></mrow></math>. Con las componentes de los vectores propios se forma la siguiente matriz ortogonal <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑹</mi></math>: <math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝑹</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>1</mn></msub><mo>,</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>2</mn></msub><mo>,</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>3</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>11</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>12</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>13</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>21</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>22</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>23</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>31</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>32</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>33</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msup><mi mathvariant=\"bold-italic\">𝑹</mi><mi>⊤</mi></msup><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝑹</mi><mo>=</mo><mi mathvariant=\"bold-italic\">𝑹</mi><mo>⋅</mo><msup><mi mathvariant=\"bold-italic\">𝑹</mi><mi>⊤</mi></msup><mo>=</mo><mn mathvariant=\"bold\">𝟏</mn><mspace width=\"1.0em\"></mspace><mo>⇔</mo><mspace width=\"1.0em\"></mspace><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></munderover><msub><mi>R</mi><mrow><mi>k</mi><mi>i</mi></mrow></msub><msub><mi>R</mi><mrow><mi>k</mi><mi>j</mi></mrow></msub><mo>=</mo><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></munderover><msub><mi>R</mi><mrow><mi>i</mi><mi>k</mi></mrow></msub><msub><mi>R</mi><mrow><mi>j</mi><mi>k</mi></mrow></msub><mo>=</mo><msub><mi>δ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mi>.</mi></mrow></math> Haciendo la siguiente rotación, <math display=\"block\"><mrow><msup><mi mathvariant=\"bold-italic\">𝑼</mi><mo>*</mo></msup><mo>=</mo><msup><mi mathvariant=\"bold-italic\">𝑹</mi><mi>⊤</mi></msup><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝑼</mi><mspace width=\"1.0em\"></mspace><mo>⇔</mo><mspace width=\"1.0em\"></mspace><msubsup><mi>u</mi><mi>i</mi><mo>*</mo></msubsup><mo>=</mo><munderover><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></munderover><msub><mi>R</mi><mrow><mi>j</mi><mi>i</mi></mrow></msub><msub><mi>u</mi><mi>j</mi></msub><mo>,</mo></mrow></math> <math display=\"inline\"><mrow><msubsup><mover><mi mathvariant=\"bold-italic\">𝒆</mi><mo accent=\"true\">̂</mo></mover><mi>i</mi><mo>*</mo></msubsup><mo>=</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mi>i</mi></msub></mrow></math> obtenemos el sistema de referencia definido por los vectores propios unitarios, y en él el tensor <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑰</mi></math> es diagonal, <math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow><mo>*</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msup><mi mathvariant=\"bold-italic\">𝑹</mi><mi>⊤</mi></msup><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝑹</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>λ</mi><mn>1</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>λ</mi><mn>2</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>λ</mi><mn>3</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math> Si el tensor <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑰</mi></math> es semidefinido positivo, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"bold-italic\">𝒖</mi><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝑰</mi><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝒖</mi><mo>=</mo><msup><mi mathvariant=\"bold-italic\">𝑼</mi><mi>⊤</mi></msup><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝑼</mi><mo>=</mo><msup><mi mathvariant=\"bold-italic\">𝑼</mi><mrow><mi>*</mi><mi>⊤</mi></mrow></msup><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow><mo>*</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><msup><mi mathvariant=\"bold-italic\">𝑼</mi><mo>*</mo></msup><mo>≥</mo><mn>0</mn><mo>,</mo><mo>∀</mo><mi mathvariant=\"bold-italic\">𝒖</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math></span>, todos los valores propios son positivos o nulos."
     },
     {
      "mota": "izenburua",
@@ -747,11 +747,11 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "se llama a un movimiento así. Naturalmente, la velocidad angular proporcional al momento angular se moverá de forma parecida: <math display=\"block\"><mrow><mover><mi mathvariant=\"bold-italic\">𝝎</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi mathvariant=\"bold\">𝛀</mi><mo>×</mo><mi mathvariant=\"bold-italic\">𝝎</mi><mi>.</mi></mrow></math> En las expresiones anteriores <math display=\"inline\"><mi>L</mi></math> y <math display=\"inline\"><mi>ω</mi></math> son las componentes de los momentos angular y de velocidad angular en la dirección del eje <math display=\"inline\"><mrow><mi>O</mi><mi>Z</mi></mrow></math>, no los módulos: el sentido de la precesión en torno al eje <math display=\"inline\"><mrow><mi>O</mi><msup><mi>Z</mi><mo>′</mo></msup></mrow></math> será el que tenga la velocidad <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝝎</mi></math> en torno a <math display=\"inline\"><mrow><mi>O</mi><mi>Z</mi></mrow></math>. Obsérvese que <math display=\"inline\"><mi mathvariant=\"bold\">𝛀</mi></math> no depende del ángulo <math display=\"inline\"><mi>θ</mi></math>. <br> Hay que recordar que aquí se ha hecho la hipótesis <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Ω</mi><mo>≪</mo><mi>ω</mi></mrow></math>: en efecto, como vemos en la expresión (5.79), cuando <math display=\"inline\"><mi>ω</mi></math> es muy grande <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> es pequeña. La hipótesis de aquí no se hace (pero sí otra) en el problema 5.6.5. Para estudiar el movimiento en el caso general hay que valerse de las ecuaciones de Euler de la sección 5.5. Por ejemplo, en una peonza real se ve fácilmente la <strong>nutación</strong><span class=\"j-oin\">[Véase la animación .]</span>: el ángulo <math display=\"inline\"><mi>θ</mi></math>, en lugar de ser constante, oscila (véase la sección 6.7)."
+     "html": "se llama a un movimiento así. Por supuesto, de modo parecido se moverá la velocidad angular, que es proporcional al momento angular: <math display=\"block\"><mrow><mover><mi mathvariant=\"bold-italic\">𝝎</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi mathvariant=\"bold\">𝛀</mi><mo>×</mo><mi mathvariant=\"bold-italic\">𝝎</mi><mi>.</mi></mrow></math> En las expresiones anteriores <math display=\"inline\"><mi>L</mi></math> y <math display=\"inline\"><mi>ω</mi></math> son las componentes de los momentos y velocidades angulares en la dirección del eje <math display=\"inline\"><mrow><mi>O</mi><mi>Z</mi></mrow></math>, no los módulos: el sentido que tenga la velocidad <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝝎</mi></math> respecto de <math display=\"inline\"><mrow><mi>O</mi><mi>Z</mi></mrow></math> será el sentido de la precesión alrededor del eje <math display=\"inline\"><mrow><mi>O</mi><msup><mi>Z</mi><mo>′</mo></msup></mrow></math>. Obsérvese que <math display=\"inline\"><mi mathvariant=\"bold\">𝛀</mi></math> no depende del ángulo <math display=\"inline\"><mi>θ</mi></math>. <br> Hay que recordar que aquí se ha hecho la hipótesis <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Ω</mi><mo>≪</mo><mi>ω</mi></mrow></math>: en efecto, como vemos en la expresión (5.79), cuando <math display=\"inline\"><mi>ω</mi></math> es muy grande, <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> es pequeño. La hipótesis de aquí no se hace (pero sí otra) en el problema 5.6.5. Para analizar el movimiento en el caso general hay que recurrir a las ecuaciones de Euler de la sección 5.5. Por ejemplo, en una peonza real se ve fácilmente la <strong>nutación</strong><span class=\"j-oin\">[Véase la animación <a href=\"http://tp.lc.ehu.eus/jma/mekanika/solidoa/Lagrange.html\" target=\"_blank\" rel=\"noopener\">http://tp.lc.ehu.eus/jma/mekanika/solidoa/Lagrange.html</a>.]</span>: el ángulo <math display=\"inline\"><mi>θ</mi></math>, en vez de ser constante, oscila (véase la sección 6.7)."
     },
     {
      "mota": "testua",
-     "html": "Como la Tierra no es completamente esférica, el Sol y la Luna le ejercen un pequeño momento de fuerzas. En consecuencia, el eje de la Tierra no está siempre en la misma dirección: precesa lentamente, con un período de 26 000 años, en un cono de anchura angular <math display=\"inline\"><mrow><mn>23</mn><msup><mi></mi><mo>∘</mo></msup><msup><mn>26</mn><mo>′</mo></msup></mrow></math>. Este movimiento de precesión tiene consecuencias medibles, como la precesión de los equinoccios<span class=\"j-oin\">[Según parece, fue Hiparco quien describió la precesión de los equinoccios.]</span> (las posiciones de las constelaciones cambian, sin cambiar la falta de fundamento de la astrología). Así, hoy la estrella polar es Polaris; pero cuando se construyeron las pirámides, hace unos 4 500 años, los egipcios usaban Thuban (Alpha Draconis). Además, en las distintas estaciones la distancia entre la Tierra y el Sol va cambiando poco a poco, y esto influye en el tiempo atmosférico y, por tanto, en el registro geológico<span class=\"j-oin\">[Otros ciclos que pueden influir en estos son, según parece, los siguientes: el cambio de excentricidad, con período de 100 000 años; el cambio del ángulo entre el eje de la Tierra y el plano de la órbita, con período de 41 000 años; y el ciclo de las manchas solares, con período de 11 años.]</span>. Además, como el movimiento de la Luna es muy irregular, hay una pequeña nutación de <math display=\"inline\"><msup><mn>9</mn><mo>″</mo></msup></math>, con un período de 18.6 años<span class=\"j-oin\">[Véanse, por ejemplo, [12, 60, 67] y la página del <em>servicio de rotación de la Tierra</em> que mide continuamente el complejo movimiento de la Tierra: .]</span>."
+     "html": "Como la Tierra no es completamente esférica, el Sol y la Luna ejercen sobre ella un pequeño momento de fuerza. En consecuencia, el eje de la Tierra no está siempre en la misma dirección: precesa lentamente, con un periodo de 26 000 años, en un cono de abertura angular <math display=\"inline\"><mrow><mn>23</mn><msup><mi></mi><mo>∘</mo></msup><msup><mn>26</mn><mo>′</mo></msup></mrow></math>. Este movimiento de precesión tiene consecuencias medibles, como la precesión de los equinoccios<span class=\"j-oin\">[Al parecer, la precesión de los equinoccios fue descrita por Hiparco.]</span>  (las posiciones de las constelaciones van cambiando, sin que cambie la falta de fundamento de la astrología). Así, hoy en día Polaris es la estrella polar; pero cuando se construyeron las pirámides, hace unos 4 500 años, los egipcios usaban Thuban (Alpha Draconis). Además, en las distintas estaciones la distancia entre la Tierra y el Sol va cambiando poco a poco, y esto influye en el tiempo atmosférico y, por tanto, en el registro geológico<span class=\"j-oin\">[Otros ciclos que pueden influir en estos son, al parecer, los siguientes: la variación de la excentricidad, con un periodo de 100 000 años; la variación del ángulo entre el eje de la Tierra y el plano de la órbita, con un periodo de 41 000 años; y el ciclo de las manchas solares, con un periodo de 11 años.]</span>. Además, como el movimiento de la Luna es muy irregular, hay una pequeña nutación de <math display=\"inline\"><msup><mn>9</mn><mo>″</mo></msup></math>, con un periodo de 18.6 años<span class=\"j-oin\">[Véanse, por ejemplo, [12, 60, 67] y la página del llamado <em>Servicio de rotación de la Tierra</em>, que mide continuamente el complejo movimiento de la Tierra: <a href=\"http://hpiers.obspm.fr/eop-pc/index_fr.html\" target=\"_blank\" rel=\"noopener\">http://hpiers.obspm.fr/eop-pc/index_fr.html</a>.]</span>."
     },
     {
      "mota": "irudia",
@@ -831,7 +831,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "son las componentes de la expresión. Por tanto, <em>en el sistema del sólido el momento angular gira con velocidad angular <math display=\"inline\"><mrow><mi>−</mi><mi mathvariant=\"bold-italic\">𝝎</mi></mrow></math>, sin cambiar su módulo</em>. Por otra parte, en el sistema del espacio el momento angular es constante y la velocidad angular gira en torno a él<span class=\"j-oin\">[Véase la animación .]</span>. <br> Como las incógnitas <math display=\"inline\"><mrow><msub><mi>ω</mi><mi>i</mi></msub><msub><mi>ω</mi><mi>j</mi></msub></mrow></math> aparecen en términos cuadráticos, las ecuaciones (5.91)–(5.93) no son lineales. Aquí, por tanto, solo se estudiarán dos casos particulares sencillos. En el primero el sólido tendrá una simetría mayor y en el segundo se estudiarán las soluciones sencillas (constantes) y su estabilidad."
+     "html": "son las componentes de la expresión. Por tanto, <em>en el sistema del sólido el momento angular gira con velocidad angular <math display=\"inline\"><mrow><mi>−</mi><mi mathvariant=\"bold-italic\">𝝎</mi></mrow></math>, sin cambiar su módulo</em>. Por otra parte, en el sistema del espacio el momento angular es constante y la velocidad angular gira a su alrededor<span class=\"j-oin\">[Véase la animación <a href=\"http://tp.lc.ehu.eus/jma/mekanika/solidoa/askea.html\" target=\"_blank\" rel=\"noopener\">http://tp.lc.ehu.eus/jma/mekanika/solidoa/askea.html</a>.]</span>. <br> Como las incógnitas <math display=\"inline\"><mrow><msub><mi>ω</mi><mi>i</mi></msub><msub><mi>ω</mi><mi>j</mi></msub></mrow></math> aparecen en términos cuadráticos, las ecuaciones (5.91)–(5.93) no son lineales. Por ello aquí solo se analizarán dos casos particulares sencillos. En el primero el sólido tendrá mayor simetría y en el segundo se analizarán las soluciones sencillas (constantes) y su estabilidad."
     },
     {
      "mota": "izenburua",
@@ -878,7 +878,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "En el sistema del espacio, en cambio, <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑳</mi></math> es constante y <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝝎</mi></math> gira en torno a él. Además, como el módulo <math display=\"inline\"><mi>ω</mi></math> de la velocidad angular y su proyección <math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝑳</mi><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝝎</mi><mo>=</mo><msub><mi>I</mi><mi>x</mi></msub><msubsup><mi>ω</mi><mi>x</mi><mn>2</mn></msubsup><mo>+</mo><msub><mi>I</mi><mi>x</mi></msub><msubsup><mi>ω</mi><mi>y</mi><mn>2</mn></msubsup><mo>+</mo><msub><mi>I</mi><mi>z</mi></msub><msubsup><mi>ω</mi><mi>z</mi><mn>2</mn></msubsup><mo>=</mo><msub><mi>I</mi><mi>x</mi></msub><msup><mi>A</mi><mn>2</mn></msup><mo>+</mo><msub><mi>I</mi><mi>z</mi></msub><msubsup><mi>ω</mi><mi>z</mi><mn>2</mn></msubsup></mrow></math> en la dirección del momento angular son constantes, en esa rotación el vector <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝝎</mi></math> generará un cono en torno a <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑳</mi></math>: el <strong>cono del espacio</strong>. En el sistema del espacio el cono del sólido rueda sin deslizar sobre la superficie en reposo del cono del espacio, como se muestra en la figura 5.13<span class=\"j-oin\">[Véase la animación .]</span>."
+     "html": "En el sistema del espacio, en cambio, <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑳</mi></math> es constante y <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝝎</mi></math> gira a su alrededor. Además, como el módulo <math display=\"inline\"><mi>ω</mi></math> de la velocidad angular y su proyección <math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝑳</mi><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝝎</mi><mo>=</mo><msub><mi>I</mi><mi>x</mi></msub><msubsup><mi>ω</mi><mi>x</mi><mn>2</mn></msubsup><mo>+</mo><msub><mi>I</mi><mi>x</mi></msub><msubsup><mi>ω</mi><mi>y</mi><mn>2</mn></msubsup><mo>+</mo><msub><mi>I</mi><mi>z</mi></msub><msubsup><mi>ω</mi><mi>z</mi><mn>2</mn></msubsup><mo>=</mo><msub><mi>I</mi><mi>x</mi></msub><msup><mi>A</mi><mn>2</mn></msup><mo>+</mo><msub><mi>I</mi><mi>z</mi></msub><msubsup><mi>ω</mi><mi>z</mi><mn>2</mn></msubsup></mrow></math> sobre la dirección del momento angular son constantes, en ese giro el vector <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝝎</mi></math> generará un cono alrededor de <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑳</mi></math>: el <strong>cono del espacio</strong>. En el sistema del espacio el cono del sólido rueda sin deslizar sobre la superficie fija del cono del espacio, como se muestra en la figura 5.13<span class=\"j-oin\">[Véase la animación <a href=\"http://tp.lc.ehu.eus/jma/mekanika/solidoa/simetrikoa.html\" target=\"_blank\" rel=\"noopener\">http://tp.lc.ehu.eus/jma/mekanika/solidoa/simetrikoa.html</a>.]</span>."
     },
     {
      "mota": "irudia",
@@ -928,7 +928,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "Este resultado se llama <strong>teorema de la raqueta de tenis</strong> y se comprueba muy fácilmente de forma experimental con una raqueta así (o con un paralelepípedo): aunque es muy fácil hacerla girar en torno a los ejes principales de los momentos de inercia mayor y menor, la rotación en torno al tercero es inestable<span class=\"j-oin\">[Véase la animación .]</span>."
+     "html": "Este resultado se llama <strong>teorema de la raqueta de tenis</strong> y se comprueba experimentalmente con mucha facilidad con un objeto así (o con un paralelepípedo): aunque es muy fácil hacerlo girar en torno a los ejes principales de mayor y menor momento de inercia, la rotación en torno al tercero es inestable<span class=\"j-oin\">[Véase la animación <a href=\"http://tp.lc.ehu.eus/jma/mekanika/solidoa/askea.html\" target=\"_blank\" rel=\"noopener\">http://tp.lc.ehu.eus/jma/mekanika/solidoa/askea.html</a>.]</span>."
     },
     {
      "mota": "irudia",
@@ -959,7 +959,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "<em>Los ejes del sistema de referencia <math display=\"inline\"><mi>S</mi></math> y los del sistema <math display=\"inline\"><msup><mi>S</mi><mo>*</mo></msup></math> del centro de masas son paralelos entre sí. Si el vector de posición del centro de masas es <math display=\"inline\"><mrow><mover><mrow><mi>O</mi><msup><mi>O</mi><mo>*</mo></msup></mrow><mo accent=\"true\">→</mo></mover><mo>=</mo><mi mathvariant=\"bold-italic\">𝑹</mi><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></msubsup><msub><mi>X</mi><mi>k</mi></msub><msub><mover><mi mathvariant=\"bold-italic\">𝒆</mi><mo accent=\"true\">̂</mo></mover><mi>k</mi></msub><mo>=</mo><mi>X</mi><mi mathvariant=\"bold-italic\">𝒊</mi><mo>+</mo><mi>Y</mi><mi mathvariant=\"bold-italic\">𝒋</mi><mo>+</mo><mi>Z</mi><mi mathvariant=\"bold-italic\">𝒌</mi></mrow></math>, demuestra que la relación entre las matrices de inercia medidas en los dos sistemas es la siguiente: <math display=\"block\"><mrow><msub><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>=</mo><msubsup><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow><mo>*</mo></msubsup><mo>+</mo><mi>m</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>R</mi><mn>2</mn></msup><msub><mi>δ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>−</mo><msub><mi>X</mi><mi>i</mi></msub><msub><mi>X</mi><mi>j</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math></em>"
+     "html": "<em>Los ejes del sistema de referencia <math display=\"inline\"><mi>S</mi></math> y los del sistema <math display=\"inline\"><msup><mi>S</mi><mo>*</mo></msup></math> del centro de masas son paralelos entre sí. Si el vector de posición del centro de masas es <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mover><mrow><mi>O</mi><msup><mi>O</mi><mo>*</mo></msup></mrow><mo accent=\"true\">→</mo></mover><mo>=</mo><mi mathvariant=\"bold-italic\">𝑹</mi><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></msubsup><msub><mi>X</mi><mi>k</mi></msub><msub><mover><mi mathvariant=\"bold-italic\">𝒆</mi><mo accent=\"true\">̂</mo></mover><mi>k</mi></msub><mo>=</mo><mi>X</mi><mi mathvariant=\"bold-italic\">𝒊</mi><mo>+</mo><mi>Y</mi><mi mathvariant=\"bold-italic\">𝒋</mi><mo>+</mo><mi>Z</mi><mi mathvariant=\"bold-italic\">𝒌</mi></mrow></math></span>, demuestra que la relación entre las matrices de inercia medidas en los dos sistemas es la siguiente: <math display=\"block\"><mrow><msub><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>=</mo><msubsup><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow><mo>*</mo></msubsup><mo>+</mo><mi>m</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>R</mi><mn>2</mn></msup><msub><mi>δ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>−</mo><msub><mi>X</mi><mi>i</mi></msub><msub><mi>X</mi><mi>j</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math></em>"
     },
     {
      "mota": "testua",
@@ -1096,7 +1096,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "Si las oscilaciones son pequeñas, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>θ</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>≪</mo><mn>1</mn><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mover><mi>θ</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>≪</mo><mn>1</mn><mo>,</mo><msup><mover><mi>θ</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>≈</mo><msup><mover><mi>θ</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup></mrow></math> y <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>≈</mo><mn>1</mn><mo>−</mo><msup><mi>θ</mi><mn>2</mn></msup><mi>/</mi><mn>2</mn></mrow></math> son estas y, en consecuencia, <math display=\"block\"><mrow><mi>E</mi><mo>≈</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>K</mi><mn>2</mn></msup><mo>+</mo><msup><mi>R</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>R</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mover><mi>θ</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><mi>g</mi><mi>a</mi><msup><mi>θ</mi><mn>2</mn></msup><mo>+</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> ktea. </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math> Si derivamos respecto al tiempo esa energía mecánica constante, vemos que la ecuación del movimiento (en la aproximación de pequeñas oscilaciones) es la de un oscilador armónico: <math display=\"block\"><mrow><mover><mi>θ</mi><mo accent=\"true\">̈</mo></mover><mo>+</mo><msup><mi>ω</mi><mn>2</mn></msup><mi>θ</mi><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>ω</mi><mo>=</mo><mn>2</mn><mi>π</mi><mi>ν</mi><mo>=</mo><msqrt><mfrac><mrow><mi>g</mi><mi>a</mi></mrow><mrow><msup><mi>K</mi><mn>2</mn></msup><mo>+</mo><msup><mi>R</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>R</mi></mrow></mfrac></msqrt><mi>.</mi></mrow></math>"
+     "html": "Si las oscilaciones son pequeñas, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>θ</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>≪</mo><mn>1</mn><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mover><mi>θ</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>≪</mo><mn>1</mn><mo>,</mo><msup><mover><mi>θ</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>≈</mo><msup><mover><mi>θ</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup></mrow></math></span> y <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>≈</mo><mn>1</mn><mo>−</mo><msup><mi>θ</mi><mn>2</mn></msup><mi>/</mi><mn>2</mn></mrow></math> son estas y, en consecuencia, <math display=\"block\"><mrow><mi>E</mi><mo>≈</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>K</mi><mn>2</mn></msup><mo>+</mo><msup><mi>R</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>R</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mover><mi>θ</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><mi>g</mi><mi>a</mi><msup><mi>θ</mi><mn>2</mn></msup><mo>+</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> ktea. </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math> Si derivamos respecto al tiempo esa energía mecánica constante, vemos que la ecuación del movimiento (en la aproximación de pequeñas oscilaciones) es la de un oscilador armónico: <math display=\"block\"><mrow><mover><mi>θ</mi><mo accent=\"true\">̈</mo></mover><mo>+</mo><msup><mi>ω</mi><mn>2</mn></msup><mi>θ</mi><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>ω</mi><mo>=</mo><mn>2</mn><mi>π</mi><mi>ν</mi><mo>=</mo><msqrt><mfrac><mrow><mi>g</mi><mi>a</mi></mrow><mrow><msup><mi>K</mi><mn>2</mn></msup><mo>+</mo><msup><mi>R</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>R</mi></mrow></mfrac></msqrt><mi>.</mi></mrow></math>"
     }
    ]
   },
@@ -1132,6 +1132,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Las velocidades de los extremos de la varilla homogénea de la figura son <math display=\"inline\"><msub><mi mathvariant=\"bold-italic\">𝒗</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi mathvariant=\"bold-italic\">𝒗</mi><mn>2</mn></msub></math> en un instante (y, en general, no están en el mismo plano). Calcula el campo de velocidades <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝒗</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> e integra el resultado para demostrar que la energía cinética total es la siguiente: <math display=\"block\"><mrow><mi>T</mi><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mi>m</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>v</mi><mn>1</mn><mn>2</mn></msubsup><mo>+</mo><msub><mi mathvariant=\"bold-italic\">𝒗</mi><mn>1</mn></msub><mo>⋅</mo><msub><mi mathvariant=\"bold-italic\">𝒗</mi><mn>2</mn></msub><mo>+</mo><msubsup><mi>v</mi><mn>2</mn><mn>2</mn></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math> ¿Cuáles son las contribuciones correspondientes a la traslación del centro de masas y a la rotación?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/f134fa3a7bfaecbd.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1154,6 +1158,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "El cilindro central del carrete de la figura se mueve con velocidad constante, sin deslizar, sobre una superficie horizontal. Usa algún programa adecuado para dibujar las trayectorias de los puntos <math display=\"inline\"><mrow><mi>A</mi><mo>,</mo><mi>B</mi></mrow></math> y <math display=\"inline\"><mi>C</mi></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/31d89b7e1acdc50a.svg\" alt=\"\" style=\"width:148px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1165,6 +1173,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Las esferas situadas entre los cilindros que giran con velocidad angular constante no deslizan en el cojinete de la figura. El radio del cilindro interior es <math display=\"inline\"><mi>r</mi></math> y el del exterior <math display=\"inline\"><mi>R</mi></math>. Calcula la velocidad angular de cada esfera y la velocidad escalar de su centro de masas."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/a884df6340d5a91a.svg\" alt=\"\" style=\"width:118px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1176,6 +1188,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "El cilindro grande de la figura es hueco y se mueve sin deslizar, con velocidad <math display=\"inline\"><mi>V</mi></math>, sobre el plano horizontal. El cilindro que tiene dentro no desliza. Calcula la velocidad angular de este último y la velocidad de su centro de masas, en el triedro indicado, si se conocen las evoluciones <math display=\"inline\"><mrow><mi>θ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> y <math display=\"inline\"><mrow><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/a7d20ff6de9b4f6a.svg\" alt=\"\" style=\"width:173px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1216,7 +1232,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Los extremos de la varilla de la figura pueden moverse sin rozamiento, bajo la acción de la gravedad, a lo largo de una circunferencia vertical fija. Si la masa de la varilla es <math display=\"inline\"><mi>m</mi></math>, ¿cuál será la frecuencia de las pequeñas oscilaciones?"
+       "html": "Los extremos de la varilla de la figura pueden moverse sin rozamiento a lo largo de una circunferencia vertical fija bajo la acción de la gravedad. Si la masa de la varilla es <math display=\"inline\"><mi>m</mi></math>, ¿cuál será la frecuencia de las oscilaciones pequeñas?    <img class=\"irudi-l\" src=\"../media/irudiak/2967f104141270c0.svg\" alt=\"\" style=\"width:88px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1228,6 +1244,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "El camión de la figura está parado y la puerta trasera en la posición que se muestra. Si arranca con aceleración constante <math display=\"inline\"><mi>a</mi></math>, ¿cuánto tiempo necesitará la puerta para cerrarse? ¿Cuál será su velocidad en ese instante? <br>  <em>Nota</em>: Usa la siguiente integral elíptica (véase la sección B.5): <math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mrow><mi>π</mi><mi>/</mi><mn>2</mn></mrow></msubsup><mfrac><mrow><mi>d</mi><mi>φ</mi></mrow><msqrt><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>φ</mi></mrow></msqrt></mfrac><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mrow><mi>π</mi><mi>/</mi><mn>2</mn></mrow></msubsup><mfrac><mrow><mi>d</mi><mi>θ</mi></mrow><msqrt><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>θ</mi></mrow></msqrt></mfrac><mo>=</mo><msqrt><mn>2</mn></msqrt><mi>K</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≈</mo><mn>2.62</mn><mi>.</mi></mrow></math>"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/aa262207eb8cecf2.svg\" alt=\"\" style=\"width:169px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1238,7 +1258,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "La placa homogénea de la figura oscila en un plano vertical en torno al eje perpendicular que pasa por el borde <math display=\"inline\"><mi>A</mi></math>. <br> (a) Calcula la frecuencia de las pequeñas oscilaciones. <br> (b) ¿Cuáles son los períodos más largo y más corto al variar <math display=\"inline\"><mi>b</mi></math>, sin cambiar <math display=\"inline\"><mi>a</mi></math>? <br> (c) ¿Cuáles son los períodos más largo y más corto al variar <math display=\"inline\"><mi>a</mi></math>, sin cambiar <math display=\"inline\"><mi>b</mi></math>? <br> (d) ¿Cómo hay que elegir los valores <math display=\"inline\"><mrow><mi>a</mi><mo>≠</mo><mi>b</mi></mrow></math> para que las frecuencias de las pequeñas oscilaciones en torno a los puntos medios de los bordes <math display=\"inline\"><mi>A</mi></math> y <math display=\"inline\"><mi>B</mi></math> sean iguales?"
+       "html": "La lámina homogénea de la figura oscila en un plano vertical alrededor del eje perpendicular que pasa por el borde <math display=\"inline\"><mi>A</mi></math>. <br> (a) Calcula la frecuencia de las oscilaciones pequeñas. <br> (b) ¿Cuáles son los periodos más largo y más corto al variar <math display=\"inline\"><mi>b</mi></math>, sin cambiar <math display=\"inline\"><mi>a</mi></math>? <br> (c) ¿Cuáles son los periodos más largo y más corto al variar <math display=\"inline\"><mi>a</mi></math>, sin cambiar <math display=\"inline\"><mi>b</mi></math>? <br> (d) ¿Cómo hay que elegir los valores de <math display=\"inline\"><mrow><mi>a</mi><mo>≠</mo><mi>b</mi></mrow></math> para que las frecuencias de las oscilaciones pequeñas alrededor de los puntos medios de los bordes <math display=\"inline\"><mi>A</mi></math> y <math display=\"inline\"><mi>B</mi></math> sean iguales?    <img class=\"irudi-l\" src=\"../media/irudiak/1d9def4ff7689769.svg\" alt=\"\" style=\"width:118px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1249,7 +1269,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Un cuadrado delgado homogéneo puede girar en un plano vertical en torno a un eje horizontal perpendicular. Si el eje es liso, ¿en cuál de los casos de la figura se obtienen las pequeñas oscilaciones más rápidas? ¿Y las más lentas? ¿De dónde hay que suspenderlo para que la frecuencia sea máxima?"
+       "html": "Un cuadrado delgado homogéneo puede girar en un plano vertical alrededor de un eje horizontal perpendicular. Si el eje es liso, ¿en cuál de los casos de la figura se obtienen las oscilaciones pequeñas más rápidas? ¿Y las más lentas? ¿De dónde hay que colgarlo para que la frecuencia sea máxima?    <img class=\"irudi-l\" src=\"../media/irudiak/3ab3cc82c9deb8aa.svg\" alt=\"\" style=\"width:205px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1301,7 +1321,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "En un disco delgado homogéneo de radio <math display=\"inline\"><mi>a</mi></math> se hace en el centro un agujero circular de radio <math display=\"inline\"><mi>b</mi></math>. La masa del sólido restante es <math display=\"inline\"><mi>m</mi></math>. Calcula, sin hacer integrales, las direcciones y los momentos principales de inercia respecto al centro geométrico."
+       "html": "En un disco delgado homogéneo de radio <math display=\"inline\"><mi>a</mi></math> se hace un agujero circular de radio <math display=\"inline\"><mi>b</mi></math> en el centro. La masa del sólido restante es <math display=\"inline\"><mi>m</mi></math>. Calcula, sin hacer integrales, las direcciones y los momentos de inercia principales respecto del centro geométrico.    <img class=\"irudi-l\" src=\"../media/irudiak/77d96394a2d08fc9.svg\" alt=\"\" style=\"width:88px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1464,7 +1484,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "La esfera de la figura está hecha con dos semiesferas macizas homogéneas de materiales distintos. Se coloca sobre un plano inclinado como se muestra, siendo el plano <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> el límite entre los hemisferios, perpendicular a la figura. Demuestra que, eligiendo los materiales de manera adecuada, la esfera puede estar en equilibrio si el ángulo <math display=\"inline\"><mi>α</mi></math> y el coeficiente de rozamiento estático <math display=\"inline\"><mi>μ</mi></math> están en intervalos adecuados. ¿Cuáles son esos intervalos? Si las densidades de las semiesferas son <math display=\"inline\"><msub><mi>ρ</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>ρ</mi><mn>2</mn></msub></math>, ¿cuál es el ángulo <math display=\"inline\"><mi>β</mi></math> en el equilibrio? ¿Cuál es mayor, <math display=\"inline\"><msub><mi>ρ</mi><mn>1</mn></msub></math> o <math display=\"inline\"><msub><mi>ρ</mi><mn>2</mn></msub></math>?"
+       "html": "La esfera de la figura está hecha de dos semiesferas macizas homogéneas de materiales distintos. Se coloca, como se muestra, sobre un plano inclinado, siendo <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> el plano perpendicular a la figura que contiene el límite entre los hemisferios. Demuestra que, eligiendo adecuadamente los materiales, la esfera puede estar en equilibrio si el ángulo <math display=\"inline\"><mi>α</mi></math> y el coeficiente de rozamiento estático <math display=\"inline\"><mi>μ</mi></math> están en intervalos adecuados. ¿Cuáles son esos intervalos? Si las densidades de las semiesferas son <math display=\"inline\"><msub><mi>ρ</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>ρ</mi><mn>2</mn></msub></math>, ¿cuál es el ángulo <math display=\"inline\"><mi>β</mi></math> en el equilibrio? ¿Cuál es mayor, <math display=\"inline\"><msub><mi>ρ</mi><mn>1</mn></msub></math> o <math display=\"inline\"><msub><mi>ρ</mi><mn>2</mn></msub></math>?    <img class=\"irudi-l\" src=\"../media/irudiak/428fdc65950717b3.svg\" alt=\"\" style=\"width:156px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1475,7 +1495,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "El radio de una semiesfera homogénea apoyada en el suelo horizontal es <math display=\"inline\"><mi>R</mi></math> y su masa <math display=\"inline\"><mi>M</mi></math>. Desde la mitad de la base plana sube una barra ligera de aluminio. Si un acróbata empieza a subir por la barra, ¿cuándo deberá empezar a hacer acrobacias para no caerse? <br>  <em>Nota</em>: Desprecia las dimensiones del acróbata."
+       "html": "El radio de una semiesfera homogénea situada sobre un suelo horizontal es <math display=\"inline\"><mi>R</mi></math> y su masa <math display=\"inline\"><mi>M</mi></math>. Desde el centro de la base plana sube una varilla ligera de aluminio. Si un acróbata empieza a trepar por la varilla, ¿cuándo deberá empezar a hacer acrobacias para no caerse? <br>  <em>Observación</em>: Desprecie las dimensiones del acróbata.    <img class=\"irudi-l\" src=\"../media/irudiak/e059238d7d77d37a.svg\" alt=\"\" style=\"width:80px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1487,6 +1507,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Sobre una mesa horizontal hay un cubo de masa <math display=\"inline\"><mi>m</mi></math>. El coeficiente de rozamiento estático entre los dos cuerpos es <math display=\"inline\"><mi>μ</mi></math>. ¿Cuál es la fuerza mínima <math display=\"inline\"><mi>F</mi></math> que hay que aplicar en el borde superior para volcar el cubo sin que deslice? ¿Cuál es el ángulo <math display=\"inline\"><mi>α</mi></math> en ese caso?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/24223f8f5f8d9c25.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1498,6 +1522,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Una varilla tiene un extremo en el suelo y el otro colgado del techo mediante una cuerda sin masa. Las longitudes de la varilla y de la cuerda son iguales. ¿Cómo debe ser el coeficiente de rozamiento estático entre la varilla y el suelo para que la varilla esté en equilibrio en la posición que se muestra en la figura?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/bdefc4dfdfe19b57.svg\" alt=\"\" style=\"width:80px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1509,6 +1537,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Los radios de los arcos de circunferencia del borde de la placa de la figura son <math display=\"inline\"><mi>a</mi></math> y <math display=\"inline\"><mrow><mn>2</mn><mi>a</mi></mrow></math>. La placa está en equilibrio, atada con una cuerda, bajo la acción de la gravedad, en la posición de la figura. Calcula la distancia <math display=\"inline\"><mi>d</mi></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/43c5377e9762b580.svg\" alt=\"\" style=\"width:75px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1527,7 +1559,7 @@ KAPITULUAK["05mk_05solidoa"] = {
       },
       {
        "mota": "testua",
-       "html": ": Desprecia el rozamiento."
+       "html": ": Desprecie el rozamiento.    <img class=\"irudi-l\" src=\"../media/irudiak/f21450384d1321bd.svg\" alt=\"\" style=\"width:75px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1538,7 +1570,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Se han colocado tres libros idénticos en una mesa, como se muestra en la figura. Si se empujan lentamente, ¿cuál será la parte más larga del libro de la derecha que sobresalga del borde antes de que el libro caiga, si todos los rozamientos son despreciables? ¿Será más larga o más corta si hay rozamiento?"
+       "html": "Se han colocado tres libros iguales sobre una mesa, como muestra la figura. Si se empujan muy lentamente, ¿cuál será la parte más larga del libro de la derecha que puede sobresalir del borde antes de que el libro caiga, si todos los rozamientos son despreciables? ¿Será mayor o menor si hay rozamiento?    <img class=\"irudi-l\" src=\"../media/irudiak/d34de20f3e7cdb9e.svg\" alt=\"\" style=\"width:118px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1553,7 +1585,7 @@ KAPITULUAK["05mk_05solidoa"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>Nota</em>: <math display=\"inline\"><mrow><mi>r</mi><mo>&lt;</mo><mi>R</mi><mo>&lt;</mo><mn>2</mn><mi>r</mi></mrow></math>."
+       "html": "<em>Observación</em>: <math display=\"inline\"><mrow><mi>r</mi><mo>&lt;</mo><mi>R</mi><mo>&lt;</mo><mn>2</mn><mi>r</mi></mrow></math>.    <img class=\"irudi-l\" src=\"../media/irudiak/37f5a5c167a410db.svg\" alt=\"\" style=\"width:114px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1564,7 +1596,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "La esfera homogénea de la figura está en equilibrio contra la pared, atada con una cuerda a un punto <math display=\"inline\"><mi>L</mi></math> de la pared. El punto <math display=\"inline\"><mi>L</mi></math> está en la vertical del centro de la esfera. ¿Cómo es el coeficiente de rozamiento estático entre la pared y la esfera?"
+       "html": "La esfera homogénea de la figura está en equilibrio contra la pared, sujeta por una cuerda atada a la pared en el punto <math display=\"inline\"><mi>L</mi></math>. El punto <math display=\"inline\"><mi>L</mi></math> está en la vertical del centro de la esfera. ¿Cuál es el coeficiente de rozamiento estático entre la pared y la esfera?    <img class=\"irudi-l\" src=\"../media/irudiak/53a0c2bf5058b514.svg\" alt=\"\" style=\"width:72px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1576,6 +1608,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "La masa de la esfera de la figura es <math display=\"inline\"><mi>m</mi></math> y está en equilibrio entre dos planos lisos. Calcula las reacciones ejercidas por los planos.<span class=\"j-oin\">[Este problema apareció en la obra completa <em>Opera Omnia</em> de Leibniz, de 1768.]</span>"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/81a43f2edf107bd2.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1586,7 +1622,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Para hacer una mesa elegante (?), se ha colocado un triángulo irregular de vidrio sobre tres patas verticales idénticas. El grosor del vidrio es uniforme. Demuestra que las reacciones ejercidas por las tres patas son iguales."
+       "html": "Para hacer una mesa elegante (?), se ha colocado un cristal triangular irregular sobre tres patas verticales iguales. El espesor del cristal es uniforme. Demuestre que las reacciones ejercidas por las tres patas son iguales.    <img class=\"irudi-l\" src=\"../media/irudiak/951b69b8e8776334.svg\" alt=\"\" style=\"width:105px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1612,7 +1648,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Una bola de radio <math display=\"inline\"><mi>a</mi></math> se mueve con velocidad <math display=\"inline\"><mi>v</mi></math>, sin deslizar, hasta que choca con un escalón de altura <math display=\"inline\"><mrow><mi>h</mi><mo>&lt;</mo><mi>a</mi></mrow></math>. Si en el punto de impacto <math display=\"inline\"><mi>O</mi></math> no hay deslizamiento, ¿cuál debe ser el valor mínimo de <math display=\"inline\"><mi>v</mi></math> para subir el escalón?"
+       "html": "Una bola de radio <math display=\"inline\"><mi>a</mi></math> se mueve con velocidad <math display=\"inline\"><mi>v</mi></math>, sin deslizar, hasta chocar con un escalón de altura <math display=\"inline\"><mrow><mi>h</mi><mo>&lt;</mo><mi>a</mi></mrow></math>. Si no hay deslizamiento en el punto de contacto <math display=\"inline\"><mi>O</mi></math>, ¿cuál debe ser el valor mínimo de <math display=\"inline\"><mi>v</mi></math> para subir el escalón?    <img class=\"irudi-l\" src=\"../media/irudiak/6d16872b45803430.svg\" alt=\"\" style=\"width:120px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1628,6 +1664,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": ". Una varilla que está en reposo en vertical empieza a caer sin rozamiento. ¿Cuál será la velocidad del centro de masas cuando la varilla esté en horizontal? ¿Cómo es la trayectoria de los extremos? ¿Cómo cambia la respuesta ahora si un extremo de la varilla está sujeto al suelo mediante un eje liso? ¿En qué caso llegará antes a la posición horizontal?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/21847254d742d7b3.svg\" alt=\"\" style=\"width:114px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1654,6 +1694,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "La masa de la placa delgada de la figura es <math display=\"inline\"><mrow><mn>3</mn><mi>m</mi></mrow></math> y puede girar sin rozamiento en torno al eje vertical. Inicialmente está en reposo, pero la golpea una partícula de masa <math display=\"inline\"><mi>m</mi></math> que llega en dirección perpendicular, en el punto que se muestra en la figura. Tras el choque, la partícula se mueve en la misma dirección. Calcula la velocidad de la partícula tras el choque, suponiendo que este ha sido elástico. ¿Hacia dónde se mueve ahora la partícula? Si la gravedad es despreciable, ¿qué ocurriría si no hubiera eje?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/288ce30967a3c0a9.svg\" alt=\"\" style=\"width:124px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1675,7 +1719,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "La varilla horizontal de masa <math display=\"inline\"><mi>m</mi></math> puede girar sin rozamiento en torno al eje vertical <math display=\"inline\"><mi>A</mi></math> y tiene en un extremo una bolita de masa <math display=\"inline\"><mi>m</mi></math>, como se muestra en la figura. Se produce un choque elástico entre la varilla y una partícula de masa <math display=\"inline\"><mi>m</mi></math> que llega en dirección horizontal perpendicular. Tras el choque, la partícula se mueve en la misma dirección. ¿Cómo hay que elegir la distancia <math display=\"inline\"><mi>d</mi></math> para que la velocidad angular de la varilla sea máxima? ¿Y para que sea mínima? ¿Cuáles serán esos valores máximo y mínimo? ¿Cuándo volverá la partícula hacia atrás? ¿Puede ser nula la reacción del eje en el choque? ¿Qué cambia en tus respuestas si la bolita está en el otro extremo? ¿Y si la partícula se queda pegada a la varilla?"
+       "html": "Una varilla horizontal de masa <math display=\"inline\"><mi>m</mi></math> puede girar sin rozamiento alrededor del eje vertical <math display=\"inline\"><mi>A</mi></math> y lleva una bolita de masa <math display=\"inline\"><mi>m</mi></math> en un extremo, como muestra la figura. Una partícula de masa <math display=\"inline\"><mi>m</mi></math> que llega en dirección horizontal perpendicular choca elásticamente con la varilla. Tras el choque, la partícula se mueve en la misma dirección. ¿Cómo hay que elegir la distancia <math display=\"inline\"><mi>d</mi></math> para que la velocidad angular de la varilla sea máxima? ¿Y para que sea mínima? ¿Cuáles serán los valores máximo y mínimo mencionados? ¿Cuándo rebotará la partícula? ¿Puede ocurrir que la reacción del eje en el choque sea nula? ¿Qué cambia en sus respuestas si la bolita está en el otro extremo? ¿Y si la partícula se queda pegada a la varilla?    <img class=\"irudi-l\" src=\"../media/irudiak/e9bc50cec5b79613.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1686,7 +1730,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "El aro y el disco homogéneo de la figura tienen la misma masa y el mismo radio y se sueltan desde el reposo a la misma altura en el mismo instante. Si bajan sin deslizar por el plano inclinado, ¿cuál llegará antes al suelo?"
+       "html": "El aro y el disco homogéneo de la figura tienen la misma masa y el mismo radio y se sueltan desde el reposo a la misma altura en el mismo instante. Si bajan sin deslizar por el plano inclinado, ¿cuál llegará antes al suelo?    <img class=\"irudi-l\" src=\"../media/irudiak/856443690948bcec.svg\" alt=\"\" style=\"width:105px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1709,6 +1753,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Un cubo homogéneo de lado <math display=\"inline\"><mi>L</mi></math> desliza con velocidad <math display=\"inline\"><mi>v</mi></math> sobre una mesa horizontal lisa. Al chocar con una pequeña muesca en el borde de esta última, empieza a girar en torno a ella. ¿Cuál debe ser el valor mínimo de la velocidad <math display=\"inline\"><mi>v</mi></math> para que el cubo caiga de la mesa?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/9fa8724e825e9d6a.svg\" alt=\"\" style=\"width:182px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1720,6 +1768,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Las dos varillas de la figura son idénticas y la articulación y el suelo lisos. Se sueltan desde la posición vertical <math display=\"inline\"><mrow><mi>φ</mi><mo>≈</mo><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math> en el instante <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>. Escribe, mediante una integral, la solución <math display=\"inline\"><mrow><mi>φ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. ¿Cuáles son las direcciones y los módulos de las velocidades de los extremos <math display=\"inline\"><mi>B</mi></math> y <math display=\"inline\"><mi>C</mi></math> cuando el sistema llega a la configuración horizontal <math display=\"inline\"><mrow><mi>φ</mi><mo>=</mo><mn>0</mn></mrow></math>? ¿Cuál es entonces el momento lineal total?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/49a7cbb62d914946.svg\" alt=\"\" style=\"width:131px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1737,8 +1789,8 @@ KAPITULUAK["05mk_05solidoa"] = {
        "html": ". Si la pared y el suelo del problema 1.5 son lisos, ¿dónde se rompe el contacto entre la varilla y la pared? ¿Cuál es la velocidad de la varilla cuando llega a la posición horizontal? <br>  <em>Nota</em>: Véase"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "link"
+       "mota": "testua",
+       "html": "<a href=\"http://tp.lc.ehu.eus/jma/mekanika/analitikoa/hagatxoa.html\" target=\"_blank\" rel=\"noopener\">http://tp.lc.ehu.eus/jma/mekanika/analitikoa/hagatxoa.html</a>"
       },
       {
        "mota": "testua",
@@ -1753,7 +1805,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "El extremo <math display=\"inline\"><mi>A</mi></math> de la partícula y de la varilla articulada de la figura se sueltan desde la misma altura <math display=\"inline\"><mi>h</mi></math>. Calcula las velocidades verticales de la partícula y de <math display=\"inline\"><mi>A</mi></math> para todas las alturas <math display=\"inline\"><mi>z</mi></math> medidas desde el suelo. Halla cuál es el valor máximo de <math display=\"inline\"><mi>h</mi></math> para que a todas las alturas <math display=\"inline\"><mi>z</mi></math> la velocidad vertical del extremo <math display=\"inline\"><mi>A</mi></math> sea mayor que la de la partícula. <br>  <em>Nota</em>: Desprecia el rozamiento y el efecto del aire."
+       "html": "La partícula de la figura y el extremo <math display=\"inline\"><mi>A</mi></math> de la varilla articulada se sueltan desde la misma altura <math display=\"inline\"><mi>h</mi></math>. Calcule las velocidades verticales de la partícula y de <math display=\"inline\"><mi>A</mi></math> para todas las alturas <math display=\"inline\"><mi>z</mi></math> medidas desde el suelo. Halle el valor máximo de <math display=\"inline\"><mi>h</mi></math> para que, a todas las alturas <math display=\"inline\"><mi>z</mi></math>, la velocidad vertical del extremo <math display=\"inline\"><mi>A</mi></math> sea mayor que la de la partícula. <br>  <em>Observación</em>: Desprecie el rozamiento y el efecto del aire.    <img class=\"irudi-l\" src=\"../media/irudiak/d77aac628f51c7c1.svg\" alt=\"\" style=\"width:124px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1797,7 +1849,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "La masa y el radio de un aro en reposo sobre una mesa horizontal lisa son <math display=\"inline\"><mi>M</mi></math> y <math display=\"inline\"><mi>a</mi></math>, respectivamente. Hacia él se acerca una partícula de masa <math display=\"inline\"><mi>m</mi></math>, con velocidad <math display=\"inline\"><mrow><mi>−</mi><mi>v</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math>, en una trayectoria tangente. Tras el choque, la partícula y el aro quedan pegados. Calcula cómo se mueve el nuevo cuerpo tras el choque."
+       "html": "La masa y el radio de un aro en reposo sobre una mesa horizontal lisa son <math display=\"inline\"><mi>M</mi></math> y <math display=\"inline\"><mi>a</mi></math>, respectivamente. Se le acerca una partícula de masa <math display=\"inline\"><mi>m</mi></math>, con velocidad <math display=\"inline\"><mrow><mi>−</mi><mi>v</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math>, siguiendo una trayectoria tangente. Tras el choque, la partícula y el aro quedan pegados. Calcule cómo se mueve el nuevo cuerpo después del choque.    <img class=\"irudi-l\" src=\"../media/irudiak/14bef19953b39ab7.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1808,7 +1860,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "La varilla de masa <math display=\"inline\"><mrow><mn>6</mn><mi>m</mi></mrow></math> puede girar sin obstáculos en torno al eje perpendicular central y tiene pegada en un extremo una partícula puntual de masa <math display=\"inline\"><mi>m</mi></math>. Una segunda partícula idéntica que llega con velocidad <math display=\"inline\"><mi>v</mi></math> perpendicular a la varilla y al eje golpea el otro extremo. Si el choque es elástico, ¿cuáles son la velocidad de la partícula y la velocidad angular de la varilla tras el choque? ¿Cuál es el impulso ejercido por el eje en el choque? ¿Qué cambia en tus respuestas si la partícula golpea el otro extremo? ¿Y si se queda pegada?"
+       "html": "Una varilla de masa <math display=\"inline\"><mrow><mn>6</mn><mi>m</mi></mrow></math> puede girar sin obstáculos alrededor de su eje perpendicular central y tiene pegada en un extremo una partícula puntual de masa <math display=\"inline\"><mi>m</mi></math>. Una segunda partícula idéntica que llega con velocidad <math display=\"inline\"><mi>v</mi></math>, perpendicularmente a la varilla y al eje, golpea el otro extremo. Si el choque es elástico, ¿cuáles son la velocidad de la partícula y la velocidad angular de la varilla tras el choque? ¿Cuál es el impulso ejercido por el eje en el choque? ¿Qué cambia en sus respuestas si la partícula golpea el otro extremo? ¿Y si se queda pegada?    <img class=\"irudi-l\" src=\"../media/irudiak/7bc51cec69a4aefe.svg\" alt=\"\" style=\"width:127px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1820,6 +1872,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "La masa y la longitud de la varilla homogénea de la figura son <math display=\"inline\"><mi>m</mi></math> y <math display=\"inline\"><mi>a</mi></math>, respectivamente. Inicialmente gira en torno al centro de masas en reposo con velocidad angular constante <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math>, como se muestra en la figura. Al chocar con el eje liso <math display=\"inline\"><mi>A</mi></math>, queda atrapada y empieza a girar en torno a <math display=\"inline\"><mi>A</mi></math>. Calcula la nueva velocidad angular <math display=\"inline\"><mi>ω</mi></math> y el módulo, la dirección y el sentido del impulso ejercido por el eje <math display=\"inline\"><mi>A</mi></math> en el instante <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>. <br>  <em>Nota</em>: No hay gravedad."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/fb954a78e9e3bedd.svg\" alt=\"\" style=\"width:187px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1852,7 +1908,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "La masa y el radio de un cilindro son <math display=\"inline\"><mi>M</mi></math> y <math display=\"inline\"><mi>R</mi></math>, respectivamente. Cuando está en reposo sobre un suelo liso, lo golpea una bala que llega en dirección horizontal (en el plano de simetría transversal) y se queda dentro. ¿Cómo se mueve ahora el cilindro? ¿Qué proporción de la energía cinética se pierde en el choque? ¿Cómo hay que elegir la distancia <math display=\"inline\"><mi>h</mi></math> para que la energía cinética final sea lo mayor posible? ¿Y para que sea lo menor posible? <br>  <em>Nota</em>: Usa que <math display=\"inline\"><mrow><mi>m</mi><mo>≪</mo><mi>M</mi></mrow></math> en todos los cálculos, conservando como máximo los términos lineales en el cociente <math display=\"inline\"><mrow><mi>m</mi><mi>/</mi><mi>M</mi></mrow></math>."
+       "html": "La masa y el radio de un cilindro son <math display=\"inline\"><mi>M</mi></math> y <math display=\"inline\"><mi>R</mi></math>, respectivamente. Cuando está en reposo sobre un suelo liso, lo golpea una bala que llega en dirección horizontal (en el plano de simetría transversal) y se queda dentro. ¿Cómo se mueve ahora el cilindro? ¿Qué proporción de la energía cinética se pierde en el choque? ¿Cómo hay que elegir la distancia <math display=\"inline\"><mi>h</mi></math> para que la energía cinética final sea lo mayor posible? ¿Y lo menor posible? <br>  <em>Observación</em>: Use <math display=\"inline\"><mrow><mi>m</mi><mo>≪</mo><mi>M</mi></mrow></math> en todos los cálculos, para conservar como máximo los términos lineales en el cociente <math display=\"inline\"><mrow><mi>m</mi><mi>/</mi><mi>M</mi></mrow></math>.    <img class=\"irudi-l\" src=\"../media/irudiak/30d7727b0eac1f2e.svg\" alt=\"\" style=\"width:150px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1863,7 +1919,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "La masa de la barra homogénea de la figura es <math display=\"inline\"><mi>m</mi></math> y su longitud <math display=\"inline\"><mi>L</mi></math>. Se suelta desde la horizontal y, cuando llega a la vertical, golpea una partícula de masa <math display=\"inline\"><mi>m</mi></math> que está sobre la mesa horizontal lisa. La partícula queda pegada. Calcula la reacción que ejerce la articulación lisa de la barra en el choque. ¿Cuál es, a partir de ahí, el ángulo máximo entre la barra y la vertical?"
+       "html": "La masa de la barra homogénea de la figura es <math display=\"inline\"><mi>m</mi></math> y su longitud <math display=\"inline\"><mi>L</mi></math>. Se suelta desde la horizontal y, al llegar a la vertical, golpea una partícula de masa <math display=\"inline\"><mi>m</mi></math> situada sobre una mesa horizontal lisa. La partícula queda pegada. Calcule la reacción que la articulación lisa de la barra ejerce en el choque. A partir de ahí, ¿cuál es el ángulo máximo entre la barra y la vertical?    <img class=\"irudi-l\" src=\"../media/irudiak/6da0cc98793d5c74.svg\" alt=\"\" style=\"width:92px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1883,6 +1939,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": ". La varilla uniforme de la figura puede girar en torno al punto <math display=\"inline\"><mi>O</mi></math>. ¿Cuál es la longitud del péndulo matemático equivalente? Si cuando está en reposo en la posición vertical se le aplica un impulso horizontal <math display=\"inline\"><mi>J</mi></math>, ¿cuál será la velocidad angular inicial? ¿Dónde hay que aplicar el impulso <math display=\"inline\"><mi>J</mi></math> para que no haya reacción en el punto <math display=\"inline\"><mi>O</mi></math>? ¿A qué es igual <math display=\"inline\"><mi>a</mi></math> en este último caso?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/b422350d88f9df52.svg\" alt=\"\" style=\"width:76px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1894,6 +1954,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Los radios exterior e interior del carrete de la figura son <math display=\"inline\"><mi>R</mi></math> y <math display=\"inline\"><mi>a</mi></math>, respectivamente. Si tiramos con la fuerza <math display=\"inline\"><mi>F</mi></math> de una cuerda enrollada en el cilindro interior, ¿hacia dónde se moverá el carrete sobre la mesa horizontal sin deslizar en los casos (a) y (b)? ¿Qué condiciones deben cumplirse para que el carrete no se mueva en el caso (c)? <br>  <em>Nota</em>: Véase también el problema 6.35."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/e28a2c48746af1ee.svg\" alt=\"\" style=\"width:170px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1911,12 +1975,16 @@ KAPITULUAK["05mk_05solidoa"] = {
        "html": ". Se coloca en el suelo un cilindro delgado de radio <math display=\"inline\"><mi>a</mi></math> que gira con velocidad angular <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math> en torno a su eje de simetría horizontal. Está claro que al principio deslizará, pero por efecto del rozamiento empezará a moverse. Escribe las ecuaciones del movimiento del cilindro y calcula la relación entre la velocidad lineal y la angular. Demuestra que en un instante desaparece el rozamiento y que a partir de ahí se mueve con velocidad constante. ¿Cuál es esa velocidad? <br> Calcula de nuevo la velocidad constante final usando un principio de conservación adecuado. Si un cilindro hueco y uno macizo tienen la misma masa y el mismo radio, ¿cuál se moverá más rápido? ¿Qué ocurre si las masas son distintas? ¿Cuál es el trabajo total realizado por la fuerza de rozamiento? ¿Qué parte de la energía inicial se ha usado para producir calor? ¿Qué de lo que respondas depende del coeficiente <math display=\"inline\"><mi>μ</mi></math> de rozamiento dinámico? <br>  <em>Notas</em>: Véase"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "link"
+       "mota": "testua",
+       "html": "<a href=\"http://tp.lc.ehu.eus/jma/mekanika/solidoa/txanpona.html\" target=\"_blank\" rel=\"noopener\">http://tp.lc.ehu.eus/jma/mekanika/solidoa/txanpona.html</a>"
       },
       {
        "mota": "testua",
        "html": "la simulación. La masa del cilindro es <math display=\"inline\"><mi>m</mi></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/0bc18d46257ecc60.svg\" alt=\"\" style=\"width:199px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1942,7 +2010,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "La cuerda de la figura une un punto fijo con un extremo de la varilla. Demuestra que la cuerda y la varilla no pueden estar durante todo el movimiento en la misma recta (como una sola varilla) bajo la acción exclusiva de la gravedad. <br>  <em>Sugerencia</em>: Supón que ese movimiento puede darse y estudia cómo es la fuerza ejercida por la cuerda."
+       "html": "La cuerda de la figura une un punto fijo con un extremo de la varilla. Demuestre que la cuerda y la varilla no pueden estar durante todo el movimiento en la misma línea recta (como una única varilla) bajo la acción exclusiva de la gravedad. <br>  <em>Sugerencia</em>: Suponga que ese movimiento puede ocurrir y estudie cómo es la fuerza ejercida por la cuerda.    <img class=\"irudi-l\" src=\"../media/irudiak/fa83b7bfb8cf159e.svg\" alt=\"\" style=\"width:54px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1953,7 +2021,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Un cilindro hueco que gira con velocidad angular <math display=\"inline\"><mi>ω</mi></math> en torno a su eje de simetría se coloca en un rincón, como se muestra en la figura. La pared y el suelo son del mismo material y el coeficiente de rozamiento dinámico con el cilindro es <math display=\"inline\"><mi>μ</mi></math>. ¿Cuánto tiempo necesitará el cilindro para pararse? ¿Cuántas vueltas dará?"
+       "html": "Un cilindro hueco que gira con velocidad angular <math display=\"inline\"><mi>ω</mi></math> alrededor de su eje de simetría se coloca en un rincón, como muestra la figura. La pared y el suelo son del mismo material y el coeficiente de rozamiento dinámico con el cilindro es <math display=\"inline\"><mi>μ</mi></math>. ¿Cuánto tiempo tardará el cilindro en detenerse? ¿Cuántas vueltas dará?    <img class=\"irudi-l\" src=\"../media/irudiak/eda28a356fdd7b48.svg\" alt=\"\" style=\"width:101px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1972,7 +2040,7 @@ KAPITULUAK["05mk_05solidoa"] = {
       },
       {
        "mota": "testua",
-       "html": ": Haz hipótesis de simplificación adecuadas."
+       "html": ": Haga las hipótesis simplificadoras adecuadas.    <img class=\"irudi-l\" src=\"../media/irudiak/a19a54262ab05f0f.svg\" alt=\"\" style=\"width:136px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1983,7 +2051,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "El cubo y el cilindro de la figura tienen la misma masa y las masas de la cuerda y de la polea son despreciables. Si el coeficiente de rozamiento dinámico entre el cubo y el plano horizontal es <math display=\"inline\"><mrow><msub><mi>μ</mi><mi>B</mi></msub><mo>&lt;</mo><mn>1</mn><mi>/</mi><mn>2</mn></mrow></math>, ¿cuál es el valor mínimo del coeficiente de rozamiento estático entre el cilindro y el plano inclinado para que baje por el plano sin deslizar?"
+       "html": "El cubo y el cilindro de la figura tienen la misma masa y las masas de la cuerda y de la polea son despreciables. Si el coeficiente de rozamiento dinámico entre el cubo y el plano horizontal es <math display=\"inline\"><mrow><msub><mi>μ</mi><mi>B</mi></msub><mo>&lt;</mo><mn>1</mn><mi>/</mi><mn>2</mn></mrow></math>, ¿cuál es el valor mínimo del coeficiente de rozamiento estático entre el cilindro y el plano inclinado para que baje por el plano sin deslizar?    <img class=\"irudi-l\" src=\"../media/irudiak/8561feece2e621f6.svg\" alt=\"\" style=\"width:150px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1994,7 +2062,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "El disco de la figura cae en un plano vertical por efecto de la gravedad. La mesa horizontal es lisa. El bloque y el disco están unidos mediante una cuerda enrollada en este último. El centro de masas del disco cae en dirección vertical. ¿Qué condición debe cumplirse para que esto último sea cierto? Calcula los movimientos del bloque y del disco. ¿Caería más deprisa el disco si el otro extremo de la cuerda estuviera atado a una polea?"
+       "html": "El disco de la figura cae en un plano vertical bajo la acción de la gravedad. La mesa horizontal es lisa. El bloque y el disco están unidos mediante una cuerda enrollada en este último. El centro de masas del disco cae en dirección vertical. ¿Qué condición debe cumplirse para que esto último sea cierto? Calcule los movimientos del bloque y del disco. ¿Caería el disco más deprisa si el otro extremo de la cuerda estuviera atado a la polea?    <img class=\"irudi-l\" src=\"../media/irudiak/ec51dbb87a27e1d0.svg\" alt=\"\" style=\"width:134px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2024,7 +2092,7 @@ KAPITULUAK["05mk_05solidoa"] = {
       },
       {
        "mota": "testua",
-       "html": ": Los momentos de inercia de los discos son <math display=\"inline\"><msub><mi>I</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>I</mi><mn>2</mn></msub></math>."
+       "html": ": Los momentos de inercia de los discos son <math display=\"inline\"><msub><mi>I</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>I</mi><mn>2</mn></msub></math>.    <img class=\"irudi-l\" src=\"../media/irudiak/90dd74101ede71a5.svg\" alt=\"\" style=\"width:209px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2044,6 +2112,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": ": El signo de la derivada de la siguiente integral se calcula fácilmente sin resolver la integral elíptica: <math display=\"block\"><mrow><mi>I</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>λ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≡</mo><msubsup><mo>∫</mo><mn>0</mn><mrow><mn>2</mn><mi>π</mi></mrow></msubsup><mfrac><mrow><mn>1</mn><mo>−</mo><mi>λ</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>φ</mi></mrow><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>λ</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>λ</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>φ</mi></mrow></msqrt></mfrac><mi>d</mi><mi>φ</mi><mi>.</mi></mrow></math>"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/ad070cdfd10fd2fd.svg\" alt=\"\" style=\"width:135px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2054,7 +2126,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Una varilla uniforme puede girar en un plano vertical en torno a una articulación lisa. Si se suelta desde la posición vertical, ¿cuáles son la componente horizontal <math display=\"inline\"><msub><mi>F</mi><mi>x</mi></msub></math> y la componente vertical <math display=\"inline\"><msub><mi>F</mi><mi>y</mi></msub></math> de la reacción ejercida por la articulación? ¿Puede ser cero una u otra en algún instante? ¿Puede cambiar su signo? ¿Cuándo será máximo (mínimo) <math display=\"inline\"><msub><mi>F</mi><mi>y</mi></msub></math>?"
+       "html": "Una varilla uniforme puede girar alrededor de una articulación lisa en un plano vertical. Si se suelta desde la posición vertical, ¿cuáles son la componente horizontal <math display=\"inline\"><msub><mi>F</mi><mi>x</mi></msub></math> y la componente vertical <math display=\"inline\"><msub><mi>F</mi><mi>y</mi></msub></math> de la reacción ejercida por la articulación? ¿Puede alguna de ellas ser cero en algún instante? ¿Pueden cambiar de signo? ¿Cuándo será máximo (mínimo) <math display=\"inline\"><msub><mi>F</mi><mi>y</mi></msub></math>?    <img class=\"irudi-l\" src=\"../media/irudiak/78e2b25459557130.svg\" alt=\"\" style=\"width:150px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2065,7 +2137,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Las longitudes de las aristas de un paralelepípedo son <math display=\"inline\"><mrow><mi>a</mi><mo>&lt;</mo><mi>b</mi><mo>&lt;</mo><mi>c</mi></mrow></math>. <br> (a) Se coloca en un plano como se muestra a la izquierda de la figura y, al aumentar poco a poco la inclinación del plano, en un instante el bloque empieza a deslizar. <br> (b) Si se coloca en la posición de la derecha, en cambio, al aumentar la inclinación el bloque vuelca, antes de empezar a deslizar. <br> Con esa información, ¿qué podemos decir sobre el coeficiente de rozamiento estático entre el plano y el bloque?"
+       "html": "Las longitudes de las aristas de un paralelepípedo son <math display=\"inline\"><mrow><mi>a</mi><mo>&lt;</mo><mi>b</mi><mo>&lt;</mo><mi>c</mi></mrow></math>. <br> (a) Se coloca sobre un plano como muestra la parte izquierda de la figura y, al aumentar poco a poco la inclinación del plano, en un momento dado el bloque empieza a deslizar. <br> (b) Si se coloca en la posición de la derecha, en cambio, al aumentar la inclinación el bloque vuelca antes de empezar a deslizar. <br> Con esta información, ¿qué podemos decir sobre el coeficiente de rozamiento estático entre el plano y el bloque?    <img class=\"irudi-l\" src=\"../media/irudiak/6bbe08dd64b75d3b.svg\" alt=\"\" style=\"width:173px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2080,7 +2152,7 @@ KAPITULUAK["05mk_05solidoa"] = {
       },
       {
        "mota": "testua",
-       "html": ". Una plataforma horizontal se mueve con aceleración constante <math display=\"inline\"><mi>a</mi></math>, en dirección perpendicular al eje de rotación de un cilindro homogéneo de radio <math display=\"inline\"><mi>r</mi></math> situado sobre ella, como se muestra en la figura. El cilindro no desliza en la plataforma. <br> ¿Cómo se escribe, en cada instante, la velocidad angular del cilindro usando las velocidades de la plataforma y del centro de masas del cilindro? Calcula la aceleración del centro de masas del cilindro (en el laboratorio y en el sistema de la plataforma). ¿Cómo es el coeficiente de rozamiento estático? ¿Qué cambia en tus respuestas si en lugar del cilindro se usa una esfera maciza?"
+       "html": ". Una plataforma horizontal se mueve con aceleración constante <math display=\"inline\"><mi>a</mi></math>, perpendicularmente al eje de giro de un cilindro homogéneo de radio <math display=\"inline\"><mi>r</mi></math> situado sobre ella, como muestra la figura. El cilindro no desliza sobre la plataforma. <br> ¿Cómo se escribe, en cada instante, la velocidad angular del cilindro en función de las velocidades de la plataforma y del centro de masas del cilindro? Calcule la aceleración del centro de masas del cilindro (en el laboratorio y en el sistema de la plataforma). ¿Cómo es el coeficiente de rozamiento estático? ¿Qué cambia en sus respuestas si en lugar del cilindro se usa una esfera maciza?    <img class=\"irudi-l\" src=\"../media/irudiak/99fcf07335c4275a.svg\" alt=\"\" style=\"width:149px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2092,6 +2164,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Del disco homogéneo de radio <math display=\"inline\"><mrow><mn>2</mn><mi>a</mi></mrow></math> se ha recortado el disco de radio <math display=\"inline\"><mi>a</mi></math>, como se muestra en la figura. Calcula dónde está el centro de masas y cuál es el momento de inercia respecto al eje perpendicular que pasa por él. ¿Dónde hay que aplicar el impulso horizontal <math display=\"inline\"><mi>J</mi></math> para que el disco arranque sin deslizar?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/2eb1df3bbc037c1b.svg\" alt=\"\" style=\"width:131px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2113,7 +2189,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Los centros de los dos cilindros de la figura están unidos por una varilla ligera. Las masas y los radios de los cilindros son iguales, <math display=\"inline\"><mi>m</mi></math> y <math display=\"inline\"><mi>R</mi></math>, pero el de arriba es hueco y el de abajo macizo. Si se mueven sin deslizar por el plano inclinado de la figura, ¿cuál es la aceleración del centro de masas? ¿Cómo es la tensión en la varilla: compresión o tracción? ¿Cuál es su valor? ¿Cómo cambian las respuestas si el cilindro de arriba es macizo y el de abajo hueco?"
+       "html": "Los centros de los dos cilindros de la figura están unidos por una varilla ligera. Las masas y los radios de los cilindros son iguales, <math display=\"inline\"><mi>m</mi></math> y <math display=\"inline\"><mi>R</mi></math>, pero el de arriba es hueco y el de abajo macizo. Si se mueven sin deslizar por el plano inclinado de la figura, ¿cuál es la aceleración del centro de masas? ¿Cómo es la tensión en la varilla: compresión o tracción? ¿Cuál es su valor? ¿Cómo cambian las respuestas si el cilindro de arriba es macizo y el de abajo hueco?    <img class=\"irudi-l\" src=\"../media/irudiak/72f04218c39c6ecf.svg\" alt=\"\" style=\"width:135px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2125,6 +2201,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "El disco homogéneo de la figura se suelta desde el punto inferior del plano, cuando gira con velocidad angular <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math>. El coeficiente de rozamiento dinámico entre el disco y el plano es <math display=\"inline\"><mrow><mi>μ</mi><mo>=</mo><msqrt><mn>3</mn></msqrt></mrow></math> y <math display=\"inline\"><mrow><mi>α</mi><mo>=</mo><mn>30</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>. <br> (a) ¿Cuándo y dónde termina el deslizamiento del disco? <br> (b) ¿Cuándo y dónde alcanza la altura máxima? <br> (c) ¿Cuándo vuelve al punto inicial? <br> (d) ¿Qué proporción de la energía cinética se pierde durante el viaje?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/c9d2a631d4742580.svg\" alt=\"\" style=\"width:141px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2135,7 +2215,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Los cilindros paralelos idénticos de la figura giran con velocidades angulares iguales <math display=\"inline\"><mi>ω</mi></math> en torno a ejes verticales lisos. Si, tras acercarlos lentamente, se ponen en contacto entre sí, ¿cuáles serán las velocidades angulares de los cilindros cuando lleguen a la situación estable? ¿Qué proporción de la energía cinética se pierde en todo el proceso?"
+       "html": "Los dos cilindros paralelos idénticos de la figura giran con la misma velocidad angular <math display=\"inline\"><mi>ω</mi></math> alrededor de ejes verticales lisos. Si, tras acercarse muy lentamente, se ponen en contacto, ¿cuáles serán las velocidades angulares de los cilindros cuando alcancen el estado estacionario? ¿Qué proporción de la energía cinética se pierde en todo el proceso?    <img class=\"irudi-l\" src=\"../media/irudiak/fa6c7adcd5c6e11e.svg\" alt=\"\" style=\"width:198px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2146,7 +2226,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "La varilla de la figura, que puede girar en un plano vertical en torno al eje liso superior, está en equilibrio hasta que la golpea una bolita que llega en dirección perpendicular. El choque es elástico y después la partícula se mueve en la misma dirección. Calcula cuáles son la velocidad de la bolita y la velocidad angular de la varilla tras el choque. ¿Puede seguir adelante la bolita tras el choque? ¿Cómo hay que elegir la velocidad <math display=\"inline\"><mi>v</mi></math> para que la varilla llegue hasta la posición horizontal? ¿Cuál es el impulso que sufre la articulación en el choque? ¿Cómo hay que elegir la distancia <math display=\"inline\"><mi>d</mi></math> para que dicho impulso sea nulo?"
+       "html": "La varilla de la figura, que puede girar en un plano vertical alrededor del eje liso superior, está en equilibrio hasta que la golpea una bolita que llega en dirección perpendicular. El choque es elástico y después la partícula se mueve en la misma dirección. Calcule cuáles son la velocidad de la bolita y la velocidad angular de la varilla tras el choque. ¿Puede la bolita seguir hacia adelante tras el choque? ¿Cómo hay que elegir la velocidad <math display=\"inline\"><mi>v</mi></math> para que la varilla llegue a la posición horizontal? ¿Cuál es el impulso que sufre la articulación en el choque? ¿Cómo hay que elegir la distancia <math display=\"inline\"><mi>d</mi></math> para que dicho impulso sea nulo?    <img class=\"irudi-l\" src=\"../media/irudiak/ac5a03c07d58e502.svg\" alt=\"\" style=\"width:90px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2165,7 +2245,7 @@ KAPITULUAK["05mk_05solidoa"] = {
       },
       {
        "mota": "testua",
-       "html": ": Desprecia el grosor del disco."
+       "html": ": Desprecie el espesor del disco.    <img class=\"irudi-l\" src=\"../media/irudiak/e683c2d3f13f8efb.svg\" alt=\"\" style=\"width:139px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2177,6 +2257,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "La placa cuadrada de la figura puede girar en torno a la articulación lisa del borde. Inicialmente está en reposo en horizontal y sobre ella se ha colocado un bloque. El coeficiente de rozamiento estático entre el bloque y la placa es <math display=\"inline\"><mi>μ</mi></math>. <br> Si el sistema se suelta desde esa configuración, ¿qué ocurrirá (y cuándo) antes: que el bloque se quede atrás o que empiece a deslizar por la placa?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/4f020e1357b39c44.svg\" alt=\"\" style=\"width:148px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2187,7 +2271,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "¿Cómo debe ser el coeficiente de rozamiento estático para evitar el deslizamiento si el cuerpo móvil de la figura es <br> (a) un cilindro hueco, <br> (b) un cilindro macizo homogéneo, <br> (c) una esfera hueca, <br> (d) una esfera maciza homogénea? <br> (e) ¿Dependen las respuestas del radio del cuerpo?"
+       "html": "¿Cómo debe ser el coeficiente de rozamiento estático para evitar el deslizamiento si el cuerpo móvil de la figura es <br> (a) un cilindro hueco, <br> (b) un cilindro macizo homogéneo, <br> (c) una esfera hueca, <br> (d) una esfera maciza homogénea? <br> (e) ¿Dependen las respuestas del radio del cuerpo?    <img class=\"irudi-l\" src=\"../media/irudiak/288c85ea687aa5b7.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2198,7 +2282,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "El cuerpo de la figura puede ser un disco delgado homogéneo o una esfera homogénea. El centro del cuerpo está unido a la pared mediante un muelle de constante <math display=\"inline\"><mi>k</mi></math>. El coeficiente de rozamiento estático entre el cuerpo y el suelo es <math display=\"inline\"><mi>μ</mi></math>. ¿Cuál es, en cada caso, la amplitud máxima de las oscilaciones para que el cuerpo no deslice?"
+       "html": "El cuerpo de la figura puede ser un disco homogéneo delgado o una esfera homogénea. El centro del cuerpo está unido a la pared mediante un muelle de constante <math display=\"inline\"><mi>k</mi></math>. El coeficiente de rozamiento estático entre el cuerpo y el suelo es <math display=\"inline\"><mi>μ</mi></math>. En cada caso, ¿cuál es la amplitud máxima de las oscilaciones para que el cuerpo no deslice?    <img class=\"irudi-l\" src=\"../media/irudiak/4ee1d8ad66a80fa1.svg\" alt=\"\" style=\"width:135px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2209,7 +2293,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Los dos cilindros homogéneos de la figura son idénticos y la barra que tienen encima tiene también la misma masa. Calcula las aceleraciones de los centros de los cilindros y de la barra, en la configuración de la figura, cuando no hay deslizamiento. Los materiales de la barra y del plano son iguales. Ahora el sistema parte del reposo desde la configuración <math display=\"inline\"><mrow><mi>α</mi><mo>=</mo><mn>0</mn></mrow></math>. Al aumentar poco a poco ese ángulo, ¿cuál empezará a deslizar antes: la barra respecto a los cilindros o los cilindros respecto al plano? <br>  <em>Nota</em>: En todo el proceso el sistema está en el plano inclinado, sin llegar al suelo horizontal."
+       "html": "Los dos cilindros homogéneos de la figura son idénticos y la barra que tienen encima tiene también la misma masa. Calcule las aceleraciones de los centros de los cilindros y de la barra, en la configuración de la figura, cuando no hay deslizamiento. Los materiales de la barra y del plano son iguales. Ahora el sistema parte del reposo desde la configuración <math display=\"inline\"><mrow><mi>α</mi><mo>=</mo><mn>0</mn></mrow></math>. Al aumentar poco a poco ese ángulo, ¿quién empezará a deslizar antes, la barra respecto a los cilindros o los cilindros respecto al plano? <br>  <em>Observación</em>: Durante todo el proceso el sistema está en el plano inclinado, sin llegar al suelo horizontal.    <img class=\"irudi-l\" src=\"../media/irudiak/14181febc3108d77.svg\" alt=\"\" style=\"width:135px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2221,6 +2305,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "La longitud de la varilla de la figura es <math display=\"inline\"><mrow><mn>2</mn><mi>a</mi></mrow></math> y está en reposo sobre una mesa horizontal lisa. Se le aplica el impulso horizontal perpendicular <math display=\"inline\"><mi>J</mi></math> que se muestra en la figura. ¿Cómo debe ser la distancia <math display=\"inline\"><mi>d</mi></math> para que, en cuanto se aplique el impulso, todos los puntos de la varilla se muevan en el sentido del impulso?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/e0fd98f5d455e09a.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2231,7 +2319,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "(Euler, 1781). El centro de masas <math display=\"inline\"><mi>Z</mi></math> del disco delgado de la figura está a la distancia <math display=\"inline\"><mrow><mi>R</mi><mi>/</mi><mn>2</mn></mrow></math> del centro geométrico <math display=\"inline\"><mi>O</mi></math>. El radio de giro en torno al centro de masas es <math display=\"inline\"><mrow><msup><mi>K</mi><mo>*</mo></msup><mo>=</mo><mi>R</mi><mi>/</mi><mn>2</mn></mrow></math>. El disco se mueve en su plano vertical, sin deslizar, sobre el suelo horizontal. Si en la configuración de la figura la velocidad angular del disco es <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math>, ¿cuál será la velocidad angular cuando el ángulo de rotación medido desde esa configuración es <math display=\"inline\"><mi>φ</mi></math>? ¿Cuál es el valor mínimo de <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math> para que el centro <math display=\"inline\"><mi>O</mi></math> se mueva siempre en el mismo sentido? ¿Cambiará el sentido de la velocidad horizontal del punto <math display=\"inline\"><mi>Z</mi></math> si no cambia el de <math display=\"inline\"><mi>O</mi></math>? Si <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math> es pequeño, ¿cuál será la frecuencia de las pequeñas oscilaciones?"
+       "html": "(Euler, 1781). El centro de masas <math display=\"inline\"><mi>Z</mi></math> del disco delgado de la figura está a una distancia <math display=\"inline\"><mrow><mi>R</mi><mi>/</mi><mn>2</mn></mrow></math> del centro geométrico <math display=\"inline\"><mi>O</mi></math>. El radio de giro respecto al centro de masas es <math display=\"inline\"><mrow><msup><mi>K</mi><mo>*</mo></msup><mo>=</mo><mi>R</mi><mi>/</mi><mn>2</mn></mrow></math>. El disco se mueve en su plano vertical, sin deslizar, sobre un suelo horizontal. Si en la configuración de la figura la velocidad angular del disco es <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math>, ¿cuál será la velocidad angular cuando el ángulo de giro medido desde dicha configuración sea <math display=\"inline\"><mi>φ</mi></math>? ¿Cuál es el valor mínimo de <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math> para que el centro <math display=\"inline\"><mi>O</mi></math> se mueva siempre en el mismo sentido? ¿Cambiará el sentido de la velocidad horizontal del punto <math display=\"inline\"><mi>Z</mi></math> si no cambia el de <math display=\"inline\"><mi>O</mi></math>? Si <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math> es pequeño, ¿cuál será la frecuencia de las oscilaciones pequeñas?    <img class=\"irudi-l\" src=\"../media/irudiak/7ab0883d5f883dba.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2243,6 +2331,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Los dos cilindros homogéneos de la figura tienen un eje de rotación común. El interior tiene masa <math display=\"inline\"><mi>m</mi></math>, su radio es <math display=\"inline\"><mi>R</mi></math> y puede girar sin rozamiento en torno al eje de simetría. La masa del cilindro exterior es <math display=\"inline\"><mi>m</mi></math> y sus radios interior y exterior <math display=\"inline\"><mi>R</mi></math> y <math display=\"inline\"><mrow><mn>2</mn><mi>R</mi></mrow></math>, respectivamente. El cilindro exterior gira sin deslizar sobre el suelo horizontal. El muelle que une los dos cilindros ejerce el momento de fuerzas <math display=\"inline\"><mrow><mi>N</mi><mo>=</mo><mi>−</mi><mi>k</mi><mi>α</mi></mrow></math>, cuando el ángulo entre las orientaciones relativas de los cilindros es <math display=\"inline\"><mi>α</mi></math>. Resuelve las ecuaciones del movimiento si inicialmente los dos cilindros están en reposo, pero el interior está girado un ángulo <math display=\"inline\"><msub><mi>α</mi><mn>0</mn></msub></math> respecto al exterior."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/46a5b3445f7ca2db.svg\" alt=\"\" style=\"width:88px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2257,7 +2349,7 @@ KAPITULUAK["05mk_05solidoa"] = {
       },
       {
        "mota": "testua",
-       "html": ". Estudiemos la caída de una chimenea, usando muchas hipótesis de simplificación.<span class=\"j-oin\">[Para un estudio más profundo, véanse los artículos [116] y [77].]</span> La chimenea es homogénea y estrecha. Su masa, longitud y radio son <math display=\"inline\"><mrow><mi>m</mi><mo>,</mo><mi>L</mi></mrow></math> y <math display=\"inline\"><mrow><mi>r</mi><mo>≪</mo><mi>L</mi></mrow></math>, respectivamente. Al caer, la base <math display=\"inline\"><mi>O</mi></math> está en reposo y el momento de fuerzas que sufre allí es despreciable. Las fuerzas ejercidas por la parte inferior sobre la parte superior de longitud <math display=\"inline\"><mrow><mi>γ</mi><mi>L</mi></mrow></math> son las de la figura. Calcula <math display=\"inline\"><mrow><msub><mi>T</mi><mn>1</mn></msub><mo>,</mo><msub><mi>T</mi><mn>2</mn></msub></mrow></math> y <math display=\"inline\"><mi>N</mi></math>. Usa que <math display=\"inline\"><mrow><mi>r</mi><mo>≪</mo><mi>L</mi></mrow></math> para deducir que la chimenea se romperá a la distancia <math display=\"inline\"><mrow><mi>d</mi><mo>≈</mo><mi>L</mi><mi>/</mi><mn>3</mn></mrow></math> de la base."
+       "html": ". Estudiemos la caída de una chimenea, usando muchas hipótesis simplificadoras.<span class=\"j-oin\">[Para un estudio más profundo, véanse los artículos [116] y [77].]</span> La chimenea es homogénea y estrecha. Su masa, longitud y radio son <math display=\"inline\"><mrow><mi>m</mi><mo>,</mo><mi>L</mi></mrow></math> y <math display=\"inline\"><mrow><mi>r</mi><mo>≪</mo><mi>L</mi></mrow></math>, respectivamente. Al caer, la base <math display=\"inline\"><mi>O</mi></math> está en reposo y el momento de fuerza que sufre allí es despreciable. Las fuerzas ejercidas por la parte inferior sobre la parte superior de longitud <math display=\"inline\"><mrow><mi>γ</mi><mi>L</mi></mrow></math> son las de la figura. Calcule <math display=\"inline\"><mrow><msub><mi>T</mi><mn>1</mn></msub><mo>,</mo><msub><mi>T</mi><mn>2</mn></msub></mrow></math> y <math display=\"inline\"><mi>N</mi></math>. Use <math display=\"inline\"><mrow><mi>r</mi><mo>≪</mo><mi>L</mi></mrow></math> para concluir que la chimenea se romperá a una distancia <math display=\"inline\"><mrow><mi>d</mi><mo>≈</mo><mi>L</mi><mi>/</mi><mn>3</mn></mrow></math> de la base.    <img class=\"irudi-l\" src=\"../media/irudiak/5e76a4dc4d669019.svg\" alt=\"\" style=\"width:160px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2288,6 +2380,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "La placa delgada de la figura tiene masa <math display=\"inline\"><mi>m</mi></math> y gira con velocidad angular constante <math display=\"inline\"><mi>ω</mi></math> en torno al eje <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math>. Halla el momento de fuerzas que le ejercen los soportes <math display=\"inline\"><mi>A</mi></math> y <math display=\"inline\"><mi>B</mi></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/df6afca22c58ff13.svg\" alt=\"\" style=\"width:67px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2299,6 +2395,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Las masas de las varillas del sistema plano de la figura son despreciables. Si gira con velocidad angular constante, ¿cuál es el momento de fuerzas ejercido por los soportes lisos <math display=\"inline\"><mi>A</mi></math> y <math display=\"inline\"><mi>B</mi></math>? Si se quitan los soportes, ¿en torno a qué dirección puede girar con velocidad angular constante sin sufrir ningún momento de fuerzas?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/b495ff22bb1f8462.svg\" alt=\"\" style=\"width:139px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2310,6 +2410,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "La masa, el radio y el grosor del disco de la figura son <math display=\"inline\"><mrow><mi>m</mi><mo>,</mo><mi>R</mi></mrow></math> y <math display=\"inline\"><mi>d</mi></math>, respectivamente. El disco gira con velocidad angular constante <math display=\"inline\"><mi>ω</mi></math> en torno a un eje fijo que forma el ángulo <math display=\"inline\"><mi>α</mi></math> con la perpendicular. Calcula el momento angular del disco y el momento de fuerzas ejercido por el eje."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/f71fc3b88a15db65.svg\" alt=\"\" style=\"width:88px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2320,7 +2424,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "El radio del disco delgado de la figura es <math display=\"inline\"><mi>R</mi></math> y gira con velocidad angular constante <math display=\"inline\"><msub><mi>ω</mi><mn>1</mn></msub></math> en torno al eje de simetría horizontal. El propio eje gira con velocidad angular constante <math display=\"inline\"><msub><mi>ω</mi><mn>2</mn></msub></math> en torno a la vertical. Elige un triedro adecuado y calcula el momento angular del disco y el momento de fuerzas ejercido por los soportes."
+       "html": "El radio del disco delgado de la figura es <math display=\"inline\"><mi>R</mi></math> y gira con velocidad angular constante <math display=\"inline\"><msub><mi>ω</mi><mn>1</mn></msub></math> alrededor de su eje de simetría horizontal. El propio eje gira con velocidad angular constante <math display=\"inline\"><msub><mi>ω</mi><mn>2</mn></msub></math> alrededor de la vertical. Elija un triedro adecuado y calcule el momento angular del disco y el momento de fuerza ejercido por los soportes.    <img class=\"irudi-l\" src=\"../media/irudiak/9f6f992b15793373.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2347,6 +2451,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "La masa de la placa cuadrada de la figura es <math display=\"inline\"><mi>m</mi></math> y tiene pegada en un vértice una masa puntual <math display=\"inline\"><mi>m</mi></math>. Si gira en torno al eje vertical con velocidad angular constante <math display=\"inline\"><mi>ω</mi></math>, ¿cuál es el momento de fuerzas ejercido por los soportes <math display=\"inline\"><mi>A</mi></math> y <math display=\"inline\"><mi>B</mi></math>? Si quitamos el eje y el sistema está en reposo en el espacio (es decir, sin gravedad), ¿dónde hay que golpear la placa en dirección perpendicular para que arranque sin girar? ¿Cómo se moverá el sistema si se aplica un impulso perpendicular <math display=\"inline\"><mi>J</mi></math> en el centro geométrico de la placa?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/16f92799512b35df.svg\" alt=\"\" style=\"width:83px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2357,7 +2465,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Las masas y las longitudes de los cuatro lados iguales del marco de la figura son <math display=\"inline\"><mi>m</mi></math> y <math display=\"inline\"><mi>a</mi></math>, respectivamente. En un vértice hay pegada una partícula de masa <math display=\"inline\"><mi>M</mi></math> y el sistema gira en torno al eje vertical <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> con velocidad angular constante <math display=\"inline\"><mi>ω</mi></math>. Calcula las direcciones y los momentos principales de inercia de todo el sólido respecto al centro geométrico <math display=\"inline\"><mi>O</mi></math> del marco. ¿Cuál es el momento de fuerzas ejercido por el eje <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math>?"
+       "html": "La masa y la longitud de cada uno de los cuatro lados iguales del marco de la figura son <math display=\"inline\"><mi>m</mi></math> y <math display=\"inline\"><mi>a</mi></math>, respectivamente. En un vértice hay pegada una partícula de masa <math display=\"inline\"><mi>M</mi></math> y el sistema gira alrededor del eje vertical <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> con velocidad angular constante <math display=\"inline\"><mi>ω</mi></math>. Calcule cuáles son las direcciones y los momentos de inercia principales del sólido completo respecto al centro geométrico <math display=\"inline\"><mi>O</mi></math> del marco. ¿Cuál es el momento de fuerza ejercido por el eje <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math>?    <img class=\"irudi-l\" src=\"../media/irudiak/cecf80134142c255.svg\" alt=\"\" style=\"width:126px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2368,7 +2476,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "La placa delgada de la figura gira con velocidad angular constante <math display=\"inline\"><mi>ω</mi></math> en torno al eje vertical. <br> (a) Halla el sistema de referencia del sólido situado en el punto <math display=\"inline\"><mi>O</mi></math>, usando las simetrías. <br> (b) Calcula los momentos principales de inercia respecto a <math display=\"inline\"><mi>O</mi></math>, <em>sin hacer ninguna integral</em>. Escribe la matriz de inercia en el sistema del sólido en el punto <math display=\"inline\"><mi>O</mi></math>. <br> (c) ¿Cuál es el momento total de fuerzas ejercido por el eje?"
+       "html": "La placa delgada de la figura gira con velocidad angular constante <math display=\"inline\"><mi>ω</mi></math> alrededor del eje vertical. <br> (a) Halle el sistema de referencia del sólido situado en el punto <math display=\"inline\"><mi>O</mi></math>, usando simetrías. <br> (b) Calcule los momentos de inercia principales respecto a <math display=\"inline\"><mi>O</mi></math>, <em>sin hacer ninguna integral</em>. Escriba la matriz de inercia en el sistema del sólido del punto <math display=\"inline\"><mi>O</mi></math>. <br> (c) ¿Cuál es el momento de fuerza total ejercido por el eje?    <img class=\"irudi-l\" src=\"../media/irudiak/863608316f3124dd.svg\" alt=\"\" style=\"width:106px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2379,7 +2487,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "La varilla ligera de longitud <math display=\"inline\"><mi>d</mi></math> puede girar sin obstáculos en todas las direcciones en torno a la articulación lisa <math display=\"inline\"><mi>O</mi></math>. En este movimiento particular que estudiamos, la varilla gira en el plano horizontal con velocidad angular constante <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math>. Además, el disco homogéneo de masa <math display=\"inline\"><mi>m</mi></math> que tiene en el extremo libre gira con velocidad angular constante <math display=\"inline\"><mi>ω</mi></math> en torno a su eje de simetría. El radio del disco es <math display=\"inline\"><mi>r</mi></math> y su grosor despreciable. Demuestra que debe cumplirse la relación <math display=\"inline\"><mrow><mn>2</mn><mi>g</mi><mi>d</mi><mo>=</mo><mi>ω</mi><mi mathvariant=\"normal\">Ω</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></math> para que se dé ese movimiento particular."
+       "html": "Una varilla ligera de longitud <math display=\"inline\"><mi>d</mi></math> puede girar, sin obstáculos y en todas las direcciones, alrededor de la articulación lisa <math display=\"inline\"><mi>O</mi></math>. En este movimiento especial que estamos estudiando, la varilla gira en el plano horizontal con velocidad angular constante <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math>. Además, un disco homogéneo de masa <math display=\"inline\"><mi>m</mi></math> situado en el extremo libre gira con velocidad angular constante <math display=\"inline\"><mi>ω</mi></math> alrededor de su eje de simetría. El radio del disco es <math display=\"inline\"><mi>r</mi></math> y su espesor es despreciable. Demuestre que debe cumplirse la relación <math display=\"inline\"><mrow><mn>2</mn><mi>g</mi><mi>d</mi><mo>=</mo><mi>ω</mi><mi mathvariant=\"normal\">Ω</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></math> para que ocurra ese movimiento especial.    <img class=\"irudi-l\" src=\"../media/irudiak/5699c9185e049337.svg\" alt=\"\" style=\"width:126px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2394,7 +2502,7 @@ KAPITULUAK["05mk_05solidoa"] = {
       },
       {
        "mota": "testua",
-       "html": ". Un disco pesado gira <em>muy deprisa</em> en torno a su eje de simetría. El eje del disco está siempre en el plano horizontal, pero puede girar sin obstáculos en torno al eje vertical. Supongamos que <math display=\"inline\"><mi>θ</mi></math> es el ángulo entre el eje de simetría y el meridiano. Elige el sistema de referencia adecuado y escribe la ecuación del movimiento de <math display=\"inline\"><mi>θ</mi></math>, teniendo en cuenta la velocidad angular (2.97) de la Tierra. Haz la aproximación adecuada y demuestra que el eje oscila en torno al meridiano. ¿Cuál es el período si las oscilaciones son pequeñas? ¿Cómo puede usarse este sistema en lugar de la brújula magnética? ¿Qué ocurre en el polo? ¿Para qué hay que usar <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> muy grande?"
+       "html": ". Un disco pesado gira <em>muy deprisa</em> alrededor de su eje de simetría. El eje del disco está siempre en el plano horizontal, pero puede girar sin obstáculos alrededor del eje vertical. Supongamos que <math display=\"inline\"><mi>θ</mi></math> es el ángulo entre el eje de simetría y el meridiano. Elija el sistema de referencia adecuado y escriba la ecuación del movimiento de <math display=\"inline\"><mi>θ</mi></math>, teniendo en cuenta la velocidad angular de la Tierra (2.97). Haga la aproximación adecuada y demuestre que el eje oscila alrededor del meridiano. ¿Cuál es el periodo si las oscilaciones son pequeñas? ¿Cómo puede usarse este sistema en lugar de la brújula magnética? ¿Qué ocurre en el polo? ¿Para qué hay que usar <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> muy grande?    <img class=\"irudi-l\" src=\"../media/irudiak/83d8fd4fcbad7b00.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2406,6 +2514,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Una placa elíptica delgada puede girar sin obstáculos en torno a su centro geométrico. La longitud del semieje mayor es <math display=\"inline\"><mi>a</mi></math> y la del otro <math display=\"inline\"><mi>b</mi></math>. Elijamos el sistema del sólido que se muestra en la figura. Inicialmente la velocidad del punto <math display=\"inline\"><mi>A</mi></math> era <math display=\"inline\"><mrow><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>A</mi></msub><mo>=</mo><mi>c</mi><mi>μ</mi><mi mathvariant=\"bold-italic\">𝒋</mi></mrow></math> y la componente normal de la velocidad del punto <math display=\"inline\"><mi>B</mi></math> era <math display=\"inline\"><mrow><msub><mover><mi>z</mi><mo accent=\"true\">̇</mo></mover><mi>B</mi></msub><mo>=</mo><mi>b</mi><mi>d</mi><mi>μ</mi><mi>/</mi><mi>a</mi></mrow></math>, donde <math display=\"inline\"><mi>μ</mi></math> es una constante positiva, <math display=\"inline\"><mrow><mi>c</mi><mo>=</mo><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>b</mi><mn>2</mn></msup></mrow></msqrt></mrow></math> y <math display=\"inline\"><mrow><mi>d</mi><mo>≡</mo><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></mrow></msqrt></mrow></math>. La masa de la placa es <math display=\"inline\"><mi>m</mi></math> y su grosor despreciable. Demuestra que estos son los momentos principales de inercia: <math display=\"block\"><mrow><msub><mi>I</mi><mi>x</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>m</mi><msup><mi>b</mi><mn>2</mn></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>I</mi><mi>y</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>m</mi><msup><mi>a</mi><mn>2</mn></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>I</mi><mi>z</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>m</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math> Escribe las ecuaciones de Euler. Usa dos constantes del movimiento y las condiciones iniciales para hallar la ecuación de evolución de la componente <math display=\"inline\"><msub><mi>ω</mi><mi>z</mi></msub></math>. Integra esa ecuación de evolución y calcula las otras dos componentes de la velocidad angular. ¿Cómo será el movimiento de la placa pasado un tiempo largo?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/06afd9e62051f3a4.svg\" alt=\"\" style=\"width:118px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2420,7 +2532,7 @@ KAPITULUAK["05mk_05solidoa"] = {
       },
       {
        "mota": "testua",
-       "html": "(a) Demuestra que <math display=\"inline\"><mi>ω</mi></math> puede girar con velocidad angular constante en la configuración de la figura. Calcula las tensiones de las cuerdas. (b) ¿Qué ocurre si se rompe una cuerda? (c) ¿Y cuando se rompe la otra? (Véase el problema 7.71.)"
+       "html": "(a) Demuestre que <math display=\"inline\"><mi>ω</mi></math> puede girar con velocidad angular constante en la configuración de la figura. Calcule las tensiones de las cuerdas. (b) ¿Qué ocurre si se rompe una cuerda? (c) ¿Y cuando se rompe la otra? (Véase el problema 7.71.)     <img class=\"irudi-l\" src=\"../media/irudiak/95e819df562510af.svg\" alt=\"\" style=\"width:114px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2442,7 +2554,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "La barra de la figura puede girar en un plano vertical, sin rozamiento, en torno a la articulación <math display=\"inline\"><mi>A</mi></math>. El extremo inferior está unido al eje vertical liso mediante la cuerda <math display=\"inline\"><mi>S</mi></math> y el anillo <math display=\"inline\"><mi>E</mi></math>. Tras poner el sistema en marcha, gira en torno a la vertical con velocidad angular constante <math display=\"inline\"><mi>ω</mi></math>: el ángulo constante entre el eje y la barra es <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mi>α</mi><mo>&lt;</mo><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math> y la cuerda <math display=\"inline\"><mi>S</mi></math> está en horizontal, como se muestra en la figura. Calcula la tensión de las cuerdas y la fuerza de reacción ejercida por la articulación <math display=\"inline\"><mi>A</mi></math>. ¿Cuál es el valor mínimo de <math display=\"inline\"><mi>ω</mi></math> para que <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mi>α</mi><mo>&lt;</mo><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math>? Y, entonces, ¿cuáles pueden ser los valores de <math display=\"inline\"><mi>α</mi></math>?"
+       "html": "La barra de la figura puede girar en un plano vertical, sin rozamiento, alrededor de la articulación <math display=\"inline\"><mi>A</mi></math>. Su extremo inferior está unido a un eje vertical liso mediante la cuerda <math display=\"inline\"><mi>S</mi></math> y el anillo <math display=\"inline\"><mi>E</mi></math>. Tras poner el sistema en marcha, gira alrededor de la vertical con velocidad angular constante <math display=\"inline\"><mi>ω</mi></math>: el ángulo constante entre el eje y la barra es <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mi>α</mi><mo>&lt;</mo><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math> y la cuerda <math display=\"inline\"><mi>S</mi></math> está en posición horizontal, como muestra la figura. Calcule la tensión de la cuerda y la fuerza de reacción ejercida por la articulación <math display=\"inline\"><mi>A</mi></math>. ¿Cuál es el valor mínimo de <math display=\"inline\"><mi>ω</mi></math> para que ocurra <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mi>α</mi><mo>&lt;</mo><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math>? Y, entonces, ¿cuáles pueden ser los valores de <math display=\"inline\"><mi>α</mi></math>?    <img class=\"irudi-l\" src=\"../media/irudiak/7e31706980e607d7.svg\" alt=\"\" style=\"width:88px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2453,7 +2565,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Las varillas del sistema de la figura son ligeras y giran en torno al eje vertical con velocidad angular <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><mi>α</mi><mi>t</mi></mrow></math> (la aceleración angular <math display=\"inline\"><mi>α</mi></math> es constante). Calcula el momento de fuerzas ejercido sobre el sistema."
+       "html": "Las varillas del sistema de la figura son ligeras y giran alrededor del eje vertical con velocidad angular <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><mi>α</mi><mi>t</mi></mrow></math> (la aceleración angular <math display=\"inline\"><mi>α</mi></math> es constante). Calcule el momento de fuerza ejercido sobre el sistema.    <img class=\"irudi-l\" src=\"../media/irudiak/c3f34ef93f782120.svg\" alt=\"\" style=\"width:131px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2465,6 +2577,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "La barra homogénea de la figura gira en torno a la vertical con velocidad constante <math display=\"inline\"><mi>ω</mi></math>. Además, puede girar en un plano vertical en torno a la articulación lisa <math display=\"inline\"><mi>A</mi></math>. Usa el sistema de referencia lagrangiano del cuerpo para escribir la ecuación del movimiento (o alguna ley de conservación) y estudiar la existencia y la estabilidad de la configuración de equilibrio relativo de ángulo <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><msub><mi>θ</mi><mn>0</mn></msub><mo>&lt;</mo><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math>. Calcula la frecuencia de las pequeñas oscilaciones en torno a ese equilibrio relativo estable."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/511eb5687e347739.svg\" alt=\"\" style=\"width:118px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2476,6 +2592,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "El marco cuadrado de la figura tiene masa <math display=\"inline\"><mi>m</mi></math> y puede girar sin rozamiento en torno al eje de simetría horizontal. Además, tiene la masa puntual <math display=\"inline\"><mi>m</mi></math> en un vértice, como se muestra en la figura. (a) Calcula la frecuencia de las pequeñas oscilaciones de amplitud <math display=\"inline\"><mrow><mi>α</mi><mo>≪</mo><mn>1</mn></mrow></math>. ¿Cuál es el momento de fuerzas ejercido por los soportes <math display=\"inline\"><mi>A</mi></math> y <math display=\"inline\"><mi>B</mi></math> en las pequeñas oscilaciones cuando la masa puntual está (b) en el punto más bajo y (c) en el más alto?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/6759ec6be7b22909.svg\" alt=\"\" style=\"width:143px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2508,7 +2628,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Un cilindro homogéneo puede girar sin rozamiento en torno al eje perpendicular horizontal <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> que pasa por su centro. Se hace girar el eje con velocidad angular vertical constante <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math>. La longitud del cilindro es <math display=\"inline\"><mi>l</mi></math> y su radio <math display=\"inline\"><mi>r</mi></math>. El ángulo entre el cilindro y la horizontal es <math display=\"inline\"><mi>θ</mi></math>. Escribe la ecuación de evolución de <math display=\"inline\"><mi>θ</mi></math>. Calcula las configuraciones de equilibrio relativo y estudia su estabilidad. Calcula la frecuencia de las pequeñas oscilaciones en torno al equilibrio relativo estable. ¿Cuál es la reacción del eje <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> en las configuraciones de equilibrio relativo?"
+       "html": "Un cilindro homogéneo puede girar sin rozamiento alrededor del eje perpendicular horizontal <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> que pasa por su centro. El eje se hace girar con velocidad angular vertical constante <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math>. La longitud del cilindro es <math display=\"inline\"><mi>l</mi></math> y su radio <math display=\"inline\"><mi>r</mi></math>. El ángulo entre el cilindro y la horizontal es <math display=\"inline\"><mi>θ</mi></math>. Escriba la ecuación de evolución de <math display=\"inline\"><mi>θ</mi></math>. Calcule las configuraciones de equilibrio relativo y estudie su estabilidad. Calcule la frecuencia de las oscilaciones pequeñas alrededor del equilibrio relativo estable. ¿Cuál es la reacción del eje <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> en las configuraciones de equilibrio relativo?    <img class=\"irudi-l\" src=\"../media/irudiak/382e8c5ec2702b47.svg\" alt=\"\" style=\"width:101px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2519,7 +2639,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "La masa del aro de la figura es <math display=\"inline\"><mi>M</mi></math> y su radio <math display=\"inline\"><mi>R</mi></math>. La masa de la bolita de diámetro despreciable, fija en la posición que se muestra en la figura, es <math display=\"inline\"><mi>m</mi></math>. El sistema se hace girar en torno al diámetro vertical del aro con velocidad angular constante <math display=\"inline\"><mi>ω</mi></math>. ¿Cómo hay que elegir el ángulo <math display=\"inline\"><mrow><mi>θ</mi><mo>≠</mo><mn>0</mn><mo>,</mo><mi>π</mi></mrow></math> para que el momento de fuerzas respecto a <math display=\"inline\"><mi>O</mi></math> que sufre el eje sea cero? ¿Puede hacerse siempre esa elección? ¿Cuál es entonces la fuerza de reacción ejercida por el eje?"
+       "html": "La masa del aro de la figura es <math display=\"inline\"><mi>M</mi></math> y su radio <math display=\"inline\"><mi>R</mi></math>. La masa de la bolita de diámetro despreciable, fija en la posición mostrada en la figura, es <math display=\"inline\"><mi>m</mi></math>. El sistema se hace girar alrededor del diámetro vertical del aro con velocidad angular constante <math display=\"inline\"><mi>ω</mi></math>. ¿Cómo hay que elegir el ángulo <math display=\"inline\"><mrow><mi>θ</mi><mo>≠</mo><mn>0</mn><mo>,</mo><mi>π</mi></mrow></math> para que el momento de fuerza respecto a <math display=\"inline\"><mi>O</mi></math> que sufre el eje sea cero? ¿Se puede hacer siempre esa elección? ¿Cuál es entonces la fuerza de reacción ejercida por el eje?    <img class=\"irudi-l\" src=\"../media/irudiak/7b90b0ff01a1d6ab.svg\" alt=\"\" style=\"width:92px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2560,7 +2680,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Pedro (Peru) tiene que abrir (lentamente) la trampilla para bajar al sótano. Se le han ocurrido tres métodos: tirar <em>siempre</em> del extremo libre (a) en vertical, (b) perpendicularmente a la trampilla y (c) en horizontal. ¿En qué caso tendrá que hacer la mayor (la menor) fuerza al principio? ¿Y al final? En conjunto, ¿cómo hará el trabajo mínimo?"
+       "html": "Pedro tiene que abrir (muy despacio) la trampilla para bajar al sótano. Se le han ocurrido tres métodos: tirar <em>siempre</em> del extremo libre (a) en vertical, (b) perpendicularmente a la trampilla y (c) en horizontal. ¿En qué caso tendrá que hacer la mayor (menor) fuerza al principio? ¿Y al final? En total, ¿cómo realizará el trabajo mínimo?    <img class=\"irudi-l\" src=\"../media/irudiak/09b730699addc1f5.svg\" alt=\"\" style=\"width:186px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2583,6 +2703,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Las dos esferas macizas homogéneas idénticas de la figura giran con velocidad angular <math display=\"inline\"><mi>ω</mi></math> en las direcciones perpendiculares que se muestran. Se acercan lentamente, con pequeñas velocidades opuestas, y quedan unidas al tocarse. ¿Cómo se mueve el nuevo cuerpo? ¿Qué fracción de la energía cinética se ha perdido en el proceso? <br>  <em>Nota</em>: La gravedad es despreciable."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/7e73966ca2bef951.svg\" alt=\"\" style=\"width:139px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2593,7 +2717,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "La masa de la placa cuadrada homogénea de la figura es <math display=\"inline\"><mrow><mn>3</mn><mi>m</mi></mrow></math> y la longitud de los lados <math display=\"inline\"><mi>a</mi></math>. Puede girar sin rozamiento en torno a las articulaciones <math display=\"inline\"><mi>A</mi></math> y <math display=\"inline\"><mi>B</mi></math>. Inicialmente está en reposo, pero una partícula de masa <math display=\"inline\"><mi>m</mi></math> que se acerca en dirección perpendicular con velocidad <math display=\"inline\"><mi>v</mi></math> golpea un vértice de la placa y se queda pegada. Halla la velocidad angular de la placa, tras el choque, y la reacción ejercida por las articulaciones."
+       "html": "La masa de la placa cuadrada homogénea de la figura es <math display=\"inline\"><mrow><mn>3</mn><mi>m</mi></mrow></math> y la longitud de sus lados <math display=\"inline\"><mi>a</mi></math>. Puede girar sin rozamiento alrededor de las articulaciones <math display=\"inline\"><mi>A</mi></math> y <math display=\"inline\"><mi>B</mi></math>. Inicialmente está en reposo, pero una partícula de masa <math display=\"inline\"><mi>m</mi></math> que se acerca en dirección perpendicular con velocidad <math display=\"inline\"><mi>v</mi></math> golpea un vértice de la placa y queda pegada. Halle la velocidad angular de la placa tras el choque y la reacción ejercida por las articulaciones.    <img class=\"irudi-l\" src=\"../media/irudiak/2a276830f2b19cc2.svg\" alt=\"\" style=\"width:118px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2604,7 +2728,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "El aro de la figura puede girar sin obstáculos en torno al eje horizontal <math display=\"inline\"><mi>X</mi></math>. La masa y el radio del aro son <math display=\"inline\"><mi>m</mi></math> y <math display=\"inline\"><mrow><msqrt><mn>2</mn></msqrt><mi>R</mi></mrow></math>, respectivamente, y tiene pegada una partícula de masa <math display=\"inline\"><mi>m</mi></math>, en la posición que se muestra. Inicialmente el aro está en reposo en la posición de la figura, pero cuando la partícula de masa <math display=\"inline\"><mi>m</mi></math> que llega con velocidad <math display=\"inline\"><mi>v</mi></math> en dirección perpendicular golpea la que está pegada al aro, las dos partículas quedan unidas. <br> Calcula el impulso lineal y angular ejercido por el eje en el choque. ¿Cuál es la amplitud de las oscilaciones del sistema tras el choque? ¿Qué condición debe cumplirse para que dicha amplitud sea pequeña? ¿Cuál es entonces el período de las pequeñas oscilaciones? <br>  <em>Nota</em>: Usa el triedro de la figura para simplificar el cálculo."
+       "html": "El aro de la figura puede girar sin obstáculos alrededor del eje horizontal <math display=\"inline\"><mi>X</mi></math>. La masa y el radio del aro son <math display=\"inline\"><mi>m</mi></math> y <math display=\"inline\"><mrow><msqrt><mn>2</mn></msqrt><mi>R</mi></mrow></math>, respectivamente, y tiene pegada una partícula de masa <math display=\"inline\"><mi>m</mi></math> en la posición mostrada. Inicialmente el aro está en reposo en la posición de la figura, pero cuando una partícula de masa <math display=\"inline\"><mi>m</mi></math> que llega en dirección perpendicular con velocidad <math display=\"inline\"><mi>v</mi></math> golpea la que está pegada al aro, las dos partículas quedan unidas. <br> Calcule los impulsos lineal y angular ejercidos por el eje en el choque. ¿Cuál es la amplitud de las oscilaciones del sistema tras el choque? ¿Qué condición debe cumplirse para que dicha amplitud sea pequeña? ¿Cuál es entonces el periodo de las oscilaciones pequeñas? <br>  <em>Observación</em>: Use el triedro de la figura para facilitar el cálculo.    <img class=\"irudi-l\" src=\"../media/irudiak/517e1d7e201c3798.svg\" alt=\"\" style=\"width:116px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2615,7 +2739,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Una placa cuadrada delgada está en reposo en el espacio, sin gravedad. La masa de la placa es <math display=\"inline\"><mrow><mn>3</mn><mi>m</mi></mrow></math> y la longitud de los lados <math display=\"inline\"><mrow><mn>2</mn><mi>a</mi></mrow></math>. Una partícula de masa <math display=\"inline\"><mi>m</mi></math> que llega en dirección perpendicular golpea un vértice de la placa y queda pegada. Si la velocidad de la partícula era <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝒗</mi></math>, ¿cómo se mueve el sistema tras el choque?"
+       "html": "Una placa cuadrada delgada está en reposo en el espacio, sin gravedad. La masa de la placa es <math display=\"inline\"><mrow><mn>3</mn><mi>m</mi></mrow></math> y la longitud de sus lados <math display=\"inline\"><mrow><mn>2</mn><mi>a</mi></mrow></math>. Una partícula de masa <math display=\"inline\"><mi>m</mi></math> que llega en dirección perpendicular golpea un vértice de la placa y queda pegada. Si la velocidad de la partícula era <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝒗</mi></math>, ¿cómo se mueve el sistema tras el choque?    <img class=\"irudi-l\" src=\"../media/irudiak/01523729903511dd.svg\" alt=\"\" style=\"width:126px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2641,7 +2765,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "La placa cuadrada delgada de la figura puede girar sin obstáculos en torno al eje horizontal <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math>. La masa de la placa es <math display=\"inline\"><mi>m</mi></math> y la longitud de los lados <math display=\"inline\"><mi>a</mi></math>. Inicialmente está en reposo en la posición vertical de equilibrio estable, pero una partícula de la misma masa que llega en dirección perpendicular golpea un vértice y queda pegada. Tras el choque el sistema llega hasta la posición vertical inestable y se queda allí (un instante, al menos). Calcula la velocidad inicial de la partícula, la proporción de energía cinética perdida en el choque y el impulso lineal y angular ejercido por el eje (en el choque)."
+       "html": "La placa cuadrada delgada de la figura puede girar sin obstáculos alrededor del eje horizontal <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math>. La masa de la placa es <math display=\"inline\"><mi>m</mi></math> y la longitud de sus lados <math display=\"inline\"><mi>a</mi></math>. Inicialmente está en reposo en la posición vertical de equilibrio estable, pero una partícula de la misma masa que llega en dirección perpendicular golpea un vértice y queda pegada. Tras el choque el sistema llega hasta la posición vertical inestable y se queda ahí (por un instante, al menos). Calcule la velocidad inicial de la partícula, la proporción de energía cinética perdida en el choque y los impulsos lineal y angular ejercidos por el eje (en el choque).    <img class=\"irudi-l\" src=\"../media/irudiak/b85d11da46f5ae3a.svg\" alt=\"\" style=\"width:143px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2673,10 +2797,6 @@ KAPITULUAK["05mk_05solidoa"] = {
    "maila": 2,
    "izenburua": "Solución (resuelta y comentada por el autor)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -2797,10 +2917,6 @@ KAPITULUAK["05mk_05solidoa"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>R.</strong>"
     },
     {
@@ -2869,7 +2985,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "Teniendo en cuenta que <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>α</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>30</mn><msup><mi></mi><mo>∘</mo></msup><mo>=</mo><mn>1</mn><mi>/</mi><msqrt><mn>3</mn></msqrt></mrow></math>, lo anterior nos quedará así:"
+     "html": "Teniendo en cuenta que <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>α</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>30</mn><msup><mi></mi><mo>∘</mo></msup><mo>=</mo><mn>1</mn><mi>/</mi><msqrt><mn>3</mn></msqrt></mrow></math></span>, lo anterior nos quedará así:"
     },
     {
      "mota": "testua",
@@ -2913,10 +3029,6 @@ KAPITULUAK["05mk_05solidoa"] = {
    "maila": 2,
    "izenburua": "Solución (resuelta y comentada por el autor)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -2975,10 +3087,6 @@ KAPITULUAK["05mk_05solidoa"] = {
    "maila": 2,
    "izenburua": "Solución (resuelta y comentada por el autor)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -3072,10 +3180,6 @@ KAPITULUAK["05mk_05solidoa"] = {
    "maila": 2,
    "izenburua": "Solución (resuelta y comentada por el autor)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -3271,10 +3375,6 @@ KAPITULUAK["05mk_05solidoa"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>R.</strong>"
     },
     {
@@ -3339,7 +3439,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "[Figura: dos esquemas del cono apoyado sobre el plano inclinado; ejes V, z, x, y; ángulos <math display=\"inline\"><mi>α</mi></math>, <math display=\"inline\"><mi>β</mi></math>, <math display=\"inline\"><mi>θ</mi></math>; puntos O, G, G<math display=\"inline\"><msub><mrow></mrow><mn>0</mn></msub></math>, A; velocidad angular <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math>; y relaciones <math display=\"inline\"><mrow><msub><mi>z</mi><mi>G</mi></msub><mo>=</mo><mi>a</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>α</mi></mrow></math>, <math display=\"inline\"><mrow><msub><mi>x</mi><mi>G</mi></msub><mo>=</mo><mi>a</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>α</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi></mrow></math>]"
+     "html": "[Figura: dos esquemas del cono apoyado sobre el plano inclinado; ejes V, z, x, y; ángulos <math display=\"inline\"><mi>α</mi></math>, <math display=\"inline\"><mi>β</mi></math>, <math display=\"inline\"><mi>θ</mi></math>; puntos O, G, G<math display=\"inline\"><msub><mrow></mrow><mn>0</mn></msub></math>, A; velocidad angular <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math>; y relaciones <math display=\"inline\"><mrow><msub><mi>z</mi><mi>G</mi></msub><mo>=</mo><mi>a</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>α</mi></mrow></math>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>x</mi><mi>G</mi></msub><mo>=</mo><mi>a</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>α</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi></mrow></math></span>]"
     },
     {
      "mota": "testua",
@@ -3471,7 +3571,7 @@ KAPITULUAK["05mk_05solidoa"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "R. a. Por simetría, los ejes principales de inercia del sistema y los versores asociados a ellos son estos: el eje <math display=\"inline\"><mover><mrow><mi>A</mi><mi>C</mi></mrow><mo accent=\"true\">¯</mo></mover></math> (<math display=\"inline\"><msub><mover><mi>e</mi><mo accent=\"true\">̂</mo></mover><mn>1</mn></msub></math>), el eje <math display=\"inline\"><mover><mrow><mi>D</mi><mi>B</mi></mrow><mo accent=\"true\">¯</mo></mover></math> (<math display=\"inline\"><msub><mover><mi>e</mi><mo accent=\"true\">̂</mo></mover><mn>2</mn></msub></math>) y un tercero perpendicular a ambos, en la figura perpendicular al plano del papel (suponiendo que el plano del rombo es el del papel en el momento que se toma) y dirigido hacia nosotros (<math display=\"inline\"><msub><mover><mi>e</mi><mo accent=\"true\">̂</mo></mover><mn>3</mn></msub></math>). La energía cinética <math display=\"inline\"><mi>T</mi></math> del sistema podemos expresarla por la forma más simple: <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>I</mi><mn>1</mn></msub><msubsup><mi>ω</mi><mn>1</mn><mn>2</mn></msubsup><mo>+</mo><msub><mi>I</mi><mn>2</mn></msub><msubsup><mi>ω</mi><mn>2</mn><mn>2</mn></msubsup><mo>+</mo><msub><mi>I</mi><mn>3</mn></msub><msubsup><mi>ω</mi><mn>3</mn><mn>2</mn></msubsup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>I</mi><mi>e</mi></msub><msup><mi>ω</mi><mn>2</mn></msup></mrow></math>, donde las cantidades con subíndice <math display=\"inline\"><msub><mi>I</mi><mi>i</mi></msub></math> y <math display=\"inline\"><msub><mi>ω</mi><mi>i</mi></msub></math> expresan, respectivamente, los momentos principales de inercia y las componentes de la velocidad angular en los ejes principales, y <math display=\"inline\"><msub><mi>I</mi><mi>e</mi></msub></math> es el momento de inercia del rombo respecto al eje <math display=\"inline\"><mover><mrow><mi>E</mi><mi>F</mi></mrow><mo accent=\"true\">¯</mo></mover></math>."
+     "html": "R. a. Por simetría, los ejes principales de inercia del sistema y los versores asociados a ellos son estos: el eje <math display=\"inline\"><mover><mrow><mi>A</mi><mi>C</mi></mrow><mo accent=\"true\">¯</mo></mover></math> (<math display=\"inline\"><msub><mover><mi>e</mi><mo accent=\"true\">̂</mo></mover><mn>1</mn></msub></math>), el eje <math display=\"inline\"><mover><mrow><mi>D</mi><mi>B</mi></mrow><mo accent=\"true\">¯</mo></mover></math> (<math display=\"inline\"><msub><mover><mi>e</mi><mo accent=\"true\">̂</mo></mover><mn>2</mn></msub></math>) y un tercero perpendicular a ambos, en la figura perpendicular al plano del papel (suponiendo que el plano del rombo es el del papel en el momento que se toma) y dirigido hacia nosotros (<math display=\"inline\"><msub><mover><mi>e</mi><mo accent=\"true\">̂</mo></mover><mn>3</mn></msub></math>). La energía cinética <math display=\"inline\"><mi>T</mi></math> del sistema podemos expresarla por la forma más simple: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>I</mi><mn>1</mn></msub><msubsup><mi>ω</mi><mn>1</mn><mn>2</mn></msubsup><mo>+</mo><msub><mi>I</mi><mn>2</mn></msub><msubsup><mi>ω</mi><mn>2</mn><mn>2</mn></msubsup><mo>+</mo><msub><mi>I</mi><mn>3</mn></msub><msubsup><mi>ω</mi><mn>3</mn><mn>2</mn></msubsup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>I</mi><mi>e</mi></msub><msup><mi>ω</mi><mn>2</mn></msup></mrow></math></span>, donde las cantidades con subíndice <math display=\"inline\"><msub><mi>I</mi><mi>i</mi></msub></math> y <math display=\"inline\"><msub><mi>ω</mi><mi>i</mi></msub></math> expresan, respectivamente, los momentos principales de inercia y las componentes de la velocidad angular en los ejes principales, y <math display=\"inline\"><msub><mi>I</mi><mi>e</mi></msub></math> es el momento de inercia del rombo respecto al eje <math display=\"inline\"><mover><mrow><mi>E</mi><mi>F</mi></mrow><mo accent=\"true\">¯</mo></mover></math>."
     },
     {
      "mota": "testua",
@@ -3550,10 +3650,6 @@ KAPITULUAK["05mk_05solidoa"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>99Set04.</strong>"
     },
     {
@@ -3599,10 +3695,6 @@ KAPITULUAK["05mk_05solidoa"] = {
    "maila": 2,
    "izenburua": "Solución (resuelta y comentada por el autor)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"

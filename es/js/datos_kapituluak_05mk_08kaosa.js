@@ -312,7 +312,7 @@ KAPITULUAK["05mk_08kaosa"] = {
     },
     {
      "mota": "testua",
-     "html": "Pero tiene también otras propiedades asombrosas que no son tan sencillas. Por ejemplo, carece de longitud y su dimensión es <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>/</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>3</mn><mo>&lt;</mo><mn>1</mn></mrow></math>. Como la dimensión no es entera, se dice que es un <strong>fractal</strong>."
+     "html": "Pero tiene también otras propiedades asombrosas que no son tan sencillas. Por ejemplo, carece de longitud y su dimensión es <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>/</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>3</mn><mo>&lt;</mo><mn>1</mn></mrow></math></span>. Como la dimensión no es entera, se dice que es un <strong>fractal</strong>."
     },
     {
      "mota": "testua",
@@ -386,7 +386,7 @@ KAPITULUAK["05mk_08kaosa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Usa la figura 8.16 para demostrar que la dimensión del fractal de von Koch es <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>4</mn><mi>/</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>3</mn><mo>≈</mo><mn>1.26186</mn></mrow></math>. (Véase también el problema 8.12.2.)"
+       "html": "Usa la figura 8.16 para demostrar que la dimensión del fractal de von Koch es <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>4</mn><mi>/</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>3</mn><mo>≈</mo><mn>1.26186</mn></mrow></math></span>. (Véase también el problema 8.12.2.)"
       }
      ]
     }
@@ -778,6 +778,10 @@ KAPITULUAK["05mk_08kaosa"] = {
       {
        "mota": "testua",
        "html": "Sobre una mesa horizontal lisa hay tres discos fijos iguales, en los vértices de un triángulo equilátero de lado <math display=\"inline\"><mn>2.5</mn></math> m. Los radios de los discos miden 1 m. En la misma dirección, pero con parámetros de impacto diferentes, se lanzan partículas puntuales contra los discos. Las colisiones son elásticas. Dibuja la función de dispersión."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/8dc323284fb4259c.svg\" alt=\"\" style=\"width:99px\" loading=\"lazy\">"
       }
      ]
     },

@@ -59,7 +59,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "Bi gertaerek definituriko tarteak ere kontsideratuko ditugu. Horrela, <math display=\"inline\"><mrow><msub><mi>G</mi><mn>1</mn></msub><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><msub><mi>y</mi><mn>1</mn></msub><mo>,</mo><msub><mi>z</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>x</mi><mn>1</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>y</mi><mn>1</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>z</mi><mn>1</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> eta <math display=\"inline\"><mrow><msub><mi>G</mi><mn>2</mn></msub><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>2</mn></msub><mo>,</mo><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><msub><mi>y</mi><mn>2</mn></msub><mo>,</mo><msub><mi>z</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>t</mi><mn>2</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>y</mi><mn>2</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>z</mi><mn>2</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> gertaeren arteko denbora-tartea <math display=\"inline\"><mi>S</mi></math> eta <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> sistemetan <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>≜</mo><msub><mi>t</mi><mn>2</mn></msub><mo>−</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>′</mo></msup><mo>≜</mo><msubsup><mi>t</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup></mrow></math> da eta haien arteko espazio-tartea <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"bold-italic\">𝒓</mi><mo>≜</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mn>2</mn></msub><mo>−</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mn>1</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi mathvariant=\"bold-italic\">𝒓</mi><mo>′</mo></msup><mo>≜</mo><msubsup><mi mathvariant=\"bold-italic\">𝒓</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi mathvariant=\"bold-italic\">𝒓</mi><mn>1</mn><mo>′</mo></msubsup></mrow></math> edo, <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>y</mi></mrow></math> eta <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>z</mi></mrow></math> interesatzen ez zaizkigunean, <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mo>≜</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mo>′</mo></msup><mo>≜</mo><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>x</mi><mrow><mn>1</mn><mi>.</mi></mrow><mo>′</mo></msubsup></mrow></math>"
+     "html": "Bi gertaerek definituriko tarteak ere kontsideratuko ditugu. Horrela, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>G</mi><mn>1</mn></msub><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><msub><mi>y</mi><mn>1</mn></msub><mo>,</mo><msub><mi>z</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>x</mi><mn>1</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>y</mi><mn>1</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>z</mi><mn>1</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span> eta <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>G</mi><mn>2</mn></msub><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>2</mn></msub><mo>,</mo><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><msub><mi>y</mi><mn>2</mn></msub><mo>,</mo><msub><mi>z</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>t</mi><mn>2</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>y</mi><mn>2</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>z</mi><mn>2</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span> gertaeren arteko denbora-tartea <math display=\"inline\"><mi>S</mi></math> eta <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> sistemetan <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>≜</mo><msub><mi>t</mi><mn>2</mn></msub><mo>−</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>′</mo></msup><mo>≜</mo><msubsup><mi>t</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup></mrow></math> da eta haien arteko espazio-tartea <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"bold-italic\">𝒓</mi><mo>≜</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mn>2</mn></msub><mo>−</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mn>1</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi mathvariant=\"bold-italic\">𝒓</mi><mo>′</mo></msup><mo>≜</mo><msubsup><mi mathvariant=\"bold-italic\">𝒓</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi mathvariant=\"bold-italic\">𝒓</mi><mn>1</mn><mo>′</mo></msubsup></mrow></math> edo, <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>y</mi></mrow></math> eta <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>z</mi></mrow></math> interesatzen ez zaizkigunean, <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mo>≜</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mo>′</mo></msup><mo>≜</mo><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>x</mi><mrow><mn>1</mn><mi>.</mi></mrow><mo>′</mo></msubsup></mrow></math>"
     },
     {
      "mota": "testua",
@@ -180,7 +180,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "Baina, <math display=\"inline\"><mi>S</mi></math> sisteman ere fotoien unibertso-lerroek <math display=\"inline\"><mrow><mi>±</mi><mn>1</mn></mrow></math> malda dute eta, 3.6 irudian erakusten den bezala, argia lehenago heltzen da ezkerreko detektagailura; sistema honetan bi gertaerak ez dira aldiberekoak, <math display=\"inline\"><msub><mi>G</mi><mn>1</mn></msub></math> lehenago gertatzen baita<span class=\"j-oin\">[Ikus `http://tp.lc.ehu.eus/jma/mekanika/erlatibitatea/aldiberekotasuna.html` orrialdeko simulazioa.]</span>."
+     "html": "Baina, <math display=\"inline\"><mi>S</mi></math> sisteman ere fotoien unibertso-lerroek <math display=\"inline\"><mrow><mi>±</mi><mn>1</mn></mrow></math> malda dute eta, 3.6 irudian erakusten den bezala, argia lehenago heltzen da ezkerreko detektagailura; sistema honetan bi gertaerak ez dira aldiberekoak, <math display=\"inline\"><msub><mi>G</mi><mn>1</mn></msub></math> lehenago gertatzen baita<span class=\"j-oin\">[Ikus <a href=\"http://tp.lc.ehu.eus/jma/mekanika/erlatibitatea/aldiberekotasuna.html\" target=\"_blank\" rel=\"noopener\"><code>http://tp.lc.ehu.eus/jma/mekanika/erlatibitatea/aldiberekotasuna.html</code></a> orrialdeko simulazioa.]</span>."
     },
     {
      "mota": "ariketa",
@@ -222,16 +222,16 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
        "html": "Ezabatu <math display=\"inline\"><msup><mi>t</mi><mo>′</mo></msup></math> aurreko ekuazioetatik,"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>a</mi><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><msup><mi>v</mi><mn>2</mn></msup><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>−</mi><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup></mrow></math>"
       },
       {
        "mota": "testua",
        "html": "dela kalkulatzeko. Ondorioztatu hauxe dugula:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>t</mi><mo>=</mo><mi>a</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo>+</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><msup><mi>x</mi><mo>′</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -276,16 +276,16 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>x</mi><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>′</mo></msup><mo>+</mo><mi>v</mi><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>y</mi><mo>=</mo><msup><mi>y</mi><mo>′</mo></msup><mo>,</mo></mrow></math>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>z</mi><mo>=</mo><msup><mi>z</mi><mo>′</mo></msup><mi>.</mi></mrow></math>"
     },
     {
      "mota": "testua",
@@ -363,16 +363,16 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mo>′</mo></msup><mo>+</mo><mi>v</mi><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>y</mi><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>y</mi><mo>′</mo></msup><mo>,</mo></mrow></math>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>z</mi><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>z</mi><mo>′</mo></msup><mi>.</mi></mrow></math>"
     },
     {
      "mota": "testua",
@@ -783,12 +783,12 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mfrac><msup><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mrow><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo>,</mo></mrow></math>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mover><mi>z</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mfrac><msup><mover><mi>z</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mrow><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mi>.</mi></mrow></math>"
     },
     {
      "mota": "testua",
@@ -819,28 +819,28 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
        "html": "Erabili (3.87) emaitzan"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msub><mi>γ</mi><mi>u</mi></msub><mo>≡</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><msup><mi>u</mi><mn>2</mn></msup><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>−</mi><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup></mrow></math>"
       },
       {
        "mota": "testua",
        "html": "notazio esplizituagoa, Lorentzen faktoreen arteko hurrengo erlazioak frogatzeko:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><mo>=</mo><msub><mi>γ</mi><mi>v</mi></msub><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mfrac><mrow><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><mo>=</mo><msub><mi>γ</mi><mi>v</mi></msub><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><mrow><mi>v</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
       },
       {
        "mota": "testua",
        "html": "Ondorioztatu (3.82) transformazio-ekuazioa ondoko gisara idazten dela:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><msup><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -852,32 +852,32 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
        "html": "<strong>Azelerazioaren transformazio-legea.</strong> Egiaztatu bi sistemetan neurturiko azelerazioaren osagaien arteko erlazioak"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>=</mo><mfrac><msup><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>′</mo></msup><mrow><msup><mi>γ</mi><mn>3</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup></mrow></mfrac><mo>,</mo></mrow></math>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mover><mi>y</mi><mo accent=\"true\">̈</mo></mover><mo>=</mo><mfrac><msup><mover><mi>y</mi><mo accent=\"true\">̈</mo></mover><mo>′</mo></msup><mrow><msup><mi>γ</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mo>−</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mfrac><msup><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mrow><msup><mi>γ</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mfrac><msup><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>′</mo></msup><mrow><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo>,</mo></mrow></math>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mover><mi>z</mi><mo accent=\"true\">̈</mo></mover><mo>=</mo><mfrac><msup><mover><mi>z</mi><mo accent=\"true\">̈</mo></mover><mo>′</mo></msup><mrow><msup><mi>γ</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mo>−</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mfrac><msup><mover><mi>z</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mrow><msup><mi>γ</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mfrac><msup><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>′</mo></msup><mrow><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo>,</mo></mrow></math>"
       },
       {
        "mota": "testua",
        "html": "edo"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msup><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>′</mo></msup><mo>=</mo><mfrac><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mrow><msup><mi>γ</mi><mn>3</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>v</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup></mrow></mfrac><mo>,</mo></mrow></math>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msup><mover><mi>y</mi><mo accent=\"true\">̈</mo></mover><mo>′</mo></msup><mo>=</mo><mfrac><mover><mi>y</mi><mo accent=\"true\">̈</mo></mover><mrow><msup><mi>γ</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>v</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mfrac><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mrow><msup><mi>γ</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>v</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mfrac><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mrow><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>v</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo>,</mo></mrow></math>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msup><mover><mi>z</mi><mo accent=\"true\">̈</mo></mover><mo>′</mo></msup><mo>=</mo><mfrac><mover><mi>z</mi><mo accent=\"true\">̈</mo></mover><mrow><msup><mi>γ</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>v</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mfrac><mover><mi>z</mi><mo accent=\"true\">̇</mo></mover><mrow><msup><mi>γ</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>v</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mfrac><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mrow><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>v</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac></mrow></math>"
       },
       {
        "mota": "testua",
@@ -952,8 +952,8 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
        "html": "Egiaztatu azken baieztapena eta hurrengo emaitza:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msub><mi>γ</mi><mi>u</mi></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mfrac><msup><mi>v</mi><mn>2</mn></msup><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msubsup><mi>γ</mi><mi>v</mi><mrow><mn>2</mn><mi>.</mi></mrow></msubsup></mrow></math>"
       }
      ]
     },
@@ -1054,16 +1054,16 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
        "html": "Froga ezazu partikula baten momentu lineala"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝒑</mi><mo>=</mo><mfrac><mi>E</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover></mrow></math>"
       },
       {
        "mota": "testua",
        "html": "moduan idatz daitekeela eta ondorioztatu hurrengo erlazioa:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msup><mi>E</mi><mn>2</mn></msup><mo>=</mo><msubsup><mi>E</mi><mn>0</mn><mn>2</mn></msubsup><mo>+</mo><msup><mi>c</mi><mn>2</mn></msup><msup><mi mathvariant=\"bold-italic\">𝒑</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math>"
       }
      ]
     },
@@ -1111,16 +1111,16 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msub><mi>p</mi><mi>x</mi></msub><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>p</mi><mi>x</mi><mo>′</mo></msubsup><mo>+</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><msup><mi>E</mi><mo>′</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msub><mi>p</mi><mi>y</mi></msub><mo>=</mo><msubsup><mi>p</mi><mi>y</mi><mo>′</mo></msubsup><mo>,</mo></mrow></math>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msub><mi>p</mi><mi>z</mi></msub><mo>=</mo><msubsup><mi>p</mi><mi>z</mi><mo>′</mo></msubsup><mi>.</mi></mrow></math>"
     },
     {
      "mota": "testua",
@@ -1198,8 +1198,8 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
        "html": "Froga ezazu hurrengo deribatu erabilgarriaren adierazpena:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mover><mi>γ</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><msup><mi>γ</mi><mn>3</mn></msup><mfrac><mrow><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>⋅</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̈</mo></mover></mrow><msup><mi>c</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mfrac></mrow></math>"
       }
      ]
     },
@@ -1230,8 +1230,8 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
        "html": "Egiaztatu (3.134) definizioarekin (3.133) betetzen dela, hauxe baitugu:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝑭</mi><mo>=</mo><mi>m</mi><mi>γ</mi><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̈</mo></mover><mo>+</mo><mi>m</mi><msup><mi>γ</mi><mn>3</mn></msup><mfrac><mrow><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>⋅</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̈</mo></mover></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>.</mi></mrow></math>"
       }
      ]
     }
@@ -1394,7 +1394,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><mi>h</mi><mi>ν</mi><mo>+</mo><msub><mi>E</mi><mn>0</mn></msub></mrow></math>"
+             "html": "<math display=\"block\"><mrow><mi>h</mi><mi>ν</mi><mo>+</mo><msub><mi>E</mi><mn>0</mn></msub></mrow></math>"
             }
            ]
           },
@@ -1402,7 +1402,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><mo>=</mo><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup><mo>+</mo><mi>E</mi><mi>.</mi></mrow></math>"
+             "html": "<math display=\"block\"><mrow><mo>=</mo><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup><mo>+</mo><mi>E</mi><mi>.</mi></mrow></math>"
             }
            ]
           },
@@ -1418,7 +1418,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><mfrac><mrow><mi>h</mi><mi>ν</mi></mrow><mi>c</mi></mfrac><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover></mrow></math>"
+             "html": "<math display=\"block\"><mrow><mfrac><mrow><mi>h</mi><mi>ν</mi></mrow><mi>c</mi></mfrac><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover></mrow></math>"
             }
            ]
           },
@@ -1426,7 +1426,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><mo>=</mo><mfrac><mrow><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup></mrow><mi>c</mi></mfrac><msup><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover><mo>′</mo></msup><mo>+</mo><mi mathvariant=\"bold-italic\">𝒑</mi><mi>.</mi></mrow></math>"
+             "html": "<math display=\"block\"><mrow><mo>=</mo><mfrac><mrow><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup></mrow><mi>c</mi></mfrac><msup><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover><mo>′</mo></msup><mo>+</mo><mi mathvariant=\"bold-italic\">𝒑</mi><mi>.</mi></mrow></math>"
             }
            ]
           }
@@ -1435,12 +1435,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
        ]
       },
       {
-       "blokeak": [
-        {
-         "mota": "ezezaguna",
-         "izena": "ekuazio-zenbakia"
-        }
-       ]
+       "blokeak": []
       }
      ]
     },
@@ -1505,7 +1500,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><msub><mi>E</mi><mn>02</mn></msub></math>"
+             "html": "<math display=\"block\"><msub><mi>E</mi><mn>02</mn></msub></math>"
             }
            ]
           },
@@ -1513,7 +1508,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><mo>=</mo><mi>h</mi><mi>ν</mi><mo>+</mo><mi>E</mi><mi>.</mi></mrow></math>"
+             "html": "<math display=\"block\"><mrow><mo>=</mo><mi>h</mi><mi>ν</mi><mo>+</mo><mi>E</mi><mi>.</mi></mrow></math>"
             }
            ]
           },
@@ -1529,7 +1524,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mn>0</mn></math>"
+             "html": "<math display=\"block\"><mn>0</mn></math>"
             }
            ]
           },
@@ -1537,7 +1532,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><mo>=</mo><mfrac><mrow><mi>h</mi><mi>ν</mi></mrow><mi>c</mi></mfrac><mo>−</mo><mi>p</mi><mi>.</mi></mrow></math>"
+             "html": "<math display=\"block\"><mrow><mo>=</mo><mfrac><mrow><mi>h</mi><mi>ν</mi></mrow><mi>c</mi></mfrac><mo>−</mo><mi>p</mi><mi>.</mi></mrow></math>"
             }
            ]
           }
@@ -1546,12 +1541,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
        ]
       },
       {
-       "blokeak": [
-        {
-         "mota": "ezezaguna",
-         "izena": "ekuazio-zenbakia"
-        }
-       ]
+       "blokeak": []
       }
      ]
     },
@@ -1590,7 +1580,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><msub><mi>E</mi><mn>01</mn></msub><mo>+</mo><mi>h</mi><mi>ν</mi></mrow></math>"
+             "html": "<math display=\"block\"><mrow><msub><mi>E</mi><mn>01</mn></msub><mo>+</mo><mi>h</mi><mi>ν</mi></mrow></math>"
             }
            ]
           },
@@ -1598,7 +1588,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><mo>=</mo><mi>E</mi><mi>.</mi></mrow></math>"
+             "html": "<math display=\"block\"><mrow><mo>=</mo><mi>E</mi><mi>.</mi></mrow></math>"
             }
            ]
           },
@@ -1614,7 +1604,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mfrac><mrow><mi>h</mi><mi>ν</mi></mrow><mi>c</mi></mfrac></math>"
+             "html": "<math display=\"block\"><mfrac><mrow><mi>h</mi><mi>ν</mi></mrow><mi>c</mi></mfrac></math>"
             }
            ]
           },
@@ -1622,7 +1612,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><mo>=</mo><mi>p</mi><mi>.</mi></mrow></math>"
+             "html": "<math display=\"block\"><mrow><mo>=</mo><mi>p</mi><mi>.</mi></mrow></math>"
             }
            ]
           }
@@ -1631,12 +1621,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
        ]
       },
       {
-       "blokeak": [
-        {
-         "mota": "ezezaguna",
-         "izena": "ekuazio-zenbakia"
-        }
-       ]
+       "blokeak": []
       }
      ]
     },
@@ -1731,8 +1716,8 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
      "html": "<em>Masa-zentroaren <span>posizioaren</span> definizio erlatibista eman beharrean,\nsistema bakartu baten energia osoa <math display=\"inline\"><mi>E</mi></math> bada, eta momentu lineal osoa <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑷</mi></math>, masa-zentroaren sistema</em>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝑽</mi><mo>=</mo><mfrac><mi mathvariant=\"bold-italic\">𝑷</mi><mrow><mi>E</mi><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>"
     },
     {
      "mota": "testua",
@@ -2015,6 +2000,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       },
       {
        "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/3091d1d4cbb4b21b.svg\" alt=\"\" style=\"width:167px\" loading=\"lazy\">"
+      },
+      {
+       "mota": "testua",
        "html": "(a) Non dago <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> unean suziriko <math display=\"inline\"><mi>B</mi></math> muturra laborategiko <math display=\"inline\"><mi>S</mi></math> sisteman? <br> (b) Aurrekoa erabiliz kalkulatu <em>Lurreko sisteman</em> noiz heltzen den pultsua <math display=\"inline\"><mi>B</mi></math> puntura."
       },
       {
@@ -2061,6 +2050,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       },
       {
        "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/624ee4c89d62aede.svg\" alt=\"\" style=\"width:128px\" loading=\"lazy\">"
+      },
+      {
+       "mota": "testua",
        "html": "Frogatu hauxe dela bi gertaera horien artean bikiek neurtutako denbora-tarteen arteko erlazioa: <math display=\"block\"><mrow><mfrac><mrow><mi>g</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mi>B</mi></msub><mo>−</mo><msub><mi>t</mi><mi>A</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mn>2</mn><mi>c</mi></mrow></mfrac><mo>=</mo><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mfrac><mrow><mi>g</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>τ</mi><mi>B</mi></msub><mo>−</mo><msub><mi>τ</mi><mi>A</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mn>2</mn><mi>c</mi></mrow></mfrac><mi>.</mi></mrow></math> Zein zahartu da gehiago bi gertaera horien artean? <br>"
       },
       {
@@ -2081,6 +2074,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "<math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> erreferentzia-sistema inertzialean <math display=\"inline\"><mi>L</mi></math> luzerako hagatxoa <math display=\"inline\"><mrow><mi>O</mi><msup><mi>X</mi><mo>′</mo></msup></mrow></math> ardatzarekiko paraleloa da eta <math display=\"inline\"><mrow><mi>−</mi><mi>u</mi><msup><mi mathvariant=\"bold-italic\">𝒋</mi><mo>′</mo></msup></mrow></math> abiaduraz konstantez higitzen ari da, irudian erakusten den bezala. <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> sistema <math display=\"inline\"><mrow><mi>v</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> abiaduraz higitzen da <math display=\"inline\"><mi>S</mi></math> sistema inertzialetik. Azken honetan egindako neurketen arabera, hagatxoa ez da <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math> ardatzarekiko paraleloa."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/ec3f2b0b2896b0ea.svg\" alt=\"\" style=\"width:167px\" loading=\"lazy\">"
       },
       {
        "mota": "testua",
@@ -2110,7 +2107,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mi>S</mi></math> erreferentzia-sisteman erregela baten muturrak <math display=\"inline\"><msub><mi>x</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>x</mi><mn>2</mn></msub></math> abzisa finkoetan daude. <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> sistema <math display=\"inline\"><mi>S</mi></math>-rekiko <math display=\"inline\"><mrow><mi>v</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> abiaduraz higitzen da. <math display=\"inline\"><mrow><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> transformazioa bi aldiz erabiliz, <math display=\"inline\"><mrow><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>x</mi><mn>1</mn><mo>′</mo></msubsup><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&gt;</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub></mrow></math> lortzen da. Esan nahi du horrek erregela luzeagoa dela <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> sisteman? Zergatik?"
+       "html": "<math display=\"inline\"><mi>S</mi></math> erreferentzia-sisteman erregela baten muturrak <math display=\"inline\"><msub><mi>x</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>x</mi><mn>2</mn></msub></math> abzisa finkoetan daude. <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> sistema <math display=\"inline\"><mi>S</mi></math>-rekiko <math display=\"inline\"><mrow><mi>v</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> abiaduraz higitzen da. <math display=\"inline\"><mrow><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> transformazioa bi aldiz erabiliz, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>x</mi><mn>1</mn><mo>′</mo></msubsup><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&gt;</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub></mrow></math></span> lortzen da. Esan nahi du horrek erregela luzeagoa dela <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> sisteman? Zergatik?"
       }
      ]
     },
@@ -2189,6 +2186,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Karratu bat <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mi>β</mi><mi>c</mi></mrow></math> abiadura erlatibistaz higitzen ari da, bere planoan, alde baten norabidean. Plano berean dago zure begia, irudian erakusten den moduan, baina distantzia handira. Azter dezagun zer <em>ikusten</em> duzun, <math display=\"inline\"><mrow><mi>B</mi><mi>C</mi></mrow></math> oinarritik, begitik hurbilen zegoenean, irtendako argia begiraino heltzen denean. Frogatu era berean <em>ikusiko</em> zenukeela eskuineko karratu geldia, <math display=\"inline\"><mi>α</mi></math> angeluaz biratuta balego."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/0320f56f44e2d642.svg\" alt=\"\" style=\"width:215px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2204,6 +2205,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "<math display=\"inline\"><mi>A</mi></math> eta <math display=\"inline\"><mi>B</mi></math> galaxiak <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>0.8</mn><mi>c</mi></mrow></math> abiaduraz eta aurkako noranzkoetan higitzen ari direla ikusten du gure galaxian dagoen <math display=\"inline\"><mi>O</mi></math> behatzaileak. <math display=\"inline\"><mi>A</mi></math> galaxian dagoen behatzaile batentzat, zein da <math display=\"inline\"><mi>O</mi></math>-ren abiadura? Eta <math display=\"inline\"><mi>B</mi></math>-rena?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/322e99f05f3aaf25.svg\" alt=\"\" style=\"width:182px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2281,6 +2286,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       },
       {
        "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/426d889cf83a7000.svg\" alt=\"\" style=\"width:133px\" loading=\"lazy\">"
+      },
+      {
+       "mota": "testua",
        "html": "<math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><msup><mi>θ</mi><mo>′</mo></msup><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>θ</mi><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>+</mo><mi>v</mi><mi>/</mi><mi>c</mi></mrow></mfrac></mrow></math> Froga ezazu emaitza hori eta aurkitu erlatibitate berezian erabili behar dena. <br>"
       },
       {
@@ -2323,6 +2332,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Erakusten diren abiadurez higitzen dira laborategian irudiko partikula berdinak. Zein da partikula bakoitzaren abiadura masa-zentroaren sisteman?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/1cfe52e2876a02f1.svg\" alt=\"\" style=\"width:152px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2356,6 +2369,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Irudiko partikula erlatibisten abiadurak konstanteak dira. Elkarrekin topo egiteko behar duten denbora-tartea beti idatz daiteke <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mi>d</mi><mi>/</mi><mi>v</mi></mrow></math> moduan; baina zer jarri behar da hemen, <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><msub><mi>v</mi><mn>1</mn></msub><mo>+</mo><msub><mi>v</mi><mn>2</mn></msub></mrow></math> ala <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mfrac><mrow><msub><mi>v</mi><mn>1</mn></msub><mo>+</mo><msub><mi>v</mi><mn>2</mn></msub></mrow><mrow><mn>1</mn><mo>+</mo><mfrac><mrow><msub><mi>v</mi><mn>1</mn></msub><msub><mi>v</mi><mn>2</mn></msub></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac></mrow></mfrac></mrow></math>?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/125d5606867ec400.svg\" alt=\"\" style=\"width:145px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2367,6 +2384,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "<math display=\"inline\"><mi>A</mi></math> argi-iturria <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>0.99</mn><mi>c</mi></mrow></math> abiaduraz higitzen ari da irudian erakusten den moduan. Geldi dagoen <math display=\"inline\"><mi>B</mi></math> behatzaileak une batean <math display=\"inline\"><mi>A</mi></math>-tik datorren argia erakutsitako norabidean ikusten badu, zein zen iturriaren pausaguneko sisteman higidura erlatiboaren eta izpiaren norabidearen arteko angelua?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/4419357bc441d2e5.svg\" alt=\"\" style=\"width:157px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2378,6 +2399,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Zein da muturretako ontzien arteko abiadura erlatiboa erdiko ontziaren sisteman? Nola aukeratu behar da <math display=\"inline\"><mi>u</mi></math> aipaturiko abiadura erlatiboa maximoa izateko? Eta minimoa izateko? Zeintzuk dira balio maximoa eta minimoa? Zer aldatzen da zure erantzunetan, <math display=\"inline\"><mi>u</mi></math> abiadurako suziria, beste bien artean egon beharrean, ezkerrean edo eskuinean badago?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/f9656af6b665ae14.svg\" alt=\"\" style=\"width:177px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2470,6 +2495,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Zein da fotoi bakoitzaren maiztasuna masa-zentroaren sisteman irudiko bi kasuetan?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/cfa95cdc087e1795.svg\" alt=\"\" style=\"width:217px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2481,6 +2510,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Partikula baten energia zinetikoa, abiadura eta momentu lineala <math display=\"inline\"><mi>T</mi></math>, <math display=\"inline\"><mi>v</mi></math> eta <math display=\"inline\"><mi>p</mi></math> badira, ondoko irudiko lau grafikoen artean zeintzuk dira galilearrak eta zeintzuk erlatibistak?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/607b4faa21429778.svg\" alt=\"\" style=\"width:210px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2492,6 +2525,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "<math display=\"inline\"><mi>E</mi></math> energiako fotoi bat <math display=\"inline\"><mi>S</mi></math> erreferentzia-sistemako <math display=\"inline\"><mi>O</mi></math> jatorrira hurbiltzen ari da, <math display=\"inline\"><mrow><mi>O</mi><mi>Y</mi></mrow></math> ardatzarekin batera <math display=\"inline\"><mi>α</mi></math> angelua osatzen duen norabidean, irudian erakusten den bezala. <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math> ardatzaren norabidean <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝒗</mi><mo>=</mo><mi>v</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> abiaduraz higitzen ari den <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> sistemán, ordea, fotoia <math display=\"inline\"><mrow><msup><mi>O</mi><mo>′</mo></msup><msup><mi>Y</mi><mo>′</mo></msup></mrow></math> ardatzaren norabidean higitzen bada, zein da fotoiaren energia <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> sisteman? Kalkulatu <math display=\"inline\"><mi>v</mi></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/38f858aa80f79e24.svg\" alt=\"\" style=\"width:111px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2606,6 +2643,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "<math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><msub><mi>m</mi><mi>e</mi></msub><msup><mi>c</mi><mn>2</mn></msup></mrow></math> energia zinetikoko elektroiak jomuga finko batean sakabanatzen dira, irudian erakusten den moduan. Sakabanatzea elastikoa da eta elektroien fluxua <math display=\"inline\"><mi>N</mi></math>  (elektroi/s). Kalkulatu sortak jomugan eragindako indarraren modulua, norabidea eta noranzkoa."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/77bac3dc8be31f21.svg\" alt=\"\" style=\"width:109px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2713,6 +2754,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Irudiko ispilua <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mi>β</mi><mi>c</mi></mrow></math> abiaduraz higitzen ari da. <math display=\"inline\"><msub><mi>θ</mi><mi>e</mi></msub></math> eraso-angeluarekiko datorren <math display=\"inline\"><msub><mi>ν</mi><mi>e</mi></msub></math> maiztasuneko fotoia ispiluan islatzen da. Frogatu honela idazten dela islapenaren legea erlatibitatean: <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><msub><mi>θ</mi><mi>e</mi></msub><mrow><mn>1</mn><mo>+</mo><mi>β</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>e</mi></msub></mrow></mfrac><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><msub><mi>θ</mi><mi>i</mi></msub><mrow><mn>1</mn><mo>−</mo><mi>β</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>i</mi></msub></mrow></mfrac><mi>.</mi></mrow></math> Kalkulatu fotoi islatuaren <math display=\"inline\"><msub><mi>ν</mi><mi>i</mi></msub></math> maiztasuna."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/afd2123537e5e65e.svg\" alt=\"\" style=\"width:93px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2805,6 +2850,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Pausagunean dagoen <math display=\"inline\"><mi>m</mi></math> masako partikula bat desintegratzean masa berbera duten hiru partikula sortzen dira. Bi partikulen abiadurak irudian agertzen direnak badira, zein da hirugarrenarena? Zeintzuk dira sorturiko partikulen masak?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/6dbc08728ad15011.svg\" alt=\"\" style=\"width:105px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2937,6 +2986,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       },
       {
        "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/808af37131d334e2.svg\" alt=\"\" style=\"width:221px\" loading=\"lazy\">"
+      },
+      {
+       "mota": "testua",
        "html": "Nolakoak izan behar dute elektroiaren energiak eta momentu linealak irudiko talkan fotoiaren energia talka ondoren handiagoa izateko? Froga ezazu elektroiaren energia oso handia denean, amaieran fotoiaren energia elektroiak talka gertatu baino lehenago zuena dela, fotoiaren hasierako energia edonolakoa izanda ere."
       }
      ]
@@ -2949,6 +3002,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Irudiko esperimentuan energia handiko fotoiak lagin meheko elektroi bat jotzen du. Elektroia <math display=\"inline\"><mi>A</mi></math> detektagailura doa eta fotoia <math display=\"inline\"><mi>B</mi></math> delakora. Kalkulatu fotoiaren hasierako eta amaierako energiak, elektroiaren pausaguneko energia unitatetzat erabiliz."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/bb00e9ce22e74a16.svg\" alt=\"\" style=\"width:221px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3034,6 +3091,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Irudiko positroiak elektroi geldia jotzean, bakarrik geratzen dira maiztasun bereko hiru fotoi, irudian erakusten den moduan. Froga ezazu ondoko desberdintza: <math display=\"block\"><mrow><mfrac><mi>π</mi><mn>3</mn></mfrac><mo>&lt;</mo><mi>α</mi><mo>&lt;</mo><mi>π</mi><mi>.</mi></mrow></math> Noiz joango dira aurrerantz hiru fotoiak?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/368fdf4fe3810aaa.svg\" alt=\"\" style=\"width:187px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3045,6 +3106,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Irudiko positroiaren energia zinetikoa pausagunekoaren berdina da eta elektroi batekin topo egitean, bikotea desagertzen da eta irudiko hiru fotoiak geratzen dira. Elektroiaren masa <math display=\"inline\"><msub><mi>m</mi><mi>e</mi></msub></math> bada, zein zen bere abiadura. Eta fotoi bakoitzaren uhin-luzera laborategian eta masa-zentroaren sisteman?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/ecc83a7a79e8ac77.svg\" alt=\"\" style=\"width:219px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3075,6 +3140,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": ": Pioiaren masa <math display=\"inline\"><msub><mi>m</mi><mi>π</mi></msub></math> da."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/b98a5568db0fd9c4.svg\" alt=\"\" style=\"width:181px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3108,6 +3177,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Atomoak hozteko (hau da, geldiarazteko) laserrak erabiltzen dira. Irudiko atomoa oinarrizko mailan dago, <math display=\"inline\"><msub><mi>E</mi><mn>0</mn></msub></math> pausaguneko energiarekin, eta higitzen ari da erakusten den moduan. Nola aukeratu behar da fotoiaren maiztasuna, atomoak fotoia xurga dezan, <math display=\"inline\"><mrow><msub><mi>E</mi><mn>0</mn></msub><mo>+</mo><mi mathvariant=\"normal\">Δ</mi><msub><mi>E</mi><mn>0</mn></msub></mrow></math> mailara pasatzean? Zein da orduan atomoaren abiadura berria? (Laster fotoi bat igorriko du oinarrizko mailara itzultzeko, baina fotoi horren norabidea zorian aukeratuko denez, prozesua behin eta berriro eginez lortzen da atomoaren abiadura txikitzea.) Nola idazten dira emaitzak <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msub><mi>E</mi><mn>0</mn></msub><mo>≪</mo><msub><mi>E</mi><mn>0</mn></msub></mrow></math> dela kontuan hartuta?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/8992b5b214962889.svg\" alt=\"\" style=\"width:192px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3226,6 +3299,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "<math display=\"inline\"><mi>A</mi></math> partikula kargatu geldia desintegratzean <math display=\"inline\"><mi>B</mi></math> partikula kargatua eta <math display=\"inline\"><mi>C</mi></math> partikula ezegonkorra sortzen dira. <math display=\"inline\"><mi>C</mi></math> neutroa denez, ez da ikusten detektagailuetan, baina <math display=\"inline\"><mi>A</mi></math>-ren desintegraziotik <math display=\"inline\"><mi>t</mi></math> denbora pasatu denean, <math display=\"inline\"><mi>d</mi></math> distantziara, <math display=\"inline\"><mi>D</mi></math> eta <math display=\"inline\"><mi>E</mi></math> sortzen dira <math display=\"inline\"><mi>C</mi></math> desintegratzean. <math display=\"inline\"><mi>A</mi></math>-ren masa <math display=\"inline\"><msub><mi>m</mi><mi>A</mi></msub></math> da eta <math display=\"inline\"><mi>B</mi></math>-rena <math display=\"inline\"><msub><mi>m</mi><mi>B</mi></msub></math>. Nola idatz daiteke <math display=\"inline\"><mi>C</mi></math>-ren masa, neurtzen diren <math display=\"inline\"><mi>A</mi></math> eta <math display=\"inline\"><mi>B</mi></math>-ren masak eta <math display=\"inline\"><mi>t</mi></math> eta <math display=\"inline\"><mi>d</mi></math> balioak erabiliz?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/2b5f96b6e6f445dd.svg\" alt=\"\" style=\"width:183px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3301,6 +3378,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": ": Eterraren sisteman argiaren abiadura <math display=\"inline\"><mi>c</mi></math> da."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/cfccb99820271577.svg\" alt=\"\" style=\"width:87px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3312,6 +3393,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Bi bloke berdinen artean hodi bat dago, barruan malguki konprimatu bat duena. Bi blokeak geldi daude hasieran, soka baten bidez lotuta daudelako. Soka apurtzean, bloke bakoitzaren abiadura eskalarra <math display=\"inline\"><mi>u</mi></math> da, irudian erakusten den moduan. Malgukiaren, hodiaren eta sokaren masak arbuiagarriak dira."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/5f233ea17e071977.svg\" alt=\"\" style=\"width:153px\" loading=\"lazy\">"
       },
       {
        "mota": "testua",
@@ -3330,7 +3415,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Partikula bat geldi dagoen beste partikula berdin bat jotzean talka elastikoa gertatzen da. Ageri denez, gerta liteke lehenengo partikula geldi geratzea eta bigarrena aurrenaren momentu linealarekin higitzen hastea; baina azter ditzagun beste kasuak: talka ondoren partikulen norabideak ez dira izango talka aurreko higidura erlatiboarena. <br> (a) Marraztu talka masa-zentroaren sisteman eta laborategian. Eman dezagun hasierako eta amaierako norabideen arteko angelua <math display=\"inline\"><msup><mi>θ</mi><mo>*</mo></msup></math> dela masa-zentroaren sisteman. <br> (b) Erabili abiaduraren transformazioa amaierako norabideen arteko angelua laborategian kalkulatzeko, <math display=\"inline\"><msup><mi>θ</mi><mo>*</mo></msup></math>-ren funtzioan. <br> (c) Frogatu laborategian neurtutako angelu hori <math display=\"inline\"><mrow><mn>90</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math> baino txikiagoa dela. (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>α</mi><mo>+</mo><mi>β</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">tan</mi><mi>α</mi><mo>+</mo><mi mathvariant=\"normal\">tan</mi><mi>β</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi mathvariant=\"normal\">tan</mi><mi>α</mi><mi mathvariant=\"normal\">tan</mi><mi>β</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> erabil daiteke.)"
+       "html": "Partikula bat geldi dagoen beste partikula berdin bat jotzean talka elastikoa gertatzen da. Ageri denez, gerta liteke lehenengo partikula geldi geratzea eta bigarrena aurrenaren momentu linealarekin higitzen hastea; baina azter ditzagun beste kasuak: talka ondoren partikulen norabideak ez dira izango talka aurreko higidura erlatiboarena. <br> (a) Marraztu talka masa-zentroaren sisteman eta laborategian. Eman dezagun hasierako eta amaierako norabideen arteko angelua <math display=\"inline\"><msup><mi>θ</mi><mo>*</mo></msup></math> dela masa-zentroaren sisteman. <br> (b) Erabili abiaduraren transformazioa amaierako norabideen arteko angelua laborategian kalkulatzeko, <math display=\"inline\"><msup><mi>θ</mi><mo>*</mo></msup></math>-ren funtzioan. <br> (c) Frogatu laborategian neurtutako angelu hori <math display=\"inline\"><mrow><mn>90</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math> baino txikiagoa dela. (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>α</mi><mo>+</mo><mi>β</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">tan</mi><mi>α</mi><mo>+</mo><mi mathvariant=\"normal\">tan</mi><mi>β</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi mathvariant=\"normal\">tan</mi><mi>α</mi><mi mathvariant=\"normal\">tan</mi><mi>β</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span> erabil daiteke.)"
       },
       {
        "mota": "testua",
@@ -3391,6 +3476,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Bi ontzi berdinen luzera propioa <math display=\"inline\"><mi>l</mi></math> da eta beren luzeren norabide komunean barrena higitzen dira, kontrako noranzkoetan. Ontzi baten neurketen arabera, ezkerreko bi muturrak parean zeuden <math display=\"inline\"><mi>t</mi></math> unean eta eskuinekook <math display=\"inline\"><mrow><mi>t</mi><mo>+</mo><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></math> zenean. Zein da ontzi batek neurtutako abiadura erlatiboa? Eta bi ontzien masa-zentroaren sisteman neurtutakoa?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/a0febbc9c4fc5861.svg\" alt=\"\" style=\"width:245px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3488,7 +3577,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       },
       {
        "mota": "testua",
-       "html": "; CG-01 lote «métodos»-ekoa, baina edukia ERLATIBITATEA da eta hona dator — irudiak agintzen du). Bi emaitza garbiak SymPy-z egiaztatuak: <math display=\"inline\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mi>x</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>γ</mi><mi>v</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msup><mi>x</mi><mo>′</mo></msup><mi>/</mi><mi>v</mi><mo>≡</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>v</mi><mi>x</mi><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>v</mi><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>x</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Kale-itsu tatxatuak literaltasunez jasota (zero deskarte); zuzenketarik EZ. Ikus <code>koadernoa_metmatcg01_p004.typ</code>."
+       "html": "; CG-01 lote «métodos»-ekoa, baina edukia ERLATIBITATEA da eta hona dator — irudiak agintzen du). Bi emaitza garbiak SymPy-z egiaztatuak: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mi>x</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>γ</mi><mi>v</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msup><mi>x</mi><mo>′</mo></msup><mi>/</mi><mi>v</mi><mo>≡</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>v</mi><mi>x</mi><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span> eta <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>v</mi><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>x</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Kale-itsu tatxatuak literaltasunez jasota (zero deskarte); zuzenketarik EZ. Ikus <code>koadernoa_metmatcg01_p004.typ</code>."
       }
      ]
     },
@@ -3516,10 +3605,6 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -3578,11 +3663,11 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mi>•</mi></math> Eje <math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math>: <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mi>c</mi><mi>t</mi><mo>=</mo><mfrac><mi>v</mi><mi>c</mi></mfrac><mi>x</mi><mo>=</mo><mn>0.8</mn><mi>x</mi></mrow></math>"
+     "html": "<math display=\"block\"><mi>•</mi></math> Eje <math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math>: <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mi>c</mi><mi>t</mi><mo>=</mo><mfrac><mi>v</mi><mi>c</mi></mfrac><mi>x</mi><mo>=</mo><mn>0.8</mn><mi>x</mi></mrow></math>"
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mi>•</mi></math> Eje <math display=\"inline\"><mrow><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></math>: <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mi>c</mi><mi>t</mi><mo>=</mo><mfrac><mi>c</mi><mi>v</mi></mfrac><mi>x</mi><mo>=</mo><mn>1.25</mn><mi>x</mi></mrow></math>"
+     "html": "<math display=\"block\"><mi>•</mi></math> Eje <math display=\"inline\"><mrow><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></math>: <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mi>c</mi><mi>t</mi><mo>=</mo><mfrac><mi>c</mi><mi>v</mi></mfrac><mi>x</mi><mo>=</mo><mn>1.25</mn><mi>x</mi></mrow></math>"
     },
     {
      "mota": "testua",
@@ -3654,10 +3739,6 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -3748,10 +3829,6 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -3863,10 +3940,6 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>R.</strong>"
     },
     {
@@ -3958,10 +4031,6 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -4163,10 +4232,6 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>R.</strong>"
     },
     {
@@ -4306,10 +4371,6 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "Lurrarekiko <math display=\"inline\"><mi>v</mi></math> abiaduraz higitzen den espazio-bidaiari batek bere erlojua (<math display=\"inline\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math>) bere lurreko adiskidearenarekin (<math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>) sinkronizatzen du haren ondotik pasatzean. Lurrekoak bi erlojuen markatutako denborak aldi berean <strong>behikatzen</strong> ditu: berea (<math display=\"inline\"><mi>t</mi></math>) zuzenean begiratuz eta bidaiariarena (<math display=\"inline\"><msup><mi>t</mi><mo>′</mo></msup></math>) teleskopio baten bidez. Zein da <math display=\"inline\"><mi>t</mi></math>-ren balioa <math display=\"inline\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>1</mn></mrow></math> ordua behikatzen duenean? Zein izan behar du <math display=\"inline\"><mi>v</mi></math> abiadura une horretan <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>2</mn></mrow></math> ordua izan dadin? [<em>Oharra</em>: Gogoratu <strong>behikatzea</strong> eta <strong>neurtzea</strong> ez direla gauza bera]."
     }
    ]
@@ -4319,10 +4380,6 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "[Irudia (enuntziatuaren ondoan): <math display=\"inline\"><mi>S</mi></math> (Lurra) eta <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> (bidaiaria) erreferentzia-sistemak hiru une jarraian erakusten dituzten hiru eskema pilatu. 1) <math display=\"inline\"><mi>S</mi></math> eta <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> bat egiten dute; <math display=\"inline\"><mi>v</mi></math> abiadura eskuinerantz; bidaiariaren erlojuak <math display=\"inline\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math> markatzen du (<math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math> ardatza); <math display=\"inline\"><mi>S</mi></math> sistemako sei erlojuko ilara batek denek <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> markatzen dute (<math display=\"inline\"><mi>x</mi></math> ardatza). 2) <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> eskuinerantz desplazatuta <math display=\"inline\"><mi>v</mi></math> abiaduraz; bidaiariaren erlojuak <math display=\"inline\"><msup><mi>t</mi><mo>′</mo></msup></math> markatzen du eta <math display=\"inline\"><mi>d</mi></math> distantziatik <math display=\"inline\"><mi>c</mi></math> abiaduraz seinale bat igortzen du (ezkerrerantz); <math display=\"inline\"><mi>S</mi></math>-ren sei erlojuko ilarak <math display=\"inline\"><mi>t</mi></math> markatzen du. 3) <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> are eskuinago, <math display=\"inline\"><mi>v</mi></math> abiaduraz; bidaiariaren erlojuak <math display=\"inline\"><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup></math> markatzen du (<math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math> ardatza); <math display=\"inline\"><mi>S</mi></math>-ren sei erlojuko ilarak <math display=\"inline\"><msub><mi>t</mi><mn>1</mn></msub></math>.]"
@@ -4423,7 +4480,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> sin α = 3/5   →   α = 37° </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">sin α = 3/5   →   α = 37°</code>"
     },
     {
      "mota": "testua",
@@ -4431,7 +4488,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> E_(ant) = E_(des)      →      Q + E₀ = Q&#x27; + γE₀ P_x(ant) = P_x(des)    →      Q/c = mv cos 37° P_y(ant) = P_y(des)    →      0 = mv sin 37° − Q&#x27;/c </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">E_(ant) = E_(des)      →      Q + E₀ = Q' + γE₀\nP_x(ant) = P_x(des)    →      Q/c = mv cos 37°\nP_y(ant) = P_y(des)    →      0 = mv sin 37° − Q'/c</code>"
     },
     {
      "mota": "testua",
@@ -4439,7 +4496,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> Q = 4γE₀v/(5c)        Q&#x27; = 3γE₀v/(5c) </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">Q = 4γE₀v/(5c)        Q' = 3γE₀v/(5c)</code>"
     },
     {
      "mota": "testua",
@@ -4447,7 +4504,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> (4/5)γβ + 1 = (3/5)γβ + γ      →      γ = 13/12      [β = 5/13] </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">(4/5)γβ + 1 = (3/5)γβ + γ      →      γ = 13/12      [β = 5/13]</code>"
     },
     {
      "mota": "testua",
@@ -4455,7 +4512,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> Q = (1/3)E₀        Q&#x27; = (1/4)E₀ </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">Q = (1/3)E₀        Q' = (1/4)E₀</code>"
     },
     {
      "mota": "testua",
@@ -4467,7 +4524,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> E_(ant) = E_(des)      →      Q + E₀ = Q&#x27; + E P_x(ant) = P_x(des)    →      Q/c = (4/5)P P_y(ant) = P_y(des)    →      0 = (3/5)P − Q&#x27;/c </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">E_(ant) = E_(des)      →      Q + E₀ = Q' + E\nP_x(ant) = P_x(des)    →      Q/c = (4/5)P\nP_y(ant) = P_y(des)    →      0 = (3/5)P − Q'/c</code>"
     },
     {
      "mota": "testua",
@@ -4475,7 +4532,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> ⎧ Pc = (5/4)Q ⎨                            →      E = Q − Q&#x27; + E₀ = (1/4)Q + E₀ ⎩ Q&#x27; = (3/5)Pc = (3/4)Q </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">⎧ Pc = (5/4)Q\n⎨                            →      E = Q − Q' + E₀ = (1/4)Q + E₀\n⎩ Q' = (3/5)Pc = (3/4)Q</code>"
     },
     {
      "mota": "testua",
@@ -4483,7 +4540,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> ((1/4)Q + E₀)² = E₀² + ((5/4)Q)² </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">((1/4)Q + E₀)² = E₀² + ((5/4)Q)²</code>"
     },
     {
      "mota": "testua",
@@ -4491,7 +4548,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> Q = (1/3)E₀      →      Q&#x27; = (1/4)E₀ </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">Q = (1/3)E₀      →      Q' = (1/4)E₀</code>"
     }
    ]
   }

@@ -118,7 +118,7 @@ KAPITULUAK["05mk_09uhinak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "Decimos que una onda es armónica cuando su perfil es una sinusoide: <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>C</mi><msup><mi>e</mi><mrow><mi>i</mi><mi>k</mi><mi>x</mi></mrow></msup></mrow></math> o, si <math display=\"inline\"><mrow><mi>C</mi><mo>=</mo><mi>A</mi><msup><mi>e</mi><mrow><mi>i</mi><msub><mi>φ</mi><mn>0</mn></msub></mrow></msup></mrow></math>, tomando la parte real, <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>+</mo><msub><mi>φ</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>. A la constante <math display=\"inline\"><mi>k</mi></math>"
+     "html": "Decimos que una onda es armónica cuando su perfil es una sinusoide: <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>C</mi><msup><mi>e</mi><mrow><mi>i</mi><mi>k</mi><mi>x</mi></mrow></msup></mrow></math> o, si <math display=\"inline\"><mrow><mi>C</mi><mo>=</mo><mi>A</mi><msup><mi>e</mi><mrow><mi>i</mi><msub><mi>φ</mi><mn>0</mn></msub></mrow></msup></mrow></math>, tomando la parte real, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>+</mo><msub><mi>φ</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>. A la constante <math display=\"inline\"><mi>k</mi></math>"
     },
     {
      "mota": "testua",
@@ -934,7 +934,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "En aguas profundas, es decir, cuando <math display=\"inline\"><mrow><mi>h</mi><mo>≫</mo><mi>λ</mi></mrow></math>, tenemos <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tanh</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>h</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">tanh</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>π</mi><mi>h</mi><mi>/</mi><mi>λ</mi><mo>≈</mo><mn>1</mn></mrow></math> y la velocidad de las ondas armónicas es esta: <math display=\"block\"><mrow><mi>v</mi><mo>=</mo><msqrt><mrow><mi>g</mi><mfrac><mi>λ</mi><mrow><mn>2</mn><mi>π</mi></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>2</mn><mi>π</mi><mi>γ</mi></mrow><mrow><mi>ρ</mi><mi>λ</mi></mrow></mfrac></mrow></msqrt><mo>=</mo><msqrt><mrow><mfrac><mi>g</mi><mi>k</mi></mfrac><mo>+</mo><mfrac><mrow><mi>γ</mi><mi>k</mi></mrow><mi>ρ</mi></mfrac></mrow></msqrt><mi>.</mi></mrow></math> Aquí, si la longitud de onda <math display=\"inline\"><mi>λ</mi></math> es lo bastante grande como para poder despreciar el segundo término, tenemos <math display=\"block\"><mrow><mi>v</mi><mo>=</mo><msqrt><mrow><mi>g</mi><mfrac><mi>λ</mi><mrow><mn>2</mn><mi>π</mi></mrow></mfrac></mrow></msqrt><mo>=</mo><msqrt><mfrac><mi>g</mi><mi>k</mi></mfrac></msqrt></mrow></math>: en estas <strong>ondas gravitatorias</strong> la velocidad no depende del líquido (véase también el problema 9.16). En estos casos la velocidad de propagación aumenta con la longitud de onda; pero ocurre lo contrario en el límite de longitud de onda pequeña: <math display=\"block\"><mrow><mi>v</mi><mo>=</mo><msqrt><mfrac><mrow><mn>2</mn><mi>π</mi><mi>γ</mi></mrow><mrow><mi>ρ</mi><mi>λ</mi></mrow></mfrac></msqrt><mo>=</mo><msqrt><mfrac><mrow><mi>γ</mi><mi>k</mi></mrow><mi>ρ</mi></mfrac></msqrt><mi>.</mi></mrow></math>"
+     "html": "En aguas profundas, es decir, cuando <math display=\"inline\"><mrow><mi>h</mi><mo>≫</mo><mi>λ</mi></mrow></math>, tenemos <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tanh</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>h</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">tanh</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>π</mi><mi>h</mi><mi>/</mi><mi>λ</mi><mo>≈</mo><mn>1</mn></mrow></math></span> y la velocidad de las ondas armónicas es esta: <math display=\"block\"><mrow><mi>v</mi><mo>=</mo><msqrt><mrow><mi>g</mi><mfrac><mi>λ</mi><mrow><mn>2</mn><mi>π</mi></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>2</mn><mi>π</mi><mi>γ</mi></mrow><mrow><mi>ρ</mi><mi>λ</mi></mrow></mfrac></mrow></msqrt><mo>=</mo><msqrt><mrow><mfrac><mi>g</mi><mi>k</mi></mfrac><mo>+</mo><mfrac><mrow><mi>γ</mi><mi>k</mi></mrow><mi>ρ</mi></mfrac></mrow></msqrt><mi>.</mi></mrow></math> Aquí, si la longitud de onda <math display=\"inline\"><mi>λ</mi></math> es lo bastante grande como para poder despreciar el segundo término, tenemos <math display=\"block\"><mrow><mi>v</mi><mo>=</mo><msqrt><mrow><mi>g</mi><mfrac><mi>λ</mi><mrow><mn>2</mn><mi>π</mi></mrow></mfrac></mrow></msqrt><mo>=</mo><msqrt><mfrac><mi>g</mi><mi>k</mi></mfrac></msqrt></mrow></math>: en estas <strong>ondas gravitatorias</strong> la velocidad no depende del líquido (véase también el problema 9.16). En estos casos la velocidad de propagación aumenta con la longitud de onda; pero ocurre lo contrario en el límite de longitud de onda pequeña: <math display=\"block\"><mrow><mi>v</mi><mo>=</mo><msqrt><mfrac><mrow><mn>2</mn><mi>π</mi><mi>γ</mi></mrow><mrow><mi>ρ</mi><mi>λ</mi></mrow></mfrac></msqrt><mo>=</mo><msqrt><mfrac><mrow><mi>γ</mi><mi>k</mi></mrow><mi>ρ</mi></mfrac></msqrt><mi>.</mi></mrow></math>"
     },
     {
      "mota": "testua",
@@ -946,7 +946,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "Por otra parte, si la longitud de onda es muy grande, como <math display=\"inline\"><mrow><mi>λ</mi><mo>≫</mo><mi>h</mi></mrow></math>, tenemos <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tanh</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>h</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">tanh</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>π</mi><mi>h</mi><mi>/</mi><mi>λ</mi><mo>≈</mo><mn>2</mn><mi>π</mi><mi>h</mi><mi>/</mi><mi>λ</mi><mo>=</mo><mi>k</mi><mi>h</mi></mrow></math> y el segundo término del paréntesis es despreciable en la velocidad (9.117): <math display=\"block\"><mrow><mi>v</mi><mo>=</mo><msqrt><mrow><mi>g</mi><mi>h</mi></mrow></msqrt><mi>.</mi></mrow></math> En este límite la velocidad no depende de la longitud de onda."
+     "html": "Por otra parte, si la longitud de onda es muy grande, como <math display=\"inline\"><mrow><mi>λ</mi><mo>≫</mo><mi>h</mi></mrow></math>, tenemos <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tanh</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>h</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">tanh</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>π</mi><mi>h</mi><mi>/</mi><mi>λ</mi><mo>≈</mo><mn>2</mn><mi>π</mi><mi>h</mi><mi>/</mi><mi>λ</mi><mo>=</mo><mi>k</mi><mi>h</mi></mrow></math></span> y el segundo término del paréntesis es despreciable en la velocidad (9.117): <math display=\"block\"><mrow><mi>v</mi><mo>=</mo><msqrt><mrow><mi>g</mi><mi>h</mi></mrow></msqrt><mi>.</mi></mrow></math> En este límite la velocidad no depende de la longitud de onda."
     }
    ]
   },
@@ -957,7 +957,7 @@ KAPITULUAK["05mk_09uhinak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "Una solución <math display=\"inline\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><msup><mi>x</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>′</mo></msup><mo>∓</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi mathvariant=\"bold-italic\">𝒊</mi><mo>′</mo></msup><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝒓</mi><mo>∓</mo><mi>v</mi><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> de la ecuación de ondas (9.5) puede interpretarse de dos maneras distintas en el triedro <math display=\"inline\"><mrow><mi>O</mi><msup><mi>X</mi><mo>′</mo></msup><msup><mi>Y</mi><mo>′</mo></msup><msup><mi>Z</mi><mo>′</mo></msup></mrow></math> de la figura 9.15: como el valor que tiene un campo físico en el instante <math display=\"inline\"><mi>t</mi></math> en el punto de abscisa <math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math> de una recta o como el valor que tiene el campo en ese instante en todos los puntos del plano de abscisa <math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math> del espacio. En este último caso tenemos una <strong>onda plana</strong> en tres dimensiones."
+     "html": "Una solución <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><msup><mi>x</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>′</mo></msup><mo>∓</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi mathvariant=\"bold-italic\">𝒊</mi><mo>′</mo></msup><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝒓</mi><mo>∓</mo><mi>v</mi><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span> de la ecuación de ondas (9.5) puede interpretarse de dos maneras distintas en el triedro <math display=\"inline\"><mrow><mi>O</mi><msup><mi>X</mi><mo>′</mo></msup><msup><mi>Y</mi><mo>′</mo></msup><msup><mi>Z</mi><mo>′</mo></msup></mrow></math> de la figura 9.15: como el valor que tiene un campo físico en el instante <math display=\"inline\"><mi>t</mi></math> en el punto de abscisa <math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math> de una recta o como el valor que tiene el campo en ese instante en todos los puntos del plano de abscisa <math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math> del espacio. En este último caso tenemos una <strong>onda plana</strong> en tres dimensiones."
     },
     {
      "mota": "irudia",
@@ -1998,7 +1998,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "Estudiemos qué ocurre (y cuándo) si <math display=\"inline\"><mrow><msub><mi>R</mi><mo>∥</mo></msub><mo>=</mo><mn>0</mn></mrow></math>. En ese caso, sea cual sea la polarización de la onda incidente, la onda reflejada está polarizada linealmente, precisamente en la dirección paralela a la superficie de separación entre los medios y perpendicular al plano de incidencia, pues <math display=\"inline\"><mrow><msub><mi>E</mi><mrow><mi>i</mi><mo>∥</mo></mrow></msub><mo>=</mo><mn>0</mn></mrow></math>. Según el resultado (9.257), para que eso ocurra debe cumplirse <math display=\"inline\"><mrow><msub><mi>n</mi><mn>1</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>r</mi></msub><mo>=</mo><msub><mi>n</mi><mn>2</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>e</mi></msub></mrow></math>; pero, multiplicando eso por la ley de Snell (9.239), obtenemos <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>e</mi></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>e</mi></msub><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>r</mi></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>r</mi></msub></mrow></math>, es decir, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><msub><mi>θ</mi><mi>e</mi></msub><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><msub><mi>θ</mi><mi>r</mi></msub></mrow></math>. Esto es, como la ley de Snell, junto con (9.257), prohíbe la solución <math display=\"inline\"><mrow><msub><mi>θ</mi><mi>e</mi></msub><mo>=</mo><msub><mi>θ</mi><mi>r</mi></msub></mrow></math>, la polarización total de la onda reflejada se obtiene cuando <math display=\"inline\"><mrow><mn>2</mn><msub><mi>θ</mi><mi>r</mi></msub><mo>=</mo><mi>π</mi><mo>−</mo><mn>2</mn><msub><mi>θ</mi><mi>e</mi></msub></mrow></math>, es decir, cuando <math display=\"block\"><mrow><msub><mi>θ</mi><mi>e</mi></msub><mo>+</mo><msub><mi>θ</mi><mi>r</mi></msub><mo>=</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow></math>: <em>cuando los rayos reflejado y refractado son perpendiculares, el rayo reflejado está polarizado linealmente y el campo eléctrico es paralelo a la superficie de separación entre los medios y perpendicular al plano de incidencia</em>. Además, por la condición (9.265) tenemos <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>r</mi></msub><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>e</mi></msub></mrow></math> y, usando la ley de Snell (9.236), la polarización total se produce cuando el ángulo de incidencia es igual al <strong>ángulo de polarización</strong> definido por la siguiente ecuación: <math display=\"block\"><mrow><msub><mi>θ</mi><mi>e</mi></msub><mo>=</mo><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mfrac><msub><mi>n</mi><mn>2</mn></msub><msub><mi>n</mi><mrow><mn>1</mn><mi>.</mi></mrow></msub></mfrac></mrow></math>"
+     "html": "Estudiemos qué ocurre (y cuándo) si <math display=\"inline\"><mrow><msub><mi>R</mi><mo>∥</mo></msub><mo>=</mo><mn>0</mn></mrow></math>. En ese caso, sea cual sea la polarización de la onda incidente, la onda reflejada está polarizada linealmente, precisamente en la dirección paralela a la superficie de separación entre los medios y perpendicular al plano de incidencia, pues <math display=\"inline\"><mrow><msub><mi>E</mi><mrow><mi>i</mi><mo>∥</mo></mrow></msub><mo>=</mo><mn>0</mn></mrow></math>. Según el resultado (9.257), para que eso ocurra debe cumplirse <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>n</mi><mn>1</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>r</mi></msub><mo>=</mo><msub><mi>n</mi><mn>2</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>e</mi></msub></mrow></math></span>; pero, multiplicando eso por la ley de Snell (9.239), obtenemos <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>e</mi></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>e</mi></msub><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>r</mi></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>r</mi></msub></mrow></math></span>, es decir, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><msub><mi>θ</mi><mi>e</mi></msub><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><msub><mi>θ</mi><mi>r</mi></msub></mrow></math></span>. Esto es, como la ley de Snell, junto con (9.257), prohíbe la solución <math display=\"inline\"><mrow><msub><mi>θ</mi><mi>e</mi></msub><mo>=</mo><msub><mi>θ</mi><mi>r</mi></msub></mrow></math>, la polarización total de la onda reflejada se obtiene cuando <math display=\"inline\"><mrow><mn>2</mn><msub><mi>θ</mi><mi>r</mi></msub><mo>=</mo><mi>π</mi><mo>−</mo><mn>2</mn><msub><mi>θ</mi><mi>e</mi></msub></mrow></math>, es decir, cuando <math display=\"block\"><mrow><msub><mi>θ</mi><mi>e</mi></msub><mo>+</mo><msub><mi>θ</mi><mi>r</mi></msub><mo>=</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow></math>: <em>cuando los rayos reflejado y refractado son perpendiculares, el rayo reflejado está polarizado linealmente y el campo eléctrico es paralelo a la superficie de separación entre los medios y perpendicular al plano de incidencia</em>. Además, por la condición (9.265) tenemos <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>r</mi></msub><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>e</mi></msub></mrow></math></span> y, usando la ley de Snell (9.236), la polarización total se produce cuando el ángulo de incidencia es igual al <strong>ángulo de polarización</strong> definido por la siguiente ecuación: <math display=\"block\"><mrow><msub><mi>θ</mi><mi>e</mi></msub><mo>=</mo><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mfrac><msub><mi>n</mi><mn>2</mn></msub><msub><mi>n</mi><mrow><mn>1</mn><mi>.</mi></mrow></msub></mfrac></mrow></math>"
     },
     {
      "mota": "testua",
@@ -2435,7 +2435,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "Consideremos ahora las ondas que se propagan en el gas contenido en una columna estrecha (por ejemplo, en un tubo de órgano). Si los dos extremos están cerrados, las condiciones de contorno serán las del caso de la cuerda y los resultados completamente iguales. Pero ¿qué ocurre si, aunque el extremo <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> esté cerrado, el del punto <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>L</mi></mrow></math> está abierto? Ahora, en este extremo derecho el desplazamiento no tiene por qué ser cero; en su lugar, la condición que debe cumplirse es que ahí (en realidad, a una pequeña distancia de ahí: véase el problema 9.159) la presión sea igual a la atmosférica: <math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><msub><mi>p</mi><mn>0</mn></msub></mrow></math>. En el extremo abierto, en lugar de un nodo de desplazamiento, tenemos un nodo de presión. Si sustituimos esta condición en la ecuación (9.77), vemos que la segunda condición de contorno es esta: <math display=\"block\"><mrow><mfrac><mrow><mi>∂</mi><mi>u</mi></mrow><mrow><mi>∂</mi><mi>x</mi></mrow></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>L</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>L</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math> Usando las condiciones de contorno <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>L</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> en la solución <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>x</mi><mo>+</mo><mi>B</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>x</mi></mrow></math> de la ecuación de Helmholtz, se obtiene <math display=\"inline\"><mrow><mi>B</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>L</mi><mo>=</mo><mn>0</mn></mrow></math>: <math display=\"block\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>x</mi><mspace width=\"0.167em\"></mspace><msup><mi>e</mi><mrow><mi>−</mi><mi>i</mi><mi>ω</mi><mi>t</mi></mrow></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>k</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mi>π</mi><mrow><mn>2</mn><mi>L</mi></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>ω</mi><mo>=</mo><mi>k</mi><mi>v</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math> (A la constante opcional <math display=\"inline\"><mi>B</mi></math> la hemos llamado aquí <math display=\"inline\"><mi>A</mi></math>.) Por tanto, tenemos <math display=\"block\"><mrow><mi>λ</mi><mo>=</mo><mfrac><mrow><mn>4</mn><mi>L</mi></mrow><mrow><mn>2</mn><mi>n</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> y solo aparecen los armónicos impares de la frecuencia fundamental:"
+     "html": "Consideremos ahora las ondas que se propagan en el gas contenido en una columna estrecha (por ejemplo, en un tubo de órgano). Si los dos extremos están cerrados, las condiciones de contorno serán las del caso de la cuerda y los resultados completamente iguales. Pero ¿qué ocurre si, aunque el extremo <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> esté cerrado, el del punto <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>L</mi></mrow></math> está abierto? Ahora, en este extremo derecho el desplazamiento no tiene por qué ser cero; en su lugar, la condición que debe cumplirse es que ahí (en realidad, a una pequeña distancia de ahí: véase el problema 9.159) la presión sea igual a la atmosférica: <math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><msub><mi>p</mi><mn>0</mn></msub></mrow></math>. En el extremo abierto, en lugar de un nodo de desplazamiento, tenemos un nodo de presión. Si sustituimos esta condición en la ecuación (9.77), vemos que la segunda condición de contorno es esta: <math display=\"block\"><mrow><mfrac><mrow><mi>∂</mi><mi>u</mi></mrow><mrow><mi>∂</mi><mi>x</mi></mrow></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>L</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>L</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math> Usando las condiciones de contorno <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>L</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> en la solución <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>x</mi><mo>+</mo><mi>B</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>x</mi></mrow></math></span> de la ecuación de Helmholtz, se obtiene <math display=\"inline\"><mrow><mi>B</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>L</mi><mo>=</mo><mn>0</mn></mrow></math>: <math display=\"block\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>x</mi><mspace width=\"0.167em\"></mspace><msup><mi>e</mi><mrow><mi>−</mi><mi>i</mi><mi>ω</mi><mi>t</mi></mrow></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>k</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mi>π</mi><mrow><mn>2</mn><mi>L</mi></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>ω</mi><mo>=</mo><mi>k</mi><mi>v</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math> (A la constante opcional <math display=\"inline\"><mi>B</mi></math> la hemos llamado aquí <math display=\"inline\"><mi>A</mi></math>.) Por tanto, tenemos <math display=\"block\"><mrow><mi>λ</mi><mo>=</mo><mfrac><mrow><mn>4</mn><mi>L</mi></mrow><mrow><mn>2</mn><mi>n</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> y solo aparecen los armónicos impares de la frecuencia fundamental:"
     },
     {
      "mota": "kutxa",
@@ -2491,7 +2491,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "Estudiemos de nuevo la cuerda de longitud <math display=\"inline\"><mi>L</mi></math> sometida a tensión. Como antes, el extremo derecho está fijo, <math display=\"inline\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>L</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>; pero el izquierdo se mueve, mediante un motor, según la ley <math display=\"inline\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>u</mi><mn>0</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi mathvariant=\"normal\">Ω</mi><mi>t</mi></mrow></math>. Para calcular la solución estacionaria que esto produce, probaremos en la ecuación de ondas (9.307) una solución <math display=\"inline\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi mathvariant=\"normal\">Ω</mi><mi>t</mi></mrow></math> de la misma frecuencia. Como se ve, recuperamos la ecuación de Helmholtz (9.309), pero ahora el número de onda <math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mi mathvariant=\"normal\">Ω</mi><mi>/</mi><mi>v</mi></mrow></math> es único y las condiciones de contorno que debe cumplir la solución <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>x</mi><mo>+</mo><mi>B</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>x</mi></mrow></math> son las siguientes: <math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>u</mi><mn>0</mn></msub><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mi>A</mi><mo>=</mo><msub><mi>u</mi><mn>0</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>L</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mi>B</mi><mo>=</mo><mi>−</mi><msub><mi>u</mi><mn>0</mn></msub><mrow><mi mathvariant=\"normal\">cot</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>L</mi><mi>.</mi></mrow></math> En consecuencia, la solución estacionaria es esta: <math display=\"block\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>u</mi><mn>0</mn></msub><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>L</mi><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>L</mi></mrow></mfrac><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi mathvariant=\"normal\">Ω</mi><mi>t</mi><mi>.</mi></mrow></math> Como se ve, esta solución es infinita cuando <math display=\"inline\"><mrow><mi>k</mi><mi>L</mi><mo>=</mo><mi>n</mi><mi>π</mi></mrow></math>; pero esta es la condición que obtuvimos en las soluciones (9.310). Vemos de nuevo que se produce resonancia cuando la frecuencia de la acción externa es la de un modo normal (es decir, de una onda estacionaria): <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Ω</mi><mo>=</mo><mi>n</mi><mi>π</mi><mi>v</mi><mi>/</mi><mi>L</mi></mrow></math>, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Como en el apartado 7.6.2, en la resonancia la solución es infinita, pues hemos despreciado el amortiguamiento."
+     "html": "Estudiemos de nuevo la cuerda de longitud <math display=\"inline\"><mi>L</mi></math> sometida a tensión. Como antes, el extremo derecho está fijo, <math display=\"inline\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>L</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>; pero el izquierdo se mueve, mediante un motor, según la ley <math display=\"inline\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>u</mi><mn>0</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi mathvariant=\"normal\">Ω</mi><mi>t</mi></mrow></math>. Para calcular la solución estacionaria que esto produce, probaremos en la ecuación de ondas (9.307) una solución <math display=\"inline\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi mathvariant=\"normal\">Ω</mi><mi>t</mi></mrow></math> de la misma frecuencia. Como se ve, recuperamos la ecuación de Helmholtz (9.309), pero ahora el número de onda <math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mi mathvariant=\"normal\">Ω</mi><mi>/</mi><mi>v</mi></mrow></math> es único y las condiciones de contorno que debe cumplir la solución <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>x</mi><mo>+</mo><mi>B</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>x</mi></mrow></math></span> son las siguientes: <math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>u</mi><mn>0</mn></msub><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mi>A</mi><mo>=</mo><msub><mi>u</mi><mn>0</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>L</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mi>B</mi><mo>=</mo><mi>−</mi><msub><mi>u</mi><mn>0</mn></msub><mrow><mi mathvariant=\"normal\">cot</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>L</mi><mi>.</mi></mrow></math> En consecuencia, la solución estacionaria es esta: <math display=\"block\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>u</mi><mn>0</mn></msub><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>L</mi><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>k</mi><mi>L</mi></mrow></mfrac><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi mathvariant=\"normal\">Ω</mi><mi>t</mi><mi>.</mi></mrow></math> Como se ve, esta solución es infinita cuando <math display=\"inline\"><mrow><mi>k</mi><mi>L</mi><mo>=</mo><mi>n</mi><mi>π</mi></mrow></math>; pero esta es la condición que obtuvimos en las soluciones (9.310). Vemos de nuevo que se produce resonancia cuando la frecuencia de la acción externa es la de un modo normal (es decir, de una onda estacionaria): <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Ω</mi><mo>=</mo><mi>n</mi><mi>π</mi><mi>v</mi><mi>/</mi><mi>L</mi></mrow></math>, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Como en el apartado 7.6.2, en la resonancia la solución es infinita, pues hemos despreciado el amortiguamiento."
     },
     {
      "mota": "izenburua",
@@ -2504,7 +2504,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "irudia",
-     "oina": "Amplitudes de las ondas estacionarias en una membrana cuadrada en los casos <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>n</mi><mi>x</mi></msub><mo>,</mo><msub><mi>n</mi><mi>y</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>.",
+     "oina": "Amplitudes de las ondas estacionarias en una membrana cuadrada en los casos <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>n</mi><mi>x</mi></msub><mo>,</mo><msub><mi>n</mi><mi>y</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>.",
      "src": "../media/irudiak/8398e480a192e8be.svg",
      "zabalera": 464
     },
@@ -2578,7 +2578,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "irudia",
-     "oina": "Amplitudes de las ondas estacionarias en una membrana circular en los casos <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>,</mo><mi>m</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>.",
+     "oina": "Amplitudes de las ondas estacionarias en una membrana circular en los casos <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>,</mo><mi>m</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>.",
      "src": "../media/irudiak/31796c70a87a0c51.svg",
      "zabalera": 529
     },
@@ -2602,7 +2602,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "Supongamos que dentro de un paralelepípedo hueco de lados <math display=\"inline\"><mi>a</mi></math>, <math display=\"inline\"><mi>b</mi></math> y <math display=\"inline\"><mi>c</mi></math> se genera una onda de vector de onda <math display=\"inline\"><mrow><msub><mi>k</mi><mi>x</mi></msub><mi mathvariant=\"bold-italic\">𝒊</mi><mo>+</mo><msub><mi>k</mi><mi>y</mi></msub><mi mathvariant=\"bold-italic\">𝒋</mi><mo>+</mo><msub><mi>k</mi><mi>z</mi></msub><mi mathvariant=\"bold-italic\">𝒌</mi></mrow></math>. Al reflejarse en las paredes quedarán ocho ondas, con vectores de onda <math display=\"inline\"><mrow><mi>±</mi><msub><mi>k</mi><mi>x</mi></msub><mi mathvariant=\"bold-italic\">𝒊</mi><mo>±</mo><msub><mi>k</mi><mi>y</mi></msub><mi mathvariant=\"bold-italic\">𝒋</mi><mo>±</mo><msub><mi>k</mi><mi>z</mi></msub><mi mathvariant=\"bold-italic\">𝒌</mi></mrow></math>. Si no hay pérdidas, podemos hacer el estudio del apartado 9.16.3, probando <math display=\"inline\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>e</mi><mrow><mi>−</mi><mi>i</mi><mi>ω</mi><mi>t</mi></mrow></msup></mrow></math> en la ecuación de ondas tridimensional (9.127) y, por el equivalente del resultado (9.334), en el estado estacionario solo pueden darse los valores siguientes: <math display=\"block\"><mrow><msub><mi>k</mi><mi>x</mi></msub><mo>=</mo><msub><mi>n</mi><mi>x</mi></msub><mfrac><mi>π</mi><mi>a</mi></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>k</mi><mi>y</mi></msub><mo>=</mo><msub><mi>n</mi><mi>y</mi></msub><mfrac><mi>π</mi><mi>b</mi></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>k</mi><mi>z</mi></msub><mo>=</mo><msub><mi>n</mi><mi>z</mi></msub><mfrac><mi>π</mi><mi>c</mi></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>n</mi><mi>x</mi></msub><mo>,</mo><msub><mi>n</mi><mi>y</mi></msub><mo>,</mo><msub><mi>n</mi><mi>z</mi></msub><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mi>…</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
+     "html": "Supongamos que dentro de un paralelepípedo hueco de lados <math display=\"inline\"><mi>a</mi></math>, <math display=\"inline\"><mi>b</mi></math> y <math display=\"inline\"><mi>c</mi></math> se genera una onda de vector de onda <math display=\"inline\"><mrow><msub><mi>k</mi><mi>x</mi></msub><mi mathvariant=\"bold-italic\">𝒊</mi><mo>+</mo><msub><mi>k</mi><mi>y</mi></msub><mi mathvariant=\"bold-italic\">𝒋</mi><mo>+</mo><msub><mi>k</mi><mi>z</mi></msub><mi mathvariant=\"bold-italic\">𝒌</mi></mrow></math>. Al reflejarse en las paredes quedarán ocho ondas, con vectores de onda <math display=\"inline\"><mrow><mi>±</mi><msub><mi>k</mi><mi>x</mi></msub><mi mathvariant=\"bold-italic\">𝒊</mi><mo>±</mo><msub><mi>k</mi><mi>y</mi></msub><mi mathvariant=\"bold-italic\">𝒋</mi><mo>±</mo><msub><mi>k</mi><mi>z</mi></msub><mi mathvariant=\"bold-italic\">𝒌</mi></mrow></math>. Si no hay pérdidas, podemos hacer el estudio del apartado 9.16.3, probando <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>u</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>e</mi><mrow><mi>−</mi><mi>i</mi><mi>ω</mi><mi>t</mi></mrow></msup></mrow></math></span> en la ecuación de ondas tridimensional (9.127) y, por el equivalente del resultado (9.334), en el estado estacionario solo pueden darse los valores siguientes: <math display=\"block\"><mrow><msub><mi>k</mi><mi>x</mi></msub><mo>=</mo><msub><mi>n</mi><mi>x</mi></msub><mfrac><mi>π</mi><mi>a</mi></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>k</mi><mi>y</mi></msub><mo>=</mo><msub><mi>n</mi><mi>y</mi></msub><mfrac><mi>π</mi><mi>b</mi></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>k</mi><mi>z</mi></msub><mo>=</mo><msub><mi>n</mi><mi>z</mi></msub><mfrac><mi>π</mi><mi>c</mi></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>n</mi><mi>x</mi></msub><mo>,</mo><msub><mi>n</mi><mi>y</mi></msub><mo>,</mo><msub><mi>n</mi><mi>z</mi></msub><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mi>…</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
     },
     {
      "mota": "ariketa",
@@ -3596,8 +3596,8 @@ KAPITULUAK["05mk_09uhinak"] = {
        "html": "La densidad, el radio, el módulo de Young y el coeficiente de Poisson de una barra cilíndrica larga son <math display=\"inline\"><mi>ρ</mi></math>, <math display=\"inline\"><mi>R</mi></math>, <math display=\"inline\"><mi>E</mi></math> y <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mi>σ</mi><mo>&lt;</mo><mn>1</mn><mi>/</mi><mn>2</mn></mrow></math>, respectivamente. Teniendo en cuenta que una onda longitudinal también cambia las dimensiones transversales, Pochhammer (en 1876) y Rayleigh (en 1894) obtuvieron la siguiente expresión de la velocidad de fase:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>v</mi><mo>=</mo><msqrt><mfrac><mi>E</mi><mi>ρ</mi></mfrac></msqrt><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><mrow><msup><mi>π</mi><mn>2</mn></msup><msup><mi>σ</mi><mn>2</mn></msup><msup><mi>R</mi><mn>2</mn></msup></mrow><msup><mi>λ</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
       },
       {
        "mota": "testua",
@@ -3981,19 +3981,19 @@ KAPITULUAK["05mk_09uhinak"] = {
       },
       {
        "mota": "testua",
-       "html": "   (a)  <math display=\"inline\"><mrow><msub><mi>E</mi><mi>y</mi></msub><mo>=</mo><mi>E</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>x</mi><mi>/</mi><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>E</mi><mi>z</mi></msub><mo>=</mo><mi>E</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>x</mi><mi>/</mi><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>;"
+       "html": "   (a)  <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>E</mi><mi>y</mi></msub><mo>=</mo><mi>E</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>x</mi><mi>/</mi><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>E</mi><mi>z</mi></msub><mo>=</mo><mi>E</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>x</mi><mi>/</mi><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>;"
       },
       {
        "mota": "testua",
-       "html": "   (b)  <math display=\"inline\"><mrow><msub><mi>E</mi><mi>y</mi></msub><mo>=</mo><mi>E</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>x</mi><mi>/</mi><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>E</mi><mi>z</mi></msub><mo>=</mo><mi>−</mi><mi>E</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>x</mi><mi>/</mi><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>;"
+       "html": "   (b)  <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>E</mi><mi>y</mi></msub><mo>=</mo><mi>E</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>x</mi><mi>/</mi><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>E</mi><mi>z</mi></msub><mo>=</mo><mi>−</mi><mi>E</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>x</mi><mi>/</mi><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>;"
       },
       {
        "mota": "testua",
-       "html": "   (c)  <math display=\"inline\"><mrow><msub><mi>E</mi><mi>y</mi></msub><mo>=</mo><mi>E</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>x</mi><mi>/</mi><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>E</mi><mi>z</mi></msub><mo>=</mo><mi>E</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>ω</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>x</mi><mi>/</mi><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mn>3</mn><mi>π</mi><mi>/</mi><mn>4</mn><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>;"
+       "html": "   (c)  <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>E</mi><mi>y</mi></msub><mo>=</mo><mi>E</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>x</mi><mi>/</mi><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>E</mi><mi>z</mi></msub><mo>=</mo><mi>E</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>ω</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>x</mi><mi>/</mi><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mn>3</mn><mi>π</mi><mi>/</mi><mn>4</mn><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math></span>;"
       },
       {
        "mota": "testua",
-       "html": "   (d)  <math display=\"inline\"><mrow><msub><mi>E</mi><mi>y</mi></msub><mo>=</mo><mi>E</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>x</mi><mi>/</mi><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>E</mi><mi>z</mi></msub><mo>=</mo><mi>E</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>ω</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>x</mi><mi>/</mi><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>π</mi><mi>/</mi><mn>4</mn><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>."
+       "html": "   (d)  <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>E</mi><mi>y</mi></msub><mo>=</mo><mi>E</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>x</mi><mi>/</mi><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"0.222em\"></mspace><msub><mi>E</mi><mi>z</mi></msub><mo>=</mo><mi>E</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>ω</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>x</mi><mi>/</mi><mi>c</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>π</mi><mi>/</mi><mn>4</mn><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math></span>."
       }
      ]
     },
@@ -4350,12 +4350,12 @@ KAPITULUAK["05mk_09uhinak"] = {
        "titulua": null,
        "blokeak": [
         {
-         "mota": "ezezaguna",
-         "izena": "zenb-ekuazioa"
+         "mota": "testua",
+         "html": "<math display=\"block\"><mrow><mover><mi>R</mi><mo accent=\"true\">̂</mo></mover><mo>=</mo><msup><mi>R</mi><mn>2</mn></msup><mo>,</mo></mrow></math>"
         },
         {
-         "mota": "ezezaguna",
-         "izena": "zenb-ekuazioa"
+         "mota": "testua",
+         "html": "<math display=\"block\"><mrow><mover><mi>T</mi><mo accent=\"true\">̂</mo></mover><mo>=</mo><mfrac><msub><mi>v</mi><mn>1</mn></msub><msub><mi>v</mi><mn>2</mn></msub></mfrac><msup><mi>T</mi><mn>2</mn></msup><mo>=</mo><msqrt><mfrac><msub><mi>μ</mi><mn>2</mn></msub><msub><mi>μ</mi><mn>1</mn></msub></mfrac></msqrt><msup><mi>T</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math>"
         }
        ]
       },
@@ -4369,8 +4369,8 @@ KAPITULUAK["05mk_09uhinak"] = {
        "titulua": null,
        "blokeak": [
         {
-         "mota": "ezezaguna",
-         "izena": "zenb-ekuazioa"
+         "mota": "testua",
+         "html": "<math display=\"block\"><mrow><mover><mi>R</mi><mo accent=\"true\">̂</mo></mover><mo>+</mo><mover><mi>T</mi><mo accent=\"true\">̂</mo></mover><mo>=</mo><mn>1</mn><mi>.</mi></mrow></math>"
         }
        ]
       }
@@ -6152,10 +6152,6 @@ KAPITULUAK["05mk_09uhinak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>R.</strong>"
     },
     {
@@ -6230,10 +6226,6 @@ KAPITULUAK["05mk_09uhinak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>R.</strong>"
     },
     {
@@ -6301,10 +6293,6 @@ KAPITULUAK["05mk_09uhinak"] = {
    "maila": 2,
    "izenburua": "Solución (resuelta y comentada por el autor)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -6378,10 +6366,6 @@ KAPITULUAK["05mk_09uhinak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>R.</strong>"
     },
     {
@@ -6398,7 +6382,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> sin θ ≈ θ = 1.22 λ/D </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">sin θ ≈ θ = 1.22 λ/D</code>"
     },
     {
      "mota": "testua",
@@ -6406,7 +6390,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> θ ≈ 1.22 λ/D ≈ Δ/d </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">θ ≈ 1.22 λ/D ≈ Δ/d</code>"
     },
     {
      "mota": "testua",
@@ -6414,7 +6398,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> d ≈ DΔ / (1.22 λ) = (2 · 5.2 · 1.5 × 10^11) / (1.22 · 5 × 10^-7) = 2.56 × 10^18 ≈ 270 a-l </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">d ≈ DΔ / (1.22 λ) = (2 · 5.2 · 1.5 × 10^11) / (1.22 · 5 × 10^-7) = 2.56 × 10^18 ≈ 270 a-l</code>"
     },
     {
      "mota": "testua",
@@ -6445,7 +6429,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> ν_1 = ν_0 √((1 + β_e)/(1 - β_e))          ν_2 = ν_0 √((1 - β_e)/(1 + β_e)) </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">ν_1 = ν_0 √((1 + β_e)/(1 - β_e))          ν_2 = ν_0 √((1 - β_e)/(1 + β_e))</code>"
     },
     {
      "mota": "testua",
@@ -6453,7 +6437,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> r = ν_1/ν_2 = (1 + β_e)/(1 - β_e)     →     β_e = (r - 1)/(r + 1)          [v_e = β_e c] </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">r = ν_1/ν_2 = (1 + β_e)/(1 - β_e)     →     β_e = (r - 1)/(r + 1)          [v_e = β_e c]</code>"
     },
     {
      "mota": "testua",
@@ -6465,7 +6449,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> I · 4π r^2 = P     →     I = P / (4π r^2) </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">I · 4π r^2 = P     →     I = P / (4π r^2)</code>"
     },
     {
      "mota": "testua",
@@ -6473,7 +6457,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> I = P / (4π r^2) = (1 J/s) / (4π 10^2 m^2) = 7.96 × 10^-4 J/(m^2·s) </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">I = P / (4π r^2) = (1 J/s) / (4π 10^2 m^2) = 7.96 × 10^-4 J/(m^2·s)</code>"
     },
     {
      "mota": "testua",
@@ -6485,7 +6469,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> d sin θ_1(2) = λ     →     sin θ_1(2) = λ/d </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">d sin θ_1(2) = λ     →     sin θ_1(2) = λ/d</code>"
     },
     {
      "mota": "testua",
@@ -6497,7 +6481,7 @@ KAPITULUAK["05mk_09uhinak"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> (d/2) sin θ_1(3) = λ     →     sin θ_1(3) = 2λ/d = 2 sin θ_1(2) </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">(d/2) sin θ_1(3) = λ     →     sin θ_1(3) = 2λ/d = 2 sin θ_1(2)</code>"
     },
     {
      "mota": "testua",
@@ -6537,10 +6521,6 @@ KAPITULUAK["05mk_09uhinak"] = {
    "maila": 2,
    "izenburua": "Solución (resuelta y comentada por el autor)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -6586,10 +6566,6 @@ KAPITULUAK["05mk_09uhinak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "Una bahía semicircular de radio aproximado 1500 m se ve muy poco protegida en mar abierto cuando hay mar de fondo por una tormenta. En este caso, las olas llegan paralelas a la costa, con una longitud de onda de aproximadamente 6 m. Para evitar los efectos de esas olas, los miembros de un club de remo deciden cerrar la bahía con diques, como se indica en la figura. Si el club de remo está en el punto A, y el ángulo <math display=\"inline\"><mi>α</mi></math> es <math display=\"inline\"><mrow><mi>π</mi><mi>/</mi><mn>6</mn></mrow></math>, ¿qué distancia debe haber entre las aberturas para que las lanchas no se muevan? ¿Qué le ocurrirá a una lancha amarrada en el punto B?"
     },
     {
@@ -6603,10 +6579,6 @@ KAPITULUAK["05mk_09uhinak"] = {
    "maila": 2,
    "izenburua": "Solución (resuelta y comentada por el autor)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "El dique tiene dos aberturas situadas a distancia <math display=\"inline\"><mi>d</mi></math>, que actúan como dos fuentes de ondas coherentes y producen interferencias en cualquier punto de la bahía y, en particular, en los puntos A (sede del club de remo) y B. Para que las lanchas no se muevan por el mar de fondo, en A el fenómeno de interferencia debe ser tal que haya un mínimo. O, en otras palabras, las ondas que llegan a A desde los dos orificios del dique deben llegar desfasadas un ángulo <math display=\"inline\"><mi>π</mi></math>, y eso, volviendo a las distancias, quiere decir que la diferencia de caminos que deben recorrer esas dos ondas debe ser igual a <math display=\"inline\"><mrow><mi>λ</mi><mi>/</mi><mn>2</mn></mrow></math>, siendo <math display=\"inline\"><mi>λ</mi></math> la longitud de onda de las olas que llegan del mar exterior."

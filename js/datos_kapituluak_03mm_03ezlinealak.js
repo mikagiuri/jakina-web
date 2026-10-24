@@ -15,12 +15,12 @@ KAPITULUAK["03mm_03ezlinealak"] = {
    "izenburua": "Egonkortasunaren teoria",
    "blokeak": [
     {
-     "mota": "ezezaguna",
-     "izena": "epigrafea"
+     "mota": "testua",
+     "html": "<span class=\"j-epigrafea\"><em>Prediction is very difficult,<br>especially of the future.</em><br><span class=\"j-smallcaps\">Niels Bohr</span></span>"
     },
     {
      "mota": "testua",
-     "html": "Ekuazio ez-linealak<span class=\"j-oin\">[Norbaitek seinalatu duen bezala, ekuazio ez-linealez hitz egitea elefanteak ez diren animaliez hitz egitea bezain engainagarria izan daiteke. Animalia gehienak elefanteak ez diren bezala, lineal izatea salbuespena da. Aitortu behar da, hala ere, fisikan oso salbuespen garrantzitsua dela, non oinarrizko ekuazio asko, baina ez denak, linealak baitira eta non askotan —ia errutinaz— hurbilketa linealetara jotzen baita.]</span> ebazteko zailtasunak kasu askotan metodo hurbilduetara jotzea eragiten du, 7. kapituluan aztertu ditugunak bezalakoetara. Beste alternatiba bat dago sistemaren soluzioei buruzko informazio kualitatibo jakin bat nahikoa denean. Adibidez, askotan aski da sistemaren bilakaera <math display=\"inline\"><mrow><mi>t</mi><mo>→</mo><mi>±</mi><mi>∞</mi></mrow></math> limitean ezagutzea, bereziki portaera asintotikoa iragankor labur baten ondoren azkar lortzen dela badakigu. Henri Poincarék(1854-04-29, Nancy, Frantzia; 1912-07-17, Paris). Matematikaren ia adar guztietan lan egin zuen, geometria eta topologia aljebraikoak, aldagai konplexua, zenbakien teoria eta ekuazio diferentzialak barne. Elektrizitatean, telegrafian, optikan, kapilaritatean, elastikotasunean, potentzialaren teorian eta termodinamikan ere interesa izan zuen. Einsteinen erlatibitate bereziaren zenbait alderdi aurreratzen zituzten emaitzak argitaratu zituen. Mekanika zerutiarrean bere izena banaezina da hiru gorputzen problematik eta orbita planetarioetatik, non lehen aldiz sistema determinista batean higidura kaotikoaren aukera hartu baitzuen kontuan, nahiz eta bere lanaren alderdi honek merezi zuen interesa ez zuen jaso hirurogei eta hirurogeita hamarreko hamarkadetara arte, arloa berpiztu zenean eta «kaos determinista» izena asmatu zenean. 1880 inguruan sistema dinamikoen fase-espazioak kualitatiboki sailkatzeko programa planteatu zuen, baina dimentsio bat eta biko kasuetan soilik egin ahal izan zuen, eta dimentsioak planoarena gainditu bezain laster posible diren portaera dinamikoen aniztasun harrigarriaren lehen elementuak aurkitu zituen lehena izan zen. Azken hogei urteetan <strong>zientzia ez-lineal</strong> deitu izan denak izan duen garapen handiak <strong>dinamika kualitatiboaren</strong> interesa eta zailtasuna frogatzen ditu, zeinaren «aita» eztabaidaezina Poincaré baita."
+     "html": "Ekuazio ez-linealak<span class=\"j-oin\">[Norbaitek seinalatu duen bezala, ekuazio ez-linealez hitz egitea elefanteak ez diren animaliez hitz egitea bezain engainagarria izan daiteke. Animalia gehienak elefanteak ez diren bezala, lineal izatea salbuespena da. Aitortu behar da, hala ere, fisikan oso salbuespen garrantzitsua dela, non oinarrizko ekuazio asko, baina ez denak, linealak baitira eta non askotan —ia errutinaz— hurbilketa linealetara jotzen baita.]</span> ebazteko zailtasunak kasu askotan metodo hurbilduetara jotzea eragiten du, 7. kapituluan aztertu ditugunak bezalakoetara. Beste alternatiba bat dago sistemaren soluzioei buruzko informazio kualitatibo jakin bat nahikoa denean. Adibidez, askotan aski da sistemaren bilakaera <math display=\"inline\"><mrow><mi>t</mi><mo>→</mo><mi>±</mi><mi>∞</mi></mrow></math> limitean ezagutzea, bereziki portaera asintotikoa iragankor labur baten ondoren azkar lortzen dela badakigu. Henri Poincarék<span class=\"j-oin\">[<strong>Jules Henri Poincaré</strong> (1854-04-29, Nancy, Frantzia; 1912-07-17, Paris). Matematikaren ia adar guztietan lan egin zuen, geometria eta topologia aljebraikoak, aldagai konplexua, zenbakien teoria eta ekuazio diferentzialak barne. Elektrizitatean, telegrafian, optikan, kapilaritatean, elastikotasunean, potentzialaren teorian eta termodinamikan ere interesa izan zuen. Einsteinen erlatibitate bereziaren zenbait alderdi aurreratzen zituzten emaitzak argitaratu zituen. Mekanika zerutiarrean bere izena banaezina da hiru gorputzen problematik eta orbita planetarioetatik, non lehen aldiz sistema determinista batean higidura kaotikoaren aukera hartu baitzuen kontuan, nahiz eta bere lanaren alderdi honek merezi zuen interesa ez zuen jaso hirurogei eta hirurogeita hamarreko hamarkadetara arte, arloa berpiztu zenean eta «kaos determinista» izena asmatu zenean.]</span> 1880 inguruan sistema dinamikoen fase-espazioak kualitatiboki sailkatzeko programa planteatu zuen, baina dimentsio bat eta biko kasuetan soilik egin ahal izan zuen, eta dimentsioak planoarena gainditu bezain laster posible diren portaera dinamikoen aniztasun harrigarriaren lehen elementuak aurkitu zituen lehena izan zen. Azken hogei urteetan <strong>zientzia ez-lineal</strong> deitu izan denak izan duen garapen handiak <strong>dinamika kualitatiboaren</strong> interesa eta zailtasuna frogatzen ditu, zeinaren «aita» eztabaidaezina Poincaré baita."
     },
     {
      "mota": "testua",
@@ -52,25 +52,27 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "Zehatzago, <math display=\"inline\"><msup><mi mathvariant=\"bold-italic\">𝒙</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></math>  <strong>Liapunov-en arabera egonkorra</strong>(1857-06-16, Yaroslavl, Errusia; 1918-11-03, Odesa). Ekuazio diferentzialetan, potentzialaren teorian, probabilitateetan eta hurbilketetan lan egin zuen. Bereziki gogoratzen da sistema mekanikoetan, hidrodinamikan eta ekuazio diferentzialetan orekaren eta higiduraren egonkortasunari buruzko bere azterketengatik, non metodo eta emaitza berriak sartu baitzituen, bere izena daramaten funtzioak barne.  (edo egonkorra, laburtzeko) dela esaten da <math display=\"inline\"><mrow><mi>ε</mi><mo>&gt;</mo><mn>0</mn></mrow></math> ororentzat <math display=\"inline\"><mrow><mi>δ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&gt;</mo><mn>0</mn></mrow></math> bat existitzen bada non hasierako baldintza <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"bold-italic\">𝒙</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msup><mi mathvariant=\"bold-italic\">𝒙</mi><mrow><mi>*</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&lt;</mo><mi>δ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> betetzen duen beste edozein soluzio <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝒙</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-k <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"bold-italic\">𝒙</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msup><mi mathvariant=\"bold-italic\">𝒙</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&lt;</mo><mi>ε</mi></mrow></math> betetzen baitu <math display=\"inline\"><mrow><mi>t</mi><mo>&gt;</mo><msub><mi>t</mi><mn>0</mn></msub></mrow></math> ororentzat. Bestela, hau da, <math display=\"inline\"><mrow><mi>ε</mi><mo>&gt;</mo><mn>0</mn></mrow></math> bat existitzen bada non nahi bezain <math display=\"inline\"><mrow><mi>δ</mi><mo>&gt;</mo><mn>0</mn></mrow></math> txikirako gutxienez soluzio bat baitago <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"bold-italic\">𝒙</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msup><mi mathvariant=\"bold-italic\">𝒙</mi><mrow><mi>*</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&lt;</mo><mi>δ</mi></mrow></math> eta <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"bold-italic\">𝒙</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msup><mi mathvariant=\"bold-italic\">𝒙</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&gt;</mo><mi>ε</mi></mrow></math> betetzen dituena <math display=\"inline\"><mrow><mi>t</mi><mo>&gt;</mo><msub><mi>t</mi><mn>0</mn></msub></mrow></math> baterako, soluzioa <strong>ezegonkorra</strong> dela esaten da."
+     "html": "Zehatzago, <math display=\"inline\"><msup><mi mathvariant=\"bold-italic\">𝒙</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></math>  <strong>Liapunov-en arabera egonkorra</strong><span class=\"j-oin\">[<strong>Aleksandr Mikhailovich Liapunov</strong> (1857-06-16, Yaroslavl, Errusia; 1918-11-03, Odesa). Ekuazio diferentzialetan, potentzialaren teorian, probabilitateetan eta hurbilketetan lan egin zuen. Bereziki gogoratzen da sistema mekanikoetan, hidrodinamikan eta ekuazio diferentzialetan orekaren eta higiduraren egonkortasunari buruzko bere azterketengatik, non metodo eta emaitza berriak sartu baitzituen, bere izena daramaten funtzioak barne.]</span>  (edo egonkorra, laburtzeko) dela esaten da <math display=\"inline\"><mrow><mi>ε</mi><mo>&gt;</mo><mn>0</mn></mrow></math> ororentzat <math display=\"inline\"><mrow><mi>δ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&gt;</mo><mn>0</mn></mrow></math> bat existitzen bada non hasierako baldintza <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"bold-italic\">𝒙</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msup><mi mathvariant=\"bold-italic\">𝒙</mi><mrow><mi>*</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&lt;</mo><mi>δ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> betetzen duen beste edozein soluzio <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝒙</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-k <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"bold-italic\">𝒙</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msup><mi mathvariant=\"bold-italic\">𝒙</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&lt;</mo><mi>ε</mi></mrow></math> betetzen baitu <math display=\"inline\"><mrow><mi>t</mi><mo>&gt;</mo><msub><mi>t</mi><mn>0</mn></msub></mrow></math> ororentzat. Bestela, hau da, <math display=\"inline\"><mrow><mi>ε</mi><mo>&gt;</mo><mn>0</mn></mrow></math> bat existitzen bada non nahi bezain <math display=\"inline\"><mrow><mi>δ</mi><mo>&gt;</mo><mn>0</mn></mrow></math> txikirako gutxienez soluzio bat baitago <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"bold-italic\">𝒙</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msup><mi mathvariant=\"bold-italic\">𝒙</mi><mrow><mi>*</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&lt;</mo><mi>δ</mi></mrow></math> eta <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"bold-italic\">𝒙</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msup><mi mathvariant=\"bold-italic\">𝒙</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&gt;</mo><mi>ε</mi></mrow></math> betetzen dituena <math display=\"inline\"><mrow><mi>t</mi><mo>&gt;</mo><msub><mi>t</mi><mn>0</mn></msub></mrow></math> baterako, soluzioa <strong>ezegonkorra</strong> dela esaten da."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "Oreka-puntua (a) egonkorra, (b) asintotikoki egonkorra, (c) ezegonkorra",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/894d219d272cf0f0.svg",
+     "zabalera": 455
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><msup><mi mathvariant=\"bold-italic\">𝒙</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></math> soluzioa <strong>asintotikoki egonkorra</strong> dela esaten da egonkorra bada eta <math display=\"inline\"><mrow><msup><mi>δ</mi><mo>′</mo></msup><mo>&gt;</mo><mn>0</mn></mrow></math> bat existitzen bada non <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"bold-italic\">𝒙</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msup><mi mathvariant=\"bold-italic\">𝒙</mi><mrow><mi>*</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&lt;</mo><msup><mi>δ</mi><mo>′</mo></msup></mrow></math> bada orduan <math display=\"inline\"><mrow><msub><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></msub><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"bold-italic\">𝒙</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msup><mi mathvariant=\"bold-italic\">𝒙</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>=</mo><mn>0</mn></mrow></math>. <math display=\"inline\"><msup><mi mathvariant=\"bold-italic\">𝒙</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></math>  <strong>erakarle</strong> bat dela ere esaten da, bere inguruko soluzioak erakartzen baititu. Oreka-puntu bat asintotikoki egonkorra bada eta, izan ere, soluzio guztiak (eta ez ingurune batekoak soilik)  <math display=\"inline\"><msup><mi mathvariant=\"bold-italic\">𝒙</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></math>-rantz jotzen badute, <strong>eskala handiko egonkortasunaz</strong> hitz egiten da."
+     "html": "<math display=\"inline\"><msup><mi mathvariant=\"bold-italic\">𝒙</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></math> soluzioa <strong>asintotikoki egonkorra</strong> dela esaten da egonkorra bada eta <math display=\"inline\"><mrow><msup><mi>δ</mi><mo>′</mo></msup><mo>&gt;</mo><mn>0</mn></mrow></math> bat existitzen bada non <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"bold-italic\">𝒙</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msup><mi mathvariant=\"bold-italic\">𝒙</mi><mrow><mi>*</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&lt;</mo><msup><mi>δ</mi><mo>′</mo></msup></mrow></math> bada orduan <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></msub><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"bold-italic\">𝒙</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msup><mi mathvariant=\"bold-italic\">𝒙</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>=</mo><mn>0</mn></mrow></math></span>. <math display=\"inline\"><msup><mi mathvariant=\"bold-italic\">𝒙</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></math>  <strong>erakarle</strong> bat dela ere esaten da, bere inguruko soluzioak erakartzen baititu. Oreka-puntu bat asintotikoki egonkorra bada eta, izan ere, soluzio guztiak (eta ez ingurune batekoak soilik)  <math display=\"inline\"><msup><mi mathvariant=\"bold-italic\">𝒙</mi><mrow><mi>*</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></math>-rantz jotzen badute, <strong>eskala handiko egonkortasunaz</strong> hitz egiten da."
     },
     {
      "mota": "testua",
      "html": "Adibidez, <math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>a</mi><mi>x</mi></mrow></math>-ren soluzio orokorra <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><msub><mi>x</mi><mn>0</mn></msub><msup><mi>e</mi><mrow><mi>a</mi><mi>t</mi></mrow></msup></mrow></math> da, eta hala <math display=\"inline\"><mrow><mi>a</mi><mo>&lt;</mo><mn>0</mn></mrow></math> kasurako soluzio guztiak <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>-rantz jotzen dute, zeina, beraz, egonkorra, asintotikoki egonkorra eta eskala handian egonkorra baita. <math display=\"inline\"><mrow><mi>a</mi><mo>&gt;</mo><mn>0</mn></mrow></math> kasurako soluzio guztiak, <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> izan ezik jakina, infiniturantz jotzen dute, eta beraz jatorria ezegonkorra da. <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mn>0</mn></mrow></math> kasurako, puntu guztiak oreka egonkorrekoak dira, baina ez asintotikoki egonkorrak. Adibide honetan bezala, parametro bat aldatzean oreka-puntuen (edo beste mota bateko multzo aldaezinen) izaera (edo kopurua) aldatzen denean, <strong>bifurkazio</strong> bat gertatu dela esaten da. Adibide honetan <strong>bifurkazio-parametroa</strong>  <math display=\"inline\"><mi>a</mi></math> da."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "<math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>a</mi><mi>x</mi></mrow></math>-ren bifurkazio-diagrama",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/46460f71001a2022.svg",
+     "zabalera": 284
     },
     {
      "mota": "testua",
@@ -97,9 +99,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "Kapitulu honen zati handi batean bi dimentsioko sistema dinamiko autonomo bat hartzera mugatuko gara: <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mtd></mtr></mtable></math> <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mi>Q</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mtd></mtr></mtable></math> 4.1.1 atalean seinalatu zen bezala, sistema dinamikoaren soluzio orokorrak <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> espazioan kongruentzia bat definitzen du; baina, autonomoa denez, haren proiekzioa <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> fase-espazioaren gainean kongruentzia berri bat da, eta hala soluzio baten <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> proiekzioa <strong>fase-ibilbide</strong> edo, batzuetan, <strong>fase-orbita</strong> deitzen den kurba parametriko bat da."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "Sistema autonomoaren soluzio orokorra eta haren proiekzioa fase-espazioan",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/a791bca1fc020212.svg",
+     "zabalera": 254
     },
     {
      "mota": "testua",
@@ -114,9 +117,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "Soluzio batean zehar fase-ibilbidea aldatzen ez denez, fase-ibilbideen ekuazioa sistema dinamikoaren higiduraren konstante bat da eta, gainera, ez dago <math display=\"inline\"><mi>t</mi></math> aldagai askearen menpe. Eta alderantziz, 4.2.2 atalean ikusitakoaren arabera, aldagai askearen menpe ez dagoen lehen integral batek <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mn>2</mn></mrow></math> ekuazioko sistema autonomoen fase-ibilbideen ekuazioa ematen digu. Beraz, hemen aztertutako sistemen kasuan, fase-ibilbideak kalkulatzea <math display=\"inline\"><mi>t</mi></math>-ren menpe ez dagoen higiduraren konstante bat aurkitzearen baliokidea da."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "(8.9)ren soluzio bat eta haren proiekzioa fase-espazioan",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/ca219445790536ab.svg",
+     "zabalera": 212
     },
     {
      "mota": "testua",
@@ -137,7 +141,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "Sistema hamiltondarra bada, Hamilton-en funtzio(1805-08-04, Dublin, Irlanda; 1865-09-02, Dublin). Optikari eta astronomiari egindako ekarpenez gain, fisikan bere izena mekanikaren hiru formulaziori lotuta dago: Hamilton-en printzipioa, ekuazio kanonikoak eta Hamilton-Jacobi formulazioa. Matematikan bereziki gogoratzen da lehen aljebra ez-konmutatiboa aztertu izanagatik: koaternioiak, zeinak zenbaki konplexuen luzapena baitira, hauek errealen luzapena diren bezala. <math display=\"inline\"><mrow><mi>H</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> bat egongo da —<math display=\"inline\"><mi>y</mi></math> momentu kanonikoa deituz— non <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mfrac><mrow><mi>∂</mi><mi>H</mi></mrow><mrow><mi>∂</mi><mi>y</mi></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mfrac><mrow><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>∂</mi><mi>H</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>∂</mi><mi>x</mi></mrow></mfrac><mi>.</mi></mrow></math> Kasu partikularrago bat, baina ez gutxiago garrantzitsua, dimentsio bakarreko indar-eremu batena da <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>=</mo><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math> non indarra beti potentzial batetik eratortzen baita, <math display=\"block\"><mrow><mi>F</mi><mo>=</mo><mfrac><mrow><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mi>V</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mo>∫</mo><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> delarik</mtext></mrow><mo>,</mo></mrow></math> eta sistema dinamiko gisa honela idazten dena: <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>y</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>−</mi><msup><mi>V</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math> eta <math display=\"inline\"><mrow><mi>H</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> hamiltondarra onartzen duena. Kapitulu honetan sistema dinamikoen teoriaren ohiturari jarraituko diogunez, fase-espazioaren area (edo bolumena, hipervolumena, etab.) gordetzen duenari kontserbatibo deitzeko, (8.17) motakoek, mekanikan kontserbatibo deitzen direnak, hemen <strong>sistema mekaniko kontserbatibo</strong> izen esplizitua hartuko dute. Jakina, hemen erabiliko dugun eta hurrengo atalean aztertzen den zentzuan ere kontserbatiboak dira."
+     "html": "Sistema hamiltondarra bada, Hamilton-en funtzio<span class=\"j-oin\">[<strong>William Rowan Hamilton</strong> (1805-08-04, Dublin, Irlanda; 1865-09-02, Dublin). Optikari eta astronomiari egindako ekarpenez gain, fisikan bere izena mekanikaren hiru formulaziori lotuta dago: Hamilton-en printzipioa, ekuazio kanonikoak eta Hamilton-Jacobi formulazioa. Matematikan bereziki gogoratzen da lehen aljebra ez-konmutatiboa aztertu izanagatik: koaternioiak, zeinak zenbaki konplexuen luzapena baitira, hauek errealen luzapena diren bezala.]</span> <math display=\"inline\"><mrow><mi>H</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> bat egongo da —<math display=\"inline\"><mi>y</mi></math> momentu kanonikoa deituz— non <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mfrac><mrow><mi>∂</mi><mi>H</mi></mrow><mrow><mi>∂</mi><mi>y</mi></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mfrac><mrow><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>∂</mi><mi>H</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>∂</mi><mi>x</mi></mrow></mfrac><mi>.</mi></mrow></math> Kasu partikularrago bat, baina ez gutxiago garrantzitsua, dimentsio bakarreko indar-eremu batena da <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>=</mo><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math> non indarra beti potentzial batetik eratortzen baita, <math display=\"block\"><mrow><mi>F</mi><mo>=</mo><mfrac><mrow><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mi>V</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mo>∫</mo><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> delarik</mtext></mrow><mo>,</mo></mrow></math> eta sistema dinamiko gisa honela idazten dena: <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>y</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>−</mi><msup><mi>V</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math> eta <math display=\"inline\"><mrow><mi>H</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> hamiltondarra onartzen duena. Kapitulu honetan sistema dinamikoen teoriaren ohiturari jarraituko diogunez, fase-espazioaren area (edo bolumena, hipervolumena, etab.) gordetzen duenari kontserbatibo deitzeko, (8.17) motakoek, mekanikan kontserbatibo deitzen direnak, hemen <strong>sistema mekaniko kontserbatibo</strong> izen esplizitua hartuko dute. Jakina, hemen erabiliko dugun eta hurrengo atalean aztertzen den zentzuan ere kontserbatiboak dira."
     },
     {
      "mota": "ariketa",
@@ -169,9 +173,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "Fase-espazioaren arearen bilakaera aztertzeko, ikusiko dugu nola aldatzen den fluxuan zehar 8.5 irudian erakusten den <math display=\"inline\"><mrow><mi>D</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eremu bat. Beste «une» generiko <math display=\"inline\"><msup><mi>t</mi><mo>′</mo></msup></math> batean <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> puntua <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>′</mo></msup><mo>,</mo><msup><mi>y</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≡</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>φ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mi>ψ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>-n egongo da, <math display=\"inline\"><mrow><mi>φ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mi>ψ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzioak sistemaren soluzioak izanik, <math display=\"block\"><mrow><mover><mi>φ</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>P</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>φ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mi>ψ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mover><mi>ψ</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>Q</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>φ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mi>ψ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> hasierako baldintzak betetzen dituztenak <math display=\"block\"><mrow><mi>φ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>x</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>ψ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>y</mi><mi>.</mi></mrow></math> <math display=\"inline\"><msup><mi>t</mi><mo>′</mo></msup></math> unean <math display=\"inline\"><mrow><mi>D</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eremuko puntuak <math display=\"inline\"><mrow><mi>D</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-koetara joan dira, zeinaren area baita"
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "Fase-espazioaren eremu baten bilakaera",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/ca23e39add3caf6c.svg",
+     "zabalera": 292
     },
     {
      "mota": "testua",
@@ -267,7 +272,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mo>&gt;</mo><mn>0</mn></mrow></math> bada bi erroak errealak eta desberdinak dira, <math display=\"inline\"><mrow><msub><mi>k</mi><mn>1</mn></msub><mo>&gt;</mo><msub><mi>k</mi><mn>2</mn></msub></mrow></math>, eta beraz <math display=\"inline\"><msub><mi>k</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>k</mi><mn>2</mn></msub></math>-ri dagozkien bektore propioak, hurrenez hurren, <math display=\"block\"><mrow><msub><mi mathvariant=\"bold-italic\">𝒙</mi><mn>1</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>x</mi><mn>1</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>y</mi><mn>1</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><msub><mi mathvariant=\"bold-italic\">𝒙</mi><mn>2</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>x</mi><mn>2</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>y</mi><mn>2</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> badira, sistema linealaren soluzio orokorra honako formakoa da <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mi>x</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><msub><mi>C</mi><mn>1</mn></msub><msub><mi>x</mi><mn>1</mn></msub><msup><mi>e</mi><mrow><msub><mi>k</mi><mn>1</mn></msub><mi>t</mi></mrow></msup><mo>+</mo><msub><mi>C</mi><mn>2</mn></msub><msub><mi>x</mi><mn>2</mn></msub><msup><mi>e</mi><mrow><msub><mi>k</mi><mn>2</mn></msub><mi>t</mi></mrow></msup><mo>,</mo></mtd></mtr></mtable></math> <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mi>y</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><msub><mi>C</mi><mn>1</mn></msub><msub><mi>y</mi><mn>1</mn></msub><msup><mi>e</mi><mrow><msub><mi>k</mi><mn>1</mn></msub><mi>t</mi></mrow></msup><mo>+</mo><msub><mi>C</mi><mn>2</mn></msub><msub><mi>y</mi><mn>2</mn></msub><msup><mi>e</mi><mrow><msub><mi>k</mi><mn>2</mn></msub><mi>t</mi></mrow></msup><mo>,</mo></mtd></mtr></mtable></math> eta hala <math display=\"block\"><mrow><mfrac><mi>y</mi><mi>x</mi></mfrac><mo>=</mo><mfrac><mrow><msub><mi>C</mi><mn>1</mn></msub><msub><mi>y</mi><mn>1</mn></msub><msup><mi>e</mi><mrow><msub><mi>k</mi><mn>1</mn></msub><mi>t</mi></mrow></msup><mo>+</mo><msub><mi>C</mi><mn>2</mn></msub><msub><mi>y</mi><mn>2</mn></msub><msup><mi>e</mi><mrow><msub><mi>k</mi><mn>2</mn></msub><mi>t</mi></mrow></msup></mrow><mrow><msub><mi>C</mi><mn>1</mn></msub><msub><mi>x</mi><mn>1</mn></msub><msup><mi>e</mi><mrow><msub><mi>k</mi><mn>1</mn></msub><mi>t</mi></mrow></msup><mo>+</mo><msub><mi>C</mi><mn>2</mn></msub><msub><mi>x</mi><mn>2</mn></msub><msup><mi>e</mi><mrow><msub><mi>k</mi><mn>2</mn></msub><mi>t</mi></mrow></msup></mrow></mfrac><mi>.</mi></mrow></math> Hurbilketa linealaren bi soluzio berezi daude bektore propioekiko paraleloak diren zuzenetan zeharreko fase-ibilbideei dagozkienak: <math display=\"block\"><mrow><msub><mi>C</mi><mn>2</mn></msub><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mfrac><mi>y</mi><mi>x</mi></mfrac><mo>=</mo><mfrac><msub><mi>y</mi><mn>1</mn></msub><msub><mi>x</mi><mn>1</mn></msub></mfrac><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msub><mi>C</mi><mn>1</mn></msub><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mfrac><mi>y</mi><mi>x</mi></mfrac><mo>=</mo><mfrac><msub><mi>y</mi><mn>2</mn></msub><msub><mi>x</mi><mrow><mn>2</mn><mi>.</mi></mrow></msub></mfrac></mrow></math>"
+     "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mo>&gt;</mo><mn>0</mn></mrow></math> bada bi erroak errealak eta desberdinak dira, <math display=\"inline\"><mrow><msub><mi>k</mi><mn>1</mn></msub><mo>&gt;</mo><msub><mi>k</mi><mn>2</mn></msub></mrow></math>, eta beraz <math display=\"inline\"><msub><mi>k</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>k</mi><mn>2</mn></msub></math>-ri dagozkien bektore propioak, hurrenez hurren, <math display=\"block\"><mrow><msub><mi mathvariant=\"bold-italic\">𝒙</mi><mn>1</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>x</mi><mn>1</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>y</mi><mn>1</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><msub><mi mathvariant=\"bold-italic\">𝒙</mi><mn>2</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>x</mi><mn>2</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>y</mi><mn>2</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> badira, sistema linealaren soluzio orokorra honako formakoa da <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mi>x</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><msub><mi>C</mi><mn>1</mn></msub><msub><mi>x</mi><mn>1</mn></msub><msup><mi>e</mi><mrow><msub><mi>k</mi><mn>1</mn></msub><mi>t</mi></mrow></msup><mo>+</mo><msub><mi>C</mi><mn>2</mn></msub><msub><mi>x</mi><mn>2</mn></msub><msup><mi>e</mi><mrow><msub><mi>k</mi><mn>2</mn></msub><mi>t</mi></mrow></msup><mo>,</mo></mtd></mtr></mtable></math> <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mi>y</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><msub><mi>C</mi><mn>1</mn></msub><msub><mi>y</mi><mn>1</mn></msub><msup><mi>e</mi><mrow><msub><mi>k</mi><mn>1</mn></msub><mi>t</mi></mrow></msup><mo>+</mo><msub><mi>C</mi><mn>2</mn></msub><msub><mi>y</mi><mn>2</mn></msub><msup><mi>e</mi><mrow><msub><mi>k</mi><mn>2</mn></msub><mi>t</mi></mrow></msup><mo>,</mo></mtd></mtr></mtable></math> eta hala <math display=\"block\"><mrow><mfrac><mi>y</mi><mi>x</mi></mfrac><mo>=</mo><mfrac><mrow><msub><mi>C</mi><mn>1</mn></msub><msub><mi>y</mi><mn>1</mn></msub><msup><mi>e</mi><mrow><msub><mi>k</mi><mn>1</mn></msub><mi>t</mi></mrow></msup><mo>+</mo><msub><mi>C</mi><mn>2</mn></msub><msub><mi>y</mi><mn>2</mn></msub><msup><mi>e</mi><mrow><msub><mi>k</mi><mn>2</mn></msub><mi>t</mi></mrow></msup></mrow><mrow><msub><mi>C</mi><mn>1</mn></msub><msub><mi>x</mi><mn>1</mn></msub><msup><mi>e</mi><mrow><msub><mi>k</mi><mn>1</mn></msub><mi>t</mi></mrow></msup><mo>+</mo><msub><mi>C</mi><mn>2</mn></msub><msub><mi>x</mi><mn>2</mn></msub><msup><mi>e</mi><mrow><msub><mi>k</mi><mn>2</mn></msub><mi>t</mi></mrow></msup></mrow></mfrac><mi>.</mi></mrow></math> Hurbilketa linealaren bi soluzio berezi daude bektore propioekiko paraleloak diren zuzenetan zeharreko fase-ibilbideei dagozkienak: <math display=\"block\"><mrow><msub><mi>C</mi><mn>2</mn></msub><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mfrac><mi>y</mi><mi>x</mi></mfrac><mo>=</mo><mfrac><msub><mi>y</mi><mn>1</mn></msub><msub><mi>x</mi><mn>1</mn></msub></mfrac><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msub><mi>C</mi><mn>1</mn></msub><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mfrac><mi>y</mi><mi>x</mi></mfrac><mo>=</mo><mfrac><msub><mi>y</mi><mn>2</mn></msub><msub><mi>x</mi><mrow><mn>2</mn><mi>.</mi></mrow></msub></mfrac></mrow></math>"
     },
     {
      "mota": "azpititulua",
@@ -278,9 +283,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "<math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mo>&gt;</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">det </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"bold-italic\">𝑨</mi><mo>&gt;</mo><mn>0</mn></mrow></math> badira, bi erroek <math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">tr </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"bold-italic\">𝑨</mi></mrow></math>-ren zeinu bera dute. Beraz, <math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">tr </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"bold-italic\">𝑨</mi><mo>&lt;</mo><mn>0</mn></mrow></math> bada <math display=\"inline\"><mrow><msub><mi>k</mi><mn>2</mn></msub><mo>&lt;</mo><msub><mi>k</mi><mn>1</mn></msub><mo>&lt;</mo><mn>0</mn></mrow></math> izango dugu eta <math display=\"inline\"><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></math> denean ekuazio linealaren (8.42)–(8.43) soluzio guztiak jatorrira jotzen dute, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>→</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, eta beraz hura asintotikoki egonkorra da. Gainera, malda berarekin lortzen dute, (8.44)tik ondorioztatzen baita <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mi>y</mi><mi>x</mi></mfrac><mo>=</mo><mfrac><msub><mi>y</mi><mn>1</mn></msub><msub><mi>x</mi><mn>1</mn></msub></mfrac><mo>,</mo></mrow></math> (8.46) ibilbidea izan ezik, jakina. Horregatik, ibilbideen forma jatorritik gertu kasu partikular batean 8.6 irudian ikus daitekeena da. Oreka-puntu batetik gertu ibilbideek egitura geometriko hau dutenean (ia soluzio guztiek jatorria malda berarekin lortzen dute) puntu finkoa <strong>adabegi</strong> bat dela esaten da. Kasu honetan, jatorria asintotikoki egonkorra den adabegi bat da."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "(8.38)–(8.39)ren fase-espazioa <math display=\"inline\"><mrow><mi>d</mi><mo>=</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>r</mi><mo>=</mo><mi>−</mi><mn>5</mn><mi>/</mi><mn>2</mn></mrow></math> eta (a)  <math display=\"inline\"><mrow><mi>ε</mi><mo>=</mo><mn>0</mn></mrow></math>, (b)  <math display=\"inline\"><mrow><mi>ε</mi><mo>=</mo><mn>1</mn></mrow></math> direla",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/de810b6abeee6043.svg",
+     "zabalera": 349
     },
     {
      "mota": "testua",
@@ -292,16 +298,17 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">det </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"bold-italic\">𝑨</mi><mo>&gt;</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">tr </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"bold-italic\">𝑨</mi><mo>&gt;</mo><mn>0</mn></mrow></math> badira <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><msub><mi>k</mi><mn>2</mn></msub><mo>&lt;</mo><msub><mi>k</mi><mn>1</mn></msub></mrow></math> izango dugu eta <math display=\"inline\"><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></math> denean hurbilketa linealaren (8.42)–(8.43) soluzio guztiak infiniturantz doaz eta jatorritik urruntzen dira, ezegonkorra izango dena. Puntu ezegonkorraren egitura geometrikoa ikusteko, aski da konturatzea aurreko kasuan esandakoak egia izaten jarraitzen duela, baina iragan infinituan etorkizunean izan beharrean (eta 1 eta 2 indizeak trukatuz). Hala dugu, (8.44)gatik, <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right\"><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mi>y</mi><mi>x</mi></mfrac></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mo>=</mo><mfrac><msub><mi>y</mi><mn>2</mn></msub><msub><mi>x</mi><mn>2</mn></msub></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace></mtd><mtd columnalign=\"right\" style=\"text-align: right\"><msub><mi>C</mi><mn>2</mn></msub><mo>≠</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow><mo>,</mo></mtd></mtr></mtable></math> <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right\"><mfrac><mi>y</mi><mi>x</mi></mfrac></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mo>=</mo><mfrac><msub><mi>y</mi><mn>1</mn></msub><msub><mi>x</mi><mn>1</mn></msub></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace></mtd><mtd columnalign=\"right\" style=\"text-align: right\"><msub><mi>C</mi><mn>2</mn></msub><mo>=</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow><mo>,</mo></mtd></mtr></mtable></math>"
+     "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">det </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"bold-italic\">𝑨</mi><mo>&gt;</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">tr </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"bold-italic\">𝑨</mi><mo>&gt;</mo><mn>0</mn></mrow></math> badira <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><msub><mi>k</mi><mn>2</mn></msub><mo>&lt;</mo><msub><mi>k</mi><mn>1</mn></msub></mrow></math> izango dugu eta <math display=\"inline\"><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></math> denean hurbilketa linealaren (8.42)–(8.43) soluzio guztiak infiniturantz doaz eta jatorritik urruntzen dira, ezegonkorra izango dena. Puntu ezegonkorraren egitura geometrikoa ikusteko, aski da konturatzea aurreko kasuan esandakoak egia izaten jarraitzen duela, baina iragan infinituan etorkizunean izan beharrean (eta 1 eta 2 indizeak trukatuz). Hala dugu, (8.44)gatik, <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right\"><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mi>y</mi><mi>x</mi></mfrac></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mo>=</mo><mfrac><msub><mi>y</mi><mn>2</mn></msub><msub><mi>x</mi><mn>2</mn></msub></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace></mtd><mtd columnalign=\"right\" style=\"text-align: right\"><msub><mi>C</mi><mn>2</mn></msub><mo>≠</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow><mo>,</mo></mtd></mtr></mtable></math> <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right\"><mfrac><mi>y</mi><mi>x</mi></mfrac></mtd><mtd columnalign=\"left\" style=\"text-align: left\"><mo>=</mo><mfrac><msub><mi>y</mi><mn>1</mn></msub><msub><mi>x</mi><mn>1</mn></msub></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace></mtd><mtd columnalign=\"right\" style=\"text-align: right\"><msub><mi>C</mi><mn>2</mn></msub><mo>=</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> bada</mtext></mrow><mo>,</mo></mtd></mtr></mtable></math>"
     },
     {
      "mota": "testua",
      "html": "eta beraz geometria 8.6 irudikoa izaten jarraituko du, baina ibilbideen ibilbide-noranzkoa alderantzikatuta eta <math display=\"inline\"><mrow><msub><mi>C</mi><mn>1</mn></msub><mo>=</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><msub><mi>C</mi><mn>2</mn></msub><mo>=</mo><mn>0</mn></mrow></math> etiketak trukatuta. Froga daiteke sistema ez-linealerako ere adabegi ezegonkor bat izango dela eta haren itxura kualitatiboa aipatutako irudiaren eskuineko zatikoa, ibilbide-noranzkoa salbu."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "(8.38)–(8.39)-ren fase-espazioa <math display=\"inline\"><mrow><mi>d</mi><mo>=</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>r</mi><mo>=</mo><mn>5</mn><mi>/</mi><mn>2</mn></mrow></math> eta (a)  <math display=\"inline\"><mrow><mi>ε</mi><mo>=</mo><mn>0</mn></mrow></math>, (b)  <math display=\"inline\"><mrow><mi>ε</mi><mo>=</mo><mn>1</mn></mrow></math> kasuetan",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/5ed047111c58e064.svg",
+     "zabalera": 350
     },
     {
      "mota": "azpititulua",
@@ -309,12 +316,13 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mo>&gt;</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">det </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"bold-italic\">𝑨</mi><mo>&lt;</mo><mn>0</mn></mrow></math> badira, bi erroek zeinu aurkakoak dituzte, <math display=\"inline\"><mrow><msub><mi>k</mi><mn>2</mn></msub><mo>&lt;</mo><mn>0</mn><mo>&lt;</mo><msub><mi>k</mi><mn>1</mn></msub></mrow></math>, eta beraz <math display=\"inline\"><mrow><msub><mi>C</mi><mn>1</mn></msub><mo>=</mo><mn>0</mn></mrow></math> soluzio partikularrak jatorrirantz joko du <math display=\"inline\"><mrow><mi>y</mi><mi>/</mi><mi>x</mi><mo>=</mo><msub><mi>y</mi><mn>2</mn></msub><mi>/</mi><msub><mi>x</mi><mn>2</mn></msub></mrow></math> zuzenean zehar, <strong>espazio egonkor</strong> izena hartzen duena, eta <math display=\"inline\"><mrow><msub><mi>C</mi><mn>2</mn></msub><mo>=</mo><mn>0</mn></mrow></math>-ri dagokionak, berriz, jatorritik ihes egiten du <math display=\"inline\"><mrow><mi>y</mi><mi>/</mi><mi>x</mi><mo>=</mo><msub><mi>y</mi><mn>1</mn></msub><mi>/</mi><msub><mi>x</mi><mn>1</mn></msub></mrow></math> zuzenean zehar, <strong>espazio ezegonkor</strong>a dena. Ekuazio linealaren gainerako soluzioak ez doaz jatorrirantz, baizik eta espazio ezegonkorrera (egonkorrera) asintotikoki jotzen dute etorkizuneko (iraganeko) infinituan, izan ere <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mi>y</mi><mi>x</mi></mfrac></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mfrac><msub><mi>y</mi><mn>1</mn></msub><msub><mi>x</mi><mn>1</mn></msub></mfrac><mo>,</mo></mtd></mtr></mtable></math> <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>t</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></munder><mfrac><mi>y</mi><mi>x</mi></mfrac></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mfrac><msub><mi>y</mi><mn>2</mn></msub><msub><mi>x</mi><mrow><mn>2</mn><mi>.</mi></mrow></msub></mfrac></mtd></mtr></mtable></math>"
+     "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mo>&gt;</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">det </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"bold-italic\">𝑨</mi><mo>&lt;</mo><mn>0</mn></mrow></math> badira, bi erroek zeinu aurkakoak dituzte, <math display=\"inline\"><mrow><msub><mi>k</mi><mn>2</mn></msub><mo>&lt;</mo><mn>0</mn><mo>&lt;</mo><msub><mi>k</mi><mn>1</mn></msub></mrow></math>, eta beraz <math display=\"inline\"><mrow><msub><mi>C</mi><mn>1</mn></msub><mo>=</mo><mn>0</mn></mrow></math> soluzio partikularrak jatorrirantz joko du <math display=\"inline\"><mrow><mi>y</mi><mi>/</mi><mi>x</mi><mo>=</mo><msub><mi>y</mi><mn>2</mn></msub><mi>/</mi><msub><mi>x</mi><mn>2</mn></msub></mrow></math> zuzenean zehar, <strong>espazio egonkor</strong> izena hartzen duena, eta <math display=\"inline\"><mrow><msub><mi>C</mi><mn>2</mn></msub><mo>=</mo><mn>0</mn></mrow></math>-ri dagokionak, berriz, jatorritik ihes egiten du <math display=\"inline\"><mrow><mi>y</mi><mi>/</mi><mi>x</mi><mo>=</mo><msub><mi>y</mi><mn>1</mn></msub><mi>/</mi><msub><mi>x</mi><mn>1</mn></msub></mrow></math> zuzenean zehar, <strong>espazio ezegonkor</strong>a dena. Ekuazio linealaren gainerako soluzioak ez doaz jatorrirantz, baizik eta espazio ezegonkorrera (egonkorrera) asintotikoki jotzen dute etorkizuneko (iraganeko) infinituan, izan ere <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mi>y</mi><mi>x</mi></mfrac></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mfrac><msub><mi>y</mi><mn>1</mn></msub><msub><mi>x</mi><mn>1</mn></msub></mfrac><mo>,</mo></mtd></mtr></mtable></math> <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>t</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></munder><mfrac><mi>y</mi><mi>x</mi></mfrac></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mfrac><msub><mi>y</mi><mn>2</mn></msub><msub><mi>x</mi><mrow><mn>2</mn><mi>.</mi></mrow></msub></mfrac></mtd></mtr></mtable></math>"
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "(8.38)–(8.39)-ren fase-espazioa <math display=\"inline\"><mrow><mi>d</mi><mo>=</mo><mi>r</mi><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math> eta (a)  <math display=\"inline\"><mrow><mi>ε</mi><mo>=</mo><mn>0</mn></mrow></math>, (b)  <math display=\"inline\"><mrow><mi>ε</mi><mo>=</mo><mn>1</mn></mrow></math> kasuetan",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/005641d76dc17cdc.svg",
+     "zabalera": 349
     },
     {
      "mota": "testua",
@@ -370,9 +378,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "<math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mo>&lt;</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">tr </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"bold-italic\">𝑨</mi><mo>&gt;</mo><mn>0</mn></mrow></math> badira, <math display=\"inline\"><mrow><mi>α</mi><mo>&gt;</mo><mn>0</mn></mrow></math> denez (8.52)–(8.53) soluzioek jatorritik ihes egingo dute, zeina ezegonkorra izango baita, eta foku ezegonkor baten egitura izango du, izan ere soluzioek kasu honetan <math display=\"inline\"><mrow><mi>t</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></math>-rako duten portaera bera dute aurrekoan <math display=\"inline\"><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></math>-rako zutena. Sistema kuasilinealak ere foku ezegonkor bat du eta soluzioen itxura 8.9 irudikoaren modukoa da, baina ibilbidearen noranzkoa alderantzikatuta."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "(8.38)–(8.39)-ren fase-espazioa <math display=\"inline\"><mrow><mi>d</mi><mo>=</mo><mn>3</mn></mrow></math>, <math display=\"inline\"><mrow><mi>r</mi><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math> eta (a)  <math display=\"inline\"><mrow><mi>ε</mi><mo>=</mo><mn>0</mn></mrow></math>, (b)  <math display=\"inline\"><mrow><mi>ε</mi><mo>=</mo><mn>1</mn></mrow></math> kasuetan",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/1d186bb3eaed7247.svg",
+     "zabalera": 349
     },
     {
      "mota": "azpititulua",
@@ -380,7 +389,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mo>&lt;</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">tr </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"bold-italic\">𝑨</mi><mo>=</mo><mi>α</mi><mo>=</mo><mn>0</mn></mrow></math> badira, sistema linealaren soluzioak hauek dira <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mi>x</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><msub><mi>C</mi><mn>1</mn></msub><msub><mi>x</mi><mn>1</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi><mo>+</mo><msub><mi>C</mi><mn>2</mn></msub><msub><mi>x</mi><mn>2</mn></msub><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi><mo>,</mo></mtd></mtr></mtable></math> <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mi>y</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><msub><mi>C</mi><mn>1</mn></msub><msub><mi>y</mi><mn>1</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi><mo>+</mo><msub><mi>C</mi><mn>2</mn></msub><msub><mi>y</mi><mn>2</mn></msub><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi><mi>.</mi></mtd></mtr></mtable></math>"
+     "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mo>&lt;</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">tr </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"bold-italic\">𝑨</mi><mo>=</mo><mi>α</mi><mo>=</mo><mn>0</mn></mrow></math> badira, sistema linealaren soluzioak hauek dira <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mi>x</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><msub><mi>C</mi><mn>1</mn></msub><msub><mi>x</mi><mn>1</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi><mo>+</mo><msub><mi>C</mi><mn>2</mn></msub><msub><mi>x</mi><mn>2</mn></msub><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi><mo>,</mo></mtd></mtr></mtable></math> <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mi>y</mi></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><msub><mi>C</mi><mn>1</mn></msub><msub><mi>y</mi><mn>1</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi><mo>+</mo><msub><mi>C</mi><mn>2</mn></msub><msub><mi>y</mi><mn>2</mn></msub><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi><mi>.</mi></mtd></mtr></mtable></math>"
     },
     {
      "mota": "ariketa",
@@ -404,18 +413,20 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "edo <strong>zurrunbilo</strong> izena hartzen du."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "(8.38)–(8.39)-ren fase-espazioa <math display=\"inline\"><mrow><mi>d</mi><mo>=</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>r</mi><mo>=</mo><mn>0</mn></mrow></math> eta (a)  <math display=\"inline\"><mrow><mi>ε</mi><mo>=</mo><mn>0</mn></mrow></math>, (b)  <math display=\"inline\"><mrow><mi>ε</mi><mo>=</mo><mn>1</mn></mrow></math> kasuetan",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/3ebabe26cbda2358.svg",
+     "zabalera": 347
     },
     {
      "mota": "testua",
      "html": "Hala ere, kasu honetan, sistema kuasilinealaren analisia delikatuagoa da, izan ere, <math display=\"inline\"><mrow><mi>α</mi><mo>=</mo><mn>0</mn></mrow></math> kasua <math display=\"inline\"><mrow><mi>α</mi><mo>&lt;</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>α</mi><mo>&gt;</mo><mn>0</mn></mrow></math> artean justu muga denez, gai ez-linealek, txikiak izan arren, haren egonkortasuna aldatzeko adina garrantzi izan dezakete eta asintotikoki egonkorra den foku batean edo foku ezegonkor batean bihur dezakete, nahiz eta zentro gisa ere utz dezaketen. Kasu honetan, egonkortasun linealaren analisia ez da erabakigarria sistema kuasilinealerako eta beste metodo bat erabili behar da. 8.10 irudiaren kasuan gai ez-linealek zentroa foku ezegonkor batean bihurtzen dute eta beste adibide bat ikusteko honako sistema hau hartuko dugu kontuan <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mi>−</mi><mi>y</mi><mo>,</mo></mtd></mtr></mtable></math> <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mi>x</mi><mo>−</mo><msup><mi>y</mi><mi>n</mi></msup><mo>,</mo></mtd></mtr></mtable></math> zeina kasu honexi dagokion. Hurbilketa lineala (8.9) sistema da eta orbita gisa jatorrian zentratutako zirkunferentziak ditu (8.10). 8.11 irudian ikus daitekeen eta 8.38 problemak frogatuko dugun bezala, <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mn>2</mn></mrow></math> denerako sistema ez-linealak jatorrian zentro bat izaten jarraitzen du; baina <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mn>3</mn></mrow></math> denerako asintotikoki egonkorra den foku bat da."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "(8.57)–(8.58)-ren fase-espazioa (a)  <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mn>2</mn></mrow></math>, (b)  <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mn>3</mn></mrow></math> kasuetan",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/997986a1e43f7dfc.svg",
+     "zabalera": 347
     },
     {
      "mota": "testua",
@@ -440,16 +451,17 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><msub><mi>a</mi><mn>12</mn></msub><mo>=</mo><msub><mi>a</mi><mn>21</mn></msub><mo>=</mo><mn>0</mn></mrow></math>"
+     "html": "<math display=\"block\"><mrow><msub><mi>a</mi><mn>12</mn></msub><mo>=</mo><msub><mi>a</mi><mn>21</mn></msub><mo>=</mo><mn>0</mn></mrow></math>"
     },
     {
      "mota": "testua",
      "html": "Kasu honetan, <math display=\"inline\"><mrow><mi>a</mi><mo>≡</mo><msub><mi>a</mi><mn>11</mn></msub><mo>=</mo><msub><mi>a</mi><mn>22</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> tr </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"bold-italic\">𝑨</mi></mrow></math> dugu eta bi ekuazio linealak desakoplatuta daude: <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>a</mi><mi>x</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>a</mi><mi>y</mi><mi>.</mi></mrow></math> Soluzioak <math display=\"block\"><mrow><mi>x</mi><mo>=</mo><msub><mi>C</mi><mn>1</mn></msub><msup><mi>e</mi><mrow><mi>a</mi><mi>t</mi></mrow></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>y</mi><mo>=</mo><msub><mi>C</mi><mn>2</mn></msub><msup><mi>e</mi><mrow><mi>a</mi><mi>t</mi></mrow></msup></mrow></math> jatorrirantz doazen edo handik datozen erdizuzenak dira: <math display=\"inline\"><mrow><mi>y</mi><mi>/</mi><mi>x</mi><mo>=</mo><msub><mi>C</mi><mn>2</mn></msub><mi>/</mi><msub><mi>C</mi><mn>1</mn></msub></mrow></math>. Beraz <math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">tr </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"bold-italic\">𝑨</mi><mo>=</mo><mn>2</mn><mi>a</mi><mo>&lt;</mo><mn>0</mn></mrow></math> bada, soluzio guztiak jatorrian sartzen dira, baina malda desberdinekin, eta horregatik bera <strong>adabegi propio</strong> edo <strong>izar-adabegi</strong> formako puntu asintotikoki egonkorra da. Aldiz, <math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">tr </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"bold-italic\">𝑨</mi><mo>=</mo><mn>2</mn><mi>a</mi><mo>&gt;</mo><mn>0</mn></mrow></math> bada, soluzio guztiak infiniturantz doaz eta, hain zuzen ere, jatorriaren iragandako infinituan irteten dira, zeina adabegi propio ezegonkorra baita. Adibide bat honako sistema hau da <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mi>−</mi><mi>x</mi><mo>−</mo><mi>ε</mi><mi>x</mi><mi>y</mi><mo>,</mo></mtd></mtr></mtable></math> <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mi>−</mi><mi>y</mi><mo>+</mo><mi>ε</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>y</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mtd></mtr></mtable></math> zeinaren fase-espazioa 8.12 irudian ikusten den."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "(8.61)–(8.62)-ren fase-espazioa (a)  <math display=\"inline\"><mrow><mi>ε</mi><mo>=</mo><mn>0</mn></mrow></math> eta (b)  <math display=\"inline\"><mrow><mi>ε</mi><mo>=</mo><mn>1</mn></mrow></math> kasuetan",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/7c65170675209286.svg",
+     "zabalera": 349
     },
     {
      "mota": "testua",
@@ -457,7 +469,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>a</mi><mn>12</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>a</mi><mn>21</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>≠</mo><mn>0</mn></mrow></math>"
+     "html": "<math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>a</mi><mn>12</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>a</mi><mn>21</mn></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>≠</mo><mn>0</mn></mrow></math>"
     },
     {
      "mota": "testua",
@@ -481,9 +493,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "<math display=\"inline\"><mrow><mn>2</mn><mi>k</mi><mo>=</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> tr </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"bold-italic\">𝑨</mi><mo>&gt;</mo><mn>0</mn></mrow></math> bada, hurbilketa linealaren soluzio guztiak infiniturantz jotzen dute eta jatorria ezegonkorra izango da. <math display=\"inline\"><mrow><mi>y</mi><mi>/</mi><mi>x</mi><mo>→</mo><msub><mi>y</mi><mn>1</mn></msub><mi>/</mi><msub><mi>x</mi><mn>1</mn></msub></mrow></math> denez <math display=\"inline\"><mrow><mi>t</mi><mo>→</mo><mi>−</mi><mi>∞</mi></mrow></math> denean, adabegi ezegonkor bat izango da, eta sistema kuasilinealak adabegi ezegonkor bat edo foku ezegonkor bat izango du."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "(8.38)–(8.39)-ren fase-espazioa <math display=\"inline\"><mrow><mi>d</mi><mo>=</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>r</mi><mo>=</mo><mi>−</mi><mn>2</mn></mrow></math> eta (a)  <math display=\"inline\"><mrow><mi>ε</mi><mo>=</mo><mn>0</mn></mrow></math>, (b)  <math display=\"inline\"><mrow><mi>ε</mi><mo>=</mo><mn>1</mn></mrow></math> kasuetan",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/c31bdb84578c8ea0.svg",
+     "zabalera": 349
     },
     {
      "mota": "izenburua",
@@ -495,9 +508,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "Sistema kuasilineal lau baten puntu finko isolatuen sailkapena 8.14 irudian dago laburtuta, non ez baitira sartu oraintxe aztertu ditugun <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mo>=</mo><mn>0</mn></mrow></math> salbuespen-kasuak, zeinak, kasu ez-linealean, batzuetan kasu auzokoetara murrizten diren, nahiz eta izar-adabegi bati edo endekatu bati ere dagozkion. Ez da kontuan hartu <math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">det </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"bold-italic\">𝑨</mi><mo>=</mo><mn>0</mn></mrow></math> den kasua ere, zeina 8.3 problemak hurbilketa linealean aztertuko dugun eta sistema ez-linealerako ez-hiperbolikoa den. Aldiz, beste kasu ez-hiperbolikoa, <math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mi>±</mi><mi>i</mi><mi>ω</mi></mrow></math>, agertzen da, zeina praktikan askoz ere maizago den, izan ere, adibidez, sistema mekaniko kontserbatibo guztiek puntu horiek dituzte potentzialaren minimoetan, aurrerago 8.7 atalean ikusiko dugun bezala."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "Puntu finkoen sailkapena",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/0f06af2d80e2aade.svg",
+     "zabalera": 359
     },
     {
      "mota": "testua",
@@ -572,12 +586,13 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "Adibidez, honako sistemaren jatorria <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><msup><mi>y</mi><mn>3</mn></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mi>y</mi><mo>−</mo><msup><mi>y</mi><mn>4</mn></msup><mo>,</mo></mrow></math> ez da hiperbolikoa (zergatik?), baina ibilbideen ekuazioa 2.8 problemak ebatzi zen: <math display=\"inline\"><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><msup><mi>y</mi><mn>3</mn></msup><mo>=</mo><mn>3</mn><mi>a</mi><mi>x</mi><mi>y</mi></mrow></math>. Ibilbide bakoitza <strong>Descartes-en hosto</strong> bat da(1596-03-31, La Haye ---orain Descartes deitzen da---, Frantzia; 1650-02-11, Stockholm, Suedia). Galileoren atxiloketaren berriek bere lehen tratatu garrantzitsua ez argitaratzea erabakiarazi zioten: #emph[Le Monde, ou Traité Lumière]. Bere #emph[Methoderen diskourak] ospetsuan matematikaren erabilera defendatu zuen ezagutza seguruak eskuratzeko bide gisa eta bere eranskinetako batek, #emph[La Géométrie], aljebraren eta geometriaren arteko lotura ezarri zuen, geometria kartesiar deitzen duguna, eta erreferentzia-sistemen sarrera ekarri zuen. Bere mekanikari buruzko teorien beste alderdi batzuk, hainbat lanetan azaldutakoak, okerrak ziren, ordea. Hostoaz gain, obalo kartesiarrak, zikloidea, espiral ekiangeluarra eta Newton-en hirukia aztertu zituen., zeinaren 8.15 grafikoa <math display=\"inline\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>a</mi><mo>=</mo><mn>0</mn></mrow></math> zuzena asintota gisa onartzen duela eta jatorrian ardatz koordenatuekiko ukitzailea dela egiaztatu ondoren lortzen den, edo bere ekuazio parametrikoak erabiliz: <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>3</mn><mi>a</mi><mi>u</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>u</mi><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>3</mn><mi>a</mi><msup><mi>u</mi><mn>2</mn></msup><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>u</mi><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>. Fase-espazioa aipatutako irudiaren eskuinaldean agertzen da."
+     "html": "Adibidez, honako sistemaren jatorria <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><msup><mi>y</mi><mn>3</mn></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mi>y</mi><mo>−</mo><msup><mi>y</mi><mn>4</mn></msup><mo>,</mo></mrow></math> ez da hiperbolikoa (zergatik?), baina ibilbideen ekuazioa 2.8 problemak ebatzi zen: <math display=\"inline\"><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><msup><mi>y</mi><mn>3</mn></msup><mo>=</mo><mn>3</mn><mi>a</mi><mi>x</mi><mi>y</mi></mrow></math>. Ibilbide bakoitza <strong>Descartes-en hosto</strong> bat da<span class=\"j-oin\">[<strong>René Descartes</strong> (1596-03-31, La Haye —orain Descartes deitzen da—, Frantzia; 1650-02-11, Stockholm, Suedia). Galileoren atxiloketaren berriek bere lehen tratatu garrantzitsua ez argitaratzea erabakiarazi zioten: <em>Le Monde, ou Traité Lumière</em>. Bere <em>Methoderen diskourak</em> ospetsuan matematikaren erabilera defendatu zuen ezagutza seguruak eskuratzeko bide gisa eta bere eranskinetako batek, <em>La Géométrie</em>, aljebraren eta geometriaren arteko lotura ezarri zuen, geometria kartesiar deitzen duguna, eta erreferentzia-sistemen sarrera ekarri zuen. Bere mekanikari buruzko teorien beste alderdi batzuk, hainbat lanetan azaldutakoak, okerrak ziren, ordea. Hostoaz gain, obalo kartesiarrak, zikloidea, espiral ekiangeluarra eta Newton-en hirukia aztertu zituen.]</span>, zeinaren 8.15 grafikoa <math display=\"inline\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>a</mi><mo>=</mo><mn>0</mn></mrow></math> zuzena asintota gisa onartzen duela eta jatorrian ardatz koordenatuekiko ukitzailea dela egiaztatu ondoren lortzen den, edo bere ekuazio parametrikoak erabiliz: <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>3</mn><mi>a</mi><mi>u</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>u</mi><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>3</mn><mi>a</mi><msup><mi>u</mi><mn>2</mn></msup><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>u</mi><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>. Fase-espazioa aipatutako irudiaren eskuinaldean agertzen da."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "Descartes-en hostoa eta (8.69) sistemaren fase-espazioa",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/5f29aa7881dd62a4.svg",
+     "zabalera": 347
     },
     {
      "mota": "testua",
@@ -695,9 +710,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "<strong>Inflexio-puntua edo goi-mailako muturra.</strong>     <math display=\"inline\"><mrow><mi>V</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math> bada, erro karakteristikoak <math display=\"inline\"><mrow><mn>0</mn><mo>,</mo><mi>−</mi><mi>γ</mi></mrow></math> dira; puntua ez da hiperbolikoa eta hurbilketa linealaren metodoak ez du ondoriorik ateratzeko aukerarik ematen."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "(8.78) sistemaren energia potentziala eta fase-espazioa <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>1</mn></mrow></math> kasurako",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/78ae84cfc375cac8.svg",
+     "zabalera": 275
     },
     {
      "mota": "ariketa",
@@ -714,12 +730,13 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "Baina, <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0</mn></mrow></math> bada, minimoen kasua (eta inflexio-puntuena eta goi-mailako muturrena <math display=\"inline\"><mi>γ</mi></math>-ren balio guztietarako) zati erreal maximo nulu bati dagokio eta horregatik hurbilketa linealaren azterketa ez da erabakigarria, sistema benetan lineala ez bada behintzat (osziladore harmoniko bat), kasu horretan minimoa zentro egonkorra baita, baina ez asintotikoki egonkorra. Kasu ez-hiperboliko hauek aztertzeko informazio gehiago behar dugu, zeina kasu honetan energia mekanikoak ematen digun, zeinaren kontserbazio-legea <math display=\"block\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>v</mi><mn>2</mn></msup><mo>+</mo><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>E</mi><mo>,</mo></mrow></math> (8.75)-etik ondorioztatzen den —edo (8.7)-tik, zeinak (8.72)–(8.73)-ri aplikatuta <math display=\"inline\"><mrow><mi>d</mi><mi>v</mi><mi>/</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><msup><mi>V</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mi>v</mi></mrow></math> ematen duen—. Denborarekiko independentea den lehen integral hau, sistema mekaniko kontserbatiboetan, fase-ibilbideen ekuazioa da, zeinak testuinguru zehatz honetan 8.6 atalean sartu genuen ideia —ekuazio hori egonkortasuna eztabaidatzeko erabiltzearena— garatzeko aukera ematen digun. Mutur baten ondoan, <math display=\"inline\"><mrow><msup><mi>V</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math>, potentziala bere Taylor-en garapen trunkatuaz hurbil dezakegu, <math display=\"inline\"><mrow><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≈</mo><mi>V</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>V</mi><mo>″</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>+</mo><mi>⋯</mi></mrow></math>. Ondorioz, ibilbidearen ekuazioa <math display=\"block\"><mrow><msup><mi>v</mi><mn>2</mn></msup><mo>+</mo><msup><mi>V</mi><mo>″</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>2</mn><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><mi>V</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>+</mo><mi>O</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>,</mo></mrow></math> izango da, zeina hiperbola baten ekuazioa den maximoetarako (<math display=\"inline\"><mrow><msup><mi>V</mi><mo>″</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&lt;</mo><mn>0</mn></mrow></math>), zeina haiek lepoak izatearen gertaerari dagokion, eta elipse batena minimoetarako (<math display=\"inline\"><mrow><msup><mi>V</mi><mo>″</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&gt;</mo><mn>0</mn></mrow></math>), zeinak hauek sistema mekaniko kontserbatibo orororako zentro egonkorrak izatea espero arazten duen<span class=\"j-oin\">[[29]-n aurki daiteke frogapen zorrotz bat, ibilbideak elipseak badira hurbilketa koadratikoan, benetako ibilbideak ere itxiak direla oreka-puntuaren ingurune batean. Gainera, emaitza hau, <strong>Lagrangeren teorema</strong> edo <strong>Lagrangeren printzipio</strong> izenez ezagutzen dena, modu zuzenean frogatuko da, testuinguru orokorrago batean, 8.8 atalean. Haren frogapen zorrotza Dirichleti zor zaiola dirudi. Ikus [18] erreferentzia.]</span>. Hain zuzen, minimo koadratiko baten oso ondoan energia potentziala parabola bat da, zeina osziladore harmoniko bati dagokion eta zeinaren fase-espazioa G.5 irudikoa den. Emaitza bera egiazta daiteke"
+     "html": "Baina, <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0</mn></mrow></math> bada, minimoen kasua (eta inflexio-puntuena eta goi-mailako muturrena <math display=\"inline\"><mi>γ</mi></math>-ren balio guztietarako) zati erreal maximo nulu bati dagokio eta horregatik hurbilketa linealaren azterketa ez da erabakigarria, sistema benetan lineala ez bada behintzat (osziladore harmoniko bat), kasu horretan minimoa zentro egonkorra baita, baina ez asintotikoki egonkorra. Kasu ez-hiperboliko hauek aztertzeko informazio gehiago behar dugu, zeina kasu honetan energia mekanikoak ematen digun, zeinaren kontserbazio-legea <math display=\"block\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>v</mi><mn>2</mn></msup><mo>+</mo><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>E</mi><mo>,</mo></mrow></math> (8.75)-etik ondorioztatzen den —edo (8.7)-tik, zeinak (8.72)–(8.73)-ri aplikatuta <math display=\"inline\"><mrow><mi>d</mi><mi>v</mi><mi>/</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><msup><mi>V</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mi>v</mi></mrow></math> ematen duen—. Denborarekiko independentea den lehen integral hau, sistema mekaniko kontserbatiboetan, fase-ibilbideen ekuazioa da, zeinak testuinguru zehatz honetan 8.6 atalean sartu genuen ideia —ekuazio hori egonkortasuna eztabaidatzeko erabiltzearena— garatzeko aukera ematen digun. Mutur baten ondoan, <math display=\"inline\"><mrow><msup><mi>V</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math>, potentziala bere Taylor-en garapen trunkatuaz hurbil dezakegu, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≈</mo><mi>V</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>V</mi><mo>″</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>+</mo><mi>⋯</mi></mrow></math></span>. Ondorioz, ibilbidearen ekuazioa <math display=\"block\"><mrow><msup><mi>v</mi><mn>2</mn></msup><mo>+</mo><msup><mi>V</mi><mo>″</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>2</mn><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><mi>V</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>+</mo><mi>O</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>,</mo></mrow></math> izango da, zeina hiperbola baten ekuazioa den maximoetarako (<math display=\"inline\"><mrow><msup><mi>V</mi><mo>″</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&lt;</mo><mn>0</mn></mrow></math>), zeina haiek lepoak izatearen gertaerari dagokion, eta elipse batena minimoetarako (<math display=\"inline\"><mrow><msup><mi>V</mi><mo>″</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&gt;</mo><mn>0</mn></mrow></math>), zeinak hauek sistema mekaniko kontserbatibo orororako zentro egonkorrak izatea espero arazten duen<span class=\"j-oin\">[[29]-n aurki daiteke frogapen zorrotz bat, ibilbideak elipseak badira hurbilketa koadratikoan, benetako ibilbideak ere itxiak direla oreka-puntuaren ingurune batean. Gainera, emaitza hau, <strong>Lagrangeren teorema</strong> edo <strong>Lagrangeren printzipio</strong> izenez ezagutzen dena, modu zuzenean frogatuko da, testuinguru orokorrago batean, 8.8 atalean. Haren frogapen zorrotza Dirichleti zor zaiola dirudi. Ikus [18] erreferentzia.]</span>. Hain zuzen, minimo koadratiko baten oso ondoan energia potentziala parabola bat da, zeina osziladore harmoniko bati dagokion eta zeinaren fase-espazioa G.5 irudikoa den. Emaitza bera egiazta daiteke"
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "Energia-diagrama minimo baten inguruan",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/0915d51515d27746.svg",
+     "zabalera": 259
     },
     {
      "mota": "testua",
@@ -730,9 +747,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "Inflexio-puntu baten kasuan, <math display=\"inline\"><mrow><msup><mi>V</mi><mo>‴</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math>, ordena bat urrunago joan behar da garapenean honako hau lortzeko <math display=\"block\"><mrow><msup><mi>v</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><msup><mi>V</mi><mo>‴</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup><mo>=</mo><mn>2</mn><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><mi>V</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>+</mo><mi>O</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>4</mn></msup><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>,</mo></mrow></math>"
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "(8.78) sistemaren energia potentziala eta fase-espazioa <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0</mn></mrow></math> kasurako",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/7954b9d2d3a20fad.svg",
+     "zabalera": 275
     },
     {
      "mota": "testua",
@@ -760,18 +778,20 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "Energia potentziala <math display=\"inline\"><mrow><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>θ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>m</mi><mi>g</mi><mi>l</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi mathvariant=\"normal\">cos</mi><mi>θ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> da eta minimo bat du <math display=\"inline\"><mrow><mi>θ</mi><mo>=</mo><mn>0</mn></mrow></math>-n eta maximo bat <math display=\"inline\"><mrow><mi>θ</mi><mo>=</mo><mi>±</mi><mi>π</mi></mrow></math>-n (beti <math display=\"inline\"><mrow><mi>−</mi><mi>π</mi><mo>≤</mo><mi>θ</mi><mo>≤</mo><mi>π</mi></mrow></math> hartuko dugu), 8.20 irudiaren goiko aldean erakusten den bezala."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "Goin-puntuaren barietate egonkorra eta ezegonkorra",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/b3a3bb7cd76e5d38.svg",
+     "zabalera": 275
     },
     {
      "mota": "testua",
      "html": "Marruskadurarik ez dagoenean, <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0</mn></mrow></math>, minimoa zentro egonkorra izango da, baina ez asintotikoki egonkorra, eta maximoa lepo ezegonkor bat, aldi berean barietate egonkorra eta ezegonkorra den lotura homokliniko batekin. Minimo koadratiko guztiekin bezala, <math display=\"inline\"><mrow><mi>θ</mi><mo>=</mo><mn>0</mn></mrow></math>-ren inguruan G.5 osziladore harmonikoaren fase-espazioa berreskuratzen dugu."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "Penduluaren energia potentziala eta fase-espazioa",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/07dd39741553c28f.svg",
+     "zabalera": 317
     },
     {
      "mota": "ariketa",
@@ -888,9 +908,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "Teoremaren funtsezko ideia energia-diagramekin egiten denaren orokortze zuzena da; baina, orain aldagai mendekoetako bat ez denez nahitaez bestearen deribatua, dimentsio gehigarri bat hartu beharko da kontuan. Suposa dezagun fase-ibilbide bat <math display=\"inline\"><mi>U</mi></math>-ren minimotik oso gertu hasten dela, 8.21 irudian erakusten den bezala. <math display=\"inline\"><mi>U</mi></math> hazten ez bada (haren deribatua positiboa ez delako) soluzioa ez da minimotik urrunduko eta oreka egonkorra izango da. <math display=\"inline\"><mi>U</mi></math> higiduraren konstante bat bada, batez beste ez da jatorrira hurbilduko ezta hartatik urrunduko ere: oreka egonkorra izango da, baina ez asintotikoki egonkorra. Deribatua negatiboa bada, <math display=\"inline\"><mi>U</mi></math> modu monotonoan txikituko da eta soluzioak oreka-punturantz joko du, zeina asintotikoki egonkorra izango baita. Deribatua positiboa bada, funtzioa haziko da eta soluzioa jatorritik urrunduko da, zeina ezegonkorra izango baita, hartatik oso gertu hasi bada ere."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "Fase-ibilbideak eta <math display=\"inline\"><mi>U</mi></math>-ren dagozkien balioen bilakaera.",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/a1f7ec39270b546f.svg",
+     "zabalera": 223
     },
     {
      "mota": "izenburua",
@@ -899,7 +920,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "Teoremaren frogapen zorrotza <math display=\"inline\"><mi>U</mi></math>-ren eta haren deribatuaren jarraitutasunean oinarritzen da. Lehen kasuan, frogatu behar dugu <math display=\"inline\"><mrow><mi>ε</mi><mo>&gt;</mo><mn>0</mn></mrow></math> bakoitzeko <math display=\"inline\"><mrow><mi>δ</mi><mo>&gt;</mo><mn>0</mn></mrow></math> bat dagoela, zeinaren hasierako baldintzak jatorrian zentratutako <math display=\"inline\"><mi>δ</mi></math> erradioko zirkuluaren barruan dauden <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> soluzio orok, <math display=\"inline\"><msub><mi>C</mi><mi>δ</mi></msub></math>, inoiz ez duen zeharkatzen <math display=\"inline\"><mi>ε</mi></math> erradioko zirkunferentzia kontzentrikoa, <math display=\"inline\"><msub><mi>C</mi><mi>ε</mi></msub></math>. <math display=\"inline\"><mi>U</mi></math> jarraitua eta positibo definitua denez, beheko borne positibo bat onartuko du <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mi>M</mi><mo>≤</mo><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>  <math display=\"inline\"><msub><mi>C</mi><mi>ε</mi></msub></math> zirkunferentzian zehar. Gainera, jatorrian nulua denez, haren inguruan <math display=\"inline\"><msub><mi>C</mi><mi>δ</mi></msub></math> zirkulu bat egongo da zeinaren barruan <math display=\"inline\"><mrow><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&lt;</mo><mi>M</mi></mrow></math>. Hasierako baldintza <math display=\"inline\"><msub><mi>C</mi><mi>δ</mi></msub></math>-ren barruan aukeratzen badugu, hasierako <math display=\"inline\"><mrow><mi>U</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mi>y</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> balioa <math display=\"inline\"><mi>M</mi></math> baino txikiagoa izango da eta soluzioan zeharreko deribatua negatiboa denez, <math display=\"inline\"><mi>U</mi></math> ez da hazten eta inoiz ez da <math display=\"inline\"><mi>M</mi></math>-ra iritsiko ezta <math display=\"inline\"><msub><mi>C</mi><mi>ε</mi></msub></math> zirkunferentzian hartzen dituen beste edozein baliotara ere, zeina, beraz, ez den lortuko. Ohartu inplizituki suposatzen dugula <math display=\"inline\"><msub><mi>C</mi><mi>ε</mi></msub></math>  <math display=\"inline\"><mi>U</mi></math>-ren definizio-eremuaren barruan dagoela; hala ez balitz aski litzateke hipotesi hori betetzen den bezain <math display=\"inline\"><mi>ε</mi></math> txiki baten <math display=\"inline\"><mi>δ</mi></math> esleitzea."
+     "html": "Teoremaren frogapen zorrotza <math display=\"inline\"><mi>U</mi></math>-ren eta haren deribatuaren jarraitutasunean oinarritzen da. Lehen kasuan, frogatu behar dugu <math display=\"inline\"><mrow><mi>ε</mi><mo>&gt;</mo><mn>0</mn></mrow></math> bakoitzeko <math display=\"inline\"><mrow><mi>δ</mi><mo>&gt;</mo><mn>0</mn></mrow></math> bat dagoela, zeinaren hasierako baldintzak jatorrian zentratutako <math display=\"inline\"><mi>δ</mi></math> erradioko zirkuluaren barruan dauden <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> soluzio orok, <math display=\"inline\"><msub><mi>C</mi><mi>δ</mi></msub></math>, inoiz ez duen zeharkatzen <math display=\"inline\"><mi>ε</mi></math> erradioko zirkunferentzia kontzentrikoa, <math display=\"inline\"><msub><mi>C</mi><mi>ε</mi></msub></math>. <math display=\"inline\"><mi>U</mi></math> jarraitua eta positibo definitua denez, beheko borne positibo bat onartuko du <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mi>M</mi><mo>≤</mo><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>  <math display=\"inline\"><msub><mi>C</mi><mi>ε</mi></msub></math> zirkunferentzian zehar. Gainera, jatorrian nulua denez, haren inguruan <math display=\"inline\"><msub><mi>C</mi><mi>δ</mi></msub></math> zirkulu bat egongo da zeinaren barruan <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&lt;</mo><mi>M</mi></mrow></math></span>. Hasierako baldintza <math display=\"inline\"><msub><mi>C</mi><mi>δ</mi></msub></math>-ren barruan aukeratzen badugu, hasierako <math display=\"inline\"><mrow><mi>U</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mi>y</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> balioa <math display=\"inline\"><mi>M</mi></math> baino txikiagoa izango da eta soluzioan zeharreko deribatua negatiboa denez, <math display=\"inline\"><mi>U</mi></math> ez da hazten eta inoiz ez da <math display=\"inline\"><mi>M</mi></math>-ra iritsiko ezta <math display=\"inline\"><msub><mi>C</mi><mi>ε</mi></msub></math> zirkunferentzian hartzen dituen beste edozein baliotara ere, zeina, beraz, ez den lortuko. Ohartu inplizituki suposatzen dugula <math display=\"inline\"><msub><mi>C</mi><mi>ε</mi></msub></math>  <math display=\"inline\"><mi>U</mi></math>-ren definizio-eremuaren barruan dagoela; hala ez balitz aski litzateke hipotesi hori betetzen den bezain <math display=\"inline\"><mi>ε</mi></math> txiki baten <math display=\"inline\"><mi>δ</mi></math> esleitzea."
     },
     {
      "mota": "testua",
@@ -907,7 +928,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mi>U</mi></math> positibo definitua denez, hirugarren kasuaren egonkortasun asintotikoa frogatzeko, aski izango da frogatzea <math display=\"inline\"><mrow><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>U</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>→</mo><mn>0</mn></mrow></math> dela <math display=\"inline\"><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></math> denean. Jatorritik kanpo <math display=\"inline\"><mi>U</mi></math> funtzioa beheranzkoa da, <math display=\"inline\"><mrow><mi>d</mi><mi>U</mi><mi>/</mi><mi>d</mi><mi>t</mi><mo>&lt;</mo><mn>0</mn></mrow></math> baita, eta beheko aldetik <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-n hartzen duen balio nuluak bornatzen du. Beraz, ez-negatiboa den limiteren baterantz jotzen du: <math display=\"inline\"><mrow><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≥</mo><mi>L</mi><mo>=</mo><msub><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></msub><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≥</mo><mn>0</mn></mrow></math>. Emaitza frogatzeko, absurdura eramanez jokatuko dugu <math display=\"inline\"><mrow><mi>L</mi><mo>&gt;</mo><mn>0</mn></mrow></math> dela suposatuz. <math display=\"inline\"><mrow><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> denez, jatorrian zentratutako <math display=\"inline\"><mrow><mi>η</mi><mo>&gt;</mo><mn>0</mn></mrow></math> erradioko zirkulu bat aurki dezakegu zeinaren barruan <math display=\"inline\"><mrow><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&lt;</mo><mi>L</mi></mrow></math>. <math display=\"inline\"><mrow><mi>d</mi><mi>U</mi><mi>/</mi><mi>d</mi><mi>t</mi></mrow></math> jarraitua eta negatibo definitua denez, goiko aldetik balio negatibo batek bornatzen du <math display=\"inline\"><mrow><mi>d</mi><mi>U</mi><mi>/</mi><mi>d</mi><mi>t</mi><mo>≤</mo><mi>−</mi><mi>K</mi><mo>&lt;</mo><mn>0</mn></mrow></math>  <math display=\"inline\"><mrow><mi>η</mi><mo>≤</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>≤</mo><mi>ε</mi></mrow></math> eraztunean, non soluzioa <math display=\"inline\"><mrow><mi>t</mi><mo>≥</mo><msub><mi>t</mi><mn>0</mn></msub></mrow></math> denerako oso-osorik dagoen lehen kasurako lehen frogatutako emaitzaren arabera. Beraz, <math display=\"block\"><mrow><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>U</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><msubsup><mo>∫</mo><msub><mi>t</mi><mn>0</mn></msub><mi>t</mi></msubsup><mfrac><mrow><mi>d</mi><mi>U</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mi>d</mi><mi>t</mi><mo>≤</mo><mi>U</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>K</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>→</mo><mi>−</mi><mi>∞</mi><mo>,</mo></mrow></math>"
+     "html": "<math display=\"block\"><mi>U</mi></math> positibo definitua denez, hirugarren kasuaren egonkortasun asintotikoa frogatzeko, aski izango da frogatzea <math display=\"inline\"><mrow><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>U</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>→</mo><mn>0</mn></mrow></math> dela <math display=\"inline\"><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></math> denean. Jatorritik kanpo <math display=\"inline\"><mi>U</mi></math> funtzioa beheranzkoa da, <math display=\"inline\"><mrow><mi>d</mi><mi>U</mi><mi>/</mi><mi>d</mi><mi>t</mi><mo>&lt;</mo><mn>0</mn></mrow></math> baita, eta beheko aldetik <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-n hartzen duen balio nuluak bornatzen du. Beraz, ez-negatiboa den limiteren baterantz jotzen du: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≥</mo><mi>L</mi><mo>=</mo><msub><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mrow><mi>t</mi><mo>→</mo><mi>∞</mi></mrow></msub><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≥</mo><mn>0</mn></mrow></math></span>. Emaitza frogatzeko, absurdura eramanez jokatuko dugu <math display=\"inline\"><mrow><mi>L</mi><mo>&gt;</mo><mn>0</mn></mrow></math> dela suposatuz. <math display=\"inline\"><mrow><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> denez, jatorrian zentratutako <math display=\"inline\"><mrow><mi>η</mi><mo>&gt;</mo><mn>0</mn></mrow></math> erradioko zirkulu bat aurki dezakegu zeinaren barruan <math display=\"inline\"><mrow><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&lt;</mo><mi>L</mi></mrow></math>. <math display=\"inline\"><mrow><mi>d</mi><mi>U</mi><mi>/</mi><mi>d</mi><mi>t</mi></mrow></math> jarraitua eta negatibo definitua denez, goiko aldetik balio negatibo batek bornatzen du <math display=\"inline\"><mrow><mi>d</mi><mi>U</mi><mi>/</mi><mi>d</mi><mi>t</mi><mo>≤</mo><mi>−</mi><mi>K</mi><mo>&lt;</mo><mn>0</mn></mrow></math>  <math display=\"inline\"><mrow><mi>η</mi><mo>≤</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>≤</mo><mi>ε</mi></mrow></math> eraztunean, non soluzioa <math display=\"inline\"><mrow><mi>t</mi><mo>≥</mo><msub><mi>t</mi><mn>0</mn></msub></mrow></math> denerako oso-osorik dagoen lehen kasurako lehen frogatutako emaitzaren arabera. Beraz, <math display=\"block\"><mrow><mi>U</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>U</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><msubsup><mo>∫</mo><msub><mi>t</mi><mn>0</mn></msub><mi>t</mi></msubsup><mfrac><mrow><mi>d</mi><mi>U</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mi>d</mi><mi>t</mi><mo>≤</mo><mi>U</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>K</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>→</mo><mi>−</mi><mi>∞</mi><mo>,</mo></mrow></math>"
     },
     {
      "mota": "testua",
@@ -940,9 +961,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "(8.94) sistemaren fase-espazioa.",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/616fa37255c372a2.svg",
+     "zabalera": 280
     },
     {
      "mota": "izenburua",
@@ -1014,7 +1036,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "Definizioz, sistema dinamiko kontserbatiboetan fase-espazioaren area kontserbatzen da. Beraz, sistema horietan fokuak eta adabegiak baztertuta daude, haien inguruan fase-espazioaren area hazi egiten baita ezegonkorrak direnean eta txikitu asintotikoki egonkorrak direnean. Mota honetako sistemen hurbilketa linealean <math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">tr </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"bold-italic\">𝑨</mi><mo>=</mo><mi>∂</mi><mi>P</mi><mi>/</mi><mi>∂</mi><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>∂</mi><mi>Q</mi><mi>/</mi><mi>∂</mi><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> denez, oreka-puntua honako kategorietako batekoa baino ezin da izan, bai hurbilketa linealean bai sistema osoan:"
+     "html": "Definizioz, sistema dinamiko kontserbatiboetan fase-espazioaren area kontserbatzen da. Beraz, sistema horietan fokuak eta adabegiak baztertuta daude, haien inguruan fase-espazioaren area hazi egiten baita ezegonkorrak direnean eta txikitu asintotikoki egonkorrak direnean. Mota honetako sistemen hurbilketa linealean <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">tr </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"bold-italic\">𝑨</mi><mo>=</mo><mi>∂</mi><mi>P</mi><mi>/</mi><mi>∂</mi><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>∂</mi><mi>Q</mi><mi>/</mi><mi>∂</mi><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math></span> denez, oreka-puntua honako kategorietako batekoa baino ezin da izan, bai hurbilketa linealean bai sistema osoan:"
     },
     {
      "mota": "zerrenda",
@@ -1047,9 +1069,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "(8.104) sistemaren fase-espazioa.",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/662a4f3249a7242b.svg",
+     "zabalera": 289
     },
     {
      "mota": "izenburua",
@@ -1092,9 +1115,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "Oreka-puntu ez-hiperboliko honen egonkortasuna aztertzeko sistemaren simetria erabiliko dugu; hain zuzen, (8.107) sistema aldaezina da denbora-inbertsioaren aurrean: <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>,</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>→</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>t</mi><mo>,</mo><mi>x</mi><mo>,</mo><mi>−</mi><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> aldaketa egiten badugu, sistemak berak ez du aldatzen. Beraz, fase-ibilbide bakoitzak «biki» bat du, zeina lehenengoaren <math display=\"inline\"><mi>x</mi></math> ardatzaren inguruko isladapena egin ondoren aurkako ibilbide-noranzkoa aukeratuz lortzen den. Argi dago foku baten inguruan fase-espazioak"
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "(8.107)-ren fase-ibilbide bat eta haren «bikia».",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/bd179ea3825071e0.svg",
+     "zabalera": 223
     },
     {
      "mota": "testua",
@@ -1151,13 +1175,14 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "(8.108)–(8.109)-ren fase-espazioa <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mi>−</mi><mn>0</mn><mo>,</mo><mn>01</mn></mrow></math> kasurako.",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/1a1ee700014b7ce5.svg",
+     "zabalera": 162
     },
     {
      "mota": "testua",
-     "html": "Bi bideetatik aurkitzen dugu jatorria asintotikoki egonkorra den foku bat dela <math display=\"inline\"><mrow><mi>λ</mi><mo>&lt;</mo><mn>0</mn></mrow></math> kasurako —8.25 irudian ikusten den bezala— eta foku ezegonkor bat <math display=\"inline\"><mrow><mi>λ</mi><mo>&gt;</mo><mn>0</mn></mrow></math> kasurako, hau da, bifurkazio bat gertatzen dela —<strong>Hopf-en bifurkazio</strong>(1894-11-19, Breslau, Alemania ---gaur Wrocław deitzen da eta Polonian dago---; 1971-06-03, Zollikon, Suitza). Bereziki topologia aljebraikoan lan egin zuen. Eremu bektorialak aztertu zituen eta kurbadura integralerako formula bat aurkitu zuen. Lefschetzen puntu finkoaren teorema ere hedatu zuen, homotopia-klaseak aztertu zituen eta bere izena daraman aldaezina definitu zuen. deitua— <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>0</mn></mrow></math> kasurako oreka-puntuaren egonkortasuna aldatzean."
+     "html": "Bi bideetatik aurkitzen dugu jatorria asintotikoki egonkorra den foku bat dela <math display=\"inline\"><mrow><mi>λ</mi><mo>&lt;</mo><mn>0</mn></mrow></math> kasurako —8.25 irudian ikusten den bezala— eta foku ezegonkor bat <math display=\"inline\"><mrow><mi>λ</mi><mo>&gt;</mo><mn>0</mn></mrow></math> kasurako, hau da, bifurkazio bat gertatzen dela —<strong>Hopf-en bifurkazio</strong><span class=\"j-oin\">[<strong>Heinz Hopf</strong> (1894-11-19, Breslau, Alemania —gaur Wrocław deitzen da eta Polonian dago—; 1971-06-03, Zollikon, Suitza). Bereziki topologia aljebraikoan lan egin zuen. Eremu bektorialak aztertu zituen eta kurbadura integralerako formula bat aurkitu zuen. Lefschetzen puntu finkoaren teorema ere hedatu zuen, homotopia-klaseak aztertu zituen eta bere izena daraman aldaezina definitu zuen.]</span> deitua— <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>0</mn></mrow></math> kasurako oreka-puntuaren egonkortasuna aldatzean."
     },
     {
      "mota": "ariketa",
@@ -1182,9 +1207,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "(8.110) ekuazioaren bifurkazio-diagrama.",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/8a00dfc0713b9b97.svg",
+     "zabalera": 155
     },
     {
      "mota": "testua",
@@ -1195,9 +1221,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "<math display=\"inline\"><mrow><mi>r</mi><mo>=</mo><msqrt><mi>λ</mi></msqrt></mrow></math> asintotikoki egonkorra denez, halaxe izango da <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mi>λ</mi></mrow></math> muga-zikloa ere, zeina dimentsio bakarreko erakarle bat izango den, 8.27 irudian ikusten den bezala."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "(8.108)–(8.109)-ren fase-espazioa <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>1</mn><mi>/</mi><mn>2</mn></mrow></math> kasurako.",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/59f03b2bcfcaac55.svg",
+     "zabalera": 211
     },
     {
      "mota": "ariketa",
@@ -1294,9 +1321,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "Muga-zikloaren adibide ez hain tribial bat 7. kapituluan ikusi genuen van der Pol-en osziladorea (7.35) aztertzean. Hura behatu dezakegu, harenganantz jotzen duten zenbait orbitarekin batera, 8.28 irudian <math display=\"inline\"><mi>ε</mi></math>-ren balio batetarako, zeina handiegia den 7.4.2 ataleko azterketa perturbatiboa zuzenean aplikagarria izan dadin: haren existentzia oraintxe ikusi dugun teorema erabiliz frogatzen da."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "van der Pol-en osziladorearen muga-zikloa <math display=\"inline\"><mrow><mi>ε</mi><mo>=</mo><mn>2</mn></mrow></math> kasurako.",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/2ce8bf863527fb29.svg",
+     "zabalera": 214
     },
     {
      "mota": "ariketa",
@@ -1326,7 +1354,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
    "blokeak": [
     {
      "mota": "problema",
-     "izena": "Verhulst-en ekuazioa(1804-10-28, Brusela; 1849-02-15, Brusela). Zenbakien teorian lanean hasi bazen ere, laster estatistika sozialaz interesatu zen, non populazioaren hazkunde-legeari buruzko ikerketa garrantzitsuak egin baitzituen, zeina lehenago geometrikoa zela uste baitzen. Bere izena daraman ekuazio ez-lineala proposatu eta aztertu zuen, zeinak populazio biologiko baten bilakaera deskribatzen duen.",
+     "izena": "Verhulst-en ekuazioa<span class=\"j-oin\">[<strong>Pierre François Verhulst</strong> (1804-10-28, Brusela; 1849-02-15, Brusela). Zenbakien teorian lanean hasi bazen ere, laster estatistika sozialaz interesatu zen, non populazioaren hazkunde-legeari buruzko ikerketa garrantzitsuak egin baitzituen, zeina lehenago geometrikoa zela uste baitzen. Bere izena daraman ekuazio ez-lineala proposatu eta aztertu zuen, zeinak populazio biologiko baten bilakaera deskribatzen duen.]</span>",
      "izar": 0,
      "blokeak": [
       {
@@ -1441,7 +1469,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mi>α</mi></math> parametroaren zein baliotarako da egonkorra honako sistemaren puntu finkoa <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>α</mi><mi>x</mi><mo>−</mo><mi>y</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>α</mi><mi>y</mi><mo>−</mo><mi>z</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mover><mi>z</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>α</mi><mi>z</mi><mo>−</mo><mi>x</mi><mi>?</mi></mrow></math>"
+       "html": "<math display=\"block\"><mi>α</mi></math> parametroaren zein baliotarako da egonkorra honako sistemaren puntu finkoa <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>α</mi><mi>x</mi><mo>−</mo><mi>y</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>α</mi><mi>y</mi><mo>−</mo><mi>z</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mover><mi>z</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>α</mi><mi>z</mi><mo>−</mo><mi>x</mi><mi>?</mi></mrow></math>"
       }
      ]
     },
@@ -1582,8 +1610,14 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
-     "izena": "ebazpen-oharra"
+     "mota": "oharra",
+     "titulua": "Bikoiztasuna koadernoan",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Problema hau bi aldiz agertzen da erabiltzailearen koadernoan (<code>metodoak/ebazpenak/e02_egonkortasuna.typ</code>-eko 18. ariketa, saio osoa, eta <code>metodoak/ebazpenak/e03_jarraipena.typ</code>-eko 31. ariketa, saio labur eten bat, non berak dio sistema bera 18. ariketan osorik dagoela); hemen saio osoa bakarrik txertatu da."
+      }
+     ]
     },
     {
      "mota": "ebazpena",
@@ -1668,8 +1702,8 @@ KAPITULUAK["03mm_03ezlinealak"] = {
        "html": "Egiaztatu espazioaren azpimultzo «normalak» (puntu bat, kurba edo gainazal leun bat, poliedro baten barrualdea…) estaltzeko <math display=\"inline\"><mi>ε</mi></math> aldeko <math display=\"inline\"><mrow><mi>N</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∼</mo><mi>k</mi><msup><mi>ε</mi><mrow><mi>−</mi><mi>d</mi></mrow></msup></mrow></math> kubo behar direla <math display=\"inline\"><mrow><mi>ε</mi><mo>→</mo><mn>0</mn></mrow></math> limitean, non <math display=\"inline\"><mi>d</mi></math> dimentsioa den (0, 1, 2 eta 3 aipatutako adibideetan). Frogatu emaitza hau honela idatz daitekeela"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>d</mi><mo>=</mo><mi>−</mi><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>ε</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>N</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>ε</mi></mrow></mfrac><mo>,</mo></mrow></math>"
       },
       {
        "mota": "testua",
@@ -1726,9 +1760,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "baten aurrean gaudela."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "Cantor-en hirutar multzoaren eraikuntza.",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/20a7981b04edfbae.svg",
+     "zabalera": 216
     },
     {
      "mota": "problema",
@@ -1740,12 +1775,12 @@ KAPITULUAK["03mm_03ezlinealak"] = {
        "html": "Gerra-garaietan Adriatikoko uretan marrazoen ugaritzea azaltzeko, Volterrak harrapari eta harrapakinaren eredu klasikoa sartu zuen elkarrekintzan dauden populazioen dinamika deskribatzeko. Eredu hau, unitate egokietan eta <math display=\"inline\"><mrow><mi>a</mi><mo>&gt;</mo><mn>0</mn></mrow></math> izanik, honela adieraz daiteke"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mtd></mtr></mtable></math>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mi>−</mi><mi>a</mi><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mtd></mtr></mtable></math>"
       },
       {
        "mota": "testua",
@@ -1754,9 +1789,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "Hari leun batean sartutako alea.",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/0e57762c181e857c.svg",
+     "zabalera": 167
     },
     {
      "mota": "problema",
@@ -1792,9 +1828,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "Fase-espazioa portu batetik gertu.",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/7db974f88cfaa447.svg",
+     "zabalera": 165
     },
     {
      "mota": "problema",
@@ -1822,7 +1859,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
       },
       {
        "mota": "testua",
-       "html": "(1822-03-11, Paris; 1900-04-05, Paris). Mekanikan bere izena daraman teoremaz gain, zenbakien teorian eta geometria diferentzialean egindako ekarpenak gogoratzen dira, baina bereziki ezaguna da probabilitateen teorian egindako lanengatik, non Bertrand-en paradoxa bat dagoen. ziurtatzen du hau, indarra zentrala bada, soilik potentzial newtondarretarako, <math display=\"inline\"><mrow><mi>V</mi><mo>=</mo><mi>−</mi><mi>k</mi><mi>/</mi><mi>r</mi></mrow></math>, eta harmoniko isotropoetarako, <math display=\"inline\"><mrow><mi>V</mi><mo>=</mo><mi>k</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></math>, gertatzen dela.)"
+       "html": "<span class=\"j-oin\">[<strong>Joseph Louis François Bertrand</strong> (1822-03-11, Paris; 1900-04-05, Paris). Mekanikan bere izena daraman teoremaz gain, zenbakien teorian eta geometria diferentzialean egindako ekarpenak gogoratzen dira, baina bereziki ezaguna da probabilitateen teorian egindako lanengatik, non Bertrand-en paradoxa bat dagoen.]</span> ziurtatzen du hau, indarra zentrala bada, soilik potentzial newtondarretarako, <math display=\"inline\"><mrow><mi>V</mi><mo>=</mo><mi>−</mi><mi>k</mi><mi>/</mi><mi>r</mi></mrow></math>, eta harmoniko isotropoetarako, <math display=\"inline\"><mrow><mi>V</mi><mo>=</mo><mi>k</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></math>, gertatzen dela.)"
       }
      ]
     },
@@ -1908,13 +1945,14 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "8.40 problemaren sistema.",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/f8c51a88d0fd2214.svg",
+     "zabalera": 173
     },
     {
      "mota": "problema",
-     "izena": "Orbitak Schwarzschild-en soluzioan(1873-10-09, Frankfurt am Main, Alemania; 1916-05-11, Potsdam, Alemania). Bere lehen lan zientifikoa (mekanika zerutiarrari buruzkoa) 16 urterekin argitaratu zuen. Astronomian eta astrofisikan lan egin zuen eta, beste gauza batzuen artean, izar-atmosferetako prozesu erradiatiboak ikertu zituen. Espektro atomikoen teoria kuantikoaren aitzindarietako bat da, baina, agian, ezagunagoa da Einsteinen ekuazioen lehen soluzio zehatza argitaratu zuelako. Gainera, soluzio hori garrantzitsuenetako bat da, izarrik sinpleenaren grabitazio-eremua deskribatzen baitu.",
+     "izena": "Orbitak Schwarzschild-en soluzioan<span class=\"j-oin\">[<strong>Karl Schwarzschild</strong> (1873-10-09, Frankfurt am Main, Alemania; 1916-05-11, Potsdam, Alemania). Bere lehen lan zientifikoa (mekanika zerutiarrari buruzkoa) 16 urterekin argitaratu zuen. Astronomian eta astrofisikan lan egin zuen eta, beste gauza batzuen artean, izar-atmosferetako prozesu erradiatiboak ikertu zituen. Espektro atomikoen teoria kuantikoaren aitzindarietako bat da, baina, agian, ezagunagoa da Einsteinen ekuazioen lehen soluzio zehatza argitaratu zuelako. Gainera, soluzio hori garrantzitsuenetako bat da, izarrik sinpleenaren grabitazio-eremua deskribatzen baitu.]</span>",
      "izar": 0,
      "blokeak": [
       {
@@ -1924,9 +1962,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "8.42 problemako <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> funtzioaren grafikoa.",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/393adb354e32e75f.svg",
+     "zabalera": 256
     },
     {
      "mota": "problema",
@@ -1951,8 +1990,14 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
-     "izena": "ebazpen-oharra"
+     "mota": "oharra",
+     "titulua": "Erabiltzailearen koadernoko problema gehigarriak",
+     "blokeak": [
+      {
+       "mota": "testua",
+       "html": "Jarraian, erabiltzailearen eskuzko koadernoko (<code>metodoak/ebazpenak/e01_serieak.typ</code>,  <code>e02_egonkortasuna.typ</code> eta <code>e03_jarraipena.typ</code>) sistema dinamiko eta egonkortasun-ariketa gehiago txertatzen dira, liburu ofizialean enuntziatu bereizirik ez dutenak."
+      }
+     ]
     },
     {
      "mota": "problema",
@@ -1971,7 +2016,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>  hartuta: <math display=\"inline\"><mrow><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn><mo>⇒</mo><mi>y</mi><mo>=</mo><mi>±</mi><mn>1</mn></mrow></math>. <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>  hartuta: <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn><mo>⇒</mo><mi>x</mi><mo>=</mo><mi>±</mi><mn>1</mn></mrow></math>. Beraz: <math display=\"block\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>P</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>P</mi><mn>3</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>P</mi><mn>4</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>  hartuta: <math display=\"inline\"><mrow><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn><mo>⇒</mo><mi>y</mi><mo>=</mo><mi>±</mi><mn>1</mn></mrow></math>. <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>  hartuta: <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn><mo>⇒</mo><mi>x</mi><mo>=</mo><mi>±</mi><mn>1</mn></mrow></math>. Beraz: <math display=\"block\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>P</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>P</mi><mn>3</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>P</mi><mn>4</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       },
       {
        "mota": "testua",
@@ -1979,7 +2024,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
       },
       {
        "mota": "testua",
-       "html": "<strong><math display=\"inline\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>:</strong>  <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>; <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mi>λ</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mi>λ</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msup><mi>λ</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>λ</mi><mo>=</mo><mi>±</mi><msqrt><mn>2</mn></msqrt></mrow></math>. Zela-puntua."
+       "html": "<strong><math display=\"inline\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>:</strong>  <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>; <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mi>λ</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mi>λ</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msup><mi>λ</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>λ</mi><mo>=</mo><mi>±</mi><msqrt><mn>2</mn></msqrt></mrow></math></span>. Zela-puntua."
       },
       {
        "mota": "testua",
@@ -2051,11 +2096,11 @@ KAPITULUAK["03mm_03ezlinealak"] = {
       },
       {
        "mota": "testua",
-       "html": "<strong><math display=\"inline\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>:</strong>  <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>; <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn><mo>−</mo><mi>λ</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mi>λ</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>−</mi><mi>λ</mi><mo>+</mo><msup><mi>λ</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>=</mo><mn>0</mn></mrow></math>, hau da <math display=\"block\"><mrow><mi>λ</mi><mo>=</mo><mfrac><mrow><mn>1</mn><mo>±</mo><msqrt><mrow><mn>1</mn><mo>−</mo><mn>4</mn></mrow></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn><mo>±</mo><msqrt><mn>3</mn></msqrt><mi>i</mi></mrow><mn>2</mn></mfrac></mrow></math> <math display=\"inline\"><mrow><mtext mathvariant=\"normal\">Re</mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>λ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&gt;</mo><mn>0</mn></mrow></math> denez, foku ezegonkorra: espirala kanporantz."
+       "html": "<strong><math display=\"inline\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>:</strong>  <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>; <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn><mo>−</mo><mi>λ</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mi>λ</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>−</mi><mi>λ</mi><mo>+</mo><msup><mi>λ</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>=</mo><mn>0</mn></mrow></math></span>, hau da <math display=\"block\"><mrow><mi>λ</mi><mo>=</mo><mfrac><mrow><mn>1</mn><mo>±</mo><msqrt><mrow><mn>1</mn><mo>−</mo><mn>4</mn></mrow></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn><mo>±</mo><msqrt><mn>3</mn></msqrt><mi>i</mi></mrow><mn>2</mn></mfrac></mrow></math> <math display=\"inline\"><mrow><mtext mathvariant=\"normal\">Re</mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>λ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&gt;</mo><mn>0</mn></mrow></math> denez, foku ezegonkorra: espirala kanporantz."
       },
       {
        "mota": "testua",
-       "html": "<strong><math display=\"inline\"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>:</strong>  <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>; <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn><mo>−</mo><mi>λ</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn><mo>−</mo><mi>λ</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>−</mi><mn>1</mn><mo>−</mo><mi>λ</mi><mo>+</mo><mi>λ</mi><mo>+</mo><msup><mi>λ</mi><mn>2</mn></msup><mo>=</mo><msup><mi>λ</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>λ</mi><mo>=</mo><mi>±</mi><mn>1</mn></mrow></math>. Zela-puntua."
+       "html": "<strong><math display=\"inline\"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>:</strong>  <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>; <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn><mo>−</mo><mi>λ</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn><mo>−</mo><mi>λ</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>−</mi><mn>1</mn><mo>−</mo><mi>λ</mi><mo>+</mo><mi>λ</mi><mo>+</mo><msup><mi>λ</mi><mn>2</mn></msup><mo>=</mo><msup><mi>λ</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>λ</mi><mo>=</mo><mi>±</mi><mn>1</mn></mrow></math></span>. Zela-puntua."
       },
       {
        "mota": "testua",
@@ -2113,8 +2158,14 @@ KAPITULUAK["03mm_03ezlinealak"] = {
        "html": "<strong>Puntu kritikoak.</strong>  <math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>; <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math>  ekuaziotik: <math display=\"block\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>λ</mi><mo>→</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> zela-puntua</mtext></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>x</mi><mo>=</mo><mfrac><mi>λ</mi><mn>2</mn></mfrac><mo>→</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> zentroa </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math> Zentroa sistema osoaren zentroa ere bada, simetria dagoelako: <math display=\"inline\"><mrow><mi>y</mi><mo>→</mo><mi>−</mi><mi>y</mi></mrow></math>, <math display=\"inline\"><mrow><mi>t</mi><mo>→</mo><mi>−</mi><mi>t</mi></mrow></math>."
       },
       {
-       "mota": "ezezaguna",
-       "izena": "ebazpen-oharra"
+       "mota": "oharra",
+       "titulua": "Oharra",
+       "blokeak": [
+        {
+         "mota": "testua",
+         "html": "Kontuz: <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn><mi>λ</mi></mrow></math> puntuan <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>∞</mi></mrow></math>, puntu irregularra da; bertan potentziala eta fluxua singularrak dira."
+        }
+       ]
       },
       {
        "mota": "testua",
@@ -2143,15 +2194,15 @@ KAPITULUAK["03mm_03ezlinealak"] = {
       },
       {
        "mota": "testua",
-       "html": "<strong><math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>:</strong>  <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>; <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn><mo>−</mo><mi>λ</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn><mo>−</mo><mi>λ</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>λ</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>⇒</mo><mi>λ</mi><mo>=</mo><mn>1</mn></mrow></math>  (bikoitza). Bektore propio bakarra: <math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>a</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>b</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⇒</mo><mi>a</mi><mo>=</mo><mn>0</mn><mo>⇒</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> Baldintza bat, norabide bat: nodo endekatua, ezegonkorra."
+       "html": "<strong><math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>:</strong>  <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>; <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn><mo>−</mo><mi>λ</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn><mo>−</mo><mi>λ</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>λ</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>⇒</mo><mi>λ</mi><mo>=</mo><mn>1</mn></mrow></math></span>  (bikoitza). Bektore propio bakarra: <math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>a</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>b</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⇒</mo><mi>a</mi><mo>=</mo><mn>0</mn><mo>⇒</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> Baldintza bat, norabide bat: nodo endekatua, ezegonkorra."
       },
       {
        "mota": "testua",
-       "html": "<strong><math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>:</strong>  <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>; <math display=\"inline\"><mrow><mn>0</mn><mo>=</mo><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn><mo>−</mo><mi>λ</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn><mo>−</mo><mi>λ</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>λ</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⇒</mo><mi>λ</mi><mo>=</mo><mi>±</mi><mn>1</mn></mrow></math>. Zela-puntua."
+       "html": "<strong><math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>:</strong>  <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>; <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mn>0</mn><mo>=</mo><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn><mo>−</mo><mi>λ</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn><mo>−</mo><mi>λ</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>λ</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⇒</mo><mi>λ</mi><mo>=</mo><mi>±</mi><mn>1</mn></mrow></math></span>. Zela-puntua."
       },
       {
        "mota": "testua",
-       "html": "Bektore propioak: <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>1</mn></mrow></math>: <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>a</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>b</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⇒</mo><mi>a</mi><mo>=</mo><mn>2</mn><mi>b</mi><mo>⇒</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>; <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math>: <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>a</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>b</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⇒</mo><mi>a</mi><mo>=</mo><mn>0</mn><mo>⇒</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>."
+       "html": "Bektore propioak: <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>1</mn></mrow></math>: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>a</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>b</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⇒</mo><mi>a</mi><mo>=</mo><mn>2</mn><mi>b</mi><mo>⇒</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>; <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math>: <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>a</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>b</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⇒</mo><mi>a</mi><mo>=</mo><mn>0</mn><mo>⇒</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>."
       },
       {
        "mota": "testua",
@@ -2225,8 +2276,14 @@ KAPITULUAK["03mm_03ezlinealak"] = {
        "html": "<strong><math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>:</strong>  <math display=\"inline\"><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>12</mn><mo>−</mo><mn>16</mn><mo>+</mo><mn>1</mn><mo>=</mo><mi>−</mi><mn>3</mn></mrow></math>, hots <math display=\"inline\"><mrow><msup><mi>λ</mi><mn>2</mn></msup><mo>=</mo><mi>−</mi><mn>15</mn></mrow></math>, <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mi>±</mi><mi>i</mi><msqrt><mn>15</mn></msqrt></mrow></math>: sistema linealaren zentroa. Sistema osoan ere zentroa da, simetriagatik (<math display=\"inline\"><mrow><mi>y</mi><mo>→</mo><mi>−</mi><mi>y</mi></mrow></math>, <math display=\"inline\"><mrow><mi>t</mi><mo>→</mo><mi>−</mi><mi>t</mi></mrow></math>)."
       },
       {
-       "mota": "ezezaguna",
-       "izena": "ebazpen-oharra"
+       "mota": "oharra",
+       "titulua": "Oharra",
+       "blokeak": [
+        {
+         "mota": "testua",
+         "html": "Puntuek energia bera ez badute, ez dute ibilbide (separatriz) bera partekatzen: hemen bi zelek <math display=\"inline\"><mi>V</mi></math> balio desberdinak dituzte, eta separatrizak bereizita daude."
+        }
+       ]
       },
       {
        "mota": "testua",
@@ -2247,7 +2304,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "ebazpena": [
       {
        "mota": "testua",
-       "html": "<strong>Puntu kritikoak.</strong>  <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>⇒</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>=</mo><mn>1</mn><mo>⇒</mo><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> edo <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>2</mn></mrow></math>; berdin <math display=\"inline\"><mi>y</mi></math>-rentzat. Lau puntu: <math display=\"block\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>P</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>P</mi><mn>3</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>P</mi><mn>4</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo>,</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       "html": "<strong>Puntu kritikoak.</strong>  <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>⇒</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>=</mo><mn>1</mn><mo>⇒</mo><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math></span> edo <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>2</mn></mrow></math>; berdin <math display=\"inline\"><mi>y</mi></math>-rentzat. Lau puntu: <math display=\"block\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>P</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>P</mi><mn>3</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>P</mi><mn>4</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo>,</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       },
       {
        "mota": "testua",
@@ -2295,11 +2352,17 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "ebazpena": [
       {
        "mota": "testua",
-       "html": "<strong>Puntu kritikoak.</strong>  <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>+</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>: <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> bada, <math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>=</mo><mi>−</mi><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>⇒</mo><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><msub><mi>P</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Bestela <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math> eginda, batuketaz <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>, <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>±</mi><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></mrow></math>: <math display=\"block\"><mrow><msub><mi>P</mi><mn>3</mn></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>,</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>P</mi><mn>4</mn></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>,</mo><mi>−</mi><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+       "html": "<strong>Puntu kritikoak.</strong>  <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>+</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>: <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> bada, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>=</mo><mi>−</mi><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>⇒</mo><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><msub><mi>P</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>. Bestela <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math> eginda, batuketaz <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>, <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>±</mi><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></mrow></math>: <math display=\"block\"><mrow><msub><mi>P</mi><mn>3</mn></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>,</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>P</mi><mn>4</mn></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>,</mo><mi>−</mi><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "ebazpen-oharra"
+       "mota": "oharra",
+       "titulua": "Oharra",
+       "blokeak": [
+        {
+         "mota": "testua",
+         "html": "<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> zuzenean <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math>: ardatz horizontala multzo aldaezina da (ibilbideek ezin dute zeharkatu)."
+        }
+       ]
       },
       {
        "mota": "testua",
@@ -2315,7 +2378,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
       },
       {
        "mota": "testua",
-       "html": "<strong><math display=\"inline\"><mrow><msub><mi>P</mi><mn>3</mn></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>,</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>:</strong>  <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msqrt><mn>3</mn></msqrt></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msqrt><mn>3</mn></msqrt></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math>; <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo>−</mo><mi>λ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>λ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mn>3</mn><mo>=</mo><msup><mi>λ</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>λ</mi><mo>−</mo><mn>3</mn><mo>=</mo><mn>0</mn><mo>⇒</mo><msub><mi>λ</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn><mo>,</mo><msub><mi>λ</mi><mn>2</mn></msub><mo>=</mo><mi>−</mi><mn>3</mn></mrow></math>: zela-puntua ere."
+       "html": "<strong><math display=\"inline\"><mrow><msub><mi>P</mi><mn>3</mn></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>,</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>:</strong>  <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msqrt><mn>3</mn></msqrt></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msqrt><mn>3</mn></msqrt></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math>; <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo>−</mo><mi>λ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>λ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mn>3</mn><mo>=</mo><msup><mi>λ</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>λ</mi><mo>−</mo><mn>3</mn><mo>=</mo><mn>0</mn><mo>⇒</mo><msub><mi>λ</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn><mo>,</mo><msub><mi>λ</mi><mn>2</mn></msub><mo>=</mo><mi>−</mi><mn>3</mn></mrow></math></span>: zela-puntua ere."
       },
       {
        "mota": "testua",
@@ -2391,11 +2454,11 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "ebazpena": [
       {
        "mota": "testua",
-       "html": "<strong>Puntu kritikoak.</strong>  <math display=\"inline\"><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>  (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>≥</mo><mn>1</mn></mrow></math> beti). Eta <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>y</mi><mo>=</mo><mn>0</mn><mo>⇒</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>y</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>: <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn><mo>⇒</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>; <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>⇒</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>."
+       "html": "<strong>Puntu kritikoak.</strong>  <math display=\"inline\"><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>  (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>≥</mo><mn>1</mn></mrow></math> beti). Eta <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>y</mi><mo>=</mo><mn>0</mn><mo>⇒</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>y</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math></span>: <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn><mo>⇒</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>; <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>⇒</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>."
       },
       {
        "mota": "testua",
-       "html": "<strong>Jacobiarra</strong>  (<math display=\"inline\"><mrow><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>y</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>y</mi></mrow></math> eta <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>y</mi><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>y</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>y</mi></mrow></math> erabilita): <math display=\"block\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>y</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>y</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mi>x</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+       "html": "<strong>Jacobiarra</strong>  (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>y</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>y</mi></mrow></math></span> eta <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>y</mi><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>y</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>y</mi></mrow></math></span> erabilita): <math display=\"block\"><mrow><mi>A</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>y</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>y</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mi>x</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
       },
       {
        "mota": "testua",
@@ -2462,8 +2525,14 @@ KAPITULUAK["03mm_03ezlinealak"] = {
        "html": "<strong>Nulklinak.</strong>  <math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math>: <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math> zuzenak; <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math>: <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math>. Fase-erretratuan: jatorritik izar gisa irteten diren ibilbideak, eta <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-eko zela diagonaleko separatrizekin."
       },
       {
-       "mota": "ezezaguna",
-       "izena": "ebazpen-oharra"
+       "mota": "oharra",
+       "titulua": "Oharra",
+       "blokeak": [
+        {
+         "mota": "testua",
+         "html": "Konparaziorako: sistema linealak <math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>y</mi><mo>−</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>−</mi><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math> puntu bera du <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-en baina <math display=\"inline\"><mrow><msup><mi>λ</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>λ</mi><mo>=</mo><mi>±</mi><mi>i</mi></mrow></math>, zentroa: gai ez-linealek erabat aldatzen dute izaera."
+        }
+       ]
       },
       {
        "mota": "kutxa",
@@ -2545,8 +2614,14 @@ KAPITULUAK["03mm_03ezlinealak"] = {
        ]
       },
       {
-       "mota": "ezezaguna",
-       "izena": "ebazpen-oharra"
+       "mota": "oharra",
+       "titulua": "Oharra",
+       "blokeak": [
+        {
+         "mota": "testua",
+         "html": "Puntuak koadroan kokatu daitezke, baina hemen ez da osatzen puntu bakoitzeko egonkortasun-azterketa (Jacobiarra puntuoetan)."
+        }
+       ]
       }
      ]
     },
@@ -2609,8 +2684,14 @@ KAPITULUAK["03mm_03ezlinealak"] = {
        "html": "Fase-erretratua: bi zelak diagonalean, bi zentroak orbita itxiz inguratuta separatriz-koniken barruan."
       },
       {
-       "mota": "ezezaguna",
-       "izena": "ebazpen-oharra"
+       "mota": "oharra",
+       "titulua": "Oharra",
+       "blokeak": [
+        {
+         "mota": "testua",
+         "html": "Sistema honen puntu kritikoak eta Jacobiarra saio labur batean ere aztertu ziren (<code>e01_serieak.typ</code>-eko 9. ariketa), lehen integralik gabe; hemen (<code>e02_egonkortasuna.typ</code>-eko 22. ariketa) azterketa osoa dago, eta hau da hemen txertatu dena."
+        }
+       ]
       }
      ]
     },
@@ -2702,8 +2783,14 @@ KAPITULUAK["03mm_03ezlinealak"] = {
        "html": "<strong><math display=\"inline\"><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover></math>-ren zeinua.</strong>  <math display=\"inline\"><mrow><mi>−</mi><mi>y</mi><mo>+</mo><mn>2</mn><mi>x</mi><mi>y</mi><mo>=</mo><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> zuzenak <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>  dira: <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math> zuzen bertikalak planoa lau eskualdetan banatzen du, geziak eremuka jarrita."
       },
       {
-       "mota": "ezezaguna",
-       "izena": "ebazpen-oharra"
+       "mota": "oharra",
+       "titulua": "Oharra",
+       "blokeak": [
+        {
+         "mota": "testua",
+         "html": "Trantsizioetan geziak etenik gabe lotu behar dira: <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math> zuzena ez da orbita, zeinu-aldaketaren marra baino ez."
+        }
+       ]
       },
       {
        "mota": "kutxa",
@@ -2761,8 +2848,14 @@ KAPITULUAK["03mm_03ezlinealak"] = {
        ]
       },
       {
-       "mota": "ezezaguna",
-       "izena": "ebazpen-oharra"
+       "mota": "oharra",
+       "titulua": "Oharra",
+       "blokeak": [
+        {
+         "mota": "testua",
+         "html": "Aldaera baterako (<math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>x</mi><mo>−</mo><msup><mi>y</mi><mn>3</mn></msup></mrow></math>) ere balio du arrazoiketa berak: nahikoa da <math display=\"inline\"><mi>y</mi></math>-ren berretura bakoitia izatea simetriak iraun dezan."
+        }
+       ]
       }
      ]
     },
@@ -2922,12 +3015,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
    "izenburua": "Fase-erretratua (adibidea)",
    "blokeak": [
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Adibidearen fase-erretratu zehatza (streamplot): jatorria <strong>nodo egonkorra</strong> (<math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mi>−</mi><mn>1</mn><mi>/</mi><mn>2</mn><mo>,</mo><mi>−</mi><mn>2</mn></mrow></math>). Berdez autobektore-norabideak: <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> (motela, <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>−</mi><mi>x</mi><mi>/</mi><mn>2</mn></mrow></math>) eta <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> (azkarra, <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>x</mi></mrow></math>). Orbitak jatorrira erakartzen dira, norabide motelari ukituz. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/1b996a7049eb8fc8.svg",
+     "zabalera": 564
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala). <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/7b4bebed0ea7a368.svg",
+     "zabalera": 335
     },
     {
      "mota": "testua",
@@ -3012,12 +3109,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "testua": "Fase-erretratua (ADB 2)"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "ADB 2ren fase-erretratu zehatza (streamplot): jatorria <strong>nodo ezegonkorra</strong> (<math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>2</mn><mo>,</mo><mn>1</mn><mi>/</mi><mn>2</mn></mrow></math>). Berdez autobektore-norabideak: <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn><mi>/</mi><mn>3</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> (azkarra, malda <math display=\"inline\"><mrow><mi>−</mi><mn>3</mn></mrow></math>) eta <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn><mi>/</mi><mn>3</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> (motela, malda <math display=\"inline\"><mrow><mi>−</mi><mn>3</mn><mi>/</mi><mn>2</mn></mrow></math>; zuzendua). Orbitak jatorritik norabide motelari ukituz irteten dira. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/f950fa8df1ddda68.svg",
+     "zabalera": 564
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala), ADB 2. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/c121a7294b5f40fa.svg",
+     "zabalera": 335
     },
     {
      "mota": "oharra",
@@ -3084,12 +3185,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "testua": "Fase-erretratua"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Fase-erretratu zehatza (streamplot). <math display=\"inline\"><mrow><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mi>B</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> <strong>zelak</strong>. <math display=\"inline\"><mi>x</mi></math> ardatza aldaezina da (<math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>): lotura heteroklinoa <math display=\"inline\"><mrow><mi>A</mi><mo>→</mo><mi>B</mi></mrow></math>. Sistema Hamiltondarra (dibergentzia nulua); orbitak <math display=\"inline\"><mrow><mi>H</mi><mo>=</mo><mi>x</mi><mi>y</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mi>y</mi><mo>+</mo><msup><mi>y</mi><mn>3</mn></msup><mi>/</mi><mn>3</mn></mrow></math>-ren maila-kurbak dira. Etenezko lerroak: <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math> (<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn><mi>/</mi><mn>2</mn></mrow></math>). <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/f8c3b29662693446.svg",
+     "zabalera": 564
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala). <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/bb4e5d471f99a2e3.svg",
+     "zabalera": 335
     },
     {
      "mota": "testua",
@@ -3139,7 +3244,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
       ],
       [
        "<math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0</mn></mrow></math> (2.3)",
-       "<strong>zentroa</strong>: orbita itxiak, <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>x</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>y</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mover><mi>A</mi><mo accent=\"true\">̃</mo></mover><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mrow><mtext mathvariant=\"normal\">c </mtext><mspace width=\"0.333em\"></mspace></mrow></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi><mo>+</mo><mover><mi>B</mi><mo accent=\"true\">̃</mo></mover><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mrow><mtext mathvariant=\"normal\">s </mtext><mspace width=\"0.333em\"></mspace></mrow></msub><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi></mrow></math>"
+       "<strong>zentroa</strong>: orbita itxiak, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>x</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>y</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mover><mi>A</mi><mo accent=\"true\">̃</mo></mover><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mrow><mtext mathvariant=\"normal\">c </mtext><mspace width=\"0.333em\"></mspace></mrow></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi><mo>+</mo><mover><mi>B</mi><mo accent=\"true\">̃</mo></mover><msub><mover><mi>v</mi><mo accent=\"true\">→</mo></mover><mrow><mtext mathvariant=\"normal\">s </mtext><mspace width=\"0.333em\"></mspace></mrow></msub><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi></mrow></math></span>"
       ]
      ]
     },
@@ -3158,12 +3263,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "testua": "Fase-erretratua (adibidea)"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Adibidearen fase-erretratu zehatza (streamplot): <math display=\"inline\"><mrow><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> <strong>zentroa</strong>, orbita itxiez inguratua (itzulgarritasunez benetakoa). Urrunago, <math display=\"inline\"><msup><mi>y</mi><mn>2</mn></msup></math> gaiak orbitak irekitzen ditu. Etenezko lerroa: <math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math> (<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>); <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math> nulklina <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></math> parabola da. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/9baecea56fde216c.svg",
+     "zabalera": 564
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala). <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/c01bdbeb46b87498.svg",
+     "zabalera": 335
     },
     {
      "mota": "testua",
@@ -3199,7 +3308,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mtext mathvariant=\"normal\">tr</mtext><mo>=</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mo>=</mo><mi>−</mi><mn>2</mn><mo>→</mo><msup><mi>λ</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mo>=</mo><mn>0</mn><mo>→</mo><mi>λ</mi><mo>=</mo><mi>±</mi><msqrt><mn>2</mn></msqrt></mrow></math> (zeinu aurkakoak <math display=\"inline\"><mo>→</mo></math> <strong>zela</strong>)."
+     "html": "<math display=\"inline\"><mrow><mtext mathvariant=\"normal\">tr</mtext><mo>=</mo><mn>0</mn></mrow></math>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">det</mi><mo>&#8289;</mo></mrow><mo>=</mo><mi>−</mi><mn>2</mn><mo>→</mo><msup><mi>λ</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mo>=</mo><mn>0</mn><mo>→</mo><mi>λ</mi><mo>=</mo><mi>±</mi><msqrt><mn>2</mn></msqrt></mrow></math></span> (zeinu aurkakoak <math display=\"inline\"><mo>→</mo></math> <strong>zela</strong>)."
     },
     {
      "mota": "taula",
@@ -3234,12 +3343,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "testua": "Fase-erretratua (adibidea)"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Adibidearen fase-erretratu zehatza (streamplot): jatorria <strong>zela</strong> (<math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mi>±</mi><msqrt><mn>2</mn></msqrt></mrow></math>). Berdez autobektore-norabideak: <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn><mo>−</mo><msqrt><mn>2</mn></msqrt></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> (ezegonkorra, malda <math display=\"inline\"><mrow><mi>−</mi><mn>2.41</mn></mrow></math>) eta <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn><mo>+</mo><msqrt><mn>2</mn></msqrt></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> (egonkorra, malda <math display=\"inline\"><mn>0.41</mn></math>). <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/e342d395d41ce3ae.svg",
+     "zabalera": 564
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala). <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/f3052fcceef69c53.svg",
+     "zabalera": 335
     },
     {
      "mota": "izenburua",
@@ -3338,8 +3451,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "testua": "Fase-erretratua"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Sistemaren fase-erretratu zehatza (streamplot; = <code>METMATCG01_0148</code>): <math display=\"inline\"><mrow><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mi>B</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> <strong>zelak</strong>, <math display=\"inline\"><mi>x</mi></math> ardatza aldaezina (lotura heteroklinoa <math display=\"inline\"><mrow><mi>A</mi><mo>→</mo><mi>B</mi></mrow></math>), <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn><mi>/</mi><mn>2</mn></mrow></math>-rekiko simetrikoa. Marraztutako eskuizkribu-erretratuaren bertsio zehatza. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/f8c3b29662693446.svg",
+     "zabalera": 564
     },
     {
      "mota": "testua",
@@ -3424,12 +3539,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "testua": "Fase-erretratua: 3.2 nodo endekatua (adibide argigarria)"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Nodo endekatuaren (inpropioa) adibide argigarria: <math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>−</mi><mi>x</mi><mo>+</mo><mi>y</mi></mrow></math>, <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>−</mi><mi>y</mi></mrow></math>, <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math> bikoitza, autobektore bakarra <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math>. Orbita guztiak jatorrira erakartzen dira, autobektore bakarrari (<math display=\"inline\"><mi>x</mi></math> ardatza) ukituz, biraketa-itxura batez. <em>Irudi editoriala (kasu 3.2).</em>",
+     "src": "media/irudiak/d184f6e539bf25a3.svg",
+     "zabalera": 564
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala), nodo endekatua. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/998bafe289ee6f0e.svg",
+     "zabalera": 335
     },
     {
      "mota": "testua",
@@ -3473,7 +3592,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>x</mi><mo>=</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> edo </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>y</mi><mo>=</mo><mn>1</mn><mo>−</mo><mi>x</mi></mrow></math>;   <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>y</mi><mo>=</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> edo </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>y</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mo>−</mo><mi>x</mi></mrow><mn>2</mn></mfrac></mrow></math>. Ebakiduretatik <strong>lau oreka</strong>: <math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math> (Barrukoa: <math display=\"inline\"><mrow><mn>1</mn><mo>−</mo><mi>x</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mo>−</mo><mi>x</mi></mrow><mn>2</mn></mfrac><mo>→</mo><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>→</mo><mi>x</mi><mo>=</mo><mi>−</mi><mn>1</mn><mo>,</mo><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math>.)"
+     "html": "<math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>x</mi><mo>=</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> edo </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>y</mi><mo>=</mo><mn>1</mn><mo>−</mo><mi>x</mi></mrow></math>;   <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>y</mi><mo>=</mo><mn>0</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> edo </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>y</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mo>−</mo><mi>x</mi></mrow><mn>2</mn></mfrac></mrow></math>. Ebakiduretatik <strong>lau oreka</strong>: <math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math> (Barrukoa: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mn>1</mn><mo>−</mo><mi>x</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mo>−</mo><mi>x</mi></mrow><mn>2</mn></mfrac><mo>→</mo><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>→</mo><mi>x</mi><mo>=</mo><mi>−</mi><mn>1</mn><mo>,</mo><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math></span>.)"
     },
     {
      "mota": "izenburua",
@@ -3534,12 +3653,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "testua": "Fase-erretratua (leiho zabala)"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremua (streamplot, kolorea <math display=\"inline\"><mrow><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math>) leiho <strong>zabalean</strong> (<math display=\"inline\"><mrow><mi>x</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>2.8</mn><mo>,</mo><mn>2.8</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>, <math display=\"inline\"><mrow><mi>y</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>1.8</mn><mo>,</mo><mn>3.6</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>), oreka-puntuez haratago egitura globala erakusteko. Karratu gorriak = zelak <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>; triangelu berdeak = nodoak <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> ezegonkorra eta <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> egonkorra. Marra etenak: <math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math> nulklinak (<math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>1</mn><mo>−</mo><mi>x</mi></mrow></math>) eta <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math> nulklinak (<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mo>−</mo><mi>x</mi></mrow><mn>2</mn></mfrac></mrow></math>). <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/48b5944d39ef2f73.svg",
+     "zabalera": 590
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala, normalizatua) leiho berean. Geziek fluxuaren norabidea ematen dute puntuz puntu; markatzaileak oreka-moten arabera. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/8c91fffc39e93805.svg",
+     "zabalera": 335
     },
     {
      "mota": "testua",
@@ -3588,7 +3711,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "Garatuz <math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mi>y</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mi>y</mi><mo>−</mo><mi>x</mi><mo>−</mo><mi>y</mi></mrow></math>, beraz <math display=\"block\"><mrow><mi>J</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>−</mo><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>−</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math> (<math display=\"inline\"><mrow><mi>∂</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><mi>∂</mi><mi>x</mi><mo>=</mo><mi>∂</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><mi>∂</mi><mi>y</mi><mo>=</mo><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover></math> <math display=\"inline\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></math>-ren mende soilik baitago.)"
+     "html": "Garatuz <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mi>y</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mi>y</mi><mo>−</mo><mi>x</mi><mo>−</mo><mi>y</mi></mrow></math></span>, beraz <math display=\"block\"><mrow><mi>J</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>−</mo><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>−</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math> (<math display=\"inline\"><mrow><mi>∂</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><mi>∂</mi><mi>x</mi><mo>=</mo><mi>∂</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><mi>∂</mi><mi>y</mi><mo>=</mo><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover></math> <math display=\"inline\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></math>-ren mende soilik baitago.)"
     },
     {
      "mota": "taula",
@@ -3626,12 +3749,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "testua": "Fase-erretratua (leiho zabala)"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremua (streamplot, kolorea <math display=\"inline\"><mrow><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math>) leiho <strong>zabalean</strong> (<math display=\"inline\"><mrow><mi>x</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>2.5</mn><mo>,</mo><mn>2.5</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>, <math display=\"inline\"><mrow><mi>y</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>2</mn><mo>,</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>). Diamante laranja = <strong>foku egonkorra</strong> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> (kiribila barrura); karratu gorria = <strong>zela</strong> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Marra etena urdina: <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math> nulklina (<math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>); marra berdeak: <math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math> nulklinak (<math display=\"inline\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math>). Fokuaren kiribila eta zelaren adarrak argi ikusten dira. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/9dde7c28c199de77.svg",
+     "zabalera": 590
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala, normalizatua) leiho berean. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/4d8d804496da0f92.svg",
+     "zabalera": 335
     },
     {
      "mota": "testua",
@@ -3689,8 +3816,8 @@ KAPITULUAK["03mm_03ezlinealak"] = {
       ],
       [
        "c) 2D trig.",
-       "<math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi></mrow></math>, <br> <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi><mo>−</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>",
-       "<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>: <br> <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>m</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi></mrow></math></span>, <br> <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi><mo>−</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math></span>",
+       "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math></span>: <br> <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>m</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       ]
      ]
     },
@@ -3700,7 +3827,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "<strong>c)-ren eliminazioa:</strong> <math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>+</mo><mn>2</mn><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>3</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi></mrow></math> (eta <math display=\"inline\"><mrow><mn>2</mn><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>+</mo><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>3</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>), beraz orekan <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>. Jacobiarra <math display=\"inline\"><mrow><mi>J</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>y</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>y</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> eta <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>,</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>y</mi><mo>∈</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>±</mi><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> izanik, orekak <strong>xake-taula</strong> bat osatzen dute:"
+     "html": "<strong>c)-ren eliminazioa:</strong> <math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>+</mo><mn>2</mn><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>3</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi></mrow></math> (eta <math display=\"inline\"><mrow><mn>2</mn><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>+</mo><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>3</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>), beraz orekan <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math></span>. Jacobiarra <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>J</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>y</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>y</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span> eta <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>,</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>y</mi><mo>∈</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>±</mi><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math></span> izanik, orekak <strong>xake-taula</strong> bat osatzen dute:"
     },
     {
      "mota": "taula",
@@ -3742,12 +3869,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "testua": "Fase-erretratua: pendulua (leiho zabala)"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Penduluaren (<math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>y</mi></mrow></math>, <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>) norabide-eremua leiho <strong>zabalean</strong> (<math display=\"inline\"><mrow><mi>x</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>7</mn><mo>,</mo><mn>7</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>≈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>2</mn><mi>π</mi><mo>,</mo><mn>2</mn><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>). Zirkulu urdinak = <strong>zentro benetakoak</strong> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>k</mi><mi>π</mi><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> (Hamiltondarra, <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mi>±</mi><mi>i</mi></mrow></math>); karratu gorriak = <strong>zelak</strong> <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>π</mi><mo>,</mo><mn>0</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> (<math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mi>±</mi><mn>1</mn></mrow></math>). Zelen adarrek <strong>separatrizeak</strong> osatzen dituzte (oszilazioa vs errotazioa banatzen). <em>Irudi editoriala (penduluaren eskema argitzeko).</em>",
+     "src": "media/irudiak/688198b45946f506.svg",
+     "zabalera": 603
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala, normalizatua) leiho berean; zentro/zela sareta. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/95cbd657369dff99.svg",
+     "zabalera": 335
     },
     {
      "mota": "testua",
@@ -3787,7 +3918,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>y</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>y</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>±</mi><mn>1</mn></mrow></math>;   <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>x</mi><mo>=</mo><mi>−</mi><msup><mi>y</mi><mn>2</mn></msup></mrow></math>. Beraz hiru oreka: <math display=\"inline\"><mrow><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mi>B</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mi>C</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Jacobiar orokorra: <math display=\"block\"><mrow><mi>M</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>∂</mi><mi>P</mi><mi>/</mi><mi>∂</mi><mi>x</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>∂</mi><mi>P</mi><mi>/</mi><mi>∂</mi><mi>y</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>∂</mi><mi>Q</mi><mi>/</mi><mi>∂</mi><mi>x</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>∂</mi><mi>Q</mi><mi>/</mi><mi>∂</mi><mi>y</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn><mo>−</mo><mn>3</mn><msup><mi>y</mi><mn>2</mn></msup></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn><mi>y</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
+     "html": "<math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>y</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>y</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>±</mi><mn>1</mn></mrow></math>;   <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>x</mi><mo>=</mo><mi>−</mi><msup><mi>y</mi><mn>2</mn></msup></mrow></math>. Beraz hiru oreka: <math display=\"inline\"><mrow><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mi>B</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mi>C</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Jacobiar orokorra: <math display=\"block\"><mrow><mi>M</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>∂</mi><mi>P</mi><mi>/</mi><mi>∂</mi><mi>x</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>∂</mi><mi>P</mi><mi>/</mi><mi>∂</mi><mi>y</mi></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>∂</mi><mi>Q</mi><mi>/</mi><mi>∂</mi><mi>x</mi></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>∂</mi><mi>Q</mi><mi>/</mi><mi>∂</mi><mi>y</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>1</mn><mo>−</mo><mn>3</mn><msup><mi>y</mi><mn>2</mn></msup></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>1</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mi>−</mi><mn>2</mn><mi>y</mi></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
     },
     {
      "mota": "taula",
@@ -3837,12 +3968,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "testua": "Fase-erretratua (leiho zabala)"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremua (streamplot, kolorea <math display=\"inline\"><mrow><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math>) leiho <strong>zabalean</strong> (<math display=\"inline\"><mrow><mi>x</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>2.6</mn><mo>,</mo><mn>1.4</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>, <math display=\"inline\"><mrow><mi>y</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>2</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>). Zirkulu urdina = <strong>zentro benetakoa</strong> <math display=\"inline\"><mrow><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> (orbita itxiak, itzulgarritasunak babestua); karratu gorriak = <strong>zelak</strong> <math display=\"inline\"><mrow><mi>B</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mi>C</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Marra etenak: <math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math> nulklinak (<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>±</mi><mn>1</mn></mrow></math>); <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math> nulklina <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><msup><mi>y</mi><mn>2</mn></msup></mrow></math> parabola da (irudian kurbatua). <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/d48979bc667ae862.svg",
+     "zabalera": 590
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala, normalizatua) leiho berean. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/99885196425dfaf4.svg",
+     "zabalera": 335
     },
     {
      "mota": "testua",
@@ -3934,9 +4069,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "Iturriak zeinu-taula bat dakar (gorriz/urdinez): <math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-k zeinua aldatzen du <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>±</mi><mn>1</mn></mrow></math> zuzenetan, eta <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>-k <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><msup><mi>y</mi><mn>2</mn></msup></mrow></math> parabolan (<strong>nulklinak</strong>). Horrekin fase-erretratuaren zirriborroa eraikitzen du: orbita itxiak <math display=\"inline\"><msub><mi>P</mi><mn>1</mn></msub></math> inguruan (linealizatuan), eta separatrizak bi zeletan."
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "Fase-erretratuaren eskema (editoriala, iturriaren zirriborroaren ildotik):\n   nulklinak (<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>±</mi><mn>1</mn></mrow></math> etenez, <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><msup><mi>y</mi><mn>2</mn></msup></mrow></math> berdez), <math display=\"inline\"><msub><mi>P</mi><mn>1</mn></msub></math> zentroa\n   (orbita itxiak linealizatuan) eta <math display=\"inline\"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo>,</mo><msub><mi>P</mi><mn>3</mn></msub></mrow></math> zelak beren autonorabideekin.",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/83fbe87b76a5cb2f.svg",
+     "zabalera": 222
     },
     {
      "mota": "oharra",
@@ -3965,16 +4101,20 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "Oreka-puntuen inguruko higidura fase-espazioan irudikatzen da. Potentzial baten minimoak oreka egonkorra ematen du (zentroa, orbita itxiekin); maximoak oreka ezegonkorra (sela-puntua)."
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Pozo bakuna eta zentroa (orbita itxiak).",
+     "src": "media/irudiak/b5945c35390c919b.svg",
+     "zabalera": 463
     },
     {
      "mota": "testua",
      "html": "Pozo bikoitz batek bi zentro eta bien arteko sela-puntua ditu; sela-puntutik igarotzen den separatrizak fase-espazioa banatzen du."
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Pozo bikoitza, bi zentro eta separatriza.",
+     "src": "media/irudiak/bff2a7bb973d829d.svg",
+     "zabalera": 493
     },
     {
      "mota": "iturria",
@@ -4022,8 +4162,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "Hiru azpikasu bereizten dira <math display=\"inline\"><mi>γ</mi></math>-ren zeinuaren arabera:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Balio propio konplexuak: fokua eta zentroa (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tr</mi><mo>&#8289;</mo></mrow><mi>A</mi></mrow></math>-ren zeinuaren arabera).",
+     "src": "media/irudiak/986de2850ea88301.svg",
+     "zabalera": 498
     },
     {
      "mota": "izenburua",
@@ -4043,8 +4185,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Erro bikoitzak: izar-korapiloa eta korapilo inpropioa.",
+     "src": "media/irudiak/6ffcb7f63aeb2722.svg",
+     "zabalera": 358
     },
     {
      "mota": "izenburua",
@@ -4136,7 +4280,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi>y</mi><mo>−</mo><msup><mi>y</mi><mn>3</mn></msup><mo>=</mo><mi>y</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>−</mi><mi>x</mi><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>0</mn></mrow></math> ebatzita, hiru oreka-puntu daude: <math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+     "html": "<math display=\"block\"><mrow><mi>y</mi><mo>−</mo><msup><mi>y</mi><mn>3</mn></msup><mo>=</mo><mi>y</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>−</mi><mi>x</mi><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>0</mn></mrow></math> ebatzita, hiru oreka-puntu daude: <math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
     },
     {
      "mota": "izenburua",
@@ -4157,8 +4301,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Oreka-puntuen linealizazioa: zentroa jatorrian eta selak <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mi>±</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-en.",
+     "src": "media/irudiak/118d794accad469b.svg",
+     "zabalera": 385
     },
     {
      "mota": "oharra",
@@ -4278,12 +4424,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "Sistemaren fase-erretratua: bi zela (<math display=\"inline\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><msub><mi>P</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>) eta bi nodo (<math display=\"inline\"><mrow><msub><mi>P</mi><mn>3</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> ezegonkorra, <math display=\"inline\"><mrow><msub><mi>P</mi><mn>4</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> egonkorra)."
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Fase-erretratu zehatza (streamline-ak; abiadura koloreztatuta). Zela: gorria; zentro/foku: urdina; nodo: berdea; nulklinak: etenak. <em>Irudi editoriala; ez dago jatorrizko eskuizkribuan.</em>",
+     "src": "media/irudiak/b36559c9fa97b1f9.svg",
+     "zabalera": 526
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala): geziek eremuaren benetako norabidea ematen dute puntuz puntu. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/00f6cfbab31bc77a.svg",
+     "zabalera": 284
     },
     {
      "mota": "testua",
@@ -4485,12 +4635,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "Fase-erretratua: <math display=\"inline\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> foku ezegonkorra eta <math display=\"inline\"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> zela; <math display=\"inline\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> nulklina (berdea)."
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Fase-erretratu zehatza (streamline-ak; abiadura koloreztatuta). Zela: gorria; zentro/foku: urdina; nodo: berdea; nulklinak: etenak. <em>Irudi editoriala; ez dago jatorrizko eskuizkribuan.</em>",
+     "src": "media/irudiak/828c25b1eaaee64f.svg",
+     "zabalera": 526
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala): geziek eremuaren benetako norabidea ematen dute puntuz puntu. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/4e012aa82bce7f0c.svg",
+     "zabalera": 284
     },
     {
      "mota": "testua",
@@ -4574,7 +4728,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi>d</mi><mi>x</mi><mi>/</mi><mi>d</mi><mi>y</mi><mo>=</mo><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>3</mn><msup><mi>y</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> banangarria denez, <math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>3</mn><msup><mi>y</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>y</mi><mo>+</mo><mi>K</mi></mrow></math>:"
+     "html": "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>d</mi><mi>x</mi><mi>/</mi><mi>d</mi><mi>y</mi><mo>=</mo><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>3</mn><msup><mi>y</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span> banangarria denez, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>3</mn><msup><mi>y</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>y</mi><mo>+</mo><mi>K</mi></mrow></math></span>:"
     },
     {
      "mota": "kutxa",
@@ -4621,12 +4775,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "Sistemaren fase-erretratua (numerikoki kalkulatua). Bi zela (<math display=\"inline\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo>,</mo><msub><mi>P</mi><mn>2</mn></msub></mrow></math>) eta bi zentro (<math display=\"inline\"><mrow><msub><mi>P</mi><mn>3</mn></msub><mo>,</mo><msub><mi>P</mi><mn>4</mn></msub></mrow></math>), <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>y</mi></mrow></math> zuzen inbarianteak (berdea) bi zelak lotzen ditu."
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Fase-erretratu zehatza (streamline-ak; abiadura koloreztatuta). Zela: ▪ gorria; zentro: ● urdina; nulklinak: etenak; <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>y</mi></mrow></math>: berdea. <em>Irudi editoriala; ez dago jatorrizko eskuizkribuan.</em>",
+     "src": "media/irudiak/4e331e58bade83aa.svg",
+     "zabalera": 526
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala): geziek eremuaren benetako norabidea ematen dute puntuz puntu. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/05e9b9badd3cd078.svg",
+     "zabalera": 284
     },
     {
      "mota": "testua",
@@ -4674,7 +4832,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>y</mi></mrow></math>, <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>−</mi><mi>x</mi><mo>+</mo><mn>3</mn><msup><mi>λ</mi><mn>2</mn></msup><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>4</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>λ</mi><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>−</mi><msup><mi>V</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> denez, sistema kontserbatiboa da:"
+     "html": "<math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>y</mi></mrow></math>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>−</mi><mi>x</mi><mo>+</mo><mn>3</mn><msup><mi>λ</mi><mn>2</mn></msup><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>4</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>λ</mi><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>−</mi><msup><mi>V</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span> denez, sistema kontserbatiboa da:"
     },
     {
      "mota": "kutxa",
@@ -4698,7 +4856,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn><mo>→</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>; <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn><mo>→</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>8</mn><mi>λ</mi><mi>x</mi><mo>+</mo><mn>3</mn><msup><mi>λ</mi><mn>2</mn></msup><mo>=</mo><mn>0</mn><mo>→</mo><mi>x</mi><mo>=</mo><mi>λ</mi><mi>/</mi><mn>2</mn><mo>,</mo><mn>3</mn><mi>λ</mi><mi>/</mi><mn>2</mn></mrow></math>. <math display=\"inline\"><mrow><msup><mi>V</mi><mo>″</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn><mo>−</mo><mn>3</mn><msup><mi>λ</mi><mn>2</mn></msup><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>4</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>λ</mi><mo>−</mo><mi>x</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>-ren zeinuak:"
+     "html": "<math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn><mo>→</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>; <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn><mo>→</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>8</mn><mi>λ</mi><mi>x</mi><mo>+</mo><mn>3</mn><msup><mi>λ</mi><mn>2</mn></msup><mo>=</mo><mn>0</mn><mo>→</mo><mi>x</mi><mo>=</mo><mi>λ</mi><mi>/</mi><mn>2</mn><mo>,</mo><mn>3</mn><mi>λ</mi><mi>/</mi><mn>2</mn></mrow></math></span>. <math display=\"inline\"><mrow><msup><mi>V</mi><mo>″</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn><mo>−</mo><mn>3</mn><msup><mi>λ</mi><mn>2</mn></msup><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>4</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>λ</mi><mo>−</mo><mi>x</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>-ren zeinuak:"
     },
     {
      "mota": "taula",
@@ -4734,12 +4892,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "Fase-erretratua (<math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mn>1</mn></mrow></math>): <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>λ</mi><mi>/</mi><mn>2</mn></mrow></math> zentroa eta <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>3</mn><mi>λ</mi><mi>/</mi><mn>2</mn></mrow></math> zela; <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn><mi>λ</mi></mrow></math> puntu singularra."
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Fase-erretratu zehatza (streamline-ak; abiadura koloreztatuta). Zela: gorria; zentro/foku: urdina; nodo: berdea; nulklinak: etenak. <em>Irudi editoriala; ez dago jatorrizko eskuizkribuan.</em>",
+     "src": "media/irudiak/74ee92b0bacd557b.svg",
+     "zabalera": 526
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala): geziek eremuaren benetako norabidea ematen dute puntuz puntu. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/38a0d55bde9859de.svg",
+     "zabalera": 284
     },
     {
      "mota": "testua",
@@ -4837,12 +4999,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "Fase-erretratua: <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> zela eta <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> nodo degeneratua; nulklinak <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>x</mi></mrow></math>, <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math> (berdea)."
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Fase-erretratu zehatza (streamline-ak; abiadura koloreztatuta). Zela: gorria; zentro/foku: urdina; nodo: berdea; nulklinak: etenak. <em>Irudi editoriala; ez dago jatorrizko eskuizkribuan.</em>",
+     "src": "media/irudiak/ed88d469d272e88b.svg",
+     "zabalera": 526
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala): geziek eremuaren benetako norabidea ematen dute puntuz puntu. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/c5a4919d32085ada.svg",
+     "zabalera": 284
     },
     {
      "mota": "testua",
@@ -4954,7 +5120,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "Energia: <math display=\"inline\"><mrow><mi>H</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mn>2</mn></msup><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>4</mn></msup><mi>/</mi><mn>4</mn><mo>+</mo><mn>4</mn><msup><mi>x</mi><mn>3</mn></msup><mi>/</mi><mn>3</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mi>/</mi><mn>2</mn><mo>−</mo><mn>6</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> (<math display=\"inline\"><mrow><mi>d</mi><mi>H</mi><mi>/</mi><mi>d</mi><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>). Bi zelek energia <strong>desberdina</strong> dute (<math display=\"inline\"><mrow><mi>H</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>47</mn><mi>/</mi><mn>12</mn></mrow></math>, <math display=\"inline\"><mrow><mi>H</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>3</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mn>27</mn><mi>/</mi><mn>4</mn></mrow></math>), beraz <strong>ez dute trajektoria bera</strong> (ez daude lotuta), 0125eko kasuan ez bezala."
+     "html": "Energia: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>H</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>y</mi><mn>2</mn></msup><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>4</mn></msup><mi>/</mi><mn>4</mn><mo>+</mo><mn>4</mn><msup><mi>x</mi><mn>3</mn></msup><mi>/</mi><mn>3</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mi>/</mi><mn>2</mn><mo>−</mo><mn>6</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span> (<math display=\"inline\"><mrow><mi>d</mi><mi>H</mi><mi>/</mi><mi>d</mi><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>). Bi zelek energia <strong>desberdina</strong> dute (<math display=\"inline\"><mrow><mi>H</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>47</mn><mi>/</mi><mn>12</mn></mrow></math>, <math display=\"inline\"><mrow><mi>H</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>3</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mn>27</mn><mi>/</mi><mn>4</mn></mrow></math>), beraz <strong>ez dute trajektoria bera</strong> (ez daude lotuta), 0125eko kasuan ez bezala."
     },
     {
      "mota": "izenburua",
@@ -4966,12 +5132,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "Fase-erretratua (14. adibidea): <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>3</mn></mrow></math> zela, <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>2</mn></mrow></math> zentroa."
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Fase-erretratu zehatza (streamline-ak; abiadura koloreztatuta). Zela: gorria; zentro/foku: urdina; nodo: berdea; nulklinak: etenak. <em>Irudi editoriala; ez dago jatorrizko eskuizkribuan.</em>",
+     "src": "media/irudiak/ca0bdb93c9b0dd58.svg",
+     "zabalera": 526
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala): geziek eremuaren benetako norabidea ematen dute puntuz puntu. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/f4de8e8e9fdedbb9.svg",
+     "zabalera": 284
     },
     {
      "mota": "testua",
@@ -5310,7 +5480,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>→</mo><mi>x</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>−</mi><mn>2</mn></mrow></math>; berdin <math display=\"inline\"><mi>y</mi></math>-rako. Jakobiarra diagonala da: <math display=\"inline\"><mrow><mi>J</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>."
+     "html": "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>→</mo><mi>x</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>−</mi><mn>2</mn></mrow></math></span>; berdin <math display=\"inline\"><mi>y</mi></math>-rako. Jakobiarra diagonala da: <math display=\"inline\"><mrow><mi>J</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>2</mn><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>y</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>."
     },
     {
      "mota": "taula",
@@ -5357,12 +5527,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "testua": "Fase-erretratua (sistema 1)"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Fase-erretratu zehatza. <math display=\"inline\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> izar ezegonkorra, <math display=\"inline\"><mrow><msub><mi>P</mi><mn>4</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo>,</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> izar egonkorra, <math display=\"inline\"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo>,</mo><msub><mi>P</mi><mn>3</mn></msub></mrow></math> zela; <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>1</mn><mo>,</mo><mi>y</mi><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math> singularrak. <em>Irudi editoriala; ez dago jatorrizko eskuizkribuan.</em>",
+     "src": "media/irudiak/c7a744139b4b4ee3.svg",
+     "zabalera": 526
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala). <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/a968e6b86c6b8a4a.svg",
+     "zabalera": 284
     },
     {
      "mota": "izenburua",
@@ -5371,7 +5545,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn><mo>→</mo><mi>y</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>±</mi><mn>1</mn></mrow></math>; <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn><mo>→</mo><mi>x</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>1</mn></mrow></math>; sei oreka-puntu <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mi>±</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mi>±</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Sistema honen azterketa <strong>0136 orrian jarraitzen da</strong> (hemen hasita bakarrik)."
+     "html": "<math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn><mo>→</mo><mi>y</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>±</mi><mn>1</mn></mrow></math>; <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn><mo>→</mo><mi>x</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>1</mn></mrow></math>; sei oreka-puntu <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mi>±</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mi>±</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>. Sistema honen azterketa <strong>0136 orrian jarraitzen da</strong> (hemen hasita bakarrik)."
     },
     {
      "mota": "testua",
@@ -5454,12 +5628,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "testua": "Fase-erretratua"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Fase-erretratu zehatza. <math display=\"inline\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> izar egonkorra; <math display=\"inline\"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><msub><mi>P</mi><mn>3</mn></msub><mo>,</mo><msub><mi>P</mi><mn>4</mn></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>2</mn><mo>,</mo><mi>±</mi><msqrt><mn>3</mn></msqrt><mi>/</mi><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> zela. Nulklinak: <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn><mi>/</mi><mn>2</mn></mrow></math> (etenak). <em>Irudi editoriala; ez dago jatorrizko eskuizkribuan.</em>",
+     "src": "media/irudiak/0b89f16c0e3814e0.svg",
+     "zabalera": 526
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala). <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/d4f0f2bed2126942.svg",
+     "zabalera": 284
     },
     {
      "mota": "testua",
@@ -5526,12 +5704,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "testua": "Fase-erretratua"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Fase-erretratu zehatza. <math display=\"inline\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> kiribil ezegonkorra; <math display=\"inline\"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> zela. <em>Irudi editoriala; ez dago jatorrizko eskuizkribuan.</em>",
+     "src": "media/irudiak/cca78a0b44c9e7ad.svg",
+     "zabalera": 526
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala). <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/bfe44c50028bc157.svg",
+     "zabalera": 284
     },
     {
      "mota": "testua",
@@ -5558,7 +5740,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
   {
    "id": "a49",
    "maila": 2,
-   "izenburua": "Fase-diagrama: <math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>y</mi></mrow></math>, <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>",
+   "izenburua": "Fase-diagrama: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>y</mi></mrow></math></span>, <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>",
    "blokeak": [
     {
      "mota": "testua",
@@ -5598,12 +5780,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "testua": "Fase-erretratua"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Fase-erretratu zehatza (streamplot). Eskuizkribuak <math display=\"inline\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> zela eta <math display=\"inline\"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mi>π</mi><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> zentroa aztertzen ditu; leiho zabalagoak <math display=\"inline\"><mi>y</mi></math>-n periodikoa den katea erakusten du: zentroak <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>±</mi><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math>-n, zelak <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>π</mi></mrow></math>-n. <em>Irudi editoriala; ez dago jatorrizko eskuizkribuan.</em>",
+     "src": "media/irudiak/2212ff79bc2a99e7.svg",
+     "zabalera": 564
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala): etenezko lerroak nulklinak (<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>k</mi><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math> gorriz; <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> urdinez). <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/eafa0c2a2adaca22.svg",
+     "zabalera": 335
     },
     {
      "mota": "testua",
@@ -5615,7 +5801,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>METMATCG01_0138</code>, <code>IMG_2025_07_12_12_29_42S.jpg</code>; «2013 EKAINEKO 4A» azterketa-ariketa). <math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>y</mi></mrow></math>, <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math> sistemaren fase-analisia. SymPy-z egiaztatua. Ikus <code>koadernoa_metmatcg01_p138.typ</code>."
+       "html": "Argazkitik osatua (<code>METMATCG01_0138</code>, <code>IMG_2025_07_12_12_29_42S.jpg</code>; «2013 EKAINEKO 4A» azterketa-ariketa). <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>y</mi></mrow></math></span>, <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math> sistemaren fase-analisia. SymPy-z egiaztatua. Ikus <code>koadernoa_metmatcg01_p138.typ</code>."
       }
      ]
     },
@@ -5680,12 +5866,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "testua": "Fase-erretratua"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Fase-erretratu zehatza (streamplot). <math display=\"inline\"><mrow><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> zentroa (orbita itxiak), <math display=\"inline\"><mrow><mi>B</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mi>C</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> zelak. Etenezko lerroak: <math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math> nulklinak (<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>±</mi><mn>1</mn></mrow></math>). <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math> nulklina <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><msup><mi>y</mi><mn>2</mn></msup></mrow></math> parabola da (ez marraztua). <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/458dff4e0c3aafe7.svg",
+     "zabalera": 564
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala). <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/df50634f90cce930.svg",
+     "zabalera": 335
     },
     {
      "mota": "testua",
@@ -5756,12 +5946,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "testua": "Fase-erretratua"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Fase-erretratu zehatza (streamplot). <math display=\"inline\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> nodo izar ezegonkorra (izpi erradialak), <math display=\"inline\"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> zela. Etenezko lerroak: nulklinak (<math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math>: <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math>; <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math>: <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math>). Berdez <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>y</mi></mrow></math> diagonal aldaezina. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/e433c8da68571ae2.svg",
+     "zabalera": 564
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala). <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/e1d183813ea59145.svg",
+     "zabalera": 335
     },
     {
      "mota": "testua",
@@ -5848,12 +6042,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "testua": "Fase-erretratua (sistema 2)"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Fase-erretratu zehatza (streamplot), sistema 2. <math display=\"inline\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> nodo inpropio ezegonkorrak; <math display=\"inline\"><mrow><msub><mi>P</mi><mn>3</mn></msub><mo>≈</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1.62</mn><mo>,</mo><mn>1.62</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><msub><mi>P</mi><mn>4</mn></msub><mo>≈</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0.62</mn><mo>,</mo><mi>−</mi><mn>0.62</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> zelak. Leiho zabala, egitura globala erakusteko. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/374c07b942315021.svg",
+     "zabalera": 564
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala), sistema 2. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/dd990e387d7cb48e.svg",
+     "zabalera": 335
     },
     {
      "mota": "oharra",
@@ -5945,12 +6143,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "testua": "Fase-erretratua"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Fase-erretratu zehatza (streamplot). <math display=\"inline\"><mrow><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mi>D</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mi>/</mi><mn>3</mn><mo>,</mo><mi>−</mi><mn>2</mn><mi>/</mi><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> zelak; <math display=\"inline\"><mrow><mi>B</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mi>−</mi><mn>2</mn><mi>/</mi><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mi>C</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mi>/</mi><mn>3</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> zentroak (orbita itxiak = <math display=\"inline\"><mi>H</mi></math>-ren maila-kurbak). Berdez <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>x</mi></mrow></math> (<math display=\"inline\"><mrow><mi>H</mi><mo>=</mo><mn>0</mn></mrow></math> adarra). <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/da3ae5bc74039410.svg",
+     "zabalera": 564
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala). Etenezko lerroak: nulklinak (<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>−</mi><mn>2</mn><mi>/</mi><mn>3</mn></mrow></math>; <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>−</mi><mn>2</mn><mi>/</mi><mn>3</mn></mrow></math>). <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/3f31f2b08466a6e6.svg",
+     "zabalera": 335
     },
     {
      "mota": "testua",
@@ -6013,7 +6215,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
       [
        "B",
        "<math display=\"inline\"><mrow><msub><mi>a</mi><mn>0</mn></msub><mo>=</mo><mn>0</mn><mo>,</mo><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn></mrow></math>",
-       "<math display=\"inline\"><mrow><msub><mi>a</mi><mn>2</mn></msub><mo>=</mo><mn>1</mn><mo>,</mo><msub><mi>a</mi><mn>3</mn></msub><mo>=</mo><mn>1</mn><mi>/</mi><mn>2</mn><mo>,</mo><msub><mi>a</mi><mn>4</mn></msub><mo>=</mo><mn>1</mn><mi>/</mi><mn>6</mn><mo>,</mo><mi>…</mi><mo>→</mo><msub><mi>y</mi><mn>2</mn></msub><mo>=</mo><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup></mrow></math>"
+       "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>a</mi><mn>2</mn></msub><mo>=</mo><mn>1</mn><mo>,</mo><msub><mi>a</mi><mn>3</mn></msub><mo>=</mo><mn>1</mn><mi>/</mi><mn>2</mn><mo>,</mo><msub><mi>a</mi><mn>4</mn></msub><mo>=</mo><mn>1</mn><mi>/</mi><mn>6</mn><mo>,</mo><mi>…</mi><mo>→</mo><msub><mi>y</mi><mn>2</mn></msub><mo>=</mo><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup></mrow></math></span>"
       ]
      ]
     },
@@ -6031,8 +6233,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "Orriaren goialdean autoreak Wolfram Alpha-ko <code>StreamPlot[{2y+3y^2, 2x+3x^2},{x,-2,2},{y,-2,2}]</code> marraztu zuen: <code>METMATCG01_0142</code>/<code>METMATCG01_0125</code> sistema kontserbatiboaren fase-erretratua (bi zentro + bi zela). Erreferentziazko irudi editoriala (bertsio bektoriala):"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Autoreak Wolfram-ez marraztutako sistemaren fase-erretratua (<math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>3</mn><msup><mi>y</mi><mn>2</mn></msup></mrow></math>, <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math>): <math display=\"inline\"><mrow><mi>A</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mi>D</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mi>/</mi><mn>3</mn><mo>,</mo><mi>−</mi><mn>2</mn><mi>/</mi><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> zelak; <math display=\"inline\"><mrow><mi>B</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mi>−</mi><mn>2</mn><mi>/</mi><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mi>C</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mi>/</mi><mn>3</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> zentroak. Xehetasunak <code>METMATCG01_0142</code>-n. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/567fcbc07cb84b5c.svg",
+     "zabalera": 513
     },
     {
      "mota": "testua",
@@ -6076,7 +6280,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>−</mi><mn>3</mn><mi>x</mi><mo>+</mo><mn>7</mn><mi>x</mi><mi>y</mi><mo>+</mo><mn>14</mn><mi>y</mi><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mn>1</mn><mi>/</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mn>6</mn><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>d</mi><mi>x</mi><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>7</mn><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mi>d</mi><mi>y</mi><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math> <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>P</mi><mi>y</mi></msub><mo>−</mo><msub><mi>Q</mi><mi>x</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mi>Q</mi><mo>=</mo><mn>1</mn><mo>+</mo><mn>1</mn><mi>/</mi><mi>x</mi><mo>→</mo><mi>μ</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">exp</mi><mo>&#8289;</mo></mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mn>1</mn><mi>/</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><msup><mi>e</mi><mi>x</mi></msup><mo>⋅</mo><msup><mi>e</mi><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></msup><mo>=</mo><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup></mrow></math>. <math display=\"inline\"><mi>μ</mi></math>-z biderkatuta EDOa zehatza da; potentziala integratuz (<math display=\"inline\"><mrow><mn>1.25</mn><mn>.2</mn></mrow></math>, <math display=\"inline\"><mrow><mn>1.25</mn><mn>.3</mn></mrow></math> tauletatik): <math display=\"block\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>7</mn><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mi>x</mi></msup><mi>y</mi><mo>−</mo><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup><msup><mi>y</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mi>x</mi></msup><mo>=</mo><mi>C</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> hots </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"1.0em\"></mspace><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>7</mn><mi>x</mi><mi>y</mi><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>C</mi><mi>.</mi></mrow></math> (Faktore integratzailea <math display=\"inline\"><mrow><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup></mrow></math> da, <code>METMATCG01_0143</code>-ko soluzio berbera.)"
+     "html": "<math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>−</mi><mn>3</mn><mi>x</mi><mo>+</mo><mn>7</mn><mi>x</mi><mi>y</mi><mo>+</mo><mn>14</mn><mi>y</mi><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mn>1</mn><mi>/</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mn>6</mn><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>d</mi><mi>x</mi><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>7</mn><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mi>d</mi><mi>y</mi><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math> <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>P</mi><mi>y</mi></msub><mo>−</mo><msub><mi>Q</mi><mi>x</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mi>Q</mi><mo>=</mo><mn>1</mn><mo>+</mo><mn>1</mn><mi>/</mi><mi>x</mi><mo>→</mo><mi>μ</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">exp</mi><mo>&#8289;</mo></mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mn>1</mn><mi>/</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><msup><mi>e</mi><mi>x</mi></msup><mo>⋅</mo><msup><mi>e</mi><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></msup><mo>=</mo><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup></mrow></math></span>. <math display=\"inline\"><mi>μ</mi></math>-z biderkatuta EDOa zehatza da; potentziala integratuz (<math display=\"inline\"><mrow><mn>1.25</mn><mn>.2</mn></mrow></math>, <math display=\"inline\"><mrow><mn>1.25</mn><mn>.3</mn></mrow></math> tauletatik): <math display=\"block\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>7</mn><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mi>x</mi></msup><mi>y</mi><mo>−</mo><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup><msup><mi>y</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mi>x</mi></msup><mo>=</mo><mi>C</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> hots </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"1.0em\"></mspace><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>7</mn><mi>x</mi><mi>y</mi><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>C</mi><mi>.</mi></mrow></math> (Faktore integratzailea <math display=\"inline\"><mrow><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup></mrow></math> da, <code>METMATCG01_0143</code>-ko soluzio berbera.)"
     },
     {
      "mota": "izenburua",
@@ -6126,12 +6330,16 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "testua": "Fase-erretratua (2. problema)"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Fase-erretratu zehatza (streamplot). <math display=\"inline\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><msub><mi>P</mi><mn>3</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> zentroak (orbita itxiak = <math display=\"inline\"><mi>H</mi></math>-ren maila-kurbak); <math display=\"inline\"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> zela, separatrizeekin. Etenezko lerroak: <math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math> (<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>), <math display=\"inline\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math> (<math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>2</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>1</mn></mrow></math>). Bi putzuen sakonera desberdina (<math display=\"inline\"><mrow><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>&lt;</mo><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>). <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/38fa8aed723c7728.svg",
+     "zabalera": 564
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Norabide-eremu erreala (CeTZ, bektoriala), 2. problema. <em>Irudi editoriala.</em>",
+     "src": "media/irudiak/0ec0cd52a9958012.svg",
+     "zabalera": 335
     },
     {
      "mota": "testua",
@@ -6188,8 +6396,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "Lehen zirkunferentziaren zentroa <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>0</mn></msub><mo>,</mo><msub><mi>y</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> eta erradioa <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>R</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math> dira; bigarrenarenak <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>B</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math>. Bi formulak zuzenak dira."
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Manuskribuko bi kroki geometrikoen kalko bektorial deklaratua: zirkulu gainjarriak zerrenda horizontal batean, eta kanpoko kurba baten barruko bi begizta. <em>Irudi editoriala</em>; ez da fase-erretratu zehatz bat berreraikitzen.",
+     "src": "media/irudiak/0a4c4d32db73e55d.svg",
+     "zabalera": 517
     },
     {
      "mota": "testua",
@@ -6229,9 +6439,10 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "html": "edf-ko 8. kapituluko teknika: puntu kritikoak aurkitu, linealizatu, erro karakteristikoen arabera sailkatu. (Osagarri ebatzia: <code>metodos_estabilidad_diagramas_fase.pdf</code>, 2014ko problemak ebatzita, ES.)"
     },
     {
-     "mota": "ezezaguna",
+     "mota": "irudia",
      "oina": "Puntu kritikoen sailkapena erro karakteristikoen arabera: erro\n   errealak zeinu berekoak — nodoa (egonkorra biak negatiboak\n   badira); zeinu kontrakoak — zela, beti ezegonkorra; konplexuak\n   zati erreal ez-nuluarekin — espirala; irudikari hutsak —\n   zentroa.",
-     "izena": "irudia (ez da konpilatu)"
+     "src": "media/irudiak/c0120f2155bdaa96.svg",
+     "zabalera": 552
     }
    ]
   },
@@ -6377,7 +6588,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>y</mi></mrow></math>, <math display=\"inline\"><mrow><mtext mathvariant=\"normal\">  </mtext><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>."
+       "html": "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>y</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>y</mi></mrow></math></span>, <math display=\"inline\"><mrow><mtext mathvariant=\"normal\">  </mtext><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>."
       }
      ]
     },
@@ -6417,7 +6628,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
   {
    "id": "a61",
    "maila": 2,
-   "izenburua": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>m</mi></msup><mi>θ</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>n</mi></msup><mi>θ</mi><mi>d</mi><mi>θ</mi></mrow></math>: metodoa berretzaileen paritatearen arabera",
+   "izenburua": "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>m</mi></msup><mi>θ</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>n</mi></msup><mi>θ</mi><mi>d</mi><mi>θ</mi></mrow></math></span>: metodoa berretzaileen paritatearen arabera",
    "blokeak": [
     {
      "mota": "testua",
@@ -6478,25 +6689,25 @@ KAPITULUAK["03mm_03ezlinealak"] = {
      "lerroak": [
       [
        "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>θ</mi><mi>d</mi><mi>θ</mi></mrow></math>",
-       "<math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>θ</mi><mi>/</mi><mn>3</mn><mo>−</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi></mrow></math>"
+       "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>θ</mi><mi>/</mi><mn>3</mn><mo>−</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi></mrow></math></span>"
       ],
       [
        "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>θ</mi><mi>d</mi><mi>θ</mi></mrow></math>",
-       "<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>θ</mi><mi>/</mi><mn>3</mn></mrow></math>"
+       "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>θ</mi><mi>/</mi><mn>3</mn></mrow></math></span>"
       ],
       [
        "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>θ</mi><mi>d</mi><mi>θ</mi></mrow></math>",
-       "<math display=\"inline\"><mrow><mn>3</mn><mi>θ</mi><mi>/</mi><mn>8</mn><mo>−</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>θ</mi><mi>/</mi><mn>4</mn><mo>+</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn><mi>θ</mi><mi>/</mi><mn>32</mn></mrow></math>"
+       "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mn>3</mn><mi>θ</mi><mi>/</mi><mn>8</mn><mo>−</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>θ</mi><mi>/</mi><mn>4</mn><mo>+</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn><mi>θ</mi><mi>/</mi><mn>32</mn></mrow></math></span>"
       ],
       [
        "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>θ</mi><mi>d</mi><mi>θ</mi></mrow></math>",
-       "<math display=\"inline\"><mrow><mn>3</mn><mi>θ</mi><mi>/</mi><mn>8</mn><mo>+</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>θ</mi><mi>/</mi><mn>4</mn><mo>+</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn><mi>θ</mi><mi>/</mi><mn>32</mn></mrow></math>"
+       "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mn>3</mn><mi>θ</mi><mi>/</mi><mn>8</mn><mo>+</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>θ</mi><mi>/</mi><mn>4</mn><mo>+</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn><mi>θ</mi><mi>/</mi><mn>32</mn></mrow></math></span>"
       ]
      ]
     },
     {
      "mota": "testua",
-     "html": "<em class=\"j-nab\">Emaitza guztiak SymPy-z egiaztatuak. Jatorrizko orriaren <strong>zuzenketa</strong>:\n<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>θ</mi><mi>d</mi><mi>θ</mi><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>θ</mi><mi>/</mi><mn>3</mn><mo>−</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi></mrow></math> (paperak zeinua alderantziz\nzuen; <math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>θ</mi></mrow></math> ondo zegoen).</em>"
+     "html": "<em class=\"j-nab\">Emaitza guztiak SymPy-z egiaztatuak. Jatorrizko orriaren <strong>zuzenketa</strong>:\n<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>θ</mi><mi>d</mi><mi>θ</mi><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>θ</mi><mi>/</mi><mn>3</mn><mo>−</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi></mrow></math></span> (paperak zeinua alderantziz\nzuen; <math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>θ</mi></mrow></math> ondo zegoen).</em>"
     },
     {
      "mota": "oharra",
@@ -6543,7 +6754,7 @@ KAPITULUAK["03mm_03ezlinealak"] = {
     },
     {
      "mota": "testua",
-     "html": "Egiaztapena: <math display=\"inline\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>θ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>θ</mi><mo>=</mo><mi>z</mi></mrow></math>. ✓"
+     "html": "Egiaztapena: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>θ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>θ</mi><mo>=</mo><mi>z</mi></mrow></math></span>. ✓"
     },
     {
      "mota": "izenburua",

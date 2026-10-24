@@ -115,6 +115,48 @@
    "egoera": "proposamena"
   },
   {
+   "clave": "03mm_01goiordena",
+   "izenburua": "B6 · Metodo matematikoak 2/9 — EDO: goi-ordena, funtzio orokortuak eta ekuazio-sistemak",
+   "kontzeptuak": 52,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "03mm_02laplace",
+   "izenburua": "B6 · Metodo matematikoak 3/9 · Laplaceren eraldaketa",
+   "kontzeptuak": 31,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "03mm_02serieak",
+   "izenburua": "B6 · Metodo matematikoak 4/9 · Serieen bidezko ebazpena eta metodo hurbilduak",
+   "kontzeptuak": 44,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "03mm_03ezlinealak",
+   "izenburua": "B6 · Metodo matematikoak 5/9 · Sistema dinamiko ez-linealak eta egonkortasuna",
+   "kontzeptuak": 34,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "03mm_04sturm",
+   "izenburua": "B6 · Metodo matematikoak 6/9 — Sturm–Liouville eta Green-en funtzioak",
+   "kontzeptuak": 50,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "03mm_05edp",
+   "izenburua": "B6 · Metodo matematikoak 7/9: Deribatu partzialetako ekuazioak",
+   "kontzeptuak": 47,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "03mm_06probabilitatea",
+   "izenburua": "B6 · Metodo matematikoak 8/9 · Probabilitatea",
+   "kontzeptuak": 38,
+   "egoera": "proposamena"
+  },
+  {
    "clave": "03mm_07estatistika",
    "izenburua": "B6.9 - Estatistika: laginketa, estimazioa eta hipotesiak (11. gaia)",
    "kontzeptuak": 39,

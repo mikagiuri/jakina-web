@@ -952,7 +952,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>S</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>p</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>s</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>p</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>→</mo><mn>0</mn></mrow></math>, eta <math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><msup><mi>x</mi><mn>2</mn></msup><mi>d</mi><mi>x</mi><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mn>1</mn><msup><mi>n</mi><mn>3</mn></msup></mfrac><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msup><mi>k</mi><mn>2</mn></msup><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>n</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mrow><mn>6</mn><msup><mi>n</mi><mn>3</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mn>3</mn><mi>.</mi></mrow></mfrac></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>S</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>p</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>s</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>p</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>→</mo><mn>0</mn></mrow></math>, eta <math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><msup><mi>x</mi><mn>2</mn></msup><mi>d</mi><mi>x</mi><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mn>1</mn><msup><mi>n</mi><mn>3</mn></msup></mfrac><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msup><mi>k</mi><mn>2</mn></msup><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mi>n</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mrow><mn>6</mn><msup><mi>n</mi><mn>3</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mn>3</mn><mi>.</mi></mrow></mfrac></mrow></math>"
       }
      ]
     },
@@ -1031,7 +1031,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>x</mi><mo>+</mo><mn>2</mn></mrow></math> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-n, <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn></mrow></math> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-n eta <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn></mrow></math> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-n. Orduan <math display=\"block\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>2</mn></msubsup><mi>f</mi><mo>=</mo><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>0</mn></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>+</mo><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mn>1</mn><mi>d</mi><mi>x</mi><mo>+</mo><msubsup><mo>∫</mo><mn>1</mn><mn>2</mn></msubsup><mn>2</mn><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>+</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>=</mo><mfrac><mn>9</mn><mrow><mn>2</mn><mi>.</mi></mrow></mfrac></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>x</mi><mo>+</mo><mn>2</mn></mrow></math> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-n, <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn></mrow></math> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-n eta <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn></mrow></math> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-n. Orduan <math display=\"block\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>2</mn></msubsup><mi>f</mi><mo>=</mo><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>0</mn></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>+</mo><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mn>1</mn><mi>d</mi><mi>x</mi><mo>+</mo><msubsup><mo>∫</mo><mn>1</mn><mn>2</mn></msubsup><mn>2</mn><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>+</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>=</mo><mfrac><mn>9</mn><mrow><mn>2</mn><mi>.</mi></mrow></mfrac></mrow></math>"
       }
      ]
     },
@@ -1076,7 +1076,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mi>f</mi></math> jarraitua bada <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> tartean, eta <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mi>a</mi><mi>x</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>t</mi></mrow></math> bada, orduan <math display=\"inline\"><mi>F</mi></math> jarraitua eta deribagarria da, eta <math display=\"block\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> x </mtext><mspace width=\"0.333em\"></mspace></mrow><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mi>.</mi></mrow></math>"
+       "html": "<math display=\"block\"><mi>f</mi></math> jarraitua bada <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> tartean, eta <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mi>a</mi><mi>x</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>t</mi></mrow></math> bada, orduan <math display=\"inline\"><mi>F</mi></math> jarraitua eta deribagarria da, eta <math display=\"block\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> x </mtext><mspace width=\"0.333em\"></mspace></mrow><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -1206,7 +1206,7 @@ KAPITULUAK["01mc_03integralak"] = {
       },
       {
        "mota": "testua",
-       "html": "Primitiba kalkulatzeko, <math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>t</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>∫</mo><mfrac><mrow><mn>2</mn><mi>t</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>t</mi><mo>−</mo><mo>∫</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>t</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>+</mo><mi>C</mi><mi>.</mi></mrow></math> Hemen erabili dira <math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mi>x</mi></mfrac><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>+</mi><mi>C</mi></mrow></math> eta <math display=\"inline\"><mrow><mo>∫</mo><msup><mi>f</mi><mo>′</mo></msup><mfrac><mi>x</mi><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>+</mo><mi>C</mi></mrow></math>."
+       "html": "Primitiba kalkulatzeko, <math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>t</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>∫</mo><mfrac><mrow><mn>2</mn><mi>t</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>t</mi><mo>−</mo><mo>∫</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>t</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>+</mo><mi>C</mi><mi>.</mi></mrow></math> Hemen erabili dira <math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mi>x</mi></mfrac><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>+</mi><mi>C</mi></mrow></math> eta <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><msup><mi>f</mi><mo>′</mo></msup><mfrac><mi>x</mi><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>+</mo><mi>C</mi></mrow></math></span>."
       },
       {
        "mota": "testua",
@@ -1337,7 +1337,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>m</mi><mo>≤</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><mi>M</mi></mrow></math> bada <math display=\"inline\"><mrow><mi>x</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> orotarako, orduan <math display=\"block\"><mrow><mi>m</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo>−</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>x</mi><mo>≤</mo><mi>M</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo>−</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>m</mi><mo>≤</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><mi>M</mi></mrow></math> bada <math display=\"inline\"><mrow><mi>x</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> orotarako, orduan <math display=\"block\"><mrow><mi>m</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo>−</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≤</mo><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>x</mi><mo>≤</mo><mi>M</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo>−</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -1433,7 +1433,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mi>f</mi></math> jarraitua bada <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-n, orduan <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mi>a</mi><mi>x</mi></msubsup><mi>f</mi></mrow></math> deribagarria da eta <math display=\"block\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+       "html": "<math display=\"block\"><mi>f</mi></math> jarraitua bada <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-n, orduan <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mi>a</mi><mi>x</mi></msubsup><mi>f</mi></mrow></math> deribagarria da eta <math display=\"block\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -1459,7 +1459,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>5</mn><mi>x</mi></msubsup><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi></mrow></math> bada, orduan <math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> (integrakizuna <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mi>x</mi></mrow></math>-n ebaluatuz)."
+       "html": "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>5</mn><mi>x</mi></msubsup><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi></mrow></math></span> bada, orduan <math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> (integrakizuna <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mi>x</mi></mrow></math>-n ebaluatuz)."
       }
      ]
     },
@@ -1518,7 +1518,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><msqrt><mn>2</mn></msqrt><mn>2</mn></mfrac></msubsup><mfrac><mn>1</mn><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><msqrt><mn>2</mn></msqrt><mn>2</mn></mfrac></msubsup><mfrac><mn>1</mn><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -1529,7 +1529,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>2</mn><mn>3.5</mn></msubsup><mfrac><mn>1</mn><msqrt><mrow><mn>5</mn><mo>+</mo><mn>4</mn><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>2</mn><mn>3.5</mn></msubsup><mfrac><mn>1</mn><msqrt><mrow><mn>5</mn><mo>+</mo><mn>4</mn><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -1540,7 +1540,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><msup><mi>y</mi><mn>2</mn></msup><msqrt><mrow><msup><mi>y</mi><mn>6</mn></msup><mo>+</mo><mn>4</mn></mrow></msqrt></mfrac><mi>d</mi><mi>y</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><msup><mi>y</mi><mn>2</mn></msup><msqrt><mrow><msup><mi>y</mi><mn>6</mn></msup><mo>+</mo><mn>4</mn></mrow></msqrt></mfrac><mi>d</mi><mi>y</mi></mrow></math>"
       }
      ]
     },
@@ -1551,7 +1551,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>4</mn></mfrac></msubsup><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>α</mi><mi>d</mi><mi>α</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>4</mn></mfrac></msubsup><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>α</mi><mi>d</mi><mi>α</mi></mrow></math>"
       }
      ]
     },
@@ -1562,7 +1562,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></msubsup><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>φ</mi><mi>d</mi><mi>φ</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></msubsup><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>φ</mi><mi>d</mi><mi>φ</mi></mrow></math>"
       }
      ]
     },
@@ -1573,7 +1573,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mi>e</mi><msup><mi>e</mi><mn>2</mn></msup></msubsup><mfrac><mn>1</mn><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mi>e</mi><msup><mi>e</mi><mn>2</mn></msup></msubsup><mfrac><mn>1</mn><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -1584,7 +1584,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>e</mi></msubsup><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>e</mi></msubsup><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -1595,7 +1595,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mfrac><mi>π</mi><mn>4</mn></mfrac></mrow><mfrac><mi>π</mi><mn>4</mn></mfrac></msubsup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mfrac><mi>π</mi><mn>4</mn></mfrac></mrow><mfrac><mi>π</mi><mn>4</mn></mfrac></msubsup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -1606,7 +1606,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mfrac><mi>π</mi><mn>6</mn></mfrac><mfrac><mi>π</mi><mn>3</mn></mfrac></msubsup><msup><mrow><mi mathvariant=\"normal\">cot</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>φ</mi><mi>d</mi><mi>φ</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mfrac><mi>π</mi><mn>6</mn></mfrac><mfrac><mi>π</mi><mn>3</mn></mfrac></msubsup><msup><mrow><mi mathvariant=\"normal\">cot</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>φ</mi><mi>d</mi><mi>φ</mi></mrow></math>"
       }
      ]
     },
@@ -1617,7 +1617,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><msup><mi>e</mi><mi>x</mi></msup><mrow><mn>1</mn><mo>+</mo><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><msup><mi>e</mi><mi>x</mi></msup><mrow><mn>1</mn><mo>+</mo><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -1628,7 +1628,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -1639,7 +1639,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>2</mn></mrow><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>3</mn></mrow></msubsup><mfrac><mn>1</mn><msup><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mfrac><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>2</mn></mrow><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>3</mn></mrow></msubsup><mfrac><mn>1</mn><msup><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mfrac><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -1650,7 +1650,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>π</mi></msubsup><msup><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>π</mi></msubsup><msup><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -1701,7 +1701,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mi>f</mi></math> jarraitua bada <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-n, existitzen da <math display=\"inline\"><mrow><mi>ξ</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> non <math display=\"block\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>x</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ξ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo>−</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+       "html": "<math display=\"block\"><mi>f</mi></math> jarraitua bada <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-n, existitzen da <math display=\"inline\"><mrow><mi>ξ</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> non <math display=\"block\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>x</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ξ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo>−</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -1871,7 +1871,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Zatika integratuz, frogatu <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><msubsup><mo>∫</mo><mrow><mn>100</mn><mi>π</mi></mrow><mrow><mn>200</mn><mi>π</mi></mrow></msubsup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mi>x</mi></mfrac><mi>d</mi><mi>x</mi><mo>&lt;</mo><mfrac><mn>1</mn><mrow><mn>100</mn><mi>π</mi></mrow></mfrac></mrow></math>."
+       "html": "Zatika integratuz, frogatu <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><msubsup><mo>∫</mo><mrow><mn>100</mn><mi>π</mi></mrow><mrow><mn>200</mn><mi>π</mi></mrow></msubsup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mi>x</mi></mfrac><mi>d</mi><mi>x</mi><mo>&lt;</mo><mfrac><mn>1</mn><mrow><mn>100</mn><mi>π</mi></mrow></mfrac></mrow></math></span>."
       }
      ]
     },
@@ -1934,13 +1934,13 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-ko <math display=\"inline\"><msub><mi>P</mi><mi>n</mi></msub></math> zatiketa-segida baterako <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>S</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>s</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math> bada, orduan <math display=\"inline\"><mi>f</mi></math> integragarria da, eta <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mi>S</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mi>s</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>."
+       "html": "<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-ko <math display=\"inline\"><msub><mi>P</mi><mi>n</mi></msub></math> zatiketa-segida baterako <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>S</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>s</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math></span> bada, orduan <math display=\"inline\"><mi>f</mi></math> integragarria da, eta <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mi>S</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mi>s</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>."
       }
      ]
     },
     {
      "mota": "testua",
-     "html": "Hemen, ordea, <math display=\"inline\"><mrow><mi>S</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>s</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>→</mo><mn>1</mn><mi>/</mi><mn>3</mn><mo>−</mo><mn>0</mn><mo>=</mo><mn>1</mn><mi>/</mi><mn>3</mn><mo>≠</mo><mn>0</mn></mrow></math>; irizpideak <strong>huts egiten du</strong>, eta beraz <math display=\"inline\"><mi>f</mi></math> <strong>ez da integragarria</strong>."
+     "html": "Hemen, ordea, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>S</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>s</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>→</mo><mn>1</mn><mi>/</mi><mn>3</mn><mo>−</mo><mn>0</mn><mo>=</mo><mn>1</mn><mi>/</mi><mn>3</mn><mo>≠</mo><mn>0</mn></mrow></math></span>; irizpideak <strong>huts egiten du</strong>, eta beraz <math display=\"inline\"><mi>f</mi></math> <strong>ez da integragarria</strong>."
     },
     {
      "mota": "oharra",
@@ -2050,7 +2050,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>x</mi><mo>&gt;</mo><mn>0</mn></mrow></math> orotarako, <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>≔</mo><msubsup><mo>∫</mo><mn>1</mn><mi>x</mi></msubsup><mfrac><mn>1</mn><mi>t</mi></mfrac><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi><mi>.</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>x</mi><mo>&gt;</mo><mn>0</mn></mrow></math> orotarako, <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>≔</mo><msubsup><mo>∫</mo><mn>1</mn><mi>x</mi></msubsup><mfrac><mn>1</mn><mi>t</mi></mfrac><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -2106,7 +2106,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Finka bedi <math display=\"inline\"><mrow><mi>y</mi><mo>&gt;</mo><mn>0</mn></mrow></math> eta deriba dezagun <math display=\"inline\"><mi>x</mi></math>-rekiko, katearen erregelaz eta KOT erabiliz: <math display=\"block\"><mrow><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">ln</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><msubsup><mo>∫</mo><mn>1</mn><mrow><mi>x</mi><mi>y</mi></mrow></msubsup><mfrac><mn>1</mn><mi>t</mi></mfrac><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mi>y</mi></mrow></mfrac><mo>⋅</mo><mi>y</mi><mo>=</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>=</mo><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">ln</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>.</mi></mrow></math> <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math> funtzioek <math display=\"inline\"><mi>x</mi></math>-rekiko <strong>deribatu bera</strong> dutenez, konstante batean baino ez dira desberdinak: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mi>k</mi></mrow></math>. <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math> eginez, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>y</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>1</mn><mo>+</mo><mi>k</mi><mo>=</mo><mi>k</mi></mrow></math>, hots <math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>y</mi></mrow></math>. Ordezkatuz, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>y</mi></mrow></math>."
+       "html": "Finka bedi <math display=\"inline\"><mrow><mi>y</mi><mo>&gt;</mo><mn>0</mn></mrow></math> eta deriba dezagun <math display=\"inline\"><mi>x</mi></math>-rekiko, katearen erregelaz eta KOT erabiliz: <math display=\"block\"><mrow><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">ln</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><msubsup><mo>∫</mo><mn>1</mn><mrow><mi>x</mi><mi>y</mi></mrow></msubsup><mfrac><mn>1</mn><mi>t</mi></mfrac><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mi>y</mi></mrow></mfrac><mo>⋅</mo><mi>y</mi><mo>=</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>=</mo><mfrac><mi>d</mi><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">ln</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>.</mi></mrow></math> <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math> funtzioek <math display=\"inline\"><mi>x</mi></math>-rekiko <strong>deribatu bera</strong> dutenez, konstante batean baino ez dira desberdinak: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mi>k</mi></mrow></math></span>. <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math> eginez, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>y</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>1</mn><mo>+</mo><mi>k</mi><mo>=</mo><mi>k</mi></mrow></math></span>, hots <math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>y</mi></mrow></math>. Ordezkatuz, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>y</mi></mrow></math></span>."
       }
      ]
     },
@@ -2157,7 +2157,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "«Kalkulua II» koadernoa, 2013/2/13, 62.–63. orrialdeak (<code>IMG_2026_07_28_02_30_16S.jpg</code>, 740 erregistroko 0032. irudia). Jatorrizkoak eskuz garatzen ditu propietate guztiak (KIOT, «Kalkulu Infinitesimalaren Oinarrizko Teorema», gorriz azpimarratua dago). Egiaztapen matematiko osoa zuzena da, eta 2026-09-06an SymPy-z berretsi da: berretura arrazionalen definizioak, <math display=\"inline\"><mi mathvariant=\"normal\">ln</mi></math>-ren definizio integrala, <math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">ln</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup><mo>=</mo><mn>1</mn><mi>/</mi><mi>x</mi></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>y</mi></mrow></math>-ren frogapena eta esponentzialaren eraikuntza. Egun horretako berrirakurketan argitu dira lehen zalantzazkoak ziren bi pasarte: <math display=\"inline\"><msup><mi>x</mi><mrow><mi>n</mi><mi>/</mi><mi>m</mi></mrow></msup></math>-ren aldameneko marka «<math display=\"inline\"><msup><mi>x</mi><mi>π</mi></msup></math>?» galdera da (berretzaile irrazionalen kasua; erantzuna hurrengo atalean), eta <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-ren gaineko ohar gorria egilearena da, gaztelaniaz: «esta es la mítica propiedad!!! → pero no me he parado en su demostración» (irakurketa probablea). <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>1</mn><mo>=</mo><mn>0</mn></mrow></math>-ren ondoko bi lerroko oharra ezin da ziurtasunez irakurri; hipotesia, alboko irudiarekin bat: «0 eta 1 artean [azalera] negatiboa!». Zuzenketa editorial txikiak: <math display=\"inline\"><msup><mi>x</mi><mrow><mi>n</mi><mi>/</mi><mi>m</mi></mrow></msup></math>-ren erro-indizea eta berretzailea nahasgarriak dira eskuz (<math display=\"inline\"><mroot><msup><mi>x</mi><mi>n</mi></msup><mi>m</mi></mroot></math> da zuzena), eta <math display=\"inline\"><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">exp</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup></math>-ren izendatzailea <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mi>−</mi><mn>1</mn></mrow></msup><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> da, ez <math display=\"inline\"><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">ln</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mi>−</mi><mn>1</mn></mrow></msup><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup></math>. Transkripzio diplomatiko osoa (bost geruzak):"
+       "html": "«Kalkulua II» koadernoa, 2013/2/13, 62.–63. orrialdeak (<code>IMG_2026_07_28_02_30_16S.jpg</code>, 740 erregistroko 0032. irudia). Jatorrizkoak eskuz garatzen ditu propietate guztiak (KIOT, «Kalkulu Infinitesimalaren Oinarrizko Teorema», gorriz azpimarratua dago). Egiaztapen matematiko osoa zuzena da, eta 2026-09-06an SymPy-z berretsi da: berretura arrazionalen definizioak, <math display=\"inline\"><mi mathvariant=\"normal\">ln</mi></math>-ren definizio integrala, <math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">ln</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup><mo>=</mo><mn>1</mn><mi>/</mi><mi>x</mi></mrow></math>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>y</mi></mrow></math></span>-ren frogapena eta esponentzialaren eraikuntza. Egun horretako berrirakurketan argitu dira lehen zalantzazkoak ziren bi pasarte: <math display=\"inline\"><msup><mi>x</mi><mrow><mi>n</mi><mi>/</mi><mi>m</mi></mrow></msup></math>-ren aldameneko marka «<math display=\"inline\"><msup><mi>x</mi><mi>π</mi></msup></math>?» galdera da (berretzaile irrazionalen kasua; erantzuna hurrengo atalean), eta <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-ren gaineko ohar gorria egilearena da, gaztelaniaz: «esta es la mítica propiedad!!! → pero no me he parado en su demostración» (irakurketa probablea). <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>1</mn><mo>=</mo><mn>0</mn></mrow></math>-ren ondoko bi lerroko oharra ezin da ziurtasunez irakurri; hipotesia, alboko irudiarekin bat: «0 eta 1 artean [azalera] negatiboa!». Zuzenketa editorial txikiak: <math display=\"inline\"><msup><mi>x</mi><mrow><mi>n</mi><mi>/</mi><mi>m</mi></mrow></msup></math>-ren erro-indizea eta berretzailea nahasgarriak dira eskuz (<math display=\"inline\"><mroot><msup><mi>x</mi><mi>n</mi></msup><mi>m</mi></mroot></math> da zuzena), eta <math display=\"inline\"><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">exp</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup></math>-ren izendatzailea <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mi>−</mi><mn>1</mn></mrow></msup><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> da, ez <math display=\"inline\"><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">ln</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mi>−</mi><mn>1</mn></mrow></msup><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup></math>. Transkripzio diplomatiko osoa (bost geruzak):"
       },
       {
        "mota": "testua",
@@ -2216,7 +2216,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "Katearen erregelaz, <math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>a</mi><mi>x</mi></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup><mo>=</mo><msup><mi>e</mi><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>a</mi></mrow></msup><mo>⋅</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>a</mi><mo>=</mo><msup><mi>a</mi><mi>x</mi></msup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>a</mi></mrow></math>. <math display=\"inline\"><msup><mi>a</mi><mi>x</mi></msup></math>-ren monotonia <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>a</mi></mrow></math>-ren zeinuaren araberakoa da: gorakorra <math display=\"inline\"><mrow><mi>a</mi><mo>&gt;</mo><mn>1</mn></mrow></math> bada, beherakorra <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mi>a</mi><mo>&lt;</mo><mn>1</mn></mrow></math> bada."
+     "html": "Katearen erregelaz, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>a</mi><mi>x</mi></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup><mo>=</mo><msup><mi>e</mi><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>a</mi></mrow></msup><mo>⋅</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>a</mi><mo>=</mo><msup><mi>a</mi><mi>x</mi></msup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>a</mi></mrow></math></span>. <math display=\"inline\"><msup><mi>a</mi><mi>x</mi></msup></math>-ren monotonia <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>a</mi></mrow></math>-ren zeinuaren araberakoa da: gorakorra <math display=\"inline\"><mrow><mi>a</mi><mo>&gt;</mo><mn>1</mn></mrow></math> bada, beherakorra <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mi>a</mi><mo>&lt;</mo><mn>1</mn></mrow></math> bada."
     },
     {
      "mota": "izenburua",
@@ -2231,8 +2231,8 @@ KAPITULUAK["01mc_03integralak"] = {
      "mota": "zerrenda",
      "ordenatua": false,
      "elementuak": [
-      "<math display=\"inline\"><mi mathvariant=\"normal\">sin</mi></math> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mi>π</mi><mi>/</mi><mn>2</mn><mo>,</mo><mi>π</mi><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-ra murriztuta <strong>hertsiki gorakorra</strong> da (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>&gt;</mo><mn>0</mn></mrow></math> bertan); haren alderantzizkoa <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mo>:</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>→</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mi>π</mi><mi>/</mi><mn>2</mn><mo>,</mo><mi>π</mi><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> da.",
-      "<math display=\"inline\"><mi mathvariant=\"normal\">cos</mi></math> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-ra murriztuta <strong>hertsiki beherakorra</strong> da; haren alderantzizkoa <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">arccos</mi><mo>&#8289;</mo></mrow><mo>:</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>→</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> da."
+      "<math display=\"inline\"><mi mathvariant=\"normal\">sin</mi></math> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mi>π</mi><mi>/</mi><mn>2</mn><mo>,</mo><mi>π</mi><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-ra murriztuta <strong>hertsiki gorakorra</strong> da (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>&gt;</mo><mn>0</mn></mrow></math> bertan); haren alderantzizkoa <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mo>:</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>→</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mi>π</mi><mi>/</mi><mn>2</mn><mo>,</mo><mi>π</mi><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math></span> da.",
+      "<math display=\"inline\"><mi mathvariant=\"normal\">cos</mi></math> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-ra murriztuta <strong>hertsiki beherakorra</strong> da; haren alderantzizkoa <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">arccos</mi><mo>&#8289;</mo></mrow><mo>:</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>→</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math></span> da."
      ]
     },
     {
@@ -2600,13 +2600,13 @@ KAPITULUAK["01mc_03integralak"] = {
      "ordenatua": false,
      "elementuak": [
       "<strong>a)</strong> <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mi>x</mi></msubsup><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>t</mi><mi>d</mi><mi>t</mi></mrow></math> (<math display=\"inline\"><mrow><mi>x</mi><mo>≥</mo><mn>0</mn></mrow></math>): <math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi></mrow></math> (<math display=\"inline\"><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup></math> jarraitua da).",
-      "<strong>b)</strong> <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>2</mn><mi>x</mi></msubsup><mi>t</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>3</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>t</mi></mrow></math>: <math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>x</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>3</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> (izendatzailea <math display=\"inline\"><mrow><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>, ez nulua).",
+      "<strong>b)</strong> <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>2</mn><mi>x</mi></msubsup><mi>t</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>3</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>t</mi></mrow></math></span>: <math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>x</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>3</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> (izendatzailea <math display=\"inline\"><mrow><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>, ez nulua).",
       "<strong>c)</strong> <strong>muga beheko aldakorra</strong>: <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mi>x</mi><mn>3</mn></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>v</mi><mo>+</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup><mi>d</mi><mi>v</mi><mo>=</mo><mi>−</mi><msubsup><mo>∫</mo><mn>3</mn><mi>x</mi></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>v</mi><mo>+</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup><mi>d</mi><mi>v</mi></mrow></math>, beraz <math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mrow><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mn>4</mn></msup></mrow></math>."
      ]
     },
     {
      "mota": "testua",
-     "html": "<em class=\"j-nab\">\n  <strong>d) Katearen erregela</strong> (goiko muga <strong>funtzio</strong> bat): <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>v</mi><mo>+</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>v</mi><mo>=</mo><mi>H</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, non\n  <math display=\"inline\"><mrow><mi>H</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mi>x</mi></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>v</mi><mo>+</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>v</mi></mrow></math>. Beraz <math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>H</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo>+</mo><mn>3</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>. TFC ezin da\n  <strong>zuzenean</strong> aplikatu goiko muga funtzio bat denean —katearen erregela behar da—.\n</em>"
+     "html": "<em class=\"j-nab\">\n  <strong>d) Katearen erregela</strong> (goiko muga <strong>funtzio</strong> bat): <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>v</mi><mo>+</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>v</mi><mo>=</mo><mi>H</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>, non\n  <math display=\"inline\"><mrow><mi>H</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mi>x</mi></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>v</mi><mo>+</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>v</mi></mrow></math>. Beraz <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>H</mi><mo>′</mo></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo>+</mo><mn>3</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>. TFC ezin da\n  <strong>zuzenean</strong> aplikatu goiko muga funtzio bat denean —katearen erregela behar da—.\n</em>"
     },
     {
      "mota": "oharra",
@@ -2614,7 +2614,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0045</code>, 88-89 orriak; &quot;CÁLCULO LANDETA&quot;, 2013/2/15; <code>IMG_2026_07_28_02_31_25S.jpg</code>). <strong>Kalkuluaren lehen teorema fundamentala</strong> (<math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo>=</mo><mi>f</mi></mrow></math>) eta lau adibide: a) <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>t</mi><mo>→</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi></mrow></math>; b) <math display=\"inline\"><mrow><mi>t</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>3</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>→</mo><mi>x</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>3</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>; c) <strong>muga beheko aldakorra</strong> → <math display=\"inline\"><msup><mrow><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mn>4</mn></msup></math>; d) <strong>katearen erregela</strong> <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></msubsup><mo>→</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo>+</mo><mn>3</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>. Aurreko Dirichlet-adibidearen itxiera ere. Denak SymPy-z egiaztatuak. Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p088_landeta.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0045</code>, 88-89 orriak; &quot;CÁLCULO LANDETA&quot;, 2013/2/15; <code>IMG_2026_07_28_02_31_25S.jpg</code>). <strong>Kalkuluaren lehen teorema fundamentala</strong> (<math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo>=</mo><mi>f</mi></mrow></math>) eta lau adibide: a) <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>t</mi><mo>→</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi></mrow></math></span>; b) <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>t</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>3</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>→</mo><mi>x</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>3</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>; c) <strong>muga beheko aldakorra</strong> → <math display=\"inline\"><msup><mrow><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mn>4</mn></msup></math>; d) <strong>katearen erregela</strong> <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></msubsup><mo>→</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo>+</mo><mn>3</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>. Aurreko Dirichlet-adibidearen itxiera ere. Denak SymPy-z egiaztatuak. Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p088_landeta.typ</code>."
       }
      ]
     },
@@ -2664,7 +2664,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>⋅</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, non <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><msup><mi>x</mi><mn>2</mn></msup></msubsup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><msup><mi>t</mi><mn>3</mn></msup></mrow></msqrt><mi>d</mi><mi>t</mi></mrow></math>. TFC + katearen erregelaz:"
+     "html": "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>⋅</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>, non <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><msup><mi>x</mi><mn>2</mn></msup></msubsup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><msup><mi>t</mi><mn>3</mn></msup></mrow></msqrt><mi>d</mi><mi>t</mi></mrow></math>. TFC + katearen erregelaz:"
     },
     {
      "mota": "kutxa",
@@ -2684,11 +2684,11 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em class=\"j-nab\">\n  Primitiba berehalakoak: <math display=\"inline\"><mrow><mo>∫</mo><msup><mi>x</mi><mi>α</mi></msup><mo>=</mo><msup><mi>x</mi><mrow><mi>α</mi><mo>+</mo><mn>1</mn></mrow></msup><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>α</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mo>∫</mo><msup><mi>e</mi><mi>x</mi></msup><mo>=</mo><msup><mi>e</mi><mi>x</mi></msup></mrow></math>, <math display=\"inline\"><mrow><mo>∫</mo><msup><mi>a</mi><mi>x</mi></msup><mo>=</mo><msup><mi>a</mi><mi>x</mi></msup><mi>/</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>a</mi></mrow></math>, <math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>/</mi><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>/</mi><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math>, eta\n  <math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>±</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi>x</mi><mo>±</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>±</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></msqrt><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></mrow></math>.\n</em>"
+     "html": "<em class=\"j-nab\">\n  Primitiba berehalakoak: <math display=\"inline\"><mrow><mo>∫</mo><msup><mi>x</mi><mi>α</mi></msup><mo>=</mo><msup><mi>x</mi><mrow><mi>α</mi><mo>+</mo><mn>1</mn></mrow></msup><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>α</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mo>∫</mo><msup><mi>e</mi><mi>x</mi></msup><mo>=</mo><msup><mi>e</mi><mi>x</mi></msup></mrow></math>, <math display=\"inline\"><mrow><mo>∫</mo><msup><mi>a</mi><mi>x</mi></msup><mo>=</mo><msup><mi>a</mi><mi>x</mi></msup><mi>/</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>a</mi></mrow></math>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>/</mi><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>/</mi><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></mrow></math></span>, <math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math>, eta\n  <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>±</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi>x</mi><mo>±</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>±</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></msqrt><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></mrow></math></span>.\n</em>"
     },
     {
      "mota": "testua",
-     "html": "<strong>Funtzio hiperbolikoak</strong>: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mn>2</mn></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>e</mi><mi>x</mi></msup><mo>−</mo><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mn>2</mn></mrow></math>, <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math>."
+     "html": "<strong>Funtzio hiperbolikoak</strong>: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mn>2</mn></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>e</mi><mi>x</mi></msup><mo>−</mo><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mn>2</mn></mrow></math>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math></span>."
     },
     {
      "mota": "oharra",
@@ -2696,7 +2696,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0046</code>, 90-91 orriak; orri mistoa &quot;CÁLCULO LANDETA&quot; 2013/2/15 + &quot;KALKULUA II&quot; 2013/2/18; <code>IMG_2026_07_28_02_31_31S.jpg</code>). <strong>Leibniz-en erregela</strong> (<math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo>=</mo><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>g</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>g</mi><mo>′</mo></msup><mo>−</mo><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>f</mi><mo>′</mo></msup></mrow></math>) eta <strong>adibide (iv)</strong> (<math display=\"inline\"><mrow><msup><mi>G</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn><mi>x</mi><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><msup><mi>x</mi><mn>6</mn></msup></mrow></msqrt></mrow></math>, SymPy-egiaztatua), gehi <strong>integralen formularioa</strong> eta <strong>funtzio hiperbolikoak</strong> (<math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>1</mn></mrow></math>). Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p090_landeta.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0046</code>, 90-91 orriak; orri mistoa &quot;CÁLCULO LANDETA&quot; 2013/2/15 + &quot;KALKULUA II&quot; 2013/2/18; <code>IMG_2026_07_28_02_31_31S.jpg</code>). <strong>Leibniz-en erregela</strong> (<math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo>=</mo><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>g</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>g</mi><mo>′</mo></msup><mo>−</mo><mi>h</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>f</mi><mo>′</mo></msup></mrow></math>) eta <strong>adibide (iv)</strong> (<math display=\"inline\"><mrow><msup><mi>G</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn><mi>x</mi><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><msup><mi>x</mi><mn>6</mn></msup></mrow></msqrt></mrow></math>, SymPy-egiaztatua), gehi <strong>integralen formularioa</strong> eta <strong>funtzio hiperbolikoak</strong> (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>1</mn></mrow></math></span>). Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p090_landeta.typ</code>."
       }
      ]
     },
@@ -2784,7 +2784,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "Riemann-en irizpideaz (T2): <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>S</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>s</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mn>2</mn><mi>n</mi></mfrac><mo>=</mo><mn>0</mn></mrow></math>, beraz <math display=\"inline\"><mi>f</mi></math> integragarria da, eta"
+     "html": "Riemann-en irizpideaz (T2): <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>S</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>s</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mn>2</mn><mi>n</mi></mfrac><mo>=</mo><mn>0</mn></mrow></math></span>, beraz <math display=\"inline\"><mi>f</mi></math> integragarria da, eta"
     },
     {
      "mota": "kutxa",
@@ -2807,7 +2807,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0050</code>, 98-99 orriak; &quot;CÁLCULO LANDETA&quot;, 2013/2/19; <code>IMG_2026_07_28_02_31_48S.jpg</code>). Aurreko orriko <strong>(7) ariketaren jarraipena</strong>: <strong>(7)(i)</strong> positibotasuna (<math display=\"inline\"><mrow><mi>f</mi><mo>≥</mo><mn>0</mn></mrow></math> integragarria <math display=\"inline\"><mrow><mo>⇒</mo><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sup</mi><mo>&#8289;</mo></mrow><mi>s</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">inf</mi><mo>&#8289;</mo></mrow><mi>S</mi><mo>≥</mo><mn>0</mn></mrow></math>) eta <strong>(7)(ii)</strong> &quot;pike&quot; <strong>kontradibidea</strong> (<math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0</mn></mrow></math> salbu <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn></mrow></math>; <math display=\"inline\"><mrow><mi>S</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>2</mn><mi>/</mi><mi>n</mi></mrow></math>, <math display=\"inline\"><mrow><mi>s</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>S</mi><mo>−</mo><mi>s</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> → integragarria, <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>2</mn></msubsup><mi>f</mi><mo>=</mo><mn>0</mn></mrow></math>). SymPy-z egiaztatuak. Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p098_landeta.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0050</code>, 98-99 orriak; &quot;CÁLCULO LANDETA&quot;, 2013/2/19; <code>IMG_2026_07_28_02_31_48S.jpg</code>). Aurreko orriko <strong>(7) ariketaren jarraipena</strong>: <strong>(7)(i)</strong> positibotasuna (<math display=\"inline\"><mrow><mi>f</mi><mo>≥</mo><mn>0</mn></mrow></math> integragarria <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>⇒</mo><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sup</mi><mo>&#8289;</mo></mrow><mi>s</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">inf</mi><mo>&#8289;</mo></mrow><mi>S</mi><mo>≥</mo><mn>0</mn></mrow></math></span>) eta <strong>(7)(ii)</strong> &quot;pike&quot; <strong>kontradibidea</strong> (<math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0</mn></mrow></math> salbu <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn></mrow></math>; <math display=\"inline\"><mrow><mi>S</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>2</mn><mi>/</mi><mi>n</mi></mrow></math>, <math display=\"inline\"><mrow><mi>s</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>S</mi><mo>−</mo><mi>s</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> → integragarria, <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>2</mn></msubsup><mi>f</mi><mo>=</mo><mn>0</mn></mrow></math>). SymPy-z egiaztatuak. Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p098_landeta.typ</code>."
       }
      ]
     },
@@ -2957,7 +2957,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "Hau da Darboux-en baturen monotonia fintzearekiko: <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo>=</mo><munder><mi mathvariant=\"normal\">sup</mi><mi>P</mi></munder><mi>s</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><munder><mi mathvariant=\"normal\">inf</mi><mi>P</mi></munder><mi>S</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+     "html": "Hau da Darboux-en baturen monotonia fintzearekiko: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo>=</mo><munder><mi mathvariant=\"normal\">sup</mi><mi>P</mi></munder><mi>s</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><munder><mi mathvariant=\"normal\">inf</mi><mi>P</mi></munder><mi>S</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>."
     },
     {
      "mota": "izenburua",
@@ -2981,7 +2981,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi>s</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≤</mo><msubsup><mo>∫</mo><mn>1</mn><mi>n</mi></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mi>x</mi><mo>≤</mo><mi>S</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> denez, arteztea lortzen da:"
+     "html": "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>s</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≤</mo><msubsup><mo>∫</mo><mn>1</mn><mi>n</mi></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mi>x</mi><mo>≤</mo><mi>S</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span> denez, arteztea lortzen da:"
     },
     {
      "mota": "kutxa",
@@ -3004,7 +3004,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0053</code>, 104-105 orriak; &quot;CÁLCULO NEWTON&quot;, 2013/2/20; <code>IMG_2026_07_28_02_32_02S.jpg</code>). <strong>Behe/goi-baturen definizioa</strong>, <strong>fintze-desberdintza</strong> (<math display=\"inline\"><mrow><mi>L</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≤</mo><mi>L</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>P</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≤</mo><mo>∫</mo><mo>≤</mo><mi>U</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>P</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≤</mo><mi>U</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>) eta <strong>adibide klasikoa</strong>: <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn><mi>/</mi><mi>x</mi></mrow></math>, <math display=\"inline\"><mrow><msub><mi>P</mi><mi>n</mi></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mn>1</mn><mo>,</mo><mi>…</mi><mo>,</mo><mi>n</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> → <math display=\"inline\"><mrow><mn>1</mn><mi>/</mi><mn>2</mn><mo>+</mo><mi>…</mi><mo>+</mo><mn>1</mn><mi>/</mi><mi>n</mi><mo>≤</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>n</mi><mo>≤</mo><mn>1</mn><mo>+</mo><mi>…</mi><mo>+</mo><mn>1</mn><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> (<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>n</mi></msubsup><mi>d</mi><mi>x</mi><mi>/</mi><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>n</mi></mrow></math>). SymPy-z egiaztatua (numerikoki <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>10</mn><mo>,</mo><mn>50</mn></mrow></math>). Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p104_newton.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0053</code>, 104-105 orriak; &quot;CÁLCULO NEWTON&quot;, 2013/2/20; <code>IMG_2026_07_28_02_32_02S.jpg</code>). <strong>Behe/goi-baturen definizioa</strong>, <strong>fintze-desberdintza</strong> (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>L</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≤</mo><mi>L</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>P</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≤</mo><mo>∫</mo><mo>≤</mo><mi>U</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>P</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≤</mo><mi>U</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>P</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>) eta <strong>adibide klasikoa</strong>: <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn><mi>/</mi><mi>x</mi></mrow></math>, <math display=\"inline\"><mrow><msub><mi>P</mi><mi>n</mi></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mn>1</mn><mo>,</mo><mi>…</mi><mo>,</mo><mi>n</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> → <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mn>1</mn><mi>/</mi><mn>2</mn><mo>+</mo><mi>…</mi><mo>+</mo><mn>1</mn><mi>/</mi><mi>n</mi><mo>≤</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>n</mi><mo>≤</mo><mn>1</mn><mo>+</mo><mi>…</mi><mo>+</mo><mn>1</mn><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span> (<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>n</mi></msubsup><mi>d</mi><mi>x</mi><mi>/</mi><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>n</mi></mrow></math>). SymPy-z egiaztatua (numerikoki <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>10</mn><mo>,</mo><mn>50</mn></mrow></math>). Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p104_newton.typ</code>."
       }
      ]
     },
@@ -3073,7 +3073,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "Kalkulua hurrengo orrian osatzen da; balioa <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>2</mn></msubsup><msup><mi>x</mi><mn>2</mn></msup><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><msup><mi>x</mi><mn>3</mn></msup><mi>/</mi><mn>3</mn><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi>−</mi><mn>1</mn></mrow><mn>2</mn></msubsup><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>=</mo><mn>3</mn></mrow></math> da."
+     "html": "Kalkulua hurrengo orrian osatzen da; balioa <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>2</mn></msubsup><msup><mi>x</mi><mn>2</mn></msup><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><msup><mi>x</mi><mn>3</mn></msup><mi>/</mi><mn>3</mn><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi>−</mi><mn>1</mn></mrow><mn>2</mn></msubsup><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>=</mo><mn>3</mn></mrow></math></span> da."
     },
     {
      "mota": "oharra",
@@ -3081,7 +3081,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0054</code>, 106-107 orriak; &quot;CÁLCULO NEWTON&quot;, 2013/2/20; <code>IMG_2026_07_28_02_32_07S.jpg</code>). <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><msup><mi>e</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi><mo>=</mo><mi>e</mi><mo>−</mo><mn>1</mn></mrow></math> <strong>Riemann-en baturez</strong> (serie geometrikoa: <math display=\"inline\"><mrow><mi>s</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msubsup><mo>∑</mo><mn>0</mn><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msubsup><msup><mi>e</mi><mrow><mi>k</mi><mi>/</mi><mi>n</mi></mrow></msup><mo>→</mo><mi>e</mi><mo>−</mo><mn>1</mn></mrow></math>, goi-baturak berdin) eta <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>2</mn></msubsup><msup><mi>x</mi><mn>2</mn></msup><mi>d</mi><mi>x</mi></mrow></math>-ren <strong>plateamendua</strong> (bi zatitan, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> eta <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>; balioa <math display=\"inline\"><mn>3</mn></math>). SymPy-z egiaztatuak (bi limiteak <math display=\"inline\"><mrow><mi>e</mi><mo>−</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>2</mn></msubsup><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>3</mn></mrow></math>). Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p106_newton.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0054</code>, 106-107 orriak; &quot;CÁLCULO NEWTON&quot;, 2013/2/20; <code>IMG_2026_07_28_02_32_07S.jpg</code>). <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><msup><mi>e</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi><mo>=</mo><mi>e</mi><mo>−</mo><mn>1</mn></mrow></math> <strong>Riemann-en baturez</strong> (serie geometrikoa: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>s</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msubsup><mo>∑</mo><mn>0</mn><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msubsup><msup><mi>e</mi><mrow><mi>k</mi><mi>/</mi><mi>n</mi></mrow></msup><mo>→</mo><mi>e</mi><mo>−</mo><mn>1</mn></mrow></math></span>, goi-baturak berdin) eta <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>2</mn></msubsup><msup><mi>x</mi><mn>2</mn></msup><mi>d</mi><mi>x</mi></mrow></math>-ren <strong>plateamendua</strong> (bi zatitan, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> eta <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>; balioa <math display=\"inline\"><mn>3</mn></math>). SymPy-z egiaztatuak (bi limiteak <math display=\"inline\"><mrow><mi>e</mi><mo>−</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>2</mn></msubsup><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>3</mn></mrow></math>). Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p106_newton.typ</code>."
       }
      ]
     },
@@ -3180,7 +3180,7 @@ KAPITULUAK["01mc_03integralak"] = {
     {
      "mota": "izenburua",
      "maila": 4,
-     "testua": "<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mo>∑</mo><mn>1</mn><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mi>k</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>2</mn></mrow></math>"
+     "testua": "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mo>∑</mo><mn>1</mn><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mi>k</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>2</mn></mrow></math></span>"
     },
     {
      "mota": "testua",
@@ -3200,7 +3200,7 @@ KAPITULUAK["01mc_03integralak"] = {
     {
      "mota": "izenburua",
      "maila": 4,
-     "testua": "<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∑</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>π</mi><mi>/</mi><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn><mi>/</mi><mi>π</mi></mrow></math>"
+     "testua": "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">lim</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∑</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>π</mi><mi>/</mi><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn><mi>/</mi><mi>π</mi></mrow></math></span>"
     },
     {
      "mota": "kutxa",
@@ -3251,7 +3251,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0056</code>, 110-111 orriak; &quot;CÁLCULO NEWTON&quot;, 2013/2/20; <code>IMG_2026_07_28_02_32_17S.jpg</code>). <strong>Hiru serie-limite integral gisa</strong>: <math display=\"inline\"><mrow><mo>∑</mo><mn>1</mn><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mi>k</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>→</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>2</mn></mrow></math>; <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∑</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>π</mi><mi>/</mi><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>→</mo><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn><mi>/</mi><mi>π</mi></mrow></math>; eta <math display=\"inline\"><mrow><mroot><mrow><mi>n</mi><mi>!</mi></mrow><mi>n</mi></mroot><mi>/</mi><mi>n</mi><mo>→</mo><mn>1</mn><mi>/</mi><mi>e</mi></mrow></math> (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>A</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math>, integral inpropioa, <math display=\"inline\"><mrow><mi>ε</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>ε</mi><mo>→</mo><mn>0</mn></mrow></math> L&#x27;Hôpital-ez). SymPy-z egiaztatuak (numerikoki <math display=\"inline\"><mrow><mroot><mrow><mi>n</mi><mi>!</mi></mrow><mi>n</mi></mroot><mi>/</mi><mi>n</mi><mo>→</mo><mn>0.3679</mn><mo>=</mo><mn>1</mn><mi>/</mi><mi>e</mi></mrow></math>). Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p110_newton.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0056</code>, 110-111 orriak; &quot;CÁLCULO NEWTON&quot;, 2013/2/20; <code>IMG_2026_07_28_02_32_17S.jpg</code>). <strong>Hiru serie-limite integral gisa</strong>: <math display=\"inline\"><mrow><mo>∑</mo><mn>1</mn><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mi>k</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>→</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>2</mn></mrow></math>; <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∑</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>π</mi><mi>/</mi><mi>n</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>→</mo><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn><mi>/</mi><mi>π</mi></mrow></math></span>; eta <math display=\"inline\"><mrow><mroot><mrow><mi>n</mi><mi>!</mi></mrow><mi>n</mi></mroot><mi>/</mi><mi>n</mi><mo>→</mo><mn>1</mn><mi>/</mi><mi>e</mi></mrow></math> (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>A</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math></span>, integral inpropioa, <math display=\"inline\"><mrow><mi>ε</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>ε</mi><mo>→</mo><mn>0</mn></mrow></math> L&#x27;Hôpital-ez). SymPy-z egiaztatuak (numerikoki <math display=\"inline\"><mrow><mroot><mrow><mi>n</mi><mi>!</mi></mrow><mi>n</mi></mroot><mi>/</mi><mi>n</mi><mo>→</mo><mn>0.3679</mn><mo>=</mo><mn>1</mn><mi>/</mi><mi>e</mi></mrow></math>). Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p110_newton.typ</code>."
       }
      ]
     },
@@ -3341,7 +3341,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mi>x</mi></msubsup><msup><mi>t</mi><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mo>∫</mo><mn>1</mn><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></msubsup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>s</mi><mn>4</mn></msup></mrow></msqrt><mi>d</mi><mi>s</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>t</mi></mrow></math>, non <math display=\"inline\"><mrow><mi>H</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>1</mn><mi>u</mi></msubsup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>s</mi><mn>4</mn></msup></mrow></msqrt><mi>d</mi><mi>s</mi></mrow></math>. TFC-z eta biderkadura + katearen erregelaz (<math display=\"inline\"><mrow><msup><mi>H</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>u</mi><mn>4</mn></msup></mrow></msqrt></mrow></math>):"
+     "html": "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mi>x</mi></msubsup><msup><mi>t</mi><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mo>∫</mo><mn>1</mn><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></msubsup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>s</mi><mn>4</mn></msup></mrow></msqrt><mi>d</mi><mi>s</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>t</mi></mrow></math></span>, non <math display=\"inline\"><mrow><mi>H</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>1</mn><mi>u</mi></msubsup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>s</mi><mn>4</mn></msup></mrow></msqrt><mi>d</mi><mi>s</mi></mrow></math>. TFC-z eta biderkadura + katearen erregelaz (<math display=\"inline\"><mrow><msup><mi>H</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>u</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>u</mi><mn>4</mn></msup></mrow></msqrt></mrow></math>):"
     },
     {
      "mota": "kutxa",
@@ -3380,7 +3380,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0057</code>, 112-113 orriak; &quot;CÁLCULO NEWTON&quot;, 2013/2/20; <code>IMG_2026_07_28_02_33_04S.jpg</code>). <strong>Stirling</strong> (<math display=\"inline\"><mrow><mroot><mrow><mi>n</mi><mi>!</mi></mrow><mi>n</mi></mroot><mi>/</mi><mi>n</mi><mo>→</mo><mn>1</mn><mi>/</mi><mi>e</mi></mrow></math>), <strong>L&#x27;Hôpital + TFC</strong> (<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mo>∫</mo><mn>0</mn><mi>x</mi></msubsup><mi mathvariant=\"normal\">cos</mi><msup><mi>t</mi><mn>2</mn></msup><mi>d</mi><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math>), <strong>katearen erregela</strong> (<math display=\"inline\"><mrow><mi>d</mi><mi>/</mi><mi>d</mi><mi>x</mi><msubsup><mo>∫</mo><mn>0</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi></mrow></msubsup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>), <strong>integral habiratua</strong> (<math display=\"inline\"><mrow><msup><mi>F</mi><mo>″</mo></msup><mo>=</mo><mn>2</mn><mi>x</mi><msubsup><mo>∫</mo><mn>1</mn><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></msubsup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>s</mi><mn>4</mn></msup></mrow></msqrt><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi></mrow></msqrt><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>) eta <strong>faktore konstantea</strong>. SymPy-z egiaztatuak. Iturriko <math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-ren <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> lapsusa (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> izan behar du) zuzendua; beste zuzenketarik ez. Ikus <code>koadernoa_calculo1_2013_kal_p112_newton.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0057</code>, 112-113 orriak; &quot;CÁLCULO NEWTON&quot;, 2013/2/20; <code>IMG_2026_07_28_02_33_04S.jpg</code>). <strong>Stirling</strong> (<math display=\"inline\"><mrow><mroot><mrow><mi>n</mi><mi>!</mi></mrow><mi>n</mi></mroot><mi>/</mi><mi>n</mi><mo>→</mo><mn>1</mn><mi>/</mi><mi>e</mi></mrow></math>), <strong>L&#x27;Hôpital + TFC</strong> (<math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mo>∫</mo><mn>0</mn><mi>x</mi></msubsup><mi mathvariant=\"normal\">cos</mi><msup><mi>t</mi><mn>2</mn></msup><mi>d</mi><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math>), <strong>katearen erregela</strong> (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>d</mi><mi>/</mi><mi>d</mi><mi>x</mi><msubsup><mo>∫</mo><mn>0</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi></mrow></msubsup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>), <strong>integral habiratua</strong> (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mi>F</mi><mo>″</mo></msup><mo>=</mo><mn>2</mn><mi>x</mi><msubsup><mo>∫</mo><mn>1</mn><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></msubsup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>s</mi><mn>4</mn></msup></mrow></msqrt><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi></mrow></msqrt><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math></span>) eta <strong>faktore konstantea</strong>. SymPy-z egiaztatuak. Iturriko <math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-ren <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> lapsusa (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> izan behar du) zuzendua; beste zuzenketarik ez. Ikus <code>koadernoa_calculo1_2013_kal_p112_newton.typ</code>."
       }
      ]
     },
@@ -3406,7 +3406,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, non <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><msup><mi>x</mi><mn>2</mn></msup></msubsup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><msup><mi>t</mi><mn>3</mn></msup></mrow></msqrt><mi>d</mi><mi>t</mi></mrow></math>. Biderkadura + katearen erregelaz (<math display=\"inline\"><mrow><msup><mi>G</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn><mi>x</mi><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><msup><mi>x</mi><mn>6</mn></msup></mrow></msqrt></mrow></math>):"
+     "html": "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>, non <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><msup><mi>x</mi><mn>2</mn></msup></msubsup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><msup><mi>t</mi><mn>3</mn></msup></mrow></msqrt><mi>d</mi><mi>t</mi></mrow></math>. Biderkadura + katearen erregelaz (<math display=\"inline\"><mrow><msup><mi>G</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn><mi>x</mi><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><msup><mi>x</mi><mn>6</mn></msup></mrow></msqrt></mrow></math>):"
     },
     {
      "mota": "kutxa",
@@ -3529,7 +3529,7 @@ KAPITULUAK["01mc_03integralak"] = {
           },
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-en jatorrizkoa honela adierazten dugu <math display=\"inline\"><mrow><mo>∫</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-en jatorrizkoa honela adierazten dugu <math display=\"inline\"><mrow><mo>∫</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
           },
           {
            "mota": "testua",
@@ -3555,13 +3555,13 @@ KAPITULUAK["01mc_03integralak"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><mi>D</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>2</mn><mi>x</mi></mrow></math>"
+             "html": "<math display=\"block\"><mrow><mi>D</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>2</mn><mi>x</mi></mrow></math>"
             }
            ]
           },
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mn>2</mn><mi>x</mi></mrow></math>-en jatorrizkoak izango dira ondokoak ere: <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn></mrow></math>, <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn></mrow></math>, <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>π</mi></mrow></math> eta, orokorrean, <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>k</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mn>2</mn><mi>x</mi></mrow></math>-en jatorrizkoak izango dira ondokoak ere: <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn></mrow></math>, <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn></mrow></math>, <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>π</mi></mrow></math> eta, orokorrean, <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>k</mi></mrow></math>"
           },
           {
            "mota": "testua",
@@ -3597,7 +3597,7 @@ KAPITULUAK["01mc_03integralak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mi>x</mi><mi>n</mi></msup><mo>=</mo><mfrac><msup><mi>x</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mi>k</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>n</mi><mo>≠</mo><mi>−</mi><mn>1</mn></mrow></math>, izan ere <math display=\"inline\"><mrow><mi>D</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><msup><mi>x</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mi>k</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mn>1</mn><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>x</mi><mi>n</mi></msup><mo>=</mo><msup><mi>x</mi><mi>n</mi></msup></mrow></math>"
+         "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mi>x</mi><mi>n</mi></msup><mo>=</mo><mfrac><msup><mi>x</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mi>k</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>n</mi><mo>≠</mo><mi>−</mi><mn>1</mn></mrow></math>, izan ere <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>D</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><msup><mi>x</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mi>k</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mn>1</mn><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>x</mi><mi>n</mi></msup><mo>=</mo><msup><mi>x</mi><mi>n</mi></msup></mrow></math></span>"
         }
        ]
       }
@@ -3614,11 +3614,11 @@ KAPITULUAK["01mc_03integralak"] = {
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>=</mo><mo>∫</mo><msup><mi>x</mi><mrow><mi>−</mi><mn>2</mn></mrow></msup><mo>=</mo><mfrac><msup><mi>x</mi><mrow><mi>−</mi><mn>2</mn><mo>+</mo><mn>1</mn></mrow></msup><mrow><mi>−</mi><mn>2</mn><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><msup><mi>x</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup><mrow><mi>−</mi><mn>1</mn></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow></math> ;    <math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>3</mn></msup></mfrac><mo>=</mo><mo>∫</mo><msup><mi>x</mi><mrow><mi>−</mi><mn>3</mn></mrow></msup><mo>=</mo><mfrac><msup><mi>x</mi><mrow><mi>−</mi><mn>3</mn><mo>+</mo><mn>1</mn></mrow></msup><mrow><mi>−</mi><mn>3</mn><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>=</mo><mo>∫</mo><msup><mi>x</mi><mrow><mi>−</mi><mn>2</mn></mrow></msup><mo>=</mo><mfrac><msup><mi>x</mi><mrow><mi>−</mi><mn>2</mn><mo>+</mo><mn>1</mn></mrow></msup><mrow><mi>−</mi><mn>2</mn><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><msup><mi>x</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup><mrow><mi>−</mi><mn>1</mn></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow></math> ;    <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>3</mn></msup></mfrac><mo>=</mo><mo>∫</mo><msup><mi>x</mi><mrow><mi>−</mi><mn>3</mn></mrow></msup><mo>=</mo><mfrac><msup><mi>x</mi><mrow><mi>−</mi><mn>3</mn><mo>+</mo><mn>1</mn></mrow></msup><mrow><mi>−</mi><mn>3</mn><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></mrow></math></span>"
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msqrt><mi>x</mi></msqrt><mo>=</mo><mo>∫</mo><msup><mi>x</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mo>=</mo><mfrac><msup><mi>x</mi><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mn>1</mn></mrow></msup><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup><mfrac><mn>3</mn><mn>2</mn></mfrac></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><msqrt><msup><mi>x</mi><mn>3</mn></msup></msqrt></mrow></math>     (Emaitza hau aurreko orrialdearen amaieran proposatutako ariketan erabili dugu.)"
+       "html": "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><msqrt><mi>x</mi></msqrt><mo>=</mo><mo>∫</mo><msup><mi>x</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mo>=</mo><mfrac><msup><mi>x</mi><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mn>1</mn></mrow></msup><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup><mfrac><mn>3</mn><mn>2</mn></mfrac></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><msqrt><msup><mi>x</mi><mn>3</mn></msup></msqrt></mrow></math></span>     (Emaitza hau aurreko orrialdearen amaieran proposatutako ariketan erabili dugu.)"
       }
      ]
     },
@@ -3650,7 +3650,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><msup><mi>x</mi><mn>4</mn></msup></math>"
+           "html": "<math display=\"block\"><msup><mi>x</mi><mn>4</mn></msup></math>"
           }
          ]
         }
@@ -3665,7 +3665,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mroot><mi>x</mi><mn>3</mn></mroot></math>"
+           "html": "<math display=\"block\"><mroot><mi>x</mi><mn>3</mn></mroot></math>"
           }
          ]
         }
@@ -3680,7 +3680,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><msup><mi>x</mi><mn>10</mn></msup></math>"
+           "html": "<math display=\"block\"><msup><mi>x</mi><mn>10</mn></msup></math>"
           }
          ]
         }
@@ -3695,7 +3695,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mfrac><mn>1</mn><msup><mi>x</mi><mn>4</mn></msup></mfrac></math>"
+           "html": "<math display=\"block\"><mfrac><mn>1</mn><msup><mi>x</mi><mn>4</mn></msup></mfrac></math>"
           }
          ]
         }
@@ -3716,7 +3716,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mfrac><mn>1</mn><msqrt><mi>x</mi></msqrt></mfrac></math>"
+           "html": "<math display=\"block\"><mfrac><mn>1</mn><msqrt><mi>x</mi></msqrt></mfrac></math>"
           }
          ]
         }
@@ -3752,7 +3752,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mfrac><mroot><mi>x</mi><mn>3</mn></mroot><msqrt><mi>x</mi></msqrt></mfrac></math>"
+           "html": "<math display=\"block\"><mfrac><mroot><mi>x</mi><mn>3</mn></mroot><msqrt><mi>x</mi></msqrt></mfrac></math>"
           }
          ]
         }
@@ -3767,7 +3767,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mroot><mi>x</mi><mn>3</mn></mroot><mo>⋅</mo><msqrt><msup><mi>x</mi><mn>3</mn></msup></msqrt></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mroot><mi>x</mi><mn>3</mn></mroot><mo>⋅</mo><msqrt><msup><mi>x</mi><mn>3</mn></msup></msqrt></mrow></math>"
           }
          ]
         }
@@ -3784,11 +3784,11 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mi>k</mi><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>k</mi><mo>∫</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, izan ere <math display=\"inline\"><mrow><mi>D</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>k</mi><mo>∫</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mi>k</mi><mi>D</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mo>∫</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mi>k</mi><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mi>k</mi><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>k</mi><mo>∫</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, izan ere <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>D</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>k</mi><mo>∫</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mi>k</mi><mi>D</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mo>∫</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mi>k</mi><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>"
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mo>∫</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mo>∫</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, izan ere <math display=\"inline\"><mrow><mi>D</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mo>∫</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mo>∫</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mi>D</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mo>∫</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>+</mo><mi>D</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mo>∫</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mo>∫</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mo>∫</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, izan ere <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>D</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mo>∫</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mo>∫</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mi>D</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mo>∫</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>+</mo><mi>D</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mo>∫</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>"
       }
      ]
     },
@@ -3799,19 +3799,19 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>3</mn><mn>3</mn></mfrac><msup><mi>x</mi><mn>3</mn></msup><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup></mrow></math>     <math display=\"inline\"><mrow><mo>∫</mo><msqrt><mn>3</mn></msqrt><msup><mi>x</mi><mn>4</mn></msup><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>⋅</mo><mfrac><msup><mi>x</mi><mn>5</mn></msup><mn>5</mn></mfrac><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>5</mn></mfrac><msup><mi>x</mi><mn>5</mn></msup></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>3</mn><mn>3</mn></mfrac><msup><mi>x</mi><mn>3</mn></msup><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup></mrow></math>     <math display=\"inline\"><mrow><mo>∫</mo><msqrt><mn>3</mn></msqrt><msup><mi>x</mi><mn>4</mn></msup><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>⋅</mo><mfrac><msup><mi>x</mi><mn>5</mn></msup><mn>5</mn></mfrac><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>5</mn></mfrac><msup><mi>x</mi><mn>5</mn></msup></mrow></math>"
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>⋅</mo><msqrt><msup><mi>x</mi><mn>3</mn></msup></msqrt><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>⋅</mo><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>⋅</mo><mfrac><msup><mi>x</mi><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mn>1</mn></mrow></msup><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>⋅</mo><mfrac><msup><mi>x</mi><mfrac><mn>5</mn><mn>2</mn></mfrac></msup><mfrac><mn>5</mn><mn>2</mn></mfrac></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mn>5</mn></mfrac><mo>⋅</mo><msqrt><msup><mi>x</mi><mn>5</mn></msup></msqrt></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msqrt><mrow><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>⋅</mo><msqrt><msup><mi>x</mi><mn>3</mn></msup></msqrt><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>⋅</mo><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>⋅</mo><mfrac><msup><mi>x</mi><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mn>1</mn></mrow></msup><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>⋅</mo><mfrac><msup><mi>x</mi><mfrac><mn>5</mn><mn>2</mn></mfrac></msup><mfrac><mn>5</mn><mn>2</mn></mfrac></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mn>5</mn></mfrac><mo>⋅</mo><msqrt><msup><mi>x</mi><mn>5</mn></msup></msqrt></mrow></math>"
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><msup><mi>x</mi><mn>4</mn></msup><mn>4</mn></mfrac><mo>−</mo><mfrac><mrow><mn>5</mn><msup><mi>x</mi><mn>3</mn></msup></mrow><mn>3</mn></mfrac><mo>+</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>+</mo><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><msup><mi>x</mi><mn>4</mn></msup><mn>4</mn></mfrac><mo>−</mo><mfrac><mrow><mn>5</mn><msup><mi>x</mi><mn>3</mn></msup></mrow><mn>3</mn></mfrac><mo>+</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>+</mo><mi>x</mi></mrow></math>"
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>+</mo><mn>3</mn><msup><mi>x</mi><mrow><mi>−</mi><mn>2</mn></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mi>x</mi><mo>+</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></mrow><mrow><mi>−</mi><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mi>x</mi><mo>−</mo><mfrac><mn>3</mn><mi>x</mi></mfrac></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>+</mo><mn>3</mn><msup><mi>x</mi><mrow><mi>−</mi><mn>2</mn></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mi>x</mi><mo>+</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></mrow><mrow><mi>−</mi><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mi>x</mi><mo>−</mo><mfrac><mn>3</mn><mi>x</mi></mfrac></mrow></math>"
       }
      ]
     },
@@ -3830,11 +3830,11 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mi>k</mi></mrow></math>, izan ere <math display=\"inline\"><mrow><mi>D</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo>+</mo><mi>k</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mi>k</mi></mrow></math>, izan ere <math display=\"inline\"><mrow><mi>D</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo>+</mo><mi>k</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>"
           },
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mi>k</mi></mrow></math>, izan ere <math display=\"inline\"><mrow><mi>D</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>−</mi><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo>+</mo><mi>k</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mi>k</mi></mrow></math>, izan ere <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>D</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>−</mi><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo>+</mo><mi>k</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math></span>"
           }
          ]
         }
@@ -3849,11 +3849,11 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>3</mn><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo>+</mo><mn>2</mn><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>3</mn><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo>+</mo><mn>2</mn><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo></mrow></math>"
           },
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mo>=</mo><mn>3</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mo>=</mo><mn>3</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>"
           }
          ]
         }
@@ -3870,11 +3870,11 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>k</mi></mrow></math> bada, orduan <math display=\"inline\"><mrow><mo>∫</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><mi>a</mi></mfrac><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>k</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>k</mi></mrow></math> bada, orduan <math display=\"inline\"><mrow><mo>∫</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><mi>a</mi></mfrac><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>k</mi></mrow></math>"
       },
       {
        "mota": "testua",
-       "html": "izan ere, <math display=\"inline\"><mrow><mi>D</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mn>1</mn><mi>a</mi></mfrac><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>k</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mfrac><mn>1</mn><mi>a</mi></mfrac><mo>⋅</mo><mi>a</mi><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       "html": "izan ere, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>D</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mn>1</mn><mi>a</mi></mfrac><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>k</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mfrac><mn>1</mn><mi>a</mi></mfrac><mo>⋅</mo><mi>a</mi><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>"
       }
      ]
     },
@@ -3885,11 +3885,11 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>     <math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>5</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>⋅</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>5</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>5</mn></msup></mrow><mn>5</mn></mfrac></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>     <math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>5</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>⋅</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>5</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>5</mn></msup></mrow><mn>5</mn></mfrac></mrow></math>"
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><mn>5</mn><mi>x</mi><mo>−</mo><mn>7</mn></mrow></msqrt><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>⋅</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>⋅</mo><msqrt><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mi>x</mi><mo>−</mo><mn>7</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup></mrow></msqrt></mrow></math>, izan ere <math display=\"inline\"><mrow><mo>∫</mo><msqrt><mi>x</mi></msqrt><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>⋅</mo><msqrt><msup><mi>x</mi><mn>3</mn></msup></msqrt></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msqrt><mrow><mn>5</mn><mi>x</mi><mo>−</mo><mn>7</mn></mrow></msqrt><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>⋅</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>⋅</mo><msqrt><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mi>x</mi><mo>−</mo><mn>7</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup></mrow></msqrt></mrow></math>, izan ere <math display=\"inline\"><mrow><mo>∫</mo><msqrt><mi>x</mi></msqrt><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>⋅</mo><msqrt><msup><mi>x</mi><mn>3</mn></msup></msqrt></mrow></math>"
       }
      ]
     },
@@ -3921,7 +3921,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mfrac><mi>x</mi><mn>3</mn></mfrac><mo>−</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mfrac><mi>x</mi><mn>3</mn></mfrac><mo>−</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
           }
          ]
         }
@@ -3936,7 +3936,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mfrac><mi>x</mi><mn>3</mn></mfrac><mo>−</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mfrac><mi>x</mi><mn>3</mn></mfrac><mo>−</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
           }
          ]
         }
@@ -3957,7 +3957,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></mfrac></math>"
+           "html": "<math display=\"block\"><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></mfrac></math>"
           }
          ]
         }
@@ -3972,7 +3972,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mroot><mrow><mn>5</mn><mi>x</mi></mrow><mn>3</mn></mroot></math>"
+           "html": "<math display=\"block\"><mroot><mrow><mn>5</mn><mi>x</mi></mrow><mn>3</mn></mroot></math>"
           }
          ]
         }
@@ -3987,7 +3987,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mn>3</mn><msup><mi>x</mi><mn>7</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mn>3</mn><msup><mi>x</mi><mn>7</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow></math>"
           }
          ]
         }
@@ -4008,7 +4008,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mfrac><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><msqrt><mi>x</mi></msqrt></mfrac></math>"
+           "html": "<math display=\"block\"><mfrac><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><msqrt><mi>x</mi></msqrt></mfrac></math>"
           }
          ]
         }
@@ -4023,7 +4023,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow><msqrt><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow></msqrt></mfrac></math>"
+           "html": "<math display=\"block\"><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow><msqrt><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow></msqrt></mfrac></math>"
           }
          ]
         }
@@ -4082,9 +4082,9 @@ KAPITULUAK["01mc_03integralak"] = {
        "mota": "zerrenda",
        "ordenatua": false,
        "elementuak": [
-        "Funtzioaren jatorrizko bat hau da: <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi></mrow></math>",
+        "Funtzioaren jatorrizko bat hau da: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi></mrow></math></span>",
         "<math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-en balioa bitartearen muturretan: <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><msup><mn>3</mn><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>⋅</mo><mn>3</mn><mo>=</mo><mn>6</mn></mrow></math>, <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></mrow></math>",
-        "Aurkitu nahi dugun azalera da: <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>2</mn><mn>3</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>6</mn><mo>−</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>10</mn><mn>3</mn></mfrac></mrow></math>"
+        "Aurkitu nahi dugun azalera da: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>2</mn><mn>3</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>6</mn><mo>−</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>10</mn><mn>3</mn></mfrac></mrow></math></span>"
        ]
       },
       {
@@ -4101,9 +4101,9 @@ KAPITULUAK["01mc_03integralak"] = {
            "mota": "zerrenda",
            "ordenatua": false,
            "elementuak": [
-            "Funtzioaren jatorrizko bat: <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>",
-            "Balioak muturretan: <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>π</mi><mo>=</mo><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn></mrow></math>, <br>  <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>0</mn><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math>",
-            "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>π</mi></msubsup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn></mrow></math>"
+            "Funtzioaren jatorrizko bat: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math></span>",
+            "Balioak muturretan: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>π</mi><mo>=</mo><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn></mrow></math></span>, <br>  <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>0</mn><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math>",
+            "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>π</mi></msubsup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn></mrow></math></span>"
            ]
           }
          ]
@@ -4136,7 +4136,7 @@ KAPITULUAK["01mc_03integralak"] = {
            "elementuak": [
             "<math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>, lehen bezala.",
             "<math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>π</mi><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math>     <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>π</mi><mo>=</mo><mn>1</mn></mrow></math>",
-            "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mi>π</mi><mrow><mn>2</mn><mi>π</mi></mrow></msubsup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mn>1</mn><mo>−</mo><mn>1</mn><mo>=</mo><mi>−</mi><mn>2</mn></mrow></math>"
+            "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mi>π</mi><mrow><mn>2</mn><mi>π</mi></mrow></msubsup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mn>1</mn><mo>−</mo><mn>1</mn><mo>=</mo><mi>−</mi><mn>2</mn></mrow></math></span>"
            ]
           }
          ]
@@ -4252,7 +4252,7 @@ KAPITULUAK["01mc_03integralak"] = {
         },
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mrow><mo>⇒</mo><msubsup><mo>∫</mo><mi>a</mi><mi>c</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mn>7</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>3</mn></mrow></math>"
+         "html": "<math display=\"block\"><mrow><mo>⇒</mo><msubsup><mo>∫</mo><mi>a</mi><mi>c</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mn>7</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>3</mn></mrow></math>"
         }
        ]
       }
@@ -4279,11 +4279,11 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mn>4</mn></msup><mn>4</mn></mfrac><mo>−</mo><mfrac><mrow><mn>4</mn><msup><mi>x</mi><mn>3</mn></msup></mrow><mn>3</mn></mfrac><mo>+</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mn>4</mn></msup><mn>4</mn></mfrac><mo>−</mo><mfrac><mrow><mn>4</mn><msup><mi>x</mi><mn>3</mn></msup></mrow><mn>3</mn></mfrac><mo>+</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac></mrow></math>"
           },
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></mrow></math>;    <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>. Beraz, <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>4</mn></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></mrow></math>;    <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>. Beraz, <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>4</mn></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></mrow></math>"
           },
           {
            "mota": "testua",
@@ -4307,7 +4307,7 @@ KAPITULUAK["01mc_03integralak"] = {
           },
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>9</mn><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mn>59</mn><mn>12</mn></mfrac><mo>→</mo></mrow></math> ③-ren azalera <math display=\"inline\"><mrow><mo>=</mo><mfrac><mn>59</mn><mn>12</mn></mfrac></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>9</mn><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mn>59</mn><mn>12</mn></mfrac><mo>→</mo></mrow></math> ③-ren azalera <math display=\"inline\"><mrow><mo>=</mo><mfrac><mn>59</mn><mn>12</mn></mfrac></mrow></math>"
           },
           {
            "mota": "testua",
@@ -4362,7 +4362,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mi>x</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mrow><mn>1</mn><mo>−</mo><mi>n</mi></mrow><mi>n</mi></mfrac></msup><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mi>x</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mrow><mn>1</mn><mo>−</mo><mi>n</mi></mrow><mi>n</mi></mfrac></msup><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4373,7 +4373,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>a</mi><mfrac><mn>2</mn><mn>3</mn></mfrac></msup><mo>−</mo><msup><mi>x</mi><mfrac><mn>2</mn><mn>3</mn></mfrac></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>a</mi><mfrac><mn>2</mn><mn>3</mn></mfrac></msup><mo>−</mo><msup><mi>x</mi><mfrac><mn>2</mn><mn>3</mn></mfrac></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4384,7 +4384,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mi>x</mi></msqrt><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msqrt><mi>x</mi></msqrt><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mi>x</mi></msqrt><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msqrt><mi>x</mi></msqrt><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4395,7 +4395,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mroot><msup><mi>x</mi><mn>2</mn></msup><mn>3</mn></mroot></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mroot><msup><mi>x</mi><mn>2</mn></msup><mn>3</mn></mroot></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4406,7 +4406,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mi>m</mi></msup><mo>−</mo><msup><mi>x</mi><mi>n</mi></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><msqrt><mi>x</mi></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mi>m</mi></msup><mo>−</mo><msup><mi>x</mi><mi>n</mi></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><msqrt><mi>x</mi></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4417,7 +4417,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mi>a</mi></msqrt><mo>−</mo><msqrt><mi>x</mi></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>4</mn></msup><msqrt><mrow><mi>a</mi><mi>x</mi></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mi>a</mi></msqrt><mo>−</mo><msqrt><mi>x</mi></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>4</mn></msup><msqrt><mrow><mi>a</mi><mi>x</mi></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4428,7 +4428,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>7</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>7</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4439,7 +4439,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>10</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>10</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4450,7 +4450,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><mn>4</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><mn>4</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4461,7 +4461,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><mn>8</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><mn>8</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4472,7 +4472,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><msqrt><mrow><mn>2</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo>−</mo><msqrt><mrow><mn>2</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow><msqrt><mrow><mn>4</mn><mo>−</mo><msup><mi>x</mi><mn>4</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><msqrt><mrow><mn>2</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo>−</mo><msqrt><mrow><mn>2</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow><msqrt><mrow><mn>4</mn><mo>−</mo><msup><mi>x</mi><mn>4</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4505,7 +4505,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mn>3</mn><mi>x</mi></msup><msup><mi>e</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mn>3</mn><mi>x</mi></msup><msup><mi>e</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4516,7 +4516,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mi>a</mi><mrow><mi>a</mi><mo>−</mo><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mi>a</mi><mrow><mi>a</mi><mo>−</mo><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4527,7 +4527,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4538,7 +4538,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mn>1</mn><mo>−</mo><mn>3</mn><mi>x</mi></mrow><mrow><mn>3</mn><mo>+</mo><mn>2</mn><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mn>1</mn><mo>−</mo><mn>3</mn><mi>x</mi></mrow><mrow><mn>3</mn><mo>+</mo><mn>2</mn><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4549,7 +4549,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mi>x</mi><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mi>x</mi><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4560,7 +4560,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></mrow><mrow><mi>α</mi><mi>x</mi><mo>+</mo><mi>β</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></mrow><mrow><mi>α</mi><mi>x</mi><mo>+</mo><mi>β</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4571,7 +4571,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4582,7 +4582,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>7</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>7</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4593,7 +4593,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4604,7 +4604,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>a</mi><mo>+</mo><mfrac><mi>b</mi><mrow><mi>x</mi><mo>−</mo><mi>a</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>a</mi><mo>+</mo><mfrac><mi>b</mi><mrow><mi>x</mi><mo>−</mo><mi>a</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4615,7 +4615,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mi>x</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mi>x</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4626,7 +4626,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mi>b</mi><msqrt><mrow><mn>1</mn><mo>−</mo><mi>y</mi></mrow></msqrt></mfrac><mi>d</mi><mi>y</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mi>b</mi><msqrt><mrow><mn>1</mn><mo>−</mo><mi>y</mi></mrow></msqrt></mfrac><mi>d</mi><mi>y</mi></mrow></math>"
       }
      ]
     },
@@ -4637,7 +4637,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><mi>a</mi><mo>−</mo><mi>b</mi><mi>x</mi></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msqrt><mrow><mi>a</mi><mo>−</mo><mi>b</mi><mi>x</mi></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4648,7 +4648,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4659,7 +4659,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><msqrt><mi>x</mi></msqrt><mo>+</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><msqrt><mi>x</mi></msqrt><mo>+</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4670,7 +4670,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4681,7 +4681,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mn>7</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>8</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mn>7</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>8</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4692,7 +4692,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>&lt;</mo><mi>b</mi><mo>&lt;</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>&lt;</mo><mi>b</mi><mo>&lt;</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       }
      ]
     },
@@ -4703,7 +4703,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4714,7 +4714,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4725,7 +4725,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>6</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>6</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4736,7 +4736,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><mn>7</mn><mo>+</mo><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><mn>7</mn><mo>+</mo><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4747,7 +4747,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><mn>7</mn><mo>−</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><mn>7</mn><mo>−</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4758,7 +4758,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4774,7 +4774,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>3</mn><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>7</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>3</mn><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>7</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>"
       }
      ]
     },
@@ -4785,7 +4785,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mn>5</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mn>5</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>"
       }
      ]
     },
@@ -4796,7 +4796,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow><mn>3</mn></mfrac></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow><mn>3</mn></mfrac></mrow></math>"
       }
      ]
     },
@@ -4807,7 +4807,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup></mrow></math>"
       }
      ]
     },
@@ -4818,7 +4818,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>x</mi><mo>−</mo><mn>3</mn></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>4</mn></msup></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>x</mi><mo>−</mo><mn>3</mn></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>4</mn></msup></mrow></math>"
       }
      ]
     },
@@ -4829,7 +4829,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>−</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>−</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></math>"
       }
      ]
     },
@@ -4840,7 +4840,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       }
      ]
     },
@@ -4851,7 +4851,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>⋅</mo><mn>3</mn><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>⋅</mo><mn>3</mn><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4873,7 +4873,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></math>"
       }
      ]
     },
@@ -4906,7 +4906,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mroot><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mn>3</mn></mroot></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mroot><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mn>3</mn></mroot></mrow></math>"
       }
      ]
     },
@@ -4917,7 +4917,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msqrt><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn></mrow></msqrt></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msqrt><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn></mrow></msqrt></mrow></math>"
       }
      ]
     },
@@ -4928,7 +4928,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><msqrt><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></msqrt></mfrac></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><msqrt><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></msqrt></mfrac></mrow></math>"
       }
      ]
     },
@@ -4939,7 +4939,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>5</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></mfrac></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>5</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></mfrac></mrow></math>"
       }
      ]
     },
@@ -4950,7 +4950,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn></mrow><msqrt><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn></mrow></msqrt></mfrac></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn></mrow><msqrt><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn></mrow></msqrt></mfrac></mrow></math>"
       }
      ]
     },
@@ -4961,7 +4961,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4972,7 +4972,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>3</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>3</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -4983,7 +4983,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mi>π</mi></mrow><mn>3</mn></mfrac></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mi>π</mi></mrow><mn>3</mn></mfrac></mrow></math>"
       }
      ]
     },
@@ -4994,7 +4994,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       }
      ]
     },
@@ -5005,7 +5005,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn><mo>+</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn><mo>+</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -5016,7 +5016,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>x</mi><mo>+</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>x</mi><mo>+</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -5027,7 +5027,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       }
      ]
     },
@@ -5038,7 +5038,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>π</mi></mrow><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>π</mi></mrow><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       }
      ]
     },
@@ -5049,7 +5049,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn><mo>−</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn><mo>−</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       }
      ]
     },
@@ -5060,7 +5060,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       }
      ]
     },
@@ -5076,7 +5076,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>7</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>7</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -5087,7 +5087,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -5098,7 +5098,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mroot><mi>x</mi><mn>3</mn></mroot><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mroot><mi>x</mi><mn>3</mn></mroot><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -5109,7 +5109,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>2</mn><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>2</mn><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -5120,7 +5120,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mroot><mi>x</mi><mn>5</mn></mroot></mfrac></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mroot><mi>x</mi><mn>5</mn></mroot></mfrac></mrow></math>"
       }
      ]
     },
@@ -5131,7 +5131,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -5142,7 +5142,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></math>"
       }
      ]
     },
@@ -5153,7 +5153,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>7</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>7</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -5164,7 +5164,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><mn>3</mn><mi>x</mi></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msqrt><mrow><mn>3</mn><mi>x</mi></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -5175,7 +5175,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>x</mi><mo>+</mo><msqrt><mi>x</mi></msqrt></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mi>x</mi><mo>+</mo><msqrt><mi>x</mi></msqrt></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -5186,7 +5186,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo>+</mo><msup><mi>e</mi><mi>x</mi></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo>+</mo><msup><mi>e</mi><mi>x</mi></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -5197,7 +5197,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>3</mn><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>3</mn><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -5230,7 +5230,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>x</mi><mo>−</mo><mn>4</mn></mrow></mfrac></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>x</mi><mo>−</mo><mn>4</mn></mrow></mfrac></mrow></math>"
           }
          ]
         }
@@ -5245,7 +5245,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>4</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></mfrac></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>4</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></mfrac></mrow></math>"
           }
          ]
         }
@@ -5260,7 +5260,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>4</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mi>d</mi><mi>x</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>4</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mi>d</mi><mi>x</mi></mrow></math>"
           }
          ]
         }
@@ -5275,7 +5275,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>4</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup></mrow></mfrac></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>4</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup></mrow></mfrac></mrow></math>"
           }
          ]
         }
@@ -5307,7 +5307,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mi>e</mi><mrow><mi>x</mi><mo>−</mo><mn>4</mn></mrow></msup><mi>d</mi><mi>x</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mi>e</mi><mrow><mi>x</mi><mo>−</mo><mn>4</mn></mrow></msup><mi>d</mi><mi>x</mi></mrow></math>"
           }
          ]
         }
@@ -5322,7 +5322,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mi>e</mi><mrow><mi>−</mi><mn>2</mn><mi>x</mi><mo>+</mo><mn>9</mn></mrow></msup><mi>d</mi><mi>x</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mi>e</mi><mrow><mi>−</mi><mn>2</mn><mi>x</mi><mo>+</mo><mn>9</mn></mrow></msup><mi>d</mi><mi>x</mi></mrow></math>"
           }
          ]
         }
@@ -5337,7 +5337,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mi>e</mi><mrow><mn>5</mn><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mi>e</mi><mrow><mn>5</mn><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi></mrow></math>"
           }
          ]
         }
@@ -5352,7 +5352,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mn>3</mn><mi>x</mi></msup><mo>−</mo><msup><mi>x</mi><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mn>3</mn><mi>x</mi></msup><mo>−</mo><msup><mi>x</mi><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
           }
          ]
         }
@@ -5384,7 +5384,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>2</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>2</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
           }
          ]
         }
@@ -5399,7 +5399,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>3</mn></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>3</mn></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
           }
          ]
         }
@@ -5414,7 +5414,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></msubsup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></msubsup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
           }
          ]
         }
@@ -5429,7 +5429,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mi>π</mi></msubsup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mi>π</mi></msubsup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
           }
          ]
         }
@@ -5522,7 +5522,7 @@ KAPITULUAK["01mc_03integralak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mfrac><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi></mrow><mi>x</mi></mfrac></mrow></math>"
+         "html": "<math display=\"block\"><mrow><mi>y</mi><mo>=</mo><mfrac><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi></mrow><mi>x</mi></mfrac></mrow></math>"
         }
        ]
       },
@@ -5600,7 +5600,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>1</mn></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>1</mn></mrow></math>"
           }
          ]
         }
@@ -5615,7 +5615,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac></mrow></math>"
           }
          ]
         }
@@ -5630,7 +5630,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>"
           }
          ]
         }
@@ -5698,7 +5698,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> faktorizazioak lau logaritmo ematen ditu zatiki partzialen bidez. Era berean, <math display=\"inline\"><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, eta <math display=\"block\"><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><msqrt><mrow><mn>2</mn><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>4</mn></mrow></msqrt><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><msqrt><mrow><mn>2</mn><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>4</mn></mrow></msqrt><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
+     "html": "<math display=\"block\"><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> faktorizazioak lau logaritmo ematen ditu zatiki partzialen bidez. Era berean, <math display=\"inline\"><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, eta <math display=\"block\"><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><msqrt><mrow><mn>2</mn><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>4</mn></mrow></msqrt><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><msqrt><mrow><mn>2</mn><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>4</mn></mrow></msqrt><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
     },
     {
      "mota": "izenburua",
@@ -5707,7 +5707,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><msub><mi>I</mi><mn>3</mn></msub><mo>=</mo><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup></mfrac></mrow></math> integralerako Hermiteren murrizketak <math display=\"inline\"><mrow><mi>C</mi><mo>=</mo><mi>B</mi><mo>=</mo><mfrac><mn>3</mn><mn>8</mn></mfrac></mrow></math>, <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mfrac><mn>5</mn><mn>8</mn></mfrac></mrow></math> eta <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mi>D</mi><mo>=</mo><mi>H</mi><mo>=</mo><mn>0</mn></mrow></math> ematen ditu: <math display=\"block\"><mrow><msub><mi>I</mi><mn>3</mn></msub><mo>=</mo><mfrac><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>5</mn><mn>8</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>x</mi></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mo>+</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mi>C</mi><mi>.</mi></mrow></math>"
+     "html": "<math display=\"block\"><mrow><msub><mi>I</mi><mn>3</mn></msub><mo>=</mo><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup></mfrac></mrow></math> integralerako Hermiteren murrizketak <math display=\"inline\"><mrow><mi>C</mi><mo>=</mo><mi>B</mi><mo>=</mo><mfrac><mn>3</mn><mn>8</mn></mfrac></mrow></math>, <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mfrac><mn>5</mn><mn>8</mn></mfrac></mrow></math> eta <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mi>D</mi><mo>=</mo><mi>H</mi><mo>=</mo><mn>0</mn></mrow></math> ematen ditu: <math display=\"block\"><mrow><msub><mi>I</mi><mn>3</mn></msub><mo>=</mo><mfrac><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>5</mn><mn>8</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>x</mi></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mo>+</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mi>C</mi><mi>.</mi></mrow></math>"
     },
     {
      "mota": "testua",
@@ -5715,7 +5715,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>=</mo><mi>t</mi></mrow></math> aldaketaren ondoren ageri den <math display=\"inline\"><mrow><mfrac><mn>1</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>t</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>4</mn></msup></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup></mrow></mfrac></mrow></math> funtzioa <math display=\"inline\"><mrow><mfrac><msub><mi>A</mi><mn>1</mn></msub><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mi>…</mi><mo>+</mo><mfrac><msub><mi>A</mi><mn>4</mn></msub><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup></mrow></mfrac><mo>+</mo><mfrac><msub><mi>B</mi><mn>1</mn></msub><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mi>…</mi><mo>+</mo><mfrac><msub><mi>B</mi><mn>4</mn></msub><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup></mrow></mfrac></mrow></math> gisa deskonposatzen da; koadernoak primitiben logaritmo eta potentzia negatiboak idazten ditu, baina ez ditu <math display=\"inline\"><mrow><msub><mi>A</mi><mi>i</mi></msub><mo>,</mo><msub><mi>B</mi><mi>i</mi></msub></mrow></math> koefizienteak kalkulatzen. Ez da argazkitik kanpo geratutako jatorrizko integrandoa berreraiki."
+     "html": "<math display=\"inline\"><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>=</mo><mi>t</mi></mrow></math> aldaketaren ondoren ageri den <math display=\"inline\"><mrow><mfrac><mn>1</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>t</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>4</mn></msup></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup></mrow></mfrac></mrow></math> funtzioa <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mfrac><msub><mi>A</mi><mn>1</mn></msub><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mi>…</mi><mo>+</mo><mfrac><msub><mi>A</mi><mn>4</mn></msub><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup></mrow></mfrac><mo>+</mo><mfrac><msub><mi>B</mi><mn>1</mn></msub><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mi>…</mi><mo>+</mo><mfrac><msub><mi>B</mi><mn>4</mn></msub><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup></mrow></mfrac></mrow></math></span> gisa deskonposatzen da; koadernoak primitiben logaritmo eta potentzia negatiboak idazten ditu, baina ez ditu <math display=\"inline\"><mrow><msub><mi>A</mi><mi>i</mi></msub><mo>,</mo><msub><mi>B</mi><mi>i</mi></msub></mrow></math> koefizienteak kalkulatzen. Ez da argazkitik kanpo geratutako jatorrizko integrandoa berreraiki."
     },
     {
      "mota": "izenburua",
@@ -5737,7 +5737,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "Produktu-baturako identitateak erabiliz, <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>p</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>q</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">sin</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>+</mo><mi>q</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi mathvariant=\"normal\">sin</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>−</mo><mi>q</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>p</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>q</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">cos</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>+</mo><mi>q</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>−</mo><mi>q</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>.</mi></mrow></math> Adibidez, <math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>6</mn></mfrac><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mi>C</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>14</mn></mfrac><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>7</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>C</mi><mi>.</mi></mrow></math> Koadernoak ere jasotzen ditu <math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>+</mo><mi>C</mi></mrow></math>, <math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>+</mo><mi>C</mi></mrow></math> eta <math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mfrac><mi>x</mi><mn>3</mn></mfrac><mo>+</mo><mi>C</mi></mrow></math>."
+     "html": "Produktu-baturako identitateak erabiliz, <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>p</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>q</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">sin</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>+</mo><mi>q</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi mathvariant=\"normal\">sin</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>−</mo><mi>q</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>p</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>q</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">cos</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>+</mo><mi>q</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>−</mo><mi>q</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>.</mi></mrow></math> Adibidez, <math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>6</mn></mfrac><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mi>C</mi><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>14</mn></mfrac><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>7</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>C</mi><mi>.</mi></mrow></math> Koadernoak ere jasotzen ditu <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>+</mo><mi>C</mi></mrow></math></span>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>+</mo><mi>C</mi></mrow></math></span> eta <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mfrac><mi>x</mi><mn>3</mn></mfrac><mo>+</mo><mi>C</mi></mrow></math></span>."
     },
     {
      "mota": "izenburua",
@@ -5782,7 +5782,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "Azken lerroak hurrengo argazkira eramaten du: <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">cos</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math> delako."
+     "html": "Azken lerroak hurrengo argazkira eramaten du: <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi mathvariant=\"normal\">cos</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math></span> delako."
     },
     {
      "mota": "oharra",
@@ -5810,7 +5810,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "Aurreko orrialdean hasitako <math display=\"inline\"><mrow><mi>I</mi><mo>=</mo><mo>∫</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math> integrala honela amaitzen da:"
+     "html": "Aurreko orrialdean hasitako <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>I</mi><mo>=</mo><mo>∫</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math></span> integrala honela amaitzen da:"
     },
     {
      "mota": "testua",
@@ -5826,7 +5826,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><mi>x</mi></mrow></math> eta <math display=\"inline\"><mrow><mi>q</mi><mo>=</mo><mn>3</mn><mi>x</mi></mrow></math> hartuta, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mn>2</mn></mfrac></mrow></math>. Beraz,"
+     "html": "<math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><mi>x</mi></mrow></math> eta <math display=\"inline\"><mrow><mi>q</mi><mo>=</mo><mn>3</mn><mi>x</mi></mrow></math> hartuta, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mn>2</mn></mfrac></mrow></math></span>. Beraz,"
     },
     {
      "mota": "kutxa",
@@ -5865,7 +5865,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "Identitate nagusiak: <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math> eta <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>/</mi><mi mathvariant=\"normal\">cos</mi></mrow></math>."
+     "html": "Identitate nagusiak: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math></span> eta <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>/</mi><mi mathvariant=\"normal\">cos</mi></mrow></math></span>."
     },
     {
      "mota": "oharra",
@@ -5873,7 +5873,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Garapen sinbolikoa (jatorrizko funtzioa eta mugen ordezkapena) <strong>zuzena</strong> da. Jatorrizkoak, ordea, «CALCULADORA» oharrean egiaztapen numerikoa gaizki egiten du: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mn>2</mn></mrow></math> <strong>graduetan</strong> (<math display=\"inline\"><mrow><mn>63</mn><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo>,</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mn>44</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>) kentzen du, <strong>radianetan</strong> (<math display=\"inline\"><mrow><mn>1</mn><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo>,</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mn>1071</mn></mrow></math>) ordez, eta emaitza okerra ematen du (<math display=\"inline\"><mrow><mi>−</mi><mn>62</mn><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo>,</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mn>63</mn></mrow></math>). Balio zuzena <math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>5</mn><mo>−</mo><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mn>2</mn><mo>≈</mo><mn>0</mn><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo>,</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mn>8047</mn><mo>−</mo><mn>1</mn><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo>,</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mn>1071</mn><mo>=</mo><mi>−</mi><mn>0</mn><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo>,</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mn>3024</mn></mrow></math> da (hemen jasoa); akatsa kalkulagailua gradu-moduan izateagatik da, metodoa bera ez baita aldatzen. Errotulua «CÁLCULO LANDETA» (gaztelaniaz), aurreko orrialdeetako «KALKULUA II» (euskeraz) blokearen ostean —koadernoak iturri bat baino gehiago tartekatzen ditu. Ikus <code>koadernoa_calculo1_2013_kal_p052.typ</code>."
+       "html": "Garapen sinbolikoa (jatorrizko funtzioa eta mugen ordezkapena) <strong>zuzena</strong> da. Jatorrizkoak, ordea, «CALCULADORA» oharrean egiaztapen numerikoa gaizki egiten du: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mn>2</mn></mrow></math> <strong>graduetan</strong> (<math display=\"inline\"><mrow><mn>63</mn><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo>,</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mn>44</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>) kentzen du, <strong>radianetan</strong> (<math display=\"inline\"><mrow><mn>1</mn><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo>,</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mn>1071</mn></mrow></math>) ordez, eta emaitza okerra ematen du (<math display=\"inline\"><mrow><mi>−</mi><mn>62</mn><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo>,</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mn>63</mn></mrow></math>). Balio zuzena <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>5</mn><mo>−</mo><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mn>2</mn><mo>≈</mo><mn>0</mn><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo>,</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mn>8047</mn><mo>−</mo><mn>1</mn><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo>,</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mn>1071</mn><mo>=</mo><mi>−</mi><mn>0</mn><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mo>,</mo><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mn>3024</mn></mrow></math></span> da (hemen jasoa); akatsa kalkulagailua gradu-moduan izateagatik da, metodoa bera ez baita aldatzen. Errotulua «CÁLCULO LANDETA» (gaztelaniaz), aurreko orrialdeetako «KALKULUA II» (euskeraz) blokearen ostean —koadernoak iturri bat baino gehiago tartekatzen ditu. Ikus <code>koadernoa_calculo1_2013_kal_p052.typ</code>."
       }
      ]
     },
@@ -5906,7 +5906,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mi>R</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mroot><mfrac><mrow><msub><mi>a</mi><mn>1</mn></msub><mi>x</mi><mo>+</mo><msub><mi>b</mi><mn>1</mn></msub></mrow><mrow><msub><mi>a</mi><mn>2</mn></msub><mi>x</mi><mo>+</mo><msub><mi>b</mi><mn>2</mn></msub></mrow></mfrac><msub><mi>p</mi><mn>1</mn></msub></mroot><mo>,</mo><mi>…</mi><mo>,</mo><mroot><mfrac><mrow><msub><mi>a</mi><mn>1</mn></msub><mi>x</mi><mo>+</mo><msub><mi>b</mi><mn>1</mn></msub></mrow><mrow><msub><mi>a</mi><mn>2</mn></msub><mi>x</mi><mo>+</mo><msub><mi>b</mi><mn>2</mn></msub></mrow></mfrac><msub><mi>p</mi><mi>n</mi></msub></mroot><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>x</mi></mrow></math> integralerako, <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> mkt</mtext></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>p</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>p</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> delarik, egin <math display=\"block\"><mrow><mfrac><mrow><msub><mi>a</mi><mn>1</mn></msub><mi>x</mi><mo>+</mo><msub><mi>b</mi><mn>1</mn></msub></mrow><mrow><msub><mi>a</mi><mn>2</mn></msub><mi>x</mi><mo>+</mo><msub><mi>b</mi><mn>2</mn></msub></mrow></mfrac><mo>=</mo><msup><mi>t</mi><mi>λ</mi></msup><mi>.</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mi>R</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mroot><mfrac><mrow><msub><mi>a</mi><mn>1</mn></msub><mi>x</mi><mo>+</mo><msub><mi>b</mi><mn>1</mn></msub></mrow><mrow><msub><mi>a</mi><mn>2</mn></msub><mi>x</mi><mo>+</mo><msub><mi>b</mi><mn>2</mn></msub></mrow></mfrac><msub><mi>p</mi><mn>1</mn></msub></mroot><mo>,</mo><mi>…</mi><mo>,</mo><mroot><mfrac><mrow><msub><mi>a</mi><mn>1</mn></msub><mi>x</mi><mo>+</mo><msub><mi>b</mi><mn>1</mn></msub></mrow><mrow><msub><mi>a</mi><mn>2</mn></msub><mi>x</mi><mo>+</mo><msub><mi>b</mi><mn>2</mn></msub></mrow></mfrac><msub><mi>p</mi><mi>n</mi></msub></mroot><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>x</mi></mrow></math> integralerako, <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> mkt</mtext></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>p</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>p</mi><mi>n</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> delarik, egin <math display=\"block\"><mrow><mfrac><mrow><msub><mi>a</mi><mn>1</mn></msub><mi>x</mi><mo>+</mo><msub><mi>b</mi><mn>1</mn></msub></mrow><mrow><msub><mi>a</mi><mn>2</mn></msub><mi>x</mi><mo>+</mo><msub><mi>b</mi><mn>2</mn></msub></mrow></mfrac><mo>=</mo><msup><mi>t</mi><mi>λ</mi></msup><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -5952,7 +5952,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "Beste adibide batean, <math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><msqrt><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mo>−</mo><msqrt><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt></mrow><mrow><msqrt><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mo>+</mo><msqrt><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></mfrac><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>x</mi></mrow></math>-en, <math display=\"inline\"><msqrt><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></math> faktore komuna sinplifikatu ondoren <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><msqrt><mfrac><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac></msqrt></mrow></math> egiten da: <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow><mrow><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>, <math display=\"inline\"><mrow><mi>d</mi><mi>x</mi><mo>=</mo><mn>4</mn><mi>t</mi><mi>/</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi></mrow></math>, eta integrala zatiki sinpleetara heltzen da, <math display=\"inline\"><mrow><mi>A</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>B</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>t</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>+</mo><mi>C</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>t</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup><mo>+</mo><mi>D</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> erakoa."
+     "html": "Beste adibide batean, <math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><msqrt><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mo>−</mo><msqrt><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt></mrow><mrow><msqrt><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mo>+</mo><msqrt><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></mfrac><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>x</mi></mrow></math>-en, <math display=\"inline\"><msqrt><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></math> faktore komuna sinplifikatu ondoren <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><msqrt><mfrac><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac></msqrt></mrow></math> egiten da: <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow><mrow><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>, <math display=\"inline\"><mrow><mi>d</mi><mi>x</mi><mo>=</mo><mn>4</mn><mi>t</mi><mi>/</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi></mrow></math>, eta integrala zatiki sinpleetara heltzen da, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>A</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>B</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>t</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>+</mo><mi>C</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>t</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup><mo>+</mo><mi>D</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span> erakoa."
     },
     {
      "mota": "abisua",
@@ -5990,7 +5990,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<div class=\"j-taula\"><table><thead><tr><th>Erradikala</th><th>Ordezkapena</th></tr></thead><tbody><tr><td><math display=\"inline\"><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>b</mi><mn>2</mn></msup><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></math></td><td><math display=\"inline\"><mrow><mi>b</mi><mi>x</mi><mi>/</mi><mi>a</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math></td></tr><tr><td><math display=\"inline\"><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></math></td><td><math display=\"inline\"><mrow><mi>b</mi><mi>x</mi><mi>/</mi><mi>a</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math></td></tr><tr><td><math display=\"inline\"><msqrt><mrow><msup><mi>b</mi><mn>2</mn></msup><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></msqrt></math></td><td><math display=\"inline\"><mrow><mi>b</mi><mi>x</mi><mi>/</mi><mi>a</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sec</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>=</mo><mn>1</mn><mi>/</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math></td></tr></tbody></table></div>"
+       "html": "<div class=\"j-taula\"><table><thead><tr><th>Erradikala</th><th>Ordezkapena</th></tr></thead><tbody><tr><td><math display=\"inline\"><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>b</mi><mn>2</mn></msup><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></math></td><td><math display=\"inline\"><mrow><mi>b</mi><mi>x</mi><mi>/</mi><mi>a</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math></td></tr><tr><td><math display=\"inline\"><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></math></td><td><math display=\"inline\"><mrow><mi>b</mi><mi>x</mi><mi>/</mi><mi>a</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math></td></tr><tr><td><math display=\"inline\"><msqrt><mrow><msup><mi>b</mi><mn>2</mn></msup><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></msqrt></math></td><td><span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>b</mi><mi>x</mi><mi>/</mi><mi>a</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sec</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>=</mo><mn>1</mn><mi>/</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math></span></td></tr></tbody></table></div>"
       }
      ]
     },
@@ -6004,7 +6004,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>x</mi><mi>/</mi><mn>2</mn><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math> eginez: <math display=\"inline\"><mrow><msqrt><mrow><mn>4</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math>, <math display=\"inline\"><mrow><mi>d</mi><mi>x</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi></mrow></math>. Orduan <math display=\"inline\"><mrow><mo>∫</mo><mn>4</mn><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi><mo>=</mo><mn>2</mn><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mn>2</mn><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi><mo>=</mo><mn>2</mn><mi>t</mi><mo>+</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>t</mi><mo>+</mo><mi>C</mi></mrow></math>. <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>t</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msqrt><mrow><mn>4</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></math> eta <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> ordezkatuz:"
+       "html": "<math display=\"inline\"><mrow><mi>x</mi><mi>/</mi><mn>2</mn><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math> eginez: <math display=\"inline\"><mrow><msqrt><mrow><mn>4</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math>, <math display=\"inline\"><mrow><mi>d</mi><mi>x</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi></mrow></math>. Orduan <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mn>4</mn><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi><mo>=</mo><mn>2</mn><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mn>2</mn><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi><mo>=</mo><mn>2</mn><mi>t</mi><mo>+</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>t</mi><mo>+</mo><mi>C</mi></mrow></math></span>. <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>t</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msqrt><mrow><mn>4</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></math></span> eta <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> ordezkatuz:"
       },
       {
        "mota": "kutxa",
@@ -6019,7 +6019,7 @@ KAPITULUAK["01mc_03integralak"] = {
       },
       {
        "mota": "testua",
-       "html": "Erreferentziazko formula estandarrarekin (<math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo>+</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>/</mi><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>C</mi></mrow></math>, <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mn>2</mn></mrow></math>) <strong>zehazki</strong> bat dator."
+       "html": "Erreferentziazko formula estandarrarekin (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo>+</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mi>/</mi><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>C</mi></mrow></math></span>, <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mn>2</mn></mrow></math>) <strong>zehazki</strong> bat dator."
       }
      ]
     },
@@ -6033,7 +6033,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sec</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>=</mo><mn>1</mn><mi>/</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math> eginez: <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mi>/</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi></mrow></math>, <math display=\"inline\"><mrow><mi>d</mi><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi><mi>/</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi></mrow></math>. Ordezkatuz, <math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mi>/</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>t</mi><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi></mrow></math>, eta <math display=\"inline\"><mrow><mi>z</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math> (<math display=\"inline\"><mrow><mi>d</mi><mi>z</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi></mrow></math>, <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mo>=</mo><mn>1</mn><mo>−</mo><msup><mi>z</mi><mn>2</mn></msup></mrow></math>) eginez integral arrazionala geratzen da: <math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>z</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>z</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>z</mi><mo>,</mo></mrow></math> zatiki sinpleetan garatzeko prest (<math display=\"inline\"><mrow><mi>A</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>B</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>z</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>+</mo><mi>C</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>D</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>z</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></math>)."
+       "html": "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sec</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>=</mo><mn>1</mn><mi>/</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math></span> eginez: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mi>/</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi></mrow></math></span>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>d</mi><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi><mi>/</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi></mrow></math></span>. Ordezkatuz, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mi>/</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>t</mi><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi></mrow></math></span>, eta <math display=\"inline\"><mrow><mi>z</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math> (<math display=\"inline\"><mrow><mi>d</mi><mi>z</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>t</mi></mrow></math>, <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mo>=</mo><mn>1</mn><mo>−</mo><msup><mi>z</mi><mn>2</mn></msup></mrow></math>) eginez integral arrazionala geratzen da: <math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>z</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>z</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mspace width=\"0.222em\"></mspace><mi>d</mi><mi>z</mi><mo>,</mo></mrow></math> zatiki sinpleetan garatzeko prest (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>A</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>B</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>z</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>+</mo><mi>C</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>D</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>z</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></math></span>)."
       }
      ]
     },
@@ -6267,7 +6267,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0038</code>, 74-75 orriak; &quot;CÁLCULO NEWTON&quot;). Integral binomial <strong>3. kasua</strong> (<math display=\"inline\"><mrow><mo>∫</mo><mi>d</mi><mi>x</mi><mi>/</mi><mroot><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>4</mn></msup></mrow><mn>4</mn></mroot></mrow></math>, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mi>z</mi><mo>=</mo><msup><mi>t</mi><mn>4</mn></msup></mrow></math>, zatiki sinbolikoak) eta <strong>binomial-Euler</strong> ariketa (<math display=\"inline\"><mrow><mo>∫</mo><mi>d</mi><mi>x</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, Euler-1 → <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msqrt><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></msqrt><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>C</mi></mrow></math>, deribatuz berregiaztatua). Emaitza dena ZUZENA. Hamalau emaitza zuzenak. Zuzenketarik ez. Ikus <code>koadernoa_calculo1_2013_kal_p074_newton.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0038</code>, 74-75 orriak; &quot;CÁLCULO NEWTON&quot;). Integral binomial <strong>3. kasua</strong> (<math display=\"inline\"><mrow><mo>∫</mo><mi>d</mi><mi>x</mi><mi>/</mi><mroot><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>4</mn></msup></mrow><mn>4</mn></mroot></mrow></math>, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mi>z</mi><mo>=</mo><msup><mi>t</mi><mn>4</mn></msup></mrow></math>, zatiki sinbolikoak) eta <strong>binomial-Euler</strong> ariketa (<math display=\"inline\"><mrow><mo>∫</mo><mi>d</mi><mi>x</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, Euler-1 → <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msqrt><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></msqrt><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>C</mi></mrow></math></span>, deribatuz berregiaztatua). Emaitza dena ZUZENA. Hamalau emaitza zuzenak. Zuzenketarik ez. Ikus <code>koadernoa_calculo1_2013_kal_p074_newton.typ</code>."
       }
      ]
     },
@@ -6312,7 +6312,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em class=\"j-nab\">\n  Curaduria-oharra: <math display=\"inline\"><mrow><mi>p</mi><mn>.75</mn></mrow></math>/<math display=\"inline\"><mrow><mi>p</mi><mn>.76</mn></mrow></math> bikotea <strong>problema beraren bi eraso</strong> dira —Euler zuzena vs karratu\n  perfektuz berridazketa—, koaderno honek sistematikoki egiten dituen egiaztapen gurutzatuen estiloan.\n  <math display=\"inline\"><mrow><mi>p</mi><mn>.75</mn></mrow></math>-ek dagoeneko itxi zuen emaitza (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msqrt><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></msqrt><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>C</mi></mrow></math>).\n</em>"
+     "html": "<em class=\"j-nab\">\n  Curaduria-oharra: <math display=\"inline\"><mrow><mi>p</mi><mn>.75</mn></mrow></math>/<math display=\"inline\"><mrow><mi>p</mi><mn>.76</mn></mrow></math> bikotea <strong>problema beraren bi eraso</strong> dira —Euler zuzena vs karratu\n  perfektuz berridazketa—, koaderno honek sistematikoki egiten dituen egiaztapen gurutzatuen estiloan.\n  <math display=\"inline\"><mrow><mi>p</mi><mn>.75</mn></mrow></math>-ek dagoeneko itxi zuen emaitza (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msqrt><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></msqrt><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>C</mi></mrow></math></span>).\n</em>"
     },
     {
      "mota": "oharra",
@@ -6381,7 +6381,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "Integrala <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><msup><mi>h</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>h</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></math>-raino sinplifikatzen da (orria moztuta, hurrengoan jarraitzen du)."
+     "html": "Integrala <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><msup><mi>h</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>h</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></math></span>-raino sinplifikatzen da (orria moztuta, hurrengoan jarraitzen du)."
     },
     {
      "mota": "testua",
@@ -6422,7 +6422,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "ordenatua": false,
      "elementuak": [
       "<strong>2. bidea</strong> (Euler-2): <math display=\"inline\"><mrow><mi>−</mi><mn>2</mn><mo>∫</mo><mfrac><mrow><mn>1</mn><mo>−</mo><msup><mi>h</mi><mn>2</mn></msup></mrow><mrow><msup><mi>h</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>h</mi></mrow></math>, zatiki partzialak.",
-      "<strong>1. bidea</strong> (trigonometrikoa): <math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mi>/</mi><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi></mrow></math>, hiru integraletan banatuta (<math display=\"inline\"><mrow><mn>1</mn><mi>/</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>=</mo><mi>z</mi></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>=</mo><mi>h</mi></mrow></math>).",
+      "<strong>1. bidea</strong> (trigonometrikoa): <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mi>/</mi><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi></mrow></math></span>, hiru integraletan banatuta (<math display=\"inline\"><mrow><mn>1</mn><mi>/</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>=</mo><mi>z</mi></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>=</mo><mi>h</mi></mrow></math>).",
       "<strong>3. bidea</strong> (konjokatua): izendatzailea arrazionalizatuz."
      ]
     },
@@ -6473,7 +6473,7 @@ KAPITULUAK["01mc_03integralak"] = {
     {
      "mota": "izenburua",
      "maila": 3,
-     "testua": "Integral irrazionala eta <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>8</mn></msup><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>8</mn></msup><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+     "testua": "Integral irrazionala eta <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>8</mn></msup><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>8</mn></msup><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>"
     },
     {
      "mota": "testua",
@@ -6513,11 +6513,11 @@ KAPITULUAK["01mc_03integralak"] = {
     {
      "mota": "izenburua",
      "maila": 4,
-     "testua": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>8</mn></msup><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>8</mn></msup><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
+     "testua": "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>8</mn></msup><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>8</mn></msup><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math></span>"
     },
     {
      "mota": "testua",
-     "html": "<strong>«Angeluak desberdinak dira; eraldatu behar dira»</strong>: <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi mathvariant=\"normal\">cos</mi><mn>2</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mn>2</mn></mrow></math>, <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mn>2</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mn>2</mn></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn><mi>x</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi></mrow></math>. <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi><mo>=</mo><mi>t</mi></mrow></math> (<math display=\"inline\"><mrow><mi>−</mi><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>d</mi><mi>t</mi></mrow></math>) eginez, izendatzailea <strong>faktorizatzen</strong> da:"
+     "html": "<strong>«Angeluak desberdinak dira; eraldatu behar dira»</strong>: <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi mathvariant=\"normal\">cos</mi><mn>2</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mn>2</mn></mrow></math>, <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mn>2</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mn>2</mn></mrow></math>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn><mi>x</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi></mrow></math></span>. <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi><mo>=</mo><mi>t</mi></mrow></math> (<math display=\"inline\"><mrow><mi>−</mi><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>d</mi><mi>t</mi></mrow></math>) eginez, izendatzailea <strong>faktorizatzen</strong> da:"
     },
     {
      "mota": "kutxa",
@@ -6547,7 +6547,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<em class=\"j-nab\">\n  Egiaztapena (SymPy): <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>t</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>t</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup><mo>=</mo><mn>2</mn><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mn>6</mn><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><msup><mi>t</mi><mn>4</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> ✓; eta <math display=\"inline\"><mrow><mn>1</mn><mo>+</mo><mn>6</mn><mi>h</mi><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>h</mi><mo>=</mo><mi>−</mi><mn>3</mn><mo>±</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math> ✓.\n</em>"
+     "html": "<em class=\"j-nab\">\n  Egiaztapena (SymPy): <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>t</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>t</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup><mo>=</mo><mn>2</mn><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mn>6</mn><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><msup><mi>t</mi><mn>4</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span> ✓; eta <math display=\"inline\"><mrow><mn>1</mn><mo>+</mo><mn>6</mn><mi>h</mi><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>h</mi><mo>=</mo><mi>−</mi><mn>3</mn><mo>±</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math> ✓.\n</em>"
     },
     {
      "mota": "oharra",
@@ -6555,7 +6555,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0043</code>, 84-85 orriak; &quot;CÁLCULO NEWTON&quot;, 2013/2/15; <code>IMG_2026_07_28_02_31_11S.jpg</code>, &quot;diario 1 de calculo ene 2013&quot;). Bi integral: <math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><msqrt><mrow><mi>x</mi><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> (konjokatua → binomiala 3. kasua → zatiki partzialak erro bikoitzekin) eta <math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn><mi>x</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>8</mn></msup><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>8</mn></msup><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> (angeluak berdinduz, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi><mo>=</mo><mi>t</mi></mrow></math>, Pascal-ez <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>t</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>t</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup><mo>=</mo><mn>2</mn><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mn>6</mn><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><msup><mi>t</mi><mn>4</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>=</mo><mi>h</mi></mrow></math>, <math display=\"inline\"><mrow><mi>h</mi><mo>=</mo><mi>−</mi><mn>3</mn><mo>±</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math>). Gako-emaitzak SymPy-z egiaztatuak. Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p084_newton.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0043</code>, 84-85 orriak; &quot;CÁLCULO NEWTON&quot;, 2013/2/15; <code>IMG_2026_07_28_02_31_11S.jpg</code>, &quot;diario 1 de calculo ene 2013&quot;). Bi integral: <math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><msqrt><mrow><mi>x</mi><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> (konjokatua → binomiala 3. kasua → zatiki partzialak erro bikoitzekin) eta <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn><mi>x</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>8</mn></msup><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>8</mn></msup><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span> (angeluak berdinduz, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi><mo>=</mo><mi>t</mi></mrow></math>, Pascal-ez <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>t</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>t</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup><mo>=</mo><mn>2</mn><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mn>6</mn><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><msup><mi>t</mi><mn>4</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>, <math display=\"inline\"><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>=</mo><mi>h</mi></mrow></math>, <math display=\"inline\"><mrow><mi>h</mi><mo>=</mo><mi>−</mi><mn>3</mn><mo>±</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math>). Gako-emaitzak SymPy-z egiaztatuak. Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p084_newton.typ</code>."
       }
      ]
     },
@@ -6583,12 +6583,12 @@ KAPITULUAK["01mc_03integralak"] = {
      "mota": "zerrenda",
      "ordenatua": false,
      "elementuak": [
-      "<strong>(i)</strong> <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mi>x</mi><mi>b</mi></msubsup><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi></mrow></mfrac></mrow></math>: muga beheko aldakorra denez, <math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></mfrac></mrow></math> (izendatzailea <math display=\"inline\"><mrow><mo>≥</mo><mn>1</mn><mo>&gt;</mo><mn>0</mn></mrow></math>, beti jarraitua)."
+      "<strong>(i)</strong> <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mi>x</mi><mi>b</mi></msubsup><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi></mrow></mfrac></mrow></math></span>: muga beheko aldakorra denez, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></mfrac></mrow></math></span> (izendatzailea <math display=\"inline\"><mrow><mo>≥</mo><mn>1</mn><mo>&gt;</mo><mn>0</mn></mrow></math>, beti jarraitua)."
      ]
     },
     {
      "mota": "testua",
-     "html": "<em class=\"j-nab\">\n  <strong>(v) Faktore konstantea integraletik kanpo</strong>: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math> <strong><math display=\"inline\"><mi>t</mi></math>-arekiko konstantea</strong> denez, atera egiten da:\n  <math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mi>x</mi><msubsup><mo>∫</mo><mi>x</mi><mn>0</mn></msubsup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>t</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mi>x</mi><msubsup><mo>∫</mo><mn>0</mn><mi>x</mi></msubsup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>t</mi></mrow></math>, eta\n  <math display=\"inline\"><mrow><msup><mi>g</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><msubsup><mo>∫</mo><mn>0</mn><mi>x</mi></msubsup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>t</mi><mo>−</mo><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mi>x</mi><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></math>.\n</em>"
+     "html": "<em class=\"j-nab\">\n  <strong>(v) Faktore konstantea integraletik kanpo</strong>: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math> <strong><math display=\"inline\"><mi>t</mi></math>-arekiko konstantea</strong> denez, atera egiten da:\n  <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mi>x</mi><msubsup><mo>∫</mo><mi>x</mi><mn>0</mn></msubsup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>t</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mi>x</mi><msubsup><mo>∫</mo><mn>0</mn><mi>x</mi></msubsup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>t</mi></mrow></math></span>, eta\n  <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mi>g</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><msubsup><mo>∫</mo><mn>0</mn><mi>x</mi></msubsup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>t</mi><mo>−</mo><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mi>x</mi><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></math></span>.\n</em>"
     },
     {
      "mota": "izenburua",
@@ -6694,9 +6694,9 @@ KAPITULUAK["01mc_03integralak"] = {
      "mota": "zerrenda",
      "ordenatua": false,
      "elementuak": [
-      "<strong>(1)</strong> <math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>e</mi><mi>x</mi></msup><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>: <math display=\"inline\"><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>=</mo><mi>t</mi></mrow></math> (<math display=\"inline\"><mrow><mi>d</mi><mi>t</mi><mo>=</mo><msup><mi>e</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi></mrow></math>) eginez, <math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi>t</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>+</mo><mi>k</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>k</mi></mrow></math>.",
-      "<strong>(2)</strong> <math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mrow><mn>2</mn><mo>+</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>u</mi></mrow></math> (<math display=\"inline\"><mrow><mi>−</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>d</mi><mi>u</mi></mrow></math>) eginez, <math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>−</mi><mi>d</mi><mi>u</mi></mrow><mrow><mn>2</mn><mo>+</mo><mi>u</mi></mrow></mfrac><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mn>2</mn><mo>+</mo><mi>u</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>+</mo><mi>k</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>+</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>k</mi></mrow></math>.",
-      "<strong>(3)</strong> <math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>u</mi></mrow></math> (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>d</mi><mi>u</mi></mrow></math>) eginez, <math display=\"inline\"><mrow><mo>∫</mo><msup><mi>u</mi><mn>5</mn></msup><mi>d</mi><mi>u</mi><mo>=</mo><mfrac><msup><mi>u</mi><mn>6</mn></msup><mn>6</mn></mfrac><mo>+</mo><mi>k</mi><mo>=</mo><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>6</mn></msup><mi>x</mi></mrow><mn>6</mn></mfrac><mo>+</mo><mi>k</mi></mrow></math>."
+      "<strong>(1)</strong> <math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>e</mi><mi>x</mi></msup><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>: <math display=\"inline\"><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>=</mo><mi>t</mi></mrow></math> (<math display=\"inline\"><mrow><mi>d</mi><mi>t</mi><mo>=</mo><msup><mi>e</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi></mrow></math>) eginez, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi>t</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>+</mo><mi>k</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>k</mi></mrow></math></span>.",
+      "<strong>(2)</strong> <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mrow><mn>2</mn><mo>+</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math></span>: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>u</mi></mrow></math> (<math display=\"inline\"><mrow><mi>−</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>d</mi><mi>u</mi></mrow></math>) eginez, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>−</mi><mi>d</mi><mi>u</mi></mrow><mrow><mn>2</mn><mo>+</mo><mi>u</mi></mrow></mfrac><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mn>2</mn><mo>+</mo><mi>u</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>+</mo><mi>k</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>+</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>k</mi></mrow></math></span>.",
+      "<strong>(3)</strong> <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math></span>: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>u</mi></mrow></math> (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>d</mi><mi>u</mi></mrow></math>) eginez, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><msup><mi>u</mi><mn>5</mn></msup><mi>d</mi><mi>u</mi><mo>=</mo><mfrac><msup><mi>u</mi><mn>6</mn></msup><mn>6</mn></mfrac><mo>+</mo><mi>k</mi><mo>=</mo><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>6</mn></msup><mi>x</mi></mrow><mn>6</mn></mfrac><mo>+</mo><mi>k</mi></mrow></math></span>."
      ]
     },
     {
@@ -6725,7 +6725,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0048</code>, 94-95 orriak, KALKULUA II barne 14-15; 2013/2/19; <code>IMG_2026_07_28_02_31_39S.jpg</code>). <strong>Aldagai-aldaketaren frogapena</strong> (TFC + alderantzizko funtzioaren deribatua + katearen erregela), <strong>hiru adibide</strong> (<math display=\"inline\"><mrow><msup><mi>e</mi><mi>x</mi></msup><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>→</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>; <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>→</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>+</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>; <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>→</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>6</mn></msup><mi>x</mi><mi>/</mi><mn>6</mn></mrow></math>) eta <strong>zatikako integrazioa</strong> (<math display=\"inline\"><mrow><mo>∫</mo><mi>u</mi><mi>d</mi><mi>v</mi><mo>=</mo><mi>u</mi><mi>v</mi><mo>−</mo><mo>∫</mo><mi>v</mi><mi>d</mi><mi>u</mi></mrow></math>). SymPy-z egiaztatuak. Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p094_kalkulua2.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0048</code>, 94-95 orriak, KALKULUA II barne 14-15; 2013/2/19; <code>IMG_2026_07_28_02_31_39S.jpg</code>). <strong>Aldagai-aldaketaren frogapena</strong> (TFC + alderantzizko funtzioaren deribatua + katearen erregela), <strong>hiru adibide</strong> (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mi>e</mi><mi>x</mi></msup><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>→</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>; <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>→</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>+</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>; <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>→</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>6</mn></msup><mi>x</mi><mi>/</mi><mn>6</mn></mrow></math></span>) eta <strong>zatikako integrazioa</strong> (<math display=\"inline\"><mrow><mo>∫</mo><mi>u</mi><mi>d</mi><mi>v</mi><mo>=</mo><mi>u</mi><mi>v</mi><mo>−</mo><mo>∫</mo><mi>v</mi><mi>d</mi><mi>u</mi></mrow></math>). SymPy-z egiaztatuak. Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p094_kalkulua2.typ</code>."
       }
      ]
     },
@@ -6795,7 +6795,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><msup><mi>x</mi><mn>5</mn></msup></msubsup><msup><mi>a</mi><mi>x</mi></msup><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>t</mi><mi>d</mi><mi>t</mi></mrow></math>. <math display=\"inline\"><msup><mi>a</mi><mi>x</mi></msup></math> <strong>konstantea da <math display=\"inline\"><mi>t</mi></math>-arekiko</strong>, beraz integraletik ateratzen da; gero, deribatzean, <math display=\"inline\"><msup><mi>a</mi><mi>x</mi></msup></math> <strong>aldakorra</strong> da <math display=\"inline\"><mi>x</mi></math>-arekiko (biderkaduraren erregela) eta TFC + katearen erregela:"
+     "html": "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><msup><mi>x</mi><mn>5</mn></msup></msubsup><msup><mi>a</mi><mi>x</mi></msup><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>t</mi><mi>d</mi><mi>t</mi></mrow></math></span>. <math display=\"inline\"><msup><mi>a</mi><mi>x</mi></msup></math> <strong>konstantea da <math display=\"inline\"><mi>t</mi></math>-arekiko</strong>, beraz integraletik ateratzen da; gero, deribatzean, <math display=\"inline\"><msup><mi>a</mi><mi>x</mi></msup></math> <strong>aldakorra</strong> da <math display=\"inline\"><mi>x</mi></math>-arekiko (biderkaduraren erregela) eta TFC + katearen erregela:"
     },
     {
      "mota": "kutxa",
@@ -6815,7 +6815,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<strong>(7)(i)</strong> <math display=\"inline\"><mi>f</mi></math> <strong>integragarria</strong> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-n eta <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≥</mo><mn>0</mn></mrow></math> <math display=\"inline\"><mrow><mo>∀</mo><mi>x</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> bada, orduan <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>≥</mo><mn>0</mn></mrow></math>. <strong>Frogapena</strong> (behe-baturen bidez): <math display=\"inline\"><mrow><mi>P</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mi>a</mi><mo>,</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>x</mi><mi>n</mi></msub><mo>=</mo><mi>b</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> partizio ororentzat, <math display=\"inline\"><mrow><msub><mi>m</mi><mi>i</mi></msub><mo>=</mo><mrow><mi mathvariant=\"normal\">inf</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>:</mo><msub><mi>x</mi><mrow><mi>i</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>≤</mo><mi>x</mi><mo>&lt;</mo><msub><mi>x</mi><mi>i</mi></msub><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mo>≥</mo><mn>0</mn></mrow></math> (zeren <math display=\"inline\"><mrow><mi>f</mi><mo>≥</mo><mn>0</mn></mrow></math>), beraz behe-batura <math display=\"inline\"><mrow><mi>s</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∑</mo><msub><mi>m</mi><mi>i</mi></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mi>i</mi></msub><mo>−</mo><msub><mi>x</mi><mrow><mi>i</mi><mo>−</mo><mn>1</mn></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≥</mo><mn>0</mn></mrow></math>; behe-integrala behe-baturen gorena denez eta <math display=\"inline\"><mi>f</mi></math> integragarria denez, <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo>=</mo><munder><mi mathvariant=\"normal\">sup</mi><mi>P</mi></munder><mi>s</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≥</mo><mn>0</mn></mrow></math>."
+     "html": "<strong>(7)(i)</strong> <math display=\"inline\"><mi>f</mi></math> <strong>integragarria</strong> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-n eta <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≥</mo><mn>0</mn></mrow></math> <math display=\"inline\"><mrow><mo>∀</mo><mi>x</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> bada, orduan <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>≥</mo><mn>0</mn></mrow></math>. <strong>Frogapena</strong> (behe-baturen bidez): <math display=\"inline\"><mrow><mi>P</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><msub><mi>x</mi><mn>0</mn></msub><mo>=</mo><mi>a</mi><mo>,</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>x</mi><mi>n</mi></msub><mo>=</mo><mi>b</mi><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> partizio ororentzat, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>m</mi><mi>i</mi></msub><mo>=</mo><mrow><mi mathvariant=\"normal\">inf</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>:</mo><msub><mi>x</mi><mrow><mi>i</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>≤</mo><mi>x</mi><mo>&lt;</mo><msub><mi>x</mi><mi>i</mi></msub><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow><mo>≥</mo><mn>0</mn></mrow></math></span> (zeren <math display=\"inline\"><mrow><mi>f</mi><mo>≥</mo><mn>0</mn></mrow></math>), beraz behe-batura <math display=\"inline\"><mrow><mi>s</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∑</mo><msub><mi>m</mi><mi>i</mi></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mi>i</mi></msub><mo>−</mo><msub><mi>x</mi><mrow><mi>i</mi><mo>−</mo><mn>1</mn></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>≥</mo><mn>0</mn></mrow></math>; behe-integrala behe-baturen gorena denez eta <math display=\"inline\"><mi>f</mi></math> integragarria denez, <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo>=</mo><munder><mi mathvariant=\"normal\">sup</mi><mi>P</mi></munder><mi>s</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>,</mo><mi>P</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≥</mo><mn>0</mn></mrow></math>."
     },
     {
      "mota": "oharra",
@@ -6823,7 +6823,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0049</code>, 96-97 orriak; &quot;CÁLCULO LANDETA&quot;, 2013/2/19; <code>IMG_2026_07_28_02_31_44S.jpg</code>). <strong>Zatikako integrazioa</strong> ALPES arauaz (<math display=\"inline\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mo>→</mo><mi>−</mi><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, bi aldiz aplikatuta), <strong>argumentu linealen hirukotea</strong>, eta <strong>bi azterketa-ariketa</strong>: deribatua (<math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo>=</mo><msup><mi>a</mi><mi>x</mi></msup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>a</mi><msubsup><mo>∫</mo><mn>0</mn><msup><mi>x</mi><mn>5</mn></msup></msubsup><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>t</mi><mo>+</mo><mn>5</mn><msup><mi>a</mi><mi>x</mi></msup><msup><mi>x</mi><mn>4</mn></msup><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>5</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><msup><mi>a</mi><mi>x</mi></msup></math> <math display=\"inline\"><mi>t</mi></math>-arekiko konstante) eta positibotasuna (<math display=\"inline\"><mrow><mi>f</mi><mo>≥</mo><mn>0</mn><mo>⇒</mo><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo>≥</mo><mn>0</mn></mrow></math>, behe-baturak). SymPy-z egiaztatuak. Iturrian <math display=\"inline\"><msub><mi>I</mi><mn>1</mn></msub></math>-en <math display=\"inline\"><mrow><mi>d</mi><mi>v</mi><mo>=</mo><mn>2</mn><mi>d</mi><mi>x</mi></mrow></math> lapsusa <math display=\"inline\"><mrow><mi>d</mi><mi>u</mi><mo>=</mo><mn>2</mn><mi>d</mi><mi>x</mi></mrow></math> gisa zuzendu da (ikus crudoa). Beste zuzenketarik ez. Ikus <code>koadernoa_calculo1_2013_kal_p096_landeta.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0049</code>, 96-97 orriak; &quot;CÁLCULO LANDETA&quot;, 2013/2/19; <code>IMG_2026_07_28_02_31_44S.jpg</code>). <strong>Zatikako integrazioa</strong> ALPES arauaz (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mo>→</mo><mi>−</mi><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>, bi aldiz aplikatuta), <strong>argumentu linealen hirukotea</strong>, eta <strong>bi azterketa-ariketa</strong>: deribatua (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo>=</mo><msup><mi>a</mi><mi>x</mi></msup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>a</mi><msubsup><mo>∫</mo><mn>0</mn><msup><mi>x</mi><mn>5</mn></msup></msubsup><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>t</mi><mo>+</mo><mn>5</mn><msup><mi>a</mi><mi>x</mi></msup><msup><mi>x</mi><mn>4</mn></msup><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>5</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>, <math display=\"inline\"><msup><mi>a</mi><mi>x</mi></msup></math> <math display=\"inline\"><mi>t</mi></math>-arekiko konstante) eta positibotasuna (<math display=\"inline\"><mrow><mi>f</mi><mo>≥</mo><mn>0</mn><mo>⇒</mo><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo>≥</mo><mn>0</mn></mrow></math>, behe-baturak). SymPy-z egiaztatuak. Iturrian <math display=\"inline\"><msub><mi>I</mi><mn>1</mn></msub></math>-en <math display=\"inline\"><mrow><mi>d</mi><mi>v</mi><mo>=</mo><mn>2</mn><mi>d</mi><mi>x</mi></mrow></math> lapsusa <math display=\"inline\"><mrow><mi>d</mi><mi>u</mi><mo>=</mo><mn>2</mn><mi>d</mi><mi>x</mi></mrow></math> gisa zuzendu da (ikus crudoa). Beste zuzenketarik ez. Ikus <code>koadernoa_calculo1_2013_kal_p096_landeta.typ</code>."
       }
      ]
     },
@@ -6920,7 +6920,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0051</code>, 100-101 orriak; &quot;KALKULUA II&quot;, 2013/2/20; <code>IMG_2026_07_28_02_31_53S.jpg</code>). <strong>Integral ziklikoa</strong> (<math display=\"inline\"><mrow><mo>∫</mo><msup><mi>e</mi><mrow><mi>a</mi><mi>x</mi></mrow></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><msup><mi>e</mi><mrow><mi>a</mi><mi>x</mi></mrow></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>a</mi><mi mathvariant=\"normal\">cos</mi><mi>b</mi><mi>x</mi><mo>+</mo><mi>b</mi><mi mathvariant=\"normal\">sin</mi><mi>b</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mi>I</mi></math> askatuz), <strong><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>-ren primitiba</strong> (<math display=\"inline\"><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mi>x</mi><mo>+</mo><mi>k</mi></mrow></math>) eta <strong>funtzio arrazionalen 4 forma</strong> (<math display=\"inline\"><mrow><mi>A</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mi>A</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>n</mi></msup></mrow></math>, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mi>x</mi><mo>+</mo><mi>B</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>p</mi><mi>x</mi><mo>+</mo><mi>q</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mi>x</mi><mo>+</mo><mi>B</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>p</mi><mi>x</mi><mo>+</mo><mi>q</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>n</mi></msup></mrow></math>). SymPy-z egiaztatuak. Iturrian <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>-ren <math display=\"inline\"><mi>u</mi></math> etiketa lapsusa zuzendu da (ikus crudoa); beste zuzenketarik ez. Ikus <code>koadernoa_calculo1_2013_kal_p100_kalkulua2.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0051</code>, 100-101 orriak; &quot;KALKULUA II&quot;, 2013/2/20; <code>IMG_2026_07_28_02_31_53S.jpg</code>). <strong>Integral ziklikoa</strong> (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><msup><mi>e</mi><mrow><mi>a</mi><mi>x</mi></mrow></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><msup><mi>e</mi><mrow><mi>a</mi><mi>x</mi></mrow></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>a</mi><mi mathvariant=\"normal\">cos</mi><mi>b</mi><mi>x</mi><mo>+</mo><mi>b</mi><mi mathvariant=\"normal\">sin</mi><mi>b</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>, <math display=\"inline\"><mi>I</mi></math> askatuz), <strong><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>-ren primitiba</strong> (<math display=\"inline\"><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mi>x</mi><mo>+</mo><mi>k</mi></mrow></math>) eta <strong>funtzio arrazionalen 4 forma</strong> (<math display=\"inline\"><mrow><mi>A</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mi>A</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>n</mi></msup></mrow></math>, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mi>x</mi><mo>+</mo><mi>B</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>p</mi><mi>x</mi><mo>+</mo><mi>q</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mi>x</mi><mo>+</mo><mi>B</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>p</mi><mi>x</mi><mo>+</mo><mi>q</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>n</mi></msup></mrow></math>). SymPy-z egiaztatuak. Iturrian <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>-ren <math display=\"inline\"><mi>u</mi></math> etiketa lapsusa zuzendu da (ikus crudoa); beste zuzenketarik ez. Ikus <code>koadernoa_calculo1_2013_kal_p100_kalkulua2.typ</code>."
       }
      ]
     },
@@ -7094,7 +7094,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0061</code>, 120-121 orriak; &quot;CÁLCULO LANDETA&quot;, 2013/2/22; <code>IMG_2026_07_28_02_33_26S.jpg</code>). <strong>6.2 aldagai-aldaketazko integrazioa</strong>: <strong>ordezkapen tipikoak</strong> (4 kasu), <strong>adibidea 1</strong> (<math display=\"inline\"><mrow><mo>∫</mo><mi>x</mi><msqrt><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>/</mi><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mn>5</mn><mi>/</mi><mn>2</mn></mrow></msup><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>/</mi><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mn>3</mn><mi>/</mi><mn>2</mn></mrow></msup></mrow></math>), <strong>hiperbolikoak</strong> eta <strong>berretura-erregela</strong>, eta <strong>adibidea 2</strong> (<math display=\"inline\"><mrow><mo>∫</mo><mi>x</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>5</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mn>1</mn><mi>/</mi><mn>5</mn></mrow></msup><mo>=</mo><mi>−</mi><mn>5</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>5</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mn>6</mn><mi>/</mi><mn>5</mn></mrow></msup><mi>/</mi><mn>12</mn></mrow></math>, bi metodoz). SymPy-z egiaztatuak. Iturriko <math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">ch </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>x</mi></mrow></math>-ren lapsusa zuzendua (<math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">ch </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>x</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mn>2</mn></mrow></math> da). Beste zuzenketarik ez. Ikus <code>koadernoa_calculo1_2013_kal_p120_landeta.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0061</code>, 120-121 orriak; &quot;CÁLCULO LANDETA&quot;, 2013/2/22; <code>IMG_2026_07_28_02_33_26S.jpg</code>). <strong>6.2 aldagai-aldaketazko integrazioa</strong>: <strong>ordezkapen tipikoak</strong> (4 kasu), <strong>adibidea 1</strong> (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mi>x</mi><msqrt><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>/</mi><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mn>5</mn><mi>/</mi><mn>2</mn></mrow></msup><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>/</mi><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mn>3</mn><mi>/</mi><mn>2</mn></mrow></msup></mrow></math></span>), <strong>hiperbolikoak</strong> eta <strong>berretura-erregela</strong>, eta <strong>adibidea 2</strong> (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mi>x</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>5</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mn>1</mn><mi>/</mi><mn>5</mn></mrow></msup><mo>=</mo><mi>−</mi><mn>5</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>5</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mn>6</mn><mi>/</mi><mn>5</mn></mrow></msup><mi>/</mi><mn>12</mn></mrow></math></span>, bi metodoz). SymPy-z egiaztatuak. Iturriko <math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">ch </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>x</mi></mrow></math>-ren lapsusa zuzendua (<math display=\"inline\"><mrow><mrow><mtext mathvariant=\"normal\">ch </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>x</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mn>2</mn></mrow></math> da). Beste zuzenketarik ez. Ikus <code>koadernoa_calculo1_2013_kal_p120_landeta.typ</code>."
       }
      ]
     },
@@ -7127,7 +7127,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7138,7 +7138,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7149,7 +7149,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7160,7 +7160,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7171,7 +7171,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7182,7 +7182,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7193,7 +7193,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">tanh</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">tanh</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7204,7 +7204,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">coth</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">coth</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7215,7 +7215,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7226,7 +7226,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mn>3</mn><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mn>3</mn><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7237,7 +7237,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mrow><mi mathvariant=\"normal\">tanh</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mrow><mi mathvariant=\"normal\">tanh</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7248,7 +7248,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><msqrt><mrow><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><msqrt><mrow><mrow><mi mathvariant=\"normal\">cosh</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7339,7 +7339,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0062</code>, 122-123 orriak; &quot;CÁLCULO LANDETA&quot;, 2013/2/22; <code>IMG_2026_07_28_02_33_31S.jpg</code>). <strong>Formulario trigonometrikoa</strong>: <math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><msup><mi>f</mi><mo>′</mo></msup><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> (adibidea <math display=\"inline\"><mrow><mo>∫</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>), <strong>identitate pitagorikoak</strong> (<math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><mn>1</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cot</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">csc</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mrow></math>, <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">sec</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mrow></math>), <strong>batuketa-formulak</strong> (<math display=\"inline\"><mi mathvariant=\"normal\">sin</mi></math>/<math display=\"inline\"><mi mathvariant=\"normal\">cos</mi></math>/<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>±</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>) eta <strong>angelu bikoitza</strong> (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>a</mi></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>a</mi></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>a</mi></mrow></math>). SymPy-z egiaztatuak (guztiak). Notazioa: iturriak <math display=\"inline\"><mtext mathvariant=\"normal\">tg</mtext></math>, <math display=\"inline\"><mtext mathvariant=\"normal\">cotg</mtext></math>, <math display=\"inline\"><mtext mathvariant=\"normal\">cosec</mtext></math> erabiltzen ditu (<math display=\"inline\"><mrow><mo>=</mo><mi mathvariant=\"normal\">tan</mi></mrow></math>, <math display=\"inline\"><mi mathvariant=\"normal\">cot</mi></math>, <math display=\"inline\"><mi mathvariant=\"normal\">csc</mi></math>). Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p122_landeta.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0062</code>, 122-123 orriak; &quot;CÁLCULO LANDETA&quot;, 2013/2/22; <code>IMG_2026_07_28_02_33_31S.jpg</code>). <strong>Formulario trigonometrikoa</strong>: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><msup><mi>f</mi><mo>′</mo></msup><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>f</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math></span> (adibidea <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>), <strong>identitate pitagorikoak</strong> (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>1</mn></mrow></math></span>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mn>1</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cot</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">csc</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mrow></math></span>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">sec</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mrow></math></span>), <strong>batuketa-formulak</strong> (<math display=\"inline\"><mi mathvariant=\"normal\">sin</mi></math>/<math display=\"inline\"><mi mathvariant=\"normal\">cos</mi></math>/<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>±</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>) eta <strong>angelu bikoitza</strong> (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>a</mi></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>a</mi></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>a</mi></mrow></math>). SymPy-z egiaztatuak (guztiak). Notazioa: iturriak <math display=\"inline\"><mtext mathvariant=\"normal\">tg</mtext></math>, <math display=\"inline\"><mtext mathvariant=\"normal\">cotg</mtext></math>, <math display=\"inline\"><mtext mathvariant=\"normal\">cosec</mtext></math> erabiltzen ditu (<math display=\"inline\"><mrow><mo>=</mo><mi mathvariant=\"normal\">tan</mi></mrow></math>, <math display=\"inline\"><mi mathvariant=\"normal\">cot</mi></math>, <math display=\"inline\"><mi mathvariant=\"normal\">csc</mi></math>). Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p122_landeta.typ</code>."
       }
      ]
     },
@@ -7365,7 +7365,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "Angelu bikoitzetik (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></math>, <math display=\"inline\"><mrow><mn>1</mn><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></math>):"
+     "html": "Angelu bikoitzetik (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></math></span>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mn>1</mn><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></math></span>):"
     },
     {
      "mota": "kutxa",
@@ -7393,7 +7393,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>t</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>=</mo><mn>2</mn><mi>x</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></math> deseginez:"
+     "html": "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>t</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>=</mo><mn>2</mn><mi>x</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></math></span> deseginez:"
     },
     {
      "mota": "kutxa",
@@ -7413,7 +7413,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math> eginez, <math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi></mrow></msqrt><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mi>d</mi><mi>t</mi><mo>=</mo><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mi>d</mi><mi>t</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>t</mi><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>t</mi></mrow></math>:"
+     "html": "<math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math> eginez, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi></mrow></msqrt><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mi>d</mi><mi>t</mi><mo>=</mo><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mi>d</mi><mi>t</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>t</mi><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>t</mi></mrow></math></span>:"
     },
     {
      "mota": "kutxa",
@@ -7436,7 +7436,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0063</code>, 124-125 orriak; &quot;CÁLCULO LANDETA&quot;, 2013/2/22; <code>IMG_2026_07_28_02_33_38S.jpg</code>). <strong>Beheratze-formulak</strong> (<math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mn>2</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mn>2</mn></mrow></math>, <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi mathvariant=\"normal\">cos</mi><mn>2</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mn>2</mn></mrow></math>) eta bi integral <strong><math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math> ordezkapenaz</strong>: <math display=\"inline\"><mrow><mo>∫</mo><msup><mi>x</mi><mn>2</mn></msup><mi>/</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>x</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></math> eta <math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>x</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></math> (angelua triangelu zuzenaz desegina, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>t</mi><mo>=</mo><mn>2</mn><mi>x</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></math>). SymPy-z egiaztatuak. Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p124_landeta.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0063</code>, 124-125 orriak; &quot;CÁLCULO LANDETA&quot;, 2013/2/22; <code>IMG_2026_07_28_02_33_38S.jpg</code>). <strong>Beheratze-formulak</strong> (<math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mn>2</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mn>2</mn></mrow></math>, <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi mathvariant=\"normal\">cos</mi><mn>2</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mn>2</mn></mrow></math>) eta bi integral <strong><math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math> ordezkapenaz</strong>: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><msup><mi>x</mi><mn>2</mn></msup><mi>/</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>x</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></math></span> eta <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>x</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></math></span> (angelua triangelu zuzenaz desegina, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>t</mi><mo>=</mo><mn>2</mn><mi>x</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></math>). SymPy-z egiaztatuak. Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p124_landeta.typ</code>."
       }
      ]
     },
@@ -7469,7 +7469,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7480,7 +7480,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>5</mn></msup><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>5</mn></msup><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7491,7 +7491,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>6</mn></msup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>6</mn></msup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7502,7 +7502,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>5</mn></msup><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>5</mn></msup><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7513,7 +7513,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7524,7 +7524,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7535,7 +7535,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mi>x</mi><mn>3</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>−</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></msup><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mi>x</mi><mn>3</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>−</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></msup><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7546,7 +7546,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mroot><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>4</mn></msup></mrow><mn>4</mn></mroot></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mroot><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>4</mn></msup></mrow><mn>4</mn></mroot></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7557,7 +7557,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>4</mn></msup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>4</mn></msup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7568,7 +7568,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mroot><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>5</mn></msup></mrow><mn>4</mn></mroot></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mroot><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>5</mn></msup></mrow><mn>4</mn></mroot></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7579,7 +7579,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo>+</mo><msup><mi>x</mi><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mn>5</mn><mn>3</mn></mfrac></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo>+</mo><msup><mi>x</mi><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mn>5</mn><mn>3</mn></mfrac></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7590,7 +7590,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msqrt><msup><mi>x</mi><mn>3</mn></msup></msqrt><mroot><mrow><mn>1</mn><mo>+</mo><mroot><msup><mi>x</mi><mn>3</mn></msup><mn>4</mn></mroot></mrow><mn>3</mn></mroot></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msqrt><msup><mi>x</mi><mn>3</mn></msup></msqrt><mroot><mrow><mn>1</mn><mo>+</mo><mroot><msup><mi>x</mi><mn>3</mn></msup><mn>4</mn></mroot></mrow><mn>3</mn></mroot></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7617,7 +7617,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7628,7 +7628,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7639,7 +7639,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7650,7 +7650,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7661,7 +7661,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mfrac><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup></mfrac><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mfrac><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup></mfrac><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7672,7 +7672,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7683,7 +7683,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7694,7 +7694,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7705,7 +7705,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>6</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>6</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7716,7 +7716,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup></mfrac><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup></mfrac><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7727,7 +7727,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>6</mn></msup></mfrac><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>6</mn></msup></mfrac><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7738,7 +7738,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mfrac><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>6</mn></msup></mfrac><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mfrac><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>6</mn></msup></mfrac><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7749,7 +7749,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7760,7 +7760,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7771,7 +7771,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7782,7 +7782,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mfrac><mi>π</mi><mn>4</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mfrac><mi>π</mi><mn>4</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7793,7 +7793,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup></mfrac><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup></mfrac><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7804,7 +7804,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sec</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sec</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7815,7 +7815,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7826,7 +7826,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cot</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cot</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7837,7 +7837,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cot</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cot</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7848,7 +7848,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>3</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>3</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7859,7 +7859,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7870,7 +7870,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mfrac><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup></mfrac><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mfrac><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup></mfrac><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7881,7 +7881,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mi>x</mi><mroot><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mn>3</mn></mroot><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mi>x</mi><mroot><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mn>3</mn></mroot><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7892,7 +7892,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7903,7 +7903,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7914,7 +7914,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7925,7 +7925,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>10</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>15</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>10</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>15</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7936,7 +7936,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>3</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>3</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7947,7 +7947,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>3</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mfrac><mi>x</mi><mn>3</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>3</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mfrac><mi>x</mi><mn>3</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7958,7 +7958,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>−</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>−</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7969,7 +7969,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>φ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>t</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>φ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>t</mi></mrow></math>"
       }
      ]
     },
@@ -7980,7 +7980,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -7991,7 +7991,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8018,7 +8018,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><mn>3</mn><mo>−</mo><mn>2</mn><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msqrt><mrow><mn>3</mn><mo>−</mo><mn>2</mn><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8029,7 +8029,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><mn>2</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msqrt><mrow><mn>2</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8040,7 +8040,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><msqrt><mrow><mn>9</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><msqrt><mrow><mn>9</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8051,7 +8051,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8062,7 +8062,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8073,7 +8073,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8084,7 +8084,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>6</mn><mi>x</mi><mo>−</mo><mn>7</mn></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>6</mn><mi>x</mi><mo>−</mo><mn>7</mn></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8095,7 +8095,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mn>3</mn><mn>2</mn></mfrac></msup><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mn>3</mn><mn>2</mn></mfrac></msup><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8106,7 +8106,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8117,7 +8117,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mn>3</mn><mn>2</mn></mfrac></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mn>3</mn><mn>2</mn></mfrac></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8128,7 +8128,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8139,7 +8139,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8241,7 +8241,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0064</code>, 126-127 orriak; &quot;CÁLCULO CASERO&quot;, 2013/2/24; <code>IMG_2026_07_28_02_33_42S.jpg</code>). <strong>Integral-sorta</strong> (etxeko lanak): inmediatoak (<math display=\"inline\"><mroot><msup><mi>x</mi><mi>n</mi></msup><mi>m</mi></mroot></math>, <math display=\"inline\"><msup><mn>10</mn><mi>x</mi></msup></math>), arrazionalak, trigonometrikoak (<math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></math>, <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mn>2</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>), berretura-erregela (<math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mroot><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>2</mn></mrow><mn>7</mn></mroot></mrow></math>), <math display=\"inline\"><mi mathvariant=\"normal\">arctan</mi></math> (<math display=\"inline\"><mrow><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>4</mn><mo>+</mo><mn>4</mn><msup><mi>x</mi><mn>8</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>), <math display=\"inline\"><mtext mathvariant=\"normal\">arccosh</mtext></math> (<math display=\"inline\"><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mi>/</mi><msqrt><mrow><msup><mi>x</mi><mn>6</mn></msup><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></math>), logaritmikoa (<math display=\"inline\"><mrow><mn>1</mn><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mi mathvariant=\"normal\">ln</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>), eta <strong>4.1.2 ordezkapen-teorema</strong>. SymPy-z egiaztatuak. ⚠️ <strong>Zuzenketa mentzioarekin</strong>: iturriak c) ariketan zeinu okerra jartzen du (<math display=\"inline\"><mrow><mi>−</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mrow><mi>−</mi><mn>3</mn></mrow></msup><mi>x</mi><mi>/</mi><mn>3</mn></mrow></math>); zuzena <math display=\"inline\"><mrow><mi>+</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mrow><mi>−</mi><mn>3</mn></mrow></msup><mi>x</mi><mi>/</mi><mn>3</mn></mrow></math> da (hemen zuzenduta). Ikus <code>koadernoa_calculo1_2013_kal_p126_casero.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0064</code>, 126-127 orriak; &quot;CÁLCULO CASERO&quot;, 2013/2/24; <code>IMG_2026_07_28_02_33_42S.jpg</code>). <strong>Integral-sorta</strong> (etxeko lanak): inmediatoak (<math display=\"inline\"><mroot><msup><mi>x</mi><mi>n</mi></msup><mi>m</mi></mroot></math>, <math display=\"inline\"><msup><mn>10</mn><mi>x</mi></msup></math>), arrazionalak, trigonometrikoak (<math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></math>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mn>2</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>), berretura-erregela (<math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mroot><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>2</mn></mrow><mn>7</mn></mroot></mrow></math>), <math display=\"inline\"><mi mathvariant=\"normal\">arctan</mi></math> (<math display=\"inline\"><mrow><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>4</mn><mo>+</mo><mn>4</mn><msup><mi>x</mi><mn>8</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>), <math display=\"inline\"><mtext mathvariant=\"normal\">arccosh</mtext></math> (<math display=\"inline\"><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mi>/</mi><msqrt><mrow><msup><mi>x</mi><mn>6</mn></msup><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></math>), logaritmikoa (<math display=\"inline\"><mrow><mn>1</mn><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mi mathvariant=\"normal\">ln</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>), eta <strong>4.1.2 ordezkapen-teorema</strong>. SymPy-z egiaztatuak. ⚠️ <strong>Zuzenketa mentzioarekin</strong>: iturriak c) ariketan zeinu okerra jartzen du (<math display=\"inline\"><mrow><mi>−</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mrow><mi>−</mi><mn>3</mn></mrow></msup><mi>x</mi><mi>/</mi><mn>3</mn></mrow></math>); zuzena <math display=\"inline\"><mrow><mi>+</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mrow><mi>−</mi><mn>3</mn></mrow></msup><mi>x</mi><mi>/</mi><mn>3</mn></mrow></math> da (hemen zuzenduta). Ikus <code>koadernoa_calculo1_2013_kal_p126_casero.typ</code>."
       }
      ]
     },
@@ -8326,7 +8326,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0065</code>, 128-129 orriak; &quot;CÁLCULO CASERO&quot;, 2013/2/24; <code>IMG_2026_07_28_02_33_47S.jpg</code>). <strong>Ordezkapen-metodoaren sei adibide</strong>: Adib.3 (<math display=\"inline\"><mrow><mo>∫</mo><msup><mi>x</mi><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><msup><mi>x</mi><mn>3</mn></msup><mo>=</mo><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msup><mi>x</mi><mn>3</mn></msup></mrow></math>); Adib.4 (a <math display=\"inline\"><mrow><mn>5</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mn>4</mn><mi>/</mi><mn>5</mn></mrow></msup><mi>/</mi><mn>16</mn></mrow></math>, b <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi></mrow></math>, c <math display=\"inline\"><mrow><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>15</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mn>3</mn><mi>x</mi></mrow></math>); Adib.5 (a <math display=\"inline\"><mrow><mi>−</mi><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msqrt><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mrow></math>, b <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>24</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>7</mn><mo>+</mo><mn>4</mn><msup><mi>x</mi><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>6</mn></msup></mrow></math>). SymPy-z egiaztatuak (denak). Patroia: <math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>/<math display=\"inline\"><mrow><msup><mi>g</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> identifikatu eta faktore konstantea doitu. Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p128_casero.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0065</code>, 128-129 orriak; &quot;CÁLCULO CASERO&quot;, 2013/2/24; <code>IMG_2026_07_28_02_33_47S.jpg</code>). <strong>Ordezkapen-metodoaren sei adibide</strong>: Adib.3 (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><msup><mi>x</mi><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><msup><mi>x</mi><mn>3</mn></msup><mo>=</mo><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msup><mi>x</mi><mn>3</mn></msup></mrow></math></span>); Adib.4 (a <math display=\"inline\"><mrow><mn>5</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mn>4</mn><mi>/</mi><mn>5</mn></mrow></msup><mi>/</mi><mn>16</mn></mrow></math>, b <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi></mrow></math>, c <math display=\"inline\"><mrow><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>15</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mn>3</mn><mi>x</mi></mrow></math>); Adib.5 (a <math display=\"inline\"><mrow><mi>−</mi><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msqrt><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mrow></math>, b <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>24</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>7</mn><mo>+</mo><mn>4</mn><msup><mi>x</mi><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>6</mn></msup></mrow></math>). SymPy-z egiaztatuak (denak). Patroia: <math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>/<math display=\"inline\"><mrow><msup><mi>g</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> identifikatu eta faktore konstantea doitu. Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p128_casero.typ</code>."
       }
      ]
     },
@@ -8353,7 +8353,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Aurkitu integralak, adierazitako ordezkapenak erabiliz: <br>a) <math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>,   <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mi>t</mi></mfrac></mrow></math>; <br>b) <math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>,   <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math>; <br>c) <math display=\"inline\"><mrow><mo>∫</mo><mi>x</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>7</mn></msup><mi>d</mi><mi>x</mi></mrow></math>,   <math display=\"inline\"><mrow><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mo>=</mo><mi>t</mi></mrow></math>; <br>d) <math display=\"inline\"><mrow><mo>∫</mo><mfrac><mi>x</mi><msqrt><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>,   <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><msqrt><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mrow></math>; <br>e) <math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>,   <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>."
+       "html": "Aurkitu integralak, adierazitako ordezkapenak erabiliz: <br>a) <math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>,   <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mi>t</mi></mfrac></mrow></math>; <br>b) <math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>,   <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math>; <br>c) <math display=\"inline\"><mrow><mo>∫</mo><mi>x</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>7</mn></msup><mi>d</mi><mi>x</mi></mrow></math>,   <math display=\"inline\"><mrow><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mo>=</mo><mi>t</mi></mrow></math>; <br>d) <math display=\"inline\"><mrow><mo>∫</mo><mfrac><mi>x</mi><msqrt><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>,   <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><msqrt><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mrow></math>; <br>e) <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math></span>,   <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>."
       }
      ]
     },
@@ -8364,7 +8364,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>10</mn></msup><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>10</mn></msup><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8375,7 +8375,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow><mrow><mn>1</mn><mo>+</mo><msqrt><mi>x</mi></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow><mrow><mn>1</mn><mo>+</mo><msqrt><mi>x</mi></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8386,7 +8386,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mi>x</mi><msqrt><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mi>x</mi><msqrt><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8397,7 +8397,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>−</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>−</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8408,7 +8408,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mfrac><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mfrac><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8419,7 +8419,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">arcsin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">arcsin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8430,7 +8430,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup><msqrt><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup><msqrt><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8441,7 +8441,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mfrac><mi>x</mi><msqrt><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mfrac><mi>x</mi><msqrt><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8452,7 +8452,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mi>x</mi><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mi>x</mi><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8463,7 +8463,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8474,7 +8474,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><msqrt><mrow><mn>2</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><msqrt><mrow><mn>2</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8485,7 +8485,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></msqrt><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></msqrt><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8496,7 +8496,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8507,7 +8507,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8518,7 +8518,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><msqrt><mrow><mn>4</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><msqrt><mrow><mn>4</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8529,7 +8529,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8650,7 +8650,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0066</code>, 130-131 orriak; &quot;CÁLCULO CASERO&quot;, 2013/2/24; <code>IMG_2026_07_28_02_33_52S.jpg</code>). <strong>4.1.3 Zatikako integrazioa</strong>: <math display=\"inline\"><mrow><mo>∫</mo><mi>u</mi><mi>d</mi><mi>v</mi><mo>=</mo><mi>u</mi><mi>v</mi><mo>−</mo><mo>∫</mo><mi>v</mi><mi>d</mi><mi>u</mi></mrow></math> (biderkaduraren erregelatik), eta <strong>Adibide 6</strong>: a) <math display=\"inline\"><mrow><mo>∫</mo><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup><mo>=</mo><msup><mi>e</mi><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></mrow></math>; b) <math display=\"inline\"><mrow><mo>∫</mo><msup><mi>x</mi><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mn>2</mn><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math> (bi aldiz); c) <math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup></mrow></math> (ziklikoa, <math display=\"inline\"><mrow><mo>=</mo><msup><mi>e</mi><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo>−</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup><mi>/</mi><mn>2</mn></mrow></math>). SymPy-z egiaztatuak. Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p130_casero.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0066</code>, 130-131 orriak; &quot;CÁLCULO CASERO&quot;, 2013/2/24; <code>IMG_2026_07_28_02_33_52S.jpg</code>). <strong>4.1.3 Zatikako integrazioa</strong>: <math display=\"inline\"><mrow><mo>∫</mo><mi>u</mi><mi>d</mi><mi>v</mi><mo>=</mo><mi>u</mi><mi>v</mi><mo>−</mo><mo>∫</mo><mi>v</mi><mi>d</mi><mi>u</mi></mrow></math> (biderkaduraren erregelatik), eta <strong>Adibide 6</strong>: a) <math display=\"inline\"><mrow><mo>∫</mo><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup><mo>=</mo><msup><mi>e</mi><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></mrow></math>; b) <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><msup><mi>x</mi><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mn>2</mn><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math></span> (bi aldiz); c) <math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup></mrow></math> (ziklikoa, <math display=\"inline\"><mrow><mo>=</mo><msup><mi>e</mi><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo>−</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup><mi>/</mi><mn>2</mn></mrow></math>). SymPy-z egiaztatuak. Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p130_casero.typ</code>."
       }
      ]
     },
@@ -8677,7 +8677,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>4</mn></msubsup><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msqrt><mi>x</mi></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>4</mn></msubsup><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msqrt><mi>x</mi></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></math>"
       }
      ]
     },
@@ -8688,7 +8688,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>3</mn><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mn>29</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></msubsup><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></msup></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></msup><mo>+</mo><mn>3</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mi>x</mi><mo>−</mo><mn>2</mn><mo>=</mo><msup><mi>z</mi><mn>8</mn></msup></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>3</mn><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mn>29</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></msubsup><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></msup></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></msup><mo>+</mo><mn>3</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mi>x</mi><mo>−</mo><mn>2</mn><mo>=</mo><msup><mi>z</mi><mn>8</mn></msup></mrow></math>"
       }
      ]
     },
@@ -8699,7 +8699,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>2</mn></mrow></msubsup><msqrt><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>−</mo><mn>1</mn></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>−</mo><mn>1</mn><mo>=</mo><msup><mi>z</mi><mn>2</mn></msup></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>2</mn></mrow></msubsup><msqrt><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>−</mo><mn>1</mn></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>−</mo><mn>1</mn><mo>=</mo><msup><mi>z</mi><mn>2</mn></msup></mrow></math>"
       }
      ]
     },
@@ -8710,7 +8710,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>π</mi></msubsup><mfrac><mn>1</mn><mrow><mn>3</mn><mo>+</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></mfrac><mi>d</mi><mi>t</mi></mrow></math>   <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>t</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>z</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>π</mi></msubsup><mfrac><mn>1</mn><mrow><mn>3</mn><mo>+</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></mfrac><mi>d</mi><mi>t</mi></mrow></math>   <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>t</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>z</mi></mrow></math>"
       }
      ]
     },
@@ -8721,7 +8721,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></msubsup><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>t</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></msubsup><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>t</mi></mrow></math>"
       }
      ]
     },
@@ -8732,7 +8732,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mfrac><msqrt><mn>2</mn></msqrt><mn>2</mn></mfrac><mn>1</mn></msubsup><mfrac><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><msup><mi>x</mi><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mfrac><msqrt><mn>2</mn></msqrt><mn>2</mn></mfrac><mn>1</mn></msubsup><mfrac><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><msup><mi>x</mi><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8743,7 +8743,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>2</mn></msubsup><mfrac><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></msqrt><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>2</mn></msubsup><mfrac><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></msqrt><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8754,7 +8754,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>5</mn></mrow></msubsup><msup><mi>e</mi><mi>x</mi></msup><mfrac><msqrt><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>−</mo><mn>1</mn></mrow></msqrt><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>3</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>5</mn></mrow></msubsup><msup><mi>e</mi><mi>x</mi></msup><mfrac><msqrt><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>−</mo><mn>1</mn></mrow></msqrt><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>3</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8765,7 +8765,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>5</mn></msubsup><mfrac><mn>1</mn><mrow><mn>2</mn><mi>x</mi><mo>+</mo><msqrt><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>5</mn></msubsup><mfrac><mn>1</mn><mrow><mn>2</mn><mi>x</mi><mo>+</mo><msqrt><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8776,7 +8776,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>3</mn></msubsup><mfrac><mn>1</mn><mrow><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>3</mn></msubsup><mfrac><mn>1</mn><mrow><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8787,7 +8787,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>1</mn></msubsup><mfrac><mn>1</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>1</mn></msubsup><mfrac><mn>1</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8798,7 +8798,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>a</mi></msubsup><msqrt><mrow><mi>a</mi><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>a</mi></msubsup><msqrt><mrow><mi>a</mi><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8809,7 +8809,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mrow><mn>2</mn><mi>π</mi></mrow></msubsup><mfrac><mn>1</mn><mrow><mn>5</mn><mo>−</mo><mn>3</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mrow><mn>2</mn><mi>π</mi></mrow></msubsup><mfrac><mn>1</mn><mrow><mn>5</mn><mo>−</mo><mn>3</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8831,7 +8831,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Frogatu: <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mi>∞</mi></mrow><mi>∞</mi></msubsup><msup><mi>e</mi><mrow><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></msup><mi>d</mi><mi>x</mi><mo>=</mo><mn>2</mn><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><msup><mi>e</mi><mrow><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></msup><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mfrac><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><msqrt><mi>x</mi></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>."
+       "html": "Frogatu: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mi>∞</mi></mrow><mi>∞</mi></msubsup><msup><mi>e</mi><mrow><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></msup><mi>d</mi><mi>x</mi><mo>=</mo><mn>2</mn><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><msup><mi>e</mi><mrow><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></msup><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mfrac><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><msqrt><mi>x</mi></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math></span>."
       }
      ]
     },
@@ -8842,7 +8842,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Frogatu: <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mn>1</mn><mi mathvariant=\"normal\">arccos</mi></mfrac><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></msubsup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>."
+       "html": "Frogatu: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mn>1</mn><mi mathvariant=\"normal\">arccos</mi></mfrac><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></msubsup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math></span>."
       }
      ]
     },
@@ -8853,7 +8853,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Frogatu: <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></msubsup><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></msubsup><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>."
+       "html": "Frogatu: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></msubsup><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></msubsup><mi>f</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math></span>."
       }
      ]
     },
@@ -8874,7 +8874,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></msubsup><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></msubsup><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8885,7 +8885,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>e</mi></msubsup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>e</mi></msubsup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8896,7 +8896,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><msup><mi>x</mi><mn>3</mn></msup><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><msup><mi>x</mi><mn>3</mn></msup><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8907,7 +8907,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>π</mi></msubsup><msup><mi>e</mi><mi>x</mi></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>π</mi></msubsup><msup><mi>e</mi><mi>x</mi></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8934,7 +8934,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8945,7 +8945,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mfrac><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mfrac><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8956,7 +8956,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mfrac><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mfrac><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8967,7 +8967,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mi>e</mi><mi>x</mi></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mi>e</mi><mi>x</mi></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8978,7 +8978,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mn>3</mn><mi>x</mi></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mn>3</mn><mi>x</mi></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -8989,7 +8989,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mi>e</mi><mrow><mi>a</mi><mi>x</mi></mrow></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mi>e</mi><mrow><mi>a</mi><mi>x</mi></mrow></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9000,7 +9000,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9011,7 +9011,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mi>x</mi><mn>3</mn></msup><msup><mi>e</mi><mrow><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></msup><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mi>x</mi><mn>3</mn></msup><msup><mi>e</mi><mrow><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></msup><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9022,7 +9022,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mi>e</mi><msqrt><mi>x</mi></msqrt></msup><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mi>e</mi><msqrt><mi>x</mi></msqrt></msup><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9033,7 +9033,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9044,7 +9044,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9055,7 +9055,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">ln</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><msup><mi>x</mi><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">ln</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><msup><mi>x</mi><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9066,7 +9066,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9077,7 +9077,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mi>x</mi><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mi>x</mi><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9088,7 +9088,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mi>x</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">arctan</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mi>x</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">arctan</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9099,7 +9099,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">arcsin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">arcsin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9110,7 +9110,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><msup><mi>x</mi><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><msup><mi>x</mi><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9121,7 +9121,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msqrt><mi>x</mi></msqrt><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><msqrt><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msqrt><mi>x</mi></msqrt><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><msqrt><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9132,7 +9132,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9143,7 +9143,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mfrac><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mfrac><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9154,7 +9154,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">ln</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">ln</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9165,7 +9165,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9176,7 +9176,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9187,7 +9187,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9198,7 +9198,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><mi>A</mi><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msqrt><mrow><mi>A</mi><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9209,7 +9209,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><msqrt><mrow><mn>9</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><msqrt><mrow><mn>9</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9309,7 +9309,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0067</code>, 132-133 orriak; &quot;KALKULUA II&quot;, 2013/2/25; <code>IMG_2026_07_28_02_33_56S.jpg</code>). <strong>Izendatzaile karratu laburtezineko</strong> integralak: III mota <math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><msqrt><mn>3</mn></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><msqrt><mn>3</mn></msqrt><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> (zenbakitzailea deskonposatuz); IV mota <math display=\"inline\"><mrow><mo>∫</mo><mi>d</mi><mi>x</mi><mi>/</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></math> (karratua osatuz → beheratze-formula <math display=\"inline\"><msub><mi>I</mi><mi>n</mi></msub></math>); <math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><mi>−</mi><mn>1</mn><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>; eta <strong>6.2.7 zatiketa</strong> (<math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>+</mo><mn>2</mn><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>). SymPy-z egiaztatuak. Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p132_kalkulua2.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0067</code>, 132-133 orriak; &quot;KALKULUA II&quot;, 2013/2/25; <code>IMG_2026_07_28_02_33_56S.jpg</code>). <strong>Izendatzaile karratu laburtezineko</strong> integralak: III mota <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><msqrt><mn>3</mn></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><msqrt><mn>3</mn></msqrt><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span> (zenbakitzailea deskonposatuz); IV mota <math display=\"inline\"><mrow><mo>∫</mo><mi>d</mi><mi>x</mi><mi>/</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></math> (karratua osatuz → beheratze-formula <math display=\"inline\"><msub><mi>I</mi><mi>n</mi></msub></math>); <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><mi>−</mi><mn>1</mn><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>; eta <strong>6.2.7 zatiketa</strong> (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>+</mo><mn>2</mn><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>). SymPy-z egiaztatuak. Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p132_kalkulua2.typ</code>."
       }
      ]
     },
@@ -9342,7 +9342,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9353,7 +9353,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9364,7 +9364,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9375,7 +9375,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mi>x</mi><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn><mi>x</mi><mo>+</mo><mn>13</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mi>x</mi><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn><mi>x</mi><mo>+</mo><mn>13</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9386,7 +9386,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9397,7 +9397,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>4</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>4</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9408,7 +9408,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>10</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>10</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9419,7 +9419,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><mn>2</mn><mo>+</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><mn>2</mn><mo>+</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9430,7 +9430,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9441,7 +9441,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>p</mi><mi>x</mi><mo>+</mo><mi>q</mi></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>p</mi><mi>x</mi><mo>+</mo><mi>q</mi></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9452,7 +9452,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>6</mn></mrow><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>6</mn></mrow><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9463,7 +9463,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>8</mn></mrow><msqrt><mrow><mn>1</mn><mo>−</mo><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>8</mn></mrow><msqrt><mrow><mn>1</mn><mo>−</mo><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9474,7 +9474,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mi>x</mi><msqrt><mrow><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mi>x</mi><msqrt><mrow><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9485,7 +9485,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mi>x</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mi>x</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9496,7 +9496,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9507,7 +9507,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9518,7 +9518,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9529,7 +9529,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9540,7 +9540,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msqrt><mrow><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9551,7 +9551,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><mn>2</mn><mo>−</mo><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msqrt><mrow><mn>2</mn><mo>−</mo><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9562,7 +9562,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mi>x</mi><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mi>x</mi><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9573,7 +9573,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>−</mo><mn>6</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mn>12</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>−</mo><mn>6</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mn>12</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9584,7 +9584,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>e</mi><mi>x</mi></msup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>e</mi><mi>x</mi></msup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9595,7 +9595,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><msqrt><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>+</mo><mn>4</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><msqrt><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>+</mo><mn>4</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9606,7 +9606,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mrow><mi>x</mi><msqrt><mrow><mn>1</mn><mo>−</mo><mn>4</mn><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">ln</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mrow><mi>x</mi><msqrt><mrow><mn>1</mn><mo>−</mo><mn>4</mn><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>−</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">ln</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></msqrt></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9633,7 +9633,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9644,7 +9644,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>9</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>6</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>9</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>6</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9655,7 +9655,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9666,7 +9666,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>41</mn><mi>x</mi><mo>−</mo><mn>91</mn></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>41</mn><mi>x</mi><mo>−</mo><mn>91</mn></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9677,7 +9677,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mn>5</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>2</mn></mrow><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mn>5</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>2</mn></mrow><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9688,7 +9688,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9699,7 +9699,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>1</mn></mrow><mrow><mn>4</mn><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>1</mn></mrow><mrow><mn>4</mn><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9710,7 +9710,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>6</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>12</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn></mrow><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>12</mn><mi>x</mi><mo>−</mo><mn>8</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>6</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>12</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn></mrow><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>12</mn><mi>x</mi><mo>−</mo><mn>8</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9721,7 +9721,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>9</mn></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>3</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>9</mn></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>3</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9732,7 +9732,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>7</mn></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>10</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>7</mn></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>10</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9743,7 +9743,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9754,7 +9754,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9765,7 +9765,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>4</mn></msup><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>4</mn></msup><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9776,7 +9776,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>5</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>5</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9787,7 +9787,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9798,7 +9798,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9809,7 +9809,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9820,7 +9820,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9831,7 +9831,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9842,7 +9842,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9853,7 +9853,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>5</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>5</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9864,7 +9864,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9875,7 +9875,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9886,7 +9886,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>4</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>4</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9897,7 +9897,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9908,7 +9908,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>5</mn></msup><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>8</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>5</mn></msup><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>8</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9919,7 +9919,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>7</mn></msup><mo>+</mo><msup><mi>x</mi><mn>3</mn></msup></mrow><mrow><msup><mi>x</mi><mn>12</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>7</mn></msup><mo>+</mo><msup><mi>x</mi><mn>3</mn></msup></mrow><mrow><msup><mi>x</mi><mn>12</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9930,7 +9930,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>+</mo><mn>14</mn></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>4</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>+</mo><mn>14</mn></mrow><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>4</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9941,7 +9941,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>4</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>4</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9952,7 +9952,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>x</mi><mo>−</mo><mn>2</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>x</mi><mo>−</mo><mn>2</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9963,7 +9963,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>7</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>7</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9974,7 +9974,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9985,7 +9985,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -9996,7 +9996,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>10</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>10</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10007,7 +10007,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>8</mn></msup><mo>+</mo><msup><mi>x</mi><mn>6</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>8</mn></msup><mo>+</mo><msup><mi>x</mi><mn>6</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10034,7 +10034,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10045,7 +10045,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mi>x</mi><mn>2</mn></msup><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mi>x</mi><mn>2</mn></msup><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10056,7 +10056,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10067,7 +10067,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10078,7 +10078,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mi>e</mi><mi>x</mi></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mi>e</mi><mi>x</mi></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10089,7 +10089,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10100,7 +10100,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup><mo>+</mo><msup><mi>e</mi><mi>x</mi></msup><mo>−</mo><mn>2</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup><mo>+</mo><msup><mi>e</mi><mi>x</mi></msup><mo>−</mo><mn>2</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10111,7 +10111,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup><mo>+</mo><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup><mo>+</mo><msup><mi>e</mi><mi>x</mi></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10122,7 +10122,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mi>x</mi><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mi>x</mi><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mrow><mn>1</mn><mo>+</mo><mi>x</mi></mrow><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10133,7 +10133,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">ln</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">ln</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10144,7 +10144,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">arccos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mi>x</mi><mrow><mi mathvariant=\"normal\">arccos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10155,7 +10155,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10210,7 +10210,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>9</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>9</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10221,7 +10221,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>x</mi><mo>−</mo><mn>5</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mi>x</mi><mo>−</mo><mn>5</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10232,7 +10232,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10243,7 +10243,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10254,7 +10254,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>3</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>3</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10265,7 +10265,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10276,7 +10276,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10287,7 +10287,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10298,7 +10298,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mi>x</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mi>x</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10309,7 +10309,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mn>3</mn><mo>−</mo><mn>4</mn><mi>x</mi></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mn>2</mn><msqrt><mi>x</mi></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mn>3</mn><mo>−</mo><mn>4</mn><mi>x</mi></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mn>2</mn><msqrt><mi>x</mi></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10320,7 +10320,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mi>x</mi></msqrt><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><msup><mi>x</mi><mn>3</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msqrt><mi>x</mi></msqrt><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><msup><mi>x</mi><mn>3</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10331,7 +10331,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10355,7 +10355,7 @@ KAPITULUAK["01mc_03integralak"] = {
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mn>6</mn><msup><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mn>4</mn></msup><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mn>6</mn><msup><mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mn>4</mn></msup><mi>d</mi><mi>x</mi></mrow></math>"
       },
       {
        "mota": "testua",
@@ -10363,7 +10363,7 @@ KAPITULUAK["01mc_03integralak"] = {
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -10382,7 +10382,7 @@ KAPITULUAK["01mc_03integralak"] = {
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>2</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>2</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       },
       {
        "mota": "testua",
@@ -10390,7 +10390,7 @@ KAPITULUAK["01mc_03integralak"] = {
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       },
       {
        "mota": "testua",
@@ -10398,7 +10398,7 @@ KAPITULUAK["01mc_03integralak"] = {
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>e</mi><mi>x</mi></msup><mrow><mn>1</mn><mo>+</mo><msup><mi>e</mi><mi>x</mi></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><msup><mi>e</mi><mi>x</mi></msup><mrow><mn>1</mn><mo>+</mo><msup><mi>e</mi><mi>x</mi></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     }
@@ -10748,7 +10748,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mn>2</mn><mi>x</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mn>2</mn><mi>x</mi></mrow></math>"
           }
          ]
         },
@@ -10756,7 +10756,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>"
           }
          ]
         },
@@ -10764,7 +10764,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mfrac><mn>1</mn><mrow><mn>2</mn><msqrt><mi>x</mi></msqrt></mrow></mfrac></math>"
+           "html": "<math display=\"block\"><mfrac><mn>1</mn><mrow><mn>2</mn><msqrt><mi>x</mi></msqrt></mrow></mfrac></math>"
           }
          ]
         },
@@ -10772,7 +10772,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mi>…</mi></math>"
+           "html": "<math display=\"block\"><mi>…</mi></math>"
           }
          ]
         },
@@ -10780,7 +10780,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mo>↓</mo></math>"
+           "html": "<math display=\"block\"><mo>↓</mo></math>"
           }
          ]
         },
@@ -10788,7 +10788,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mo>↓</mo></math>"
+           "html": "<math display=\"block\"><mo>↓</mo></math>"
           }
          ]
         },
@@ -10796,7 +10796,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mo>↓</mo></math>"
+           "html": "<math display=\"block\"><mo>↓</mo></math>"
           }
          ]
         },
@@ -10807,7 +10807,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><msup><mi>x</mi><mn>2</mn></msup></math>"
+           "html": "<math display=\"block\"><msup><mi>x</mi><mn>2</mn></msup></math>"
           }
          ]
         },
@@ -10815,7 +10815,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math>"
           }
          ]
         },
@@ -10823,7 +10823,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><msqrt><mi>x</mi></msqrt></math>"
+           "html": "<math display=\"block\"><msqrt><mi>x</mi></msqrt></math>"
           }
          ]
         },
@@ -10831,7 +10831,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mi>…</mi></math>"
+           "html": "<math display=\"block\"><mi>…</mi></math>"
           }
          ]
         }
@@ -11243,7 +11243,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>D</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>k</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>D</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>k</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       }
      ]
     },
@@ -11282,8 +11282,52 @@ KAPITULUAK["01mc_03integralak"] = {
      "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>x</mi></mrow></math>: <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mi>x</mi></msubsup><mi>f</mi></mrow></math> azalera funtzioaren adierazpena lortzeko, balio taula bat erabiliko dugu."
     },
     {
-     "mota": "ezezaguna",
-     "izena": "taula-absiza"
+     "mota": "taula",
+     "goiburua": [],
+     "lerroak": [
+      [
+       "ABSIZA, <math display=\"inline\"><mi>x</mi></math>"
+      ],
+      [
+       "0"
+      ],
+      [
+       "1"
+      ],
+      [
+       "2"
+      ],
+      [
+       "3"
+      ],
+      [
+       "4"
+      ],
+      [
+       "<math display=\"inline\"><mi>x</mi></math>"
+      ],
+      [
+       "0 eta <math display=\"inline\"><mi>x</mi></math> art. az."
+      ],
+      [
+       "0"
+      ],
+      [
+       "0,5"
+      ],
+      [
+       "2"
+      ],
+      [
+       "4,5"
+      ],
+      [
+       "8"
+      ],
+      [
+       "<math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac></mrow></math>"
+      ]
+     ]
     },
     {
      "mota": "testua",
@@ -11294,8 +11338,52 @@ KAPITULUAK["01mc_03integralak"] = {
      "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>4</mn><mo>−</mo><mi>x</mi></mrow></math>: aurrekoan bezala jokatuko dugu."
     },
     {
-     "mota": "ezezaguna",
-     "izena": "taula-absiza"
+     "mota": "taula",
+     "goiburua": [],
+     "lerroak": [
+      [
+       "ABSIZA, <math display=\"inline\"><mi>x</mi></math>"
+      ],
+      [
+       "0"
+      ],
+      [
+       "1"
+      ],
+      [
+       "2"
+      ],
+      [
+       "3"
+      ],
+      [
+       "4"
+      ],
+      [
+       "<math display=\"inline\"><mi>x</mi></math>"
+      ],
+      [
+       "0 eta <math display=\"inline\"><mi>x</mi></math> art. az."
+      ],
+      [
+       "0"
+      ],
+      [
+       "3,5"
+      ],
+      [
+       "6"
+      ],
+      [
+       "7,5"
+      ],
+      [
+       "8"
+      ],
+      [
+       "<math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>4</mn><mi>x</mi><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+      ]
+     ]
     },
     {
      "mota": "testua",
@@ -11423,7 +11511,7 @@ KAPITULUAK["01mc_03integralak"] = {
           },
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mi>k</mi></mrow></math>, izan ere <math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> delako <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mi>k</mi></mrow></math>, izan ere <math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> delako <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow></math>"
           },
           {
            "mota": "testua",
@@ -11435,7 +11523,7 @@ KAPITULUAK["01mc_03integralak"] = {
           },
           {
            "mota": "testua",
-           "html": "Orain berehala aurkituko dugu <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>→</mo><msubsup><mo>∫</mo><mn>2</mn><mn>3</mn></msubsup><mi>f</mi><mo>=</mo><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>27</mn><mn>3</mn></mfrac><mo>−</mo><mn>9</mn><mo>+</mo><mn>6</mn><mo>−</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>10</mn><mn>3</mn></mfrac></mrow></math>"
+           "html": "Orain berehala aurkituko dugu <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>→</mo><msubsup><mo>∫</mo><mn>2</mn><mn>3</mn></msubsup><mi>f</mi><mo>=</mo><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>27</mn><mn>3</mn></mfrac><mo>−</mo><mn>9</mn><mo>+</mo><mn>6</mn><mo>−</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>10</mn><mn>3</mn></mfrac></mrow></math></span>"
           }
          ]
         },
@@ -11459,7 +11547,7 @@ KAPITULUAK["01mc_03integralak"] = {
              "blokeak": [
               {
                "mota": "testua",
-               "html": "<math display=\"inline\"><mrow><mfrac><mn>10</mn><mn>3</mn></mfrac><mo>=</mo><mn>3</mn><mo>,</mo><mn>33</mn><msup><mi>u</mi><mn>2</mn></msup></mrow></math>"
+               "html": "<math display=\"block\"><mrow><mfrac><mn>10</mn><mn>3</mn></mfrac><mo>=</mo><mn>3</mn><mo>,</mo><mn>33</mn><msup><mi>u</mi><mn>2</mn></msup></mrow></math>"
               }
              ]
             }
@@ -11580,7 +11668,7 @@ KAPITULUAK["01mc_03integralak"] = {
           },
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mi>G</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mi>G</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>G</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mi>G</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>3</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>G</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>3</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mi>G</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mi>G</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>G</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mi>G</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>3</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>G</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>, <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>3</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
           }
          ]
         },
@@ -11619,7 +11707,7 @@ KAPITULUAK["01mc_03integralak"] = {
           },
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>=</mo><mn>0</mn><mo>→</mo><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn><mo>→</mo><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><mi>−</mi><mn>1</mn><mo>,</mo><msub><mi>x</mi><mn>2</mn></msub><mo>=</mo><mn>1</mn></mrow></math>"
+           "html": "<math display=\"block\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>=</mo><mn>0</mn><mo>→</mo><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn><mo>→</mo><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><mi>−</mi><mn>1</mn><mo>,</mo><msub><mi>x</mi><mn>2</mn></msub><mo>=</mo><mn>1</mn></mrow></math>"
           },
           {
            "mota": "testua",
@@ -11635,7 +11723,7 @@ KAPITULUAK["01mc_03integralak"] = {
           },
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math>; <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math>; <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math>; <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>6</mn></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math>; <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math>; <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math>; <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>6</mn></mrow></math>"
           },
           {
            "mota": "testua",
@@ -11643,15 +11731,15 @@ KAPITULUAK["01mc_03integralak"] = {
           },
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>2</mn></mrow><mrow><mi>−</mi><mn>1</mn></mrow></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>2</mn><mn>3</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>→</mo></mrow></math> Azalera <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>2</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac></mrow></math>"
+           "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>2</mn></mrow><mrow><mi>−</mi><mn>1</mn></mrow></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>2</mn><mn>3</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>→</mo></mrow></math> Azalera <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>2</mn><mo>,</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac></mrow></math>"
           },
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>1</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>→</mo></mrow></math> Azalera <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac></mrow></math>"
+           "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>1</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>→</mo></mrow></math> Azalera <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac></mrow></math>"
           },
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>3</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>6</mn><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>2</mn><mn>3</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mn>20</mn><mn>3</mn></mfrac><mo>→</mo></mrow></math> Azalera <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>=</mo><mfrac><mn>20</mn><mn>3</mn></mfrac></mrow></math>"
+           "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>3</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>6</mn><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>2</mn><mn>3</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mn>20</mn><mn>3</mn></mfrac><mo>→</mo></mrow></math> Azalera <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>=</mo><mfrac><mn>20</mn><mn>3</mn></mfrac></mrow></math>"
           },
           {
            "mota": "testua",
@@ -11739,9 +11827,9 @@ KAPITULUAK["01mc_03integralak"] = {
             "Diferentzia funtzioa: <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mn>2</mn><mi>x</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>−</mo><mn>2</mn></mrow></math>",
             "<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>−</mo><mn>2</mn></mrow></math> funtzioaren eta <math display=\"inline\"><mi>X</mi></math> ardatzaren arteko azalera aurkitu.",
             "Ebakitze puntuak: <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>=</mo><mn>0</mn><mo>→</mo><mi>x</mi><mo>=</mo><mfrac><mrow><mn>1</mn><mo>±</mo><msqrt><mrow><mn>1</mn><mo>+</mo><mn>8</mn></mrow></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>2</mn></mrow></math> edo <math display=\"inline\"><mrow><mi>−</mi><mn>1</mn></mrow></math>. Bitartea <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>",
-            "Funtzioaren jatorrizkoa: <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>−</mo><mn>2</mn><mi>x</mi></mrow></math>",
+            "Funtzioaren jatorrizkoa: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>−</mo><mn>2</mn><mi>x</mi></mrow></math></span>",
             "<math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>7</mn><mn>6</mn></mfrac></mrow></math>, <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>10</mn><mn>3</mn></mfrac></mrow></math>",
-            "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>2</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>10</mn><mn>3</mn></mfrac><mo>−</mo><mfrac><mn>7</mn><mn>6</mn></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>9</mn><mn>2</mn></mfrac><mo>→</mo></mrow></math> Azalera <math display=\"inline\"><mrow><mo>=</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><msup><mi>u</mi><mn>2</mn></msup></mrow></math>"
+            "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>2</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>10</mn><mn>3</mn></mfrac><mo>−</mo><mfrac><mn>7</mn><mn>6</mn></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>9</mn><mn>2</mn></mfrac><mo>→</mo></mrow></math></span> Azalera <math display=\"inline\"><mrow><mo>=</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><msup><mi>u</mi><mn>2</mn></msup></mrow></math>"
            ]
           }
          ]
@@ -11787,8 +11875,8 @@ KAPITULUAK["01mc_03integralak"] = {
             "<math display=\"inline\"><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mi>x</mi><mo>=</mo><mn>0</mn><mo>→</mo><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><mi>−</mi><mn>1</mn><mo>,</mo><msub><mi>x</mi><mn>2</mn></msub><mo>=</mo><mn>0</mn><mo>,</mo><msub><mi>x</mi><mn>3</mn></msub><mo>=</mo><mn>1</mn></mrow></math>",
             "<math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mn>4</mn></msup><mn>4</mn></mfrac><mo>−</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac></mrow></math>",
             "<math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math>, <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math>",
-            "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>0</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>1</mn><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>→</mo></mrow></math> Azalera <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math>",
-            "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>−</mo><mn>0</mn><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>→</mo></mrow></math> Azalera <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math>",
+            "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>0</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>1</mn><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>→</mo></mrow></math></span> Azalera <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math>",
+            "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>−</mo><mn>0</mn><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>→</mo></mrow></math></span> Azalera <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math>",
             "Azalera osoa: <math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>u</mi><mn>2</mn></msup></mrow></math>"
            ]
           }
@@ -11842,11 +11930,11 @@ KAPITULUAK["01mc_03integralak"] = {
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>7</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>7</mn><mi>x</mi><mo>+</mo><mi>k</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>7</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>7</mn><mi>x</mi><mo>+</mo><mi>k</mi></mrow></math>"
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>125</mn><mo>−</mo><mn>2</mn><mo>⋅</mo><mn>25</mn><mo>+</mo><mn>7</mn><mo>⋅</mo><mn>5</mn><mo>+</mo><mi>k</mi><mo>=</mo><mi>−</mi><mn>8</mn><mo>→</mo><mn>110</mn><mo>+</mo><mi>k</mi><mo>=</mo><mi>−</mi><mn>8</mn><mo>→</mo><mi>k</mi><mo>=</mo><mi>−</mi><mn>118</mn></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>125</mn><mo>−</mo><mn>2</mn><mo>⋅</mo><mn>25</mn><mo>+</mo><mn>7</mn><mo>⋅</mo><mn>5</mn><mo>+</mo><mi>k</mi><mo>=</mo><mi>−</mi><mn>8</mn><mo>→</mo><mn>110</mn><mo>+</mo><mi>k</mi><mo>=</mo><mi>−</mi><mn>8</mn><mo>→</mo><mi>k</mi><mo>=</mo><mi>−</mi><mn>118</mn></mrow></math>"
       },
       {
        "mota": "testua",
@@ -11858,7 +11946,7 @@ KAPITULUAK["01mc_03integralak"] = {
       },
       {
        "mota": "testua",
-       "html": "Hau badakigunez, <math display=\"inline\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>e</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><mi>e</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mi>t</mi><mo>+</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>t</mi><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>t</mi><mo>+</mo><msub><mi>e</mi><mn>0</mn></msub></mrow></math>"
+       "html": "Hau badakigunez, <math display=\"inline\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>e</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><mi>e</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mi>t</mi><mo>+</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>t</mi><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>t</mi><mo>+</mo><msub><mi>e</mi><mn>0</mn></msub></mrow></math></span>"
       },
       {
        "mota": "testua",
@@ -11874,7 +11962,7 @@ KAPITULUAK["01mc_03integralak"] = {
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mn>4</mn><mi>d</mi><mi>t</mi><mo>=</mo><mn>4</mn><mi>t</mi><mo>+</mo><msub><mi>k</mi><mn>1</mn></msub></mrow></math>;    <math display=\"inline\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>4</mn><mo>⋅</mo><mn>3</mn><mo>+</mo><msub><mi>k</mi><mn>1</mn></msub><mo>=</mo><mn>8</mn><mo>→</mo><msub><mi>k</mi><mn>1</mn></msub><mo>=</mo><mi>−</mi><mn>4</mn></mrow></math>;    <math display=\"inline\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>4</mn><mi>t</mi><mo>−</mo><mn>4</mn></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mn>4</mn><mi>d</mi><mi>t</mi><mo>=</mo><mn>4</mn><mi>t</mi><mo>+</mo><msub><mi>k</mi><mn>1</mn></msub></mrow></math>;    <math display=\"inline\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>4</mn><mo>⋅</mo><mn>3</mn><mo>+</mo><msub><mi>k</mi><mn>1</mn></msub><mo>=</mo><mn>8</mn><mo>→</mo><msub><mi>k</mi><mn>1</mn></msub><mo>=</mo><mi>−</mi><mn>4</mn></mrow></math>;    <math display=\"inline\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>4</mn><mi>t</mi><mo>−</mo><mn>4</mn></mrow></math>"
       },
       {
        "mota": "testua",
@@ -11882,7 +11970,7 @@ KAPITULUAK["01mc_03integralak"] = {
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>e</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mi>t</mi><mo>−</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>t</mi><mo>=</mo><mn>2</mn><msup><mi>t</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>t</mi><mo>+</mo><msub><mi>k</mi><mn>2</mn></msub></mrow></math>;    <math display=\"inline\"><mrow><mi>e</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn><mo>⋅</mo><mn>25</mn><mo>−</mo><mn>4</mn><mo>⋅</mo><mn>5</mn><mo>+</mo><msub><mi>k</mi><mn>2</mn></msub><mo>=</mo><mn>55</mn><mo>→</mo><msub><mi>k</mi><mn>2</mn></msub><mo>=</mo><mn>25</mn></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>e</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mi>t</mi><mo>−</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>t</mi><mo>=</mo><mn>2</mn><msup><mi>t</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>t</mi><mo>+</mo><msub><mi>k</mi><mn>2</mn></msub></mrow></math>;    <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>e</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>2</mn><mo>⋅</mo><mn>25</mn><mo>−</mo><mn>4</mn><mo>⋅</mo><mn>5</mn><mo>+</mo><msub><mi>k</mi><mn>2</mn></msub><mo>=</mo><mn>55</mn><mo>→</mo><msub><mi>k</mi><mn>2</mn></msub><mo>=</mo><mn>25</mn></mrow></math></span>"
       },
       {
        "mota": "testua",
@@ -11950,7 +12038,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>7</mn><mn>3</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>7</mn><mn>3</mn></mfrac><mo>⋅</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><mn>2</mn><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mi>k</mi><mo>=</mo><mfrac><mrow><mn>7</mn><msup><mi>x</mi><mn>3</mn></msup></mrow><mn>9</mn></mfrac><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mi>k</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>7</mn><mn>3</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>7</mn><mn>3</mn></mfrac><mo>⋅</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><mn>2</mn><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mi>k</mi><mo>=</mo><mfrac><mrow><mn>7</mn><msup><mi>x</mi><mn>3</mn></msup></mrow><mn>9</mn></mfrac><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mi>k</mi></mrow></math>"
       }
      ]
     },
@@ -11961,7 +12049,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>3</mn></msup></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mo>∫</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi><mo>−</mo><mo>∫</mo><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mo>∫</mo><msup><mi>x</mi><mrow><mi>−</mi><mn>2</mn></mrow></msup><mi>d</mi><mi>x</mi><mo>−</mo><mo>∫</mo><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup><mrow><mi>−</mi><mn>1</mn></mrow></mfrac><mo>−</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mi>k</mi><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>−</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mi>k</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>3</mn></msup></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mo>∫</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi><mo>−</mo><mo>∫</mo><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mo>∫</mo><msup><mi>x</mi><mrow><mi>−</mi><mn>2</mn></mrow></msup><mi>d</mi><mi>x</mi><mo>−</mo><mo>∫</mo><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup><mrow><mi>−</mi><mn>1</mn></mrow></mfrac><mo>−</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mi>k</mi><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>−</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mi>k</mi></mrow></math>"
       }
      ]
     },
@@ -11972,11 +12060,11 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mn>2</mn><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><msqrt><mi>x</mi></msqrt></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>2</mn><msqrt><mi>x</mi></msqrt></mfrac><mo>+</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><msqrt><mi>x</mi></msqrt></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mn>2</mn><mo>∫</mo><msup><mi>x</mi><mrow><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></msup><mi>d</mi><mi>x</mi><mo>+</mo><mn>3</mn><mo>∫</mo><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup><mi>d</mi><mi>x</mi><mo>=</mo><mn>2</mn><mo>⋅</mo><mfrac><msup><mi>x</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mfrac><mn>1</mn><mn>2</mn></mfrac></mfrac><mo>+</mo><mn>3</mn><mo>⋅</mo><mfrac><msup><mi>x</mi><mfrac><mn>5</mn><mn>2</mn></mfrac></msup><mfrac><mn>5</mn><mn>2</mn></mfrac></mfrac><mo>+</mo><mi>k</mi><mo>=</mo></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mn>2</mn><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><msqrt><mi>x</mi></msqrt></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>2</mn><msqrt><mi>x</mi></msqrt></mfrac><mo>+</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><msqrt><mi>x</mi></msqrt></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mn>2</mn><mo>∫</mo><msup><mi>x</mi><mrow><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></msup><mi>d</mi><mi>x</mi><mo>+</mo><mn>3</mn><mo>∫</mo><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup><mi>d</mi><mi>x</mi><mo>=</mo><mn>2</mn><mo>⋅</mo><mfrac><msup><mi>x</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mfrac><mn>1</mn><mn>2</mn></mfrac></mfrac><mo>+</mo><mn>3</mn><mo>⋅</mo><mfrac><msup><mi>x</mi><mfrac><mn>5</mn><mn>2</mn></mfrac></msup><mfrac><mn>5</mn><mn>2</mn></mfrac></mfrac><mo>+</mo><mi>k</mi><mo>=</mo></mrow></math>"
       },
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>=</mo><mn>4</mn><msqrt><mi>x</mi></msqrt><mo>+</mo><mfrac><mn>6</mn><mn>5</mn></mfrac><msqrt><msup><mi>x</mi><mn>5</mn></msup></msqrt><mo>+</mo><mi>k</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>=</mo><mn>4</mn><msqrt><mi>x</mi></msqrt><mo>+</mo><mfrac><mn>6</mn><mn>5</mn></mfrac><msqrt><msup><mi>x</mi><mn>5</mn></msup></msqrt><mo>+</mo><mi>k</mi></mrow></math>"
       }
      ]
     },
@@ -11987,7 +12075,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mo>∫</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow><mn>2</mn></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>3</mn><mfrac><msup><mi>x</mi><mn>4</mn></msup><mn>4</mn></mfrac><mo>−</mo><mfrac><mrow><mn>5</mn><msup><mi>x</mi><mn>3</mn></msup></mrow><mn>3</mn></mfrac><mo>−</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>+</mo><mn>5</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mi>k</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mo>∫</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow><mn>2</mn></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>3</mn><mfrac><msup><mi>x</mi><mn>4</mn></msup><mn>4</mn></mfrac><mo>−</mo><mfrac><mrow><mn>5</mn><msup><mi>x</mi><mn>3</mn></msup></mrow><mn>3</mn></mfrac><mo>−</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>+</mo><mn>5</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mi>k</mi></mrow></math>"
       }
      ]
     },
@@ -11998,7 +12086,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mn>3</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>7</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>7</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>5</mn></msup></mrow><mn>5</mn></mfrac><mo>+</mo><mi>k</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mn>3</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>7</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>7</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>5</mn></msup></mrow><mn>5</mn></mfrac><mo>+</mo><mi>k</mi></mrow></math>"
       }
      ]
     },
@@ -12009,7 +12097,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msqrt><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>∫</mo><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>⋅</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></msup></mrow><mfrac><mn>3</mn><mn>2</mn></mfrac></mfrac><mo>+</mo><mi>k</mi><mo>=</mo><mfrac><msqrt><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup></mrow></msqrt><mn>3</mn></mfrac><mo>+</mo><mi>k</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msqrt><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>∫</mo><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>⋅</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></msup></mrow><mfrac><mn>3</mn><mn>2</mn></mfrac></mfrac><mo>+</mo><mi>k</mi><mo>=</mo><mfrac><msqrt><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup></mrow></msqrt><mn>3</mn></mfrac><mo>+</mo><mi>k</mi></mrow></math>"
       }
      ]
     },
@@ -12020,7 +12108,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>3</mn><mo>−</mo><mn>5</mn><mi>x</mi></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>5</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>3</mn><mo>−</mo><mn>5</mn><mi>x</mi></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>⋅</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>3</mn><mo>−</mo><mn>5</mn><mi>x</mi></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>4</mn></msup><mo>+</mo><mi>k</mi><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>10</mn></mfrac><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>3</mn><mo>−</mo><mn>5</mn><mi>x</mi></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>4</mn></msup><mo>+</mo><mi>k</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>3</mn><mo>−</mo><mn>5</mn><mi>x</mi></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>5</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>3</mn><mo>−</mo><mn>5</mn><mi>x</mi></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>⋅</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>3</mn><mo>−</mo><mn>5</mn><mi>x</mi></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>4</mn></msup><mo>+</mo><mi>k</mi><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>10</mn></mfrac><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>3</mn><mo>−</mo><mn>5</mn><mi>x</mi></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>4</mn></msup><mo>+</mo><mi>k</mi></mrow></math>"
       }
      ]
     },
@@ -12031,7 +12119,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mroot><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow><mn>3</mn></mroot></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></msup></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi>−</mi><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></msup><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></msup></mrow><mfrac><mn>1</mn><mn>3</mn></mfrac></mfrac><mo>+</mo><mi>k</mi><mo>=</mo><mn>3</mn><mroot><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow><mn>3</mn></mroot><mo>+</mo><mi>k</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mroot><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow><mn>3</mn></mroot></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mo>∫</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></msup></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi>−</mi><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></msup><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></msup></mrow><mfrac><mn>1</mn><mn>3</mn></mfrac></mfrac><mo>+</mo><mi>k</mi><mo>=</mo><mn>3</mn><mroot><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow><mn>3</mn></mroot><mo>+</mo><mi>k</mi></mrow></math>"
       }
      ]
     },
@@ -12064,7 +12152,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mo>∫</mo><mi>−</mi><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mo>+</mo><mi>k</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mo>∫</mo><mi>−</mi><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mo>+</mo><mi>k</mi></mrow></math>"
       }
      ]
     },
@@ -12075,7 +12163,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mi>e</mi><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow></msup><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>∫</mo><mn>3</mn><msup><mi>e</mi><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow></msup><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><msup><mi>e</mi><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow></msup><mo>+</mo><mi>k</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mi>e</mi><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow></msup><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>∫</mo><mn>3</mn><msup><mi>e</mi><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow></msup><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><msup><mi>e</mi><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow></msup><mo>+</mo><mi>k</mi></mrow></math>"
       }
      ]
     },
@@ -12086,7 +12174,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><msup><mi>e</mi><mfrac><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow><mn>2</mn></mfrac></msup><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mn>2</mn><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>e</mi><mfrac><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow><mn>2</mn></mfrac></msup><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mn>2</mn><msup><mi>e</mi><mfrac><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow><mn>2</mn></mfrac></msup><mo>+</mo><mi>k</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><msup><mi>e</mi><mfrac><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow><mn>2</mn></mfrac></msup><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mn>2</mn><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>e</mi><mfrac><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow><mn>2</mn></mfrac></msup><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mn>2</mn><msup><mi>e</mi><mfrac><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow><mn>2</mn></mfrac></msup><mo>+</mo><mi>k</mi></mrow></math>"
       }
      ]
     },
@@ -12106,7 +12194,7 @@ KAPITULUAK["01mc_03integralak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mi>a</mi><mrow><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>+</mi><mi>k</mi></mrow></math> dela jakinik, ebatzi ondoko kasuak:"
+         "html": "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mfrac><mi>a</mi><mrow><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>+</mi><mi>k</mi></mrow></math></span> dela jakinik, ebatzi ondoko kasuak:"
         }
        ]
       }
@@ -12125,7 +12213,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>∫</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>+</mi><mi>k</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>∫</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>+</mi><mi>k</mi></mrow></math>"
           }
          ]
         }
@@ -12140,7 +12228,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>+</mi><mi>k</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>+</mi><mi>k</mi></mrow></math>"
           }
          ]
         }
@@ -12155,7 +12243,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mn>7</mn><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>7</mn><mn>2</mn></mfrac><mo>∫</mo><mfrac><mn>2</mn><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>7</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>+</mi><mi>k</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mn>7</mn><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>7</mn><mn>2</mn></mfrac><mo>∫</mo><mfrac><mn>2</mn><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>7</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>+</mi><mi>k</mi></mrow></math>"
           }
          ]
         }
@@ -12170,7 +12258,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac><mi>d</mi><mi>x</mi><mover><mo>=</mo><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>*</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mover><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo>−</mo><mfrac><mn>7</mn><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>7</mn><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>+</mi><mi>k</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac><mi>d</mi><mi>x</mi><mover><mo>=</mo><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>*</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mover><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo>−</mo><mfrac><mn>7</mn><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>7</mn><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>+</mi><mi>k</mi></mrow></math>"
           }
          ]
         }
@@ -12203,7 +12291,7 @@ KAPITULUAK["01mc_03integralak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mrow><mo>∫</mo><mi>a</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>k</mi></mrow></math> ;    <math display=\"inline\"><mrow><mo>∫</mo><mi>a</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>k</mi></mrow></math>"
+         "html": "<math display=\"block\"><mrow><mo>∫</mo><mi>a</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>k</mi></mrow></math> ;    <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mi>a</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>k</mi></mrow></math></span>"
         }
        ]
       }
@@ -12216,7 +12304,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>∫</mo><mn>3</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>3</mn></mfrac><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn><mi>x</mi><mo>+</mo><mi>k</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>∫</mo><mn>3</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>3</mn></mfrac><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn><mi>x</mi><mo>+</mo><mi>k</mi></mrow></math>"
       }
      ]
     },
@@ -12227,7 +12315,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>∫</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>k</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>∫</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>k</mi></mrow></math>"
       }
      ]
     },
@@ -12238,7 +12326,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi mathvariant=\"normal\">cos</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>∫</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>x</mi><mo>−</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>k</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi mathvariant=\"normal\">cos</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>∫</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>x</mi><mo>−</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>k</mi></mrow></math>"
       }
      ]
     },
@@ -12249,7 +12337,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mi mathvariant=\"normal\">sin</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>k</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mi mathvariant=\"normal\">sin</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>k</mi></mrow></math>"
       }
      ]
     },
@@ -12281,7 +12369,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mi>g</mi></math> funtzioak ondokoa egiaztatu behar du: <math display=\"inline\"><mrow><msup><mi>g</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>"
+     "html": "<math display=\"block\"><mi>g</mi></math> funtzioak ondokoa egiaztatu behar du: <math display=\"inline\"><mrow><msup><mi>g</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>"
     },
     {
      "mota": "testua",
@@ -12337,15 +12425,15 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><msup><mi>f</mi><mo>″</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mo>∫</mo><mn>3</mn><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>+</mo><msub><mi>c</mi><mn>1</mn></msub><mo>→</mo><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>c</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn></mrow></math>"
+     "html": "<math display=\"block\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><msup><mi>f</mi><mo>″</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mo>∫</mo><mn>3</mn><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>+</mo><msub><mi>c</mi><mn>1</mn></msub><mo>→</mo><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>c</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn></mrow></math>"
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>2</mn></mfrac><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><msub><mi>c</mi><mn>2</mn></msub></mrow></math>"
+     "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>+</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>2</mn></mfrac><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><msub><mi>c</mi><mn>2</mn></msub></mrow></math>"
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>c</mi><mn>2</mn></msub><mo>=</mo><mn>1</mn><mo>→</mo></mrow></math>  <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>2</mn></mfrac><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>"
+     "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>c</mi><mn>2</mn></msub><mo>=</mo><mn>1</mn><mo>→</mo></mrow></math>  <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>2</mn></mfrac><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>"
     },
     {
      "mota": "sarea",
@@ -12375,7 +12463,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>−</mo><mn>2</mn></mrow></math> funtzioaren jatorrizko bat kalkulatuko dugu: <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>+</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>−</mo><mn>2</mn><mi>x</mi></mrow></math>"
+     "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>−</mo><mn>2</mn></mrow></math> funtzioaren jatorrizko bat kalkulatuko dugu: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>+</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>−</mo><mn>2</mn><mi>x</mi></mrow></math></span>"
     },
     {
      "mota": "testua",
@@ -12383,7 +12471,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>4</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>64</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>16</mn><mn>2</mn></mfrac><mo>−</mo><mn>2</mn><mo>⋅</mo><mn>4</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup></mrow><mn>3</mn></mfrac><mo>+</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>−</mo><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mn>64</mn><mn>3</mn></mfrac><mo>−</mo><mfrac><mn>13</mn><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>115</mn><mn>6</mn></mfrac></mrow></math>"
+     "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>4</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>64</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>16</mn><mn>2</mn></mfrac><mo>−</mo><mn>2</mn><mo>⋅</mo><mn>4</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup></mrow><mn>3</mn></mfrac><mo>+</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>−</mo><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mn>64</mn><mn>3</mn></mfrac><mo>−</mo><mfrac><mn>13</mn><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>115</mn><mn>6</mn></mfrac></mrow></math>"
     },
     {
      "mota": "sarea",
@@ -12427,11 +12515,11 @@ KAPITULUAK["01mc_03integralak"] = {
         },
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>1</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>+</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>−</mo><mn>2</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi>−</mi><mn>1</mn></mrow><mn>1</mn></msubsup><mo>=</mo><mi>−</mi><mfrac><mn>7</mn><mn>6</mn></mfrac><mo>−</mo><mfrac><mn>13</mn><mn>6</mn></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>10</mn><mn>3</mn></mfrac></mrow></math>"
+         "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>1</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>+</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>−</mo><mn>2</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi>−</mi><mn>1</mn></mrow><mn>1</mn></msubsup><mo>=</mo><mi>−</mi><mfrac><mn>7</mn><mn>6</mn></mfrac><mo>−</mo><mfrac><mn>13</mn><mn>6</mn></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>10</mn><mn>3</mn></mfrac></mrow></math>"
         },
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>4</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>+</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>−</mo><mn>2</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mn>1</mn><mn>4</mn></msubsup><mo>=</mo><mfrac><mn>64</mn><mn>3</mn></mfrac><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>7</mn><mn>6</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mn>135</mn><mn>6</mn></mfrac></mrow></math>"
+         "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>4</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>+</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>−</mo><mn>2</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mn>1</mn><mn>4</mn></msubsup><mo>=</mo><mfrac><mn>64</mn><mn>3</mn></mfrac><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>7</mn><mn>6</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mn>135</mn><mn>6</mn></mfrac></mrow></math>"
         },
         {
          "mota": "testua",
@@ -12491,7 +12579,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "③ Funtzio honen jatorrizkoa kalkulatuko dugu: <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mn>4</mn></msup><mn>4</mn></mfrac><mo>−</mo><mfrac><mrow><mn>5</mn><msup><mi>x</mi><mn>3</mn></msup></mrow><mn>3</mn></mfrac><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math>"
+     "html": "③ Funtzio honen jatorrizkoa kalkulatuko dugu: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mn>4</mn></msup><mn>4</mn></mfrac><mo>−</mo><mfrac><mrow><mn>5</mn><msup><mi>x</mi><mn>3</mn></msup></mrow><mn>3</mn></mfrac><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math></span>"
     },
     {
      "mota": "testua",
@@ -12499,7 +12587,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>19</mn><mn>12</mn></mfrac></mrow></math>     <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></mrow></math>     <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac></mrow></math>     <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>275</mn><mn>12</mn></mfrac></mrow></math>"
+     "html": "<math display=\"block\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>19</mn><mn>12</mn></mfrac></mrow></math>     <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></mrow></math>     <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac></mrow></math>     <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>275</mn><mn>12</mn></mfrac></mrow></math>"
     },
     {
      "mota": "testua",
@@ -12507,15 +12595,15 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>2</mn></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><mo>−</mo><mfrac><mn>19</mn><mn>12</mn></mfrac><mo>=</mo><mfrac><mn>13</mn><mn>12</mn></mfrac></mrow></math>     <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>2</mn><mn>3</mn></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><mo>−</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>5</mn><mn>12</mn></mfrac></mrow></math>"
+     "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>2</mn></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><mo>−</mo><mfrac><mn>19</mn><mn>12</mn></mfrac><mo>=</mo><mfrac><mn>13</mn><mn>12</mn></mfrac></mrow></math>     <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>2</mn><mn>3</mn></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><mo>−</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>5</mn><mn>12</mn></mfrac></mrow></math></span>"
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>3</mn><mn>5</mn></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>275</mn><mn>12</mn></mfrac><mo>−</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><mo>=</mo><mfrac><mn>248</mn><mn>12</mn></mfrac></mrow></math>"
+     "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>3</mn><mn>5</mn></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>275</mn><mn>12</mn></mfrac><mo>−</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><mo>=</mo><mfrac><mn>248</mn><mn>12</mn></mfrac></mrow></math>"
     },
     {
      "mota": "testua",
-     "html": "Bila gabiltzan azalera hau da: <math display=\"inline\"><mrow><mfrac><mn>13</mn><mn>12</mn></mfrac><mo>+</mo><mfrac><mn>5</mn><mn>12</mn></mfrac><mo>+</mo><mfrac><mn>248</mn><mn>12</mn></mfrac><mo>=</mo><mfrac><mn>266</mn><mn>12</mn></mfrac><mo>≈</mo><mn>22</mn><mo>,</mo><mn>16</mn><msup><mi>u</mi><mn>2</mn></msup></mrow></math>"
+     "html": "Bila gabiltzan azalera hau da: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mfrac><mn>13</mn><mn>12</mn></mfrac><mo>+</mo><mfrac><mn>5</mn><mn>12</mn></mfrac><mo>+</mo><mfrac><mn>248</mn><mn>12</mn></mfrac><mo>=</mo><mfrac><mn>266</mn><mn>12</mn></mfrac><mo>≈</mo><mn>22</mn><mo>,</mo><mn>16</mn><msup><mi>u</mi><mn>2</mn></msup></mrow></math></span>"
     },
     {
      "mota": "sarea",
@@ -12563,19 +12651,19 @@ KAPITULUAK["01mc_03integralak"] = {
         },
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><msup><mi>x</mi><mn>4</mn></msup><mn>4</mn></mfrac><mo>−</mo><mfrac><mrow><mn>5</mn><msup><mi>x</mi><mn>3</mn></msup></mrow><mn>3</mn></mfrac><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math>"
+         "html": "<math display=\"block\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><msup><mi>x</mi><mn>4</mn></msup><mn>4</mn></mfrac><mo>−</mo><mfrac><mrow><mn>5</mn><msup><mi>x</mi><mn>3</mn></msup></mrow><mn>3</mn></mfrac><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math>"
         },
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>     <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></mrow></math>     <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac></mrow></math>"
+         "html": "<math display=\"block\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math>     <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></mrow></math>     <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac></mrow></math>"
         },
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>2</mn></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></mrow></math>"
+         "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>2</mn></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></mrow></math>"
         },
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>2</mn><mn>3</mn></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><mo>−</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>5</mn><mn>12</mn></mfrac></mrow></math>"
+         "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>2</mn><mn>3</mn></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><mo>−</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>5</mn><mn>12</mn></mfrac></mrow></math>"
         },
         {
          "mota": "testua",
@@ -12633,7 +12721,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "elementuak": [
           "Zuzenaren eta parabolaren arteko ebakitze puntuak kalkulatuko ditugu: <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>x</mi><mo>+</mo><mn>2</mn></mrow></math>, <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>4</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>→</mo><mi>x</mi><mo>=</mo><mi>−</mi><mn>2</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math>. Horiek diferentzia funtzioaren, <math display=\"inline\"><mrow><mi>D</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>4</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>, eta <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math> ardatzaren arteko ebakitze puntuak dira.",
           "Eskatzen diguten azalera eta diferentzia funtzioaren eta <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math> ardatzaren artean mugatutakoa berdinak dira.",
-          "Azalera <math display=\"inline\"><mrow><mo>=</mo><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>2</mn></mrow><mn>1</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>4</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>−</mi><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mn>2</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi>−</mi><mn>2</mn></mrow><mn>1</mn></msubsup><mo>=</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><msup><mi>u</mi><mn>2</mn></msup></mrow></math>"
+          "Azalera <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>=</mo><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>2</mn></mrow><mn>1</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>4</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>−</mi><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mn>2</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi>−</mi><mn>2</mn></mrow><mn>1</mn></msubsup><mo>=</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><msup><mi>u</mi><mn>2</mn></msup></mrow></math></span>"
          ]
         }
        ]
@@ -12682,15 +12770,15 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi></mrow></math>     <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>→</mo><mi>x</mi><mo>=</mo><mi>−</mi><mn>2</mn><mo>,</mo><mi>x</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math>"
+     "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi></mrow></math>     <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>→</mo><mi>x</mi><mo>=</mo><mi>−</mi><mn>2</mn><mo>,</mo><mi>x</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math>"
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mn>4</mn></msup><mn>4</mn></mfrac><mo>+</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math> ;    <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>8</mn><mn>3</mn></mfrac></mrow></math> ;    <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> ;    <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>5</mn><mn>12</mn></mfrac></mrow></math>"
+     "html": "<math display=\"block\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>x</mi><mn>4</mn></msup><mn>4</mn></mfrac><mo>+</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math> ;    <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>8</mn><mn>3</mn></mfrac></mrow></math> ;    <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn></mrow></math> ;    <math display=\"inline\"><mrow><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>5</mn><mn>12</mn></mfrac></mrow></math>"
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>2</mn></mrow><mn>0</mn></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>−</mo><mi>g</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></mrow></math>     <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>−</mo><mi>g</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>5</mn><mn>12</mn></mfrac></mrow></math>"
+     "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>2</mn></mrow><mn>0</mn></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>−</mo><mi>g</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></mrow></math>     <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>f</mi><mo>−</mo><mi>g</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mi>G</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>5</mn><mn>12</mn></mfrac></mrow></math></span>"
     },
     {
      "mota": "testua",
@@ -12732,10 +12820,10 @@ KAPITULUAK["01mc_03integralak"] = {
          "mota": "zerrenda",
          "ordenatua": false,
          "elementuak": [
-          "Tangentearen ekuazioa koordenatuen jatorrian: <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>→</mo><mi>m</mi><mo>=</mo><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn><mo>→</mo></mrow></math>  <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>x</mi></mrow></math>",
+          "Tangentearen ekuazioa koordenatuen jatorrian: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>→</mo><mi>m</mi><mo>=</mo><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>1</mn><mo>→</mo></mrow></math></span>  <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>x</mi></mrow></math>",
           "Zuzen eta kurba arteko ebakitze puntuak: <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi></mrow></math>, <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>x</mi><mo>→</mo><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>, <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>",
           "Eskatzen diguten azalera diferentzia funtzioaren eta <math display=\"inline\"><mi>X</mi></math> ardatzaren artekoa da (diferentzia funtzioak <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math> ardatzarekin dituzten ebakitze puntuak eta zuzenak eta kurbak dituzten ebakitze puntuak berdinak dira).",
-          "<math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mn>2</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>x</mi><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>−</mi><mfrac><msup><mi>x</mi><mn>4</mn></msup><mn>4</mn></mfrac><mo>+</mo><mfrac><mrow><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup></mrow><mn>3</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mn>0</mn><mn>2</mn></msubsup><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><msup><mi>u</mi><mn>2</mn></msup></mrow></math>"
+          "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mn>2</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>x</mi><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>−</mi><mfrac><msup><mi>x</mi><mn>4</mn></msup><mn>4</mn></mfrac><mo>+</mo><mfrac><mrow><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup></mrow><mn>3</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mn>0</mn><mn>2</mn></msubsup><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><msup><mi>u</mi><mn>2</mn></msup></mrow></math></span>"
          ]
         }
        ]
@@ -12789,10 +12877,10 @@ KAPITULUAK["01mc_03integralak"] = {
          "ordenatua": false,
          "elementuak": [
           "Ebakitze puntuak abzisa ardatzarekin: <math display=\"inline\"><mrow><mn>4</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>0</mn><mo>→</mo><mi>x</mi><mo>=</mo><mn>2</mn><mo>→</mo><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>; <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><mi>x</mi><mo>=</mo><mi>−</mi><mn>2</mn><mo>→</mo><mi>Q</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>",
-          "Tangente ekuazioak puntu horietan: <math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mn>2</mn><mi>x</mi><mo>→</mo><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mn>4</mn><mo>→</mo><mi>y</mi><mo>=</mo><mi>−</mi><mn>4</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>  (tangente <math display=\"inline\"><mi>P</mi></math> puntuan); <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>4</mn><mo>→</mo><mi>y</mi><mo>=</mo><mn>4</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>  (tangente <math display=\"inline\"><mi>Q</mi></math> puntuan)",
+          "Tangente ekuazioak puntu horietan: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mn>2</mn><mi>x</mi><mo>→</mo><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mn>4</mn><mo>→</mo><mi>y</mi><mo>=</mo><mi>−</mi><mn>4</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>  (tangente <math display=\"inline\"><mi>P</mi></math> puntuan); <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><msup><mi>f</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>4</mn><mo>→</mo><mi>y</mi><mo>=</mo><mn>4</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>  (tangente <math display=\"inline\"><mi>Q</mi></math> puntuan)",
           "<math display=\"inline\"><mrow><mi>P</mi><mi>R</mi><mi>Q</mi></mrow></math> barrutia simetrikoa da <math display=\"inline\"><mrow><mi>O</mi><mi>Y</mi></mrow></math> ardatzaren inguruan.",
           "Tangente eta kurba arteko azalera kalkulatuko dugu <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>  artean:",
-          "<math display=\"inline\"><mrow><msub><mi>A</mi><mn>1</mn></msub><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mn>2</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>4</mn><mi>x</mi><mo>+</mo><mn>8</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>4</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mn>0</mn><mn>2</mn></msubsup><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><msup><mi>u</mi><mn>2</mn></msup></mrow></math>",
+          "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>A</mi><mn>1</mn></msub><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mn>2</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>4</mn><mi>x</mi><mo>+</mo><mn>8</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>4</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mn>0</mn><mn>2</mn></msubsup><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><msup><mi>u</mi><mn>2</mn></msup></mrow></math></span>",
           "<math display=\"inline\"><mrow><mi>P</mi><mi>R</mi><mi>Q</mi></mrow></math> barrutiaren azalera <math display=\"inline\"><mrow><mo>=</mo><mn>2</mn><mo>⋅</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>16</mn><mn>3</mn></mfrac><msup><mi>u</mi><mn>2</mn></msup></mrow></math>"
          ]
         }
@@ -12844,7 +12932,7 @@ KAPITULUAK["01mc_03integralak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mi>A</mi></math> puntua lortuko dugu: <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>y</mi><mo>=</mo><mn>5</mn><mo>−</mo><mi>x</mi></mtd></mtr></mtable></mrow><mo>→</mo><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>"
+         "html": "<math display=\"block\"><mi>A</mi></math> puntua lortuko dugu: <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mi>y</mi><mo>=</mo><mn>5</mn><mo>−</mo><mi>x</mi></mtd></mtr></mtable></mrow><mo>→</mo><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>"
         },
         {
          "mota": "testua",
@@ -12856,15 +12944,15 @@ KAPITULUAK["01mc_03integralak"] = {
         },
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mrow><msub><mi>R</mi><mn>1</mn></msub><mo>=</mo><msubsup><mo>∫</mo><mn>1</mn><mn>2</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mn>1</mn><mn>2</mn></msubsup><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>2</mn><mn>3</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><msup><mi>u</mi><mn>2</mn></msup></mrow></math>"
+         "html": "<math display=\"block\"><mrow><msub><mi>R</mi><mn>1</mn></msub><mo>=</mo><msubsup><mo>∫</mo><mn>1</mn><mn>2</mn></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mn>1</mn><mn>2</mn></msubsup><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>2</mn><mn>3</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><msup><mi>u</mi><mn>2</mn></msup></mrow></math>"
         },
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mrow><msub><mi>R</mi><mn>2</mn></msub><mo>=</mo><msubsup><mo>∫</mo><mn>2</mn><mn>5</mn></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>5</mn><mi>x</mi><mo>−</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mn>2</mn><mn>5</mn></msubsup><mo>=</mo><mfrac><mn>25</mn><mn>2</mn></mfrac><mo>−</mo><mn>8</mn><mo>=</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><msup><mi>u</mi><mn>2</mn></msup></mrow></math>. (3ko balioa duten katetodun triangelu zuzena da)"
+         "html": "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>R</mi><mn>2</mn></msub><mo>=</mo><msubsup><mo>∫</mo><mn>2</mn><mn>5</mn></msubsup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>5</mn><mo>−</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>5</mn><mi>x</mi><mo>−</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mn>2</mn><mn>5</mn></msubsup><mo>=</mo><mfrac><mn>25</mn><mn>2</mn></mfrac><mo>−</mo><mn>8</mn><mo>=</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><msup><mi>u</mi><mn>2</mn></msup></mrow></math></span>. (3ko balioa duten katetodun triangelu zuzena da)"
         },
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mi>B</mi><mi>C</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> azalera <math display=\"inline\"><mrow><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>35</mn><mn>6</mn></mfrac><msup><mi>u</mi><mn>2</mn></msup></mrow></math>"
+         "html": "<math display=\"block\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>A</mi><mi>B</mi><mi>C</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> azalera <math display=\"inline\"><mrow><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>35</mn><mn>6</mn></mfrac><msup><mi>u</mi><mn>2</mn></msup></mrow></math>"
         }
        ]
       },
@@ -12922,7 +13010,7 @@ KAPITULUAK["01mc_03integralak"] = {
         },
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><msqrt><mi>a</mi></msqrt></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>a</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>a</mi><mi>x</mi><mo>−</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mn>0</mn><msqrt><mi>a</mi></msqrt></msubsup><mo>=</mo><mi>a</mi><msqrt><mi>a</mi></msqrt><mo>−</mo><mfrac><msqrt><msup><mi>a</mi><mn>3</mn></msup></msqrt><mn>3</mn></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><msqrt><msup><mi>a</mi><mn>3</mn></msup></msqrt></mrow><mn>3</mn></mfrac><mo>→</mo><msqrt><msup><mi>a</mi><mn>3</mn></msup></msqrt><mo>=</mo><mn>8</mn><mo>→</mo></mrow></math>  <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mn>4</mn></mrow></math>"
+         "html": "<math display=\"block\"><mrow><mi>A</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><msqrt><mi>a</mi></msqrt></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>a</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>a</mi><mi>x</mi><mo>−</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mn>0</mn><msqrt><mi>a</mi></msqrt></msubsup><mo>=</mo><mi>a</mi><msqrt><mi>a</mi></msqrt><mo>−</mo><mfrac><msqrt><msup><mi>a</mi><mn>3</mn></msup></msqrt><mn>3</mn></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><msqrt><msup><mi>a</mi><mn>3</mn></msup></msqrt></mrow><mn>3</mn></mfrac><mo>→</mo><msqrt><msup><mi>a</mi><mn>3</mn></msup></msqrt><mo>=</mo><mn>8</mn><mo>→</mo></mrow></math>  <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mn>4</mn></mrow></math>"
         }
        ]
       },
@@ -13000,7 +13088,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "Adibidez, <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math>-ren luzera <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-n: <math display=\"inline\"><mrow><mi>L</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><msqrt><mrow><mn>1</mn><mo>+</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>x</mi><mo>=</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> arcsinh</mtext></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mn>4</mn><mo>+</mo><msqrt><mn>5</mn></msqrt><mi>/</mi><mn>2</mn><mo>≈</mo><mn>1.479</mn></mrow></math>."
+     "html": "Adibidez, <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math>-ren luzera <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-n: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>L</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><msqrt><mrow><mn>1</mn><mo>+</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>x</mi><mo>=</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> arcsinh</mtext></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mn>4</mn><mo>+</mo><msqrt><mn>5</mn></msqrt><mi>/</mi><mn>2</mn><mo>≈</mo><mn>1.479</mn></mrow></math></span>."
     },
     {
      "mota": "oharra",
@@ -13008,7 +13096,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0058</code>, 114-115 orriak; &quot;CÁLCULO NEWTON&quot;, 2013/2/22; <code>IMG_2026_07_28_02_33_09S.jpg</code>). <strong>Deribatu habiratua</strong> (<math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>G</mi><mo>−</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>G</mi><mo>⋅</mo><mn>2</mn><mi>x</mi><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><msup><mi>x</mi><mn>6</mn></msup></mrow></msqrt></mrow></math>) eta <strong>gai berria: integralaren aplikazioak</strong> — <strong>azalerak</strong> (<math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>d</mi><mi>x</mi></mrow></math> edo <math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>d</mi><mi>y</mi></mrow></math>; bi kurben artean kendura) eta <strong>arku-luzera</strong> (<math display=\"inline\"><mrow><mi>d</mi><mi>l</mi><mo>=</mo><msqrt><mrow><mn>1</mn><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>y</mi><mo>′</mo></msup><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>x</mi><mo>=</mo><msqrt><mrow><msup><mi>x</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>t</mi></mrow></math>). SymPy-z egiaztatuak (<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math>-ren luzera <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-n <math display=\"inline\"><mrow><mo>=</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> arcsinh</mtext></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mn>4</mn><mo>+</mo><msqrt><mn>5</mn></msqrt><mi>/</mi><mn>2</mn></mrow></math>). Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p114_newton.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0058</code>, 114-115 orriak; &quot;CÁLCULO NEWTON&quot;, 2013/2/22; <code>IMG_2026_07_28_02_33_09S.jpg</code>). <strong>Deribatu habiratua</strong> (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mi>F</mi><mo>′</mo></msup><mo>=</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>G</mi><mo>−</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>G</mi><mo>⋅</mo><mn>2</mn><mi>x</mi><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><msup><mi>x</mi><mn>6</mn></msup></mrow></msqrt></mrow></math></span>) eta <strong>gai berria: integralaren aplikazioak</strong> — <strong>azalerak</strong> (<math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>d</mi><mi>x</mi></mrow></math> edo <math display=\"inline\"><mrow><mo>∫</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>g</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>d</mi><mi>y</mi></mrow></math>; bi kurben artean kendura) eta <strong>arku-luzera</strong> (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>d</mi><mi>l</mi><mo>=</mo><msqrt><mrow><mn>1</mn><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>y</mi><mo>′</mo></msup><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>x</mi><mo>=</mo><msqrt><mrow><msup><mi>x</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></msqrt><mi>d</mi><mi>t</mi></mrow></math></span>). SymPy-z egiaztatuak (<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math>-ren luzera <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-n <math display=\"inline\"><mrow><mo>=</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> arcsinh</mtext></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><mn>4</mn><mo>+</mo><msqrt><mn>5</mn></msqrt><mi>/</mi><mn>2</mn></mrow></math>). Zuzenketarik ez transkripzioan. Ikus <code>koadernoa_calculo1_2013_kal_p114_newton.typ</code>."
       }
      ]
     },
@@ -13054,7 +13142,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "Ebaki-puntuak: <math display=\"inline\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mi>x</mi></msup><mo>=</mo><mi>−</mi><msup><mi>x</mi><mn>3</mn></msup><msup><mi>e</mi><mi>x</mi></msup><mo>⇔</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>⇔</mo><mi>x</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>−</mi><mn>2</mn></mrow></math>. <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>2</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-n <math display=\"inline\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mi>x</mi></msup></mrow></math> dago goian (<math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math>-en <math display=\"inline\"><mrow><mn>2</mn><mi>/</mi><mi>e</mi><mo>&gt;</mo><mn>1</mn><mi>/</mi><mi>e</mi></mrow></math>), zeren <math display=\"inline\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mi>x</mi></msup><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><msup><mi>x</mi><mn>3</mn></msup><msup><mi>e</mi><mi>x</mi></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>+</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>e</mi><mi>x</mi></msup><mo>≥</mo><mn>0</mn></mrow></math>. Beraz:"
+     "html": "Ebaki-puntuak: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mi>x</mi></msup><mo>=</mo><mi>−</mi><msup><mi>x</mi><mn>3</mn></msup><msup><mi>e</mi><mi>x</mi></msup><mo>⇔</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>⇔</mo><mi>x</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>−</mi><mn>2</mn></mrow></math></span>. <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>−</mi><mn>2</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-n <math display=\"inline\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mi>x</mi></msup></mrow></math> dago goian (<math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math>-en <math display=\"inline\"><mrow><mn>2</mn><mi>/</mi><mi>e</mi><mo>&gt;</mo><mn>1</mn><mi>/</mi><mi>e</mi></mrow></math>), zeren <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mi>x</mi></msup><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><msup><mi>x</mi><mn>3</mn></msup><msup><mi>e</mi><mi>x</mi></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mo>+</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msup><mi>e</mi><mi>x</mi></msup><mo>≥</mo><mn>0</mn></mrow></math></span>. Beraz:"
     },
     {
      "mota": "kutxa",
@@ -13298,7 +13386,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0060</code>, 118-119 orriak; &quot;CÁLCULO NEWTON&quot;, 2013/2/22; <code>IMG_2026_07_28_02_33_21S.jpg</code>). <strong>Azalera (II) <math display=\"inline\"><mi>x</mi></math>-tan</strong> (<math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>4</mn></mrow></math>), <strong>zirkunferentzia polarra</strong> (<math display=\"inline\"><mrow><mi>ρ</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>→</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn></mrow></math>), <strong>azalera polarrak</strong> (kardioidea <math display=\"inline\"><mrow><mn>3</mn><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math>, zirkunferentzia <math display=\"inline\"><mi>π</mi></math>) eta <strong><math display=\"inline\"><msup><mi>e</mi><mi>x</mi></msup></math>-en arku-luzera</strong> (<math display=\"inline\"><mrow><mi>L</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup></mrow></msqrt><mi>d</mi><mi>x</mi><mo>≈</mo><mn>2.003</mn></mrow></math>). SymPy-z egiaztatuak. ⚠️ <strong>Zuzenketa mentzioarekin</strong>: iturriak arku-luzeraren goi-muga oker jartzen du (<math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mi>e</mi></mrow></math>, <math display=\"inline\"><msup><mi>e</mi><mn>2</mn></msup></math> izan behar; <math display=\"inline\"><mrow><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn><mo>+</mo><msup><mi>e</mi><mn>2</mn></msup></mrow></math>) — hemen zuzenduta. Ikus <code>koadernoa_calculo1_2013_kal_p118_newton.typ</code>."
+       "html": "Argazkitik osatua (<code>CALCULO1_ENE2013_0060</code>, 118-119 orriak; &quot;CÁLCULO NEWTON&quot;, 2013/2/22; <code>IMG_2026_07_28_02_33_21S.jpg</code>). <strong>Azalera (II) <math display=\"inline\"><mi>x</mi></math>-tan</strong> (<math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>4</mn></mrow></math>), <strong>zirkunferentzia polarra</strong> (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>ρ</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>→</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn></mrow></math></span>), <strong>azalera polarrak</strong> (kardioidea <math display=\"inline\"><mrow><mn>3</mn><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math>, zirkunferentzia <math display=\"inline\"><mi>π</mi></math>) eta <strong><math display=\"inline\"><msup><mi>e</mi><mi>x</mi></msup></math>-en arku-luzera</strong> (<math display=\"inline\"><mrow><mi>L</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup></mrow></msqrt><mi>d</mi><mi>x</mi><mo>≈</mo><mn>2.003</mn></mrow></math>). SymPy-z egiaztatuak. ⚠️ <strong>Zuzenketa mentzioarekin</strong>: iturriak arku-luzeraren goi-muga oker jartzen du (<math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mi>e</mi></mrow></math>, <math display=\"inline\"><msup><mi>e</mi><mn>2</mn></msup></math> izan behar; <math display=\"inline\"><mrow><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn><mo>+</mo><msup><mi>e</mi><mn>2</mn></msup></mrow></math>) — hemen zuzenduta. Ikus <code>koadernoa_calculo1_2013_kal_p118_newton.typ</code>."
       }
      ]
     },
@@ -14326,7 +14414,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>4</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>,</mo><mi>y</mi><mo>=</mo><mn>8</mn><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mi>y</mi><mo>=</mo><mn>4</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>,</mo><mi>y</mi><mo>=</mo><mn>8</mn><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math>"
           }
          ]
         }
@@ -14341,7 +14429,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math>, <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math>, <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math>"
           }
          ]
         }
@@ -14356,7 +14444,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>,</mo><mi>y</mi><mo>=</mo><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>,</mo><mi>y</mi><mo>=</mo><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math>"
           }
          ]
         }
@@ -14371,7 +14459,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>,</mo><mi>y</mi><mo>=</mo><mi>x</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>,</mo><mi>y</mi><mo>=</mo><mi>x</mi></mrow></math>"
           }
          ]
         }
@@ -14386,7 +14474,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mi>y</mi><mo>=</mo><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>"
           }
          ]
         }
@@ -14401,7 +14489,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>,</mo><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>,</mo><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math>"
           }
          ]
         }
@@ -14416,7 +14504,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>,</mo><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>,</mo><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup></mrow></math>"
           }
          ]
         }
@@ -14431,7 +14519,7 @@ KAPITULUAK["01mc_03integralak"] = {
          "blokeak": [
           {
            "mota": "testua",
-           "html": "<math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>,</mo><mi>y</mi><mo>=</mo><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi></mrow></math>"
+           "html": "<math display=\"block\"><mrow><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>,</mo><mi>y</mi><mo>=</mo><mi>−</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi></mrow></math>"
           }
          ]
         }
@@ -14830,7 +14918,7 @@ KAPITULUAK["01mc_03integralak"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>c</mi></msubsup><mi>f</mi></mrow></math>"
+             "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>c</mi></msubsup><mi>f</mi></mrow></math>"
             }
            ]
           }
@@ -14845,7 +14933,7 @@ KAPITULUAK["01mc_03integralak"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msubsup><mo>∫</mo><mi>a</mi><mi>c</mi></msubsup><mi>f</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></math>"
+             "html": "<math display=\"block\"><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msubsup><mo>∫</mo><mi>a</mi><mi>c</mi></msubsup><mi>f</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow></math>"
             }
            ]
           }
@@ -14860,7 +14948,7 @@ KAPITULUAK["01mc_03integralak"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo>+</mo><msubsup><mo>∫</mo><mi>b</mi><mi>c</mi></msubsup><mi>f</mi></mrow></math>"
+             "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo>+</mo><msubsup><mo>∫</mo><mi>b</mi><mi>c</mi></msubsup><mi>f</mi></mrow></math>"
             }
            ]
           }
@@ -14875,7 +14963,7 @@ KAPITULUAK["01mc_03integralak"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><mi>−</mi><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo>+</mo><msubsup><mo>∫</mo><mi>b</mi><mi>c</mi></msubsup><mi>f</mi></mrow></math>"
+             "html": "<math display=\"block\"><mrow><mi>−</mi><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>f</mi><mo>+</mo><msubsup><mo>∫</mo><mi>b</mi><mi>c</mi></msubsup><mi>f</mi></mrow></math>"
             }
            ]
           }
@@ -15095,7 +15183,7 @@ KAPITULUAK["01mc_03integralak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><msup><mi>x</mi><mrow><mi>−</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math> integralari dagokionez, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>∼</mo><mi>x</mi></mrow></math> denez, integrandoa <math display=\"inline\"><msup><mi>x</mi><mrow><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></msup></math>-ren baliokidea da eta integrala konbergentea. <math display=\"inline\"><msup><mi>x</mi><mrow><mi>−</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></msup></math> dibergenteaz goitik bornatzeak ez du ondoriorik ematen. [CORREGIDO: papereko lerro batean <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mfrac><msup><mi>x</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup></mfrac><mo>=</mo><mn>1</mn></mrow></math> ageri da; zuzena <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup></mfrac></mrow><mfrac><mn>1</mn><msup><mi>x</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup></mfrac></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mi>x</mi></mfrac><mo>=</mo><mn>1</mn></mrow></math> da.]"
+     "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><msup><mi>x</mi><mrow><mi>−</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math> integralari dagokionez, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>∼</mo><mi>x</mi></mrow></math> denez, integrandoa <math display=\"inline\"><msup><mi>x</mi><mrow><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></msup></math>-ren baliokidea da eta integrala konbergentea. <math display=\"inline\"><msup><mi>x</mi><mrow><mi>−</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></msup></math> dibergenteaz goitik bornatzeak ez du ondoriorik ematen. [CORREGIDO: papereko lerro batean <math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mfrac><msup><mi>x</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup></mfrac><mo>=</mo><mn>1</mn></mrow></math> ageri da; zuzena <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup></mfrac></mrow><mfrac><mn>1</mn><msup><mi>x</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup></mfrac></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><msup><mn>0</mn><mo>+</mo></msup></mrow></munder><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mi>x</mi></mfrac><mo>=</mo><mn>1</mn></mrow></math></span> da.]"
     },
     {
      "mota": "testua",
@@ -15174,7 +15262,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mn>1</mn><msqrt><mi>x</mi></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mn>1</mn><msqrt><mi>x</mi></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15185,7 +15273,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>2</mn></msubsup><mfrac><mn>1</mn><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mn>1</mn></mrow><mn>2</mn></msubsup><mfrac><mn>1</mn><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15196,7 +15284,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mn>1</mn><msup><mi>x</mi><mi>p</mi></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mn>1</mn><msup><mi>x</mi><mi>p</mi></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15207,7 +15295,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>3</mn></msubsup><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>3</mn></msubsup><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15218,7 +15306,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mn>1</mn><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mn>1</mn><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15229,7 +15317,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><mi>x</mi></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15240,7 +15328,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15251,7 +15339,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><msup><mi>x</mi><mi>p</mi></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><msup><mi>x</mi><mi>p</mi></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15262,7 +15350,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mi>∞</mi></mrow><mi>∞</mi></msubsup><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mi>∞</mi></mrow><mi>∞</mi></msubsup><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15273,7 +15361,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mi>∞</mi></mrow><mi>∞</mi></msubsup><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>9</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mrow><mi>−</mi><mi>∞</mi></mrow><mi>∞</mi></msubsup><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>9</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15284,7 +15372,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15295,7 +15383,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></msubsup><mfrac><mn>1</mn><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></msubsup><mfrac><mn>1</mn><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15306,7 +15394,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></msubsup><mfrac><mn>1</mn><mrow><mi>x</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">ln</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></msubsup><mfrac><mn>1</mn><mrow><mi>x</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">ln</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15317,7 +15405,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>∞</mi></msubsup><mfrac><mn>1</mn><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>&gt;</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>∞</mi></msubsup><mfrac><mn>1</mn><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>&gt;</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       }
      ]
     },
@@ -15328,7 +15416,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>∞</mi></msubsup><mfrac><mn>1</mn><mrow><mi>x</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">ln</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>&gt;</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mi>a</mi><mi>∞</mi></msubsup><mfrac><mn>1</mn><mrow><mi>x</mi><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">ln</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>&gt;</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       }
      ]
     },
@@ -15339,7 +15427,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></msubsup><mrow><mi mathvariant=\"normal\">cot</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></msubsup><mrow><mi mathvariant=\"normal\">cot</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15350,7 +15438,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><msup><mi>e</mi><mrow><mi>−</mi><mi>k</mi><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo>&gt;</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><msup><mi>e</mi><mrow><mi>−</mi><mi>k</mi><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo>&gt;</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       }
      ]
     },
@@ -15361,7 +15449,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15372,7 +15460,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>2</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>2</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15383,7 +15471,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15394,7 +15482,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15421,7 +15509,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mn>100</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></msubsup><mfrac><mn>1</mn><mrow><mroot><mi>x</mi><mn>3</mn></mroot><mo>+</mo><mn>2</mn><mroot><mi>x</mi><mn>4</mn></mroot><mo>+</mo><msup><mi>x</mi><mn>3</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mn>100</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></msubsup><mfrac><mn>1</mn><mrow><mroot><mi>x</mi><mn>3</mn></mroot><mo>+</mo><mn>2</mn><mroot><mi>x</mi><mn>4</mn></mroot><mo>+</mo><msup><mi>x</mi><mn>3</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15432,7 +15520,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><mrow><mn>2</mn><mi>x</mi><mo>+</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt><mo>+</mo><mn>5</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><mrow><mn>2</mn><mi>x</mi><mo>+</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt><mo>+</mo><mn>5</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15443,7 +15531,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mroot><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn></mrow><mn>3</mn></mroot></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mroot><mrow><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><mn>1</mn></mrow><mn>3</mn></mroot></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15454,7 +15542,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mfrac><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mfrac><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15465,7 +15553,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mn>1</mn><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>4</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mn>1</mn><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>4</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15476,7 +15564,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>2</mn></msubsup><mfrac><mn>1</mn><mi mathvariant=\"normal\">ln</mi></mfrac><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>2</mn></msubsup><mfrac><mn>1</mn><mi mathvariant=\"normal\">ln</mi></mfrac><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15487,7 +15575,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mi>∞</mi></msubsup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><msup><mi>x</mi><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mi>∞</mi></msubsup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><msup><mi>x</mi><mn>2</mn></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15531,7 +15619,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>3</mn></msubsup><msqrt><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn><mi>t</mi><mo>−</mo><mn>1</mn></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mn>3</mn></msubsup><msqrt><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></msqrt><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn><mi>t</mi><mo>−</mo><mn>1</mn></mrow></math>"
       }
      ]
     },
@@ -15542,7 +15630,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mn>1</mn></msubsup><mfrac><mn>1</mn><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>4</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mn>1</mn></msubsup><mfrac><mn>1</mn><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>4</mn></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math>"
       }
      ]
     },
@@ -15553,7 +15641,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mfrac><mn>4</mn><mn>3</mn></mfrac></msubsup><mfrac><mn>1</mn><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mfrac><mn>4</mn><mn>3</mn></mfrac></msubsup><mfrac><mn>1</mn><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math>"
       }
      ]
     },
@@ -15564,7 +15652,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></msubsup><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math>"
       }
      ]
     },
@@ -15591,7 +15679,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mi>x</mi><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mi>x</mi><msup><mi>e</mi><mrow><mi>−</mi><mi>x</mi></mrow></msup><mi>d</mi><mi>x</mi></mrow></math>"
       }
      ]
     },
@@ -15602,7 +15690,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><msup><mi>e</mi><mrow><mi>−</mi><mi>a</mi><mi>x</mi></mrow></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>&gt;</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><msup><mi>e</mi><mrow><mi>−</mi><mi>a</mi><mi>x</mi></mrow></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>&gt;</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       }
      ]
     },
@@ -15613,7 +15701,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><msup><mi>e</mi><mrow><mi>−</mi><mi>a</mi><mi>x</mi></mrow></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>&gt;</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
+       "html": "<math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><msup><mi>e</mi><mrow><mi>−</mi><mi>a</mi><mi>x</mi></mrow></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>   <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mo>&gt;</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       }
      ]
     },
@@ -15634,14 +15722,14 @@ KAPITULUAK["01mc_03integralak"] = {
   {
    "id": "a7",
    "maila": 2,
-   "izenburua": "1. ariketa — <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mrow><mn>1</mn><mo>−</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mrow><msup><mi>x</mi><mfrac><mi>a</mi><mn>2</mn></mfrac></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>x</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math> integral inpropioaren konbergentzia (lehen pasaera)",
+   "izenburua": "1. ariketa — <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mrow><mn>1</mn><mo>−</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mrow><msup><mi>x</mi><mfrac><mi>a</mi><mn>2</mn></mfrac></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>x</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math></span> integral inpropioaren konbergentzia (lehen pasaera)",
    "blokeak": [
     {
      "mota": "ariketa",
      "blokeak": [
       {
        "mota": "testua",
-       "html": "(Iturri ofizialik gabe; &quot;PROBLEMA&quot; hitza eskuz, muturretako bi puntu problematikoak biribilduta.) Azter ezazu zein <math display=\"inline\"><mi>a</mi></math>-tarako den konbergentea <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mrow><mn>1</mn><mo>−</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mrow><msup><mi>x</mi><mfrac><mi>a</mi><mn>2</mn></mfrac></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>x</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math> integral inpropioa, <math display=\"inline\"><mrow><mi>a</mi><mo>&gt;</mo><mn>0</mn></mrow></math> izanik (goiko ezkerrean &quot;<math display=\"inline\"><mrow><mi>a</mi><mo>&gt;</mo><mn>0</mn></mrow></math>&quot; biribilduta)."
+       "html": "(Iturri ofizialik gabe; &quot;PROBLEMA&quot; hitza eskuz, muturretako bi puntu problematikoak biribilduta.) Azter ezazu zein <math display=\"inline\"><mi>a</mi></math>-tarako den konbergentea <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mrow><mn>1</mn><mo>−</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mrow><msup><mi>x</mi><mfrac><mi>a</mi><mn>2</mn></mfrac></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>x</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math></span> integral inpropioa, <math display=\"inline\"><mrow><mi>a</mi><mo>&gt;</mo><mn>0</mn></mrow></math> izanik (goiko ezkerrean &quot;<math display=\"inline\"><mrow><mi>a</mi><mo>&gt;</mo><mn>0</mn></mrow></math>&quot; biribilduta)."
       }
      ],
      "ebazpena": [
@@ -15684,7 +15772,7 @@ KAPITULUAK["01mc_03integralak"] = {
       },
       {
        "mota": "testua",
-       "html": "<strong>Orri bereko zirriborroak (urdinez, hurrengo ariketen enuntziatuak):</strong>  <math display=\"inline\"><mrow><mn>0</mn><mo>≤</mo><msubsup><mo>∫</mo><mn>0</mn><mn>2</mn></msubsup><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mi>x</mi></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>≤</mo><mn>8</mn><msup><mi>e</mi><mn>2</mn></msup></mrow></math> tankerako desberdintza bat, eta <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><msup><mi>f</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>100</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></math> eskatzen duena — planteatu gabe geratzen dira (ez dago ebazpenik argazki-tartean)."
+       "html": "<strong>Orri bereko zirriborroak (urdinez, hurrengo ariketen enuntziatuak):</strong>  <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mn>0</mn><mo>≤</mo><msubsup><mo>∫</mo><mn>0</mn><mn>2</mn></msubsup><msup><mi>x</mi><mn>2</mn></msup><msup><mi>e</mi><mi>x</mi></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi><mo>≤</mo><mn>8</mn><msup><mi>e</mi><mn>2</mn></msup></mrow></math></span> tankerako desberdintza bat, eta <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><msup><mi>f</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>100</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup></math> eskatzen duena — planteatu gabe geratzen dira (ez dago ebazpenik argazki-tartean)."
       }
      ]
     }
@@ -15700,13 +15788,13 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "(Iturri ofizialik gabe.)  <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mrow><mn>1</mn><mo>−</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mrow><msup><mi>x</mi><mfrac><mi>a</mi><mn>2</mn></mfrac></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>x</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>, <math display=\"inline\"><mrow><mi>a</mi><mo>∈</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math>: azter ezazu konbergentzia kasu guztietan."
+       "html": "(Iturri ofizialik gabe.)  <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mrow><mn>1</mn><mo>−</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mrow><msup><mi>x</mi><mfrac><mi>a</mi><mn>2</mn></mfrac></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>x</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math></span>, <math display=\"inline\"><mrow><mi>a</mi><mo>∈</mo><mi mathvariant=\"double-struck\">ℝ</mi></mrow></math>: azter ezazu konbergentzia kasu guztietan."
       }
      ],
      "ebazpena": [
       {
        "mota": "testua",
-       "html": "<strong>Orriaren goialdea (saio baztertua):</strong>  <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>4</mn></mfrac></msubsup><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi><mo>+</mo><mn>3</mn></mrow><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math> integralerako Weierstrass-en aldaketa planteatzen du: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>t</mi></mrow></math>, <math display=\"inline\"><mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>d</mi><mi>t</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>t</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>2</mn></msup></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>  (azken hau biribilduta), eta BERDEZ oharra: <em>&quot;Horrek ez du merezi.&quot;</em> — bidea bertan behera utzita (ez dago jarraipenik). Azpian marra bikoitza."
+       "html": "<strong>Orriaren goialdea (saio baztertua):</strong>  <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>4</mn></mfrac></msubsup><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi><mo>+</mo><mn>3</mn></mrow><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>4</mn></msup><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math></span> integralerako Weierstrass-en aldaketa planteatzen du: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>t</mi></mrow></math>, <math display=\"inline\"><mrow><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>d</mi><mi>t</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>t</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>2</mn></msup></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>  (azken hau biribilduta), eta BERDEZ oharra: <em>&quot;Horrek ez du merezi.&quot;</em> — bidea bertan behera utzita (ez dago jarraipenik). Azpian marra bikoitza."
       },
       {
        "mota": "testua",
@@ -15765,7 +15853,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "ebazpena": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac></mrow></math>: <em>&quot;jarraitua <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>∞</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-n, bornatua <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>+</mi><mi>∞</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-n&quot;</em>; eskuin-marjinan: <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math>  <em>&quot;ez dago barruti horretan&quot;</em>  (izendatzailearen zeroa kanpoan). Beraz muga bakarra <math display=\"inline\"><mi>∞</mi></math>-n: <math display=\"block\"><mrow><mi>x</mi><mo>→</mo><mi>∞</mi><mo>:</mo><mspace width=\"1.0em\"></mspace><mfrac><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mo>≃</mo><mfrac><mi>x</mi><msup><mi>x</mi><mfrac><mn>5</mn><mn>2</mn></mfrac></msup></mfrac><mo>=</mo><mfrac><mn>1</mn><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup></mfrac></mrow></math> Banaketa: <math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mfrac><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi><mo>+</mo><munder><munder><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow><mo accent=\"true\">⏟</mo></munder><msub><mi>I</mi><mn>1</mn></msub></munder></mrow></math> (lehenengoa arrunta: <em>&quot;konbergentzia: Riemann-en integragarria&quot;</em> oharra giltzarekin). <math display=\"inline\"><msub><mi>I</mi><mn>1</mn></msub></math> konparatu <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><msup><mi>x</mi><mi>q</mi></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>-rekin: <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mfrac><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mfrac><mn>1</mn><msup><mi>x</mi><mi>q</mi></msup></mfrac></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><msup><mi>x</mi><mrow><mi>q</mi><mo>+</mo><mn>1</mn></mrow></msup><msqrt><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mo>=</mo><mn>1</mn><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mo>≠</mo><mn>0</mn><mo>,</mo><mo>≠</mo><mi>∞</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> baldin </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>q</mi><mo>+</mo><mn>1</mn><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mo>→</mo><mi>q</mi><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></math> <math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup></mfrac><mi>d</mi><mi>x</mi><mo>→</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> konb. </mtext><mspace width=\"0.333em\"></mspace></mrow><mo>⇒</mo><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> konb. </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac></mrow></math>: <em>&quot;jarraitua <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>∞</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-n, bornatua <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>+</mi><mi>∞</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>-n&quot;</em>; eskuin-marjinan: <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>−</mi><mn>1</mn></mrow></math>  <em>&quot;ez dago barruti horretan&quot;</em>  (izendatzailearen zeroa kanpoan). Beraz muga bakarra <math display=\"inline\"><mi>∞</mi></math>-n: <math display=\"block\"><mrow><mi>x</mi><mo>→</mo><mi>∞</mi><mo>:</mo><mspace width=\"1.0em\"></mspace><mfrac><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mo>≃</mo><mfrac><mi>x</mi><msup><mi>x</mi><mfrac><mn>5</mn><mn>2</mn></mfrac></msup></mfrac><mo>=</mo><mfrac><mn>1</mn><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup></mfrac></mrow></math> Banaketa: <math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mfrac><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi><mo>+</mo><munder><munder><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow><mo accent=\"true\">⏟</mo></munder><msub><mi>I</mi><mn>1</mn></msub></munder></mrow></math> (lehenengoa arrunta: <em>&quot;konbergentzia: Riemann-en integragarria&quot;</em> oharra giltzarekin). <math display=\"inline\"><msub><mi>I</mi><mn>1</mn></msub></math> konparatu <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><msup><mi>x</mi><mi>q</mi></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math>-rekin: <math display=\"block\"><mrow><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><mfrac><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mfrac><mn>1</mn><msup><mi>x</mi><mi>q</mi></msup></mfrac></mfrac><mo>=</mo><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></munder><mfrac><msup><mi>x</mi><mrow><mi>q</mi><mo>+</mo><mn>1</mn></mrow></msup><msqrt><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mo>=</mo><mn>1</mn><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mo>≠</mo><mn>0</mn><mo>,</mo><mo>≠</mo><mi>∞</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> baldin </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>q</mi><mo>+</mo><mn>1</mn><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mo>→</mo><mi>q</mi><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></math> <math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup></mfrac><mi>d</mi><mi>x</mi><mo>→</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> konb. </mtext><mspace width=\"0.333em\"></mspace></mrow><mo>⇒</mo><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mi>x</mi><msqrt><mrow><msup><mi>x</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> konb. </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>"
       },
       {
        "mota": "kutxa",
@@ -15843,7 +15931,7 @@ KAPITULUAK["01mc_03integralak"] = {
       },
       {
        "mota": "testua",
-       "html": "Bornaketa (<em>&quot;saiatu integral ezagunen batekin bornatzen&quot;</em>): <math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mi>n</mi></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>≤</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mn>1</mn><mo>+</mo><msup><mi>x</mi><mi>n</mi></msup><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mi>n</mi></msup></mrow></mfrac><mo>≤</mo><mfrac><mn>1</mn><msup><mi>x</mi><mi>n</mi></msup></mfrac></mrow></math> <math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>a</mi><mi>x</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mi>n</mi></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mi>d</mi><mi>x</mi><mo>≤</mo><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><msup><mi>x</mi><mi>n</mi></msup></mfrac><mi>d</mi><mi>x</mi><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mrow><mtext mathvariant=\"normal\">konb., </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>n</mi><mo>&gt;</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> ( </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>n</mi><mo>≥</mo><mn>2</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> ) </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>∈</mo><mi mathvariant=\"double-struck\">ℕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> dib., </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>n</mi><mo>=</mo><mn>1</mn></mtd></mtr></mtable></mrow></mrow></math> Banaketa: <math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mfrac><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>a</mi><mi>x</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mi>n</mi></msup></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><munder><munder><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>a</mi><mi>x</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mi>n</mi></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow><mo accent=\"true\">⏟</mo></munder><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> konb. (arrunta)</mtext></mrow></munder><mo>+</mo><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>a</mi><mi>x</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mi>n</mi></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math> <em>&quot;Konparaketa egiterakoan <math display=\"inline\"><mrow><mi>n</mi><mo>≥</mo><mn>2</mn></mrow></math> dugunean, <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><msup><mi>x</mi><mi>n</mi></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math> konbergentea denez, orduan <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mo stretchy=\"false\" form=\"prefix\">|</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mi>n</mi></msup></mrow></mfrac><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>d</mi><mi>x</mi></mrow></math> konb. <math display=\"inline\"><mrow><mo>⇒</mo><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mi>n</mi></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math> absolutuki konbergentea <math display=\"inline\"><mo>→</mo></math> konbergentea.&quot;</em>"
+       "html": "Bornaketa (<em>&quot;saiatu integral ezagunen batekin bornatzen&quot;</em>): <math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mi>n</mi></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>≤</mo><mfrac><mn>1</mn><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mn>1</mn><mo>+</mo><msup><mi>x</mi><mi>n</mi></msup><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mi>n</mi></msup></mrow></mfrac><mo>≤</mo><mfrac><mn>1</mn><msup><mi>x</mi><mi>n</mi></msup></mfrac></mrow></math> <math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>a</mi><mi>x</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mi>n</mi></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mi>d</mi><mi>x</mi><mo>≤</mo><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><msup><mi>x</mi><mi>n</mi></msup></mfrac><mi>d</mi><mi>x</mi><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mtable><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mrow><mtext mathvariant=\"normal\">konb., </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>n</mi><mo>&gt;</mo><mn>1</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> ( </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>n</mi><mo>≥</mo><mn>2</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> ) </mtext><mspace width=\"0.333em\"></mspace></mrow><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>∈</mo><mi mathvariant=\"double-struck\">ℕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mtd></mtr><mtr><mtd columnalign=\"left\" style=\"text-align: left\"><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> dib., </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>n</mi><mo>=</mo><mn>1</mn></mtd></mtr></mtable></mrow></mrow></math> Banaketa: <math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mfrac><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>a</mi><mi>x</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mi>n</mi></msup></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><munder><munder><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>a</mi><mi>x</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mi>n</mi></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow><mo accent=\"true\">⏟</mo></munder><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> konb. (arrunta)</mtext></mrow></munder><mo>+</mo><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>a</mi><mi>x</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mi>n</mi></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math> <em>&quot;Konparaketa egiterakoan <math display=\"inline\"><mrow><mi>n</mi><mo>≥</mo><mn>2</mn></mrow></math> dugunean, <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mn>1</mn><msup><mi>x</mi><mi>n</mi></msup></mfrac><mi>d</mi><mi>x</mi></mrow></math> konbergentea denez, orduan <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mo stretchy=\"false\" form=\"prefix\">|</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mi>n</mi></msup></mrow></mfrac><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>d</mi><mi>x</mi></mrow></math></span> konb. <math display=\"inline\"><mrow><mo>⇒</mo><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>a</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mi>n</mi></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math> absolutuki konbergentea <math display=\"inline\"><mo>→</mo></math> konbergentea.&quot;</em>"
       },
       {
        "mota": "testua",
@@ -15945,7 +16033,7 @@ KAPITULUAK["01mc_03integralak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "Ebazpena BUKATU GABE dago iturrian: <math display=\"inline\"><msub><mi>B</mi><mn>1</mn></msub></math>-en integrala itxi gabe (<math display=\"inline\"><mrow><msub><mi>I</mi><mn>4</mn></msub><mo>=</mo><mfrac><mi>π</mi><mn>4</mn></mfrac></mrow></math> litzateke, beraz <math display=\"inline\"><mrow><msub><mi>B</mi><mn>1</mn></msub><mo>=</mo><mfrac><mi>π</mi><mn>4</mn></mfrac><mo>+</mo><mn>2</mn><mo>⋅</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mi>π</mi><mn>8</mn></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mi>π</mi></mrow><mn>8</mn></mfrac><mo>+</mo><mn>1</mn></mrow></math>), eta <math display=\"inline\"><msub><mi>B</mi><mn>2</mn></msub></math>, <math display=\"inline\"><mrow><msub><mi>A</mi><mn>1</mn></msub><mo>=</mo><msub><mi>B</mi><mn>1</mn></msub><mo>−</mo><msub><mi>B</mi><mn>2</mn></msub></mrow></math> eta <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>2</mn><msub><mi>A</mi><mn>1</mn></msub></mrow></math> egin gabe. Itxiera analitikoa: <math display=\"inline\"><mrow><msub><mi>B</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></msubsup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi mathvariant=\"normal\">cos</mi><mi>θ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mi>d</mi><mi>θ</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mi>π</mi></mrow><mn>8</mn></mfrac><mo>−</mo><mn>1</mn></mrow></math>, beraz <math display=\"inline\"><mrow><msub><mi>A</mi><mn>1</mn></msub><mo>=</mo><msub><mi>B</mi><mn>1</mn></msub><mo>−</mo><msub><mi>B</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>4</mn></mrow></math>... baina KONTUZ: <math display=\"inline\"><msub><mi>A</mi><mn>1</mn></msub></math> horrela definituta <math display=\"inline\"><mrow><mi>θ</mi><mo>∈</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math> sektoreei bakarrik dagokie; eskualde osoa <math display=\"inline\"><mrow><mi>θ</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-koa da eta orduan <math display=\"inline\"><mrow><msub><mi>B</mi><mn>1</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msubsup><mo>∫</mo><mn>0</mn><mi>π</mi></msubsup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mi>θ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mn>3</mn><mi>π</mi></mrow><mn>4</mn></mfrac><mo>+</mo><mn>2</mn><mi>…</mi></mrow></math> Koadernoak ez du zehazten zein tarterekin jarraituko zuen; hemen planteamendua bakarrik dago, eta hala utzi da."
+         "html": "Ebazpena BUKATU GABE dago iturrian: <math display=\"inline\"><msub><mi>B</mi><mn>1</mn></msub></math>-en integrala itxi gabe (<math display=\"inline\"><mrow><msub><mi>I</mi><mn>4</mn></msub><mo>=</mo><mfrac><mi>π</mi><mn>4</mn></mfrac></mrow></math> litzateke, beraz <math display=\"inline\"><mrow><msub><mi>B</mi><mn>1</mn></msub><mo>=</mo><mfrac><mi>π</mi><mn>4</mn></mfrac><mo>+</mo><mn>2</mn><mo>⋅</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mi>π</mi><mn>8</mn></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mi>π</mi></mrow><mn>8</mn></mfrac><mo>+</mo><mn>1</mn></mrow></math>), eta <math display=\"inline\"><msub><mi>B</mi><mn>2</mn></msub></math>, <math display=\"inline\"><mrow><msub><mi>A</mi><mn>1</mn></msub><mo>=</mo><msub><mi>B</mi><mn>1</mn></msub><mo>−</mo><msub><mi>B</mi><mn>2</mn></msub></mrow></math> eta <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>2</mn><msub><mi>A</mi><mn>1</mn></msub></mrow></math> egin gabe. Itxiera analitikoa: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>B</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msubsup><mo>∫</mo><mn>0</mn><mfrac><mi>π</mi><mn>2</mn></mfrac></msubsup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi mathvariant=\"normal\">cos</mi><mi>θ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mi>d</mi><mi>θ</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mi>π</mi></mrow><mn>8</mn></mfrac><mo>−</mo><mn>1</mn></mrow></math></span>, beraz <math display=\"inline\"><mrow><msub><mi>A</mi><mn>1</mn></msub><mo>=</mo><msub><mi>B</mi><mn>1</mn></msub><mo>−</mo><msub><mi>B</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn></mrow></math> eta <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>4</mn></mrow></math>... baina KONTUZ: <math display=\"inline\"><msub><mi>A</mi><mn>1</mn></msub></math> horrela definituta <math display=\"inline\"><mrow><mi>θ</mi><mo>∈</mo><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math> sektoreei bakarrik dagokie; eskualde osoa <math display=\"inline\"><mrow><mi>θ</mi><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mi>π</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>-koa da eta orduan <math display=\"inline\"><mrow><msub><mi>B</mi><mn>1</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msubsup><mo>∫</mo><mn>0</mn><mi>π</mi></msubsup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mi>θ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mn>3</mn><mi>π</mi></mrow><mn>4</mn></mfrac><mo>+</mo><mn>2</mn><mi>…</mi></mrow></math> Koadernoak ez du zehazten zein tarterekin jarraituko zuen; hemen planteamendua bakarrik dago, eta hala utzi da."
         }
        ]
       },
@@ -16045,7 +16133,7 @@ KAPITULUAK["01mc_03integralak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mrow><msqrt><mfrac><mi>a</mi><mn>2</mn></mfrac></msqrt><mo>≤</mo><mi>x</mi><mo>≤</mo><msqrt><mi>a</mi></msqrt></mrow></math> tartean <math display=\"inline\"><mrow><mn>2</mn><mi>x</mi><mo>≤</mo><mfrac><mi>a</mi><mi>x</mi></mfrac></mrow></math> da (adib. <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><msqrt><mfrac><mi>a</mi><mn>2</mn></mfrac></msqrt></mrow></math>-n <math display=\"inline\"><mrow><mn>2</mn><mi>x</mi><mo>=</mo><mn>2</mn><msqrt><mfrac><mi>a</mi><mn>2</mn></mfrac></msqrt><mo>=</mo><msqrt><mrow><mn>2</mn><mi>a</mi></mrow></msqrt><mo>&gt;</mo><msqrt><mfrac><mi>a</mi><mn>2</mn></mfrac></msqrt><mo>⋅</mo><mn>2</mn></mrow></math>... zehazkiago <math display=\"inline\"><mrow><mn>2</mn><mi>x</mi><mo>⋅</mo><mi>x</mi><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mn>2</mn><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>, beraz <math display=\"inline\"><mrow><mn>2</mn><mi>x</mi><mo>≥</mo><mfrac><mi>a</mi><mi>x</mi></mfrac></mrow></math>); koadernoaren azken lerroak, dena den, balio absolutuarekin egindako kontuaren emaitza POSITIBOA dakar: <math display=\"inline\"><mrow><msub><mi>B</mi><mn>1</mn></msub><mo>=</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>+</mo><mi>a</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><msqrt><mn>2</mn></msqrt><mo>−</mo><mi>a</mi></mrow></math>... Kalkulu garbia: <math display=\"inline\"><mrow><msub><mi>B</mi><mn>1</mn></msub><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mfrac><mi>a</mi><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>a</mi><mo>−</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>a</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">ln</mi><msqrt><mi>a</mi></msqrt><mo>−</mo><mi mathvariant=\"normal\">ln</mi><msqrt><mfrac><mi>a</mi><mn>2</mn></mfrac></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>−</mo><mi>a</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><msqrt><mn>2</mn></msqrt></mrow></math>. Hori <math display=\"inline\"><msub><mi>B</mi><mn>2</mn></msub></math>-rekin batuta <math display=\"inline\"><mrow><msub><mi>A</mi><mn>1</mn></msub><mo>=</mo><mi>a</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><msqrt><mn>2</mn></msqrt></mrow></math> ateratzen da, koadernoak berak behean idazten duena — beraz azken emaitza ZUZENA da, tarteko lerro batean <math display=\"inline\"><mi mathvariant=\"normal\">ln</mi></math>-aren zeinua bi aldiz iraulita ere."
+         "html": "<math display=\"inline\"><mrow><msqrt><mfrac><mi>a</mi><mn>2</mn></mfrac></msqrt><mo>≤</mo><mi>x</mi><mo>≤</mo><msqrt><mi>a</mi></msqrt></mrow></math> tartean <math display=\"inline\"><mrow><mn>2</mn><mi>x</mi><mo>≤</mo><mfrac><mi>a</mi><mi>x</mi></mfrac></mrow></math> da (adib. <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><msqrt><mfrac><mi>a</mi><mn>2</mn></mfrac></msqrt></mrow></math>-n <math display=\"inline\"><mrow><mn>2</mn><mi>x</mi><mo>=</mo><mn>2</mn><msqrt><mfrac><mi>a</mi><mn>2</mn></mfrac></msqrt><mo>=</mo><msqrt><mrow><mn>2</mn><mi>a</mi></mrow></msqrt><mo>&gt;</mo><msqrt><mfrac><mi>a</mi><mn>2</mn></mfrac></msqrt><mo>⋅</mo><mn>2</mn></mrow></math>... zehazkiago <math display=\"inline\"><mrow><mn>2</mn><mi>x</mi><mo>⋅</mo><mi>x</mi><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>∈</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>a</mi><mo>,</mo><mn>2</mn><mi>a</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>, beraz <math display=\"inline\"><mrow><mn>2</mn><mi>x</mi><mo>≥</mo><mfrac><mi>a</mi><mi>x</mi></mfrac></mrow></math>); koadernoaren azken lerroak, dena den, balio absolutuarekin egindako kontuaren emaitza POSITIBOA dakar: <math display=\"inline\"><mrow><msub><mi>B</mi><mn>1</mn></msub><mo>=</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>+</mo><mi>a</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><msqrt><mn>2</mn></msqrt><mo>−</mo><mi>a</mi></mrow></math>... Kalkulu garbia: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>B</mi><mn>1</mn></msub><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mfrac><mi>a</mi><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>a</mi><mo>−</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>a</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">ln</mi><msqrt><mi>a</mi></msqrt><mo>−</mo><mi mathvariant=\"normal\">ln</mi><msqrt><mfrac><mi>a</mi><mn>2</mn></mfrac></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>−</mo><mi>a</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><msqrt><mn>2</mn></msqrt></mrow></math></span>. Hori <math display=\"inline\"><msub><mi>B</mi><mn>2</mn></msub></math>-rekin batuta <math display=\"inline\"><mrow><msub><mi>A</mi><mn>1</mn></msub><mo>=</mo><mi>a</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><msqrt><mn>2</mn></msqrt></mrow></math> ateratzen da, koadernoak berak behean idazten duena — beraz azken emaitza ZUZENA da, tarteko lerro batean <math display=\"inline\"><mi mathvariant=\"normal\">ln</mi></math>-aren zeinua bi aldiz iraulita ere."
         }
        ]
       },
@@ -16108,7 +16196,7 @@ KAPITULUAK["01mc_03integralak"] = {
       },
       {
        "mota": "testua",
-       "html": "Gogorarazpenak: <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><msup><mi>z</mi><mn>2</mn></msup><mo>=</mo><msup><mi>r</mi><mn>2</mn></msup></mrow></math>; <math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>y</mi><mo>−</mo><msub><mi>y</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>z</mi><mo>−</mo><msub><mi>z</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>r</mi><mn>2</mn></msup></mrow></math>. Sekzio-metodoa (hitzez, euskaraz): <math display=\"inline\"><mrow><mi>V</mi><mo>=</mo><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>Q</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>, &quot;<math display=\"inline\"><mi>Q</mi></math>  = ardatzarekiko perpendikularra den plano batek mozten duen sekzioaren azalera&quot;; hemen <math display=\"block\"><mrow><mi>V</mi><mo>=</mo><msubsup><mo>∫</mo><mrow><mi>−</mi><mi>b</mi></mrow><mi>a</mi></msubsup><mi>Q</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>z</mi></mrow></math>"
+       "html": "Gogorarazpenak: <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><msup><mi>z</mi><mn>2</mn></msup><mo>=</mo><msup><mi>r</mi><mn>2</mn></msup></mrow></math>; <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>y</mi><mo>−</mo><msub><mi>y</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>z</mi><mo>−</mo><msub><mi>z</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>r</mi><mn>2</mn></msup></mrow></math></span>. Sekzio-metodoa (hitzez, euskaraz): <math display=\"inline\"><mrow><mi>V</mi><mo>=</mo><msubsup><mo>∫</mo><mi>a</mi><mi>b</mi></msubsup><mi>Q</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>x</mi></mrow></math>, &quot;<math display=\"inline\"><mi>Q</mi></math>  = ardatzarekiko perpendikularra den plano batek mozten duen sekzioaren azalera&quot;; hemen <math display=\"block\"><mrow><mi>V</mi><mo>=</mo><msubsup><mo>∫</mo><mrow><mi>−</mi><mi>b</mi></mrow><mi>a</mi></msubsup><mi>Q</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>z</mi></mrow></math>"
       },
       {
        "mota": "testua",
@@ -16149,7 +16237,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "ebazpena": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mi>ρ</mi><mo>=</mo><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>θ</mi></mrow></msqrt><mo>=</mo><mi>a</mi><msqrt><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>θ</mi></mrow></msqrt></mrow></math>; <math display=\"inline\"><mrow><mi>ρ</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>θ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> oharra. Balio-taula hasita: <math display=\"inline\"><mrow><mi>θ</mi><mo>=</mo><mn>0</mn><mo>→</mo><mi>ρ</mi><mo>=</mo><mi>a</mi></mrow></math>. Marrazkia: lemniskata (bi hosto horizontalak) eta gorriz marra bertikalak DEFINITU GABEKO sektoreetan; gorriz oharra (euskaraz): <em>&quot;<math display=\"inline\"><mi>θ</mi></math>-ren balioak — ondo definitua dagoen kontuan hartu behar da&quot;</em> tankerakoa. Eskuinean <math display=\"inline\"><mi mathvariant=\"normal\">sin</mi></math>/<math display=\"inline\"><mi mathvariant=\"normal\">cos</mi></math>-en grafikoa, non <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>θ</mi><mo>&lt;</mo><mn>0</mn></mrow></math> den markatzeko: <math display=\"block\"><mrow><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>≤</mo><mn>2</mn><mi>θ</mi><mo>≤</mo><mfrac><mrow><mn>3</mn><mi>π</mi></mrow><mn>2</mn></mfrac><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mfrac><mi>π</mi><mn>4</mn></mfrac><mo>≤</mo><mi>θ</mi><mo>≤</mo><mfrac><mrow><mn>3</mn><mi>π</mi></mrow><mn>4</mn></mfrac><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> EZ dago </mtext><mspace width=\"0.333em\"></mspace></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mrow><mtext mathvariant=\"normal\">hor </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"normal\">cos</mi><mn>2</mn><mi>θ</mi><mo>&lt;</mo><mn>0</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+       "html": "<math display=\"block\"><mrow><mi>ρ</mi><mo>=</mo><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>θ</mi></mrow></msqrt><mo>=</mo><mi>a</mi><msqrt><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>θ</mi></mrow></msqrt></mrow></math>; <math display=\"inline\"><mrow><mi>ρ</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>θ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> oharra. Balio-taula hasita: <math display=\"inline\"><mrow><mi>θ</mi><mo>=</mo><mn>0</mn><mo>→</mo><mi>ρ</mi><mo>=</mo><mi>a</mi></mrow></math>. Marrazkia: lemniskata (bi hosto horizontalak) eta gorriz marra bertikalak DEFINITU GABEKO sektoreetan; gorriz oharra (euskaraz): <em>&quot;<math display=\"inline\"><mi>θ</mi></math>-ren balioak — ondo definitua dagoen kontuan hartu behar da&quot;</em> tankerakoa. Eskuinean <math display=\"inline\"><mi mathvariant=\"normal\">sin</mi></math>/<math display=\"inline\"><mi mathvariant=\"normal\">cos</mi></math>-en grafikoa, non <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>θ</mi><mo>&lt;</mo><mn>0</mn></mrow></math> den markatzeko: <math display=\"block\"><mrow><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>≤</mo><mn>2</mn><mi>θ</mi><mo>≤</mo><mfrac><mrow><mn>3</mn><mi>π</mi></mrow><mn>2</mn></mfrac><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mfrac><mi>π</mi><mn>4</mn></mfrac><mo>≤</mo><mi>θ</mi><mo>≤</mo><mfrac><mrow><mn>3</mn><mi>π</mi></mrow><mn>4</mn></mfrac><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> EZ dago </mtext><mspace width=\"0.333em\"></mspace></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mrow><mtext mathvariant=\"normal\">hor </mtext><mspace width=\"0.333em\"></mspace></mrow><mi mathvariant=\"normal\">cos</mi><mn>2</mn><mi>θ</mi><mo>&lt;</mo><mn>0</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
       },
       {
        "mota": "oharra",
@@ -16157,7 +16245,7 @@ KAPITULUAK["01mc_03integralak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "Ebazpena PLANTEAMENDUAN geratzen da iturrian (domeinu angeluarra zehaztuta, integralik idatzi gabe); ez da orririk aurkitu jarraipenarekin argazki-tartean. Bide ofiziala: <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>2</mn><msubsup><mo>∫</mo><mrow><mi>−</mi><mfrac><mi>π</mi><mn>4</mn></mfrac></mrow><mfrac><mi>π</mi><mn>4</mn></mfrac></msubsup><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>θ</mi><mi>d</mi><mi>θ</mi><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></math>  (Em. <math display=\"inline\"><msup><mi>a</mi><mn>2</mn></msup></math>; 6.3 orriko marginalian ✓ gorria)."
+         "html": "Ebazpena PLANTEAMENDUAN geratzen da iturrian (domeinu angeluarra zehaztuta, integralik idatzi gabe); ez da orririk aurkitu jarraipenarekin argazki-tartean. Bide ofiziala: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mn>2</mn><msubsup><mo>∫</mo><mrow><mi>−</mi><mfrac><mi>π</mi><mn>4</mn></mfrac></mrow><mfrac><mi>π</mi><mn>4</mn></mfrac></msubsup><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>θ</mi><mi>d</mi><mi>θ</mi><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></math></span>  (Em. <math display=\"inline\"><msup><mi>a</mi><mn>2</mn></msup></math>; 6.3 orriko marginalian ✓ gorria)."
         }
        ]
       }
@@ -16181,7 +16269,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "ebazpena": [
       {
        "mota": "testua",
-       "html": "<strong>Orriaren goialdea:</strong> identitate trigonometrikoen errepaso propioa: <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math>-etik <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><mfrac><mn>1</mn><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mfrac><mi>x</mi></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mfrac><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></msqrt><mi mathvariant=\"normal\">cos</mi></mfrac><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></msqrt></mfrac></mrow></math>; <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math> eta <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi></mrow></math>; <math display=\"inline\"><mrow><mo>∫</mo><mi>u</mi><mi>d</mi><mi>v</mi><mo>=</mo><mi>u</mi><mi>v</mi><mo>−</mo><mo>∫</mo><mi>v</mi><mi>d</mi><mi>u</mi></mrow></math>; <math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup><mo>=</mo><mfrac><mi>x</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac></mrow></math>  (deribazio-proba); <math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">tan</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup><mo>=</mo><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mfrac><mi>x</mi></mrow></math>  (sic; <math display=\"inline\"><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">sin</mi><mfrac><mi>x</mi><mi mathvariant=\"normal\">cos</mi></mfrac><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup></math> garatzen ari da) — errepaso-lerroak, ariketei begira."
+       "html": "<strong>Orriaren goialdea:</strong> identitate trigonometrikoen errepaso propioa: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math></span>-etik <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><mfrac><mn>1</mn><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mfrac><mi>x</mi></mrow></math></span>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mfrac><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></msqrt><mi mathvariant=\"normal\">cos</mi></mfrac><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></msqrt></mfrac></mrow></math></span>; <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></math></span> eta <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi></mrow></math></span>; <math display=\"inline\"><mrow><mo>∫</mo><mi>u</mi><mi>d</mi><mi>v</mi><mo>=</mo><mi>u</mi><mi>v</mi><mo>−</mo><mo>∫</mo><mi>v</mi><mi>d</mi><mi>u</mi></mrow></math>; <math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup><mo>=</mo><mfrac><mi>x</mi><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mfrac></mrow></math>  (deribazio-proba); <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">tan</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup><mo>=</mo><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mfrac><mi>x</mi></mrow></math></span>  (sic; <math display=\"inline\"><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">sin</mi><mfrac><mi>x</mi><mi mathvariant=\"normal\">cos</mi></mfrac><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup></math> garatzen ari da) — errepaso-lerroak, ariketei begira."
       },
       {
        "mota": "testua",
@@ -16217,11 +16305,11 @@ KAPITULUAK["01mc_03integralak"] = {
      "ebazpena": [
       {
        "mota": "testua",
-       "html": "<strong>Lehen orriko zirriborroak</strong>  (13_08_22): <math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>e</mi><mi>x</mi></msup><msqrt><mrow><mn>9</mn><mo>−</mo><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math> hasita, &quot;CAMBIO <math display=\"inline\"><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>=</mo><mi>t</mi></mrow></math>, <math display=\"inline\"><mrow><msup><mi>e</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi><mo>=</mo><mi>d</mi><mi>t</mi></mrow></math>&quot;  <math display=\"inline\"><mrow><mo>→</mo><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><msqrt><mrow><mn>9</mn><mo>−</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></msqrt></mfrac></mrow></math>  (hor utzita); <math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><msqrt><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math> eta <math display=\"inline\"><mrow><mo>∫</mo><msup><mi>x</mi><mn>2</mn></msup><mfrac><msqrt><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math> idatzita; <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi></mrow></math>, <math display=\"inline\"><mrow><mi>x</mi><mo>−</mo><mn>1</mn><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></math> saioak (nahasiak, hainbat lerro); <math display=\"inline\"><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup></math> deribazio-proba bat: <math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup><mo>⋅</mo><mn>2</mn><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup><mo>⋅</mo><msup><mn>2</mn><mo>′</mo></msup><mo>=</mo><mn>2</mn><mo>⋅</mo><mn>4</mn><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup></mrow><mrow><mn>4</mn><mi>.</mi></mrow></mfrac><mi>.</mi><mi>.</mi><mo>→</mo><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup></mrow></math>  (zatidura-erregelaren proba); <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow></math> garapen-kontrolak; <math display=\"inline\"><mrow><mi>d</mi><mi>x</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mi>d</mi><mi>t</mi></mrow></math>."
+       "html": "<strong>Lehen orriko zirriborroak</strong>  (13_08_22): <math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>e</mi><mi>x</mi></msup><msqrt><mrow><mn>9</mn><mo>−</mo><msup><mi>e</mi><mrow><mn>2</mn><mi>x</mi></mrow></msup></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math> hasita, &quot;CAMBIO <math display=\"inline\"><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>=</mo><mi>t</mi></mrow></math>, <math display=\"inline\"><mrow><msup><mi>e</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi><mo>=</mo><mi>d</mi><mi>t</mi></mrow></math>&quot;  <math display=\"inline\"><mrow><mo>→</mo><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><msqrt><mrow><mn>9</mn><mo>−</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></msqrt></mfrac></mrow></math>  (hor utzita); <math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><msqrt><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math> eta <math display=\"inline\"><mrow><mo>∫</mo><msup><mi>x</mi><mn>2</mn></msup><mfrac><msqrt><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math> idatzita; <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi></mrow></math>, <math display=\"inline\"><mrow><mi>x</mi><mo>−</mo><mn>1</mn><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></math> saioak (nahasiak, hainbat lerro); <math display=\"inline\"><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup></math> deribazio-proba bat: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup><mo>⋅</mo><mn>2</mn><mo>−</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup><mo>⋅</mo><msup><mn>2</mn><mo>′</mo></msup><mo>=</mo><mn>2</mn><mo>⋅</mo><mn>4</mn><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup></mrow><mrow><mn>4</mn><mi>.</mi></mrow></mfrac><mi>.</mi><mi>.</mi><mo>→</mo><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup></mrow></math></span>  (zatidura-erregelaren proba); <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow></math></span> garapen-kontrolak; <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>d</mi><mi>x</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mi>d</mi><mi>t</mi></mrow></math></span>."
       },
       {
        "mota": "testua",
-       "html": "<strong>Ordezkapena finkatuta</strong>  (laukituta): <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>=</mo><msqrt><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></math>, <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mo>=</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>→</mo></mrow></math>  <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mo>+</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>d</mi><mi>x</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi><mi>d</mi><mi>t</mi></mrow></math>. Marjinan arrosaz: <math display=\"inline\"><mrow><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi></mrow></math>."
+       "html": "<strong>Ordezkapena finkatuta</strong>  (laukituta): <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>=</mo><msqrt><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></math>, <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mo>=</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>→</mo></mrow></math>  <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mo>+</mo><mn>1</mn></mrow></math>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>d</mi><mi>x</mi><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi><mi>d</mi><mi>t</mi></mrow></math></span>. Marjinan arrosaz: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mn>2</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>x</mi></mrow></math></span>."
       },
       {
        "mota": "testua",
@@ -16241,7 +16329,7 @@ KAPITULUAK["01mc_03integralak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "Bi orriok ENTRENAMENDU hutsa dira: hainbat integral planteatu, ordezkapena landu, binomioa garatu eta deribazioz egiaztatzen saiatu — baina bat ere ez dago garbira pasata eta azken emaitza itxirik EZ dago. Dena dagoen-dagoenean transkribatu da, saio ezabatuak barne. (Bide zuzenaren kontrola: <math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><msqrt><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>, <math display=\"inline\"><mrow><mi>u</mi><mo>=</mo><mi>x</mi><mo>−</mo><mn>1</mn></mrow></math>: <math display=\"inline\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>u</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn><msup><mi>u</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>u</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>u</mi><mrow><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></msup><mi>d</mi><mi>u</mi><mo>=</mo><mfrac><mn>2</mn><mn>7</mn></mfrac><msup><mi>u</mi><mfrac><mn>7</mn><mn>2</mn></mfrac></msup><mo>+</mo><mfrac><mn>6</mn><mn>5</mn></mfrac><msup><mi>u</mi><mfrac><mn>5</mn><mn>2</mn></mfrac></msup><mo>+</mo><mn>2</mn><msup><mi>u</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup><mo>+</mo><mn>2</mn><msup><mi>u</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mo>+</mo><mi>K</mi></mrow></math> — goiko <math display=\"inline\"><mrow><mfrac><msup><mi>u</mi><mn>7</mn></msup><mn>7</mn></mfrac><mo>,</mo><mfrac><msup><mi>u</mi><mn>5</mn></msup><mn>5</mn></mfrac><mo>,</mo><mfrac><msup><mi>u</mi><mn>3</mn></msup><mn>3</mn></mfrac></mrow></math> koefizienteekin bat, <math display=\"inline\"><mrow><mi>u</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math> eginda.)"
+         "html": "Bi orriok ENTRENAMENDU hutsa dira: hainbat integral planteatu, ordezkapena landu, binomioa garatu eta deribazioz egiaztatzen saiatu — baina bat ere ez dago garbira pasata eta azken emaitza itxirik EZ dago. Dena dagoen-dagoenean transkribatu da, saio ezabatuak barne. (Bide zuzenaren kontrola: <math display=\"inline\"><mrow><mo>∫</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><msqrt><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt></mfrac><mi>d</mi><mi>x</mi></mrow></math>, <math display=\"inline\"><mrow><mi>u</mi><mo>=</mo><mi>x</mi><mo>−</mo><mn>1</mn></mrow></math>: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>u</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn><msup><mi>u</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>u</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>u</mi><mrow><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></msup><mi>d</mi><mi>u</mi><mo>=</mo><mfrac><mn>2</mn><mn>7</mn></mfrac><msup><mi>u</mi><mfrac><mn>7</mn><mn>2</mn></mfrac></msup><mo>+</mo><mfrac><mn>6</mn><mn>5</mn></mfrac><msup><mi>u</mi><mfrac><mn>5</mn><mn>2</mn></mfrac></msup><mo>+</mo><mn>2</mn><msup><mi>u</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup><mo>+</mo><mn>2</mn><msup><mi>u</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mo>+</mo><mi>K</mi></mrow></math></span> — goiko <math display=\"inline\"><mrow><mfrac><msup><mi>u</mi><mn>7</mn></msup><mn>7</mn></mfrac><mo>,</mo><mfrac><msup><mi>u</mi><mn>5</mn></msup><mn>5</mn></mfrac><mo>,</mo><mfrac><msup><mi>u</mi><mn>3</mn></msup><mn>3</mn></mfrac></mrow></math> koefizienteekin bat, <math display=\"inline\"><mrow><mi>u</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math> eginda.)"
         }
        ]
       }
@@ -16394,7 +16482,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "(P3 problema; iturri ofizialik gabe.)  <math display=\"inline\"><mrow><mi>S</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>y</mi><mo>=</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> parabola</mtext></mrow><mo>,</mo><msub><mi>P</mi><mn>0</mn></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>,</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> puntuko zuzen ukitzailea eta </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>y</mi><mo>=</mo><mn>0</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> eskualdeak <math display=\"inline\"><mrow><mi>O</mi><mi>x</mi></mrow></math>-en inguruan biratzean sortzen duen bolumena kalkulatu."
+       "html": "(P3 problema; iturri ofizialik gabe.)  <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>S</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mi>y</mi><mo>=</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> parabola</mtext></mrow><mo>,</mo><msub><mi>P</mi><mn>0</mn></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>,</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> puntuko zuzen ukitzailea eta </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>y</mi><mo>=</mo><mn>0</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math></span> eskualdeak <math display=\"inline\"><mrow><mi>O</mi><mi>x</mi></mrow></math>-en inguruan biratzean sortzen duen bolumena kalkulatu."
       }
      ],
      "ebazpena": [
@@ -16408,7 +16496,7 @@ KAPITULUAK["01mc_03integralak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "Ebazpena HOR ETETEN da iturrian (azken lerroa kortxete irekiarekin); ez dago jarraipenik argazkietan. Bukatu gabe utzi da, dagoen-dagoenean. (Kontrol azkarra: <math display=\"inline\"><mrow><mi>V</mi><mo>=</mo><mi>π</mi><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>16</mn><mfrac><msup><mi>x</mi><mn>5</mn></msup><mn>5</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mn>0</mn><mfrac><mn>1</mn><mn>4</mn></mfrac></msubsup><mo>−</mo><mi>π</mi><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup><mn>6</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mfrac><mn>1</mn><mn>8</mn></mfrac><mfrac><mn>1</mn><mn>4</mn></mfrac></msubsup><mo>=</mo><mfrac><mi>π</mi><mn>320</mn></mfrac><mo>−</mo><mfrac><mi>π</mi><mn>384</mn></mfrac><mo>=</mo><mfrac><mi>π</mi><mn>1920</mn></mfrac></mrow></math>.)"
+         "html": "Ebazpena HOR ETETEN da iturrian (azken lerroa kortxete irekiarekin); ez dago jarraipenik argazkietan. Bukatu gabe utzi da, dagoen-dagoenean. (Kontrol azkarra: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>V</mi><mo>=</mo><mi>π</mi><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>16</mn><mfrac><msup><mi>x</mi><mn>5</mn></msup><mn>5</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mn>0</mn><mfrac><mn>1</mn><mn>4</mn></mfrac></msubsup><mo>−</mo><mi>π</mi><msubsup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup><mn>6</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mfrac><mn>1</mn><mn>8</mn></mfrac><mfrac><mn>1</mn><mn>4</mn></mfrac></msubsup><mo>=</mo><mfrac><mi>π</mi><mn>320</mn></mfrac><mo>−</mo><mfrac><mi>π</mi><mn>384</mn></mfrac><mo>=</mo><mfrac><mi>π</mi><mn>1920</mn></mfrac></mrow></math></span>.)"
         }
        ]
       }
@@ -16419,20 +16507,20 @@ KAPITULUAK["01mc_03integralak"] = {
   {
    "id": "a24",
    "maila": 2,
-   "izenburua": "71. ariketa — <math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></mfrac></mrow></math>  (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>t</mi></mrow></math> aldaketa + koefiziente indeterminatuak)",
+   "izenburua": "71. ariketa — <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></mfrac></mrow></math></span>  (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>t</mi></mrow></math> aldaketa + koefiziente indeterminatuak)",
    "blokeak": [
     {
      "mota": "ariketa",
      "blokeak": [
       {
        "mota": "testua",
-       "html": "(Iturri ofizialik gabe; entrenamendu-orria, &quot;tortura trigonometrikoen ariketa&quot;.) Kalkula ezazu <math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></mfrac></mrow></math>."
+       "html": "(Iturri ofizialik gabe; entrenamendu-orria, &quot;tortura trigonometrikoen ariketa&quot;.) Kalkula ezazu <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></mfrac></mrow></math></span>."
       }
      ],
      "ebazpena": [
       {
        "mota": "testua",
-       "html": "<strong>Aldaketa</strong>  (berdez biribilduta): <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>t</mi></mrow></math>; <math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>d</mi><mi>t</mi><mo>⇒</mo><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>. Arrosaz garatuta identitateak: <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><mfrac><mn>1</mn><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mfrac><mi>x</mi></mrow></math>  (hots <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mfrac><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mfrac><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mfrac><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mfrac><mi>x</mi></mrow></math>), beraz <math display=\"block\"><mrow><mn>1</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mfrac><mi>x</mi><mo>⇒</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>1</mn><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><msup><mi>t</mi><mn>2</mn></msup><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>"
+       "html": "<strong>Aldaketa</strong>  (berdez biribilduta): <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>t</mi></mrow></math>; <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>x</mi><mo>=</mo><mi>d</mi><mi>t</mi><mo>⇒</mo><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac></mrow></math></span>. Arrosaz garatuta identitateak: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><mfrac><mn>1</mn><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mfrac><mi>x</mi></mrow></math></span>  (hots <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mfrac><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mfrac><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mfrac><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mfrac><mi>x</mi></mrow></math></span>), beraz <math display=\"block\"><mrow><mn>1</mn><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup></mfrac><mi>x</mi><mo>⇒</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>1</mn><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><msup><mi>t</mi><mn>2</mn></msup><mrow><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>"
       },
       {
        "mota": "testua",
@@ -16458,7 +16546,7 @@ KAPITULUAK["01mc_03integralak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mi>/</mi><msqrt><mn>2</mn></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mo>=</mo><msqrt><mn>2</mn></msqrt><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>t</mi><msqrt><mn>2</mn></msqrt></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> da (<math display=\"inline\"><mfrac><mi>t</mi><msqrt><mn>2</mn></msqrt></mfrac></math>-ren deribatua <math display=\"inline\"><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac></math> delako), koadernoak <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>t</mi><msqrt><mn>2</mn></msqrt></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> soilik idazten du. Beraz emaitza zuzena: <math display=\"block\"><mrow><mi>I</mi><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mrow><mn>2</mn><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mo>−</mo><mfrac><msqrt><mn>2</mn></msqrt><mn>4</mn></mfrac><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><msqrt><mn>2</mn></msqrt></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>K</mi></mrow></math> (edo gauza bera, <math display=\"inline\"><mrow><mi>−</mi><mfrac><mn>1</mn><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></mfrac><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>/</mi><msqrt><mn>2</mn></msqrt><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>). Deribatuz egiaztatua. Ohar bera dagokio 84. ariketako lerro bati EZ — hemen bakarrik gertatzen da."
+         "html": "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mn>1</mn><mo>+</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mi>/</mi><msqrt><mn>2</mn></msqrt><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mo>=</mo><msqrt><mn>2</mn></msqrt><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>t</mi><msqrt><mn>2</mn></msqrt></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span> da (<math display=\"inline\"><mfrac><mi>t</mi><msqrt><mn>2</mn></msqrt></mfrac></math>-ren deribatua <math display=\"inline\"><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac></math> delako), koadernoak <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>t</mi><msqrt><mn>2</mn></msqrt></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> soilik idazten du. Beraz emaitza zuzena: <math display=\"block\"><mrow><mi>I</mi><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mrow><mn>2</mn><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mo>−</mo><mfrac><msqrt><mn>2</mn></msqrt><mn>4</mn></mfrac><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><msqrt><mn>2</mn></msqrt></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>+</mo><mi>K</mi></mrow></math> (edo gauza bera, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>−</mi><mfrac><mn>1</mn><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></mfrac><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>/</mi><msqrt><mn>2</mn></msqrt><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>). Deribatuz egiaztatua. Ohar bera dagokio 84. ariketako lerro bati EZ — hemen bakarrik gertatzen da."
         }
        ]
       },
@@ -16480,14 +16568,14 @@ KAPITULUAK["01mc_03integralak"] = {
   {
    "id": "a25",
    "maila": 2,
-   "izenburua": "72. ariketa — <math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo>−</mo><mn>2</mn><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac></mrow></math> Weierstrass-ekin (2012-06-28ko azterketa)",
+   "izenburua": "72. ariketa — <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo>−</mo><mn>2</mn><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac></mrow></math></span> Weierstrass-ekin (2012-06-28ko azterketa)",
    "blokeak": [
     {
      "mota": "ariketa",
      "blokeak": [
       {
        "mota": "testua",
-       "html": "(2012-06-28ko azterketa; &quot;KALKULATU&quot;.) Kalkula ezazu <math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo>−</mo><mn>2</mn><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>=</mo><mi>t</mi></mrow></math> aldaketaz."
+       "html": "(2012-06-28ko azterketa; &quot;KALKULATU&quot;.) Kalkula ezazu <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mi>x</mi><mo>−</mo><mn>2</mn><mi mathvariant=\"normal\">sin</mi><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac></mrow></math></span>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>=</mo><mi>t</mi></mrow></math> aldaketaz."
       }
      ],
      "ebazpena": [
@@ -16547,7 +16635,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "ebazpena": [
       {
        "mota": "testua",
-       "html": "Gorriz goian, erregela orokorra: <math display=\"inline\"><msqrt><mfrac><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac></msqrt></math> agertzen denean &quot;cambio TODO al dinero&quot;: <math display=\"inline\"><mrow><mo>∫</mo><mi>R</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></mrow><mrow><mi>c</mi><mi>x</mi><mo>+</mo><mi>d</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><msub><mi>p</mi><mn>1</mn></msub><msub><mi>q</mi><mn>1</mn></msub></mfrac></msup><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>→</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></mrow><mrow><mi>c</mi><mi>x</mi><mo>+</mo><mi>d</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msup><mi>t</mi><msub><mi>q</mi><mn>1</mn></msub></msup></mrow></math>."
+       "html": "Gorriz goian, erregela orokorra: <math display=\"inline\"><msqrt><mfrac><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac></msqrt></math> agertzen denean &quot;cambio TODO al dinero&quot;: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mi>R</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></mrow><mrow><mi>c</mi><mi>x</mi><mo>+</mo><mi>d</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><msub><mi>p</mi><mn>1</mn></msub><msub><mi>q</mi><mn>1</mn></msub></mfrac></msup><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>→</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></mrow><mrow><mi>c</mi><mi>x</mi><mo>+</mo><mi>d</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msup><mi>t</mi><msub><mi>q</mi><mn>1</mn></msub></msup></mrow></math></span>."
       },
       {
        "mota": "testua",
@@ -16555,7 +16643,7 @@ KAPITULUAK["01mc_03integralak"] = {
       },
       {
        "mota": "testua",
-       "html": "<strong>&quot;Toca sustituir&quot;:</strong>  <math display=\"inline\"><mrow><mi>x</mi><mo>−</mo><mn>1</mn><mo>=</mo><mfrac><mrow><mn>2</mn><msup><mi>t</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn></mrow><mrow><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>3</mn></msup></mrow></mfrac><mo>−</mo><mn>1</mn><mo>=</mo><mfrac><mrow><mn>2</mn><msup><mi>t</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn><mo>−</mo><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>3</mn></msup></mrow><mrow><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>3</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><msup><mi>t</mi><mn>3</mn></msup></mrow><mrow><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>3</mn></msup></mrow></mfrac></mrow></math>: <math display=\"block\"><mrow><mo>∫</mo><mroot><msup><mi>t</mi><mn>3</mn></msup><mn>3</mn></mroot><mo>⋅</mo><mfrac><mrow><mfrac><mrow><mn>9</mn><msup><mi>t</mi><mn>2</mn></msup></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>t</mi></mrow><mfrac><mrow><mn>3</mn><msup><mi>t</mi><mn>3</mn></msup></mrow><mrow><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>3</mn></msup></mrow></mfrac></mfrac><mo>=</mo><mo>∫</mo><mfrac><mrow><mi>t</mi><mo>⋅</mo><mn>9</mn><msup><mi>t</mi><mn>2</mn></msup></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mo>⋅</mo><mfrac><mrow><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>3</mn></msup></mrow><mrow><mn>3</mn><msup><mi>t</mi><mn>3</mn></msup></mrow></mfrac><mi>d</mi><mi>t</mi><mo>=</mo><mo>∫</mo><mfrac><mrow><mn>9</mn><msup><mi>t</mi><mn>3</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mn>3</mn><msup><mi>t</mi><mn>3</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>t</mi><mo>=</mo><mn>3</mn><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>3</mn></msup></mrow></mfrac></mrow></math>"
+       "html": "<strong>&quot;Toca sustituir&quot;:</strong>  <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>x</mi><mo>−</mo><mn>1</mn><mo>=</mo><mfrac><mrow><mn>2</mn><msup><mi>t</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn></mrow><mrow><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>3</mn></msup></mrow></mfrac><mo>−</mo><mn>1</mn><mo>=</mo><mfrac><mrow><mn>2</mn><msup><mi>t</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn><mo>−</mo><mn>1</mn><mo>+</mo><msup><mi>t</mi><mn>3</mn></msup></mrow><mrow><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>3</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><msup><mi>t</mi><mn>3</mn></msup></mrow><mrow><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>3</mn></msup></mrow></mfrac></mrow></math></span>: <math display=\"block\"><mrow><mo>∫</mo><mroot><msup><mi>t</mi><mn>3</mn></msup><mn>3</mn></mroot><mo>⋅</mo><mfrac><mrow><mfrac><mrow><mn>9</mn><msup><mi>t</mi><mn>2</mn></msup></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mi>d</mi><mi>t</mi></mrow><mfrac><mrow><mn>3</mn><msup><mi>t</mi><mn>3</mn></msup></mrow><mrow><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>3</mn></msup></mrow></mfrac></mfrac><mo>=</mo><mo>∫</mo><mfrac><mrow><mi>t</mi><mo>⋅</mo><mn>9</mn><msup><mi>t</mi><mn>2</mn></msup></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mo>⋅</mo><mfrac><mrow><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>3</mn></msup></mrow><mrow><mn>3</mn><msup><mi>t</mi><mn>3</mn></msup></mrow></mfrac><mi>d</mi><mi>t</mi><mo>=</mo><mo>∫</mo><mfrac><mrow><mn>9</mn><msup><mi>t</mi><mn>3</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mn>3</mn><msup><mi>t</mi><mn>3</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>3</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>t</mi><mo>=</mo><mn>3</mn><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>3</mn></msup></mrow></mfrac></mrow></math>"
       },
       {
        "mota": "testua",
@@ -16567,7 +16655,7 @@ KAPITULUAK["01mc_03integralak"] = {
        "elementuak": [
         "<math display=\"inline\"><msup><mi>t</mi><mn>2</mn></msup></math>: <math display=\"inline\"><mrow><mn>0</mn><mo>=</mo><mi>A</mi><mo>+</mo><mi>B</mi></mrow></math>",
         "<math display=\"inline\"><msup><mi>t</mi><mn>1</mn></msup></math>: <math display=\"inline\"><mrow><mn>0</mn><mo>=</mo><mi>A</mi><mo>−</mo><mi>B</mi><mo>+</mo><mi>C</mi></mrow></math> — <em>&quot;si sumamos los tres: <math display=\"inline\"><mrow><mn>1</mn><mo>=</mo><mn>3</mn><mi>A</mi><mo>→</mo><mi>A</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>&quot;</em>  (arrosaz biribilduta)",
-        "<math display=\"inline\"><msup><mi>t</mi><mn>0</mn></msup></math>: <math display=\"inline\"><mrow><mn>1</mn><mo>=</mo><mi>A</mi><mo>−</mo><mi>C</mi></mrow></math> <math display=\"block\"><mrow><mi>B</mi><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>C</mi><mo>=</mo><mi>A</mi><mo>−</mo><mn>1</mn><mo>=</mo><mi>−</mi><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math> <math display=\"block\"><mrow><mi>−</mi><mn>3</mn><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mfrac><mn>1</mn><mn>3</mn></mfrac><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><mi>−</mi><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>t</mi><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>t</mi><mo>=</mo><mi>−</mi><mn>3</mn><mo>⋅</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>−</mo><mn>3</mn><mo>∫</mo><mfrac><mrow><mi>−</mi><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>t</mi><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>t</mi></mrow></math> Lehen zatia: <math display=\"inline\"><mrow><mi>−</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>t</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math>  (&quot;HECHO&quot; urdinez). Bigarrena, <em>&quot;3a kentzen dugu zatitzen eta zeinu negatiboa&quot;</em>: <math display=\"block\"><mrow><mi>−</mi><mn>3</mn><mo>∫</mo><mfrac><mrow><mi>−</mi><mfrac><mn>1</mn><mn>3</mn></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>t</mi><mo>=</mo><mo>∫</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>t</mi></mrow><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><msub><mi>I</mi><mn>1</mn></msub></mrow></math> <em>&quot;Lehenengo beheko deribatua goian jartzeko trikimailua&quot;</em>  (<math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup><mo>=</mo><mn>2</mn><mi>t</mi><mo>+</mo><mn>1</mn></mrow></math>): <math display=\"block\"><mrow><msub><mi>I</mi><mn>1</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>∫</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>t</mi><mo>+</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>t</mi></mrow><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>∫</mo><mfrac><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mi>t</mi><mo>+</mo><mn>1</mn><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>t</mi></mrow><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>∫</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>t</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>t</mi></mrow><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math> Lehena: <math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math>  (&quot;HECHO&quot;). Bigarrena (<math display=\"inline\"><msub><mi>I</mi><mn>2</mn></msub></math>): <em>&quot;ahora toca buscar un cuadrado&quot;</em>: <math display=\"block\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> &quot;nos sobra un </mtext><mspace width=\"0.333em\"></mspace></mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> y nos falta </mtext><mspace width=\"0.333em\"></mspace></mrow><mn>1</mn><mo>→</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mrow><mtext mathvariant=\"normal\">&quot; </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math> &quot;CAMBIO&quot;  <math display=\"inline\"><mrow><mi>t</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><msqrt><mfrac><mn>3</mn><mn>4</mn></mfrac></msqrt><mi>z</mi></mrow></math>, <math display=\"inline\"><mrow><mi>d</mi><mi>t</mi><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mi>d</mi><mi>z</mi></mrow></math>, <math display=\"inline\"><mrow><mi>z</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>t</mi><mo>+</mo><mn>1</mn></mrow><msqrt><mn>3</mn></msqrt></mfrac></mrow></math>: <math display=\"block\"><mrow><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>+</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>⋅</mo><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac><mo>⋅</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>…</mi><mo>=</mo><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac><mo>⋅</mo><mi>…</mi><mo>→</mo><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mrow><mn>2</mn><mi>t</mi><mo>+</mo><mn>1</mn></mrow><msqrt><mn>3</mn></msqrt></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> (&quot;HECHO&quot; urdinez; koadernoko azken lerroa: &quot;SOLUCIÓN(t)  =  <math display=\"inline\"><mrow><mi>−</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>t</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>+</mi><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>+</mi><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mfrac><mrow><mn>2</mn><mi>t</mi><mo>+</mo><mn>1</mn></mrow><msqrt><mn>3</mn></msqrt></mfrac><mo>+</mo><mi>K</mi></mrow></math>&quot;)."
+        "<math display=\"inline\"><msup><mi>t</mi><mn>0</mn></msup></math>: <math display=\"inline\"><mrow><mn>1</mn><mo>=</mo><mi>A</mi><mo>−</mo><mi>C</mi></mrow></math> <math display=\"block\"><mrow><mi>B</mi><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>C</mi><mo>=</mo><mi>A</mi><mo>−</mo><mn>1</mn><mo>=</mo><mi>−</mi><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math> <math display=\"block\"><mrow><mi>−</mi><mn>3</mn><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mfrac><mn>1</mn><mn>3</mn></mfrac><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><mi>−</mi><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>t</mi><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>t</mi><mo>=</mo><mi>−</mi><mn>3</mn><mo>⋅</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>−</mo><mn>3</mn><mo>∫</mo><mfrac><mrow><mi>−</mi><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>t</mi><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>t</mi></mrow></math> Lehen zatia: <math display=\"inline\"><mrow><mi>−</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>t</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math>  (&quot;HECHO&quot; urdinez). Bigarrena, <em>&quot;3a kentzen dugu zatitzen eta zeinu negatiboa&quot;</em>: <math display=\"block\"><mrow><mi>−</mi><mn>3</mn><mo>∫</mo><mfrac><mrow><mi>−</mi><mfrac><mn>1</mn><mn>3</mn></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mi>d</mi><mi>t</mi><mo>=</mo><mo>∫</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>t</mi></mrow><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><msub><mi>I</mi><mn>1</mn></msub></mrow></math> <em>&quot;Lehenengo beheko deribatua goian jartzeko trikimailua&quot;</em>  (<math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>′</mo></msup><mo>=</mo><mn>2</mn><mi>t</mi><mo>+</mo><mn>1</mn></mrow></math>): <math display=\"block\"><mrow><msub><mi>I</mi><mn>1</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>∫</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>t</mi><mo>+</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>t</mi></mrow><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>∫</mo><mfrac><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mi>t</mi><mo>+</mo><mn>1</mn><mo>+</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>t</mi></mrow><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>∫</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>t</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>d</mi><mi>t</mi></mrow><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>+</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math> Lehena: <math display=\"inline\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></math>  (&quot;HECHO&quot;). Bigarrena (<math display=\"inline\"><msub><mi>I</mi><mn>2</mn></msub></math>): <em>&quot;ahora toca buscar un cuadrado&quot;</em>: <math display=\"block\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> &quot;nos sobra un </mtext><mspace width=\"0.333em\"></mspace></mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> y nos falta </mtext><mspace width=\"0.333em\"></mspace></mrow><mn>1</mn><mo>→</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mrow><mtext mathvariant=\"normal\">&quot; </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math> &quot;CAMBIO&quot;  <math display=\"inline\"><mrow><mi>t</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><msqrt><mfrac><mn>3</mn><mn>4</mn></mfrac></msqrt><mi>z</mi></mrow></math>, <math display=\"inline\"><mrow><mi>d</mi><mi>t</mi><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mi>d</mi><mi>z</mi></mrow></math>, <math display=\"inline\"><mrow><mi>z</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>t</mi><mo>+</mo><mn>1</mn></mrow><msqrt><mn>3</mn></msqrt></mfrac></mrow></math>: <math display=\"block\"><mrow><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>t</mi></mrow><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>t</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>+</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>⋅</mo><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac><mo>⋅</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>…</mi><mo>=</mo><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac><mo>⋅</mo><mi>…</mi><mo>→</mo><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mrow><mn>2</mn><mi>t</mi><mo>+</mo><mn>1</mn></mrow><msqrt><mn>3</mn></msqrt></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> (&quot;HECHO&quot; urdinez; koadernoko azken lerroa: &quot;SOLUCIÓN(t)  =  <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>−</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>t</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>+</mi><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mi>t</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>+</mi><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mfrac><mrow><mn>2</mn><mi>t</mi><mo>+</mo><mn>1</mn></mrow><msqrt><mn>3</mn></msqrt></mfrac><mo>+</mo><mi>K</mi></mrow></math></span>&quot;)."
        ]
       },
       {
@@ -16602,14 +16690,14 @@ KAPITULUAK["01mc_03integralak"] = {
   {
    "id": "a27",
    "maila": 2,
-   "izenburua": "74. ariketa — (63)  <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mfrac><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mrow><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>-ren izaera (2012-05-29 finala)",
+   "izenburua": "74. ariketa — (63)  <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mfrac><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mrow><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math></span>-ren izaera (2012-05-29 finala)",
    "blokeak": [
     {
      "mota": "ariketa",
      "blokeak": [
       {
        "mota": "testua",
-       "html": "(2012-05-29ko finala, 63.a; &quot;aztertu integral inpropioaren konbergentzia&quot;.) Aztertu <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mfrac><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mrow><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>-ren izaera. (Urdinez: <em>&quot;kalkulurik ez eskatzea bat da pista: suelen ser de comparar&quot;</em>.)"
+       "html": "(2012-05-29ko finala, 63.a; &quot;aztertu integral inpropioaren konbergentzia&quot;.) Aztertu <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mfrac><mrow><mi>x</mi><mrow><mi mathvariant=\"normal\">arctan</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow><mrow><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math></span>-ren izaera. (Urdinez: <em>&quot;kalkulurik ez eskatzea bat da pista: suelen ser de comparar&quot;</em>.)"
       }
      ],
      "ebazpena": [
@@ -16664,7 +16752,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "ebazpena": [
       {
        "mota": "testua",
-       "html": "<strong>(a).</strong>  <em>&quot;Es impropia: 1) intervalo acotado (ez da horregatik.); 2) funtzio ez kotatuta hemen <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>  (ahí le has dao)&quot;</em> — arrosaz: <math display=\"inline\"><mi>∄</mi></math>: <math display=\"inline\"><mrow><msqrt><mrow><mn>1</mn><mo>−</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></msqrt><mo>=</mo><mn>0</mn><mo>⇐</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>=</mo><mn>1</mn><mo>⇐</mo><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>."
+       "html": "<strong>(a).</strong>  <em>&quot;Es impropia: 1) intervalo acotado (ez da horregatik.); 2) funtzio ez kotatuta hemen <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>  (ahí le has dao)&quot;</em> — arrosaz: <math display=\"inline\"><mi>∄</mi></math>: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msqrt><mrow><mn>1</mn><mo>−</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></msqrt><mo>=</mo><mn>0</mn><mo>⇐</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>=</mo><mn>1</mn><mo>⇐</mo><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math></span>."
       },
       {
        "mota": "testua",
@@ -16702,14 +16790,14 @@ KAPITULUAK["01mc_03integralak"] = {
   {
    "id": "a29",
    "maila": 2,
-   "izenburua": "76. ariketa — (4)  <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mfrac><mrow><msqrt><mi>x</mi></msqrt><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>-ren izaera (2009-09-01, fisikako azterketa)",
+   "izenburua": "76. ariketa — (4)  <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mfrac><mrow><msqrt><mi>x</mi></msqrt><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math></span>-ren izaera (2009-09-01, fisikako azterketa)",
    "blokeak": [
     {
      "mota": "ariketa",
      "blokeak": [
       {
        "mota": "testua",
-       "html": "(2009-09-01eko fisikako azterketa, 4.a.) Aztertu <math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mfrac><mrow><msqrt><mi>x</mi></msqrt><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math>-ren konbergentzia."
+       "html": "(2009-09-01eko fisikako azterketa, 4.a.) Aztertu <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mi>∞</mi></msubsup><mfrac><mrow><msqrt><mi>x</mi></msqrt><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>d</mi><mi>x</mi></mrow></math></span>-ren konbergentzia."
       }
      ],
      "ebazpena": [
@@ -16727,7 +16815,7 @@ KAPITULUAK["01mc_03integralak"] = {
       },
       {
        "mota": "testua",
-       "html": "<strong>Paso 4 — <math display=\"inline\"><msub><mi>I</mi><mn>2</mn></msub></math>.</strong>  <em>&quot;Hainbat baliokidetasunen bidez sinplifika dezakegu beste konbergentzia handiago batekin erkatzeko&quot;</em>: (4A)  <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></math> denean <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∼</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>x</mi><mrow><mi>−</mi><mn>2</mn></mrow></msup></mrow></math>: <math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mrow><msqrt><mi>x</mi></msqrt><mo>⋅</mo><msup><mi>x</mi><mrow><mi>−</mi><mn>2</mn></mrow></msup></mrow><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>d</mi><mi>x</mi><mo>;</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>x</mi><mo>→</mo><mi>∞</mi><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> denean </mtext><mspace width=\"0.333em\"></mspace></mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∼</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>:</mo><mspace width=\"1.0em\"></mspace><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><msup><mi>x</mi><mrow><mi>−</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></msup><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac></mrow></math> (4B) <math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mo>≤</mo><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup></mfrac></mrow></math> <em>&quot;Hau konbergentziazkoa denez (<math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>&gt;</mo><mn>1</mn></mrow></math>) y es mayor, <math display=\"inline\"><msub><mi>I</mi><mn>2</mn></msub></math> es convergente.&quot;</em>"
+       "html": "<strong>Paso 4 — <math display=\"inline\"><msub><mi>I</mi><mn>2</mn></msub></math>.</strong>  <em>&quot;Hainbat baliokidetasunen bidez sinplifika dezakegu beste konbergentzia handiago batekin erkatzeko&quot;</em>: (4A)  <math display=\"inline\"><mrow><mi>x</mi><mo>→</mo><mi>∞</mi></mrow></math> denean <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∼</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>x</mi><mrow><mi>−</mi><mn>2</mn></mrow></msup></mrow></math></span>: <math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mrow><msqrt><mi>x</mi></msqrt><mo>⋅</mo><msup><mi>x</mi><mrow><mi>−</mi><mn>2</mn></mrow></msup></mrow><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></mfrac><mi>d</mi><mi>x</mi><mo>;</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>x</mi><mo>→</mo><mi>∞</mi><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> denean </mtext><mspace width=\"0.333em\"></mspace></mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∼</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>:</mo><mspace width=\"1.0em\"></mspace><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><msup><mi>x</mi><mrow><mi>−</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></msup><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mi>d</mi><mi>x</mi><mo>=</mo><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac></mrow></math> (4B) <math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>x</mi></mrow></mfrac><mo>≤</mo><msubsup><mo>∫</mo><mn>1</mn><mi>∞</mi></msubsup><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><msup><mi>x</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup></mfrac></mrow></math> <em>&quot;Hau konbergentziazkoa denez (<math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>&gt;</mo><mn>1</mn></mrow></math>) y es mayor, <math display=\"inline\"><msub><mi>I</mi><mn>2</mn></msub></math> es convergente.&quot;</em>"
       },
       {
        "mota": "testua",
@@ -16764,7 +16852,7 @@ KAPITULUAK["01mc_03integralak"] = {
      "ebazpena": [
       {
        "mota": "testua",
-       "html": "<strong>1. aldaketa</strong>  (berdez): <math display=\"inline\"><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>=</mo><mi>z</mi></mrow></math>, <math display=\"inline\"><mrow><msup><mi>e</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi><mo>=</mo><mi>d</mi><mi>z</mi></mrow></math>: <math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>e</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi></mrow><msqrt><mrow><mn>9</mn><mo>−</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>e</mi><mi>x</mi></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></msqrt></mfrac><mo>=</mo><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>z</mi></mrow><msqrt><mrow><mn>9</mn><mo>−</mo><msup><mi>z</mi><mn>2</mn></msup></mrow></msqrt></mfrac></mrow></math> &quot;TRUCO&quot;: <math display=\"inline\"><mn>9</mn></math> atera erro barrutik: <math display=\"block\"><mrow><mo>=</mo><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>z</mi></mrow><msqrt><mrow><mn>9</mn><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>z</mi><mn>3</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msqrt></mfrac><mo>=</mo><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>z</mi></mrow><mrow><mn>3</mn><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>z</mi><mn>3</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></msqrt></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>z</mi></mrow><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>z</mi><mn>3</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></msqrt></mfrac></mrow></math> <strong>2. aldaketa</strong>  (berdez): <math display=\"inline\"><mrow><mfrac><mi>z</mi><mn>3</mn></mfrac><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math>, <math display=\"inline\"><mrow><mi>z</mi><mo>=</mo><mn>3</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math>, <math display=\"inline\"><mrow><mi>d</mi><mi>z</mi><mo>=</mo><mn>3</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mi>d</mi><mi>t</mi></mrow></math>. Gorriz &quot;(!) Zergatik aldaketa hau? VEAMOS: <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mo>=</mo><mn>1</mn></mrow></math>, <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mo>=</mo><mn>1</mn><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mo>⇒</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>=</mo><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi></mrow></msqrt></mrow></math>&quot;  (berdez eskuinean: &quot;no ahí la razón&quot; geziarekin): <math display=\"block\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>∫</mo><mfrac><mrow><mn>3</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mi>d</mi><mi>t</mi></mrow><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></mfrac><mo>=</mo><mo>∫</mo><mi>d</mi><mi>t</mi><mo>=</mo><mi>t</mi></mrow></math> &quot;CUIDADO&quot;  gorriz: <em>&quot;si <math display=\"inline\"><mrow><mfrac><mi>z</mi><mn>3</mn></mfrac><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>→</mo><mi>t</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>z</mi><mn>3</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>&quot;</em>: <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>z</mi><mn>3</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mfrac><msup><mi>e</mi><mi>x</mi></msup><mn>3</mn></mfrac><mo>+</mo><mi>K</mi></mrow></math>"
+       "html": "<strong>1. aldaketa</strong>  (berdez): <math display=\"inline\"><mrow><msup><mi>e</mi><mi>x</mi></msup><mo>=</mo><mi>z</mi></mrow></math>, <math display=\"inline\"><mrow><msup><mi>e</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi><mo>=</mo><mi>d</mi><mi>z</mi></mrow></math>: <math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><msup><mi>e</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi></mrow><msqrt><mrow><mn>9</mn><mo>−</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>e</mi><mi>x</mi></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></msqrt></mfrac><mo>=</mo><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>z</mi></mrow><msqrt><mrow><mn>9</mn><mo>−</mo><msup><mi>z</mi><mn>2</mn></msup></mrow></msqrt></mfrac></mrow></math> &quot;TRUCO&quot;: <math display=\"inline\"><mn>9</mn></math> atera erro barrutik: <math display=\"block\"><mrow><mo>=</mo><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>z</mi></mrow><msqrt><mrow><mn>9</mn><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>z</mi><mn>3</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msqrt></mfrac><mo>=</mo><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>z</mi></mrow><mrow><mn>3</mn><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>z</mi><mn>3</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></msqrt></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>z</mi></mrow><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>z</mi><mn>3</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></msqrt></mfrac></mrow></math> <strong>2. aldaketa</strong>  (berdez): <math display=\"inline\"><mrow><mfrac><mi>z</mi><mn>3</mn></mfrac><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math>, <math display=\"inline\"><mrow><mi>z</mi><mo>=</mo><mn>3</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></math>, <math display=\"inline\"><mrow><mi>d</mi><mi>z</mi><mo>=</mo><mn>3</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mi>d</mi><mi>t</mi></mrow></math>. Gorriz &quot;(!) Zergatik aldaketa hau? VEAMOS: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mo>=</mo><mn>1</mn></mrow></math></span>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mo>=</mo><mn>1</mn><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi><mo>⇒</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>=</mo><msqrt><mrow><mn>1</mn><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>t</mi></mrow></msqrt></mrow></math></span>&quot;  (berdez eskuinean: &quot;no ahí la razón&quot; geziarekin): <math display=\"block\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>∫</mo><mfrac><mrow><mn>3</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi><mi>d</mi><mi>t</mi></mrow><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>t</mi></mrow></mfrac><mo>=</mo><mo>∫</mo><mi>d</mi><mi>t</mi><mo>=</mo><mi>t</mi></mrow></math> &quot;CUIDADO&quot;  gorriz: <em>&quot;si <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mfrac><mi>z</mi><mn>3</mn></mfrac><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>t</mi><mo>→</mo><mi>t</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>z</mi><mn>3</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>&quot;</em>: <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>z</mi><mn>3</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mi mathvariant=\"normal\">arcsin</mi><mo>&#8289;</mo></mrow><mfrac><msup><mi>e</mi><mi>x</mi></msup><mn>3</mn></mfrac><mo>+</mo><mi>K</mi></mrow></math>"
       },
       {
        "mota": "kutxa",
@@ -16813,7 +16901,7 @@ KAPITULUAK["01mc_03integralak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "Bi errata kateatu daude: <math display=\"inline\"><mrow><mi>x</mi><mo>−</mo><mn>1</mn><mo>=</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></math> bada <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></math> da (ez <math display=\"inline\"><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></math>), eta gainera berretura-funtzioaren primitiba zuzenean hartzeak ez du balio hemen ere (<math display=\"inline\"><mi>t</mi></math>-rekiko integratzen ari gara, eta <math display=\"inline\"><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>t</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup></math> ez da <math display=\"inline\"><mrow><msup><mi>u</mi><mo>′</mo></msup><msup><mi>u</mi><mn>3</mn></msup></mrow></math> formakoa). Deribatuz kontrol azkarra: <math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>′</mo></msup><mo>=</mo><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup><mo>≠</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><msqrt><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt></mfrac></mrow></math>. Bide zuzena c2-ko 35. ariketan bertan dago landuta (binomioa garatuta): <math display=\"inline\"><mrow><mi>u</mi><mo>=</mo><mi>x</mi><mo>−</mo><mn>1</mn></mrow></math>-ekin <math display=\"inline\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>u</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn><msup><mi>u</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>u</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>u</mi><mrow><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></msup><mi>d</mi><mi>u</mi><mo>=</mo><mfrac><mn>2</mn><mn>7</mn></mfrac><msup><mi>u</mi><mfrac><mn>7</mn><mn>2</mn></mfrac></msup><mo>+</mo><mfrac><mn>6</mn><mn>5</mn></mfrac><msup><mi>u</mi><mfrac><mn>5</mn><mn>2</mn></mfrac></msup><mo>+</mo><mn>2</mn><msup><mi>u</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup><mo>+</mo><mn>2</mn><msup><mi>u</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mo>+</mo><mi>K</mi></mrow></math>. Erabiltzailearen &quot;preguntar a Joseba&quot; oharrak berak salatzen du zalantza."
+         "html": "Bi errata kateatu daude: <math display=\"inline\"><mrow><mi>x</mi><mo>−</mo><mn>1</mn><mo>=</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></math> bada <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></math> da (ez <math display=\"inline\"><mrow><msup><mi>t</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></math>), eta gainera berretura-funtzioaren primitiba zuzenean hartzeak ez du balio hemen ere (<math display=\"inline\"><mi>t</mi></math>-rekiko integratzen ari gara, eta <math display=\"inline\"><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>t</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup></math> ez da <math display=\"inline\"><mrow><msup><mi>u</mi><mo>′</mo></msup><msup><mi>u</mi><mn>3</mn></msup></mrow></math> formakoa). Deribatuz kontrol azkarra: <math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>4</mn></msup></mrow><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>′</mo></msup><mo>=</mo><mn>2</mn><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mn>2</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>3</mn></msup><mo>≠</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><msqrt><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt></mfrac></mrow></math>. Bide zuzena c2-ko 35. ariketan bertan dago landuta (binomioa garatuta): <math display=\"inline\"><mrow><mi>u</mi><mo>=</mo><mi>x</mi><mo>−</mo><mn>1</mn></mrow></math>-ekin <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>u</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn><msup><mi>u</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>u</mi><mo>+</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>u</mi><mrow><mi>−</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></msup><mi>d</mi><mi>u</mi><mo>=</mo><mfrac><mn>2</mn><mn>7</mn></mfrac><msup><mi>u</mi><mfrac><mn>7</mn><mn>2</mn></mfrac></msup><mo>+</mo><mfrac><mn>6</mn><mn>5</mn></mfrac><msup><mi>u</mi><mfrac><mn>5</mn><mn>2</mn></mfrac></msup><mo>+</mo><mn>2</mn><msup><mi>u</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup><mo>+</mo><mn>2</mn><msup><mi>u</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mo>+</mo><mi>K</mi></mrow></math></span>. Erabiltzailearen &quot;preguntar a Joseba&quot; oharrak berak salatzen du zalantza."
         }
        ]
       },
@@ -16926,20 +17014,20 @@ KAPITULUAK["01mc_03integralak"] = {
   {
    "id": "a34",
    "maila": 2,
-   "izenburua": "83. ariketa — <math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>  (<math display=\"inline\"><mi>n</mi></math>  bakoitia: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>t</mi></mrow></math>)",
+   "izenburua": "83. ariketa — <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math></span>  (<math display=\"inline\"><mi>n</mi></math>  bakoitia: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>t</mi></mrow></math>)",
    "blokeak": [
     {
      "mota": "ariketa",
      "blokeak": [
       {
        "mota": "testua",
-       "html": "(Iturri ofizialik gabe; &quot;trigonométricas, sustituciones mamó fáciles&quot;; goian &quot;<math display=\"inline\"><mi>n</mi></math>  = impar, <math display=\"inline\"><mi>n</mi></math>  = par ¿?&quot;.) Kalkula ezazu <math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math>."
+       "html": "(Iturri ofizialik gabe; &quot;trigonométricas, sustituciones mamó fáciles&quot;; goian &quot;<math display=\"inline\"><mi>n</mi></math>  = impar, <math display=\"inline\"><mi>n</mi></math>  = par ¿?&quot;.) Kalkula ezazu <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math></span>."
       }
      ],
      "ebazpena": [
       {
        "mota": "testua",
-       "html": "<em>&quot;Primero separamos&quot;</em>: <math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math> Aldaketa (berdez): <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>t</mi></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>d</mi><mi>t</mi></mrow></math>. Gorriz &quot;(!) IMPORTANTE&quot; eta urdinez: <math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>1</mn><mo>⇒</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>1</mn><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></math>: <math display=\"block\"><mrow><mo>=</mo><mo>∫</mo><msup><mi>t</mi><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>t</mi><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>t</mi><mn>2</mn></msup><mo>−</mo><msup><mi>t</mi><mn>4</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>t</mi><mo>=</mo><mo>∫</mo><msup><mi>t</mi><mn>2</mn></msup><mi>d</mi><mi>t</mi><mo>−</mo><mo>∫</mo><msup><mi>t</mi><mn>4</mn></msup><mi>d</mi><mi>t</mi><mo>=</mo><mfrac><msup><mi>t</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><mfrac><msup><mi>t</mi><mn>5</mn></msup><mn>5</mn></mfrac><mo>=</mo><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi></mrow><mn>3</mn></mfrac><mo>−</mo><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mi>x</mi></mrow><mn>5</mn></mfrac><mo>+</mo><mi>K</mi></mrow></math>"
+       "html": "<em>&quot;Primero separamos&quot;</em>: <math display=\"block\"><mrow><mo>∫</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi></mrow></math> Aldaketa (berdez): <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>x</mi><mo>=</mo><mi>t</mi></mrow></math>, <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>x</mi><mi>d</mi><mi>x</mi><mo>=</mo><mi>d</mi><mi>t</mi></mrow></math>. Gorriz &quot;(!) IMPORTANTE&quot; eta urdinez: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>+</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>1</mn><mo>⇒</mo><msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>1</mn><mo>−</mo><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>2</mn></msup><mi>x</mi></mrow></math></span>: <math display=\"block\"><mrow><mo>=</mo><mo>∫</mo><msup><mi>t</mi><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>t</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>t</mi><mo>=</mo><mo>∫</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>t</mi><mn>2</mn></msup><mo>−</mo><msup><mi>t</mi><mn>4</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>d</mi><mi>t</mi><mo>=</mo><mo>∫</mo><msup><mi>t</mi><mn>2</mn></msup><mi>d</mi><mi>t</mi><mo>−</mo><mo>∫</mo><msup><mi>t</mi><mn>4</mn></msup><mi>d</mi><mi>t</mi><mo>=</mo><mfrac><msup><mi>t</mi><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><mfrac><msup><mi>t</mi><mn>5</mn></msup><mn>5</mn></mfrac><mo>=</mo><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>3</mn></msup><mi>x</mi></mrow><mn>3</mn></mfrac><mo>−</mo><mfrac><mrow><msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mn>5</mn></msup><mi>x</mi></mrow><mn>5</mn></mfrac><mo>+</mo><mi>K</mi></mrow></math>"
       },
       {
        "mota": "kutxa",

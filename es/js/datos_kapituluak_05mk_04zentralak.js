@@ -155,12 +155,12 @@ KAPITULUAK["05mk_04zentralak"] = {
        "html": "Comprueba que las ecuaciones del movimiento en coordenadas polares son las siguientes:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>m</mi><mover><mi>r</mi><mo accent=\"true\">̈</mo></mover><mo>−</mo><mi>m</mi><mi>r</mi><msup><mover><mi>ϕ</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>+</mo><msup><mi>V</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>0</mn><mo>,</mo></mrow></math>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>m</mi><msup><mi>r</mi><mn>2</mn></msup><mover><mi>ϕ</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></msup><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -190,8 +190,8 @@ KAPITULUAK["05mk_04zentralak"] = {
        "html": "¿Por qué se llama <strong>fuerza centrífuga</strong>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>m</mi><mi>r</mi><msup><mover><mi>ϕ</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>=</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mi>m</mi><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mi>d</mi><mrow><mi>d</mi><mi>r</mi></mrow></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>"
       },
       {
        "mota": "testua",
@@ -259,7 +259,7 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "testua",
-     "html": "Naturalmente, esta última es la energía mecánica (4.8), tras eliminar la velocidad angular mediante la ley de conservación (4.7). Ahora, si usamos el método de separación de variables de la sección 1.4.3, la ecuación del movimiento radial es <math display=\"block\"><mrow><mi>d</mi><mi>t</mi><mo>=</mo><mi>±</mi><mfrac><mrow><mi>d</mi><mi>r</mi></mrow><msqrt><mrow><mfrac><mn>2</mn><mi>m</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><msub><mi>V</mi><mi>e</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msqrt></mfrac><mo>=</mo><mi>±</mi><mfrac><mrow><mi>d</mi><mi>r</mi></mrow><msqrt><mrow><mfrac><mn>2</mn><mi>m</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msqrt></mfrac></mrow></math> —recuérdese (1.109)—. Su solución, correspondiente a (1.111), se obtiene mediante una integral y usando la condición inicial <math display=\"inline\"><mrow><mi>r</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msub><mi>r</mi><mn>0</mn></msub></mrow></math>: <math display=\"block\"><mrow><mi>t</mi><mo>−</mo><msub><mi>t</mi><mn>0</mn></msub><mo>=</mo><mi>±</mi><msubsup><mo>∫</mo><msub><mi>r</mi><mn>0</mn></msub><mi>r</mi></msubsup><mfrac><mrow><mi>d</mi><mi>r</mi></mrow><msqrt><mrow><mfrac><mn>2</mn><mi>m</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msqrt></mfrac><mi>.</mi></mrow></math> Si resolvemos esta integral conoceremos el tiempo <math display=\"inline\"><mi>t</mi></math> en función de la distancia <math display=\"inline\"><mi>r</mi></math> y, invirtiendo esa función, la solución <math display=\"inline\"><mrow><mi>r</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Naturalmente, para realizar esas dos operaciones matemáticas habrá que recurrir a menudo a métodos aproximados (quizá a un método numérico adecuado<span class=\"j-oin\">[Véase la página `http://tp.lc.ehu.eus/jma/mekanika/zentralak/zentrala.html`.]</span>), ya que con la mayoría de los potenciales <math display=\"inline\"><mrow><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> es difícil o imposible hacerlo de forma exacta."
+     "html": "Por supuesto, esta última (4.8) es la energía mecánica, tras eliminar la velocidad angular (4.7) mediante la ley de conservación. Ahora, si usamos el método de separación de variables de la sección 1.4.3, la ecuación del movimiento radial es <math display=\"block\"><mrow><mi>d</mi><mi>t</mi><mo>=</mo><mi>±</mi><mfrac><mrow><mi>d</mi><mi>r</mi></mrow><msqrt><mrow><mfrac><mn>2</mn><mi>m</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><msub><mi>V</mi><mi>e</mi></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msqrt></mfrac><mo>=</mo><mi>±</mi><mfrac><mrow><mi>d</mi><mi>r</mi></mrow><msqrt><mrow><mfrac><mn>2</mn><mi>m</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msqrt></mfrac></mrow></math> —recuérdese (1.109)—. La solución de esta, correspondiente a (1.111), se obtiene mediante una integral y usando la condición inicial <math display=\"inline\"><mrow><mi>r</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msub><mi>r</mi><mn>0</mn></msub></mrow></math>: <math display=\"block\"><mrow><mi>t</mi><mo>−</mo><msub><mi>t</mi><mn>0</mn></msub><mo>=</mo><mi>±</mi><msubsup><mo>∫</mo><msub><mi>r</mi><mn>0</mn></msub><mi>r</mi></msubsup><mfrac><mrow><mi>d</mi><mi>r</mi></mrow><msqrt><mrow><mfrac><mn>2</mn><mi>m</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></msqrt></mfrac><mi>.</mi></mrow></math> Si resolvemos esta integral conoceremos el tiempo <math display=\"inline\"><mi>t</mi></math> en función de la distancia <math display=\"inline\"><mi>r</mi></math> y, invirtiendo esa función, la solución <math display=\"inline\"><mrow><mi>r</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Por supuesto, para realizar esas dos operaciones matemáticas habrá que recurrir muchas veces a métodos aproximados (quizá a un método numérico adecuado<span class=\"j-oin\">[Véase la página <a href=\"http://tp.lc.ehu.eus/jma/mekanika/zentralak/zentrala.html\" target=\"_blank\" rel=\"noopener\"><code>http://tp.lc.ehu.eus/jma/mekanika/zentralak/zentrala.html</code></a>.]</span>), ya que en el caso de la mayoría de los potenciales <math display=\"inline\"><mrow><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> hacerlo de forma exacta es difícil o imposible."
     },
     {
      "mota": "izenburua",
@@ -291,12 +291,12 @@ KAPITULUAK["05mk_04zentralak"] = {
        "html": "Usa la condición inicial <math display=\"inline\"><mrow><mi>r</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>ϕ</mi><mn>0</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msub><mi>r</mi><mn>0</mn></msub></mrow></math> y la constante de integración <math display=\"inline\"><mi>δ</mi></math> para demostrar que la ecuación de la órbita se escribe de las dos formas equivalentes siguientes:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>ϕ</mi><mo>−</mo><msub><mi>ϕ</mi><mn>0</mn></msub><mo>=</mo><mi>∓</mi><msubsup><mo>∫</mo><mrow><mn>1</mn><mi>/</mi><msub><mi>r</mi><mn>0</mn></msub></mrow><mrow><mn>1</mn><mi>/</mi><mi>r</mi></mrow></msubsup><mfrac><mrow><mi>d</mi><mi>u</mi></mrow><msqrt><mrow><mfrac><mrow><mn>2</mn><mi>m</mi></mrow><msup><mi>L</mi><mn>2</mn></msup></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><mi>V</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mi>u</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>−</mo><msup><mi>u</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mo>,</mo></mrow></math>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>ϕ</mi><mo>−</mo><mi>δ</mi><mo>=</mo><mi>∓</mi><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>u</mi></mrow><msqrt><mrow><mfrac><mrow><mn>2</mn><mi>m</mi></mrow><msup><mi>L</mi><mn>2</mn></msup></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mi>E</mi><mo>−</mo><mi>V</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mi>u</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>−</mo><msup><mi>u</mi><mn>2</mn></msup></mrow></msqrt></mfrac><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -312,8 +312,8 @@ KAPITULUAK["05mk_04zentralak"] = {
        "html": "Demuestra que en los casos <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mi>−</mi><mn>2</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn></mrow></math> las integrales (4.30)–(4.31) pueden resolverse usando lo siguiente (si se cumplen las condiciones entre paréntesis):"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><msqrt><mrow><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi></mrow></msqrt></mfrac><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><msqrt><mrow><mi>−</mi><mi>a</mi></mrow></msqrt></mfrac><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> arccos </mtext><mspace width=\"0.333em\"></mspace></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mrow><mi>−</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><msqrt><mi mathvariant=\"normal\">Δ</mi></msqrt></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>a</mi><mo>&lt;</mo><mn>0</mn><mo>,</mo><mi mathvariant=\"normal\">Δ</mi><mo>≡</mo><msup><mi>b</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>a</mi><mi>c</mi><mo>&gt;</mo><mn>0</mn><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -424,16 +424,16 @@ KAPITULUAK["05mk_04zentralak"] = {
      "html": "Según el signo de la constante de proporcionalidad <math display=\"inline\"><mi>k</mi></math>, tenemos dos tipos de fuerzas newtonianas:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "par"
+     "mota": "testua",
+     "html": "<strong>Fuerza atractiva</strong>  cuando <math display=\"inline\"><mrow><mi>k</mi><mo>&gt;</mo><mn>0</mn></mrow></math>. Por ejemplo, en la ley de gravitación universal de Newton, que describe la atracción gravitatoria entre dos partículas:"
     },
     {
      "mota": "testua",
      "html": "<math display=\"block\"><mrow><mi>k</mi><mo>=</mo><mi>G</mi><msub><mi>m</mi><mn>1</mn></msub><msub><mi>m</mi><mn>2</mn></msub><mo>&gt;</mo><mn>0</mn><mi>.</mi></mrow></math>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "par"
+     "mota": "testua",
+     "html": "<strong>Fuerza repulsiva</strong>  cuando <math display=\"inline\"><mrow><mi>k</mi><mo>&lt;</mo><mn>0</mn></mrow></math>. Por ejemplo, según la ley de Coulomb, en la interacción electrostática entre dos cargas"
     },
     {
      "mota": "testua",
@@ -441,7 +441,7 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "irudia",
-     "oina": "Energía potencial efectiva. (a) Fuerza atractiva. (b) Fuerza repulsiva<span class=\"j-oin\">[Véanse las animaciones `.../kepler.html` y `.../erlatiboa.html`.]</span>",
+     "oina": "Energía potencial efectiva. (a) Fuerza atractiva. (b) Fuerza repulsiva<span class=\"j-oin\">[Véanse las animaciones\n    <a href=\"http://tp.lc.ehu.eus/jma/mekanika/zentralak/kepler.html\" target=\"_blank\" rel=\"noopener\"><code>.../kepler.html</code></a> y\n    <a href=\"http://tp.lc.ehu.eus/jma/mekanika/zentralak/erlatiboa.html\" target=\"_blank\" rel=\"noopener\"><code>.../erlatiboa.html</code></a>.]</span>",
      "src": "../media/irudiak/d2aa3f02abac063f.svg",
      "zabalera": 466
     },
@@ -535,7 +535,7 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "testua",
-     "html": "Para escribir la ecuación en coordenadas cartesianas, usaremos las ecuaciones de transformación (1.4)–(1.5) para eliminar la raíz cuadrada de la expresión equivalente <math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><mi>ε</mi><mi>r</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>±</mo><mi>r</mi><mo>=</mo><mi>ε</mi><mi>x</mi><mo>±</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></msqrt></mrow></math>: <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>−</mo><mi>ε</mi><mi>x</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></math>, o bien <math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>ε</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>ε</mi><mi>p</mi><mi>x</mi><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><msup><mi>p</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math>"
+     "html": "Para escribir la ecuación en coordenadas cartesianas, usaremos las ecuaciones de transformación (1.4)–(1.5) para eliminar la raíz cuadrada de la expresión equivalente <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><mi>ε</mi><mi>r</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>±</mo><mi>r</mi><mo>=</mo><mi>ε</mi><mi>x</mi><mo>±</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></msqrt></mrow></math></span>: <math display=\"inline\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>p</mi><mo>−</mo><mi>ε</mi><mi>x</mi><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mn>2</mn></msup></mrow></math>, o bien <math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>ε</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>ε</mi><mi>p</mi><mi>x</mi><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><msup><mi>p</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math>"
     },
     {
      "mota": "ariketa",
@@ -636,8 +636,8 @@ KAPITULUAK["05mk_04zentralak"] = {
        "html": "Completa cuadrados en la ecuación (4.60) para escribirla de este modo:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mn>1</mn><mo>−</mo><msup><mi>ε</mi><mn>2</mn></msup></mrow><mi>p</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>+</mo><mfrac><mrow><mi>ε</mi><mi>p</mi></mrow><mrow><mn>1</mn><mo>−</mo><msup><mi>ε</mi><mn>2</mn></msup></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>+</mo><mfrac><mrow><mn>1</mn><mo>−</mo><msup><mi>ε</mi><mn>2</mn></msup></mrow><msup><mi>p</mi><mn>2</mn></msup></mfrac><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -653,8 +653,8 @@ KAPITULUAK["05mk_04zentralak"] = {
        "html": "Comprueba que se cumplen las siguientes propiedades:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msup><mi>b</mi><mn>2</mn></msup><mo>+</mo><msup><mi>c</mi><mn>2</mn></msup><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mi>ε</mi><mo>=</mo><mfrac><mi>c</mi><mi>a</mi></mfrac><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -755,12 +755,12 @@ KAPITULUAK["05mk_04zentralak"] = {
        "html": "Demuestra que las coordenadas polares vienen dadas por las siguientes expresiones:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>r</mi><mo>=</mo><mi>a</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>ε</mi><mi mathvariant=\"normal\">cos</mi><mi>ψ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mfrac><mi>ϕ</mi><mn>2</mn></mfrac><mo>=</mo><msqrt><mfrac><mrow><mn>1</mn><mo>+</mo><mi>ε</mi></mrow><mrow><mn>1</mn><mo>−</mo><mi>ε</mi></mrow></mfrac></msqrt><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mfrac><mi>ψ</mi><mrow><mn>2</mn><mi>.</mi></mrow></mfrac></mrow></math>"
       }
      ]
     },
@@ -821,8 +821,8 @@ KAPITULUAK["05mk_04zentralak"] = {
        "html": "Demuestra que esta es la velocidad mínima que hay que dar a un cohete en la superficie de la Tierra para que pueda escapar hacia el infinito:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msub><mi>v</mi><mi>i</mi></msub><mo>=</mo><msqrt><mrow><mn>2</mn><mi>g</mi><msub><mi>R</mi><mo>⊕</mo></msub></mrow></msqrt><mo>≈</mo><mn>11.18</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> km/s</mtext></mrow><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -898,8 +898,8 @@ KAPITULUAK["05mk_04zentralak"] = {
        "html": "Comprueba que se cumplen las siguientes propiedades:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msup><mi>c</mi><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mi>ε</mi><mo>=</mo><mfrac><mi>c</mi><mi>a</mi></mfrac><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -908,12 +908,12 @@ KAPITULUAK["05mk_04zentralak"] = {
      "html": "La órbita es, pues, una rama de hipérbola: el semieje mayor es <math display=\"inline\"><mi>a</mi></math>, el semieje menor <math display=\"inline\"><mi>b</mi></math> y el parámetro focal <math display=\"inline\"><mi>c</mi></math>. Además, el centro de la hipérbola está en el punto <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>c</mi><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> y, por tanto, el origen (es decir, el polo de fuerzas) está en uno de los focos de la hipérbola. Como la hipérbola tiene dos ramas, la ecuación (4.93) representa dos órbitas:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "par"
+     "mota": "testua",
+     "html": "• Cuando la fuerza es atractiva (<math display=\"inline\"><mrow><mi>k</mi><mo>&gt;</mo><mn>0</mn></mrow></math>), en la ecuación (4.92) hay que elegir el signo <math display=\"inline\"><mi>+</mi></math> y se trata de la rama más cercana al polo de fuerzas."
     },
     {
-     "mota": "ezezaguna",
-     "izena": "par"
+     "mota": "testua",
+     "html": "• En el caso de fuerzas repulsivas (<math display=\"inline\"><mrow><mi>k</mi><mo>&lt;</mo><mn>0</mn></mrow></math>), hay que usar el signo <math display=\"inline\"><mi>−</mi></math> y la ecuación (4.92) describe la rama lejana."
     },
     {
      "mota": "ariketa",
@@ -952,10 +952,6 @@ KAPITULUAK["05mk_04zentralak"] = {
      "oina": "Órbitas newtonianas.",
      "blokeak": [
       {
-       "mota": "testua",
-       "html": "block(width: 100%)["
-      },
-      {
        "mota": "sarea",
        "zutabeak": "repeat(1, minmax(0,1fr))",
        "zelulak": [
@@ -977,7 +973,7 @@ KAPITULUAK["05mk_04zentralak"] = {
              "blokeak": [
               {
                "mota": "testua",
-               "html": "<math display=\"inline\"><mrow><mi>V</mi><mo>=</mo><mi>−</mi><mfrac><mi>k</mi><mi>r</mi></mfrac><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>k</mi><mo>=</mo><mi>G</mi><msub><mi>m</mi><mn>1</mn></msub><msub><mi>m</mi><mn>2</mn></msub><mo>,</mo><mspace width=\"0.167em\"></mspace><mfrac><mrow><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>q</mi><mn>1</mn></msub><msub><mi>q</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mn>4</mn><mi>π</mi><msub><mi>ε</mi><mn>0</mn></msub></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
+               "html": "<math display=\"block\"><mrow><mi>V</mi><mo>=</mo><mi>−</mi><mfrac><mi>k</mi><mi>r</mi></mfrac><mspace width=\"1.0em\"></mspace><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>k</mi><mo>=</mo><mi>G</mi><msub><mi>m</mi><mn>1</mn></msub><msub><mi>m</mi><mn>2</mn></msub><mo>,</mo><mspace width=\"0.167em\"></mspace><mfrac><mrow><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>q</mi><mn>1</mn></msub><msub><mi>q</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mn>4</mn><mi>π</mi><msub><mi>ε</mi><mn>0</mn></msub></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
               }
              ]
             },
@@ -993,7 +989,7 @@ KAPITULUAK["05mk_04zentralak"] = {
              "blokeak": [
               {
                "mota": "testua",
-               "html": "<math display=\"inline\"><mrow><msub><mi>V</mi><mi>e</mi></msub><mo>=</mo><mi>−</mi><mfrac><mi>k</mi><mi>r</mi></mfrac><mo>+</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo>≥</mo><msub><mi>E</mi><mn>0</mn></msub></mrow></math>"
+               "html": "<math display=\"block\"><mrow><msub><mi>V</mi><mi>e</mi></msub><mo>=</mo><mi>−</mi><mfrac><mi>k</mi><mi>r</mi></mfrac><mo>+</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo>≥</mo><msub><mi>E</mi><mn>0</mn></msub></mrow></math>"
               }
              ]
             },
@@ -1009,7 +1005,7 @@ KAPITULUAK["05mk_04zentralak"] = {
              "blokeak": [
               {
                "mota": "testua",
-               "html": "<math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msup><mover><mi>r</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>+</mo><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msup><mover><mi>r</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>+</mo><msub><mi>V</mi><mi>e</mi></msub><mo>≥</mo><msub><mi>E</mi><mn>0</mn></msub></mrow></math>"
+               "html": "<math display=\"block\"><mrow><mi>E</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msup><mover><mi>r</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>+</mo><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><msup><mover><mi>r</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>+</mo><msub><mi>V</mi><mi>e</mi></msub><mo>≥</mo><msub><mi>E</mi><mn>0</mn></msub></mrow></math>"
               }
              ]
             },
@@ -1025,7 +1021,7 @@ KAPITULUAK["05mk_04zentralak"] = {
              "blokeak": [
               {
                "mota": "testua",
-               "html": "<math display=\"inline\"><mrow><msub><mi>E</mi><mn>0</mn></msub><mo>=</mo><mi>−</mi><mfrac><mrow><mi>m</mi><msup><mi>k</mi><mn>2</mn></msup></mrow><mrow><mn>2</mn><msup><mi>L</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>"
+               "html": "<math display=\"block\"><mrow><msub><mi>E</mi><mn>0</mn></msub><mo>=</mo><mi>−</mi><mfrac><mrow><mi>m</mi><msup><mi>k</mi><mn>2</mn></msup></mrow><mrow><mn>2</mn><msup><mi>L</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>"
               }
              ]
             },
@@ -1041,7 +1037,7 @@ KAPITULUAK["05mk_04zentralak"] = {
              "blokeak": [
               {
                "mota": "testua",
-               "html": "<math display=\"inline\"><mrow><mi>ε</mi><mo>=</mo><msqrt><mrow><mn>1</mn><mo>−</mo><mfrac><mi>E</mi><msub><mi>E</mi><mn>0</mn></msub></mfrac></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>1</mn><mo>+</mo><mfrac><mrow><mn>2</mn><msup><mi>L</mi><mn>2</mn></msup><mi>E</mi></mrow><mrow><mi>m</mi><msup><mi>k</mi><mn>2</mn></msup></mrow></mfrac></mrow></msqrt></mrow></math>"
+               "html": "<math display=\"block\"><mrow><mi>ε</mi><mo>=</mo><msqrt><mrow><mn>1</mn><mo>−</mo><mfrac><mi>E</mi><msub><mi>E</mi><mn>0</mn></msub></mfrac></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>1</mn><mo>+</mo><mfrac><mrow><mn>2</mn><msup><mi>L</mi><mn>2</mn></msup><mi>E</mi></mrow><mrow><mi>m</mi><msup><mi>k</mi><mn>2</mn></msup></mrow></mfrac></mrow></msqrt></mrow></math>"
               }
              ]
             },
@@ -1057,7 +1053,7 @@ KAPITULUAK["05mk_04zentralak"] = {
              "blokeak": [
               {
                "mota": "testua",
-               "html": "<math display=\"inline\"><mrow><mi>p</mi><mo>=</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mi>m</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow><mrow><mn>2</mn><msub><mi>E</mi><mn>0</mn></msub></mrow></mfrac></mrow></math>"
+               "html": "<math display=\"block\"><mrow><mi>p</mi><mo>=</mo><mfrac><msup><mi>L</mi><mn>2</mn></msup><mrow><mi>m</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow><mrow><mn>2</mn><msub><mi>E</mi><mn>0</mn></msub></mrow></mfrac></mrow></math>"
               }
              ]
             },
@@ -1073,7 +1069,7 @@ KAPITULUAK["05mk_04zentralak"] = {
              "blokeak": [
               {
                "mota": "testua",
-               "html": "<math display=\"inline\"><mrow><mi>r</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mi>ε</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>+</mo><mfrac><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mfrac><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></mfrac></mrow></math>"
+               "html": "<math display=\"block\"><mrow><mi>r</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mi>ε</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>+</mo><mfrac><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mfrac><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></mfrac></mrow></math>"
               }
              ]
             }
@@ -1110,7 +1106,7 @@ KAPITULUAK["05mk_04zentralak"] = {
         ],
         [
          "<math display=\"inline\"><mrow><msub><mi>E</mi><mn>0</mn></msub><mo>&lt;</mo><mi>E</mi><mo>&lt;</mo><mn>0</mn></mrow></math> <br><math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mi>ε</mi><mo>&lt;</mo><mn>1</mn></mrow></math> <br><span><math display=\"inline\"><mrow><mi>k</mi><mo>&gt;</mo><mn>0</mn></mrow></math></span>",
-         "<math display=\"inline\"><mrow><mfrac><mi>p</mi><mrow><mn>1</mn><mo>+</mo><mi>ε</mi></mrow></mfrac><mo>≤</mo><mi>r</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mn>1</mn><mo>+</mo><mi>ε</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi></mrow></mfrac><mo>≤</mo><mfrac><mi>p</mi><mrow><mn>1</mn><mo>−</mo><mi>ε</mi></mrow></mfrac></mrow></math> <br><math display=\"inline\"><mrow><mn>0</mn><mo>≤</mo><mi>ϕ</mi><mo>≤</mo><mn>2</mn><mi>π</mi></mrow></math> <br><math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mi>−</mi><mfrac><mi>k</mi><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></mrow></math>",
+         "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mfrac><mi>p</mi><mrow><mn>1</mn><mo>+</mo><mi>ε</mi></mrow></mfrac><mo>≤</mo><mi>r</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mn>1</mn><mo>+</mo><mi>ε</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi></mrow></mfrac><mo>≤</mo><mfrac><mi>p</mi><mrow><mn>1</mn><mo>−</mo><mi>ε</mi></mrow></mfrac></mrow></math></span> <br><math display=\"inline\"><mrow><mn>0</mn><mo>≤</mo><mi>ϕ</mi><mo>≤</mo><mn>2</mn><mi>π</mi></mrow></math> <br><math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mi>−</mi><mfrac><mi>k</mi><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></mrow></math>",
          "<math display=\"inline\"><mrow><mn>2</mn><mi>a</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mn>1</mn><mo>+</mo><mi>ε</mi></mrow></mfrac><mo>+</mo><mfrac><mi>p</mi><mrow><mn>1</mn><mo>−</mo><mi>ε</mi></mrow></mfrac></mrow></math> <br><math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mn>1</mn><mo>−</mo><msup><mi>ε</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mi>−</mi><mfrac><mi>k</mi><mrow><mn>2</mn><mi>E</mi></mrow></mfrac></mrow></math> <br><math display=\"inline\"><mrow><mi>c</mi><mo>=</mo><mi>ε</mi><mi>a</mi><mspace width=\"1.0em\"></mspace><mi>b</mi><mo>=</mo><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>c</mi><mn>2</mn></msup></mrow></msqrt></mrow></math>",
          "<math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>c</mi></mrow><mi>a</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>y</mi><mi>b</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>1</mn></mrow></math> elipsea <br>Itxia eta periodikoa: irudiko (2) <br><math display=\"inline\"><mrow><mfrac><msup><mi>T</mi><mn>2</mn></msup><msup><mi>a</mi><mn>3</mn></msup></mfrac><mo>=</mo><mfrac><mrow><mn>4</mn><msup><mi>π</mi><mn>2</mn></msup><mi>m</mi></mrow><mi>k</mi></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mo>=</mo><mfrac><mrow><mn>4</mn><msup><mi>π</mi><mn>2</mn></msup></mrow><mrow><mi>G</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>"
         ],
@@ -1122,21 +1118,17 @@ KAPITULUAK["05mk_04zentralak"] = {
         ],
         [
          "<math display=\"inline\"><mrow><mi>E</mi><mo>&gt;</mo><mn>0</mn></mrow></math> <br><math display=\"inline\"><mrow><mi>ε</mi><mo>&gt;</mo><mn>1</mn></mrow></math> <br><span><math display=\"inline\"><mrow><mi>k</mi><mo>&gt;</mo><mn>0</mn></mrow></math></span>",
-         "<math display=\"inline\"><mrow><mfrac><mi>p</mi><mrow><mi>ε</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>≤</mo><mi>r</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mi>ε</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>&lt;</mo><mi>∞</mi></mrow></math> <br><math display=\"inline\"><mrow><mn>0</mn><mo>≤</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&lt;</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> arccos</mtext></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>1</mn><mi>ε</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&lt;</mo><mi>π</mi></mrow></math> <br><math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mfrac><mi>k</mi><mrow><mn>2</mn><mi>a</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mi>v</mi><mo>&gt;</mo><msub><mi>v</mi><mi>i</mi></msub></mrow></math>",
+         "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mfrac><mi>p</mi><mrow><mi>ε</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>≤</mo><mi>r</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mi>ε</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>&lt;</mo><mi>∞</mi></mrow></math></span> <br><span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mn>0</mn><mo>≤</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&lt;</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> arccos</mtext></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>−</mi><mfrac><mn>1</mn><mi>ε</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&lt;</mo><mi>π</mi></mrow></math></span> <br><math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mfrac><mi>k</mi><mrow><mn>2</mn><mi>a</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mi>v</mi><mo>&gt;</mo><msub><mi>v</mi><mi>i</mi></msub></mrow></math>",
          "<math display=\"inline\"><mrow><mn>2</mn><mi>a</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mi>ε</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>−</mo><mfrac><mi>p</mi><mrow><mi>ε</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math> <br><math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mfrac><mi>p</mi><mrow><msup><mi>ε</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mi>k</mi><mrow><mn>2</mn><mi>E</mi></mrow></mfrac></mrow></math> <br><math display=\"inline\"><mrow><mi>c</mi><mo>=</mo><mi>ε</mi><mi>a</mi><mspace width=\"1.0em\"></mspace><mi>b</mi><mo>=</mo><msqrt><mrow><msup><mi>c</mi><mn>2</mn></msup><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></msqrt></mrow></math>",
          "<math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>x</mi><mo>−</mo><mi>c</mi></mrow><mi>a</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>y</mi><mi>b</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>1</mn></mrow></math> hiperbola <br>Irekia: irudiko (4), <math display=\"inline\"><mrow><mi>x</mi><mo>&lt;</mo><mi>c</mi></mrow></math> adarra"
         ],
         [
          "<math display=\"inline\"><mrow><mi>E</mi><mo>&gt;</mo><mn>0</mn></mrow></math> <br><math display=\"inline\"><mrow><mi>ε</mi><mo>&gt;</mo><mn>1</mn></mrow></math> <br><span><math display=\"inline\"><mrow><mi>k</mi><mo>&lt;</mo><mn>0</mn></mrow></math></span>",
-         "<math display=\"inline\"><mrow><mfrac><mi>p</mi><mrow><mi>ε</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>≤</mo><mi>r</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mi>ε</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>&lt;</mo><mi>∞</mi></mrow></math> <br><math display=\"inline\"><mrow><mn>0</mn><mo>≤</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&lt;</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> arccos</mtext></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mi>ε</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&lt;</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow></math> <br><math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mi>v</mi><mo>≥</mo><mn>0</mn></mrow></math>",
+         "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mfrac><mi>p</mi><mrow><mi>ε</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>≤</mo><mi>r</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mi>ε</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>&lt;</mo><mi>∞</mi></mrow></math></span> <br><span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mn>0</mn><mo>≤</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>&lt;</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> arccos</mtext></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><mi>ε</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&lt;</mo><mfrac><mi>π</mi><mn>2</mn></mfrac></mrow></math></span> <br><math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac><mspace width=\"1.0em\"></mspace><mi>v</mi><mo>≥</mo><mn>0</mn></mrow></math>",
          "<math display=\"inline\"><mrow><mn>2</mn><mi>a</mi><mo>=</mo><mfrac><mi>p</mi><mrow><mi>ε</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>−</mo><mfrac><mi>p</mi><mrow><mi>ε</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math> <br><math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mfrac><mi>p</mi><mrow><msup><mi>ε</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>k</mi><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow><mrow><mn>2</mn><mi>E</mi></mrow></mfrac></mrow></math> <br><math display=\"inline\"><mrow><mi>c</mi><mo>=</mo><mi>ε</mi><mi>a</mi><mspace width=\"1.0em\"></mspace><mi>b</mi><mo>=</mo><msqrt><mrow><msup><mi>c</mi><mn>2</mn></msup><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></msqrt></mrow></math>",
          "<math display=\"inline\"><mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>x</mi><mo>−</mo><mi>c</mi></mrow><mi>a</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>y</mi><mi>b</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>1</mn></mrow></math> hiperbola <br>Irekia: irudiko (4), <math display=\"inline\"><mrow><mi>x</mi><mo>&gt;</mo><mi>c</mi></mrow></math> adarra"
         ]
        ]
-      },
-      {
-       "mota": "testua",
-       "html": "]"
       }
      ]
     }
@@ -1446,7 +1438,7 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "testua",
-     "html": "En 1999 se descubrió otro tipo de solución: órbitas que unen los puntos <math display=\"inline\"><msub><mi>L</mi><mn>3</mn></msub></math>, <math display=\"inline\"><msub><mi>L</mi><mn>4</mn></msub></math> y <math display=\"inline\"><msub><mi>L</mi><mn>5</mn></msub></math> del sistema Sol-Tierra y, entre otros, el asteroide Cruithne<span class=\"j-oin\">[Véase la simulación de la página `burtleburtle.net/bob/physics/cruithne.html`.]</span>, de 5 km de diámetro, se mueve en una de ellas y, según los cálculos, estará allí durante 5000 años."
+     "html": "En 1999 se descubrió otro tipo de solución, las órbitas que unen los puntos <math display=\"inline\"><msub><mi>L</mi><mn>3</mn></msub></math>, <math display=\"inline\"><msub><mi>L</mi><mn>4</mn></msub></math> y <math display=\"inline\"><msub><mi>L</mi><mn>5</mn></msub></math> del sistema Sol-Tierra; en una de ellas se mueve el asteroide Cruithne<span class=\"j-oin\">[Véase la simulación de la página <a href=\"http://burtleburtle.net/bob/physics/cruithne.html\" target=\"_blank\" rel=\"noopener\"><code>burtleburtle.net/bob/physics/cruithne.html</code></a>.]</span>, de 5 km de diámetro, que según los cálculos permanecerá en ella durante 5000 años."
     },
     {
      "mota": "testua",
@@ -1524,7 +1516,7 @@ KAPITULUAK["05mk_04zentralak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "Como se ve en la figura, <math display=\"block\"><mrow><mi>ε</mi><mo>=</mo><mfrac><mi>p</mi><mi>D</mi></mfrac><mo>=</mo><mfrac><mi>r</mi><mi>d</mi></mfrac><mo>=</mo><mfrac><msup><mi>r</mi><mo>′</mo></msup><msup><mi>d</mi><mo>′</mo></msup></mfrac><mi>.</mi></mrow></math> Por otra parte, <math display=\"inline\"><mrow><mi>D</mi><mo>=</mo><mi>r</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>+</mo><mi>d</mi><mo>=</mo><msup><mi>r</mi><mo>′</mo></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msup><mi>ϕ</mi><mo>′</mo></msup><mo>−</mo><msup><mi>d</mi><mo>′</mo></msup></mrow></math> y aquí <math display=\"block\"><mrow><mi>D</mi><mo>=</mo><mfrac><mi>p</mi><mi>ε</mi></mfrac><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mi>d</mi><mo>=</mo><mfrac><mi>r</mi><mi>ε</mi></mfrac><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><msup><mi>d</mi><mo>′</mo></msup><mo>=</mo><mfrac><msup><mi>r</mi><mo>′</mo></msup><mi>ε</mi></mfrac></mrow></math>"
+         "html": "Como se ve en la figura, <math display=\"block\"><mrow><mi>ε</mi><mo>=</mo><mfrac><mi>p</mi><mi>D</mi></mfrac><mo>=</mo><mfrac><mi>r</mi><mi>d</mi></mfrac><mo>=</mo><mfrac><msup><mi>r</mi><mo>′</mo></msup><msup><mi>d</mi><mo>′</mo></msup></mfrac><mi>.</mi></mrow></math> Por otra parte, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>D</mi><mo>=</mo><mi>r</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mo>+</mo><mi>d</mi><mo>=</mo><msup><mi>r</mi><mo>′</mo></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msup><mi>ϕ</mi><mo>′</mo></msup><mo>−</mo><msup><mi>d</mi><mo>′</mo></msup></mrow></math></span> y aquí <math display=\"block\"><mrow><mi>D</mi><mo>=</mo><mfrac><mi>p</mi><mi>ε</mi></mfrac><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mi>d</mi><mo>=</mo><mfrac><mi>r</mi><mi>ε</mi></mfrac><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><msup><mi>d</mi><mo>′</mo></msup><mo>=</mo><mfrac><msup><mi>r</mi><mo>′</mo></msup><mi>ε</mi></mfrac></mrow></math>"
         }
        ]
       },
@@ -1827,8 +1819,8 @@ KAPITULUAK["05mk_04zentralak"] = {
        "html": ": Véanse las figuras de Lissajous de la sección 7.5.2 y la siguiente simulación:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "link"
+       "mota": "testua",
+       "html": "<a href=\"http://tp.lc.ehu.eus/jma/mekanika/zentralak/harmonikoa.html\" target=\"_blank\" rel=\"noopener\"><code>.../harmonikoa.html</code></a>"
       },
       {
        "mota": "testua",
@@ -1855,6 +1847,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "La órbita de una partícula que se mueve bajo la acción de un campo de fuerza central es circular y el polo de fuerzas <math display=\"inline\"><mi>O</mi></math> está en la órbita. Halla la ecuación <math display=\"inline\"><mrow><mi>r</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> de la órbita y demuestra que la energía potencial es de la forma <math display=\"block\"><mrow><mi>V</mi><mo>=</mo><mi>−</mi><mfrac><mi>k</mi><msup><mi>r</mi><mn>4</mn></msup></mfrac></mrow></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/9992c0b608c38768.svg\" alt=\"\" style=\"width:95px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1984,6 +1980,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "En un buen libro de texto se usaba la siguiente figura para explicar la forma geométrica de una órbita acotada general bajo una fuerza central (<math display=\"inline\"><msub><mi>r</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>r</mi><mn>2</mn></msub></math> son las distancias del pericentro y del apocentro). Por desgracia, esa órbita es imposible. Explica por qué<span class=\"j-oin\">[El excelente profesor José Luis Arias nos propuso este problema en 1970, en mecánica de segundo curso. Tras aparecer durante muchos años en el texto, en 2004 se corrigió esa figura en el citado libro.]</span>."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/48c0eb56326b2f11.svg\" alt=\"\" style=\"width:97px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2084,6 +2084,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Las dos masas iguales de la figura están unidas por un muelle y se mueven en la misma órbita circular de radio <math display=\"inline\"><mi>R</mi></math>. La longitud natural del muelle es <math display=\"inline\"><mi>L</mi></math> y la constante recuperadora <math display=\"inline\"><mi>k</mi></math>. No hay gravedad. ¿Cuál es el período del movimiento? ¿Y el valor mínimo del radio <math display=\"inline\"><mi>R</mi></math>? ¿Es estable la órbita?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/68d656c71328fcd1.svg\" alt=\"\" style=\"width:106px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2095,6 +2099,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Dos masas iguales están unidas por un muelle sobre una mesa horizontal lisa. Inicialmente están en reposo en los puntos <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>±</mi><mi>a</mi><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> y el muelle sin deformar. Otra masa igual se acerca a ellas por el eje <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math> y en el instante <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> golpea la masa de la izquierda. El choque es elástico y, tras el choque, las tres partículas siguen en el eje <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math>. Calcula el movimiento de las tres partículas en el intervalo <math display=\"inline\"><mrow><mi>t</mi><mo>≥</mo><mn>0</mn></mrow></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/19e5d791f6ff3d86.svg\" alt=\"\" style=\"width:180px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2239,6 +2247,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Una partícula de masa <math display=\"inline\"><mi>m</mi></math> está unida a un punto fijo mediante un muelle de longitud propia <math display=\"inline\"><msub><mi>l</mi><mn>0</mn></msub></math>, sobre una mesa horizontal lisa. La velocidad inicial de la partícula es la que se muestra en la figura y la longitud máxima del muelle es <math display=\"inline\"><mrow><mn>2</mn><msub><mi>l</mi><mn>0</mn></msub></mrow></math>. Halla la constante recuperadora <math display=\"inline\"><mi>k</mi></math> del muelle <math display=\"inline\"><mi>m</mi></math> en función de los datos <math display=\"inline\"><msub><mi>v</mi><mn>0</mn></msub></math> y <math display=\"inline\"><msub><mi>l</mi><mn>0</mn></msub></math>. Esboza la órbita de la masa."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/3b18891d24c5317c.svg\" alt=\"\" style=\"width:113px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2261,6 +2273,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "La fuerza central de módulo <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>k</mi><mi>m</mi><mi>/</mi><msup><mi>r</mi><mn>3</mn></msup></mrow></math> atrae la masa <math display=\"inline\"><mi>m</mi></math> hacia el punto fijo <math display=\"inline\"><mi>O</mi></math>. En la posición de la figura la velocidad de la partícula es <math display=\"inline\"><mrow><msub><mi>v</mi><mn>0</mn></msub><mo>=</mo><msqrt><mi>k</mi></msqrt><mi>/</mi><mi>a</mi></mrow></math>. Usa los principios de conservación para calcular la trayectoria de la partícula. Halla la posición de la partícula en función del tiempo."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/e6ca360602eed984.svg\" alt=\"\" style=\"width:126px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2272,6 +2288,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "¿Puede ser alguna de las de la figura la órbita de una partícula que se mueve en un campo de fuerza central?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/ba550ce08b4e2562.svg\" alt=\"\" style=\"width:205px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2333,6 +2353,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Las masas iguales de la figura pueden moverse a lo largo de una varilla ligera lisa, unidas por un muelle. El sistema está en el vacío, sin gravitación. La constante recuperadora del muelle es <math display=\"inline\"><mi>k</mi></math> y su longitud propia <math display=\"inline\"><mi>L</mi></math>. En el instante que se muestra en la figura el muelle está sin deformar. Si la longitud máxima del muelle en el movimiento es <math display=\"inline\"><mrow><mn>5</mn><mi>L</mi></mrow></math>, ¿cuáles son <math display=\"inline\"><msub><mi>v</mi><mn>0</mn></msub></math> y las velocidades mínimas de las partículas? Esboza las órbitas de las masas."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/78428e40c76225d6.svg\" alt=\"\" style=\"width:207px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2423,6 +2447,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Dos bloques situados sobre una mesa lisa están unidos por un muelle y pueden moverse a lo largo de una barra horizontal lisa. En un instante están en la configuración que se muestra en la figura, en el sistema del centro de masas. En el movimiento la distancia máxima entre los bloques es <math display=\"inline\"><mrow><mn>2</mn><mi>L</mi></mrow></math>. ¿Cómo se escriben las velocidades <math display=\"inline\"><msub><mi>v</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>v</mi><mn>2</mn></msub></math> en función de los parámetros <math display=\"inline\"><mi>k</mi></math>, <math display=\"inline\"><mi>L</mi></math> y <math display=\"inline\"><mi>M</mi></math>? <br>  <em>Nota</em>: La longitud propia del muelle es <math display=\"inline\"><mi>L</mi></math>, su constante recuperadora <math display=\"inline\"><mi>k</mi></math>, las masas de los bloques las de la figura, y las del muelle y de la barra despreciables."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/52168a4352e90ba3.svg\" alt=\"\" style=\"width:234px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2449,6 +2477,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "La distancia más corta entre el Sol y un cometa es la mitad del radio de la órbita de la Tierra, y en ese instante la velocidad de la Tierra es la mitad de la del cometa. ¿Cuáles serán la posición, la velocidad y la dirección del cometa al cruzar la órbita de la Tierra? ¿Cómo será la órbita del cometa? ¿Es correcta la figura? <br>  <em>Nota</em>: Desprecia la excentricidad de la órbita de la Tierra."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/6acb6270ba25de8c.svg\" alt=\"\" style=\"width:148px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2460,6 +2492,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "La órbita parabólica de un cometa está en el plano de la órbita de la Tierra y la distancia de su perihelio es <math display=\"inline\"><mi>h</mi></math>. Demuestra que el tiempo que pasa dentro de la órbita de la Tierra es el siguiente: <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>=</mo><mfrac><msqrt><mn>2</mn></msqrt><mrow><mn>3</mn><mi>π</mi></mrow></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mfrac><mrow><mn>2</mn><mi>h</mi></mrow><mi>R</mi></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msqrt><mrow><mn>1</mn><mo>−</mo><mfrac><mi>h</mi><mi>R</mi></mfrac></mrow></msqrt><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> urte</mtext></mrow><mi>.</mi></mrow></math> ¿Cuál es el mayor valor de <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></math>? Cuando se da ese valor máximo, ¿cuál es la velocidad escalar del cometa al cruzar la órbita de la Tierra? ¿Y con otros valores de <math display=\"inline\"><mi>h</mi></math>? <br>  <em>Nota</em>: Puede usarse una de las integrales siguientes: <math display=\"block\"><mrow><mo>∫</mo><mfrac><mrow><mi>r</mi><mi>d</mi><mi>r</mi></mrow><msqrt><mrow><mi>r</mi><mo>−</mo><mi>h</mi></mrow></msqrt></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo>+</mo><mn>2</mn><mi>h</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><msqrt><mrow><mi>r</mi><mo>−</mo><mi>h</mi></mrow></msqrt><mo>,</mo><mtext mathvariant=\"normal\">  </mtext><mo>∫</mo><mfrac><mrow><mi>d</mi><mi>ϕ</mi></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mi>ϕ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mfrac><mo>=</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>ϕ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mi>ϕ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mn>3</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">cos</mi><mi>ϕ</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mi>.</mi></mrow></math>"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/fc7a2e1e13c9a23c.svg\" alt=\"\" style=\"width:97px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2504,6 +2540,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "En un instante la altura del satélite de la figura (medida desde la superficie de la Tierra) es <math display=\"inline\"><msub><mi>R</mi><mo>⊕</mo></msub></math> y su velocidad <math display=\"block\"><mrow><msub><mi>v</mi><mn>0</mn></msub><mo>=</mo><msqrt><mfrac><mrow><mi>G</mi><msub><mi>M</mi><mo>⊕</mo></msub></mrow><mrow><mn>2</mn><msub><mi>R</mi><mo>⊕</mo></msub></mrow></mfrac></msqrt><mi>.</mi></mrow></math> El ángulo entre la velocidad y la vertical es <math display=\"inline\"><mi>α</mi></math>. <br> (a) ¿Cómo es la órbita si <math display=\"inline\"><mrow><mi>α</mi><mo>=</mo><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math>? <br> (b) ¿Cómo hay que elegir el ángulo <math display=\"inline\"><mi>α</mi></math> para que el apogeo del satélite sea lo mayor posible (sin caer sobre la Tierra, naturalmente)?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/299afeba777a61dd.svg\" alt=\"\" style=\"width:74px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2537,6 +2577,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "La órbita del satélite de la figura es parabólica y su perigeo está en el punto <math display=\"inline\"><mi>P</mi></math>. Al llegar al punto <math display=\"inline\"><msup><mi>P</mi><mo>′</mo></msup></math>, se encienden los motores y en un intervalo de tiempo despreciable se invierte el sentido de la velocidad del satélite y se reduce su módulo a la mitad. <br> (a) Calcula las velocidades <math display=\"inline\"><mi>v</mi></math> y <math display=\"inline\"><msup><mi>v</mi><mo>′</mo></msup></math>, la distancia <math display=\"inline\"><mrow><mi>O</mi><msup><mi>P</mi><mo>′</mo></msup></mrow></math> y el ángulo <math display=\"inline\"><mi>α</mi></math>. <br> (b) Es evidente que la nueva órbita no será parabólica; sin hacer ningún cálculo: ¿qué órbita será necesariamente? <br> (c) ¿Caerá el satélite sobre la Tierra?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/fd8a5353a03fe101.svg\" alt=\"\" style=\"width:88px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2548,6 +2592,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "«Como los ejes mayores de todas las órbitas newtonianas de la figura son iguales, las energías mecánicas también son iguales», dice Aitor. «¡Qué va! La energía de la órbita circular es mínima», le responde Mikel. ¿Qué piensas tú?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/d222daa5aeecf9c2.svg\" alt=\"\" style=\"width:162px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2691,6 +2739,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Desde muy gran distancia se dirige hacia una partícula en reposo una partícula idéntica. Al principio, la velocidad y el parámetro de impacto de esta última son <math display=\"inline\"><mi>v</mi></math> y <math display=\"inline\"><mi>b</mi></math>, respectivamente. La interacción entre las dos partículas es gravitatoria. Esboza la trayectoria de cada partícula en el sistema del centro de masas. ¿Cuál es la distancia mínima entre las dos partículas? ¿Qué ocurre si <math display=\"inline\"><mrow><mi>b</mi><mo>=</mo><mn>0</mn></mrow></math>? ¿Y en el límite <math display=\"inline\"><mrow><mi>v</mi><mo>→</mo><mn>0</mn></mrow></math>?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/72f78349b91420d8.svg\" alt=\"\" style=\"width:163px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2713,6 +2765,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Si el polo de las fuerzas newtonianas está en el punto <math display=\"inline\"><mi>O</mi></math>, ¿cuál(es) de los haces de curvas de la figura puede(n) ser órbitas?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/4f136bea6b9ce49c.svg\" alt=\"\" style=\"width:227px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2735,6 +2791,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Si despreciamos la atmósfera de la Tierra, ¿puede ser la órbita de la figura la de un satélite?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/49ef52233b77d2e1.svg\" alt=\"\" style=\"width:115px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2779,6 +2839,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Para recuperar un satélite de masa <math display=\"inline\"><mi>m</mi></math> que se mueve en una órbita circular de radio <math display=\"inline\"><mrow><mn>7</mn><msub><mi>R</mi><mo>⊕</mo></msub></mrow></math>, se ha usado el método de la figura. Cuando el satélite estaba en el punto <math display=\"inline\"><mi>A</mi></math>, desde el punto <math display=\"inline\"><mi>B</mi></math> de la Tierra se envió un segundo satélite de masa <math display=\"inline\"><mi>M</mi></math>. Este último solo usó el motor al principio, durante un intervalo breve, para ponerse en órbita; después se movía por efecto de su peso. Cuando los dos satélites chocaron en el punto <math display=\"inline\"><mi>C</mi></math> quedaron unidos y el nuevo satélite cayó directamente a la Tierra, como se muestra. ¿Cuál era la velocidad del segundo satélite en el punto <math display=\"inline\"><mi>B</mi></math>? ¿Y la del satélite final al llegar a la Tierra? Calcula la masa <math display=\"inline\"><mi>M</mi></math> del segundo satélite y el ángulo <math display=\"inline\"><mi>α</mi></math> que mide cuándo fue enviado."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/eea5d34f455291d7.svg\" alt=\"\" style=\"width:126px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2823,6 +2887,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "El radio de la órbita circular de un satélite es el doble del de la Tierra. De repente la dirección de la velocidad del satélite cambia, sin cambiar el módulo, como se muestra en la figura. ¿Cómo hay que elegir el ángulo <math display=\"inline\"><mi>δ</mi></math> para que la nueva órbita sea tangente a la superficie de la Tierra? Calcula la excentricidad de la nueva órbita y la distancia angular entre el punto inicial y el perigeo."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/6decb4e5052ebade.svg\" alt=\"\" style=\"width:147px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2914,7 +2982,11 @@ KAPITULUAK["05mk_04zentralak"] = {
       },
       {
        "mota": "testua",
-       "html": ".<span class=\"j-oin\">[Véase, por ejemplo, .]</span> Un satélite se aleja del Sol en dirección radial con la velocidad de escape. Al cruzar la órbita de Júpiter en el punto que se muestra en la figura, por efecto de este planeta la dirección de la velocidad del satélite sufre un giro de valor <math display=\"inline\"><mrow><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math>, de modo que es tangente a la órbita de Júpiter. Si la duración de la acción de Júpiter es muy breve (mucho menor que el período de la órbita del planeta) y en esa colisión se desprecia el efecto del Sol, demuestra que el cambio de energía por unidad de masa del satélite ha sido el siguiente: <math display=\"block\"><mrow><mfrac><mrow><mi mathvariant=\"normal\">Δ</mi><mi>E</mi></mrow><mi>m</mi></mfrac><mo>≈</mo><mn>468.6</mn><mo>×</mo><msup><mn>10</mn><mn>6</mn></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> J/kg </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>.</mi></mrow></math> ¿Cómo es la nueva órbita: circular, elíptica, parabólica o hiperbólica?"
+       "html": ".<span class=\"j-oin\">[Véase, por ejemplo, <a href=\"http://en.wikipedia.org/wiki/Gravity_assist\" target=\"_blank\" rel=\"noopener\">http://en.wikipedia.org/wiki/Gravity_assist</a>.]</span> Un satélite se aleja del Sol en dirección radial con la velocidad de escape. Al cruzar la órbita de Júpiter en el punto que se ve en la figura, por efecto de este planeta, la dirección de la velocidad del satélite sufre un giro de valor <math display=\"inline\"><mrow><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math>, de modo que pasa a ser tangente a la órbita de Júpiter. Si la duración de la influencia de Júpiter es muy breve (mucho menor que el periodo de la órbita del planeta) y se desprecia el efecto del Sol durante ese choque, demuestra que la variación de la energía por unidad de masa del satélite ha sido esta: <math display=\"block\"><mrow><mfrac><mrow><mi mathvariant=\"normal\">Δ</mi><mi>E</mi></mrow><mi>m</mi></mfrac><mo>≈</mo><mn>468.6</mn><mo>×</mo><msup><mn>10</mn><mn>6</mn></msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> J/kg </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>.</mi></mrow></math> ¿Cómo es la nueva órbita: circular, elíptica, parabólica o hiperbólica?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/e9aefcd297119e76.svg\" alt=\"\" style=\"width:136px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2925,7 +2997,7 @@ KAPITULUAK["05mk_04zentralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Las dos estrellas de un sistema binario están, en un instante, en la situación de la figura, en el sistema del centro de masas. Si la mayor distancia entre las estrellas en el movimiento es <math display=\"inline\"><mrow><mn>2</mn><mi>a</mi></mrow></math>, ¿cuáles son las velocidades <math display=\"inline\"><msub><mi>v</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>v</mi><mn>2</mn></msub></math> de la figura?"
+       "html": "Las dos estrellas de un sistema binario están, en un instante, en la situación de la figura, en el sistema del centro de masas. Si la mayor distancia entre las estrellas durante el movimiento es <math display=\"inline\"><mrow><mn>2</mn><mi>a</mi></mrow></math>, ¿cuáles son las velocidades <math display=\"inline\"><msub><mi>v</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>v</mi><mn>2</mn></msub></math> de la figura?    <img class=\"irudi-l\" src=\"../media/irudiak/8e0779618a24f471.svg\" alt=\"\" style=\"width:98px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2981,7 +3053,7 @@ KAPITULUAK["05mk_04zentralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Las dos estrellas de un sistema binario están en la situación de la figura en un instante y <math display=\"inline\"><mrow><msub><mi>v</mi><mn>0</mn></msub><mo>=</mo><msqrt><mrow><mi>G</mi><mi>M</mi><mi>/</mi><msub><mi>r</mi><mn>0</mn></msub></mrow></msqrt></mrow></math>. Dibuja, en lo posible, las órbitas en el sistema del centro de masas. Calcula la excentricidad de las órbitas y las distancias máxima y mínima entre las estrellas. ¿Cuáles son las velocidades máximas y mínimas de las estrellas medidas en el sistema del centro de masas?"
+       "html": "Las dos estrellas de un sistema binario están, en un instante, en la situación de la figura y se cumple <math display=\"inline\"><mrow><msub><mi>v</mi><mn>0</mn></msub><mo>=</mo><msqrt><mrow><mi>G</mi><mi>M</mi><mi>/</mi><msub><mi>r</mi><mn>0</mn></msub></mrow></msqrt></mrow></math>. Dibuja, si es posible, las órbitas en el sistema del centro de masas. Calcula la excentricidad de las órbitas y las distancias máxima y mínima entre las estrellas. ¿Cuáles son las velocidades máxima y mínima de las estrellas medidas en el sistema del centro de masas?    <img class=\"irudi-l\" src=\"../media/irudiak/eda2a51a8464b934.svg\" alt=\"\" style=\"width:118px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3015,6 +3087,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "En el sistema del centro de masas, las velocidades de dos estrellas esféricas idénticas de masa <math display=\"inline\"><mi>m</mi></math> son las de la figura, cuando están a gran distancia. Es <math display=\"inline\"><mrow><msub><mi>v</mi><mn>1</mn></msub><mo>=</mo><msqrt><mfrac><mrow><mi>G</mi><mi>m</mi></mrow><mrow><mn>2</mn><mi>b</mi></mrow></mfrac></msqrt></mrow></math>. Calcula cuál es el cambio total de dirección de cada estrella. ¿Cómo deben ser los radios de las estrellas para que no choquen entre sí?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/4458e54ccc080d95.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3192,7 +3268,7 @@ KAPITULUAK["05mk_04zentralak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "La ecuación del elipsoide de revolución liso fijo de la figura es la siguiente: <math display=\"block\"><mrow><mfrac><msup><mi>x</mi><mn>2</mn></msup><msup><mi>a</mi><mn>2</mn></msup></mfrac><mo>+</mo><mfrac><mrow><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><msup><mi>z</mi><mn>2</mn></msup></mrow><msup><mi>b</mi><mn>2</mn></msup></mfrac><mo>=</mo><mn>1</mn><mi>.</mi></mrow></math> Se envían partículas puntuales contra el elipsoide, en la dirección del eje <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math>. Los choques son elásticos. Calcula la sección eficaz de dispersión diferencial y total."
+       "html": "La ecuación del elipsoide de revolución liso y fijo de la figura es esta: <math display=\"block\"><mrow><mfrac><msup><mi>x</mi><mn>2</mn></msup><msup><mi>a</mi><mn>2</mn></msup></mfrac><mo>+</mo><mfrac><mrow><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><msup><mi>z</mi><mn>2</mn></msup></mrow><msup><mi>b</mi><mn>2</mn></msup></mfrac><mo>=</mo><mn>1</mn><mi>.</mi></mrow></math> Se lanzan partículas puntuales contra el elipsoide, en la dirección del eje <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math>. Los choques son elásticos. Calcula la sección eficaz de dispersión diferencial y total.    <img class=\"irudi-l\" src=\"../media/irudiak/92aa8285509d9514.svg\" alt=\"\" style=\"width:155px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3271,6 +3347,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       },
       {
        "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/373e8f3fee498af0.svg\" alt=\"\" style=\"width:188px\" loading=\"lazy\">"
+      },
+      {
+       "mota": "testua",
        "html": "(b) La fuerza que sufre una partícula que se mueve en un campo de fuerza central puede ser atractiva en algunos puntos y repulsiva en otros puntos de la misma órbita. <br> (c) Como en el pericentro de una órbita de Kepler la fuerza y la velocidad son perpendiculares, la fuerza es centrípeta y se cumple lo siguiente: <math display=\"block\"><mrow><mfrac><mi>k</mi><msup><mi>r</mi><mn>2</mn></msup></mfrac><mo>=</mo><mi>m</mi><mfrac><msup><mi>v</mi><mn>2</mn></msup><mi>r</mi></mfrac><mi>.</mi></mrow></math>"
       }
      ]
@@ -3335,6 +3415,10 @@ KAPITULUAK["05mk_04zentralak"] = {
       {
        "mota": "testua",
        "html": "Una partícula se mueve en un campo central (no newtoniano). El polo de fuerzas está en el punto <math display=\"inline\"><mi>O</mi></math>. Demuestra que la de la figura no puede ser una parte de la órbita."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/39b871fa966cba07.svg\" alt=\"\" style=\"width:77px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3646,10 +3730,6 @@ KAPITULUAK["05mk_04zentralak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>R.</strong>"
     },
     {
@@ -3811,10 +3891,6 @@ KAPITULUAK["05mk_04zentralak"] = {
    "maila": 2,
    "izenburua": "Solución (resuelta y comentada por el autor)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -4061,10 +4137,6 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>Figura 1 (situación general).</strong>"
     },
     {
@@ -4191,10 +4263,6 @@ KAPITULUAK["05mk_04zentralak"] = {
    "maila": 2,
    "izenburua": "Solución (resuelta y comentada por el autor)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -4504,7 +4572,7 @@ KAPITULUAK["05mk_04zentralak"] = {
     },
     {
      "mota": "testua",
-     "html": "Sin embargo, en el instante de superponer el campo en P, la velocidad mantiene el mismo valor que tenía antes de superponerlo (es decir, sigue teniendo componente radial nula: <math display=\"inline\"><mrow><msub><mover><mi>r</mi><mo accent=\"true\">̇</mo></mover><mi>P</mi></msub><mo>=</mo><mn>0</mn></mrow></math>, y <math display=\"inline\"><msub><mi mathvariant=\"bold-italic\">𝒗</mi><mi>P</mi></msub></math> la velocidad total será transversal e igual a la velocidad en la órbita circular calculada antes). En otras palabras, el punto P en que estaba el satélite en el instante de superponer el nuevo campo central es también un punto de retorno para la nueva órbita. Por tanto, podemos reescribir <math display=\"inline\"><mrow><mi>l</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>P</mi></msub><mo>×</mo><mi>m</mi><msub><mi mathvariant=\"bold-italic\">𝒗</mi><mi>P</mi></msub><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>=</mo><msub><mi>r</mi><mi>P</mi></msub><mo>⋅</mo><mi>m</mi><msub><mi>v</mi><mi>P</mi></msub><mo>=</mo><mn>2</mn><mi>R</mi><mo>⋅</mo><mi>m</mi><msqrt><mrow><msub><mi>g</mi><mn>0</mn></msub><mi>R</mi><mi>/</mi><mn>2</mn></mrow></msqrt></mrow></math> (tengamos en cuenta que al aplicar el nuevo campo central no cambiará el momento angular que el satélite tenía en la órbita circular). Sustituyendo este valor en las segundas relaciones, podremos despejar <math display=\"inline\"><msub><mi>v</mi><mi>Q</mi></msub></math> en función de <math display=\"inline\"><msub><mi>r</mi><mi>Q</mi></msub></math> así:"
+     "html": "Sin embargo, en el instante de superponer el campo en P, la velocidad mantiene el mismo valor que tenía antes de superponerlo (es decir, sigue teniendo componente radial nula: <math display=\"inline\"><mrow><msub><mover><mi>r</mi><mo accent=\"true\">̇</mo></mover><mi>P</mi></msub><mo>=</mo><mn>0</mn></mrow></math>, y <math display=\"inline\"><msub><mi mathvariant=\"bold-italic\">𝒗</mi><mi>P</mi></msub></math> la velocidad total será transversal e igual a la velocidad en la órbita circular calculada antes). En otras palabras, el punto P en que estaba el satélite en el instante de superponer el nuevo campo central es también un punto de retorno para la nueva órbita. Por tanto, podemos reescribir <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>l</mi><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>P</mi></msub><mo>×</mo><mi>m</mi><msub><mi mathvariant=\"bold-italic\">𝒗</mi><mi>P</mi></msub><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>=</mo><msub><mi>r</mi><mi>P</mi></msub><mo>⋅</mo><mi>m</mi><msub><mi>v</mi><mi>P</mi></msub><mo>=</mo><mn>2</mn><mi>R</mi><mo>⋅</mo><mi>m</mi><msqrt><mrow><msub><mi>g</mi><mn>0</mn></msub><mi>R</mi><mi>/</mi><mn>2</mn></mrow></msqrt></mrow></math></span> (tengamos en cuenta que al aplicar el nuevo campo central no cambiará el momento angular que el satélite tenía en la órbita circular). Sustituyendo este valor en las segundas relaciones, podremos despejar <math display=\"inline\"><msub><mi>v</mi><mi>Q</mi></msub></math> en función de <math display=\"inline\"><msub><mi>r</mi><mi>Q</mi></msub></math> así:"
     },
     {
      "mota": "testua",

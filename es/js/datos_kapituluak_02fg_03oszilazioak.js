@@ -69,7 +69,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "zenb-ekuazioa(<math display=\"block\"><mrow><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>x</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><msup><mi>ω</mi><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>)"
+       "html": "<math display=\"block\"><mrow><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>x</mi></mrow><mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><msup><mi>ω</mi><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>"
       }
      ]
     },
@@ -114,7 +114,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "zenb-ekuazioa(<math display=\"block\"><mrow><mi>v</mi><mo>=</mo><mi>ω</mi><msqrt><mrow><msup><mi>A</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></math>)"
+       "html": "<math display=\"block\"><mrow><mi>v</mi><mo>=</mo><mi>ω</mi><msqrt><mrow><msup><mi>A</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt></mrow></math>"
       }
      ]
     },
@@ -148,7 +148,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "zenb-ekuazioa(<math display=\"block\"><mrow><mi>ω</mi><mo>=</mo><msqrt><mfrac><mi>k</mi><mi>m</mi></mfrac></msqrt></mrow></math>)"
+       "html": "<math display=\"block\"><mrow><mi>ω</mi><mo>=</mo><msqrt><mfrac><mi>k</mi><mi>m</mi></mfrac></msqrt></mrow></math>"
       }
      ]
     }
@@ -188,7 +188,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "zenb-ekuazioa(<math display=\"block\"><mrow><msup><mi>ω</mi><mn>2</mn></msup><mo>=</mo><mfrac><mi>g</mi><mi>L</mi></mfrac><mtext mathvariant=\"normal\">  </mtext><mo>→</mo><mtext mathvariant=\"normal\">  </mtext><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mfrac><mi>L</mi><mi>g</mi></mfrac></msqrt></mrow></math>)"
+       "html": "<math display=\"block\"><mrow><msup><mi>ω</mi><mn>2</mn></msup><mo>=</mo><mfrac><mi>g</mi><mi>L</mi></mfrac><mtext mathvariant=\"normal\">  </mtext><mo>→</mo><mtext mathvariant=\"normal\">  </mtext><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mfrac><mi>L</mi><mi>g</mi></mfrac></msqrt></mrow></math>"
       }
      ]
     }
@@ -210,7 +210,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "zenb-ekuazioa(<math display=\"block\"><mrow><msup><mi>ω</mi><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mi>m</mi><mi>g</mi><mi>b</mi></mrow><mi>I</mi></mfrac><mtext mathvariant=\"normal\">  </mtext><mo>→</mo><mtext mathvariant=\"normal\">  </mtext><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mfrac><mi>I</mi><mrow><mi>m</mi><mi>g</mi><mi>b</mi></mrow></mfrac></msqrt></mrow></math>)"
+       "html": "<math display=\"block\"><mrow><msup><mi>ω</mi><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mi>m</mi><mi>g</mi><mi>b</mi></mrow><mi>I</mi></mfrac><mtext mathvariant=\"normal\">  </mtext><mo>→</mo><mtext mathvariant=\"normal\">  </mtext><mi>T</mi><mo>=</mo><mn>2</mn><mi>π</mi><msqrt><mfrac><mi>I</mi><mrow><mi>m</mi><mi>g</mi><mi>b</mi></mrow></mfrac></msqrt></mrow></math>"
       }
      ]
     },
@@ -240,7 +240,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "zenb-ekuazioa(<math display=\"block\"><mrow><mi>E</mi><mo>=</mo><msub><mi>E</mi><mi>k</mi></msub><mo>+</mo><msub><mi>E</mi><mi>p</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><msup><mi>A</mi><mn>2</mn></msup><mo>=</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> konstante </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>)"
+       "html": "<math display=\"block\"><mrow><mi>E</mi><mo>=</mo><msub><mi>E</mi><mi>k</mi></msub><mo>+</mo><msub><mi>E</mi><mi>p</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><msup><mi>A</mi><mn>2</mn></msup><mo>=</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> konstante </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math>"
       }
      ]
     },
@@ -290,7 +290,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
      "mota": "zerrenda",
      "ordenatua": false,
      "elementuak": [
-      "<strong>Amortiguamiento débil</strong> (<math display=\"inline\"><mrow><mi>γ</mi><mo>&lt;</mo><msub><mi>ω</mi><mn>0</mn></msub></mrow></math>): <math display=\"inline\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><msup><mi>e</mi><mrow><mi>−</mi><mi>γ</mi><mi>t</mi></mrow></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><msqrt><mrow><msubsup><mi>ω</mi><mn>0</mn><mn>2</mn></msubsup><mo>−</mo><msup><mi>γ</mi><mn>2</mn></msup></mrow></msqrt></mrow></math> — sigue oscilando, con una amplitud cada vez menor.",
+      "<strong>Amortiguamiento débil</strong> (<math display=\"inline\"><mrow><mi>γ</mi><mo>&lt;</mo><msub><mi>ω</mi><mn>0</mn></msub></mrow></math>): <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><msup><mi>e</mi><mrow><mi>−</mi><mi>γ</mi><mi>t</mi></mrow></msup><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>, <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><msqrt><mrow><msubsup><mi>ω</mi><mn>0</mn><mn>2</mn></msubsup><mo>−</mo><msup><mi>γ</mi><mn>2</mn></msup></mrow></msqrt></mrow></math> — sigue oscilando, con una amplitud cada vez menor.",
       "<strong>Sobreamortiguamiento</strong> (<math display=\"inline\"><mrow><mi>γ</mi><mo>&gt;</mo><msub><mi>ω</mi><mn>0</mn></msub></mrow></math>): no oscila, vuelve al equilibrio de forma exponencial, más lentamente.",
       "<strong>Amortiguamiento crítico</strong> (<math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><msub><mi>ω</mi><mn>0</mn></msub></mrow></math>): vuelve al equilibrio sin oscilar en el menor tiempo posible."
      ]
@@ -314,7 +314,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "Para mantener en marcha un oscilador amortiguado hay que suministrarle energía externa, por ejemplo mediante una fuerza periódica <math display=\"inline\"><mrow><msub><mi>F</mi><mtext mathvariant=\"normal\">eragilea</mtext></msub><mo>=</mo><msub><mi>F</mi><mn>0</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>ω</mi><mi>e</mi></msub><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. En régimen estacionario (cuando la energía aportada iguala a la disipada), la amplitud se mantiene constante y depende de <math display=\"inline\"><msub><mi>F</mi><mn>0</mn></msub></math> y de <math display=\"inline\"><msub><mi>ω</mi><mi>e</mi></msub></math>. Cuando <math display=\"inline\"><mrow><msub><mi>ω</mi><mi>e</mi></msub><mo>≈</mo><msub><mi>ω</mi><mn>0</mn></msub></mrow></math> (frecuencia de la fuerza externa próxima a la frecuencia propia del oscilador), se produce la <strong>resonancia</strong>: la mayor amplitud que puede alcanzar el oscilador forzado."
+     "html": "Para mantener en marcha un oscilador amortiguado hay que suministrarle energía externa, por ejemplo mediante una fuerza periódica <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>F</mi><mtext mathvariant=\"normal\">eragilea</mtext></msub><mo>=</mo><msub><mi>F</mi><mn>0</mn></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>ω</mi><mi>e</mi></msub><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>. En régimen estacionario (cuando la energía aportada iguala a la disipada), la amplitud se mantiene constante y depende de <math display=\"inline\"><msub><mi>F</mi><mn>0</mn></msub></math> y de <math display=\"inline\"><msub><mi>ω</mi><mi>e</mi></msub></math>. Cuando <math display=\"inline\"><mrow><msub><mi>ω</mi><mi>e</mi></msub><mo>≈</mo><msub><mi>ω</mi><mn>0</mn></msub></mrow></math> (frecuencia de la fuerza externa próxima a la frecuencia propia del oscilador), se produce la <strong>resonancia</strong>: la mayor amplitud que puede alcanzar el oscilador forzado."
     }
    ]
   },
@@ -370,8 +370,10 @@ KAPITULUAK["02fg_03oszilazioak"] = {
      "html": ": el máximo de la amplitud se da a la frecuencia <math display=\"inline\"><mrow><msub><mi>ω</mi><mi>R</mi></msub><mo>=</mo><msqrt><mrow><msubsup><mi>ω</mi><mn>0</mn><mn>2</mn></msubsup><mo>−</mo><mn>2</mn><msup><mi>β</mi><mn>2</mn></msup></mrow></msqrt></mrow></math> (con amortiguamiento débil, <math display=\"inline\"><mrow><msub><mi>ω</mi><mi>R</mi></msub><mo>≈</mo><msub><mi>ω</mi><mn>0</mn></msub></mrow></math>), y cuanto menor es el amortiguamiento, más alto y más estrecho es el pico. La agudeza del pico la mide el factor de calidad: <math display=\"block\"><mrow><mi>Q</mi><mo>=</mo><mfrac><msub><mi>ω</mi><mn>0</mn></msub><mrow><mn>2</mn><mi>β</mi></mrow></mfrac><mo>,</mo></mrow></math> es, aproximadamente, &quot;el número de oscilaciones antes de perder una energía apreciable&quot;. Los sistemas con <math display=\"inline\"><mi>Q</mi></math> grande (una campana, un buen circuito resonante — véanse los circuitos RLC, tema 11 de 02fg_04, donde aparece el mismo <math display=\"inline\"><mi>Q</mi></math>) solo responden en un intervalo de frecuencias muy estrecho."
     },
     {
-     "mota": "ezezaguna",
-     "izena": "figure"
+     "mota": "irudia",
+     "oina": "Curvas de resonancia: cuanto menor es el amortiguamiento, más alto y más estrecho es el pico (<math display=\"inline\"><mrow><mi>Q</mi><mo>=</mo><msub><mi>ω</mi><mn>0</mn></msub><mi>/</mi><mn>2</mn><mi>β</mi></mrow></math> mayor).",
+     "src": "../media/irudiak/f042904d478e2a4f.svg",
+     "zabalera": 339
     },
     {
      "mota": "ingurunea",
@@ -1018,7 +1020,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "c) Las funciones <math display=\"inline\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>v</mi><mi mathvariant=\"normal\">max</mi></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> y <math display=\"inline\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> tienen la misma fase. En el instante <math display=\"inline\"><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn></mrow></math> s se ve en la gráfica que la plataforma pasa por la posición <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> (véase d), por tanto:"
+     "html": "c) Las funciones <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>v</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>v</mi><mi mathvariant=\"normal\">max</mi></msub><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span> y <math display=\"inline\"><mrow><mi>x</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> tienen la misma fase. En el instante <math display=\"inline\"><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn></mrow></math> s se ve en la gráfica que la plataforma pasa por la posición <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> (véase d), por tanto:"
     },
     {
      "mota": "testua",
@@ -1806,7 +1808,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "zenb-ekuazioa(<math display=\"block\"><mrow><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>∓</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>)"
+       "html": "<math display=\"block\"><mrow><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>∓</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       }
      ]
     },
@@ -1821,7 +1823,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "zenb-ekuazioa(<math display=\"block\"><mrow><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>∂</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><msup><mi>v</mi><mn>2</mn></msup></mfrac><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>∂</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>)"
+       "html": "<math display=\"block\"><mrow><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>∂</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><msup><mi>v</mi><mn>2</mn></msup></mfrac><mfrac><mrow><msup><mi>∂</mi><mn>2</mn></msup><mi>y</mi></mrow><mrow><mi>∂</mi><msup><mi>t</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>"
       }
      ]
     },
@@ -1932,7 +1934,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "zenb-ekuazioa(<math display=\"block\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>δ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>)"
+       "html": "<math display=\"block\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>δ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       }
      ]
     },
@@ -1946,7 +1948,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "La velocidad transversal de un punto fijo es <math display=\"inline\"><mrow><msub><mi>v</mi><mi>y</mi></msub><mo>=</mo><mi>∂</mi><mi>y</mi><mi>/</mi><mi>∂</mi><mi>t</mi><mo>=</mo><mi>−</mi><mi>ω</mi><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>δ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>."
+     "html": "La velocidad transversal de un punto fijo es <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>v</mi><mi>y</mi></msub><mo>=</mo><mi>∂</mi><mi>y</mi><mi>/</mi><mi>∂</mi><mi>t</mi><mo>=</mo><mi>−</mi><mi>ω</mi><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mi>δ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>."
     }
    ]
   },
@@ -1965,7 +1967,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "usando la identidad trigonométrica (<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mn>1</mn></msub><mo>+</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>θ</mi><mn>1</mn></msub><mo>−</mo><msub><mi>θ</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>θ</mi><mn>1</mn></msub><mo>+</mo><msub><mi>θ</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math>):"
+     "html": "usando la identidad trigonométrica (<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mn>1</mn></msub><mo>+</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>θ</mi><mn>1</mn></msub><mo>−</mo><msub><mi>θ</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>θ</mi><mn>1</mn></msub><mo>+</mo><msub><mi>θ</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow></mrow></math></span>):"
     },
     {
      "mota": "kutxa",
@@ -1974,7 +1976,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "zenb-ekuazioa(<math display=\"block\"><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>+</mo><msub><mi>y</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>δ</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mfrac><mi>δ</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>)"
+       "html": "<math display=\"block\"><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>+</mo><msub><mi>y</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><mi>δ</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>ω</mi><mi>t</mi><mo>+</mo><mfrac><mi>δ</mi><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       }
      ]
     },
@@ -2027,7 +2029,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "zenb-ekuazioa(<math display=\"block\"><mrow><mi>L</mi><mo>=</mo><mi>n</mi><mfrac><msub><mi>λ</mi><mi>n</mi></msub><mn>2</mn></mfrac><mtext mathvariant=\"normal\">  </mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>)"
+       "html": "<math display=\"block\"><mrow><mi>L</mi><mo>=</mo><mi>n</mi><mfrac><msub><mi>λ</mi><mi>n</mi></msub><mn>2</mn></mfrac><mtext mathvariant=\"normal\">  </mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       }
      ]
     },
@@ -2065,7 +2067,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "zenb-ekuazioa(<math display=\"block\"><mrow><mi>L</mi><mo>=</mo><mi>n</mi><mfrac><msub><mi>λ</mi><mi>n</mi></msub><mn>4</mn></mfrac><mtext mathvariant=\"normal\">  </mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>)"
+       "html": "<math display=\"block\"><mrow><mi>L</mi><mo>=</mo><mi>n</mi><mfrac><msub><mi>λ</mi><mi>n</mi></msub><mn>4</mn></mfrac><mtext mathvariant=\"normal\">  </mtext><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>"
       }
      ]
     },
@@ -2104,7 +2106,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "zenb-ekuazioa(<math display=\"block\"><mrow><msub><mi>f</mi><mi>r</mi></msub><mo>=</mo><mfrac><mrow><mi>v</mi><mo>±</mo><msub><mi>u</mi><mi>r</mi></msub></mrow><mrow><mi>v</mi><mo>±</mo><msub><mi>u</mi><mi>i</mi></msub></mrow></mfrac><msub><mi>f</mi><mi>i</mi></msub></mrow></math>)"
+       "html": "<math display=\"block\"><mrow><msub><mi>f</mi><mi>r</mi></msub><mo>=</mo><mfrac><mrow><mi>v</mi><mo>±</mo><msub><mi>u</mi><mi>r</mi></msub></mrow><mrow><mi>v</mi><mo>±</mo><msub><mi>u</mi><mi>i</mi></msub></mrow></mfrac><msub><mi>f</mi><mi>i</mi></msub></mrow></math>"
       }
      ]
     },
@@ -2147,7 +2149,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "La ecuación de una onda armónica que se propaga en una cuerda es: <math display=\"inline\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>0.001</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>62.8</mn><msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><mrow><mi>−</mi><mn>1</mn></mrow></msup><mi>x</mi><mo>+</mo><mn>314</mn><msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> s</mtext></mrow><mrow><mi>−</mi><mn>1</mn></mrow></msup><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. (a) ¿En qué sentido se desplaza la onda? ¿Cuál es su velocidad? (b) Hállense la longitud de onda, la frecuencia y el periodo de la onda. (c) ¿Cuál es la velocidad máxima de cualquier porción de la cuerda? <strong>Resultado</strong>: (a) <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>5</mn></mrow></math> m/s; (b) <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>1</mn></mrow></msup></mrow></math> m, <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>50</mn></mrow></math> Hz; (c) <math display=\"inline\"><mn>0.314</mn></math> m/s."
+       "html": "La ecuación de una onda armónica que se propaga en una cuerda es: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>0.001</mn><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>62.8</mn><msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> m</mtext></mrow><mrow><mi>−</mi><mn>1</mn></mrow></msup><mi>x</mi><mo>+</mo><mn>314</mn><msup><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> s</mtext></mrow><mrow><mi>−</mi><mn>1</mn></mrow></msup><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>. (a) ¿En qué sentido se desplaza la onda? ¿Cuál es su velocidad? (b) Hállense la longitud de onda, la frecuencia y el periodo de la onda. (c) ¿Cuál es la velocidad máxima de cualquier porción de la cuerda? <strong>Resultado</strong>: (a) <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>5</mn></mrow></math> m/s; (b) <math display=\"inline\"><mrow><mi>λ</mi><mo>=</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>1</mn></mrow></msup></mrow></math> m, <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>50</mn></mrow></math> Hz; (c) <math display=\"inline\"><mn>0.314</mn></math> m/s."
       }
      ]
     },
@@ -2165,7 +2167,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Una onda armónica se propaga con velocidad <math display=\"inline\"><mn>3</mn></math> m/s en el sentido positivo del eje <math display=\"inline\"><mi>x</mi></math>. La frecuencia y la amplitud de la onda son <math display=\"inline\"><mn>2</mn></math> Hz y <math display=\"inline\"><mn>5</mn></math> cm, respectivamente. La elongación de un punto situado a <math display=\"inline\"><mn>10</mn></math> cm del origen es nula en el instante inicial. Hállese la ecuación de la onda. <strong>Resultado</strong>: <math display=\"inline\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>5</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>2</mn></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mi>π</mi><mi>/</mi><mn>3</mn><mspace width=\"0.167em\"></mspace><mi>x</mi><mo>−</mo><mn>4</mn><mi>π</mi><mi>t</mi><mo>−</mo><mn>0.4</mn><mi>π</mi><mi>/</mi><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> (SI)."
+       "html": "Una onda armónica se propaga con velocidad <math display=\"inline\"><mn>3</mn></math> m/s en el sentido positivo del eje <math display=\"inline\"><mi>x</mi></math>. La frecuencia y la amplitud de la onda son <math display=\"inline\"><mn>2</mn></math> Hz y <math display=\"inline\"><mn>5</mn></math> cm, respectivamente. La elongación de un punto situado a <math display=\"inline\"><mn>10</mn></math> cm del origen es nula en el instante inicial. Hállese la ecuación de la onda. <strong>Resultado</strong>: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>y</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>5</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>2</mn></mrow></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mi>π</mi><mi>/</mi><mn>3</mn><mspace width=\"0.167em\"></mspace><mi>x</mi><mo>−</mo><mn>4</mn><mi>π</mi><mi>t</mi><mo>−</mo><mn>0.4</mn><mi>π</mi><mi>/</mi><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span> (SI)."
       }
      ]
     },
@@ -2192,7 +2194,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Una cuerda con los dos extremos fijos y de <math display=\"inline\"><mn>3</mn></math> m de longitud vibra en su tercer armónico. El desplazamiento máximo de los puntos de la cuerda es <math display=\"inline\"><mn>4</mn></math> mm y la velocidad de las ondas transversales es <math display=\"inline\"><mn>50</mn></math> m/s. ¿Cuáles son la longitud de onda y la frecuencia de la onda? Escríbase la ecuación de onda. <strong>Resultado</strong>: <math display=\"inline\"><mrow><msub><mi>λ</mi><mn>3</mn></msub><mo>=</mo><mn>2</mn></mrow></math> m, <math display=\"inline\"><mrow><msub><mi>f</mi><mn>3</mn></msub><mo>=</mo><mn>25</mn></mrow></math> Hz, <math display=\"inline\"><mrow><msub><mi>y</mi><mn>3</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>4</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>50</mn><mi>π</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> mm."
+       "html": "Una cuerda con los dos extremos fijos y de <math display=\"inline\"><mn>3</mn></math> m de longitud vibra en su tercer armónico. El desplazamiento máximo de los puntos de la cuerda es <math display=\"inline\"><mn>4</mn></math> mm y la velocidad de las ondas transversales es <math display=\"inline\"><mn>50</mn></math> m/s. ¿Cuáles son la longitud de onda y la frecuencia de la onda? Escríbase la ecuación de onda. <strong>Resultado</strong>: <math display=\"inline\"><mrow><msub><mi>λ</mi><mn>3</mn></msub><mo>=</mo><mn>2</mn></mrow></math> m, <math display=\"inline\"><mrow><msub><mi>f</mi><mn>3</mn></msub><mo>=</mo><mn>25</mn></mrow></math> Hz, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>y</mi><mn>3</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mn>4</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>π</mi><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>50</mn><mi>π</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span> mm."
       }
      ]
     },
@@ -2357,7 +2359,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
     },
     {
      "mota": "testua",
-     "html": "(Se obtiene el mismo resultado partiendo de la ecuación (1): <math display=\"inline\"><mrow><msub><mi>f</mi><mn>0</mn></msub><mo>=</mo><msub><mi>f</mi><mn>1</mn></msub><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>v</mi><mi>s</mi></msub><mo>−</mo><mi>v</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><msub><mi>v</mi><mi>s</mi></msub><mo>=</mo><mn>905</mn><mo>⋅</mo><mn>332.25</mn><mi>/</mi><mn>343</mn><mo>≈</mo><mn>876</mn></mrow></math> Hz, lo que comprueba la consistencia.)"
+     "html": "(Se obtiene el mismo resultado partiendo de la ecuación (1): <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>f</mi><mn>0</mn></msub><mo>=</mo><msub><mi>f</mi><mn>1</mn></msub><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>v</mi><mi>s</mi></msub><mo>−</mo><mi>v</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><msub><mi>v</mi><mi>s</mi></msub><mo>=</mo><mn>905</mn><mo>⋅</mo><mn>332.25</mn><mi>/</mi><mn>343</mn><mo>≈</mo><mn>876</mn></mrow></math></span> Hz, lo que comprueba la consistencia.)"
     },
     {
      "mota": "testua",
@@ -2404,7 +2406,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "Comparando la ecuación <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0.001</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>62.8</mn><mi>x</mi><mo>+</mo><mn>314</mn><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> con el modelo <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>+</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>:"
+     "html": "Comparando la ecuación <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0.001</mn><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>62.8</mn><mi>x</mi><mo>+</mo><mn>314</mn><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span> con el modelo <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mi>x</mi><mo>+</mo><mi>ω</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>:"
     },
     {
      "mota": "kutxa",
@@ -2438,7 +2440,7 @@ KAPITULUAK["02fg_03oszilazioak"] = {
      "mota": "zerrenda",
      "ordenatua": false,
      "elementuak": [
-      "<strong>Velocidad de oscilación</strong> (de un punto de la cuerda, transversal): <math display=\"inline\"><mrow><msub><mi>v</mi><mi>y</mi></msub><mo>=</mo><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mn>0.314</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>62.8</mn><mi>x</mi><mo>+</mo><mn>314</mn><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, con valor máximo <math display=\"inline\"><mn>0.314</mn></math> m/s (cuando el coseno <math display=\"inline\"><mn>1</mn></math>). Cómo <strong>sube y baja</strong> cada punto.",
+      "<strong>Velocidad de oscilación</strong> (de un punto de la cuerda, transversal): <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>v</mi><mi>y</mi></msub><mo>=</mo><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mn>0.314</mn><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>62.8</mn><mi>x</mi><mo>+</mo><mn>314</mn><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span>, con valor máximo <math display=\"inline\"><mn>0.314</mn></math> m/s (cuando el coseno <math display=\"inline\"><mn>1</mn></math>). Cómo <strong>sube y baja</strong> cada punto.",
       "<strong>Velocidad de propagación</strong> (de la onda): <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mfrac><mi>λ</mi><mi>T</mi></mfrac><mo>=</mo><mfrac><mn>0.1</mn><mn>0.02</mn></mfrac><mo>=</mo><mn>5</mn></mrow></math> m/s. Cómo avanza el <strong>patrón</strong>."
      ]
     },

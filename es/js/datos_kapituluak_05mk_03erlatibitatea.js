@@ -59,7 +59,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "Consideraremos también los intervalos definidos por dos sucesos. Así, el intervalo de tiempo entre los sucesos <math display=\"inline\"><mrow><msub><mi>G</mi><mn>1</mn></msub><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><msub><mi>y</mi><mn>1</mn></msub><mo>,</mo><msub><mi>z</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>x</mi><mn>1</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>y</mi><mn>1</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>z</mi><mn>1</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> y <math display=\"inline\"><mrow><msub><mi>G</mi><mn>2</mn></msub><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>2</mn></msub><mo>,</mo><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><msub><mi>y</mi><mn>2</mn></msub><mo>,</mo><msub><mi>z</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>t</mi><mn>2</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>y</mi><mn>2</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>z</mi><mn>2</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math> en los sistemas <math display=\"inline\"><mi>S</mi></math> y <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> es <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>≜</mo><msub><mi>t</mi><mn>2</mn></msub><mo>−</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>′</mo></msup><mo>≜</mo><msubsup><mi>t</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup></mrow></math> y el intervalo espacial entre ellos es <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"bold-italic\">𝒓</mi><mo>≜</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mn>2</mn></msub><mo>−</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mn>1</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi mathvariant=\"bold-italic\">𝒓</mi><mo>′</mo></msup><mo>≜</mo><msubsup><mi mathvariant=\"bold-italic\">𝒓</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi mathvariant=\"bold-italic\">𝒓</mi><mn>1</mn><mo>′</mo></msubsup></mrow></math> o, cuando <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>y</mi></mrow></math> y <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>z</mi></mrow></math> no nos interesan, <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mo>≜</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mo>′</mo></msup><mo>≜</mo><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>x</mi><mrow><mn>1</mn><mi>.</mi></mrow><mo>′</mo></msubsup></mrow></math>"
+     "html": "Consideraremos también los intervalos definidos por dos sucesos. Así, el intervalo de tiempo entre los sucesos <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>G</mi><mn>1</mn></msub><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><msub><mi>y</mi><mn>1</mn></msub><mo>,</mo><msub><mi>z</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>x</mi><mn>1</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>y</mi><mn>1</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>z</mi><mn>1</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span> y <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>G</mi><mn>2</mn></msub><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mn>2</mn></msub><mo>,</mo><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><msub><mi>y</mi><mn>2</mn></msub><mo>,</mo><msub><mi>z</mi><mn>2</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>∼</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>t</mi><mn>2</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>y</mi><mn>2</mn><mo>′</mo></msubsup><mo>,</mo><msubsup><mi>z</mi><mn>2</mn><mo>′</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span> en los sistemas <math display=\"inline\"><mi>S</mi></math> y <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> es <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>t</mi><mo>≜</mo><msub><mi>t</mi><mn>2</mn></msub><mo>−</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>′</mo></msup><mo>≜</mo><msubsup><mi>t</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup></mrow></math> y el intervalo espacial entre ellos es <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi mathvariant=\"bold-italic\">𝒓</mi><mo>≜</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mn>2</mn></msub><mo>−</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mn>1</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi mathvariant=\"bold-italic\">𝒓</mi><mo>′</mo></msup><mo>≜</mo><msubsup><mi mathvariant=\"bold-italic\">𝒓</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi mathvariant=\"bold-italic\">𝒓</mi><mn>1</mn><mo>′</mo></msubsup></mrow></math> o, cuando <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>y</mi></mrow></math> y <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>z</mi></mrow></math> no nos interesan, <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mo>≜</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo></mrow></math> <math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mo>′</mo></msup><mo>≜</mo><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>x</mi><mrow><mn>1</mn><mi>.</mi></mrow><mo>′</mo></msubsup></mrow></math>"
     },
     {
      "mota": "testua",
@@ -180,7 +180,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "Pero en el sistema <math display=\"inline\"><mi>S</mi></math> las líneas de universo de los fotones también tienen pendiente <math display=\"inline\"><mrow><mi>±</mi><mn>1</mn></mrow></math> y, como se muestra en la figura 3.6, la luz llega antes al detector de la izquierda; en este sistema los dos sucesos no son simultáneos, pues <math display=\"inline\"><msub><mi>G</mi><mn>1</mn></msub></math> ocurre antes<span class=\"j-oin\">[Véase la simulación de la página `http://tp.lc.ehu.eus/jma/mekanika/erlatibitatea/aldiberekotasuna.html`.]</span>."
+     "html": "Pero, también en el sistema <math display=\"inline\"><mi>S</mi></math> las líneas de universo de los fotones tienen pendiente <math display=\"inline\"><mrow><mi>±</mi><mn>1</mn></mrow></math> y, como se muestra en la figura 3.6, la luz llega antes al detector de la izquierda; en este sistema los dos sucesos no son simultáneos, ya que <math display=\"inline\"><msub><mi>G</mi><mn>1</mn></msub></math> ocurre antes<span class=\"j-oin\">[Véase la simulación de la página <a href=\"http://tp.lc.ehu.eus/jma/mekanika/erlatibitatea/aldiberekotasuna.html\" target=\"_blank\" rel=\"noopener\"><code>http://tp.lc.ehu.eus/jma/mekanika/erlatibitatea/aldiberekotasuna.html</code></a>.]</span>."
     },
     {
      "mota": "ariketa",
@@ -222,16 +222,16 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
        "html": "Elimina <math display=\"inline\"><msup><mi>t</mi><mo>′</mo></msup></math> de las ecuaciones anteriores,"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>a</mi><mo>=</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><msup><mi>v</mi><mn>2</mn></msup><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>−</mi><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup></mrow></math>"
       },
       {
        "mota": "testua",
        "html": "para calcular que se cumple. Concluye que tenemos esto:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi>t</mi><mo>=</mo><mi>a</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo>+</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><msup><mi>x</mi><mo>′</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -276,16 +276,16 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>x</mi><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>x</mi><mo>′</mo></msup><mo>+</mo><mi>v</mi><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>y</mi><mo>=</mo><msup><mi>y</mi><mo>′</mo></msup><mo>,</mo></mrow></math>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi>z</mi><mo>=</mo><msup><mi>z</mi><mo>′</mo></msup><mi>.</mi></mrow></math>"
     },
     {
      "mota": "testua",
@@ -363,16 +363,16 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>x</mi><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>x</mi><mo>′</mo></msup><mo>+</mo><mi>v</mi><mi mathvariant=\"normal\">Δ</mi><msup><mi>t</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>,</mo></mrow></math>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>y</mi><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>y</mi><mo>′</mo></msup><mo>,</mo></mrow></math>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi mathvariant=\"normal\">Δ</mi><mi>z</mi><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><msup><mi>z</mi><mo>′</mo></msup><mi>.</mi></mrow></math>"
     },
     {
      "mota": "testua",
@@ -783,12 +783,12 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mfrac><msup><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mrow><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo>,</mo></mrow></math>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mover><mi>z</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mfrac><msup><mover><mi>z</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mrow><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mi>.</mi></mrow></math>"
     },
     {
      "mota": "testua",
@@ -819,28 +819,28 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
        "html": "Usa en el resultado (3.87)"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msub><mi>γ</mi><mi>u</mi></msub><mo>≡</mo><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><msup><mi>u</mi><mn>2</mn></msup><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mi>−</mi><mn>1</mn><mi>/</mi><mn>2</mn></mrow></msup></mrow></math>"
       },
       {
        "mota": "testua",
        "html": "una notación más explícita para demostrar las siguientes relaciones entre los factores de Lorentz:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><mo>=</mo><msub><mi>γ</mi><mi>v</mi></msub><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mfrac><mrow><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><mo>=</mo><msub><mi>γ</mi><mi>v</mi></msub><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mfrac><mrow><mi>v</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math>"
       },
       {
        "mota": "testua",
        "html": "Deduce que la ecuación de transformación (3.82) se escribe de este modo:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><msub><mi>γ</mi><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><msup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mo stretchy=\"false\" form=\"prefix\">|</mo></mrow></msub><msup><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -852,32 +852,32 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
        "html": "<strong>Ley de transformación de la aceleración.</strong> Comprueba que las relaciones entre las componentes de la aceleración medidas en los dos sistemas"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>=</mo><mfrac><msup><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>′</mo></msup><mrow><msup><mi>γ</mi><mn>3</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup></mrow></mfrac><mo>,</mo></mrow></math>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mover><mi>y</mi><mo accent=\"true\">̈</mo></mover><mo>=</mo><mfrac><msup><mover><mi>y</mi><mo accent=\"true\">̈</mo></mover><mo>′</mo></msup><mrow><msup><mi>γ</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mo>−</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mfrac><msup><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mrow><msup><mi>γ</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mfrac><msup><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>′</mo></msup><mrow><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo>,</mo></mrow></math>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mover><mi>z</mi><mo accent=\"true\">̈</mo></mover><mo>=</mo><mfrac><msup><mover><mi>z</mi><mo accent=\"true\">̈</mo></mover><mo>′</mo></msup><mrow><msup><mi>γ</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mo>−</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mfrac><msup><mover><mi>z</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mrow><msup><mi>γ</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mfrac><msup><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>′</mo></msup><mrow><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mi>v</mi><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>′</mo></msup><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo>,</mo></mrow></math>"
       },
       {
        "mota": "testua",
        "html": "o"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msup><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>′</mo></msup><mo>=</mo><mfrac><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mrow><msup><mi>γ</mi><mn>3</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>v</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>3</mn></msup></mrow></mfrac><mo>,</mo></mrow></math>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msup><mover><mi>y</mi><mo accent=\"true\">̈</mo></mover><mo>′</mo></msup><mo>=</mo><mfrac><mover><mi>y</mi><mo accent=\"true\">̈</mo></mover><mrow><msup><mi>γ</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>v</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mfrac><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mrow><msup><mi>γ</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>v</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mfrac><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mrow><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>v</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac><mo>,</mo></mrow></math>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msup><mover><mi>z</mi><mo accent=\"true\">̈</mo></mover><mo>′</mo></msup><mo>=</mo><mfrac><mover><mi>z</mi><mo accent=\"true\">̈</mo></mover><mrow><msup><mi>γ</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>v</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mfrac><mover><mi>z</mi><mo accent=\"true\">̇</mo></mover><mrow><msup><mi>γ</mi><mn>2</mn></msup><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>v</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mfrac><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mrow><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi>v</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></mfrac></mrow></math>"
       },
       {
        "mota": "testua",
@@ -952,8 +952,8 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
        "html": "Comprueba la última afirmación y el resultado siguiente:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msub><mi>γ</mi><mi>u</mi></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mfrac><msup><mi>v</mi><mn>2</mn></msup><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msubsup><mi>γ</mi><mi>v</mi><mrow><mn>2</mn><mi>.</mi></mrow></msubsup></mrow></math>"
       }
      ]
     },
@@ -1054,16 +1054,16 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
        "html": "Demuestra que el momento lineal de una partícula"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝒑</mi><mo>=</mo><mfrac><mi>E</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover></mrow></math>"
       },
       {
        "mota": "testua",
        "html": "puede escribirse así, y deduce la siguiente relación:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msup><mi>E</mi><mn>2</mn></msup><mo>=</mo><msubsup><mi>E</mi><mn>0</mn><mn>2</mn></msubsup><mo>+</mo><msup><mi>c</mi><mn>2</mn></msup><msup><mi mathvariant=\"bold-italic\">𝒑</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math>"
       }
      ]
     },
@@ -1111,16 +1111,16 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msub><mi>p</mi><mi>x</mi></msub><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>p</mi><mi>x</mi><mo>′</mo></msubsup><mo>+</mo><mfrac><mi>v</mi><msup><mi>c</mi><mn>2</mn></msup></mfrac><msup><mi>E</mi><mo>′</mo></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msub><mi>p</mi><mi>y</mi></msub><mo>=</mo><msubsup><mi>p</mi><mi>y</mi><mo>′</mo></msubsup><mo>,</mo></mrow></math>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><msub><mi>p</mi><mi>z</mi></msub><mo>=</mo><msubsup><mi>p</mi><mi>z</mi><mo>′</mo></msubsup><mi>.</mi></mrow></math>"
     },
     {
      "mota": "testua",
@@ -1198,8 +1198,8 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
        "html": "Demuestra la siguiente expresión de la útil derivada:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mover><mi>γ</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><msup><mi>γ</mi><mn>3</mn></msup><mfrac><mrow><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>⋅</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̈</mo></mover></mrow><msup><mi>c</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mfrac></mrow></math>"
       }
      ]
     },
@@ -1230,8 +1230,8 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
        "html": "Comprueba que con la definición (3.134) se cumple (3.133), pues tenemos:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝑭</mi><mo>=</mo><mi>m</mi><mi>γ</mi><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̈</mo></mover><mo>+</mo><mi>m</mi><msup><mi>γ</mi><mn>3</mn></msup><mfrac><mrow><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>⋅</mo><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̈</mo></mover></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>.</mi></mrow></math>"
       }
      ]
     }
@@ -1394,7 +1394,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><mi>h</mi><mi>ν</mi><mo>+</mo><msub><mi>E</mi><mn>0</mn></msub></mrow></math>"
+             "html": "<math display=\"block\"><mrow><mi>h</mi><mi>ν</mi><mo>+</mo><msub><mi>E</mi><mn>0</mn></msub></mrow></math>"
             }
            ]
           },
@@ -1402,7 +1402,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><mo>=</mo><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup><mo>+</mo><mi>E</mi><mi>.</mi></mrow></math>"
+             "html": "<math display=\"block\"><mrow><mo>=</mo><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup><mo>+</mo><mi>E</mi><mi>.</mi></mrow></math>"
             }
            ]
           },
@@ -1418,7 +1418,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><mfrac><mrow><mi>h</mi><mi>ν</mi></mrow><mi>c</mi></mfrac><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover></mrow></math>"
+             "html": "<math display=\"block\"><mrow><mfrac><mrow><mi>h</mi><mi>ν</mi></mrow><mi>c</mi></mfrac><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover></mrow></math>"
             }
            ]
           },
@@ -1426,7 +1426,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><mo>=</mo><mfrac><mrow><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup></mrow><mi>c</mi></mfrac><msup><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover><mo>′</mo></msup><mo>+</mo><mi mathvariant=\"bold-italic\">𝒑</mi><mi>.</mi></mrow></math>"
+             "html": "<math display=\"block\"><mrow><mo>=</mo><mfrac><mrow><mi>h</mi><msup><mi>ν</mi><mo>′</mo></msup></mrow><mi>c</mi></mfrac><msup><mover><mi mathvariant=\"bold-italic\">𝒏</mi><mo accent=\"true\">̂</mo></mover><mo>′</mo></msup><mo>+</mo><mi mathvariant=\"bold-italic\">𝒑</mi><mi>.</mi></mrow></math>"
             }
            ]
           }
@@ -1435,12 +1435,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
        ]
       },
       {
-       "blokeak": [
-        {
-         "mota": "ezezaguna",
-         "izena": "ekuazio-zenbakia"
-        }
-       ]
+       "blokeak": []
       }
      ]
     },
@@ -1505,7 +1500,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><msub><mi>E</mi><mn>02</mn></msub></math>"
+             "html": "<math display=\"block\"><msub><mi>E</mi><mn>02</mn></msub></math>"
             }
            ]
           },
@@ -1513,7 +1508,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><mo>=</mo><mi>h</mi><mi>ν</mi><mo>+</mo><mi>E</mi><mi>.</mi></mrow></math>"
+             "html": "<math display=\"block\"><mrow><mo>=</mo><mi>h</mi><mi>ν</mi><mo>+</mo><mi>E</mi><mi>.</mi></mrow></math>"
             }
            ]
           },
@@ -1529,7 +1524,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mn>0</mn></math>"
+             "html": "<math display=\"block\"><mn>0</mn></math>"
             }
            ]
           },
@@ -1537,7 +1532,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><mo>=</mo><mfrac><mrow><mi>h</mi><mi>ν</mi></mrow><mi>c</mi></mfrac><mo>−</mo><mi>p</mi><mi>.</mi></mrow></math>"
+             "html": "<math display=\"block\"><mrow><mo>=</mo><mfrac><mrow><mi>h</mi><mi>ν</mi></mrow><mi>c</mi></mfrac><mo>−</mo><mi>p</mi><mi>.</mi></mrow></math>"
             }
            ]
           }
@@ -1546,12 +1541,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
        ]
       },
       {
-       "blokeak": [
-        {
-         "mota": "ezezaguna",
-         "izena": "ekuazio-zenbakia"
-        }
-       ]
+       "blokeak": []
       }
      ]
     },
@@ -1590,7 +1580,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><msub><mi>E</mi><mn>01</mn></msub><mo>+</mo><mi>h</mi><mi>ν</mi></mrow></math>"
+             "html": "<math display=\"block\"><mrow><msub><mi>E</mi><mn>01</mn></msub><mo>+</mo><mi>h</mi><mi>ν</mi></mrow></math>"
             }
            ]
           },
@@ -1598,7 +1588,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><mo>=</mo><mi>E</mi><mi>.</mi></mrow></math>"
+             "html": "<math display=\"block\"><mrow><mo>=</mo><mi>E</mi><mi>.</mi></mrow></math>"
             }
            ]
           },
@@ -1614,7 +1604,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mfrac><mrow><mi>h</mi><mi>ν</mi></mrow><mi>c</mi></mfrac></math>"
+             "html": "<math display=\"block\"><mfrac><mrow><mi>h</mi><mi>ν</mi></mrow><mi>c</mi></mfrac></math>"
             }
            ]
           },
@@ -1622,7 +1612,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
            "blokeak": [
             {
              "mota": "testua",
-             "html": "<math display=\"inline\"><mrow><mo>=</mo><mi>p</mi><mi>.</mi></mrow></math>"
+             "html": "<math display=\"block\"><mrow><mo>=</mo><mi>p</mi><mi>.</mi></mrow></math>"
             }
            ]
           }
@@ -1631,12 +1621,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
        ]
       },
       {
-       "blokeak": [
-        {
-         "mota": "ezezaguna",
-         "izena": "ekuazio-zenbakia"
-        }
-       ]
+       "blokeak": []
       }
      ]
     },
@@ -1731,8 +1716,8 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
      "html": "<em>En lugar de dar una definición relativista de la <span>posición</span> del centro de masas, si la energía total de un sistema aislado es <math display=\"inline\"><mi>E</mi></math> y el momento lineal total <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑷</mi></math>, diremos que el sistema del centro de masas</em>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "zenb-ekuazioa"
+     "mota": "testua",
+     "html": "<math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝑽</mi><mo>=</mo><mfrac><mi mathvariant=\"bold-italic\">𝑷</mi><mrow><mi>E</mi><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>"
     },
     {
      "mota": "testua",
@@ -2015,6 +2000,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       },
       {
        "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/3091d1d4cbb4b21b.svg\" alt=\"\" style=\"width:167px\" loading=\"lazy\">"
+      },
+      {
+       "mota": "testua",
        "html": "(a) ¿Dónde está en el instante <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> el extremo <math display=\"inline\"><mi>B</mi></math> del cohete en el sistema <math display=\"inline\"><mi>S</mi></math> del laboratorio? <br> (b) Usando lo anterior, calcula <em>en el sistema de la Tierra</em> cuándo llega el pulso al punto <math display=\"inline\"><mi>B</mi></math>."
       },
       {
@@ -2061,6 +2050,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       },
       {
        "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/624ee4c89d62aede.svg\" alt=\"\" style=\"width:128px\" loading=\"lazy\">"
+      },
+      {
+       "mota": "testua",
        "html": "Demuestra que esta es la relación entre los intervalos de tiempo medidos por los gemelos entre esos dos sucesos: <math display=\"block\"><mrow><mfrac><mrow><mi>g</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>t</mi><mi>B</mi></msub><mo>−</mo><msub><mi>t</mi><mi>A</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mn>2</mn><mi>c</mi></mrow></mfrac><mo>=</mo><mrow><mi mathvariant=\"normal\">sinh</mi><mo>&#8289;</mo></mrow><mfrac><mrow><mi>g</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>τ</mi><mi>B</mi></msub><mo>−</mo><msub><mi>τ</mi><mi>A</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow><mrow><mn>2</mn><mi>c</mi></mrow></mfrac><mi>.</mi></mrow></math> ¿Cuál ha envejecido más entre esos dos sucesos? <br>"
       },
       {
@@ -2081,6 +2074,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "En el sistema de referencia inercial <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> una varilla de longitud <math display=\"inline\"><mi>L</mi></math> es paralela al eje <math display=\"inline\"><mrow><mi>O</mi><msup><mi>X</mi><mo>′</mo></msup></mrow></math> y se mueve con velocidad constante <math display=\"inline\"><mrow><mi>−</mi><mi>u</mi><msup><mi mathvariant=\"bold-italic\">𝒋</mi><mo>′</mo></msup></mrow></math>, como se muestra en la figura. El sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> se mueve con velocidad <math display=\"inline\"><mrow><mi>v</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> respecto del sistema inercial <math display=\"inline\"><mi>S</mi></math>. Según las medidas hechas en este último, la varilla no es paralela al eje <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/ec3f2b0b2896b0ea.svg\" alt=\"\" style=\"width:167px\" loading=\"lazy\">"
       },
       {
        "mota": "testua",
@@ -2110,7 +2107,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "En el sistema de referencia <math display=\"inline\"><mi>S</mi></math> los extremos de una regla están en las abscisas fijas <math display=\"inline\"><msub><mi>x</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>x</mi><mn>2</mn></msub></math>. El sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> se mueve con velocidad <math display=\"inline\"><mrow><mi>v</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> respecto de <math display=\"inline\"><mi>S</mi></math>. Usando dos veces la transformación <math display=\"inline\"><mrow><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, se obtiene <math display=\"inline\"><mrow><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>x</mi><mn>1</mn><mo>′</mo></msubsup><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&gt;</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub></mrow></math>. ¿Quiere decir eso que la regla es más larga en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>? ¿Por qué?"
+       "html": "En el sistema de referencia <math display=\"inline\"><mi>S</mi></math> los extremos de una regla están en las abscisas fijas <math display=\"inline\"><msub><mi>x</mi><mn>1</mn></msub></math> y <math display=\"inline\"><msub><mi>x</mi><mn>2</mn></msub></math>. El sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> se mueve con velocidad <math display=\"inline\"><mrow><mi>v</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> respecto de <math display=\"inline\"><mi>S</mi></math>. Usando dos veces la transformación <math display=\"inline\"><mrow><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>−</mo><mi>v</mi><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, se obtiene <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msubsup><mi>x</mi><mn>2</mn><mo>′</mo></msubsup><mo>−</mo><msubsup><mi>x</mi><mn>1</mn><mo>′</mo></msubsup><mo>=</mo><mi>γ</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>&gt;</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub></mrow></math></span>. ¿Quiere decir eso que la regla es más larga en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>? ¿Por qué?"
       }
      ]
     },
@@ -2189,6 +2186,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Un cuadrado se mueve con velocidad relativista <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mi>β</mi><mi>c</mi></mrow></math>, en su plano, en la dirección de un lado. Tu ojo está en el mismo plano, como se muestra en la figura, pero a gran distancia. Estudiemos lo que <em>ves</em> cuando la luz salida de la base <math display=\"inline\"><mrow><mi>B</mi><mi>C</mi></mrow></math>, cuando estaba lo más cerca del ojo, llega hasta el ojo. Demuestra que <em>verías</em> igualmente el cuadrado en reposo de la derecha si estuviera girado un ángulo <math display=\"inline\"><mi>α</mi></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/0320f56f44e2d642.svg\" alt=\"\" style=\"width:215px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2204,6 +2205,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "El observador <math display=\"inline\"><mi>O</mi></math> de nuestra galaxia ve que las galaxias <math display=\"inline\"><mi>A</mi></math> y <math display=\"inline\"><mi>B</mi></math> se mueven con velocidad <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>0.8</mn><mi>c</mi></mrow></math> y en sentidos opuestos. Para un observador situado en la galaxia <math display=\"inline\"><mi>A</mi></math>, ¿cuál es la velocidad de <math display=\"inline\"><mi>O</mi></math>? ¿Y la de <math display=\"inline\"><mi>B</mi></math>?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/322e99f05f3aaf25.svg\" alt=\"\" style=\"width:182px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2281,6 +2286,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       },
       {
        "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/426d889cf83a7000.svg\" alt=\"\" style=\"width:133px\" loading=\"lazy\">"
+      },
+      {
+       "mota": "testua",
        "html": "<math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><msup><mi>θ</mi><mo>′</mo></msup><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><mi>θ</mi><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>+</mo><mi>v</mi><mi>/</mi><mi>c</mi></mrow></mfrac></mrow></math> Demuestra ese resultado y halla el que hay que usar en la relatividad especial. <br>"
       },
       {
@@ -2323,6 +2332,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Las partículas idénticas de la figura se mueven en el laboratorio con las velocidades indicadas. ¿Cuál es la velocidad de cada partícula en el sistema del centro de masas?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/1cfe52e2876a02f1.svg\" alt=\"\" style=\"width:152px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2356,6 +2369,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Las velocidades de las partículas relativistas de la figura son constantes. El intervalo de tiempo que necesitan para encontrarse siempre puede escribirse como <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mi>d</mi><mi>/</mi><mi>v</mi></mrow></math>; pero ¿qué hay que poner aquí, <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><msub><mi>v</mi><mn>1</mn></msub><mo>+</mo><msub><mi>v</mi><mn>2</mn></msub></mrow></math> o <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mfrac><mrow><msub><mi>v</mi><mn>1</mn></msub><mo>+</mo><msub><mi>v</mi><mn>2</mn></msub></mrow><mrow><mn>1</mn><mo>+</mo><mfrac><mrow><msub><mi>v</mi><mn>1</mn></msub><msub><mi>v</mi><mn>2</mn></msub></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac></mrow></mfrac></mrow></math>?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/125d5606867ec400.svg\" alt=\"\" style=\"width:145px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2367,6 +2384,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "La fuente de luz <math display=\"inline\"><mi>A</mi></math> se mueve con velocidad <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mn>0.99</mn><mi>c</mi></mrow></math> como se muestra en la figura. Si el observador <math display=\"inline\"><mi>B</mi></math>, en reposo, ve en un momento la luz que llega de <math display=\"inline\"><mi>A</mi></math> en la dirección indicada, ¿cuál era el ángulo entre la dirección del movimiento relativo y la del rayo en el sistema en reposo de la fuente?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/4419357bc441d2e5.svg\" alt=\"\" style=\"width:157px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2378,6 +2399,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "¿Cuál es la velocidad relativa entre las naves de los extremos en el sistema de la nave central? ¿Cómo hay que elegir <math display=\"inline\"><mi>u</mi></math> para que esa velocidad relativa sea máxima? ¿Y para que sea mínima? ¿Cuáles son los valores máximo y mínimo? ¿Qué cambia en tus respuestas si el cohete de velocidad <math display=\"inline\"><mi>u</mi></math>, en lugar de estar entre los otros dos, está a la izquierda o a la derecha?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/f9656af6b665ae14.svg\" alt=\"\" style=\"width:177px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2470,6 +2495,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "¿Cuál es la frecuencia de cada fotón en el sistema del centro de masas en los dos casos de la figura?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/cfa95cdc087e1795.svg\" alt=\"\" style=\"width:217px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2481,6 +2510,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Si la energía cinética, la velocidad y el momento lineal de una partícula son <math display=\"inline\"><mi>T</mi></math>, <math display=\"inline\"><mi>v</mi></math> y <math display=\"inline\"><mi>p</mi></math>, ¿cuáles de las cuatro gráficas de la figura siguiente son galileanas y cuáles relativistas?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/607b4faa21429778.svg\" alt=\"\" style=\"width:210px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2492,6 +2525,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Un fotón de energía <math display=\"inline\"><mi>E</mi></math> se acerca al origen <math display=\"inline\"><mi>O</mi></math> del sistema de referencia <math display=\"inline\"><mi>S</mi></math> en una dirección que forma un ángulo <math display=\"inline\"><mi>α</mi></math> con el eje <math display=\"inline\"><mrow><mi>O</mi><mi>Y</mi></mrow></math>, como se muestra en la figura. En el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>, en cambio, que se mueve con velocidad <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝒗</mi><mo>=</mo><mi>v</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> en la dirección del eje <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math>, si el fotón se mueve en la dirección del eje <math display=\"inline\"><mrow><msup><mi>O</mi><mo>′</mo></msup><msup><mi>Y</mi><mo>′</mo></msup></mrow></math>, ¿cuál es la energía del fotón en el sistema <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math>? Calcula <math display=\"inline\"><mi>v</mi></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/38f858aa80f79e24.svg\" alt=\"\" style=\"width:111px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2606,6 +2643,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Electrones de energía cinética <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><msub><mi>m</mi><mi>e</mi></msub><msup><mi>c</mi><mn>2</mn></msup></mrow></math> se dispersan en un blanco fijo, como se muestra en la figura. La dispersión es elástica y el flujo de electrones es <math display=\"inline\"><mi>N</mi></math>  (electrones/s). Calcula el módulo, la dirección y el sentido de la fuerza que el haz ejerce sobre el blanco."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/77bac3dc8be31f21.svg\" alt=\"\" style=\"width:109px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2713,6 +2754,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "El espejo de la figura se mueve con velocidad <math display=\"inline\"><mrow><mi>v</mi><mo>=</mo><mi>β</mi><mi>c</mi></mrow></math>. Un fotón de frecuencia <math display=\"inline\"><msub><mi>ν</mi><mi>e</mi></msub></math> que llega con un ángulo de incidencia <math display=\"inline\"><msub><mi>θ</mi><mi>e</mi></msub></math> se refleja en el espejo. Demuestra que la ley de la reflexión se escribe así en la relatividad: <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><msub><mi>θ</mi><mi>e</mi></msub><mrow><mn>1</mn><mo>+</mo><mi>β</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>e</mi></msub></mrow></mfrac><mo>=</mo><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mfrac><msub><mi>θ</mi><mi>i</mi></msub><mrow><mn>1</mn><mo>−</mo><mi>β</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><msub><mi>θ</mi><mi>i</mi></msub></mrow></mfrac><mi>.</mi></mrow></math> Calcula la frecuencia <math display=\"inline\"><msub><mi>ν</mi><mi>i</mi></msub></math> del fotón reflejado."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/afd2123537e5e65e.svg\" alt=\"\" style=\"width:93px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2805,6 +2850,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Al desintegrarse una partícula de masa <math display=\"inline\"><mi>m</mi></math> en reposo se producen tres partículas de la misma masa. Si las velocidades de dos partículas son las que se muestran en la figura, ¿cuál es la de la tercera? ¿Cuáles son las masas de las partículas producidas?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/6dbc08728ad15011.svg\" alt=\"\" style=\"width:105px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2937,6 +2986,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       },
       {
        "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/808af37131d334e2.svg\" alt=\"\" style=\"width:221px\" loading=\"lazy\">"
+      },
+      {
+       "mota": "testua",
        "html": "¿Cómo deben ser la energía y el momento lineal del electrón para que en la colisión de la figura la energía del fotón sea mayor tras la colisión? Demuestra que cuando la energía del electrón es muy grande, la energía final del fotón es la que tenía el electrón antes de producirse la colisión, sea cual sea la energía inicial del fotón."
       }
      ]
@@ -2949,6 +3002,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "En el experimento de la figura un fotón de alta energía golpea un electrón de una muestra delgada. El electrón va al detector <math display=\"inline\"><mi>A</mi></math> y el fotón al <math display=\"inline\"><mi>B</mi></math>. Calcula las energías inicial y final del fotón, usando como unidad la energía en reposo del electrón."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/bb00e9ce22e74a16.svg\" alt=\"\" style=\"width:221px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3034,6 +3091,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Cuando el positrón de la figura golpea el electrón en reposo, quedan solo tres fotones de la misma frecuencia, como se muestra en la figura. Demuestra la siguiente desigualdad: <math display=\"block\"><mrow><mfrac><mi>π</mi><mn>3</mn></mfrac><mo>&lt;</mo><mi>α</mi><mo>&lt;</mo><mi>π</mi><mi>.</mi></mrow></math> ¿Cuándo irán hacia delante los tres fotones?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/368fdf4fe3810aaa.svg\" alt=\"\" style=\"width:187px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3045,6 +3106,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "La energía cinética del positrón de la figura es igual a la de reposo y, al encontrarse con un electrón, el par desaparece y quedan los tres fotones de la figura. Si la masa del electrón es <math display=\"inline\"><msub><mi>m</mi><mi>e</mi></msub></math>, ¿cuál era su velocidad? ¿Y la longitud de onda de cada fotón en el laboratorio y en el sistema del centro de masas?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/ecc83a7a79e8ac77.svg\" alt=\"\" style=\"width:219px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3075,6 +3140,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": ": La masa del pión es <math display=\"inline\"><msub><mi>m</mi><mi>π</mi></msub></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/b98a5568db0fd9c4.svg\" alt=\"\" style=\"width:181px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3108,6 +3177,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Para enfriar (es decir, frenar) átomos se usan láseres. El átomo de la figura está en el nivel fundamental, con energía en reposo <math display=\"inline\"><msub><mi>E</mi><mn>0</mn></msub></math>, y se mueve como se muestra. ¿Cómo hay que elegir la frecuencia del fotón para que el átomo absorba el fotón al pasar al nivel <math display=\"inline\"><mrow><msub><mi>E</mi><mn>0</mn></msub><mo>+</mo><mi mathvariant=\"normal\">Δ</mi><msub><mi>E</mi><mn>0</mn></msub></mrow></math>? ¿Cuál es entonces la nueva velocidad del átomo? (Enseguida emitirá un fotón para volver al nivel fundamental, pero como la dirección de ese fotón se elegirá al azar, repitiendo el proceso una y otra vez se consigue reducir la velocidad del átomo.) ¿Cómo se escriben los resultados teniendo en cuenta que <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Δ</mi><msub><mi>E</mi><mn>0</mn></msub><mo>≪</mo><msub><mi>E</mi><mn>0</mn></msub></mrow></math>?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/8992b5b214962889.svg\" alt=\"\" style=\"width:192px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3226,6 +3299,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Al desintegrarse la partícula cargada en reposo <math display=\"inline\"><mi>A</mi></math> se producen la partícula cargada <math display=\"inline\"><mi>B</mi></math> y la partícula inestable <math display=\"inline\"><mi>C</mi></math>. Como <math display=\"inline\"><mi>C</mi></math> es neutra, no se ve en los detectores, pero cuando ha pasado el tiempo <math display=\"inline\"><mi>t</mi></math> desde la desintegración de <math display=\"inline\"><mi>A</mi></math>, a la distancia <math display=\"inline\"><mi>d</mi></math>, se producen <math display=\"inline\"><mi>D</mi></math> y <math display=\"inline\"><mi>E</mi></math> al desintegrarse <math display=\"inline\"><mi>C</mi></math>. La masa de <math display=\"inline\"><mi>A</mi></math> es <math display=\"inline\"><msub><mi>m</mi><mi>A</mi></msub></math> y la de <math display=\"inline\"><mi>B</mi></math> es <math display=\"inline\"><msub><mi>m</mi><mi>B</mi></msub></math>. ¿Cómo puede escribirse la masa de <math display=\"inline\"><mi>C</mi></math> usando las masas de <math display=\"inline\"><mi>A</mi></math> y <math display=\"inline\"><mi>B</mi></math> que se miden y los valores <math display=\"inline\"><mi>t</mi></math> y <math display=\"inline\"><mi>d</mi></math>?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/2b5f96b6e6f445dd.svg\" alt=\"\" style=\"width:183px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3301,6 +3378,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": ": En el sistema del éter la velocidad de la luz es <math display=\"inline\"><mi>c</mi></math>."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/cfccb99820271577.svg\" alt=\"\" style=\"width:87px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3312,6 +3393,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Entre dos bloques idénticos hay un tubo con un muelle comprimido dentro. Los dos bloques están inicialmente en reposo porque están unidos por una cuerda. Al romperse la cuerda, la velocidad escalar de cada bloque es <math display=\"inline\"><mi>u</mi></math>, como se muestra en la figura. Las masas del muelle, del tubo y de la cuerda son despreciables."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/5f233ea17e071977.svg\" alt=\"\" style=\"width:153px\" loading=\"lazy\">"
       },
       {
        "mota": "testua",
@@ -3330,7 +3415,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Cuando una partícula golpea otra partícula idéntica en reposo se produce una colisión elástica. Como se ve, puede ocurrir que la primera partícula quede en reposo y que la segunda empiece a moverse con el momento lineal de la primera; pero estudiemos los demás casos: tras la colisión las direcciones de las partículas no serán las del movimiento relativo anterior a la colisión. <br> (a) Dibuja la colisión en el sistema del centro de masas y en el laboratorio. Supongamos que el ángulo entre las direcciones inicial y final es <math display=\"inline\"><msup><mi>θ</mi><mo>*</mo></msup></math> en el sistema del centro de masas. <br> (b) Usa la transformación de la velocidad para calcular el ángulo entre las direcciones finales en el laboratorio, en función de <math display=\"inline\"><msup><mi>θ</mi><mo>*</mo></msup></math>. <br> (c) Demuestra que ese ángulo medido en el laboratorio es menor que <math display=\"inline\"><mrow><mn>90</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>. (Puede usarse <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>α</mi><mo>+</mo><mi>β</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">tan</mi><mi>α</mi><mo>+</mo><mi mathvariant=\"normal\">tan</mi><mi>β</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi mathvariant=\"normal\">tan</mi><mi>α</mi><mi mathvariant=\"normal\">tan</mi><mi>β</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>.)"
+       "html": "Cuando una partícula golpea otra partícula idéntica en reposo se produce una colisión elástica. Como se ve, puede ocurrir que la primera partícula quede en reposo y que la segunda empiece a moverse con el momento lineal de la primera; pero estudiemos los demás casos: tras la colisión las direcciones de las partículas no serán las del movimiento relativo anterior a la colisión. <br> (a) Dibuja la colisión en el sistema del centro de masas y en el laboratorio. Supongamos que el ángulo entre las direcciones inicial y final es <math display=\"inline\"><msup><mi>θ</mi><mo>*</mo></msup></math> en el sistema del centro de masas. <br> (b) Usa la transformación de la velocidad para calcular el ángulo entre las direcciones finales en el laboratorio, en función de <math display=\"inline\"><msup><mi>θ</mi><mo>*</mo></msup></math>. <br> (c) Demuestra que ese ángulo medido en el laboratorio es menor que <math display=\"inline\"><mrow><mn>90</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>. (Puede usarse <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>α</mi><mo>+</mo><mi>β</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"normal\">tan</mi><mi>α</mi><mo>+</mo><mi mathvariant=\"normal\">tan</mi><mi>β</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><mi mathvariant=\"normal\">tan</mi><mi>α</mi><mi mathvariant=\"normal\">tan</mi><mi>β</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>.)"
       },
       {
        "mota": "testua",
@@ -3391,6 +3476,10 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       {
        "mota": "testua",
        "html": "Dos naves idénticas de longitud propia <math display=\"inline\"><mi>l</mi></math> se mueven a lo largo de la dirección común de sus longitudes, en sentidos opuestos. Según las medidas de una nave, los dos extremos izquierdos estaban a la altura uno del otro en el instante <math display=\"inline\"><mi>t</mi></math> y los derechos cuando era <math display=\"inline\"><mrow><mi>t</mi><mo>+</mo><mi mathvariant=\"normal\">Δ</mi><mi>t</mi></mrow></math>. ¿Cuál es la velocidad relativa medida por una nave? ¿Y la medida en el sistema del centro de masas de las dos naves?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"../media/irudiak/a0febbc9c4fc5861.svg\" alt=\"\" style=\"width:245px\" loading=\"lazy\">"
       }
      ]
     },
@@ -3488,7 +3577,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
       },
       {
        "mota": "testua",
-       "html": "; del lote CG-01 «métodos», pero el contenido es RELATIVIDAD y viene aquí — manda la imagen). Los dos resultados limpios están comprobados con SymPy: <math display=\"inline\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mi>x</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>γ</mi><mi>v</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msup><mi>x</mi><mo>′</mo></msup><mi>/</mi><mi>v</mi><mo>≡</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>v</mi><mi>x</mi><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> y <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>v</mi><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>x</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Callejones sin salida tachados recogidos literalmente (cero descartes); NO hay correcciones. Véase <code>koadernoa_metmatcg01_p004.typ</code>."
+       "html": "; del lote CG-01 «métodos», pero el contenido es RELATIVIDAD y viene aquí — manda la imagen). Los dos resultados limpios están comprobados con SymPy: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mi>x</mi><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>γ</mi><mi>v</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>−</mo><msup><mi>x</mi><mo>′</mo></msup><mi>/</mi><mi>v</mi><mo>≡</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo>−</mo><mi>v</mi><mi>x</mi><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math></span> y <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mi>γ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><msup><mi>t</mi><mo>′</mo></msup><mo>+</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>v</mi><mi>/</mi><msup><mi>c</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mi>x</mi><mo>′</mo></msup><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Callejones sin salida tachados recogidos literalmente (cero descartes); NO hay correcciones. Véase <code>koadernoa_metmatcg01_p004.typ</code>."
       }
      ]
     },
@@ -3516,10 +3605,6 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
    "maila": 2,
    "izenburua": "Solución (resuelta y comentada por el autor)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -3578,11 +3663,11 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mi>•</mi></math> Eje <math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math>: <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mi>c</mi><mi>t</mi><mo>=</mo><mfrac><mi>v</mi><mi>c</mi></mfrac><mi>x</mi><mo>=</mo><mn>0.8</mn><mi>x</mi></mrow></math>"
+     "html": "<math display=\"block\"><mi>•</mi></math> Eje <math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math>: <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mi>c</mi><mi>t</mi><mo>=</mo><mfrac><mi>v</mi><mi>c</mi></mfrac><mi>x</mi><mo>=</mo><mn>0.8</mn><mi>x</mi></mrow></math>"
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mi>•</mi></math> Eje <math display=\"inline\"><mrow><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></math>: <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mi>c</mi><mi>t</mi><mo>=</mo><mfrac><mi>c</mi><mi>v</mi></mfrac><mi>x</mi><mo>=</mo><mn>1.25</mn><mi>x</mi></mrow></math>"
+     "html": "<math display=\"block\"><mi>•</mi></math> Eje <math display=\"inline\"><mrow><mi>c</mi><msup><mi>t</mi><mo>′</mo></msup></mrow></math>: <math display=\"inline\"><mrow><mspace width=\"1.0em\"></mspace><msup><mi>x</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn><mspace width=\"1.0em\"></mspace><mo>→</mo><mspace width=\"1.0em\"></mspace><mi>c</mi><mi>t</mi><mo>=</mo><mfrac><mi>c</mi><mi>v</mi></mfrac><mi>x</mi><mo>=</mo><mn>1.25</mn><mi>x</mi></mrow></math>"
     },
     {
      "mota": "testua",
@@ -3654,10 +3739,6 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
    "maila": 2,
    "izenburua": "Solución (resuelta y comentada por el autor)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -3748,10 +3829,6 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
    "maila": 2,
    "izenburua": "Solución (resuelta y comentada por el autor)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -3863,10 +3940,6 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>R.</strong>"
     },
     {
@@ -3958,10 +4031,6 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
    "maila": 2,
    "izenburua": "Solución (resuelta y comentada por el autor)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -4163,10 +4232,6 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>R.</strong>"
     },
     {
@@ -4306,10 +4371,6 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "Un viajero espacial que se mueve con velocidad <math display=\"inline\"><mi>v</mi></math> respecto de la Tierra sincroniza su reloj (<math display=\"inline\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math>) con el de su amigo terrestre (<math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>) al pasar junto a él. El terrestre <strong>ve</strong> a la vez los tiempos marcados por los dos relojes: el suyo (<math display=\"inline\"><mi>t</mi></math>) mirando directamente y el del viajero (<math display=\"inline\"><msup><mi>t</mi><mo>′</mo></msup></math>) con un telescopio. ¿Cuál es el valor de <math display=\"inline\"><mi>t</mi></math> cuando ve <math display=\"inline\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>1</mn></mrow></math> hora? ¿Cuál debe ser la velocidad <math display=\"inline\"><mi>v</mi></math> para que en ese momento sea <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>2</mn></mrow></math> horas? [<em>Observación</em>: Recuerda que <strong>ver</strong> y <strong>medir</strong> no son lo mismo]."
     }
    ]
@@ -4319,10 +4380,6 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
    "maila": 2,
    "izenburua": "Solución (resuelta y comentada por el autor)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "[Figura (junto al enunciado): tres esquemas apilados que muestran los sistemas de referencia <math display=\"inline\"><mi>S</mi></math> (Tierra) y <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> (viajero) en tres instantes sucesivos. 1) <math display=\"inline\"><mi>S</mi></math> y <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> coinciden; velocidad <math display=\"inline\"><mi>v</mi></math> hacia la derecha; el reloj del viajero marca <math display=\"inline\"><mrow><msup><mi>t</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math> (eje <math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math>); una fila de seis relojes del sistema <math display=\"inline\"><mi>S</mi></math> marcan todos <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> (eje <math display=\"inline\"><mi>x</mi></math>). 2) <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> desplazado hacia la derecha con velocidad <math display=\"inline\"><mi>v</mi></math>; el reloj del viajero marca <math display=\"inline\"><msup><mi>t</mi><mo>′</mo></msup></math> y desde la distancia <math display=\"inline\"><mi>d</mi></math> emite una señal con velocidad <math display=\"inline\"><mi>c</mi></math> (hacia la izquierda); la fila de seis relojes de <math display=\"inline\"><mi>S</mi></math> marca <math display=\"inline\"><mi>t</mi></math>. 3) <math display=\"inline\"><msup><mi>S</mi><mo>′</mo></msup></math> aún más a la derecha, con velocidad <math display=\"inline\"><mi>v</mi></math>; el reloj del viajero marca <math display=\"inline\"><msubsup><mi>t</mi><mn>1</mn><mo>′</mo></msubsup></math> (eje <math display=\"inline\"><msup><mi>x</mi><mo>′</mo></msup></math>); la fila de seis relojes de <math display=\"inline\"><mi>S</mi></math> marca <math display=\"inline\"><msub><mi>t</mi><mn>1</mn></msub></math>.]"
@@ -4423,7 +4480,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> sin α = 3/5   →   α = 37° </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">sin α = 3/5   →   α = 37°</code>"
     },
     {
      "mota": "testua",
@@ -4431,7 +4488,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> E_(ant) = E_(des)      →      Q + E₀ = Q&#x27; + γE₀ P_x(ant) = P_x(des)    →      Q/c = mv cos 37° P_y(ant) = P_y(des)    →      0 = mv sin 37° − Q&#x27;/c </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">E_(ant) = E_(des)      →      Q + E₀ = Q' + γE₀\nP_x(ant) = P_x(des)    →      Q/c = mv cos 37°\nP_y(ant) = P_y(des)    →      0 = mv sin 37° − Q'/c</code>"
     },
     {
      "mota": "testua",
@@ -4439,7 +4496,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> Q = 4γE₀v/(5c)        Q&#x27; = 3γE₀v/(5c) </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">Q = 4γE₀v/(5c)        Q' = 3γE₀v/(5c)</code>"
     },
     {
      "mota": "testua",
@@ -4447,7 +4504,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> (4/5)γβ + 1 = (3/5)γβ + γ      →      γ = 13/12      [β = 5/13] </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">(4/5)γβ + 1 = (3/5)γβ + γ      →      γ = 13/12      [β = 5/13]</code>"
     },
     {
      "mota": "testua",
@@ -4455,7 +4512,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> Q = (1/3)E₀        Q&#x27; = (1/4)E₀ </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">Q = (1/3)E₀        Q' = (1/4)E₀</code>"
     },
     {
      "mota": "testua",
@@ -4467,7 +4524,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> E_(ant) = E_(des)      →      Q + E₀ = Q&#x27; + E P_x(ant) = P_x(des)    →      Q/c = (4/5)P P_y(ant) = P_y(des)    →      0 = (3/5)P − Q&#x27;/c </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">E_(ant) = E_(des)      →      Q + E₀ = Q' + E\nP_x(ant) = P_x(des)    →      Q/c = (4/5)P\nP_y(ant) = P_y(des)    →      0 = (3/5)P − Q'/c</code>"
     },
     {
      "mota": "testua",
@@ -4475,7 +4532,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> ⎧ Pc = (5/4)Q ⎨                            →      E = Q − Q&#x27; + E₀ = (1/4)Q + E₀ ⎩ Q&#x27; = (3/5)Pc = (3/4)Q </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">⎧ Pc = (5/4)Q\n⎨                            →      E = Q − Q' + E₀ = (1/4)Q + E₀\n⎩ Q' = (3/5)Pc = (3/4)Q</code>"
     },
     {
      "mota": "testua",
@@ -4483,7 +4540,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> ((1/4)Q + E₀)² = E₀² + ((5/4)Q)² </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">((1/4)Q + E₀)² = E₀² + ((5/4)Q)²</code>"
     },
     {
      "mota": "testua",
@@ -4491,7 +4548,7 @@ KAPITULUAK["05mk_03erlatibitatea"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code> Q = (1/3)E₀      →      Q&#x27; = (1/4)E₀ </code><code></code>"
+     "html": "<code class=\"j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">Q = (1/3)E₀      →      Q' = (1/4)E₀</code>"
     }
    ]
   }

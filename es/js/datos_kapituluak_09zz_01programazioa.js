@@ -64,11 +64,7 @@ KAPITULUAK["09zz_01programazioa"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "<code></code><code>python def sumadivisores(num): suma = 0 for i in range(1, (num//2)+1): if num % i == 0: suma = suma + 1        # en el original; correcto: suma + i return suma</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "def sonamigos(n1, n2): if n1 == sumadivisores(n2) and n2 == sumadivisores(n1): return True else: return False <code></code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def sumadivisores(num):\n    suma = 0\n    for i in range(1, (num//2)+1):\n        if num % i == 0:\n            suma = suma + 1        # jatorrizkoan; zuzena: suma + i\n    return suma\n\ndef sonamigos(n1, n2):\n    if n1 == sumadivisores(n2) and n2 == sumadivisores(n1):\n        return True\n    else:\n        return False</code>"
     }
    ]
   },
@@ -79,11 +75,7 @@ KAPITULUAK["09zz_01programazioa"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "<code></code><code>python def esprimo(n): primo = True i = 2 while i &lt; n and primo == True: if n % i == 0: primo = False i = i + 1 return primo</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "def sumaprimos(n): suma = 0 for i in range(1, n+1): if esprimo(i): suma = suma + 1        # en el original; correcto: suma + i return suma <code></code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def esprimo(n):\n    primo = True\n    i = 2\n    while i &lt; n and primo == True:\n        if n % i == 0:\n            primo = False\n        i = i + 1\n    return primo\n\ndef sumaprimos(n):\n    suma = 0\n    for i in range(1, n+1):\n        if esprimo(i):\n            suma = suma + 1        # jatorrizkoan; zuzena: suma + i\n    return suma</code>"
     }
    ]
   },
@@ -98,11 +90,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def convierte(n): s = &#x27;&#x27; while n &gt; 0: s = str(n % 2) + s n = n // 2 return s</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "num = int(input(&quot;Sartu zenbaki oso positibo bat&quot;)) if num &lt;= 0: print(&quot;Zenbakia ez da positiboa&quot;) else: print(num, &quot;–&gt;&quot;, convierte(num)) <code></code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def convierte(n):\n    s = ''\n    while n &gt; 0:\n        s = str(n % 2) + s\n        n = n // 2\n    return s\n\nnum = int(input(\"Sartu zenbaki oso positibo bat\"))\nif num &lt;= 0:\n    print(\"Zenbakia ez da positiboa\")\nelse:\n    print(num, \"--&gt;\", convierte(num))</code>"
     },
     {
      "mota": "oharra",
@@ -135,7 +123,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python busqueda = input(&quot;Sartu bilaketa-katea&quot;) cadena   = input(&quot;Sartu erreferentzia-katea&quot;) lbus    = busqueda.split() lcadena = cadena.split() tamano  = len(lcadena) for pbus in lbus: por = 0 for pcad in lcadena: if pbus == pcad: por = por + 1 print(&quot;«&quot;, pbus, &quot;» hitza agertzen da&quot;, 100*por/tamano, &quot;%&quot;) </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">busqueda = input(\"Sartu bilaketa-katea\")\ncadena   = input(\"Sartu erreferentzia-katea\")\nlbus    = busqueda.split()\nlcadena = cadena.split()\ntamano  = len(lcadena)\nfor pbus in lbus:\n    por = 0\n    for pcad in lcadena:\n        if pbus == pcad:\n            por = por + 1\n    print(\"«\", pbus, \"» hitza agertzen da\", 100*por/tamano, \"%\")</code>"
     },
     {
      "mota": "oharra",
@@ -188,11 +176,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def vocales(nombre): f = open(nombre, &quot;r&quot;) linea = f.readline() dic = {}                 # en el original [ ]; hace falta un diccionario while linea != &quot;&quot;:       # en el original &quot; &quot;; hace falta la cadena vacía &quot;&quot; for letra in linea: if letra == &#x27;a&#x27; or letra == &#x27;e&#x27; or ...:   # (etc.) if letra in dic: dic[letra] += 1 else: dic[letra] = 1 linea = f.readline() return dic</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "nombre = input(&quot;Sartu fitxategiaren izena: &quot;) diccionario = vocales(nombre) for elemento in diccionario: print(&quot;«&quot;, elemento, &quot;» bokala agertzen da&quot;, diccionario[elemento], &quot;aldiz&quot;) print(&quot;Fitxategiak&quot;, len(diccionario), &quot;bokal ditu&quot;) <code></code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def vocales(nombre):\n    f = open(nombre, \"r\")\n    linea = f.readline()\n    dic = {}                 # jatorrizkoan [ ]; hiztegia behar da\n    while linea != \"\":       # jatorrizkoan \" \"; hutsa \"\" behar da\n        for letra in linea:\n            if letra == 'a' or letra == 'e' or ...:   # (etc.)\n                if letra in dic:\n                    dic[letra] += 1\n                else:\n                    dic[letra] = 1\n        linea = f.readline()\n    return dic\n\nnombre = input(\"Sartu fitxategiaren izena: \")\ndiccionario = vocales(nombre)\nfor elemento in diccionario:\n    print(\"«\", elemento, \"» bokala agertzen da\", diccionario[elemento], \"aldiz\")\nprint(\"Fitxategiak\", len(diccionario), \"bokal ditu\")</code>"
     },
     {
      "mota": "izenburua",
@@ -201,11 +185,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def lista_divisores(num): l = [] for i in range(1, num):    # para incluir el propio número: range(1, num+1) if num % i == 0: l.append(i) return l</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "numero = int(input(&quot;Sartu zenbaki bat: &quot;)) lis = lista_divisores(numero) print(lis) print(lis[2])                  # tercer divisor (los índices empiezan en 0) <code></code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def lista_divisores(num):\n    l = []\n    for i in range(1, num):    # zenbakia bera sartzeko: range(1, num+1)\n        if num % i == 0:\n            l.append(i)\n    return l\n\nnumero = int(input(\"Sartu zenbaki bat: \"))\nlis = lista_divisores(numero)\nprint(lis)\nprint(lis[2])                  # hirugarren zatitzailea (indizeak 0-tik)</code>"
     },
     {
      "mota": "izenburua",
@@ -214,7 +194,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>scilab x = 1:100    // vector de enteros 1..100 y = x        // copia plot(x, y)   // dibujar la recta y = x </code><code></code>"
+     "html": "<code class=\"language-scilab j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">x = 1:100    // 1..100 osoen bektorea\ny = x        // kopia\nplot(x, y)   // y = x zuzena marraztu</code>"
     },
     {
      "mota": "oharra",
@@ -244,7 +224,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def convertir(n): s = &#x27;&#x27;             # en el original &#x27; &#x27; (espacio); debe ser &#x27;&#x27; while n != 0: s = str(n % 2) + s n = n // 2 return s print(convertir(n)) </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def convertir(n):\n    s = ''             # jatorrizkoan ' ' (zuriunea); '' behar da\n    while n != 0:\n        s = str(n % 2) + s\n        n = n // 2\n    return s\nprint(convertir(n))</code>"
     },
     {
      "mota": "izenburua",
@@ -253,15 +233,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python f1 = open(&quot;fich.txt&quot;, &quot;r&quot;) f2 = open(&quot;fich2.txt&quot;, &quot;r&quot;) linea1 = f1.readline() linea2 = f2.readline() f3 = open(&quot;destino.txt&quot;, &quot;w&quot;)     # en el original falta OPEN</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "while linea1 != &quot;&quot; and linea2 != &quot;&quot;: f3.write(linea1) f3.write(linea2) linea1 = f1.readline() linea2 = f2.readline()"
-    },
-    {
-     "mota": "testua",
-     "html": "while linea1 != &quot;&quot;:               # resto de f1 f3.write(linea1) linea1 = f1.readline() while linea2 != &quot;&quot;:               # resto de f2 f3.write(linea2) linea2 = f2.readline() f3.close() <code></code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">f1 = open(\"fich.txt\", \"r\")\nf2 = open(\"fich2.txt\", \"r\")\nlinea1 = f1.readline()\nlinea2 = f2.readline()\nf3 = open(\"destino.txt\", \"w\")     # jatorrizkoan OPEN falta\n\nwhile linea1 != \"\" and linea2 != \"\":\n    f3.write(linea1)\n    f3.write(linea2)\n    linea1 = f1.readline()\n    linea2 = f2.readline()\n\nwhile linea1 != \"\":               # f1-eko soberakina\n    f3.write(linea1)\n    linea1 = f1.readline()\nwhile linea2 != \"\":               # f2-eko soberakina\n    f3.write(linea2)\n    linea2 = f2.readline()\nf3.close()</code>"
     },
     {
      "mota": "izenburua",
@@ -270,7 +242,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python import random num = int(100 * random.random()) cont = 1 print(&quot;Zenbaki bat pentsatu dut, asmatu ezazu&quot;) op = int(input(&quot;Sartu zure erantzuna: &quot;)) while op != num: print(&quot;Zenbaki okerra&quot;) cont = cont + 1 if op &gt; num: print(&quot;Zenbaki txikiago bat pentsatu dut&quot;) else: print(&quot;Zenbaki handiago bat pentsatu dut&quot;) op = int(input(&quot;Sartu zure erantzuna: &quot;)) print(&quot;Zuzena!&quot;) print(&quot;&quot;, cont, &quot;saiakera erabili dituzu&quot;) </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">import random\nnum = int(100 * random.random())\ncont = 1\nprint(\"Zenbaki bat pentsatu dut, asmatu ezazu\")\nop = int(input(\"Sartu zure erantzuna: \"))\nwhile op != num:\n    print(\"Zenbaki okerra\")\n    cont = cont + 1\n    if op &gt; num:\n        print(\"Zenbaki txikiago bat pentsatu dut\")\n    else:\n        print(\"Zenbaki handiago bat pentsatu dut\")\n    op = int(input(\"Sartu zure erantzuna: \"))\nprint(\"Zuzena!\")\nprint(\"\", cont, \"saiakera erabili dituzu\")</code>"
     },
     {
      "mota": "oharra",
@@ -308,11 +280,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def raiz(num, ite): x = 1 for i in range(ite): x = x - ((x**2) - num) / (2*x) return x print(raiz(27, 10))   # ejemplo</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "def raiz2(num): x = 1 xn = x - ((x*<strong>2) - num) / (2</strong>x) cont = 1 while abs(xn - x) &gt; 0.000001: x = xn xn = xn - ((xn*<strong>2) - num) / (2</strong>xn)   # en el original 2*x cont += 1 print(cont) return xn <code></code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def raiz(num, ite):\n    x = 1\n    for i in range(ite):\n        x = x - ((x**2) - num) / (2*x)\n    return x\nprint(raiz(27, 10))   # adibidea\n\ndef raiz2(num):\n    x = 1\n    xn = x - ((x**2) - num) / (2*x)\n    cont = 1\n    while abs(xn - x) &gt; 0.000001:\n        x = xn\n        xn = xn - ((xn**2) - num) / (2*xn)   # jatorrizkoan 2*x\n        cont += 1\n    print(cont)\n    return xn</code>"
     },
     {
      "mota": "izenburua",
@@ -321,7 +289,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def serie(t1, ite): l = [t1] for i in range(1, ite): if i % 2 == 0: l.append(l[i-1] // 2) else: l.append((l[i-1] * 3) + 1) return l # t1=7: [7, 22, 11, 34, 17, 52, 26, 79, 39, 118] </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def serie(t1, ite):\n    l = [t1]\n    for i in range(1, ite):\n        if i % 2 == 0:\n            l.append(l[i-1] // 2)\n        else:\n            l.append((l[i-1] * 3) + 1)\n    return l\n# t1=7: [7, 22, 11, 34, 17, 52, 26, 79, 39, 118]</code>"
     },
     {
      "mota": "izenburua",
@@ -330,11 +298,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def factorial1(n):        def factorial2(n): f = 1                     f = 1 while n &gt; 1:              for i in range(2, n+1): f = f * n                 f = f * i n = n - 1             return f return f</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "def factorial_r(n):       # función RECURSIVA (que se llama a sí misma) if n == 0 or n == 1:  #   caso base return 1 else:                 #   caso recursivo return n * factorial_r(n-1) <code></code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def factorial1(n):        def factorial2(n):\n    f = 1                     f = 1\n    while n &gt; 1:              for i in range(2, n+1):\n        f = f * n                 f = f * i\n        n = n - 1             return f\n    return f\n\ndef factorial_r(n):       # funtzio ERREKURTSIBOA (bere buruari deitzen diona)\n    if n == 0 or n == 1:  #   oinarri-kasua\n        return 1\n    else:                 #   errekurtsio-kasua\n        return n * factorial_r(n-1)</code>"
     },
     {
      "mota": "izenburua",
@@ -343,11 +307,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def fibonacci(ite): l = [0, 1] for i in range(2, ite+1): l.append(l[i-2] + l[i-1]) return l # [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...]</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "def mostrar_fibonacci(ite): x0 = 0 x1 = 1 s = str(x0) + &#x27;, &#x27; + str(x1) for i in range(2, ite+1): aux = x1 x1 = x1 + x0 x0 = aux s = s + &#x27;, &#x27; + str(x1) print(s) <code></code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def fibonacci(ite):\n    l = [0, 1]\n    for i in range(2, ite+1):\n        l.append(l[i-2] + l[i-1])\n    return l\n# [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...]\n\ndef mostrar_fibonacci(ite):\n    x0 = 0\n    x1 = 1\n    s = str(x0) + ', ' + str(x1)\n    for i in range(2, ite+1):\n        aux = x1\n        x1 = x1 + x0\n        x0 = aux\n        s = s + ', ' + str(x1)\n    print(s)</code>"
     },
     {
      "mota": "oharra",
@@ -355,7 +315,7 @@ KAPITULUAK["09zz_01programazioa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Todo correcto: <code>raiz</code> = Newton-Raphson aplicado a <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> num</mtext></mrow></mrow></math> (<math display=\"inline\"><mrow><mi>x</mi><mo>←</mo><mi>x</mi><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> num</mtext></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>), converge cuadráticamente a <math display=\"inline\"><msqrt><mtext mathvariant=\"normal\">num</mtext></msqrt></math>; <code>raiz2</code> con criterio de tolerancia (<math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>x</mi><mi>n</mi></msub><mo>−</mo><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&gt;</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>6</mn></mrow></msup></mrow></math>) y contador. ⚠ En la línea de actualización de <code>raiz2</code> el denominador es <code>2*x</code>, cuando debería ser <code>2*xn</code> (el valor nuevo); la convergencia se estropea, aunque el bucle se aproxime; recogido. La regla de <code>serie</code> depende de la <strong>paridad del índice</strong> (<code>i%2</code>), no del valor; recalculando, para <code>t1 = 7</code> <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>7</mn><mo>,</mo><mn>22</mn><mo>,</mo><mn>11</mn><mo>,</mo><mn>34</mn><mo>,</mo><mn>17</mn><mo>,</mo><mn>52</mn><mo>,</mo><mn>26</mn><mo>,</mo><mn>79</mn><mo>,</mo><mn>39</mn><mo>,</mo><mn>118</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math> — el código y el ejemplo concuerdan (en el original las dos primeras cifras se leían mal, corregidas recalculando). Los tres factoriales son correctos (<code>while</code>, <code>for</code>, recursivo con caso base <math display=\"inline\"><mrow><mi>n</mi><mo>∈</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> y <math display=\"inline\"><mrow><mi>n</mi><mo>⋅</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>!</mi></mrow></math>); la glosa roja («que se llama a sí misma») es exacta. Fibonacci correcto (<code>L = [0,1]</code>, <code>L[i] = L[i-2] + L[i-1]</code>); el intercambio con variable auxiliar de <code>mostrar_fibonacci</code> es correcto. Véase <code>koadernoa_landeta2_comput_p090.typ</code>."
+       "html": "Todo correcto: <code>raiz</code> = Newton-Raphson aplicado a <math display=\"inline\"><mrow><mi>f</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> num</mtext></mrow></mrow></math> (<math display=\"inline\"><mrow><mi>x</mi><mo>←</mo><mi>x</mi><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> num</mtext></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>/</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>), converge cuadráticamente a <math display=\"inline\"><msqrt><mtext mathvariant=\"normal\">num</mtext></msqrt></math>; <code>raiz2</code> con criterio de tolerancia (<math display=\"inline\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><msub><mi>x</mi><mi>n</mi></msub><mo>−</mo><mi>x</mi><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mo>&gt;</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>6</mn></mrow></msup></mrow></math>) y contador. ⚠ En la línea de actualización de <code>raiz2</code> el denominador es <code>2*x</code>, cuando debería ser <code>2*xn</code> (el valor nuevo); la convergencia se estropea, aunque el bucle se aproxime; recogido. La regla de <code>serie</code> depende de la <strong>paridad del índice</strong> (<code>i%2</code>), no del valor; recalculando, para <code>t1 = 7</code> <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>7</mn><mo>,</mo><mn>22</mn><mo>,</mo><mn>11</mn><mo>,</mo><mn>34</mn><mo>,</mo><mn>17</mn><mo>,</mo><mn>52</mn><mo>,</mo><mn>26</mn><mo>,</mo><mn>79</mn><mo>,</mo><mn>39</mn><mo>,</mo><mn>118</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math></span> — el código y el ejemplo concuerdan (en el original las dos primeras cifras se leían mal, corregidas recalculando). Los tres factoriales son correctos (<code>while</code>, <code>for</code>, recursivo con caso base <math display=\"inline\"><mrow><mi>n</mi><mo>∈</mo><mrow><mo stretchy=\"true\" form=\"prefix\">{</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy=\"true\" form=\"postfix\">}</mo></mrow></mrow></math> y <math display=\"inline\"><mrow><mi>n</mi><mo>⋅</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>!</mi></mrow></math>); la glosa roja («que se llama a sí misma») es exacta. Fibonacci correcto (<code>L = [0,1]</code>, <code>L[i] = L[i-2] + L[i-1]</code>); el intercambio con variable auxiliar de <code>mostrar_fibonacci</code> es correcto. Véase <code>koadernoa_landeta2_comput_p090.typ</code>."
       }
      ]
     }
@@ -377,11 +337,19 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def fibonacci_r(ite): if ite == 0: return 0 else: if ite == 1: return 1 else: return fibonacci_r(ite-1) + fibonacci_r(ite-2) </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def fibonacci_r(ite):\n    if ite == 0:\n        return 0\n    else:\n        if ite == 1:\n            return 1\n        else:\n            return fibonacci_r(ite-1) + fibonacci_r(ite-2)</code>"
     },
     {
      "mota": "testua",
-     "html": "<strong>Árbol de llamadas</strong> para <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>: <code></code><code>text F(4) = 3 /        \\ F(3)=2    +   F(2)=1 /     \\         /    \\ F(2)=1  +  F(1)=1  F(1)=1 + F(0)=0 /   \\ F(1)=1 + F(0)=0 </code><code></code> Índices: <math display=\"inline\"><mrow><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn></mrow></math>; valores: <math display=\"inline\"><mrow><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn></mrow></math>. (Que <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> aparezca tres veces muestra que esta versión es menos eficiente que la iterativa.)"
+     "html": "<strong>Árbol de llamadas</strong> para <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>:"
+    },
+    {
+     "mota": "testua",
+     "html": "<code class=\"language-text j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">                 F(4) = 3\n                /        \\\n           F(3)=2    +   F(2)=1\n          /     \\         /    \\\n    F(2)=1  +  F(1)=1  F(1)=1 + F(0)=0\n     /   \\\nF(1)=1 + F(0)=0</code>"
+    },
+    {
+     "mota": "testua",
+     "html": "Índices: <math display=\"inline\"><mrow><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn></mrow></math>; valores: <math display=\"inline\"><mrow><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn></mrow></math>. (El hecho de que <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> aparezca tres veces muestra que esta versión es menos eficiente que la iterativa.)"
     },
     {
      "mota": "izenburua",
@@ -390,15 +358,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def esprimo(n): pr = True i = 2 while i &lt; n and pr == True: if n % i == 0: pr = False i += 1 return pr</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "for i in range(100):        # primos menores que 100 if esprimo(i): print(i)"
-    },
-    {
-     "mota": "testua",
-     "html": "i = 1                       # los primeros 1000 primos np = 0 while np &lt; 1000: if esprimo(i): print(i) np += 1 i += 1 <code></code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def esprimo(n):\n    pr = True\n    i = 2\n    while i &lt; n and pr == True:\n        if n % i == 0:\n            pr = False\n        i += 1\n    return pr\n\nfor i in range(100):        # 100 arteko lehenak\n    if esprimo(i):\n        print(i)\n\ni = 1                       # lehen 1000 lehenak\nnp = 0\nwhile np &lt; 1000:\n    if esprimo(i):\n        print(i)\n        np += 1\n    i += 1</code>"
     },
     {
      "mota": "oharra",
@@ -428,11 +388,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def sumapoli(p1, p2): if len(p2) &gt; len(p1):      # para que p1 sea el más largo aux = p1; p1 = p2; p2 = aux rgt = [] for i in range(0, len(p2)): rgt.append(p1[i] + p2[i]) for i in range(len(p2), len(p1)): rgt.append(p1[i]) return rgt</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "def restapoli(p1, p2): correccion = 1 if len(p2) &gt; len(p1): aux = p1; p1 = p2; p2 = aux correccion = -1        # si se ha intercambiado, para obtener p1-p2 rgt = [] for i in range(len(p2)): rgt.append((p1[i] - p2[i]) <strong> correccion) for i in range(len(p2), len(p1)): rgt.append(p1[i] </strong> correccion) return rgt <code></code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def sumapoli(p1, p2):\n    if len(p2) &gt; len(p1):      # p1 luzeena izan dadin\n        aux = p1; p1 = p2; p2 = aux\n    rgt = []\n    for i in range(0, len(p2)):\n        rgt.append(p1[i] + p2[i])\n    for i in range(len(p2), len(p1)):\n        rgt.append(p1[i])\n    return rgt\n\ndef restapoli(p1, p2):\n    correccion = 1\n    if len(p2) &gt; len(p1):\n        aux = p1; p1 = p2; p2 = aux\n        correccion = -1        # trukatzean, p1-p2 lortzeko\n    rgt = []\n    for i in range(len(p2)):\n        rgt.append((p1[i] - p2[i]) * correccion)\n    for i in range(len(p2), len(p1)):\n        rgt.append(p1[i] * correccion)\n    return rgt</code>"
     },
     {
      "mota": "izenburua",
@@ -441,7 +397,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def es_bisiesto(num): if num % 4 == 0: if num % 100 != 0: return True else: return False else: return False </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def es_bisiesto(num):\n    if num % 4 == 0:\n        if num % 100 != 0:\n            return True\n        else:\n            return False\n    else:\n        return False</code>"
     },
     {
      "mota": "izenburua",
@@ -450,7 +406,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def es_bisiesto(num): if (num % 4 == 0 and num % 100 != 0) or (num % 400 == 0): return True    # en el original % 1; debe ser % 100 y simplificar la 2.ª cláusula else: return False </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def es_bisiesto(num):\n    if (num % 4 == 0 and num % 100 != 0) or (num % 400 == 0):\n        return True    # jatorrizkoan % 1; % 100 behar da eta 2. klausula sinplifikatu\n    else:\n        return False</code>"
     },
     {
      "mota": "oharra",
@@ -480,7 +436,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python ord(&#x27;a&#x27;)   # -&gt; 97   (código a partir del carácter) chr(97)    # -&gt; &#x27;a&#x27;  (carácter a partir del código) # ord(&#x27;A&#x27;) = 65,  ord(&#x27;a&#x27;) = 97 </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">ord('a')   # -&gt; 97   (kodea karakteretik)\nchr(97)    # -&gt; 'a'  (karakterea kodetik)\n# ord('A') = 65,  ord('a') = 97</code>"
     },
     {
      "mota": "izenburua",
@@ -489,7 +445,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python if letra &gt;= &quot;A&quot; and letra &lt;= &quot;b&quot;:   # en el original; véase la nota ... # minúsculas: letra &gt;= &#x27;a&#x27; and letra &lt;= &#x27;z&#x27; # mayúsculas: letra &gt;= &#x27;A&#x27; and letra &lt;= &#x27;Z&#x27; </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">if letra &gt;= \"A\" and letra &lt;= \"b\":   # jatorrizkoan; ikus oharra\n    ...\n# minuskulak: letra &gt;= 'a' and letra &lt;= 'z'\n# maiuskulak: letra &gt;= 'A' and letra &lt;= 'Z'</code>"
     },
     {
      "mota": "testua",
@@ -544,7 +500,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def histograma(): f = open(&quot;fichero.txt&quot;, &quot;r&quot;) h = {} for linea in f: palabras = linea.split() for palabra in palabras: if palabra in h: h[palabra] = h[palabra] + 1 else: h[palabra] = 1 return h </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def histograma():\n    f = open(\"fichero.txt\", \"r\")\n    h = {}\n    for linea in f:\n        palabras = linea.split()\n        for palabra in palabras:\n            if palabra in h:\n                h[palabra] = h[palabra] + 1\n            else:\n                h[palabra] = 1\n    return h</code>"
     }
    ]
   },
@@ -559,7 +515,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def hitzkop(h, n): lista = [] for clave in h: if h[clave] == n: lista.append(clave) return lista </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def hitzkop(h, n):\n    lista = []\n    for clave in h:\n        if h[clave] == n:\n            lista.append(clave)\n    return lista</code>"
     },
     {
      "mota": "oharra",
@@ -593,7 +549,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def histograma(): f = open(&quot;texto.txt&quot;, &quot;r&quot;) dic = {} texto = f.read() for palabra in texto.split(): if palabra in dic: dic[palabra] = dic[palabra] + 1   # en el original dic(palabra); correcto: [] else: dic[palabra] = 1 return dic </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def histograma():\n    f = open(\"texto.txt\", \"r\")\n    dic = {}\n    texto = f.read()\n    for palabra in texto.split():\n        if palabra in dic:\n            dic[palabra] = dic[palabra] + 1   # jatorrizkoan dic(palabra); zuzena: []\n        else:\n            dic[palabra] = 1\n    return dic</code>"
     },
     {
      "mota": "izenburua",
@@ -606,7 +562,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python dic1 = histograma() dic2 = {} for llave in dic1: if dic1[llave] in dic2: dic2[dic1[llave]].append(llave) else: dic2[dic1[llave]] = [llave] </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">dic1 = histograma()\ndic2 = {}\nfor llave in dic1:\n    if dic1[llave] in dic2:\n        dic2[dic1[llave]].append(llave)\n    else:\n        dic2[dic1[llave]] = [llave]</code>"
     },
     {
      "mota": "oharra",
@@ -640,7 +596,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def organizar2(): f = open(&quot;noticias.txt&quot;, &quot;r&quot;) dic = {} for linea in f.readlines(): palabras = linea.split() key = palabras[0] + &quot; &quot; + palabras[1] + &quot; &quot; + palabras[2] dic[key] = [] for i in range(3, len(palabras)): dic[key].append(palabras[i]) return dic </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def organizar2():\n    f = open(\"noticias.txt\", \"r\")\n    dic = {}\n    for linea in f.readlines():\n        palabras = linea.split()\n        key = palabras[0] + \" \" + palabras[1] + \" \" + palabras[2]\n        dic[key] = []\n        for i in range(3, len(palabras)):\n            dic[key].append(palabras[i])\n    return dic</code>"
     },
     {
      "mota": "izenburua",
@@ -649,11 +605,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def kalkopurua():          # versión 1: con bucle f = open(&quot;texto.txt&quot;, &quot;r&quot;) datos = f.read() kop = 0 for karakter in datos: kop = kop + 1 return kop</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "def kalkopurua():          # versión 2: len() f = open(&quot;texto.txt&quot;, &quot;r&quot;) datos = f.read() return len(datos) <code></code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def kalkopurua():          # 1. bertsioa: begiztaz\n    f = open(\"texto.txt\", \"r\")\n    datos = f.read()\n    kop = 0\n    for karakter in datos:\n        kop = kop + 1\n    return kop\n\ndef kalkopurua():          # 2. bertsioa: len()\n    f = open(\"texto.txt\", \"r\")\n    datos = f.read()\n    return len(datos)</code>"
     },
     {
      "mota": "izenburua",
@@ -662,7 +614,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def organitu(fich, palabra): f = open(fich, &quot;r&quot;) datos = f.read() palabras = datos.split() if palabra in palabras: return True else: return False </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def organitu(fich, palabra):\n    f = open(fich, \"r\")\n    datos = f.read()\n    palabras = datos.split()\n    if palabra in palabras:\n        return True\n    else:\n        return False</code>"
     },
     {
      "mota": "oharra",
@@ -693,19 +645,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python numsillas = int(input(&quot;Introduce el número de sillas&quot;)) modelo = input(&quot;Introduce el modelo&quot;) while modelo != &quot;AAA&quot; and modelo != &quot;ISAAA&quot; and modelo != &quot;GYAYS&quot;: modelo = input(&quot;Modelo no encontrado. Introduce el modelo&quot;)</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "if modelo == &quot;AAA&quot;: precio = numsillas <strong> 35 elif modelo == &quot;ISAAA&quot;: precio = numsillas </strong> 43 elif modelo == &quot;GYAYS&quot;: precio = numsillas <strong> 54 else: precio = numsillas </strong> 67          # inalcanzable: el while valida el modelo"
-    },
-    {
-     "mota": "testua",
-     "html": "if numsillas &gt;= 4: precio = precio <strong> 0.9 elif numsillas &gt;= 6:                 # inalcanzable: &gt;=4 ya lo captura precio = precio </strong> 0.85 elif numsillas &gt;= 8: precio = precio <strong> 0.80 elif numsillas &gt;= 10: precio = precio </strong> 0.75"
-    },
-    {
-     "mota": "testua",
-     "html": "print(numsillas, &quot;sillas del modelo&quot;, modelo, &quot;cuestan&quot;, precio) <code></code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">numsillas = int(input(\"Introduce el número de sillas\"))\nmodelo = input(\"Introduce el modelo\")\nwhile modelo != \"AAA\" and modelo != \"ISAAA\" and modelo != \"GYAYS\":\n    modelo = input(\"Modelo no encontrado. Introduce el modelo\")\n\nif modelo == \"AAA\":\n    precio = numsillas * 35\nelif modelo == \"ISAAA\":\n    precio = numsillas * 43\nelif modelo == \"GYAYS\":\n    precio = numsillas * 54\nelse:\n    precio = numsillas * 67          # heltezina: while-k modeloa baliozkotzen du\n\nif numsillas &gt;= 4:\n    precio = precio * 0.9\nelif numsillas &gt;= 6:                 # heltezina: &gt;=4-k jada harrapatzen du\n    precio = precio * 0.85\nelif numsillas &gt;= 8:\n    precio = precio * 0.80\nelif numsillas &gt;= 10:\n    precio = precio * 0.75\n\nprint(numsillas, \"sillas del modelo\", modelo, \"cuestan\", precio)</code>"
     },
     {
      "mota": "oharra",
@@ -739,7 +679,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def posicion(vector, elemento): for i in range(len(vector)): if elemento == vector[i]: return i elif elemento &lt; vector[i]: return -1 return -1 </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def posicion(vector, elemento):\n    for i in range(len(vector)):\n        if elemento == vector[i]:\n            return i\n        elif elemento &lt; vector[i]:\n            return -1\n    return -1</code>"
     },
     {
      "mota": "izenburua",
@@ -752,7 +692,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python f = open(&quot;fich.txt&quot;, &quot;r&quot;) d = f.read() lista_palabras = d.split(&quot; &quot;) contador = 0 for palabra in lista_palabras: if &#x27;e&#x27; in palabra: contador = contador + 1 print(&quot;El porcentaje de palabras con la letra e es:&quot;, 100 * contador / len(lista_palabras)) </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">f = open(\"fich.txt\", \"r\")\nd = f.read()\nlista_palabras = d.split(\" \")\ncontador = 0\nfor palabra in lista_palabras:\n    if 'e' in palabra:\n        contador = contador + 1\nprint(\"El porcentaje de palabras con la letra e es:\",\n      100 * contador / len(lista_palabras))</code>"
     },
     {
      "mota": "izenburua",
@@ -799,7 +739,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python while i &lt; len(cadena) and correcta: if cadena[i] in palabra: correcta = False i = i + 1 if correcta: linea_w = linea_w + palabra + &quot; &quot; fl.write(linea_w + &quot;\\n&quot;) numlinea = numlinea + 1 fe.close() fl.close() </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">    while i &lt; len(cadena) and correcta:\n        if cadena[i] in palabra:\n            correcta = False\n        i = i + 1\n    if correcta:\n        linea_w = linea_w + palabra + \" \"\n    fl.write(linea_w + \"\\n\")\n    numlinea = numlinea + 1\nfe.close()\nfl.close()</code>"
     },
     {
      "mota": "testua",
@@ -816,7 +756,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python n = 4 m = 4 matriz = [] for i in range(n): fila = [] for j in range(m): elemento = int(input(&quot;Introduce el elemento [&quot; + str(i+1) + &quot;,&quot; + str(j+1) + &quot;]&quot;)) fila.append(elemento) matriz.append(fila) print(matriz) </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">n = 4\nm = 4\nmatriz = []\nfor i in range(n):\n    fila = []\n    for j in range(m):\n        elemento = int(input(\"Introduce el elemento [\" + str(i+1) + \",\" + str(j+1) + \"]\"))\n        fila.append(elemento)\n    matriz.append(fila)\nprint(matriz)</code>"
     },
     {
      "mota": "testua",
@@ -824,7 +764,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python for i in range(n): linea = &quot; &quot; for j in range(m): linea = linea + str(matriz[i][j]) + &quot; &quot; print(linea) </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">for i in range(n):\n    linea = \" \"\n    for j in range(m):\n        linea = linea + str(matriz[i][j]) + \" \"\n    print(linea)</code>"
     },
     {
      "mota": "oharra",
@@ -854,15 +794,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python import random</code>"
-    },
-    {
-     "mota": "testua",
-     "html": "n = 10 m = 10 matriz = [] for i in range(n): fila = [] for j in range(m): fila.append(0) matriz.append(fila)"
-    },
-    {
-     "mota": "testua",
-     "html": "xa1 = int(random.random() <strong> 9.9) ya1 = int(random.random() </strong> 9.9) matriz[xa1][ya1] = 1 <code></code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">import random\n\nn = 10\nm = 10\nmatriz = []\nfor i in range(n):\n    fila = []\n    for j in range(m):\n        fila.append(0)\n    matriz.append(fila)\n\nxa1 = int(random.random() * 9.9)\nya1 = int(random.random() * 9.9)\nmatriz[xa1][ya1] = 1</code>"
     },
     {
      "mota": "testua",
@@ -879,7 +811,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python fin = False while fin == False: coordx = int(input(&quot;X:&quot;)) - 1 while coordx &lt; 0 or coordx &gt; 9: print(&quot;Introduce un número del 1 al 10&quot;) coordx = int(input(&quot;X:&quot;)) - 1 coordy = int(input(&quot;Y:&quot;)) - 1 while coordy &lt; 0 or coordy &gt; 9: print(&quot;Introduce un número del 1 al 10&quot;) coordy = int(input(&quot;Y:&quot;)) - 1 if matriz[coordx][coordy] == 1: matriz[coordx][coordy] = 11 print(&quot;Hundido&quot;) fin = True for i in range(n): for j in range(m): if matriz[i][j] == 1: fin = False </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">fin = False\nwhile fin == False:\n    coordx = int(input(\"X:\")) - 1\n    while coordx &lt; 0 or coordx &gt; 9:\n        print(\"Introduce un número del 1 al 10\")\n        coordx = int(input(\"X:\")) - 1\n    coordy = int(input(\"Y:\")) - 1\n    while coordy &lt; 0 or coordy &gt; 9:\n        print(\"Introduce un número del 1 al 10\")\n        coordy = int(input(\"Y:\")) - 1\n    if matriz[coordx][coordy] == 1:\n        matriz[coordx][coordy] = 11\n        print(\"Hundido\")\n        fin = True\n        for i in range(n):\n            for j in range(m):\n                if matriz[i][j] == 1:\n                    fin = False</code>"
     },
     {
      "mota": "oharra",
@@ -904,7 +836,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def lee_coordenada(mensaje): valido = False while not valido: dato = input(mensaje) if not dato.isdigit(): print(&quot;Debes introducir un número&quot;) else: coord = int(dato) - 1 if coord &lt; 0 or coord &gt; 9: print(&quot;Introduce un número del 1 al 10&quot;) else: return coord </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def lee_coordenada(mensaje):\n    valido = False\n    while not valido:\n        dato = input(mensaje)\n        if not dato.isdigit():\n            print(\"Debes introducir un número\")\n        else:\n            coord = int(dato) - 1\n            if coord &lt; 0 or coord &gt; 9:\n                print(\"Introduce un número del 1 al 10\")\n            else:\n                return coord</code>"
     },
     {
      "mota": "testua",
@@ -944,7 +876,7 @@ KAPITULUAK["09zz_01programazioa"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "<code></code><code>python FRASE = input() DIC = {} for LETRA in FRASE: if LETRA in &quot;aeiou&quot;: if LETRA in DIC: DIC[LETRA] += 1 else: DIC[LETRA] = 1 </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">FRASE = input()\nDIC = {}\nfor LETRA in FRASE:\n    if LETRA in \"aeiou\":\n        if LETRA in DIC:\n            DIC[LETRA] += 1\n        else:\n            DIC[LETRA] = 1</code>"
     },
     {
      "mota": "testua",
@@ -999,7 +931,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python def BiderPoli(p1, p2): BID = [0] * (len(p1) + len(p2) - 1) for i in range(len(p1)): for j in range(len(p2)): BID[i + j] += p1[i] * p2[j] return BID </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">def BiderPoli(p1, p2):\n    BID = [0] * (len(p1) + len(p2) - 1)\n    for i in range(len(p1)):\n        for j in range(len(p2)):\n            BID[i + j] += p1[i] * p2[j]\n    return BID</code>"
     },
     {
      "mota": "izenburua",
@@ -1052,7 +984,7 @@ KAPITULUAK["09zz_01programazioa"] = {
     },
     {
      "mota": "testua",
-     "html": "<code></code><code>python LFRASE = FRASE.split() LBUS = BUS.split() kont = 0 for PALABRA in LBUS: for j in LFRASE: if PALABRA == j: kont += 1 portzentaia = 100 * kont / len(LFRASE) </code><code></code>"
+     "html": "<code class=\"language-python j-kodea\" style=\"display:block;white-space:pre;overflow-x:auto;tab-size:4\">LFRASE = FRASE.split()\nLBUS = BUS.split()\nkont = 0\nfor PALABRA in LBUS:\n    for j in LFRASE:\n        if PALABRA == j:\n            kont += 1\nportzentaia = 100 * kont / len(LFRASE)</code>"
     },
     {
      "mota": "izenburua",

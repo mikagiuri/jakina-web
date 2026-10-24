@@ -1452,7 +1452,7 @@ KAPITULUAK["05mk_10jarraituak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mrow><mi>ρ</mi><mi>d</mi><mi mathvariant=\"bold-italic\">𝒗</mi><mi>/</mi><mi>d</mi><mi>t</mi><mo>=</mo><mi>−</mi><mi>∇</mi><mi>p</mi><mo>+</mo><msub><mi mathvariant=\"bold-italic\">𝒇</mi><mi>V</mi></msub><mi>.</mi></mrow></math>"
+         "html": "<math display=\"block\"><mrow><mi>ρ</mi><mi>d</mi><mi mathvariant=\"bold-italic\">𝒗</mi><mi>/</mi><mi>d</mi><mi>t</mi><mo>=</mo><mi>−</mi><mi>∇</mi><mi>p</mi><mo>+</mo><msub><mi mathvariant=\"bold-italic\">𝒇</mi><mi>V</mi></msub><mi>.</mi></mrow></math>"
         }
        ]
       },
@@ -1468,7 +1468,7 @@ KAPITULUAK["05mk_10jarraituak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mrow><mi>ρ</mi><mo>=</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> konstantea</mtext></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>∇</mi><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝒗</mi><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math>"
+         "html": "<math display=\"block\"><mrow><mi>ρ</mi><mo>=</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> konstantea</mtext></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><mi>∇</mi><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝒗</mi><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math>"
         }
        ]
       },
@@ -1484,7 +1484,7 @@ KAPITULUAK["05mk_10jarraituak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝒇</mi><mi>V</mi></msub><mo>=</mo><mi>−</mi><mi>ρ</mi><mi>∇</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>g</mi><mi>h</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
+         "html": "<math display=\"block\"><mrow><msub><mi mathvariant=\"bold-italic\">𝒇</mi><mi>V</mi></msub><mo>=</mo><mi>−</mi><mi>ρ</mi><mi>∇</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>g</mi><mi>h</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math>"
         }
        ]
       },
@@ -1500,7 +1500,7 @@ KAPITULUAK["05mk_10jarraituak"] = {
        "blokeak": [
         {
          "mota": "testua",
-         "html": "<math display=\"inline\"><mrow><mi>∂</mi><mi mathvariant=\"bold-italic\">𝒗</mi><mi>/</mi><mi>∂</mi><mi>t</mi><mo>=</mo><mi>∂</mi><mi>p</mi><mi>/</mi><mi>∂</mi><mi>t</mi><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math>"
+         "html": "<math display=\"block\"><mrow><mi>∂</mi><mi mathvariant=\"bold-italic\">𝒗</mi><mi>/</mi><mi>∂</mi><mi>t</mi><mo>=</mo><mi>∂</mi><mi>p</mi><mi>/</mi><mi>∂</mi><mi>t</mi><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math>"
         }
        ]
       }

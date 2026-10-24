@@ -100,7 +100,7 @@ KAPITULUAK["02td_01termodinamika"] = {
   {
    "id": "a3",
    "maila": 2,
-   "izenburua": "Bibliografia &lt;termo-biblio&gt;",
+   "izenburua": "Bibliografia ",
    "blokeak": [
     {
      "mota": "zerrenda",
@@ -1359,7 +1359,7 @@ KAPITULUAK["02td_01termodinamika"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Uraren bero-ahalmen espezifikoa <math display=\"inline\"><mrow><mi>c</mi><mo>=</mo><mn>0.9983</mn><mo>−</mo><mn>5.184</mn><mo>⋅</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>5</mn></mrow></msup><mi>t</mi><mo>+</mo><mn>6.912</mn><mo>⋅</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>7</mn></mrow></msup><msup><mi>t</mi><mn>2</mn></msup></mrow></math> bada, zenbat bero behar da 1 g ur <math display=\"inline\"><mrow><mn>0</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>-tik <math display=\"inline\"><mrow><mn>100</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>C-ra berotzeko?"
+       "html": "Uraren bero-ahalmen espezifikoa <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>c</mi><mo>=</mo><mn>0.9983</mn><mo>−</mo><mn>5.184</mn><mo>⋅</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>5</mn></mrow></msup><mi>t</mi><mo>+</mo><mn>6.912</mn><mo>⋅</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>7</mn></mrow></msup><msup><mi>t</mi><mn>2</mn></msup></mrow></math></span> bada, zenbat bero behar da 1 g ur <math display=\"inline\"><mrow><mn>0</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>-tik <math display=\"inline\"><mrow><mn>100</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>C-ra berotzeko?"
       }
      ]
     },
@@ -3577,7 +3577,7 @@ KAPITULUAK["02td_01termodinamika"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mi>S</mi></math> honela definitzen da: <math display=\"block\"><mrow><mi>d</mi><mi>S</mi><mo>=</mo><mfrac><mrow><mi>δ</mi><msub><mi>Q</mi><mtext mathvariant=\"normal\">itzulgarria</mtext></msub></mrow><mi>T</mi></mfrac><mi>.</mi></mrow></math>"
+       "html": "<math display=\"block\"><mi>S</mi></math> honela definitzen da: <math display=\"block\"><mrow><mi>d</mi><mi>S</mi><mo>=</mo><mfrac><mrow><mi>δ</mi><msub><mi>Q</mi><mtext mathvariant=\"normal\">itzulgarria</mtext></msub></mrow><mi>T</mi></mfrac><mi>.</mi></mrow></math>"
       }
      ]
     },
@@ -7035,7 +7035,7 @@ KAPITULUAK["02td_01termodinamika"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mi>C</mi></math> bero-ahalmeko A sistema <math display=\"inline\"><msub><mi>T</mi><mn>2</mn></msub></math> tenperaturan dago. Makina termiko idealaren bidez ingurunearekin ukipenean ezarri da; ingurunearen tenperatura <math display=\"inline\"><mrow><msub><mi>T</mi><mn>1</mn></msub><mo>&gt;</mo><msub><mi>T</mi><mn>2</mn></msub></mrow></math> da. Lortu sistematik atera daitekeen <math display=\"inline\"><mi>W</mi></math> lan maximoa. Ondoren, <math display=\"inline\"><mi>W</mi></math> lana A sistema berotzeko erabiliko da. Frogatu ezazu sistemak lor dezakeen <math display=\"inline\"><msub><mi>T</mi><mn>3</mn></msub></math> tenperaturarik altuena <math display=\"inline\"><mi>W</mi></math> lan maximoarekin ondoko adierazpenaren bidez erlazionaturik dagoela: <math display=\"block\"><mrow><msub><mi>T</mi><mn>3</mn></msub><mo>−</mo><msub><mi>T</mi><mn>2</mn></msub><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">ln</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><msub><mi>T</mi><mn>1</mn></msub><msub><mi>T</mi><mn>2</mn></msub></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mfrac><mi>W</mi><mi>C</mi></mfrac></mrow></math>"
+       "html": "<math display=\"block\"><mi>C</mi></math> bero-ahalmeko A sistema <math display=\"inline\"><msub><mi>T</mi><mn>2</mn></msub></math> tenperaturan dago. Makina termiko idealaren bidez ingurunearekin ukipenean ezarri da; ingurunearen tenperatura <math display=\"inline\"><mrow><msub><mi>T</mi><mn>1</mn></msub><mo>&gt;</mo><msub><mi>T</mi><mn>2</mn></msub></mrow></math> da. Lortu sistematik atera daitekeen <math display=\"inline\"><mi>W</mi></math> lan maximoa. Ondoren, <math display=\"inline\"><mi>W</mi></math> lana A sistema berotzeko erabiliko da. Frogatu ezazu sistemak lor dezakeen <math display=\"inline\"><msub><mi>T</mi><mn>3</mn></msub></math> tenperaturarik altuena <math display=\"inline\"><mi>W</mi></math> lan maximoarekin ondoko adierazpenaren bidez erlazionaturik dagoela: <math display=\"block\"><mrow><msub><mi>T</mi><mn>3</mn></msub><mo>−</mo><msub><mi>T</mi><mn>2</mn></msub><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>1</mn><mo>+</mo><mi mathvariant=\"normal\">ln</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mfrac><msub><mi>T</mi><mn>1</mn></msub><msub><mi>T</mi><mn>2</mn></msub></mfrac><mo stretchy=\"false\" form=\"postfix\">)</mo><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mfrac><mi>W</mi><mi>C</mi></mfrac></mrow></math>"
       }
      ]
     }
@@ -8673,8 +8673,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Eskuineko testua:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Lana maximoa izango da prozesua itzulgarria denean, baina prozesua itzulgarria bada Carnot-en ziklo bat dugu!</q>"
     },
     {
      "mota": "testua",
@@ -8711,8 +8711,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Eskeman bi tenperatura daude, <math display=\"inline\"><msub><mi>T</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>T</mi><mn>2</mn></msub></math>, eta horma diatermo baten bidez kontaktuan jarritako bi gorputz. Gardenkiaren testuak dio:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Bero trukea berez gertatuko da eta, beraz, prozesua itzulezina da.</q>"
     },
     {
      "mota": "testua",
@@ -8827,8 +8827,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Gure problemara itzuliz, bi sistema horiek modu itzulgarrian lotzeko tramakulu bat tartekatu behar dela idazten du gardenkiak. Eskeman hasierako <math display=\"inline\"><msub><mi>T</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>T</mi><mn>2</mn></msub></math>-tik amaierako <math display=\"inline\"><msub><mi>T</mi><mi>f</mi></msub></math> eta <math display=\"inline\"><msub><mi>T</mi><mi>f</mi></msub></math>-ra pasatzen da, eta alboan:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Bien tenperaturak berdintzean bukatuko da prozesua.</q>"
     },
     {
      "mota": "testua",
@@ -9017,8 +9017,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Eta oharra:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Erabiltzen ari garen balio guztiak positiboak dira geziak adierazten duelako indarran zein noranzkokoa den gauza bakoitza.</q>"
     },
     {
      "mota": "testua",
@@ -9170,8 +9170,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Ondorioa gardenkiaren hitzekin:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Beraz, masa finituko bi sistema edukitzean ez pentsatu bukaerako tenperatura batezbesteko geometrikoa izango denik; hori bero-ahalmenaren tenperaturaren menpekotasunaren araberakoa izango da. Horregatik, planteatu da kasu hau beste guztiak aurrekoaren berdina dela.</q>"
     },
     {
      "mota": "testua",
@@ -9266,8 +9266,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Testua:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Goi-tenperaturan dagoen bero-iturritik <math display=\"inline\"><mi>Q</mi></math> energia bero moduan ateratzean, eskura dugun tenperaturarik baxuena <math display=\"inline\"><msub><mi>T</mi><mn>0</mn></msub></math> izanik, atera daitekeen energia lan moduan <math display=\"inline\"><msub><mi>W</mi><mtext mathvariant=\"normal\">max</mtext></msub></math> lan maximoa da.</q>"
     },
     {
      "mota": "testua",
@@ -9287,24 +9287,24 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Gardenkiak alboan idazten du: &quot;eskura dezakegun&quot;. Eta jarraitzen du:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Hau da; bero eran soilik <math display=\"inline\"><msub><mi>T</mi><mn>0</mn></msub></math> bero-iturritik atera daitekeen entropia ezin da lana egiteko erabili.</q>"
     },
     {
      "mota": "testua",
      "html": "Ondorioa:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Energiak gradu izaera: lanerako erabil daiteke; lanerako ezin erabil daiteke.</q>"
     },
     {
      "mota": "testua",
      "html": "Eta galdera:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Zenbat kantitan lana atera daiteke eta beste zenbat kasutan ez?</q>"
     },
     {
      "mota": "testua",
@@ -9363,8 +9363,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Azpiko galdera eta kalkulua:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q><math display=\"inline\"><msub><mi>T</mi><mn>1</mn></msub></math> BI-tik <math display=\"inline\"><msub><mi>T</mi><mn>2</mn></msub></math> BI-ra <math display=\"inline\"><mi>Q</mi></math> bero transferitzeko prozesuan lan egiteko ahalmena galdu, zenbat?</q>"
     },
     {
      "mota": "zentratua",
@@ -9403,8 +9403,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Hurrengo gardenkian koadro handi batek ondorio orokorra ematen du:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Edozein prozesu itzulezinaren ondorioz: unibertsoaren gaineko eragina ondoko hau da: lan egiteko erabilgarria den energia-kantitatearen zati bat lan egiteko ez erabilgarri bihurtuko da.</q>"
     },
     {
      "mota": "testua",
@@ -9424,16 +9424,16 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Eta azpian:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Lor daitekeen tenperaturarik baxuena duen bero-iturria.</q>"
     },
     {
      "mota": "testua",
      "html": "Gardenkiaren esaldia:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Energia &quot;degradatuz&quot; doa!!!</q>"
     },
     {
      "mota": "testua",
@@ -9453,8 +9453,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Azken orri solteak, ia hutsik dagoenak, aurreko ideia indartzen du:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Prozesu itzulezinetan energiaren izaera aldatu: lan egiteko energia degradatu.</q>"
     }
    ]
   },
@@ -9472,8 +9472,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Lehenengo irudian sistema isolatu baten barruan prozesu itzulezina marraztuta dago. Testuak:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Era itzulezinean: prozesua berez gertatu da.</q>"
     },
     {
      "mota": "testua",
@@ -9506,8 +9506,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Bigarren irudian hasierako eta bukaerako egoera berberak lotzen dira, baina bidea itzulgarria izan dadin kanpoko bero-iturrien eta lan-iturri lagun baten bidez. Gardenkiaren esaldia:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Era itzulgarrian: berezko prozesuan gertatu den berbera, baina IG!!</q>"
     },
     {
      "mota": "testua",
@@ -9550,24 +9550,24 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Jarraian, sistemak bukaerako egoera berera eraman behar duela esaten da. Gardenkiko oharra, zati bat zikinduta:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Baina aurreko bukaerako egoerara eraman behar dugunez sistema (<math display=\"inline\"><msub><mi>S</mi><mi>f</mi></msub></math> ...), <math display=\"inline\"><mi>E</mi></math> energia berori makina bereziara lan moduan pasatu da, beraz:</q>"
     },
     {
      "mota": "testua",
      "html": "Koadro nagusia:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Esku artean dugun sisteman inguru hurbilean era itzulezinean gertatu diren aldaketak, era itzulgarrian lortzeko, horretarako erabilitako bero-iturri lagungarrietatik aterako den beroa lan moduan <math display=\"inline\"><msup><mi>W</mi><mo>′</mo></msup></math> lan-iturri lagunera pasatuko da.</q>"
     },
     {
      "mota": "testua",
      "html": "Beheko ondorioa:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Lan moduan erabilgarria zen energia ez da lan moduan erabilgarria.</q>"
     },
     {
      "mota": "testua",
@@ -9650,16 +9650,16 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Gardenkiaren goiburua:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>I POSTULATUA: OREKA-EGOEREN DEFINIZIOA</q>"
     },
     {
      "mota": "testua",
      "html": "Orain arteko formalismoa aldatzen da:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Orain arte erabilitako formalismoa alde batera utzi eta hemendik aurrera oreka-egoerak definitzeko magnitude ESTENTSIBOAK erabiliko ditugu soilik aldagai termodinamiko independente bezala:</q>"
     },
     {
      "mota": "zerrenda",
@@ -9688,16 +9688,16 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Irudiaren alboko azalpena:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Adibidez, kasu honetan ez dute ez mekanikoki, termikoki eta kimikoki elkar ikusten. Oreka-egoera lotu bat dugula esaten da.</q>"
     },
     {
      "mota": "testua",
      "html": "Berezko prozesua barne-loturaren bat askatzean hasten da:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Berezko prozesuari hasiera emango zaio barne-loturaren bat askatzean: gure adibidean bereizte-horma diatermoa edo higikorra bihurtuz.</q>"
     },
     {
      "mota": "testua",
@@ -9735,8 +9735,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Azken bi baldintzek gardenkian giltza batez azaltzen dira:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Askatasun-gradu kimikoa blokeatuta dugu.</q>"
     }
    ]
   },
@@ -9750,8 +9750,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Gardenkiaren goiburua:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>PROZESUEN ADIERAZPENA: OINARRIZKO EKUAZIOAREN DIFERENTZIALAREN BIDEZ</q>"
     },
     {
      "mota": "testua",
@@ -9965,20 +9965,20 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Gardenkiak bi multzo jartzen ditu aurrez aurre:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>I Postulatua: oreka-egoeren definizioa.</q>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>II Postulatua: entropia funtzioaren definizioa.</q>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>III Postulatua: entropia funtzioaren ezaugarriak.</q>"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>IV Postulatua: entropia funtzioaren propietateak, tenperatura baxuak.</q>"
     },
     {
      "mota": "testua",
@@ -10021,24 +10021,24 @@ KAPITULUAK["02td_01termodinamika"] = {
      ]
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Oreka-egoera lotua: kanpoko eraginen batek finkatutakoa.</q>"
     },
     {
      "mota": "testua",
      "html": "Jarraian hasten da:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Termodinamikaren oinarrizko problema.</q>"
     },
     {
      "mota": "testua",
      "html": "Lehen kasua:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>(i) Sistema bakunez osaturiko sistema konposatua.</q>"
     },
     {
      "mota": "testua",
@@ -10049,16 +10049,16 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Bigarren urratsa:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>(ii) Orokortu: era abstraktoan, edozein kasutara baliagarria.</q>"
     },
     {
      "mota": "testua",
      "html": "Koadroak:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Oreka-egoera lotuan dagoen sistema itxiak barne-loturaren bat askatutakoan zein oreka-egoeratan bukatuko du?</q>"
     },
     {
      "mota": "testua",
@@ -10078,8 +10078,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Azpian hurrengo atala irekita uzten da:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Itxidura-baldintzak.</q>"
     }
    ]
   },
@@ -10258,8 +10258,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Hurrengo gardenkiak prozesuen adierazpena osagai anitzeko sistemara eramaten du. Goiburua:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Prozesuen adierazpena: oinarrizko ekuazioaren diferentzialaren bidez.</q>"
     },
     {
      "mota": "testua",
@@ -10379,8 +10379,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Azpiko azken lerroa zikinduta dago, baina honela irakurtzen da:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Barne-energia <math display=\"inline\"><mo>→</mo></math> lana (&quot;termikoa&quot;, ... kimikoa).</q>"
     },
     {
      "mota": "oharra",
@@ -10404,8 +10404,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Hurrengo orriak <math display=\"inline\"><mi>U</mi></math> eta <math display=\"inline\"><mi>S</mi></math> adierazpenak simetrikoak direla azpimarratzen du:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q><math display=\"inline\"><mi>U</mi></math> eta <math display=\"inline\"><mi>S</mi></math> adierazpenak simetrikoak dira (baliokideak!!).</q>"
     },
     {
      "mota": "testua",
@@ -10513,8 +10513,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Gardenkiaren azken esaldia:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Adierazpenen arteko lotura!!</q>"
     }
    ]
   },
@@ -10532,8 +10532,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Gardenkiaren goiburua:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Adibideak: oinarrizko ekuaziotik egoera-ekuazioaren ondorioztapena. Adierazpen energetikoan; entropikoan.</q>"
     },
     {
      "mota": "testua",
@@ -10692,8 +10692,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Gardenkiaren oharra:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Minuskulaz adierazita dauden magnitudeak mol unitateko balioa adierazten dute; magnitude intentsiboak dira.</q>"
     },
     {
      "mota": "zentratua",
@@ -10830,16 +10830,16 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Hurrengo gardenkiek printzipio extremala erabiltzen dute oinarrizko problema ebazteko."
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Termodinamikaren oinarrizko problemaren ebazpena: printzipio extremala.</q>"
     },
     {
      "mota": "testua",
      "html": "Lehen kasua:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Sistema hidrostatiko bat dugula asumituko dugu, baina modu honetan ez da inolako orokorpenik galtzen.</q>"
     },
     {
      "mota": "testua",
@@ -10914,8 +10914,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Gardenkiaren abisua:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q><math display=\"inline\"><mrow><mi>d</mi><msup><mi>S</mi><mrow><mtext mathvariant=\"normal\">osoa </mtext><mspace width=\"0.333em\"></mspace></mrow></msup><mo>=</mo><mn>0</mn></mrow></math> jarri badugu ere, horrek ez du esan nahi prozesua era itzulgarrian gertatzen denik!!</q>"
     },
     {
      "mota": "testua",
@@ -10960,8 +10960,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Azken oharra:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Egia da <math display=\"inline\"><mrow><mi>d</mi><msup><mi>S</mi><mrow><mtext mathvariant=\"normal\">osoa </mtext><mspace width=\"0.333em\"></mspace></mrow></msup><mo>=</mo><mn>0</mn></mrow></math> betetzen den puntuan momentuz ezin dugula jakin maximoa ala minimoa den. Baina fase-trantsizioak aztertzerakoan frogatu egingo dugu <math display=\"inline\"><mi>S</mi></math>-aren bigarren deribatua negatiboa izango dela egoera egonkorra badugu. Hori hala ez bada, fase-trantsizio bat izango dugu eta aurrerago ikusiko dugu egoera hauek nola aztertu.</q>"
     },
     {
      "mota": "izenburua",
@@ -11574,8 +11574,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Gardenkiaren bukaerako ariketa-bariantea:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q><math display=\"inline\"><mrow><msubsup><mi>T</mi><mi>i</mi><mn>1</mn></msubsup><mo>=</mo><mn>300</mn><mi>K</mi></mrow></math>, <math display=\"inline\"><mrow><msubsup><mi>T</mi><mi>i</mi><mn>2</mn></msubsup><mo>=</mo><mn>400</mn><mi>K</mi></mrow></math>, <math display=\"inline\"><mrow><msubsup><mi>N</mi><mi>i</mi><mn>1</mn></msubsup><mo>=</mo><mn>2</mn></mrow></math>, <math display=\"inline\"><mrow><msubsup><mi>N</mi><mi>i</mi><mn>2</mn></msubsup><mo>=</mo><mn>3</mn></mrow></math>. Kasu honetan egoera-ekuaziotik <math display=\"inline\"><msubsup><mi>U</mi><mi>i</mi><mn>1</mn></msubsup></math> eta <math display=\"inline\"><msubsup><mi>U</mi><mi>i</mi><mn>2</mn></msubsup></math> kalkula ditzakegu <math display=\"inline\"><msubsup><mi>T</mi><mi>i</mi><mn>1</mn></msubsup></math> eta <math display=\"inline\"><msubsup><mi>T</mi><mi>i</mi><mn>2</mn></msubsup></math> ezagutuz. Ondorioz, <math display=\"inline\"><mrow><msup><mi>U</mi><mrow><mtext mathvariant=\"normal\">osoa </mtext><mspace width=\"0.333em\"></mspace></mrow></msup><mo>=</mo><msup><mi>U</mi><mn>1</mn></msup><mo>+</mo><msup><mi>U</mi><mn>2</mn></msup></mrow></math> dugu, eta momentu horretatik aurrera goiko ariketan emandako pausuak jarraitu behar dira.</q>"
     },
     {
      "mota": "izenburua",
@@ -11662,16 +11662,16 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Gardenkiak galdera hau jartzen du:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Termodinamikaren oinarrizko problemaren ebazpena: printzipio extremala. Oreka-egoera lotuan dagoen sistema txikiak, konposatua edo bakuna, barne-loturaren bat askatutakoan, termikoa, mekanikoa, kimikoa..., zein oreka-egoeratan bukatuko du?</q>"
     },
     {
      "mota": "testua",
      "html": "Ondoko orriak adibidetzat markatzen ditu:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>adibideak C.2.6.3 / C.2.6.4</q>"
     },
     {
      "mota": "izenburua",
@@ -11779,8 +11779,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "html": "Gardenkiak ohartarazten du:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "quote"
+     "mota": "testua",
+     "html": "<q>Gibbs-Duhem-en erlazioa: parametro intentsiboak ez dira independenteak.</q>"
     },
     {
      "mota": "testua",
@@ -18083,7 +18083,7 @@ KAPITULUAK["02td_01termodinamika"] = {
       },
       {
        "mota": "testua",
-       "html": "c) Ondokoa da oreka-kurba bati dagokion adierazpena: <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>p</mi><mo>=</mo><mi>A</mi><mo>+</mo><mfrac><mi>B</mi><mi>T</mi></mfrac><mo>+</mo><mi>C</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>T</mi></mrow></math>. Zein da lurruntzeari dagokion bero-sorra?"
+       "html": "c) Ondokoa da oreka-kurba bati dagokion adierazpena: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>p</mi><mo>=</mo><mi>A</mi><mo>+</mo><mfrac><mi>B</mi><mi>T</mi></mfrac><mo>+</mo><mi>C</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>T</mi></mrow></math></span>. Zein da lurruntzeari dagokion bero-sorra?"
       },
       {
        "mota": "testua",
@@ -18265,7 +18265,7 @@ KAPITULUAK["02td_01termodinamika"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><msub><mtext mathvariant=\"normal\">CO</mtext><mn>2</mn></msub></math> solidoaren lurrun-presioari dagokion adierazpena ondokoa da: <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>p</mi><mo>=</mo><mi>−</mi><mfrac><mn>3115</mn><mi>T</mi></mfrac><mo>+</mo><mn>27</mn><mo>,</mo><mn>52</mn></mrow></math>"
+       "html": "<math display=\"block\"><msub><mtext mathvariant=\"normal\">CO</mtext><mn>2</mn></msub></math> solidoaren lurrun-presioari dagokion adierazpena ondokoa da: <math display=\"block\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>p</mi><mo>=</mo><mi>−</mi><mfrac><mn>3115</mn><mi>T</mi></mfrac><mo>+</mo><mn>27</mn><mo>,</mo><mn>52</mn></mrow></math>"
       },
       {
        "mota": "testua",
@@ -18531,7 +18531,7 @@ KAPITULUAK["02td_01termodinamika"] = {
     },
     {
      "mota": "testua",
-     "html": "Orriko iruzkinak hiru ariketa uzten ditu: gas idealaren kasuan kortxetea zero da; faktore hau ere erabil daiteke <math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>V</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>U</mi></msub><mo>=</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>V</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>S</mi></msub><mo>+</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>S</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>V</mi></msub><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>S</mi></mrow><mrow><mi>∂</mi><mi>V</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>U</mi></msub></mrow></math>; eta emaitza <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mi>T</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>V</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> grafikoan adierazi behar da."
+     "html": "Orriko iruzkinak hiru ariketa uzten ditu: gas idealaren kasuan kortxetea zero da; faktore hau ere erabil daiteke <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>V</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>U</mi></msub><mo>=</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>V</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>S</mi></msub><mo>+</mo><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>S</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>V</mi></msub><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>S</mi></mrow><mrow><mi>∂</mi><mi>V</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>U</mi></msub></mrow></math></span>; eta emaitza <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mi>T</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>V</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> grafikoan adierazi behar da."
     },
     {
      "mota": "izenburua",
@@ -18738,8 +18738,8 @@ KAPITULUAK["02td_01termodinamika"] = {
      "mota": "zerrenda",
      "ordenatua": false,
      "elementuak": [
-      "<math display=\"inline\"><mi>V</mi></math>  hozketa-parametroa: <math display=\"inline\"><mrow><mi>S</mi><mo>=</mo><mtext mathvariant=\"normal\">kte</mtext></mrow></math> denean <math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>V</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>S</mi></msub><mo>=</mo><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>T</mi><msub><mi>C</mi><mi>V</mi></msub></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mi>α</mi><msub><mi>κ</mi><mi>T</mi></msub></mfrac></mrow></math>; <math display=\"inline\"><mrow><mi>U</mi><mo>=</mo><mtext mathvariant=\"normal\">kte</mtext></mrow></math> denean <math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>V</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>U</mi></msub><mo>=</mo><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><msub><mi>C</mi><mi>V</mi></msub></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>T</mi><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>P</mi></mrow><mrow><mi>∂</mi><mi>T</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>V</mi></msub><mo>−</mo><mi>P</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>.",
-      "<math display=\"inline\"><mi>P</mi></math>  hozketa-parametroa: <math display=\"inline\"><mrow><mi>S</mi><mo>=</mo><mtext mathvariant=\"normal\">kte</mtext></mrow></math> denean <math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>P</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>S</mi></msub><mo>=</mo><mfrac><mrow><mi>T</mi><mi>V</mi><mi>α</mi></mrow><msub><mi>C</mi><mi>P</mi></msub></mfrac></mrow></math>; <math display=\"inline\"><mrow><mi>H</mi><mo>=</mo><mtext mathvariant=\"normal\">kte</mtext></mrow></math> denean <math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>P</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>H</mi></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><msub><mi>C</mi><mi>P</mi></msub></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>T</mi><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>V</mi></mrow><mrow><mi>∂</mi><mi>T</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>P</mi></msub><mo>−</mo><mi>V</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math>."
+      "<math display=\"inline\"><mi>V</mi></math>  hozketa-parametroa: <math display=\"inline\"><mrow><mi>S</mi><mo>=</mo><mtext mathvariant=\"normal\">kte</mtext></mrow></math> denean <math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>V</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>S</mi></msub><mo>=</mo><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>T</mi><msub><mi>C</mi><mi>V</mi></msub></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mfrac><mi>α</mi><msub><mi>κ</mi><mi>T</mi></msub></mfrac></mrow></math>; <math display=\"inline\"><mrow><mi>U</mi><mo>=</mo><mtext mathvariant=\"normal\">kte</mtext></mrow></math> denean <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>V</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>U</mi></msub><mo>=</mo><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><msub><mi>C</mi><mi>V</mi></msub></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>T</mi><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>P</mi></mrow><mrow><mi>∂</mi><mi>T</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>V</mi></msub><mo>−</mo><mi>P</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>.",
+      "<math display=\"inline\"><mi>P</mi></math>  hozketa-parametroa: <math display=\"inline\"><mrow><mi>S</mi><mo>=</mo><mtext mathvariant=\"normal\">kte</mtext></mrow></math> denean <math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>P</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>S</mi></msub><mo>=</mo><mfrac><mrow><mi>T</mi><mi>V</mi><mi>α</mi></mrow><msub><mi>C</mi><mi>P</mi></msub></mfrac></mrow></math>; <math display=\"inline\"><mrow><mi>H</mi><mo>=</mo><mtext mathvariant=\"normal\">kte</mtext></mrow></math> denean <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>T</mi></mrow><mrow><mi>∂</mi><mi>P</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>H</mi></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>1</mn><msub><mi>C</mi><mi>P</mi></msub></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>T</mi><msub><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mrow><mi>∂</mi><mi>V</mi></mrow><mrow><mi>∂</mi><mi>T</mi></mrow></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>P</mi></msub><mo>−</mo><mi>V</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></math></span>."
      ]
     },
     {

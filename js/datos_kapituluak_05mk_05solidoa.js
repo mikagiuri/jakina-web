@@ -95,7 +95,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "mota": "zerrenda",
      "ordenatua": true,
      "elementuak": [
-      "Newtonen hirugarren legearen ondorioz, <em>solido zurrunean barne-indarrek ez dute lanik egiten</em>, akzio-erreakzio bikote bakoitzaren potentzia <math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mrow><mi>j</mi><mi>i</mi></mrow></msub><mo>⋅</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mo>+</mo><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>⋅</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>j</mi></msub><mo>=</mo><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mrow><mi>j</mi><mi>i</mi></mrow></msub><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mo>−</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>j</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math> baita, <math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mrow><mi>j</mi><mi>i</mi></mrow></msub><mo>∥</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>i</mi></msub><mo>−</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>j</mi></msub><mo>⟂</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mo>−</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>j</mi></msub></mrow></math> delako."
+      "Newtonen hirugarren legearen ondorioz, <em>solido zurrunean barne-indarrek ez dute lanik egiten</em>, akzio-erreakzio bikote bakoitzaren potentzia <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mrow><mi>j</mi><mi>i</mi></mrow></msub><mo>⋅</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mo>+</mo><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>⋅</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>j</mi></msub><mo>=</mo><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mrow><mi>j</mi><mi>i</mi></mrow></msub><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mo>−</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>j</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math></span> baita, <math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mrow><mi>j</mi><mi>i</mi></mrow></msub><mo>∥</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>i</mi></msub><mo>−</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>j</mi></msub><mo>⟂</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mo>−</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>j</mi></msub></mrow></math> delako."
      ]
     },
     {
@@ -504,7 +504,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "sistema linealean ordezkatzen badira, hiru bektore propio ortonormal (<math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝒖</mi><mo>=</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>1</mn></msub><mo>,</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>2</mn></msub></mrow></math> eta <math display=\"inline\"><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>3</mn></msub></math>) aurki daitezke: <math display=\"block\"><mrow><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mn>1</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>11</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>21</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>31</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mn>2</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>12</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>22</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>32</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mn>3</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>13</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>23</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>33</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mi>i</mi></msub><mo>⋅</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mi>j</mi></msub><mo>=</mo><msub><mi>δ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mspace width=\"1.0em\"></mspace><mo>⇔</mo><mspace width=\"1.0em\"></mspace><msubsup><mi mathvariant=\"bold-italic\">𝑼</mi><mi>i</mi><mi>⊤</mi></msubsup><mo>⋅</mo><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mi>j</mi></msub><mo>=</mo><msub><mi>δ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>,</mo></mrow></math> non <math display=\"inline\"><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mi>i</mi></msub></math> zutabe matrizea <math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mi>i</mi></msub><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></msubsup><msub><mi>R</mi><mrow><mi>j</mi><mi>i</mi></mrow></msub><msub><mover><mi mathvariant=\"bold-italic\">𝒆</mi><mo accent=\"true\">̂</mo></mover><mi>j</mi></msub></mrow></math> bektoreari dagokiona den. Bektore propioen osagaiekin honako <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑹</mi></math> matrize ortogonal hau osatzen da: <math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝑹</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>1</mn></msub><mo>,</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>2</mn></msub><mo>,</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>3</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>11</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>12</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>13</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>21</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>22</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>23</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>31</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>32</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>33</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msup><mi mathvariant=\"bold-italic\">𝑹</mi><mi>⊤</mi></msup><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝑹</mi><mo>=</mo><mi mathvariant=\"bold-italic\">𝑹</mi><mo>⋅</mo><msup><mi mathvariant=\"bold-italic\">𝑹</mi><mi>⊤</mi></msup><mo>=</mo><mn mathvariant=\"bold\">𝟏</mn><mspace width=\"1.0em\"></mspace><mo>⇔</mo><mspace width=\"1.0em\"></mspace><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></munderover><msub><mi>R</mi><mrow><mi>k</mi><mi>i</mi></mrow></msub><msub><mi>R</mi><mrow><mi>k</mi><mi>j</mi></mrow></msub><mo>=</mo><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></munderover><msub><mi>R</mi><mrow><mi>i</mi><mi>k</mi></mrow></msub><msub><mi>R</mi><mrow><mi>j</mi><mi>k</mi></mrow></msub><mo>=</mo><msub><mi>δ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mi>.</mi></mrow></math> Ondoko biraketa hau eginez, <math display=\"block\"><mrow><msup><mi mathvariant=\"bold-italic\">𝑼</mi><mo>*</mo></msup><mo>=</mo><msup><mi mathvariant=\"bold-italic\">𝑹</mi><mi>⊤</mi></msup><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝑼</mi><mspace width=\"1.0em\"></mspace><mo>⇔</mo><mspace width=\"1.0em\"></mspace><msubsup><mi>u</mi><mi>i</mi><mo>*</mo></msubsup><mo>=</mo><munderover><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></munderover><msub><mi>R</mi><mrow><mi>j</mi><mi>i</mi></mrow></msub><msub><mi>u</mi><mi>j</mi></msub><mo>,</mo></mrow></math> <math display=\"inline\"><mrow><msubsup><mover><mi mathvariant=\"bold-italic\">𝒆</mi><mo accent=\"true\">̂</mo></mover><mi>i</mi><mo>*</mo></msubsup><mo>=</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mi>i</mi></msub></mrow></math> bektore propio unitarioek definituriko erreferentzia-sistema lortzen dugu eta bertan <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑰</mi></math> tentsorea diagonala da, <math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow><mo>*</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msup><mi mathvariant=\"bold-italic\">𝑹</mi><mi>⊤</mi></msup><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝑹</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>λ</mi><mn>1</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>λ</mi><mn>2</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>λ</mi><mn>3</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math> <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑰</mi></math> tentsorea erdidefinitu positiboa bada, <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"bold-italic\">𝒖</mi><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝑰</mi><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝒖</mi><mo>=</mo><msup><mi mathvariant=\"bold-italic\">𝑼</mi><mi>⊤</mi></msup><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝑼</mi><mo>=</mo><msup><mi mathvariant=\"bold-italic\">𝑼</mi><mrow><mi>*</mi><mi>⊤</mi></mrow></msup><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow><mo>*</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><msup><mi mathvariant=\"bold-italic\">𝑼</mi><mo>*</mo></msup><mo>≥</mo><mn>0</mn><mo>,</mo><mo>∀</mo><mi mathvariant=\"bold-italic\">𝒖</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math>, balio propio guztiak positiboak edo nuluak dira."
+     "html": "sistema linealean ordezkatzen badira, hiru bektore propio ortonormal (<math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝒖</mi><mo>=</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>1</mn></msub><mo>,</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>2</mn></msub></mrow></math> eta <math display=\"inline\"><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>3</mn></msub></math>) aurki daitezke: <math display=\"block\"><mrow><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mn>1</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>11</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>21</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>31</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mn>2</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>12</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>22</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>32</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mn>3</mn></msub><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>13</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>23</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>33</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mi>i</mi></msub><mo>⋅</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mi>j</mi></msub><mo>=</mo><msub><mi>δ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mspace width=\"1.0em\"></mspace><mo>⇔</mo><mspace width=\"1.0em\"></mspace><msubsup><mi mathvariant=\"bold-italic\">𝑼</mi><mi>i</mi><mi>⊤</mi></msubsup><mo>⋅</mo><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mi>j</mi></msub><mo>=</mo><msub><mi>δ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>,</mo></mrow></math> non <math display=\"inline\"><msub><mi mathvariant=\"bold-italic\">𝑼</mi><mi>i</mi></msub></math> zutabe matrizea <math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mi>i</mi></msub><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></msubsup><msub><mi>R</mi><mrow><mi>j</mi><mi>i</mi></mrow></msub><msub><mover><mi mathvariant=\"bold-italic\">𝒆</mi><mo accent=\"true\">̂</mo></mover><mi>j</mi></msub></mrow></math> bektoreari dagokiona den. Bektore propioen osagaiekin honako <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑹</mi></math> matrize ortogonal hau osatzen da: <math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝑹</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>1</mn></msub><mo>,</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>2</mn></msub><mo>,</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mn>3</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>11</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>12</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>13</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>21</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>22</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>23</mn></msub></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>31</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>32</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>R</mi><mn>33</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>,</mo></mrow></math> <math display=\"block\"><mrow><msup><mi mathvariant=\"bold-italic\">𝑹</mi><mi>⊤</mi></msup><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝑹</mi><mo>=</mo><mi mathvariant=\"bold-italic\">𝑹</mi><mo>⋅</mo><msup><mi mathvariant=\"bold-italic\">𝑹</mi><mi>⊤</mi></msup><mo>=</mo><mn mathvariant=\"bold\">𝟏</mn><mspace width=\"1.0em\"></mspace><mo>⇔</mo><mspace width=\"1.0em\"></mspace><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></munderover><msub><mi>R</mi><mrow><mi>k</mi><mi>i</mi></mrow></msub><msub><mi>R</mi><mrow><mi>k</mi><mi>j</mi></mrow></msub><mo>=</mo><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></munderover><msub><mi>R</mi><mrow><mi>i</mi><mi>k</mi></mrow></msub><msub><mi>R</mi><mrow><mi>j</mi><mi>k</mi></mrow></msub><mo>=</mo><msub><mi>δ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mi>.</mi></mrow></math> Ondoko biraketa hau eginez, <math display=\"block\"><mrow><msup><mi mathvariant=\"bold-italic\">𝑼</mi><mo>*</mo></msup><mo>=</mo><msup><mi mathvariant=\"bold-italic\">𝑹</mi><mi>⊤</mi></msup><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝑼</mi><mspace width=\"1.0em\"></mspace><mo>⇔</mo><mspace width=\"1.0em\"></mspace><msubsup><mi>u</mi><mi>i</mi><mo>*</mo></msubsup><mo>=</mo><munderover><mo>∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></munderover><msub><mi>R</mi><mrow><mi>j</mi><mi>i</mi></mrow></msub><msub><mi>u</mi><mi>j</mi></msub><mo>,</mo></mrow></math> <math display=\"inline\"><mrow><msubsup><mover><mi mathvariant=\"bold-italic\">𝒆</mi><mo accent=\"true\">̂</mo></mover><mi>i</mi><mo>*</mo></msubsup><mo>=</mo><msub><mi mathvariant=\"bold-italic\">𝒖</mi><mi>i</mi></msub></mrow></math> bektore propio unitarioek definituriko erreferentzia-sistema lortzen dugu eta bertan <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑰</mi></math> tentsorea diagonala da, <math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow><mo>*</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msup><mi mathvariant=\"bold-italic\">𝑹</mi><mi>⊤</mi></msup><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝑹</mi><mo>=</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mtable><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>λ</mi><mn>1</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>λ</mi><mn>2</mn></msub></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd></mtr><mtr><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><mn>0</mn></mtd><mtd columnalign=\"center\" style=\"text-align: center\"><msub><mi>λ</mi><mn>3</mn></msub></mtd></mtr></mtable><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math> <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑰</mi></math> tentsorea erdidefinitu positiboa bada, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi mathvariant=\"bold-italic\">𝒖</mi><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝑰</mi><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝒖</mi><mo>=</mo><msup><mi mathvariant=\"bold-italic\">𝑼</mi><mi>⊤</mi></msup><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msub><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝑼</mi><mo>=</mo><msup><mi mathvariant=\"bold-italic\">𝑼</mi><mrow><mi>*</mi><mi>⊤</mi></mrow></msup><mo>⋅</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow><mo>*</mo></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>⋅</mo><msup><mi mathvariant=\"bold-italic\">𝑼</mi><mo>*</mo></msup><mo>≥</mo><mn>0</mn><mo>,</mo><mo>∀</mo><mi mathvariant=\"bold-italic\">𝒖</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math></span>, balio propio guztiak positiboak edo nuluak dira."
     },
     {
      "mota": "izenburua",
@@ -747,11 +747,11 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "deritzo horrelako higidura bati. Jakina, modu bertsuan higituko da momentu angeluarrarekiko proportzionala den abiadura angeluarra: <math display=\"block\"><mrow><mover><mi mathvariant=\"bold-italic\">𝝎</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi mathvariant=\"bold\">𝛀</mi><mo>×</mo><mi mathvariant=\"bold-italic\">𝝎</mi><mi>.</mi></mrow></math> Aurreko adierazpenetan <math display=\"inline\"><mi>L</mi></math> eta <math display=\"inline\"><mi>ω</mi></math> momentu eta abiadura angeluarrek <math display=\"inline\"><mrow><mi>O</mi><mi>Z</mi></mrow></math> ardatzaren norabidean dituzten osagaiak dira, ez moduluak: <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝝎</mi></math> abiadurak <math display=\"inline\"><mrow><mi>O</mi><mi>Z</mi></mrow></math>-ren inguruan duen noranzkoa izango da prezesioaren noranzkoa <math display=\"inline\"><mrow><mi>O</mi><msup><mi>Z</mi><mo>′</mo></msup></mrow></math> ardatzaren ingurun. Ohar zaitez <math display=\"inline\"><mi mathvariant=\"bold\">𝛀</mi></math> ez dela <math display=\"inline\"><mi>θ</mi></math> angeluaren menpekoa. <br> Gogoratu behar da hemen <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Ω</mi><mo>≪</mo><mi>ω</mi></mrow></math> hipotesia egin dela: izan ere, (5.79) adierazpenean ikusten dugunez, <math display=\"inline\"><mi>ω</mi></math> oso handia denean <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> txikia da. Hemengo hipotesia ez da egiten (baina bai beste bat) 5.6.5 problheman. Kasu orokorrean higidura aztertzeko, 5.5 ataleko Eulerren ekuazioez baliatu behar da. Adibidez, benetako ziba batean erraz ikusten da <strong>nutazioa</strong><span class=\"j-oin\">[Ikus  animazioa.]</span>: <math display=\"inline\"><mi>θ</mi></math> angeluak, konstantea izan beharrean, oszilatu egiten du (ikus 6.7 atala)."
+     "html": "deritzo horrelako higidura bati. Jakina, modu bertsuan higituko da momentu angeluarrarekiko proportzionala den abiadura angeluarra: <math display=\"block\"><mrow><mover><mi mathvariant=\"bold-italic\">𝝎</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mi mathvariant=\"bold\">𝛀</mi><mo>×</mo><mi mathvariant=\"bold-italic\">𝝎</mi><mi>.</mi></mrow></math> Aurreko adierazpenetan <math display=\"inline\"><mi>L</mi></math> eta <math display=\"inline\"><mi>ω</mi></math> momentu eta abiadura angeluarrek <math display=\"inline\"><mrow><mi>O</mi><mi>Z</mi></mrow></math> ardatzaren norabidean dituzten osagaiak dira, ez moduluak: <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝝎</mi></math> abiadurak <math display=\"inline\"><mrow><mi>O</mi><mi>Z</mi></mrow></math>-ren inguruan duen noranzkoa izango da prezesioaren noranzkoa <math display=\"inline\"><mrow><mi>O</mi><msup><mi>Z</mi><mo>′</mo></msup></mrow></math> ardatzaren ingurun. Ohar zaitez <math display=\"inline\"><mi mathvariant=\"bold\">𝛀</mi></math> ez dela <math display=\"inline\"><mi>θ</mi></math> angeluaren menpekoa. <br> Gogoratu behar da hemen <math display=\"inline\"><mrow><mi mathvariant=\"normal\">Ω</mi><mo>≪</mo><mi>ω</mi></mrow></math> hipotesia egin dela: izan ere, (5.79) adierazpenean ikusten dugunez, <math display=\"inline\"><mi>ω</mi></math> oso handia denean <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> txikia da. Hemengo hipotesia ez da egiten (baina bai beste bat) 5.6.5 problheman. Kasu orokorrean higidura aztertzeko, 5.5 ataleko Eulerren ekuazioez baliatu behar da. Adibidez, benetako ziba batean erraz ikusten da <strong>nutazioa</strong><span class=\"j-oin\">[Ikus <a href=\"http://tp.lc.ehu.eus/jma/mekanika/solidoa/Lagrange.html\" target=\"_blank\" rel=\"noopener\">http://tp.lc.ehu.eus/jma/mekanika/solidoa/Lagrange.html</a> animazioa.]</span>: <math display=\"inline\"><mi>θ</mi></math> angeluak, konstantea izan beharrean, oszilatu egiten du (ikus 6.7 atala)."
     },
     {
      "mota": "testua",
-     "html": "Lurra guztiz esferikoa ez denez, Eguzkiak eta Ilargiak indar-momentu txiki bat eragiten diote. Ondorioz, Lurraren ardatza ez dago beti norabide berean: astiro-astiro prezesatzen ari da, 26 000 urteko periodoarekin, <math display=\"inline\"><mrow><mn>23</mn><msup><mi></mi><mo>∘</mo></msup><msup><mn>26</mn><mo>′</mo></msup></mrow></math>-ko zabalera angeluarreko kono batean barrena. Prezesio-higidura honek ondorio neurgarriak ditu, hala nola ekinozioen prezesioa<span class=\"j-oin\">[Dirudienez, Hiparkok deskribatu zuen ekinozioen prezesioa.]</span>  (konstelazioen posizioak aldatzen ari dira, astrologiaren funsgabetasuna aldatu gabe). Horrela, gaur egun Polaris da iparrizarra; baina piramideak eraiki zirenean, orain dela 4 500 urte edo, Thuban (Alpha Draconis) erabiltzen zuten egiptoarrek. Gainera, urtaro desberdinetan Lurraren eta Eguzkiaren arteko distantzia aldatuz doa, apurka-apurka, eta honek eragina du eguraldian eta, beraz, erregistro geologikoan<span class=\"j-oin\">[Hauetan eragina izan dezaketen beste zikloak ondokoak omen dira: 100 000 urteko periodoko eszentrikotasunaren aldaketa, Lurraren ardatzaren eta orbitaren planoaren arteko angeluaren aldaketa, 41 000 urteko periodoa duena, eta 11 urteko periodoko eguzki-orbanen zikloa.]</span>. Honez gain, Ilargiaren higidura oso irregularra denez, <math display=\"inline\"><msup><mn>9</mn><mo>″</mo></msup></math>-ko nutazio txiki bat dago, 18.6 urteko periodoarekin<span class=\"j-oin\">[Ikus, adibidez, [12, 60, 67] eta Lurraren higidura konplexua etengabe neurtzen duen <em>Tererraren biraketaren zerbitzua</em> delakoaren orrialdea: .]</span>."
+     "html": "Lurra guztiz esferikoa ez denez, Eguzkiak eta Ilargiak indar-momentu txiki bat eragiten diote. Ondorioz, Lurraren ardatza ez dago beti norabide berean: astiro-astiro prezesatzen ari da, 26 000 urteko periodoarekin, <math display=\"inline\"><mrow><mn>23</mn><msup><mi></mi><mo>∘</mo></msup><msup><mn>26</mn><mo>′</mo></msup></mrow></math>-ko zabalera angeluarreko kono batean barrena. Prezesio-higidura honek ondorio neurgarriak ditu, hala nola ekinozioen prezesioa<span class=\"j-oin\">[Dirudienez, Hiparkok deskribatu zuen ekinozioen prezesioa.]</span>  (konstelazioen posizioak aldatzen ari dira, astrologiaren funsgabetasuna aldatu gabe). Horrela, gaur egun Polaris da iparrizarra; baina piramideak eraiki zirenean, orain dela 4 500 urte edo, Thuban (Alpha Draconis) erabiltzen zuten egiptoarrek. Gainera, urtaro desberdinetan Lurraren eta Eguzkiaren arteko distantzia aldatuz doa, apurka-apurka, eta honek eragina du eguraldian eta, beraz, erregistro geologikoan<span class=\"j-oin\">[Hauetan eragina izan dezaketen beste zikloak ondokoak omen dira: 100 000 urteko periodoko eszentrikotasunaren aldaketa, Lurraren ardatzaren eta orbitaren planoaren arteko angeluaren aldaketa, 41 000 urteko periodoa duena, eta 11 urteko periodoko eguzki-orbanen zikloa.]</span>. Honez gain, Ilargiaren higidura oso irregularra denez, <math display=\"inline\"><msup><mn>9</mn><mo>″</mo></msup></math>-ko nutazio txiki bat dago, 18.6 urteko periodoarekin<span class=\"j-oin\">[Ikus, adibidez, [12, 60, 67] eta Lurraren higidura konplexua etengabe neurtzen duen <em>Tererraren biraketaren zerbitzua</em> delakoaren orrialdea: <a href=\"http://hpiers.obspm.fr/eop-pc/index_fr.html\" target=\"_blank\" rel=\"noopener\">http://hpiers.obspm.fr/eop-pc/index_fr.html</a>.]</span>."
     },
     {
      "mota": "irudia",
@@ -831,7 +831,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "adierazpenaren osagaiak dira. Hortaz, <em>solidoaren sisteman momentu angeluarra <math display=\"inline\"><mrow><mi>−</mi><mi mathvariant=\"bold-italic\">𝝎</mi></mrow></math> abiadura angeluarraz ari da biratzen, bere modulua aldatu gabe</em>. Bestalde, espazioaren sisteman momentu angeluarra konstantea da eta abiadura angeluarra ari da biratzen bere ingurun<span class=\"j-oin\">[Ikus  animazioa.]</span>. <br> Ezezagunak <math display=\"inline\"><mrow><msub><mi>ω</mi><mi>i</mi></msub><msub><mi>ω</mi><mi>j</mi></msub></mrow></math> gai koadratikoetan agertzen direnez, (5.91)–(5.93) ekuazioak ez dira linealak. Hemen, hortaz, bakarrik aztertuko dira bi kasu berezi erraz. Lehengoan solidoaren simetria handiagoa izango da eta bigarrenean soluzio errazak (konstanteak) eta euren egonkortasuna aztertuko dira."
+     "html": "adierazpenaren osagaiak dira. Hortaz, <em>solidoaren sisteman momentu angeluarra <math display=\"inline\"><mrow><mi>−</mi><mi mathvariant=\"bold-italic\">𝝎</mi></mrow></math> abiadura angeluarraz ari da biratzen, bere modulua aldatu gabe</em>. Bestalde, espazioaren sisteman momentu angeluarra konstantea da eta abiadura angeluarra ari da biratzen bere ingurun<span class=\"j-oin\">[Ikus <a href=\"http://tp.lc.ehu.eus/jma/mekanika/solidoa/askea.html\" target=\"_blank\" rel=\"noopener\">http://tp.lc.ehu.eus/jma/mekanika/solidoa/askea.html</a> animazioa.]</span>. <br> Ezezagunak <math display=\"inline\"><mrow><msub><mi>ω</mi><mi>i</mi></msub><msub><mi>ω</mi><mi>j</mi></msub></mrow></math> gai koadratikoetan agertzen direnez, (5.91)–(5.93) ekuazioak ez dira linealak. Hemen, hortaz, bakarrik aztertuko dira bi kasu berezi erraz. Lehengoan solidoaren simetria handiagoa izango da eta bigarrenean soluzio errazak (konstanteak) eta euren egonkortasuna aztertuko dira."
     },
     {
      "mota": "izenburua",
@@ -878,7 +878,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "Espazioaren sisteman, berriz, <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑳</mi></math> konstantea da eta <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝝎</mi></math> bere ingurun biratzen da. Gainera, abiadura angeluarraren <math display=\"inline\"><mi>ω</mi></math> modulua eta momentu angeluarraren norabidean duen <math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝑳</mi><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝝎</mi><mo>=</mo><msub><mi>I</mi><mi>x</mi></msub><msubsup><mi>ω</mi><mi>x</mi><mn>2</mn></msubsup><mo>+</mo><msub><mi>I</mi><mi>x</mi></msub><msubsup><mi>ω</mi><mi>y</mi><mn>2</mn></msubsup><mo>+</mo><msub><mi>I</mi><mi>z</mi></msub><msubsup><mi>ω</mi><mi>z</mi><mn>2</mn></msubsup><mo>=</mo><msub><mi>I</mi><mi>x</mi></msub><msup><mi>A</mi><mn>2</mn></msup><mo>+</mo><msub><mi>I</mi><mi>z</mi></msub><msubsup><mi>ω</mi><mi>z</mi><mn>2</mn></msubsup></mrow></math> proiekzioa konstanteak direnez, biraketa horretan <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝝎</mi></math> bektoreak kono bat sortuko du <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑳</mi></math>-ren ingurun: <strong>espazioaren konoa</strong>. Espazioaren sisteman solidoaren konoa espazioaren konoaren gainazal geldian zehar biratzen da labaindu gabe, 5.13 irudian erakusten den bezala<span class=\"j-oin\">[Ikus  animazioa.]</span>."
+     "html": "Espazioaren sisteman, berriz, <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑳</mi></math> konstantea da eta <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝝎</mi></math> bere ingurun biratzen da. Gainera, abiadura angeluarraren <math display=\"inline\"><mi>ω</mi></math> modulua eta momentu angeluarraren norabidean duen <math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝑳</mi><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝝎</mi><mo>=</mo><msub><mi>I</mi><mi>x</mi></msub><msubsup><mi>ω</mi><mi>x</mi><mn>2</mn></msubsup><mo>+</mo><msub><mi>I</mi><mi>x</mi></msub><msubsup><mi>ω</mi><mi>y</mi><mn>2</mn></msubsup><mo>+</mo><msub><mi>I</mi><mi>z</mi></msub><msubsup><mi>ω</mi><mi>z</mi><mn>2</mn></msubsup><mo>=</mo><msub><mi>I</mi><mi>x</mi></msub><msup><mi>A</mi><mn>2</mn></msup><mo>+</mo><msub><mi>I</mi><mi>z</mi></msub><msubsup><mi>ω</mi><mi>z</mi><mn>2</mn></msubsup></mrow></math> proiekzioa konstanteak direnez, biraketa horretan <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝝎</mi></math> bektoreak kono bat sortuko du <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑳</mi></math>-ren ingurun: <strong>espazioaren konoa</strong>. Espazioaren sisteman solidoaren konoa espazioaren konoaren gainazal geldian zehar biratzen da labaindu gabe, 5.13 irudian erakusten den bezala<span class=\"j-oin\">[Ikus <a href=\"http://tp.lc.ehu.eus/jma/mekanika/solidoa/simetrikoa.html\" target=\"_blank\" rel=\"noopener\">http://tp.lc.ehu.eus/jma/mekanika/solidoa/simetrikoa.html</a> animazioa.]</span>."
     },
     {
      "mota": "irudia",
@@ -928,7 +928,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "Emaitza hau <strong>tenis-erraketaren teorema</strong> deitzen da eta horrelako tresna (edo paralelepipedo batekin) oso erraz egiaztatzen da esperimentalki: inertzia-momentu handieneko eta txikieneko ardatz nagusien inguruan biraraztea oso erraza den arren, hirugarrenaren inguruko biraketa ezegonkorra da<span class=\"j-oin\">[Ikus  animazioa.]</span>."
+     "html": "Emaitza hau <strong>tenis-erraketaren teorema</strong> deitzen da eta horrelako tresna (edo paralelepipedo batekin) oso erraz egiaztatzen da esperimentalki: inertzia-momentu handieneko eta txikieneko ardatz nagusien inguruan biraraztea oso erraza den arren, hirugarrenaren inguruko biraketa ezegonkorra da<span class=\"j-oin\">[Ikus <a href=\"http://tp.lc.ehu.eus/jma/mekanika/solidoa/askea.html\" target=\"_blank\" rel=\"noopener\">http://tp.lc.ehu.eus/jma/mekanika/solidoa/askea.html</a> animazioa.]</span>."
     },
     {
      "mota": "irudia",
@@ -959,7 +959,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "<em><math display=\"inline\"><mi>S</mi></math> erreferentzia-sistemaren eta masa-zentroaren <math display=\"inline\"><msup><mi>S</mi><mo>*</mo></msup></math> sistemaren ardatzak elkarrekiko paraleloak\ndira. Masa-zentroaren posizio-bektorea <math display=\"inline\"><mrow><mover><mrow><mi>O</mi><msup><mi>O</mi><mo>*</mo></msup></mrow><mo accent=\"true\">→</mo></mover><mo>=</mo><mi mathvariant=\"bold-italic\">𝑹</mi><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></msubsup><msub><mi>X</mi><mi>k</mi></msub><msub><mover><mi mathvariant=\"bold-italic\">𝒆</mi><mo accent=\"true\">̂</mo></mover><mi>k</mi></msub><mo>=</mo><mi>X</mi><mi mathvariant=\"bold-italic\">𝒊</mi><mo>+</mo><mi>Y</mi><mi mathvariant=\"bold-italic\">𝒋</mi><mo>+</mo><mi>Z</mi><mi mathvariant=\"bold-italic\">𝒌</mi></mrow></math> bada, froga ezazu bi sistemetan neurturiko inertzia-matrizeen arteko erlazioa\nhonako hau dela:\n<math display=\"block\"><mrow><msub><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>=</mo><msubsup><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow><mo>*</mo></msubsup><mo>+</mo><mi>m</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>R</mi><mn>2</mn></msup><msub><mi>δ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>−</mo><msub><mi>X</mi><mi>i</mi></msub><msub><mi>X</mi><mi>j</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math></em>"
+     "html": "<em><math display=\"inline\"><mi>S</mi></math> erreferentzia-sistemaren eta masa-zentroaren <math display=\"inline\"><msup><mi>S</mi><mo>*</mo></msup></math> sistemaren ardatzak elkarrekiko paraleloak\ndira. Masa-zentroaren posizio-bektorea <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mover><mrow><mi>O</mi><msup><mi>O</mi><mo>*</mo></msup></mrow><mo accent=\"true\">→</mo></mover><mo>=</mo><mi mathvariant=\"bold-italic\">𝑹</mi><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></msubsup><msub><mi>X</mi><mi>k</mi></msub><msub><mover><mi mathvariant=\"bold-italic\">𝒆</mi><mo accent=\"true\">̂</mo></mover><mi>k</mi></msub><mo>=</mo><mi>X</mi><mi mathvariant=\"bold-italic\">𝒊</mi><mo>+</mo><mi>Y</mi><mi mathvariant=\"bold-italic\">𝒋</mi><mo>+</mo><mi>Z</mi><mi mathvariant=\"bold-italic\">𝒌</mi></mrow></math></span> bada, froga ezazu bi sistemetan neurturiko inertzia-matrizeen arteko erlazioa\nhonako hau dela:\n<math display=\"block\"><mrow><msub><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>=</mo><msubsup><mi>I</mi><mrow><mi>i</mi><mi>j</mi></mrow><mo>*</mo></msubsup><mo>+</mo><mi>m</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>R</mi><mn>2</mn></msup><msub><mi>δ</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub><mo>−</mo><msub><mi>X</mi><mi>i</mi></msub><msub><mi>X</mi><mi>j</mi></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math></em>"
     },
     {
      "mota": "testua",
@@ -986,7 +986,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mi>O</mi><mi>Z</mi></mrow></math> ardatz kartesiarra <math display=\"inline\"><mi>A</mi></math> eta <math display=\"inline\"><msup><mi>A</mi><mo>*</mo></msup></math>-rekiko paraleloa izateko moduan aukeraturik, biekiko perpendikularra dena <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math> bada, aurreko problemaren notazioan <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝑹</mi><mo>=</mo><mi>a</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> eta <math display=\"inline\"><mrow><msub><mi>X</mi><mn>1</mn></msub><mo>=</mo><mi>a</mi><mo>,</mo><msub><mi>X</mi><mn>2</mn></msub><mo>=</mo><msub><mi>X</mi><mn>3</mn></msub><mo>=</mo><mn>0</mn></mrow></math> dugu. Gainera, aukera horrekin <math display=\"inline\"><mi>A</mi></math> eta <math display=\"inline\"><msup><mi>A</mi><mo>*</mo></msup></math> ardatzekiko inertzia-momentuak <math display=\"inline\"><msub><mi>I</mi><mn>33</mn></msub></math> eta <math display=\"inline\"><msubsup><mi>I</mi><mn>33</mn><mo>*</mo></msubsup></math> dira, hurrenez hurren. Beraz, ardatz paraleloen teoremaren ondorioz, honako hau geratzen zaigu: <math display=\"block\"><mrow><mi>I</mi><mo>=</mo><msub><mi>I</mi><mn>33</mn></msub><mo>=</mo><msubsup><mi>I</mi><mn>33</mn><mo>*</mo></msubsup><mo>+</mo><mi>m</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>R</mi><mn>2</mn></msup><msub><mi>δ</mi><mn>33</mn></msub><mo>−</mo><msub><mi>X</mi><mn>3</mn></msub><msub><mi>X</mi><mn>3</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msup><mi>I</mi><mo>*</mo></msup><mo>+</mo><mi>m</mi><msup><mi>a</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math> Emaitza hau <math display=\"inline\"><mi>m</mi></math>-rekin zatituz, hauxe lortzen da: <math display=\"block\"><mrow><msup><mi>K</mi><mn>2</mn></msup><mo>=</mo><msup><mi>K</mi><mrow><mi>*</mi><mn>2</mn></mrow></msup><mo>+</mo><msup><mi>a</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math>"
+     "html": "<math display=\"block\"><mrow><mi>O</mi><mi>Z</mi></mrow></math> ardatz kartesiarra <math display=\"inline\"><mi>A</mi></math> eta <math display=\"inline\"><msup><mi>A</mi><mo>*</mo></msup></math>-rekiko paraleloa izateko moduan aukeraturik, biekiko perpendikularra dena <math display=\"inline\"><mrow><mi>O</mi><mi>X</mi></mrow></math> bada, aurreko problemaren notazioan <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝑹</mi><mo>=</mo><mi>a</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> eta <math display=\"inline\"><mrow><msub><mi>X</mi><mn>1</mn></msub><mo>=</mo><mi>a</mi><mo>,</mo><msub><mi>X</mi><mn>2</mn></msub><mo>=</mo><msub><mi>X</mi><mn>3</mn></msub><mo>=</mo><mn>0</mn></mrow></math> dugu. Gainera, aukera horrekin <math display=\"inline\"><mi>A</mi></math> eta <math display=\"inline\"><msup><mi>A</mi><mo>*</mo></msup></math> ardatzekiko inertzia-momentuak <math display=\"inline\"><msub><mi>I</mi><mn>33</mn></msub></math> eta <math display=\"inline\"><msubsup><mi>I</mi><mn>33</mn><mo>*</mo></msubsup></math> dira, hurrenez hurren. Beraz, ardatz paraleloen teoremaren ondorioz, honako hau geratzen zaigu: <math display=\"block\"><mrow><mi>I</mi><mo>=</mo><msub><mi>I</mi><mn>33</mn></msub><mo>=</mo><msubsup><mi>I</mi><mn>33</mn><mo>*</mo></msubsup><mo>+</mo><mi>m</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>R</mi><mn>2</mn></msup><msub><mi>δ</mi><mn>33</mn></msub><mo>−</mo><msub><mi>X</mi><mn>3</mn></msub><msub><mi>X</mi><mn>3</mn></msub><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><msup><mi>I</mi><mo>*</mo></msup><mo>+</mo><mi>m</mi><msup><mi>a</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math> Emaitza hau <math display=\"inline\"><mi>m</mi></math>-rekin zatituz, hauxe lortzen da: <math display=\"block\"><mrow><msup><mi>K</mi><mn>2</mn></msup><mo>=</mo><msup><mi>K</mi><mrow><mi>*</mi><mn>2</mn></mrow></msup><mo>+</mo><msup><mi>a</mi><mrow><mn>2</mn><mi>.</mi></mrow></msup></mrow></math>"
     },
     {
      "mota": "izenburua",
@@ -1096,7 +1096,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "Oszilazioak txikiak badira, <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>θ</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>≪</mo><mn>1</mn><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mover><mi>θ</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>≪</mo><mn>1</mn><mo>,</mo><msup><mover><mi>θ</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>≈</mo><msup><mover><mi>θ</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup></mrow></math> eta <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>≈</mo><mn>1</mn><mo>−</mo><msup><mi>θ</mi><mn>2</mn></msup><mi>/</mi><mn>2</mn></mrow></math> dira eta, ondorioz, <math display=\"block\"><mrow><mi>E</mi><mo>≈</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>K</mi><mn>2</mn></msup><mo>+</mo><msup><mi>R</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>R</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mover><mi>θ</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><mi>g</mi><mi>a</mi><msup><mi>θ</mi><mn>2</mn></msup><mo>+</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> ktea. </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math> Energia mekaniko konstante hori denborarekiko deribatzen badugu higidura-ekuazioa (oszilazio txikien hurbilketan) oszilador harmonikoarena dela ikusten dugu: <math display=\"block\"><mrow><mover><mi>θ</mi><mo accent=\"true\">̈</mo></mover><mo>+</mo><msup><mi>ω</mi><mn>2</mn></msup><mi>θ</mi><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>ω</mi><mo>=</mo><mn>2</mn><mi>π</mi><mi>ν</mi><mo>=</mo><msqrt><mfrac><mrow><mi>g</mi><mi>a</mi></mrow><mrow><msup><mi>K</mi><mn>2</mn></msup><mo>+</mo><msup><mi>R</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>R</mi></mrow></mfrac></msqrt><mi>.</mi></mrow></math>"
+     "html": "Oszilazioak txikiak badira, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">|</mo><mi>θ</mi><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>≪</mo><mn>1</mn><mo>,</mo><mo stretchy=\"false\" form=\"prefix\">|</mo><mover><mi>θ</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"false\" form=\"prefix\">|</mo><mo>≪</mo><mn>1</mn><mo>,</mo><msup><mover><mi>θ</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>≈</mo><msup><mover><mi>θ</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup></mrow></math></span> eta <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi><mo>≈</mo><mn>1</mn><mo>−</mo><msup><mi>θ</mi><mn>2</mn></msup><mi>/</mi><mn>2</mn></mrow></math> dira eta, ondorioz, <math display=\"block\"><mrow><mi>E</mi><mo>≈</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>K</mi><mn>2</mn></msup><mo>+</mo><msup><mi>R</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>R</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><msup><mover><mi>θ</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>m</mi><mi>g</mi><mi>a</mi><msup><mi>θ</mi><mn>2</mn></msup><mo>+</mo><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> ktea. </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math> Energia mekaniko konstante hori denborarekiko deribatzen badugu higidura-ekuazioa (oszilazio txikien hurbilketan) oszilador harmonikoarena dela ikusten dugu: <math display=\"block\"><mrow><mover><mi>θ</mi><mo accent=\"true\">̈</mo></mover><mo>+</mo><msup><mi>ω</mi><mn>2</mn></msup><mi>θ</mi><mo>=</mo><mn>0</mn><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>ω</mi><mo>=</mo><mn>2</mn><mi>π</mi><mi>ν</mi><mo>=</mo><msqrt><mfrac><mrow><mi>g</mi><mi>a</mi></mrow><mrow><msup><mi>K</mi><mn>2</mn></msup><mo>+</mo><msup><mi>R</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>R</mi></mrow></mfrac></msqrt><mi>.</mi></mrow></math>"
     }
    ]
   },
@@ -1132,6 +1132,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko hagatxo homogeneoaren muturren abiadurak <math display=\"inline\"><msub><mi mathvariant=\"bold-italic\">𝒗</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi mathvariant=\"bold-italic\">𝒗</mi><mn>2</mn></msub></math> dira une batean (eta, oro har, ez daude plano berean). Kalkulatu <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝒗</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>r</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> abiadura-eremua eta integratu emaitza energia zinetiko osoa ondokoa dela frogatzeko: <math display=\"block\"><mrow><mi>T</mi><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mi>m</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msubsup><mi>v</mi><mn>1</mn><mn>2</mn></msubsup><mo>+</mo><msub><mi mathvariant=\"bold-italic\">𝒗</mi><mn>1</mn></msub><mo>⋅</mo><msub><mi mathvariant=\"bold-italic\">𝒗</mi><mn>2</mn></msub><mo>+</mo><msubsup><mi>v</mi><mn>2</mn><mn>2</mn></msubsup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math> Zeintzuk dira masa-zentroaren translazioari eta biraketari dagozkien ekarpenak?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/f134fa3a7bfaecbd.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1154,6 +1158,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko txirriaren erdiko zilindroa abiadura konstantez ari da higitzen, labaindu gabe, gainazal horizontal batean. Erabili programa egokiren bat <math display=\"inline\"><mrow><mi>A</mi><mo>,</mo><mi>B</mi></mrow></math> eta <math display=\"inline\"><mi>C</mi></math> puntuen ibilbideak marrazteko."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/31d89b7e1acdc50a.svg\" alt=\"\" style=\"width:148px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1165,6 +1173,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Abiadura angeluar konstantez biratzen ari diren zilindroen arteko esferak ez dira labaintzen irudiko kojinetean. Barruko zilindroaren erradioa <math display=\"inline\"><mi>r</mi></math> da eta kanpokoarena <math display=\"inline\"><mi>R</mi></math>. Kalkulatu esfera bakoitzaren abiadura angeluarra eta bere masa-zentroaren abiadura eskalarra.  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/a884df6340d5a91a.svg\" alt=\"\" style=\"width:118px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1176,6 +1188,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko zilindro handia hutsa da eta labaindu gabe higitzen da, <math display=\"inline\"><mi>V</mi></math> abiaduraz, plano horizontalean. Barruan duen zilindroa ez da labaintzen. Kalkulatu azken honen abiadura angeluarra eta bere masa-zentroaren abiadura, adierazten den triedroan, <math display=\"inline\"><mrow><mi>θ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eta <math display=\"inline\"><mrow><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> eboluzioak ezagunak badira."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/a7d20ff6de9b4f6a.svg\" alt=\"\" style=\"width:173px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1216,7 +1232,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko hagatxoaren muturrak zirkunferentzia bertikal finko batean zehar higi daitezke marruskadurarik gabe grabitatearen eraginpean. Hagatxoaren masa <math display=\"inline\"><mi>m</mi></math> bada, zein izango da oszilazio txikien maiztasuna?    "
+       "html": "Irudiko hagatxoaren muturrak zirkunferentzia bertikal finko batean zehar higi daitezke marruskadurarik gabe grabitatearen eraginpean. Hagatxoaren masa <math display=\"inline\"><mi>m</mi></math> bada, zein izango da oszilazio txikien maiztasuna?    <img class=\"irudi-l\" src=\"media/irudiak/2967f104141270c0.svg\" alt=\"\" style=\"width:88px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1228,6 +1244,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko kamioia geldirik dago eta atzeko atea irudian erakusten den posizioan. <math display=\"inline\"><mi>a</mi></math> azelerazio konstantez abiatzen bada, zenbat denbora beharko du ateak ixteko? Zein izango da bere abiadura une horretan? <br>  <em>Oharra</em>: Erabili hurrengo integral eliptikoa (ikus B.5 atala): <math display=\"block\"><mrow><msubsup><mo>∫</mo><mn>0</mn><mrow><mi>π</mi><mi>/</mi><mn>2</mn></mrow></msubsup><mfrac><mrow><mi>d</mi><mi>φ</mi></mrow><msqrt><mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>φ</mi></mrow></msqrt></mfrac><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mrow><mi>π</mi><mi>/</mi><mn>2</mn></mrow></msubsup><mfrac><mrow><mi>d</mi><mi>θ</mi></mrow><msqrt><mrow><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>θ</mi></mrow></msqrt></mfrac><mo>=</mo><msqrt><mn>2</mn></msqrt><mi>K</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mi>/</mi><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≈</mo><mn>2.62</mn><mi>.</mi></mrow></math>"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/aa262207eb8cecf2.svg\" alt=\"\" style=\"width:169px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1238,7 +1258,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko xafla homogeneoa plano bertikal batean oszilatzen ari da <math display=\"inline\"><mi>A</mi></math> ertzetik pasatzen den ardatz perpendikularraren inguruan. <br> (a) Kalkulatu oszilazio txikien maiztasuna. <br> (b) Zeintzuk dira periodo luzeena eta laburrena <math display=\"inline\"><mi>b</mi></math> aldatzean, <math display=\"inline\"><mi>a</mi></math> aldatu gabe? <br> (c) Zeintzuk dira periodo luzeena eta laburrena <math display=\"inline\"><mi>a</mi></math> aldatzean, <math display=\"inline\"><mi>b</mi></math> aldatu gabe? <br> (d) Nola aukeratu behar dira <math display=\"inline\"><mrow><mi>a</mi><mo>≠</mo><mi>b</mi></mrow></math> balioak, <math display=\"inline\"><mi>A</mi></math> eta <math display=\"inline\"><mi>B</mi></math> ertzen erdien inguruko oszilazio txikien maiztasunak berdinak izateko?    "
+       "html": "Irudiko xafla homogeneoa plano bertikal batean oszilatzen ari da <math display=\"inline\"><mi>A</mi></math> ertzetik pasatzen den ardatz perpendikularraren inguruan. <br> (a) Kalkulatu oszilazio txikien maiztasuna. <br> (b) Zeintzuk dira periodo luzeena eta laburrena <math display=\"inline\"><mi>b</mi></math> aldatzean, <math display=\"inline\"><mi>a</mi></math> aldatu gabe? <br> (c) Zeintzuk dira periodo luzeena eta laburrena <math display=\"inline\"><mi>a</mi></math> aldatzean, <math display=\"inline\"><mi>b</mi></math> aldatu gabe? <br> (d) Nola aukeratu behar dira <math display=\"inline\"><mrow><mi>a</mi><mo>≠</mo><mi>b</mi></mrow></math> balioak, <math display=\"inline\"><mi>A</mi></math> eta <math display=\"inline\"><mi>B</mi></math> ertzen erdien inguruko oszilazio txikien maiztasunak berdinak izateko?    <img class=\"irudi-l\" src=\"media/irudiak/1d9def4ff7689769.svg\" alt=\"\" style=\"width:118px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1249,7 +1269,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Karratu mehe homogeneo bat ardatz horizontal perpendikular baten inguruan bira daiteke, plano bertikalean. Ardatza leuna bada, irudiko zein kasutan lortzen dira oszilazio txiki arinenak? Eta geldoenak? Nondik eseki behar da maiztasuna maximoa izateko?    "
+       "html": "Karratu mehe homogeneo bat ardatz horizontal perpendikular baten inguruan bira daiteke, plano bertikalean. Ardatza leuna bada, irudiko zein kasutan lortzen dira oszilazio txiki arinenak? Eta geldoenak? Nondik eseki behar da maiztasuna maximoa izateko?    <img class=\"irudi-l\" src=\"media/irudiak/3ab3cc82c9deb8aa.svg\" alt=\"\" style=\"width:205px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1301,7 +1321,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mi>a</mi></math> erradioko disko mehe homogeneo batean <math display=\"inline\"><mi>b</mi></math> erradioko zulo zirkularra egiten da zentroan. Geratzen den solidoaren masa <math display=\"inline\"><mi>m</mi></math> da. Kalkulatu, integralik egin gabe, zentro geometrikoaren inguruko norabide eta inertzia-momentu nagusiak.    "
+       "html": "<math display=\"inline\"><mi>a</mi></math> erradioko disko mehe homogeneo batean <math display=\"inline\"><mi>b</mi></math> erradioko zulo zirkularra egiten da zentroan. Geratzen den solidoaren masa <math display=\"inline\"><mi>m</mi></math> da. Kalkulatu, integralik egin gabe, zentro geometrikoaren inguruko norabide eta inertzia-momentu nagusiak.    <img class=\"irudi-l\" src=\"media/irudiak/77d96394a2d08fc9.svg\" alt=\"\" style=\"width:88px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1464,7 +1484,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Material desberdinetako bi esferaerdi bete homogeneoz egin da irudiko esfera. Erakusten den moduan jartzen da plano aldapatsu batean, hemisferioen arteko muga irudiarekiko perpendikularra den <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> planoa delarik. Froga ezazu materialak era egokian aukeratuz, esfera orekan egon daitekeela, <math display=\"inline\"><mi>α</mi></math> angelua eta marruskadura estatikoaren <math display=\"inline\"><mi>μ</mi></math> koefizientea tarte egokietan badaude. Zeintzuk dira tarte horiek? Esferaerdien dentsitateak <math display=\"inline\"><msub><mi>ρ</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>ρ</mi><mn>2</mn></msub></math> badira, zein da <math display=\"inline\"><mi>β</mi></math> angelua orekan? Zein da handiagoa, <math display=\"inline\"><msub><mi>ρ</mi><mn>1</mn></msub></math> ala <math display=\"inline\"><msub><mi>ρ</mi><mn>2</mn></msub></math>?    "
+       "html": "Material desberdinetako bi esferaerdi bete homogeneoz egin da irudiko esfera. Erakusten den moduan jartzen da plano aldapatsu batean, hemisferioen arteko muga irudiarekiko perpendikularra den <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> planoa delarik. Froga ezazu materialak era egokian aukeratuz, esfera orekan egon daitekeela, <math display=\"inline\"><mi>α</mi></math> angelua eta marruskadura estatikoaren <math display=\"inline\"><mi>μ</mi></math> koefizientea tarte egokietan badaude. Zeintzuk dira tarte horiek? Esferaerdien dentsitateak <math display=\"inline\"><msub><mi>ρ</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>ρ</mi><mn>2</mn></msub></math> badira, zein da <math display=\"inline\"><mi>β</mi></math> angelua orekan? Zein da handiagoa, <math display=\"inline\"><msub><mi>ρ</mi><mn>1</mn></msub></math> ala <math display=\"inline\"><msub><mi>ρ</mi><mn>2</mn></msub></math>?    <img class=\"irudi-l\" src=\"media/irudiak/428fdc65950717b3.svg\" alt=\"\" style=\"width:156px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1475,7 +1495,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Zoru horizontalean dagoen esferaerdi homogeneo baten erradioa <math display=\"inline\"><mi>R</mi></math> da eta masa <math display=\"inline\"><mi>M</mi></math>. Oinarri lauaren erditik gora doa aluminiozko haga arin bat. Akrobata bat hagatik igotzen hasten bada, noiz hasi beharko du akrobaziak egiten, ez erortzeko? <br>  <em>Oharra</em>: Arbuiatu akrobataren dimentsioak.    "
+       "html": "Zoru horizontalean dagoen esferaerdi homogeneo baten erradioa <math display=\"inline\"><mi>R</mi></math> da eta masa <math display=\"inline\"><mi>M</mi></math>. Oinarri lauaren erditik gora doa aluminiozko haga arin bat. Akrobata bat hagatik igotzen hasten bada, noiz hasi beharko du akrobaziak egiten, ez erortzeko? <br>  <em>Oharra</em>: Arbuiatu akrobataren dimentsioak.    <img class=\"irudi-l\" src=\"media/irudiak/e059238d7d77d37a.svg\" alt=\"\" style=\"width:80px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1487,6 +1507,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Mahai horizontal baten gainean <math display=\"inline\"><mi>m</mi></math> masako kubo bat dago. Bi gorputzen arteko marruskadura estatikoaren koefizientea <math display=\"inline\"><mi>μ</mi></math> da. Zein da goiko ertzean aplikatu behar zaion <math display=\"inline\"><mi>F</mi></math> indar minimoa, kuboa iraultzeko labaindu gabe? Zein da <math display=\"inline\"><mi>α</mi></math> angelua kasu horretan?  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/24223f8f5f8d9c25.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1498,6 +1522,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Hagatxo baten mutur bat zoruan dago eta bestea sabaitik esekita, masa gabeko soka baten bidez. Hagatxoaren eta sokaren luzerak berdinak dira. Nolakoa izan behar du hagatxoaren eta zoruaren arteko marruskadura estatikoaren koefizienteak, hagatxoa irudian erakusten den posizioan orekan egoteko?  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/bdefc4dfdfe19b57.svg\" alt=\"\" style=\"width:80px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1509,6 +1537,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko xaflaren ertzeko zirkunferentzia-arkuen erradioak <math display=\"inline\"><mi>a</mi></math> eta <math display=\"inline\"><mrow><mn>2</mn><mi>a</mi></mrow></math> dira. Xafla orekan dago, soka batez lotuta, grabitatearen eraginpean, irudiko posizioan. Kalkulatu <math display=\"inline\"><mi>d</mi></math> distantzia.  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/43c5377e9762b580.svg\" alt=\"\" style=\"width:75px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1527,7 +1559,7 @@ KAPITULUAK["05mk_05solidoa"] = {
       },
       {
        "mota": "testua",
-       "html": ": Arbuiatu marruskadura.    "
+       "html": ": Arbuiatu marruskadura.    <img class=\"irudi-l\" src=\"media/irudiak/f21450384d1321bd.svg\" alt=\"\" style=\"width:75px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1538,7 +1570,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Hiru liburu berdin jarri dira mahai batean, irudian erakusten den moduan. Astiro-astiro bultzatzen badira, zein izango da ertzetik kanpo dagoen eskuineko liburuaren zatirik luzeena liburua erori baino lehenago, marruskadura guztiak arbuiagarriak badira? Luzeagoa ala laburragoa izango da marruskadura badago?    "
+       "html": "Hiru liburu berdin jarri dira mahai batean, irudian erakusten den moduan. Astiro-astiro bultzatzen badira, zein izango da ertzetik kanpo dagoen eskuineko liburuaren zatirik luzeena liburua erori baino lehenago, marruskadura guztiak arbuiagarriak badira? Luzeagoa ala laburragoa izango da marruskadura badago?    <img class=\"irudi-l\" src=\"media/irudiak/d34de20f3e7cdb9e.svg\" alt=\"\" style=\"width:118px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1553,7 +1585,7 @@ KAPITULUAK["05mk_05solidoa"] = {
       },
       {
        "mota": "testua",
-       "html": "<em>Oharra</em>: <math display=\"inline\"><mrow><mi>r</mi><mo>&lt;</mo><mi>R</mi><mo>&lt;</mo><mn>2</mn><mi>r</mi></mrow></math>.    "
+       "html": "<em>Oharra</em>: <math display=\"inline\"><mrow><mi>r</mi><mo>&lt;</mo><mi>R</mi><mo>&lt;</mo><mn>2</mn><mi>r</mi></mrow></math>.    <img class=\"irudi-l\" src=\"media/irudiak/37f5a5c167a410db.svg\" alt=\"\" style=\"width:114px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1564,7 +1596,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko esfera homogeneoa orekan dago, hormaren kontra, hormatik <math display=\"inline\"><mi>L</mi></math> puntuan soka batez lotuta. <math display=\"inline\"><mi>L</mi></math> puntua esferaren zentroaren bertikalean dago. Nolakoa da hormaren eta esferaren arteko marruskadura estatikoaren koefizientea?    "
+       "html": "Irudiko esfera homogeneoa orekan dago, hormaren kontra, hormatik <math display=\"inline\"><mi>L</mi></math> puntuan soka batez lotuta. <math display=\"inline\"><mi>L</mi></math> puntua esferaren zentroaren bertikalean dago. Nolakoa da hormaren eta esferaren arteko marruskadura estatikoaren koefizientea?    <img class=\"irudi-l\" src=\"media/irudiak/53a0c2bf5058b514.svg\" alt=\"\" style=\"width:72px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1576,6 +1608,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko esferaren masa <math display=\"inline\"><mi>m</mi></math> da eta orekan dago bi plano leunen artean. Kalkulatu planoek eragindako erreakzioak.<span class=\"j-oin\">[Leibnizen 1768ko <em>Opera Omnia</em> lan-bilduman agertu zen problema hau.]</span>"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/81a43f2edf107bd2.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1586,7 +1622,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Mahai dotore (?) bat egiteko, hiru hanka bertikal berdinen gainean jarri da beirazko triangelu irregular bat. Beirazko lodiera uniformea da. Frogatu hiru hankek eragindako erreakzioak berdinak direla.    "
+       "html": "Mahai dotore (?) bat egiteko, hiru hanka bertikal berdinen gainean jarri da beirazko triangelu irregular bat. Beirazko lodiera uniformea da. Frogatu hiru hankek eragindako erreakzioak berdinak direla.    <img class=\"irudi-l\" src=\"media/irudiak/951b69b8e8776334.svg\" alt=\"\" style=\"width:105px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1612,7 +1648,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mi>a</mi></math> erradioko bola <math display=\"inline\"><mi>v</mi></math> abiaduraz higitzen da, labaindu gabe, <math display=\"inline\"><mrow><mi>h</mi><mo>&lt;</mo><mi>a</mi></mrow></math> altuerako mailarekin topo egin arte. <math display=\"inline\"><mi>O</mi></math> jotze-puntuan labainketarik ez badago, zein izan behar du <math display=\"inline\"><mi>v</mi></math>-ren balio minimoak maila igotzeko?    "
+       "html": "<math display=\"inline\"><mi>a</mi></math> erradioko bola <math display=\"inline\"><mi>v</mi></math> abiaduraz higitzen da, labaindu gabe, <math display=\"inline\"><mrow><mi>h</mi><mo>&lt;</mo><mi>a</mi></mrow></math> altuerako mailarekin topo egin arte. <math display=\"inline\"><mi>O</mi></math> jotze-puntuan labainketarik ez badago, zein izan behar du <math display=\"inline\"><mi>v</mi></math>-ren balio minimoak maila igotzeko?    <img class=\"irudi-l\" src=\"media/irudiak/6d16872b45803430.svg\" alt=\"\" style=\"width:120px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1628,6 +1664,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": ". Bertikalean geldi dagoen hagatxo bat jausten hasten da marruskadurarik gabe. Zein izango da masa-zentroaren abiadura hagatxoa horizontalean dagoenean? Nolakoa da muturren ibilbidea? Nola aldatzen da erantzuna orain hagatxoaren mutur bat zoruan loturik badago, ardatz leun baten bidez? Zein kasutan helduko da lehenago posizio horizontalera?  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/21847254d742d7b3.svg\" alt=\"\" style=\"width:114px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1654,6 +1694,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko xafla mehearen masa <math display=\"inline\"><mrow><mn>3</mn><mi>m</mi></mrow></math> da eta ardatz bertikalaren inguruan bira daiteke marruskadurarik gabe. Hasieran geldirik dago, baina norabide perpendikularrean datorren <math display=\"inline\"><mi>m</mi></math> masako partikulak jotzen du irudian erakusten den puntuan. Talka ondoren partikula norabide berean higitzen da. Kalkulatu partikularen abiadura talka ondoren, azken hau elastikoa izan dela jorik. Norantz higitzen da orain partikula? Grabitatea arbuiagarria bada, zer gertatuko litzateke ardatzik ez balego?  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/288ce30967a3c0a9.svg\" alt=\"\" style=\"width:124px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1675,7 +1719,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mi>m</mi></math> masako hagatxo horizontala <math display=\"inline\"><mi>A</mi></math> ardatz bertikalaren inguruan bira daiteke marruskadurarik gabe eta <math display=\"inline\"><mi>m</mi></math> masako bolatxo bat du mutur batean, irudian erakusten den moduan. Norabide horizontal perpendikularrean datorren <math display=\"inline\"><mi>m</mi></math> masako partikularen eta hagatxoaren arteko talka elastiko bat gertatzen da. Talka ondoren, partikula norabide berean higitzen da. Nola aukeratu behar da <math display=\"inline\"><mi>d</mi></math> distantzia hagatxoaren abiadura angeluarra maximoa izateko? Eta minimoa izateko? Zeintzuk izango dira aipaturiko balio maximoa eta minimoa? Noiz etorriko da atzera partikula? Gerta daiteke talkan ardatzaren erreakzioa nulua izatea? Zer aldatzen da zure erantzunetan bolatxoa beste muturrean badago? Eta partikula hagatxoan itsatsita geratzen bada?    "
+       "html": "<math display=\"inline\"><mi>m</mi></math> masako hagatxo horizontala <math display=\"inline\"><mi>A</mi></math> ardatz bertikalaren inguruan bira daiteke marruskadurarik gabe eta <math display=\"inline\"><mi>m</mi></math> masako bolatxo bat du mutur batean, irudian erakusten den moduan. Norabide horizontal perpendikularrean datorren <math display=\"inline\"><mi>m</mi></math> masako partikularen eta hagatxoaren arteko talka elastiko bat gertatzen da. Talka ondoren, partikula norabide berean higitzen da. Nola aukeratu behar da <math display=\"inline\"><mi>d</mi></math> distantzia hagatxoaren abiadura angeluarra maximoa izateko? Eta minimoa izateko? Zeintzuk izango dira aipaturiko balio maximoa eta minimoa? Noiz etorriko da atzera partikula? Gerta daiteke talkan ardatzaren erreakzioa nulua izatea? Zer aldatzen da zure erantzunetan bolatxoa beste muturrean badago? Eta partikula hagatxoan itsatsita geratzen bada?    <img class=\"irudi-l\" src=\"media/irudiak/e9bc50cec5b79613.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1686,7 +1730,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko eraztunak eta disko homogeneoak masa eta erradio berdinak dituzte eta une berean altuera beretik askatzen dira pausagunetik. Plano aldapatsuan behera labaindu gabe badoaz, zein helduko da lehenago zorura?    "
+       "html": "Irudiko eraztunak eta disko homogeneoak masa eta erradio berdinak dituzte eta une berean altuera beretik askatzen dira pausagunetik. Plano aldapatsuan behera labaindu gabe badoaz, zein helduko da lehenago zorura?    <img class=\"irudi-l\" src=\"media/irudiak/856443690948bcec.svg\" alt=\"\" style=\"width:105px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1709,6 +1753,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "<math display=\"inline\"><mi>L</mi></math> aldeko kubo homogeneo bat <math display=\"inline\"><mi>v</mi></math> abiaduraz labaintzen ari da mahai leun horizontal batean. Azken honetako ertzean dagoen koska txiki batekin topo egitean, bere inguruan biratzen hasten da. Zein izan behar du <math display=\"inline\"><mi>v</mi></math> abiaduraren balio minimoak, kuboa mahaitik eror dadin?  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/9fa8724e825e9d6a.svg\" alt=\"\" style=\"width:182px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1720,6 +1768,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko bi hagatxoak berdinak dira eta artikulazioa eta zorua leunak. <math display=\"inline\"><mrow><mi>φ</mi><mo>≈</mo><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math> posizio bertikaletik askatzen dira <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> unean. Idatzi, integral baten bidez, <math display=\"inline\"><mrow><mi>φ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>t</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> soluzioa. Zeintzuk dira <math display=\"inline\"><mi>B</mi></math> eta <math display=\"inline\"><mi>C</mi></math> muturren abiaduren norabideak eta moduluak, sistema <math display=\"inline\"><mrow><mi>φ</mi><mo>=</mo><mn>0</mn></mrow></math> konfigurazio horizontalera iristen denean? Zein da orduan momentu lineal osoa?  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/49a7cbb62d914946.svg\" alt=\"\" style=\"width:131px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1737,8 +1789,8 @@ KAPITULUAK["05mk_05solidoa"] = {
        "html": ". 1.5 problemako horma eta zorua leunak badira, non apurtzen da hagatxoaren eta hormaren arteko ukipena? Zein da makilaren abiadura posizio horizontalera iristen denean? <br>  <em>Oharra</em>: Ikus"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "link"
+       "mota": "testua",
+       "html": "<a href=\"http://tp.lc.ehu.eus/jma/mekanika/analitikoa/hagatxoa.html\" target=\"_blank\" rel=\"noopener\">http://tp.lc.ehu.eus/jma/mekanika/analitikoa/hagatxoa.html</a>"
       },
       {
        "mota": "testua",
@@ -1753,7 +1805,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko partikula eta hagatxo artikulatuaren <math display=\"inline\"><mi>A</mi></math> muturra <math display=\"inline\"><mi>h</mi></math> altuera beretik askatzen dira. Kalkulatu partikularen eta <math display=\"inline\"><mi>A</mi></math>-ren abiadura bertikalak zorutik neurtutako <math display=\"inline\"><mi>z</mi></math> altuera guztietarako. Aurkitu zein den <math display=\"inline\"><mi>h</mi></math>-ren balio maximoa <math display=\"inline\"><mi>z</mi></math> garaiera guztietan <math display=\"inline\"><mi>A</mi></math> muturraren abiadura bertikala partikularena baino handiagoa izateko. <br>  <em>Oharra</em>: Arbuiatu marruskadura eta airearen eragina.    "
+       "html": "Irudiko partikula eta hagatxo artikulatuaren <math display=\"inline\"><mi>A</mi></math> muturra <math display=\"inline\"><mi>h</mi></math> altuera beretik askatzen dira. Kalkulatu partikularen eta <math display=\"inline\"><mi>A</mi></math>-ren abiadura bertikalak zorutik neurtutako <math display=\"inline\"><mi>z</mi></math> altuera guztietarako. Aurkitu zein den <math display=\"inline\"><mi>h</mi></math>-ren balio maximoa <math display=\"inline\"><mi>z</mi></math> garaiera guztietan <math display=\"inline\"><mi>A</mi></math> muturraren abiadura bertikala partikularena baino handiagoa izateko. <br>  <em>Oharra</em>: Arbuiatu marruskadura eta airearen eragina.    <img class=\"irudi-l\" src=\"media/irudiak/d77aac628f51c7c1.svg\" alt=\"\" style=\"width:124px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1797,7 +1849,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Mahai horizontal leun batean geldi dagoen eraztun baten masa eta erradioa <math display=\"inline\"><mi>M</mi></math> eta <math display=\"inline\"><mi>a</mi></math> dira, hurrenez hurren. Bertara hurbiltzen da <math display=\"inline\"><mi>m</mi></math> masako partikula, <math display=\"inline\"><mrow><mi>−</mi><mi>v</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> abiaduraz, ibilbide tangente batean. Talka ondoren partikula eta eraztuna itsatsita geratzen dira. Kalkulatu nola higitzen den gorputz berria talka ondoren.    "
+       "html": "Mahai horizontal leun batean geldi dagoen eraztun baten masa eta erradioa <math display=\"inline\"><mi>M</mi></math> eta <math display=\"inline\"><mi>a</mi></math> dira, hurrenez hurren. Bertara hurbiltzen da <math display=\"inline\"><mi>m</mi></math> masako partikula, <math display=\"inline\"><mrow><mi>−</mi><mi>v</mi><mi mathvariant=\"bold-italic\">𝒊</mi></mrow></math> abiaduraz, ibilbide tangente batean. Talka ondoren partikula eta eraztuna itsatsita geratzen dira. Kalkulatu nola higitzen den gorputz berria talka ondoren.    <img class=\"irudi-l\" src=\"media/irudiak/14bef19953b39ab7.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1808,7 +1860,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mrow><mn>6</mn><mi>m</mi></mrow></math> masako hagatxoa erdiko ardatz perpendikularraren inguruan bira daiteke oztoporik gabe eta mutur batean <math display=\"inline\"><mi>m</mi></math> masako partikula puntual bat dauka itsatsita. Hagatxoarekiko eta ardatzarekiko perpendikularrean <math display=\"inline\"><mi>v</mi></math> abiaduraz datorren bigarren partikula berdin batek beste muturra jotzen du. Talka elastikoa bada, zeintzuk dira partikularen abiadura eta hagatxoaren abiadura angeluarra talka ondoren? Zein da talkan ardatzak eragindako bulkada? Zer aldatzen da zure erantzunetan partikulak beste muturra jotzen badu? Eta itsatsita geratzen bada?    "
+       "html": "<math display=\"inline\"><mrow><mn>6</mn><mi>m</mi></mrow></math> masako hagatxoa erdiko ardatz perpendikularraren inguruan bira daiteke oztoporik gabe eta mutur batean <math display=\"inline\"><mi>m</mi></math> masako partikula puntual bat dauka itsatsita. Hagatxoarekiko eta ardatzarekiko perpendikularrean <math display=\"inline\"><mi>v</mi></math> abiaduraz datorren bigarren partikula berdin batek beste muturra jotzen du. Talka elastikoa bada, zeintzuk dira partikularen abiadura eta hagatxoaren abiadura angeluarra talka ondoren? Zein da talkan ardatzak eragindako bulkada? Zer aldatzen da zure erantzunetan partikulak beste muturra jotzen badu? Eta itsatsita geratzen bada?    <img class=\"irudi-l\" src=\"media/irudiak/7bc51cec69a4aefe.svg\" alt=\"\" style=\"width:127px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1820,6 +1872,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko hagatxo homogeneoaren masa eta luzera <math display=\"inline\"><mi>m</mi></math> eta <math display=\"inline\"><mi>a</mi></math> dira, hurrenez hurren. Hasieran masa-zentro geldiaren inguruan ari da biratzen <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math> abiadura angeluar konstantez, irudian erakusten den moduan. <math display=\"inline\"><mi>A</mi></math> ardatz leunarekin topo egitean, katigatuta geratzen da eta <math display=\"inline\"><mi>A</mi></math>-ren inguruan biratzen hasten da. Kalkulatu <math display=\"inline\"><mi>ω</mi></math> abiadura angeluar berria eta <math display=\"inline\"><mi>A</mi></math> ardatzak <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> unean eragindako bulkadaren modulua, norabidea eta noranzkoa. <br>  <em>Oharra</em>: Ez dago grabitaterik.  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/fb954a78e9e3bedd.svg\" alt=\"\" style=\"width:187px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1852,7 +1908,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Zilindro baten masa eta erradioa <math display=\"inline\"><mi>M</mi></math> eta <math display=\"inline\"><mi>R</mi></math> dira, hurrenez hurren. Lur leun batean geldi dagoenean, norabide horizontalean (zeharkako simetria-planoan) datorren balak jotzen du eta barruan geratzen da. Nola higitzen da orain zilindroa? Energia zinetikoaren zer proportzio galtzen da talkan? Nola aukeratu behar da <math display=\"inline\"><mi>h</mi></math> distantzia, amaierako energia zinetikoa ahalik handiena izateko? Eta ahalik txikiena izateko? <br>  <em>Oharra</em>: Erabili <math display=\"inline\"><mrow><mi>m</mi><mo>≪</mo><mi>M</mi></mrow></math> dela kalkulu guztietan, gehienez <math display=\"inline\"><mrow><mi>m</mi><mi>/</mi><mi>M</mi></mrow></math> zatidurarekiko gai linealak gordetzeko.    "
+       "html": "Zilindro baten masa eta erradioa <math display=\"inline\"><mi>M</mi></math> eta <math display=\"inline\"><mi>R</mi></math> dira, hurrenez hurren. Lur leun batean geldi dagoenean, norabide horizontalean (zeharkako simetria-planoan) datorren balak jotzen du eta barruan geratzen da. Nola higitzen da orain zilindroa? Energia zinetikoaren zer proportzio galtzen da talkan? Nola aukeratu behar da <math display=\"inline\"><mi>h</mi></math> distantzia, amaierako energia zinetikoa ahalik handiena izateko? Eta ahalik txikiena izateko? <br>  <em>Oharra</em>: Erabili <math display=\"inline\"><mrow><mi>m</mi><mo>≪</mo><mi>M</mi></mrow></math> dela kalkulu guztietan, gehienez <math display=\"inline\"><mrow><mi>m</mi><mi>/</mi><mi>M</mi></mrow></math> zatidurarekiko gai linealak gordetzeko.    <img class=\"irudi-l\" src=\"media/irudiak/30d7727b0eac1f2e.svg\" alt=\"\" style=\"width:150px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1863,7 +1919,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko barra homogeneoaren masa <math display=\"inline\"><mi>m</mi></math> da eta luzera <math display=\"inline\"><mi>L</mi></math>. Horizontaletik askatzen da eta bertikalera iristen denean, mahai horizontal leunean dagoen <math display=\"inline\"><mi>m</mi></math> masako partikula jotzen du. Partikula itsatsita geratzen da. Kalkulatu barraren artikulazio leunak talkan eragiten duen erreakzioa. Zein da hortik aurrera barraren eta bertikalaren arteko angelu maximoa?    "
+       "html": "Irudiko barra homogeneoaren masa <math display=\"inline\"><mi>m</mi></math> da eta luzera <math display=\"inline\"><mi>L</mi></math>. Horizontaletik askatzen da eta bertikalera iristen denean, mahai horizontal leunean dagoen <math display=\"inline\"><mi>m</mi></math> masako partikula jotzen du. Partikula itsatsita geratzen da. Kalkulatu barraren artikulazio leunak talkan eragiten duen erreakzioa. Zein da hortik aurrera barraren eta bertikalaren arteko angelu maximoa?    <img class=\"irudi-l\" src=\"media/irudiak/6da0cc98793d5c74.svg\" alt=\"\" style=\"width:92px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1883,6 +1939,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": ". Irudiko hagatxo uniformea <math display=\"inline\"><mi>O</mi></math> puntuaren inguruan bira daiteke. Zein da pendulu matematiko baliokidearen luzera? Posizio bertikalean pausagunean dagoenean <math display=\"inline\"><mi>J</mi></math> bulkada horizontala aplikatzen bada, zein izango da hasierako abiadura angeluarra? Non aplikatu behar da <math display=\"inline\"><mi>J</mi></math> bulkada <math display=\"inline\"><mi>O</mi></math> puntuan erreakziorik ez izateko? Zeren berdina da <math display=\"inline\"><mi>a</mi></math> azken kasu horretan?  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/b422350d88f9df52.svg\" alt=\"\" style=\"width:76px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1894,6 +1954,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko txirrikaren kanpo- eta barne-erradioak <math display=\"inline\"><mi>R</mi></math> eta <math display=\"inline\"><mi>a</mi></math> dira, hurrenez hurren. Barne-zilindroan biribilkaturik dagoen soka bati <math display=\"inline\"><mi>F</mi></math> indarraz tiratzen badiogu, norantz higituko da txirrika mahai horizontalean labaindu gabe (a) eta (b) kasuetan? Nolako baldintzak bete behar dira (c) kasuan txirrika ez mugitzeko? <br>  <em>Oharra</em>: Ikus, gainera, 6.35 problema.  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/e28a2c48746af1ee.svg\" alt=\"\" style=\"width:170px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1911,12 +1975,16 @@ KAPITULUAK["05mk_05solidoa"] = {
        "html": ". Simetria-ardatz horizontalaren inguruan <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math> abiadura angeluarraz biratzen ari den <math display=\"inline\"><mi>a</mi></math> erradioko zilindro mehe bat zoruan jartzen da. Argi dago hasieran labainduko dela, baina marruskaduraren eraginez higitzen hasiko da. Idatzi zilindroaren higidura-ekuazioak eta kalkulatu abiadura linealaren eta angeluarraren arteko erlazioa. Frogatu une batean marruskadura desagertzen dela eta hortik aurrera abiadura konstantez higitzen dela. Zein da abiadura hori? <br> Kalkulatu berriro amaierako abiadura konstantea kontserbazio-printzipio egoki bat erabiliz. Zilindro huts bat eta zilindro bete bat masa eta erradio berekoak badira, zein higituko da arinago? Zer gertatzen da masak desberdinak badira? Zein da marruskadura-indarrak egindako lan osoa? Hasierako energiaren zein zati erabili da beroa sortzeko? Zer da <math display=\"inline\"><mi>μ</mi></math> marruskadura dinamikoaren koefizientearen menpekoa zure erantzunetan? <br>  <em>Oharrak</em>: Ikus"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "link"
+       "mota": "testua",
+       "html": "<a href=\"http://tp.lc.ehu.eus/jma/mekanika/solidoa/txanpona.html\" target=\"_blank\" rel=\"noopener\">http://tp.lc.ehu.eus/jma/mekanika/solidoa/txanpona.html</a>"
       },
       {
        "mota": "testua",
        "html": "simulazioa. Zilindroaren masa <math display=\"inline\"><mi>m</mi></math> da."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/0bc18d46257ecc60.svg\" alt=\"\" style=\"width:199px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1942,7 +2010,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko sokak puntu finko bat eta hagatxoaren mutur bat lotzen ditu. Froga ezazu soka eta hagatxoa ezin egon daitezkeela higidura osoan lerro zuzen berean (hagatxo bakar baten antzera) grabitatearen eragin hutsaren menpean. <br>  <em>Iradokizuna</em>: Eman higidura hori gerta daitekeela eta azter ezazu nolakoa den sokak eragindako indarra.    "
+       "html": "Irudiko sokak puntu finko bat eta hagatxoaren mutur bat lotzen ditu. Froga ezazu soka eta hagatxoa ezin egon daitezkeela higidura osoan lerro zuzen berean (hagatxo bakar baten antzera) grabitatearen eragin hutsaren menpean. <br>  <em>Iradokizuna</em>: Eman higidura hori gerta daitekeela eta azter ezazu nolakoa den sokak eragindako indarra.    <img class=\"irudi-l\" src=\"media/irudiak/fa83b7bfb8cf159e.svg\" alt=\"\" style=\"width:54px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1953,7 +2021,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Bere simetria-ardatzaren inguruan <math display=\"inline\"><mi>ω</mi></math> abiadura angeluarraz biratzen ari den zilindro huts bat bazterrean jartzen da, irudian erakusten den bezala. Horma eta zorua material berekoak dira eta zilindroarekin duten marruskadura dinamikoaren koefizientea <math display=\"inline\"><mi>μ</mi></math> da. Zenbat denbora beharko du zilindroak geldi geratzeko? Zenbat bira egingo ditu?    "
+       "html": "Bere simetria-ardatzaren inguruan <math display=\"inline\"><mi>ω</mi></math> abiadura angeluarraz biratzen ari den zilindro huts bat bazterrean jartzen da, irudian erakusten den bezala. Horma eta zorua material berekoak dira eta zilindroarekin duten marruskadura dinamikoaren koefizientea <math display=\"inline\"><mi>μ</mi></math> da. Zenbat denbora beharko du zilindroak geldi geratzeko? Zenbat bira egingo ditu?    <img class=\"irudi-l\" src=\"media/irudiak/eda28a356fdd7b48.svg\" alt=\"\" style=\"width:101px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1972,7 +2040,7 @@ KAPITULUAK["05mk_05solidoa"] = {
       },
       {
        "mota": "testua",
-       "html": ": Egin erraztasun-hipotesi egokiak.    "
+       "html": ": Egin erraztasun-hipotesi egokiak.    <img class=\"irudi-l\" src=\"media/irudiak/a19a54262ab05f0f.svg\" alt=\"\" style=\"width:136px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1983,7 +2051,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko kuboa eta zilindroa masa berekoak dira eta soka eta txirrikaren masak arbuiagarriak. Kuboaren eta plano horizontalaren arteko marruskadura dinamikoaren koefizientea <math display=\"inline\"><mrow><msub><mi>μ</mi><mi>B</mi></msub><mo>&lt;</mo><mn>1</mn><mi>/</mi><mn>2</mn></mrow></math> bada, zein da zilindroaren eta plano aldapatsuaren arteko marruskadura estatikoaren koefizientearen balio minimoa hura labaindu gabe joan dadin planoan behera?    "
+       "html": "Irudiko kuboa eta zilindroa masa berekoak dira eta soka eta txirrikaren masak arbuiagarriak. Kuboaren eta plano horizontalaren arteko marruskadura dinamikoaren koefizientea <math display=\"inline\"><mrow><msub><mi>μ</mi><mi>B</mi></msub><mo>&lt;</mo><mn>1</mn><mi>/</mi><mn>2</mn></mrow></math> bada, zein da zilindroaren eta plano aldapatsuaren arteko marruskadura estatikoaren koefizientearen balio minimoa hura labaindu gabe joan dadin planoan behera?    <img class=\"irudi-l\" src=\"media/irudiak/8561feece2e621f6.svg\" alt=\"\" style=\"width:150px\" loading=\"lazy\">"
       }
      ]
     },
@@ -1994,7 +2062,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko diskoa erortzen ari da plano bertikal batean grabitatearen eraginpean. Mahai horizontala leuna da. Blokea eta diskoa azken honetan biribilkaturik dagoen soka baten bidez daude loturik. Diskoaren masa-zentroa norabide bertikalean jausten da. Nolako baldintza bete behar da azken hau egia izateko? Kalkulatu blokearen eta diskoaren higidurak. Arinago eroriko litzateke diskoa sokaren beste muturra txirrikan loturik balego?    "
+       "html": "Irudiko diskoa erortzen ari da plano bertikal batean grabitatearen eraginpean. Mahai horizontala leuna da. Blokea eta diskoa azken honetan biribilkaturik dagoen soka baten bidez daude loturik. Diskoaren masa-zentroa norabide bertikalean jausten da. Nolako baldintza bete behar da azken hau egia izateko? Kalkulatu blokearen eta diskoaren higidurak. Arinago eroriko litzateke diskoa sokaren beste muturra txirrikan loturik balego?    <img class=\"irudi-l\" src=\"media/irudiak/ec51dbb87a27e1d0.svg\" alt=\"\" style=\"width:134px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2024,7 +2092,7 @@ KAPITULUAK["05mk_05solidoa"] = {
       },
       {
        "mota": "testua",
-       "html": ": Diskoen inertzia-momentuak <math display=\"inline\"><msub><mi>I</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>I</mi><mn>2</mn></msub></math> dira.    "
+       "html": ": Diskoen inertzia-momentuak <math display=\"inline\"><msub><mi>I</mi><mn>1</mn></msub></math> eta <math display=\"inline\"><msub><mi>I</mi><mn>2</mn></msub></math> dira.    <img class=\"irudi-l\" src=\"media/irudiak/90dd74101ede71a5.svg\" alt=\"\" style=\"width:209px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2044,6 +2112,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": ": Ondoko integralaren deribatuaren zeinua erraz kalkulatzen da integral eliptikoa ebatzi gabe: <math display=\"block\"><mrow><mi>I</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>λ</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>≡</mo><msubsup><mo>∫</mo><mn>0</mn><mrow><mn>2</mn><mi>π</mi></mrow></msubsup><mfrac><mrow><mn>1</mn><mo>−</mo><mi>λ</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>φ</mi></mrow><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mi>λ</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>λ</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>φ</mi></mrow></msqrt></mfrac><mi>d</mi><mi>φ</mi><mi>.</mi></mrow></math>"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/ad070cdfd10fd2fd.svg\" alt=\"\" style=\"width:135px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2054,7 +2126,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Hagatxo uniforme bat artikulazio leun baten inguruan bira daiteke plano bertikalean. Posizio bertikaletik askatzen bada, zeintzuk dira artikulazioak eragindako erreakzioaren <math display=\"inline\"><msub><mi>F</mi><mi>x</mi></msub></math> osagai horizontala eta <math display=\"inline\"><msub><mi>F</mi><mi>y</mi></msub></math> osagai bertikala? Bata edo bestea zero izan daitezke uneren batean? Euren zeinua alda daiteke? Noiz izango da maximoa (minimoa)  <math display=\"inline\"><msub><mi>F</mi><mi>y</mi></msub></math>?    "
+       "html": "Hagatxo uniforme bat artikulazio leun baten inguruan bira daiteke plano bertikalean. Posizio bertikaletik askatzen bada, zeintzuk dira artikulazioak eragindako erreakzioaren <math display=\"inline\"><msub><mi>F</mi><mi>x</mi></msub></math> osagai horizontala eta <math display=\"inline\"><msub><mi>F</mi><mi>y</mi></msub></math> osagai bertikala? Bata edo bestea zero izan daitezke uneren batean? Euren zeinua alda daiteke? Noiz izango da maximoa (minimoa)  <math display=\"inline\"><msub><mi>F</mi><mi>y</mi></msub></math>?    <img class=\"irudi-l\" src=\"media/irudiak/78e2b25459557130.svg\" alt=\"\" style=\"width:150px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2065,7 +2137,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Paralelepipedo baten ertzen luzerak <math display=\"inline\"><mrow><mi>a</mi><mo>&lt;</mo><mi>b</mi><mo>&lt;</mo><mi>c</mi></mrow></math> dira. <br> (a) Plano batean jartzen da irudiko ezkerraldean erakusten den moduan eta planoaren inklinazioa apurka-apurka handitzean, une batean blokea labaintzen hasten da. <br> (b) Eskuineko posizioan jartzen bada, ordea, inklinazioa handitzean blokea irauli egiten da, labaintzen hasi baino lehenago. <br> Informazio horrekin, zer esan dezakegu planoaren eta blokearen arteko marruskadura estatikoaren koefizienteari buruz?    "
+       "html": "Paralelepipedo baten ertzen luzerak <math display=\"inline\"><mrow><mi>a</mi><mo>&lt;</mo><mi>b</mi><mo>&lt;</mo><mi>c</mi></mrow></math> dira. <br> (a) Plano batean jartzen da irudiko ezkerraldean erakusten den moduan eta planoaren inklinazioa apurka-apurka handitzean, une batean blokea labaintzen hasten da. <br> (b) Eskuineko posizioan jartzen bada, ordea, inklinazioa handitzean blokea irauli egiten da, labaintzen hasi baino lehenago. <br> Informazio horrekin, zer esan dezakegu planoaren eta blokearen arteko marruskadura estatikoaren koefizienteari buruz?    <img class=\"irudi-l\" src=\"media/irudiak/6bbe08dd64b75d3b.svg\" alt=\"\" style=\"width:173px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2080,7 +2152,7 @@ KAPITULUAK["05mk_05solidoa"] = {
       },
       {
        "mota": "testua",
-       "html": ". Plataforma horizontal bat <math display=\"inline\"><mi>a</mi></math> azelerazio konstantez higitzen ari da, gainean duen <math display=\"inline\"><mi>r</mi></math> erradioko zilindro homogeneoaren biraketa-ardatzarekiko perpendikularrean, irudian erakusten den moduan. Zilindroa ez da labaintzen plataforman. <br> Nola idazten da, une bakoitzean, zilindroaren abiadura angeluarra plataformaren eta zilindroaren masa-zentroaren abiadurak erabiliz? Kalkulatu zilindroaren masa-zentroaren azelerazioa (laborategian eta plataformaren sisteman). Nolakoa da marruskadura estatikoaren koefizientea? Zer aldatzen da zure erantzunetan zilindroaren ordez esfera bete bat erabiltzen bada?    "
+       "html": ". Plataforma horizontal bat <math display=\"inline\"><mi>a</mi></math> azelerazio konstantez higitzen ari da, gainean duen <math display=\"inline\"><mi>r</mi></math> erradioko zilindro homogeneoaren biraketa-ardatzarekiko perpendikularrean, irudian erakusten den moduan. Zilindroa ez da labaintzen plataforman. <br> Nola idazten da, une bakoitzean, zilindroaren abiadura angeluarra plataformaren eta zilindroaren masa-zentroaren abiadurak erabiliz? Kalkulatu zilindroaren masa-zentroaren azelerazioa (laborategian eta plataformaren sisteman). Nolakoa da marruskadura estatikoaren koefizientea? Zer aldatzen da zure erantzunetan zilindroaren ordez esfera bete bat erabiltzen bada?    <img class=\"irudi-l\" src=\"media/irudiak/99fcf07335c4275a.svg\" alt=\"\" style=\"width:149px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2092,6 +2164,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "<math display=\"inline\"><mrow><mn>2</mn><mi>a</mi></mrow></math> erradioko disko homogeneotik <math display=\"inline\"><mi>a</mi></math> erradioko diskoa ebaki da, irudian erakusten den bezala. Kalkulatu non dagoen masa-zentroa eta zein den handik pasatzen den ardatz perpendikularrarekiko inertzia-momentua. Non aplikatu behar da <math display=\"inline\"><mi>J</mi></math> bulkada horizontala, diskoa labaindu gabe abia dadin?  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/2eb1df3bbc037c1b.svg\" alt=\"\" style=\"width:131px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2113,7 +2189,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko bi zilindroen zentroak hagatxo arin baten bidez lotuta daude. Zilindroen masak eta erradioak berdinak dira, <math display=\"inline\"><mi>m</mi></math> eta <math display=\"inline\"><mi>R</mi></math>, baina goikoa hutsa da eta behekoa betea. Labaindu gabe higitzen badira irudiko plano aldapatsuan, zein da masa-zentroaren azelerazioa? Nolakoa da tentsioa hagatxoan: konpresioa ala trakzioa? Zein da haren balioa? Nola aldatzen dira erantzunak goiko zilindroa betea bada eta behekoa hutsa?    "
+       "html": "Irudiko bi zilindroen zentroak hagatxo arin baten bidez lotuta daude. Zilindroen masak eta erradioak berdinak dira, <math display=\"inline\"><mi>m</mi></math> eta <math display=\"inline\"><mi>R</mi></math>, baina goikoa hutsa da eta behekoa betea. Labaindu gabe higitzen badira irudiko plano aldapatsuan, zein da masa-zentroaren azelerazioa? Nolakoa da tentsioa hagatxoan: konpresioa ala trakzioa? Zein da haren balioa? Nola aldatzen dira erantzunak goiko zilindroa betea bada eta behekoa hutsa?    <img class=\"irudi-l\" src=\"media/irudiak/72f04218c39c6ecf.svg\" alt=\"\" style=\"width:135px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2125,6 +2201,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko disko homogeneoa planoaren beheko puntutik askatzen da, <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math> abiadura angeluarraz biratzen ari denean. Diskoaren eta planoaren arteko marruskadura dinamikoaren koefizientea <math display=\"inline\"><mrow><mi>μ</mi><mo>=</mo><msqrt><mn>3</mn></msqrt></mrow></math> da eta <math display=\"inline\"><mrow><mi>α</mi><mo>=</mo><mn>30</mn><msup><mi></mi><mo>∘</mo></msup></mrow></math>. <br> (a) Noiz eta non amaitzen da diskoaren labainketa? <br> (b) Noiz eta non lortzen du garaiera maximoa? <br> (c) Noiz heltzen da berriro hasierako puntura? <br> (d) Zein da bidaian galdutako energia zinetikoaren proportzioa?  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/c9d2a631d4742580.svg\" alt=\"\" style=\"width:141px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2135,7 +2215,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko zilindro berdin paraleloak <math display=\"inline\"><mi>ω</mi></math> abiadura angeluar berdinez biratzen dira, ardatz bertikal leunen inguruan. Astiro-astiro hurbildu ondoren, elkarri ukitzen jartzen badira, zeintzuk izango dira, egoera egonkorrera heltzen direnean, zilindroen abiadura angeluarrak? Energia zinetikoaren zer proportzio galtzen da prozesu osoan?    "
+       "html": "Irudiko zilindro berdin paraleloak <math display=\"inline\"><mi>ω</mi></math> abiadura angeluar berdinez biratzen dira, ardatz bertikal leunen inguruan. Astiro-astiro hurbildu ondoren, elkarri ukitzen jartzen badira, zeintzuk izango dira, egoera egonkorrera heltzen direnean, zilindroen abiadura angeluarrak? Energia zinetikoaren zer proportzio galtzen da prozesu osoan?    <img class=\"irudi-l\" src=\"media/irudiak/fa6c7adcd5c6e11e.svg\" alt=\"\" style=\"width:198px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2146,7 +2226,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko hagatxoa, goiko ardatz leunaren inguruan plano bertikal batean bira daitekeena, orekan dago, norabide perpendikularrean datorren bolatxoak jo arte. Talka elastikoa da eta ondoren partikula norabide berean higitzen da. Kalkulatu zeintzuk diren bolatxoaren abiadura eta hagatxoaren abiadura angeluarra talka ondoren. Aurrera joan daiteke bolatxoa talka ondoren? Nola aukeratu behar da <math display=\"inline\"><mi>v</mi></math> abiadura hagatxoa posizio horizontaleraino hel dadin? Zein da talkan artikulazioak pairatzen duen bulkada? Nola aukeratu behar da <math display=\"inline\"><mi>d</mi></math> distantzia aipatutako bulkada nulua izateko?    "
+       "html": "Irudiko hagatxoa, goiko ardatz leunaren inguruan plano bertikal batean bira daitekeena, orekan dago, norabide perpendikularrean datorren bolatxoak jo arte. Talka elastikoa da eta ondoren partikula norabide berean higitzen da. Kalkulatu zeintzuk diren bolatxoaren abiadura eta hagatxoaren abiadura angeluarra talka ondoren. Aurrera joan daiteke bolatxoa talka ondoren? Nola aukeratu behar da <math display=\"inline\"><mi>v</mi></math> abiadura hagatxoa posizio horizontaleraino hel dadin? Zein da talkan artikulazioak pairatzen duen bulkada? Nola aukeratu behar da <math display=\"inline\"><mi>d</mi></math> distantzia aipatutako bulkada nulua izateko?    <img class=\"irudi-l\" src=\"media/irudiak/ac5a03c07d58e502.svg\" alt=\"\" style=\"width:90px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2165,7 +2245,7 @@ KAPITULUAK["05mk_05solidoa"] = {
       },
       {
        "mota": "testua",
-       "html": ": Arbuiatu diskoaren lodiera.    "
+       "html": ": Arbuiatu diskoaren lodiera.    <img class=\"irudi-l\" src=\"media/irudiak/e683c2d3f13f8efb.svg\" alt=\"\" style=\"width:139px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2177,6 +2257,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko xafla karratua ertzeko artikulazio leunaren inguruan bira daiteke. Hasieran horizontalean dago geldi eta gainean bloke bat jarri da. Blokearen eta xaflaren arteko marruskadura estatikoaren koefizientea <math display=\"inline\"><mi>μ</mi></math> da. <br> Sistema konfigurazio horretatik askatzen bada, zer (eta noiz) gertatuko da lehenago: blokea atzean geratuko dela ala xaflan barrena labaintzen hasiko dela?  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/4f020e1357b39c44.svg\" alt=\"\" style=\"width:148px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2187,7 +2271,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Nolakoa izan behar du marruskadura estatikoaren koefizienteak, labainketa ekiditeko irudiko gorputz higikorra bada <br> (a) zilindro huts bat, <br> (b) zilindro bete homogeneo bat, <br> (c) esfera huts bat, <br> (d) esfera bete homogeneo bat. <br> (e) Gorputzaren erradioaren menpekoak dira erantzunak?    "
+       "html": "Nolakoa izan behar du marruskadura estatikoaren koefizienteak, labainketa ekiditeko irudiko gorputz higikorra bada <br> (a) zilindro huts bat, <br> (b) zilindro bete homogeneo bat, <br> (c) esfera huts bat, <br> (d) esfera bete homogeneo bat. <br> (e) Gorputzaren erradioaren menpekoak dira erantzunak?    <img class=\"irudi-l\" src=\"media/irudiak/288c85ea687aa5b7.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2198,7 +2282,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko gorputza disko mehe homogeneo bat edo esfera homogeneo bat izan daiteke. Gorputzaren zentroa hormatik lotuta dago <math display=\"inline\"><mi>k</mi></math> konstanteko malgukiaren bidez. Gorputzaren eta zoruaren arteko marruskadura estatikoaren koefizientea <math display=\"inline\"><mi>μ</mi></math> da. Zein da, kasu bakoitzean, oszilazioen anplitude maximoa gorputza labaindu ez dadin?    "
+       "html": "Irudiko gorputza disko mehe homogeneo bat edo esfera homogeneo bat izan daiteke. Gorputzaren zentroa hormatik lotuta dago <math display=\"inline\"><mi>k</mi></math> konstanteko malgukiaren bidez. Gorputzaren eta zoruaren arteko marruskadura estatikoaren koefizientea <math display=\"inline\"><mi>μ</mi></math> da. Zein da, kasu bakoitzean, oszilazioen anplitude maximoa gorputza labaindu ez dadin?    <img class=\"irudi-l\" src=\"media/irudiak/4ee1d8ad66a80fa1.svg\" alt=\"\" style=\"width:135px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2209,7 +2293,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko bi zilindro homogeneoak berdinak dira eta gainean duten barra ere masa berekoa da. Kalkulatu zilindroen zentroen eta barraren azelerazioak, irudiko konfigurazioan, labainketarik ez dagoenean. Barraren eta planoaren materialak berdinak dira. Orain sistema pausagunetik abiatzen da, <math display=\"inline\"><mrow><mi>α</mi><mo>=</mo><mn>0</mn></mrow></math> konfiguraziotik. Angelu hori astiro-astiro handitzean, zein hasiko da labaintzen lehenago, barra zilindroekiko ala zilindroak planoarekiko? <br>  <em>Oharra</em>: Prozesu osoan sistema plano aldapatsuan dago, zoru horizontalera heldu gabe.    "
+       "html": "Irudiko bi zilindro homogeneoak berdinak dira eta gainean duten barra ere masa berekoa da. Kalkulatu zilindroen zentroen eta barraren azelerazioak, irudiko konfigurazioan, labainketarik ez dagoenean. Barraren eta planoaren materialak berdinak dira. Orain sistema pausagunetik abiatzen da, <math display=\"inline\"><mrow><mi>α</mi><mo>=</mo><mn>0</mn></mrow></math> konfiguraziotik. Angelu hori astiro-astiro handitzean, zein hasiko da labaintzen lehenago, barra zilindroekiko ala zilindroak planoarekiko? <br>  <em>Oharra</em>: Prozesu osoan sistema plano aldapatsuan dago, zoru horizontalera heldu gabe.    <img class=\"irudi-l\" src=\"media/irudiak/14181febc3108d77.svg\" alt=\"\" style=\"width:135px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2221,6 +2305,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko hagatxoaren luzera <math display=\"inline\"><mrow><mn>2</mn><mi>a</mi></mrow></math> da eta geldi dago mahai horizontal leun batean. Irudian erakusten den <math display=\"inline\"><mi>J</mi></math> bulkada horizontal perpendikularra aplikatzen zaio. Nolakoa izan behar du <math display=\"inline\"><mi>d</mi></math> distantziak, bulkada aplikatu bezain laster, hagatxoaren puntu guztiak bulkadaren noranzkoan higitzeko?  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/e0fd98f5d455e09a.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2231,7 +2319,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "(Euler, 1781). Irudiko disko mehearen <math display=\"inline\"><mi>Z</mi></math> masa-zentroa <math display=\"inline\"><mi>O</mi></math> zentro geometrikotik <math display=\"inline\"><mrow><mi>R</mi><mi>/</mi><mn>2</mn></mrow></math> distantziara dago. Masa-zentroaren inguruko biraketa-erradioa <math display=\"inline\"><mrow><msup><mi>K</mi><mo>*</mo></msup><mo>=</mo><mi>R</mi><mi>/</mi><mn>2</mn></mrow></math> da. Diskoa bere plano bertikalean higitzen da, labaindu gabe, zoru horizontalean. Irudiko konfigurazioan diskoaren abiadura angeluarra <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math> bada, zein izango da abiadura angeluarra, aipaturiko konfiguraziotik neurtutako biraketa-angelua <math display=\"inline\"><mi>φ</mi></math> denean? Zein da <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math>-ren balio minimoa <math display=\"inline\"><mi>O</mi></math> zentroa beti noranzko berean higi dadin? Aldatuko al da <math display=\"inline\"><mi>Z</mi></math> puntuaren abiadura horizontalaren noranzkoa, <math display=\"inline\"><mi>O</mi></math>-rena aldatzen ez bada? <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math> txikia bada, zein izango da oszilazio txikien maiztasuna?    "
+       "html": "(Euler, 1781). Irudiko disko mehearen <math display=\"inline\"><mi>Z</mi></math> masa-zentroa <math display=\"inline\"><mi>O</mi></math> zentro geometrikotik <math display=\"inline\"><mrow><mi>R</mi><mi>/</mi><mn>2</mn></mrow></math> distantziara dago. Masa-zentroaren inguruko biraketa-erradioa <math display=\"inline\"><mrow><msup><mi>K</mi><mo>*</mo></msup><mo>=</mo><mi>R</mi><mi>/</mi><mn>2</mn></mrow></math> da. Diskoa bere plano bertikalean higitzen da, labaindu gabe, zoru horizontalean. Irudiko konfigurazioan diskoaren abiadura angeluarra <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math> bada, zein izango da abiadura angeluarra, aipaturiko konfiguraziotik neurtutako biraketa-angelua <math display=\"inline\"><mi>φ</mi></math> denean? Zein da <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math>-ren balio minimoa <math display=\"inline\"><mi>O</mi></math> zentroa beti noranzko berean higi dadin? Aldatuko al da <math display=\"inline\"><mi>Z</mi></math> puntuaren abiadura horizontalaren noranzkoa, <math display=\"inline\"><mi>O</mi></math>-rena aldatzen ez bada? <math display=\"inline\"><msub><mi>ω</mi><mn>0</mn></msub></math> txikia bada, zein izango da oszilazio txikien maiztasuna?    <img class=\"irudi-l\" src=\"media/irudiak/7ab0883d5f883dba.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2243,6 +2331,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko bi zilindro homogeneo biraketa-ardatz komuna dute. Barrukoa <math display=\"inline\"><mi>m</mi></math> masakoa da, bere erradioa <math display=\"inline\"><mi>R</mi></math>, eta marruskadurarik gabe bira daiteke simetria-ardatzaren inguruan. Kanpoko zilindroaren masa <math display=\"inline\"><mi>m</mi></math> da eta barne- eta kanpo-erradioak <math display=\"inline\"><mi>R</mi></math> eta <math display=\"inline\"><mrow><mn>2</mn><mi>R</mi></mrow></math>, hurrenez hurren. Kanpoko zilindroa labaindu gabe biratzen da zoru horizontalean. Bi zilindroak lotzen dituzten malgukiak <math display=\"inline\"><mrow><mi>N</mi><mo>=</mo><mi>−</mi><mi>k</mi><mi>α</mi></mrow></math> indar-momentua eragiten du, zilindroen orientazio erlatiboen arteko angelua <math display=\"inline\"><mi>α</mi></math> denean. Askatu higidura-ekuazioak, hasieran bi zilindroak geldi badaude, baina barrukoa <math display=\"inline\"><msub><mi>α</mi><mn>0</mn></msub></math> angeluaz biratuta badago kanpokoarekiko."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/46a5b3445f7ca2db.svg\" alt=\"\" style=\"width:88px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2257,7 +2349,7 @@ KAPITULUAK["05mk_05solidoa"] = {
       },
       {
        "mota": "testua",
-       "html": ". Azter dezagun tximinia baten erorketa, erraztasun-hipotesi asko erabiliz.<span class=\"j-oin\">[Azterketa sakonagoa ikusteko: [116] eta [77] artikuluak.]</span> Tximinia homogeneoa eta estua da. Masa, luzera eta erradioak <math display=\"inline\"><mrow><mi>m</mi><mo>,</mo><mi>L</mi></mrow></math> eta <math display=\"inline\"><mrow><mi>r</mi><mo>≪</mo><mi>L</mi></mrow></math> dira, hurrenez hurren. Erortzean <math display=\"inline\"><mi>O</mi></math> oinarria geldi dago eta han pairatutako indar-momentua arbuiagarria da. Beheko zatiak, <math display=\"inline\"><mrow><mi>γ</mi><mi>L</mi></mrow></math> luzerako goiko zatian eragindako indarrak irudikoak dira. Kalkulatu <math display=\"inline\"><mrow><msub><mi>T</mi><mn>1</mn></msub><mo>,</mo><msub><mi>T</mi><mn>2</mn></msub></mrow></math> eta <math display=\"inline\"><mi>N</mi></math>. Erabili <math display=\"inline\"><mrow><mi>r</mi><mo>≪</mo><mi>L</mi></mrow></math> dela tximinia oinarritik <math display=\"inline\"><mrow><mi>d</mi><mo>≈</mo><mi>L</mi><mi>/</mi><mn>3</mn></mrow></math> distantziara apurtuko dela ondorioztatzeko.    "
+       "html": ". Azter dezagun tximinia baten erorketa, erraztasun-hipotesi asko erabiliz.<span class=\"j-oin\">[Azterketa sakonagoa ikusteko: [116] eta [77] artikuluak.]</span> Tximinia homogeneoa eta estua da. Masa, luzera eta erradioak <math display=\"inline\"><mrow><mi>m</mi><mo>,</mo><mi>L</mi></mrow></math> eta <math display=\"inline\"><mrow><mi>r</mi><mo>≪</mo><mi>L</mi></mrow></math> dira, hurrenez hurren. Erortzean <math display=\"inline\"><mi>O</mi></math> oinarria geldi dago eta han pairatutako indar-momentua arbuiagarria da. Beheko zatiak, <math display=\"inline\"><mrow><mi>γ</mi><mi>L</mi></mrow></math> luzerako goiko zatian eragindako indarrak irudikoak dira. Kalkulatu <math display=\"inline\"><mrow><msub><mi>T</mi><mn>1</mn></msub><mo>,</mo><msub><mi>T</mi><mn>2</mn></msub></mrow></math> eta <math display=\"inline\"><mi>N</mi></math>. Erabili <math display=\"inline\"><mrow><mi>r</mi><mo>≪</mo><mi>L</mi></mrow></math> dela tximinia oinarritik <math display=\"inline\"><mrow><mi>d</mi><mo>≈</mo><mi>L</mi><mi>/</mi><mn>3</mn></mrow></math> distantziara apurtuko dela ondorioztatzeko.    <img class=\"irudi-l\" src=\"media/irudiak/5e76a4dc4d669019.svg\" alt=\"\" style=\"width:160px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2288,6 +2380,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko xafla meheak <math display=\"inline\"><mi>m</mi></math> masa du eta <math display=\"inline\"><mi>ω</mi></math> abiadura angeluar konstantez ari da biratzen <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> ardatzaren inguruan. Aurki ezazu <math display=\"inline\"><mi>A</mi></math> eta <math display=\"inline\"><mi>B</mi></math> euskarriek eragiten dioten indar-momentua.  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/df6afca22c58ff13.svg\" alt=\"\" style=\"width:67px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2299,6 +2395,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko sistema lauan hagatxoen masak arbuiagarriak dira. Abiadura angeluar konstantez biratzen bada, zein da <math display=\"inline\"><mi>A</mi></math> eta <math display=\"inline\"><mi>B</mi></math> euskarri leunek eragindako indar-momentua? Euskarriak kentzen badira, zein norabideren inguruan bira daiteke abiadura angeluar konstantez inolako indar-momenturik pairatu gabe?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/b495ff22bb1f8462.svg\" alt=\"\" style=\"width:139px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2310,6 +2410,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko diskoaren masa, erradioa eta lodiera <math display=\"inline\"><mrow><mi>m</mi><mo>,</mo><mi>R</mi></mrow></math> eta <math display=\"inline\"><mi>d</mi></math> dira, hurrenez hurren. Diskoa <math display=\"inline\"><mi>ω</mi></math> abiadura angeluar konstantez biratzen ari da, perpendikularrarekin <math display=\"inline\"><mi>α</mi></math> angelua osatzen duen ardatz finko baten inguruan. Kalkulatu diskoaren momentu angeluarra eta ardatzak eragindako indar-momentua."
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/f71fc3b88a15db65.svg\" alt=\"\" style=\"width:88px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2320,7 +2424,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko disko mehearen erradioa <math display=\"inline\"><mi>R</mi></math> da eta <math display=\"inline\"><msub><mi>ω</mi><mn>1</mn></msub></math> abiadura angeluar konstantez ari da biratzen simetria-ardatz horizontalaren inguruan. Ardatza bera <math display=\"inline\"><msub><mi>ω</mi><mn>2</mn></msub></math> abiadura angeluar konstantez biratzen da bertikalaren inguruan. Aukeratu triedro egokia eta kalkulatu diskoaren momentu angeluarra eta euskarriek eragindako indar-momentua.    "
+       "html": "Irudiko disko mehearen erradioa <math display=\"inline\"><mi>R</mi></math> da eta <math display=\"inline\"><msub><mi>ω</mi><mn>1</mn></msub></math> abiadura angeluar konstantez ari da biratzen simetria-ardatz horizontalaren inguruan. Ardatza bera <math display=\"inline\"><msub><mi>ω</mi><mn>2</mn></msub></math> abiadura angeluar konstantez biratzen da bertikalaren inguruan. Aukeratu triedro egokia eta kalkulatu diskoaren momentu angeluarra eta euskarriek eragindako indar-momentua.    <img class=\"irudi-l\" src=\"media/irudiak/9f6f992b15793373.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2347,6 +2451,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko xafla karratuaren masa <math display=\"inline\"><mi>m</mi></math> da eta erpin batean dauka itsatsita <math display=\"inline\"><mi>m</mi></math> masa puntuala. Ardatz bertikalaren inguruan <math display=\"inline\"><mi>ω</mi></math> abiadura angeluar konstantez biratzen bada, zein da <math display=\"inline\"><mi>A</mi></math> eta <math display=\"inline\"><mi>B</mi></math> euskarriek eragindako indar-momentua? Ardatza kentzen badugu eta sistema geldi badago espazioan (hau da grabitaterik gabe), non jo behar da xafla norabide perpendikularrean, biratu gabe abia dadin? Nola higituko da sistema, xaflaren zentro geometrikoan <math display=\"inline\"><mi>J</mi></math> bulkada perpendikularra aplikatzen bazaio?  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/16f92799512b35df.svg\" alt=\"\" style=\"width:83px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2357,7 +2465,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko markoaren lau alde berdinen masa eta luzera <math display=\"inline\"><mi>m</mi></math> eta <math display=\"inline\"><mi>a</mi></math> dira, hurrenez hurren. Erpin batean <math display=\"inline\"><mi>M</mi></math> masako partikula bat dago itsatsita eta sistema <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> ardatz bertikalaren inguruan ari da biratzen <math display=\"inline\"><mi>ω</mi></math> abiadura angeluar konstantez. Kalkulatu zeintzuk diren markoaren <math display=\"inline\"><mi>O</mi></math> zentro geometrikoaren inguruan solido osoaren norabide eta inertzia-momentu nagusiak. Zein da <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> ardatzak eragindako indar-momentua?    "
+       "html": "Irudiko markoaren lau alde berdinen masa eta luzera <math display=\"inline\"><mi>m</mi></math> eta <math display=\"inline\"><mi>a</mi></math> dira, hurrenez hurren. Erpin batean <math display=\"inline\"><mi>M</mi></math> masako partikula bat dago itsatsita eta sistema <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> ardatz bertikalaren inguruan ari da biratzen <math display=\"inline\"><mi>ω</mi></math> abiadura angeluar konstantez. Kalkulatu zeintzuk diren markoaren <math display=\"inline\"><mi>O</mi></math> zentro geometrikoaren inguruan solido osoaren norabide eta inertzia-momentu nagusiak. Zein da <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> ardatzak eragindako indar-momentua?    <img class=\"irudi-l\" src=\"media/irudiak/cecf80134142c255.svg\" alt=\"\" style=\"width:126px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2368,7 +2476,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko xafla mehea <math display=\"inline\"><mi>ω</mi></math> abiadura angeluar konstantez ari da biratzen ardatz bertikalaren inguruan. <br> (a) Aurkitu <math display=\"inline\"><mi>O</mi></math> puntuan kokatutako solidoaren erreferentzia-sistema, simetriak erabiliz. <br> (b) Kalkulatu <math display=\"inline\"><mi>O</mi></math>-ren inguruko inertzia-momentu nagusiak, <em>inolako integralik egin gabe</em>. Idatzi inertzia-matrizea <math display=\"inline\"><mi>O</mi></math> puntuko solidoaren sisteman. <br> (c) Zein da ardatzak eragindako indar-momentu osoa?    "
+       "html": "Irudiko xafla mehea <math display=\"inline\"><mi>ω</mi></math> abiadura angeluar konstantez ari da biratzen ardatz bertikalaren inguruan. <br> (a) Aurkitu <math display=\"inline\"><mi>O</mi></math> puntuan kokatutako solidoaren erreferentzia-sistema, simetriak erabiliz. <br> (b) Kalkulatu <math display=\"inline\"><mi>O</mi></math>-ren inguruko inertzia-momentu nagusiak, <em>inolako integralik egin gabe</em>. Idatzi inertzia-matrizea <math display=\"inline\"><mi>O</mi></math> puntuko solidoaren sisteman. <br> (c) Zein da ardatzak eragindako indar-momentu osoa?    <img class=\"irudi-l\" src=\"media/irudiak/863608316f3124dd.svg\" alt=\"\" style=\"width:106px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2379,7 +2487,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "<math display=\"inline\"><mi>d</mi></math> luzerako hagatxo arina <math display=\"inline\"><mi>O</mi></math> artikulazio leunaren inguruan bira daiteke, norabide guztietan, oztoporik gabe. Aztertzen ari garen higidura berezi honetan, hagatxoa plano horizontalean ari da biratzen <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> abiadura angeluar konstantez. Gainera, mutur askean duen <math display=\"inline\"><mi>m</mi></math> masako disko homogeneoa <math display=\"inline\"><mi>ω</mi></math> abiadura angeluar konstantez biratzen da bere simetria-ardatzaren inguruan. Diskoaren erradioa <math display=\"inline\"><mi>r</mi></math> da eta lodiera arbuiagarria. Frogatu <math display=\"inline\"><mrow><mn>2</mn><mi>g</mi><mi>d</mi><mo>=</mo><mi>ω</mi><mi mathvariant=\"normal\">Ω</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></math> erlazioa bete behar dela, higidura berezi hori gerta dadin.    "
+       "html": "<math display=\"inline\"><mi>d</mi></math> luzerako hagatxo arina <math display=\"inline\"><mi>O</mi></math> artikulazio leunaren inguruan bira daiteke, norabide guztietan, oztoporik gabe. Aztertzen ari garen higidura berezi honetan, hagatxoa plano horizontalean ari da biratzen <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> abiadura angeluar konstantez. Gainera, mutur askean duen <math display=\"inline\"><mi>m</mi></math> masako disko homogeneoa <math display=\"inline\"><mi>ω</mi></math> abiadura angeluar konstantez biratzen da bere simetria-ardatzaren inguruan. Diskoaren erradioa <math display=\"inline\"><mi>r</mi></math> da eta lodiera arbuiagarria. Frogatu <math display=\"inline\"><mrow><mn>2</mn><mi>g</mi><mi>d</mi><mo>=</mo><mi>ω</mi><mi mathvariant=\"normal\">Ω</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></math> erlazioa bete behar dela, higidura berezi hori gerta dadin.    <img class=\"irudi-l\" src=\"media/irudiak/5699c9185e049337.svg\" alt=\"\" style=\"width:126px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2394,7 +2502,7 @@ KAPITULUAK["05mk_05solidoa"] = {
       },
       {
        "mota": "testua",
-       "html": ". Disko astun bat biratzen ari da <em>oso arin</em> bere simetria-ardatzaren inguruan. Diskoaren ardatza beti dago plano horizontalean, baina ardatz bertikalaren inguruan bira daiteke oztoporik gabe. Eman dezagun <math display=\"inline\"><mi>θ</mi></math> dela simetria-ardatzaren eta meridianoaren arteko angelua. Aukeratu erreferentzia-sistema egokia eta idatzi <math display=\"inline\"><mi>θ</mi></math>-ren higidura-ekuazioa, Lurraren (2.97) abiadura angeluarra kontuan hartuz. Egin hurbilketa egokia eta frogatu ardatzak meridianoaren inguruan oszilatzen duela. Zein da periodoa oszilazioak txikiak badira? Nola erabil daiteke sistema hau iparrorratz magnetikoaren ordez? Zer gertatzen da poloan? Zertarako erabili behar da <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> oso handia dela?    "
+       "html": ". Disko astun bat biratzen ari da <em>oso arin</em> bere simetria-ardatzaren inguruan. Diskoaren ardatza beti dago plano horizontalean, baina ardatz bertikalaren inguruan bira daiteke oztoporik gabe. Eman dezagun <math display=\"inline\"><mi>θ</mi></math> dela simetria-ardatzaren eta meridianoaren arteko angelua. Aukeratu erreferentzia-sistema egokia eta idatzi <math display=\"inline\"><mi>θ</mi></math>-ren higidura-ekuazioa, Lurraren (2.97) abiadura angeluarra kontuan hartuz. Egin hurbilketa egokia eta frogatu ardatzak meridianoaren inguruan oszilatzen duela. Zein da periodoa oszilazioak txikiak badira? Nola erabil daiteke sistema hau iparrorratz magnetikoaren ordez? Zer gertatzen da poloan? Zertarako erabili behar da <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> oso handia dela?    <img class=\"irudi-l\" src=\"media/irudiak/83d8fd4fcbad7b00.svg\" alt=\"\" style=\"width:122px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2406,6 +2514,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Xafla mehe eliptiko bat oztoporik gabe bira daiteke bere zentro geometrikoaren inguruan. Ardatzerdi nagusiaren luzera <math display=\"inline\"><mi>a</mi></math> da eta bestearena <math display=\"inline\"><mi>b</mi></math>. Aukera dezagun irudian erakusten den solidoaren sistema. Hasieran <math display=\"inline\"><mi>A</mi></math> puntuaren abiadura <math display=\"inline\"><mrow><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>A</mi></msub><mo>=</mo><mi>c</mi><mi>μ</mi><mi mathvariant=\"bold-italic\">𝒋</mi></mrow></math> zen eta <math display=\"inline\"><mi>B</mi></math> puntuaren abiaduraren osagai normala <math display=\"inline\"><mrow><msub><mover><mi>z</mi><mo accent=\"true\">̇</mo></mover><mi>B</mi></msub><mo>=</mo><mi>b</mi><mi>d</mi><mi>μ</mi><mi>/</mi><mi>a</mi></mrow></math>, non <math display=\"inline\"><mi>μ</mi></math> konstantea positiboa den, <math display=\"inline\"><mrow><mi>c</mi><mo>=</mo><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>b</mi><mn>2</mn></msup></mrow></msqrt></mrow></math> eta <math display=\"inline\"><mrow><mi>d</mi><mo>≡</mo><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></mrow></msqrt></mrow></math>. Xaflaren masa <math display=\"inline\"><mi>m</mi></math> da eta lodiera arbuiagarria. Frogatu hauexek direla inertzia-momentu nagusiak: <math display=\"block\"><mrow><msub><mi>I</mi><mi>x</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>m</mi><msup><mi>b</mi><mn>2</mn></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>I</mi><mi>y</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>m</mi><msup><mi>a</mi><mn>2</mn></msup><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>I</mi><mi>z</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>m</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math> Idatzi Eulerren ekuazioak. Erabili bi higidura-konstante eta hastapen-baldintzak <math display=\"inline\"><msub><mi>ω</mi><mi>z</mi></msub></math> osagaiaren eboluzio-ekuazioa aurkitzeko. Integratu eboluzio-ekuazio hori eta kalkulatu abiadura angeluarraren beste bi osagaiak. Nolakoa izango da xaflaren higidura denbora-tarte luze bat pasatu ondoren?  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/06afd9e62051f3a4.svg\" alt=\"\" style=\"width:118px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2420,7 +2532,7 @@ KAPITULUAK["05mk_05solidoa"] = {
       },
       {
        "mota": "testua",
-       "html": "(a) Frogatu <math display=\"inline\"><mi>ω</mi></math> abiadura angeluar konstantez bira daitekeela irudiko konfigurazioan. Kalkulatu soken tentsioak. (b) Zer gertatzen da soka bat apurtzen bada? (c) Eta bestea apurtzen denean? (Ikus 7.71 problema.)     "
+       "html": "(a) Frogatu <math display=\"inline\"><mi>ω</mi></math> abiadura angeluar konstantez bira daitekeela irudiko konfigurazioan. Kalkulatu soken tentsioak. (b) Zer gertatzen da soka bat apurtzen bada? (c) Eta bestea apurtzen denean? (Ikus 7.71 problema.)     <img class=\"irudi-l\" src=\"media/irudiak/95e819df562510af.svg\" alt=\"\" style=\"width:114px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2442,7 +2554,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko barra <math display=\"inline\"><mi>A</mi></math> artikulazioaren inguruan bira daiteke plano bertikalean, marruskadurarik gabe. Beheko muturra <math display=\"inline\"><mi>S</mi></math> sokaren eta <math display=\"inline\"><mi>E</mi></math> eraztunaren bidez dago loturik ardatz bertikal leunetik. Sistema martxan jarri ondoren, <math display=\"inline\"><mi>ω</mi></math> abiadura angeluar konstantez biratzen da bertikalaren inguruan: ardatzaren eta barraren arteko angelu konstantea <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mi>α</mi><mo>&lt;</mo><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math> da eta <math display=\"inline\"><mi>S</mi></math> soka horizontalean dago, irudian erakusten den bezala. Kalkulatu soken tentsioa eta <math display=\"inline\"><mi>A</mi></math> artikulazioak eragindako erreakzio-indarra. Zein da <math display=\"inline\"><mi>ω</mi></math>-ren balio minimoa <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mi>α</mi><mo>&lt;</mo><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math> izateko? Eta, orduan, zeintzuk izan daitezke <math display=\"inline\"><mi>α</mi></math>-ren balioak?    "
+       "html": "Irudiko barra <math display=\"inline\"><mi>A</mi></math> artikulazioaren inguruan bira daiteke plano bertikalean, marruskadurarik gabe. Beheko muturra <math display=\"inline\"><mi>S</mi></math> sokaren eta <math display=\"inline\"><mi>E</mi></math> eraztunaren bidez dago loturik ardatz bertikal leunetik. Sistema martxan jarri ondoren, <math display=\"inline\"><mi>ω</mi></math> abiadura angeluar konstantez biratzen da bertikalaren inguruan: ardatzaren eta barraren arteko angelu konstantea <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mi>α</mi><mo>&lt;</mo><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math> da eta <math display=\"inline\"><mi>S</mi></math> soka horizontalean dago, irudian erakusten den bezala. Kalkulatu soken tentsioa eta <math display=\"inline\"><mi>A</mi></math> artikulazioak eragindako erreakzio-indarra. Zein da <math display=\"inline\"><mi>ω</mi></math>-ren balio minimoa <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mi>α</mi><mo>&lt;</mo><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math> izateko? Eta, orduan, zeintzuk izan daitezke <math display=\"inline\"><mi>α</mi></math>-ren balioak?    <img class=\"irudi-l\" src=\"media/irudiak/7e31706980e607d7.svg\" alt=\"\" style=\"width:88px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2453,7 +2565,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko sistemako hagatxoak arinak dira eta biratzen ari dira, ardatz bertikalaren inguruan, <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><mi>α</mi><mi>t</mi></mrow></math> abiadura angeluarraz (<math display=\"inline\"><mi>α</mi></math> azelerazio angeluarra konstantea da). Kalkulatu sistemaren gainean eragindako indar-momentua.    "
+       "html": "Irudiko sistemako hagatxoak arinak dira eta biratzen ari dira, ardatz bertikalaren inguruan, <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><mi>α</mi><mi>t</mi></mrow></math> abiadura angeluarraz (<math display=\"inline\"><mi>α</mi></math> azelerazio angeluarra konstantea da). Kalkulatu sistemaren gainean eragindako indar-momentua.    <img class=\"irudi-l\" src=\"media/irudiak/c3f34ef93f782120.svg\" alt=\"\" style=\"width:131px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2465,6 +2577,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko barra homogeneoa <math display=\"inline\"><mi>ω</mi></math> abiadura konstantez ari da biratzen bertikalaren inguruan. Gainera, <math display=\"inline\"><mi>A</mi></math> artikulazio leunaren inguruan bira daiteke plano bertikalean. Erabili gorputzaren erreferentzia-sistema lagrangearra idazteko eta higidura-ekuazioa (edo kontserbazio-legeren bat)  <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><msub><mi>θ</mi><mn>0</mn></msub><mo>&lt;</mo><mi>π</mi><mi>/</mi><mn>2</mn></mrow></math> anguluko oreka erlatiboaren konfigurazioaren existentzia eta egonkortasuna aztertzeko. Kalkulatu oreka erlatibo egonkor horren inguruko oszilazio txikien maiztasuna.  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/511eb5687e347739.svg\" alt=\"\" style=\"width:118px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2476,6 +2592,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko marko karratua <math display=\"inline\"><mi>m</mi></math> masakoa da eta marruskadurarik gabe bira daiteke simetria-ardatz horizontalaren inguruan. Gainera, <math display=\"inline\"><mi>m</mi></math> masa puntuala du erpin batean, irudian erakusten den bezala. (a) Kalkulatu <math display=\"inline\"><mrow><mi>α</mi><mo>≪</mo><mn>1</mn></mrow></math> anplitudeko oszilazio txikien maiztasuna. Zein da <math display=\"inline\"><mi>A</mi></math> eta <math display=\"inline\"><mi>B</mi></math> euskarriek eragindako indar-momentua oszilazio txikietan masa puntuala (b) puntu baxuenean eta (c) altuenean dagoenean?"
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/6759ec6be7b22909.svg\" alt=\"\" style=\"width:143px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2508,7 +2628,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Zilindro homogeneo bat marruskadurarik gabe bira daiteke bere zentrotik pasatzen den <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> ardatz perpendikular horizontalaren inguruan. Ardatza <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> abiadura angeluar bertikal konstantez birarazten da. Zilindroaren luzera <math display=\"inline\"><mi>l</mi></math> da eta erradioa <math display=\"inline\"><mi>r</mi></math>. Zilindroaren eta horizontalaren arteko angelua <math display=\"inline\"><mi>θ</mi></math> da. Idatzi <math display=\"inline\"><mi>θ</mi></math>-ren eboluzio-ekuazioa. Kalkulatu oreka erlatiboaren konfigurazioak eta aztertu euren egonkortasuna. Kalkulatu oreka erlatibo egonkorraren inguruko oszilazio txikien maiztasuna. Zein da <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> ardatzaren erreakzioa oreka erlatiboaren konfigurazioetan?    "
+       "html": "Zilindro homogeneo bat marruskadurarik gabe bira daiteke bere zentrotik pasatzen den <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> ardatz perpendikular horizontalaren inguruan. Ardatza <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> abiadura angeluar bertikal konstantez birarazten da. Zilindroaren luzera <math display=\"inline\"><mi>l</mi></math> da eta erradioa <math display=\"inline\"><mi>r</mi></math>. Zilindroaren eta horizontalaren arteko angelua <math display=\"inline\"><mi>θ</mi></math> da. Idatzi <math display=\"inline\"><mi>θ</mi></math>-ren eboluzio-ekuazioa. Kalkulatu oreka erlatiboaren konfigurazioak eta aztertu euren egonkortasuna. Kalkulatu oreka erlatibo egonkorraren inguruko oszilazio txikien maiztasuna. Zein da <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> ardatzaren erreakzioa oreka erlatiboaren konfigurazioetan?    <img class=\"irudi-l\" src=\"media/irudiak/382e8c5ec2702b47.svg\" alt=\"\" style=\"width:101px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2519,7 +2639,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko eraztunaren masa <math display=\"inline\"><mi>M</mi></math> da eta erradioa <math display=\"inline\"><mi>R</mi></math>. Irudian erakutsitako posizioan finko dagoen diametro arbuiagarriko bolatxoaren masa <math display=\"inline\"><mi>m</mi></math> da. Sistema eraztunaren diametro bertikalaren inguruan birarazten da <math display=\"inline\"><mi>ω</mi></math> abiadura angeluar konstantez. Nola aukeratu behar da <math display=\"inline\"><mrow><mi>θ</mi><mo>≠</mo><mn>0</mn><mo>,</mo><mi>π</mi></mrow></math> angelua ardatzak pairatutako <math display=\"inline\"><mi>O</mi></math>-rekiko indar-momentua zero izan dadin? Beti egin daiteke aukera hori? Zein da orduan ardatzak eragindako erreakzio-indarra?    "
+       "html": "Irudiko eraztunaren masa <math display=\"inline\"><mi>M</mi></math> da eta erradioa <math display=\"inline\"><mi>R</mi></math>. Irudian erakutsitako posizioan finko dagoen diametro arbuiagarriko bolatxoaren masa <math display=\"inline\"><mi>m</mi></math> da. Sistema eraztunaren diametro bertikalaren inguruan birarazten da <math display=\"inline\"><mi>ω</mi></math> abiadura angeluar konstantez. Nola aukeratu behar da <math display=\"inline\"><mrow><mi>θ</mi><mo>≠</mo><mn>0</mn><mo>,</mo><mi>π</mi></mrow></math> angelua ardatzak pairatutako <math display=\"inline\"><mi>O</mi></math>-rekiko indar-momentua zero izan dadin? Beti egin daiteke aukera hori? Zein da orduan ardatzak eragindako erreakzio-indarra?    <img class=\"irudi-l\" src=\"media/irudiak/7b90b0ff01a1d6ab.svg\" alt=\"\" style=\"width:92px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2560,7 +2680,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Sotora jaisteko tranpa zabaldu behar du (astiro-astiro) Peruk. Hiru metodo bururatu zaizkio: mutur askeari <em>beti</em> tiratzea (a) bertikalean, (b) tranparekiko perpendikularrean eta (c) horizontalean. Zein kasutan egin beharko du indarrik handiena (txikiena) hasieran? Eta amaieran? Denera, nola egingo du lan minimoa?    "
+       "html": "Sotora jaisteko tranpa zabaldu behar du (astiro-astiro) Peruk. Hiru metodo bururatu zaizkio: mutur askeari <em>beti</em> tiratzea (a) bertikalean, (b) tranparekiko perpendikularrean eta (c) horizontalean. Zein kasutan egin beharko du indarrik handiena (txikiena) hasieran? Eta amaieran? Denera, nola egingo du lan minimoa?    <img class=\"irudi-l\" src=\"media/irudiak/09b730699addc1f5.svg\" alt=\"\" style=\"width:186px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2583,6 +2703,10 @@ KAPITULUAK["05mk_05solidoa"] = {
       {
        "mota": "testua",
        "html": "Irudiko bi esfera bete homogeneo berdinak biratzen ari dira <math display=\"inline\"><mi>ω</mi></math> abiadura angeluarraz, erakusten diren norabide elkarzutetan. Astiro-astiro hurbiltzen dira, aurkako abiadura txikiekin, eta elkar ukitzean loturik geratzen dira. Nola higitzen da gorputz berria? Energia zinetikoaren zein frakzio galdu da prozesuan? <br>  <em>Oharra</em>: Grabitatea arbuiagarria da.  "
+      },
+      {
+       "mota": "testua",
+       "html": "<img class=\"irudi-l\" src=\"media/irudiak/7e73966ca2bef951.svg\" alt=\"\" style=\"width:139px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2593,7 +2717,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko xafla karratu homogeneoaren masa <math display=\"inline\"><mrow><mn>3</mn><mi>m</mi></mrow></math> da eta aldeen luzera <math display=\"inline\"><mi>a</mi></math>. <math display=\"inline\"><mi>A</mi></math> eta <math display=\"inline\"><mi>B</mi></math> artikulazioen inguruan bira daiteke, marruskadurarik gabe. Hasieran geldi dago, baina norabide perpendikularrean <math display=\"inline\"><mi>v</mi></math> abiaduraz hurbiltzen den <math display=\"inline\"><mi>m</mi></math> masako partikula batek xaflaren erpin bat jotzen du eta itsatsita geratzen da. Aurkitu xaflaren abiadura angeluarra, talka ondoren, eta artikulazioek eragindako erreakzioa.    "
+       "html": "Irudiko xafla karratu homogeneoaren masa <math display=\"inline\"><mrow><mn>3</mn><mi>m</mi></mrow></math> da eta aldeen luzera <math display=\"inline\"><mi>a</mi></math>. <math display=\"inline\"><mi>A</mi></math> eta <math display=\"inline\"><mi>B</mi></math> artikulazioen inguruan bira daiteke, marruskadurarik gabe. Hasieran geldi dago, baina norabide perpendikularrean <math display=\"inline\"><mi>v</mi></math> abiaduraz hurbiltzen den <math display=\"inline\"><mi>m</mi></math> masako partikula batek xaflaren erpin bat jotzen du eta itsatsita geratzen da. Aurkitu xaflaren abiadura angeluarra, talka ondoren, eta artikulazioek eragindako erreakzioa.    <img class=\"irudi-l\" src=\"media/irudiak/2a276830f2b19cc2.svg\" alt=\"\" style=\"width:118px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2604,7 +2728,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko eraztuna oztoporik gabe bira daiteke <math display=\"inline\"><mi>X</mi></math> ardatz horizontalaren inguruan. Eraztunaren masa eta erradioa <math display=\"inline\"><mi>m</mi></math> eta <math display=\"inline\"><mrow><msqrt><mn>2</mn></msqrt><mi>R</mi></mrow></math> dira, hurrenez hurren, eta itsatsita du <math display=\"inline\"><mi>m</mi></math> masako partikula, erakusten den posizioan. Hasieran eraztuna geldi dago irudiko posizioan, baina norabide perpendikularrean <math display=\"inline\"><mi>v</mi></math> abiaduraz datorren <math display=\"inline\"><mi>m</mi></math> masako partikulak eraztunari itsatsita dagoena jotzen duenean bi partikulak loturik geratzen dira. <br> Kalkulatu talkan ardatzak eragindako bulkada lineala eta angeluarra. Zein da sistemaren oszilazioen anplitudea talka ondoren. Nolako baldintza bete behar da aipaturiko anplitudea txikia izateko? Zein da orduan oszilazio txikien periodoa? <br>  <em>Oharra</em>: Erabili irudiko triedro kalkulua errazteko.    "
+       "html": "Irudiko eraztuna oztoporik gabe bira daiteke <math display=\"inline\"><mi>X</mi></math> ardatz horizontalaren inguruan. Eraztunaren masa eta erradioa <math display=\"inline\"><mi>m</mi></math> eta <math display=\"inline\"><mrow><msqrt><mn>2</mn></msqrt><mi>R</mi></mrow></math> dira, hurrenez hurren, eta itsatsita du <math display=\"inline\"><mi>m</mi></math> masako partikula, erakusten den posizioan. Hasieran eraztuna geldi dago irudiko posizioan, baina norabide perpendikularrean <math display=\"inline\"><mi>v</mi></math> abiaduraz datorren <math display=\"inline\"><mi>m</mi></math> masako partikulak eraztunari itsatsita dagoena jotzen duenean bi partikulak loturik geratzen dira. <br> Kalkulatu talkan ardatzak eragindako bulkada lineala eta angeluarra. Zein da sistemaren oszilazioen anplitudea talka ondoren. Nolako baldintza bete behar da aipaturiko anplitudea txikia izateko? Zein da orduan oszilazio txikien periodoa? <br>  <em>Oharra</em>: Erabili irudiko triedro kalkulua errazteko.    <img class=\"irudi-l\" src=\"media/irudiak/517e1d7e201c3798.svg\" alt=\"\" style=\"width:116px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2615,7 +2739,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Xafla karratu mehe bat geldi dago espazioan, grabitaterik gabe. Xaflaren masa <math display=\"inline\"><mrow><mn>3</mn><mi>m</mi></mrow></math> da eta aldeen luzera <math display=\"inline\"><mrow><mn>2</mn><mi>a</mi></mrow></math>. Norabide perpendikularrean datorren <math display=\"inline\"><mi>m</mi></math> masako partikulak xaflako erpin bat jo ondoren, itsatsita geratzen da. Partikularen abiadura <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝒗</mi></math> bazen, nola higitzen da sistema talka ondoren?    "
+       "html": "Xafla karratu mehe bat geldi dago espazioan, grabitaterik gabe. Xaflaren masa <math display=\"inline\"><mrow><mn>3</mn><mi>m</mi></mrow></math> da eta aldeen luzera <math display=\"inline\"><mrow><mn>2</mn><mi>a</mi></mrow></math>. Norabide perpendikularrean datorren <math display=\"inline\"><mi>m</mi></math> masako partikulak xaflako erpin bat jo ondoren, itsatsita geratzen da. Partikularen abiadura <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝒗</mi></math> bazen, nola higitzen da sistema talka ondoren?    <img class=\"irudi-l\" src=\"media/irudiak/01523729903511dd.svg\" alt=\"\" style=\"width:126px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2641,7 +2765,7 @@ KAPITULUAK["05mk_05solidoa"] = {
      "blokeak": [
       {
        "mota": "testua",
-       "html": "Irudiko xafla karratu mehea oztoporik gabe bira daiteke <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> ardatz horizontalaren inguruan. Xaflaren masa <math display=\"inline\"><mi>m</mi></math> da eta aldeen luzera <math display=\"inline\"><mi>a</mi></math>. Hasieran oreka egonkorreko posizio bertikalean dago geldi, baina norabide perpendikularrean datorren masa bereko partikulak erpin bat jotzen du eta itsatsita geratzen da. Talka ondoren sistema posizio bertikal ezegonkorreraino doa eta han geratzen da (une batez, behintzat). Kalkulatu partikularen hasierako abiadura, talkan galdutako energia zinetikoaren proportzioa eta ardatzak (talkan) eragindako bulkada lineala eta angeluarra.    "
+       "html": "Irudiko xafla karratu mehea oztoporik gabe bira daiteke <math display=\"inline\"><mrow><mi>A</mi><mi>B</mi></mrow></math> ardatz horizontalaren inguruan. Xaflaren masa <math display=\"inline\"><mi>m</mi></math> da eta aldeen luzera <math display=\"inline\"><mi>a</mi></math>. Hasieran oreka egonkorreko posizio bertikalean dago geldi, baina norabide perpendikularrean datorren masa bereko partikulak erpin bat jotzen du eta itsatsita geratzen da. Talka ondoren sistema posizio bertikal ezegonkorreraino doa eta han geratzen da (une batez, behintzat). Kalkulatu partikularen hasierako abiadura, talkan galdutako energia zinetikoaren proportzioa eta ardatzak (talkan) eragindako bulkada lineala eta angeluarra.    <img class=\"irudi-l\" src=\"media/irudiak/b85d11da46f5ae3a.svg\" alt=\"\" style=\"width:143px\" loading=\"lazy\">"
       }
      ]
     },
@@ -2673,10 +2797,6 @@ KAPITULUAK["05mk_05solidoa"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -2797,10 +2917,6 @@ KAPITULUAK["05mk_05solidoa"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>R.</strong>"
     },
     {
@@ -2869,7 +2985,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>α</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>30</mn><msup><mi></mi><mo>∘</mo></msup><mo>=</mo><mn>1</mn><mi>/</mi><msqrt><mn>3</mn></msqrt></mrow></math> dela kontuan hartuta, aurrekoa honela geratuko zaigu:"
+     "html": "<span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mi>α</mi><mo>=</mo><mrow><mi mathvariant=\"normal\">tan</mi><mo>&#8289;</mo></mrow><mn>30</mn><msup><mi></mi><mo>∘</mo></msup><mo>=</mo><mn>1</mn><mi>/</mi><msqrt><mn>3</mn></msqrt></mrow></math></span> dela kontuan hartuta, aurrekoa honela geratuko zaigu:"
     },
     {
      "mota": "testua",
@@ -2913,10 +3029,6 @@ KAPITULUAK["05mk_05solidoa"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -2975,10 +3087,6 @@ KAPITULUAK["05mk_05solidoa"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -3072,10 +3180,6 @@ KAPITULUAK["05mk_05solidoa"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
@@ -3271,10 +3375,6 @@ KAPITULUAK["05mk_05solidoa"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>R.</strong>"
     },
     {
@@ -3339,7 +3439,7 @@ KAPITULUAK["05mk_05solidoa"] = {
     },
     {
      "mota": "testua",
-     "html": "[Irudia: plano inklinatuaren gainean eutsita dagoen konoaren bi eskema; V, z, x, y ardatzak; <math display=\"inline\"><mi>α</mi></math>, <math display=\"inline\"><mi>β</mi></math>, <math display=\"inline\"><mi>θ</mi></math> angeluak; O, G, G<math display=\"inline\"><msub><mrow></mrow><mn>0</mn></msub></math>, A puntuak; <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> abiadura angeluarra; eta <math display=\"inline\"><mrow><msub><mi>z</mi><mi>G</mi></msub><mo>=</mo><mi>a</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>α</mi></mrow></math>, <math display=\"inline\"><mrow><msub><mi>x</mi><mi>G</mi></msub><mo>=</mo><mi>a</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>α</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi></mrow></math> erlazioak]"
+     "html": "[Irudia: plano inklinatuaren gainean eutsita dagoen konoaren bi eskema; V, z, x, y ardatzak; <math display=\"inline\"><mi>α</mi></math>, <math display=\"inline\"><mi>β</mi></math>, <math display=\"inline\"><mi>θ</mi></math> angeluak; O, G, G<math display=\"inline\"><msub><mrow></mrow><mn>0</mn></msub></math>, A puntuak; <math display=\"inline\"><mi mathvariant=\"normal\">Ω</mi></math> abiadura angeluarra; eta <math display=\"inline\"><mrow><msub><mi>z</mi><mi>G</mi></msub><mo>=</mo><mi>a</mi><mrow><mi mathvariant=\"normal\">sin</mi><mo>&#8289;</mo></mrow><mi>α</mi></mrow></math>, <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><msub><mi>x</mi><mi>G</mi></msub><mo>=</mo><mi>a</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>α</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>θ</mi></mrow></math></span> erlazioak]"
     },
     {
      "mota": "testua",
@@ -3471,7 +3571,7 @@ KAPITULUAK["05mk_05solidoa"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": "R. a. Simetriagatik, sistemaren inertzia-ardatz nagusiak eta hiei lotutako bertsoreak honako hauek dira: <math display=\"inline\"><mover><mrow><mi>A</mi><mi>C</mi></mrow><mo accent=\"true\">¯</mo></mover></math> ardatza (<math display=\"inline\"><msub><mover><mi>e</mi><mo accent=\"true\">̂</mo></mover><mn>1</mn></msub></math>), <math display=\"inline\"><mover><mrow><mi>D</mi><mi>B</mi></mrow><mo accent=\"true\">¯</mo></mover></math> ardatza (<math display=\"inline\"><msub><mover><mi>e</mi><mo accent=\"true\">̂</mo></mover><mn>2</mn></msub></math>) eta bien artean perpendikularra den hirugarren bat, irudian paperaren planoarekiko perpendikularra (hartzen ari den unean romboaren planoaren berdina dela suposatuz) eta gure alderanzkoa (<math display=\"inline\"><msub><mover><mi>e</mi><mo accent=\"true\">̂</mo></mover><mn>3</mn></msub></math>). Sistemaren <math display=\"inline\"><mi>T</mi></math> energia zinetikoa forma sinpleenaren bidez adieraz dezakegu: <math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>I</mi><mn>1</mn></msub><msubsup><mi>ω</mi><mn>1</mn><mn>2</mn></msubsup><mo>+</mo><msub><mi>I</mi><mn>2</mn></msub><msubsup><mi>ω</mi><mn>2</mn><mn>2</mn></msubsup><mo>+</mo><msub><mi>I</mi><mn>3</mn></msub><msubsup><mi>ω</mi><mn>3</mn><mn>2</mn></msubsup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>I</mi><mi>e</mi></msub><msup><mi>ω</mi><mn>2</mn></msup></mrow></math>, non azpiindizedun <math display=\"inline\"><msub><mi>I</mi><mi>i</mi></msub></math> eta <math display=\"inline\"><msub><mi>ω</mi><mi>i</mi></msub></math> kantitateek, hurrenez hurren, inertzia-momentu nagusiak eta abiadura angeluarraren osagaiak adierazten baitituzte ardatz nagusietan, eta <math display=\"inline\"><msub><mi>I</mi><mi>e</mi></msub></math> romboaren inertzia-momentua baita <math display=\"inline\"><mover><mrow><mi>E</mi><mi>F</mi></mrow><mo accent=\"true\">¯</mo></mover></math> ardatzarekiko."
+     "html": "R. a. Simetriagatik, sistemaren inertzia-ardatz nagusiak eta hiei lotutako bertsoreak honako hauek dira: <math display=\"inline\"><mover><mrow><mi>A</mi><mi>C</mi></mrow><mo accent=\"true\">¯</mo></mover></math> ardatza (<math display=\"inline\"><msub><mover><mi>e</mi><mo accent=\"true\">̂</mo></mover><mn>1</mn></msub></math>), <math display=\"inline\"><mover><mrow><mi>D</mi><mi>B</mi></mrow><mo accent=\"true\">¯</mo></mover></math> ardatza (<math display=\"inline\"><msub><mover><mi>e</mi><mo accent=\"true\">̂</mo></mover><mn>2</mn></msub></math>) eta bien artean perpendikularra den hirugarren bat, irudian paperaren planoarekiko perpendikularra (hartzen ari den unean romboaren planoaren berdina dela suposatuz) eta gure alderanzkoa (<math display=\"inline\"><msub><mover><mi>e</mi><mo accent=\"true\">̂</mo></mover><mn>3</mn></msub></math>). Sistemaren <math display=\"inline\"><mi>T</mi></math> energia zinetikoa forma sinpleenaren bidez adieraz dezakegu: <span class=\"j-mat-luzea\"><math display=\"inline\"><mrow><mi>T</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"false\" form=\"prefix\">(</mo><msub><mi>I</mi><mn>1</mn></msub><msubsup><mi>ω</mi><mn>1</mn><mn>2</mn></msubsup><mo>+</mo><msub><mi>I</mi><mn>2</mn></msub><msubsup><mi>ω</mi><mn>2</mn><mn>2</mn></msubsup><mo>+</mo><msub><mi>I</mi><mn>3</mn></msub><msubsup><mi>ω</mi><mn>3</mn><mn>2</mn></msubsup><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>I</mi><mi>e</mi></msub><msup><mi>ω</mi><mn>2</mn></msup></mrow></math></span>, non azpiindizedun <math display=\"inline\"><msub><mi>I</mi><mi>i</mi></msub></math> eta <math display=\"inline\"><msub><mi>ω</mi><mi>i</mi></msub></math> kantitateek, hurrenez hurren, inertzia-momentu nagusiak eta abiadura angeluarraren osagaiak adierazten baitituzte ardatz nagusietan, eta <math display=\"inline\"><msub><mi>I</mi><mi>e</mi></msub></math> romboaren inertzia-momentua baita <math display=\"inline\"><mover><mrow><mi>E</mi><mi>F</mi></mrow><mo accent=\"true\">¯</mo></mover></math> ardatzarekiko."
     },
     {
      "mota": "testua",
@@ -3550,10 +3650,6 @@ KAPITULUAK["05mk_05solidoa"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>99Set04.</strong>"
     },
     {
@@ -3599,10 +3695,6 @@ KAPITULUAK["05mk_05solidoa"] = {
    "maila": 2,
    "izenburua": "Ebazpena (egileak ebatzita eta iruzkinduta)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"

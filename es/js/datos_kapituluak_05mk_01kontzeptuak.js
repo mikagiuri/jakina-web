@@ -111,7 +111,7 @@ KAPITULUAK["05mk_01kontzeptuak"] = {
     },
     {
      "mota": "testua",
-     "html": "<math display=\"block\"><mrow><mi>x</mi><mo>=</mo><mi mathvariant=\"bold-italic\">𝒊</mi><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝒓</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>y</mi><mo>=</mo><mi mathvariant=\"bold-italic\">𝒋</mi><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝒓</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>z</mi><mo>=</mo><mi mathvariant=\"bold-italic\">𝒌</mi><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝒓</mi><mo>,</mo></mrow></math> &lt;eq:osagaiak&gt;"
+     "html": "<math display=\"block\"><mrow><mi>x</mi><mo>=</mo><mi mathvariant=\"bold-italic\">𝒊</mi><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝒓</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>y</mi><mo>=</mo><mi mathvariant=\"bold-italic\">𝒋</mi><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝒓</mi><mo>,</mo><mspace width=\"1.0em\"></mspace><mspace width=\"1.0em\"></mspace><mi>z</mi><mo>=</mo><mi mathvariant=\"bold-italic\">𝒌</mi><mo>⋅</mo><mi mathvariant=\"bold-italic\">𝒓</mi><mo>,</mo></mrow></math> "
     },
     {
      "mota": "testua",
@@ -1675,8 +1675,54 @@ KAPITULUAK["05mk_01kontzeptuak"] = {
      "html": "Las magnitudes cinemáticas correspondientes a todo el sistema se definen sumando las de todas las partículas:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "kolektibo-taula"
+     "mota": "taula",
+     "goiburua": [
+      "<strong>Magnitudea</strong>",
+      "<strong>Partikularena</strong>",
+      "<strong>Sistema osoarena</strong>"
+     ],
+     "lerroak": [
+      [
+       "Masa:",
+       "<math display=\"inline\"><mrow><msub><mi>m</mi><mi>i</mi></msub><mo>,</mo></mrow></math>",
+       "<math display=\"inline\"><mrow><mi>M</mi><mo>≡</mo><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></msubsup><msub><mi>m</mi><mi>i</mi></msub><mi>.</mi></mrow></math>"
+      ],
+      [
+       "Masa-momentua:",
+       "<math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝒈</mi><mi>i</mi></msub><mo>=</mo><msub><mi>m</mi><mi>i</mi></msub><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>i</mi></msub><mo>,</mo></mrow></math>",
+       "<math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝑮</mi><mo>≡</mo><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></msubsup><msub><mi mathvariant=\"bold-italic\">𝒈</mi><mi>i</mi></msub><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></msubsup><msub><mi>m</mi><mi>i</mi></msub><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>i</mi></msub><mi>.</mi></mrow></math>"
+      ],
+      [
+       "Momentu lineala:",
+       "<math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝒑</mi><mi>i</mi></msub><mo>=</mo><msub><mi>m</mi><mi>i</mi></msub><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mo>,</mo></mrow></math>",
+       "<math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝑷</mi><mo>≡</mo><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></msubsup><msub><mi mathvariant=\"bold-italic\">𝒑</mi><mi>i</mi></msub><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></msubsup><msub><mi>m</mi><mi>i</mi></msub><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mi>.</mi></mrow></math>"
+      ],
+      [
+       "Indarra:",
+       "<math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mi>i</mi></msub><mo>=</mo><msub><mi>m</mi><mi>i</mi></msub><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̈</mo></mover><mi>i</mi></msub><mo>,</mo></mrow></math>",
+       "<math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝑭</mi><mo>≡</mo><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></msubsup><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mi>i</mi></msub><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></msubsup><msub><mi>m</mi><mi>i</mi></msub><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̈</mo></mover><mi>i</mi></msub><mi>.</mi></mrow></math>"
+      ],
+      [
+       "Momentu angeluarra:",
+       "<math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝑳</mi><mi>i</mi></msub><mo>=</mo><msub><mi>m</mi><mi>i</mi></msub><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>i</mi></msub><mo>×</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mo>,</mo></mrow></math>",
+       "<math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝑳</mi><mo>≡</mo><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></msubsup><msub><mi mathvariant=\"bold-italic\">𝑳</mi><mi>i</mi></msub><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></msubsup><msub><mi>m</mi><mi>i</mi></msub><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>i</mi></msub><mo>×</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mi>.</mi></mrow></math>"
+      ],
+      [
+       "Indar-momentua:",
+       "<math display=\"inline\"><mrow><msub><mi mathvariant=\"bold-italic\">𝑵</mi><mi>i</mi></msub><mo>=</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>i</mi></msub><mo>×</mo><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mi>i</mi></msub><mo>,</mo></mrow></math>",
+       "<math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">𝑵</mi><mo>≡</mo><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></msubsup><msub><mi mathvariant=\"bold-italic\">𝑵</mi><mi>i</mi></msub><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></msubsup><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>i</mi></msub><mo>×</mo><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mi>i</mi></msub><mi>.</mi></mrow></math>"
+      ],
+      [
+       "Energia zinetikoa:",
+       "<math display=\"inline\"><mrow><msub><mi>T</mi><mi>i</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>m</mi><mi>i</mi></msub><msubsup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi><mn>2</mn></msubsup><mo>,</mo></mrow></math>",
+       "<math display=\"inline\"><mrow><mi>T</mi><mo>≡</mo><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></msubsup><msub><mi>T</mi><mi>i</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></msubsup><msub><mi>m</mi><mi>i</mi></msub><msubsup><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi><mrow><mn>2</mn><mi>.</mi></mrow></msubsup></mrow></math>"
+      ],
+      [
+       "Potentzia:",
+       "<math display=\"inline\"><mrow><msub><mi mathvariant=\"script\">𝒫</mi><mi>i</mi></msub><mo>=</mo><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mi>i</mi></msub><mo>⋅</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mo>,</mo></mrow></math>",
+       "<math display=\"inline\"><mrow><mi mathvariant=\"script\">𝒫</mi><mo>≡</mo><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></msubsup><msub><mi mathvariant=\"script\">𝒫</mi><mi>i</mi></msub><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></msubsup><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mi>i</mi></msub><mo>⋅</mo><msub><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mi>.</mi></mrow></math>"
+      ]
+     ]
     },
     {
      "mota": "testua",
@@ -1744,8 +1790,29 @@ KAPITULUAK["05mk_01kontzeptuak"] = {
      "html": "Las ecuaciones de evolución colectivas del sistema se obtienen directamente teniendo en cuenta la definición de las magnitudes colectivas y las simplificaciones que aporta la tercera ley de Newton:"
     },
     {
-     "mota": "ezezaguna",
-     "izena": "kolektibo-taula"
+     "mota": "taula",
+     "goiburua": [
+      "<strong>Magnitudea</strong>",
+      "<strong>Partikularena</strong>",
+      "<strong>Sistema osoarena</strong>"
+     ],
+     "lerroak": [
+      [
+       "Momentu lineala:",
+       "<math display=\"inline\"><mrow><msub><mover><mi mathvariant=\"bold-italic\">𝒑</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mo>=</mo><msub><mi mathvariant=\"bold-italic\">𝑭</mi><mi>i</mi></msub><mo>,</mo></mrow></math>",
+       "<math display=\"inline\"><mrow><mover><mi mathvariant=\"bold-italic\">𝑷</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><msup><mi mathvariant=\"bold-italic\">𝑭</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mi>.</mi></mrow></math>"
+      ],
+      [
+       "Momentu angeluarra:",
+       "<math display=\"inline\"><mrow><msub><mover><mi mathvariant=\"bold-italic\">𝑳</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mo>=</mo><msub><mi mathvariant=\"bold-italic\">𝑵</mi><mi>i</mi></msub><mo>,</mo></mrow></math>",
+       "<math display=\"inline\"><mrow><mover><mi mathvariant=\"bold-italic\">𝑳</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><msup><mi mathvariant=\"bold-italic\">𝑵</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mi>.</mi></mrow></math>"
+      ],
+      [
+       "Energia zinetikoa:",
+       "<math display=\"inline\"><mrow><msub><mover><mi>T</mi><mo accent=\"true\">̇</mo></mover><mi>i</mi></msub><mo>=</mo><msub><mi mathvariant=\"script\">𝒫</mi><mi>i</mi></msub><mo>,</mo></mrow></math>",
+       "<math display=\"inline\"><mrow><mover><mi>T</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><msup><mi mathvariant=\"script\">𝒫</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mo>+</mo><msup><mi mathvariant=\"script\">𝒫</mi><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></msup><mi>.</mi></mrow></math>"
+      ]
+     ]
     },
     {
      "mota": "izenburua",
@@ -3680,8 +3747,8 @@ KAPITULUAK["05mk_01kontzeptuak"] = {
        "html": "Sin embargo, si se considera el sistema de partículas completo, se puede usar la ecuación de evolución (1.143). Hazlo, para deducir que la ecuación del movimiento del cuerpo es esta:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><mi mathvariant=\"bold-italic\">𝑭</mi><mo>=</mo><mi>m</mi><mover><mi mathvariant=\"bold-italic\">𝒗</mi><mo accent=\"true\">̇</mo></mover><mo>−</mo><mover><mi>m</mi><mo accent=\"true\">̇</mo></mover><mi mathvariant=\"bold-italic\">𝒖</mi><mo>,</mo></mrow></math>"
       },
       {
        "mota": "testua",
@@ -3837,12 +3904,12 @@ KAPITULUAK["05mk_01kontzeptuak"] = {
        "html": "Supongamos que los puntos <math display=\"inline\"><mi>O</mi></math> y <math display=\"inline\"><msup><mi>O</mi><mo>′</mo></msup></math> están fijos. Comprueba que las relaciones entre los momentos angulares totales respecto de esos puntos y los momentos totales de las fuerzas externas son las siguientes, si el momento lineal total es <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑷</mi></math> y la fuerza externa total <math display=\"inline\"><mi mathvariant=\"bold-italic\">𝑭</mi></math>:"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msub><mi mathvariant=\"bold-italic\">𝑳</mi><mi>O</mi></msub><mo>=</mo><msub><mi mathvariant=\"bold-italic\">𝑳</mi><msup><mi>O</mi><mo>′</mo></msup></msub><mo>+</mo><mover><mrow><msup><mi>O</mi><mo>′</mo></msup><mi>O</mi></mrow><mo accent=\"true\">→</mo></mover><mo>×</mo><mi mathvariant=\"bold-italic\">𝑷</mi><mo>,</mo></mrow></math>"
       },
       {
-       "mota": "ezezaguna",
-       "izena": "zenb-ekuazioa"
+       "mota": "testua",
+       "html": "<math display=\"block\"><mrow><msub><mi mathvariant=\"bold-italic\">𝑵</mi><mi>O</mi></msub><mo>=</mo><msub><mi mathvariant=\"bold-italic\">𝑵</mi><msup><mi>O</mi><mo>′</mo></msup></msub><mo>+</mo><mover><mrow><msup><mi>O</mi><mo>′</mo></msup><mi>O</mi></mrow><mo accent=\"true\">→</mo></mover><mo>×</mo><mi mathvariant=\"bold-italic\">𝑭</mi><mi>.</mi></mrow></math>"
       },
       {
        "mota": "testua",
@@ -4381,10 +4448,6 @@ KAPITULUAK["05mk_01kontzeptuak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>R.</strong>"
     },
     {
@@ -4553,10 +4616,6 @@ KAPITULUAK["05mk_01kontzeptuak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "<strong>R.</strong>"
     },
     {
@@ -4632,10 +4691,6 @@ KAPITULUAK["05mk_01kontzeptuak"] = {
    "blokeak": [
     {
      "mota": "testua",
-     "html": ""
-    },
-    {
-     "mota": "testua",
      "html": "Sobre una mesa horizontal lisa hay en reposo un sistema formado por dos partículas de masa <math display=\"inline\"><mi>m</mi></math>, unidas por un muelle de constante <math display=\"inline\"><mi>k</mi></math> y longitud <math display=\"inline\"><mi>l</mi></math> igual a la natural. Como se indica en la figura, sobre la partícula de la izquierda actúa otra partícula de la misma masa <math display=\"inline\"><mi>m</mi></math>, que se mueve con velocidad <math display=\"inline\"><mi>v</mi></math>. Tras la colisión, las dos partículas (proyectil y blanco) quedan unidas y el sistema empieza a moverse. Suponiendo que todo el proceso ocurre sobre la misma recta, usa los principios de conservación de la mecánica para conocer: a) la velocidad <math display=\"inline\"><mi>V</mi></math> del centro de masas del sistema, y b) la deformación máxima <math display=\"inline\"><msub><mi>x</mi><mi mathvariant=\"normal\">max</mi></msub></math> del muelle durante el movimiento."
     },
     {
@@ -4660,10 +4715,6 @@ KAPITULUAK["05mk_01kontzeptuak"] = {
    "maila": 2,
    "izenburua": "Solución (resuelta y comentada por el autor)",
    "blokeak": [
-    {
-     "mota": "testua",
-     "html": ""
-    },
     {
      "mota": "testua",
      "html": "<strong>R.</strong>"
