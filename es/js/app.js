@@ -9,7 +9,7 @@ const views = [...document.querySelectorAll(".view")];
 function activeViewId(){ const v = views.find(v => v.classList.contains("active")); return v ? v.id : null; }
 
 /* el capítulo abierto se marca en la pestaña «Kapituluak» */
-const ENTRY = { kapitulua: "kapituluak" };
+const ENTRY = { kapitulua: "kapituluak", ikasi: "kapituluak" };
 
 function show(id){
   if (!document.getElementById(id)) return;
@@ -34,6 +34,7 @@ tabs.addEventListener("click", e => {
 window.VIEW_LOADERS = {
   hasiera: "loadHasiera", kapituluak: "loadKapituluak", kapitulua: "loadKapitulua",
   ariketak: "loadEjercicios", glosarioa: "loadGlosario",
+  ikasi: "loadEstudiar"   /* (web-jakina-7) ikasteko bista */
 };
 
 function parseHash(){

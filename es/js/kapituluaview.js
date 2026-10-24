@@ -128,7 +128,7 @@ function loadKapitulua(g){
     const kat = KATALOGOA[gakoa];
     // (web-jakina-7) toggle Leer/Estudiar SOLO si el capítulo tiene datos de estudio (window.IKASGAI)
     const ikasgaiHtml = (window.IKASGAI && window.IKASGAI[gakoa])
-      ? '<div class="kap-ikasgai" role="group" aria-label="Modua"><span class="on">Leer</span><a href="#ikasi/' + gakoa + '">Estudiar</a></div>'
+      ? '<div class="kap-ikasgai" role="group" aria-label="Modo"><span class="on">Leer</span><a href="#ikasi/' + gakoa + '">Estudiar</a></div>'
       : '';
     const head = '<div class="theory-head"><span class="kick" style="color:var(--accent)">' + esc(kat.aroa ? kat.aroa + ". etapa · " + kat.maila : kat.azpititulua) +
       '</span><h1>' + esc(k.azala) + '</h1>' + ikasgaiHtml + '</div>';

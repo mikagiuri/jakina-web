@@ -15,8 +15,8 @@
 
   function loadGlobals(){
     return Promise.all([
-      fetch('datuak/glosarioa.json').then(function(r){return r.json()}).catch(function(){return {sarrerak:[]}}),
-      fetch('datuak/estudio_indizea.json').then(function(r){return r.ok?r.json():null}).catch(function(){return null})
+      fetch('datuak/glosarioa.json',{cache:'no-cache'}).then(function(r){return r.json()}).catch(function(){return {sarrerak:[]}}),
+      fetch('datuak/estudio_indizea.json',{cache:'no-cache'}).then(function(r){return r.ok?r.json():null}).catch(function(){return null})
     ]).then(function(res){
       GLOSFULL=res[0].sarrerak||[]; GLOSFULL.forEach(function(g){ GLOS[g.t.toLowerCase()]=g.def; });
       INDEX=res[1]; (INDEX&&INDEX.kapituluak||[]).forEach(function(k){ INDEXSET[k.clave]=k; });
@@ -24,7 +24,7 @@
   }
   function loadChapter(clave){
     if(CH[clave]) return Promise.resolve(CH[clave]);
-    return fetch('datuak/'+clave+'_kontzeptuak.json').then(function(r){return r.json()}).then(function(DATA){
+    return fetch('datuak/'+clave+'_kontzeptuak.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(DATA){
       var byId={}, order=[];
       (DATA.kontzeptuak||[]).forEach(function(c){ byId[c.id]=c; order.push(c.id);
         (c.terminoak||[]).forEach(function(t){ if(!GLOS[t.t.toLowerCase()]) GLOS[t.t.toLowerCase()]=t.def; }); });

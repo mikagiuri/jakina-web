@@ -1,0 +1,712 @@
+{
+ "kapitulua": "05mk_08kaosa",
+ "izenburua": "B9 · Mecánica clásica 8/10 · Caos determinista",
+ "sarrera": "<p>En mecánica clásica, incluso ecuaciones deterministas pueden dar lugar a un comportamiento imprevisible. Con el oscilador de Duffing veremos cómo se pasa de los puntos de equilibrio y los ciclos límite a los atractores extraños, mediante la sensibilidad a las condiciones iniciales y los fractales. Por último, se estudia el caos en los sistemas hamiltonianos y en la dispersión.</p>",
+ "atalak": [
+  {
+   "id": "S1",
+   "izena": "Oscilador de Duffing: equilibrios, atractores y ciclos límite"
+  },
+  {
+   "id": "S2",
+   "izena": "Secciones de Poincaré y movimiento cuasiperiódico"
+  },
+  {
+   "id": "S3",
+   "izena": "Características del caos: sensibilidad y atractores extraños"
+  },
+  {
+   "id": "S4",
+   "izena": "Fractales, dimensión fractal y transformación del panadero"
+  },
+  {
+   "id": "S5",
+   "izena": "Fronteras de cuencas fractales e imprevisibilidad"
+  },
+  {
+   "id": "S6",
+   "izena": "Caos en sistemas hamiltonianos y en la dispersión"
+  },
+  {
+   "id": "S7",
+   "izena": "Práctica"
+  }
+ ],
+ "kontzeptuak": [
+  {
+   "id": "kkao-kaos-determinista",
+   "atala": "S1",
+   "mota": "ideia",
+   "izena": "Caos determinista",
+   "ideia": "<p>Caos determinista: las ecuaciones del movimiento son totalmente exactas, pero es muy difícil predecir el resultado. A menudo no podemos resolver la ecuación y hay que recurrir a la simulación numérica.</p>",
+   "enuntziatua": "<p>En las páginas siguientes estudiaremos cómo aparece el caos determinista en la mecánica. Solo veremos algunos conceptos básicos y hay que tener en cuenta que el caos aparece no solo en la mecánica clásica sino en muchos campos de la ciencia. En la mayoría de los casos no sabemos cómo encontrar las soluciones exactas de las ecuaciones del movimiento: los casos sencillos que se estudian en los libros de texto son las principales excepciones. Por tanto, habrá que recurrir a la simulación numérica<span class=\"j-oin\">[Todos los cálculos numéricos de este tema se han hecho con el programa [49].]</span>.</p>",
+   "formula": "",
+   "azalpena": "<figure class=\"j-irudia\"><img src=\"media/irudiak/3f4643b4ee98068d.svg\" alt=\"Dispersión caótica: 1024 órbitas del problema de la figura 8.24.\" width=\"320\" loading=\"lazy\"><figcaption>Dispersión caótica: 1024 órbitas del problema de la figura 8.24.</figcaption></figure><figure class=\"j-irudia\"><img src=\"media/irudiak/190bd44aaf6c642b.svg\" alt=\"Dispositivo mecánico.\" width=\"158\" loading=\"lazy\"><figcaption>Dispositivo mecánico.</figcaption></figure>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "caos determinista",
+     "def": "<p>Movimiento irregular generado por ecuaciones deterministas, muy sensible a las condiciones iniciales y, por tanto, imprevisible a largo plazo.</p>"
+    },
+    {
+     "t": "simulación numérica",
+     "def": "<p>Integración de las ecuaciones del movimiento paso a paso con ordenador, cuando no existe solución exacta.</p>"
+    }
+   ],
+   "aurrekoak": [],
+   "ondorengoak": [
+    "kkao-duffingen-ekuazioa"
+   ],
+   "iturria": "B9.8 · a1 Caos determinista",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-duffingen-ekuazioa",
+   "atala": "S1",
+   "mota": "definizioa",
+   "izena": "Ecuación de Duffing: modelo de un dispositivo mecánico",
+   "ideia": "<p>Un alambre de hierro que oscila entre dos imanes puede modelarse con un potencial doble, rozamiento y una fuerza externa. A esa ecuación se le llama ecuación de Duffing, y un único término no lineal le da un comportamiento muy rico.</p>",
+   "enuntziatua": "<p>Ahora, teniendo en cuenta el rozamiento proporcional a la velocidad y la fuerza externa armónica, esta es la ecuación del movimiento completa que estudiaremos, la llamada <strong>ecuación de Duffing</strong>: <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>+</mo><mn>2</mn><mi>γ</mi><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>−</mo><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>f</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi><mi>.</mi></mrow></math> Podríamos pensar que esta ecuación es demasiado simple, y en apariencia no nos resulta tan extraña, pues, quitando un signo y el término cúbico, es el oscilador armónico forzado habitual. Pero, como veremos, la aparición de ese término no lineal trae consecuencias dinámicas asombrosas y esta ecuación es muy rica desde el punto de vista dinámico.</p>",
+   "formula": "",
+   "azalpena": "<p>El alambre de hierro de la figura sufre la atracción de dos imanes y también el rozamiento producido por el aire. Más adelante se aplicará una fuerza externa armónica <math display=\"inline\"><mi>F</mi></math> en el soporte en el que están colocados el alambre y los imanes.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/1e7cea7f6b1825bb.svg\" alt=\"Modelo del dispositivo mecánico.\" width=\"170\" loading=\"lazy\"><figcaption>Modelo del dispositivo mecánico.</figcaption></figure><p>Como es evidente, cuando <math display=\"inline\"><mrow><mi>F</mi><mo>=</mo><mn>0</mn></mrow></math> este sistema tendrá dos posiciones de equilibrio estables, justo cuando el extremo libre del alambre de hierro está junto a cada imán. (En casos así se dice que tenemos <strong>biestabilidad</strong>.) Además, como consecuencia de la simetría, el alambre puede estar en reposo en la posición vertical, aunque este estado sea inestable. Para estudiar estos puntos de equilibrio y para hacer el modelo matemático de este sistema, podemos valernos de un potencial que tiene un máximo entre dos mínimos, si despreciamos por ahora el rozamiento, al menos. La opción más sencilla es este potencial<span class=\"j-oin\">[En este tema usamos variables adimensionales, incluida la masa <math display=\"inline\"><mrow><mi>m</mi><mo>=</mo><mn>1</mn></mrow></math>.]</span>: <math display=\"block\"><mrow><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>−</mi><mfrac><mn>1</mn><mn>4</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math></p><figure class=\"j-irudia\"><img src=\"media/irudiak/99a013bbea815aef.svg\" alt=\"Espacio de fases y algunas soluciones en el caso γ=f=0.\" width=\"472\" loading=\"lazy\"><figcaption>Espacio de fases y algunas soluciones en el caso <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mi>f</mi><mo>=</mo><mn>0</mn></mrow></math>.</figcaption></figure>",
+   "frogapena": "",
+   "adibideak": [
+    "<p><em>Demuestra que, cuando el rozamiento es despreciable, si la fuerza externa cumple la condición que hay que encontrar,\nla ecuación de Duffing <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mi>ω</mi><mn>3</mn></mfrac><mi>t</mi></mrow></math> admite una solución periódica exacta.</em></p><p>Si en la ecuación de Duffing <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>−</mo><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>f</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mi>ω</mi><mi>t</mi></mrow></math> probamos <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mi>A</mi><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mi>ω</mi><mn>3</mn></mfrac><mi>t</mi></mrow></math>, nos queda <math display=\"block\"><mrow><mfrac><mn>1</mn><mn>18</mn></mfrac><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>9</mn><msup><mi>A</mi><mn>3</mn></msup><mo>+</mo><mn>18</mn><mi>f</mi><mo>−</mo><mn>2</mn><mi>A</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>9</mn><mo>+</mo><msup><mi>ω</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mn>9</mn><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>A</mi><mn>3</mn></msup><mo>−</mo><mn>4</mn><mi>f</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi mathvariant=\"normal\">cos</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>ω</mi><mi>t</mi><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mi>ω</mi><mn>3</mn></mfrac><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>. Está claro que para que esa ecuación se cumpla en todos los instantes <math display=\"inline\"><mi>t</mi></math> hay que elegir <math display=\"inline\"><mrow><mi>A</mi><mo>=</mo><mroot><mrow><mn>4</mn><mi>f</mi></mrow><mn>3</mn></mroot></mrow></math>. Haciéndolo, nos queda la condición <math display=\"block\"><mrow><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>3</mn><mi>f</mi><mo>−</mo><mroot><mrow><mn>4</mn><mi>f</mi></mrow><mn>3</mn></mroot><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>+</mo><mfrac><msup><mi>ω</mi><mn>2</mn></msup><mn>9</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mrow><mi mathvariant=\"normal\">cos</mi><mo>&#8289;</mo></mrow><mfrac><mi>ω</mi><mn>3</mn></mfrac><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>. Para admitir una solución periódica especial, por tanto, debe cumplirse la relación <math display=\"block\"><mrow><mi>ω</mi><mo>=</mo><mn>3</mn><msqrt><mrow><mn>3</mn><msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mfrac><mi>f</mi><mn>2</mn></mfrac><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mrow><mn>2</mn><mi>/</mi><mn>3</mn></mrow></msup><mo>−</mo><mn>1</mn></mrow></msqrt></mrow></math>.</p>"
+   ],
+   "ariketak": [
+    {
+     "e": "<p>Demuestra que la ecuación del movimiento es esta: <math display=\"block\"><mrow><mover><mi>x</mi><mo accent=\"true\">̈</mo></mover><mo>=</mo><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mi>.</mi></mrow></math></p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "ecuación de Duffing",
+     "def": "<p>Oscilador no lineal forzado y amortiguado: ẍ + 2γẋ − x(1 − x²) = f cos ωt. Es el modelo principal para estudiar el caos.</p>"
+    },
+    {
+     "t": "biestabilidad",
+     "def": "<p>Lo que ocurre cuando el sistema tiene dos posiciones de equilibrio estables (aquí, junto a cada uno de los dos imanes).</p>"
+    },
+    {
+     "t": "potencial doble",
+     "def": "<p>Energía potencial con dos mínimos y un máximo; aquí V(x) = −x²(2 − x²)/4.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-kaos-determinista"
+   ],
+   "ondorengoak": [
+    "kkao-oreka-puntuak-orbita-periodikoak",
+    "kkao-hastapen-baldintzekiko-sentikortasuna"
+   ],
+   "iturria": "B9.8 · a2 Modelo matemático simplificado de un dispositivo mecánico; a13 Problemas resueltos (solución periódica exacta)",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-oreka-puntuak-orbita-periodikoak",
+   "atala": "S1",
+   "mota": "definizioa",
+   "izena": "Puntos de equilibrio y oscilaciones periódicas",
+   "ideia": "<p>Sin rozamiento ni fuerza externa, la energía no cambia. Los dos mínimos del potencial son equilibrios estables (centros), el máximo es inestable (punto de silla) y la mayoría de las trayectorias son cerradas.</p>",
+   "enuntziatua": "<p>Como los puntos <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> y <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> corresponden a los mínimos del potencial, son puntos de equilibrio estables, y las trayectorias que empiezan junto a uno de ellos siempre están en torno al punto; no se alejan de él ni van al punto. Aunque el equilibrio es estable, no es asintóticamente estable, y a esos puntos se les llama <strong>centros</strong>, por la forma de las trayectorias en torno a ellos.</p><p>En el caso del máximo del potencial, tenemos el punto de equilibrio <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> inestable y (teniendo en cuenta lo que le ocurre a una bolita dejada en el centro de una silla de montar) decimos que es un <strong>punto de silla</strong>.</p>",
+   "formula": "",
+   "azalpena": "<p>Para empezar, si admitimos que el rozamiento y la fuerza externa son nulos, el sistema será conservativo y la siguiente expresión, que indica que la energía mecánica es una constante del movimiento, es la ecuación de las trayectorias de fase: <math display=\"block\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mn>2</mn></msup><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>2</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>=</mo><mi>E</mi><mi>.</mi></mrow></math></p><p>La mayoría de las trayectorias son cerradas y, por tanto, corresponden a oscilaciones periódicas. Si la energía es negativa, el sistema oscila en torno a un centro, como se ve en las órbitas verdes. En el caso de energía positiva, el sistema es capaz de pasar por encima del máximo y las órbitas rodean los dos centros.</p><p>Como este sistema tiene un solo grado de libertad, las condiciones iniciales serán la posición y la velocidad en un instante. Por tanto, cada punto del espacio de fases corresponde a un conjunto de condiciones iniciales y a una solución: por cada punto pasa una solución y solo una en el instante <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>.</p><p>Con las excepciones señaladas, la mayoría de las órbitas son oscilaciones periódicas y su período depende de la amplitud. Este es uno de los movimientos más sencillos, pero bastante especial, pues el menor rozamiento lo destruye.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/b6ba1310df36f4de.svg\" alt=\"Espacio de fases y algunas soluciones en el caso γ=0.1, f=0.\" width=\"472\" loading=\"lazy\"><figcaption>Espacio de fases y algunas soluciones en el caso <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0.1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0</mn></mrow></math>.</figcaption></figure>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Comprueba que el espacio de fases de este sistema es el de la figura 8.4.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>¿Cómo son (en este caso particular) las trayectorias correspondientes al caso de energía nula? ¿Cuántas son? (A las órbitas que, empezando en un punto de equilibrio, vuelven a él se las llama <strong>homoclínicas</strong>.)</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "centro",
+     "def": "<p>Equilibrio estable (pero no asintóticamente estable), con las trayectorias vecinas cerradas alrededor del punto.</p>"
+    },
+    {
+     "t": "punto de silla",
+     "def": "<p>Equilibrio inestable, correspondiente al máximo del potencial; como una bolita dejada en el centro de una silla de montar.</p>"
+    },
+    {
+     "t": "órbita homoclínica",
+     "def": "<p>Órbita que parte de un punto de equilibrio y vuelve a él.</p>"
+    },
+    {
+     "t": "trayectoria de fases",
+     "def": "<p>Curva que el sistema dibuja en el plano posición-velocidad; aquí es una curva de energía constante.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-duffingen-ekuazioa"
+   ],
+   "ondorengoak": [
+    "kkao-erakarleak-eta-arroak"
+   ],
+   "iturria": "B9.8 · a3 Oscilaciones periódicas",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-erakarleak-eta-arroak",
+   "atala": "S1",
+   "mota": "definizioa",
+   "izena": "Oscilaciones amortiguadas: atractores y cuencas",
+   "ideia": "<p>El rozamiento debilita las oscilaciones y el sistema acaba en uno de los dos mínimos: son los atractores. Cada condición inicial va a un atractor, y el conjunto de las que van a cada uno es su cuenca.</p>",
+   "enuntziatua": "<p>Pero son mucho más interesantes las dos órbitas que van al punto <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, que forman la <strong>variedad estable</strong>. Como se ve claramente en la figura 8.6, no van a un atractor y, por tanto, separan las órbitas que tienden a focos diferentes. Por eso decimos que estas órbitas forman la <strong>separatriz</strong>. El lugar geométrico de los puntos de fase correspondientes a las soluciones que van a un atractor es la <strong>cuenca</strong> del atractor y la separatriz separa las cuencas de atractores diferentes: es la <strong>frontera de las cuencas</strong>.</p>",
+   "formula": "",
+   "azalpena": "<p>Si ahora tenemos en cuenta el rozamiento, la energía mecánica y la amplitud de las oscilaciones irán disminuyendo y casi todas las órbitas tenderán a un mínimo de la energía potencial. En consecuencia, los puntos <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> y <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> serán ahora asintóticamente estables, pues las órbitas de su entorno tienden a acercarse a ellos. Teniendo en cuenta el aspecto geométrico de esas órbitas, se dice que los puntos de equilibrio son <strong>focos</strong> (en el caso sobreamortiguado son <strong>nodos</strong> : véase [46]) y, como atraen a las órbitas de su entorno, se les llama <strong>atractores</strong>.</p><p>Como vemos en la figura 8.5, el origen <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> es de nuevo un punto de silla, pero las órbitas que surgen de él son ahora muy diferentes. Dos de ellas tienden a los focos. Estas órbitas forman la <em>variedad inestable</em> del punto de equilibrio.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/5daa29064ea6692a.svg\" alt=\"Cuencas de atracción en el caso γ=0.1, f=0.\" width=\"266\" loading=\"lazy\"><figcaption>Cuencas de atracción en el caso <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0.1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0</mn></mrow></math>.</figcaption></figure>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "atractor",
+     "def": "<p>Punto de equilibrio (o, en general, conjunto) que atrae a las órbitas de su entorno; es asintóticamente estable.</p>"
+    },
+    {
+     "t": "foco y nodo",
+     "def": "<p>Aspecto geométrico de los atractores puntuales: los focos, en espiral; los nodos (en el caso sobreamortiguado), sin espiral.</p>"
+    },
+    {
+     "t": "cuenca",
+     "def": "<p>Conjunto de los puntos de fase correspondientes a las soluciones que van a un atractor.</p>"
+    },
+    {
+     "t": "separatriz (frontera de las cuencas)",
+     "def": "<p>Curva que separa las cuencas de atractores diferentes; está formada por las órbitas que van al punto de silla.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-oreka-puntuak-orbita-periodikoak"
+   ],
+   "ondorengoak": [
+    "kkao-ziklo-limiteak",
+    "kkao-arro-muga-fraktalak"
+   ],
+   "iturria": "B9.8 · a4 Oscilaciones amortiguadas",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-ziklo-limiteak",
+   "atala": "S1",
+   "mota": "definizioa",
+   "izena": "Oscilaciones aisladas: ciclos límite",
+   "ideia": "<p>Con fuerza externa no hay puntos de equilibrio, pero el sistema llega a una única órbita periódica. Esa órbita es un atractor: el ciclo límite.</p>",
+   "enuntziatua": "<p>Si hay fuerza externa, los puntos de equilibrio son imposibles, pues las constantes no cumplen la ecuación del movimiento (8.3). Pueden aparecer soluciones periódicas; pero a diferencia del caso conservativo, no formarán un conjunto infinito de órbitas de períodos que cambian continuamente con la amplitud. Ahora tenemos un período principal: justo el de la fuerza externa. En el caso de las oscilaciones lineales, tenemos una única órbita periódica con el período de la fuerza externa y, además, es un atractor, pues todas las demás órbitas tienden a esa solución periódica aislada tras un intervalo transitorio. A las órbitas periódicas aisladas se las llama <strong>ciclos límite</strong>.</p>",
+   "formula": "",
+   "azalpena": "<figure class=\"j-irudia\"><img src=\"media/irudiak/2d63ebee94e3d268.svg\" alt=\"Ecuación de Duffing en el caso γ=0.1, f=0.23.\" width=\"472\" loading=\"lazy\"><figcaption>Ecuación de Duffing en el caso <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0.1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0.23</mn></mrow></math>.</figcaption></figure><p>Si en la ecuación de Duffing elegimos el valor <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0.23</mn></mrow></math>, veremos una evolución semejante en este caso no lineal. En lugar de los dos atractores puntuales que han desaparecido hay dos ciclos límite, y son asintóticamente estables, atractores.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "ciclo límite",
+     "def": "<p>Órbita periódica aislada; todas las órbitas de su entorno tienden a ella tras un intervalo transitorio.</p>"
+    },
+    {
+     "t": "comportamiento transitorio",
+     "def": "<p>Intervalo de tiempo previo a la llegada al atractor, en el que el sistema aún no ha adoptado su forma.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-erakarleak-eta-arroak"
+   ],
+   "ondorengoak": [
+    "kkao-poincareren-sekzioa",
+    "kkao-hastapen-baldintzekiko-sentikortasuna"
+   ],
+   "iturria": "B9.8 · a5 Oscilaciones aisladas",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-poincareren-sekzioa",
+   "atala": "S2",
+   "mota": "definizioa",
+   "izena": "Sección de Poincaré y toro",
+   "ideia": "<p>Cuando una órbita es difícil de dibujar en tres dimensiones, se dibujan solo los puntos en que corta una superficie determinada. Así se obtiene una figura de dos dimensiones: la sección de Poincaré.</p>",
+   "enuntziatua": "<p>Para hacer lo mismo existe otra opción, llamada <strong>sección de Poincaré</strong>. En este último método se dibujan los puntos de intersección entre la solución y una superficie determinada.</p>",
+   "formula": "",
+   "azalpena": "<p>Los atractores que hemos estudiado hasta ahora han sido puntos adimensionales o curvas de una dimensión; pero pueden encontrarse atractores de todas las dimensiones. Por ejemplo, en el ejemplo de la figura 8.8 se ve una parte de una órbita del sistema <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mi>x</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>+</mo><mi>z</mi><mo>+</mo><mi>d</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>z</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>−</mo><mi>c</mi><mi>y</mi><mo>,</mo></mtd></mtr></mtable></math> <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mi>y</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>+</mo><mi>z</mi><mo>+</mo><mi>d</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mn>1</mn><mo>−</mo><msup><mi>z</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow><mo>+</mo><mi>c</mi><mi>x</mi><mo>,</mo></mtd></mtr></mtable></math> <math display=\"block\"><mtable><mtr><mtd columnalign=\"right\" style=\"text-align: right; padding-right: 0\"><mover><mi>z</mi><mo accent=\"true\">̇</mo></mover></mtd><mtd columnalign=\"left\" style=\"text-align: left; padding-left: 0\"><mo>=</mo><mi>a</mi><mi>z</mi><mo>−</mo><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><msup><mi>z</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mtd></mtr></mtable></math>, para los valores <math display=\"inline\"><mrow><mi>a</mi><mo>=</mo><mn>2.01</mn></mrow></math>, <math display=\"inline\"><mrow><mi>b</mi><mo>=</mo><mn>3</mn></mrow></math>, <math display=\"inline\"><mrow><mi>c</mi><mo>=</mo><mn>0.25</mn></mrow></math> y <math display=\"inline\"><mrow><mi>d</mi><mo>=</mo><mn>0.2</mn></mrow></math>. Las proyecciones obtenidas en las direcciones de los ejes <math display=\"inline\"><mi>y</mi></math>, <math display=\"inline\"><mi>x</mi></math> y <math display=\"inline\"><mi>z</mi></math> se ven en las partes (a), (b) y (c) de la figura, respectivamente. La correspondiente a la dirección de la bisectriz del primer octante se muestra, en cambio, en (d). En los casos mencionados, mediante las proyecciones se obtienen representaciones de las soluciones del sistema dinámico de tres dimensiones en el plano de dos dimensiones. Para hacer lo mismo hay otra posibilidad, la llamada <strong>sección de Poincaré</strong>. En este último método se dibujan los puntos de intersección entre la solución y una superficie determinada. En la parte (e) de la figura, por ejemplo, se ha dibujado el punto definido por las coordenadas <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>z</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> correspondientes a cada vez que la solución está en el plano <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>. En cualquier caso, estudiando atentamente la figura 8.8, se ve que, tras el comportamiento transitorio, la órbita se enrolla en una superficie cerrada de dos dimensiones. La forma geométrica de este atractor se conoce en topología con el nombre de <strong>toro</strong>, y la intersección del toro y el plano <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> son dos circunferencias (son circunferencias topológicas, que se pueden obtener deformando circunferencias ordinarias, pero sin romperlas). En la órbita de la figura se ha eliminado el comportamiento transitorio inicial, con la intención de que pueda pensarse que ha pasado el tiempo suficiente para estar muy cerca del atractor y, desde el punto de vista práctico, dentro del atractor. Si, tras cambiar las condiciones iniciales, se espera de nuevo a que pase el comportamiento transitorio, la órbita que se obtiene es equivalente desde el punto de vista cualitativo: no es igual, pero se enrolla de forma parecida en la misma superficie. El atractor es la superficie del toro.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/dfcf77c9e7796a76.svg\" alt=\"Proyecciones y sección de Poincaré.\" width=\"165\" loading=\"lazy\"><figcaption>Proyecciones y sección de Poincaré.</figcaption></figure>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "sección de Poincaré",
+     "def": "<p>Conjunto de los puntos de intersección entre la solución y una superficie determinada; reduce la dimensión.</p>"
+    },
+    {
+     "t": "toro",
+     "def": "<p>Superficie producto de dos circunferencias; forma geométrica de los atractores de dos períodos.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-ziklo-limiteak"
+   ],
+   "ondorengoak": [
+    "kkao-higidura-kuasiperiodikoa",
+    "kkao-erakarle-bitxiak",
+    "kkao-kaos-hamiltondarra"
+   ],
+   "iturria": "B9.8 · a6 Atractores y secciones de Poincaré",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-higidura-kuasiperiodikoa",
+   "atala": "S2",
+   "mota": "definizioa",
+   "izena": "Movimiento cuasiperiódico y número de períodos",
+   "ideia": "<p>Cuando hay dos períodos sobre un toro, si son conmensurables el movimiento es periódico; si no, nunca se repite (cuasiperiódico). Aun así, el caos no es consecuencia de muchos períodos: basta la no linealidad.</p>",
+   "enuntziatua": "<p>Tras un intervalo de tiempo corto, todas las órbitas están en la superficie del toro desde el punto de vista práctico. En el caso de un atractor así de dos dimensiones tenemos dos períodos: el valor medio necesario para dar una vuelta en torno a cada una de las dos secciones principales del toro define un período. Si esos dos períodos son conmensurables (es decir, si siendo los períodos <math display=\"inline\"><mi>T</mi></math> y <math display=\"inline\"><msup><mi>T</mi><mo>′</mo></msup></math> la ecuación <math display=\"inline\"><mrow><mi>n</mi><mi>T</mi><mo>+</mo><msup><mi>n</mi><mo>′</mo></msup><msup><mi>T</mi><mo>′</mo></msup><mo>=</mo><mn>0</mn></mrow></math> tiene soluciones enteras no nulas para los valores <math display=\"inline\"><mi>n</mi></math> y <math display=\"inline\"><msup><mi>n</mi><mo>′</mo></msup></math>) el movimiento permanente es periódico y la órbita será una curva cerrada en la superficie del toro. Pero casi siempre no ocurrirá así y el movimiento será <strong>cuasiperiódico</strong> (o, más precisamente, <strong>biperiódico</strong>). La órbita llenará la superficie del toro y el movimiento no se repetirá nunca; aun así, esencialmente tenemos dos períodos y el movimiento permanente es bastante sencillo.</p>",
+   "formula": "",
+   "azalpena": "<p>Si la dimensión del atractor es <math display=\"inline\"><mi>n</mi></math>, en el caso general tendremos <math display=\"inline\"><mi>n</mi></math> períodos. El físico Landau creyó que esto podía ser la explicación de la turbulencia que se observa en los fluidos: si hubiera un atractor de dimensión grande, el movimiento cuasiperiódico tendría muchos períodos y lo consideraríamos caótico. Hoy sabemos que para que haya caos no es necesario que haya muchos períodos (y dimensiones). Puede bastar con que el sistema dinámico sea no lineal.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "movimiento cuasiperiódico (biperiódico)",
+     "def": "<p>Movimiento con dos períodos inconmensurables: la órbita llena la superficie del toro y nunca se repite.</p>"
+    },
+    {
+     "t": "períodos conmensurables",
+     "def": "<p>Los períodos T y T′ son conmensurables si la ecuación nT + n′T′ = 0 tiene soluciones enteras n y n′ no nulas.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-poincareren-sekzioa"
+   ],
+   "ondorengoak": [],
+   "iturria": "B9.8 · a6 Atractores y secciones de Poincaré",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-hastapen-baldintzekiko-sentikortasuna",
+   "atala": "S3",
+   "mota": "definizioa",
+   "izena": "Dependencia sensible de las condiciones iniciales",
+   "ideia": "<p>Dos órbitas casi iguales al principio se separan exponencialmente con el tiempo. Esa es la característica principal del caos, y se la llama efecto mariposa de Lorenz.</p>",
+   "enuntziatua": "<p>Como vemos, los pequeños cambios en las condiciones iniciales pueden tener consecuencias asombrosas: la distancia entre órbitas que al principio estaban muy próximas aumenta de forma exponencial y tras pasar un intervalo de tiempo las dos soluciones son totalmente diferentes. Hay que decir que este fenómeno no es consecuencia de la naturaleza aproximada del método numérico usado, aunque esa naturaleza influya en la precisión de la solución obtenida. Esta <strong>dependencia sensible de las condiciones iniciales</strong> proviene de la naturaleza no lineal de la ecuación del movimiento y es la característica principal del caos determinista. El meteorólogo Lorenz, pionero de este campo de la ciencia, ha dado a este fenómeno el nombre de <strong>efecto mariposa</strong>, pues la perturbación producida por las alas de una mariposa podría, tras pasar un intervalo de tiempo adecuado, estropear las predicciones meteorológicas más finas.</p>",
+   "formula": "",
+   "azalpena": "<p>Al aumentar la amplitud de la fuerza externa, la naturaleza de la evolución cambia por completo: las órbitas periódicas desaparecen (eso parece, al menos) y las soluciones oscilan continuamente pero no se nota ninguna regularidad.</p><p>Para estudiar la falta de regularidad desde otro punto de vista, veamos qué ocurre si se modifican un poco las condiciones iniciales. En la figura 8.10 se han dibujado las órbitas correspondientes a las condiciones iniciales <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0.4</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> y <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>0.40001</mn><mo>,</mo><mn>0</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/e7f11e1c65b2dda1.svg\" alt=\"Ecuación de Duffing en el caso γ=0.1, f=0.3.\" width=\"472\" loading=\"lazy\"><figcaption>Ecuación de Duffing en el caso <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0.1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0.3</mn></mrow></math>.</figcaption></figure><figure class=\"j-irudia\"><img src=\"media/irudiak/8118fd8c8d29ede1.svg\" alt=\"Dos órbitas muy próximas al principio en el caso γ=0.1, f=0.3.\" width=\"280\" loading=\"lazy\"><figcaption>Dos órbitas muy próximas al principio en el caso <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0.1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0.3</mn></mrow></math>.</figcaption></figure><p>Al medir las condiciones iniciales que se dan en la naturaleza se cometen, necesariamente, errores. Aunque la evolución sea totalmente determinista, desde el punto de vista matemático una solución que en principio se puede calcular con total precisión puede tener poco interés práctico, si los errores cometidos en las condiciones iniciales van aumentando de forma exponencial. La naturaleza caótica de algunas ecuaciones de evolución no lineales puede poner obstáculos prácticos enormes al determinismo de Laplace. Como mencionó otro pionero (Poincaré), consideramos los dados como fuente del azar, aunque sus ecuaciones de evolución, las de la mecánica clásica, sean totalmente deterministas. Hay que subrayar aquí que, a diferencia de la física cuántica, lo que impide predecir no es la teoría física, sino la naturaleza matemática de las ecuaciones y los errores que inevitablemente se cometen en las condiciones iniciales y en los métodos aproximados que hay que usar para resolverlas.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "dependencia sensible de las condiciones iniciales",
+     "def": "<p>Aumento exponencial de la distancia entre órbitas muy próximas al principio; procede de la naturaleza de las ecuaciones no lineales, no de un error numérico.</p>"
+    },
+    {
+     "t": "efecto mariposa",
+     "def": "<p>Nombre que dio Lorenz a esa sensibilidad: las alas de una mariposa podrían estropear la predicción del tiempo.</p>"
+    },
+    {
+     "t": "determinismo (Laplace)",
+     "def": "<p>Idea de calcular todo el futuro conociendo con exactitud las condiciones iniciales; el caos le pone obstáculos prácticos.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-ziklo-limiteak",
+    "kkao-duffingen-ekuazioa"
+   ],
+   "ondorengoak": [
+    "kkao-erakarle-bitxiak",
+    "kkao-okinaren-transformazioa"
+   ],
+   "iturria": "B9.8 · a7 Oscilaciones caóticas",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-erakarle-bitxiak",
+   "atala": "S3",
+   "mota": "definizioa",
+   "izena": "Atractores extraños",
+   "ideia": "<p>Todas las órbitas caóticas tienden a una pequeña región del espacio de fases, pero no son regulares. Cada vez que ampliamos la sección aparecen capas nuevas: a un atractor así se le llama atractor extraño.</p>",
+   "enuntziatua": "<p>Podemos considerar periódica la dimensión temporal, pues solo aparece en un coseno, que es periódico. Por tanto, la opción más sencilla es usar la sección estroboscópica con el mismo período. En lugar de estudiar las órbitas completas, en la figura 8.11 se han dibujado la posición y la velocidad en los instantes <math display=\"block\"><mrow><mi>t</mi><mo>=</mo><msub><mi>t</mi><mn>0</mn></msub><mo>+</mo><mi>n</mi><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mi>ω</mi></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>n</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mi>…</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Viendo esto podríamos pensar que la sección la forman algunas líneas curvas, pero si ampliamos el rectángulo de arriba se obtienen las secciones 8.12. Como vemos, esas líneas están formadas por otras líneas y estas últimas tampoco son simples. En todas las escalas se repite lo mismo: cada vez aparece más estructura, como consecuencia de la <strong>autosemejanza</strong> geométrica del atractor. Parece que está formado por infinitas capas.</p>",
+   "formula": "",
+   "azalpena": "<p>En el ejemplo anterior las órbitas no mostraban ninguna regularidad, pero sí una propiedad común: tras un breve intervalo transitorio, todas las órbitas están en una parte bastante pequeña del espacio de fases. Parece que estamos ante un atractor no periódico, pues todas las órbitas tienden hacia él. Como en la ecuación de Duffing el tiempo aparece explícitamente (es decir, no es <strong>autónoma</strong>), el verdadero espacio de las condiciones iniciales (el espacio de fases de los matemáticos) es de tres dimensiones, pues para determinar una órbita, además de la posición y la velocidad iniciales, hay que elegir el instante inicial. Para estudiar los atractores que pueden aparecer en ese espacio de fases nos valdremos de las secciones de Poincaré, para hacer las figuras de dos dimensiones.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/c383b81c13b1013f.svg\" alt=\"Sección estroboscópica del atractor de Duffing en el caso tmod&amp;#8289;2π=0.\" width=\"262\" loading=\"lazy\"><figcaption>Sección estroboscópica del atractor de Duffing en el caso <math display=\"inline\"><mrow><mi>t</mi><mrow><mi mathvariant=\"normal\">mod</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>π</mi><mo>=</mo><mn>0</mn></mrow></math>.</figcaption></figure><figure class=\"j-irudia\"><img src=\"media/irudiak/f67ba93ea1013605.svg\" alt=\"Dos ampliaciones de la sección estroboscópica del atractor de Duffing.\" width=\"312\" loading=\"lazy\"><figcaption>Dos ampliaciones de la sección estroboscópica del atractor de Duffing.</figcaption></figure>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "atractor extraño",
+     "def": "<p>Atractor no periódico, autosemejante y formado por infinitas capas; las órbitas caóticas tienden a él.</p>"
+    },
+    {
+     "t": "sección estroboscópica",
+     "def": "<p>Sección de Poincaré que se obtiene dibujando la posición y la velocidad en los instantes múltiplos del período de la fuerza externa (t = t₀ + 2πn/ω).</p>"
+    },
+    {
+     "t": "autosemejanza",
+     "def": "<p>Que una parte del objeto sea semejante al todo, a todas las escalas.</p>"
+    },
+    {
+     "t": "sistema autónomo",
+     "def": "<p>Sistema cuya ecuación no contiene explícitamente el tiempo; el de Duffing no es autónomo.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-poincareren-sekzioa",
+    "kkao-hastapen-baldintzekiko-sentikortasuna"
+   ],
+   "ondorengoak": [
+    "kkao-fraktal-autoantzekoak",
+    "kkao-okinaren-transformazioa"
+   ],
+   "iturria": "B9.8 · a7 Oscilaciones caóticas (atractores extraños)",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-fraktal-autoantzekoak",
+   "atala": "S4",
+   "mota": "definizioa",
+   "izena": "Fractales: el conjunto de Cantor y la curva de von Koch",
+   "ideia": "<p>Un fractal es un objeto que se parece a sí mismo a todas las escalas. El conjunto de Cantor y la curva de von Koch no tienen dimensión entera, por lo que son fractales.</p>",
+   "enuntziatua": "<p>Pero tiene también otras propiedades asombrosas que no son tan sencillas. Por ejemplo, carece de longitud y su dimensión es <math display=\"inline\"><mrow><mn>0</mn><mo>&lt;</mo><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>2</mn><mi>/</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>3</mn><mo>&lt;</mo><mn>1</mn></mrow></math>. Como la dimensión no es entera, se dice que es un <strong>fractal</strong>.</p>",
+   "formula": "",
+   "azalpena": "<p>Los objetos autosemejantes se conocen en matemáticas desde el siglo XIX. Por ejemplo, de manera muy simple se define <strong>el conjunto de Cantor</strong>: si se divide un segmento en tres partes iguales, se elimina la del medio, y este proceso se repite una y otra vez en cada paso con todos los segmentos que quedan. Está claro que en el conjunto que se obtiene en el límite hay infinitos puntos (¡en realidad, tantos como había en el segmento inicial!).</p><figure class=\"j-irudia\"><img src=\"media/irudiak/3abd54e7479bab9a.svg\" alt=\"Construcción del conjunto de Cantor.\" width=\"258\" loading=\"lazy\"><figcaption>Construcción del conjunto de Cantor.</figcaption></figure><p>Otro ejemplo famoso, el <strong>copo de nieve de von Koch</strong>, se construye así: cada lado de un triángulo se divide en tres partes y la central se sustituye por los dos segmentos que forman con ella un triángulo equilátero, y este proceso se repite con todos los segmentos que quedan.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/6bf44e10c1916068.svg\" alt=\"Construcción del copo de nieve de von Koch.\" width=\"556\" loading=\"lazy\"><figcaption>Construcción del copo de nieve de von Koch.</figcaption></figure><p>Además, esa curva no admite tangente en ningún punto: aunque es continua no es diferenciable.</p><p>En el caso de estos ejemplos geométricos la autosemejanza es exacta; en los fractales que aparecen en la naturaleza, en cambio, la autosemejanza suele ser aproximada.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Demuestra que la longitud del conjunto de Cantor es nula.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>Demuestra que la longitud de la curva de von Koch es infinita y que el área que encierra es finita.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "fractal",
+     "def": "<p>Objeto geométrico de dimensión no entera, normalmente autosemejante.</p>"
+    },
+    {
+     "t": "conjunto de Cantor",
+     "def": "<p>Conjunto que se obtiene dividiendo un segmento en tres partes, eliminando la central y repitiendo el proceso infinitas veces; tiene longitud nula.</p>"
+    },
+    {
+     "t": "copo de nieve de von Koch",
+     "def": "<p>Curva que se construye sustituyendo, en cada lado de un triángulo, el tercio central por otros dos segmentos (formando un triángulo equilátero); es continua, pero no diferenciable en ningún punto.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-erakarle-bitxiak"
+   ],
+   "ondorengoak": [
+    "kkao-dimentsio-fraktala",
+    "kkao-okinaren-transformazioa",
+    "kkao-praktika-problemak"
+   ],
+   "iturria": "B9.8 · a8 Fractales",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-dimentsio-fraktala",
+   "atala": "S4",
+   "mota": "definizioa",
+   "izena": "Dimensión fractal (capacidad)",
+   "ideia": "<p>Para medir la dimensión fractal, contamos cuántas bolas de diámetro d hacen falta para recubrir el objeto y vemos cómo crece N al disminuir d. El segmento vale 1, el cuadrado 2 y la curva de von Koch ln4/ln3 ≈ 1,26.</p>",
+   "enuntziatua": "<p><strong>Dimensión fractal</strong></p><p>Para medir cuantitativamente la complejidad de los fractales puede usarse la dimensión fractal. Hay muchas definiciones de dimensión, pero aquí elegiremos la más sencilla de ellas, la <strong>capacidad</strong>. Para cubrir un segmento de longitud <math display=\"inline\"><mi>l</mi></math> necesitamos un solo círculo de diámetro <math display=\"inline\"><mrow><mi>d</mi><mo>=</mo><mi>l</mi></mrow></math>, <math display=\"inline\"><mrow><mi>N</mi><mo>=</mo><mn>2</mn></mrow></math> círculos de diámetro <math display=\"inline\"><mrow><mi>d</mi><mo>=</mo><mi>l</mi><mi>/</mi><mn>2</mn></mrow></math>, y <math display=\"inline\"><mrow><mi>N</mi><mo>=</mo><mi>l</mi><mi>/</mi><mi>d</mi></mrow></math> círculos de diámetro <math display=\"inline\"><mi>d</mi></math>. Recordando que la dimensión del segmento es <math display=\"inline\"><mrow><mi>D</mi><mo>=</mo><mn>1</mn></mrow></math></p><figure class=\"j-irudia\"><img src=\"media/irudiak/bfc37cdf873fe1bc.svg\" alt=\"Recubrimientos del segmento y del cuadrado.\" width=\"407\" loading=\"lazy\"><figcaption>Recubrimientos del segmento y del cuadrado.</figcaption></figure><p>, el número de círculos necesarios para hacer el recubrimiento también puede escribirse así:</p><div class=\"j-kutxa j-k-laranja\"><p><math display=\"block\"><mrow><mi>N</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>K</mi><msup><mi>d</mi><mrow><mi>−</mi><mi>D</mi></mrow></msup><mi>.</mi></mrow></math></p></div><p>El coeficiente <math display=\"inline\"><mi>K</mi></math> (en este caso la longitud) es una constante adecuada. Si lo que queremos cubrir es un cuadrado, se cumple la misma expresión, pero ahora, como las dimensiones del cuadrado son dos, hay que usar <math display=\"inline\"><mrow><mi>D</mi><mo>=</mo><mn>2</mn></mrow></math> y <math display=\"inline\"><mi>K</mi></math> será proporcional al área del cuadrado. Asimismo, se ve fácilmente que en el caso de un cubo y de cualquier conjunto «ordinario», esa fórmula se cumple en los recubrimientos hechos con bolas de diámetro <math display=\"inline\"><mi>d</mi></math>. En consecuencia, esa expresión se usará en todos los casos (y no solo en los ordinarios) para definir la dimensión. En este contexto, como la constante <math display=\"inline\"><mi>K</mi></math> carece de interés, podemos valernos de la siguiente expresión equivalente: <math display=\"block\"><mrow><mi>D</mi><mo>=</mo><mi>−</mi><munder><mi mathvariant=\"normal\">lim</mi><mrow><mi>d</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>N</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mi>d</mi></mrow></mfrac><mi>.</mi></mrow></math></p><figure class=\"j-irudia\"><img src=\"media/irudiak/052bd6d537f5c4c6.svg\" alt=\"Recubrimientos de la curva de von Koch.\" width=\"307\" loading=\"lazy\"><figcaption>Recubrimientos de la curva de von Koch.</figcaption></figure>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [
+    "<p><em>Calcula la dimensión, el perímetro y el área del copo de nieve de von Koch que se muestra en la figura 8.14.\nComenta la respuesta.</em></p><p>En lugar del método directo que hemos usado en el ejercicio 8.6, nos valdremos de la simetría para calcular la dimensión. En efecto, está claro que si se necesitan <math display=\"inline\"><mi>N</mi></math> círculos de diámetro <math display=\"inline\"><mi>ε</mi></math> para cubrir este fractal, harán falta <math display=\"inline\"><mrow><mn>4</mn><mi>N</mi></mrow></math> de diámetro <math display=\"inline\"><mrow><mi>ε</mi><mi>/</mi><mn>3</mn></mrow></math>, es decir, <math display=\"block\"><mrow><mn>4</mn><mi>N</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><mi>N</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mi>/</mi><mn>3</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>.</mi></mrow></math> Aquí, si probamos la definición <math display=\"inline\"><mrow><mi>N</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∝</mo><msup><mi>ε</mi><mrow><mi>−</mi><mi>D</mi></mrow></msup></mrow></math> (que se cumple en el límite <math display=\"inline\"><mrow><mi>ε</mi><mo>→</mo><mn>0</mn></mrow></math>), queda: <math display=\"block\"><mrow><mn>4</mn><msup><mi>ε</mi><mrow><mi>−</mi><mi>D</mi></mrow></msup><mo>=</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>ε</mi><mi>/</mi><mn>3</mn><msup><mo stretchy=\"false\" form=\"postfix\">)</mo><mrow><mi>−</mi><mi>D</mi></mrow></msup><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mn>4</mn><mo>=</mo><msup><mn>3</mn><mi>D</mi></msup><mspace width=\"1.0em\"></mspace><mo>⇒</mo><mspace width=\"1.0em\"></mspace><mi>D</mi><mo>=</mo><mfrac><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>4</mn></mrow><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>3</mn></mrow></mfrac><mi>.</mi></mrow></math> Por otra parte, está claro que al construir el fractal, como en cada paso se usan 4 segmentos de longitud <math display=\"inline\"><mrow><mi>L</mi><mi>/</mi><mn>3</mn></mrow></math> en lugar de cada segmento de longitud <math display=\"inline\"><mi>L</mi></math>, el perímetro es el anterior por <math display=\"inline\"><mrow><mn>4</mn><mi>/</mi><mn>3</mn></mrow></math> y en el límite infinito.</p><p>Si el área del triángulo inicial es <math display=\"inline\"><mi>S</mi></math>, en el primer paso se le suma el área de 3 triángulos de área <math display=\"inline\"><mrow><mi>S</mi><mi>/</mi><mn>9</mn></mrow></math>; en el segundo la de <math display=\"inline\"><mrow><mn>3</mn><mo>×</mo><mn>4</mn></mrow></math> triángulos de área <math display=\"inline\"><mrow><mi>S</mi><mi>/</mi><msup><mn>9</mn><mn>2</mn></msup></mrow></math>; en el tercero la de <math display=\"inline\"><mrow><mn>3</mn><mo>×</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></math> triángulos de área <math display=\"inline\"><mrow><mi>S</mi><mi>/</mi><msup><mn>9</mn><mn>3</mn></msup></mrow></math>; y en el paso <math display=\"inline\"><mi>n</mi></math> la de <math display=\"inline\"><mrow><mn>3</mn><mo>×</mo><msup><mn>4</mn><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow></math> triángulos de área <math display=\"inline\"><mrow><mi>S</mi><mi>/</mi><msup><mn>9</mn><mi>n</mi></msup></mrow></math>. En el límite, por tanto, el área total será esta: <math display=\"block\"><mrow><mi>S</mi><mrow><mo stretchy=\"true\" form=\"prefix\">[</mo><mn>1</mn><mo>+</mo><mfrac><mn>3</mn><mn>9</mn></mfrac><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mo accent=\"false\">∞</mo></munderover><mfrac><msup><mn>4</mn><mi>n</mi></msup><msup><mn>9</mn><mi>n</mi></msup></mfrac><mo stretchy=\"true\" form=\"postfix\">]</mo></mrow><mo>=</mo><mfrac><mn>8</mn><mn>5</mn></mfrac><mi>S</mi><mi>.</mi></mrow></math> Aunque parezca curioso, un perímetro continuo infinito puede encerrar un área finita.</p>"
+   ],
+   "ariketak": [
+    {
+     "e": "<p>Usa la figura 8.16 para demostrar que la dimensión del fractal de von Koch es <math display=\"inline\"><mrow><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>4</mn><mi>/</mi><mrow><mi mathvariant=\"normal\">ln</mi><mo>&#8289;</mo></mrow><mn>3</mn><mo>≈</mo><mn>1.26186</mn></mrow></math>. (Véase también el problema 8.12.2.)</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "dimensión fractal (capacidad)",
+     "def": "<p>D = −lim<sub>d→0</sub> ln N(d) / ln d, donde N(d) es el número de bolas de diámetro d necesarias para recubrir el objeto.</p>"
+    },
+    {
+     "t": "recubrimiento",
+     "def": "<p>Conjunto de bolas (o círculos) de diámetro d que cubren el objeto.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-fraktal-autoantzekoak"
+   ],
+   "ondorengoak": [
+    "kkao-arro-muga-fraktalak",
+    "kkao-praktika-problemak"
+   ],
+   "iturria": "B9.8 · a8 Fractales (dimensión fractal); a13 Problemas resueltos (copo de nieve de von Koch)",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-okinaren-transformazioa",
+   "atala": "S4",
+   "mota": "definizioa",
+   "izena": "Transformación del panadero y exponentes de Lyapunov",
+   "ideia": "<p>El atractor caótico se comporta como la masa del panadero: se estira (los puntos se alejan) y se pliega (para quedar en una región acotada). La velocidad de estiramiento la mide el mayor exponente de Lyapunov.</p>",
+   "enuntziatua": "<p><strong>Estiramiento</strong>: el atractor se estira durante el período y, en consecuencia, la distancia entre puntos que en un instante estaban muy próximos va aumentando. La distancia <math display=\"inline\"><mi>d</mi></math> entre las soluciones más próximas aumenta de forma exponencial: <math display=\"inline\"><mrow><mi>d</mi><mo>∝</mo><msup><mi>e</mi><mrow><mi>λ</mi><mi>t</mi></mrow></msup></mrow></math> donde la magnitud <math display=\"inline\"><mi>λ</mi></math> es el mayor exponente de Lyapunov. Esta transformación es la causa de la dependencia sensible de las condiciones iniciales y del caos. <strong>Plegamiento</strong>: al estirarse, el atractor se pliega sobre sí mismo. Así, el atractor siempre está en una región acotada del espacio de fases. Además, como cada vez que se pliega se duplica el número de capas que forman el atractor, necesariamente habrá infinitas capas. Por tanto, si cortamos las capas en una dirección transversal, encontraremos algo parecido al conjunto de Cantor y el atractor será fractal (es decir, extraño).</p>",
+   "formula": "",
+   "azalpena": "<p>Para entender mejor el origen, la estructura y la naturaleza del atractor de Duffing, nos valdremos en la figura 8.17 de las secciones estroboscópicas de Poincaré correspondientes a los instantes <math display=\"block\"><mrow><mi>t</mi><mo>=</mo><msub><mi>t</mi><mn>0</mn></msub><mo>+</mo><mi>n</mi><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mi>ω</mi></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><msub><mi>t</mi><mn>0</mn></msub><mo>≡</mo><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo><mfrac><mi>π</mi><mrow><mn>8</mn><mi>ω</mi></mrow></mfrac><mo>,</mo><mspace width=\"1.0em\"></mspace><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>k</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mi>…</mi><mo>,</mo><mn>16</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> del período básico de la fuerza externa. En esta figura vemos la evolución del propio atractor. El atractor es invariante durante el movimiento y los puntos que hay en él se mueven por el atractor, sin salir de él. Esos puntos sufren una transformación durante el movimiento; pero el conjunto de todos los puntos, el propio atractor, es invariante bajo esa transformación. En la figura está claro que esa transformación se parece mucho a lo que se hace con la masa del pan y que consta de dos componentes:</p><figure class=\"j-irudia\"><img src=\"media/irudiak/7d757ba48a54113b.svg\" alt=\"Transformación del panadero.\" width=\"409\" loading=\"lazy\"><figcaption>Transformación del panadero.</figcaption></figure><p>Esta doble transformación del panadero es uno de los mecanismos básicos del caos determinista.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "estiramiento",
+     "def": "<p>Expansión del atractor a lo largo del tiempo: la distancia entre puntos próximos crece como d ∝ e<sup>λt</sup>.</p>"
+    },
+    {
+     "t": "plegamiento",
+     "def": "<p>Al estirarse, el atractor se pliega sobre sí mismo; el número de capas se duplica y el atractor queda en una región acotada.</p>"
+    },
+    {
+     "t": "exponente de Lyapunov",
+     "def": "<p>Velocidad del crecimiento exponencial de la distancia entre órbitas próximas (λ); si el mayor es positivo, hay caos.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-erakarle-bitxiak",
+    "kkao-fraktal-autoantzekoak",
+    "kkao-hastapen-baldintzekiko-sentikortasuna"
+   ],
+   "ondorengoak": [
+    "kkao-kaos-hamiltondarra"
+   ],
+   "iturria": "B9.8 · a9 Transformación del panadero y exponentes de Lyapunov",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-arro-muga-fraktalak",
+   "atala": "S5",
+   "mota": "definizioa",
+   "izena": "Fronteras de cuencas fractales y exponente de incertidumbre",
+   "ideia": "<p>Incluso sin caos puede ser difícil predecir: si la frontera de las cuencas de dos atractores es fractal, hay que reducir mucho el error de las condiciones iniciales para disminuir un poco los puntos dudosos. El exponente de incertidumbre mide eso.</p>",
+   "enuntziatua": "<p>En general, si la dimensión de la frontera de las cuencas es <math display=\"inline\"><mi>D</mi></math>, harán falta <math display=\"inline\"><mrow><msub><mi>N</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∝</mo><msup><mi>d</mi><mrow><mi>−</mi><mi>D</mi></mrow></msup></mrow></math> bolas para cubrir la frontera y <math display=\"inline\"><mrow><msub><mi>N</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∝</mo><msup><mi>d</mi><mrow><mi>−</mi><mi>F</mi></mrow></msup></mrow></math> para cubrir la parte del espacio de fases, si su dimensión es <math display=\"inline\"><mi>F</mi></math>. Por tanto, la proporción de condiciones iniciales dudosas es esta: <math display=\"inline\"><mrow><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∝</mo><msup><mi>d</mi><mrow><mi>F</mi><mo>−</mo><mi>D</mi></mrow></msup><mo>≡</mo><msup><mi>d</mi><mi>z</mi></msup></mrow></math>. El valor <math display=\"inline\"><mrow><mi>z</mi><mo>=</mo><mi>F</mi><mo>−</mo><mi>D</mi></mrow></math> de aquí es el <strong>exponente de incertidumbre</strong>.</p>",
+   "formula": "",
+   "azalpena": "<p>En el caso de la ecuación de Duffing, los atractores que aparecen para los valores <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0.1</mn></mrow></math>, <math display=\"inline\"><mrow><mi>ω</mi><mo>=</mo><mn>1</mn></mrow></math> y <math display=\"inline\"><mrow><mi>f</mi><mo>≤</mo><mn>0.13</mn></mrow></math> no son caóticos, sino ciclos límite, pero hay dos, que rodean cada uno de los mínimos del potencial. Según las condiciones iniciales que se elijan, la solución irá a uno u otro ciclo límite. Para estudiar las cuencas elegiremos en el instante <math display=\"inline\"><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math> la posición <math display=\"inline\"><mi>x</mi></math> y la velocidad <math display=\"inline\"><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover></math> y, si la solución que se obtiene así va al ciclo de la derecha (es decir, si está en la cuenca del ciclo de la derecha), dibujaremos el punto <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> de un color; si está en la cuenca del ciclo de la izquierda, usaremos otro color. Así obtendremos la imagen de las cuencas.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/4fecad0b80696f24.svg\" alt=\"Cuencas de la ecuación de Duffing en los casos f=0.1, 0.15.\" width=\"486\" loading=\"lazy\"><figcaption>Cuencas de la ecuación de Duffing en los casos <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0.1</mn></mrow></math>, <math display=\"inline\"><mn>0.15</mn></math>.</figcaption></figure><p>En los casos de la figura 8.18 la frontera de las cuencas es una curva suave y el movimiento asintótico es periódico: la distancia entre soluciones próximas no aumentará de forma exponencial. Sin embargo, como hay dos ciclos límite, para predecir el futuro hay que saber en qué cuenca están las condiciones iniciales. Si el error cometido al calcular las condiciones iniciales es <math display=\"inline\"><mi>d</mi></math>, solo con los puntos que están a una distancia <math display=\"inline\"><mi>d</mi></math> de la frontera de las cuencas puede ocurrir que la predicción sea errónea. Para medir cuántos son esos puntos, cubriremos la frontera de las cuencas (y los puntos dudosos) con discos de radio <math display=\"inline\"><mi>d</mi></math>. Como sabemos, el número de discos necesarios para ello es <math display=\"inline\"><mrow><msub><mi>N</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∝</mo><msup><mi>d</mi><mrow><mi>−</mi><mn>1</mn></mrow></msup></mrow></math> y para cubrir la parte del espacio de fases estudiada harán falta <math display=\"inline\"><mrow><msub><mi>N</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∝</mo><msup><mi>d</mi><mrow><mi>−</mi><mn>2</mn></mrow></msup></mrow></math> discos. En consecuencia, al medir las condiciones iniciales con precisión <math display=\"inline\"><mi>d</mi></math>, la proporción de puntos dudosos es <math display=\"inline\"><mrow><mi>P</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msub><mi>N</mi><mn>1</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mi>/</mi><msub><mi>N</mi><mn>2</mn></msub><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>d</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>∝</mo><mi>d</mi></mrow></math>. Por tanto, si se quiere reducir en un orden de magnitud la proporción de puntos dudosos, también hay que ganar un orden de magnitud en el error cometido en las mediciones.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/1eea113e1cb69c56.svg\" alt=\"Cuencas de la ecuación de Duffing en los casos f=0.2, 0.23.\" width=\"486\" loading=\"lazy\"><figcaption>Cuencas de la ecuación de Duffing en los casos <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0.2</mn></mrow></math>, <math display=\"inline\"><mn>0.23</mn></math>.</figcaption></figure><p>Si la frontera de las cuencas es suave, su dimensión será <math display=\"inline\"><mrow><mi>D</mi><mo>=</mo><mi>F</mi><mo>−</mo><mn>1</mn></mrow></math> y el exponente de incertidumbre <math display=\"inline\"><mrow><mi>z</mi><mo>=</mo><mn>1</mn></mrow></math>. Así, para que el número de puntos dudosos sea 10 veces menor, el error cometido en las condiciones iniciales deberá ser 10 veces menor. Pero ¿qué ocurre si la frontera de las cuencas, en lugar de ser suave, es fractal? Si <math display=\"inline\"><mrow><mi>F</mi><mo>−</mo><mn>1</mn><mo>&lt;</mo><mi>D</mi><mo>&lt;</mo><mi>F</mi></mrow></math>, será <math display=\"inline\"><mrow><mi>z</mi><mo>&lt;</mo><mn>1</mn></mrow></math> y reducir el número de condiciones iniciales dudosas resultará más difícil. Por ejemplo, si <math display=\"inline\"><mrow><mi>D</mi><mo>=</mo><mi>F</mi><mo>−</mo><mn>0.2</mn></mrow></math>, para que la proporción sea 10 veces menor hay que conseguir un error 100000 veces menor al medir las condiciones iniciales.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/70cfef3e7452bd64.svg\" alt=\"Ampliaciones de las cuencas de la ecuación de Duffing en el caso f=0.2.\" width=\"443\" loading=\"lazy\"><figcaption>Ampliaciones de las cuencas de la ecuación de Duffing en el caso <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0.2</mn></mrow></math>.</figcaption></figure><p>Si esto ocurre, y enseguida veremos que cosas así ocurren, la predicción tendrá un gran obstáculo, aunque el movimiento no sea caótico. Por ejemplo, para comprobar que la frontera de las cuencas es fractal, hemos ampliado en la parte izquierda de la figura 8.20 el rectángulo dibujado en el centro de la figura 8.19, y el extremo inferior derecho de esta última aparece al lado.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "exponente de incertidumbre",
+     "def": "<p>z = F − D: la proporción de condiciones iniciales dudosas disminuye como d<sup>z</sup>; con frontera de cuencas lisa z = 1, con frontera fractal z &lt; 1.</p>"
+    },
+    {
+     "t": "frontera de cuencas fractal",
+     "def": "<p>Frontera de cuencas de dimensión no entera; en ese caso la incertidumbre de las condiciones iniciales disminuye muy lentamente.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-erakarleak-eta-arroak",
+    "kkao-dimentsio-fraktala"
+   ],
+   "ondorengoak": [
+    "kkao-sakabanatze-kaotikoa",
+    "kkao-praktika-problemak"
+   ],
+   "iturria": "B9.8 · a10 Fronteras de cuencas fractales",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-kaos-hamiltondarra",
+   "atala": "S6",
+   "mota": "definizioa",
+   "izena": "Caos en sistemas hamiltonianos",
+   "ideia": "<p>En los sistemas hamiltonianos no hay atractores, pero puede aparecer el caos: la suma de los exponentes de Lyapunov es cero, pero uno puede ser positivo. En las secciones de Poincaré una sola órbita caótica llena un área.</p>",
+   "enuntziatua": "<p>Como los sistemas hamiltonianos son conservativos, se cumple el teorema de Liouville del apartado 6.10.4 y, en consecuencia, no hay atractores. La suma de los exponentes de Lyapunov es cero, pero esto no impide que algún exponente sea positivo. Cuando ocurre así, tenemos caos hamiltoniano.</p>",
+   "formula": "",
+   "azalpena": "<figure class=\"j-irudia\"><img src=\"media/irudiak/1e861592901335cb.svg\" alt=\"Dos evoluciones del sistema del problema 7.91: una biperiódica y otra caótica.\" width=\"397\" loading=\"lazy\"><figcaption>Dos evoluciones del sistema del problema 7.91: una biperiódica y otra caótica.</figcaption></figure><p>Como ejemplo, consideremos el sistema del problema 7.91. Las oscilaciones en torno al origen son periódicas: una figura de Lissajous cerrada. Si la amplitud es mayor, las oscilaciones no son tan sencillas, pero pueden ser biperiódicas (o, con condiciones iniciales adecuadas, periódicas), como se ve en una parte de la órbita en la parte izquierda de la figura 8.21.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/101168194d6e0a2a.svg\" alt=\"Dos secciones de Poincaré complementarias del sistema del problema 7.91.\" width=\"398\" loading=\"lazy\"><figcaption>Dos secciones de Poincaré complementarias del sistema del problema 7.91.</figcaption></figure><p>Sin cambiar el valor de la energía mecánica (en las figuras <math display=\"inline\"><mn>8.21</mn></math> y <math display=\"inline\"><mn>8.22</mn></math> se ha tomado <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mn>10.2</mn><msup><mi>q</mi><mn>2</mn></msup><mi>/</mi><mn>4</mn><mi>π</mi><msub><mi>ε</mi><mn>0</mn></msub><mi>a</mi></mrow></math>), si se eligen otras condiciones iniciales, la órbita puede ser caótica, como se aprecia en la parte izquierda de la figura 8.21. Para ver mejor este fenómeno podemos valernos de las secciones de Poincaré. Como la energía mecánica se conserva, si conocemos tres de las coordenadas <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>,</mo><mover><mi>y</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> la cuarta se obtiene a partir del valor de la energía mecánica. Para hacer figuras de dos dimensiones, en la figura 8.22 se ha usado otra condición. A la izquierda se han dibujado los puntos de coordenadas <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> de la solución cada vez que <math display=\"inline\"><mrow><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo>=</mo><mn>0</mn></mrow></math>. A la derecha, en cambio, se ha dibujado el punto de coordenadas <math display=\"inline\"><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mover><mi>x</mi><mo accent=\"true\">̇</mo></mover><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></math> cuando <math display=\"inline\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>. Los puntos de una órbita periódica aparecen en líneas continuas. Además, se han dibujado los puntos de <em>una sola</em> órbita caótica y, como se ve, llenan un área no nula en cada figura.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "caos hamiltoniano",
+     "def": "<p>Caos de un sistema conservativo: por el teorema de Liouville no hay atractores, pero un exponente de Lyapunov es positivo.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-okinaren-transformazioa",
+    "kkao-poincareren-sekzioa"
+   ],
+   "ondorengoak": [
+    "kkao-sakabanatze-kaotikoa"
+   ],
+   "iturria": "B9.8 · a11 Caos en sistemas hamiltonianos; a12 Dispersión caótica (inicio)",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-sakabanatze-kaotikoa",
+   "atala": "S6",
+   "mota": "definizioa",
+   "izena": "Dispersión caótica",
+   "ideia": "<p>Una partícula atraviesa una región de potencial y se va al infinito: el movimiento asintótico es sencillo. Pero la dirección de salida depende de las condiciones iniciales de forma discontinua y no se puede predecir: es la dispersión caótica.</p>",
+   "enuntziatua": "<p>Como en el apartado anterior, aunque no haya ningún atractor caótico, es difícil predecir el estado asintótico si se produce esta <strong>dispersión caótica</strong> : en torno a los puntos de discontinuidad el verdadero valor del ángulo de dispersión será dudoso. Está claro que el concepto de exponente de incertidumbre puede aplicarse casi al pie de la letra en este caso.</p>",
+   "formula": "",
+   "azalpena": "<p>Este es otro aspecto del caos. En un proceso de dispersión las partículas van al infinito y no hay atractores. El movimiento asintótico es libre, muy sencillo, por tanto. Sin embargo, predecir el futuro puede ser difícil. Aquí estudiaremos la siguiente energía potencial, con cuatro máximos en dos dimensiones, en variables adimensionales adecuadas: <math display=\"block\"><mrow><mi>V</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><msup><mi>y</mi><mn>2</mn></msup><msup><mi>e</mi><mrow><mi>−</mi><mrow><mo stretchy=\"true\" form=\"prefix\">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo stretchy=\"true\" form=\"postfix\">)</mo></mrow></mrow></msup><mi>.</mi></mrow></math></p><p>Si la partícula, cuando está en el punto <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>−</mi><mn>10</mn><mo>,</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>, se mueve a lo largo del eje <math display=\"inline\"><mi>x</mi></math> con energía <math display=\"inline\"><mi>E</mi></math>, al salir de la región de interacción se moverá en la dirección <math display=\"inline\"><mi>θ</mi></math> con velocidad constante. Así puede calcularse la <strong>función de dispersión</strong> <math display=\"inline\"><mrow><mi>θ</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>b</mi><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>. Por ejemplo, la función de dispersión de la figura 8.24 corresponde a la energía <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mn>1.2</mn></mrow></math> . En este caso la partícula pasa por encima de los máximos de la energía y el ángulo de dispersión es una función suave del parámetro de impacto.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/ad872da669d166f5.svg\" alt=\"Energía potencial (8.12) y cuatro órbitas para E=0.26.\" width=\"449\" loading=\"lazy\"><figcaption>Energía potencial (8.12) y cuatro órbitas cuando <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mn>0.26</mn></mrow></math>.</figcaption></figure><figure class=\"j-irudia\"><img src=\"media/irudiak/87d8655f4b2d5912.svg\" alt=\"Función de dispersión para E=1.2.\" width=\"289\" loading=\"lazy\"><figcaption>Función de dispersión cuando <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mn>1.2</mn></mrow></math>.</figcaption></figure><p>Pero la función de dispersión correspondiente a la energía <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mn>0.26</mn></mrow></math> no es continua, como se puede ver en la figura 8.25.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/3a701e50c2070a7e.svg\" alt=\"Función de dispersión para E=0.26.\" width=\"295\" loading=\"lazy\"><figcaption>Función de dispersión cuando <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mn>0.26</mn></mrow></math>.</figcaption></figure><p>En la figura 8.23 se han dibujado las órbitas obtenidas para los valores <math display=\"inline\"><mrow><mi>b</mi><mo>=</mo><mi>−</mi><mn>0.45939019</mn><mo>+</mo><mn>2.5</mn><mi>k</mi><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>6</mn></mrow></msup></mrow></math> (<math display=\"inline\"><mrow><mi>k</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn></mrow></math>). Como vemos, aunque los cambios del parámetro de impacto son muy pequeños, la dirección asintótica futura es totalmente diferente en los cuatro casos.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/b8b616dcbbbe9c7a.svg\" alt=\"Tiempo de dispersión para E=0.26.\" width=\"296\" loading=\"lazy\"><figcaption>Tiempo de dispersión cuando <math display=\"inline\"><mrow><mi>E</mi><mo>=</mo><mn>0.26</mn></mrow></math>.</figcaption></figure><p>Para entender mejor este fenómeno, el tiempo que la partícula pasa en la región de interacción aparece en la figura 8.26. Como vemos, esta función también es discontinua y las discontinuidades del tiempo de dispersión y del ángulo ocurren en los mismos puntos.</p><p>Con este resultado se entiende fácilmente la causa de la dispersión caótica. Si la energía es menor que la de los máximos, puede ocurrir que la partícula rebote una y otra vez en distintas cimas del potencial. Como con cuatro cimas pueden formarse infinitas secuencias periódicas diferentes, hay infinitas órbitas periódicas. Naturalmente, esas órbitas periódicas no serán estables (ni atractores); pero puede ocurrir que una órbita de dispersión esté muy próxima a una órbita periódica inestable en un instante y, si esto ocurre, pueden estar cerca una de otra durante un intervalo de tiempo largo y, tras rebotar muchas veces, puede producirse un cambio de dirección grande, de tal modo que sea muy diferente del cambio correspondiente a otra órbita que al principio estaba muy próxima.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Calcula las ecuaciones del movimiento.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p>Calcula algunas ampliaciones de la función anterior, para comprobar que la naturaleza del conjunto de discontinuidades es fractal autosemejante.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "función de dispersión",
+     "def": "<p>Dirección θ que toma la partícula al salir, en función del parámetro de impacto (b).</p>"
+    },
+    {
+     "t": "parámetro de impacto",
+     "def": "<p>Desplazamiento perpendicular respecto del eje en el momento de lanzar la partícula (b).</p>"
+    },
+    {
+     "t": "dispersión caótica",
+     "def": "<p>La función de dispersión es discontinua, el conjunto de discontinuidades es fractal y la dirección de salida no se puede predecir sin conocer exactamente las condiciones iniciales.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "kkao-kaos-hamiltondarra",
+    "kkao-arro-muga-fraktalak"
+   ],
+   "ondorengoak": [
+    "kkao-praktika-problemak"
+   ],
+   "iturria": "B9.8 · a12 Dispersión caótica",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "kkao-praktika-problemak",
+   "atala": "S7",
+   "mota": "metodoa",
+   "izena": "Práctica: problemas",
+   "ideia": "<p>Problemas para calcular la dimensión de fractales y estudiar el caos mediante simulación numérica: curvas de Peano y de Hilbert, fronteras de cuencas y dispersión caótica.</p>",
+   "enuntziatua": "",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>¿Cuál es la regla para construir el fractal de la figura 8.27? ¿Y su dimensión, su área y su perímetro?</p><figure class=\"j-irudia\"><img src=\"media/irudiak/2d14a6a3d37294cf.svg\" alt=\"Primeros pasos para construir el fractal del problema 8.1.\" width=\"564\" loading=\"lazy\"><figcaption>Primeros pasos para construir el fractal del problema 8.1.</figcaption></figure>",
+     "s": ""
+    },
+    {
+     "e": "<p><strong>Curva de Peano.</strong></p><p>En 1890 Peano descubrió la primera curva continua que llena un cuadrado: el límite matemático generado por el procedimiento de la figura 8.28. ¿Cuál es su dimensión fractal?</p><figure class=\"j-irudia\"><img src=\"media/irudiak/5f04633a12411546.svg\" alt=\"Método para construir la curva de Peano.\" width=\"539\" loading=\"lazy\"><figcaption>Método para construir la curva de Peano.</figcaption></figure>",
+     "s": ""
+    },
+    {
+     "e": "<p><strong>Curva de Hilbert.</strong></p><p>La segunda curva continua que llena el cuadrado la descubrió Hilbert en 1891 (véase la figura 8.29). Calcula su longitud y su dimensión.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/363b89f34b78b70b.svg\" alt=\"Método para construir la curva de Hilbert.\" width=\"539\" loading=\"lazy\"><figcaption>Método para construir la curva de Hilbert.</figcaption></figure>",
+     "s": ""
+    },
+    {
+     "e": "<p><strong>Curva de Mandelbrot.</strong></p><p>El fractal de la figura 8.30 llena el copo de nieve de von Koch. Calcula su dimensión.</p><figure class=\"j-irudia\"><img src=\"media/irudiak/6b8b59a801fe592f.svg\" alt=\"Método para construir la curva de Mandelbrot.\" width=\"598\" loading=\"lazy\"><figcaption>Método para construir la curva de Mandelbrot.</figcaption></figure>",
+     "s": ""
+    },
+    {
+     "e": "<p>Calcula la dimensión del conjunto de Cantor.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p><strong>Momento de inercia.</strong> <span class=\"j-izar\">★★★</span></p><p>En una lámina delgada se hacen agujeros una y otra vez, como se muestra en la figura 8.31; pero, en cada paso, la masa que había en los agujeros se redistribuye homogéneamente en el material que queda sin agujerear. ¿Cuál es la dimensión del fractal? Calcula el área y el momento de inercia respecto del centro de masas que quedan en el límite matemático. (La masa de la lámina es <math display=\"inline\"><mi>m</mi></math> y la longitud de los lados <math display=\"inline\"><mi>a</mi></math>.)</p><figure class=\"j-irudia\"><img src=\"media/irudiak/77d8875344ef52f3.svg\" alt=\"Fractal del problema 8.6.\" width=\"326\" loading=\"lazy\"><figcaption>Fractal del problema 8.6.</figcaption></figure>",
+     "s": ""
+    },
+    {
+     "e": "<p><span class=\"j-izar\">★</span></p><p>Usa alguna herramienta numérica adecuada para resolver ecuaciones diferenciales (como el programa [49]) para estudiar las ecuaciones del movimiento de este tema. Comprueba las figuras que muestran las soluciones, o el espacio de fases.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p><strong>Fronteras de cuencas.</strong> <span class=\"j-izar\">★★</span></p><p>La ecuación de Duffing (8.3) tiene tres atractores periódicos para los valores <math display=\"inline\"><mrow><mi>γ</mi><mo>=</mo><mn>0.15</mn></mrow></math> y <math display=\"inline\"><mrow><mi>f</mi><mo>=</mo><mn>0.25</mn></mrow></math>. Dibuja los atractores y las correspondientes fronteras de cuencas.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p><strong>Dispersión caótica.</strong> <span class=\"j-izar\">★★</span></p><p>Sobre una mesa horizontal lisa hay tres discos fijos iguales, en los vértices de un triángulo equilátero de lado <math display=\"inline\"><mn>2.5</mn></math> m. Los radios de los discos miden 1 m. En la misma dirección, pero con parámetros de impacto diferentes, se lanzan partículas puntuales contra los discos. Las colisiones son elásticas. Dibuja la función de dispersión.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p><span class=\"j-izar\">★</span></p><p>En los vértices de un triángulo equilátero de lado <math display=\"inline\"><mi>L</mi></math> hay tres imanes fijos y encima está colgado de una cuerda el cuarto, en la vertical del centro del triángulo. Si las oscilaciones del último imán son muy pequeñas, su movimiento ocurre en un plano horizontal en buena aproximación y la primera aproximación de la ecuación del movimiento puede ser la siguiente: <math display=\"block\"><mrow><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̈</mo></mover><mo>+</mo><mn>2</mn><mi>γ</mi><mover><mi mathvariant=\"bold-italic\">𝒓</mi><mo accent=\"true\">̇</mo></mover><mo>+</mo><msup><mi>ω</mi><mn>2</mn></msup><mi mathvariant=\"bold-italic\">𝒓</mi><mo>+</mo><mi>C</mi><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mn>3</mn></munderover><mfrac><mrow><mi mathvariant=\"bold-italic\">𝒓</mi><mo>−</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>i</mi></msub></mrow><msup><mrow><mo stretchy=\"true\" form=\"prefix\">|</mo><mi mathvariant=\"bold-italic\">𝒓</mi><mo>−</mo><msub><mi mathvariant=\"bold-italic\">𝒓</mi><mi>i</mi></msub><mo stretchy=\"true\" form=\"postfix\">|</mo></mrow><mn>3</mn></msup></mfrac><mo>=</mo><mn>0</mn><mi>.</mi></mrow></math> Estudia el movimiento mediante simulación numérica. <em>Observación</em>: en variables adimensionales adecuadas se puede elegir <math display=\"inline\"><mrow><mi>C</mi><mo>=</mo><mi>L</mi><mo>=</mo><mn>1</mn></mrow></math>.</p>",
+     "s": ""
+    },
+    {
+     "e": "<p><span class=\"j-izar\">★★</span></p><p>Como se ve, el sistema del problema 8.10 tiene tres puntos de equilibrio estables (cada vez que el imán del péndulo se queda sobre otro). Dibuja las cuencas de esos atractores.</p>",
+     "s": ""
+    }
+   ],
+   "terminoak": [],
+   "aurrekoak": [
+    "kkao-fraktal-autoantzekoak",
+    "kkao-dimentsio-fraktala",
+    "kkao-arro-muga-fraktalak",
+    "kkao-sakabanatze-kaotikoa"
+   ],
+   "ondorengoak": [],
+   "iturria": "B9.8 · a14 Problemas (11 ejercicios: fractales y simulaciones numéricas). El resto de los problemas resueltos están en el libro original.",
+   "sortua": [
+    "ideia"
+   ]
+  }
+ ]
+}

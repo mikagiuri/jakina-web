@@ -1,0 +1,1163 @@
+{
+ "kapitulua": "09zz_01programazioa",
+ "izenburua": "B10.3 · M28 Programación y algoritmos",
+ "sarrera": "<p>Este módulo enseña a escribir y leer algoritmos clásicos en un pseudocódigo parecido a Python: teoría de números, recursión, ficheros y cadenas, diccionarios, polinomios y matrices. Todos los programas proceden de páginas de cuaderno manuscritas, y las notas de la fuente señalan los errores y las correcciones.</p>",
+ "atalak": [
+  {
+   "id": "S1",
+   "izena": "Algoritmos numéricos y cambio de base"
+  },
+  {
+   "id": "S2",
+   "izena": "Iteración y recursión"
+  },
+  {
+   "id": "S3",
+   "izena": "Condiciones, control de entrada y aleatoriedad"
+  },
+  {
+   "id": "S4",
+   "izena": "Ficheros y cadenas"
+  },
+  {
+   "id": "S5",
+   "izena": "Diccionarios"
+  },
+  {
+   "id": "S6",
+   "izena": "Listas, polinomios y matrices"
+  },
+  {
+   "id": "S7",
+   "izena": "Otras herramientas y visión de conjunto"
+  }
+ ],
+ "kontzeptuak": [
+  {
+   "id": "prog-zatitzaileen-batura-adiskideak",
+   "atala": "S1",
+   "mota": "metodoa",
+   "izena": "Suma de divisores y números amigos",
+   "ideia": "<p>Sumamos los divisores de un número con un bucle; dos números son amigos cuando la suma de los divisores de cada uno es el otro.</p>",
+   "enuntziatua": "<p><code></code><code>python def sumadivisores(num): suma = 0 for i in range(1, (num//2)+1): if num % i == 0: suma = suma + 1        # en el original; correcto: suma + i return suma</code></p><p>def sonamigos(n1, n2): if n1 == sumadivisores(n2) and n2 == sumadivisores(n1): return True else: return False <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Con la función corregida <code>sumadivisores</code> (<code>suma = suma + i</code>), ¿cuánto es <code>sumadivisores(220)</code>? ¿Y <code>sumadivisores(284)</code>? ¿Qué se deduce de <code>sonamigos(220, 284)</code>?</p>",
+     "s": "<p><code>sumadivisores(220) = 1+2+4+5+10+11+20+22+44+55+110 = 284</code> y <code>sumadivisores(284) = 1+2+4+71+142 = 220</code>. Por tanto <code>sonamigos(220, 284)</code> es <code>True</code>: 220 y 284 son números amigos.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "divisor propio",
+     "def": "<p>Un divisor de un número sin contar el propio número.</p>"
+    },
+    {
+     "t": "números amigos",
+     "def": "<p>Dos números tales que la suma de los divisores propios de cada uno es igual al otro (por ejemplo, 220 y 284).</p>"
+    },
+    {
+     "t": "bucle (for)",
+     "def": "<p>Estructura que repite muchas veces un conjunto de instrucciones; <code>for i in range(...)</code> recorre una secuencia de valores.</p>"
+    },
+    {
+     "t": "resto (%)",
+     "def": "<p>El operador <code>a % b</code> da el resto de la división de <code>a</code> entre <code>b</code>; si <code>a % b == 0</code>, entonces <code>b</code> es un divisor.</p>"
+    }
+   ],
+   "aurrekoak": [],
+   "ondorengoak": [
+    "prog-zenbaki-lehenak",
+    "prog-zatitzaileen-zerrenda"
+   ],
+   "iturria": "a2 · Números amigos",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-zenbaki-lehenak",
+   "atala": "S1",
+   "mota": "metodoa",
+   "izena": "Números primos: test y generación",
+   "ideia": "<p>Para saber si un número es primo, se empieza a buscar divisores a partir de 2; en cuanto se encuentra uno, se para. Con ese test se enumeran los primos.</p>",
+   "enuntziatua": "<p><code></code><code>python def esprimo(n): primo = True i = 2 while i &lt; n and primo == True: if n % i == 0: primo = False i = i + 1 return primo</code></p><p>def sumaprimos(n): suma = 0 for i in range(1, n+1): if esprimo(i): suma = suma + 1        # en el original; correcto: suma + i return suma <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "<p><code></code><code>python def esprimo(n): pr = True i = 2 while i &lt; n and pr == True: if n % i == 0: pr = False i += 1 return pr</code></p><p>for i in range(100):        # primos menores que 100 if esprimo(i): print(i)</p><p>i = 1                       # los primeros 1000 primos np = 0 while np &lt; 1000: if esprimo(i): print(i) np += 1 i += 1 <code></code><code></code></p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>¿Qué devuelve <code>esprimo(13)</code>? ¿Y <code>esprimo(9)</code>?</p>",
+     "s": "<p><code>esprimo(13)</code> = <code>True</code> (nadie lo divide de 2 a 12). <code>esprimo(9)</code> = <code>False</code>, porque 9 % 3 == 0.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "número primo",
+     "def": "<p>Número natural mayor que 1 que no tiene más divisores que sí mismo y 1.</p>"
+    },
+    {
+     "t": "bandera (flag)",
+     "def": "<p>Variable lógica que recuerda un estado (<code>True</code>/<code>False</code>); aquí <code>primo</code>/<code>pr</code>, que indica si se ha encontrado un divisor o no.</p>"
+    },
+    {
+     "t": "bucle while",
+     "def": "<p>Bucle que se repite mientras se cumple una condición.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-zatitzaileen-batura-adiskideak"
+   ],
+   "ondorengoak": [
+    "prog-hamartar-bitar-bihurketa",
+    "prog-urte-bisustua"
+   ],
+   "iturria": "a3 · Números primos; a9 · Números primos",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-zatitzaileen-zerrenda",
+   "atala": "S1",
+   "mota": "metodoa",
+   "izena": "Lista de divisores",
+   "ideia": "<p>En lugar de sumar los divisores, los guardamos en una lista para acceder luego a ellos por el índice.</p>",
+   "enuntziatua": "<p><code></code><code>python def lista_divisores(num): l = [] for i in range(1, num):    # para incluir el propio número: range(1, num+1) if num % i == 0: l.append(i) return l</code></p><p>numero = int(input(&quot;Sartu zenbaki bat: &quot;)) lis = lista_divisores(numero) print(lis) print(lis[2])                  # tercer divisor (los índices empiezan en 0) <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>¿Qué lista devuelve la función <code>lista_divisores(12)</code> (con <code>range(1, num)</code>)?</p>",
+     "s": "<p><code>[1, 2, 3, 4, 6]</code>: el propio 12 no entra, porque <code>range(1, 12)</code> solo recorre hasta 11.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "lista (list)",
+     "def": "<p>Colección de elementos ordenados, escrita como <code>[1, 2, 3]</code>; con <code>append</code> se añaden elementos y con <code>lis[2]</code> se accede por el índice.</p>"
+    },
+    {
+     "t": "índice",
+     "def": "<p>La posición de un elemento en la lista; en Python empieza en 0.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-zatitzaileen-batura-adiskideak"
+   ],
+   "ondorengoak": [
+    "prog-bilaketa-lineala",
+    "prog-polinomioak-batuketa-kenketa",
+    "prog-matrizeak"
+   ],
+   "iturria": "a6 · Lista de divisores",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-hamartar-bitar-bihurketa",
+   "atala": "S1",
+   "mota": "metodoa",
+   "izena": "De decimal a binario: divisiones sucesivas",
+   "ideia": "<p>Dividimos el número entre 2 una y otra vez; los restos, leídos de atrás hacia delante, son las cifras binarias.</p>",
+   "enuntziatua": "<p>Ejemplos manuscritos: <math display=\"inline\"><mrow><mn>7</mn><mo>→</mo><mn>111</mn></mrow></math>, <math display=\"inline\"><mrow><mn>6</mn><mo>→</mo><mn>110</mn></mrow></math> (divisiones sucesivas por <math display=\"inline\"><mn>2</mn></math>, leyendo los restos al revés).</p><p><code></code><code>python def convierte(n): s = &#x27;&#x27; while n &gt; 0: s = str(n % 2) + s n = n // 2 return s</code></p><p>num = int(input(&quot;Sartu zenbaki oso positibo bat&quot;)) if num &lt;= 0: print(&quot;Zenbakia ez da positiboa&quot;) else: print(num, &quot;–&gt;&quot;, convierte(num)) <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "<p><code></code><code>python def convertir(n): s = &#x27;&#x27;             # en el original &#x27; &#x27; (espacio); debe ser &#x27;&#x27; while n != 0: s = str(n % 2) + s n = n // 2 return s print(convertir(n)) </code><code></code></p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Convertir 13 a binario usando divisiones sucesivas (a mano, siguiendo los pasos de <code>convierte</code>).</p>",
+     "s": "<p>13 = 2·6 + 1; 6 = 2·3 + 0; 3 = 2·1 + 1; 1 = 2·0 + 1. Leyendo los restos al revés: <code>1101</code>.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "base binaria",
+     "def": "<p>Sistema de numeración que usa solo dos cifras (0 y 1); cada cifra representa una potencia de 2.</p>"
+    },
+    {
+     "t": "división entera (//)",
+     "def": "<p>La operación <code>n // 2</code> da el cociente entero de la división, descartando el resto.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-zenbaki-lehenak"
+   ],
+   "ondorengoak": [
+    "prog-ikus-atlasa"
+   ],
+   "iturria": "a4 · Decimal → binario; a7 · Conversión a binario",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-newton-erro-karratua",
+   "atala": "S2",
+   "mota": "metodoa",
+   "izena": "Raíz cuadrada por el método de Newton",
+   "ideia": "<p>Para aproximar la raíz cuadrada se toma una estimación y se mejora una y otra vez con una fórmula sencilla.</p>",
+   "enuntziatua": "<p><code></code><code>python def raiz(num, ite): x = 1 for i in range(ite): x = x - ((x**2) - num) / (2*x) return x print(raiz(27, 10))   # ejemplo</code></p><p>def raiz2(num): x = 1 xn = x - ((x*<strong>2) - num) / (2</strong>x) cont = 1 while abs(xn - x) &gt; 0.000001: x = xn xn = xn - ((xn*<strong>2) - num) / (2</strong>xn)   # en el original 2*x cont += 1 print(cont) return xn <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Calcular el valor de <code>raiz(9, 2)</code> empezando por <code>x = 1</code> y haciendo dos iteraciones.</p>",
+     "s": "<p>En cada iteración <code>x = x - (x**2 - 9)/(2*x)</code>: en la primera <code>1 - (1-9)/2 = 5</code>; en la segunda <code>5 - (25-9)/10 = 3,4</code>. Resultado: <code>3.4</code> (se va acercando a la raíz exacta de 9, que es 3).</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "iteración",
+     "def": "<p>Repetir un paso muchas veces, haciendo que el resultado anterior sea la entrada del paso siguiente.</p>"
+    },
+    {
+     "t": "método de Newton",
+     "def": "<p>Método de aproximación para resolver <math display=\"inline\"><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>0</mn></mrow></math>: <math display=\"inline\"><mrow><mi>x</mi><mo>←</mo><mi>x</mi><mo>−</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>/</mo><msup><mi>f</mi><mo>′</mo></msup><mo>(</mo><mi>x</mi><mo>)</mo></mrow></math>.</p>"
+    },
+    {
+     "t": "tolerancia",
+     "def": "<p>El límite de error permitido para aceptar la aproximación; el bucle se detiene cuando dos aproximaciones consecutivas están por debajo de él.</p>"
+    }
+   ],
+   "aurrekoak": [],
+   "ondorengoak": [
+    "prog-serieak",
+    "prog-faktoriala",
+    "prog-ikus-atlasa"
+   ],
+   "iturria": "a8 · Raíz cuadrada por el método de Newton",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-serieak",
+   "atala": "S2",
+   "mota": "metodoa",
+   "izena": "Construir una serie como una lista",
+   "ideia": "<p>Calculamos cada término de la serie a partir del anterior y los guardamos todos en una lista; la regla depende de la paridad del índice.</p>",
+   "enuntziatua": "<p><code></code><code>python def serie(t1, ite): l = [t1] for i in range(1, ite): if i % 2 == 0: l.append(l[i-1] // 2) else: l.append((l[i-1] * 3) + 1) return l # t1=7: [7, 22, 11, 34, 17, 52, 26, 79, 39, 118] </code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Si se llama a <code>serie(5, 4)</code>, ¿qué lista se obtiene?</p>",
+     "s": "<p><code>l = [5]</code>; i=1 (impar): 5·3+1 = 16; i=2 (par): 16//2 = 8; i=3 (impar): 8·3+1 = 25. Resultado: <code>[5, 16, 8, 25]</code>.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "paridad",
+     "def": "<p>Si un número es par (<code>i % 2 == 0</code>) o impar.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-newton-erro-karratua"
+   ],
+   "ondorengoak": [],
+   "iturria": "a8 · Serie según pares/impares",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-faktoriala",
+   "atala": "S2",
+   "mota": "metodoa",
+   "izena": "Factorial: while, for y recursión",
+   "ideia": "<p>El factorial se escribe de tres maneras: con <code>while</code>, con <code>for</code>, o con una función que se llama a sí misma (recursión).</p>",
+   "enuntziatua": "<p><code></code><code>python def factorial1(n):        def factorial2(n): f = 1                     f = 1 while n &gt; 1:              for i in range(2, n+1): f = f * n                 f = f * i n = n - 1             return f return f</code></p><p>def factorial_r(n):       # función RECURSIVA (que se llama a sí misma) if n == 0 or n == 1:  #   caso base return 1 else:                 #   caso recursivo return n * factorial_r(n-1) <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>¿Qué devuelve <code>factorial_r(4)</code>?</p>",
+     "s": "<p><code>4 · factorial_r(3) = 4 · 3 · factorial_r(2) = 4 · 3 · 2 · factorial_r(1) = 4 · 3 · 2 · 1 = 24</code>.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "recursión",
+     "def": "<p>Que una función se llame a sí misma, con un problema más pequeño; para terminar necesita un caso base.</p>"
+    },
+    {
+     "t": "caso base",
+     "def": "<p>El caso en que la recursión se detiene, y responde sin volver a llamarse (en el factorial, <math display=\"inline\"><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow></math> o <math display=\"inline\"><mn>1</mn></math>).</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-newton-erro-karratua"
+   ],
+   "ondorengoak": [
+    "prog-fibonacci-iteratiboa",
+    "prog-fibonacci-errekurtsiboa",
+    "prog-asmatzeko-jokoa"
+   ],
+   "iturria": "a8 · Factorial (tres versiones)",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-fibonacci-iteratiboa",
+   "atala": "S2",
+   "mota": "metodoa",
+   "izena": "Fibonacci: versión iterativa",
+   "ideia": "<p>La sucesión de Fibonacci se construye a partir de los dos primeros valores: cada término siguiente es la suma de los dos anteriores.</p>",
+   "enuntziatua": "<p><code></code><code>python def fibonacci(ite): l = [0, 1] for i in range(2, ite+1): l.append(l[i-2] + l[i-1]) return l # [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...]</code></p><p>def mostrar_fibonacci(ite): x0 = 0 x1 = 1 s = str(x0) + &#x27;, &#x27; + str(x1) for i in range(2, ite+1): aux = x1 x1 = x1 + x0 x0 = aux s = s + &#x27;, &#x27; + str(x1) print(s) <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Si se llama a <code>fibonacci(6)</code>, ¿qué lista se obtiene?</p>",
+     "s": "<p><code>[0, 1, 1, 2, 3, 5, 8]</code> (<code>range(2, 7)</code> añade i = 2…6).</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "sucesión de Fibonacci",
+     "def": "<p>La sucesión definida por <math display=\"inline\"><mrow><msub><mi>F</mi><mn>0</mn></msub><mo>=</mo><mn>0</mn><mo>,</mo><msub><mi>F</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn><mo>,</mo><msub><mi>F</mi><mi>n</mi></msub><mo>=</mo><msub><mi>F</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><msub><mi>F</mi><mrow><mi>n</mi><mo>−</mo><mn>2</mn></mrow></msub></mrow></math>.</p>"
+    },
+    {
+     "t": "variable auxiliar",
+     "def": "<p>Variable adicional que se usa al intercambiar dos valores para no perder el anterior (<code>aux</code>).</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-faktoriala"
+   ],
+   "ondorengoak": [
+    "prog-fibonacci-errekurtsiboa"
+   ],
+   "iturria": "a8 · Fibonacci",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-fibonacci-errekurtsiboa",
+   "atala": "S2",
+   "mota": "metodoa",
+   "izena": "Fibonacci recursivo y árbol de llamadas",
+   "ideia": "<p>La definición de Fibonacci se programa directamente como función recursiva; el árbol de llamadas muestra que los subcálculos se repiten.</p>",
+   "enuntziatua": "<p><code></code><code>python def fibonacci_r(ite): if ite == 0: return 0 else: if ite == 1: return 1 else: return fibonacci_r(ite-1) + fibonacci_r(ite-2) </code><code></code></p><p><strong>Árbol de llamadas</strong> para <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>4</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math>: <code></code><code>text F(4) = 3 /        \\ F(3)=2    +   F(2)=1 /     \\         /    \\ F(2)=1  +  F(1)=1  F(1)=1 + F(0)=0 /   \\ F(1)=1 + F(0)=0 </code><code></code> Índices: <math display=\"inline\"><mrow><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn></mrow></math>; valores: <math display=\"inline\"><mrow><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn></mrow></math>. (Que <math display=\"inline\"><mrow><mi>F</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mn>1</mn><mo stretchy=\"false\" form=\"postfix\">)</mo></mrow></math> aparezca tres veces muestra que esta versión es menos eficiente que la iterativa.)</p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Al calcular <code>fibonacci_r(4)</code>, ¿cuántas veces se calcula <code>F(1)</code> según el árbol de llamadas?</p>",
+     "s": "<p>Tres veces (aparece en tres hojas del árbol), y F(4) = 3.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "árbol de llamadas",
+     "def": "<p>Dibujar como un árbol las llamadas de una función recursiva; cada llamada tiene sus subllamadas.</p>"
+    },
+    {
+     "t": "eficiencia",
+     "def": "<p>La cantidad de trabajo que necesita un algoritmo; en esta doble recursión los subcálculos se repiten, así que es menos eficiente que la versión iterativa.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-fibonacci-iteratiboa",
+    "prog-faktoriala"
+   ],
+   "ondorengoak": [
+    "prog-ikus-atlasa"
+   ],
+   "iturria": "a9 · Fibonacci recursivo",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-asmatzeko-jokoa",
+   "atala": "S3",
+   "mota": "metodoa",
+   "izena": "Juego de adivinar: número aleatorio y bucle",
+   "ideia": "<p>El ordenador «piensa» un número aleatorio y sigue preguntando al jugador hasta que acierte, dándole pistas.</p>",
+   "enuntziatua": "<p><code></code><code>python import random num = int(100 * random.random()) cont = 1 print(&quot;Zenbaki bat pentsatu dut, asmatu ezazu&quot;) op = int(input(&quot;Sartu zure erantzuna: &quot;)) while op != num: print(&quot;Zenbaki okerra&quot;) cont = cont + 1 if op &gt; num: print(&quot;Zenbaki txikiago bat pentsatu dut&quot;) else: print(&quot;Zenbaki handiago bat pentsatu dut&quot;) op = int(input(&quot;Sartu zure erantzuna: &quot;)) print(&quot;Zuzena!&quot;) print(&quot;&quot;, cont, &quot;saiakera erabili dituzu&quot;) </code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "número aleatorio",
+     "def": "<p><code>random.random()</code> da un número del intervalo [0, 1); multiplicado por 100 y truncado con <code>int</code>, se obtiene un entero entre 0 y 99.</p>"
+    },
+    {
+     "t": "contador",
+     "def": "<p>Variable que cuenta cuántas veces ha ocurrido un suceso (<code>cont = cont + 1</code>).</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-faktoriala"
+   ],
+   "ondorengoak": [
+    "prog-itsas-borroka"
+   ],
+   "iturria": "a7 · Juego de adivinar",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "prog-urte-bisustua",
+   "atala": "S3",
+   "mota": "metodoa",
+   "izena": "Año bisiesto: condiciones anidadas y expresión lógica",
+   "ideia": "<p>La regla del año bisiesto se puede escribir de dos maneras: con <code>if</code> anidados o con una única condición lógica (<code>and</code>, <code>or</code>).</p>",
+   "enuntziatua": "<p><code></code><code>python def es_bisiesto(num): if num % 4 == 0: if num % 100 != 0: return True else: return False else: return False </code><code></code></p>",
+   "formula": "",
+   "azalpena": "<p><code></code><code>python def es_bisiesto(num): if (num % 4 == 0 and num % 100 != 0) or (num % 400 == 0): return True    # en el original % 1; debe ser % 100 y simplificar la 2.ª cláusula else: return False </code><code></code></p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Según la regla del calendario gregoriano, ¿qué devolvería <code>es_bisiesto</code> para los años 1900, 2000 y 2024?</p>",
+     "s": "<p>1900: <code>False</code> (divisible por 100, no por 400). 2000: <code>True</code> (divisible por 400). 2024: <code>True</code> (divisible por 4, no por 100).</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "condicional (if/elif/else)",
+     "def": "<p>Estructura que ejecuta un bloque de instrucciones según una condición.</p>"
+    },
+    {
+     "t": "expresión lógica",
+     "def": "<p>Condición formada con los operadores <code>and</code>, <code>or</code>, <code>not</code>, que da <code>True</code> o <code>False</code>.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-zenbaki-lehenak"
+   ],
+   "ondorengoak": [
+    "prog-aulki-prezioak",
+    "prog-ord-chr-letra-tartea",
+    "prog-ikus-atlasa"
+   ],
+   "iturria": "a10 · Año bisiesto",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-aulki-prezioak",
+   "atala": "S3",
+   "mota": "metodoa",
+   "izena": "Control de entrada y cadena de descuentos: precios de sillas",
+   "ideia": "<p>El programa valida con un bucle el modelo que introduce el usuario, y aplica un descuento según la cantidad.</p>",
+   "enuntziatua": "<p>Programa de examen: calcula el <strong>precio</strong> de un pedido de sillas según el <strong>modelo</strong> y la <strong>cantidad</strong>, con <strong>validación de la entrada</strong>.</p><p><code></code><code>python numsillas = int(input(&quot;Introduce el número de sillas&quot;)) modelo = input(&quot;Introduce el modelo&quot;) while modelo != &quot;AAA&quot; and modelo != &quot;ISAAA&quot; and modelo != &quot;GYAYS&quot;: modelo = input(&quot;Modelo no encontrado. Introduce el modelo&quot;)</code></p><p>if modelo == &quot;AAA&quot;: precio = numsillas <strong> 35 elif modelo == &quot;ISAAA&quot;: precio = numsillas </strong> 43 elif modelo == &quot;GYAYS&quot;: precio = numsillas <strong> 54 else: precio = numsillas </strong> 67          # inalcanzable: el while valida el modelo</p><p>if numsillas &gt;= 4: precio = precio <strong> 0.9 elif numsillas &gt;= 6:                 # inalcanzable: &gt;=4 ya lo captura precio = precio </strong> 0.85 elif numsillas &gt;= 8: precio = precio <strong> 0.80 elif numsillas &gt;= 10: precio = precio </strong> 0.75</p><p>print(numsillas, &quot;sillas del modelo&quot;, modelo, &quot;cuestan&quot;, precio) <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "validación de entrada",
+     "def": "<p>Comprobar que el dato introducido por el usuario es admisible y, si no lo es, volver a pedirlo.</p>"
+    },
+    {
+     "t": "código inalcanzable",
+     "def": "<p>Fragmento de código que nunca se ejecutará, porque las condiciones anteriores lo atrapan siempre.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-urte-bisustua"
+   ],
+   "ondorengoak": [
+    "prog-lee-koordenada"
+   ],
+   "iturria": "a17 · Cálculo de precios de sillas",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "prog-ord-chr-letra-tartea",
+   "atala": "S3",
+   "mota": "notazioa",
+   "izena": "ord, chr y condición de intervalo de letras",
+   "ideia": "<p><code>ord</code> convierte un carácter en su código numérico y <code>chr</code> al revés; para clasificar letras se usan comparaciones.</p>",
+   "enuntziatua": "<p><code></code><code>python ord(&#x27;a&#x27;)   # -&gt; 97   (código a partir del carácter) chr(97)    # -&gt; &#x27;a&#x27;  (carácter a partir del código) # ord(&#x27;A&#x27;) = 65,  ord(&#x27;a&#x27;) = 97 </code><code></code></p>",
+   "formula": "",
+   "azalpena": "<p><code></code><code>python if letra &gt;= &quot;A&quot; and letra &lt;= &quot;b&quot;:   # en el original; véase la nota ... # minúsculas: letra &gt;= &#x27;a&#x27; and letra &lt;= &#x27;z&#x27; # mayúsculas: letra &gt;= &#x27;A&#x27; and letra &lt;= &#x27;Z&#x27; </code><code></code></p><p>Ficheros de entrada/salida: <code>texto.txt</code> (para cifrar), <code>texto_codificado.txt</code> (para descifrar).</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>¿Cuánto es <code>ord('c')</code>? ¿Y qué carácter es <code>chr(100)</code>?</p>",
+     "s": "<p><code>ord('c') = 99</code> (<code>ord('a') = 97</code> y c es la tercera letra del alfabeto). <code>chr(100) = 'd'</code>.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "código ASCII",
+     "def": "<p>El número asignado a cada carácter (por ejemplo <code>'A'</code> = 65, <code>'a'</code> = 97).</p>"
+    },
+    {
+     "t": "cifrado César",
+     "def": "<p>Cifrado sencillo que desplaza cada letra <math display=\"inline\"><mi>k</mi></math> posiciones en el alfabeto, volviendo al principio al llegar al final.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-urte-bisustua"
+   ],
+   "ondorengoak": [],
+   "iturria": "a11 · ord / chr y ASCII; Condición de intervalo de letras",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-lee-koordenada",
+   "atala": "S3",
+   "mota": "metodoa",
+   "izena": "Validación de coordenadas en una función (refactoring)",
+   "ideia": "<p>La lógica de validación que se repite una y otra vez la reunimos en una sola función, que recibe el mensaje como parámetro.</p>",
+   "enuntziatua": "<p>En el hundir la flota anterior la validación de coordenadas se repetía <strong>dos veces</strong> (<code>x</code> e <code>y</code>). Aquí esa lógica se reúne en <strong>una sola función</strong>, que toma el <strong>mensaje como parámetro</strong>: <strong>reutilización</strong>.</p><p><code></code><code>python def lee_coordenada(mensaje): valido = False while not valido: dato = input(mensaje) if not dato.isdigit(): print(&quot;Debes introducir un número&quot;) else: coord = int(dato) - 1 if coord &lt; 0 or coord &gt; 9: print(&quot;Introduce un número del 1 al 10&quot;) else: return coord </code><code></code></p><p>La función hace <strong>dos validaciones</strong>: (1) si la entrada está formada <strong>solo por dígitos</strong> (<code>isdigit()</code>), y (2) si está <strong>dentro del intervalo</strong> (<math display=\"inline\"><mn>1</mn></math>–<math display=\"inline\"><mn>10</mn></math>, convertido con la resta de <math display=\"inline\"><mrow><mi>−</mi><mn>1</mn></mrow></math> en <math display=\"inline\"><mn>0</mn></math>–<math display=\"inline\"><mn>9</mn></math>).</p><p><em class=\"j-nab\">\n  El método <code>isdigit()</code> da una <strong>validación más robusta</strong>: <code>int()</code> <strong>fallaría</strong> directamente\n  (error) con una entrada que no sea un número; con <code>isdigit()</code> se comprueba primero.\n</em></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "refactorización",
+     "def": "<p>Mejorar la estructura del código sin cambiar su comportamiento, por ejemplo reuniendo una repetición en una función.</p>"
+    },
+    {
+     "t": "parámetro",
+     "def": "<p>El valor que una función recibe cuando se la llama (aquí <code>mensaje</code>).</p>"
+    },
+    {
+     "t": "isdigit()",
+     "def": "<p>Método que dice si una cadena está formada solo por cifras; sirve para evitar errores antes de llamar a <code>int()</code>.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-itsas-borroka",
+    "prog-aulki-prezioak"
+   ],
+   "ondorengoak": [],
+   "iturria": "a21 · lee_coordenada",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "prog-fitxategi-moduak",
+   "atala": "S4",
+   "mota": "notazioa",
+   "izena": "Abrir ficheros: modos r, w y a",
+   "ideia": "<p>Al abrir un fichero hay que indicar el modo: para leer (<code>r</code>), para escribir sobrescribiendo (<code>w</code>) o para escribir añadiendo al final (<code>a</code>).</p>",
+   "enuntziatua": "<p><math display=\"block\"><mrow><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> -r (read): irakurri</mtext></mrow><mo>;</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> -w (write): gainidatzi</mtext></mrow><mo>;</mo><mspace width=\"1.0em\"></mspace><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> -a (append): amaieran idatzi. </mtext><mspace width=\"0.333em\"></mspace></mrow></mrow></math></p>",
+   "formula": "",
+   "azalpena": "<p><em class=\"j-nab\">\n  Modos de fichero: <code>open(&quot;...&quot;, &quot;r&quot;)</code> <strong>leer</strong>, <code>&quot;w&quot;</code> <strong>escribir</strong> (sobrescribir), <code>&quot;a&quot;</code> <strong>añadir</strong>. Ejemplo:\n  leer un fichero línea a línea (<code>f.read()</code>, <code>append</code> a una lista), cerrar (<code>f.close()</code>), y en otro\n  en modo <code>write</code> escribir cada elemento con un bucle.\n</em></p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Si no quieres perder el contenido que tenía antes el fichero, ¿en qué modo hay que abrirlo para escribir?</p>",
+     "s": "<p>En modo <code>\"a\"</code> (append); <code>\"w\"</code> borra el contenido y lo sobrescribe.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "abrir un fichero",
+     "def": "<p><code>open(izena, modua)</code> prepara un fichero para usarlo en el programa; al final hay que hacer <code>close()</code>.</p>"
+    },
+    {
+     "t": "leer/escribir/añadir",
+     "def": "<p>Los tres modos de apertura: <code>r</code> (read), <code>w</code> (write, sobrescribir) y <code>a</code> (append, escribir al final).</p>"
+    }
+   ],
+   "aurrekoak": [],
+   "ondorengoak": [
+    "prog-fitxategiak-txandakatzea",
+    "prog-karaktereak-kontatu-hitza-bilatu",
+    "prog-karaktere-debekatuak",
+    "prog-bokal-kontagailua"
+   ],
+   "iturria": "a6 · Modos de apertura; a26 · Trabajar con ficheros",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-fitxategiak-txandakatzea",
+   "atala": "S4",
+   "mota": "metodoa",
+   "izena": "Alternar las líneas de dos ficheros",
+   "ideia": "<p>Las líneas de dos ficheros se escriben alternadamente en un tercero, y cuando uno termina se copia el resto del otro.</p>",
+   "enuntziatua": "<p><code></code><code>python f1 = open(&quot;fich.txt&quot;, &quot;r&quot;) f2 = open(&quot;fich2.txt&quot;, &quot;r&quot;) linea1 = f1.readline() linea2 = f2.readline() f3 = open(&quot;destino.txt&quot;, &quot;w&quot;)     # en el original falta OPEN</code></p><p>while linea1 != &quot;&quot; and linea2 != &quot;&quot;: f3.write(linea1) f3.write(linea2) linea1 = f1.readline() linea2 = f2.readline()</p><p>while linea1 != &quot;&quot;:               # resto de f1 f3.write(linea1) linea1 = f1.readline() while linea2 != &quot;&quot;:               # resto de f2 f3.write(linea2) linea2 = f2.readline() f3.close() <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "fin de fichero",
+     "def": "<p><code>readline()</code> devuelve la cadena vacía (<code>\"\"</code>) cuando no quedan líneas por leer.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-fitxategi-moduak"
+   ],
+   "ondorengoak": [],
+   "iturria": "a7 · Alternar las líneas de dos ficheros",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "prog-karaktereak-kontatu-hitza-bilatu",
+   "atala": "S4",
+   "mota": "metodoa",
+   "izena": "Contar caracteres y buscar una palabra en un fichero",
+   "ideia": "<p>Leemos el fichero como una cadena entera: el número de caracteres se cuenta con un bucle o con <code>len</code>, y para ver si hay una palabra se mira con <code>in</code>.</p>",
+   "enuntziatua": "<p><code></code><code>python def kalkopurua():          # versión 1: con bucle f = open(&quot;texto.txt&quot;, &quot;r&quot;) datos = f.read() kop = 0 for karakter in datos: kop = kop + 1 return kop</code></p><p>def kalkopurua():          # versión 2: len() f = open(&quot;texto.txt&quot;, &quot;r&quot;) datos = f.read() return len(datos) <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "<p><code></code><code>python def organitu(fich, palabra): f = open(fich, &quot;r&quot;) datos = f.read() palabras = datos.split() if palabra in palabras: return True else: return False </code><code></code></p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Si el contenido del fichero es <code>\"kaixo mundua\"</code>, ¿cuánto devuelve <code>kalkopurua()</code>? ¿Y <code>organitu(fich, \"mundua\")</code>?</p>",
+     "s": "<p><code>kalkopurua()</code> = 12 (11 letras y un espacio). <code>organitu(fich, \"mundua\")</code> = <code>True</code>, porque \"mundua\" está en la lista de palabras.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "split()",
+     "def": "<p>Método que separa una cadena en palabras, devolviendo una lista de palabras.</p>"
+    },
+    {
+     "t": "len()",
+     "def": "<p>Función que da la longitud (número de elementos) de una cadena o de una lista.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-fitxategi-moduak"
+   ],
+   "ondorengoak": [
+    "prog-hitzen-portzentajea",
+    "prog-histograma"
+   ],
+   "iturria": "a16 · kalkopurua, organitu",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-hitzen-portzentajea",
+   "atala": "S4",
+   "mota": "metodoa",
+   "izena": "Porcentaje de aparición de palabras",
+   "ideia": "<p>Contamos cuántas veces aparece una palabra en un texto y dividimos por el número total de palabras, para obtener el porcentaje.</p>",
+   "enuntziatua": "<p>Programa que compara las palabras de una cadena de búsqueda con una cadena de referencia y calcula el porcentaje de aparición de cada una.</p><p><code></code><code>python busqueda = input(&quot;Sartu bilaketa-katea&quot;) cadena   = input(&quot;Sartu erreferentzia-katea&quot;) lbus    = busqueda.split() lcadena = cadena.split() tamano  = len(lcadena) for pbus in lbus: por = 0 for pcad in lcadena: if pbus == pcad: por = por + 1 print(&quot;«&quot;, pbus, &quot;» hitza agertzen da&quot;, 100*por/tamano, &quot;%&quot;) </code><code></code></p>",
+   "formula": "",
+   "azalpena": "<p>Dividir las frases en listas de palabras con <code>split()</code>, y contar las apariciones de una palabra con <strong>bucles anidados</strong>:</p><p><code></code><code>python LFRASE = FRASE.split() LBUS = BUS.split() kont = 0 for PALABRA in LBUS: for j in LFRASE: if PALABRA == j: kont += 1 portzentaia = 100 * kont / len(LFRASE) </code><code></code></p><p>Leer un fichero, dividirlo en palabras, y calcular el <strong>porcentaje de palabras que contienen <code>e</code></strong>:</p><p><code></code><code>python f = open(&quot;fich.txt&quot;, &quot;r&quot;) d = f.read() lista_palabras = d.split(&quot; &quot;) contador = 0 for palabra in lista_palabras: if &#x27;e&#x27; in palabra: contador = contador + 1 print(&quot;El porcentaje de palabras con la letra e es:&quot;, 100 * contador / len(lista_palabras)) </code><code></code></p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Si la cadena de referencia es <code>\"a b a c\"</code> y la palabra buscada es <code>\"a\"</code>, ¿qué porcentaje se imprime?</p>",
+     "s": "<p><code>a</code> aparece dos veces entre 4 palabras: 100·2/4 = <code>50.0</code> %.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "bucle anidado",
+     "def": "<p>Bucle que está dentro de otro bucle; el exterior toma una palabra y el interior busca las apariciones de esa palabra.</p>"
+    },
+    {
+     "t": "porcentaje",
+     "def": "<p>Una parte respecto al total, por 100: <code>100 * kont / len(...)</code>.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-karaktereak-kontatu-hitza-bilatu"
+   ],
+   "ondorengoak": [
+    "prog-karaktere-debekatuak"
+   ],
+   "iturria": "a5; a26 · Comparar frases; a18 · Palabras con la letra e",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-karaktere-debekatuak",
+   "atala": "S4",
+   "mota": "metodoa",
+   "izena": "Filtro de caracteres prohibidos",
+   "ideia": "<p>Se leen líneas del fichero de entrada y las palabras que no tienen ningún carácter prohibido se escriben en el fichero de salida.</p>",
+   "enuntziatua": "<ul><li><code>esta_en_matriz(A, C)</code>: si la lista <code>A</code> está dentro de la lista de listas <code>C</code> (<math display=\"inline\"><mrow><mi>A</mi><mrow><mspace width=\"0.333em\"></mspace><mtext mathvariant=\"normal\"> in </mtext><mspace width=\"0.333em\"></mspace></mrow><mi>C</mi></mrow></math>). En el original queda <strong>sin completar</strong>.</li><li><strong>Caracteres prohibidos:</strong> leer del fichero de entrada, escribir en el fichero de salida las líneas sin caracteres prohibidos. Aquí se empieza (<code>open</code> r/w, contar líneas) y en <code>p144</code> se <strong>completa</strong>.</li></ul>",
+   "formula": "",
+   "azalpena": "<p>Para cada palabra, mirar si contiene los <strong>caracteres prohibidos</strong> (<code>cadena</code>); si está limpia, añadirla a la línea y escribirla en el fichero de salida:</p><p><code></code><code>python while i &lt; len(cadena) and correcta: if cadena[i] in palabra: correcta = False i = i + 1 if correcta: linea_w = linea_w + palabra + &quot; &quot; fl.write(linea_w + &quot;\\n&quot;) numlinea = numlinea + 1 fe.close() fl.close() </code><code></code></p><p>(El tema «Caracteres permitidos» se deja <strong>para hacer en casa</strong>.)</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "filtro",
+     "def": "<p>Programa que examina los datos y guarda solo los que han cumplido la condición.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-fitxategi-moduak",
+    "prog-hitzen-portzentajea"
+   ],
+   "ondorengoak": [],
+   "iturria": "a18 · Otros dos programas (empezados); a19 · Cierre de caracteres prohibidos",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "prog-bokal-kontagailua",
+   "atala": "S5",
+   "mota": "metodoa",
+   "izena": "Contador de vocales con un diccionario",
+   "ideia": "<p>Un diccionario asocia cada letra (la clave) con su número de apariciones (el valor); si la letra es nueva se crea, y si no se incrementa el contador.</p>",
+   "enuntziatua": "<p><code></code><code>python def vocales(nombre): f = open(nombre, &quot;r&quot;) linea = f.readline() dic = {}                 # en el original [ ]; hace falta un diccionario while linea != &quot;&quot;:       # en el original &quot; &quot;; hace falta la cadena vacía &quot;&quot; for letra in linea: if letra == &#x27;a&#x27; or letra == &#x27;e&#x27; or ...:   # (etc.) if letra in dic: dic[letra] += 1 else: dic[letra] = 1 linea = f.readline() return dic</code></p><p>nombre = input(&quot;Sartu fitxategiaren izena: &quot;) diccionario = vocales(nombre) for elemento in diccionario: print(&quot;«&quot;, elemento, &quot;» bokala agertzen da&quot;, diccionario[elemento], &quot;aldiz&quot;) print(&quot;Fitxategiak&quot;, len(diccionario), &quot;bokal ditu&quot;) <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "<p><code></code><code>python FRASE = input() DIC = {} for LETRA in FRASE: if LETRA in &quot;aeiou&quot;: if LETRA in DIC: DIC[LETRA] += 1 else: DIC[LETRA] = 1 </code><code></code></p><p>El <strong>diccionario</strong> (<code>DIC</code>) guarda el número de apariciones de cada letra; la clave es la letra, el valor el contador.</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Siendo <code>FRASE = \"kaixo\"</code>, ¿qué diccionario queda al final del programa?</p>",
+     "s": "<p><code>{'a': 1, 'i': 1, 'o': 1}</code> (<code>k</code> y <code>x</code> no son vocales).</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "diccionario (dict)",
+     "def": "<p>Colección de pares clave-valor, escrita como <code>{giltza: balioa}</code>; se accede al valor por la clave (<code>dic[giltza]</code>).</p>"
+    },
+    {
+     "t": "clave",
+     "def": "<p>El identificador de cada elemento del diccionario; se usa para buscar el valor.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-fitxategi-moduak"
+   ],
+   "ondorengoak": [
+    "prog-histograma"
+   ],
+   "iturria": "a6 · Contar vocales; a23 · Contador de vocales",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-histograma",
+   "atala": "S5",
+   "mota": "metodoa",
+   "izena": "Histograma de palabras y hitzkop",
+   "ideia": "<p>El histograma guarda en un diccionario cuántas veces aparece cada palabra; <code>hitzkop</code> devuelve las palabras que tienen una frecuencia dada.</p>",
+   "enuntziatua": "<p>Leer el fichero línea a línea, dividir en palabras, y <strong>contar</strong> en el diccionario. Por ejemplo, &quot;hola qué tal hola&quot; <math display=\"inline\"><mo>→</mo></math> <code>{hola: 2, qué: 1, tal: 1}</code>.</p><p><code></code><code>python def histograma(): f = open(&quot;fichero.txt&quot;, &quot;r&quot;) h = {} for linea in f: palabras = linea.split() for palabra in palabras: if palabra in h: h[palabra] = h[palabra] + 1 else: h[palabra] = 1 return h </code><code></code></p>",
+   "formula": "",
+   "azalpena": "<p><strong>Especificación:</strong> abrir el fichero en modo lectura, crear un diccionario vacío, dividir el contenido en palabras, y contar cada palabra en el diccionario.</p><p><code></code><code>python def histograma(): f = open(&quot;texto.txt&quot;, &quot;r&quot;) dic = {} texto = f.read() for palabra in texto.split(): if palabra in dic: dic[palabra] = dic[palabra] + 1   # en el original dic(palabra); correcto: [] else: dic[palabra] = 1 return dic </code><code></code></p><p>Dados el histograma (<code>h</code>) y un número (<code>n</code>), devuelve la lista de <strong>palabras cuya frecuencia es <math display=\"inline\"><mi>n</mi></math></strong>:</p><p><code></code><code>python def hitzkop(h, n): lista = [] for clave in h: if h[clave] == n: lista.append(clave) return lista </code><code></code></p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>¿Qué son el histograma del texto <code>\"hola qué tal hola\"</code> y <code>hitzkop(h, 1)</code>?</p>",
+     "s": "<p>Histograma: <code>{'hola': 2, 'qué': 1, 'tal': 1}</code>. <code>hitzkop(h, 1)</code> = <code>['qué', 'tal']</code>.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "histograma",
+     "def": "<p>Tabla que indica cuántas veces aparece cada elemento (la frecuencia).</p>"
+    },
+    {
+     "t": "frecuencia",
+     "def": "<p>Cuántas veces se repite un suceso o un elemento.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-bokal-kontagailua",
+    "prog-karaktereak-kontatu-hitza-bilatu"
+   ],
+   "ondorengoak": [
+    "prog-hiztegia-alderantzikatzea",
+    "prog-taldekatzea-organizar2",
+    "prog-ikus-atlasa"
+   ],
+   "iturria": "a13 · histograma; a14 · hitzkop; a15 · Histograma",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-hiztegia-alderantzikatzea",
+   "atala": "S5",
+   "mota": "metodoa",
+   "izena": "Invertir el diccionario",
+   "ideia": "<p>A partir del histograma se construye otro diccionario en el que cada frecuencia tiene su lista de palabras.</p>",
+   "enuntziatua": "<p>A partir del histograma (<code>{palabra: frecuencia}</code>) se construye otro diccionario (<code>{frecuencia: [palabras]}</code>): a cada frecuencia se le asocia la <strong>lista</strong> de palabras que tienen esa frecuencia.</p><p><code></code><code>python dic1 = histograma() dic2 = {} for llave in dic1: if dic1[llave] in dic2: dic2[dic1[llave]].append(llave) else: dic2[dic1[llave]] = [llave] </code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>¿Qué se obtiene al invertir el diccionario <code>{'hola': 2, 'qué': 1, 'tal': 1}</code>?</p>",
+     "s": "<p><code>{2: ['hola'], 1: ['qué', 'tal']}</code>.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "diccionario invertido",
+     "def": "<p>Diccionario que convierte los valores en claves; los valores repetidos forman una lista.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-histograma"
+   ],
+   "ondorengoak": [],
+   "iturria": "a15 · Invertir el diccionario",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-taldekatzea-organizar2",
+   "atala": "S5",
+   "mota": "metodoa",
+   "izena": "Agrupar líneas: organizar2",
+   "ideia": "<p>En cada línea del fichero las tres primeras palabras son la clave y las demás, la lista de valores.</p>",
+   "enuntziatua": "<p>Leer el fichero (<code>noticias.txt</code>) <strong>línea a línea</strong>; las <strong>tres primeras palabras</strong> de cada línea son la clave, y las <strong>demás palabras</strong> la lista de valores.</p><p><code></code><code>python def organizar2(): f = open(&quot;noticias.txt&quot;, &quot;r&quot;) dic = {} for linea in f.readlines(): palabras = linea.split() key = palabras[0] + &quot; &quot; + palabras[1] + &quot; &quot; + palabras[2] dic[key] = [] for i in range(3, len(palabras)): dic[key].append(palabras[i]) return dic </code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "clave compuesta",
+     "def": "<p>Clave formada uniendo varias palabras (<code>palabras[0] + \" \" + palabras[1] + ...</code>).</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-histograma"
+   ],
+   "ondorengoak": [],
+   "iturria": "a16 · organizar2",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "prog-bilaketa-lineala",
+   "atala": "S6",
+   "mota": "metodoa",
+   "izena": "Búsqueda lineal en una lista ordenada",
+   "ideia": "<p>La lista se examina posición a posición hasta encontrar el elemento; si está ordenada, cuando se sobrepasa el elemento podemos saber que no está.</p>",
+   "enuntziatua": "<p>Devuelve el <strong>índice</strong> del elemento, o <math display=\"inline\"><mrow><mi>−</mi><mn>1</mn></mrow></math> si no está. Suponiendo que el vector está <strong>ordenado</strong>, <math display=\"inline\"><mrow><mi>−</mi><mn>1</mn></mrow></math> devuelve antes, al sobrepasar el elemento:</p><p><code></code><code>python def posicion(vector, elemento): for i in range(len(vector)): if elemento == vector[i]: return i elif elemento &lt; vector[i]: return -1 return -1 </code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>¿Qué son <code>posicion([2, 4, 6], 4)</code> y <code>posicion([2, 4, 6], 5)</code>?</p>",
+     "s": "<p><code>1</code> (4 está en el índice 1) y <code>-1</code> (cuando 5 &lt; 6 se detiene enseguida y devuelve -1).</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "búsqueda lineal",
+     "def": "<p>Examinar la lista de principio a fin para buscar un elemento.</p>"
+    },
+    {
+     "t": "ordenada",
+     "def": "<p>Una lista está ordenada cuando sus elementos están colocados de menor a mayor (o al revés).</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-zatitzaileen-zerrenda"
+   ],
+   "ondorengoak": [],
+   "iturria": "a18 · posicion",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-polinomioak-batuketa-kenketa",
+   "atala": "S6",
+   "mota": "metodoa",
+   "izena": "Suma y resta de polinomios",
+   "ideia": "<p>Un polinomio se guarda como lista de coeficientes (índice = potencia); los coeficientes se suman o se restan de dos en dos.</p>",
+   "enuntziatua": "<p><code></code><code>python def sumapoli(p1, p2): if len(p2) &gt; len(p1):      # para que p1 sea el más largo aux = p1; p1 = p2; p2 = aux rgt = [] for i in range(0, len(p2)): rgt.append(p1[i] + p2[i]) for i in range(len(p2), len(p1)): rgt.append(p1[i]) return rgt</code></p><p>def restapoli(p1, p2): correccion = 1 if len(p2) &gt; len(p1): aux = p1; p1 = p2; p2 = aux correccion = -1        # si se ha intercambiado, para obtener p1-p2 rgt = [] for i in range(len(p2)): rgt.append((p1[i] - p2[i]) <strong> correccion) for i in range(len(p2), len(p1)): rgt.append(p1[i] </strong> correccion) return rgt <code></code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>¿Qué es <code>sumapoli([1, 2], [3, 4, 5])</code>? ¿A qué polinomio corresponde?</p>",
+     "s": "<p><code>[4, 6, 5]</code>, es decir, <math display=\"inline\"><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mi>x</mi><mo>)</mo><mo>+</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>)</mo><mo>=</mo><mn>4</mn><mo>+</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math>.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "lista de coeficientes",
+     "def": "<p>Representar un polinomio como una lista: <code>[a0, a1, a2]</code> = <math display=\"inline\"><mrow><msub><mi>a</mi><mn>0</mn></msub><mo>+</mo><msub><mi>a</mi><mn>1</mn></msub><mi>x</mi><mo>+</mo><msub><mi>a</mi><mn>2</mn></msub><msup><mi>x</mi><mn>2</mn></msup></mrow></math>.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-zatitzaileen-zerrenda"
+   ],
+   "ondorengoak": [
+    "prog-polinomioak-biderketa-ebaluazioa"
+   ],
+   "iturria": "a10 · Suma y resta de polinomios",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-polinomioak-biderketa-ebaluazioa",
+   "atala": "S6",
+   "mota": "metodoa",
+   "izena": "Multiplicación, presentación y evaluación de polinomios",
+   "ideia": "<p>En la multiplicación cada coeficiente se multiplica por los demás (acumulando en la posición <math display=\"inline\"><mrow><mi>i</mi><mo>+</mo><mi>j</mi></mrow></math>); en la evaluación el polinomio se calcula en puntos.</p>",
+   "enuntziatua": "<p>Partiendo de la lista de coeficientes vacía, con un <strong>doble bucle for</strong> se combinan los coeficientes:</p><p><code></code><code>python def BiderPoli(p1, p2): BID = [0] * (len(p1) + len(p2) - 1) for i in range(len(p1)): for j in range(len(p2)): BID[i + j] += p1[i] * p2[j] return BID </code><code></code></p>",
+   "formula": "",
+   "azalpena": "<p><code>MostrarPoli(p)</code>: muestra la lista de coeficientes (<math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>9</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>) como una <strong>cadena</strong> («<math display=\"inline\"><mrow><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>9</mn></mrow></math>»), cuidando los <strong>casos especiales</strong> (no mostrar el coeficiente <math display=\"inline\"><mn>0</mn></math>).</p><p><em class=\"j-nab\">\n  Evaluación: por el método de <math display=\"inline\"><mrow><mi>m</mi><mo>=</mo><mi>m</mi><mo>+</mo><mi>p</mi><mo stretchy=\"false\" form=\"prefix\">(</mo><mi>x</mi><mo stretchy=\"false\" form=\"postfix\">)</mo><mo>⋅</mo><msup><mi>x</mi><mi>k</mi></msup></mrow></math>, se suma multiplicando cada coeficiente por la potencia correspondiente.\n</em></p><p>Un polinomio (p. ej. <math display=\"inline\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>5</mn></mrow></math>) se evalúa en un <strong>conjunto de puntos</strong> (p. ej. <math display=\"inline\"><mrow><mo stretchy=\"false\" form=\"prefix\">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>), con los coeficientes guardados en un array/vector (índices <math display=\"inline\"><mrow><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mi>…</mi></mrow></math>).</p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>¿Qué es <code>BiderPoli([1, 1], [1, 1])</code>? ¿Y el polinomio <math display=\"inline\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>5</mn></mrow></math> evaluado en <math display=\"inline\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>?</p>",
+     "s": "<p><code>[1, 2, 1]</code>, es decir <math display=\"inline\"><mrow><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>1</mn><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math>. Evaluación: <math display=\"inline\"><mrow><mn>2</mn><mo>·</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>15</mn></mrow></math>.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "evaluación de un polinomio",
+     "def": "<p>Calcular el valor del polinomio en un valor concreto de <math display=\"inline\"><mi>x</mi></math>: multiplicar cada coeficiente por la potencia y sumar.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-polinomioak-batuketa-kenketa"
+   ],
+   "ondorengoak": [],
+   "iturria": "a24 · Evaluación del polinomio; a25 · Multiplicación, presentación y evaluación",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-matrizeak",
+   "atala": "S6",
+   "mota": "metodoa",
+   "izena": "Matrices mediante listas de listas",
+   "ideia": "<p>Una matriz se construye como lista de listas: cada elemento de la lista exterior es una fila, y <code>matriz[i][j]</code> indica un elemento.</p>",
+   "enuntziatua": "<p><strong>Construcción:</strong> matriz <math display=\"inline\"><mrow><mi>N</mi><mo>×</mo><mi>M</mi></mrow></math>, pidiendo los elementos uno a uno (<code>for i</code> / <code>for j</code> anidados; indexación <math display=\"inline\"><mrow><mtext mathvariant=\"normal\">matriz</mtext><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>i</mi><mo stretchy=\"false\" form=\"postfix\">]</mo><mo stretchy=\"false\" form=\"prefix\">[</mo><mi>j</mi><mo stretchy=\"false\" form=\"postfix\">]</mo></mrow></math>):</p><p><code></code><code>python n = 4 m = 4 matriz = [] for i in range(n): fila = [] for j in range(m): elemento = int(input(&quot;Introduce el elemento [&quot; + str(i+1) + &quot;,&quot; + str(j+1) + &quot;]&quot;)) fila.append(elemento) matriz.append(fila) print(matriz) </code><code></code></p><p><strong>Impresión con formato</strong> (línea a línea):</p><p><code></code><code>python for i in range(n): linea = &quot; &quot; for j in range(m): linea = linea + str(matriz[i][j]) + &quot; &quot; print(linea) </code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [
+    {
+     "e": "<p>Siendo <code>matriz = [[1, 2], [3, 4]]</code>, ¿qué es <code>matriz[1][0]</code>?</p>",
+     "s": "<p><code>3</code>: la fila de índice 1 (la segunda) es <code>[3, 4]</code> y su elemento 0 es 3.</p>"
+    }
+   ],
+   "terminoak": [
+    {
+     "t": "matriz",
+     "def": "<p>Tabla rectangular de números, organizada en filas y columnas; en Python se guarda como lista de listas.</p>"
+    },
+    {
+     "t": "indexación doble",
+     "def": "<p><code>matriz[i][j]</code>: primero se toma la fila <code>i</code>, y luego su elemento <code>j</code>.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-zatitzaileen-zerrenda"
+   ],
+   "ondorengoak": [
+    "prog-itsas-borroka"
+   ],
+   "iturria": "a19 · Matrices mediante listas de listas",
+   "sortua": [
+    "ideia",
+    "terminoak",
+    "ariketak"
+   ]
+  },
+  {
+   "id": "prog-itsas-borroka",
+   "atala": "S6",
+   "mota": "metodoa",
+   "izena": "Juego de hundir la flota",
+   "ideia": "<p>Se usa una matriz como tablero: se coloca un barco al azar, y los disparos del jugador se leen, se validan y se actualiza el tablero.</p>",
+   "enuntziatua": "<p><code></code><code>python import random</code></p><p>n = 10 m = 10 matriz = [] for i in range(n): fila = [] for j in range(m): fila.append(0) matriz.append(fila)</p><p>xa1 = int(random.random() <strong> 9.9) ya1 = int(random.random() </strong> 9.9) matriz[xa1][ya1] = 1 <code></code><code></code></p><p><strong>Codificación de valores:</strong> <code>0</code> sin marcar, <code>1</code> barco sin marcar, <code>10</code> agua, <code>11</code> tocado.</p>",
+   "formula": "",
+   "azalpena": "<p>Pedir las coordenadas y <strong>validarlas</strong> (de <code>1</code> a <code>10</code>; el programa les resta <math display=\"inline\"><mrow><mi>−</mi><mn>1</mn></mrow></math>, porque la matriz se indexa de <math display=\"inline\"><mn>0</mn></math> a <math display=\"inline\"><mn>9</mn></math>), comprobar si se ha tocado el barco, y verificar el <strong>hundimiento</strong>:</p><p><code></code><code>python fin = False while fin == False: coordx = int(input(&quot;X:&quot;)) - 1 while coordx &lt; 0 or coordx &gt; 9: print(&quot;Introduce un número del 1 al 10&quot;) coordx = int(input(&quot;X:&quot;)) - 1 coordy = int(input(&quot;Y:&quot;)) - 1 while coordy &lt; 0 or coordy &gt; 9: print(&quot;Introduce un número del 1 al 10&quot;) coordy = int(input(&quot;Y:&quot;)) - 1 if matriz[coordx][coordy] == 1: matriz[coordx][coordy] = 11 print(&quot;Hundido&quot;) fin = True for i in range(n): for j in range(m): if matriz[i][j] == 1: fin = False </code><code></code></p>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "estado (codificación de valores)",
+     "def": "<p>El valor de cada casilla del tablero codifica el estado: 0 sin marcar, 1 barco, 10 agua, 11 tocado.</p>"
+    },
+    {
+     "t": "índice de usuario vs índice de programa",
+     "def": "<p>El usuario escribe de 1 a 10, pero la matriz se indexa de 0 a 9; por eso se les resta 1.</p>"
+    }
+   ],
+   "aurrekoak": [
+    "prog-matrizeak",
+    "prog-asmatzeko-jokoa"
+   ],
+   "ondorengoak": [
+    "prog-lee-koordenada",
+    "prog-ikus-atlasa"
+   ],
+   "iturria": "a20 · Juego de hundir la flota",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "prog-scilab-lehen-aginduak",
+   "atala": "S7",
+   "mota": "notazioa",
+   "izena": "Scilab: primeras órdenes",
+   "ideia": "<p>Scilab es otro lenguaje de cálculo numérico; aquí se crea un vector y se dibuja la gráfica de una función sencilla.</p>",
+   "enuntziatua": "<p><code></code><code>scilab x = 1:100    // vector de enteros 1..100 y = x        // copia plot(x, y)   // dibujar la recta y = x </code><code></code></p>",
+   "formula": "",
+   "azalpena": "",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [
+    {
+     "t": "vector (Scilab)",
+     "def": "<p><code>x = 1:100</code> crea el vector de los enteros de 1 a 100.</p>"
+    },
+    {
+     "t": "plot",
+     "def": "<p>La orden de Scilab que, dados dos vectores, dibuja la gráfica de uno respecto al otro.</p>"
+    }
+   ],
+   "aurrekoak": [],
+   "ondorengoak": [],
+   "iturria": "a6 · Scilab (primeras órdenes)",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  },
+  {
+   "id": "prog-ikus-atlasa",
+   "atala": "S7",
+   "mota": "ideia",
+   "izena": "Atlas visual: flujo, recursión y estructuras de datos",
+   "ideia": "<p>Un conjunto de imágenes hace visible el flujo de control del código: conversión binaria, árbol de Fibonacci, Newton, año bisiesto, diccionarios y hundir la flota.</p>",
+   "enuntziatua": "",
+   "formula": "",
+   "azalpena": "<figure class=\"j-irudia\"><img src=\"media/irudiak/5004f8e7660b7f32.svg\" alt=\"editoriala([Para convertir de decimal a binario, se van apilando los restos de las divisiones por dos y se leen al revés.])\" width=\"278\" loading=\"lazy\"><figcaption>editoriala([Para convertir de decimal a binario, se van apilando los restos de las divisiones por dos y se leen al revés.])</figcaption></figure><figure class=\"j-irudia\"><img src=\"media/irudiak/9ec8bd1046f0ee23.svg\" alt=\"editoriala([El árbol de recursión de Fibonacci muestra que los mismos subproblemas se calculan una y otra vez; la memoización elimina la duplicación.])\" width=\"312\" loading=\"lazy\"><figcaption>editoriala([El árbol de recursión de Fibonacci muestra que los mismos subproblemas se calculan una y otra vez; la memoización elimina la duplicación.])</figcaption></figure><figure class=\"j-irudia\"><img src=\"media/irudiak/95e03c4a95d07012.svg\" alt=\"editoriala([El método de Newton usa el cero de la recta tangente en el punto actual para construir la siguiente aproximación.])\" width=\"264\" loading=\"lazy\"><figcaption>editoriala([El método de Newton usa el cero de la recta tangente en el punto actual para construir la siguiente aproximación.])</figcaption></figure><figure class=\"j-irudia\"><img src=\"media/irudiak/a3b9ee5053f07163.svg\" alt=\"editoriala([El árbol de decisión del año bisiesto muestra la prioridad de las condiciones: las pruebas de divisibilidad por 400, 100 y 4 no pueden evaluarse sin orden.])\" width=\"301\" loading=\"lazy\"><figcaption>editoriala([El árbol de decisión del año bisiesto muestra la prioridad de las condiciones: las pruebas de divisibilidad por 400, 100 y 4 no pueden evaluarse sin orden.])</figcaption></figure><figure class=\"j-irudia\"><img src=\"media/irudiak/d5fca53dd30dc78b.svg\" alt=\"editoriala([Invertir el diccionario asocia cada valor con la lista de claves que lo tenían; el histograma y los mapas de frecuencias usan la misma estructura.])\" width=\"284\" loading=\"lazy\"><figcaption>editoriala([Invertir el diccionario asocia cada valor con la lista de claves que lo tenían; el histograma y los mapas de frecuencias usan la misma estructura.])</figcaption></figure><figure class=\"j-irudia\"><img src=\"media/irudiak/f1e2004a9ab5aa6a.svg\" alt=\"editoriala([En hundir la flota la cuadrícula es una estructura de datos y la jugada una máquina de estados: leer la coordenada, validarla y actualizar la tabla.])\" width=\"332\" loading=\"lazy\"><figcaption>editoriala([En hundir la flota la cuadrícula es una estructura de datos y la jugada una máquina de estados: leer la coordenada, validarla y actualizar la tabla.])</figcaption></figure>",
+   "frogapena": "",
+   "adibideak": [],
+   "ariketak": [],
+   "terminoak": [],
+   "aurrekoak": [
+    "prog-hamartar-bitar-bihurketa",
+    "prog-fibonacci-errekurtsiboa",
+    "prog-newton-erro-karratua",
+    "prog-urte-bisustua",
+    "prog-histograma",
+    "prog-itsas-borroka"
+   ],
+   "ondorengoak": [],
+   "iturria": "a27-a29 · Atlas visual",
+   "sortua": [
+    "ideia",
+    "terminoak"
+   ]
+  }
+ ]
+}

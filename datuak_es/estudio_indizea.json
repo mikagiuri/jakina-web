@@ -1,0 +1,196 @@
+{
+ "kapituluak": [
+  {
+   "clave": "00aa_02logika",
+   "izenburua": "B1 · Lógica de primer orden",
+   "kontzeptuak": 95,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01ma_01espazioak",
+   "izenburua": "B2 - Fundamentos de álgebra y espacios vectoriales (I)",
+   "kontzeptuak": 44,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01ma_02matrizeak",
+   "izenburua": "B2 - Matrices, sistemas y determinantes (II)",
+   "kontzeptuak": 36,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01ma_03diagonalizazioa",
+   "izenburua": "B2 · Aplicaciones lineales y diagonalización (I)",
+   "kontzeptuak": 45,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01ma_04algebra2013",
+   "izenburua": "B2 · Álgebra lineal y geometría (algebra2013)",
+   "kontzeptuak": 49,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01ma_06geometria2",
+   "izenburua": "B2 · Geometría y cuadernos (IV)",
+   "kontzeptuak": 25,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01mc_01deribatuak",
+   "izenburua": "B3 - Cálculo y análisis - I",
+   "kontzeptuak": 40,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01mc_02funtzioak",
+   "izenburua": "B3 · Cálculo y análisis (I) — cuadernos II",
+   "kontzeptuak": 59,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01mc_03integralak",
+   "izenburua": "B3 · Cálculo y análisis (II): integración",
+   "kontzeptuak": 44,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01mc_04funtzioserieak",
+   "izenburua": "B3 · Cálculo y análisis (III)",
+   "kontzeptuak": 31,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "01mc_06ebazpenak",
+   "izenburua": "B3 · Cálculo y análisis (V): problemas resueltos",
+   "kontzeptuak": 32,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "02k1_01kimika",
+   "izenburua": "B5 - Kimika",
+   "kontzeptuak": 40,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "03mm_01goiordena",
+   "izenburua": "B6 · Métodos matemáticos 2/9 — EDO: orden superior, funciones generalizadas y sistemas de ecuaciones",
+   "kontzeptuak": 52,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "03mm_02serieak",
+   "izenburua": "B6 · Métodos matemáticos 4/9 · Resolución por series y métodos aproximados",
+   "kontzeptuak": 44,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "03mm_04sturm",
+   "izenburua": "B6 · Métodos matemáticos 6/9 — Sturm–Liouville y funciones de Green",
+   "kontzeptuak": 50,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "03mm_05edp",
+   "izenburua": "B6 · Métodos matemáticos 7/9: Ecuaciones en derivadas parciales",
+   "kontzeptuak": 47,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "03mm_06probabilitatea",
+   "izenburua": "B6 · Métodos matemáticos 8/9 · Probabilidad",
+   "kontzeptuak": 38,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "03mm_07estatistika",
+   "izenburua": "B6.9 - Estadística: muestreo, estimación e hipótesis (tema 11)",
+   "kontzeptuak": 39,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "03mm_08kaosa",
+   "izenburua": "B6D - Caos y atractores extraños (ampliación fuera de temario)",
+   "kontzeptuak": 6,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "04em_02erradiazioa",
+   "izenburua": "B08.2 · Griffiths 9–12 y M24 Óptica",
+   "kontzeptuak": 52,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "05mk_01kontzeptuak",
+   "izenburua": "B9.1 - Conceptos básicos",
+   "kontzeptuak": 31,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "05mk_02higiduraerl",
+   "izenburua": "B9 · Mecánica clásica 2/10 · Movimiento relativo",
+   "kontzeptuak": 25,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "05mk_04zentralak",
+   "izenburua": "B9 · Mecánica clásica 4/10 · Fuerzas centrales",
+   "kontzeptuak": 37,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "05mk_05solidoa",
+   "izenburua": "B9 · Mecánica clásica 5/10 · Sólido rígido",
+   "kontzeptuak": 27,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "05mk_06analitikoa",
+   "izenburua": "B9 · Mecánica clásica 6/10 · Mecánica analítica y dispositivos de Lagrange",
+   "kontzeptuak": 42,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "05mk_07oszilazioak",
+   "izenburua": "B9.7 - Pequeñas oscilaciones",
+   "kontzeptuak": 44,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "05mk_08kaosa",
+   "izenburua": "B9 · Mecánica clásica 8/10 · Caos determinista",
+   "kontzeptuak": 16,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "05mk_09uhinak",
+   "izenburua": "B9 · Mecánica clásica 9/10 · Ondas",
+   "kontzeptuak": 53,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "05mk_10jarraituak",
+   "izenburua": "B9 · Mecánica clásica 10/10 · Medios continuos",
+   "kontzeptuak": 48,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "06fm_01kuantika",
+   "izenburua": "B10.1 - M26 Física cuántica",
+   "kontzeptuak": 26,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "07fe_01estatistikoa",
+   "izenburua": "B10.2 · Física estadística",
+   "kontzeptuak": 30,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "09zz_01programazioa",
+   "izenburua": "B10.3 · M28 Programación y algoritmos",
+   "kontzeptuak": 30,
+   "egoera": "proposamena"
+  }
+ ]
+}
