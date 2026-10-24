@@ -1,6 +1,15 @@
 {
  "sarrerak": [
   {
+   "t": "(E, cp) transformazioa",
+   "def": "<p>E eta momentua (px, py, pz) (ct, x, y, z)-ren Lorentz-modura transformatzen dira: E = γ(E′ + v·px′), px = γ(px′ + vE′/c²).</p>",
+   "kontzeptua": "erl-energia-momentu-transformazioa",
+   "agertzen": [
+    "erl-energia-momentu-transformazioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "A posteriori probabilitatea",
    "def": "<p>Emaitza ezagututa kausa baten gainean kalkulatzen den probabilitate baldintzatua.</p>",
    "kontzeptua": "prob-bayes",
@@ -309,11 +318,30 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "abiaduren konposizio-legea",
+   "def": "<p>Sistema batean neurtutako abiadura beste batekoarekin lotzen duen erlazio erlatibista: ẋ = (ẋ′ + v)/(1 + vẋ′/c²).</p>",
+   "kontzeptua": "erl-abiaduren-konposizioa",
+   "agertzen": [
+    "erl-abiaduren-konposizioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "Abraham–Lorentz-en indarra",
    "def": "<p>F_rad = (μ₀q²/6πc) ȧ: erradiazio-erreakzioaren indar ez-erlatibista.</p>",
    "kontzeptua": "erad-erradiazio-erreakzioa",
    "agertzen": [
     "erad-erradiazio-erreakzioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "absideak",
+   "def": "<p>Distantzia polarraren muturrei dagozkien orbita-puntuak (ṙ = 0, hau da, posizio-bektorea eta abiadura elkarzutak).</p>",
+   "kontzeptua": "zen-orbita-bornatuak",
+   "agertzen": [
+    "zen-bertranden-teorema",
+    "zen-orbita-bornatuak"
    ],
    "berrikusi_gabe": true
   },
@@ -459,6 +487,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "Airyren diskoa",
+   "def": "<p>Zulo zirkular baten difrakzio-ereduaren erdiko disko argitsua, eraztun ilunez inguratua.</p>",
+   "kontzeptua": "uhin-zulo-zirkularra",
+   "agertzen": [
+    "uhin-zulo-zirkularra"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "akats maximo onargarria (E)",
    "def": "<p>E = z_{α/2}·σ/√n: x̄ eta μ-ren arteko distantziak, konfiantza mailaz, gaindituko ez duen muga; konfiantza-bitartearen erradioa.</p>",
    "kontzeptua": "mest-akats-maximo-onargarria",
@@ -533,6 +570,18 @@
    "kontzeptua": "mest-lagin-ordezkaria",
    "agertzen": [
     "mest-lagin-ordezkaria"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "aldaezin erlatibista",
+   "def": "<p>Sistema inertzial guztietan balio bera duen magnitudea.</p>",
+   "kontzeptua": "erl-espazio-denborako-tartea",
+   "agertzen": [
+    "erl-atari-energia",
+    "erl-energia-momentu-aldaezina",
+    "erl-espazio-denborako-tartea",
+    "erl-tetrabektoreak"
    ],
    "berrikusi_gabe": true
   },
@@ -803,6 +852,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "aldagaien banantzea",
+   "def": "<p>u(t,x) = f(x)g(t) moduko soluzioak bilatzea, uhin-ekuazioa ekuazio arrunt bihurtzeko.</p>",
+   "kontzeptua": "uhin-geldikorrak-soka",
+   "agertzen": [
+    "uhin-geldikorrak-soka"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "aldaketa u = y/x",
    "def": "<p>Ekuazio homogeneoa banangarri bihurtzen duen ordezkapena.</p>",
    "kontzeptua": "edo-ekuazio-homogeneoak",
@@ -917,6 +975,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "alderantzizko funtzioaren teorema",
+   "def": "<p>Df(P) alderanzgarria bada, f lokalki alderanzgarria da eta alderantzizkoa deribagarria.</p>",
+   "kontzeptua": "ebaz-alderantzizko-funtzioa",
+   "agertzen": [
+    "ebaz-alderantzizko-funtzioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "alderantzizko matrizea",
    "def": "<p><em>A</em>&#183;<em>B</em> = <em>B</em>&#183;<em>A</em> = <em>I</em> betetzen duen <em>B</em> matrizea; <em>A</em>-ren alderantzizkoa deitzen da.</p>",
    "kontzeptua": "mat-alderantzizko-matrizea",
@@ -962,6 +1029,17 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "aldiberekotasuna",
+   "def": "<p>Bi gertaerak denbora-koordenatu berean jazotzea; mekanika galilearrean absolutua da, erlatibitate berezian ez.</p>",
+   "kontzeptua": "erl-inertzialak-gertaerak",
+   "agertzen": [
+    "erl-aldiberekotasuna",
+    "erl-inertzialak-gertaerak",
+    "erl-praktika-zinematika"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "aldiberekotasunaren erlatibotasuna",
    "def": "<p>Sistema batean aldibereko diren bi gertaera ez dira, oro har, aldiberekoak lehenarekiko higitzen den sistema batean.</p>",
    "kontzeptua": "erad-ondorio-geometrikoak",
@@ -969,6 +1047,25 @@
     "erad-dinamika-erlatibista",
     "erad-lorentz-en-transformazioak",
     "erad-ondorio-geometrikoak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "aldiberekotasunaren erlatibotasuna",
+   "def": "<p>Bi gertaera aldiberekoak izatea sistema inertzialaren araberakoa den propietatea da.</p>",
+   "kontzeptua": "erl-aldiberekotasuna",
+   "agertzen": [
+    "erl-aldiberekotasuna"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "aldiuneko pausaguneko sistema",
+   "def": "<p>Partikulak une jakin batean duen abiaduraz higitzen den sistema inertziala; partikula azeleratua izanda ere erabil daiteke.</p>",
+   "kontzeptua": "erl-denbora-propioa",
+   "agertzen": [
+    "erl-denbora-propioa",
+    "erl-higidura-hiperbolikoa"
    ],
    "berrikusi_gabe": true
   },
@@ -1029,6 +1126,33 @@
     "em-h-eremua",
     "em-maxwell-desplazamendua",
     "em-ohm-iee"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "analizatzailea",
+   "def": "<p>Argiaren polarizazioa aztertzeko bigarren polarizatzaile gisa erabiltzen den polarizatzailea.</p>",
+   "kontzeptua": "uhin-polarizazioa-malus",
+   "agertzen": [
+    "uhin-polarizazioa-malus"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "angelu kritikoa",
+   "def": "<p>η = arcsin n₂₁: errefrakzio-angelua π/2 bihurtzen duen eraso-angelua.</p>",
+   "kontzeptua": "uhin-errefrakzioa-barne",
+   "agertzen": [
+    "uhin-errefrakzioa-barne"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "angelu solidoa",
+   "def": "<p>Espazioko kono batek definitzen duen dΩ, gainazal esferikoaren dΣ azaleraren eta R² erradioaren zatidura.</p>",
+   "kontzeptua": "zen-sekzio-eragile-diferentziala",
+   "agertzen": [
+    "zen-sekzio-eragile-diferentziala"
    ],
    "berrikusi_gabe": true
   },
@@ -1096,6 +1220,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "anomalia eszentrikoa",
+   "def": "<p>Elipsearen zentroan neurtutako ψ angelua: orbita-puntuaren altuerak zentro berean dagoen a erradioko zirkunferentzian markatzen duen puntuari dagokiona.</p>",
+   "kontzeptua": "zen-keplerren-ekuazioa",
+   "agertzen": [
+    "zen-keplerren-ekuazioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "anperimetroa",
    "def": "<p>Korrontea neurtzen duen tresna; seriean konektatzen da.</p>",
    "kontzeptua": "felm-neurketa-tresnak-eta-wheatstone",
@@ -1129,6 +1262,15 @@
    "agertzen": [
     "mosz-anplitude-erresonantzia",
     "mosz-energia-erresonantzia"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "anplitude-modulazioa",
+   "def": "<p>Maiztasun hurbileko bi uhin batzean, anplitudeak denboran eta espazioan aldatzea (taupadak).</p>",
+   "kontzeptua": "uhin-talde-abiadura",
+   "agertzen": [
+    "uhin-talde-abiadura"
    ],
    "berrikusi_gabe": true
   },
@@ -1274,12 +1416,31 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "apozentroa",
+   "def": "<p>Indar-polotik urrunen dagoen orbita-puntua (apoastroa; Eguzkiaren inguruan afelioa, Lurraren inguruan apogeoa).</p>",
+   "kontzeptua": "zen-orbita-bornatuak",
+   "agertzen": [
+    "zen-orbita-bornatu-irekiak",
+    "zen-orbita-bornatuak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "ardatz nagusiak",
    "def": "<p>Simetria-ardatzak; haien inguruan biratzean L eta ω paraleloak dira.</p>",
    "kontzeptua": "fis-solido-zurruna-eta-inertzia",
    "agertzen": [
     "fis-solido-zurruna-eta-inertzia",
     "fis-solido-zurrunaren-dinamika"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "ardatz zeiharrak",
+   "def": "<p>S sistemaren diagraman S′ sistemaren ardatzak: ct′ ardatza ct = (c/v)x zuzena da, eta x′ ardatza ct = (v/c)x zuzena.</p>",
+   "kontzeptua": "erl-minkowski-ardatz-zeiharrak",
+   "agertzen": [
+    "erl-minkowski-ardatz-zeiharrak"
    ],
    "berrikusi_gabe": true
   },
@@ -1302,6 +1463,18 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "ardatzerdi nagusia",
+   "def": "<p>Elipsearen ardatz nagusiaren erdia: a = p/(1−ε²), hau da, perizentro- eta apozentro-distantzien batezbestekoa.</p>",
+   "kontzeptua": "zen-orbita-bornatuak",
+   "agertzen": [
+    "zen-energia-ardatz-nagusia",
+    "zen-keplerren-hirugarren-legea",
+    "zen-orbita-bornatuak",
+    "zen-orbita-hiperbolikoak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "Arganden diagrama",
    "def": "<p>Zenbaki konplexuak planoko puntu edo bektore gisa irudikatzen dituen diagrama.</p>",
    "kontzeptua": "mosz-fasoreak",
@@ -1311,11 +1484,30 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "argi motako tartea",
+   "def": "<p>Δs² = 0 (|Δr| = c|Δt|): argi-seinale batek lotzen ditu; espazio-denborako tarte nulua.</p>",
+   "kontzeptua": "erl-tarte-motak",
+   "agertzen": [
+    "erl-tarte-motak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "argi-konoa",
    "def": "<p>(Δs)² = 0 betetzen duten gertaeren multzoa; etorkizuna, iragana eta kausalki lotu gabeko gertaerak bereizten ditu.</p>",
    "kontzeptua": "erad-espazio-denboraren-egitura",
    "agertzen": [
     "erad-espazio-denboraren-egitura"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "argi-konoa",
+   "def": "<p>G₀ gertaerarekin Δs² = 0 duten gertaeren leku geometrikoa; fotoiek G₀-n igortzen dutena (etorkizuneko konoa) eta G₀-n jasotzen dutena (iraganeko konoa).</p>",
+   "kontzeptua": "erl-argi-konoa",
+   "agertzen": [
+    "erl-argi-konoa",
+    "erl-denbora-propioa"
    ],
    "berrikusi_gabe": true
   },
@@ -1343,6 +1535,29 @@
     "erad-potentzial-atzeratuak",
     "erad-potentzialak",
     "erad-uhinak-materian"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "argiaren abiadura",
+   "def": "<p>c = 1/√(ε₀μ₀): uhin elektromagnetikoek hutsean duten hedapen-abiadura.</p>",
+   "kontzeptua": "uhin-elektromagnetikoak",
+   "agertzen": [
+    "uhin-elektromagnetikoak",
+    "uhin-errefrakzio-indizea",
+    "uhin-polarizazioa-malus",
+    "uhin-talka"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "argiaren abiaduraren aldaezintasuna",
+   "def": "<p>Argiaren abiadura hutsean (c) berbera da sistema inertzial guztietan, behatzailearen eta iturriaren abiadura edozein dela ere.</p>",
+   "kontzeptua": "erl-postulatuak",
+   "agertzen": [
+    "erl-aldiberekotasuna",
+    "erl-lorentz-transformazioa",
+    "erl-postulatuak"
    ],
    "berrikusi_gabe": true
   },
@@ -1417,6 +1632,15 @@
     "log-formalizazio-metodoa",
     "log-funtoreak",
     "log-sinadura"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "arku-elementua ds",
+   "def": "<p>Kurbaren luzera-elementua, |c′(t)| dt.</p>",
+   "kontzeptua": "ebaz-lerro-eskalarra",
+   "agertzen": [
+    "ebaz-lerro-eskalarra"
    ],
    "berrikusi_gabe": true
   },
@@ -1643,12 +1867,31 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "asteroide troiarrak",
+   "def": "<p>Jupiterren L₄ eta L₅ puntuen inguruan dauden asteroideak.</p>",
+   "kontzeptua": "zen-lagrangeren-puntuak",
+   "agertzen": [
+    "zen-lagrangeren-puntuak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "atalase-maiztasuna",
    "def": "<p>Efektu fotoelektrikoa gertatzeko behar den maiztasun txikiena, ν₀ = w₀/h. Atalase-uhin-luzera, λ₀ = hc/w₀, gertatzeko uhin-luzera handiena da.</p>",
    "kontzeptua": "kua-einstein-formulazioa",
    "agertzen": [
     "kua-einstein-formulazioa",
     "kua-millikan-plancken-konstantea"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "atari-energia",
+   "def": "<p>Erreakzio bat gertatzeko behar den energia zinetiko minimoa; masa-zentroaren sisteman sortutako partikulak geldi geratzen direnean lortzen da.</p>",
+   "kontzeptua": "erl-atari-energia",
+   "agertzen": [
+    "erl-atari-energia",
+    "erl-praktika-talkak"
    ],
    "berrikusi_gabe": true
   },
@@ -1671,6 +1914,15 @@
    "kontzeptua": "kua-rutherford-eredua",
    "agertzen": [
     "kua-rutherford-eredua"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "atomoaren atzerapena",
+   "def": "<p>Fotoiaren igorpenean edo xurgapenean atomoak hartzen duen higidura, momentu linealaren kontserbazioagatik.</p>",
+   "kontzeptua": "erl-igorpena-xurgapena",
+   "agertzen": [
+    "erl-igorpena-xurgapena"
    ],
    "berrikusi_gabe": true
   },
@@ -1944,6 +2196,17 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "azalera-abiadura",
+   "def": "<p>Posizio-bektoreak denbora-unitatean estaltzen duen azalera. Indar zentraletan konstantea da: v_a = L/2m.</p>",
+   "kontzeptua": "zen-momentu-angeluarra",
+   "agertzen": [
+    "zen-keplerren-ekuazioa",
+    "zen-keplerren-hirugarren-legea",
+    "zen-momentu-angeluarra"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "azalera-dentsitatea",
    "def": "<p>Karga azalera-unitateko: σ = d<em>q</em>/d<em>S</em> (C/m²).</p>",
    "kontzeptua": "felm-karga-banaketa-jarraituak",
@@ -2008,6 +2271,15 @@
    "kontzeptua": "fis-azelerazioaren-osagaiak",
    "agertzen": [
     "fis-azelerazioaren-osagaiak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "azelerazio propioa",
+   "def": "<p>Partikulak bere aldiuneko pausaguneko sisteman neurtzen duen azelerazioa.</p>",
+   "kontzeptua": "erl-higidura-hiperbolikoa",
+   "agertzen": [
+    "erl-higidura-hiperbolikoa"
    ],
    "berrikusi_gabe": true
   },
@@ -2640,6 +2912,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "banda-zabaleraren teorema",
+   "def": "<p>Pultsuaren zabaleraren eta espektroaren zabaleraren produktua konstantea da: Δx·Δk ∼ 2π.</p>",
+   "kontzeptua": "uhin-pakete-zabalera",
+   "agertzen": [
+    "uhin-pakete-zabalera"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "bandera (flag)",
    "def": "<p>Egoera bat gogoratzen duen aldagai logikoa (<code>True</code>/<code>False</code>); hemen <code>primo</code>/<code>pr</code>, zatitzailerik aurkitu den ala ez adierazten duena.</p>",
    "kontzeptua": "prog-zenbaki-lehenak",
@@ -2757,6 +3038,16 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "barne-islapen osoa",
+   "def": "<p>Eraso-angelua kritikoa baino handiagoa denean argi guztia islatzen da, ezer errefraktatu gabe.</p>",
+   "kontzeptua": "uhin-errefrakzioa-barne",
+   "agertzen": [
+    "uhin-errefrakzioa-barne",
+    "uhin-praktika-islapena"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "barne-lotura",
    "def": "<p>Sistema konposatuaren azpisistemak bereizten dituen horma murriztailea (finkoa, adiabatikoa edo ez-iragazkorra).</p>",
    "kontzeptua": "term-i-postulatua",
@@ -2814,6 +3105,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "barrunbe erresonantea",
+   "def": "<p>Hormak islatzaile onak dituen eta maiztasun diskretuen uhin geldikorrak mantentzen dituen barrunbea.</p>",
+   "kontzeptua": "uhin-barrunbeak",
+   "agertzen": [
+    "uhin-barrunbeak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "base konjokatua",
    "def": "<p>Azido batek protoia galdu ondoren geratzen den espeziea: azidoa ⇄ basea + H<sup>+</sup>.</p>",
    "kontzeptua": "kim-azido-base",
@@ -2852,12 +3152,30 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "batez besteko anomalia",
+   "def": "<p>n = 2π/T da batez besteko abiadura angeluarra; Keplerren ekuazioa: n(t−t₀) = ψ − ε sin ψ.</p>",
+   "kontzeptua": "zen-keplerren-ekuazioa",
+   "agertzen": [
+    "zen-keplerren-ekuazioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "batez besteko balioa",
    "def": "<p>f-ren batez bestekoa [a,b]-n: (1/(b−a)) ∫ₐᵇ f.</p>",
    "kontzeptua": "int-batez-bestekoa",
    "agertzen": [
     "int-batez-bestekoa",
     "int-jarraituak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "batez besteko ibilbide askea",
+   "def": "<p>Partikulak talka batetik hurrengora egiten duen batez besteko distantzia: λ = 1/(Nσ), N atomoen dentsitatea izanik.</p>",
+   "kontzeptua": "zen-ibilbide-askea",
+   "agertzen": [
+    "zen-ibilbide-askea"
    ],
    "berrikusi_gabe": true
   },
@@ -3119,6 +3437,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "bektore normal fundamentala",
+   "def": "<p>Φ<sub>u</sub> × Φ<sub>v</sub>: gainazalaren normala; bere modulua azalera-elementua da.</p>",
+   "kontzeptua": "ebaz-gainazalak-parametrizazioa",
+   "agertzen": [
+    "ebaz-gainazalak-parametrizazioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "bektore propio orokortuak",
    "def": "<p>(V − λT)·U = 0 sistemaren soluzioak; T matrizearekiko ortonormalak aukeratzen dira.</p>",
    "kontzeptua": "mosz-balio-propio-orokortuak",
@@ -3268,6 +3595,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "benetako anomalia",
+   "def": "<p>Perizentrotik neurtutako ϕ angelu polarra.</p>",
+   "kontzeptua": "zen-keplerren-ekuazioa",
+   "agertzen": [
+    "zen-keplerren-ekuazioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "berdintasunaren erreflexibotasuna (I)",
    "def": "<p>Teorema-eskema: ⊢t=t, premisarik gabe.</p>",
    "kontzeptua": "log-berdintasunaren-erregela-eratorriak",
@@ -3328,6 +3664,17 @@
    "agertzen": [
     "edp-banantzea",
     "edp-laplace-esferikoa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "bereizmen-ahalmena",
+   "def": "<p>Bi iturri ondoko bereizteko aukera ematen duen distantzia angeluar minimoa.</p>",
+   "kontzeptua": "uhin-zirrikitu-bakarra",
+   "agertzen": [
+    "uhin-sareak",
+    "uhin-zirrikitu-bakarra",
+    "uhin-zulo-zirkularra"
    ],
    "berrikusi_gabe": true
   },
@@ -3509,6 +3856,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "berretzaile adiabatikoa",
+   "def": "<p>γ = c_p/c_v: presio konstanteko eta bolumen konstanteko bero espezifikoen zatidura.</p>",
+   "kontzeptua": "uhin-presio-uhinak",
+   "agertzen": [
+    "uhin-presio-uhinak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "bertikala",
    "def": "<p>Dinamometroaren (edo plomuaren) norabidea; pisuaren norabidea.</p>",
    "kontzeptua": "hig-pisua-eta-grabitate-azelerazioa",
@@ -3516,6 +3872,17 @@
     "hig-coriolisen-indarra-lurrean",
     "hig-foucaulten-pendulua",
     "hig-pisua-eta-grabitate-azelerazioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Bertranden teorema",
+   "def": "<p>Orbita bornatu guztiak itxiak izateko indar zentrala newtondarra (F ∝ −1/r²) edo harmonikoa (F ∝ −r) izan behar da.</p>",
+   "kontzeptua": "zen-bertranden-teorema",
+   "agertzen": [
+    "zen-bertranden-teorema",
+    "zen-indar-zentralak",
+    "zen-orbita-bornatu-irekiak"
    ],
    "berrikusi_gabe": true
   },
@@ -3610,6 +3977,15 @@
    "kontzeptua": "mest-bessel-zuzenketa",
    "agertzen": [
     "mest-bessel-zuzenketa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Besselen funtzioa",
+   "def": "<p>Jₙ(s): s²f″ + sf′ + (s² − n²)f = 0 ekuazioaren soluzioa; mintz zirkularren modu normalak ematen ditu.</p>",
+   "kontzeptua": "uhin-mintzak",
+   "agertzen": [
+    "uhin-mintzak"
    ],
    "berrikusi_gabe": true
   },
@@ -3916,6 +4292,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "bikien paradoxa",
+   "def": "<p>Bi bikietatik bidaiatzen duena gazteago itzultzen da; paradoxa itxura hutsa da, bidaiariaren higidura ez baita inertziala.</p>",
+   "kontzeptua": "erl-bikien-paradoxa",
+   "agertzen": [
+    "erl-bikien-paradoxa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "bikote ez-lotzailea",
    "def": "<p>Lotura batean parte hartzen ez duen balentzia-elektroi bikotea (pare solitarioa); errepultsio handiagoa egiten du eta loturen angeluak txikitzen ditu.</p>",
    "kontzeptua": "kim-geometria-polaritatea",
@@ -4031,6 +4416,16 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "birialaren teorema",
+   "def": "<p>Orbita newtondar bornatuan batez besteko energia potentziala eta zinetikoa lotuta daude: ⟨V⟩ = −2⟨T⟩ = 2E.</p>",
+   "kontzeptua": "zen-energia-ardatz-nagusia",
+   "agertzen": [
+    "zen-energia-ardatz-nagusia",
+    "zen-praktika-denetarik"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "birparametrizazioa",
    "def": "<p>ρ=σ∘h: σ ibilbidearen parametro-aldaketa (h C¹ eta bijektiboa).</p>",
    "kontzeptua": "bek-birparametrizazioak",
@@ -4046,6 +4441,15 @@
    "agertzen": [
     "konp-integral-konplexua",
     "konp-kurbak-bideak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "birrefringentzia",
+   "def": "<p>Kristal anisotropoetan argiaren abiadura norabidearen menpekoa izateak eragindako errefrakzio bikoitza.</p>",
+   "kontzeptua": "uhin-polarizazioa-malus",
+   "agertzen": [
+    "uhin-polarizazioa-malus"
    ],
    "berrikusi_gabe": true
   },
@@ -4161,6 +4565,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "bolumen-modulua",
+   "def": "<p>B: presio-aldaketaren eta bolumen-aldaketa unitarioaren arteko erlazioa, Δp = −B ΔV/V (konprimagarritasun-modulua).</p>",
+   "kontzeptua": "uhin-presio-uhinak",
+   "agertzen": [
+    "uhin-presio-uhinak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "bolumen-modulua (konprimagarritasun-modulua)",
    "def": "<p>B; presioaren eta bolumenaren deformazio unitarioaren arteko erlazioa ematen duen modulua, p = &minus;B&Delta;V/V.</p>",
    "kontzeptua": "jar-bolumen-modulua",
@@ -4247,6 +4660,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "Braggen baldintza",
+   "def": "<p>2d sin θ = nλ: X izpiak kristal-planoetan interferentzia eraikitzailearekin islatzeko baldintza.</p>",
+   "kontzeptua": "uhin-bragg",
+   "agertzen": [
+    "uhin-bragg"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "bremsstrahlung",
    "def": "<p>Karga azkar bat bat-batean moteltzean igortzen den balaztatze-erradiazioa.</p>",
    "kontzeptua": "erad-larmor-en-formula",
@@ -4270,6 +4692,15 @@
    "kontzeptua": "erad-intzidentzia-zeiharra",
    "agertzen": [
     "erad-intzidentzia-zeiharra"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Brewsterren legea",
+   "def": "<p>θe + θr = π/2 denean R∥ = 0 da: islatutako argia eraso-planoarekiko elkarzuta dagoen norabidean polarizatuta dago.</p>",
+   "kontzeptua": "uhin-fresnel-brewster",
+   "agertzen": [
+    "uhin-fresnel-brewster"
    ],
    "berrikusi_gabe": true
   },
@@ -4465,6 +4896,24 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "Cherenkov erradiazioa",
+   "def": "<p>Partikula kargatu bat ingurune batean argiaren abiadura baino azkarrago higitzean sortzen den talka-uhina.</p>",
+   "kontzeptua": "uhin-talka",
+   "agertzen": [
+    "uhin-talka"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Chladniren irudiak",
+   "def": "<p>Plaka bibratuan hareak nodo-lerroetan pilatzean sortzen diren irudiak.</p>",
+   "kontzeptua": "uhin-mintzak",
+   "agertzen": [
+    "uhin-mintzak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "Cholesky-ren faktorizazioa",
    "def": "<p>Matrize simetriko definitu positibo bat A = PPᵀ moduan idaztea.</p>",
    "kontzeptua": "alg-ppt-irizpidea",
@@ -4497,6 +4946,24 @@
    "kontzeptua": "term-bigarren-printzipioa",
    "agertzen": [
     "term-bigarren-printzipioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Compton sakabanatzea",
+   "def": "<p>Fotoiaren eta elektroiaren arteko talka; fotoiaren partikula-izaera frogatu zuen.</p>",
+   "kontzeptua": "erl-compton-efektua",
+   "agertzen": [
+    "erl-compton-efektua"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Compton uhin-luzera",
+   "def": "<p>λ_C = h/(m_e c) ≈ 2,43 × 10⁻¹² m: sakabanaturiko fotoiaren uhin-luzeraren aldaketa λ′ − λ = λ_C(1 − cos θ).</p>",
+   "kontzeptua": "erl-compton-efektua",
+   "agertzen": [
+    "erl-compton-efektua"
    ],
    "berrikusi_gabe": true
   },
@@ -4663,6 +5130,24 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "d'Alemberten eragilea",
+   "def": "<p>▫ = ∇² − (1/v²) ∂²/∂t²: uhin-ekuazioa ▫u = 0 moduan laburtzen du.</p>",
+   "kontzeptua": "uhin-2d-3d",
+   "agertzen": [
+    "uhin-2d-3d"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "D'Alemberten soluzioa",
+   "def": "<p>Uhin-ekuazioaren soluzio orokorra: u = f(x − vt) + g(x + vt), f eta g edozein funtzio direla.</p>",
+   "kontzeptua": "uhin-ekuazioa",
+   "agertzen": [
+    "uhin-ekuazioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "Darboux-en integral behekoa eta goikoa",
    "def": "<p>Partizio guztien gainean, I₋ = sup L(f,P) eta I⁺ = inf U(f,P).</p>",
    "kontzeptua": "int-riemann-integragarritasuna",
@@ -4787,6 +5272,15 @@
   },
   {
    "t": "deformazio unitarioa",
+   "def": "<p>∂u/∂x: luzera-unitateko luzapena.</p>",
+   "kontzeptua": "uhin-barra-hooke",
+   "agertzen": [
+    "uhin-barra-hooke"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "deformazio unitarioa",
    "def": "<p>Luzera-unitateko luzapena, &Delta;l/l; dimentsio gabekoa.</p>",
    "kontzeptua": "jar-young-poisson",
    "agertzen": [
@@ -4797,6 +5291,18 @@
     "jar-esfortzu-tentsorea",
     "jar-luzetarako-deformazioak",
     "jar-young-poisson"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "deformazio-eremua",
+   "def": "<p>u(x): puntu bakoitzaren posizio-aldaketa, deformatu aurretik duen posizioarekiko.</p>",
+   "kontzeptua": "uhin-barra-hooke",
+   "agertzen": [
+    "uhin-barra-energia",
+    "uhin-barra-hooke",
+    "uhin-polarizazio-soka",
+    "uhin-presio-uhinak"
    ],
    "berrikusi_gabe": true
   },
@@ -4908,11 +5414,42 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "denbora motako tartea",
+   "def": "<p>Δs² < 0 (c|Δt| > |Δr|): denbora-ordena sistema guztietan bera da, eta ez dira inoiz aldiberekoak.</p>",
+   "kontzeptua": "erl-tarte-motak",
+   "agertzen": [
+    "erl-tarte-motak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "denbora propioa",
    "def": "<p>τ: objektuaren pausagune-sisteman neurtutako denbora; dτ = dt √(1 − u²/c²), inbariantea.</p>",
    "kontzeptua": "erad-denbora-propioa",
    "agertzen": [
     "erad-denbora-propioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "denbora propioa",
+   "def": "<p>Erloju batek bere pausaguneko sisteman neurtutako denbora-tartea (Δt*); sistema guztietan neurtzen den denbora-tarterik laburrena da.</p>",
+   "kontzeptua": "erl-denboraren-zabalkuntza",
+   "agertzen": [
+    "erl-bikien-paradoxa",
+    "erl-denbora-propioa",
+    "erl-denboraren-zabalkuntza",
+    "erl-espazio-denborako-tartea",
+    "erl-praktika-zinematika"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "denbora propioa (dτ)",
+   "def": "<p>Partikulak (edo erlojuak) bere unibertso-lerroan zehar neurtzen duen denbora; dτ = √(−ds²)/c eta dt = dτ/√(1 − v²/c²).</p>",
+   "kontzeptua": "erl-denbora-propioa",
+   "agertzen": [
+    "erl-denbora-propioa"
    ],
    "berrikusi_gabe": true
   },
@@ -4936,11 +5473,33 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "denbora-tartea eta espazio-tartea",
+   "def": "<p>Bi gertaeren denbora-koordenatuen eta posizio-koordenatuen diferentziak (Δt, Δr) sistema jakin batean.</p>",
+   "kontzeptua": "erl-tarteen-transformazioa",
+   "agertzen": [
+    "erl-tarteen-transformazioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "denboraren araberako eta espazioaren araberako tarteak",
    "def": "<p>(Δs)² < 0: badago bi gertaerak leku berean dituen sistema bat, eta ordena absolutua da (kausalitatea posible). (Δs)² > 0: badago aldibereko sistema bat, baina inoiz ez leku berean.</p>",
    "kontzeptua": "erad-espazio-denboraren-egitura",
    "agertzen": [
     "erad-espazio-denboraren-egitura"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "denboraren zabalkuntza",
+   "def": "<p>Higitzen ari den erlojuaren denbora-tarteak γ aldiz luzeagoak neurtzen dira: Δt = γΔt*.</p>",
+   "kontzeptua": "erl-denboraren-zabalkuntza",
+   "agertzen": [
+    "erl-denbora-propioa",
+    "erl-denboraren-zabalkuntza",
+    "erl-doppler-efektua",
+    "erl-luzeraren-uzkurdura",
+    "erl-praktika-zinematika"
    ],
    "berrikusi_gabe": true
   },
@@ -4971,6 +5530,15 @@
    "kontzeptua": "mosz-soka-jarraitua",
    "agertzen": [
     "mosz-soka-jarraitua"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "dentsitate lineala",
+   "def": "<p>μ: luzera-unitateko masa.</p>",
+   "kontzeptua": "uhin-soka",
+   "agertzen": [
+    "uhin-soka"
    ],
    "berrikusi_gabe": true
   },
@@ -5034,6 +5602,15 @@
     "bek-diferentziagarritasuna",
     "bek-klase-apunteak",
     "bek-taylor"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "deribatu gurutzatuak",
+   "def": "<p>Aldagai ezberdinekiko ordena mistoko deribatuak (f<sub>xy</sub>, f<sub>yx</sub>); jarraituak badira, berdinak dira.</p>",
+   "kontzeptua": "ebaz-deribatu-partzialak",
+   "agertzen": [
+    "ebaz-deribatu-partzialak"
    ],
    "berrikusi_gabe": true
   },
@@ -5398,6 +5975,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "dezibela",
+   "def": "<p>dB: intentsitate-mailaren unitatea (dimentsio gabekoa).</p>",
+   "kontzeptua": "uhin-dezibela",
+   "agertzen": [
+    "uhin-dezibela"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "diagonal nagusia",
    "def": "<p>Matrize karratuaren goiko ezkerreko izkinatik beheko eskuinekora doan gai-lerroa.</p>",
    "kontzeptua": "mat-unitate-matrizea",
@@ -5442,6 +6028,17 @@
     "bek-potentzial-bektoriala",
     "bek-praktika-griffiths",
     "bek-zatikako-integrazioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "dibergentzia",
+   "def": "<p>div F = ∇·F: eremuaren iturburu-dentsitatea puntu bakoitzean.</p>",
+   "kontzeptua": "ebaz-gauss",
+   "agertzen": [
+    "ebaz-gauss",
+    "ebaz-green",
+    "ebaz-stokes"
    ],
    "berrikusi_gabe": true
   },
@@ -5550,12 +6147,34 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "difrakzio-sarea",
+   "def": "<p>Zirrikitu paralelo berdin ugariz (edo lerro grabatuz) osatutako multzoa, uhin-luzerak bereizteko.</p>",
+   "kontzeptua": "uhin-sareak",
+   "agertzen": [
+    "uhin-sareak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "difrakzio-sareta",
    "def": "<p>d banaketako rendija (edo iturri) berdinen array periodikoa.</p>",
    "kontzeptua": "erad-sareta-maximoak",
    "agertzen": [
     "erad-sareta-maximoak",
     "erad-saretatik-kristalera"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "difrakzioa",
+   "def": "<p>Uhin bat oztopo edo irekidura baten ondoan norabide-aldaketa eta interferentzia jasatzea; uhin-luzera eta irekidura parekoak direnean nabarmena.</p>",
+   "kontzeptua": "uhin-zirrikitu-bakarra",
+   "agertzen": [
+    "uhin-bragg",
+    "uhin-fresnel-difrakzioa",
+    "uhin-sareak",
+    "uhin-zirrikitu-bakarra",
+    "uhin-zulo-zirkularra"
    ],
    "berrikusi_gabe": true
   },
@@ -5575,6 +6194,15 @@
    "agertzen": [
     "edp-eredu-fisikoak",
     "edp-sailkapena"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "dikroismoa",
+   "def": "<p>Polarizazio bati dagokion xurgapena beste bati dagokiona baino handiagoa izatea.</p>",
+   "kontzeptua": "uhin-polarizazioa-malus",
+   "agertzen": [
+    "uhin-polarizazioa-malus"
    ],
    "berrikusi_gabe": true
   },
@@ -5652,6 +6280,15 @@
    "kontzeptua": "alg-nukleoa-irudia-dimentsioak",
    "agertzen": [
     "alg-nukleoa-irudia-dimentsioak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Diniren teorema",
+   "def": "<p>F<sub>z</sub> ≠ 0 bada, F = 0 ekuazioak z funtzio gisa askatzen du puntuaren inguruan eta funtzio hori deribagarria da.</p>",
+   "kontzeptua": "ebaz-inplizitua-bat",
+   "agertzen": [
+    "ebaz-inplizitua-bat"
    ],
    "berrikusi_gabe": true
   },
@@ -6015,6 +6652,32 @@
    "kontzeptua": "fosz-doppler",
    "agertzen": [
     "fosz-doppler"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Doppler efektua",
+   "def": "<p>Iturriaren eta behatzailearen higidura erlatiboaren ondorioz maiztasuna aldatzea: ν′ = √((1 − β)/(1 + β))·ν norabide berean.</p>",
+   "kontzeptua": "erl-doppler-efektua",
+   "agertzen": [
+    "erl-denboraren-zabalkuntza",
+    "erl-doppler-efektua",
+    "erl-igorpena-xurgapena",
+    "erl-praktika-azterketak",
+    "erl-praktika-fotoiak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Doppler efektua",
+   "def": "<p>Uhin-iturriaren eta detektagailuaren higiduraren ondorioz uhinaren maiztasun detektatua aldatzea: ν_d = (v − v_d)/(v − v_i) ν_i.</p>",
+   "kontzeptua": "uhin-doppler",
+   "agertzen": [
+    "uhin-doppler",
+    "uhin-doppler-em",
+    "uhin-interferentzia",
+    "uhin-praktika-azterketak",
+    "uhin-praktika-em-doppler"
    ],
    "berrikusi_gabe": true
   },
@@ -6963,6 +7626,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "energia erabilgarria",
+   "def": "<p>Talkan masa-zentroaren sisteman dagoen energia osoa; sortzen diren partikulen atseden-energia handiena da.</p>",
+   "kontzeptua": "erl-atari-energia",
+   "agertzen": [
+    "erl-atari-energia"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "energia ez erabilgarria",
    "def": "<p>Prozesu itzulezinean lan bihurtu ezin den energia-zatia; T₀·ΔS_unibertsoa.</p>",
    "kontzeptua": "term-energia-ez-erabilgarria",
@@ -7018,6 +7690,20 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "energia osoa",
+   "def": "<p>E = mγc²: partikula baten energia erlatibista.</p>",
+   "kontzeptua": "erl-energia-osoa",
+   "agertzen": [
+    "erl-atari-energia",
+    "erl-energia-momentu-transformazioa",
+    "erl-energia-osoa",
+    "erl-energia-zinetikoa",
+    "erl-masa-zentroaren-sistema",
+    "erl-praktika-talkak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "energia potentzial elastikoa",
    "def": "<p>Malgukiak luzapena dela eta metatzen duen energia, ½kx².</p>",
    "kontzeptua": "fosz-energia-oszilazioa",
@@ -7036,11 +7722,36 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "energia potentzial eraginkorra",
+   "def": "<p>V(r) potentzialaren eta potentzial zentrifugoaren batura: V_e(r) = V(r) + L²/2mr². Higidura erradialaren ekuazioa m r̈ = −V_e′(r) da.</p>",
+   "kontzeptua": "zen-potentzial-eraginkorra",
+   "agertzen": [
+    "zen-bertranden-teorema",
+    "zen-indar-newtondarrak",
+    "zen-orbita-bornatu-irekiak",
+    "zen-orbita-bornatuak",
+    "zen-orbita-konikoa",
+    "zen-orbita-newtondarren-sailkapena",
+    "zen-orbita-zirkularren-egonkortasuna",
+    "zen-potentzial-eraginkorra"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "energia potentzial grabitatorioa",
    "def": "<p>E_p = −GMm/r (E_p(∞) = 0).</p>",
    "kontzeptua": "fis-energia-grabitatorioa-eta-orbitak",
    "agertzen": [
     "fis-energia-grabitatorioa-eta-orbitak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "energia potentzial zentrifugoa",
+   "def": "<p>Higidura erradialaren ekuazioan momentu angeluarrak sortzen duen potentziala: L²/2mr².</p>",
+   "kontzeptua": "zen-potentzial-eraginkorra",
+   "agertzen": [
+    "zen-potentzial-eraginkorra"
    ],
    "berrikusi_gabe": true
   },
@@ -7072,6 +7783,15 @@
    "kontzeptua": "erad-momentua-eta-energia",
    "agertzen": [
     "erad-momentua-eta-energia"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "energia zinetiko erlatibista",
+   "def": "<p>T = E − E₀ = m(γ − 1)c².</p>",
+   "kontzeptua": "erl-energia-zinetikoa",
+   "agertzen": [
+    "erl-energia-zinetikoa"
    ],
    "berrikusi_gabe": true
   },
@@ -7123,6 +7843,18 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "energia-dentsitatea",
+   "def": "<p>U: bolumen-unitateko energia mekanikoa; uhin harmonikoan U = ½ρω²u₀².</p>",
+   "kontzeptua": "uhin-barra-energia",
+   "agertzen": [
+    "uhin-barra-energia",
+    "uhin-barra-hooke",
+    "uhin-esferikoak",
+    "uhin-poynting"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "energia-erresonantzia",
    "def": "<p>Batez besteko energia zinetikoa eta xurgatutako potentzia maximoak izatea, indarraren pultsazioa osziladorearena denean (Ω = ω).</p>",
    "kontzeptua": "mosz-energia-erresonantzia",
@@ -7146,6 +7878,15 @@
    "kontzeptua": "kua-potentzial-putzu-infinitua",
    "agertzen": [
     "kua-potentzial-putzu-infinitua"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "energia-momentu erlazioa",
+   "def": "<p>E² = E₀² + c²p²; partikularen energia, momentua eta masa lotzen ditu.</p>",
+   "kontzeptua": "erl-energia-momentu-aldaezina",
+   "agertzen": [
+    "erl-energia-momentu-aldaezina"
    ],
    "berrikusi_gabe": true
   },
@@ -7249,6 +7990,15 @@
    "kontzeptua": "term-ii-iii-postulatuak",
    "agertzen": [
     "term-ii-iii-postulatuak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "entzumen-atari",
+   "def": "<p>I₀ = 10⁻¹² W/m²: 1 kHz-etan entzun daitekeen soinurik ahulenaren intentsitatea.</p>",
+   "kontzeptua": "uhin-dezibela",
+   "agertzen": [
+    "uhin-dezibela"
    ],
    "berrikusi_gabe": true
   },
@@ -7466,6 +8216,17 @@
    "kontzeptua": "edo-sailkapen-zuhaitza",
    "agertzen": [
     "edo-sailkapen-zuhaitza"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "eraso-angelua",
+   "def": "<p>Uhin-bektorearen eta gainazalaren normalaren arteko angelua.</p>",
+   "kontzeptua": "uhin-islapen-snell",
+   "agertzen": [
+    "uhin-errefrakzioa-barne",
+    "uhin-fresnel-brewster",
+    "uhin-islapen-snell"
    ],
    "berrikusi_gabe": true
   },
@@ -7733,6 +8494,15 @@
   },
   {
    "t": "eremu kontserbakorra",
+   "def": "<p>Gradientea den bektore-eremua (F = ∇f); lerro-integrala ez da bidearen araberakoa.</p>",
+   "kontzeptua": "ebaz-kontserbakorrak",
+   "agertzen": [
+    "ebaz-kontserbakorrak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "eremu kontserbakorra",
    "def": "<p>Lerro-integrala bide-independentea duen eremua; potentzial eskalarra onartzen du.</p>",
    "kontzeptua": "em-potentzial-elektrikoa",
    "agertzen": [
@@ -7868,6 +8638,15 @@
     "erad-dinamika-erlatibista",
     "erad-einstein-en-postulatuak",
     "erad-momentua-eta-energia"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "erlatibitatearen printzipioa",
+   "def": "<p>Fisikaren oinarrizko legeak modu berean adierazten dira erreferentzia-sistema inertzial guztietan.</p>",
+   "kontzeptua": "erl-postulatuak",
+   "agertzen": [
+    "erl-postulatuak"
    ],
    "berrikusi_gabe": true
   },
@@ -8012,6 +8791,15 @@
    "kontzeptua": "erad-energia-eta-momentua",
    "agertzen": [
     "erad-energia-eta-momentua"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "erradiazio-presioa",
+   "def": "<p>Uhin elektromagnetikoak jotzen duen gorputzaren gainean eragiten duen presioa, momentu linealaren ondorioz.</p>",
+   "kontzeptua": "uhin-poynting",
+   "agertzen": [
+    "uhin-poynting"
    ],
    "berrikusi_gabe": true
   },
@@ -8227,6 +9015,24 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "errefrakzio-indize absolutua",
+   "def": "<p>n = c/v: hutsarekiko errefrakzio-indizea.</p>",
+   "kontzeptua": "uhin-errefrakzioa-barne",
+   "agertzen": [
+    "uhin-errefrakzioa-barne"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "errefrakzio-indize erlatiboa",
+   "def": "<p>Potentzial-putzuko sakabanatzea optikako errefrakzioaren baliokide egiten duen n = v′/v zatidura.</p>",
+   "kontzeptua": "zen-potentzial-putzu-angeluzuzena",
+   "agertzen": [
+    "zen-potentzial-putzu-angeluzuzena"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "errefrakzio-indizea",
    "def": "<p>n = c/v = √(ε_r μ_r): hutseko argiaren abiaduraren eta materiako abiaduraren zatidura.</p>",
    "kontzeptua": "erad-uhinak-materian",
@@ -8235,6 +9041,19 @@
     "erad-fase-eta-talde-abiadura",
     "erad-uhinak-eroaleetan",
     "erad-uhinak-materian"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "errefrakzio-indizea",
+   "def": "<p>n = c/v: hutsean eta ingurunean argiaren abiaduren zatidura; n = √(ε_r μ_r).</p>",
+   "kontzeptua": "uhin-errefrakzio-indizea",
+   "agertzen": [
+    "uhin-errefrakzio-indizea",
+    "uhin-errefrakzioa-barne",
+    "uhin-film-meheak",
+    "uhin-islapen-snell",
+    "uhin-talka"
    ],
    "berrikusi_gabe": true
   },
@@ -8412,6 +9231,16 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "erresonantzia",
+   "def": "<p>Kanpo-indar periodikoaren maiztasuna modu normal batekin bat datorrenean sortzen den anplitude handia.</p>",
+   "kontzeptua": "uhin-hodiak-erresonantzia",
+   "agertzen": [
+    "uhin-hodiak-erresonantzia",
+    "uhin-praktika-geldikorrak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "erresonantzia (Frobenius)",
    "def": "<p>Indizeen diferentzia oso positiboa denean errekurrentziaren izendatzailea ezeztatzen den egoera; koefiziente bat aske geratu edo gai logaritmikoa agertu daiteke.</p>",
    "kontzeptua": "ser-logaritmorik-gabeko-erresonantzia",
@@ -8563,6 +9392,16 @@
   },
   {
    "t": "errotazionala",
+   "def": "<p>rot F = ∇×F: eremuaren zirkulazio lokala neurtzen duen bektorea.</p>",
+   "kontzeptua": "ebaz-stokes",
+   "agertzen": [
+    "ebaz-bidea-aukeratu",
+    "ebaz-stokes"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "errotazionala",
    "def": "<p>Eremu bektorial baten «zirkulazio-joera» puntu bakoitzean: ∇ ∧ <em>A</em>. Eremu elektrostatikoan nulua da.</p>",
    "kontzeptua": "felm-eremu-kontserbatiboa",
    "agertzen": [
@@ -8647,6 +9486,15 @@
     "jar-praktika-elastikotasuna",
     "jar-presioa",
     "jar-tentsorearen-simetria"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "esfortzua (tentsioa)",
+   "def": "<p>τ = F/A: zeharkako sekzioaren azalera-unitateko indarra.</p>",
+   "kontzeptua": "uhin-barra-hooke",
+   "agertzen": [
+    "uhin-barra-hooke"
    ],
    "berrikusi_gabe": true
   },
@@ -8829,6 +9677,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "espazio motako tartea",
+   "def": "<p>Δs² > 0 (|Δr| > c|Δt|): sistema egokia aukeratuz aldiberekoak izan daitezke; ezin dira kausalki lotu.</p>",
+   "kontzeptua": "erl-tarte-motak",
+   "agertzen": [
+    "erl-tarte-motak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "espazio propioa",
    "def": "<p>λ balio propioari dagokion espazio propioa V(λ)=ker(A−λI) da: λ-ri dagozkion bektore propio guztiak, zeroarekin batera.</p>",
    "kontzeptua": "diag-espazio-propioak",
@@ -8849,6 +9706,18 @@
    "kontzeptua": "erad-espazio-denboraren-egitura",
    "agertzen": [
     "erad-espazio-denboraren-egitura"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "espazio-denborako tartea",
+   "def": "<p>Bi gertaeren arteko Δs² = |Δr|² − c²Δt² magnitudea; aldaezin erlatibista da, eta negatiboa izan daiteke.</p>",
+   "kontzeptua": "erl-espazio-denborako-tartea",
+   "agertzen": [
+    "erl-denbora-propioa",
+    "erl-energia-momentu-aldaezina",
+    "erl-espazio-denborako-tartea",
+    "erl-tarte-motak"
    ],
    "berrikusi_gabe": true
   },
@@ -8892,6 +9761,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "espektro elektromagnetikoa",
+   "def": "<p>Uhin elektromagnetikoen sailkapena uhin-luzeraren (eta maiztasunaren) arabera.</p>",
+   "kontzeptua": "uhin-espektro-em",
+   "agertzen": [
+    "uhin-espektro-em"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "espektroa",
    "def": "<p>Autobalioen multzoa.</p>",
    "kontzeptua": "stu-sl-problema",
@@ -8901,6 +9779,19 @@
     "stu-green-definizioa",
     "stu-green-eraikuntza",
     "stu-sl-problema"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "espektroa",
+   "def": "<p>Uhinaren F(k) transformatua: osagai monokromatiko bakoitzaren ekarpena.</p>",
+   "kontzeptua": "uhin-espektroa",
+   "agertzen": [
+    "uhin-errefrakzioa-barne",
+    "uhin-espektro-em",
+    "uhin-espektroa",
+    "uhin-pakete-zabalera",
+    "uhin-sareak"
    ],
    "berrikusi_gabe": true
   },
@@ -9011,6 +9902,21 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "eszentrikotasuna",
+   "def": "<p>Orbita konikoaren forma zehazten duen parametroa: ε = √(1 + 2L²E/mk²) = √(1 − E/E₀).</p>",
+   "kontzeptua": "zen-orbita-konikoa",
+   "agertzen": [
+    "zen-energia-ardatz-nagusia",
+    "zen-kurba-konikoak",
+    "zen-orbita-bornatuak",
+    "zen-orbita-hiperbolikoak",
+    "zen-orbita-irekiak",
+    "zen-orbita-konikoa",
+    "zen-orbita-newtondarren-sailkapena"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "etekin erreala",
    "def": "<p>Praktikan benetan lortzen den produktu-kantitatea, normalean teorikoa baino txikiagoa.</p>",
    "kontzeptua": "kim-erreakzio-doiketa-mugatzailea",
@@ -9071,6 +9977,25 @@
    "kontzeptua": "erad-einstein-en-postulatuak",
    "agertzen": [
     "erad-einstein-en-postulatuak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "eterra",
+   "def": "<p>XIX. mendean argia eramango zuela uste zen ingurune hipotetikoa; Michelson eta Morleyren esperimentuak ez zuen aurkitu.</p>",
+   "kontzeptua": "erl-galilear-mekanika",
+   "agertzen": [
+    "erl-galilear-mekanika",
+    "erl-luzeraren-uzkurdura"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "etorkizun absolutua eta iragan absolutua",
+   "def": "<p>Argi-konoaren barruko gertaerak: sistema inertzial guztietan G₀ baino beranduago (edo lehenago) jazotzen dira.</p>",
+   "kontzeptua": "erl-argi-konoa",
+   "agertzen": [
+    "erl-argi-konoa"
    ],
    "berrikusi_gabe": true
   },
@@ -9401,6 +10326,27 @@
   },
   {
    "t": "fase-abiadura",
+   "def": "<p>Fase konstantea duen puntuaren (adibidez, maximo baten) abiadura: v = ω/k.</p>",
+   "kontzeptua": "uhin-harmonikoa",
+   "agertzen": [
+    "uhin-2d-3d",
+    "uhin-barra-ekuazioa",
+    "uhin-egitura-periodikoa",
+    "uhin-errefrakzio-indizea",
+    "uhin-errefrakzioa-barne",
+    "uhin-gidak",
+    "uhin-harmonikoa",
+    "uhin-kanala",
+    "uhin-periodikoak",
+    "uhin-presio-uhinak",
+    "uhin-soka",
+    "uhin-soka-koefizienteak",
+    "uhin-talde-abiadura"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "fase-abiadura",
    "def": "<p>Uhin-fronte bakar baten hedapen-abiadura, v_f = ω/k.</p>",
    "kontzeptua": "kua-de-broglie-postulatua",
    "agertzen": [
@@ -9628,6 +10574,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "Fermaten printzipioa",
+   "def": "<p>Argiaren ibilbidea puntu batetik bestera joateko denbora-tarte estremala (laburrena edo luzeena) dena da.</p>",
+   "kontzeptua": "uhin-fermat",
+   "agertzen": [
+    "uhin-fermat"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "Fermi-Diracen banaketa",
    "def": "<p>Fermioien batez besteko okupazioa maila bakoitzean: <math display=\"inline\"><mrow><msub><mi>n</mi><mi>i</mi></msub><mo>/</mo><msub><mi>g</mi><mi>i</mi></msub><mo>=</mo><mn>1</mn><mo>/</mo><mo>(</mo><msup><mi>e</mi><mrow><mo>(</mo><msub><mi>ε</mi><mi>i</mi></msub><mo>-</mo><msub><mi>ε</mi><mi>F</mi></msub><mo>)</mo><mo>/</mo><msub><mi>k</mi><mi>B</mi></msub><mi>T</mi></mrow></msup><mo>+</mo><mn>1</mn><mo>)</mo><mo>≤</mo><mn>1</mn></mrow></math>.</p>",
    "kontzeptua": "est-fermi-dirac",
@@ -9689,6 +10644,16 @@
    "kontzeptua": "prog-fibonacci-iteratiboa",
    "agertzen": [
     "prog-fibonacci-iteratiboa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "film mehea",
+   "def": "<p>Lodiera uhin-luzeraren ordenakoa duen geruza gardena; bi aldeetako islapenak koherenteak dira.</p>",
+   "kontzeptua": "uhin-film-meheak",
+   "agertzen": [
+    "uhin-film-meheak",
+    "uhin-praktika-interferentzia"
    ],
    "berrikusi_gabe": true
   },
@@ -9869,6 +10834,17 @@
   },
   {
    "t": "fluxua",
+   "def": "<p>Eremuaren osagai normala gainazalaren gainean integratuta: ∬F·n dS.</p>",
+   "kontzeptua": "ebaz-fluxua",
+   "agertzen": [
+    "ebaz-fluxua",
+    "ebaz-gauss",
+    "ebaz-stokes"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "fluxua",
    "def": "<p>Hasierako baldintza bakoitzari t denborako puntu adierazgarria esleitzen dion aplikazioa.</p>",
    "kontzeptua": "goi-sistema-autonomoak",
    "agertzen": [
@@ -9920,6 +10896,19 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "foku-parametroa",
+   "def": "<p>Orbita konikoaren p parametroa: p = L²/(m|k|); astronomian semi-latus rectum izenekoa.</p>",
+   "kontzeptua": "zen-orbita-konikoa",
+   "agertzen": [
+    "zen-kurba-konikoak",
+    "zen-orbita-bornatuak",
+    "zen-orbita-hiperbolikoak",
+    "zen-orbita-konikoa",
+    "zen-orbita-newtondarren-sailkapena"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "fokua",
    "def": "<p>Fase-ibilbideak espiralean jatorrira jotzen duen oreka-puntu asintotikoki egonkorra.</p>",
    "kontzeptua": "mosz-indargetze-ahula",
@@ -9934,6 +10923,15 @@
    "kontzeptua": "ezl-fokuak-zentroak",
    "agertzen": [
     "ezl-fokuak-zentroak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "fokua eta zuzentzailea",
+   "def": "<p>Kurba konikoa definitzen duten puntu finkoa (fokua) eta zuzen finkoa (zuzentzailea).</p>",
+   "kontzeptua": "zen-kurba-konikoak",
+   "agertzen": [
+    "zen-kurba-konikoak"
    ],
    "berrikusi_gabe": true
   },
@@ -10254,6 +11252,22 @@
   },
   {
    "t": "fotoia",
+   "def": "<p>Argi-kuantua: masa nuluko partikula, E = hν energiarekin eta p = E/c momentuarekin.</p>",
+   "kontzeptua": "erl-masa-gabeko-partikulak",
+   "agertzen": [
+    "erl-abiaduren-konposizioa",
+    "erl-aldiberekotasuna",
+    "erl-argi-konoa",
+    "erl-compton-efektua",
+    "erl-doppler-efektua",
+    "erl-igorpena-xurgapena",
+    "erl-masa-gabeko-partikulak",
+    "erl-minkowski-diagramak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "fotoia",
    "def": "<p>Argiaren kuantua: energia E = hν eta momentu p = h/λ dituen pakete bat.</p>",
    "kontzeptua": "kua-einstein-formulazioa",
    "agertzen": [
@@ -10352,6 +11366,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "Fourierren transformatua",
+   "def": "<p>F(k): funtzio bat sinusoideen integral gisa adierazten duen koefiziente-funtzioa, f(x) = ∫ F(k) eᶦᵏˣ dk.</p>",
+   "kontzeptua": "uhin-espektroa",
+   "agertzen": [
+    "uhin-espektroa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "fraktala",
    "def": "<p>Eskala guztietan egitura errepikatzen duen multzoa (eskalaren aldaezintasuna).</p>",
    "kontzeptua": "mkao-erakarle-arraroak",
@@ -10404,6 +11427,18 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "Fraunhofer difrakzioa",
+   "def": "<p>Iturria eta behaketa-puntua distantzia infiniturantz daudenean gertatzen den difrakzioa (izpi paraleloak).</p>",
+   "kontzeptua": "uhin-zirrikitu-bakarra",
+   "agertzen": [
+    "uhin-fresnel-difrakzioa",
+    "uhin-sareak",
+    "uhin-zirrikitu-bakarra",
+    "uhin-zulo-zirkularra"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "Fredholm-en alternatiba",
    "def": "<p>Problema inhomogeneoak edo soluzio bakarra du, edo homogeneoak soluzio ez-nulua du.</p>",
    "kontzeptua": "stu-fredholm",
@@ -10423,12 +11458,31 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "Fresnel difrakzioa",
+   "def": "<p>Iturria edo behaketa-puntua distantzia finitura daudenean gertatzen den difrakzioa.</p>",
+   "kontzeptua": "uhin-fresnel-difrakzioa",
+   "agertzen": [
+    "uhin-fresnel-difrakzioa",
+    "uhin-sareak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "Fresnel-en ekuazioak",
    "def": "<p>Interfazean islatutako eta transmititutako anplitudeak ematen dituzten ekuazioak, polarizazio paraleloa eta elkarzuta bereizita.</p>",
    "kontzeptua": "erad-intzidentzia-zeiharra",
    "agertzen": [
     "erad-intzidentzia-zeiharra",
     "erad-uhin-ekuazioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Fresnelen koefizienteak",
+   "def": "<p>R∥, R⟂, T∥, T⟂: eremu elektrikoaren bi polarizazio-osagaien islapen- eta transmisio-koefizienteak.</p>",
+   "kontzeptua": "uhin-fresnel-brewster",
+   "agertzen": [
+    "uhin-fresnel-brewster"
    ],
    "berrikusi_gabe": true
   },
@@ -10730,6 +11784,15 @@
    "agertzen": [
     "bek-alderantzizko-funtzioa",
     "bek-funtzio-inplizituak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "funtzio inplizitua",
+   "def": "<p>F(x,y,z) = 0 ekuazioak definitutako funtzioa (z = z(x,y)), formula esplizitua ez duena.</p>",
+   "kontzeptua": "ebaz-inplizitua-bat",
+   "agertzen": [
+    "ebaz-inplizitua-bat"
    ],
    "berrikusi_gabe": true
   },
@@ -11080,6 +12143,16 @@
   },
   {
    "t": "gainazal-tentsioa",
+   "def": "<p>γ: gainazalaren elementu batek alboan eragiten duen luzera-unitateko indarra.</p>",
+   "kontzeptua": "uhin-kanala",
+   "agertzen": [
+    "uhin-2d-3d",
+    "uhin-kanala"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "gainazal-tentsioa",
    "def": "<p>&gamma;; gainazalean luzera-unitateko indarra (N/m), edo azalera-unitateko lana (J/m&sup2;).</p>",
    "kontzeptua": "jar-gainazal-tentsioa",
    "agertzen": [
@@ -11273,6 +12346,16 @@
    "agertzen": [
     "hig-erreferentzia-sistemak-s-eta-s",
     "hig-translazio-hutsa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Galileoren transformazioa",
+   "def": "<p>Bi sistema inertzialen arteko koordenatu-aldaketa mekanika galilearrean: t′ = t, x′ = x − vt, y′ = y, z′ = z.</p>",
+   "kontzeptua": "erl-inertzialak-gertaerak",
+   "agertzen": [
+    "erl-galilear-mekanika",
+    "erl-inertzialak-gertaerak"
    ],
    "berrikusi_gabe": true
   },
@@ -11530,6 +12613,26 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "gertaera",
+   "def": "<p>Espazioko puntu batean eta denborako aldiune batean jazotzen dena; S sisteman (t, x, y, z) koordenatuez adierazten da.</p>",
+   "kontzeptua": "erl-inertzialak-gertaerak",
+   "agertzen": [
+    "erl-aldiberekotasuna",
+    "erl-argi-konoa",
+    "erl-denbora-propioa",
+    "erl-denboraren-zabalkuntza",
+    "erl-espazio-denborako-tartea",
+    "erl-inertzialak-gertaerak",
+    "erl-minkowski-ardatz-zeiharrak",
+    "erl-minkowski-diagramak",
+    "erl-praktika-zinematika",
+    "erl-tarte-motak",
+    "erl-tarteen-transformazioa",
+    "erl-tetrabektoreak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "Gertaera askeak",
    "def": "<p>P[A|C] = P[A] betetzen duten gertaerak; baliokidea: P[A ∩ C] = P[A]·P[C].</p>",
    "kontzeptua": "prob-askeak",
@@ -11734,6 +12837,34 @@
    "agertzen": [
     "esp-espazio-bektoriala",
     "esp-gorputza"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "gorriranzko lerrakuntza",
+   "def": "<p>Iturria urruntzen denean behatzaileak maiztasun txikiagoa neurtzea (uhin-luzera handiagoa).</p>",
+   "kontzeptua": "erl-doppler-efektua",
+   "agertzen": [
+    "erl-doppler-efektua",
+    "erl-igorpena-xurgapena"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "gorriranzko lerrakuntza",
+   "def": "<p>Iturria eta behatzailea urruntzean maiztasuna jaisten da (ν′ < ν).</p>",
+   "kontzeptua": "uhin-doppler-em",
+   "agertzen": [
+    "uhin-doppler-em"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "grabitate-uhina",
+   "def": "<p>Grabitatea indar berreskuratzaile nagusia duen uhina (uhin-luzera handia).</p>",
+   "kontzeptua": "uhin-kanala",
+   "agertzen": [
+    "uhin-kanala"
    ],
    "berrikusi_gabe": true
   },
@@ -12116,6 +13247,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "harrapatze-sekzio eragilea",
+   "def": "<p>Partikulak jomugan harrapatuta geratzeko zeharkatu behar duen sekzioa (adibidez, meteoritoen kasuan).</p>",
+   "kontzeptua": "zen-sekzio-eragilea",
+   "agertzen": [
+    "zen-sekzio-eragilea"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "hartzailea",
    "def": "<p>Energia elektrikoa, beroa ez den beste energia-mota bat bihurtzen duen gailua.</p>",
    "kontzeptua": "felm-indar-elektroeragilea",
@@ -12348,6 +13488,24 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "hedapen-abiadura",
+   "def": "<p>u(t,x) = f(x − vt) uhinean, v: perfilak espazioan higitzen duen abiadura.</p>",
+   "kontzeptua": "uhin-bidaiaria",
+   "agertzen": [
+    "uhin-2d-3d",
+    "uhin-bidaiaria",
+    "uhin-doppler",
+    "uhin-doppler-em",
+    "uhin-ekuazioa",
+    "uhin-elektromagnetikoak",
+    "uhin-harmonikoa",
+    "uhin-kanala",
+    "uhin-poynting",
+    "uhin-soka"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "hedapen-bektorea",
    "def": "<p>k: hedapen-norabidean doan eta k = 2π/λ modulua duen bektorea; fasea k·r − ωt da.</p>",
    "kontzeptua": "erad-uhin-lau-monokromatikoak",
@@ -12370,6 +13528,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "Heisenbergen ziurgabetasun-printzipioa",
+   "def": "<p>Partikula baten posizioaren eta momentuaren ziurgabetasunak ΔxΔp ∼ h betetzen du.</p>",
+   "kontzeptua": "uhin-pakete-zabalera",
+   "agertzen": [
+    "uhin-pakete-zabalera"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "Helmholtz-en ekuazioa",
    "def": "<p>Δu + K²u = 0: denbora kenduta, uhin-ekuazioaren zati espaziala.</p>",
    "kontzeptua": "edp-bessel",
@@ -12385,6 +13552,16 @@
    "agertzen": [
     "term-hozketa-parametroak",
     "term-potentzial-termodinamikoak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Helmholtzen ekuazioa",
+   "def": "<p>f″ + k²f = 0: u(t,x) = f(x)e^(−iωt) soluzioak uhin-ekuazioan ordezkatzean f(x)-rentzat lortzen den ekuazioa.</p>",
+   "kontzeptua": "uhin-geldikorrak-soka",
+   "agertzen": [
+    "uhin-geldikorrak-soka",
+    "uhin-hodiak-erresonantzia"
    ],
    "berrikusi_gabe": true
   },
@@ -12467,6 +13644,27 @@
    "kontzeptua": "bek-mutur-baldintzatuak",
    "agertzen": [
     "bek-mutur-baldintzatuak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Hessiar orlatua",
+   "def": "<p>Hessiarra ligaduraren gradientearekin zabaldutako matrizea; ligadurapeko puntu kritikoak sailkatzeko erabiltzen da.</p>",
+   "kontzeptua": "ebaz-lagrange-bat",
+   "agertzen": [
+    "ebaz-lagrange-bat"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Hessiarra",
+   "def": "<p>Bigarren ordenako deribatu partzialen matrizea; bere zeinuak puntu kritikoa sailkatzen du.</p>",
+   "kontzeptua": "ebaz-mutur-lokalak",
+   "agertzen": [
+    "ebaz-lagrange-bat",
+    "ebaz-mutur-absolutuak",
+    "ebaz-mutur-lokalak",
+    "ebaz-optimizazio-aplikatua"
    ],
    "berrikusi_gabe": true
   },
@@ -12594,6 +13792,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "higidura hiperbolikoa",
+   "def": "<p>Azelerazio propio konstantezko higidura; unibertso-lerroa hiperbola da: (x − x̃₀)² − (ct)² = (c²/a)².</p>",
+   "kontzeptua": "erl-higidura-hiperbolikoa",
+   "agertzen": [
+    "erl-higidura-hiperbolikoa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "higidura kuasiperiodikoa (biperiodikoa)",
    "def": "<p>Bi periodo elkarneurgaitz dituen higidura: orbitak toruaren gainazala betetzen du eta ez da inoiz errepikatzen.</p>",
    "kontzeptua": "kkao-higidura-kuasiperiodikoa",
@@ -12638,6 +13845,17 @@
    "kontzeptua": "fis-zinematika-oinarriak",
    "agertzen": [
     "fis-zinematika-oinarriak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "higidura-konstante",
+   "def": "<p>Higiduran zehar balioa aldatzen ez duen magnitudea (adibidez, L eta E indar zentraletan).</p>",
+   "kontzeptua": "zen-energia-mekanikoa",
+   "agertzen": [
+    "zen-energia-mekanikoa",
+    "zen-hiru-gorputzen-problema",
+    "zen-momentu-angeluarra"
    ],
    "berrikusi_gabe": true
   },
@@ -12733,6 +13951,15 @@
    "kontzeptua": "prog-bokal-kontagailua",
    "agertzen": [
     "prog-bokal-kontagailua"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Hohmannen orbita",
+   "def": "<p>Bi orbita zirkular tangenteki lotzen dituen orbita eliptikoa; orbita-aldaketarako energia-gastu txikieneko bidea da.</p>",
+   "kontzeptua": "zen-hohmannen-orbita",
+   "agertzen": [
+    "zen-hohmannen-orbita"
    ],
    "berrikusi_gabe": true
   },
@@ -12843,6 +14070,16 @@
    "agertzen": [
     "fosz-landeta-mekanika",
     "fosz-malgukia"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Hookeren legea",
+   "def": "<p>Deformazio txikietan, esfortzua deformazio unitarioarekiko proportzionala da: τ = E ∂u/∂x.</p>",
+   "kontzeptua": "uhin-barra-hooke",
+   "agertzen": [
+    "uhin-barra-hooke",
+    "uhin-presio-uhinak"
    ],
    "berrikusi_gabe": true
   },
@@ -12963,6 +14200,16 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "Huygensen printzipioa",
+   "def": "<p>Uhin-frontearen puntu bakoitza bigarren mailako uhin-iturri bat da.</p>",
+   "kontzeptua": "uhin-bi-zirrikitu",
+   "agertzen": [
+    "uhin-bi-zirrikitu",
+    "uhin-zirrikitu-bakarra"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "I. motako akatsa",
    "def": "<p>H₀ egia izanik, ukatzea.</p>",
    "kontzeptua": "mest-i-eta-ii-motako-akatsak",
@@ -13044,6 +14291,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "ihes-abiadura",
+   "def": "<p>Indar erakarlean infiniturantz alde egiteko behar den abiadura minimoa: v_i = √(2k/mr).</p>",
+   "kontzeptua": "zen-orbita-irekiak",
+   "agertzen": [
+    "zen-orbita-irekiak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "II. motako akatsa",
    "def": "<p>H₀ faltsua izanik, onartzea.</p>",
    "kontzeptua": "mest-i-eta-ii-motako-akatsak",
@@ -13078,6 +14334,15 @@
    "kontzeptua": "hig-inbertsioak",
    "agertzen": [
     "hig-inbertsioak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "indar aldaratzailea",
+   "def": "<p>k < 0 duen indar newtondarra (adibidez, zeinu bereko bi kargaren arteko indar elektrostatikoa).</p>",
+   "kontzeptua": "zen-indar-newtondarrak",
+   "agertzen": [
+    "zen-indar-newtondarrak"
    ],
    "berrikusi_gabe": true
   },
@@ -13155,6 +14420,27 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "indar erakarlea",
+   "def": "<p>k > 0 duen indar newtondarra (adibidez, grabitazioa).</p>",
+   "kontzeptua": "zen-indar-newtondarrak",
+   "agertzen": [
+    "zen-indar-newtondarrak",
+    "zen-orbita-hiperbolikoak",
+    "zen-orbita-irekiak",
+    "zen-orbita-konikoa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "indar erlatibista",
+   "def": "<p>F = dp/dt: partikulak pairatzen duen indar osoa; azelerazioa eta indarra ez dira, oro har, norabide berekoak.</p>",
+   "kontzeptua": "erl-indarra",
+   "agertzen": [
+    "erl-indarra"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "indar ez-kontserbatzailea",
    "def": "<p>Lana ibilbidearen mende dagoen indarra (marruskadura); W_NC = ΔE_mekanikoa.</p>",
    "kontzeptua": "fis-marruskadura-eta-abiadura-limitea",
@@ -13192,6 +14478,16 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "indar newtondarra",
+   "def": "<p>Distantziaren karratuarekiko alderantziz proportzionala den indar zentrala: V = −k/r, F = −(k/r²) r̂.</p>",
+   "kontzeptua": "zen-indar-newtondarrak",
+   "agertzen": [
+    "zen-indar-newtondarrak",
+    "zen-indar-zentralak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "indar normala",
    "def": "<p>Ukipen-indarraren osagai perpendikularra, gainazalarekiko.</p>",
    "kontzeptua": "fis-newton-legeen-aplikazioak",
@@ -13222,6 +14518,18 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "indar zentrala",
+   "def": "<p>Poloa deritzon puntu finko batera beti zuzenduta dagoen indarra; bere modulua poloarekiko distantziaren menpekoa da soilik: F = F(r) r̂.</p>",
+   "kontzeptua": "zen-indar-zentralak",
+   "agertzen": [
+    "zen-bertranden-teorema",
+    "zen-energia-mekanikoa",
+    "zen-indar-newtondarrak",
+    "zen-indar-zentralak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "indar zentrifugoa",
    "def": "<p>−mω×(ω×r′): biraketa-ardatzetik urruntzen duen inertzia-indarra.</p>",
    "kontzeptua": "hig-lau-inertzia-indarrak",
@@ -13229,6 +14537,17 @@
     "hig-laborategi-sistema",
     "hig-lau-inertzia-indarrak",
     "hig-pisua-eta-grabitate-azelerazioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "indar zentrifugoa",
+   "def": "<p>Momentu angeluarra ezabatzean higidura erradialaren ekuazioan agertzen den gaia: m r ϕ̇² = L²/(m r³); poloagandik urruntzeko joera adierazten du.</p>",
+   "kontzeptua": "zen-problema-baliokidea",
+   "agertzen": [
+    "zen-hiru-gorputzen-problema",
+    "zen-orbita-zirkularren-egonkortasuna",
+    "zen-problema-baliokidea"
    ],
    "berrikusi_gabe": true
   },
@@ -13278,6 +14597,21 @@
    "agertzen": [
     "mek-indar-zentralak",
     "mek-momentu-angeluarra"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "indar-polo",
+   "def": "<p>Indar zentralaren zentroa; erreferentzia-sistemaren jatorria bertan jartzen da.</p>",
+   "kontzeptua": "zen-indar-zentralak",
+   "agertzen": [
+    "zen-indar-zentralak",
+    "zen-orbita-bornatuak",
+    "zen-orbita-hiperbolikoak",
+    "zen-orbita-konikoa",
+    "zen-orbita-zirkularren-egonkortasuna",
+    "zen-problema-baliokidea",
+    "zen-sekzioak-laborategian"
    ],
    "berrikusi_gabe": true
   },
@@ -13637,6 +14971,15 @@
   },
   {
    "t": "inertzia-momentua",
+   "def": "<p>Ardatz batekiko masa-banaketak biraketaren aurrean duen erresistentzia: ∭(ardatzerainoko distantzia)²·ρ dV.</p>",
+   "kontzeptua": "ebaz-masa-3d",
+   "agertzen": [
+    "ebaz-masa-3d"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "inertzia-momentua",
    "def": "<p>I = Σ mᵢrᵢ²; ardatz batekiko, masa-banaketak biraketari egiten dion erresistentzia.</p>",
    "kontzeptua": "fis-solido-zurruna-eta-inertzia",
    "agertzen": [
@@ -13773,6 +15116,16 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "ingurune sakabanatzailea",
+   "def": "<p>Fase-abiadura uhin-zenbakiaren (maiztasunaren) menpekoa den ingurunea.</p>",
+   "kontzeptua": "uhin-talde-abiadura",
+   "agertzen": [
+    "uhin-gidak",
+    "uhin-talde-abiadura"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "injektiboa",
    "def": "<p>Funtzio bat injektiboa da balio desberdinek irudi desberdinak dituztenean (bi sarrerak ez dira irudi berera iristen).</p>",
    "kontzeptua": "esp-log-esp-injektibitatea",
@@ -13808,6 +15161,15 @@
    "kontzeptua": "mosz-inpedantzia",
    "agertzen": [
     "mosz-inpedantzia"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "inpedantzia",
+   "def": "<p>Z = F/ẏ: soka bat mugitzen duen indarraren eta puntuaren abiaduraren arteko zatidura; soka tenkatuan Z = √(Tμ).</p>",
+   "kontzeptua": "uhin-soka",
+   "agertzen": [
+    "uhin-soka"
    ],
    "berrikusi_gabe": true
   },
@@ -13967,6 +15329,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "intentsitate-maila",
+   "def": "<p>β = 10 log₁₀(I/I₀): soinuaren intentsitatea eskala logaritmikoan, dezibeletan.</p>",
+   "kontzeptua": "uhin-dezibela",
+   "agertzen": [
+    "uhin-dezibela"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "intentsitatea",
    "def": "<p>Gainazal bat denbora-unitatean zeharkatzen duen karga: <em>I</em> = d<em>q</em>/d<em>t</em>. Unitatea: amperea (A = C/s).</p>",
    "kontzeptua": "felm-korrontea-eta-dentsitatea",
@@ -13995,6 +15366,48 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "intentsitatea",
+   "def": "<p>I: uhinak denbora-unitatean eta sekzio normalaren azalera-unitatean garraiatzen duen batez besteko energia; I = vU.</p>",
+   "kontzeptua": "uhin-barra-energia",
+   "agertzen": [
+    "uhin-barra-energia",
+    "uhin-bi-zirrikitu",
+    "uhin-bragg",
+    "uhin-dezibela",
+    "uhin-esferikoak",
+    "uhin-interferentzia",
+    "uhin-iturri-sinkronoak",
+    "uhin-polarizazioa-malus",
+    "uhin-poynting",
+    "uhin-praktika-mekanikoak",
+    "uhin-sareak",
+    "uhin-zirrikitu-bakarra",
+    "uhin-zulo-zirkularra"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "interferentzia",
+   "def": "<p>Maiztasun bereko bi uhinen gainezarmenak puntu bakoitzean sortzen duen anplitude-aldaketa, desfasearen araberakoa.</p>",
+   "kontzeptua": "uhin-interferentzia",
+   "agertzen": [
+    "uhin-bi-zirrikitu",
+    "uhin-bragg",
+    "uhin-film-meheak",
+    "uhin-geldikorrak-soka",
+    "uhin-hodiak-erresonantzia",
+    "uhin-interferentzia",
+    "uhin-iturri-sinkronoak",
+    "uhin-polarizazioa-malus",
+    "uhin-praktika-azterketak",
+    "uhin-praktika-interferentzia",
+    "uhin-sareak",
+    "uhin-zirrikitu-bakarra",
+    "uhin-zulo-zirkularra"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "interferentzia eraikitzailea",
    "def": "<p>Uhinak fasean daudenean (δ = 0, 2π, …) anplitudeak batzen dira, 2A emanez.</p>",
    "kontzeptua": "fosz-interferentzia",
@@ -14004,11 +15417,34 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "interferentzia eraikitzailea",
+   "def": "<p>Uhinak fasean iristean (φ₂ − φ₁ = 2nπ) anplitudea maximoa da.</p>",
+   "kontzeptua": "uhin-interferentzia",
+   "agertzen": [
+    "uhin-bragg",
+    "uhin-film-meheak",
+    "uhin-geldikorrak-soka",
+    "uhin-interferentzia"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "interferentzia suntsitzailea",
    "def": "<p>Uhinak kontrafasean daudenean (δ = π, 3π, …) erabat ezabatzen dira.</p>",
    "kontzeptua": "fosz-interferentzia",
    "agertzen": [
     "fosz-interferentzia"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "interferentzia suntsitzailea",
+   "def": "<p>Uhinak kontrafasean iristean (φ₂ − φ₁ = (2n+1)π) anplitudea minimoa da.</p>",
+   "kontzeptua": "uhin-interferentzia",
+   "agertzen": [
+    "uhin-film-meheak",
+    "uhin-interferentzia",
+    "uhin-zirrikitu-bakarra"
    ],
    "berrikusi_gabe": true
   },
@@ -14027,6 +15463,16 @@
    "kontzeptua": "erad-interferentzia-young",
    "agertzen": [
     "erad-interferentzia-young"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "interferentzia-zerrenda",
+   "def": "<p>Pantailan interferentziak sortzen dituen maximo (zerrenda argia) eta minimo (zerrenda iluna).</p>",
+   "kontzeptua": "uhin-bi-zirrikitu",
+   "agertzen": [
+    "uhin-bi-zirrikitu",
+    "uhin-interferentzia"
    ],
    "berrikusi_gabe": true
   },
@@ -14244,6 +15690,16 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "islapen-koefizientea",
+   "def": "<p>R: uhin islatuaren eta erasotzailearen anplitudeen zatidura.</p>",
+   "kontzeptua": "uhin-soka-koefizienteak",
+   "agertzen": [
+    "uhin-fresnel-brewster",
+    "uhin-soka-koefizienteak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "islapena",
    "def": "<p>Determinantea −1 duen matrize ortogonala; zuzen baten gaineko simetria.</p>",
    "kontzeptua": "alg-errotazioak-islapenak",
@@ -14333,6 +15789,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "ispilu-islapena",
+   "def": "<p>Gainazal leunean islatutako izpiak puntu batetik (irudia) datozela dirudi.</p>",
+   "kontzeptua": "uhin-islapen-snell",
+   "agertzen": [
+    "uhin-islapen-snell"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "iterazioa",
    "def": "<p>Pausu bat aldi askotan errepikatzea, aurreko emaitza hurrengo pausoaren sarrera bihurtuz.</p>",
    "kontzeptua": "prog-newton-erro-karratua",
@@ -14356,6 +15821,16 @@
    "kontzeptua": "erad-gainezarmenaren-intentsitatea",
    "agertzen": [
     "erad-gainezarmenaren-intentsitatea"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "iturri sinkronoak",
+   "def": "<p>Maiztasun berdinarekin eta fase-erlazio konstantearekin igortzen duten iturriak.</p>",
+   "kontzeptua": "uhin-iturri-sinkronoak",
+   "agertzen": [
+    "uhin-iturri-sinkronoak",
+    "uhin-praktika-azterketak"
    ],
    "berrikusi_gabe": true
   },
@@ -14452,6 +15927,29 @@
    "kontzeptua": "felm-karga-higidura-eremu-uniformean",
    "agertzen": [
     "felm-karga-higidura-eremu-uniformean"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Jacobiar-determinantea",
+   "def": "<p>Ezezagunekiko deribatu partzialen matrizearen determinantea; ≠ 0 bada sistema lokalki askagarria da.</p>",
+   "kontzeptua": "ebaz-inplizitu-sistemak",
+   "agertzen": [
+    "ebaz-inplizitu-sistemak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Jacobiarra",
+   "def": "<p>Aldagai-aldaketaren deribatu-matrizearen determinantea; azalera edo bolumen-elementuaren eskalatze-faktorea ematen du (balio absolutuan).</p>",
+   "kontzeptua": "ebaz-aldagai-aldaketa-bikoitza",
+   "agertzen": [
+    "ebaz-aldagai-aldaketa-bikoitza",
+    "ebaz-alderantzizko-funtzioa",
+    "ebaz-gauss",
+    "ebaz-inplizitu-sistemak",
+    "ebaz-masa-2d",
+    "ebaz-polarrak"
    ],
    "berrikusi_gabe": true
   },
@@ -14701,6 +16199,20 @@
   },
   {
    "t": "jotze-parametroa",
+   "def": "<p>Partikularen hasierako norabidearen eta jomugaren arteko b distantzia; momentu angeluarra L = m b v₀ da.</p>",
+   "kontzeptua": "zen-sakabanatze-angelua",
+   "agertzen": [
+    "zen-rutherford",
+    "zen-sakabanatze-angelua",
+    "zen-sekzio-eragile-diferentziala",
+    "zen-sekzio-eragile-osoa",
+    "zen-sekzio-eragilea",
+    "zen-sekzioak-laborategian"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "jotze-parametroa",
    "def": "<p>Partikula jaurtitzean duen ardatzarekiko desplazamendu perpendikularra (b).</p>",
    "kontzeptua": "kkao-sakabanatze-kaotikoa",
    "agertzen": [
@@ -14771,6 +16283,15 @@
    "kontzeptua": "erad-transmisio-lerro-koaxiala",
    "agertzen": [
     "erad-transmisio-lerro-koaxiala"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "kalibrazio-hiperbolak",
+   "def": "<p>−c²t² + x² = ±n² hiperbolak; ardatz bakoitzeko unitate-marken posizioa zehazten dute diagraman.</p>",
+   "kontzeptua": "erl-kalibrazio-hiperbolak",
+   "agertzen": [
+    "erl-kalibrazio-hiperbolak"
    ],
    "berrikusi_gabe": true
   },
@@ -15152,6 +16673,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "kausalitatearen hedapen-muga",
+   "def": "<p>Seinale kausalek ezin dute c baino abiadura handiagoz hedatu; abiaduraren transformazioak muga hori sistema guztietan gordetzen du.</p>",
+   "kontzeptua": "erl-abiaduren-konposizioa",
+   "agertzen": [
+    "erl-abiaduren-konposizioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "Kelvin tenperatura-eskala",
    "def": "<p>Carnot-en motoreen bero-trukeen zatiduratik definitzen den tenperatura absolutua; ez dago material jakin baten mende.</p>",
    "kontzeptua": "term-faktore-integratzailea-eta-kelvin",
@@ -15175,6 +16705,16 @@
    "kontzeptua": "prob-gertaera-eragiketak",
    "agertzen": [
     "prob-gertaera-eragiketak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Keplerren bigarren legea",
+   "def": "<p>Poloa eta partikula lotzen dituen segmentuak azalera berdinak estaltzen ditu denbora-tarte berdinetan; indar zentral guztietan betetzen da.</p>",
+   "kontzeptua": "zen-momentu-angeluarra",
+   "agertzen": [
+    "zen-keplerren-ekuazioa",
+    "zen-momentu-angeluarra"
    ],
    "berrikusi_gabe": true
   },
@@ -15278,6 +16818,16 @@
    "agertzen": [
     "mat-rouche-teorema",
     "mat-sistema-modu-matriziala"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "koherentzia",
+   "def": "<p>Iturrien arteko desfasea denboran konstante mantentzea.</p>",
+   "kontzeptua": "uhin-interferentzia",
+   "agertzen": [
+    "uhin-film-meheak",
+    "uhin-interferentzia"
    ],
    "berrikusi_gabe": true
   },
@@ -15841,6 +17391,15 @@
   },
   {
    "t": "koordenatu esferikoak",
+   "def": "<p>Espazioko puntua (ρ,φ,θ) hirukoteaz adierazteko sistema: erradioa, angelu polarra eta azimuta.</p>",
+   "kontzeptua": "ebaz-esferikoak",
+   "agertzen": [
+    "ebaz-esferikoak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "koordenatu esferikoak",
    "def": "<p>(r, θ, φ) hirukotea: erradioa eta bi angelu. Esfera-simetriako problemetan erabiltzen dira.</p>",
    "kontzeptua": "edp-laplaziarra",
    "agertzen": [
@@ -15920,6 +17479,15 @@
   },
   {
    "t": "koordenatu polarrak",
+   "def": "<p>Planoko puntua (r,θ) bikoteaz adierazteko sistema: x = r·cosθ, y = r·sinθ.</p>",
+   "kontzeptua": "ebaz-polarrak",
+   "agertzen": [
+    "ebaz-polarrak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "koordenatu polarrak",
    "def": "<p>Planoko puntua jatorrirainoko distantziaz (r) eta angeluaz (θ) zehazten duen sistema.</p>",
    "kontzeptua": "fis-azelerazioaren-osagaiak",
    "agertzen": [
@@ -15968,6 +17536,15 @@
     "bek-koordenatu-esferikoak",
     "bek-koordenatu-kurbilineoak",
     "bek-koordenatu-zilindrikoak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "koordenatu zilindrikoak",
+   "def": "<p>Espazioko puntua (r,θ,z) hirukoteaz adierazteko sistema; polarrak xy planoan eta z kartesiarra.</p>",
+   "kontzeptua": "ebaz-zilindrikoak",
+   "agertzen": [
+    "ebaz-zilindrikoak"
    ],
    "berrikusi_gabe": true
   },
@@ -16281,6 +17858,16 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "kurba konikoa",
+   "def": "<p>Fokutik eta zuzentzailetik neurtutako distantzien zatidura (ε) konstantea duten puntuen leku geometrikoa.</p>",
+   "kontzeptua": "zen-kurba-konikoak",
+   "agertzen": [
+    "zen-kurba-konikoak",
+    "zen-orbita-konikoa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "kurba norabidetua",
    "def": "<p>Orientazio bat (norantza bat) aukeratu zaion kurba sinplea.</p>",
    "kontzeptua": "bek-lerro-integralak-kurbetan",
@@ -16574,6 +18161,15 @@
   },
   {
    "t": "Lagrangeren biderkatzailea",
+   "def": "<p>∇f = λ∇g ekuazioko λ eskalarra.</p>",
+   "kontzeptua": "ebaz-lagrange-bat",
+   "agertzen": [
+    "ebaz-lagrange-bat"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Lagrangeren biderkatzailea",
    "def": "<p>Murrizketa baten pean funtzio bat maximizatzean sartzen den parametroa. Hemen, <math display=\"inline\"><mrow><mi>β</mi></mrow></math> energiaren murrizketari dagokio.</p>",
    "kontzeptua": "est-entropia-beta",
    "agertzen": [
@@ -16620,6 +18216,15 @@
    "kontzeptua": "hig-lagrangeren-l4-eta-l5-puntuak",
    "agertzen": [
     "hig-lagrangeren-l4-eta-l5-puntuak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Lagrangeren puntuak",
+   "def": "<p>Hiru gorputzen problema murriztu zirkularrean sistema birakarian dauden bost oreka-puntuak: L₁, L₂, L₃ (zuzenean, ezegonkorrak) eta L₄, L₅ (triangelu aldekidean, egonkorrak baldintza batzuetan).</p>",
+   "kontzeptua": "zen-lagrangeren-puntuak",
+   "agertzen": [
+    "zen-lagrangeren-puntuak"
    ],
    "berrikusi_gabe": true
   },
@@ -16817,6 +18422,15 @@
    "kontzeptua": "konp-integral-inpropioak",
    "agertzen": [
     "konp-integral-inpropioak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "laplacetarra",
+   "def": "<p>∇² = ∂²/∂x² + ∂²/∂y² + ∂²/∂z²: bigarren ordenako eragile diferentziala.</p>",
+   "kontzeptua": "uhin-2d-3d",
+   "agertzen": [
+    "uhin-2d-3d"
    ],
    "berrikusi_gabe": true
   },
@@ -17219,6 +18833,17 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "ligadura",
+   "def": "<p>Aldagaiek bete behar duten baldintza (g(x) = 0), muturrak bilatzeko eremua mugatzen duena.</p>",
+   "kontzeptua": "ebaz-lagrange-bat",
+   "agertzen": [
+    "ebaz-lagrange-bat",
+    "ebaz-mutur-absolutuak",
+    "ebaz-optimizazio-aplikatua"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "likatasuna",
    "def": "<p>Fluido errealetan geruzen arteko barne-marruskadura, F/A = ηv/z.</p>",
    "kontzeptua": "fis-fluidoen-dinamika",
@@ -17543,6 +19168,28 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "Lorentzen faktorea",
+   "def": "<p>γ = 1/√(1 − v²/c²) koefiziente zinematikoa; beti 1 baino handiagoa da, eta abiadura c-ra hurbiltzean infiniturantz doa.</p>",
+   "kontzeptua": "erl-lorentz-transformazioa",
+   "agertzen": [
+    "erl-lorentz-transformazioa",
+    "erl-tetrabektoreak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Lorentzen transformazioa",
+   "def": "<p>Bi sistema inertzialen arteko koordenatu-aldaketa, argiaren abiaduraren aldaezintasuna betetzen duena.</p>",
+   "kontzeptua": "erl-lorentz-transformazioa",
+   "agertzen": [
+    "erl-lorentz-transformazioa",
+    "erl-praktika-zinematika",
+    "erl-tarteen-transformazioa",
+    "erl-tetrabektoreak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "Lorenz-en gauge-a",
    "def": "<p>∇·A = −μ₀ε₀ ∂V/∂t baldintza; V eta A uhin-ekuazio inhomogeneo deskonplatuak betetzen dituzte.</p>",
    "kontzeptua": "erad-gauge-askatasuna",
@@ -17701,6 +19348,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "lotura-energia",
+   "def": "<p>Sistema bat osagaietan banatzeko eman behar den energia; sistemaren masa osagaien masen batura baino txikiagoa da.</p>",
+   "kontzeptua": "erl-energia-osoa",
+   "agertzen": [
+    "erl-energia-osoa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "lotura-energia (D)",
    "def": "<p>Gas-egoerako molekula batean lotura bat apurtzeko behar den energia; taulatutako balioak batezbestekoak dira.</p>",
    "kontzeptua": "kim-lotura-energiak-kirchhoff",
@@ -17778,6 +19434,17 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "luzera propioa",
+   "def": "<p>Gorputzak bere pausaguneko sisteman duen luzera; sistema guztietan neurtzen den luzerarik handiena da.</p>",
+   "kontzeptua": "erl-luzeraren-uzkurdura",
+   "agertzen": [
+    "erl-espazio-denborako-tartea",
+    "erl-luzeraren-uzkurdura",
+    "erl-praktika-zinematika"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "luzera-dentsitatea",
    "def": "<p>Karga luzera-unitateko: λ = d<em>q</em>/d<em>L</em> (C/m).</p>",
    "kontzeptua": "felm-karga-banaketa-jarraituak",
@@ -17800,6 +19467,17 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "luzeraren uzkurdura",
+   "def": "<p>Higitzen ari den gorputzaren luzera higidura-norabidean γ aldiz laburragoa neurtzea: Δx = Δx*/γ.</p>",
+   "kontzeptua": "erl-luzeraren-uzkurdura",
+   "agertzen": [
+    "erl-denboraren-zabalkuntza",
+    "erl-luzeraren-uzkurdura",
+    "erl-praktika-zinematika"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "luzetarako deformazio unitarioa",
    "def": "<p>Norabide batean, luzera-unitateko luzera-aldaketa; u<sub>xx</sub> = &part;u<sub>x</sub>/&part;x.</p>",
    "kontzeptua": "jar-luzetarako-deformazioak",
@@ -17815,6 +19493,15 @@
    "kontzeptua": "fosz-zeharkakoak-luzetarakoak",
    "agertzen": [
     "fosz-zeharkakoak-luzetarakoak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "luzetarako uhina",
+   "def": "<p>Materiaren higidura hedapen-norabidean gertatzen den uhina.</p>",
+   "kontzeptua": "uhin-barra-ekuazioa",
+   "agertzen": [
+    "uhin-barra-ekuazioa"
    ],
    "berrikusi_gabe": true
   },
@@ -18011,6 +19698,30 @@
   },
   {
    "t": "maiztasuna",
+   "def": "<p>ν = 1/T: segundoko oszilazioen kopurua.</p>",
+   "kontzeptua": "uhin-harmonikoa",
+   "agertzen": [
+    "uhin-barrunbeak",
+    "uhin-doppler",
+    "uhin-doppler-em",
+    "uhin-egitura-periodikoa",
+    "uhin-errefrakzioa-barne",
+    "uhin-espektro-em",
+    "uhin-geldikorrak-soka",
+    "uhin-gidak",
+    "uhin-harmonikoa",
+    "uhin-hodiak-erresonantzia",
+    "uhin-islapen-snell",
+    "uhin-mintzak",
+    "uhin-pakete-zabalera",
+    "uhin-periodikoak",
+    "uhin-praktika-azterketak",
+    "uhin-talde-abiadura"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "maiztasuna",
    "def": "<p>Gertaera edo elementu bat zenbat aldiz errepikatzen den.</p>",
    "kontzeptua": "prog-histograma",
    "agertzen": [
@@ -18060,6 +19771,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "Malusen legea",
+   "def": "<p>I = I₀ cos²θ: transmisio-ardatzen arteko angelua θ denean transmititzen den intentsitatea.</p>",
+   "kontzeptua": "uhin-polarizazioa-malus",
+   "agertzen": [
+    "uhin-polarizazioa-malus"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "manometroa",
    "def": "<p>Likido-zutabe baten altuera-diferentziaz gas baten presioa neurtzen duen tresna.</p>",
    "kontzeptua": "jar-manometroa-barometroa",
@@ -18097,6 +19817,26 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "masa erlatibista",
+   "def": "<p>γm biderkadura (batzuek horrela deitzen diote); testu honetan «masa» partikularen m balio inbarianteari esaten zaio.</p>",
+   "kontzeptua": "erl-momentu-lineala",
+   "agertzen": [
+    "erl-energia-osoa",
+    "erl-momentu-lineala"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "masa gabeko partikula",
+   "def": "<p>m = 0 duen partikula: E = pc betetzen du eta c abiaduraz higitzen da sistema guztietan; ez dauka sistema propiorik.</p>",
+   "kontzeptua": "erl-masa-gabeko-partikulak",
+   "agertzen": [
+    "erl-masa-gabeko-partikulak",
+    "erl-tarte-motak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "masa inbariantea",
    "def": "<p>m: lau-momentuaren moduluak ematen duen masa, E² − p²c² = m²c⁴; sistema guztietan berdina, baina ez kontserbatua.</p>",
    "kontzeptua": "erad-momentua-eta-energia",
@@ -18122,6 +19862,16 @@
     "mek-bi-gorputzen-problema",
     "mek-praktika-partikula-sistemak",
     "mek-talka-elastikoak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "masa laburbildua",
+   "def": "<p>Bi gorputzen problema baliokidean agertzen den masa: m = m₁m₂/(m₁+m₂). Posizio erlatiboaren higidura-ekuazioan partikula bakar baten masaren lekua hartzen du.</p>",
+   "kontzeptua": "zen-indar-zentralak",
+   "agertzen": [
+    "zen-indar-zentralak",
+    "zen-sekzioak-laborategian"
    ],
    "berrikusi_gabe": true
   },
@@ -18225,6 +19975,17 @@
   },
   {
    "t": "masa-zentroaren sistema",
+   "def": "<p>Partikula-sistema bakartu baten momentu lineal osoa nulua den erreferentzia-sistema inertziala; V = Pc²/E abiaduraz higitzen da.</p>",
+   "kontzeptua": "erl-masa-zentroaren-sistema",
+   "agertzen": [
+    "erl-atari-energia",
+    "erl-masa-zentroaren-sistema",
+    "erl-praktika-talkak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "masa-zentroaren sistema",
    "def": "<p>Masa-zentroan kokatutako eta ardatzak biratzen ez dituen erreferentzia-sistema; bertan momentu lineal osoa zero da.</p>",
    "kontzeptua": "sol-masa-zentroaren-sistema",
    "agertzen": [
@@ -18242,6 +20003,16 @@
     "bek-integral-bikoitzaren-aplikazioak",
     "bek-integral-hirukoitzaren-aplikazioak",
     "bek-praktika-integral-hirukoitza"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "masa-zentrua",
+   "def": "<p>Solidoaren batez besteko posizio pisatua: koordenatu bakoitza momentua / masa da.</p>",
+   "kontzeptua": "ebaz-masa-3d",
+   "agertzen": [
+    "ebaz-masa-2d",
+    "ebaz-masa-3d"
    ],
    "berrikusi_gabe": true
   },
@@ -18548,11 +20319,41 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "maximo nagusia",
+   "def": "<p>N iturri sinkronoren interferentzian intentsitate handiena (N² I₁) duen maximoa.</p>",
+   "kontzeptua": "uhin-iturri-sinkronoak",
+   "agertzen": [
+    "uhin-iturri-sinkronoak",
+    "uhin-sareak",
+    "uhin-zirrikitu-bakarra"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "maximo-baldintza",
    "def": "<p>d sin θ = nλ: sareta baten interferentzia-maximoen norabideak ematen dituen baldintza.</p>",
    "kontzeptua": "erad-sareta-maximoak",
    "agertzen": [
     "erad-sareta-maximoak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "maximo-ordena",
+   "def": "<p>n zenbakia: a sin θ = nλ maximoaren ordena (0, 1, 2...).</p>",
+   "kontzeptua": "uhin-bi-zirrikitu",
+   "agertzen": [
+    "uhin-bi-zirrikitu"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "maximoaren ordena",
+   "def": "<p>m zenbaki osoa, a sin θ = mλ maximo nagusiaren ordena.</p>",
+   "kontzeptua": "uhin-sareak",
+   "agertzen": [
+    "uhin-bi-zirrikitu",
+    "uhin-sareak"
    ],
    "berrikusi_gabe": true
   },
@@ -18617,6 +20418,17 @@
    "kontzeptua": "prob-estatistika-kuantikoak",
    "agertzen": [
     "prob-estatistika-kuantikoak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "mekanika galilearra",
+   "def": "<p>Newtonen mekanika, Galileoren transformazioak erabiltzen dituena: denbora absolutua da eta abiadurak arrunt batzen dira.</p>",
+   "kontzeptua": "erl-galilear-mekanika",
+   "agertzen": [
+    "erl-abiaduren-konposizioa",
+    "erl-galilear-mekanika",
+    "erl-masa-zentroaren-sistema"
    ],
    "berrikusi_gabe": true
   },
@@ -18734,6 +20546,18 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "Minkowskiren diagrama",
+   "def": "<p>ct (bertikala) eta x (horizontala) ardatzetan gertaerak marrazteko diagrama; erlatibitate bereziko ondorioak ikusteko tresna.</p>",
+   "kontzeptua": "erl-minkowski-diagramak",
+   "agertzen": [
+    "erl-higidura-hiperbolikoa",
+    "erl-kalibrazio-hiperbolak",
+    "erl-minkowski-ardatz-zeiharrak",
+    "erl-minkowski-diagramak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "minore osagarria",
    "def": "<p>Gai baten lerroa eta zutabea kenduz geratzen den azpimatrizearen determinantea.</p>",
    "kontzeptua": "mat-minoreak-adjuntuak",
@@ -18832,6 +20656,18 @@
   },
   {
    "t": "modu normala",
+   "def": "<p>Sistemak oszilazio harmonikoan egon daitekeen maiztasun diskretu bakoitzari dagokion uhin geldikorra.</p>",
+   "kontzeptua": "uhin-geldikorrak-soka",
+   "agertzen": [
+    "uhin-geldikorrak-soka",
+    "uhin-gidak",
+    "uhin-hodiak-erresonantzia",
+    "uhin-mintzak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "modu normala",
    "def": "<p>Barrunbe batean uhin geldikor gisa egon daitekeen bibrazio elektromagnetikoaren konfigurazio posible bakoitza.</p>",
    "kontzeptua": "kua-rayleigh-jeans-hondamendi-ultramorea",
    "agertzen": [
@@ -18854,6 +20690,15 @@
    "kontzeptua": "fosz-akoplatuak",
    "agertzen": [
     "fosz-akoplatuak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "moduen dentsitatea",
+   "def": "<p>dnν/dν: maiztasun-unitateko eta bolumen-unitateko modu normalen kopurua.</p>",
+   "kontzeptua": "uhin-barrunbeak",
+   "agertzen": [
+    "uhin-barrunbeak"
    ],
    "berrikusi_gabe": true
   },
@@ -19070,12 +20915,30 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "momentu lineal erlatibista",
+   "def": "<p>p = mγv: partikula baten momentu lineala erlatibitate berezian.</p>",
+   "kontzeptua": "erl-momentu-lineala",
+   "agertzen": [
+    "erl-momentu-lineala"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "momentu lineal osoa",
    "def": "<p>P = Σ pᵢ = M·v_MZ.</p>",
    "kontzeptua": "fis-masa-zentroa-eta-momentu-lineala",
    "agertzen": [
     "fis-masa-zentroa-eta-momentu-lineala",
     "fis-solido-zurrunaren-dinamika"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "momentu lineal-dentsitatea",
+   "def": "<p>P = G/c²: eremu elektromagnetikoak bolumen-unitateko daraman momentu lineala.</p>",
+   "kontzeptua": "uhin-poynting",
+   "agertzen": [
+    "uhin-poynting"
    ],
    "berrikusi_gabe": true
   },
@@ -19199,6 +21062,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "mozte-maiztasuna",
+   "def": "<p>Moduak hedatzeko izan behar duen maiztasun minimoa; uhin-gidak maiztasun-iragazkiak dira.</p>",
+   "kontzeptua": "uhin-gidak",
+   "agertzen": [
+    "uhin-gidak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "mozte-potentziala",
    "def": "<p>Gelditze-potentzialaren beste izena: fotokorrontea anulatzen duen potentziala.</p>",
    "kontzeptua": "kua-millikan-plancken-konstantea",
@@ -19307,6 +21179,32 @@
     "edp-praktika-banantzea-1",
     "edp-sarrera",
     "edp-uhin-behartua"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "mugalde-baldintza",
+   "def": "<p>Bi inguruneen mugan uhinak bete behar duen jarraitutasun-baldintza.</p>",
+   "kontzeptua": "uhin-soka-koefizienteak",
+   "agertzen": [
+    "uhin-geldikorrak-soka",
+    "uhin-gidak",
+    "uhin-hodiak-erresonantzia",
+    "uhin-mintzak",
+    "uhin-soka-koefizienteak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "mugalde-baldintza",
+   "def": "<p>Muturretan eremuak bete behar duen baldintza (adibidez, u = 0 mutur finkoan).</p>",
+   "kontzeptua": "uhin-geldikorrak-soka",
+   "agertzen": [
+    "uhin-geldikorrak-soka",
+    "uhin-gidak",
+    "uhin-hodiak-erresonantzia",
+    "uhin-mintzak",
+    "uhin-soka-koefizienteak"
    ],
    "berrikusi_gabe": true
   },
@@ -19541,6 +21439,16 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "mutur absolutua",
+   "def": "<p>Eremu osoan funtzioaren balio handiena (maximoa) edo txikiena (minimoa).</p>",
+   "kontzeptua": "ebaz-mutur-absolutuak",
+   "agertzen": [
+    "ebaz-lagrange-bi",
+    "ebaz-mutur-absolutuak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "mutur baldintzatua",
    "def": "<p>g(x)=c murrizketa betetzen duten puntuen artean lortutako muturra.</p>",
    "kontzeptua": "bek-mutur-baldintzatuak",
@@ -19565,6 +21473,15 @@
    "kontzeptua": "fosz-hodi-akustikoak",
    "agertzen": [
     "fosz-hodi-akustikoak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Mössbauer efektua",
+   "def": "<p>Nukleoek γ izpiak igortzean edo xurgatzean atzerapena kristal-sare osoak hartzen duenean; atzerapena arbuiagarria da.</p>",
+   "kontzeptua": "erl-igorpena-xurgapena",
+   "agertzen": [
+    "erl-igorpena-xurgapena"
    ],
    "berrikusi_gabe": true
   },
@@ -19743,6 +21660,16 @@
    "kontzeptua": "mosz-soka-modu-normalak",
    "agertzen": [
     "mosz-soka-modu-normalak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "nodoa",
+   "def": "<p>Interferentzia suntsitzailea gertatzen den puntua.</p>",
+   "kontzeptua": "uhin-interferentzia",
+   "agertzen": [
+    "uhin-geldikorrak-soka",
+    "uhin-interferentzia"
    ],
    "berrikusi_gabe": true
   },
@@ -20290,6 +22217,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "oinarrizko harmonikoa",
+   "def": "<p>Maiztasunik txikieneko osagaia (lehen harmonikoa); gainerakoak goi-harmonikoak dira.</p>",
+   "kontzeptua": "uhin-periodikoak",
+   "agertzen": [
+    "uhin-periodikoak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "oinarrizko magnitudea",
    "def": "<p>Beste batzuen bidez adierazi ezin den magnitudea; mekanikan luzera [L], masa [M] eta denbora [T].</p>",
    "kontzeptua": "fis-magnitudeak-eta-dimentsioak",
@@ -20401,6 +22337,63 @@
    "kontzeptua": "fosz-hhs-zinematika",
    "agertzen": [
     "fosz-hhs-zinematika"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "orbita",
+   "def": "<p>Partikulak espazioan deskribatzen duen ibilbidea; haren ekuazioa ϕ(r) edo r(ϕ) da, denbora agertu gabe.</p>",
+   "kontzeptua": "zen-orbitaren-ekuazioa",
+   "agertzen": [
+    "zen-bertranden-teorema",
+    "zen-bineten-formula",
+    "zen-energia-ardatz-nagusia",
+    "zen-energia-mekanikoa",
+    "zen-hiru-gorputzen-problema",
+    "zen-hohmannen-orbita",
+    "zen-indar-newtondarrak",
+    "zen-indar-zentralak",
+    "zen-keplerren-ekuazioa",
+    "zen-keplerren-hirugarren-legea",
+    "zen-lagrangeren-puntuak",
+    "zen-orbita-bornatu-irekiak",
+    "zen-orbita-bornatuak",
+    "zen-orbita-hiperbolikoak",
+    "zen-orbita-irekiak",
+    "zen-orbita-konikoa",
+    "zen-orbita-newtondarren-sailkapena",
+    "zen-orbita-zirkularren-egonkortasuna",
+    "zen-orbitaren-ekuazioa",
+    "zen-praktika-kontserbazioa",
+    "zen-praktika-newtondarrak",
+    "zen-sekzio-eragilea"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "orbita hiperbolikoa",
+   "def": "<p>ε > 1 duen orbita; hiperbola-adar bat da, indar-poloa fokuetako batean duena.</p>",
+   "kontzeptua": "zen-orbita-hiperbolikoak",
+   "agertzen": [
+    "zen-orbita-hiperbolikoak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "orbita irekia",
+   "def": "<p>Distantzia maximorik ez duen orbita; E ≥ 0 denean gertatzen da.</p>",
+   "kontzeptua": "zen-orbita-irekiak",
+   "agertzen": [
+    "zen-orbita-irekiak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "orbita zirkular egonkorra",
+   "def": "<p>Perturbazio txikiak jasan ondoren ere orbita zirkularretik gertu geratzen den orbita; V_e″(r₀) > 0 betetzen da.</p>",
+   "kontzeptua": "zen-orbita-zirkularren-egonkortasuna",
+   "agertzen": [
+    "zen-orbita-zirkularren-egonkortasuna"
    ],
    "berrikusi_gabe": true
   },
@@ -20771,6 +22764,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "organo-hodia",
+   "def": "<p>Gas-zutabe bat duen hodia; mutur irekiak eta itxiak eragiten dute modu normalak.</p>",
+   "kontzeptua": "uhin-hodiak-erresonantzia",
+   "agertzen": [
+    "uhin-hodiak-erresonantzia"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "orientazio positiboa",
    "def": "<p>Kurba itxi sinplearen noranzkoa, barnealdea ezkerrean uzten duena (erlojuaren orratzen kontrakoa).</p>",
    "kontzeptua": "konp-kurbak-bideak",
@@ -20998,6 +23000,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "oszilazio erradial",
+   "def": "<p>Orbita zirkular egonkorraren inguruko r aldaketa txikia; harmonikoa da, ω_r² = V_e″(r₀)/m pultsazioarekin.</p>",
+   "kontzeptua": "zen-orbita-zirkularren-egonkortasuna",
+   "agertzen": [
+    "zen-orbita-zirkularren-egonkortasuna"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "oszilazio lineala",
    "def": "<p>Higidura-ekuazio lineal batek deskribatzen duen oszilazioa; oreka-puntutik gertu dauden sistemen hurbilketa da.</p>",
    "kontzeptua": "mosz-oszilazio-txikiak",
@@ -21199,6 +23210,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "partikula birtuala",
+   "def": "<p>Elkarrekintza batean trukatzen den partikula, masaren karratua negatiboa duena; fisika kuantikoan denbora-tarte laburretan agertzen da.</p>",
+   "kontzeptua": "erl-partikula-birtualak",
+   "agertzen": [
+    "erl-partikula-birtualak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "partikularizatzailearen ezabapen kritikoa (EP)",
    "def": "<p>Erregela: ∃xα-tik α[u/x] inferitzen da, u aldagai berria izanik (aurreko lerroetan agertu gabea).</p>",
    "kontzeptua": "log-erregela-kuantifikatzaileak",
@@ -21337,6 +23357,29 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "pausaguneko energia",
+   "def": "<p>E₀ = mc²: partikulak pausagunean duen energia, higidurarekin loturik ez dauden energia guztien batura.</p>",
+   "kontzeptua": "erl-energia-osoa",
+   "agertzen": [
+    "erl-atari-energia",
+    "erl-energia-osoa",
+    "erl-energia-zinetikoa",
+    "erl-igorpena-xurgapena",
+    "erl-masa-gabeko-partikulak",
+    "erl-partikula-birtualak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "pausaguneko masa",
+   "def": "<p>Partikularen sistema propioan neurtzen den m masa; abiaduraren independentea da.</p>",
+   "kontzeptua": "erl-momentu-lineala",
+   "agertzen": [
+    "erl-momentu-lineala"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "pauso anitzeko metodoa",
    "def": "<p>Hurrengo puntua kalkulatzeko aurreko hainbat pausoren informazioa erabiltzen duen metodoa.</p>",
    "kontzeptua": "ser-pauso-anitzeko-metodoak",
@@ -21439,6 +23482,17 @@
   },
   {
    "t": "periodoa",
+   "def": "<p>Orbita itxi bat osatzeko behar den denbora, T.</p>",
+   "kontzeptua": "zen-keplerren-hirugarren-legea",
+   "agertzen": [
+    "zen-indar-zentralak",
+    "zen-keplerren-ekuazioa",
+    "zen-keplerren-hirugarren-legea"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "periodoa",
    "def": "<p>Oszilazio bat errepikatzeko behar den denbora: T = 2π/ω.</p>",
    "kontzeptua": "mosz-soluzioa-anplitudea-fasea",
    "agertzen": [
@@ -21448,6 +23502,39 @@
     "mosz-periodoa-ez-linealak",
     "mosz-praktika-ez-harmonikoak",
     "mosz-soluzioa-anplitudea-fasea"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "periodoa",
+   "def": "<p>T = 2π/ω: puntu batean oszilazio oso bat egiteko denbora.</p>",
+   "kontzeptua": "uhin-harmonikoa",
+   "agertzen": [
+    "uhin-doppler",
+    "uhin-doppler-em",
+    "uhin-harmonikoa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "perizentroa",
+   "def": "<p>Indar-polotik hurbilen dagoen orbita-puntua (periastroa; Eguzkiaren inguruan perihelioa, Lurraren inguruan perigeoa).</p>",
+   "kontzeptua": "zen-orbita-bornatuak",
+   "agertzen": [
+    "zen-orbita-bornatu-irekiak",
+    "zen-orbita-bornatuak",
+    "zen-orbita-hiperbolikoak",
+    "zen-orbita-konikoa",
+    "zen-rutherford"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "perizentroaren prezesioa",
+   "def": "<p>Ondoz ondoko bi perizentroren arteko angelua 2π ez izatea; orbita bakoitzean perizentroak egiten duen angelu-aldaketa.</p>",
+   "kontzeptua": "zen-orbita-bornatu-irekiak",
+   "agertzen": [
+    "zen-orbita-bornatu-irekiak"
    ],
    "berrikusi_gabe": true
   },
@@ -21476,6 +23563,15 @@
    "kontzeptua": "felm-dielektrikoak",
    "agertzen": [
     "felm-dielektrikoak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "permitibitate erlatiboa",
+   "def": "<p>ε_r = ε/ε₀: ingurunearen permitibitate elektrikoa hutsarenarekiko.</p>",
+   "kontzeptua": "uhin-errefrakzio-indizea",
+   "agertzen": [
+    "uhin-errefrakzio-indizea"
    ],
    "berrikusi_gabe": true
   },
@@ -21666,6 +23762,16 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "planetoidea",
+   "def": "<p>Masa arbuiagarria duen hirugarren gorputza; ez du primarioen higiduran eraginik.</p>",
+   "kontzeptua": "zen-hiru-gorputzen-problema",
+   "agertzen": [
+    "zen-hiru-gorputzen-problema",
+    "zen-lagrangeren-puntuak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "plano afina",
    "def": "<p>2 dimentsioko azpiespazio afina: S = p + ⟨v→₁, v→₂⟩, v→₁ eta v→₂ linealki independenteak izanik.</p>",
    "kontzeptua": "geo1-azpiespazio-afin-motak",
@@ -21839,12 +23945,30 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "Poissonen puntua",
+   "def": "<p>Disko opaku baten itzalaren erdian ager daitekeen puntu argitsua.</p>",
+   "kontzeptua": "uhin-fresnel-difrakzioa",
+   "agertzen": [
+    "uhin-fresnel-difrakzioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "polarizagarritasuna",
    "def": "<p>Atomoaren dipolo induzitua eta eremuaren arteko proportzionaltasun-konstantea: <math display=\"inline\"><mrow><mi mathvariant=\"bold-italic\">p</mi><mo>=</mo><mi>α</mi><mi mathvariant=\"bold-italic\">E</mi></mrow></math>.</p>",
    "kontzeptua": "em-polarizazioa",
    "agertzen": [
     "em-polarizazioa",
     "em-suszeptibilitatea-permitibitatea"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "polarizatzailea",
+   "def": "<p>Argi naturala linealki polarizatuta uzten duen tresna; transmisio-ardatza du.</p>",
+   "kontzeptua": "uhin-polarizazioa-malus",
+   "agertzen": [
+    "uhin-polarizazioa-malus"
    ],
    "berrikusi_gabe": true
   },
@@ -21858,11 +23982,31 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "polarizazio eliptikoa",
+   "def": "<p>Maiztasun bereko bi oszilazio elkarzut harmoniko gainezartzean puntuak elipse bat deskribatzen du.</p>",
+   "kontzeptua": "uhin-polarizazio-soka",
+   "agertzen": [
+    "uhin-polarizazio-soka"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "polarizazio lineala",
    "def": "<p>Desplazamenduak (edo E eremuak) norabide finko bat du; bi osagaiak fasean daude.</p>",
    "kontzeptua": "erad-polarizazioa",
    "agertzen": [
     "erad-polarizazioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "polarizazio lineala",
+   "def": "<p>Puntu bakoitza lerro zuzen batean oszilatzen duen uhina.</p>",
+   "kontzeptua": "uhin-polarizazio-soka",
+   "agertzen": [
+    "uhin-elektromagnetikoak",
+    "uhin-polarizazio-soka",
+    "uhin-polarizazioa-malus"
    ],
    "berrikusi_gabe": true
   },
@@ -21876,11 +24020,30 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "polarizazio zirkularra",
+   "def": "<p>Anplitude berdinak eta π/2 desfasea dituzten bi oszilazio elkarzuten gainezarmena: puntuak zirkunferentzia bat deskribatzen du.</p>",
+   "kontzeptua": "uhin-polarizazio-soka",
+   "agertzen": [
+    "uhin-polarizazio-soka",
+    "uhin-polarizazioa-malus"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "polarizazio-karga",
    "def": "<p>Dielektrikoaren azaletan eremuak sortzen dituen karga lotuak; eremu netoa gutxitzen dute.</p>",
    "kontzeptua": "felm-dielektrikoak",
    "agertzen": [
     "felm-dielektrikoak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "polarizazio-maila",
+   "def": "<p>P = (I∥ − I⟂)/(I∥ + I⟂): argi-sorta baten polarizazio-maila.</p>",
+   "kontzeptua": "uhin-polarizazioa-malus",
+   "agertzen": [
+    "uhin-polarizazioa-malus"
    ],
    "berrikusi_gabe": true
   },
@@ -22201,6 +24364,15 @@
   },
   {
    "t": "potentzial eskalarra",
+   "def": "<p>F = ∇f betetzen duen f funtzioa.</p>",
+   "kontzeptua": "ebaz-kontserbakorrak",
+   "agertzen": [
+    "ebaz-kontserbakorrak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "potentzial eskalarra",
    "def": "<p><em>∇φ = F</em> betetzen duen <em>φ</em> funtzioa; osagaiz osagai integratuz berreraikitzen da.</p>",
    "kontzeptua": "stu-kalkulu-errepasoa",
    "agertzen": [
@@ -22358,6 +24530,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "Poyntingen bektorea",
+   "def": "<p>G = (1/μ₀) E × B: eremu elektromagnetikoaren energia-fluxuaren dentsitatea; bere modulua intentsitatea da.</p>",
+   "kontzeptua": "uhin-poynting",
+   "agertzen": [
+    "uhin-poynting"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "pq→",
    "def": "<p>p puntutik q punturako bektorea: pq→ = q − p. Horrela, q = p + pq→.</p>",
    "kontzeptua": "geo1-puntuak-eta-bektoreak",
@@ -22432,6 +24613,16 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "presio-uhina",
+   "def": "<p>Gasean edo likidoan hedatzen den presioaren perturbazioa (soinu-uhina).</p>",
+   "kontzeptua": "uhin-presio-uhinak",
+   "agertzen": [
+    "uhin-dezibela",
+    "uhin-presio-uhinak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "presioa",
    "def": "<p>p = dF/dA; azalera-unitateko indar normala (SI: pascal).</p>",
    "kontzeptua": "fis-presioa-eta-hidrostatika",
@@ -22482,6 +24673,17 @@
   },
   {
    "t": "prezesioa",
+   "def": "<p>Absideen norabidea orbitaz orbita aldatzea; orbita itxia ez denean gertatzen da.</p>",
+   "kontzeptua": "zen-bertranden-teorema",
+   "agertzen": [
+    "zen-bertranden-teorema",
+    "zen-orbita-bornatu-irekiak",
+    "zen-praktika-denetarik"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "prezesioa",
    "def": "<p>Momentu angeluarraren norabidea ardatz baten inguruan modu uniformean biratzea, modulua aldatu gabe.</p>",
    "kontzeptua": "sol-ziba-simetrikoaren-prezesioa",
    "agertzen": [
@@ -22508,6 +24710,16 @@
    "agertzen": [
     "hig-hiru-gorputzen-problema-murriztua",
     "hig-lagrangeren-l4-eta-l5-puntuak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "primarioak",
+   "def": "<p>Hiru gorputzen problema murriztuan, masa handiko bi gorputzak; orbita zirkularretan higitzen dira elkarren inguruan.</p>",
+   "kontzeptua": "zen-hiru-gorputzen-problema",
+   "agertzen": [
+    "zen-hiru-gorputzen-problema",
+    "zen-lagrangeren-puntuak"
    ],
    "berrikusi_gabe": true
   },
@@ -22771,6 +24983,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "prozesu adiabatikoa",
+   "def": "<p>Bero-trukerik gabeko prozesua; soinuaren maiztasunetan gasetan gertatzen dena.</p>",
+   "kontzeptua": "uhin-presio-uhinak",
+   "agertzen": [
+    "uhin-presio-uhinak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "prozesu itzulezina",
    "def": "<p>Itzulgarria ez den prozesua; dispazioa, marruskadura edo oreka gabeko trukea dagoenean gertatzen da.</p>",
    "kontzeptua": "term-itzulgarritasuna",
@@ -22875,6 +25096,19 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "pultsazioa",
+   "def": "<p>ω = |kv|: uhinaren abiadura angeluarra, denborako oszilazioarena.</p>",
+   "kontzeptua": "uhin-harmonikoa",
+   "agertzen": [
+    "uhin-2d-3d",
+    "uhin-harmonikoa",
+    "uhin-mintzak",
+    "uhin-poynting",
+    "uhin-talde-abiadura"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "pultsazioak (taupadak)",
    "def": "<p>Bi modu gainezartzean sortzen den anplitudearen modulazio geldoa: energia masaz masa dabil.</p>",
    "kontzeptua": "fosz-akoplatuak",
@@ -22974,6 +25208,18 @@
     "bek-mutur-absolutuak",
     "bek-mutur-baldintzatuak",
     "bek-mutur-lokalak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "puntu kritikoa",
+   "def": "<p>∇f = 0 betetzen duen puntua; mutur lokalen hautagaia.</p>",
+   "kontzeptua": "ebaz-mutur-lokalak",
+   "agertzen": [
+    "ebaz-iteratuak-ordena",
+    "ebaz-lagrange-bat",
+    "ebaz-mutur-absolutuak",
+    "ebaz-mutur-lokalak"
    ],
    "berrikusi_gabe": true
   },
@@ -23096,6 +25342,17 @@
    "kontzeptua": "erad-erradiatutako-potentzia",
    "agertzen": [
     "erad-erradiatutako-potentzia"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Rayleighen irispidea",
+   "def": "<p>Bi iturri bereizgarriak dira bata bestearen minimoaren gainean dagoenean: Δθ = λ/b.</p>",
+   "kontzeptua": "uhin-zirrikitu-bakarra",
+   "agertzen": [
+    "uhin-sareak",
+    "uhin-zirrikitu-bakarra",
+    "uhin-zulo-zirkularra"
    ],
    "berrikusi_gabe": true
   },
@@ -23243,6 +25500,15 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "Rutherforden formula",
+   "def": "<p>α partikulen sakabanatze newtondarraren sekzio eragile diferentziala: dσ/dΩ ∝ 1/sin⁴(Φ/2).</p>",
+   "kontzeptua": "zen-rutherford",
+   "agertzen": [
+    "zen-rutherford"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "Rutherforden sakabanatzea",
    "def": "<p>Alfa partikulen desbideratzea nukleoen Coulomb aldarapenaren ondorioz.</p>",
    "kontzeptua": "kua-rutherford-eredua",
@@ -23257,6 +25523,15 @@
    "kontzeptua": "mkao-okinaren-eraldaketa",
    "agertzen": [
     "mkao-okinaren-eraldaketa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "sabela (antinodoa)",
+   "def": "<p>Interferentzia eraikitzailea gertatzen den puntua.</p>",
+   "kontzeptua": "uhin-interferentzia",
+   "agertzen": [
+    "uhin-interferentzia"
    ],
    "berrikusi_gabe": true
   },
@@ -23286,6 +25561,28 @@
    "kontzeptua": "mek-talka-elastikoak",
    "agertzen": [
     "mek-talka-elastikoak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "sakabanatze-angelua",
+   "def": "<p>Partikularen hasierako eta amaierako norabide asintotikoen arteko Φ angelua. Indar newtondarretan cot(Φ/2) = m b v₀²/(2|k|).</p>",
+   "kontzeptua": "zen-sakabanatze-angelua",
+   "agertzen": [
+    "zen-rutherford",
+    "zen-sakabanatze-angelua",
+    "zen-sekzio-eragile-diferentziala",
+    "zen-sekzioak-laborategian"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "sakabanatze-erlazioa",
+   "def": "<p>ω = ω(k): pultsazioa eta uhin-zenbakia lotzen dituen erlazioa.</p>",
+   "kontzeptua": "uhin-talde-abiadura",
+   "agertzen": [
+    "uhin-egitura-periodikoa",
+    "uhin-talde-abiadura"
    ],
    "berrikusi_gabe": true
   },
@@ -23340,6 +25637,15 @@
    "kontzeptua": "kim-lotura-ionikoa",
    "agertzen": [
     "kim-lotura-ionikoa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "sarearen bereizmen-ahalmena",
+   "def": "<p>R = |m|N: ordena eta zirrikitu-kopuruaren biderkadura.</p>",
+   "kontzeptua": "uhin-sareak",
+   "agertzen": [
+    "uhin-sareak"
    ],
    "berrikusi_gabe": true
   },
@@ -23461,6 +25767,39 @@
    "kontzeptua": "edp-sektorea-bessel",
    "agertzen": [
     "edp-sektorea-bessel"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "sekzio eragile diferentziala",
+   "def": "<p>dσ = dN/I: angelu solido bateko konoan sakabanatutako partikulen kopuruaren eta intentsitatearen zatidura. Indar zentral batean dσ/dΩ = −(b/sin Φ)(db/dΦ).</p>",
+   "kontzeptua": "zen-sekzio-eragile-diferentziala",
+   "agertzen": [
+    "zen-ibilbide-askea",
+    "zen-potentzial-putzu-angeluzuzena",
+    "zen-rutherford",
+    "zen-sekzio-eragile-diferentziala",
+    "zen-sekzio-eragile-osoa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "sekzio eragile osoa",
+   "def": "<p>σ = ∫(dσ/dΩ)dΩ: norabide guztietan sakabanatutako partikulen kopuruaren eta intentsitatearen zatidura.</p>",
+   "kontzeptua": "zen-sekzio-eragile-osoa",
+   "agertzen": [
+    "zen-ibilbide-askea",
+    "zen-sekzio-eragile-osoa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "sekzio eragilea",
+   "def": "<p>Sortaren norabidearekiko perpendikularra den σ azalera, non sartzen diren partikulak sakabanatzen diren; denbora-unitatean N = Iσ partikula.</p>",
+   "kontzeptua": "zen-sekzio-eragilea",
+   "agertzen": [
+    "zen-sekzio-eragilea",
+    "zen-sekzioak-laborategian"
    ],
    "berrikusi_gabe": true
   },
@@ -24112,6 +26451,19 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "Snellen legea",
+   "def": "<p>sin θe / sin θr = n₂₁ = v₁/v₂: eraso- eta errefrakzio-angeluen sinuen zatidura konstantea da.</p>",
+   "kontzeptua": "uhin-islapen-snell",
+   "agertzen": [
+    "uhin-errefrakzioa-barne",
+    "uhin-fermat",
+    "uhin-fresnel-brewster",
+    "uhin-islapen-snell",
+    "uhin-praktika-islapena"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "soka diskretua",
    "def": "<p>Masa gabeko soka tentsionatuan N masa berdin tarte berdinetan jarrita dituen sistema.</p>",
    "kontzeptua": "mosz-soka-diskretua",
@@ -24119,6 +26471,16 @@
     "mosz-oszilazio-txikiak",
     "mosz-soka-diskretua",
     "mosz-soka-modu-normalak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "soka diskretua",
+   "def": "<p>Tentsiopean dagoen eta a distantziara dauden m masa berdinez osatutako soka; N → ∞ denean egitura periodiko infinitua da.</p>",
+   "kontzeptua": "uhin-egitura-periodikoa",
+   "agertzen": [
+    "uhin-egitura-periodikoa",
+    "uhin-geldikorrak-soka"
    ],
    "berrikusi_gabe": true
   },
@@ -24436,6 +26798,17 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "sortaren intentsitatea",
+   "def": "<p>Sekzio normalaren azalera-unitatetik denbora-unitatean pasatzen diren partikulen kopurua, I.</p>",
+   "kontzeptua": "zen-sekzio-eragilea",
+   "agertzen": [
+    "zen-ibilbide-askea",
+    "zen-sekzio-eragile-diferentziala",
+    "zen-sekzio-eragilea"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "sortutako azpiespazioa",
    "def": "<p>⟨S⟩: S-ko bektoreen konbinazio lineal guztien multzoa; S barruan duen azpiespazio txikiena da.</p>",
    "kontzeptua": "esp-azpiespazioaren-karakterizazioa",
@@ -24675,6 +27048,17 @@
   },
   {
    "t": "talde-abiadura",
+   "def": "<p>v_t = dω/dk: uhin-pakete baten anplitudearen abiadura.</p>",
+   "kontzeptua": "uhin-talde-abiadura",
+   "agertzen": [
+    "uhin-errefrakzioa-barne",
+    "uhin-gidak",
+    "uhin-talde-abiadura"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "talde-abiadura",
    "def": "<p>Uhin-paketearen (eta, beraz, partikularen) abiadura, v_t = dω/dk.</p>",
    "kontzeptua": "kua-de-broglie-postulatua",
    "agertzen": [
@@ -24748,6 +27132,15 @@
    "kontzeptua": "fis-talkak",
    "agertzen": [
     "fis-talkak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "talka-uhina",
+   "def": "<p>Iturria uhinaren abiadura baino azkarrago higitzean sortzen den uhin-fronte konikoa (Mach-en uhina).</p>",
+   "kontzeptua": "uhin-talka",
+   "agertzen": [
+    "uhin-talka"
    ],
    "berrikusi_gabe": true
   },
@@ -25074,6 +27467,24 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "tetrabektorea",
+   "def": "<p>Lau osagaiko bektorea (a₀, a₁, a₂, a₃) Lorentzen transformazioaren arabera transformatzen dena; karratua −a₀² + a₁² + a₂² + a₃² aldaezina da.</p>",
+   "kontzeptua": "erl-tetrabektoreak",
+   "agertzen": [
+    "erl-tetrabektoreak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "tetrabektorearen karratua",
+   "def": "<p>a² ≡ −a₀² + a₁² + a₂² + a₃²; erreferentzia-sistema inertzial guztietan balio bera du.</p>",
+   "kontzeptua": "erl-tetrabektoreak",
+   "agertzen": [
+    "erl-tetrabektoreak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "Thales-en propietatea",
    "def": "<p>Diametro baten muturrak eta zirkunferentziako edozein puntu lotzen dituzten zuzenkiek angelu zuzena osatzen dute.</p>",
    "kontzeptua": "geo2-thales",
@@ -25293,6 +27704,17 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "transmisio-koefizientea",
+   "def": "<p>T: uhin errefraktatuaren eta erasotzailearen anplitudeen zatidura.</p>",
+   "kontzeptua": "uhin-soka-koefizienteak",
+   "agertzen": [
+    "uhin-fresnel-brewster",
+    "uhin-praktika-islapena",
+    "uhin-soka-koefizienteak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "traza (tr <em>A</em>)",
    "def": "<p>Matrizearen diagonaleko elementuen batura; autobalioen batura ere bada.</p>",
    "kontzeptua": "ezl-sailkapen-taula",
@@ -25418,6 +27840,52 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "uhin elektromagnetikoa",
+   "def": "<p>Eremu elektriko eta magnetiko elkarzutek osatzen duten zeharkako uhina; Maxwellen ekuazioen soluzioa.</p>",
+   "kontzeptua": "uhin-elektromagnetikoak",
+   "agertzen": [
+    "uhin-bidaiaria",
+    "uhin-elektromagnetikoak",
+    "uhin-polarizazioa-malus",
+    "uhin-poynting"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "uhin erasotzailea",
+   "def": "<p>Bi inguruneen arteko gainazalera iristen den uhina.</p>",
+   "kontzeptua": "uhin-islapen-snell",
+   "agertzen": [
+    "uhin-fresnel-brewster",
+    "uhin-geldikorrak-soka",
+    "uhin-islapen-snell",
+    "uhin-soka-koefizienteak",
+    "uhin-zulo-zirkularra"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "uhin errefraktatua",
+   "def": "<p>Bigarren ingurunean sartzen den uhina.</p>",
+   "kontzeptua": "uhin-islapen-snell",
+   "agertzen": [
+    "uhin-film-meheak",
+    "uhin-fresnel-brewster",
+    "uhin-islapen-snell",
+    "uhin-soka-koefizienteak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "uhin esferikoa",
+   "def": "<p>Simetria esferikoa duen uhina, u(t,r), iturri puntual batetik hedatzen dena.</p>",
+   "kontzeptua": "uhin-esferikoak",
+   "agertzen": [
+    "uhin-esferikoak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "uhin geldikorra",
    "def": "<p>Aurkako noranzkoan doazen bi uhin berdinen gainezarpenak sortzen duen uhina; anplitudea posizioaren araberakoa da eta ez du aurrera hedatzen.</p>",
    "kontzeptua": "fosz-uhin-geldikorrak",
@@ -25448,6 +27916,20 @@
   },
   {
    "t": "uhin geldikorra",
+   "def": "<p>Nodoak eta sabelak toki finkoetan dituen uhina; bi uhin kontrako noranzkoan gainezartzean sortzen da.</p>",
+   "kontzeptua": "uhin-geldikorrak-soka",
+   "agertzen": [
+    "uhin-barrunbeak",
+    "uhin-geldikorrak-soka",
+    "uhin-gidak",
+    "uhin-hodiak-erresonantzia",
+    "uhin-mintzak",
+    "uhin-praktika-geldikorrak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "uhin geldikorra",
    "def": "<p>Mutur finkoak dituen uhina, non uhin-luzera kopuru oso bat sartzen den; hemen, orbita itxian.</p>",
    "kontzeptua": "kua-bohr-kuantizazioa",
    "agertzen": [
@@ -25465,11 +27947,51 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "uhin harmonikoa",
+   "def": "<p>Profila sinusoidea duen uhina: u = A cos(kx ∓ ωt + φ₀).</p>",
+   "kontzeptua": "uhin-harmonikoa",
+   "agertzen": [
+    "uhin-barra-energia",
+    "uhin-dezibela",
+    "uhin-esferikoak",
+    "uhin-geldikorrak-soka",
+    "uhin-gidak",
+    "uhin-harmonikoa",
+    "uhin-interferentzia",
+    "uhin-kanala",
+    "uhin-periodikoak",
+    "uhin-polarizazioa-malus",
+    "uhin-soka"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "uhin islatua",
+   "def": "<p>Gainazalean atzera botatzen den uhina, hasierako ingurunean hedatzen dena.</p>",
+   "kontzeptua": "uhin-islapen-snell",
+   "agertzen": [
+    "uhin-fresnel-brewster",
+    "uhin-gidak",
+    "uhin-islapen-snell",
+    "uhin-soka-koefizienteak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "uhin islatua eta transmititua",
    "def": "<p>Bi ingurunen arteko mugara iristean, erasotzailearen zati bat itzultzen da (islatua) eta beste zatia bigarren ingurunean aurrera doa (transmititua).</p>",
    "kontzeptua": "erad-sokako-muga-baldintzak",
    "agertzen": [
     "erad-sokako-muga-baldintzak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "uhin kapilarra",
+   "def": "<p>Gainazal-tentsioak gobernatzen duen uhina (uhin-luzera txikia); kizkur-uhina ere deitzen da.</p>",
+   "kontzeptua": "uhin-kanala",
+   "agertzen": [
+    "uhin-kanala"
    ],
    "berrikusi_gabe": true
   },
@@ -25481,6 +28003,18 @@
     "erad-energia-eta-momentua",
     "erad-transmisio-lerro-koaxiala",
     "erad-uhin-lau-monokromatikoak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "uhin laua",
+   "def": "<p>Eremua hedapen-norabidearekiko elkarzuta den plano guztietan berdina duen uhina: u = f(n̂·r − vt).</p>",
+   "kontzeptua": "uhin-2d-3d",
+   "agertzen": [
+    "uhin-2d-3d",
+    "uhin-elektromagnetikoak",
+    "uhin-islapen-snell",
+    "uhin-poynting"
    ],
    "berrikusi_gabe": true
   },
@@ -25503,11 +28037,38 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "uhin monokromatikoa",
+   "def": "<p>Uhin-luzera (eta maiztasun) bakarra duen uhina, hau da, uhin harmonikoa.</p>",
+   "kontzeptua": "uhin-periodikoak",
+   "agertzen": [
+    "uhin-espektroa",
+    "uhin-interferentzia",
+    "uhin-pakete-zabalera",
+    "uhin-periodikoak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "uhin zeharkakoa",
    "def": "<p>Perturbazioa hedapen-norabidearekiko elkarzuta duen uhina; uhin elektromagnetikoak beti dira zeharkakoak.</p>",
    "kontzeptua": "erad-polarizazioa",
    "agertzen": [
     "erad-polarizazioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "uhin-bektorea",
+   "def": "<p>k = k n̂: hedapen-norabidea eta noranzkoa adierazten duen bektorea; modulua uhin-zenbakia da.</p>",
+   "kontzeptua": "uhin-2d-3d",
+   "agertzen": [
+    "uhin-2d-3d",
+    "uhin-barrunbeak",
+    "uhin-fresnel-brewster",
+    "uhin-gidak",
+    "uhin-islapen-snell",
+    "uhin-mintzak",
+    "uhin-soka-koefizienteak"
    ],
    "berrikusi_gabe": true
   },
@@ -25565,6 +28126,28 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "uhin-ekuazioa",
+   "def": "<p>∂²u/∂x² − (1/v²) ∂²u/∂t² = 0: v abiadura konstantez hedatzen diren uhinek betetzen duten deribatu partzialetako ekuazio lineala.</p>",
+   "kontzeptua": "uhin-ekuazioa",
+   "agertzen": [
+    "uhin-2d-3d",
+    "uhin-barra-ekuazioa",
+    "uhin-barra-energia",
+    "uhin-barrunbeak",
+    "uhin-bi-zirrikitu",
+    "uhin-bidaiaria",
+    "uhin-ekuazioa",
+    "uhin-elektromagnetikoak",
+    "uhin-esferikoak",
+    "uhin-geldikorrak-soka",
+    "uhin-hodiak-erresonantzia",
+    "uhin-kanala",
+    "uhin-mintzak",
+    "uhin-praktika-oinarriak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "uhin-funtzioa",
    "def": "<p>Perturbazioa posizioaren eta denboraren funtzio gisa ematen duen y(x,t) = f(x ∓ vt) funtzioa.</p>",
    "kontzeptua": "fosz-uhin-funtzioa",
@@ -25594,6 +28177,15 @@
     "erad-transmisio-lerro-koaxiala",
     "erad-uhin-ekuazioa",
     "erad-uhin-gidak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "uhin-gida",
+   "def": "<p>Norabide batzuetan mugatua eta beste batean irekia den barrunbe luzea, non uhinak hedatzen diren.</p>",
+   "kontzeptua": "uhin-gidak",
+   "agertzen": [
+    "uhin-gidak"
    ],
    "berrikusi_gabe": true
   },
@@ -25633,6 +28225,29 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "uhin-luzera",
+   "def": "<p>λ: uhin harmonikoak periodo batean egindako bidea; profilaren periodo espaziala.</p>",
+   "kontzeptua": "uhin-harmonikoa",
+   "agertzen": [
+    "uhin-barra-ekuazioa",
+    "uhin-bragg",
+    "uhin-espektro-em",
+    "uhin-film-meheak",
+    "uhin-geldikorrak-soka",
+    "uhin-gidak",
+    "uhin-harmonikoa",
+    "uhin-interferentzia",
+    "uhin-iturri-sinkronoak",
+    "uhin-kanala",
+    "uhin-periodikoak",
+    "uhin-polarizazioa-malus",
+    "uhin-sareak",
+    "uhin-zirrikitu-bakarra",
+    "uhin-zulo-zirkularra"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "uhin-luzera minimoa",
    "def": "<p>X izpien espektro jarraituaren mozte zorrotza: ezin da elektroiak zuen energia baino handiagoko fotoirik sortu.</p>",
    "kontzeptua": "kua-bremsstrahlung",
@@ -25647,6 +28262,16 @@
    "kontzeptua": "erad-fase-eta-talde-abiadura",
    "agertzen": [
     "erad-fase-eta-talde-abiadura"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "uhin-paketea",
+   "def": "<p>Tarte finitu batean izan ezik nulua den uhina (pultsua).</p>",
+   "kontzeptua": "uhin-pakete-zabalera",
+   "agertzen": [
+    "uhin-interferentzia",
+    "uhin-pakete-zabalera"
    ],
    "berrikusi_gabe": true
   },
@@ -25689,6 +28314,21 @@
     "erad-uhin-sinusoidalak",
     "erad-uhinak-eroaleetan",
     "erad-uhinen-ekuazioa-apunteak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "uhin-zenbakia",
+   "def": "<p>k: uhin-luzerarekin λ = 2π/|k| erlazionatuta dagoen konstantea; espazioko \"maiztasuna\".</p>",
+   "kontzeptua": "uhin-harmonikoa",
+   "agertzen": [
+    "uhin-2d-3d",
+    "uhin-egitura-periodikoa",
+    "uhin-harmonikoa",
+    "uhin-hodiak-erresonantzia",
+    "uhin-mintzak",
+    "uhin-pakete-zabalera",
+    "uhin-talde-abiadura"
    ],
    "berrikusi_gabe": true
   },
@@ -25738,11 +28378,71 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "uhina",
+   "def": "<p>Magnitude fisiko baten (presioa, uraren altuera, eremu elektrikoa...) perturbazio hedakorra. Energia eta momentu lineala garraiatzen ditu, ez materia.</p>",
+   "kontzeptua": "uhin-bidaiaria",
+   "agertzen": [
+    "uhin-2d-3d",
+    "uhin-barra-ekuazioa",
+    "uhin-barra-energia",
+    "uhin-barrunbeak",
+    "uhin-bi-zirrikitu",
+    "uhin-bidaiaria",
+    "uhin-dezibela",
+    "uhin-doppler",
+    "uhin-doppler-em",
+    "uhin-ekuazioa",
+    "uhin-elektromagnetikoak",
+    "uhin-errefrakzioa-barne",
+    "uhin-esferikoak",
+    "uhin-espektro-em",
+    "uhin-espektroa",
+    "uhin-film-meheak",
+    "uhin-fresnel-brewster",
+    "uhin-geldikorrak-soka",
+    "uhin-gidak",
+    "uhin-harmonikoa",
+    "uhin-hodiak-erresonantzia",
+    "uhin-interferentzia",
+    "uhin-islapen-snell",
+    "uhin-iturri-sinkronoak",
+    "uhin-kanala",
+    "uhin-mintzak",
+    "uhin-pakete-zabalera",
+    "uhin-periodikoak",
+    "uhin-polarizazio-soka",
+    "uhin-poynting",
+    "uhin-praktika-oinarriak",
+    "uhin-presio-uhinak",
+    "uhin-sareak",
+    "uhin-soka",
+    "uhin-soka-koefizienteak",
+    "uhin-talde-abiadura",
+    "uhin-talka",
+    "uhin-zirrikitu-bakarra"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "ukipen-angelua",
    "def": "<p>Solidoaren horma eta likidoaren gainazalaren arteko angelua ukipen-puntuan.</p>",
    "kontzeptua": "jar-ukipen-angelua",
    "agertzen": [
     "jar-ukipen-angelua"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "unibertso-lerroa",
+   "def": "<p>Partikula baten gertaera guztien multzoa diagraman; abiadura konstantekoa bada zuzena da (c/v malda).</p>",
+   "kontzeptua": "erl-minkowski-diagramak",
+   "agertzen": [
+    "erl-aldiberekotasuna",
+    "erl-denbora-propioa",
+    "erl-doppler-efektua",
+    "erl-higidura-hiperbolikoa",
+    "erl-minkowski-ardatz-zeiharrak",
+    "erl-minkowski-diagramak"
    ],
    "berrikusi_gabe": true
   },
@@ -25792,6 +28492,15 @@
    "kontzeptua": "kim-ph",
    "agertzen": [
     "kim-ph"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "urdineranzko lerrakuntza",
+   "def": "<p>Iturria eta behatzailea hurbiltzean maiztasuna igotzen da (ν′ > ν).</p>",
+   "kontzeptua": "uhin-doppler-em",
+   "agertzen": [
+    "uhin-doppler-em"
    ],
    "berrikusi_gabe": true
   },
@@ -26053,6 +28762,16 @@
   },
   {
    "t": "Youngen modulua",
+   "def": "<p>E: materialaren zurruntasuna; esfortzuaren eta deformazio unitarioaren arteko proportzionaltasun-konstantea (Pa-tan).</p>",
+   "kontzeptua": "uhin-barra-hooke",
+   "agertzen": [
+    "uhin-barra-ekuazioa",
+    "uhin-barra-hooke"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "Youngen modulua",
    "def": "<p>E; esfortzu normalaren eta deformazio unitarioaren arteko proportzionaltasun-konstantea.</p>",
    "kontzeptua": "jar-young-poisson",
    "agertzen": [
@@ -26170,6 +28889,16 @@
    "berrikusi_gabe": true
   },
   {
+   "t": "zeharkako Doppler efektua",
+   "def": "<p>Higidura uhinaren norabidearekiko elkarzuta denean ere maiztasuna aldatzea; denboraren zabalkuntzaren ondorioa da.</p>",
+   "kontzeptua": "erl-doppler-efektua",
+   "agertzen": [
+    "erl-denboraren-zabalkuntza",
+    "erl-doppler-efektua"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
    "t": "zeharkako uhina",
    "def": "<p>Perturbazioa hedapen-norabidearekiko perpendikularra den uhina.</p>",
    "kontzeptua": "fosz-zeharkakoak-luzetarakoak",
@@ -26184,6 +28913,20 @@
    "kontzeptua": "felm-uhin-elektromagnetikoak",
    "agertzen": [
     "felm-uhin-elektromagnetikoak"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "zeharkako uhina",
+   "def": "<p>Materiaren higidura hedapen-norabidearekiko elkarzuta den uhina.</p>",
+   "kontzeptua": "uhin-soka",
+   "agertzen": [
+    "uhin-2d-3d",
+    "uhin-dezibela",
+    "uhin-elektromagnetikoak",
+    "uhin-mintzak",
+    "uhin-soka",
+    "uhin-soka-koefizienteak"
    ],
    "berrikusi_gabe": true
   },
@@ -26233,6 +28976,16 @@
    "kontzeptua": "fntz-zeinuaren-kontserbazioa",
    "agertzen": [
     "fntz-zeinuaren-kontserbazioa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "zela-puntua",
+   "def": "<p>Puntu kritiko bat, norabide batzuetan maximoa eta besteetan minimoa dena.</p>",
+   "kontzeptua": "ebaz-mutur-lokalak",
+   "agertzen": [
+    "ebaz-mutur-absolutuak",
+    "ebaz-mutur-lokalak"
    ],
    "berrikusi_gabe": true
   },
@@ -26533,6 +29286,16 @@
   },
   {
    "t": "zirkulazioa",
+   "def": "<p>Kurba itxi baten gaineko ∮F·ds integrala.</p>",
+   "kontzeptua": "ebaz-lerro-bektoriala",
+   "agertzen": [
+    "ebaz-lerro-bektoriala",
+    "ebaz-stokes"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "zirkulazioa",
    "def": "<p>Eremu bektorial baten osagai ukitzailearen integrala lerro itxi batean zehar: ∮<em>B</em>·d<em>l</em>.</p>",
    "kontzeptua": "felm-ampere-legea",
    "agertzen": [
@@ -26661,6 +29424,16 @@
     "prob-geometrikoa-eta-esperimentala",
     "prob-proba-konposatuak",
     "prob-probabilitate-osoa"
+   ],
+   "berrikusi_gabe": true
+  },
+  {
+   "t": "zuntz optikoa",
+   "def": "<p>Barne-islapen osoaren bidez argia eramaten duen zuntz mehea.</p>",
+   "kontzeptua": "uhin-errefrakzioa-barne",
+   "agertzen": [
+    "uhin-errefrakzioa-barne",
+    "uhin-gidak"
    ],
    "berrikusi_gabe": true
   },

@@ -73,6 +73,12 @@
    "egoera": "proposamena"
   },
   {
+   "clave": "01mc_06ebazpenak",
+   "izenburua": "B3 · Kalkulua eta analisia (V): ebatzitako problemak",
+   "kontzeptuak": 32,
+   "egoera": "proposamena"
+  },
+  {
    "clave": "01mz_01konplexuak",
    "izenburua": "B3 - Kalkulua eta analisia - VI",
    "kontzeptuak": 48,
@@ -111,7 +117,7 @@
   {
    "clave": "03mm_01edo",
    "izenburua": "B6.1 - EDO: oinarriak eta lehen ordena (1.-2. gaiak)",
-   "kontzeptuak": 33,
+   "kontzeptuak": 35,
    "egoera": "proposamena"
   },
   {
@@ -193,6 +199,18 @@
    "egoera": "proposamena"
   },
   {
+   "clave": "05mk_03erlatibitatea",
+   "izenburua": "B9 · Mekanika klasikoa 3/10 · Erlatibitate berezia",
+   "kontzeptuak": 38,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "05mk_04zentralak",
+   "izenburua": "B9 · Mekanika klasikoa 4/10 · Indar zentralak",
+   "kontzeptuak": 37,
+   "egoera": "proposamena"
+  },
+  {
    "clave": "05mk_05solidoa",
    "izenburua": "B9 · Mekanika klasikoa 5/10 · Solido zurruna",
    "kontzeptuak": 27,
@@ -214,6 +232,12 @@
    "clave": "05mk_08kaosa",
    "izenburua": "B9 · Mekanika klasikoa 8/10 · Kaos determinista",
    "kontzeptuak": 16,
+   "egoera": "proposamena"
+  },
+  {
+   "clave": "05mk_09uhinak",
+   "izenburua": "B9 · Mekanika klasikoa 9/10 · Uhinak",
+   "kontzeptuak": 53,
    "egoera": "proposamena"
   },
   {
