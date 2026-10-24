@@ -5,8 +5,8 @@
    Ficha de 3 geruza (ideia → enuntziatua → gainerakoa tolestuta) + glosarioa + grafoa, look Filosofía.
    `sortua` eremuetan eta `berrikusi_gabe` glosarioan: «propuesta» marka (autoreak eskatuta). */
 (function(){
-  var MOTA={ definizioa:['D','k-def','Definizioa'], teorema:['T','k-teo','Teorema'],
-             metodoa:['M','k-met','Metodoa'], ideia:['i','k-ide','Idea'], notazioa:['N','k-not','Notazioa'] };
+  var MOTA={ definizioa:['D','k-def','Definición'], teorema:['T','k-teo','Teorema'],
+             metodoa:['M','k-met','Método'], ideia:['i','k-ide','Idea'], notazioa:['N','k-not','Notación'] };
   function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
   function media(h){ return String(h||''); }   // web\-n irudiak media/… dira; ez da bideratu behar
 
