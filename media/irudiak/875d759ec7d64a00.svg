@@ -1,0 +1,15 @@
+<svg class="typst-doc" viewBox="0 0 31.480314960629922 56.425196850393704" width="31.480314960629922pt" height="56.425196850393704pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:h5="http://www.w3.org/1999/xhtml">
+    <g>
+        <g class="typst-group" transform="matrix(1 0 0 1 1 1)">
+            <g>
+                <path class="typst-shape" fill="none" stroke="#000000" stroke-width="0.8" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 5.669291338582677 0)" d="M 0 0v 45.354332 "/>
+                <path class="typst-shape" fill="none" stroke="#000000" stroke-width="0.8" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 23.811023622047244 0)" d="M 0 0v 45.354332 "/>
+                <path class="typst-shape" fill="none" stroke="#000000" stroke-width="0.8" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 5.669291338582677 45.354330708661415)" d="M 0 0c 0 5.0097013 4.0611653 9.070867 9.070867 9.070867 c 5.009701 0 9.070867 -4.0611653 9.070867 -9.070867 "/>
+                <path class="typst-shape" fill="none" stroke="#000000" stroke-width="0.8" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" d="M 0 0v 28.346457 "/>
+                <path class="typst-shape" fill="none" stroke="#000000" stroke-width="0.8" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 29.480314960629922 0)" d="M 0 0v 28.346457 "/>
+                <path class="typst-shape" fill="none" stroke="#000000" stroke-width="0.8" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 0 28.346456692913385)" d="M 0 0c 0 8.140764 6.5993934 14.740157 14.740157 14.740157 c 8.140765 0 14.740157 -6.599393 14.740157 -14.740157 "/>
+                <path class="typst-shape" fill="#d1dce8" fill-rule="nonzero" transform="matrix(1 0 0 1 0 6.803149606299214)" d="M 0 0m 0 9.070867 v 12.47244 c 0 8.140764 6.5993934 14.74016 14.740157 14.74016 c 8.140765 0 14.740157 -6.5993958 14.740157 -14.74016 v -21.543306 h -5.6692905 v 38.55118 c 0 5.009701 -4.061165 9.070866 -9.070867 9.070866 c -5.009701 0 -9.070866 -4.061165 -9.070866 -9.070866 v -29.480316 h -5.6692915 Z "/>
+            </g>
+        </g>
+    </g>
+</svg>

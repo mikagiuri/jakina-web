@@ -1,0 +1,206 @@
+/* Logika-txokoa (dsh-2, 19-10-2026) — lab_iesmdb web/css/logica.css-ren port aldakiñoa.
+   ALDAKETAK jatorriarekiko: ámbito #logica → #txokoa; koloreak jakina-ren paletara
+   (--r-log → --accent; --hf/--ipc → --j-laranja/--j-berdea); lab-ek theoryview.js-tik
+   txertatzen dituen tvv-* estiloak hemendik; gainera .zubia (B1 ↔ txokoa) eta
+   «Filosofia 1» markak Glosarioa/Ariketak bistetarako.
+   Euskara-bakarreko web honetan ez da html[dir="rtl"] araua behar. */
+
+/* Venn/Euler diagrama-orokorrak (lab-ek theoryrun-time txertatzen zituen) */
+#txokoa{ --r-log: var(--accent) }
+.tv-venns{display:grid;grid-template-columns:repeat(auto-fill,minmax(10.5rem,1fr));gap:.8rem;margin:1rem 0}
+.tv-venn{margin:0;text-align:center}
+.tv-venn svg{width:100%;max-width:17rem;display:block;margin:0 auto}
+.tv-venn figcaption{font-size:.86rem;color:var(--muted);margin-top:.25rem;line-height:1.35}
+.tvv-u{fill:none;stroke:var(--line);stroke-width:1.5}
+.tvv-c{fill:none;stroke:var(--ink);stroke-width:2}
+.tvv-sel{fill:var(--accent);fill-opacity:.45}
+.tvv-vac{fill:var(--muted);fill-opacity:.5}
+.tvv-t{font:700 24px var(--sans);fill:var(--ink)}
+.tvv-tu{font-size:16px;fill:var(--muted)}
+.tvv-x{font:700 30px var(--sans);fill:var(--bad,#b3261e)}
+
+#txokoa .lg-tabs{ margin:.4rem 0 1rem }
+#txokoa .lg-panel{ background:var(--surface); border:1px solid var(--line); border-inline-start:4px solid var(--r-log, var(--accent)); border-radius:var(--radius); padding:1rem 1.1rem; margin:0 0 1rem }
+#txokoa .lg-panel h2{ margin:.1rem 0 .6rem; font-size:1.15rem }
+#txokoa .lg-label{ display:block; font-weight:600; margin:.6rem 0 .3rem }
+#txokoa .lg-nota{ color:var(--muted); font-size:.92rem; margin:.4rem 0 }
+#txokoa .lg-fila{ display:flex; gap:.5rem; align-items:center; flex-wrap:wrap }
+#txokoa .lg-input{ flex:1 1 16rem; min-width:0; font:1.05rem var(--mono); padding:.55rem .7rem; border:1px solid var(--line); border-radius:10px; background:var(--bg); color:var(--ink) }
+#txokoa .lg-input:focus{ outline:2px solid var(--r-log, var(--accent)); outline-offset:1px }
+#txokoa .lg-sel{ display:block; width:100%; margin-top:.25rem; padding:.45rem .5rem; border:1px solid var(--line); border-radius:10px; background:var(--bg); color:var(--ink); font:inherit }
+#txokoa .lg-teclas{ display:flex; flex-wrap:wrap; gap:.3rem; margin:.5rem 0 }
+#txokoa .lg-teclas .chip{ min-width:2.3rem; font:1rem var(--mono); justify-content:center }
+#txokoa .lg-tabla{ border-collapse:collapse; font:.95rem var(--mono); margin:.6rem 0 }
+#txokoa .lg-tabla th, #txokoa .lg-tabla td{ border:1px solid var(--line); padding:.3rem .55rem; text-align:center; white-space:nowrap }
+#txokoa .lg-tabla th{ background:var(--surface-2); font-weight:600 }
+#txokoa .lg-tabla th.lg-main, #txokoa .lg-tabla td[data-main]{ background:var(--surface-2); font-weight:700 }
+#txokoa .lg-tabla .lg-v{ color:var(--ok) }
+#txokoa .lg-tabla .lg-f{ color:var(--bad) }
+#txokoa .lg-tabla tr.lg-ok td{ background:var(--ok-bg) }
+#txokoa .lg-tabla tr.lg-contra td{ background:var(--bad-bg); font-weight:700 }
+#txokoa .lg-veredicto{ border-radius:10px; padding:.55rem .8rem; margin:.6rem 0; font-weight:600 }
+#txokoa .lg-tautologia{ background:var(--ok-bg); color:var(--ink) }
+#txokoa .lg-contradiccion{ background:var(--bad-bg); color:var(--ink) }
+#txokoa .lg-contingencia{ background:var(--surface-2); color:var(--ink) }
+#txokoa .lg-error{ color:var(--bad); font-weight:600 }
+#txokoa .lg-terminos{ display:grid; grid-template-columns:repeat(auto-fit,minmax(11rem,1fr)); gap:.6rem; margin:.3rem 0 .6rem }
+#txokoa .lg-terminos label{ font-size:.9rem; color:var(--muted) }
+#txokoa .lg-terminos .lg-input{ display:block; width:100%; margin-top:.25rem; font-family:var(--sans) }
+#txokoa .lg-sil{ display:grid; grid-template-columns:minmax(0,1fr) minmax(0,22rem); gap:1rem; align-items:start }
+@media (max-width:760px){ #txokoa .lg-sil{ grid-template-columns:1fr } }
+#txokoa .lg-silo{ list-style:none; padding:0; margin:.2rem 0 .6rem; font-size:1.08rem }
+#txokoa .lg-silo li{ padding:.35rem 0; border-bottom:1px solid var(--line-soft) }
+#txokoa .lg-silo li span{ display:block; font-size:.78rem; text-transform:uppercase; letter-spacing:.06em; color:var(--muted) }
+#txokoa .lg-silo li.lg-ccl{ border-top:2px solid var(--ink); border-bottom:none; font-weight:600 }
+#txokoa .lg-venn{ width:100%; max-width:22rem; display:block }
+#txokoa .lg-circ{ fill:none; stroke:var(--ink); stroke-width:2 }
+#txokoa .lg-vacia{ fill:var(--muted); opacity:.45 }
+#txokoa .lg-vt{ font:600 13px var(--sans); fill:var(--ink) }
+#txokoa .lg-x{ font:700 20px var(--sans); fill:var(--r-log, var(--accent)) }
+#txokoa .lg-puerta{ display:flex; flex-wrap:wrap; gap:1rem; align-items:center }
+#txokoa .lg-circ1{ width:100%; max-width:26rem }
+#txokoa .lg-scroll{ overflow-x:auto }
+#txokoa .lg-circ2{ width:100%; min-width:18rem; display:block }
+#txokoa .lg-gate{ fill:var(--surface-2); stroke:var(--ink); stroke-width:2 }
+#txokoa .lg-gate.on{ fill:var(--ok-bg) }
+#txokoa .lg-wire{ fill:none; stroke:var(--line); stroke-width:3 }
+#txokoa .lg-wire.on{ stroke:var(--ok) }
+#txokoa .lg-sw{ fill:var(--surface-2); stroke:var(--ink); stroke-width:1.5; cursor:pointer }
+#txokoa .lg-sw.on{ fill:var(--ok-bg); stroke:var(--ok) }
+#txokoa .lg-swt{ font:600 13px var(--mono); fill:var(--ink); pointer-events:none }
+#txokoa .lg-swt.on{ fill:var(--ok) }
+#txokoa .lg-pin{ cursor:pointer }
+#txokoa .lg-pin:focus{ outline:none }
+#txokoa .lg-pin:focus .lg-sw{ stroke:var(--r-log, var(--accent)); stroke-width:3 }
+#txokoa .lg-lamp{ fill:var(--surface-2); stroke:var(--ink); stroke-width:2 }
+#txokoa .lg-lamp.on{ fill:#F5C542; stroke:#C99A12; filter:drop-shadow(0 0 6px #F5C542) }
+#txokoa .lg-mini{ font-size:.9rem }
+/* Euler: proposizio bakoitzeko irudi bat */
+#txokoa .lg-diag{ margin:0 0 .6rem }
+#txokoa .lg-euler-fila{ display:grid; grid-template-columns:repeat(auto-fit,minmax(9.5rem,1fr)); gap:.6rem }
+#txokoa .lg-euler{ margin:0; text-align:center }
+#txokoa .lg-euler svg{ width:100%; max-width:14rem }
+#txokoa .lg-euler figcaption{ font-size:.85rem; color:var(--muted) }
+#txokoa .lg-circ.lg-e1{ fill:var(--r-log, var(--accent)); fill-opacity:.12 }
+#txokoa .lg-circ.lg-e2{ fill:var(--ink); fill-opacity:.05 }
+#txokoa .lg-euler-junto svg{ max-width:20rem }
+#txokoa .lg-circ.lg-e3{ fill:var(--ok); fill-opacity:.08 }
+/* Paradoxak / ariketak / klasikoak: txartel bakoitza, azalpena eta irtenbideak tolestuta */
+#txokoa .lg-pargrupos{ margin:.6rem 0 0; max-width:26rem }
+#txokoa .lg-pargrupo > h2{ font-size:1.2rem; margin:1.4rem 0 .2rem }
+#txokoa .lg-par h3{ margin:.1rem 0 .2rem; font-size:1.08rem }
+#txokoa .lg-enun{ font-size:1.05rem; margin:.6rem 0; padding:.5rem .8rem; background:var(--surface-2); border-radius:10px }
+#txokoa .lg-par details{ margin:.4rem 0; border-top:1px solid var(--line-soft); padding-top:.4rem }
+#txokoa .lg-par summary{ cursor:pointer; font-weight:600; color:var(--r-log, var(--accent)) }
+#txokoa .lg-par details ul{ margin:.4rem 0; padding-inline-start:1.2rem }
+#txokoa .lg-par details li{ margin:.3rem 0 }
+#txokoa .lg-pensar{ margin:.6rem 0 .1rem; font-style:italic }
+#txokoa .lg-circ.lg-e4{ fill:var(--bad); fill-opacity:.22 }
+#txokoa .lg-par-euler{ margin:.4rem 0 }
+#txokoa .lg-par-euler svg{ max-width:22rem }
+#txokoa .lg-duda{ fill:var(--muted) }
+#txokoa .lg-zonas{ font-size:.86rem }
+#txokoa .lg-zonas th, #txokoa .lg-zonas td{ padding:.25rem .4rem }
+#txokoa .lg-zonas th:nth-child(n+5), #txokoa .lg-zonas td:nth-child(n+5){ white-space:normal; font-family:var(--sans) }
+#txokoa .lg-zonas td:nth-child(n+5){ text-align:start; min-width:8.5rem }
+#txokoa .lg-zonas tr.lg-contra td{ font-weight:400 }
+#txokoa .lg-zonas tr.lg-contra td:nth-child(-n+4){ font-weight:700 }
+#txokoa .lg-par-escala svg{ max-width:24rem }
+#txokoa .lg-eje{ fill:none; stroke:var(--ink); stroke-width:2 }
+#txokoa .lg-banda{ fill:var(--ok); fill-opacity:.28 }
+#txokoa .lg-vago{ stroke:var(--ink); stroke-width:1.5; stroke-dasharray:4 4 }
+#txokoa .lg-marca{ fill:var(--bad); fill-opacity:.6; stroke:var(--ink); stroke-width:1.5 }
+#txokoa .lg-z2 th:nth-child(n+4), #txokoa .lg-z2 td:nth-child(n+4){ white-space:normal; font-family:var(--sans); text-align:start; min-width:8.5rem }
+#txokoa .lg-par{ scroll-margin-top:5.5rem }   /* esteka sakonetarako: goiko barrak ez dezala estali */
+#txokoa .lg-intro{ margin:.2rem 0 1rem; max-width:62rem; line-height:1.55 }
+/* pestaña bakoitzeko gida tolestua: nola erabili eta zertarako */
+#txokoa .lg-guia{ max-width:62rem; margin:-.4rem 0 1rem; border:1px solid var(--line); border-radius:var(--radius); background:var(--surface); line-height:1.55 }
+#txokoa .lg-panel .lg-guia{ margin:.6rem 0 .8rem; background:var(--bg) }
+#txokoa .lg-guia > summary{ cursor:pointer; padding:.6rem .9rem; font-weight:600; color:var(--r-log, var(--accent)) }
+#txokoa .lg-guia[open] > summary{ border-bottom:1px solid var(--line) }
+#txokoa .lg-guia > :not(summary){ margin-inline-start:.9rem; margin-inline-end:.9rem }
+#txokoa .lg-guia h3{ font-size:1rem; margin:.9rem .9rem .3rem }
+#txokoa .lg-guia ol, #txokoa .lg-guia ul{ padding-inline-start:1.4rem }
+#txokoa .lg-guia li{ margin:.25rem 0 }
+#txokoa .lg-guia > :last-child{ margin-bottom:.9rem }
+/* oposizio-karratua: lau izkinak, erlazioak erdian eta lerroak atzean */
+#txokoa .lg-cu{ position:relative; display:grid; grid-template-columns:1fr minmax(4.5rem,.7fr) 1fr; grid-template-areas:"a arr e" "izq cen der" "i aba o"; gap:.6rem; align-items:center; direction:ltr }
+#txokoa .lg-cu-lineas{ position:absolute; inset:0; width:100%; height:100%; z-index:0; pointer-events:none }
+#txokoa .lg-cu-l{ stroke:var(--muted); stroke-width:1.5 }
+#txokoa .lg-cu-ld{ stroke-dasharray:4 4; opacity:.45 }
+#txokoa .lg-cu-esq{ position:relative; z-index:1; display:flex; flex-direction:column; gap:.2rem; text-align:start; padding:.55rem .65rem; border:1.5px solid var(--line); border-radius:10px; background:var(--surface); color:var(--ink); font:inherit; cursor:pointer }
+#txokoa .lg-cu-A{ grid-area:a } #txokoa .lg-cu-E{ grid-area:e } #txokoa .lg-cu-I{ grid-area:i } #txokoa .lg-cu-O{ grid-area:o }
+#txokoa .lg-cu-letra{ font-weight:700; font-size:1.3rem; line-height:1 }
+#txokoa .lg-cu-frase{ font-size:.85rem; line-height:1.3 }
+#txokoa .lg-cu-valor{ font-size:.8rem; font-weight:700 }
+#txokoa .lg-cu-v{ border-color:var(--ok) } #txokoa .lg-cu-v .lg-cu-valor{ color:var(--ok) }
+#txokoa .lg-cu-f{ border-color:var(--bad) } #txokoa .lg-cu-f .lg-cu-valor{ color:var(--bad) }
+#txokoa .lg-cu-q .lg-cu-valor{ color:var(--muted) }
+#txokoa .lg-cu-dato{ box-shadow:0 0 0 3px var(--r-log, var(--accent)) }
+#txokoa .lg-cu-rel{ position:relative; z-index:1; justify-self:center; font-size:.75rem; color:var(--muted); background:var(--surface); padding:.1rem .35rem; border-radius:6px; text-align:center; max-width:100% }
+#txokoa .lg-cu-arriba{ grid-area:arr } #txokoa .lg-cu-izq{ grid-area:izq; justify-self:start } #txokoa .lg-cu-centro{ grid-area:cen; font-weight:700; color:var(--ink) } #txokoa .lg-cu-der{ grid-area:der; justify-self:end } #txokoa .lg-cu-abajo{ grid-area:aba }
+#txokoa .lg-cu-perdida{ text-decoration:line-through; opacity:.7 }
+#txokoa .lg-cu-sp{ display:block; font-size:.9em }
+@media (max-width:480px){ #txokoa .lg-cu{ grid-template-columns:1fr 5.2rem 1fr; gap:.4rem } #txokoa .lg-cu-frase{ font-size:.78rem } #txokoa .lg-cu-rel{ font-size:.66rem; padding:.05rem .2rem } #txokoa .lg-cu-sp{ display:none } #txokoa .lg-cu-centro{ font-size:.6rem } }
+
+/* Logika moderna: Formalizatu eta Inferentzia-arauak */
+#logicabox .lg-fz-frase{ font:600 1.05rem/1.45 var(--serif, Georgia, serif); margin:.2rem 0 .4rem; }
+#logicabox .lg-reglas{ display:grid; grid-template-columns:repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap:.8rem; }
+#logicabox .lg-regla{ border:1px solid var(--line); border-left:4px solid #2e9e6b; border-radius:8px; padding:.6rem .8rem; background:var(--surface); }
+#logicabox .lg-regla.lg-falaz{ border-left-color:#c0392b; }
+#logicabox .lg-regla h3{ margin:.1rem 0 .3rem; font-size:1rem; }
+#logicabox .lg-regla p{ margin:.25rem 0; font-size:.92rem; }
+#logicabox .lg-forma{ font-family:var(--mono, ui-monospace, monospace); }
+#logicabox .lg-infej{ border-top:1px solid var(--line-soft, var(--line)); padding:.6rem 0; }
+#logicabox .lg-infej > p:first-child{ margin:.1rem 0 .4rem; }
+#logicabox .chip.lg-chip-ok{ outline:2px solid #2e9e6b; } #logicabox .chip.lg-chip-no{ outline:2px solid #c0392b; }
+#logicabox .lg-cq-cel{ min-width:2.2rem; justify-content:center; } #logicabox .lg-cq-cel.on{ background:var(--accent); color:var(--on-accent); border-color:var(--accent); }
+#logicabox .lg-cq-x{ font-size:.85rem; color:var(--muted); }
+#logicabox .lg-regla.lg-medio{ border-left-color:#d95f02; }
+#logicabox .lg-nof{ margin:.3rem 0; padding-left:1.1rem; } #logicabox .lg-nof li{ margin:.25rem 0; }
+#logicabox .lg-panel > h3{ margin:1rem 0 .4rem; }
+/* Lege logikoak: 70 lege familiaka eta arau eratorriak beren dedukzio-lerroarekin */
+#logicabox .lg-leyes{ border-top:1px solid var(--line); padding:.35rem 0; }
+#logicabox .lg-leyes > summary{ cursor:pointer; font-weight:600; padding:.2rem 0; }
+#logicabox .lg-leyes-l{ list-style:none; margin:.3rem 0 .4rem; padding:0; }
+#logicabox .lg-leyes-l li{ display:grid; grid-template-columns:2.2rem minmax(0, 1.3fr) minmax(0, 1fr) auto; gap:.3rem .7rem; align-items:center; padding:.3rem 0; border-bottom:1px dashed var(--line); }
+#logicabox .lg-ley-n{ color:var(--muted); text-align:end; font-variant-numeric:tabular-nums; }
+#logicabox .lg-ley-f{ font-family:var(--mono, ui-monospace, monospace); overflow-wrap:anywhere; text-align:start; }
+#logicabox .lg-ley-nom{ font-size:.9rem; }
+@media (max-width:640px){ #logicabox .lg-leyes-l li{ grid-template-columns:2rem minmax(0, 1fr) auto; } #logicabox .lg-ley-nom{ grid-column:2 / 4; grid-row:2; color:var(--muted); } #logicabox .lg-ley-f{ font-size:.88rem; } }
+#logicabox .lg-ded-fila{ display:flex; flex-wrap:wrap; gap:.6rem 1.2rem; margin:.3rem 0; }
+#logicabox .lg-ded-caja{ display:flex; align-items:flex-end; gap:.5rem; }
+#logicabox .lg-ded{ display:inline-flex; flex-direction:column; align-items:center; font-family:var(--mono, ui-monospace, monospace); font-size:.92rem; line-height:1.5; }
+#logicabox .lg-ded-c{ border-top:1.5px solid currentColor; padding-top:.1rem; margin-top:.1rem; align-self:stretch; text-align:center; }
+#logicabox .lg-ded-c.lg-ded-2{ border-top:4px double currentColor; }
+#logicabox .lg-regla h3 small{ font-weight:400; color:var(--muted); }
+/* multzoen legeak: alde bakoitza «diagrama ∪ diagrama = diagrama» eta Eulerren bost kasuak */
+#txokoa .lg-co-h{ font-size:1rem; margin:1rem 0 .3rem }
+#txokoa .lg-co-ec{ display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:.25rem; margin:.3rem 0 .8rem }
+#txokoa .lg-co-ec .tv-venn{ flex:1 1 4rem; max-width:12rem; min-width:0 }
+#txokoa .lg-co-op{ font:700 1.4rem var(--sans); color:var(--ink); flex:0 0 auto }
+#txokoa .lg-co-pats{ position:absolute; width:0; height:0; overflow:hidden }
+#txokoa .lg-co-p1{ fill:var(--j-laranja) }   /* (dsh-2) --hf zegoen lekuan */
+#txokoa .lg-co-p2{ fill:var(--j-berdea) }    /* (dsh-2) --ipc zegoen lekuan */
+#txokoa .lg-op1 .tvv-sel, #txokoa .tvv-h1{ fill:url(#lgCoH1); fill-opacity:1 }
+#txokoa .lg-op2 .tvv-sel, #txokoa .tvv-h2{ fill:url(#lgCoH2); fill-opacity:1 }
+#txokoa .lg-res .tvv-sel{ fill:var(--accent) }
+#txokoa .lg-eu-casos{ display:grid; grid-template-columns:repeat(auto-fill,minmax(14rem,1fr)); gap:.7rem; margin:.6rem 0 }
+#txokoa .lg-eu-caso{ border:1px solid var(--line); border-inline-start:4px solid var(--ok); border-radius:var(--radius); padding:.5rem .6rem }
+#txokoa .lg-eu-caso.lg-eu-no{ border-inline-start-color:var(--bad) }
+#txokoa .lg-eu-caso h4{ margin:0 0 .3rem; font-size:.95rem }
+#txokoa .lg-eu-par{ display:grid; grid-template-columns:1fr 1fr; gap:.4rem }
+#txokoa .lg-eu-v{ margin:.3rem 0 0; font-weight:700 }
+#txokoa .lg-eu-si .lg-eu-v{ color:var(--ok) }
+#txokoa .lg-eu-no .lg-eu-v{ color:var(--bad) }
+
+/* (dsh-2) B1 ↔ Logika-txokoa zubiak (zubiak_logika.js) */
+.zubia{ margin:.3rem 0 .9rem; padding:.45rem .8rem; border:1px dashed var(--line); border-inline-start:3px solid var(--accent); border-radius:8px; background:var(--surface); font-size:.92rem }
+.zubia-et{ color:var(--muted); font-weight:600; margin-inline-end:.35rem }
+.zubia a{ font-weight:600 }
+.zubia-txoko{ max-width:62rem }
+
+/* (dsh-2) «Filosofia 1» markak Glosarioa eta Ariketak bistetarako */
+.j-fil1-mark{ display:inline-block; font-size:.72rem; font-weight:700; letter-spacing:.04em; text-transform:uppercase; color:var(--accent); border:1px solid var(--accent); border-radius:6px; padding:.05rem .4rem; margin-inline-start:.5rem; vertical-align:middle }
+.j-glos-fil1{ border-top:1px dashed var(--line); margin-top:.6rem; padding-top:.5rem }
+.j-ar-esteka{ margin:.4rem 0 .8rem; font-size:.9rem }

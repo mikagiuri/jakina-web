@@ -1,0 +1,13 @@
+<svg class="typst-doc" viewBox="0 0 45.64886883464567 28.255905511811022" width="45.64886883464567pt" height="28.255905511811022pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:h5="http://www.w3.org/1999/xhtml">
+    <g>
+        <g class="typst-group" transform="matrix(1 0 0 1 1 1)">
+            <g>
+                <path class="typst-shape" fill="none" stroke="#1d2733" stroke-width="0.7" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 2.125984251968504 0)" d="M 0 0m 0 25.51181 v -25.51181 "/>
+                <path class="typst-shape" fill="none" stroke="#1d2733" stroke-width="0.7" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 0 25.511811023622048)" d="M 0 0h 41.314617 "/>
+                <path class="typst-shape" fill="none" stroke="#1d2733" stroke-width="0.7" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 41.664616866141735 24.76771653543307)" d="M 0 0m 1.984252 0.7440945 l -1.984252 -0.7440945 v 1.488189 l 1.984252 -0.7440945 Z "/>
+                <path class="typst-shape" fill="none" stroke="#b3362a" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 3.826771653543307 6.670710555770696)" d="M 0 0l 1.2755905 2.1305435 l 1.2755905 1.8896224 l 1.2755907 1.6759448 l 1.2755904 1.4864297 l 1.2755904 1.3183446 l 1.2755909 1.1692677 l 1.27559 1.0370464 l 1.2755909 0.91977787 l 1.2755909 0.81577015 l 1.27559 0.72352314 l 1.2755909 0.6417074 l 1.2755909 0.5691433 l 1.2755909 0.5047846 l 1.275589 0.44770432 l 1.2755909 0.39707756 l 1.2755909 0.3521757 l 1.2755909 0.31235313 l 1.2755909 0.27703285 l 1.2755909 0.24570465 l 1.275589 0.2179203 l 1.2755909 0.19327927 l 1.2755909 0.17142296 l 1.2755909 0.15203667 l 1.2755909 0.13484764 l 0.5396652 0.050598145 "/>
+                <path class="typst-shape" fill="#b3362a" fill-rule="nonzero" stroke="#b3362a" stroke-width="1.2" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 35.51308963086615 23.70311443559055)" d="M 0 0m 2.3264961 1.0225874 l -2.1954548 -1.0225874 l -0.13104121 1.6957316 l 2.3264961 -0.6731442 Z "/>
+            </g>
+        </g>
+    </g>
+</svg>

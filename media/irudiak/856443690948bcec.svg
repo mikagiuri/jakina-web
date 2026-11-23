@@ -1,0 +1,13 @@
+<svg class="typst-doc" viewBox="0 0 70.03149606299213 53.023622047244096" width="70.03149606299213pt" height="53.023622047244096pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:h5="http://www.w3.org/1999/xhtml">
+    <g>
+        <g class="typst-group" transform="matrix(1 0 0 1 1 1)">
+            <g>
+                <path class="typst-shape" fill="#e4e4e4" fill-rule="nonzero" stroke="#000000" stroke-width="0.7" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 0 51.023622047244096)" d="M 0 0h 68.031494 "/>
+                <path class="typst-shape" fill="#e4e4e4" fill-rule="nonzero" stroke="#000000" stroke-width="0.7" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 68.03149606299213 0)" d="M 0 0m 0 51.02362 v -51.02362 "/>
+                <path class="typst-shape" fill="#e4e4e4" fill-rule="nonzero" stroke="#000000" stroke-width="0.7" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" d="M 0 0m 68.031494 0 l -68.031494 51.02362 "/>
+                <path class="typst-shape" fill="#e4e4e4" fill-rule="nonzero" stroke="#000000" stroke-width="0.8" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 34.58267716535433 5.385826771653542)" d="M 0 0m 7.937008 0 c -4.3795137 0 -7.937008 2.0328536 -7.937008 4.5354333 c 0 2.5025792 3.557494 4.5354333 7.937008 4.5354333 c 4.3795137 0 7.937008 -2.032854 7.937008 -4.5354333 c 0 -2.5025797 -3.5574942 -4.5354333 -7.937008 -4.5354333 Z "/>
+                <path class="typst-shape" fill="#bcbcbc" fill-rule="nonzero" stroke="#000000" stroke-width="0.8" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 49.039370078740156 1.9842519685039388)" d="M 0 0m 6.2362204 0 c -3.4410465 0 -6.2362204 1.6516936 -6.2362204 3.6850393 c 0 2.033346 2.795174 3.6850393 6.2362204 3.6850393 c 3.4410467 0 6.2362204 -1.6516933 6.2362204 -3.6850393 c 0 -2.0333457 -2.7951736 -3.6850393 -6.2362204 -3.6850393 Z "/>
+            </g>
+        </g>
+    </g>
+</svg>

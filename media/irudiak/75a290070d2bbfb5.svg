@@ -1,0 +1,149 @@
+<svg class="typst-doc" viewBox="0 0 82.95748031496063 82.95748031496063" width="82.95748031496063pt" height="82.95748031496063pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:h5="http://www.w3.org/1999/xhtml">
+    <g>
+        <g class="typst-group" transform="matrix(1 0 0 1 1 1)">
+            <g>
+                <path class="typst-shape" fill="url(#g938004DC77549CAB51CC133571131C00)" fill-rule="nonzero" stroke="#1a4f8a" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" d="M 0 0m 40.47874 0 c -22.335522 0 -40.47874 18.143219 -40.47874 40.47874 c 0 22.335522 18.143219 40.47874 40.47874 40.47874 c 22.335522 0 40.47874 -18.143219 40.47874 -40.47874 c 0 -22.335522 -18.143219 -40.47874 -40.47874 -40.47874 Z "/>
+                <path class="typst-shape" fill="none" stroke="#c96f0a" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 17.26299212598425 7.381417322834647)" d="M 0 0v 66.19465 "/>
+                <path class="typst-shape" fill="none" stroke="#c96f0a" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 63.69448818897638 7.381417322834647)" d="M 0 0v 66.19465 "/>
+                <path class="typst-shape" fill="none" stroke="#c96f0a" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-dashoffset="0" stroke-dasharray="3 3" transform="matrix(1 0 0 1 17.26299212598425 66.67086614173228)" d="M 0 0m 23.215748 0 c -12.810078 0 -23.215748 3.0950198 -23.215748 6.9051967 c 0 3.8101773 10.40567 6.9051967 23.215748 6.9051967 c 12.810078 0 23.215748 -3.0950193 23.215748 -6.9051967 c 0 -3.8101768 -10.40567 -6.9051967 -23.215748 -6.9051967 Z "/>
+                <path class="typst-shape" fill="none" stroke="#c96f0a" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 17.26299212598425 0.4762204724409453)" d="M 0 0m 23.215748 0 c -12.810078 0 -23.215748 3.0950198 -23.215748 6.9051967 c 0 3.8101773 10.40567 6.9051967 23.215748 6.9051967 c 12.810078 0 23.215748 -3.0950193 23.215748 -6.9051967 c 0 -3.8101768 -10.40567 -6.9051967 -23.215748 -6.9051967 Z "/>
+                <path class="typst-shape" fill="none" stroke="#c96f0a" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 17.26299212598425 73.57606299212598)" d="M 0 0m 46.431496 0 c 0 3.8136349 -10.394043 6.9051967 -23.215748 6.9051967 c -12.821703 0 -23.215748 -3.0915618 -23.215748 -6.9051967 "/>
+            </g>
+        </g>
+    </g>
+    <defs id="gradients">
+        <radialGradient id="fDEB3ADEE480289122AF4B0D0A768B625" spreadMethod="pad" gradientUnits="userSpaceOnUse" cx="0.38" cy="0.34" r="0.62" fx="0.38" fy="0.34" fr="0">
+            <stop offset="0%" stop-color="#e4e4e4"/>
+            <stop offset="0.79%" stop-color="#e3e4e4"/>
+            <stop offset="1.57%" stop-color="#e3e3e3"/>
+            <stop offset="2.36%" stop-color="#e2e3e3"/>
+            <stop offset="3.15%" stop-color="#e1e2e3"/>
+            <stop offset="3.94%" stop-color="#e0e2e3"/>
+            <stop offset="4.72%" stop-color="#e0e1e3"/>
+            <stop offset="5.51%" stop-color="#dfe1e2"/>
+            <stop offset="6.3%" stop-color="#dee0e2"/>
+            <stop offset="7.09%" stop-color="#dee0e2"/>
+            <stop offset="7.87%" stop-color="#dddfe2"/>
+            <stop offset="8.66%" stop-color="#dcdfe1"/>
+            <stop offset="9.45%" stop-color="#dcdee1"/>
+            <stop offset="10.24%" stop-color="#dbdee1"/>
+            <stop offset="11.02%" stop-color="#dadde1"/>
+            <stop offset="11.81%" stop-color="#d9dde0"/>
+            <stop offset="12.6%" stop-color="#d9dce0"/>
+            <stop offset="13.39%" stop-color="#d8dce0"/>
+            <stop offset="14.17%" stop-color="#d7dbe0"/>
+            <stop offset="14.96%" stop-color="#d7dbdf"/>
+            <stop offset="15.75%" stop-color="#d6dadf"/>
+            <stop offset="16.54%" stop-color="#d5dadf"/>
+            <stop offset="17.32%" stop-color="#d5d9df"/>
+            <stop offset="18.11%" stop-color="#d4d9de"/>
+            <stop offset="18.9%" stop-color="#d3d8de"/>
+            <stop offset="19.69%" stop-color="#d2d8de"/>
+            <stop offset="20.47%" stop-color="#d2d7de"/>
+            <stop offset="21.26%" stop-color="#d1d7dd"/>
+            <stop offset="22.05%" stop-color="#d0d6dd"/>
+            <stop offset="22.83%" stop-color="#d0d6dd"/>
+            <stop offset="23.62%" stop-color="#cfd5dd"/>
+            <stop offset="24.41%" stop-color="#ced5dd"/>
+            <stop offset="25.2%" stop-color="#ced4dc"/>
+            <stop offset="25.98%" stop-color="#cdd4dc"/>
+            <stop offset="26.77%" stop-color="#ccd4dc"/>
+            <stop offset="27.56%" stop-color="#cbd3dc"/>
+            <stop offset="28.35%" stop-color="#cbd3db"/>
+            <stop offset="29.13%" stop-color="#cad2db"/>
+            <stop offset="29.92%" stop-color="#c9d2db"/>
+            <stop offset="30.71%" stop-color="#c9d1db"/>
+            <stop offset="31.5%" stop-color="#c8d1da"/>
+            <stop offset="32.28%" stop-color="#c7d0da"/>
+            <stop offset="33.07%" stop-color="#c7d0da"/>
+            <stop offset="33.86%" stop-color="#c6cfda"/>
+            <stop offset="34.65%" stop-color="#c5cfd9"/>
+            <stop offset="35.43%" stop-color="#c5ced9"/>
+            <stop offset="36.22%" stop-color="#c4ced9"/>
+            <stop offset="37.01%" stop-color="#c3cdd9"/>
+            <stop offset="37.8%" stop-color="#c2cdd8"/>
+            <stop offset="38.58%" stop-color="#c2ccd8"/>
+            <stop offset="39.37%" stop-color="#c1ccd8"/>
+            <stop offset="40.16%" stop-color="#c0cbd8"/>
+            <stop offset="40.94%" stop-color="#c0cbd7"/>
+            <stop offset="41.73%" stop-color="#bfcad7"/>
+            <stop offset="42.52%" stop-color="#becad7"/>
+            <stop offset="43.31%" stop-color="#bec9d7"/>
+            <stop offset="44.09%" stop-color="#bdc9d6"/>
+            <stop offset="44.88%" stop-color="#bcc8d6"/>
+            <stop offset="45.67%" stop-color="#bcc8d6"/>
+            <stop offset="46.46%" stop-color="#bbc7d6"/>
+            <stop offset="47.24%" stop-color="#bac7d5"/>
+            <stop offset="48.03%" stop-color="#b9c6d5"/>
+            <stop offset="48.82%" stop-color="#b9c6d5"/>
+            <stop offset="49.61%" stop-color="#b8c6d5"/>
+            <stop offset="50.39%" stop-color="#b7c5d4"/>
+            <stop offset="51.18%" stop-color="#b7c5d4"/>
+            <stop offset="51.97%" stop-color="#b6c4d4"/>
+            <stop offset="52.76%" stop-color="#b5c4d4"/>
+            <stop offset="53.54%" stop-color="#b5c3d3"/>
+            <stop offset="54.33%" stop-color="#b4c3d3"/>
+            <stop offset="55.12%" stop-color="#b3c2d3"/>
+            <stop offset="55.91%" stop-color="#b3c2d3"/>
+            <stop offset="56.69%" stop-color="#b2c1d2"/>
+            <stop offset="57.48%" stop-color="#b1c1d2"/>
+            <stop offset="58.27%" stop-color="#b1c0d2"/>
+            <stop offset="59.06%" stop-color="#b0c0d2"/>
+            <stop offset="59.84%" stop-color="#afbfd1"/>
+            <stop offset="60.63%" stop-color="#aebfd1"/>
+            <stop offset="61.42%" stop-color="#aebed1"/>
+            <stop offset="62.2%" stop-color="#adbed1"/>
+            <stop offset="62.99%" stop-color="#acbdd0"/>
+            <stop offset="63.78%" stop-color="#acbdd0"/>
+            <stop offset="64.57%" stop-color="#abbcd0"/>
+            <stop offset="65.35%" stop-color="#aabcd0"/>
+            <stop offset="66.14%" stop-color="#aabbcf"/>
+            <stop offset="66.93%" stop-color="#a9bbcf"/>
+            <stop offset="67.72%" stop-color="#a8bbcf"/>
+            <stop offset="68.5%" stop-color="#a8bacf"/>
+            <stop offset="69.29%" stop-color="#a7bace"/>
+            <stop offset="70.08%" stop-color="#a6b9ce"/>
+            <stop offset="70.87%" stop-color="#a6b9ce"/>
+            <stop offset="71.65%" stop-color="#a5b8ce"/>
+            <stop offset="72.44%" stop-color="#a4b8cd"/>
+            <stop offset="73.23%" stop-color="#a4b7cd"/>
+            <stop offset="74.02%" stop-color="#a3b7cd"/>
+            <stop offset="74.8%" stop-color="#a2b6cd"/>
+            <stop offset="75.59%" stop-color="#a1b6cc"/>
+            <stop offset="76.38%" stop-color="#a1b5cc"/>
+            <stop offset="77.17%" stop-color="#a0b5cc"/>
+            <stop offset="77.95%" stop-color="#9fb4cc"/>
+            <stop offset="78.74%" stop-color="#9fb4cb"/>
+            <stop offset="79.53%" stop-color="#9eb3cb"/>
+            <stop offset="80.31%" stop-color="#9db3cb"/>
+            <stop offset="81.1%" stop-color="#9db2cb"/>
+            <stop offset="81.89%" stop-color="#9cb2ca"/>
+            <stop offset="82.68%" stop-color="#9bb1ca"/>
+            <stop offset="83.46%" stop-color="#9bb1ca"/>
+            <stop offset="84.25%" stop-color="#9ab1ca"/>
+            <stop offset="85.04%" stop-color="#99b0c9"/>
+            <stop offset="85.83%" stop-color="#99b0c9"/>
+            <stop offset="86.61%" stop-color="#98afc9"/>
+            <stop offset="87.4%" stop-color="#97afc9"/>
+            <stop offset="88.19%" stop-color="#97aec8"/>
+            <stop offset="88.98%" stop-color="#96aec8"/>
+            <stop offset="89.76%" stop-color="#95adc8"/>
+            <stop offset="90.55%" stop-color="#95adc8"/>
+            <stop offset="91.34%" stop-color="#94acc7"/>
+            <stop offset="92.13%" stop-color="#93acc7"/>
+            <stop offset="92.91%" stop-color="#93abc7"/>
+            <stop offset="93.7%" stop-color="#92abc7"/>
+            <stop offset="94.49%" stop-color="#91aac6"/>
+            <stop offset="95.28%" stop-color="#91aac6"/>
+            <stop offset="96.06%" stop-color="#90a9c6"/>
+            <stop offset="96.85%" stop-color="#8fa9c6"/>
+            <stop offset="97.64%" stop-color="#8fa8c5"/>
+            <stop offset="98.43%" stop-color="#8ea8c5"/>
+            <stop offset="99.21%" stop-color="#8da7c5"/>
+            <stop offset="100%" stop-color="#8ca7c5"/>
+        </radialGradient>
+    </defs>
+    <defs id="gradient-refs">
+        <radialGradient gradientTransform="matrix(80.95748031496063 0 0 80.95748031496063 0 0)" id="g938004DC77549CAB51CC133571131C00" href="#fDEB3ADEE480289122AF4B0D0A768B625" xlink:href="#fDEB3ADEE480289122AF4B0D0A768B625"/>
+    </defs>
+</svg>

@@ -1,0 +1,7 @@
+/* Copiado sin cambios de lab_iesmdb (editables_lab_iesmdb/web/js/store.js, 19-10-2026) */
+"use strict";
+/* Almacenamiento seguro en el navegador (envuelto en try/catch). */
+const store = {
+  get(k, d){ try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+  set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+};
